@@ -10,6 +10,7 @@ StdOutHandle equ -11
 include macros/x64calling.inc
 include macros/x64macros.inc
 include include/kernel32.inc
+include structdefs.asm
 ; include include/fileextd.inc
 
 ;----------[types]---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -24,12 +25,20 @@ vec3 ends
 ;----------[macros]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ;----------[const section]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CS_CLASSDC equ 0040h
+CS_OWNDC equ 0020h
+CS_HREDRAW equ 0002h
+CS_VREDRAW equ 0001h
+
 .const
 outputmessage byte 'hello, world!'
               byte 0ah, 0dh
               byte 'from masm64!'
               byte 0ah, 0dh
 outputmessagelength equ $ - outputmessage
+
+window_class_title byte "MASM64HandmadeWindowClass", 0Ah, 0dh
+window_class_title_length equ $ - window_class_title 
 
 ;----------[data section]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
@@ -40,8 +49,14 @@ phrase byte "This is a phrase", 0Ah, 0dh
 phraselength equ $ - phrase 
 hInstance qword ?
 nShowCmd sdword 10
+wndclass WNDCLASSEXA <>
+style word ?
 ;----------[code section]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .code
+WindowProc proc
+    ret
+WindowProc endp
+
 main proc
     ;-----[print hello]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ; print something to the console using writefile then write to std out.             
@@ -63,9 +78,21 @@ main proc
     call WriteFile                           ; print
     add rsp, 40                             ; balance the stack
 
-    ; xor rcx, rcx
-    ; call GetModuleHandleA
-    ; mov hInstance, rax
+    xor rcx, rcx
+    call GetModuleHandleA
+    mov hInstance, rax
+
+    xor cx, cx
+    mov cx, CS_OWNDC
+    or cx, CS_HREDRAW
+    or cx, CS_VREDRAW
+    mov wndclass.WNDCLASSEXA.dwStyle, CS_OWNDC
+    lea rcx, WindowProc
+    mov wndclass.WNDCLASSEXA.lpfnWndProc, rcx
+    lea rcx, hInstance
+    mov wndclass.WNDCLASSEXA.hInst, rcx
+    lea rcx, window_class_title
+    mov wndclass.WNDCLASSEXA.lpszClassName, rcx
 
     ;-----[terminate program]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ; these instructions show how to cleanly exit the program.                          
