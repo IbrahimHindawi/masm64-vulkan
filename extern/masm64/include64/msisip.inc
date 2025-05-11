@@ -1,0 +1,23 @@
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_MsiSIPCreateIndirectData:PPROC
+MsiSIPCreateIndirectData equ <__imp_MsiSIPCreateIndirectData>
+
+externdef __imp_MsiSIPGetSignedDataMsg:PPROC
+MsiSIPGetSignedDataMsg equ <__imp_MsiSIPGetSignedDataMsg>
+
+externdef __imp_MsiSIPIsMyTypeOfFile:PPROC
+MsiSIPIsMyTypeOfFile equ <__imp_MsiSIPIsMyTypeOfFile>
+
+externdef __imp_MsiSIPPutSignedDataMsg:PPROC
+MsiSIPPutSignedDataMsg equ <__imp_MsiSIPPutSignedDataMsg>
+
+externdef __imp_MsiSIPRemoveSignedDataMsg:PPROC
+MsiSIPRemoveSignedDataMsg equ <__imp_MsiSIPRemoveSignedDataMsg>
+
+externdef __imp_MsiSIPVerifyIndirectData:PPROC
+MsiSIPVerifyIndirectData equ <__imp_MsiSIPVerifyIndirectData>

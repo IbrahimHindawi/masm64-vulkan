@@ -1,0 +1,5 @@
+externdef __imp_BatteryClassCoInstaller:PPROC
+BatteryClassCoInstaller equ <__imp_BatteryClassCoInstaller>
+
+externdef __imp_BatteryClassInstall:PPROC
+BatteryClassInstall equ <__imp_BatteryClassInstall>

@@ -1,0 +1,221 @@
+externdef __imp_ClosePrintProcessor:PPROC
+ClosePrintProcessor equ <__imp_ClosePrintProcessor>
+
+externdef __imp_ControlPrintProcessor:PPROC
+ControlPrintProcessor equ <__imp_ControlPrintProcessor>
+
+externdef __imp_DllMain:PPROC
+DllMain equ <__imp_DllMain>
+
+externdef __imp_EnumPrintProcessorDatatypesW:PPROC
+EnumPrintProcessorDatatypesW equ <__imp_EnumPrintProcessorDatatypesW>
+  IFDEF __UNICODE__
+    EnumPrintProcessorDatatypes equ <__imp_EnumPrintProcessorDatatypesW>
+  ENDIF
+
+externdef __imp_GetPrintProcessorCapabilities:PPROC
+GetPrintProcessorCapabilities equ <__imp_GetPrintProcessorCapabilities>
+
+externdef __imp_InitializePrintMonitor:PPROC
+InitializePrintMonitor equ <__imp_InitializePrintMonitor>
+
+externdef __imp_InitializePrintProvidor:PPROC
+InitializePrintProvidor equ <__imp_InitializePrintProvidor>
+
+externdef __imp_LclIsSessionZero:PPROC
+LclIsSessionZero equ <__imp_LclIsSessionZero>
+
+externdef __imp_LclPromptUIPerSessionUser:PPROC
+LclPromptUIPerSessionUser equ <__imp_LclPromptUIPerSessionUser>
+
+externdef __imp_OpenPrintProcessor:PPROC
+OpenPrintProcessor equ <__imp_OpenPrintProcessor>
+
+externdef __imp_PrintDocumentOnPrintProcessor:PPROC
+PrintDocumentOnPrintProcessor equ <__imp_PrintDocumentOnPrintProcessor>
+
+externdef __imp_PrintProcLogEvent:PPROC
+PrintProcLogEvent equ <__imp_PrintProcLogEvent>
+
+externdef __imp_SplAddForm:PPROC
+SplAddForm equ <__imp_SplAddForm>
+
+externdef __imp_SplAddMonitor:PPROC
+SplAddMonitor equ <__imp_SplAddMonitor>
+
+externdef __imp_SplAddPort:PPROC
+SplAddPort equ <__imp_SplAddPort>
+
+externdef __imp_SplAddPortEx:PPROC
+SplAddPortEx equ <__imp_SplAddPortEx>
+
+externdef __imp_SplAddPrintProcessor:PPROC
+SplAddPrintProcessor equ <__imp_SplAddPrintProcessor>
+
+externdef __imp_SplAddPrinter:PPROC
+SplAddPrinter equ <__imp_SplAddPrinter>
+
+externdef __imp_SplAddPrinterDriverEx:PPROC
+SplAddPrinterDriverEx equ <__imp_SplAddPrinterDriverEx>
+
+externdef __imp_SplBroadcastChange:PPROC
+SplBroadcastChange equ <__imp_SplBroadcastChange>
+
+externdef __imp_SplClosePrinter:PPROC
+SplClosePrinter equ <__imp_SplClosePrinter>
+
+externdef __imp_SplCloseSpooler:PPROC
+SplCloseSpooler equ <__imp_SplCloseSpooler>
+
+externdef __imp_SplConfigChange:PPROC
+SplConfigChange equ <__imp_SplConfigChange>
+
+externdef __imp_SplCopyFileEvent:PPROC
+SplCopyFileEvent equ <__imp_SplCopyFileEvent>
+
+externdef __imp_SplCopyNumberOfFiles:PPROC
+SplCopyNumberOfFiles equ <__imp_SplCopyNumberOfFiles>
+
+externdef __imp_SplCreateSpooler:PPROC
+SplCreateSpooler equ <__imp_SplCreateSpooler>
+
+externdef __imp_SplDeleteForm:PPROC
+SplDeleteForm equ <__imp_SplDeleteForm>
+
+externdef __imp_SplDeleteMonitor:PPROC
+SplDeleteMonitor equ <__imp_SplDeleteMonitor>
+
+externdef __imp_SplDeletePort:PPROC
+SplDeletePort equ <__imp_SplDeletePort>
+
+externdef __imp_SplDeletePrintProcCacheData:PPROC
+SplDeletePrintProcCacheData equ <__imp_SplDeletePrintProcCacheData>
+
+externdef __imp_SplDeletePrintProcessor:PPROC
+SplDeletePrintProcessor equ <__imp_SplDeletePrintProcessor>
+
+externdef __imp_SplDeletePrinter:PPROC
+SplDeletePrinter equ <__imp_SplDeletePrinter>
+
+externdef __imp_SplDeletePrinterDriverEx:PPROC
+SplDeletePrinterDriverEx equ <__imp_SplDeletePrinterDriverEx>
+
+externdef __imp_SplDeletePrinterKey:PPROC
+SplDeletePrinterKey equ <__imp_SplDeletePrinterKey>
+
+externdef __imp_SplDeleteSpooler:PPROC
+SplDeleteSpooler equ <__imp_SplDeleteSpooler>
+
+externdef __imp_SplDriverEvent:PPROC
+SplDriverEvent equ <__imp_SplDriverEvent>
+
+externdef __imp_SplEnumForms:PPROC
+SplEnumForms equ <__imp_SplEnumForms>
+
+externdef __imp_SplEnumMonitors:PPROC
+SplEnumMonitors equ <__imp_SplEnumMonitors>
+
+externdef __imp_SplEnumPorts:PPROC
+SplEnumPorts equ <__imp_SplEnumPorts>
+
+externdef __imp_SplEnumPrintProcCacheData:PPROC
+SplEnumPrintProcCacheData equ <__imp_SplEnumPrintProcCacheData>
+
+externdef __imp_SplEnumPrintProcessorDatatypes:PPROC
+SplEnumPrintProcessorDatatypes equ <__imp_SplEnumPrintProcessorDatatypes>
+
+externdef __imp_SplEnumPrintProcessors:PPROC
+SplEnumPrintProcessors equ <__imp_SplEnumPrintProcessors>
+
+externdef __imp_SplEnumPrinterDataEx:PPROC
+SplEnumPrinterDataEx equ <__imp_SplEnumPrinterDataEx>
+
+externdef __imp_SplEnumPrinterKey:PPROC
+SplEnumPrinterKey equ <__imp_SplEnumPrinterKey>
+
+externdef __imp_SplEnumPrinters:PPROC
+SplEnumPrinters equ <__imp_SplEnumPrinters>
+
+externdef __imp_SplGetDriverDir:PPROC
+SplGetDriverDir equ <__imp_SplGetDriverDir>
+
+externdef __imp_SplGetForm:PPROC
+SplGetForm equ <__imp_SplGetForm>
+
+externdef __imp_SplGetPrintProcCacheData:PPROC
+SplGetPrintProcCacheData equ <__imp_SplGetPrintProcCacheData>
+
+externdef __imp_SplGetPrintProcessorDirectory:PPROC
+SplGetPrintProcessorDirectory equ <__imp_SplGetPrintProcessorDirectory>
+
+externdef __imp_SplGetPrinter:PPROC
+SplGetPrinter equ <__imp_SplGetPrinter>
+
+externdef __imp_SplGetPrinterData:PPROC
+SplGetPrinterData equ <__imp_SplGetPrinterData>
+
+externdef __imp_SplGetPrinterDataEx:PPROC
+SplGetPrinterDataEx equ <__imp_SplGetPrinterDataEx>
+
+externdef __imp_SplGetPrinterDriver:PPROC
+SplGetPrinterDriver equ <__imp_SplGetPrinterDriver>
+
+externdef __imp_SplGetPrinterDriverDirectory:PPROC
+SplGetPrinterDriverDirectory equ <__imp_SplGetPrinterDriverDirectory>
+
+externdef __imp_SplGetPrinterDriverEx:PPROC
+SplGetPrinterDriverEx equ <__imp_SplGetPrinterDriverEx>
+
+externdef __imp_SplGetPrinterExtra:PPROC
+SplGetPrinterExtra equ <__imp_SplGetPrinterExtra>
+
+externdef __imp_SplGetPrinterExtraEx:PPROC
+SplGetPrinterExtraEx equ <__imp_SplGetPrinterExtraEx>
+
+externdef __imp_SplLoadLibraryTheCopyFileModule:PPROC
+SplLoadLibraryTheCopyFileModule equ <__imp_SplLoadLibraryTheCopyFileModule>
+
+externdef __imp_SplLogEventExternal:PPROC
+SplLogEventExternal equ <__imp_SplLogEventExternal>
+
+externdef __imp_SplLogWmiTraceEventExternal:PPROC
+SplLogWmiTraceEventExternal equ <__imp_SplLogWmiTraceEventExternal>
+
+externdef __imp_SplMonitorIsInstalled:PPROC
+SplMonitorIsInstalled equ <__imp_SplMonitorIsInstalled>
+
+externdef __imp_SplOpenPrinter:PPROC
+SplOpenPrinter equ <__imp_SplOpenPrinter>
+
+externdef __imp_SplPowerEvent:PPROC
+SplPowerEvent equ <__imp_SplPowerEvent>
+
+externdef __imp_SplReenumeratePorts:PPROC
+SplReenumeratePorts equ <__imp_SplReenumeratePorts>
+
+externdef __imp_SplResetPrinter:PPROC
+SplResetPrinter equ <__imp_SplResetPrinter>
+
+externdef __imp_SplSetForm:PPROC
+SplSetForm equ <__imp_SplSetForm>
+
+externdef __imp_SplSetPrintProcCacheData:PPROC
+SplSetPrintProcCacheData equ <__imp_SplSetPrintProcCacheData>
+
+externdef __imp_SplSetPrinter:PPROC
+SplSetPrinter equ <__imp_SplSetPrinter>
+
+externdef __imp_SplSetPrinterData:PPROC
+SplSetPrinterData equ <__imp_SplSetPrinterData>
+
+externdef __imp_SplSetPrinterDataEx:PPROC
+SplSetPrinterDataEx equ <__imp_SplSetPrinterDataEx>
+
+externdef __imp_SplSetPrinterExtra:PPROC
+SplSetPrinterExtra equ <__imp_SplSetPrinterExtra>
+
+externdef __imp_SplSetPrinterExtraEx:PPROC
+SplSetPrinterExtraEx equ <__imp_SplSetPrinterExtraEx>
+
+externdef __imp_SplXcvData:PPROC
+SplXcvData equ <__imp_SplXcvData>

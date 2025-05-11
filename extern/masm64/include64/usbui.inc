@@ -1,0 +1,23 @@
+externdef __imp_CPlApplet:PPROC
+CPlApplet equ <__imp_CPlApplet>
+
+externdef __imp_USBControllerBandwidthPage:PPROC
+USBControllerBandwidthPage equ <__imp_USBControllerBandwidthPage>
+
+externdef __imp_USBControllerPropPageProvider:PPROC
+USBControllerPropPageProvider equ <__imp_USBControllerPropPageProvider>
+
+externdef __imp_USBDevicePropPageProvider:PPROC
+USBDevicePropPageProvider equ <__imp_USBDevicePropPageProvider>
+
+externdef __imp_USBErrorHandler:PPROC
+USBErrorHandler equ <__imp_USBErrorHandler>
+
+externdef __imp_USBHubPowerPage:PPROC
+USBHubPowerPage equ <__imp_USBHubPowerPage>
+
+externdef __imp_USBHubPropPageProvider:PPROC
+USBHubPropPageProvider equ <__imp_USBHubPropPageProvider>
+
+externdef __imp_UsbControlPanelApplet:PPROC
+UsbControlPanelApplet equ <__imp_UsbControlPanelApplet>

@@ -1,0 +1,17 @@
+externdef __imp_DSCreateISecurityInfoObject:PPROC
+DSCreateISecurityInfoObject equ <__imp_DSCreateISecurityInfoObject>
+
+externdef __imp_DSCreateISecurityInfoObjectEx:PPROC
+DSCreateISecurityInfoObjectEx equ <__imp_DSCreateISecurityInfoObjectEx>
+
+externdef __imp_DSCreateSecurityPage:PPROC
+DSCreateSecurityPage equ <__imp_DSCreateSecurityPage>
+
+externdef __imp_DSEditSecurity:PPROC
+DSEditSecurity equ <__imp_DSEditSecurity>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>

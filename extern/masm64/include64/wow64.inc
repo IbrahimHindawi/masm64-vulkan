@@ -1,0 +1,71 @@
+externdef __imp_Wow64AllocateHeap:PPROC
+Wow64AllocateHeap equ <__imp_Wow64AllocateHeap>
+
+externdef __imp_Wow64AllocateTemp:PPROC
+Wow64AllocateTemp equ <__imp_Wow64AllocateTemp>
+
+externdef __imp_Wow64ApcRoutine:PPROC
+Wow64ApcRoutine equ <__imp_Wow64ApcRoutine>
+
+externdef __imp_Wow64Assert:PPROC
+Wow64Assert equ <__imp_Wow64Assert>
+
+externdef __imp_Wow64CheckIfNXEnabled:PPROC
+Wow64CheckIfNXEnabled equ <__imp_Wow64CheckIfNXEnabled>
+
+externdef __imp_Wow64EmulateAtlThunk:PPROC
+Wow64EmulateAtlThunk equ <__imp_Wow64EmulateAtlThunk>
+
+externdef __imp_Wow64ExecuteFlags:PPROC
+Wow64ExecuteFlags equ <__imp_Wow64ExecuteFlags>
+
+externdef __imp_Wow64FreeHeap:PPROC
+Wow64FreeHeap equ <__imp_Wow64FreeHeap>
+
+externdef __imp_Wow64GetWow64ImageOption:PPROC
+Wow64GetWow64ImageOption equ <__imp_Wow64GetWow64ImageOption>
+
+externdef __imp_Wow64KiUserCallbackDispatcher:PPROC
+Wow64KiUserCallbackDispatcher equ <__imp_Wow64KiUserCallbackDispatcher>
+
+externdef __imp_Wow64LdrpInitialize:PPROC
+Wow64LdrpInitialize equ <__imp_Wow64LdrpInitialize>
+
+externdef __imp_Wow64LogPrint:PPROC
+Wow64LogPrint equ <__imp_Wow64LogPrint>
+
+externdef __imp_Wow64OpenConfigKey:PPROC
+Wow64OpenConfigKey equ <__imp_Wow64OpenConfigKey>
+
+externdef __imp_Wow64PrepareForDebuggerAttach:PPROC
+Wow64PrepareForDebuggerAttach equ <__imp_Wow64PrepareForDebuggerAttach>
+
+externdef __imp_Wow64PrepareForException:PPROC
+Wow64PrepareForException equ <__imp_Wow64PrepareForException>
+
+externdef __imp_Wow64RaiseException:PPROC
+Wow64RaiseException equ <__imp_Wow64RaiseException>
+
+externdef __imp_Wow64ShallowThunkAllocObjectAttributes32TO64_FNC:PPROC
+Wow64ShallowThunkAllocObjectAttributes32TO64_FNC equ <__imp_Wow64ShallowThunkAllocObjectAttributes32TO64_FNC>
+
+externdef __imp_Wow64ShallowThunkAllocSecurityQualityOfService32TO64_FNC:PPROC
+Wow64ShallowThunkAllocSecurityQualityOfService32TO64_FNC equ <__imp_Wow64ShallowThunkAllocSecurityQualityOfService32TO64_FNC>
+
+externdef __imp_Wow64ShallowThunkSIZE_T32TO64:PPROC
+Wow64ShallowThunkSIZE_T32TO64 equ <__imp_Wow64ShallowThunkSIZE_T32TO64>
+
+externdef __imp_Wow64ShallowThunkSIZE_T64TO32:PPROC
+Wow64ShallowThunkSIZE_T64TO32 equ <__imp_Wow64ShallowThunkSIZE_T64TO32>
+
+externdef __imp_Wow64StartupContextToContextX86:PPROC
+Wow64StartupContextToContextX86 equ <__imp_Wow64StartupContextToContextX86>
+
+externdef __imp_Wow64SystemService:PPROC
+Wow64SystemService equ <__imp_Wow64SystemService>
+
+externdef __imp_Wow64SystemServiceEx:PPROC
+Wow64SystemServiceEx equ <__imp_Wow64SystemServiceEx>
+
+externdef __imp_pfnWow64PerfMonitorCall:PPROC
+pfnWow64PerfMonitorCall equ <__imp_pfnWow64PerfMonitorCall>

@@ -1,0 +1,41 @@
+externdef __imp_RasAdminCompressPhoneNumber:PPROC
+RasAdminCompressPhoneNumber equ <__imp_RasAdminCompressPhoneNumber>
+
+externdef __imp_RasAdminDLLInit:PPROC
+RasAdminDLLInit equ <__imp_RasAdminDLLInit>
+
+externdef __imp_RasAdminFreeBuffer:PPROC
+RasAdminFreeBuffer equ <__imp_RasAdminFreeBuffer>
+
+externdef __imp_RasAdminGetErrorString:PPROC
+RasAdminGetErrorString equ <__imp_RasAdminGetErrorString>
+
+externdef __imp_RasAdminGetUserAccountServer:PPROC
+RasAdminGetUserAccountServer equ <__imp_RasAdminGetUserAccountServer>
+
+externdef __imp_RasAdminGetUserParms:PPROC
+RasAdminGetUserParms equ <__imp_RasAdminGetUserParms>
+
+externdef __imp_RasAdminPortClearStatistics:PPROC
+RasAdminPortClearStatistics equ <__imp_RasAdminPortClearStatistics>
+
+externdef __imp_RasAdminPortDisconnect:PPROC
+RasAdminPortDisconnect equ <__imp_RasAdminPortDisconnect>
+
+externdef __imp_RasAdminPortEnum:PPROC
+RasAdminPortEnum equ <__imp_RasAdminPortEnum>
+
+externdef __imp_RasAdminPortGetInfo:PPROC
+RasAdminPortGetInfo equ <__imp_RasAdminPortGetInfo>
+
+externdef __imp_RasAdminServerGetInfo:PPROC
+RasAdminServerGetInfo equ <__imp_RasAdminServerGetInfo>
+
+externdef __imp_RasAdminSetUserParms:PPROC
+RasAdminSetUserParms equ <__imp_RasAdminSetUserParms>
+
+externdef __imp_RasAdminUserGetInfo:PPROC
+RasAdminUserGetInfo equ <__imp_RasAdminUserGetInfo>
+
+externdef __imp_RasAdminUserSetInfo:PPROC
+RasAdminUserSetInfo equ <__imp_RasAdminUserSetInfo>

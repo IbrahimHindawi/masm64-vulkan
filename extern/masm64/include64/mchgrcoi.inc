@@ -1,0 +1,2 @@
+externdef __imp_MchgrClassCoInstaller:PPROC
+MchgrClassCoInstaller equ <__imp_MchgrClassCoInstaller>

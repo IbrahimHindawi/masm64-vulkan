@@ -1,0 +1,5 @@
+externdef __imp_amdpcom64_ordinal2007:PPROC
+amdpcom64_ordinal2007 equ <__imp_amdpcom64_ordinal2007>
+
+externdef __imp_amdpcom64_ordinal2008:PPROC
+amdpcom64_ordinal2008 equ <__imp_amdpcom64_ordinal2008>

@@ -1,0 +1,8 @@
+externdef __imp_ClosePschedPerformanceData:PPROC
+ClosePschedPerformanceData equ <__imp_ClosePschedPerformanceData>
+
+externdef __imp_CollectPschedPerformanceData:PPROC
+CollectPschedPerformanceData equ <__imp_CollectPschedPerformanceData>
+
+externdef __imp_OpenPschedPerformanceData:PPROC
+OpenPschedPerformanceData equ <__imp_OpenPschedPerformanceData>

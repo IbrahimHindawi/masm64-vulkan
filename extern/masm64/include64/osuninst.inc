@@ -1,0 +1,14 @@
+externdef __imp_ExecuteUninstall:PPROC
+ExecuteUninstall equ <__imp_ExecuteUninstall>
+
+externdef __imp_GetUninstallImageSize:PPROC
+GetUninstallImageSize equ <__imp_GetUninstallImageSize>
+
+externdef __imp_IsUninstallImageValid:PPROC
+IsUninstallImageValid equ <__imp_IsUninstallImageValid>
+
+externdef __imp_ProvideUiAlerts:PPROC
+ProvideUiAlerts equ <__imp_ProvideUiAlerts>
+
+externdef __imp_RemoveUninstallImage:PPROC
+RemoveUninstallImage equ <__imp_RemoveUninstallImage>

@@ -1,0 +1,623 @@
+externdef __imp_AddFilterRunOnceExRegistrationToRegistry:PPROC
+AddFilterRunOnceExRegistrationToRegistry equ <__imp_AddFilterRunOnceExRegistrationToRegistry>
+
+externdef __imp_AddInfToList:PPROC
+AddInfToList equ <__imp_AddInfToList>
+
+externdef __imp_AppRegEnum:PPROC
+AppRegEnum equ <__imp_AppRegEnum>
+
+externdef __imp_ApplyMillenCat:PPROC
+ApplyMillenCat equ <__imp_ApplyMillenCat>
+
+externdef __imp_ApplyW2KXPak:PPROC
+ApplyW2KXPak equ <__imp_ApplyW2KXPak>
+
+externdef __imp_BackupCatalog:PPROC
+BackupCatalog equ <__imp_BackupCatalog>
+
+externdef __imp_BackupRegKey:PPROC
+BackupRegKey equ <__imp_BackupRegKey>
+
+externdef __imp_CalculateRequiredDriveSpace:PPROC
+CalculateRequiredDriveSpace equ <__imp_CalculateRequiredDriveSpace>
+
+externdef __imp_CloseAppRegEnum:PPROC
+CloseAppRegEnum equ <__imp_CloseAppRegEnum>
+
+externdef __imp_CloseDriveSpaceList:PPROC
+CloseDriveSpaceList equ <__imp_CloseDriveSpaceList>
+
+externdef __imp_ClosePendingRenameList:PPROC
+ClosePendingRenameList equ <__imp_ClosePendingRenameList>
+
+externdef __imp_CloseProcessDisplayNames:PPROC
+CloseProcessDisplayNames equ <__imp_CloseProcessDisplayNames>
+
+externdef __imp_CloseProcessInfo:PPROC
+CloseProcessInfo equ <__imp_CloseProcessInfo>
+
+externdef __imp_CloseProcessList:PPROC
+CloseProcessList equ <__imp_CloseProcessList>
+
+externdef __imp_CompareVersionData:PPROC
+CompareVersionData equ <__imp_CompareVersionData>
+
+externdef __imp_CompareVersionDataEx:PPROC
+CompareVersionDataEx equ <__imp_CompareVersionDataEx>
+
+externdef __imp_CreateInfList:PPROC
+CreateInfList equ <__imp_CreateInfList>
+
+externdef __imp_CreateRegKeyBackupList:PPROC
+CreateRegKeyBackupList equ <__imp_CreateRegKeyBackupList>
+
+externdef __imp_DLListAddNode:PPROC
+DLListAddNode equ <__imp_DLListAddNode>
+
+externdef __imp_DLListCreate:PPROC
+DLListCreate equ <__imp_DLListCreate>
+
+externdef __imp_DLListDestroy:PPROC
+DLListDestroy equ <__imp_DLListDestroy>
+
+externdef __imp_DLListGetData:PPROC
+DLListGetData equ <__imp_DLListGetData>
+
+externdef __imp_DLListGetHead:PPROC
+DLListGetHead equ <__imp_DLListGetHead>
+
+externdef __imp_DLListGetNext:PPROC
+DLListGetNext equ <__imp_DLListGetNext>
+
+externdef __imp_DLListGetPrev:PPROC
+DLListGetPrev equ <__imp_DLListGetPrev>
+
+externdef __imp_DLListRemoveNode:PPROC
+DLListRemoveNode equ <__imp_DLListRemoveNode>
+
+externdef __imp_DLListSetData:PPROC
+DLListSetData equ <__imp_DLListSetData>
+
+externdef __imp_DestroyInfList:PPROC
+DestroyInfList equ <__imp_DestroyInfList>
+
+externdef __imp_DestroyRegKeyBackupList:PPROC
+DestroyRegKeyBackupList equ <__imp_DestroyRegKeyBackupList>
+
+externdef __imp_DisableDebugPrivileges:PPROC
+DisableDebugPrivileges equ <__imp_DisableDebugPrivileges>
+
+externdef __imp_DisableNTPrivilege:PPROC
+DisableNTPrivilege equ <__imp_DisableNTPrivilege>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_DoesFileExist:PPROC
+DoesFileExist equ <__imp_DoesFileExist>
+
+externdef __imp_EnableDebugPrivileges:PPROC
+EnableDebugPrivileges equ <__imp_EnableDebugPrivileges>
+
+externdef __imp_EnableNTPrivilege:PPROC
+EnableNTPrivilege equ <__imp_EnableNTPrivilege>
+
+externdef __imp_EnumerateProcesses:PPROC
+EnumerateProcesses equ <__imp_EnumerateProcesses>
+
+externdef __imp_ExecuteAction:PPROC
+ExecuteAction equ <__imp_ExecuteAction>
+
+externdef __imp_ExpandPath:PPROC
+ExpandPath equ <__imp_ExpandPath>
+
+externdef __imp_FilterRunOnceExRegistration:PPROC
+FilterRunOnceExRegistration equ <__imp_FilterRunOnceExRegistration>
+
+externdef __imp_GetPathFromID:PPROC
+GetPathFromID equ <__imp_GetPathFromID>
+
+externdef __imp_GetProcessListFromFileList:PPROC
+GetProcessListFromFileList equ <__imp_GetProcessListFromFileList>
+
+externdef __imp_GetProgramFilesCommonFilesDirectory:PPROC
+GetProgramFilesCommonFilesDirectory equ <__imp_GetProgramFilesCommonFilesDirectory>
+
+externdef __imp_GetProgramFilesDirectory:PPROC
+GetProgramFilesDirectory equ <__imp_GetProgramFilesDirectory>
+
+externdef __imp_IsExceptionInf:PPROC
+IsExceptionInf equ <__imp_IsExceptionInf>
+
+externdef __imp_IsExceptionInfEx:PPROC
+IsExceptionInfEx equ <__imp_IsExceptionInfEx>
+
+externdef __imp_IsFileLocked:PPROC
+IsFileLocked equ <__imp_IsFileLocked>
+
+externdef __imp_IsModuleLoadedByProcess:PPROC
+IsModuleLoadedByProcess equ <__imp_IsModuleLoadedByProcess>
+
+externdef __imp_IsModuleLoadedByProcessEx:PPROC
+IsModuleLoadedByProcessEx equ <__imp_IsModuleLoadedByProcessEx>
+
+externdef __imp_LoadRegKeyBackupFromFile:PPROC
+LoadRegKeyBackupFromFile equ <__imp_LoadRegKeyBackupFromFile>
+
+externdef __imp_LoadRegVersion:PPROC
+LoadRegVersion equ <__imp_LoadRegVersion>
+
+externdef __imp_LoadRegVersionEx:PPROC
+LoadRegVersionEx equ <__imp_LoadRegVersionEx>
+
+externdef __imp_LookupAppFriendlyName:PPROC
+LookupAppFriendlyName equ <__imp_LookupAppFriendlyName>
+
+externdef __imp_OpenAppRegEnum:PPROC
+OpenAppRegEnum equ <__imp_OpenAppRegEnum>
+
+externdef __imp_OpenDriveSpaceList:PPROC
+OpenDriveSpaceList equ <__imp_OpenDriveSpaceList>
+
+externdef __imp_OpenDriveSpaceListFromInfList:PPROC
+OpenDriveSpaceListFromInfList equ <__imp_OpenDriveSpaceListFromInfList>
+
+externdef __imp_OpenPendingRenameList:PPROC
+OpenPendingRenameList equ <__imp_OpenPendingRenameList>
+
+externdef __imp_OpenProcessDisplayNames:PPROC
+OpenProcessDisplayNames equ <__imp_OpenProcessDisplayNames>
+
+externdef __imp_OpenProcessInfo:PPROC
+OpenProcessInfo equ <__imp_OpenProcessInfo>
+
+externdef __imp_OpenProcessList:PPROC
+OpenProcessList equ <__imp_OpenProcessList>
+
+externdef __imp_ParseVersionDataFromString:PPROC
+ParseVersionDataFromString equ <__imp_ParseVersionDataFromString>
+
+externdef __imp_ParseVersionDataFromStringEx:PPROC
+ParseVersionDataFromStringEx equ <__imp_ParseVersionDataFromStringEx>
+
+externdef __imp_PopulateInfFileList:PPROC
+PopulateInfFileList equ <__imp_PopulateInfFileList>
+
+externdef __imp_QueryApplication:PPROC
+QueryApplication equ <__imp_QueryApplication>
+
+externdef __imp_RefreshAppRegEnum:PPROC
+RefreshAppRegEnum equ <__imp_RefreshAppRegEnum>
+
+externdef __imp_RegKeyBackup:PPROC
+RegKeyBackup equ <__imp_RegKeyBackup>
+
+externdef __imp_RegKeyRestore:PPROC
+RegKeyRestore equ <__imp_RegKeyRestore>
+
+externdef __imp_RegVersion:PPROC
+RegVersion equ <__imp_RegVersion>
+
+externdef __imp_RegVersionEx:PPROC
+RegVersionEx equ <__imp_RegVersionEx>
+
+externdef __imp_RegisterApplication:PPROC
+RegisterApplication equ <__imp_RegisterApplication>
+
+externdef __imp_RemoveFilterRunOnceExRegistrationFromRegistry:PPROC
+RemoveFilterRunOnceExRegistrationFromRegistry equ <__imp_RemoveFilterRunOnceExRegistrationFromRegistry>
+
+externdef __imp_RestoreCatalog:PPROC
+RestoreCatalog equ <__imp_RestoreCatalog>
+
+externdef __imp_RestoreRegKey:PPROC
+RestoreRegKey equ <__imp_RestoreRegKey>
+
+externdef __imp_RunDLL32_FilterRunOnceExRegistration:PPROC
+RunDLL32_FilterRunOnceExRegistration equ <__imp_RunDLL32_FilterRunOnceExRegistration>
+
+externdef __imp_RunDLL32_RegisterApplication:PPROC
+RunDLL32_RegisterApplication equ <__imp_RunDLL32_RegisterApplication>
+
+externdef __imp_RunDLL32_UnregisterApplication:PPROC
+RunDLL32_UnregisterApplication equ <__imp_RunDLL32_UnregisterApplication>
+
+externdef __imp_SLListAddNode:PPROC
+SLListAddNode equ <__imp_SLListAddNode>
+
+externdef __imp_SLListCreate:PPROC
+SLListCreate equ <__imp_SLListCreate>
+
+externdef __imp_SLListDestroy:PPROC
+SLListDestroy equ <__imp_SLListDestroy>
+
+externdef __imp_SLListGetData:PPROC
+SLListGetData equ <__imp_SLListGetData>
+
+externdef __imp_SLListGetHead:PPROC
+SLListGetHead equ <__imp_SLListGetHead>
+
+externdef __imp_SLListGetNext:PPROC
+SLListGetNext equ <__imp_SLListGetNext>
+
+externdef __imp_SLListRemoveNode:PPROC
+SLListRemoveNode equ <__imp_SLListRemoveNode>
+
+externdef __imp_SLListSetData:PPROC
+SLListSetData equ <__imp_SLListSetData>
+
+externdef __imp_SaveRegKeyBackupToFile:PPROC
+SaveRegKeyBackupToFile equ <__imp_SaveRegKeyBackupToFile>
+
+externdef __imp_SetActionEnum:PPROC
+SetActionEnum equ <__imp_SetActionEnum>
+
+externdef __imp_SetActionLogFile:PPROC
+SetActionLogFile equ <__imp_SetActionLogFile>
+
+externdef __imp_SetActionLogMode:PPROC
+SetActionLogMode equ <__imp_SetActionLogMode>
+
+externdef __imp_SetActionLogModeSz:PPROC
+SetActionLogModeSz equ <__imp_SetActionLogModeSz>
+
+externdef __imp_SetActionName:PPROC
+SetActionName equ <__imp_SetActionName>
+
+externdef __imp_SetSilent:PPROC
+SetSilent equ <__imp_SetSilent>
+
+externdef __imp_ShutdownProcess:PPROC
+ShutdownProcess equ <__imp_ShutdownProcess>
+
+externdef __imp_UnregW2KXPak:PPROC
+UnregW2KXPak equ <__imp_UnregW2KXPak>
+
+externdef __imp_UnregisterApplication:PPROC
+UnregisterApplication equ <__imp_UnregisterApplication>
+
+externdef __imp_odbcconf_ordinal102:PPROC
+odbcconf_ordinal102 equ <__imp_odbcconf_ordinal102>
+
+externdef __imp_odbcconf_ordinal103:PPROC
+odbcconf_ordinal103 equ <__imp_odbcconf_ordinal103>
+
+externdef __imp_odbcconf_ordinal104:PPROC
+odbcconf_ordinal104 equ <__imp_odbcconf_ordinal104>
+
+externdef __imp_odbcconf_ordinal106:PPROC
+odbcconf_ordinal106 equ <__imp_odbcconf_ordinal106>
+
+externdef __imp_odbcconf_ordinal107:PPROC
+odbcconf_ordinal107 equ <__imp_odbcconf_ordinal107>
+
+externdef __imp_odbcconf_ordinal108:PPROC
+odbcconf_ordinal108 equ <__imp_odbcconf_ordinal108>
+
+externdef __imp_odbcconf_ordinal109:PPROC
+odbcconf_ordinal109 equ <__imp_odbcconf_ordinal109>
+
+externdef __imp_odbcconf_ordinal112:PPROC
+odbcconf_ordinal112 equ <__imp_odbcconf_ordinal112>
+
+externdef __imp_odbcconf_ordinal113:PPROC
+odbcconf_ordinal113 equ <__imp_odbcconf_ordinal113>
+
+externdef __imp_odbcconf_ordinal114:PPROC
+odbcconf_ordinal114 equ <__imp_odbcconf_ordinal114>
+
+externdef __imp_odbcconf_ordinal116:PPROC
+odbcconf_ordinal116 equ <__imp_odbcconf_ordinal116>
+
+externdef __imp_odbcconf_ordinal117:PPROC
+odbcconf_ordinal117 equ <__imp_odbcconf_ordinal117>
+
+externdef __imp_odbcconf_ordinal118:PPROC
+odbcconf_ordinal118 equ <__imp_odbcconf_ordinal118>
+
+externdef __imp_odbcconf_ordinal119:PPROC
+odbcconf_ordinal119 equ <__imp_odbcconf_ordinal119>
+
+externdef __imp_odbcconf_ordinal127:PPROC
+odbcconf_ordinal127 equ <__imp_odbcconf_ordinal127>
+
+externdef __imp_odbcconf_ordinal128:PPROC
+odbcconf_ordinal128 equ <__imp_odbcconf_ordinal128>
+
+externdef __imp_odbcconf_ordinal129:PPROC
+odbcconf_ordinal129 equ <__imp_odbcconf_ordinal129>
+
+externdef __imp_odbcconf_ordinal134:PPROC
+odbcconf_ordinal134 equ <__imp_odbcconf_ordinal134>
+
+externdef __imp_odbcconf_ordinal135:PPROC
+odbcconf_ordinal135 equ <__imp_odbcconf_ordinal135>
+
+externdef __imp_odbcconf_ordinal136:PPROC
+odbcconf_ordinal136 equ <__imp_odbcconf_ordinal136>
+
+externdef __imp_odbcconf_ordinal137:PPROC
+odbcconf_ordinal137 equ <__imp_odbcconf_ordinal137>
+
+externdef __imp_odbcconf_ordinal138:PPROC
+odbcconf_ordinal138 equ <__imp_odbcconf_ordinal138>
+
+externdef __imp_odbcconf_ordinal139:PPROC
+odbcconf_ordinal139 equ <__imp_odbcconf_ordinal139>
+
+externdef __imp_odbcconf_ordinal144:PPROC
+odbcconf_ordinal144 equ <__imp_odbcconf_ordinal144>
+
+externdef __imp_odbcconf_ordinal145:PPROC
+odbcconf_ordinal145 equ <__imp_odbcconf_ordinal145>
+
+externdef __imp_odbcconf_ordinal146:PPROC
+odbcconf_ordinal146 equ <__imp_odbcconf_ordinal146>
+
+externdef __imp_odbcconf_ordinal147:PPROC
+odbcconf_ordinal147 equ <__imp_odbcconf_ordinal147>
+
+externdef __imp_odbcconf_ordinal148:PPROC
+odbcconf_ordinal148 equ <__imp_odbcconf_ordinal148>
+
+externdef __imp_odbcconf_ordinal149:PPROC
+odbcconf_ordinal149 equ <__imp_odbcconf_ordinal149>
+
+externdef __imp_odbcconf_ordinal156:PPROC
+odbcconf_ordinal156 equ <__imp_odbcconf_ordinal156>
+
+externdef __imp_odbcconf_ordinal157:PPROC
+odbcconf_ordinal157 equ <__imp_odbcconf_ordinal157>
+
+externdef __imp_odbcconf_ordinal158:PPROC
+odbcconf_ordinal158 equ <__imp_odbcconf_ordinal158>
+
+externdef __imp_odbcconf_ordinal159:PPROC
+odbcconf_ordinal159 equ <__imp_odbcconf_ordinal159>
+
+externdef __imp_odbcconf_ordinal162:PPROC
+odbcconf_ordinal162 equ <__imp_odbcconf_ordinal162>
+
+externdef __imp_odbcconf_ordinal163:PPROC
+odbcconf_ordinal163 equ <__imp_odbcconf_ordinal163>
+
+externdef __imp_odbcconf_ordinal164:PPROC
+odbcconf_ordinal164 equ <__imp_odbcconf_ordinal164>
+
+externdef __imp_odbcconf_ordinal165:PPROC
+odbcconf_ordinal165 equ <__imp_odbcconf_ordinal165>
+
+externdef __imp_odbcconf_ordinal166:PPROC
+odbcconf_ordinal166 equ <__imp_odbcconf_ordinal166>
+
+externdef __imp_odbcconf_ordinal167:PPROC
+odbcconf_ordinal167 equ <__imp_odbcconf_ordinal167>
+
+externdef __imp_odbcconf_ordinal168:PPROC
+odbcconf_ordinal168 equ <__imp_odbcconf_ordinal168>
+
+externdef __imp_odbcconf_ordinal169:PPROC
+odbcconf_ordinal169 equ <__imp_odbcconf_ordinal169>
+
+externdef __imp_odbcconf_ordinal172:PPROC
+odbcconf_ordinal172 equ <__imp_odbcconf_ordinal172>
+
+externdef __imp_odbcconf_ordinal173:PPROC
+odbcconf_ordinal173 equ <__imp_odbcconf_ordinal173>
+
+externdef __imp_odbcconf_ordinal174:PPROC
+odbcconf_ordinal174 equ <__imp_odbcconf_ordinal174>
+
+externdef __imp_odbcconf_ordinal179:PPROC
+odbcconf_ordinal179 equ <__imp_odbcconf_ordinal179>
+
+externdef __imp_odbcconf_ordinal180:PPROC
+odbcconf_ordinal180 equ <__imp_odbcconf_ordinal180>
+
+externdef __imp_odbcconf_ordinal181:PPROC
+odbcconf_ordinal181 equ <__imp_odbcconf_ordinal181>
+
+externdef __imp_odbcconf_ordinal182:PPROC
+odbcconf_ordinal182 equ <__imp_odbcconf_ordinal182>
+
+externdef __imp_odbcconf_ordinal183:PPROC
+odbcconf_ordinal183 equ <__imp_odbcconf_ordinal183>
+
+externdef __imp_odbcconf_ordinal184:PPROC
+odbcconf_ordinal184 equ <__imp_odbcconf_ordinal184>
+
+externdef __imp_odbcconf_ordinal185:PPROC
+odbcconf_ordinal185 equ <__imp_odbcconf_ordinal185>
+
+externdef __imp_odbcconf_ordinal186:PPROC
+odbcconf_ordinal186 equ <__imp_odbcconf_ordinal186>
+
+externdef __imp_odbcconf_ordinal187:PPROC
+odbcconf_ordinal187 equ <__imp_odbcconf_ordinal187>
+
+externdef __imp_odbcconf_ordinal188:PPROC
+odbcconf_ordinal188 equ <__imp_odbcconf_ordinal188>
+
+externdef __imp_odbcconf_ordinal189:PPROC
+odbcconf_ordinal189 equ <__imp_odbcconf_ordinal189>
+
+externdef __imp_odbcconf_ordinal190:PPROC
+odbcconf_ordinal190 equ <__imp_odbcconf_ordinal190>
+
+externdef __imp_odbcconf_ordinal191:PPROC
+odbcconf_ordinal191 equ <__imp_odbcconf_ordinal191>
+
+externdef __imp_odbcconf_ordinal192:PPROC
+odbcconf_ordinal192 equ <__imp_odbcconf_ordinal192>
+
+externdef __imp_odbcconf_ordinal193:PPROC
+odbcconf_ordinal193 equ <__imp_odbcconf_ordinal193>
+
+externdef __imp_odbcconf_ordinal194:PPROC
+odbcconf_ordinal194 equ <__imp_odbcconf_ordinal194>
+
+externdef __imp_odbcconf_ordinal195:PPROC
+odbcconf_ordinal195 equ <__imp_odbcconf_ordinal195>
+
+externdef __imp_odbcconf_ordinal196:PPROC
+odbcconf_ordinal196 equ <__imp_odbcconf_ordinal196>
+
+externdef __imp_odbcconf_ordinal197:PPROC
+odbcconf_ordinal197 equ <__imp_odbcconf_ordinal197>
+
+externdef __imp_odbcconf_ordinal198:PPROC
+odbcconf_ordinal198 equ <__imp_odbcconf_ordinal198>
+
+externdef __imp_odbcconf_ordinal199:PPROC
+odbcconf_ordinal199 equ <__imp_odbcconf_ordinal199>
+
+externdef __imp_odbcconf_ordinal202:PPROC
+odbcconf_ordinal202 equ <__imp_odbcconf_ordinal202>
+
+externdef __imp_odbcconf_ordinal203:PPROC
+odbcconf_ordinal203 equ <__imp_odbcconf_ordinal203>
+
+externdef __imp_odbcconf_ordinal204:PPROC
+odbcconf_ordinal204 equ <__imp_odbcconf_ordinal204>
+
+externdef __imp_odbcconf_ordinal39:PPROC
+odbcconf_ordinal39 equ <__imp_odbcconf_ordinal39>
+
+externdef __imp_odbcconf_ordinal49:PPROC
+odbcconf_ordinal49 equ <__imp_odbcconf_ordinal49>
+
+externdef __imp_odbcconf_ordinal50:PPROC
+odbcconf_ordinal50 equ <__imp_odbcconf_ordinal50>
+
+externdef __imp_odbcconf_ordinal51:PPROC
+odbcconf_ordinal51 equ <__imp_odbcconf_ordinal51>
+
+externdef __imp_odbcconf_ordinal52:PPROC
+odbcconf_ordinal52 equ <__imp_odbcconf_ordinal52>
+
+externdef __imp_odbcconf_ordinal53:PPROC
+odbcconf_ordinal53 equ <__imp_odbcconf_ordinal53>
+
+externdef __imp_odbcconf_ordinal54:PPROC
+odbcconf_ordinal54 equ <__imp_odbcconf_ordinal54>
+
+externdef __imp_odbcconf_ordinal55:PPROC
+odbcconf_ordinal55 equ <__imp_odbcconf_ordinal55>
+
+externdef __imp_odbcconf_ordinal56:PPROC
+odbcconf_ordinal56 equ <__imp_odbcconf_ordinal56>
+
+externdef __imp_odbcconf_ordinal57:PPROC
+odbcconf_ordinal57 equ <__imp_odbcconf_ordinal57>
+
+externdef __imp_odbcconf_ordinal58:PPROC
+odbcconf_ordinal58 equ <__imp_odbcconf_ordinal58>
+
+externdef __imp_odbcconf_ordinal59:PPROC
+odbcconf_ordinal59 equ <__imp_odbcconf_ordinal59>
+
+externdef __imp_odbcconf_ordinal60:PPROC
+odbcconf_ordinal60 equ <__imp_odbcconf_ordinal60>
+
+externdef __imp_odbcconf_ordinal61:PPROC
+odbcconf_ordinal61 equ <__imp_odbcconf_ordinal61>
+
+externdef __imp_odbcconf_ordinal62:PPROC
+odbcconf_ordinal62 equ <__imp_odbcconf_ordinal62>
+
+externdef __imp_odbcconf_ordinal63:PPROC
+odbcconf_ordinal63 equ <__imp_odbcconf_ordinal63>
+
+externdef __imp_odbcconf_ordinal64:PPROC
+odbcconf_ordinal64 equ <__imp_odbcconf_ordinal64>
+
+externdef __imp_odbcconf_ordinal65:PPROC
+odbcconf_ordinal65 equ <__imp_odbcconf_ordinal65>
+
+externdef __imp_odbcconf_ordinal66:PPROC
+odbcconf_ordinal66 equ <__imp_odbcconf_ordinal66>
+
+externdef __imp_odbcconf_ordinal67:PPROC
+odbcconf_ordinal67 equ <__imp_odbcconf_ordinal67>
+
+externdef __imp_odbcconf_ordinal68:PPROC
+odbcconf_ordinal68 equ <__imp_odbcconf_ordinal68>
+
+externdef __imp_odbcconf_ordinal69:PPROC
+odbcconf_ordinal69 equ <__imp_odbcconf_ordinal69>
+
+externdef __imp_odbcconf_ordinal72:PPROC
+odbcconf_ordinal72 equ <__imp_odbcconf_ordinal72>
+
+externdef __imp_odbcconf_ordinal73:PPROC
+odbcconf_ordinal73 equ <__imp_odbcconf_ordinal73>
+
+externdef __imp_odbcconf_ordinal74:PPROC
+odbcconf_ordinal74 equ <__imp_odbcconf_ordinal74>
+
+externdef __imp_odbcconf_ordinal75:PPROC
+odbcconf_ordinal75 equ <__imp_odbcconf_ordinal75>
+
+externdef __imp_odbcconf_ordinal76:PPROC
+odbcconf_ordinal76 equ <__imp_odbcconf_ordinal76>
+
+externdef __imp_odbcconf_ordinal77:PPROC
+odbcconf_ordinal77 equ <__imp_odbcconf_ordinal77>
+
+externdef __imp_odbcconf_ordinal78:PPROC
+odbcconf_ordinal78 equ <__imp_odbcconf_ordinal78>
+
+externdef __imp_odbcconf_ordinal79:PPROC
+odbcconf_ordinal79 equ <__imp_odbcconf_ordinal79>
+
+externdef __imp_odbcconf_ordinal81:PPROC
+odbcconf_ordinal81 equ <__imp_odbcconf_ordinal81>
+
+externdef __imp_odbcconf_ordinal82:PPROC
+odbcconf_ordinal82 equ <__imp_odbcconf_ordinal82>
+
+externdef __imp_odbcconf_ordinal83:PPROC
+odbcconf_ordinal83 equ <__imp_odbcconf_ordinal83>
+
+externdef __imp_odbcconf_ordinal84:PPROC
+odbcconf_ordinal84 equ <__imp_odbcconf_ordinal84>
+
+externdef __imp_odbcconf_ordinal87:PPROC
+odbcconf_ordinal87 equ <__imp_odbcconf_ordinal87>
+
+externdef __imp_odbcconf_ordinal88:PPROC
+odbcconf_ordinal88 equ <__imp_odbcconf_ordinal88>
+
+externdef __imp_odbcconf_ordinal89:PPROC
+odbcconf_ordinal89 equ <__imp_odbcconf_ordinal89>
+
+externdef __imp_odbcconf_ordinal92:PPROC
+odbcconf_ordinal92 equ <__imp_odbcconf_ordinal92>
+
+externdef __imp_odbcconf_ordinal93:PPROC
+odbcconf_ordinal93 equ <__imp_odbcconf_ordinal93>
+
+externdef __imp_odbcconf_ordinal94:PPROC
+odbcconf_ordinal94 equ <__imp_odbcconf_ordinal94>
+
+externdef __imp_odbcconf_ordinal96:PPROC
+odbcconf_ordinal96 equ <__imp_odbcconf_ordinal96>
+
+externdef __imp_odbcconf_ordinal97:PPROC
+odbcconf_ordinal97 equ <__imp_odbcconf_ordinal97>
+
+externdef __imp_odbcconf_ordinal98:PPROC
+odbcconf_ordinal98 equ <__imp_odbcconf_ordinal98>
+
+externdef __imp_odbcconf_ordinal99:PPROC
+odbcconf_ordinal99 equ <__imp_odbcconf_ordinal99>

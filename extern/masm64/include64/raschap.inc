@@ -1,0 +1,41 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_RasCpEnumProtocolIds:PPROC
+RasCpEnumProtocolIds equ <__imp_RasCpEnumProtocolIds>
+
+externdef __imp_RasCpGetInfo:PPROC
+RasCpGetInfo equ <__imp_RasCpGetInfo>
+
+externdef __imp_RasEapCreateConnectionProperties:PPROC
+RasEapCreateConnectionProperties equ <__imp_RasEapCreateConnectionProperties>
+
+externdef __imp_RasEapCreateUserProperties:PPROC
+RasEapCreateUserProperties equ <__imp_RasEapCreateUserProperties>
+
+externdef __imp_RasEapFreeMemory:PPROC
+RasEapFreeMemory equ <__imp_RasEapFreeMemory>
+
+externdef __imp_RasEapGetCredentials:PPROC
+RasEapGetCredentials equ <__imp_RasEapGetCredentials>
+
+externdef __imp_RasEapGetIdentity:PPROC
+RasEapGetIdentity equ <__imp_RasEapGetIdentity>
+
+externdef __imp_RasEapGetInfo:PPROC
+RasEapGetInfo equ <__imp_RasEapGetInfo>
+
+externdef __imp_RasEapInvokeConfigUI:PPROC
+RasEapInvokeConfigUI equ <__imp_RasEapInvokeConfigUI>
+
+externdef __imp_RasEapInvokeInteractiveUI:PPROC
+RasEapInvokeInteractiveUI equ <__imp_RasEapInvokeInteractiveUI>

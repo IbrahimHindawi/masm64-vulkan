@@ -1,0 +1,128 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_HNetDeleteRasConnection:PPROC
+HNetDeleteRasConnection equ <__imp_HNetDeleteRasConnection>
+
+externdef __imp_HNetFreeFirewallLoggingSettings:PPROC
+HNetFreeFirewallLoggingSettings equ <__imp_HNetFreeFirewallLoggingSettings>
+
+externdef __imp_HNetFreeSharingServicesPage:PPROC
+HNetFreeSharingServicesPage equ <__imp_HNetFreeSharingServicesPage>
+
+externdef __imp_HNetGetFirewallSettingsPage:PPROC
+HNetGetFirewallSettingsPage equ <__imp_HNetGetFirewallSettingsPage>
+
+externdef __imp_HNetGetShareAndBridgeSettings:PPROC
+HNetGetShareAndBridgeSettings equ <__imp_HNetGetShareAndBridgeSettings>
+
+externdef __imp_HNetGetSharingServicesPage:PPROC
+HNetGetSharingServicesPage equ <__imp_HNetGetSharingServicesPage>
+
+externdef __imp_HNetSetShareAndBridgeSettings:PPROC
+HNetSetShareAndBridgeSettings equ <__imp_HNetSetShareAndBridgeSettings>
+
+externdef __imp_HNetSharedAccessSettingsDlg:PPROC
+HNetSharedAccessSettingsDlg equ <__imp_HNetSharedAccessSettingsDlg>
+
+externdef __imp_HNetSharingAndFirewallSettingsDlg:PPROC
+HNetSharingAndFirewallSettingsDlg equ <__imp_HNetSharingAndFirewallSettingsDlg>
+
+externdef __imp_IcfChangeNotificationCreate:PPROC
+IcfChangeNotificationCreate equ <__imp_IcfChangeNotificationCreate>
+
+externdef __imp_IcfChangeNotificationDestroy:PPROC
+IcfChangeNotificationDestroy equ <__imp_IcfChangeNotificationDestroy>
+
+externdef __imp_IcfCheckAppAuthorization:PPROC
+IcfCheckAppAuthorization equ <__imp_IcfCheckAppAuthorization>
+
+externdef __imp_IcfCloseDynamicFwPort:PPROC
+IcfCloseDynamicFwPort equ <__imp_IcfCloseDynamicFwPort>
+
+externdef __imp_IcfConnect:PPROC
+IcfConnect equ <__imp_IcfConnect>
+
+externdef __imp_IcfDisconnect:PPROC
+IcfDisconnect equ <__imp_IcfDisconnect>
+
+externdef __imp_IcfFreeAdapters:PPROC
+IcfFreeAdapters equ <__imp_IcfFreeAdapters>
+
+externdef __imp_IcfFreeDynamicFwPorts:PPROC
+IcfFreeDynamicFwPorts equ <__imp_IcfFreeDynamicFwPorts>
+
+externdef __imp_IcfFreeProfile:PPROC
+IcfFreeProfile equ <__imp_IcfFreeProfile>
+
+externdef __imp_IcfFreeString:PPROC
+IcfFreeString equ <__imp_IcfFreeString>
+
+externdef __imp_IcfFreeTickets:PPROC
+IcfFreeTickets equ <__imp_IcfFreeTickets>
+
+externdef __imp_IcfGetAdapters:PPROC
+IcfGetAdapters equ <__imp_IcfGetAdapters>
+
+externdef __imp_IcfGetCurrentProfileType:PPROC
+IcfGetCurrentProfileType equ <__imp_IcfGetCurrentProfileType>
+
+externdef __imp_IcfGetDynamicFwPorts:PPROC
+IcfGetDynamicFwPorts equ <__imp_IcfGetDynamicFwPorts>
+
+externdef __imp_IcfGetOperationalMode:PPROC
+IcfGetOperationalMode equ <__imp_IcfGetOperationalMode>
+
+externdef __imp_IcfGetProfile:PPROC
+IcfGetProfile equ <__imp_IcfGetProfile>
+
+externdef __imp_IcfGetTickets:PPROC
+IcfGetTickets equ <__imp_IcfGetTickets>
+
+externdef __imp_IcfIsIcmpTypeAllowed:PPROC
+IcfIsIcmpTypeAllowed equ <__imp_IcfIsIcmpTypeAllowed>
+
+externdef __imp_IcfIsPortAllowed:PPROC
+IcfIsPortAllowed equ <__imp_IcfIsPortAllowed>
+
+externdef __imp_IcfOpenDynamicFwPort:PPROC
+IcfOpenDynamicFwPort equ <__imp_IcfOpenDynamicFwPort>
+
+externdef __imp_IcfOpenDynamicFwPortWithoutSocket:PPROC
+IcfOpenDynamicFwPortWithoutSocket equ <__imp_IcfOpenDynamicFwPortWithoutSocket>
+
+externdef __imp_IcfOpenFileSharingPorts:PPROC
+IcfOpenFileSharingPorts equ <__imp_IcfOpenFileSharingPorts>
+
+externdef __imp_IcfRefreshPolicy:PPROC
+IcfRefreshPolicy equ <__imp_IcfRefreshPolicy>
+
+externdef __imp_IcfRemoveDisabledAuthorizedApp:PPROC
+IcfRemoveDisabledAuthorizedApp equ <__imp_IcfRemoveDisabledAuthorizedApp>
+
+externdef __imp_IcfSetProfile:PPROC
+IcfSetProfile equ <__imp_IcfSetProfile>
+
+externdef __imp_IcfSetServicePermission:PPROC
+IcfSetServicePermission equ <__imp_IcfSetServicePermission>
+
+externdef __imp_IcfSubNetsGetScope:PPROC
+IcfSubNetsGetScope equ <__imp_IcfSubNetsGetScope>
+
+externdef __imp_IcfSubNetsIsStringValid:PPROC
+IcfSubNetsIsStringValid equ <__imp_IcfSubNetsIsStringValid>
+
+externdef __imp_IcfSubNetsToString:PPROC
+IcfSubNetsToString equ <__imp_IcfSubNetsToString>
+
+externdef __imp_WinBomConfigureWindowsFirewall:PPROC
+WinBomConfigureWindowsFirewall equ <__imp_WinBomConfigureWindowsFirewall>

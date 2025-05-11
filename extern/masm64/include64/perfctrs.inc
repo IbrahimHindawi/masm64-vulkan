@@ -1,0 +1,53 @@
+externdef __imp_CloseDhcpPerformanceData:PPROC
+CloseDhcpPerformanceData equ <__imp_CloseDhcpPerformanceData>
+
+externdef __imp_CloseIPXPerformanceData:PPROC
+CloseIPXPerformanceData equ <__imp_CloseIPXPerformanceData>
+
+externdef __imp_CloseNWNBPerformanceData:PPROC
+CloseNWNBPerformanceData equ <__imp_CloseNWNBPerformanceData>
+
+externdef __imp_CloseNbfPerformanceData:PPROC
+CloseNbfPerformanceData equ <__imp_CloseNbfPerformanceData>
+
+externdef __imp_CloseSPXPerformanceData:PPROC
+CloseSPXPerformanceData equ <__imp_CloseSPXPerformanceData>
+
+externdef __imp_CloseTcpIpPerformanceData:PPROC
+CloseTcpIpPerformanceData equ <__imp_CloseTcpIpPerformanceData>
+
+externdef __imp_CollectDhcpPerformanceData:PPROC
+CollectDhcpPerformanceData equ <__imp_CollectDhcpPerformanceData>
+
+externdef __imp_CollectIPXPerformanceData:PPROC
+CollectIPXPerformanceData equ <__imp_CollectIPXPerformanceData>
+
+externdef __imp_CollectNWNBPerformanceData:PPROC
+CollectNWNBPerformanceData equ <__imp_CollectNWNBPerformanceData>
+
+externdef __imp_CollectNbfPerformanceData:PPROC
+CollectNbfPerformanceData equ <__imp_CollectNbfPerformanceData>
+
+externdef __imp_CollectSPXPerformanceData:PPROC
+CollectSPXPerformanceData equ <__imp_CollectSPXPerformanceData>
+
+externdef __imp_CollectTcpIpPerformanceData:PPROC
+CollectTcpIpPerformanceData equ <__imp_CollectTcpIpPerformanceData>
+
+externdef __imp_OpenDhcpPerformanceData:PPROC
+OpenDhcpPerformanceData equ <__imp_OpenDhcpPerformanceData>
+
+externdef __imp_OpenIPXPerformanceData:PPROC
+OpenIPXPerformanceData equ <__imp_OpenIPXPerformanceData>
+
+externdef __imp_OpenNWNBPerformanceData:PPROC
+OpenNWNBPerformanceData equ <__imp_OpenNWNBPerformanceData>
+
+externdef __imp_OpenNbfPerformanceData:PPROC
+OpenNbfPerformanceData equ <__imp_OpenNbfPerformanceData>
+
+externdef __imp_OpenSPXPerformanceData:PPROC
+OpenSPXPerformanceData equ <__imp_OpenSPXPerformanceData>
+
+externdef __imp_OpenTcpIpPerformanceData:PPROC
+OpenTcpIpPerformanceData equ <__imp_OpenTcpIpPerformanceData>

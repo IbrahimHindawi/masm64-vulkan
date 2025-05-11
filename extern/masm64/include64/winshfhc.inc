@@ -1,0 +1,2 @@
+externdef __imp_winshfhc_ordinal101:PPROC
+winshfhc_ordinal101 equ <__imp_winshfhc_ordinal101>

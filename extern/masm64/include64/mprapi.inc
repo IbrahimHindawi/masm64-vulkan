@@ -1,0 +1,392 @@
+externdef __imp_CompressPhoneNumber:PPROC
+CompressPhoneNumber equ <__imp_CompressPhoneNumber>
+
+externdef __imp_MprAdminBufferFree:PPROC
+MprAdminBufferFree equ <__imp_MprAdminBufferFree>
+
+externdef __imp_MprAdminConnectionClearStats:PPROC
+MprAdminConnectionClearStats equ <__imp_MprAdminConnectionClearStats>
+
+externdef __imp_MprAdminConnectionEnum:PPROC
+MprAdminConnectionEnum equ <__imp_MprAdminConnectionEnum>
+
+externdef __imp_MprAdminConnectionGetInfo:PPROC
+MprAdminConnectionGetInfo equ <__imp_MprAdminConnectionGetInfo>
+
+externdef __imp_MprAdminConnectionRemoveQuarantine:PPROC
+MprAdminConnectionRemoveQuarantine equ <__imp_MprAdminConnectionRemoveQuarantine>
+
+externdef __imp_MprAdminDeregisterConnectionNotification:PPROC
+MprAdminDeregisterConnectionNotification equ <__imp_MprAdminDeregisterConnectionNotification>
+
+externdef __imp_MprAdminDeviceEnum:PPROC
+MprAdminDeviceEnum equ <__imp_MprAdminDeviceEnum>
+
+externdef __imp_MprAdminEstablishDomainRasServer:PPROC
+MprAdminEstablishDomainRasServer equ <__imp_MprAdminEstablishDomainRasServer>
+
+externdef __imp_MprAdminGetErrorString:PPROC
+MprAdminGetErrorString equ <__imp_MprAdminGetErrorString>
+
+externdef __imp_MprAdminGetPDCServer:PPROC
+MprAdminGetPDCServer equ <__imp_MprAdminGetPDCServer>
+
+externdef __imp_MprAdminInterfaceConnect:PPROC
+MprAdminInterfaceConnect equ <__imp_MprAdminInterfaceConnect>
+
+externdef __imp_MprAdminInterfaceCreate:PPROC
+MprAdminInterfaceCreate equ <__imp_MprAdminInterfaceCreate>
+
+externdef __imp_MprAdminInterfaceDelete:PPROC
+MprAdminInterfaceDelete equ <__imp_MprAdminInterfaceDelete>
+
+externdef __imp_MprAdminInterfaceDeviceGetInfo:PPROC
+MprAdminInterfaceDeviceGetInfo equ <__imp_MprAdminInterfaceDeviceGetInfo>
+
+externdef __imp_MprAdminInterfaceDeviceSetInfo:PPROC
+MprAdminInterfaceDeviceSetInfo equ <__imp_MprAdminInterfaceDeviceSetInfo>
+
+externdef __imp_MprAdminInterfaceDisconnect:PPROC
+MprAdminInterfaceDisconnect equ <__imp_MprAdminInterfaceDisconnect>
+
+externdef __imp_MprAdminInterfaceEnum:PPROC
+MprAdminInterfaceEnum equ <__imp_MprAdminInterfaceEnum>
+
+externdef __imp_MprAdminInterfaceGetCredentials:PPROC
+MprAdminInterfaceGetCredentials equ <__imp_MprAdminInterfaceGetCredentials>
+
+externdef __imp_MprAdminInterfaceGetCredentialsEx:PPROC
+MprAdminInterfaceGetCredentialsEx equ <__imp_MprAdminInterfaceGetCredentialsEx>
+
+externdef __imp_MprAdminInterfaceGetHandle:PPROC
+MprAdminInterfaceGetHandle equ <__imp_MprAdminInterfaceGetHandle>
+
+externdef __imp_MprAdminInterfaceGetInfo:PPROC
+MprAdminInterfaceGetInfo equ <__imp_MprAdminInterfaceGetInfo>
+
+externdef __imp_MprAdminInterfaceQueryUpdateResult:PPROC
+MprAdminInterfaceQueryUpdateResult equ <__imp_MprAdminInterfaceQueryUpdateResult>
+
+externdef __imp_MprAdminInterfaceSetCredentials:PPROC
+MprAdminInterfaceSetCredentials equ <__imp_MprAdminInterfaceSetCredentials>
+
+externdef __imp_MprAdminInterfaceSetCredentialsEx:PPROC
+MprAdminInterfaceSetCredentialsEx equ <__imp_MprAdminInterfaceSetCredentialsEx>
+
+externdef __imp_MprAdminInterfaceSetInfo:PPROC
+MprAdminInterfaceSetInfo equ <__imp_MprAdminInterfaceSetInfo>
+
+externdef __imp_MprAdminInterfaceTransportAdd:PPROC
+MprAdminInterfaceTransportAdd equ <__imp_MprAdminInterfaceTransportAdd>
+
+externdef __imp_MprAdminInterfaceTransportGetInfo:PPROC
+MprAdminInterfaceTransportGetInfo equ <__imp_MprAdminInterfaceTransportGetInfo>
+
+externdef __imp_MprAdminInterfaceTransportRemove:PPROC
+MprAdminInterfaceTransportRemove equ <__imp_MprAdminInterfaceTransportRemove>
+
+externdef __imp_MprAdminInterfaceTransportSetInfo:PPROC
+MprAdminInterfaceTransportSetInfo equ <__imp_MprAdminInterfaceTransportSetInfo>
+
+externdef __imp_MprAdminInterfaceUpdatePhonebookInfo:PPROC
+MprAdminInterfaceUpdatePhonebookInfo equ <__imp_MprAdminInterfaceUpdatePhonebookInfo>
+
+externdef __imp_MprAdminInterfaceUpdateRoutes:PPROC
+MprAdminInterfaceUpdateRoutes equ <__imp_MprAdminInterfaceUpdateRoutes>
+
+externdef __imp_MprAdminIsDomainRasServer:PPROC
+MprAdminIsDomainRasServer equ <__imp_MprAdminIsDomainRasServer>
+
+externdef __imp_MprAdminIsServiceRunning:PPROC
+MprAdminIsServiceRunning equ <__imp_MprAdminIsServiceRunning>
+
+externdef __imp_MprAdminMIBBufferFree:PPROC
+MprAdminMIBBufferFree equ <__imp_MprAdminMIBBufferFree>
+
+externdef __imp_MprAdminMIBEntryCreate:PPROC
+MprAdminMIBEntryCreate equ <__imp_MprAdminMIBEntryCreate>
+
+externdef __imp_MprAdminMIBEntryDelete:PPROC
+MprAdminMIBEntryDelete equ <__imp_MprAdminMIBEntryDelete>
+
+externdef __imp_MprAdminMIBEntryGet:PPROC
+MprAdminMIBEntryGet equ <__imp_MprAdminMIBEntryGet>
+
+externdef __imp_MprAdminMIBEntryGetFirst:PPROC
+MprAdminMIBEntryGetFirst equ <__imp_MprAdminMIBEntryGetFirst>
+
+externdef __imp_MprAdminMIBEntryGetNext:PPROC
+MprAdminMIBEntryGetNext equ <__imp_MprAdminMIBEntryGetNext>
+
+externdef __imp_MprAdminMIBEntrySet:PPROC
+MprAdminMIBEntrySet equ <__imp_MprAdminMIBEntrySet>
+
+externdef __imp_MprAdminMIBServerConnect:PPROC
+MprAdminMIBServerConnect equ <__imp_MprAdminMIBServerConnect>
+
+externdef __imp_MprAdminMIBServerDisconnect:PPROC
+MprAdminMIBServerDisconnect equ <__imp_MprAdminMIBServerDisconnect>
+
+externdef __imp_MprAdminPortClearStats:PPROC
+MprAdminPortClearStats equ <__imp_MprAdminPortClearStats>
+
+externdef __imp_MprAdminPortDisconnect:PPROC
+MprAdminPortDisconnect equ <__imp_MprAdminPortDisconnect>
+
+externdef __imp_MprAdminPortEnum:PPROC
+MprAdminPortEnum equ <__imp_MprAdminPortEnum>
+
+externdef __imp_MprAdminPortGetInfo:PPROC
+MprAdminPortGetInfo equ <__imp_MprAdminPortGetInfo>
+
+externdef __imp_MprAdminPortReset:PPROC
+MprAdminPortReset equ <__imp_MprAdminPortReset>
+
+externdef __imp_MprAdminRegisterConnectionNotification:PPROC
+MprAdminRegisterConnectionNotification equ <__imp_MprAdminRegisterConnectionNotification>
+
+externdef __imp_MprAdminSendUserMessage:PPROC
+MprAdminSendUserMessage equ <__imp_MprAdminSendUserMessage>
+
+externdef __imp_MprAdminServerConnect:PPROC
+MprAdminServerConnect equ <__imp_MprAdminServerConnect>
+
+externdef __imp_MprAdminServerDisconnect:PPROC
+MprAdminServerDisconnect equ <__imp_MprAdminServerDisconnect>
+
+externdef __imp_MprAdminServerGetCredentials:PPROC
+MprAdminServerGetCredentials equ <__imp_MprAdminServerGetCredentials>
+
+externdef __imp_MprAdminServerGetInfo:PPROC
+MprAdminServerGetInfo equ <__imp_MprAdminServerGetInfo>
+
+externdef __imp_MprAdminServerSetCredentials:PPROC
+MprAdminServerSetCredentials equ <__imp_MprAdminServerSetCredentials>
+
+externdef __imp_MprAdminServerSetInfo:PPROC
+MprAdminServerSetInfo equ <__imp_MprAdminServerSetInfo>
+
+externdef __imp_MprAdminTransportCreate:PPROC
+MprAdminTransportCreate equ <__imp_MprAdminTransportCreate>
+
+externdef __imp_MprAdminTransportGetInfo:PPROC
+MprAdminTransportGetInfo equ <__imp_MprAdminTransportGetInfo>
+
+externdef __imp_MprAdminTransportSetInfo:PPROC
+MprAdminTransportSetInfo equ <__imp_MprAdminTransportSetInfo>
+
+externdef __imp_MprAdminUpgradeUsers:PPROC
+MprAdminUpgradeUsers equ <__imp_MprAdminUpgradeUsers>
+
+externdef __imp_MprAdminUserClose:PPROC
+MprAdminUserClose equ <__imp_MprAdminUserClose>
+
+externdef __imp_MprAdminUserGetInfo:PPROC
+MprAdminUserGetInfo equ <__imp_MprAdminUserGetInfo>
+
+externdef __imp_MprAdminUserOpen:PPROC
+MprAdminUserOpen equ <__imp_MprAdminUserOpen>
+
+externdef __imp_MprAdminUserRead:PPROC
+MprAdminUserRead equ <__imp_MprAdminUserRead>
+
+externdef __imp_MprAdminUserReadProfFlags:PPROC
+MprAdminUserReadProfFlags equ <__imp_MprAdminUserReadProfFlags>
+
+externdef __imp_MprAdminUserServerConnect:PPROC
+MprAdminUserServerConnect equ <__imp_MprAdminUserServerConnect>
+
+externdef __imp_MprAdminUserServerDisconnect:PPROC
+MprAdminUserServerDisconnect equ <__imp_MprAdminUserServerDisconnect>
+
+externdef __imp_MprAdminUserSetInfo:PPROC
+MprAdminUserSetInfo equ <__imp_MprAdminUserSetInfo>
+
+externdef __imp_MprAdminUserWrite:PPROC
+MprAdminUserWrite equ <__imp_MprAdminUserWrite>
+
+externdef __imp_MprAdminUserWriteProfFlags:PPROC
+MprAdminUserWriteProfFlags equ <__imp_MprAdminUserWriteProfFlags>
+
+externdef __imp_MprConfigBufferFree:PPROC
+MprConfigBufferFree equ <__imp_MprConfigBufferFree>
+
+externdef __imp_MprConfigGetFriendlyName:PPROC
+MprConfigGetFriendlyName equ <__imp_MprConfigGetFriendlyName>
+
+externdef __imp_MprConfigGetGuidName:PPROC
+MprConfigGetGuidName equ <__imp_MprConfigGetGuidName>
+
+externdef __imp_MprConfigInterfaceCreate:PPROC
+MprConfigInterfaceCreate equ <__imp_MprConfigInterfaceCreate>
+
+externdef __imp_MprConfigInterfaceDelete:PPROC
+MprConfigInterfaceDelete equ <__imp_MprConfigInterfaceDelete>
+
+externdef __imp_MprConfigInterfaceEnum:PPROC
+MprConfigInterfaceEnum equ <__imp_MprConfigInterfaceEnum>
+
+externdef __imp_MprConfigInterfaceGetHandle:PPROC
+MprConfigInterfaceGetHandle equ <__imp_MprConfigInterfaceGetHandle>
+
+externdef __imp_MprConfigInterfaceGetInfo:PPROC
+MprConfigInterfaceGetInfo equ <__imp_MprConfigInterfaceGetInfo>
+
+externdef __imp_MprConfigInterfaceSetInfo:PPROC
+MprConfigInterfaceSetInfo equ <__imp_MprConfigInterfaceSetInfo>
+
+externdef __imp_MprConfigInterfaceTransportAdd:PPROC
+MprConfigInterfaceTransportAdd equ <__imp_MprConfigInterfaceTransportAdd>
+
+externdef __imp_MprConfigInterfaceTransportEnum:PPROC
+MprConfigInterfaceTransportEnum equ <__imp_MprConfigInterfaceTransportEnum>
+
+externdef __imp_MprConfigInterfaceTransportGetHandle:PPROC
+MprConfigInterfaceTransportGetHandle equ <__imp_MprConfigInterfaceTransportGetHandle>
+
+externdef __imp_MprConfigInterfaceTransportGetInfo:PPROC
+MprConfigInterfaceTransportGetInfo equ <__imp_MprConfigInterfaceTransportGetInfo>
+
+externdef __imp_MprConfigInterfaceTransportRemove:PPROC
+MprConfigInterfaceTransportRemove equ <__imp_MprConfigInterfaceTransportRemove>
+
+externdef __imp_MprConfigInterfaceTransportSetInfo:PPROC
+MprConfigInterfaceTransportSetInfo equ <__imp_MprConfigInterfaceTransportSetInfo>
+
+externdef __imp_MprConfigServerBackup:PPROC
+MprConfigServerBackup equ <__imp_MprConfigServerBackup>
+
+externdef __imp_MprConfigServerConnect:PPROC
+MprConfigServerConnect equ <__imp_MprConfigServerConnect>
+
+externdef __imp_MprConfigServerDisconnect:PPROC
+MprConfigServerDisconnect equ <__imp_MprConfigServerDisconnect>
+
+externdef __imp_MprConfigServerGetInfo:PPROC
+MprConfigServerGetInfo equ <__imp_MprConfigServerGetInfo>
+
+externdef __imp_MprConfigServerInstall:PPROC
+MprConfigServerInstall equ <__imp_MprConfigServerInstall>
+
+externdef __imp_MprConfigServerRefresh:PPROC
+MprConfigServerRefresh equ <__imp_MprConfigServerRefresh>
+
+externdef __imp_MprConfigServerRestore:PPROC
+MprConfigServerRestore equ <__imp_MprConfigServerRestore>
+
+externdef __imp_MprConfigServerSetInfo:PPROC
+MprConfigServerSetInfo equ <__imp_MprConfigServerSetInfo>
+
+externdef __imp_MprConfigTransportCreate:PPROC
+MprConfigTransportCreate equ <__imp_MprConfigTransportCreate>
+
+externdef __imp_MprConfigTransportDelete:PPROC
+MprConfigTransportDelete equ <__imp_MprConfigTransportDelete>
+
+externdef __imp_MprConfigTransportEnum:PPROC
+MprConfigTransportEnum equ <__imp_MprConfigTransportEnum>
+
+externdef __imp_MprConfigTransportGetHandle:PPROC
+MprConfigTransportGetHandle equ <__imp_MprConfigTransportGetHandle>
+
+externdef __imp_MprConfigTransportGetInfo:PPROC
+MprConfigTransportGetInfo equ <__imp_MprConfigTransportGetInfo>
+
+externdef __imp_MprConfigTransportSetInfo:PPROC
+MprConfigTransportSetInfo equ <__imp_MprConfigTransportSetInfo>
+
+externdef __imp_MprDomainQueryAccess:PPROC
+MprDomainQueryAccess equ <__imp_MprDomainQueryAccess>
+
+externdef __imp_MprDomainQueryRasServer:PPROC
+MprDomainQueryRasServer equ <__imp_MprDomainQueryRasServer>
+
+externdef __imp_MprDomainRegisterRasServer:PPROC
+MprDomainRegisterRasServer equ <__imp_MprDomainRegisterRasServer>
+
+externdef __imp_MprDomainSetAccess:PPROC
+MprDomainSetAccess equ <__imp_MprDomainSetAccess>
+
+externdef __imp_MprGetUsrParams:PPROC
+MprGetUsrParams equ <__imp_MprGetUsrParams>
+
+externdef __imp_MprInfoBlockAdd:PPROC
+MprInfoBlockAdd equ <__imp_MprInfoBlockAdd>
+
+externdef __imp_MprInfoBlockFind:PPROC
+MprInfoBlockFind equ <__imp_MprInfoBlockFind>
+
+externdef __imp_MprInfoBlockQuerySize:PPROC
+MprInfoBlockQuerySize equ <__imp_MprInfoBlockQuerySize>
+
+externdef __imp_MprInfoBlockRemove:PPROC
+MprInfoBlockRemove equ <__imp_MprInfoBlockRemove>
+
+externdef __imp_MprInfoBlockSet:PPROC
+MprInfoBlockSet equ <__imp_MprInfoBlockSet>
+
+externdef __imp_MprInfoCreate:PPROC
+MprInfoCreate equ <__imp_MprInfoCreate>
+
+externdef __imp_MprInfoDelete:PPROC
+MprInfoDelete equ <__imp_MprInfoDelete>
+
+externdef __imp_MprInfoDuplicate:PPROC
+MprInfoDuplicate equ <__imp_MprInfoDuplicate>
+
+externdef __imp_MprInfoRemoveAll:PPROC
+MprInfoRemoveAll equ <__imp_MprInfoRemoveAll>
+
+externdef __imp_MprPortSetUsage:PPROC
+MprPortSetUsage equ <__imp_MprPortSetUsage>
+
+externdef __imp_RasAdminBufferFree:PPROC
+RasAdminBufferFree equ <__imp_RasAdminBufferFree>
+
+externdef __imp_RasAdminConnectionClearStats:PPROC
+RasAdminConnectionClearStats equ <__imp_RasAdminConnectionClearStats>
+
+externdef __imp_RasAdminConnectionEnum:PPROC
+RasAdminConnectionEnum equ <__imp_RasAdminConnectionEnum>
+
+externdef __imp_RasAdminConnectionGetInfo:PPROC
+RasAdminConnectionGetInfo equ <__imp_RasAdminConnectionGetInfo>
+
+externdef __imp_RasAdminGetErrorString:PPROC
+RasAdminGetErrorString equ <__imp_RasAdminGetErrorString>
+
+externdef __imp_RasAdminGetPDCServer:PPROC
+RasAdminGetPDCServer equ <__imp_RasAdminGetPDCServer>
+
+externdef __imp_RasAdminIsServiceRunning:PPROC
+RasAdminIsServiceRunning equ <__imp_RasAdminIsServiceRunning>
+
+externdef __imp_RasAdminPortClearStats:PPROC
+RasAdminPortClearStats equ <__imp_RasAdminPortClearStats>
+
+externdef __imp_RasAdminPortDisconnect:PPROC
+RasAdminPortDisconnect equ <__imp_RasAdminPortDisconnect>
+
+externdef __imp_RasAdminPortEnum:PPROC
+RasAdminPortEnum equ <__imp_RasAdminPortEnum>
+
+externdef __imp_RasAdminPortGetInfo:PPROC
+RasAdminPortGetInfo equ <__imp_RasAdminPortGetInfo>
+
+externdef __imp_RasAdminPortReset:PPROC
+RasAdminPortReset equ <__imp_RasAdminPortReset>
+
+externdef __imp_RasAdminServerConnect:PPROC
+RasAdminServerConnect equ <__imp_RasAdminServerConnect>
+
+externdef __imp_RasAdminServerDisconnect:PPROC
+RasAdminServerDisconnect equ <__imp_RasAdminServerDisconnect>
+
+externdef __imp_RasAdminUserGetInfo:PPROC
+RasAdminUserGetInfo equ <__imp_RasAdminUserGetInfo>
+
+externdef __imp_RasAdminUserSetInfo:PPROC
+RasAdminUserSetInfo equ <__imp_RasAdminUserSetInfo>
+
+externdef __imp_RasPrivilegeAndCallBackNumber:PPROC
+RasPrivilegeAndCallBackNumber equ <__imp_RasPrivilegeAndCallBackNumber>

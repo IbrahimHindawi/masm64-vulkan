@@ -1,0 +1,26 @@
+externdef __imp_CryptSIPCreateIndirectData:PPROC
+CryptSIPCreateIndirectData equ <__imp_CryptSIPCreateIndirectData>
+
+externdef __imp_CryptSIPGetInfo:PPROC
+CryptSIPGetInfo equ <__imp_CryptSIPGetInfo>
+
+externdef __imp_CryptSIPGetRegWorkingFlags:PPROC
+CryptSIPGetRegWorkingFlags equ <__imp_CryptSIPGetRegWorkingFlags>
+
+externdef __imp_CryptSIPGetSignedDataMsg:PPROC
+CryptSIPGetSignedDataMsg equ <__imp_CryptSIPGetSignedDataMsg>
+
+externdef __imp_CryptSIPPutSignedDataMsg:PPROC
+CryptSIPPutSignedDataMsg equ <__imp_CryptSIPPutSignedDataMsg>
+
+externdef __imp_CryptSIPRemoveSignedDataMsg:PPROC
+CryptSIPRemoveSignedDataMsg equ <__imp_CryptSIPRemoveSignedDataMsg>
+
+externdef __imp_CryptSIPVerifyIndirectData:PPROC
+CryptSIPVerifyIndirectData equ <__imp_CryptSIPVerifyIndirectData>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>

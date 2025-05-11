@@ -1,0 +1,2 @@
+externdef __imp_SPDServiceMain:PPROC
+SPDServiceMain equ <__imp_SPDServiceMain>

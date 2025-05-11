@@ -1,0 +1,8 @@
+externdef __imp_InternetDeInitializeAutoProxyDll:PPROC
+InternetDeInitializeAutoProxyDll equ <__imp_InternetDeInitializeAutoProxyDll>
+
+externdef __imp_InternetGetProxyInfo:PPROC
+InternetGetProxyInfo equ <__imp_InternetGetProxyInfo>
+
+externdef __imp_InternetInitializeAutoProxyDll:PPROC
+InternetInitializeAutoProxyDll equ <__imp_InternetInitializeAutoProxyDll>

@@ -1,0 +1,23 @@
+externdef __imp_DtcGetTransactionManager:PPROC
+DtcGetTransactionManager equ <__imp_DtcGetTransactionManager>
+
+externdef __imp_DtcGetTransactionManagerC:PPROC
+DtcGetTransactionManagerC equ <__imp_DtcGetTransactionManagerC>
+
+externdef __imp_DtcGetTransactionManagerEx:PPROC
+DtcGetTransactionManagerEx equ <__imp_DtcGetTransactionManagerEx>
+
+externdef __imp_DtcGetTransactionManagerExA:PPROC
+DtcGetTransactionManagerExA equ <__imp_DtcGetTransactionManagerExA>
+  IFNDEF __UNICODE__
+    DtcGetTransactionManagerEx equ <__imp_DtcGetTransactionManagerExA>
+  ENDIF
+
+externdef __imp_DtcGetTransactionManagerExW:PPROC
+DtcGetTransactionManagerExW equ <__imp_DtcGetTransactionManagerExW>
+  IFDEF __UNICODE__
+    DtcGetTransactionManagerEx equ <__imp_DtcGetTransactionManagerExW>
+  ENDIF
+
+externdef __imp_GetDtcLocaleResourceHandle:PPROC
+GetDtcLocaleResourceHandle equ <__imp_GetDtcLocaleResourceHandle>

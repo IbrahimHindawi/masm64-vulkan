@@ -1,0 +1,170 @@
+externdef __imp_HBA_CloseAdapter:PPROC
+HBA_CloseAdapter equ <__imp_HBA_CloseAdapter>
+
+externdef __imp_HBA_FreeLibrary:PPROC
+HBA_FreeLibrary equ <__imp_HBA_FreeLibrary>
+
+externdef __imp_HBA_GetAdapterAttributes:PPROC
+HBA_GetAdapterAttributes equ <__imp_HBA_GetAdapterAttributes>
+
+externdef __imp_HBA_GetAdapterName:PPROC
+HBA_GetAdapterName equ <__imp_HBA_GetAdapterName>
+
+externdef __imp_HBA_GetAdapterPortAttributes:PPROC
+HBA_GetAdapterPortAttributes equ <__imp_HBA_GetAdapterPortAttributes>
+
+externdef __imp_HBA_GetBindingCapability:PPROC
+HBA_GetBindingCapability equ <__imp_HBA_GetBindingCapability>
+
+externdef __imp_HBA_GetBindingSupport:PPROC
+HBA_GetBindingSupport equ <__imp_HBA_GetBindingSupport>
+
+externdef __imp_HBA_GetDiscoveredPortAttributes:PPROC
+HBA_GetDiscoveredPortAttributes equ <__imp_HBA_GetDiscoveredPortAttributes>
+
+externdef __imp_HBA_GetEventBuffer:PPROC
+HBA_GetEventBuffer equ <__imp_HBA_GetEventBuffer>
+
+externdef __imp_HBA_GetFC4Statistics:PPROC
+HBA_GetFC4Statistics equ <__imp_HBA_GetFC4Statistics>
+
+externdef __imp_HBA_GetFCPStatistics:PPROC
+HBA_GetFCPStatistics equ <__imp_HBA_GetFCPStatistics>
+
+externdef __imp_HBA_GetFcpPersistentBinding:PPROC
+HBA_GetFcpPersistentBinding equ <__imp_HBA_GetFcpPersistentBinding>
+
+externdef __imp_HBA_GetFcpTargetMapping:PPROC
+HBA_GetFcpTargetMapping equ <__imp_HBA_GetFcpTargetMapping>
+
+externdef __imp_HBA_GetFcpTargetMappingV2:PPROC
+HBA_GetFcpTargetMappingV2 equ <__imp_HBA_GetFcpTargetMappingV2>
+
+externdef __imp_HBA_GetNumberOfAdapters:PPROC
+HBA_GetNumberOfAdapters equ <__imp_HBA_GetNumberOfAdapters>
+
+externdef __imp_HBA_GetPersistentBindingV2:PPROC
+HBA_GetPersistentBindingV2 equ <__imp_HBA_GetPersistentBindingV2>
+
+externdef __imp_HBA_GetPortAttributesByWWN:PPROC
+HBA_GetPortAttributesByWWN equ <__imp_HBA_GetPortAttributesByWWN>
+
+externdef __imp_HBA_GetPortStatistics:PPROC
+HBA_GetPortStatistics equ <__imp_HBA_GetPortStatistics>
+
+externdef __imp_HBA_GetRNIDMgmtInfo:PPROC
+HBA_GetRNIDMgmtInfo equ <__imp_HBA_GetRNIDMgmtInfo>
+
+externdef __imp_HBA_GetVendorLibraryAttributes:PPROC
+HBA_GetVendorLibraryAttributes equ <__imp_HBA_GetVendorLibraryAttributes>
+
+externdef __imp_HBA_GetVersion:PPROC
+HBA_GetVersion equ <__imp_HBA_GetVersion>
+
+externdef __imp_HBA_GetWrapperLibraryAttributes:PPROC
+HBA_GetWrapperLibraryAttributes equ <__imp_HBA_GetWrapperLibraryAttributes>
+
+externdef __imp_HBA_LoadLibrary:PPROC
+HBA_LoadLibrary equ <__imp_HBA_LoadLibrary>
+
+externdef __imp_HBA_OpenAdapter:PPROC
+HBA_OpenAdapter equ <__imp_HBA_OpenAdapter>
+
+externdef __imp_HBA_OpenAdapterByWWN:PPROC
+HBA_OpenAdapterByWWN equ <__imp_HBA_OpenAdapterByWWN>
+
+externdef __imp_HBA_RefreshAdapterConfiguration:PPROC
+HBA_RefreshAdapterConfiguration equ <__imp_HBA_RefreshAdapterConfiguration>
+
+externdef __imp_HBA_RefreshInformation:PPROC
+HBA_RefreshInformation equ <__imp_HBA_RefreshInformation>
+
+externdef __imp_HBA_RegisterForAdapterAddEvents:PPROC
+HBA_RegisterForAdapterAddEvents equ <__imp_HBA_RegisterForAdapterAddEvents>
+
+externdef __imp_HBA_RegisterForAdapterEvents:PPROC
+HBA_RegisterForAdapterEvents equ <__imp_HBA_RegisterForAdapterEvents>
+
+externdef __imp_HBA_RegisterForAdapterPortEvents:PPROC
+HBA_RegisterForAdapterPortEvents equ <__imp_HBA_RegisterForAdapterPortEvents>
+
+externdef __imp_HBA_RegisterForAdapterPortStatEvents:PPROC
+HBA_RegisterForAdapterPortStatEvents equ <__imp_HBA_RegisterForAdapterPortStatEvents>
+
+externdef __imp_HBA_RegisterForLinkEvents:PPROC
+HBA_RegisterForLinkEvents equ <__imp_HBA_RegisterForLinkEvents>
+
+externdef __imp_HBA_RegisterForTargetEvents:PPROC
+HBA_RegisterForTargetEvents equ <__imp_HBA_RegisterForTargetEvents>
+
+externdef __imp_HBA_RegisterLibrary:PPROC
+HBA_RegisterLibrary equ <__imp_HBA_RegisterLibrary>
+
+externdef __imp_HBA_RegisterLibraryV2:PPROC
+HBA_RegisterLibraryV2 equ <__imp_HBA_RegisterLibraryV2>
+
+externdef __imp_HBA_RemoveAllPersistentBindings:PPROC
+HBA_RemoveAllPersistentBindings equ <__imp_HBA_RemoveAllPersistentBindings>
+
+externdef __imp_HBA_RemoveCallback:PPROC
+HBA_RemoveCallback equ <__imp_HBA_RemoveCallback>
+
+externdef __imp_HBA_RemovePersistentBinding:PPROC
+HBA_RemovePersistentBinding equ <__imp_HBA_RemovePersistentBinding>
+
+externdef __imp_HBA_ResetStatistics:PPROC
+HBA_ResetStatistics equ <__imp_HBA_ResetStatistics>
+
+externdef __imp_HBA_ScsiInquiryV2:PPROC
+HBA_ScsiInquiryV2 equ <__imp_HBA_ScsiInquiryV2>
+
+externdef __imp_HBA_ScsiReadCapacityV2:PPROC
+HBA_ScsiReadCapacityV2 equ <__imp_HBA_ScsiReadCapacityV2>
+
+externdef __imp_HBA_ScsiReportLUNsV2:PPROC
+HBA_ScsiReportLUNsV2 equ <__imp_HBA_ScsiReportLUNsV2>
+
+externdef __imp_HBA_SendCTPassThru:PPROC
+HBA_SendCTPassThru equ <__imp_HBA_SendCTPassThru>
+
+externdef __imp_HBA_SendCTPassThruV2:PPROC
+HBA_SendCTPassThruV2 equ <__imp_HBA_SendCTPassThruV2>
+
+externdef __imp_HBA_SendLIRR:PPROC
+HBA_SendLIRR equ <__imp_HBA_SendLIRR>
+
+externdef __imp_HBA_SendRLS:PPROC
+HBA_SendRLS equ <__imp_HBA_SendRLS>
+
+externdef __imp_HBA_SendRNID:PPROC
+HBA_SendRNID equ <__imp_HBA_SendRNID>
+
+externdef __imp_HBA_SendRNIDV2:PPROC
+HBA_SendRNIDV2 equ <__imp_HBA_SendRNIDV2>
+
+externdef __imp_HBA_SendRPL:PPROC
+HBA_SendRPL equ <__imp_HBA_SendRPL>
+
+externdef __imp_HBA_SendRPS:PPROC
+HBA_SendRPS equ <__imp_HBA_SendRPS>
+
+externdef __imp_HBA_SendReadCapacity:PPROC
+HBA_SendReadCapacity equ <__imp_HBA_SendReadCapacity>
+
+externdef __imp_HBA_SendReportLUNs:PPROC
+HBA_SendReportLUNs equ <__imp_HBA_SendReportLUNs>
+
+externdef __imp_HBA_SendSRL:PPROC
+HBA_SendSRL equ <__imp_HBA_SendSRL>
+
+externdef __imp_HBA_SendScsiInquiry:PPROC
+HBA_SendScsiInquiry equ <__imp_HBA_SendScsiInquiry>
+
+externdef __imp_HBA_SetBindingSupport:PPROC
+HBA_SetBindingSupport equ <__imp_HBA_SetBindingSupport>
+
+externdef __imp_HBA_SetPersistentBindingV2:PPROC
+HBA_SetPersistentBindingV2 equ <__imp_HBA_SetPersistentBindingV2>
+
+externdef __imp_HBA_SetRNIDMgmtInfo:PPROC
+HBA_SetRNIDMgmtInfo equ <__imp_HBA_SetRNIDMgmtInfo>

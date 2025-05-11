@@ -1,0 +1,2 @@
+externdef __imp_wscript_ordinal1:PPROC
+wscript_ordinal1 equ <__imp_wscript_ordinal1>

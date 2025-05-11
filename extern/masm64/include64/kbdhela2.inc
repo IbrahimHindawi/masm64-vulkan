@@ -1,0 +1,2 @@
+externdef __imp_KbdLayerDescriptor:PPROC
+KbdLayerDescriptor equ <__imp_KbdLayerDescriptor>

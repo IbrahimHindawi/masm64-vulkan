@@ -1,0 +1,488 @@
+externdef __imp_DwRasGetHostByName:PPROC
+DwRasGetHostByName equ <__imp_DwRasGetHostByName>
+
+externdef __imp_IsRasmanProcess:PPROC
+IsRasmanProcess equ <__imp_IsRasmanProcess>
+
+externdef __imp_RasActivateRoute:PPROC
+RasActivateRoute equ <__imp_RasActivateRoute>
+
+externdef __imp_RasActivateRouteEx:PPROC
+RasActivateRouteEx equ <__imp_RasActivateRouteEx>
+
+externdef __imp_RasAddConnectionPort:PPROC
+RasAddConnectionPort equ <__imp_RasAddConnectionPort>
+
+externdef __imp_RasAddNotification:PPROC
+RasAddNotification equ <__imp_RasAddNotification>
+
+externdef __imp_RasAllocateRoute:PPROC
+RasAllocateRoute equ <__imp_RasAllocateRoute>
+
+externdef __imp_RasBundleClearStatistics:PPROC
+RasBundleClearStatistics equ <__imp_RasBundleClearStatistics>
+
+externdef __imp_RasBundleClearStatisticsEx:PPROC
+RasBundleClearStatisticsEx equ <__imp_RasBundleClearStatisticsEx>
+
+externdef __imp_RasBundleGetPort:PPROC
+RasBundleGetPort equ <__imp_RasBundleGetPort>
+
+externdef __imp_RasBundleGetStatistics:PPROC
+RasBundleGetStatistics equ <__imp_RasBundleGetStatistics>
+
+externdef __imp_RasBundleGetStatisticsEx:PPROC
+RasBundleGetStatisticsEx equ <__imp_RasBundleGetStatisticsEx>
+
+externdef __imp_RasCompressionGetInfo:PPROC
+RasCompressionGetInfo equ <__imp_RasCompressionGetInfo>
+
+externdef __imp_RasCompressionSetInfo:PPROC
+RasCompressionSetInfo equ <__imp_RasCompressionSetInfo>
+
+externdef __imp_RasConnectionEnum:PPROC
+RasConnectionEnum equ <__imp_RasConnectionEnum>
+
+externdef __imp_RasConnectionGetStatistics:PPROC
+RasConnectionGetStatistics equ <__imp_RasConnectionGetStatistics>
+
+externdef __imp_RasCreateConnection:PPROC
+RasCreateConnection equ <__imp_RasCreateConnection>
+
+externdef __imp_RasDeAllocateRoute:PPROC
+RasDeAllocateRoute equ <__imp_RasDeAllocateRoute>
+
+externdef __imp_RasDestroyConnection:PPROC
+RasDestroyConnection equ <__imp_RasDestroyConnection>
+
+externdef __imp_RasDeviceConnect:PPROC
+RasDeviceConnect equ <__imp_RasDeviceConnect>
+
+externdef __imp_RasDeviceEnum:PPROC
+RasDeviceEnum equ <__imp_RasDeviceEnum>
+
+externdef __imp_RasDeviceGetInfo:PPROC
+RasDeviceGetInfo equ <__imp_RasDeviceGetInfo>
+
+externdef __imp_RasDeviceSetInfo:PPROC
+RasDeviceSetInfo equ <__imp_RasDeviceSetInfo>
+
+externdef __imp_RasDoIke:PPROC
+RasDoIke equ <__imp_RasDoIke>
+
+externdef __imp_RasEnableIpSec:PPROC
+RasEnableIpSec equ <__imp_RasEnableIpSec>
+
+externdef __imp_RasEnumConnectionPorts:PPROC
+RasEnumConnectionPorts equ <__imp_RasEnumConnectionPorts>
+
+externdef __imp_RasEnumLanNets:PPROC
+RasEnumLanNets equ <__imp_RasEnumLanNets>
+
+externdef __imp_RasFindPrerequisiteEntry:PPROC
+RasFindPrerequisiteEntry equ <__imp_RasFindPrerequisiteEntry>
+
+externdef __imp_RasFreeBuffer:PPROC
+RasFreeBuffer equ <__imp_RasFreeBuffer>
+
+externdef __imp_RasGetBandwidthUtilization:PPROC
+RasGetBandwidthUtilization equ <__imp_RasGetBandwidthUtilization>
+
+externdef __imp_RasGetBestInterface:PPROC
+RasGetBestInterface equ <__imp_RasGetBestInterface>
+
+externdef __imp_RasGetBuffer:PPROC
+RasGetBuffer equ <__imp_RasGetBuffer>
+
+externdef __imp_RasGetCalledIdInfo:PPROC
+RasGetCalledIdInfo equ <__imp_RasGetCalledIdInfo>
+
+externdef __imp_RasGetConnectInfo:PPROC
+RasGetConnectInfo equ <__imp_RasGetConnectInfo>
+
+externdef __imp_RasGetConnectionParams:PPROC
+RasGetConnectionParams equ <__imp_RasGetConnectionParams>
+
+externdef __imp_RasGetConnectionUserData:PPROC
+RasGetConnectionUserData equ <__imp_RasGetConnectionUserData>
+
+externdef __imp_RasGetCustomScriptDll:PPROC
+RasGetCustomScriptDll equ <__imp_RasGetCustomScriptDll>
+
+externdef __imp_RasGetDevConfig:PPROC
+RasGetDevConfig equ <__imp_RasGetDevConfig>
+
+externdef __imp_RasGetDevConfigEx:PPROC
+RasGetDevConfigEx equ <__imp_RasGetDevConfigEx>
+
+externdef __imp_RasGetDeviceConfigInfo:PPROC
+RasGetDeviceConfigInfo equ <__imp_RasGetDeviceConfigInfo>
+
+externdef __imp_RasGetDeviceName:PPROC
+RasGetDeviceName equ <__imp_RasGetDeviceName>
+
+externdef __imp_RasGetDeviceNameW:PPROC
+RasGetDeviceNameW equ <__imp_RasGetDeviceNameW>
+  IFDEF __UNICODE__
+    RasGetDeviceName equ <__imp_RasGetDeviceNameW>
+  ENDIF
+
+externdef __imp_RasGetDialParams:PPROC
+RasGetDialParams equ <__imp_RasGetDialParams>
+
+externdef __imp_RasGetEapUserInfo:PPROC
+RasGetEapUserInfo equ <__imp_RasGetEapUserInfo>
+
+externdef __imp_RasGetFramingCapabilities:PPROC
+RasGetFramingCapabilities equ <__imp_RasGetFramingCapabilities>
+
+externdef __imp_RasGetHConnFromEntry:PPROC
+RasGetHConnFromEntry equ <__imp_RasGetHConnFromEntry>
+
+externdef __imp_RasGetHportFromConnection:PPROC
+RasGetHportFromConnection equ <__imp_RasGetHportFromConnection>
+
+externdef __imp_RasGetInfo:PPROC
+RasGetInfo equ <__imp_RasGetInfo>
+
+externdef __imp_RasGetInfoEx:PPROC
+RasGetInfoEx equ <__imp_RasGetInfoEx>
+
+externdef __imp_RasGetKey:PPROC
+RasGetKey equ <__imp_RasGetKey>
+
+externdef __imp_RasGetNdiswanDriverCaps:PPROC
+RasGetNdiswanDriverCaps equ <__imp_RasGetNdiswanDriverCaps>
+
+externdef __imp_RasGetNumPortOpen:PPROC
+RasGetNumPortOpen equ <__imp_RasGetNumPortOpen>
+
+externdef __imp_RasGetPortUserData:PPROC
+RasGetPortUserData equ <__imp_RasGetPortUserData>
+
+externdef __imp_RasGetProtocolInfo:PPROC
+RasGetProtocolInfo equ <__imp_RasGetProtocolInfo>
+
+externdef __imp_RasGetTimeSinceLastActivity:PPROC
+RasGetTimeSinceLastActivity equ <__imp_RasGetTimeSinceLastActivity>
+
+externdef __imp_RasGetUnicodeDeviceName:PPROC
+RasGetUnicodeDeviceName equ <__imp_RasGetUnicodeDeviceName>
+
+externdef __imp_RasGetUserCredentials:PPROC
+RasGetUserCredentials equ <__imp_RasGetUserCredentials>
+
+externdef __imp_RasInitialize:PPROC
+RasInitialize equ <__imp_RasInitialize>
+
+externdef __imp_RasInitializeNoWait:PPROC
+RasInitializeNoWait equ <__imp_RasInitializeNoWait>
+
+externdef __imp_RasIsIpSecEnabled:PPROC
+RasIsIpSecEnabled equ <__imp_RasIsIpSecEnabled>
+
+externdef __imp_RasIsPulseDial:PPROC
+RasIsPulseDial equ <__imp_RasIsPulseDial>
+
+externdef __imp_RasIsTrustedCustomDll:PPROC
+RasIsTrustedCustomDll equ <__imp_RasIsTrustedCustomDll>
+
+externdef __imp_RasLinkGetStatistics:PPROC
+RasLinkGetStatistics equ <__imp_RasLinkGetStatistics>
+
+externdef __imp_RasPnPControl:PPROC
+RasPnPControl equ <__imp_RasPnPControl>
+
+externdef __imp_RasPortBundle:PPROC
+RasPortBundle equ <__imp_RasPortBundle>
+
+externdef __imp_RasPortCancelReceive:PPROC
+RasPortCancelReceive equ <__imp_RasPortCancelReceive>
+
+externdef __imp_RasPortClearStatistics:PPROC
+RasPortClearStatistics equ <__imp_RasPortClearStatistics>
+
+externdef __imp_RasPortClose:PPROC
+RasPortClose equ <__imp_RasPortClose>
+
+externdef __imp_RasPortConnectComplete:PPROC
+RasPortConnectComplete equ <__imp_RasPortConnectComplete>
+
+externdef __imp_RasPortDisconnect:PPROC
+RasPortDisconnect equ <__imp_RasPortDisconnect>
+
+externdef __imp_RasPortEnum:PPROC
+RasPortEnum equ <__imp_RasPortEnum>
+
+externdef __imp_RasPortEnumProtocols:PPROC
+RasPortEnumProtocols equ <__imp_RasPortEnumProtocols>
+
+externdef __imp_RasPortFree:PPROC
+RasPortFree equ <__imp_RasPortFree>
+
+externdef __imp_RasPortGetBundle:PPROC
+RasPortGetBundle equ <__imp_RasPortGetBundle>
+
+externdef __imp_RasPortGetBundledPort:PPROC
+RasPortGetBundledPort equ <__imp_RasPortGetBundledPort>
+
+externdef __imp_RasPortGetFramingEx:PPROC
+RasPortGetFramingEx equ <__imp_RasPortGetFramingEx>
+
+externdef __imp_RasPortGetInfo:PPROC
+RasPortGetInfo equ <__imp_RasPortGetInfo>
+
+externdef __imp_RasPortGetProtocolCompression:PPROC
+RasPortGetProtocolCompression equ <__imp_RasPortGetProtocolCompression>
+
+externdef __imp_RasPortGetStatistics:PPROC
+RasPortGetStatistics equ <__imp_RasPortGetStatistics>
+
+externdef __imp_RasPortGetStatisticsEx:PPROC
+RasPortGetStatisticsEx equ <__imp_RasPortGetStatisticsEx>
+
+externdef __imp_RasPortListen:PPROC
+RasPortListen equ <__imp_RasPortListen>
+
+externdef __imp_RasPortOpen:PPROC
+RasPortOpen equ <__imp_RasPortOpen>
+
+externdef __imp_RasPortOpenEx:PPROC
+RasPortOpenEx equ <__imp_RasPortOpenEx>
+
+externdef __imp_RasPortReceive:PPROC
+RasPortReceive equ <__imp_RasPortReceive>
+
+externdef __imp_RasPortReceiveEx:PPROC
+RasPortReceiveEx equ <__imp_RasPortReceiveEx>
+
+externdef __imp_RasPortRegisterSlip:PPROC
+RasPortRegisterSlip equ <__imp_RasPortRegisterSlip>
+
+externdef __imp_RasPortReserve:PPROC
+RasPortReserve equ <__imp_RasPortReserve>
+
+externdef __imp_RasPortRetrieveUserData:PPROC
+RasPortRetrieveUserData equ <__imp_RasPortRetrieveUserData>
+
+externdef __imp_RasPortSend:PPROC
+RasPortSend equ <__imp_RasPortSend>
+
+externdef __imp_RasPortSetFraming:PPROC
+RasPortSetFraming equ <__imp_RasPortSetFraming>
+
+externdef __imp_RasPortSetFramingEx:PPROC
+RasPortSetFramingEx equ <__imp_RasPortSetFramingEx>
+
+externdef __imp_RasPortSetInfo:PPROC
+RasPortSetInfo equ <__imp_RasPortSetInfo>
+
+externdef __imp_RasPortSetProtocolCompression:PPROC
+RasPortSetProtocolCompression equ <__imp_RasPortSetProtocolCompression>
+
+externdef __imp_RasPortStoreUserData:PPROC
+RasPortStoreUserData equ <__imp_RasPortStoreUserData>
+
+externdef __imp_RasPppCallback:PPROC
+RasPppCallback equ <__imp_RasPppCallback>
+
+externdef __imp_RasPppChangePassword:PPROC
+RasPppChangePassword equ <__imp_RasPppChangePassword>
+
+externdef __imp_RasPppGetEapInfo:PPROC
+RasPppGetEapInfo equ <__imp_RasPppGetEapInfo>
+
+externdef __imp_RasPppGetInfo:PPROC
+RasPppGetInfo equ <__imp_RasPppGetInfo>
+
+externdef __imp_RasPppRetry:PPROC
+RasPppRetry equ <__imp_RasPppRetry>
+
+externdef __imp_RasPppSetEapInfo:PPROC
+RasPppSetEapInfo equ <__imp_RasPppSetEapInfo>
+
+externdef __imp_RasPppStart:PPROC
+RasPppStart equ <__imp_RasPppStart>
+
+externdef __imp_RasPppStarted:PPROC
+RasPppStarted equ <__imp_RasPppStarted>
+
+externdef __imp_RasPppStop:PPROC
+RasPppStop equ <__imp_RasPppStop>
+
+externdef __imp_RasProtocolEnum:PPROC
+RasProtocolEnum equ <__imp_RasProtocolEnum>
+
+externdef __imp_RasRPCBind:PPROC
+RasRPCBind equ <__imp_RasRPCBind>
+
+externdef __imp_RasRefConnection:PPROC
+RasRefConnection equ <__imp_RasRefConnection>
+
+externdef __imp_RasReferenceCustomCount:PPROC
+RasReferenceCustomCount equ <__imp_RasReferenceCustomCount>
+
+externdef __imp_RasReferenceRasman:PPROC
+RasReferenceRasman equ <__imp_RasReferenceRasman>
+
+externdef __imp_RasRegisterPnPEvent:PPROC
+RasRegisterPnPEvent equ <__imp_RasRegisterPnPEvent>
+
+externdef __imp_RasRegisterPnPHandler:PPROC
+RasRegisterPnPHandler equ <__imp_RasRegisterPnPHandler>
+
+externdef __imp_RasRegisterRedialCallback:PPROC
+RasRegisterRedialCallback equ <__imp_RasRegisterRedialCallback>
+
+externdef __imp_RasRequestNotification:PPROC
+RasRequestNotification equ <__imp_RasRequestNotification>
+
+externdef __imp_RasRpcConnect:PPROC
+RasRpcConnect equ <__imp_RasRpcConnect>
+
+externdef __imp_RasRpcConnectServer:PPROC
+RasRpcConnectServer equ <__imp_RasRpcConnectServer>
+
+externdef __imp_RasRpcDeleteEntry:PPROC
+RasRpcDeleteEntry equ <__imp_RasRpcDeleteEntry>
+
+externdef __imp_RasRpcDeviceEnum:PPROC
+RasRpcDeviceEnum equ <__imp_RasRpcDeviceEnum>
+
+externdef __imp_RasRpcDisconnect:PPROC
+RasRpcDisconnect equ <__imp_RasRpcDisconnect>
+
+externdef __imp_RasRpcDisconnectServer:PPROC
+RasRpcDisconnectServer equ <__imp_RasRpcDisconnectServer>
+
+externdef __imp_RasRpcEnumConnections:PPROC
+RasRpcEnumConnections equ <__imp_RasRpcEnumConnections>
+
+externdef __imp_RasRpcGetCountryInfo:PPROC
+RasRpcGetCountryInfo equ <__imp_RasRpcGetCountryInfo>
+
+externdef __imp_RasRpcGetDevConfig:PPROC
+RasRpcGetDevConfig equ <__imp_RasRpcGetDevConfig>
+
+externdef __imp_RasRpcGetErrorString:PPROC
+RasRpcGetErrorString equ <__imp_RasRpcGetErrorString>
+
+externdef __imp_RasRpcGetInstalledProtocols:PPROC
+RasRpcGetInstalledProtocols equ <__imp_RasRpcGetInstalledProtocols>
+
+externdef __imp_RasRpcGetInstalledProtocolsEx:PPROC
+RasRpcGetInstalledProtocolsEx equ <__imp_RasRpcGetInstalledProtocolsEx>
+
+externdef __imp_RasRpcGetSystemDirectory:PPROC
+RasRpcGetSystemDirectory equ <__imp_RasRpcGetSystemDirectory>
+
+externdef __imp_RasRpcGetUserPreferences:PPROC
+RasRpcGetUserPreferences equ <__imp_RasRpcGetUserPreferences>
+
+externdef __imp_RasRpcGetVersion:PPROC
+RasRpcGetVersion equ <__imp_RasRpcGetVersion>
+
+externdef __imp_RasRpcPortEnum:PPROC
+RasRpcPortEnum equ <__imp_RasRpcPortEnum>
+
+externdef __imp_RasRpcPortGetInfo:PPROC
+RasRpcPortGetInfo equ <__imp_RasRpcPortGetInfo>
+
+externdef __imp_RasRpcRemoteGetSystemDirectory:PPROC
+RasRpcRemoteGetSystemDirectory equ <__imp_RasRpcRemoteGetSystemDirectory>
+
+externdef __imp_RasRpcRemoteGetUserPreferences:PPROC
+RasRpcRemoteGetUserPreferences equ <__imp_RasRpcRemoteGetUserPreferences>
+
+externdef __imp_RasRpcRemoteRasDeleteEntry:PPROC
+RasRpcRemoteRasDeleteEntry equ <__imp_RasRpcRemoteRasDeleteEntry>
+
+externdef __imp_RasRpcRemoteSetUserPreferences:PPROC
+RasRpcRemoteSetUserPreferences equ <__imp_RasRpcRemoteSetUserPreferences>
+
+externdef __imp_RasRpcSetUserPreferences:PPROC
+RasRpcSetUserPreferences equ <__imp_RasRpcSetUserPreferences>
+
+externdef __imp_RasRpcUnloadDll:PPROC
+RasRpcUnloadDll equ <__imp_RasRpcUnloadDll>
+
+externdef __imp_RasSecurityDialogGetInfo:PPROC
+RasSecurityDialogGetInfo equ <__imp_RasSecurityDialogGetInfo>
+
+externdef __imp_RasSecurityDialogReceive:PPROC
+RasSecurityDialogReceive equ <__imp_RasSecurityDialogReceive>
+
+externdef __imp_RasSecurityDialogSend:PPROC
+RasSecurityDialogSend equ <__imp_RasSecurityDialogSend>
+
+externdef __imp_RasSendCreds:PPROC
+RasSendCreds equ <__imp_RasSendCreds>
+
+externdef __imp_RasSendNotification:PPROC
+RasSendNotification equ <__imp_RasSendNotification>
+
+externdef __imp_RasSendPppMessageToRasman:PPROC
+RasSendPppMessageToRasman equ <__imp_RasSendPppMessageToRasman>
+
+externdef __imp_RasServerPortClose:PPROC
+RasServerPortClose equ <__imp_RasServerPortClose>
+
+externdef __imp_RasSetAddressDisable:PPROC
+RasSetAddressDisable equ <__imp_RasSetAddressDisable>
+
+externdef __imp_RasSetBapPolicy:PPROC
+RasSetBapPolicy equ <__imp_RasSetBapPolicy>
+
+externdef __imp_RasSetCachedCredentials:PPROC
+RasSetCachedCredentials equ <__imp_RasSetCachedCredentials>
+
+externdef __imp_RasSetCalledIdInfo:PPROC
+RasSetCalledIdInfo equ <__imp_RasSetCalledIdInfo>
+
+externdef __imp_RasSetCommSettings:PPROC
+RasSetCommSettings equ <__imp_RasSetCommSettings>
+
+externdef __imp_RasSetConnectionParams:PPROC
+RasSetConnectionParams equ <__imp_RasSetConnectionParams>
+
+externdef __imp_RasSetConnectionUserData:PPROC
+RasSetConnectionUserData equ <__imp_RasSetConnectionUserData>
+
+externdef __imp_RasSetDevConfig:PPROC
+RasSetDevConfig equ <__imp_RasSetDevConfig>
+
+externdef __imp_RasSetDeviceConfigInfo:PPROC
+RasSetDeviceConfigInfo equ <__imp_RasSetDeviceConfigInfo>
+
+externdef __imp_RasSetDialParams:PPROC
+RasSetDialParams equ <__imp_RasSetDialParams>
+
+externdef __imp_RasSetEapLogonInfo:PPROC
+RasSetEapLogonInfo equ <__imp_RasSetEapLogonInfo>
+
+externdef __imp_RasSetEapUserInfo:PPROC
+RasSetEapUserInfo equ <__imp_RasSetEapUserInfo>
+
+externdef __imp_RasSetIoCompletionPort:PPROC
+RasSetIoCompletionPort equ <__imp_RasSetIoCompletionPort>
+
+externdef __imp_RasSetKey:PPROC
+RasSetKey equ <__imp_RasSetKey>
+
+externdef __imp_RasSetPortUserData:PPROC
+RasSetPortUserData equ <__imp_RasSetPortUserData>
+
+externdef __imp_RasSetRasdialInfo:PPROC
+RasSetRasdialInfo equ <__imp_RasSetRasdialInfo>
+
+externdef __imp_RasSetRouterUsage:PPROC
+RasSetRouterUsage equ <__imp_RasSetRouterUsage>
+
+externdef __imp_RasSignalNewConnection:PPROC
+RasSignalNewConnection equ <__imp_RasSignalNewConnection>
+
+externdef __imp_RasStartRasAutoIfRequired:PPROC
+RasStartRasAutoIfRequired equ <__imp_RasStartRasAutoIfRequired>
+
+externdef __imp_RasmanUninitialize:PPROC
+RasmanUninitialize equ <__imp_RasmanUninitialize>

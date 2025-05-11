@@ -1,0 +1,92 @@
+externdef __imp_NatAcquirePortReservation:PPROC
+NatAcquirePortReservation equ <__imp_NatAcquirePortReservation>
+
+externdef __imp_NatCancelDynamicRedirect:PPROC
+NatCancelDynamicRedirect equ <__imp_NatCancelDynamicRedirect>
+
+externdef __imp_NatCancelRedirect:PPROC
+NatCancelRedirect equ <__imp_NatCancelRedirect>
+
+externdef __imp_NatCreateDynamicFullRedirect:PPROC
+NatCreateDynamicFullRedirect equ <__imp_NatCreateDynamicFullRedirect>
+
+externdef __imp_NatCreateDynamicRedirect:PPROC
+NatCreateDynamicRedirect equ <__imp_NatCreateDynamicRedirect>
+
+externdef __imp_NatCreateDynamicRedirectEx:PPROC
+NatCreateDynamicRedirectEx equ <__imp_NatCreateDynamicRedirectEx>
+
+externdef __imp_NatCreateRedirect:PPROC
+NatCreateRedirect equ <__imp_NatCreateRedirect>
+
+externdef __imp_NatCreateRedirectEx:PPROC
+NatCreateRedirectEx equ <__imp_NatCreateRedirectEx>
+
+externdef __imp_NatInitializePortReservation:PPROC
+NatInitializePortReservation equ <__imp_NatInitializePortReservation>
+
+externdef __imp_NatInitializeTranslator:PPROC
+NatInitializeTranslator equ <__imp_NatInitializeTranslator>
+
+externdef __imp_NatLookupAndQueryInformationSessionMapping:PPROC
+NatLookupAndQueryInformationSessionMapping equ <__imp_NatLookupAndQueryInformationSessionMapping>
+
+externdef __imp_NatQueryInformationRedirect:PPROC
+NatQueryInformationRedirect equ <__imp_NatQueryInformationRedirect>
+
+externdef __imp_NatQueryInformationRedirectHandle:PPROC
+NatQueryInformationRedirectHandle equ <__imp_NatQueryInformationRedirectHandle>
+
+externdef __imp_NatReleasePortReservation:PPROC
+NatReleasePortReservation equ <__imp_NatReleasePortReservation>
+
+externdef __imp_NatShutdownPortReservation:PPROC
+NatShutdownPortReservation equ <__imp_NatShutdownPortReservation>
+
+externdef __imp_NatShutdownTranslator:PPROC
+NatShutdownTranslator equ <__imp_NatShutdownTranslator>
+
+externdef __imp_NhAcceptStreamSocket:PPROC
+NhAcceptStreamSocket equ <__imp_NhAcceptStreamSocket>
+
+externdef __imp_NhAcquireFixedLengthBuffer:PPROC
+NhAcquireFixedLengthBuffer equ <__imp_NhAcquireFixedLengthBuffer>
+
+externdef __imp_NhAcquireVariableLengthBuffer:PPROC
+NhAcquireVariableLengthBuffer equ <__imp_NhAcquireVariableLengthBuffer>
+
+externdef __imp_NhCreateDatagramSocket:PPROC
+NhCreateDatagramSocket equ <__imp_NhCreateDatagramSocket>
+
+externdef __imp_NhCreateStreamSocket:PPROC
+NhCreateStreamSocket equ <__imp_NhCreateStreamSocket>
+
+externdef __imp_NhDeleteSocket:PPROC
+NhDeleteSocket equ <__imp_NhDeleteSocket>
+
+externdef __imp_NhInitializeBufferManagement:PPROC
+NhInitializeBufferManagement equ <__imp_NhInitializeBufferManagement>
+
+externdef __imp_NhInitializeTraceManagement:PPROC
+NhInitializeTraceManagement equ <__imp_NhInitializeTraceManagement>
+
+externdef __imp_NhReadDatagramSocket:PPROC
+NhReadDatagramSocket equ <__imp_NhReadDatagramSocket>
+
+externdef __imp_NhReadStreamSocket:PPROC
+NhReadStreamSocket equ <__imp_NhReadStreamSocket>
+
+externdef __imp_NhReleaseBuffer:PPROC
+NhReleaseBuffer equ <__imp_NhReleaseBuffer>
+
+externdef __imp_NhWriteDatagramSocket:PPROC
+NhWriteDatagramSocket equ <__imp_NhWriteDatagramSocket>
+
+externdef __imp_NhWriteStreamSocket:PPROC
+NhWriteStreamSocket equ <__imp_NhWriteStreamSocket>
+
+externdef __imp_RegisterProtocol:PPROC
+RegisterProtocol equ <__imp_RegisterProtocol>
+
+externdef __imp_ServiceMain:PPROC
+ServiceMain equ <__imp_ServiceMain>

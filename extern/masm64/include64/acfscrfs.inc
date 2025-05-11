@@ -1,0 +1,5 @@
+externdef __imp_ASPCARDCacheEnd:PPROC
+ASPCARDCacheEnd equ <__imp_ASPCARDCacheEnd>
+
+externdef __imp_ASPCARDCardEdgeIdentifier:PPROC
+ASPCARDCardEdgeIdentifier equ <__imp_ASPCARDCardEdgeIdentifier>

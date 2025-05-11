@@ -1,0 +1,239 @@
+externdef __imp_LsAppendRunToCurrentSubline:PPROC
+LsAppendRunToCurrentSubline equ <__imp_LsAppendRunToCurrentSubline>
+
+externdef __imp_LsCompressSubline:PPROC
+LsCompressSubline equ <__imp_LsCompressSubline>
+
+externdef __imp_LsCreateContext:PPROC
+LsCreateContext equ <__imp_LsCreateContext>
+
+externdef __imp_LsCreateLine:PPROC
+LsCreateLine equ <__imp_LsCreateLine>
+
+externdef __imp_LsCreateSubline:PPROC
+LsCreateSubline equ <__imp_LsCreateSubline>
+
+externdef __imp_LsDestroyContext:PPROC
+LsDestroyContext equ <__imp_LsDestroyContext>
+
+externdef __imp_LsDestroyLine:PPROC
+LsDestroyLine equ <__imp_LsDestroyLine>
+
+externdef __imp_LsDestroySubline:PPROC
+LsDestroySubline equ <__imp_LsDestroySubline>
+
+externdef __imp_LsDisplayLine:PPROC
+LsDisplayLine equ <__imp_LsDisplayLine>
+
+externdef __imp_LsDisplaySubline:PPROC
+LsDisplaySubline equ <__imp_LsDisplaySubline>
+
+externdef __imp_LsEnumLine:PPROC
+LsEnumLine equ <__imp_LsEnumLine>
+
+externdef __imp_LsEnumSubline:PPROC
+LsEnumSubline equ <__imp_LsEnumSubline>
+
+externdef __imp_LsExpandSubline:PPROC
+LsExpandSubline equ <__imp_LsExpandSubline>
+
+externdef __imp_LsFetchAppendToCurrentSubline:PPROC
+LsFetchAppendToCurrentSubline equ <__imp_LsFetchAppendToCurrentSubline>
+
+externdef __imp_LsFetchAppendToCurrentSublineResume:PPROC
+LsFetchAppendToCurrentSublineResume equ <__imp_LsFetchAppendToCurrentSublineResume>
+
+externdef __imp_LsFindNextBreakSubline:PPROC
+LsFindNextBreakSubline equ <__imp_LsFindNextBreakSubline>
+
+externdef __imp_LsFindPrevBreakSubline:PPROC
+LsFindPrevBreakSubline equ <__imp_LsFindPrevBreakSubline>
+
+externdef __imp_LsFinishCurrentSubline:PPROC
+LsFinishCurrentSubline equ <__imp_LsFinishCurrentSubline>
+
+externdef __imp_LsForceBreakSubline:PPROC
+LsForceBreakSubline equ <__imp_LsForceBreakSubline>
+
+externdef __imp_LsGetHihLsimethods:PPROC
+LsGetHihLsimethods equ <__imp_LsGetHihLsimethods>
+
+externdef __imp_LsGetLineDur:PPROC
+LsGetLineDur equ <__imp_LsGetLineDur>
+
+externdef __imp_LsGetMinDurBreaks:PPROC
+LsGetMinDurBreaks equ <__imp_LsGetMinDurBreaks>
+
+externdef __imp_LsGetReverseLsimethods:PPROC
+LsGetReverseLsimethods equ <__imp_LsGetReverseLsimethods>
+
+externdef __imp_LsGetRubyLsimethods:PPROC
+LsGetRubyLsimethods equ <__imp_LsGetRubyLsimethods>
+
+externdef __imp_LsGetSpecialEffectsSubline:PPROC
+LsGetSpecialEffectsSubline equ <__imp_LsGetSpecialEffectsSubline>
+
+externdef __imp_LsGetTatenakayokoLsimethods:PPROC
+LsGetTatenakayokoLsimethods equ <__imp_LsGetTatenakayokoLsimethods>
+
+externdef __imp_LsGetWarichuLsimethods:PPROC
+LsGetWarichuLsimethods equ <__imp_LsGetWarichuLsimethods>
+
+externdef __imp_LsLwMultDivR:PPROC
+LsLwMultDivR equ <__imp_LsLwMultDivR>
+
+externdef __imp_LsMatchPresSubline:PPROC
+LsMatchPresSubline equ <__imp_LsMatchPresSubline>
+
+externdef __imp_LsModifyLineHeight:PPROC
+LsModifyLineHeight equ <__imp_LsModifyLineHeight>
+
+externdef __imp_LsPointUV2FromPointUV1:PPROC
+LsPointUV2FromPointUV1 equ <__imp_LsPointUV2FromPointUV1>
+
+externdef __imp_LsPointXYFromPointUV:PPROC
+LsPointXYFromPointUV equ <__imp_LsPointXYFromPointUV>
+
+externdef __imp_LsQueryCpPpointSubline:PPROC
+LsQueryCpPpointSubline equ <__imp_LsQueryCpPpointSubline>
+
+externdef __imp_LsQueryFLineEmpty:PPROC
+LsQueryFLineEmpty equ <__imp_LsQueryFLineEmpty>
+
+externdef __imp_LsQueryLineCpPpoint:PPROC
+LsQueryLineCpPpoint equ <__imp_LsQueryLineCpPpoint>
+
+externdef __imp_LsQueryLineDup:PPROC
+LsQueryLineDup equ <__imp_LsQueryLineDup>
+
+externdef __imp_LsQueryLinePointPcp:PPROC
+LsQueryLinePointPcp equ <__imp_LsQueryLinePointPcp>
+
+externdef __imp_LsQueryPointPcpSubline:PPROC
+LsQueryPointPcpSubline equ <__imp_LsQueryPointPcpSubline>
+
+externdef __imp_LsQueryTextCellDetails:PPROC
+LsQueryTextCellDetails equ <__imp_LsQueryTextCellDetails>
+
+externdef __imp_LsResetRMInCurrentSubline:PPROC
+LsResetRMInCurrentSubline equ <__imp_LsResetRMInCurrentSubline>
+
+externdef __imp_LsSetBreakSubline:PPROC
+LsSetBreakSubline equ <__imp_LsSetBreakSubline>
+
+externdef __imp_LsSetBreaking:PPROC
+LsSetBreaking equ <__imp_LsSetBreaking>
+
+externdef __imp_LsSetCompression:PPROC
+LsSetCompression equ <__imp_LsSetCompression>
+
+externdef __imp_LsSetDoc:PPROC
+LsSetDoc equ <__imp_LsSetDoc>
+
+externdef __imp_LsSetExpansion:PPROC
+LsSetExpansion equ <__imp_LsSetExpansion>
+
+externdef __imp_LsSetModWidthPairs:PPROC
+LsSetModWidthPairs equ <__imp_LsSetModWidthPairs>
+
+externdef __imp_LsSqueezeSubline:PPROC
+LsSqueezeSubline equ <__imp_LsSqueezeSubline>
+
+externdef __imp_LsTruncateSubline:PPROC
+LsTruncateSubline equ <__imp_LsTruncateSubline>
+
+externdef __imp_LsdnDistribute:PPROC
+LsdnDistribute equ <__imp_LsdnDistribute>
+
+externdef __imp_LsdnFinishByOneChar:PPROC
+LsdnFinishByOneChar equ <__imp_LsdnFinishByOneChar>
+
+externdef __imp_LsdnFinishByPen:PPROC
+LsdnFinishByPen equ <__imp_LsdnFinishByPen>
+
+externdef __imp_LsdnFinishBySubline:PPROC
+LsdnFinishBySubline equ <__imp_LsdnFinishBySubline>
+
+externdef __imp_LsdnFinishDelete:PPROC
+LsdnFinishDelete equ <__imp_LsdnFinishDelete>
+
+externdef __imp_LsdnFinishDeleteAll:PPROC
+LsdnFinishDeleteAll equ <__imp_LsdnFinishDeleteAll>
+
+externdef __imp_LsdnFinishRegular:PPROC
+LsdnFinishRegular equ <__imp_LsdnFinishRegular>
+
+externdef __imp_LsdnFinishRegularAddAdvancePen:PPROC
+LsdnFinishRegularAddAdvancePen equ <__imp_LsdnFinishRegularAddAdvancePen>
+
+externdef __imp_LsdnGetCurTabInfo:PPROC
+LsdnGetCurTabInfo equ <__imp_LsdnGetCurTabInfo>
+
+externdef __imp_LsdnGetDup:PPROC
+LsdnGetDup equ <__imp_LsdnGetDup>
+
+externdef __imp_LsdnGetFormatDepth:PPROC
+LsdnGetFormatDepth equ <__imp_LsdnGetFormatDepth>
+
+externdef __imp_LsdnModifyParaEnding:PPROC
+LsdnModifyParaEnding equ <__imp_LsdnModifyParaEnding>
+
+externdef __imp_LsdnQueryObjDimRange:PPROC
+LsdnQueryObjDimRange equ <__imp_LsdnQueryObjDimRange>
+
+externdef __imp_LsdnQueryPenNode:PPROC
+LsdnQueryPenNode equ <__imp_LsdnQueryPenNode>
+
+externdef __imp_LsdnResetObjDim:PPROC
+LsdnResetObjDim equ <__imp_LsdnResetObjDim>
+
+externdef __imp_LsdnResetPenNode:PPROC
+LsdnResetPenNode equ <__imp_LsdnResetPenNode>
+
+externdef __imp_LsdnResolvePrevTab:PPROC
+LsdnResolvePrevTab equ <__imp_LsdnResolvePrevTab>
+
+externdef __imp_LsdnSetAbsBaseLine:PPROC
+LsdnSetAbsBaseLine equ <__imp_LsdnSetAbsBaseLine>
+
+externdef __imp_LsdnSetRigidDup:PPROC
+LsdnSetRigidDup equ <__imp_LsdnSetRigidDup>
+
+externdef __imp_LsdnSkipCurTab:PPROC
+LsdnSkipCurTab equ <__imp_LsdnSkipCurTab>
+
+externdef __imp_LsdnSubmitSublines:PPROC
+LsdnSubmitSublines equ <__imp_LsdnSubmitSublines>
+
+externdef __imp_LssbFDoneDisplay:PPROC
+LssbFDoneDisplay equ <__imp_LssbFDoneDisplay>
+
+externdef __imp_LssbFDonePresSubline:PPROC
+LssbFDonePresSubline equ <__imp_LssbFDonePresSubline>
+
+externdef __imp_LssbFIsSublineEmpty:PPROC
+LssbFIsSublineEmpty equ <__imp_LssbFIsSublineEmpty>
+
+externdef __imp_LssbGetDupSubline:PPROC
+LssbGetDupSubline equ <__imp_LssbGetDupSubline>
+
+externdef __imp_LssbGetDurTrailInSubline:PPROC
+LssbGetDurTrailInSubline equ <__imp_LssbGetDurTrailInSubline>
+
+externdef __imp_LssbGetDurTrailWithPensInSubline:PPROC
+LssbGetDurTrailWithPensInSubline equ <__imp_LssbGetDurTrailWithPensInSubline>
+
+externdef __imp_LssbGetNumberDnodesInSubline:PPROC
+LssbGetNumberDnodesInSubline equ <__imp_LssbGetNumberDnodesInSubline>
+
+externdef __imp_LssbGetObjDimSubline:PPROC
+LssbGetObjDimSubline equ <__imp_LssbGetObjDimSubline>
+
+externdef __imp_LssbGetPlsrunsFromSubline:PPROC
+LssbGetPlsrunsFromSubline equ <__imp_LssbGetPlsrunsFromSubline>
+
+externdef __imp_LssbGetVisibleDcpInSubline:PPROC
+LssbGetVisibleDcpInSubline equ <__imp_LssbGetVisibleDcpInSubline>
+
+externdef __imp_msls31_ordinal38:PPROC
+msls31_ordinal38 equ <__imp_msls31_ordinal38>

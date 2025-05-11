@@ -1,0 +1,101 @@
+externdef __imp_MQADBeginDeleteNotification:PPROC
+MQADBeginDeleteNotification equ <__imp_MQADBeginDeleteNotification>
+
+externdef __imp_MQADCreateObject:PPROC
+MQADCreateObject equ <__imp_MQADCreateObject>
+
+externdef __imp_MQADDeleteObject:PPROC
+MQADDeleteObject equ <__imp_MQADDeleteObject>
+
+externdef __imp_MQADDeleteObjectGuid:PPROC
+MQADDeleteObjectGuid equ <__imp_MQADDeleteObjectGuid>
+
+externdef __imp_MQADDeleteObjectGuidSid:PPROC
+MQADDeleteObjectGuidSid equ <__imp_MQADDeleteObjectGuidSid>
+
+externdef __imp_MQADEndDeleteNotification:PPROC
+MQADEndDeleteNotification equ <__imp_MQADEndDeleteNotification>
+
+externdef __imp_MQADEndQuery:PPROC
+MQADEndQuery equ <__imp_MQADEndQuery>
+
+externdef __imp_MQADFreeMemory:PPROC
+MQADFreeMemory equ <__imp_MQADFreeMemory>
+
+externdef __imp_MQADGetADsPathInfo:PPROC
+MQADGetADsPathInfo equ <__imp_MQADGetADsPathInfo>
+
+externdef __imp_MQADGetComputerSites:PPROC
+MQADGetComputerSites equ <__imp_MQADGetComputerSites>
+
+externdef __imp_MQADGetComputerVersion:PPROC
+MQADGetComputerVersion equ <__imp_MQADGetComputerVersion>
+
+externdef __imp_MQADGetGenObjectProperties:PPROC
+MQADGetGenObjectProperties equ <__imp_MQADGetGenObjectProperties>
+
+externdef __imp_MQADGetObjectProperties:PPROC
+MQADGetObjectProperties equ <__imp_MQADGetObjectProperties>
+
+externdef __imp_MQADGetObjectPropertiesGuid:PPROC
+MQADGetObjectPropertiesGuid equ <__imp_MQADGetObjectPropertiesGuid>
+
+externdef __imp_MQADGetObjectSecurity:PPROC
+MQADGetObjectSecurity equ <__imp_MQADGetObjectSecurity>
+
+externdef __imp_MQADGetObjectSecurityGuid:PPROC
+MQADGetObjectSecurityGuid equ <__imp_MQADGetObjectSecurityGuid>
+
+externdef __imp_MQADInit:PPROC
+MQADInit equ <__imp_MQADInit>
+
+externdef __imp_MQADNotifyDelete:PPROC
+MQADNotifyDelete equ <__imp_MQADNotifyDelete>
+
+externdef __imp_MQADQMGetObjectSecurity:PPROC
+MQADQMGetObjectSecurity equ <__imp_MQADQMGetObjectSecurity>
+
+externdef __imp_MQADQueryAllLinks:PPROC
+MQADQueryAllLinks equ <__imp_MQADQueryAllLinks>
+
+externdef __imp_MQADQueryAllSites:PPROC
+MQADQueryAllSites equ <__imp_MQADQueryAllSites>
+
+externdef __imp_MQADQueryConnectors:PPROC
+MQADQueryConnectors equ <__imp_MQADQueryConnectors>
+
+externdef __imp_MQADQueryForeignSites:PPROC
+MQADQueryForeignSites equ <__imp_MQADQueryForeignSites>
+
+externdef __imp_MQADQueryLinks:PPROC
+MQADQueryLinks equ <__imp_MQADQueryLinks>
+
+externdef __imp_MQADQueryMachineQueues:PPROC
+MQADQueryMachineQueues equ <__imp_MQADQueryMachineQueues>
+
+externdef __imp_MQADQueryNT4MQISServers:PPROC
+MQADQueryNT4MQISServers equ <__imp_MQADQueryNT4MQISServers>
+
+externdef __imp_MQADQueryQueues:PPROC
+MQADQueryQueues equ <__imp_MQADQueryQueues>
+
+externdef __imp_MQADQueryResults:PPROC
+MQADQueryResults equ <__imp_MQADQueryResults>
+
+externdef __imp_MQADQuerySiteServers:PPROC
+MQADQuerySiteServers equ <__imp_MQADQuerySiteServers>
+
+externdef __imp_MQADQueryUserCert:PPROC
+MQADQueryUserCert equ <__imp_MQADQueryUserCert>
+
+externdef __imp_MQADSetObjectProperties:PPROC
+MQADSetObjectProperties equ <__imp_MQADSetObjectProperties>
+
+externdef __imp_MQADSetObjectPropertiesGuid:PPROC
+MQADSetObjectPropertiesGuid equ <__imp_MQADSetObjectPropertiesGuid>
+
+externdef __imp_MQADSetObjectSecurity:PPROC
+MQADSetObjectSecurity equ <__imp_MQADSetObjectSecurity>
+
+externdef __imp_MQADSetObjectSecurityGuid:PPROC
+MQADSetObjectSecurityGuid equ <__imp_MQADSetObjectSecurityGuid>

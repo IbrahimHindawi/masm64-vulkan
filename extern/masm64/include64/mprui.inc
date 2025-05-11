@@ -1,0 +1,50 @@
+externdef __imp_BrowseDialogA0:PPROC
+BrowseDialogA0 equ <__imp_BrowseDialogA0>
+
+externdef __imp_MPRUI_DoPasswordDialog:PPROC
+MPRUI_DoPasswordDialog equ <__imp_MPRUI_DoPasswordDialog>
+
+externdef __imp_MPRUI_DoProfileErrorDialog:PPROC
+MPRUI_DoProfileErrorDialog equ <__imp_MPRUI_DoProfileErrorDialog>
+
+externdef __imp_MPRUI_ShowReconnectDialog:PPROC
+MPRUI_ShowReconnectDialog equ <__imp_MPRUI_ShowReconnectDialog>
+
+externdef __imp_MPRUI_WNetClearConnections:PPROC
+MPRUI_WNetClearConnections equ <__imp_MPRUI_WNetClearConnections>
+
+externdef __imp_MPRUI_WNetConnectionDialog1A:PPROC
+MPRUI_WNetConnectionDialog1A equ <__imp_MPRUI_WNetConnectionDialog1A>
+  IFNDEF __UNICODE__
+    MPRUI_WNetConnectionDialog1 equ <__imp_MPRUI_WNetConnectionDialog1A>
+  ENDIF
+
+externdef __imp_MPRUI_WNetConnectionDialog1W:PPROC
+MPRUI_WNetConnectionDialog1W equ <__imp_MPRUI_WNetConnectionDialog1W>
+  IFDEF __UNICODE__
+    MPRUI_WNetConnectionDialog1 equ <__imp_MPRUI_WNetConnectionDialog1W>
+  ENDIF
+
+externdef __imp_MPRUI_WNetConnectionDialog:PPROC
+MPRUI_WNetConnectionDialog equ <__imp_MPRUI_WNetConnectionDialog>
+
+externdef __imp_MPRUI_WNetDisconnectDialog1A:PPROC
+MPRUI_WNetDisconnectDialog1A equ <__imp_MPRUI_WNetDisconnectDialog1A>
+  IFNDEF __UNICODE__
+    MPRUI_WNetDisconnectDialog1 equ <__imp_MPRUI_WNetDisconnectDialog1A>
+  ENDIF
+
+externdef __imp_MPRUI_WNetDisconnectDialog1W:PPROC
+MPRUI_WNetDisconnectDialog1W equ <__imp_MPRUI_WNetDisconnectDialog1W>
+  IFDEF __UNICODE__
+    MPRUI_WNetDisconnectDialog1 equ <__imp_MPRUI_WNetDisconnectDialog1W>
+  ENDIF
+
+externdef __imp_MPRUI_WNetDisconnectDialog:PPROC
+MPRUI_WNetDisconnectDialog equ <__imp_MPRUI_WNetDisconnectDialog>
+
+externdef __imp_WNetBrowseDialog:PPROC
+WNetBrowseDialog equ <__imp_WNetBrowseDialog>
+
+externdef __imp_WNetBrowsePrinterDialog:PPROC
+WNetBrowsePrinterDialog equ <__imp_WNetBrowsePrinterDialog>

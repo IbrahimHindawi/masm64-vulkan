@@ -1,0 +1,26 @@
+externdef __imp_CceDetectInputCode:PPROC
+CceDetectInputCode equ <__imp_CceDetectInputCode>
+
+externdef __imp_CceGetAvailableEncodings:PPROC
+CceGetAvailableEncodings equ <__imp_CceGetAvailableEncodings>
+
+externdef __imp_CceIsAvailableEncoding:PPROC
+CceIsAvailableEncoding equ <__imp_CceIsAvailableEncoding>
+
+externdef __imp_CceStreamMultiByteToUnicode:PPROC
+CceStreamMultiByteToUnicode equ <__imp_CceStreamMultiByteToUnicode>
+
+externdef __imp_CceStreamUnicodeToMultiByte:PPROC
+CceStreamUnicodeToMultiByte equ <__imp_CceStreamUnicodeToMultiByte>
+
+externdef __imp_CceStringMultiByteToUnicode:PPROC
+CceStringMultiByteToUnicode equ <__imp_CceStringMultiByteToUnicode>
+
+externdef __imp_CceStringUnicodeToMultiByte:PPROC
+CceStringUnicodeToMultiByte equ <__imp_CceStringUnicodeToMultiByte>
+
+externdef __imp_DllMain:PPROC
+DllMain equ <__imp_DllMain>
+
+externdef __imp_FetchMsEncodeDllVersion:PPROC
+FetchMsEncodeDllVersion equ <__imp_FetchMsEncodeDllVersion>

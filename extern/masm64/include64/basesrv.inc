@@ -1,0 +1,11 @@
+externdef __imp_BaseSetProcessCreateNotify:PPROC
+BaseSetProcessCreateNotify equ <__imp_BaseSetProcessCreateNotify>
+
+externdef __imp_BaseSrvNlsLogon:PPROC
+BaseSrvNlsLogon equ <__imp_BaseSrvNlsLogon>
+
+externdef __imp_BaseSrvNlsUpdateRegistryCache:PPROC
+BaseSrvNlsUpdateRegistryCache equ <__imp_BaseSrvNlsUpdateRegistryCache>
+
+externdef __imp_ServerDllInitialization:PPROC
+ServerDllInitialization equ <__imp_ServerDllInitialization>

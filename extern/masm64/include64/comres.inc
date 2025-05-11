@@ -1,0 +1,2 @@
+externdef __imp_COMResModuleInstance:PPROC
+COMResModuleInstance equ <__imp_COMResModuleInstance>

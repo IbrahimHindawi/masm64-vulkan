@@ -1,0 +1,23 @@
+externdef __imp_SisCSFilesToBackupForLink:PPROC
+SisCSFilesToBackupForLink equ <__imp_SisCSFilesToBackupForLink>
+
+externdef __imp_SisCreateBackupStructure:PPROC
+SisCreateBackupStructure equ <__imp_SisCreateBackupStructure>
+
+externdef __imp_SisCreateRestoreStructure:PPROC
+SisCreateRestoreStructure equ <__imp_SisCreateRestoreStructure>
+
+externdef __imp_SisFreeAllocatedMemory:PPROC
+SisFreeAllocatedMemory equ <__imp_SisFreeAllocatedMemory>
+
+externdef __imp_SisFreeBackupStructure:PPROC
+SisFreeBackupStructure equ <__imp_SisFreeBackupStructure>
+
+externdef __imp_SisFreeRestoreStructure:PPROC
+SisFreeRestoreStructure equ <__imp_SisFreeRestoreStructure>
+
+externdef __imp_SisRestoredCommonStoreFile:PPROC
+SisRestoredCommonStoreFile equ <__imp_SisRestoredCommonStoreFile>
+
+externdef __imp_SisRestoredLink:PPROC
+SisRestoredLink equ <__imp_SisRestoredLink>

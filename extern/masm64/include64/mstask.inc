@@ -1,0 +1,38 @@
+externdef __imp_ConvertAtJobsToTasks:PPROC
+ConvertAtJobsToTasks equ <__imp_ConvertAtJobsToTasks>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_GetNetScheduleAccountInformation:PPROC
+GetNetScheduleAccountInformation equ <__imp_GetNetScheduleAccountInformation>
+
+externdef __imp_NetrJobAdd:PPROC
+NetrJobAdd equ <__imp_NetrJobAdd>
+
+externdef __imp_NetrJobDel:PPROC
+NetrJobDel equ <__imp_NetrJobDel>
+
+externdef __imp_NetrJobEnum:PPROC
+NetrJobEnum equ <__imp_NetrJobEnum>
+
+externdef __imp_NetrJobGetInfo:PPROC
+NetrJobGetInfo equ <__imp_NetrJobGetInfo>
+
+externdef __imp_SAGetAccountInformation:PPROC
+SAGetAccountInformation equ <__imp_SAGetAccountInformation>
+
+externdef __imp_SAGetNSAccountInformation:PPROC
+SAGetNSAccountInformation equ <__imp_SAGetNSAccountInformation>
+
+externdef __imp_SASetAccountInformation:PPROC
+SASetAccountInformation equ <__imp_SASetAccountInformation>
+
+externdef __imp_SASetNSAccountInformation:PPROC
+SASetNSAccountInformation equ <__imp_SASetNSAccountInformation>
+
+externdef __imp_SetNetScheduleAccountInformation:PPROC
+SetNetScheduleAccountInformation equ <__imp_SetNetScheduleAccountInformation>

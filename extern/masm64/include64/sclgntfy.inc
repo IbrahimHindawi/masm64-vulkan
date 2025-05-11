@@ -1,0 +1,35 @@
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_GenerateDefaultEFSRecoveryPolicy:PPROC
+GenerateDefaultEFSRecoveryPolicy equ <__imp_GenerateDefaultEFSRecoveryPolicy>
+
+externdef __imp_WLEventLock:PPROC
+WLEventLock equ <__imp_WLEventLock>
+
+externdef __imp_WLEventLogoff:PPROC
+WLEventLogoff equ <__imp_WLEventLogoff>
+
+externdef __imp_WLEventLogon:PPROC
+WLEventLogon equ <__imp_WLEventLogon>
+
+externdef __imp_WLEventShutdown:PPROC
+WLEventShutdown equ <__imp_WLEventShutdown>
+
+externdef __imp_WLEventStartScreenSaver:PPROC
+WLEventStartScreenSaver equ <__imp_WLEventStartScreenSaver>
+
+externdef __imp_WLEventStartShell:PPROC
+WLEventStartShell equ <__imp_WLEventStartShell>
+
+externdef __imp_WLEventStartup:PPROC
+WLEventStartup equ <__imp_WLEventStartup>
+
+externdef __imp_WLEventStopScreenSaver:PPROC
+WLEventStopScreenSaver equ <__imp_WLEventStopScreenSaver>
+
+externdef __imp_WLEventUnlock:PPROC
+WLEventUnlock equ <__imp_WLEventUnlock>

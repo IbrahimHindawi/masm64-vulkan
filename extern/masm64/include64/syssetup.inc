@@ -1,0 +1,284 @@
+externdef __imp_AsrAddSifEntryA:PPROC
+AsrAddSifEntryA equ <__imp_AsrAddSifEntryA>
+  IFNDEF __UNICODE__
+    AsrAddSifEntry equ <__imp_AsrAddSifEntryA>
+  ENDIF
+
+externdef __imp_AsrAddSifEntryW:PPROC
+AsrAddSifEntryW equ <__imp_AsrAddSifEntryW>
+  IFDEF __UNICODE__
+    AsrAddSifEntry equ <__imp_AsrAddSifEntryW>
+  ENDIF
+
+externdef __imp_AsrCreateStateFileA:PPROC
+AsrCreateStateFileA equ <__imp_AsrCreateStateFileA>
+  IFNDEF __UNICODE__
+    AsrCreateStateFile equ <__imp_AsrCreateStateFileA>
+  ENDIF
+
+externdef __imp_AsrCreateStateFileW:PPROC
+AsrCreateStateFileW equ <__imp_AsrCreateStateFileW>
+  IFDEF __UNICODE__
+    AsrCreateStateFile equ <__imp_AsrCreateStateFileW>
+  ENDIF
+
+externdef __imp_AsrFreeContext:PPROC
+AsrFreeContext equ <__imp_AsrFreeContext>
+
+externdef __imp_AsrRestorePlugPlayRegistryData:PPROC
+AsrRestorePlugPlayRegistryData equ <__imp_AsrRestorePlugPlayRegistryData>
+
+externdef __imp_AsrpGetLocalDiskInfo:PPROC
+AsrpGetLocalDiskInfo equ <__imp_AsrpGetLocalDiskInfo>
+
+externdef __imp_AsrpGetLocalVolumeInfo:PPROC
+AsrpGetLocalVolumeInfo equ <__imp_AsrpGetLocalVolumeInfo>
+
+externdef __imp_AsrpRestoreNonCriticalDisksW:PPROC
+AsrpRestoreNonCriticalDisksW equ <__imp_AsrpRestoreNonCriticalDisksW>
+  IFDEF __UNICODE__
+    AsrpRestoreNonCriticalDisks equ <__imp_AsrpRestoreNonCriticalDisksW>
+  ENDIF
+
+externdef __imp_ComputerClassInstaller:PPROC
+ComputerClassInstaller equ <__imp_ComputerClassInstaller>
+
+externdef __imp_CreateLocalAdminAccount:PPROC
+CreateLocalAdminAccount equ <__imp_CreateLocalAdminAccount>
+
+externdef __imp_CreateLocalAdminAccountEx:PPROC
+CreateLocalAdminAccountEx equ <__imp_CreateLocalAdminAccountEx>
+
+externdef __imp_CreateLocalUserAccount:PPROC
+CreateLocalUserAccount equ <__imp_CreateLocalUserAccount>
+
+externdef __imp_CriticalDeviceCoInstaller:PPROC
+CriticalDeviceCoInstaller equ <__imp_CriticalDeviceCoInstaller>
+
+externdef __imp_DevInstallW:PPROC
+DevInstallW equ <__imp_DevInstallW>
+  IFDEF __UNICODE__
+    DevInstall equ <__imp_DevInstallW>
+  ENDIF
+
+externdef __imp_DeviceBayClassInstaller:PPROC
+DeviceBayClassInstaller equ <__imp_DeviceBayClassInstaller>
+
+externdef __imp_DiskPropPageProvider:PPROC
+DiskPropPageProvider equ <__imp_DiskPropPageProvider>
+
+externdef __imp_DoInstallComponentInfs:PPROC
+DoInstallComponentInfs equ <__imp_DoInstallComponentInfs>
+
+externdef __imp_EisaUpHalCoInstaller:PPROC
+EisaUpHalCoInstaller equ <__imp_EisaUpHalCoInstaller>
+
+externdef __imp_GenerateName:PPROC
+GenerateName equ <__imp_GenerateName>
+
+externdef __imp_GetAnswerFileSetting:PPROC
+GetAnswerFileSetting equ <__imp_GetAnswerFileSetting>
+
+externdef __imp_HdcClassInstaller:PPROC
+HdcClassInstaller equ <__imp_HdcClassInstaller>
+
+externdef __imp_InitializeSetupLog:PPROC
+InitializeSetupLog equ <__imp_InitializeSetupLog>
+
+externdef __imp_InstallWindowsNt:PPROC
+InstallWindowsNt equ <__imp_InstallWindowsNt>
+
+externdef __imp_InvokeExternalApplicationEx:PPROC
+InvokeExternalApplicationEx equ <__imp_InvokeExternalApplicationEx>
+
+externdef __imp_KeyboardClassInstaller:PPROC
+KeyboardClassInstaller equ <__imp_KeyboardClassInstaller>
+
+externdef __imp_LegacyDriverPropPageProvider:PPROC
+LegacyDriverPropPageProvider equ <__imp_LegacyDriverPropPageProvider>
+
+externdef __imp_MigrateExceptionPackages:PPROC
+MigrateExceptionPackages equ <__imp_MigrateExceptionPackages>
+
+externdef __imp_MouseClassInstaller:PPROC
+MouseClassInstaller equ <__imp_MouseClassInstaller>
+
+externdef __imp_NtApmClassInstaller:PPROC
+NtApmClassInstaller equ <__imp_NtApmClassInstaller>
+
+externdef __imp_OpkCheckVersion:PPROC
+OpkCheckVersion equ <__imp_OpkCheckVersion>
+
+externdef __imp_PS2MousePropPageProvider:PPROC
+PS2MousePropPageProvider equ <__imp_PS2MousePropPageProvider>
+
+externdef __imp_PnPInitializationThread:PPROC
+PnPInitializationThread equ <__imp_PnPInitializationThread>
+
+externdef __imp_PrepareForAudit:PPROC
+PrepareForAudit equ <__imp_PrepareForAudit>
+
+externdef __imp_RepairStartMenuItems:PPROC
+RepairStartMenuItems equ <__imp_RepairStartMenuItems>
+
+externdef __imp_ReportError:PPROC
+ReportError equ <__imp_ReportError>
+
+externdef __imp_RunOEMExtraTasks:PPROC
+RunOEMExtraTasks equ <__imp_RunOEMExtraTasks>
+
+externdef __imp_ScsiClassInstaller:PPROC
+ScsiClassInstaller equ <__imp_ScsiClassInstaller>
+
+externdef __imp_SetAccountsDomainSid:PPROC
+SetAccountsDomainSid equ <__imp_SetAccountsDomainSid>
+
+externdef __imp_SetupAddOrRemoveTestCertificate:PPROC
+SetupAddOrRemoveTestCertificate equ <__imp_SetupAddOrRemoveTestCertificate>
+
+externdef __imp_SetupChangeFontSize:PPROC
+SetupChangeFontSize equ <__imp_SetupChangeFontSize>
+
+externdef __imp_SetupChangeLocale:PPROC
+SetupChangeLocale equ <__imp_SetupChangeLocale>
+
+externdef __imp_SetupChangeLocaleEx:PPROC
+SetupChangeLocaleEx equ <__imp_SetupChangeLocaleEx>
+
+externdef __imp_SetupCreateOptionalComponentsPage:PPROC
+SetupCreateOptionalComponentsPage equ <__imp_SetupCreateOptionalComponentsPage>
+
+externdef __imp_SetupDestroyLanguageList:PPROC
+SetupDestroyLanguageList equ <__imp_SetupDestroyLanguageList>
+
+externdef __imp_SetupDestroyPhoneList:PPROC
+SetupDestroyPhoneList equ <__imp_SetupDestroyPhoneList>
+
+externdef __imp_SetupEnumerateRegisteredOsComponents:PPROC
+SetupEnumerateRegisteredOsComponents equ <__imp_SetupEnumerateRegisteredOsComponents>
+
+externdef __imp_SetupExtendPartition:PPROC
+SetupExtendPartition equ <__imp_SetupExtendPartition>
+
+externdef __imp_SetupGetGeoOptions:PPROC
+SetupGetGeoOptions equ <__imp_SetupGetGeoOptions>
+
+externdef __imp_SetupGetInstallMode:PPROC
+SetupGetInstallMode equ <__imp_SetupGetInstallMode>
+
+externdef __imp_SetupGetKeyboardOptions:PPROC
+SetupGetKeyboardOptions equ <__imp_SetupGetKeyboardOptions>
+
+externdef __imp_SetupGetLocaleOptions:PPROC
+SetupGetLocaleOptions equ <__imp_SetupGetLocaleOptions>
+
+externdef __imp_SetupGetProductType:PPROC
+SetupGetProductType equ <__imp_SetupGetProductType>
+
+externdef __imp_SetupGetSetupInfo:PPROC
+SetupGetSetupInfo equ <__imp_SetupGetSetupInfo>
+
+externdef __imp_SetupGetValidEula:PPROC
+SetupGetValidEula equ <__imp_SetupGetValidEula>
+
+externdef __imp_SetupIEHardeningSettings:PPROC
+SetupIEHardeningSettings equ <__imp_SetupIEHardeningSettings>
+
+externdef __imp_SetupInfObjectInstallActionW:PPROC
+SetupInfObjectInstallActionW equ <__imp_SetupInfObjectInstallActionW>
+  IFDEF __UNICODE__
+    SetupInfObjectInstallAction equ <__imp_SetupInfObjectInstallActionW>
+  ENDIF
+
+externdef __imp_SetupInstallCatalog:PPROC
+SetupInstallCatalog equ <__imp_SetupInstallCatalog>
+
+externdef __imp_SetupMapTapiToIso:PPROC
+SetupMapTapiToIso equ <__imp_SetupMapTapiToIso>
+
+externdef __imp_SetupOobeBnk:PPROC
+SetupOobeBnk equ <__imp_SetupOobeBnk>
+
+externdef __imp_SetupOobeCleanup:PPROC
+SetupOobeCleanup equ <__imp_SetupOobeCleanup>
+
+externdef __imp_SetupOobeInitDebugLog:PPROC
+SetupOobeInitDebugLog equ <__imp_SetupOobeInitDebugLog>
+
+externdef __imp_SetupOobeInitPostServices:PPROC
+SetupOobeInitPostServices equ <__imp_SetupOobeInitPostServices>
+
+externdef __imp_SetupOobeInitPreServices:PPROC
+SetupOobeInitPreServices equ <__imp_SetupOobeInitPreServices>
+
+externdef __imp_SetupPidGen3:PPROC
+SetupPidGen3 equ <__imp_SetupPidGen3>
+
+externdef __imp_SetupQueryRegisteredOsComponent:PPROC
+SetupQueryRegisteredOsComponent equ <__imp_SetupQueryRegisteredOsComponent>
+
+externdef __imp_SetupQueryRegisteredOsComponentsOrder:PPROC
+SetupQueryRegisteredOsComponentsOrder equ <__imp_SetupQueryRegisteredOsComponentsOrder>
+
+externdef __imp_SetupReadPhoneList:PPROC
+SetupReadPhoneList equ <__imp_SetupReadPhoneList>
+
+externdef __imp_SetupRegisterOsComponent:PPROC
+SetupRegisterOsComponent equ <__imp_SetupRegisterOsComponent>
+
+externdef __imp_SetupSetAdminPassword:PPROC
+SetupSetAdminPassword equ <__imp_SetupSetAdminPassword>
+
+externdef __imp_SetupSetDisplay:PPROC
+SetupSetDisplay equ <__imp_SetupSetDisplay>
+
+externdef __imp_SetupSetIntlOptions:PPROC
+SetupSetIntlOptions equ <__imp_SetupSetIntlOptions>
+
+externdef __imp_SetupSetRegisteredOsComponentsOrder:PPROC
+SetupSetRegisteredOsComponentsOrder equ <__imp_SetupSetRegisteredOsComponentsOrder>
+
+externdef __imp_SetupSetSetupInfo:PPROC
+SetupSetSetupInfo equ <__imp_SetupSetSetupInfo>
+
+externdef __imp_SetupShellSettings:PPROC
+SetupShellSettings equ <__imp_SetupShellSettings>
+
+externdef __imp_SetupStartService:PPROC
+SetupStartService equ <__imp_SetupStartService>
+
+externdef __imp_SetupUnRegisterOsComponent:PPROC
+SetupUnRegisterOsComponent equ <__imp_SetupUnRegisterOsComponent>
+
+externdef __imp_StorageCoInstaller:PPROC
+StorageCoInstaller equ <__imp_StorageCoInstaller>
+
+externdef __imp_SystemUpdateUserProfileDirectory:PPROC
+SystemUpdateUserProfileDirectory equ <__imp_SystemUpdateUserProfileDirectory>
+
+externdef __imp_TapeClassInstaller:PPROC
+TapeClassInstaller equ <__imp_TapeClassInstaller>
+
+externdef __imp_TapePropPageProvider:PPROC
+TapePropPageProvider equ <__imp_TapePropPageProvider>
+
+externdef __imp_TerminateSetupLog:PPROC
+TerminateSetupLog equ <__imp_TerminateSetupLog>
+
+externdef __imp_UpdatePnpDeviceDrivers:PPROC
+UpdatePnpDeviceDrivers equ <__imp_UpdatePnpDeviceDrivers>
+
+externdef __imp_UpgradePrinters:PPROC
+UpgradePrinters equ <__imp_UpgradePrinters>
+
+externdef __imp_ViewSetupActionLog:PPROC
+ViewSetupActionLog equ <__imp_ViewSetupActionLog>
+
+externdef __imp_VolumeClassInstaller:PPROC
+VolumeClassInstaller equ <__imp_VolumeClassInstaller>
+
+externdef __imp_pSetupDebugPrint:PPROC
+pSetupDebugPrint equ <__imp_pSetupDebugPrint>
+
+externdef __imp_pSetuplogSfcError:PPROC
+pSetuplogSfcError equ <__imp_pSetuplogSfcError>

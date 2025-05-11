@@ -1,0 +1,5 @@
+externdef __imp_ConvertEmfToWmf:PPROC
+ConvertEmfToWmf equ <__imp_ConvertEmfToWmf>
+
+externdef __imp_Mf3216DllInitialize:PPROC
+Mf3216DllInitialize equ <__imp_Mf3216DllInitialize>

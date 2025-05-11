@@ -1,0 +1,116 @@
+externdef __imp_aspcomAddCardType:PPROC
+aspcomAddCardType equ <__imp_aspcomAddCardType>
+
+externdef __imp_aspcomAddReaderToGroup:PPROC
+aspcomAddReaderToGroup equ <__imp_aspcomAddReaderToGroup>
+
+externdef __imp_aspcomCancel:PPROC
+aspcomCancel equ <__imp_aspcomCancel>
+
+externdef __imp_aspcomCardBeginTransaction:PPROC
+aspcomCardBeginTransaction equ <__imp_aspcomCardBeginTransaction>
+
+externdef __imp_aspcomCardConnect:PPROC
+aspcomCardConnect equ <__imp_aspcomCardConnect>
+
+externdef __imp_aspcomCardConnectDialog:PPROC
+aspcomCardConnectDialog equ <__imp_aspcomCardConnectDialog>
+
+externdef __imp_aspcomCardConnectDialogProtocol:PPROC
+aspcomCardConnectDialogProtocol equ <__imp_aspcomCardConnectDialogProtocol>
+
+externdef __imp_aspcomCardConnectProtocol:PPROC
+aspcomCardConnectProtocol equ <__imp_aspcomCardConnectProtocol>
+
+externdef __imp_aspcomCardDisconnect:PPROC
+aspcomCardDisconnect equ <__imp_aspcomCardDisconnect>
+
+externdef __imp_aspcomCardEndTransaction:PPROC
+aspcomCardEndTransaction equ <__imp_aspcomCardEndTransaction>
+
+externdef __imp_aspcomCardGetATR:PPROC
+aspcomCardGetATR equ <__imp_aspcomCardGetATR>
+
+externdef __imp_aspcomCardGetProtocol:PPROC
+aspcomCardGetProtocol equ <__imp_aspcomCardGetProtocol>
+
+externdef __imp_aspcomCardIsPresent:PPROC
+aspcomCardIsPresent equ <__imp_aspcomCardIsPresent>
+
+externdef __imp_aspcomCardReaderControl:PPROC
+aspcomCardReaderControl equ <__imp_aspcomCardReaderControl>
+
+externdef __imp_aspcomCardReconnect:PPROC
+aspcomCardReconnect equ <__imp_aspcomCardReconnect>
+
+externdef __imp_aspcomCardReconnectProtocol:PPROC
+aspcomCardReconnectProtocol equ <__imp_aspcomCardReconnectProtocol>
+
+externdef __imp_aspcomCardTransmit:PPROC
+aspcomCardTransmit equ <__imp_aspcomCardTransmit>
+
+externdef __imp_aspcomCardTransmitList:PPROC
+aspcomCardTransmitList equ <__imp_aspcomCardTransmitList>
+
+externdef __imp_aspcomEstablishContext:PPROC
+aspcomEstablishContext equ <__imp_aspcomEstablishContext>
+
+externdef __imp_aspcomGetCardState:PPROC
+aspcomGetCardState equ <__imp_aspcomGetCardState>
+
+externdef __imp_aspcomGetContextInfo:PPROC
+aspcomGetContextInfo equ <__imp_aspcomGetContextInfo>
+
+externdef __imp_aspcomGetMultipleCardsStates:PPROC
+aspcomGetMultipleCardsStates equ <__imp_aspcomGetMultipleCardsStates>
+
+externdef __imp_aspcomGetVersion:PPROC
+aspcomGetVersion equ <__imp_aspcomGetVersion>
+
+externdef __imp_aspcomListCards:PPROC
+aspcomListCards equ <__imp_aspcomListCards>
+
+externdef __imp_aspcomListReaders:PPROC
+aspcomListReaders equ <__imp_aspcomListReaders>
+
+externdef __imp_aspcomPipeCancel:PPROC
+aspcomPipeCancel equ <__imp_aspcomPipeCancel>
+
+externdef __imp_aspcomPipeEnd:PPROC
+aspcomPipeEnd equ <__imp_aspcomPipeEnd>
+
+externdef __imp_aspcomPipeEndEx:PPROC
+aspcomPipeEndEx equ <__imp_aspcomPipeEndEx>
+
+externdef __imp_aspcomPipeGetCallsCount:PPROC
+aspcomPipeGetCallsCount equ <__imp_aspcomPipeGetCallsCount>
+
+externdef __imp_aspcomPipeInit:PPROC
+aspcomPipeInit equ <__imp_aspcomPipeInit>
+
+externdef __imp_aspcomPipeMetaCommand:PPROC
+aspcomPipeMetaCommand equ <__imp_aspcomPipeMetaCommand>
+
+externdef __imp_aspcomPipeMetaCommandEx:PPROC
+aspcomPipeMetaCommandEx equ <__imp_aspcomPipeMetaCommandEx>
+
+externdef __imp_aspcomPipeSetTimeOut:PPROC
+aspcomPipeSetTimeOut equ <__imp_aspcomPipeSetTimeOut>
+
+externdef __imp_aspcomPipeSetTimeOutEx:PPROC
+aspcomPipeSetTimeOutEx equ <__imp_aspcomPipeSetTimeOutEx>
+
+externdef __imp_aspcomReleaseContext:PPROC
+aspcomReleaseContext equ <__imp_aspcomReleaseContext>
+
+externdef __imp_aspcomRemoveCardType:PPROC
+aspcomRemoveCardType equ <__imp_aspcomRemoveCardType>
+
+externdef __imp_aspcomRemoveReaderFromGroup:PPROC
+aspcomRemoveReaderFromGroup equ <__imp_aspcomRemoveReaderFromGroup>
+
+externdef __imp_aspcomSetCardTypeProviderName:PPROC
+aspcomSetCardTypeProviderName equ <__imp_aspcomSetCardTypeProviderName>
+
+externdef __imp_aspcomSetUIPrompt:PPROC
+aspcomSetUIPrompt equ <__imp_aspcomSetUIPrompt>

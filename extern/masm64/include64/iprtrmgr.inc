@@ -1,0 +1,11 @@
+externdef __imp_MapAddressToAdapter:PPROC
+MapAddressToAdapter equ <__imp_MapAddressToAdapter>
+
+externdef __imp_MapInterfaceToAdapter:PPROC
+MapInterfaceToAdapter equ <__imp_MapInterfaceToAdapter>
+
+externdef __imp_MapInterfaceToRouterIfType:PPROC
+MapInterfaceToRouterIfType equ <__imp_MapInterfaceToRouterIfType>
+
+externdef __imp_StartRouter:PPROC
+StartRouter equ <__imp_StartRouter>

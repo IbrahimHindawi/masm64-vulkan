@@ -1,0 +1,17 @@
+externdef __imp_AutoDialHandler:PPROC
+AutoDialHandler equ <__imp_AutoDialHandler>
+
+externdef __imp_AutoDialInit:PPROC
+AutoDialInit equ <__imp_AutoDialInit>
+
+externdef __imp_DialingDownloadDialog:PPROC
+DialingDownloadDialog equ <__imp_DialingDownloadDialog>
+
+externdef __imp_DialingErrorDialog:PPROC
+DialingErrorDialog equ <__imp_DialingErrorDialog>
+
+externdef __imp_ICWGetRasEntry:PPROC
+ICWGetRasEntry equ <__imp_ICWGetRasEntry>
+
+externdef __imp_RasSetEntryPropertiesScriptPatch:PPROC
+RasSetEntryPropertiesScriptPatch equ <__imp_RasSetEntryPropertiesScriptPatch>

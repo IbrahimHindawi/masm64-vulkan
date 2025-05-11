@@ -1,0 +1,20 @@
+externdef __imp_ACErrMesDisplay:PPROC
+ACErrMesDisplay equ <__imp_ACErrMesDisplay>
+
+externdef __imp_ACErrMesDisplayEx:PPROC
+ACErrMesDisplayEx equ <__imp_ACErrMesDisplayEx>
+
+externdef __imp_ACErrMesDisplayExWithParam:PPROC
+ACErrMesDisplayExWithParam equ <__imp_ACErrMesDisplayExWithParam>
+
+externdef __imp_ACErrMesDisplayExWithParent:PPROC
+ACErrMesDisplayExWithParent equ <__imp_ACErrMesDisplayExWithParent>
+
+externdef __imp_ACErrMesDisplayExWithParentParamAndReader:PPROC
+ACErrMesDisplayExWithParentParamAndReader equ <__imp_ACErrMesDisplayExWithParentParamAndReader>
+
+externdef __imp_ACErrMesDisplayWithParent:PPROC
+ACErrMesDisplayWithParent equ <__imp_ACErrMesDisplayWithParent>
+
+externdef __imp_ACMessageBox:PPROC
+ACMessageBox equ <__imp_ACMessageBox>

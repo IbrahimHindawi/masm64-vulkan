@@ -1,0 +1,1181 @@
+externdef __imp_BindMoniker:PPROC
+BindMoniker equ <__imp_BindMoniker>
+
+externdef __imp_CLIPFORMAT_UserFree64:PPROC
+CLIPFORMAT_UserFree64 equ <__imp_CLIPFORMAT_UserFree64>
+
+externdef __imp_CLIPFORMAT_UserFree:PPROC
+CLIPFORMAT_UserFree equ <__imp_CLIPFORMAT_UserFree>
+
+externdef __imp_CLIPFORMAT_UserMarshal64:PPROC
+CLIPFORMAT_UserMarshal64 equ <__imp_CLIPFORMAT_UserMarshal64>
+
+externdef __imp_CLIPFORMAT_UserMarshal:PPROC
+CLIPFORMAT_UserMarshal equ <__imp_CLIPFORMAT_UserMarshal>
+
+externdef __imp_CLIPFORMAT_UserSize64:PPROC
+CLIPFORMAT_UserSize64 equ <__imp_CLIPFORMAT_UserSize64>
+
+externdef __imp_CLIPFORMAT_UserSize:PPROC
+CLIPFORMAT_UserSize equ <__imp_CLIPFORMAT_UserSize>
+
+externdef __imp_CLIPFORMAT_UserUnmarshal64:PPROC
+CLIPFORMAT_UserUnmarshal64 equ <__imp_CLIPFORMAT_UserUnmarshal64>
+
+externdef __imp_CLIPFORMAT_UserUnmarshal:PPROC
+CLIPFORMAT_UserUnmarshal equ <__imp_CLIPFORMAT_UserUnmarshal>
+
+externdef __imp_CLSIDFromOle1Class:PPROC
+CLSIDFromOle1Class equ <__imp_CLSIDFromOle1Class>
+
+externdef __imp_CLSIDFromProgID:PPROC
+CLSIDFromProgID equ <__imp_CLSIDFromProgID>
+
+externdef __imp_CLSIDFromProgIDEx:PPROC
+CLSIDFromProgIDEx equ <__imp_CLSIDFromProgIDEx>
+
+externdef __imp_CLSIDFromString:PPROC
+CLSIDFromString equ <__imp_CLSIDFromString>
+
+externdef __imp_CoAddRefServerProcess:PPROC
+CoAddRefServerProcess equ <__imp_CoAddRefServerProcess>
+
+externdef __imp_CoAllowSetForegroundWindow:PPROC
+CoAllowSetForegroundWindow equ <__imp_CoAllowSetForegroundWindow>
+
+externdef __imp_CoBuildVersion:PPROC
+CoBuildVersion equ <__imp_CoBuildVersion>
+
+externdef __imp_CoCancelCall:PPROC
+CoCancelCall equ <__imp_CoCancelCall>
+
+externdef __imp_CoCopyProxy:PPROC
+CoCopyProxy equ <__imp_CoCopyProxy>
+
+externdef __imp_CoCreateFreeThreadedMarshaler:PPROC
+CoCreateFreeThreadedMarshaler equ <__imp_CoCreateFreeThreadedMarshaler>
+
+externdef __imp_CoCreateGuid:PPROC
+CoCreateGuid equ <__imp_CoCreateGuid>
+
+externdef __imp_CoCreateInstance:PPROC
+CoCreateInstance equ <__imp_CoCreateInstance>
+
+externdef __imp_CoCreateInstanceEx:PPROC
+CoCreateInstanceEx equ <__imp_CoCreateInstanceEx>
+
+externdef __imp_CoCreateObjectInContext:PPROC
+CoCreateObjectInContext equ <__imp_CoCreateObjectInContext>
+
+externdef __imp_CoDeactivateObject:PPROC
+CoDeactivateObject equ <__imp_CoDeactivateObject>
+
+externdef __imp_CoDisableCallCancellation:PPROC
+CoDisableCallCancellation equ <__imp_CoDisableCallCancellation>
+
+externdef __imp_CoDisconnectObject:PPROC
+CoDisconnectObject equ <__imp_CoDisconnectObject>
+
+externdef __imp_CoDosDateTimeToFileTime:PPROC
+CoDosDateTimeToFileTime equ <__imp_CoDosDateTimeToFileTime>
+
+externdef __imp_CoEnableCallCancellation:PPROC
+CoEnableCallCancellation equ <__imp_CoEnableCallCancellation>
+
+externdef __imp_CoFileTimeNow:PPROC
+CoFileTimeNow equ <__imp_CoFileTimeNow>
+
+externdef __imp_CoFileTimeToDosDateTime:PPROC
+CoFileTimeToDosDateTime equ <__imp_CoFileTimeToDosDateTime>
+
+externdef __imp_CoFreeAllLibraries:PPROC
+CoFreeAllLibraries equ <__imp_CoFreeAllLibraries>
+
+externdef __imp_CoFreeLibrary:PPROC
+CoFreeLibrary equ <__imp_CoFreeLibrary>
+
+externdef __imp_CoFreeUnusedLibraries:PPROC
+CoFreeUnusedLibraries equ <__imp_CoFreeUnusedLibraries>
+
+externdef __imp_CoFreeUnusedLibrariesEx:PPROC
+CoFreeUnusedLibrariesEx equ <__imp_CoFreeUnusedLibrariesEx>
+
+externdef __imp_CoGetApartmentID:PPROC
+CoGetApartmentID equ <__imp_CoGetApartmentID>
+
+externdef __imp_CoGetCallContext:PPROC
+CoGetCallContext equ <__imp_CoGetCallContext>
+
+externdef __imp_CoGetCallerTID:PPROC
+CoGetCallerTID equ <__imp_CoGetCallerTID>
+
+externdef __imp_CoGetCancelObject:PPROC
+CoGetCancelObject equ <__imp_CoGetCancelObject>
+
+externdef __imp_CoGetClassObject:PPROC
+CoGetClassObject equ <__imp_CoGetClassObject>
+
+externdef __imp_CoGetClassVersion:PPROC
+CoGetClassVersion equ <__imp_CoGetClassVersion>
+
+externdef __imp_CoGetComCatalog:PPROC
+CoGetComCatalog equ <__imp_CoGetComCatalog>
+
+externdef __imp_CoGetContextToken:PPROC
+CoGetContextToken equ <__imp_CoGetContextToken>
+
+externdef __imp_CoGetCurrentLogicalThreadId:PPROC
+CoGetCurrentLogicalThreadId equ <__imp_CoGetCurrentLogicalThreadId>
+
+externdef __imp_CoGetCurrentProcess:PPROC
+CoGetCurrentProcess equ <__imp_CoGetCurrentProcess>
+
+externdef __imp_CoGetDefaultContext:PPROC
+CoGetDefaultContext equ <__imp_CoGetDefaultContext>
+
+externdef __imp_CoGetInstanceFromFile:PPROC
+CoGetInstanceFromFile equ <__imp_CoGetInstanceFromFile>
+
+externdef __imp_CoGetInstanceFromIStorage:PPROC
+CoGetInstanceFromIStorage equ <__imp_CoGetInstanceFromIStorage>
+
+externdef __imp_CoGetInterceptor:PPROC
+CoGetInterceptor equ <__imp_CoGetInterceptor>
+
+externdef __imp_CoGetInterceptorFromTypeInfo:PPROC
+CoGetInterceptorFromTypeInfo equ <__imp_CoGetInterceptorFromTypeInfo>
+
+externdef __imp_CoGetInterfaceAndReleaseStream:PPROC
+CoGetInterfaceAndReleaseStream equ <__imp_CoGetInterfaceAndReleaseStream>
+
+externdef __imp_CoGetMalloc:PPROC
+CoGetMalloc equ <__imp_CoGetMalloc>
+
+externdef __imp_CoGetMarshalSizeMax:PPROC
+CoGetMarshalSizeMax equ <__imp_CoGetMarshalSizeMax>
+
+externdef __imp_CoGetModuleType:PPROC
+CoGetModuleType equ <__imp_CoGetModuleType>
+
+externdef __imp_CoGetObject:PPROC
+CoGetObject equ <__imp_CoGetObject>
+
+externdef __imp_CoGetObjectContext:PPROC
+CoGetObjectContext equ <__imp_CoGetObjectContext>
+
+externdef __imp_CoGetPSClsid:PPROC
+CoGetPSClsid equ <__imp_CoGetPSClsid>
+
+externdef __imp_CoGetProcessIdentifier:PPROC
+CoGetProcessIdentifier equ <__imp_CoGetProcessIdentifier>
+
+externdef __imp_CoGetStandardMarshal:PPROC
+CoGetStandardMarshal equ <__imp_CoGetStandardMarshal>
+
+externdef __imp_CoGetState:PPROC
+CoGetState equ <__imp_CoGetState>
+
+externdef __imp_CoGetStdMarshalEx:PPROC
+CoGetStdMarshalEx equ <__imp_CoGetStdMarshalEx>
+
+externdef __imp_CoGetSystemSecurityPermissions:PPROC
+CoGetSystemSecurityPermissions equ <__imp_CoGetSystemSecurityPermissions>
+
+externdef __imp_CoGetTreatAsClass:PPROC
+CoGetTreatAsClass equ <__imp_CoGetTreatAsClass>
+
+externdef __imp_CoImpersonateClient:PPROC
+CoImpersonateClient equ <__imp_CoImpersonateClient>
+
+externdef __imp_CoInitialize:PPROC
+CoInitialize equ <__imp_CoInitialize>
+
+externdef __imp_CoInitializeEx:PPROC
+CoInitializeEx equ <__imp_CoInitializeEx>
+
+externdef __imp_CoInitializeSecurity:PPROC
+CoInitializeSecurity equ <__imp_CoInitializeSecurity>
+
+externdef __imp_CoInitializeWOW:PPROC
+CoInitializeWOW equ <__imp_CoInitializeWOW>
+  IFDEF __UNICODE__
+    CoInitializeWO equ <__imp_CoInitializeWOW>
+  ENDIF
+
+externdef __imp_CoInstall:PPROC
+CoInstall equ <__imp_CoInstall>
+
+externdef __imp_CoInvalidateRemoteMachineBindings:PPROC
+CoInvalidateRemoteMachineBindings equ <__imp_CoInvalidateRemoteMachineBindings>
+
+externdef __imp_CoIsHandlerConnected:PPROC
+CoIsHandlerConnected equ <__imp_CoIsHandlerConnected>
+
+externdef __imp_CoIsOle1Class:PPROC
+CoIsOle1Class equ <__imp_CoIsOle1Class>
+
+externdef __imp_CoLoadLibrary:PPROC
+CoLoadLibrary equ <__imp_CoLoadLibrary>
+
+externdef __imp_CoLockObjectExternal:PPROC
+CoLockObjectExternal equ <__imp_CoLockObjectExternal>
+
+externdef __imp_CoMarshalHresult:PPROC
+CoMarshalHresult equ <__imp_CoMarshalHresult>
+
+externdef __imp_CoMarshalInterThreadInterfaceInStream:PPROC
+CoMarshalInterThreadInterfaceInStream equ <__imp_CoMarshalInterThreadInterfaceInStream>
+
+externdef __imp_CoMarshalInterface:PPROC
+CoMarshalInterface equ <__imp_CoMarshalInterface>
+
+externdef __imp_CoPopServiceDomain:PPROC
+CoPopServiceDomain equ <__imp_CoPopServiceDomain>
+
+externdef __imp_CoPushServiceDomain:PPROC
+CoPushServiceDomain equ <__imp_CoPushServiceDomain>
+
+externdef __imp_CoQueryAuthenticationServices:PPROC
+CoQueryAuthenticationServices equ <__imp_CoQueryAuthenticationServices>
+
+externdef __imp_CoQueryClientBlanket:PPROC
+CoQueryClientBlanket equ <__imp_CoQueryClientBlanket>
+
+externdef __imp_CoQueryProxyBlanket:PPROC
+CoQueryProxyBlanket equ <__imp_CoQueryProxyBlanket>
+
+externdef __imp_CoQueryReleaseObject:PPROC
+CoQueryReleaseObject equ <__imp_CoQueryReleaseObject>
+
+externdef __imp_CoReactivateObject:PPROC
+CoReactivateObject equ <__imp_CoReactivateObject>
+
+externdef __imp_CoRegisterChannelHook:PPROC
+CoRegisterChannelHook equ <__imp_CoRegisterChannelHook>
+
+externdef __imp_CoRegisterClassObject:PPROC
+CoRegisterClassObject equ <__imp_CoRegisterClassObject>
+
+externdef __imp_CoRegisterInitializeSpy:PPROC
+CoRegisterInitializeSpy equ <__imp_CoRegisterInitializeSpy>
+
+externdef __imp_CoRegisterMallocSpy:PPROC
+CoRegisterMallocSpy equ <__imp_CoRegisterMallocSpy>
+
+externdef __imp_CoRegisterMessageFilter:PPROC
+CoRegisterMessageFilter equ <__imp_CoRegisterMessageFilter>
+
+externdef __imp_CoRegisterPSClsid:PPROC
+CoRegisterPSClsid equ <__imp_CoRegisterPSClsid>
+
+externdef __imp_CoRegisterSurrogate:PPROC
+CoRegisterSurrogate equ <__imp_CoRegisterSurrogate>
+
+externdef __imp_CoRegisterSurrogateEx:PPROC
+CoRegisterSurrogateEx equ <__imp_CoRegisterSurrogateEx>
+
+externdef __imp_CoReleaseMarshalData:PPROC
+CoReleaseMarshalData equ <__imp_CoReleaseMarshalData>
+
+externdef __imp_CoReleaseServerProcess:PPROC
+CoReleaseServerProcess equ <__imp_CoReleaseServerProcess>
+
+externdef __imp_CoResumeClassObjects:PPROC
+CoResumeClassObjects equ <__imp_CoResumeClassObjects>
+
+externdef __imp_CoRetireServer:PPROC
+CoRetireServer equ <__imp_CoRetireServer>
+
+externdef __imp_CoRevertToSelf:PPROC
+CoRevertToSelf equ <__imp_CoRevertToSelf>
+
+externdef __imp_CoRevokeClassObject:PPROC
+CoRevokeClassObject equ <__imp_CoRevokeClassObject>
+
+externdef __imp_CoRevokeInitializeSpy:PPROC
+CoRevokeInitializeSpy equ <__imp_CoRevokeInitializeSpy>
+
+externdef __imp_CoRevokeMallocSpy:PPROC
+CoRevokeMallocSpy equ <__imp_CoRevokeMallocSpy>
+
+externdef __imp_CoSetCancelObject:PPROC
+CoSetCancelObject equ <__imp_CoSetCancelObject>
+
+externdef __imp_CoSetProxyBlanket:PPROC
+CoSetProxyBlanket equ <__imp_CoSetProxyBlanket>
+
+externdef __imp_CoSetState:PPROC
+CoSetState equ <__imp_CoSetState>
+
+externdef __imp_CoSuspendClassObjects:PPROC
+CoSuspendClassObjects equ <__imp_CoSuspendClassObjects>
+
+externdef __imp_CoSwitchCallContext:PPROC
+CoSwitchCallContext equ <__imp_CoSwitchCallContext>
+
+externdef __imp_CoTaskMemAlloc:PPROC
+CoTaskMemAlloc equ <__imp_CoTaskMemAlloc>
+
+externdef __imp_CoTaskMemFree:PPROC
+CoTaskMemFree equ <__imp_CoTaskMemFree>
+
+externdef __imp_CoTaskMemRealloc:PPROC
+CoTaskMemRealloc equ <__imp_CoTaskMemRealloc>
+
+externdef __imp_CoTestCancel:PPROC
+CoTestCancel equ <__imp_CoTestCancel>
+
+externdef __imp_CoTreatAsClass:PPROC
+CoTreatAsClass equ <__imp_CoTreatAsClass>
+
+externdef __imp_CoUninitialize:PPROC
+CoUninitialize equ <__imp_CoUninitialize>
+
+externdef __imp_CoUnloadingWOW:PPROC
+CoUnloadingWOW equ <__imp_CoUnloadingWOW>
+  IFDEF __UNICODE__
+    CoUnloadingWO equ <__imp_CoUnloadingWOW>
+  ENDIF
+
+externdef __imp_CoUnmarshalHresult:PPROC
+CoUnmarshalHresult equ <__imp_CoUnmarshalHresult>
+
+externdef __imp_CoUnmarshalInterface:PPROC
+CoUnmarshalInterface equ <__imp_CoUnmarshalInterface>
+
+externdef __imp_CoVrfCheckThreadState:PPROC
+CoVrfCheckThreadState equ <__imp_CoVrfCheckThreadState>
+
+externdef __imp_CoVrfGetThreadState:PPROC
+CoVrfGetThreadState equ <__imp_CoVrfGetThreadState>
+
+externdef __imp_CoVrfReleaseThreadState:PPROC
+CoVrfReleaseThreadState equ <__imp_CoVrfReleaseThreadState>
+
+externdef __imp_CoWaitForMultipleHandles:PPROC
+CoWaitForMultipleHandles equ <__imp_CoWaitForMultipleHandles>
+
+externdef __imp_ComPs_NdrDllCanUnloadNow:PPROC
+ComPs_NdrDllCanUnloadNow equ <__imp_ComPs_NdrDllCanUnloadNow>
+
+externdef __imp_ComPs_NdrDllGetClassObject:PPROC
+ComPs_NdrDllGetClassObject equ <__imp_ComPs_NdrDllGetClassObject>
+
+externdef __imp_ComPs_NdrDllRegisterProxy:PPROC
+ComPs_NdrDllRegisterProxy equ <__imp_ComPs_NdrDllRegisterProxy>
+
+externdef __imp_ComPs_NdrDllUnregisterProxy:PPROC
+ComPs_NdrDllUnregisterProxy equ <__imp_ComPs_NdrDllUnregisterProxy>
+
+externdef __imp_CreateAntiMoniker:PPROC
+CreateAntiMoniker equ <__imp_CreateAntiMoniker>
+
+externdef __imp_CreateBindCtx:PPROC
+CreateBindCtx equ <__imp_CreateBindCtx>
+
+externdef __imp_CreateClassMoniker:PPROC
+CreateClassMoniker equ <__imp_CreateClassMoniker>
+
+externdef __imp_CreateDataAdviseHolder:PPROC
+CreateDataAdviseHolder equ <__imp_CreateDataAdviseHolder>
+
+externdef __imp_CreateDataCache:PPROC
+CreateDataCache equ <__imp_CreateDataCache>
+
+externdef __imp_CreateErrorInfo:PPROC
+CreateErrorInfo equ <__imp_CreateErrorInfo>
+
+externdef __imp_CreateFileMoniker:PPROC
+CreateFileMoniker equ <__imp_CreateFileMoniker>
+
+externdef __imp_CreateGenericComposite:PPROC
+CreateGenericComposite equ <__imp_CreateGenericComposite>
+
+externdef __imp_CreateILockBytesOnHGlobal:PPROC
+CreateILockBytesOnHGlobal equ <__imp_CreateILockBytesOnHGlobal>
+
+externdef __imp_CreateItemMoniker:PPROC
+CreateItemMoniker equ <__imp_CreateItemMoniker>
+
+externdef __imp_CreateObjrefMoniker:PPROC
+CreateObjrefMoniker equ <__imp_CreateObjrefMoniker>
+
+externdef __imp_CreateOleAdviseHolder:PPROC
+CreateOleAdviseHolder equ <__imp_CreateOleAdviseHolder>
+
+externdef __imp_CreatePointerMoniker:PPROC
+CreatePointerMoniker equ <__imp_CreatePointerMoniker>
+
+externdef __imp_CreateStdProgressIndicator:PPROC
+CreateStdProgressIndicator equ <__imp_CreateStdProgressIndicator>
+
+externdef __imp_CreateStreamOnHGlobal:PPROC
+CreateStreamOnHGlobal equ <__imp_CreateStreamOnHGlobal>
+
+externdef __imp_DcomChannelSetHResult:PPROC
+DcomChannelSetHResult equ <__imp_DcomChannelSetHResult>
+
+externdef __imp_DllDebugObjectRPCHook:PPROC
+DllDebugObjectRPCHook equ <__imp_DllDebugObjectRPCHook>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllGetClassObjectWOW:PPROC
+DllGetClassObjectWOW equ <__imp_DllGetClassObjectWOW>
+  IFDEF __UNICODE__
+    DllGetClassObjectWO equ <__imp_DllGetClassObjectWOW>
+  ENDIF
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DoDragDrop:PPROC
+DoDragDrop equ <__imp_DoDragDrop>
+
+externdef __imp_EnableHookObject:PPROC
+EnableHookObject equ <__imp_EnableHookObject>
+
+externdef __imp_FmtIdToPropStgName:PPROC
+FmtIdToPropStgName equ <__imp_FmtIdToPropStgName>
+
+externdef __imp_FreePropVariantArray:PPROC
+FreePropVariantArray equ <__imp_FreePropVariantArray>
+
+externdef __imp_GetClassFile:PPROC
+GetClassFile equ <__imp_GetClassFile>
+
+externdef __imp_GetConvertStg:PPROC
+GetConvertStg equ <__imp_GetConvertStg>
+
+externdef __imp_GetDocumentBitStg:PPROC
+GetDocumentBitStg equ <__imp_GetDocumentBitStg>
+
+externdef __imp_GetErrorInfo:PPROC
+GetErrorInfo equ <__imp_GetErrorInfo>
+
+externdef __imp_GetHGlobalFromILockBytes:PPROC
+GetHGlobalFromILockBytes equ <__imp_GetHGlobalFromILockBytes>
+
+externdef __imp_GetHGlobalFromStream:PPROC
+GetHGlobalFromStream equ <__imp_GetHGlobalFromStream>
+
+externdef __imp_GetHookInterface:PPROC
+GetHookInterface equ <__imp_GetHookInterface>
+
+externdef __imp_GetRunningObjectTable:PPROC
+GetRunningObjectTable equ <__imp_GetRunningObjectTable>
+
+externdef __imp_HACCEL_UserFree64:PPROC
+HACCEL_UserFree64 equ <__imp_HACCEL_UserFree64>
+
+externdef __imp_HACCEL_UserFree:PPROC
+HACCEL_UserFree equ <__imp_HACCEL_UserFree>
+
+externdef __imp_HACCEL_UserMarshal64:PPROC
+HACCEL_UserMarshal64 equ <__imp_HACCEL_UserMarshal64>
+
+externdef __imp_HACCEL_UserMarshal:PPROC
+HACCEL_UserMarshal equ <__imp_HACCEL_UserMarshal>
+
+externdef __imp_HACCEL_UserSize64:PPROC
+HACCEL_UserSize64 equ <__imp_HACCEL_UserSize64>
+
+externdef __imp_HACCEL_UserSize:PPROC
+HACCEL_UserSize equ <__imp_HACCEL_UserSize>
+
+externdef __imp_HACCEL_UserUnmarshal64:PPROC
+HACCEL_UserUnmarshal64 equ <__imp_HACCEL_UserUnmarshal64>
+
+externdef __imp_HACCEL_UserUnmarshal:PPROC
+HACCEL_UserUnmarshal equ <__imp_HACCEL_UserUnmarshal>
+
+externdef __imp_HBITMAP_UserFree64:PPROC
+HBITMAP_UserFree64 equ <__imp_HBITMAP_UserFree64>
+
+externdef __imp_HBITMAP_UserFree:PPROC
+HBITMAP_UserFree equ <__imp_HBITMAP_UserFree>
+
+externdef __imp_HBITMAP_UserMarshal64:PPROC
+HBITMAP_UserMarshal64 equ <__imp_HBITMAP_UserMarshal64>
+
+externdef __imp_HBITMAP_UserMarshal:PPROC
+HBITMAP_UserMarshal equ <__imp_HBITMAP_UserMarshal>
+
+externdef __imp_HBITMAP_UserSize64:PPROC
+HBITMAP_UserSize64 equ <__imp_HBITMAP_UserSize64>
+
+externdef __imp_HBITMAP_UserSize:PPROC
+HBITMAP_UserSize equ <__imp_HBITMAP_UserSize>
+
+externdef __imp_HBITMAP_UserUnmarshal64:PPROC
+HBITMAP_UserUnmarshal64 equ <__imp_HBITMAP_UserUnmarshal64>
+
+externdef __imp_HBITMAP_UserUnmarshal:PPROC
+HBITMAP_UserUnmarshal equ <__imp_HBITMAP_UserUnmarshal>
+
+externdef __imp_HBRUSH_UserFree64:PPROC
+HBRUSH_UserFree64 equ <__imp_HBRUSH_UserFree64>
+
+externdef __imp_HBRUSH_UserFree:PPROC
+HBRUSH_UserFree equ <__imp_HBRUSH_UserFree>
+
+externdef __imp_HBRUSH_UserMarshal64:PPROC
+HBRUSH_UserMarshal64 equ <__imp_HBRUSH_UserMarshal64>
+
+externdef __imp_HBRUSH_UserMarshal:PPROC
+HBRUSH_UserMarshal equ <__imp_HBRUSH_UserMarshal>
+
+externdef __imp_HBRUSH_UserSize64:PPROC
+HBRUSH_UserSize64 equ <__imp_HBRUSH_UserSize64>
+
+externdef __imp_HBRUSH_UserSize:PPROC
+HBRUSH_UserSize equ <__imp_HBRUSH_UserSize>
+
+externdef __imp_HBRUSH_UserUnmarshal64:PPROC
+HBRUSH_UserUnmarshal64 equ <__imp_HBRUSH_UserUnmarshal64>
+
+externdef __imp_HBRUSH_UserUnmarshal:PPROC
+HBRUSH_UserUnmarshal equ <__imp_HBRUSH_UserUnmarshal>
+
+externdef __imp_HDC_UserFree64:PPROC
+HDC_UserFree64 equ <__imp_HDC_UserFree64>
+
+externdef __imp_HDC_UserFree:PPROC
+HDC_UserFree equ <__imp_HDC_UserFree>
+
+externdef __imp_HDC_UserMarshal64:PPROC
+HDC_UserMarshal64 equ <__imp_HDC_UserMarshal64>
+
+externdef __imp_HDC_UserMarshal:PPROC
+HDC_UserMarshal equ <__imp_HDC_UserMarshal>
+
+externdef __imp_HDC_UserSize64:PPROC
+HDC_UserSize64 equ <__imp_HDC_UserSize64>
+
+externdef __imp_HDC_UserSize:PPROC
+HDC_UserSize equ <__imp_HDC_UserSize>
+
+externdef __imp_HDC_UserUnmarshal64:PPROC
+HDC_UserUnmarshal64 equ <__imp_HDC_UserUnmarshal64>
+
+externdef __imp_HDC_UserUnmarshal:PPROC
+HDC_UserUnmarshal equ <__imp_HDC_UserUnmarshal>
+
+externdef __imp_HENHMETAFILE_UserFree64:PPROC
+HENHMETAFILE_UserFree64 equ <__imp_HENHMETAFILE_UserFree64>
+
+externdef __imp_HENHMETAFILE_UserFree:PPROC
+HENHMETAFILE_UserFree equ <__imp_HENHMETAFILE_UserFree>
+
+externdef __imp_HENHMETAFILE_UserMarshal64:PPROC
+HENHMETAFILE_UserMarshal64 equ <__imp_HENHMETAFILE_UserMarshal64>
+
+externdef __imp_HENHMETAFILE_UserMarshal:PPROC
+HENHMETAFILE_UserMarshal equ <__imp_HENHMETAFILE_UserMarshal>
+
+externdef __imp_HENHMETAFILE_UserSize64:PPROC
+HENHMETAFILE_UserSize64 equ <__imp_HENHMETAFILE_UserSize64>
+
+externdef __imp_HENHMETAFILE_UserSize:PPROC
+HENHMETAFILE_UserSize equ <__imp_HENHMETAFILE_UserSize>
+
+externdef __imp_HENHMETAFILE_UserUnmarshal64:PPROC
+HENHMETAFILE_UserUnmarshal64 equ <__imp_HENHMETAFILE_UserUnmarshal64>
+
+externdef __imp_HENHMETAFILE_UserUnmarshal:PPROC
+HENHMETAFILE_UserUnmarshal equ <__imp_HENHMETAFILE_UserUnmarshal>
+
+externdef __imp_HGLOBAL_UserFree64:PPROC
+HGLOBAL_UserFree64 equ <__imp_HGLOBAL_UserFree64>
+
+externdef __imp_HGLOBAL_UserFree:PPROC
+HGLOBAL_UserFree equ <__imp_HGLOBAL_UserFree>
+
+externdef __imp_HGLOBAL_UserMarshal64:PPROC
+HGLOBAL_UserMarshal64 equ <__imp_HGLOBAL_UserMarshal64>
+
+externdef __imp_HGLOBAL_UserMarshal:PPROC
+HGLOBAL_UserMarshal equ <__imp_HGLOBAL_UserMarshal>
+
+externdef __imp_HGLOBAL_UserSize64:PPROC
+HGLOBAL_UserSize64 equ <__imp_HGLOBAL_UserSize64>
+
+externdef __imp_HGLOBAL_UserSize:PPROC
+HGLOBAL_UserSize equ <__imp_HGLOBAL_UserSize>
+
+externdef __imp_HGLOBAL_UserUnmarshal64:PPROC
+HGLOBAL_UserUnmarshal64 equ <__imp_HGLOBAL_UserUnmarshal64>
+
+externdef __imp_HGLOBAL_UserUnmarshal:PPROC
+HGLOBAL_UserUnmarshal equ <__imp_HGLOBAL_UserUnmarshal>
+
+externdef __imp_HICON_UserFree64:PPROC
+HICON_UserFree64 equ <__imp_HICON_UserFree64>
+
+externdef __imp_HICON_UserFree:PPROC
+HICON_UserFree equ <__imp_HICON_UserFree>
+
+externdef __imp_HICON_UserMarshal64:PPROC
+HICON_UserMarshal64 equ <__imp_HICON_UserMarshal64>
+
+externdef __imp_HICON_UserMarshal:PPROC
+HICON_UserMarshal equ <__imp_HICON_UserMarshal>
+
+externdef __imp_HICON_UserSize64:PPROC
+HICON_UserSize64 equ <__imp_HICON_UserSize64>
+
+externdef __imp_HICON_UserSize:PPROC
+HICON_UserSize equ <__imp_HICON_UserSize>
+
+externdef __imp_HICON_UserUnmarshal64:PPROC
+HICON_UserUnmarshal64 equ <__imp_HICON_UserUnmarshal64>
+
+externdef __imp_HICON_UserUnmarshal:PPROC
+HICON_UserUnmarshal equ <__imp_HICON_UserUnmarshal>
+
+externdef __imp_HMENU_UserFree64:PPROC
+HMENU_UserFree64 equ <__imp_HMENU_UserFree64>
+
+externdef __imp_HMENU_UserFree:PPROC
+HMENU_UserFree equ <__imp_HMENU_UserFree>
+
+externdef __imp_HMENU_UserMarshal64:PPROC
+HMENU_UserMarshal64 equ <__imp_HMENU_UserMarshal64>
+
+externdef __imp_HMENU_UserMarshal:PPROC
+HMENU_UserMarshal equ <__imp_HMENU_UserMarshal>
+
+externdef __imp_HMENU_UserSize64:PPROC
+HMENU_UserSize64 equ <__imp_HMENU_UserSize64>
+
+externdef __imp_HMENU_UserSize:PPROC
+HMENU_UserSize equ <__imp_HMENU_UserSize>
+
+externdef __imp_HMENU_UserUnmarshal64:PPROC
+HMENU_UserUnmarshal64 equ <__imp_HMENU_UserUnmarshal64>
+
+externdef __imp_HMENU_UserUnmarshal:PPROC
+HMENU_UserUnmarshal equ <__imp_HMENU_UserUnmarshal>
+
+externdef __imp_HMETAFILEPICT_UserFree64:PPROC
+HMETAFILEPICT_UserFree64 equ <__imp_HMETAFILEPICT_UserFree64>
+
+externdef __imp_HMETAFILEPICT_UserFree:PPROC
+HMETAFILEPICT_UserFree equ <__imp_HMETAFILEPICT_UserFree>
+
+externdef __imp_HMETAFILEPICT_UserMarshal64:PPROC
+HMETAFILEPICT_UserMarshal64 equ <__imp_HMETAFILEPICT_UserMarshal64>
+
+externdef __imp_HMETAFILEPICT_UserMarshal:PPROC
+HMETAFILEPICT_UserMarshal equ <__imp_HMETAFILEPICT_UserMarshal>
+
+externdef __imp_HMETAFILEPICT_UserSize64:PPROC
+HMETAFILEPICT_UserSize64 equ <__imp_HMETAFILEPICT_UserSize64>
+
+externdef __imp_HMETAFILEPICT_UserSize:PPROC
+HMETAFILEPICT_UserSize equ <__imp_HMETAFILEPICT_UserSize>
+
+externdef __imp_HMETAFILEPICT_UserUnmarshal64:PPROC
+HMETAFILEPICT_UserUnmarshal64 equ <__imp_HMETAFILEPICT_UserUnmarshal64>
+
+externdef __imp_HMETAFILEPICT_UserUnmarshal:PPROC
+HMETAFILEPICT_UserUnmarshal equ <__imp_HMETAFILEPICT_UserUnmarshal>
+
+externdef __imp_HMETAFILE_UserFree64:PPROC
+HMETAFILE_UserFree64 equ <__imp_HMETAFILE_UserFree64>
+
+externdef __imp_HMETAFILE_UserFree:PPROC
+HMETAFILE_UserFree equ <__imp_HMETAFILE_UserFree>
+
+externdef __imp_HMETAFILE_UserMarshal64:PPROC
+HMETAFILE_UserMarshal64 equ <__imp_HMETAFILE_UserMarshal64>
+
+externdef __imp_HMETAFILE_UserMarshal:PPROC
+HMETAFILE_UserMarshal equ <__imp_HMETAFILE_UserMarshal>
+
+externdef __imp_HMETAFILE_UserSize64:PPROC
+HMETAFILE_UserSize64 equ <__imp_HMETAFILE_UserSize64>
+
+externdef __imp_HMETAFILE_UserSize:PPROC
+HMETAFILE_UserSize equ <__imp_HMETAFILE_UserSize>
+
+externdef __imp_HMETAFILE_UserUnmarshal64:PPROC
+HMETAFILE_UserUnmarshal64 equ <__imp_HMETAFILE_UserUnmarshal64>
+
+externdef __imp_HMETAFILE_UserUnmarshal:PPROC
+HMETAFILE_UserUnmarshal equ <__imp_HMETAFILE_UserUnmarshal>
+
+externdef __imp_HPALETTE_UserFree64:PPROC
+HPALETTE_UserFree64 equ <__imp_HPALETTE_UserFree64>
+
+externdef __imp_HPALETTE_UserFree:PPROC
+HPALETTE_UserFree equ <__imp_HPALETTE_UserFree>
+
+externdef __imp_HPALETTE_UserMarshal64:PPROC
+HPALETTE_UserMarshal64 equ <__imp_HPALETTE_UserMarshal64>
+
+externdef __imp_HPALETTE_UserMarshal:PPROC
+HPALETTE_UserMarshal equ <__imp_HPALETTE_UserMarshal>
+
+externdef __imp_HPALETTE_UserSize64:PPROC
+HPALETTE_UserSize64 equ <__imp_HPALETTE_UserSize64>
+
+externdef __imp_HPALETTE_UserSize:PPROC
+HPALETTE_UserSize equ <__imp_HPALETTE_UserSize>
+
+externdef __imp_HPALETTE_UserUnmarshal64:PPROC
+HPALETTE_UserUnmarshal64 equ <__imp_HPALETTE_UserUnmarshal64>
+
+externdef __imp_HPALETTE_UserUnmarshal:PPROC
+HPALETTE_UserUnmarshal equ <__imp_HPALETTE_UserUnmarshal>
+
+externdef __imp_HWND_UserFree64:PPROC
+HWND_UserFree64 equ <__imp_HWND_UserFree64>
+
+externdef __imp_HWND_UserFree:PPROC
+HWND_UserFree equ <__imp_HWND_UserFree>
+
+externdef __imp_HWND_UserMarshal64:PPROC
+HWND_UserMarshal64 equ <__imp_HWND_UserMarshal64>
+
+externdef __imp_HWND_UserMarshal:PPROC
+HWND_UserMarshal equ <__imp_HWND_UserMarshal>
+
+externdef __imp_HWND_UserSize64:PPROC
+HWND_UserSize64 equ <__imp_HWND_UserSize64>
+
+externdef __imp_HWND_UserSize:PPROC
+HWND_UserSize equ <__imp_HWND_UserSize>
+
+externdef __imp_HWND_UserUnmarshal64:PPROC
+HWND_UserUnmarshal64 equ <__imp_HWND_UserUnmarshal64>
+
+externdef __imp_HWND_UserUnmarshal:PPROC
+HWND_UserUnmarshal equ <__imp_HWND_UserUnmarshal>
+
+externdef __imp_HkOleRegisterObject:PPROC
+HkOleRegisterObject equ <__imp_HkOleRegisterObject>
+
+externdef __imp_IIDFromString:PPROC
+IIDFromString equ <__imp_IIDFromString>
+
+externdef __imp_IsAccelerator:PPROC
+IsAccelerator equ <__imp_IsAccelerator>
+
+externdef __imp_IsEqualGUID:PPROC
+IsEqualGUID equ <__imp_IsEqualGUID>
+
+externdef __imp_IsValidIid:PPROC
+IsValidIid equ <__imp_IsValidIid>
+
+externdef __imp_IsValidInterface:PPROC
+IsValidInterface equ <__imp_IsValidInterface>
+
+externdef __imp_IsValidPtrIn:PPROC
+IsValidPtrIn equ <__imp_IsValidPtrIn>
+
+externdef __imp_IsValidPtrOut:PPROC
+IsValidPtrOut equ <__imp_IsValidPtrOut>
+
+externdef __imp_MkParseDisplayName:PPROC
+MkParseDisplayName equ <__imp_MkParseDisplayName>
+
+externdef __imp_MonikerCommonPrefixWith:PPROC
+MonikerCommonPrefixWith equ <__imp_MonikerCommonPrefixWith>
+
+externdef __imp_MonikerRelativePathTo:PPROC
+MonikerRelativePathTo equ <__imp_MonikerRelativePathTo>
+
+externdef __imp_OleBuildVersion:PPROC
+OleBuildVersion equ <__imp_OleBuildVersion>
+
+externdef __imp_OleConvertIStorageToOLESTREAM:PPROC
+OleConvertIStorageToOLESTREAM equ <__imp_OleConvertIStorageToOLESTREAM>
+
+externdef __imp_OleConvertIStorageToOLESTREAMEx:PPROC
+OleConvertIStorageToOLESTREAMEx equ <__imp_OleConvertIStorageToOLESTREAMEx>
+
+externdef __imp_OleConvertOLESTREAMToIStorage:PPROC
+OleConvertOLESTREAMToIStorage equ <__imp_OleConvertOLESTREAMToIStorage>
+
+externdef __imp_OleConvertOLESTREAMToIStorageEx:PPROC
+OleConvertOLESTREAMToIStorageEx equ <__imp_OleConvertOLESTREAMToIStorageEx>
+
+externdef __imp_OleCreate:PPROC
+OleCreate equ <__imp_OleCreate>
+
+externdef __imp_OleCreateDefaultHandler:PPROC
+OleCreateDefaultHandler equ <__imp_OleCreateDefaultHandler>
+
+externdef __imp_OleCreateEmbeddingHelper:PPROC
+OleCreateEmbeddingHelper equ <__imp_OleCreateEmbeddingHelper>
+
+externdef __imp_OleCreateEx:PPROC
+OleCreateEx equ <__imp_OleCreateEx>
+
+externdef __imp_OleCreateFromData:PPROC
+OleCreateFromData equ <__imp_OleCreateFromData>
+
+externdef __imp_OleCreateFromDataEx:PPROC
+OleCreateFromDataEx equ <__imp_OleCreateFromDataEx>
+
+externdef __imp_OleCreateFromFile:PPROC
+OleCreateFromFile equ <__imp_OleCreateFromFile>
+
+externdef __imp_OleCreateFromFileEx:PPROC
+OleCreateFromFileEx equ <__imp_OleCreateFromFileEx>
+
+externdef __imp_OleCreateLink:PPROC
+OleCreateLink equ <__imp_OleCreateLink>
+
+externdef __imp_OleCreateLinkEx:PPROC
+OleCreateLinkEx equ <__imp_OleCreateLinkEx>
+
+externdef __imp_OleCreateLinkFromData:PPROC
+OleCreateLinkFromData equ <__imp_OleCreateLinkFromData>
+
+externdef __imp_OleCreateLinkFromDataEx:PPROC
+OleCreateLinkFromDataEx equ <__imp_OleCreateLinkFromDataEx>
+
+externdef __imp_OleCreateLinkToFile:PPROC
+OleCreateLinkToFile equ <__imp_OleCreateLinkToFile>
+
+externdef __imp_OleCreateLinkToFileEx:PPROC
+OleCreateLinkToFileEx equ <__imp_OleCreateLinkToFileEx>
+
+externdef __imp_OleCreateMenuDescriptor:PPROC
+OleCreateMenuDescriptor equ <__imp_OleCreateMenuDescriptor>
+
+externdef __imp_OleCreateStaticFromData:PPROC
+OleCreateStaticFromData equ <__imp_OleCreateStaticFromData>
+
+externdef __imp_OleDestroyMenuDescriptor:PPROC
+OleDestroyMenuDescriptor equ <__imp_OleDestroyMenuDescriptor>
+
+externdef __imp_OleDoAutoConvert:PPROC
+OleDoAutoConvert equ <__imp_OleDoAutoConvert>
+
+externdef __imp_OleDraw:PPROC
+OleDraw equ <__imp_OleDraw>
+
+externdef __imp_OleDuplicateData:PPROC
+OleDuplicateData equ <__imp_OleDuplicateData>
+
+externdef __imp_OleFlushClipboard:PPROC
+OleFlushClipboard equ <__imp_OleFlushClipboard>
+
+externdef __imp_OleGetAutoConvert:PPROC
+OleGetAutoConvert equ <__imp_OleGetAutoConvert>
+
+externdef __imp_OleGetClipboard:PPROC
+OleGetClipboard equ <__imp_OleGetClipboard>
+
+externdef __imp_OleGetIconOfClass:PPROC
+OleGetIconOfClass equ <__imp_OleGetIconOfClass>
+
+externdef __imp_OleGetIconOfFile:PPROC
+OleGetIconOfFile equ <__imp_OleGetIconOfFile>
+
+externdef __imp_OleInitialize:PPROC
+OleInitialize equ <__imp_OleInitialize>
+
+externdef __imp_OleInitializeWOW:PPROC
+OleInitializeWOW equ <__imp_OleInitializeWOW>
+  IFDEF __UNICODE__
+    OleInitializeWO equ <__imp_OleInitializeWOW>
+  ENDIF
+
+externdef __imp_OleIsCurrentClipboard:PPROC
+OleIsCurrentClipboard equ <__imp_OleIsCurrentClipboard>
+
+externdef __imp_OleIsRunning:PPROC
+OleIsRunning equ <__imp_OleIsRunning>
+
+externdef __imp_OleLoad:PPROC
+OleLoad equ <__imp_OleLoad>
+
+externdef __imp_OleLoadFromStream:PPROC
+OleLoadFromStream equ <__imp_OleLoadFromStream>
+
+externdef __imp_OleLockRunning:PPROC
+OleLockRunning equ <__imp_OleLockRunning>
+
+externdef __imp_OleMetafilePictFromIconAndLabel:PPROC
+OleMetafilePictFromIconAndLabel equ <__imp_OleMetafilePictFromIconAndLabel>
+
+externdef __imp_OleNoteObjectVisible:PPROC
+OleNoteObjectVisible equ <__imp_OleNoteObjectVisible>
+
+externdef __imp_OleQueryCreateFromData:PPROC
+OleQueryCreateFromData equ <__imp_OleQueryCreateFromData>
+
+externdef __imp_OleQueryLinkFromData:PPROC
+OleQueryLinkFromData equ <__imp_OleQueryLinkFromData>
+
+externdef __imp_OleRegEnumFormatEtc:PPROC
+OleRegEnumFormatEtc equ <__imp_OleRegEnumFormatEtc>
+
+externdef __imp_OleRegEnumVerbs:PPROC
+OleRegEnumVerbs equ <__imp_OleRegEnumVerbs>
+
+externdef __imp_OleRegGetMiscStatus:PPROC
+OleRegGetMiscStatus equ <__imp_OleRegGetMiscStatus>
+
+externdef __imp_OleRegGetUserType:PPROC
+OleRegGetUserType equ <__imp_OleRegGetUserType>
+
+externdef __imp_OleRun:PPROC
+OleRun equ <__imp_OleRun>
+
+externdef __imp_OleSave:PPROC
+OleSave equ <__imp_OleSave>
+
+externdef __imp_OleSaveToStream:PPROC
+OleSaveToStream equ <__imp_OleSaveToStream>
+
+externdef __imp_OleSetAutoConvert:PPROC
+OleSetAutoConvert equ <__imp_OleSetAutoConvert>
+
+externdef __imp_OleSetClipboard:PPROC
+OleSetClipboard equ <__imp_OleSetClipboard>
+
+externdef __imp_OleSetContainedObject:PPROC
+OleSetContainedObject equ <__imp_OleSetContainedObject>
+
+externdef __imp_OleSetMenuDescriptor:PPROC
+OleSetMenuDescriptor equ <__imp_OleSetMenuDescriptor>
+
+externdef __imp_OleTranslateAccelerator:PPROC
+OleTranslateAccelerator equ <__imp_OleTranslateAccelerator>
+
+externdef __imp_OleUninitialize:PPROC
+OleUninitialize equ <__imp_OleUninitialize>
+
+externdef __imp_OpenOrCreateStream:PPROC
+OpenOrCreateStream equ <__imp_OpenOrCreateStream>
+
+externdef __imp_ProgIDFromCLSID:PPROC
+ProgIDFromCLSID equ <__imp_ProgIDFromCLSID>
+
+externdef __imp_PropStgNameToFmtId:PPROC
+PropStgNameToFmtId equ <__imp_PropStgNameToFmtId>
+
+externdef __imp_PropSysAllocString:PPROC
+PropSysAllocString equ <__imp_PropSysAllocString>
+
+externdef __imp_PropSysFreeString:PPROC
+PropSysFreeString equ <__imp_PropSysFreeString>
+
+externdef __imp_PropVariantChangeType:PPROC
+PropVariantChangeType equ <__imp_PropVariantChangeType>
+
+externdef __imp_PropVariantClear:PPROC
+PropVariantClear equ <__imp_PropVariantClear>
+
+externdef __imp_PropVariantCopy:PPROC
+PropVariantCopy equ <__imp_PropVariantCopy>
+
+externdef __imp_ReadClassStg:PPROC
+ReadClassStg equ <__imp_ReadClassStg>
+
+externdef __imp_ReadClassStm:PPROC
+ReadClassStm equ <__imp_ReadClassStm>
+
+externdef __imp_ReadFmtUserTypeStg:PPROC
+ReadFmtUserTypeStg equ <__imp_ReadFmtUserTypeStg>
+
+externdef __imp_ReadOleStg:PPROC
+ReadOleStg equ <__imp_ReadOleStg>
+
+externdef __imp_ReadStringStream:PPROC
+ReadStringStream equ <__imp_ReadStringStream>
+
+externdef __imp_RegisterDragDrop:PPROC
+RegisterDragDrop equ <__imp_RegisterDragDrop>
+
+externdef __imp_ReleaseStgMedium:PPROC
+ReleaseStgMedium equ <__imp_ReleaseStgMedium>
+
+externdef __imp_RevokeDragDrop:PPROC
+RevokeDragDrop equ <__imp_RevokeDragDrop>
+
+externdef __imp_SNB_UserFree64:PPROC
+SNB_UserFree64 equ <__imp_SNB_UserFree64>
+
+externdef __imp_SNB_UserFree:PPROC
+SNB_UserFree equ <__imp_SNB_UserFree>
+
+externdef __imp_SNB_UserMarshal64:PPROC
+SNB_UserMarshal64 equ <__imp_SNB_UserMarshal64>
+
+externdef __imp_SNB_UserMarshal:PPROC
+SNB_UserMarshal equ <__imp_SNB_UserMarshal>
+
+externdef __imp_SNB_UserSize64:PPROC
+SNB_UserSize64 equ <__imp_SNB_UserSize64>
+
+externdef __imp_SNB_UserSize:PPROC
+SNB_UserSize equ <__imp_SNB_UserSize>
+
+externdef __imp_SNB_UserUnmarshal64:PPROC
+SNB_UserUnmarshal64 equ <__imp_SNB_UserUnmarshal64>
+
+externdef __imp_SNB_UserUnmarshal:PPROC
+SNB_UserUnmarshal equ <__imp_SNB_UserUnmarshal>
+
+externdef __imp_STGMEDIUM_UserFree64:PPROC
+STGMEDIUM_UserFree64 equ <__imp_STGMEDIUM_UserFree64>
+
+externdef __imp_STGMEDIUM_UserFree:PPROC
+STGMEDIUM_UserFree equ <__imp_STGMEDIUM_UserFree>
+
+externdef __imp_STGMEDIUM_UserMarshal64:PPROC
+STGMEDIUM_UserMarshal64 equ <__imp_STGMEDIUM_UserMarshal64>
+
+externdef __imp_STGMEDIUM_UserMarshal:PPROC
+STGMEDIUM_UserMarshal equ <__imp_STGMEDIUM_UserMarshal>
+
+externdef __imp_STGMEDIUM_UserSize64:PPROC
+STGMEDIUM_UserSize64 equ <__imp_STGMEDIUM_UserSize64>
+
+externdef __imp_STGMEDIUM_UserSize:PPROC
+STGMEDIUM_UserSize equ <__imp_STGMEDIUM_UserSize>
+
+externdef __imp_STGMEDIUM_UserUnmarshal64:PPROC
+STGMEDIUM_UserUnmarshal64 equ <__imp_STGMEDIUM_UserUnmarshal64>
+
+externdef __imp_STGMEDIUM_UserUnmarshal:PPROC
+STGMEDIUM_UserUnmarshal equ <__imp_STGMEDIUM_UserUnmarshal>
+
+externdef __imp_SetConvertStg:PPROC
+SetConvertStg equ <__imp_SetConvertStg>
+
+externdef __imp_SetDocumentBitStg:PPROC
+SetDocumentBitStg equ <__imp_SetDocumentBitStg>
+
+externdef __imp_SetErrorInfo:PPROC
+SetErrorInfo equ <__imp_SetErrorInfo>
+
+externdef __imp_StgConvertPropertyToVariant:PPROC
+StgConvertPropertyToVariant equ <__imp_StgConvertPropertyToVariant>
+
+externdef __imp_StgConvertVariantToProperty:PPROC
+StgConvertVariantToProperty equ <__imp_StgConvertVariantToProperty>
+
+externdef __imp_StgCreateDocfile:PPROC
+StgCreateDocfile equ <__imp_StgCreateDocfile>
+
+externdef __imp_StgCreateDocfileOnILockBytes:PPROC
+StgCreateDocfileOnILockBytes equ <__imp_StgCreateDocfileOnILockBytes>
+
+externdef __imp_StgCreatePropSetStg:PPROC
+StgCreatePropSetStg equ <__imp_StgCreatePropSetStg>
+
+externdef __imp_StgCreatePropStg:PPROC
+StgCreatePropStg equ <__imp_StgCreatePropStg>
+
+externdef __imp_StgCreateStorageEx:PPROC
+StgCreateStorageEx equ <__imp_StgCreateStorageEx>
+
+externdef __imp_StgGetIFillLockBytesOnFile:PPROC
+StgGetIFillLockBytesOnFile equ <__imp_StgGetIFillLockBytesOnFile>
+
+externdef __imp_StgGetIFillLockBytesOnILockBytes:PPROC
+StgGetIFillLockBytesOnILockBytes equ <__imp_StgGetIFillLockBytesOnILockBytes>
+
+externdef __imp_StgIsStorageFile:PPROC
+StgIsStorageFile equ <__imp_StgIsStorageFile>
+
+externdef __imp_StgIsStorageILockBytes:PPROC
+StgIsStorageILockBytes equ <__imp_StgIsStorageILockBytes>
+
+externdef __imp_StgOpenAsyncDocfileOnIFillLockBytes:PPROC
+StgOpenAsyncDocfileOnIFillLockBytes equ <__imp_StgOpenAsyncDocfileOnIFillLockBytes>
+
+externdef __imp_StgOpenPropStg:PPROC
+StgOpenPropStg equ <__imp_StgOpenPropStg>
+
+externdef __imp_StgOpenStorage:PPROC
+StgOpenStorage equ <__imp_StgOpenStorage>
+
+externdef __imp_StgOpenStorageEx:PPROC
+StgOpenStorageEx equ <__imp_StgOpenStorageEx>
+
+externdef __imp_StgOpenStorageOnHandle:PPROC
+StgOpenStorageOnHandle equ <__imp_StgOpenStorageOnHandle>
+
+externdef __imp_StgOpenStorageOnILockBytes:PPROC
+StgOpenStorageOnILockBytes equ <__imp_StgOpenStorageOnILockBytes>
+
+externdef __imp_StgPropertyLengthAsVariant:PPROC
+StgPropertyLengthAsVariant equ <__imp_StgPropertyLengthAsVariant>
+
+externdef __imp_StgSetTimes:PPROC
+StgSetTimes equ <__imp_StgSetTimes>
+
+externdef __imp_StringFromCLSID:PPROC
+StringFromCLSID equ <__imp_StringFromCLSID>
+
+externdef __imp_StringFromGUID2:PPROC
+StringFromGUID2 equ <__imp_StringFromGUID2>
+
+externdef __imp_StringFromIID:PPROC
+StringFromIID equ <__imp_StringFromIID>
+
+externdef __imp_UpdateDCOMSettings:PPROC
+UpdateDCOMSettings equ <__imp_UpdateDCOMSettings>
+
+externdef __imp_UpdateProcessTracing:PPROC
+UpdateProcessTracing equ <__imp_UpdateProcessTracing>
+
+externdef __imp_UtConvertDvtd16toDvtd32:PPROC
+UtConvertDvtd16toDvtd32 equ <__imp_UtConvertDvtd16toDvtd32>
+
+externdef __imp_UtConvertDvtd32toDvtd16:PPROC
+UtConvertDvtd32toDvtd16 equ <__imp_UtConvertDvtd32toDvtd16>
+
+externdef __imp_UtGetDvtd16Info:PPROC
+UtGetDvtd16Info equ <__imp_UtGetDvtd16Info>
+
+externdef __imp_UtGetDvtd32Info:PPROC
+UtGetDvtd32Info equ <__imp_UtGetDvtd32Info>
+
+externdef __imp_WdtpInterfacePointer_UserFree64:PPROC
+WdtpInterfacePointer_UserFree64 equ <__imp_WdtpInterfacePointer_UserFree64>
+
+externdef __imp_WdtpInterfacePointer_UserFree:PPROC
+WdtpInterfacePointer_UserFree equ <__imp_WdtpInterfacePointer_UserFree>
+
+externdef __imp_WdtpInterfacePointer_UserMarshal64:PPROC
+WdtpInterfacePointer_UserMarshal64 equ <__imp_WdtpInterfacePointer_UserMarshal64>
+
+externdef __imp_WdtpInterfacePointer_UserMarshal:PPROC
+WdtpInterfacePointer_UserMarshal equ <__imp_WdtpInterfacePointer_UserMarshal>
+
+externdef __imp_WdtpInterfacePointer_UserSize64:PPROC
+WdtpInterfacePointer_UserSize64 equ <__imp_WdtpInterfacePointer_UserSize64>
+
+externdef __imp_WdtpInterfacePointer_UserSize:PPROC
+WdtpInterfacePointer_UserSize equ <__imp_WdtpInterfacePointer_UserSize>
+
+externdef __imp_WdtpInterfacePointer_UserUnmarshal64:PPROC
+WdtpInterfacePointer_UserUnmarshal64 equ <__imp_WdtpInterfacePointer_UserUnmarshal64>
+
+externdef __imp_WdtpInterfacePointer_UserUnmarshal:PPROC
+WdtpInterfacePointer_UserUnmarshal equ <__imp_WdtpInterfacePointer_UserUnmarshal>
+
+externdef __imp_WriteClassStg:PPROC
+WriteClassStg equ <__imp_WriteClassStg>
+
+externdef __imp_WriteClassStm:PPROC
+WriteClassStm equ <__imp_WriteClassStm>
+
+externdef __imp_WriteFmtUserTypeStg:PPROC
+WriteFmtUserTypeStg equ <__imp_WriteFmtUserTypeStg>
+
+externdef __imp_WriteOleStg:PPROC
+WriteOleStg equ <__imp_WriteOleStg>
+
+externdef __imp_WriteStringStream:PPROC
+WriteStringStream equ <__imp_WriteStringStream>

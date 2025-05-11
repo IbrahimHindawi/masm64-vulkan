@@ -1,0 +1,29 @@
+externdef __imp_CdromDisableDigitalPlayback:PPROC
+CdromDisableDigitalPlayback equ <__imp_CdromDisableDigitalPlayback>
+
+externdef __imp_CdromEnableDigitalPlayback:PPROC
+CdromEnableDigitalPlayback equ <__imp_CdromEnableDigitalPlayback>
+
+externdef __imp_CdromIsDigitalPlaybackEnabled:PPROC
+CdromIsDigitalPlaybackEnabled equ <__imp_CdromIsDigitalPlaybackEnabled>
+
+externdef __imp_CdromKnownGoodDigitalPlayback:PPROC
+CdromKnownGoodDigitalPlayback equ <__imp_CdromKnownGoodDigitalPlayback>
+
+externdef __imp_DiskClassInstaller:PPROC
+DiskClassInstaller equ <__imp_DiskClassInstaller>
+
+externdef __imp_DvdClassInstaller:PPROC
+DvdClassInstaller equ <__imp_DvdClassInstaller>
+
+externdef __imp_DvdLauncher:PPROC
+DvdLauncher equ <__imp_DvdLauncher>
+
+externdef __imp_DvdPropPageProvider:PPROC
+DvdPropPageProvider equ <__imp_DvdPropPageProvider>
+
+externdef __imp_IdePropPageProvider:PPROC
+IdePropPageProvider equ <__imp_IdePropPageProvider>
+
+externdef __imp_VolumePropPageProvider:PPROC
+VolumePropPageProvider equ <__imp_VolumePropPageProvider>

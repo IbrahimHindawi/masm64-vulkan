@@ -1,0 +1,5 @@
+externdef __imp_ScesrvInitializeServer:PPROC
+ScesrvInitializeServer equ <__imp_ScesrvInitializeServer>
+
+externdef __imp_ScesrvTerminateServer:PPROC
+ScesrvTerminateServer equ <__imp_ScesrvTerminateServer>

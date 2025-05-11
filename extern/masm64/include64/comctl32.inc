@@ -1,0 +1,1304 @@
+externdef __imp_AddMRUStringW:PPROC
+AddMRUStringW equ <__imp_AddMRUStringW>
+  IFDEF __UNICODE__
+    AddMRUString equ <__imp_AddMRUStringW>
+  ENDIF
+
+externdef __imp_CreateMRUListW:PPROC
+CreateMRUListW equ <__imp_CreateMRUListW>
+  IFDEF __UNICODE__
+    CreateMRUList equ <__imp_CreateMRUListW>
+  ENDIF
+
+externdef __imp_CreateMappedBitmap:PPROC
+CreateMappedBitmap equ <__imp_CreateMappedBitmap>
+
+externdef __imp_CreatePropertySheetPage:PPROC
+CreatePropertySheetPage equ <__imp_CreatePropertySheetPage>
+
+externdef __imp_CreatePropertySheetPageA:PPROC
+CreatePropertySheetPageA equ <__imp_CreatePropertySheetPageA>
+  IFNDEF __UNICODE__
+    CreatePropertySheetPage equ <__imp_CreatePropertySheetPageA>
+  ENDIF
+
+externdef __imp_CreatePropertySheetPageW:PPROC
+CreatePropertySheetPageW equ <__imp_CreatePropertySheetPageW>
+  IFDEF __UNICODE__
+    CreatePropertySheetPage equ <__imp_CreatePropertySheetPageW>
+  ENDIF
+
+externdef __imp_CreateStatusWindow:PPROC
+CreateStatusWindow equ <__imp_CreateStatusWindow>
+
+externdef __imp_CreateStatusWindowA:PPROC
+CreateStatusWindowA equ <__imp_CreateStatusWindowA>
+  IFNDEF __UNICODE__
+    CreateStatusWindow equ <__imp_CreateStatusWindowA>
+  ENDIF
+
+externdef __imp_CreateStatusWindowW:PPROC
+CreateStatusWindowW equ <__imp_CreateStatusWindowW>
+  IFDEF __UNICODE__
+    CreateStatusWindow equ <__imp_CreateStatusWindowW>
+  ENDIF
+
+externdef __imp_CreateToolbar:PPROC
+CreateToolbar equ <__imp_CreateToolbar>
+
+externdef __imp_CreateToolbarEx:PPROC
+CreateToolbarEx equ <__imp_CreateToolbarEx>
+
+externdef __imp_CreateUpDownControl:PPROC
+CreateUpDownControl equ <__imp_CreateUpDownControl>
+
+externdef __imp_DPA_Create:PPROC
+DPA_Create equ <__imp_DPA_Create>
+
+externdef __imp_DPA_DeleteAllPtrs:PPROC
+DPA_DeleteAllPtrs equ <__imp_DPA_DeleteAllPtrs>
+
+externdef __imp_DPA_DeletePtr:PPROC
+DPA_DeletePtr equ <__imp_DPA_DeletePtr>
+
+externdef __imp_DPA_Destroy:PPROC
+DPA_Destroy equ <__imp_DPA_Destroy>
+
+externdef __imp_DPA_DestroyCallback:PPROC
+DPA_DestroyCallback equ <__imp_DPA_DestroyCallback>
+
+externdef __imp_DPA_EnumCallback:PPROC
+DPA_EnumCallback equ <__imp_DPA_EnumCallback>
+
+externdef __imp_DPA_GetPtr:PPROC
+DPA_GetPtr equ <__imp_DPA_GetPtr>
+
+externdef __imp_DPA_InsertPtr:PPROC
+DPA_InsertPtr equ <__imp_DPA_InsertPtr>
+
+externdef __imp_DPA_Search:PPROC
+DPA_Search equ <__imp_DPA_Search>
+
+externdef __imp_DPA_SetPtr:PPROC
+DPA_SetPtr equ <__imp_DPA_SetPtr>
+
+externdef __imp_DPA_Sort:PPROC
+DPA_Sort equ <__imp_DPA_Sort>
+
+externdef __imp_DSA_Create:PPROC
+DSA_Create equ <__imp_DSA_Create>
+
+externdef __imp_DSA_DeleteAllItems:PPROC
+DSA_DeleteAllItems equ <__imp_DSA_DeleteAllItems>
+
+externdef __imp_DSA_Destroy:PPROC
+DSA_Destroy equ <__imp_DSA_Destroy>
+
+externdef __imp_DSA_DestroyCallback:PPROC
+DSA_DestroyCallback equ <__imp_DSA_DestroyCallback>
+
+externdef __imp_DSA_GetItemPtr:PPROC
+DSA_GetItemPtr equ <__imp_DSA_GetItemPtr>
+
+externdef __imp_DSA_InsertItem:PPROC
+DSA_InsertItem equ <__imp_DSA_InsertItem>
+
+externdef __imp_DefSubclassProc:PPROC
+DefSubclassProc equ <__imp_DefSubclassProc>
+
+externdef __imp_DestroyPropertySheetPage:PPROC
+DestroyPropertySheetPage equ <__imp_DestroyPropertySheetPage>
+
+externdef __imp_DllGetVersion:PPROC
+DllGetVersion equ <__imp_DllGetVersion>
+
+externdef __imp_DllInstall:PPROC
+DllInstall equ <__imp_DllInstall>
+
+externdef __imp_DrawInsert:PPROC
+DrawInsert equ <__imp_DrawInsert>
+
+externdef __imp_DrawStatusText:PPROC
+DrawStatusText equ <__imp_DrawStatusText>
+
+externdef __imp_DrawStatusTextA:PPROC
+DrawStatusTextA equ <__imp_DrawStatusTextA>
+  IFNDEF __UNICODE__
+    DrawStatusText equ <__imp_DrawStatusTextA>
+  ENDIF
+
+externdef __imp_DrawStatusTextW:PPROC
+DrawStatusTextW equ <__imp_DrawStatusTextW>
+  IFDEF __UNICODE__
+    DrawStatusText equ <__imp_DrawStatusTextW>
+  ENDIF
+
+externdef __imp_EnumMRUListW:PPROC
+EnumMRUListW equ <__imp_EnumMRUListW>
+  IFDEF __UNICODE__
+    EnumMRUList equ <__imp_EnumMRUListW>
+  ENDIF
+
+externdef __imp_FlatSB_EnableScrollBar:PPROC
+FlatSB_EnableScrollBar equ <__imp_FlatSB_EnableScrollBar>
+
+externdef __imp_FlatSB_GetScrollInfo:PPROC
+FlatSB_GetScrollInfo equ <__imp_FlatSB_GetScrollInfo>
+
+externdef __imp_FlatSB_GetScrollPos:PPROC
+FlatSB_GetScrollPos equ <__imp_FlatSB_GetScrollPos>
+
+externdef __imp_FlatSB_GetScrollProp:PPROC
+FlatSB_GetScrollProp equ <__imp_FlatSB_GetScrollProp>
+
+externdef __imp_FlatSB_GetScrollPropPtr:PPROC
+FlatSB_GetScrollPropPtr equ <__imp_FlatSB_GetScrollPropPtr>
+
+externdef __imp_FlatSB_GetScrollRange:PPROC
+FlatSB_GetScrollRange equ <__imp_FlatSB_GetScrollRange>
+
+externdef __imp_FlatSB_SetScrollInfo:PPROC
+FlatSB_SetScrollInfo equ <__imp_FlatSB_SetScrollInfo>
+
+externdef __imp_FlatSB_SetScrollPos:PPROC
+FlatSB_SetScrollPos equ <__imp_FlatSB_SetScrollPos>
+
+externdef __imp_FlatSB_SetScrollProp:PPROC
+FlatSB_SetScrollProp equ <__imp_FlatSB_SetScrollProp>
+
+externdef __imp_FlatSB_SetScrollRange:PPROC
+FlatSB_SetScrollRange equ <__imp_FlatSB_SetScrollRange>
+
+externdef __imp_FlatSB_ShowScrollBar:PPROC
+FlatSB_ShowScrollBar equ <__imp_FlatSB_ShowScrollBar>
+
+externdef __imp_FreeMRUList:PPROC
+FreeMRUList equ <__imp_FreeMRUList>
+
+externdef __imp_GetEffectiveClientRect:PPROC
+GetEffectiveClientRect equ <__imp_GetEffectiveClientRect>
+
+externdef __imp_GetMUILanguage:PPROC
+GetMUILanguage equ <__imp_GetMUILanguage>
+
+externdef __imp_ImageList_Add:PPROC
+ImageList_Add equ <__imp_ImageList_Add>
+
+externdef __imp_ImageList_AddIcon:PPROC
+ImageList_AddIcon equ <__imp_ImageList_AddIcon>
+
+externdef __imp_ImageList_AddMasked:PPROC
+ImageList_AddMasked equ <__imp_ImageList_AddMasked>
+
+externdef __imp_ImageList_BeginDrag:PPROC
+ImageList_BeginDrag equ <__imp_ImageList_BeginDrag>
+
+externdef __imp_ImageList_Copy:PPROC
+ImageList_Copy equ <__imp_ImageList_Copy>
+
+externdef __imp_ImageList_Create:PPROC
+ImageList_Create equ <__imp_ImageList_Create>
+
+externdef __imp_ImageList_Destroy:PPROC
+ImageList_Destroy equ <__imp_ImageList_Destroy>
+
+externdef __imp_ImageList_DragEnter:PPROC
+ImageList_DragEnter equ <__imp_ImageList_DragEnter>
+
+externdef __imp_ImageList_DragLeave:PPROC
+ImageList_DragLeave equ <__imp_ImageList_DragLeave>
+
+externdef __imp_ImageList_DragMove:PPROC
+ImageList_DragMove equ <__imp_ImageList_DragMove>
+
+externdef __imp_ImageList_DragShowNolock:PPROC
+ImageList_DragShowNolock equ <__imp_ImageList_DragShowNolock>
+
+externdef __imp_ImageList_Draw:PPROC
+ImageList_Draw equ <__imp_ImageList_Draw>
+
+externdef __imp_ImageList_DrawEx:PPROC
+ImageList_DrawEx equ <__imp_ImageList_DrawEx>
+
+externdef __imp_ImageList_DrawIndirect:PPROC
+ImageList_DrawIndirect equ <__imp_ImageList_DrawIndirect>
+
+externdef __imp_ImageList_Duplicate:PPROC
+ImageList_Duplicate equ <__imp_ImageList_Duplicate>
+
+externdef __imp_ImageList_EndDrag:PPROC
+ImageList_EndDrag equ <__imp_ImageList_EndDrag>
+
+externdef __imp_ImageList_GetBkColor:PPROC
+ImageList_GetBkColor equ <__imp_ImageList_GetBkColor>
+
+externdef __imp_ImageList_GetDragImage:PPROC
+ImageList_GetDragImage equ <__imp_ImageList_GetDragImage>
+
+externdef __imp_ImageList_GetFlags:PPROC
+ImageList_GetFlags equ <__imp_ImageList_GetFlags>
+
+externdef __imp_ImageList_GetIcon:PPROC
+ImageList_GetIcon equ <__imp_ImageList_GetIcon>
+
+externdef __imp_ImageList_GetIconSize:PPROC
+ImageList_GetIconSize equ <__imp_ImageList_GetIconSize>
+
+externdef __imp_ImageList_GetImageCount:PPROC
+ImageList_GetImageCount equ <__imp_ImageList_GetImageCount>
+
+externdef __imp_ImageList_GetImageInfo:PPROC
+ImageList_GetImageInfo equ <__imp_ImageList_GetImageInfo>
+
+externdef __imp_ImageList_GetImageRect:PPROC
+ImageList_GetImageRect equ <__imp_ImageList_GetImageRect>
+
+externdef __imp_ImageList_LoadImage:PPROC
+ImageList_LoadImage equ <__imp_ImageList_LoadImage>
+
+externdef __imp_ImageList_LoadImageA:PPROC
+ImageList_LoadImageA equ <__imp_ImageList_LoadImageA>
+  IFNDEF __UNICODE__
+    ImageList_LoadImage equ <__imp_ImageList_LoadImageA>
+  ENDIF
+
+externdef __imp_ImageList_LoadImageW:PPROC
+ImageList_LoadImageW equ <__imp_ImageList_LoadImageW>
+  IFDEF __UNICODE__
+    ImageList_LoadImage equ <__imp_ImageList_LoadImageW>
+  ENDIF
+
+externdef __imp_ImageList_Merge:PPROC
+ImageList_Merge equ <__imp_ImageList_Merge>
+
+externdef __imp_ImageList_Read:PPROC
+ImageList_Read equ <__imp_ImageList_Read>
+
+externdef __imp_ImageList_Remove:PPROC
+ImageList_Remove equ <__imp_ImageList_Remove>
+
+externdef __imp_ImageList_Replace:PPROC
+ImageList_Replace equ <__imp_ImageList_Replace>
+
+externdef __imp_ImageList_ReplaceIcon:PPROC
+ImageList_ReplaceIcon equ <__imp_ImageList_ReplaceIcon>
+
+externdef __imp_ImageList_SetBkColor:PPROC
+ImageList_SetBkColor equ <__imp_ImageList_SetBkColor>
+
+externdef __imp_ImageList_SetDragCursorImage:PPROC
+ImageList_SetDragCursorImage equ <__imp_ImageList_SetDragCursorImage>
+
+externdef __imp_ImageList_SetFilter:PPROC
+ImageList_SetFilter equ <__imp_ImageList_SetFilter>
+
+externdef __imp_ImageList_SetFlags:PPROC
+ImageList_SetFlags equ <__imp_ImageList_SetFlags>
+
+externdef __imp_ImageList_SetIconSize:PPROC
+ImageList_SetIconSize equ <__imp_ImageList_SetIconSize>
+
+externdef __imp_ImageList_SetImageCount:PPROC
+ImageList_SetImageCount equ <__imp_ImageList_SetImageCount>
+
+externdef __imp_ImageList_SetOverlayImage:PPROC
+ImageList_SetOverlayImage equ <__imp_ImageList_SetOverlayImage>
+
+externdef __imp_ImageList_Write:PPROC
+ImageList_Write equ <__imp_ImageList_Write>
+
+externdef __imp_InitCommonControls:PPROC
+InitCommonControls equ <__imp_InitCommonControls>
+
+externdef __imp_InitCommonControlsEx:PPROC
+InitCommonControlsEx equ <__imp_InitCommonControlsEx>
+
+externdef __imp_InitMUILanguage:PPROC
+InitMUILanguage equ <__imp_InitMUILanguage>
+
+externdef __imp_InitializeFlatSB:PPROC
+InitializeFlatSB equ <__imp_InitializeFlatSB>
+
+externdef __imp_LBItemFromPt:PPROC
+LBItemFromPt equ <__imp_LBItemFromPt>
+
+externdef __imp_MakeDragList:PPROC
+MakeDragList equ <__imp_MakeDragList>
+
+externdef __imp_MenuHelp:PPROC
+MenuHelp equ <__imp_MenuHelp>
+
+externdef __imp_PropertySheet:PPROC
+PropertySheet equ <__imp_PropertySheet>
+
+externdef __imp_PropertySheetA:PPROC
+PropertySheetA equ <__imp_PropertySheetA>
+  IFNDEF __UNICODE__
+    PropertySheet equ <__imp_PropertySheetA>
+  ENDIF
+
+externdef __imp_PropertySheetW:PPROC
+PropertySheetW equ <__imp_PropertySheetW>
+  IFDEF __UNICODE__
+    PropertySheet equ <__imp_PropertySheetW>
+  ENDIF
+
+externdef __imp_RegisterClassNameW:PPROC
+RegisterClassNameW equ <__imp_RegisterClassNameW>
+  IFDEF __UNICODE__
+    RegisterClassName equ <__imp_RegisterClassNameW>
+  ENDIF
+
+externdef __imp_RemoveWindowSubclass:PPROC
+RemoveWindowSubclass equ <__imp_RemoveWindowSubclass>
+
+externdef __imp_SetWindowSubclass:PPROC
+SetWindowSubclass equ <__imp_SetWindowSubclass>
+
+externdef __imp_ShowHideMenuCtl:PPROC
+ShowHideMenuCtl equ <__imp_ShowHideMenuCtl>
+
+externdef __imp_Str_SetPtrW:PPROC
+Str_SetPtrW equ <__imp_Str_SetPtrW>
+  IFDEF __UNICODE__
+    Str_SetPtr equ <__imp_Str_SetPtrW>
+  ENDIF
+
+externdef __imp_UninitializeFlatSB:PPROC
+UninitializeFlatSB equ <__imp_UninitializeFlatSB>
+
+externdef __imp__TrackMouseEvent:PPROC
+_TrackMouseEvent equ <__imp__TrackMouseEvent>
+
+externdef __imp_comctl32_ordinal100:PPROC
+comctl32_ordinal100 equ <__imp_comctl32_ordinal100>
+
+externdef __imp_comctl32_ordinal101:PPROC
+comctl32_ordinal101 equ <__imp_comctl32_ordinal101>
+
+externdef __imp_comctl32_ordinal102:PPROC
+comctl32_ordinal102 equ <__imp_comctl32_ordinal102>
+
+externdef __imp_comctl32_ordinal103:PPROC
+comctl32_ordinal103 equ <__imp_comctl32_ordinal103>
+
+externdef __imp_comctl32_ordinal104:PPROC
+comctl32_ordinal104 equ <__imp_comctl32_ordinal104>
+
+externdef __imp_comctl32_ordinal105:PPROC
+comctl32_ordinal105 equ <__imp_comctl32_ordinal105>
+
+externdef __imp_comctl32_ordinal106:PPROC
+comctl32_ordinal106 equ <__imp_comctl32_ordinal106>
+
+externdef __imp_comctl32_ordinal107:PPROC
+comctl32_ordinal107 equ <__imp_comctl32_ordinal107>
+
+externdef __imp_comctl32_ordinal108:PPROC
+comctl32_ordinal108 equ <__imp_comctl32_ordinal108>
+
+externdef __imp_comctl32_ordinal109:PPROC
+comctl32_ordinal109 equ <__imp_comctl32_ordinal109>
+
+externdef __imp_comctl32_ordinal10:PPROC
+comctl32_ordinal10 equ <__imp_comctl32_ordinal10>
+
+externdef __imp_comctl32_ordinal110:PPROC
+comctl32_ordinal110 equ <__imp_comctl32_ordinal110>
+
+externdef __imp_comctl32_ordinal111:PPROC
+comctl32_ordinal111 equ <__imp_comctl32_ordinal111>
+
+externdef __imp_comctl32_ordinal112:PPROC
+comctl32_ordinal112 equ <__imp_comctl32_ordinal112>
+
+externdef __imp_comctl32_ordinal113:PPROC
+comctl32_ordinal113 equ <__imp_comctl32_ordinal113>
+
+externdef __imp_comctl32_ordinal114:PPROC
+comctl32_ordinal114 equ <__imp_comctl32_ordinal114>
+
+externdef __imp_comctl32_ordinal115:PPROC
+comctl32_ordinal115 equ <__imp_comctl32_ordinal115>
+
+externdef __imp_comctl32_ordinal116:PPROC
+comctl32_ordinal116 equ <__imp_comctl32_ordinal116>
+
+externdef __imp_comctl32_ordinal117:PPROC
+comctl32_ordinal117 equ <__imp_comctl32_ordinal117>
+
+externdef __imp_comctl32_ordinal118:PPROC
+comctl32_ordinal118 equ <__imp_comctl32_ordinal118>
+
+externdef __imp_comctl32_ordinal119:PPROC
+comctl32_ordinal119 equ <__imp_comctl32_ordinal119>
+
+externdef __imp_comctl32_ordinal11:PPROC
+comctl32_ordinal11 equ <__imp_comctl32_ordinal11>
+
+externdef __imp_comctl32_ordinal120:PPROC
+comctl32_ordinal120 equ <__imp_comctl32_ordinal120>
+
+externdef __imp_comctl32_ordinal121:PPROC
+comctl32_ordinal121 equ <__imp_comctl32_ordinal121>
+
+externdef __imp_comctl32_ordinal122:PPROC
+comctl32_ordinal122 equ <__imp_comctl32_ordinal122>
+
+externdef __imp_comctl32_ordinal123:PPROC
+comctl32_ordinal123 equ <__imp_comctl32_ordinal123>
+
+externdef __imp_comctl32_ordinal124:PPROC
+comctl32_ordinal124 equ <__imp_comctl32_ordinal124>
+
+externdef __imp_comctl32_ordinal125:PPROC
+comctl32_ordinal125 equ <__imp_comctl32_ordinal125>
+
+externdef __imp_comctl32_ordinal126:PPROC
+comctl32_ordinal126 equ <__imp_comctl32_ordinal126>
+
+externdef __imp_comctl32_ordinal127:PPROC
+comctl32_ordinal127 equ <__imp_comctl32_ordinal127>
+
+externdef __imp_comctl32_ordinal128:PPROC
+comctl32_ordinal128 equ <__imp_comctl32_ordinal128>
+
+externdef __imp_comctl32_ordinal129:PPROC
+comctl32_ordinal129 equ <__imp_comctl32_ordinal129>
+
+externdef __imp_comctl32_ordinal130:PPROC
+comctl32_ordinal130 equ <__imp_comctl32_ordinal130>
+
+externdef __imp_comctl32_ordinal131:PPROC
+comctl32_ordinal131 equ <__imp_comctl32_ordinal131>
+
+externdef __imp_comctl32_ordinal132:PPROC
+comctl32_ordinal132 equ <__imp_comctl32_ordinal132>
+
+externdef __imp_comctl32_ordinal133:PPROC
+comctl32_ordinal133 equ <__imp_comctl32_ordinal133>
+
+externdef __imp_comctl32_ordinal134:PPROC
+comctl32_ordinal134 equ <__imp_comctl32_ordinal134>
+
+externdef __imp_comctl32_ordinal135:PPROC
+comctl32_ordinal135 equ <__imp_comctl32_ordinal135>
+
+externdef __imp_comctl32_ordinal136:PPROC
+comctl32_ordinal136 equ <__imp_comctl32_ordinal136>
+
+externdef __imp_comctl32_ordinal137:PPROC
+comctl32_ordinal137 equ <__imp_comctl32_ordinal137>
+
+externdef __imp_comctl32_ordinal138:PPROC
+comctl32_ordinal138 equ <__imp_comctl32_ordinal138>
+
+externdef __imp_comctl32_ordinal139:PPROC
+comctl32_ordinal139 equ <__imp_comctl32_ordinal139>
+
+externdef __imp_comctl32_ordinal140:PPROC
+comctl32_ordinal140 equ <__imp_comctl32_ordinal140>
+
+externdef __imp_comctl32_ordinal141:PPROC
+comctl32_ordinal141 equ <__imp_comctl32_ordinal141>
+
+externdef __imp_comctl32_ordinal142:PPROC
+comctl32_ordinal142 equ <__imp_comctl32_ordinal142>
+
+externdef __imp_comctl32_ordinal143:PPROC
+comctl32_ordinal143 equ <__imp_comctl32_ordinal143>
+
+externdef __imp_comctl32_ordinal144:PPROC
+comctl32_ordinal144 equ <__imp_comctl32_ordinal144>
+
+externdef __imp_comctl32_ordinal145:PPROC
+comctl32_ordinal145 equ <__imp_comctl32_ordinal145>
+
+externdef __imp_comctl32_ordinal146:PPROC
+comctl32_ordinal146 equ <__imp_comctl32_ordinal146>
+
+externdef __imp_comctl32_ordinal147:PPROC
+comctl32_ordinal147 equ <__imp_comctl32_ordinal147>
+
+externdef __imp_comctl32_ordinal148:PPROC
+comctl32_ordinal148 equ <__imp_comctl32_ordinal148>
+
+externdef __imp_comctl32_ordinal149:PPROC
+comctl32_ordinal149 equ <__imp_comctl32_ordinal149>
+
+externdef __imp_comctl32_ordinal150:PPROC
+comctl32_ordinal150 equ <__imp_comctl32_ordinal150>
+
+externdef __imp_comctl32_ordinal151:PPROC
+comctl32_ordinal151 equ <__imp_comctl32_ordinal151>
+
+externdef __imp_comctl32_ordinal153:PPROC
+comctl32_ordinal153 equ <__imp_comctl32_ordinal153>
+
+externdef __imp_comctl32_ordinal154:PPROC
+comctl32_ordinal154 equ <__imp_comctl32_ordinal154>
+
+externdef __imp_comctl32_ordinal155:PPROC
+comctl32_ordinal155 equ <__imp_comctl32_ordinal155>
+
+externdef __imp_comctl32_ordinal156:PPROC
+comctl32_ordinal156 equ <__imp_comctl32_ordinal156>
+
+externdef __imp_comctl32_ordinal157:PPROC
+comctl32_ordinal157 equ <__imp_comctl32_ordinal157>
+
+externdef __imp_comctl32_ordinal158:PPROC
+comctl32_ordinal158 equ <__imp_comctl32_ordinal158>
+
+externdef __imp_comctl32_ordinal159:PPROC
+comctl32_ordinal159 equ <__imp_comctl32_ordinal159>
+
+externdef __imp_comctl32_ordinal160:PPROC
+comctl32_ordinal160 equ <__imp_comctl32_ordinal160>
+
+externdef __imp_comctl32_ordinal161:PPROC
+comctl32_ordinal161 equ <__imp_comctl32_ordinal161>
+
+externdef __imp_comctl32_ordinal162:PPROC
+comctl32_ordinal162 equ <__imp_comctl32_ordinal162>
+
+externdef __imp_comctl32_ordinal163:PPROC
+comctl32_ordinal163 equ <__imp_comctl32_ordinal163>
+
+externdef __imp_comctl32_ordinal164:PPROC
+comctl32_ordinal164 equ <__imp_comctl32_ordinal164>
+
+externdef __imp_comctl32_ordinal165:PPROC
+comctl32_ordinal165 equ <__imp_comctl32_ordinal165>
+
+externdef __imp_comctl32_ordinal166:PPROC
+comctl32_ordinal166 equ <__imp_comctl32_ordinal166>
+
+externdef __imp_comctl32_ordinal167:PPROC
+comctl32_ordinal167 equ <__imp_comctl32_ordinal167>
+
+externdef __imp_comctl32_ordinal168:PPROC
+comctl32_ordinal168 equ <__imp_comctl32_ordinal168>
+
+externdef __imp_comctl32_ordinal169:PPROC
+comctl32_ordinal169 equ <__imp_comctl32_ordinal169>
+
+externdef __imp_comctl32_ordinal170:PPROC
+comctl32_ordinal170 equ <__imp_comctl32_ordinal170>
+
+externdef __imp_comctl32_ordinal171:PPROC
+comctl32_ordinal171 equ <__imp_comctl32_ordinal171>
+
+externdef __imp_comctl32_ordinal172:PPROC
+comctl32_ordinal172 equ <__imp_comctl32_ordinal172>
+
+externdef __imp_comctl32_ordinal173:PPROC
+comctl32_ordinal173 equ <__imp_comctl32_ordinal173>
+
+externdef __imp_comctl32_ordinal174:PPROC
+comctl32_ordinal174 equ <__imp_comctl32_ordinal174>
+
+externdef __imp_comctl32_ordinal175:PPROC
+comctl32_ordinal175 equ <__imp_comctl32_ordinal175>
+
+externdef __imp_comctl32_ordinal176:PPROC
+comctl32_ordinal176 equ <__imp_comctl32_ordinal176>
+
+externdef __imp_comctl32_ordinal177:PPROC
+comctl32_ordinal177 equ <__imp_comctl32_ordinal177>
+
+externdef __imp_comctl32_ordinal178:PPROC
+comctl32_ordinal178 equ <__imp_comctl32_ordinal178>
+
+externdef __imp_comctl32_ordinal179:PPROC
+comctl32_ordinal179 equ <__imp_comctl32_ordinal179>
+
+externdef __imp_comctl32_ordinal180:PPROC
+comctl32_ordinal180 equ <__imp_comctl32_ordinal180>
+
+externdef __imp_comctl32_ordinal181:PPROC
+comctl32_ordinal181 equ <__imp_comctl32_ordinal181>
+
+externdef __imp_comctl32_ordinal182:PPROC
+comctl32_ordinal182 equ <__imp_comctl32_ordinal182>
+
+externdef __imp_comctl32_ordinal183:PPROC
+comctl32_ordinal183 equ <__imp_comctl32_ordinal183>
+
+externdef __imp_comctl32_ordinal184:PPROC
+comctl32_ordinal184 equ <__imp_comctl32_ordinal184>
+
+externdef __imp_comctl32_ordinal185:PPROC
+comctl32_ordinal185 equ <__imp_comctl32_ordinal185>
+
+externdef __imp_comctl32_ordinal186:PPROC
+comctl32_ordinal186 equ <__imp_comctl32_ordinal186>
+
+externdef __imp_comctl32_ordinal187:PPROC
+comctl32_ordinal187 equ <__imp_comctl32_ordinal187>
+
+externdef __imp_comctl32_ordinal188:PPROC
+comctl32_ordinal188 equ <__imp_comctl32_ordinal188>
+
+externdef __imp_comctl32_ordinal189:PPROC
+comctl32_ordinal189 equ <__imp_comctl32_ordinal189>
+
+externdef __imp_comctl32_ordinal190:PPROC
+comctl32_ordinal190 equ <__imp_comctl32_ordinal190>
+
+externdef __imp_comctl32_ordinal191:PPROC
+comctl32_ordinal191 equ <__imp_comctl32_ordinal191>
+
+externdef __imp_comctl32_ordinal192:PPROC
+comctl32_ordinal192 equ <__imp_comctl32_ordinal192>
+
+externdef __imp_comctl32_ordinal193:PPROC
+comctl32_ordinal193 equ <__imp_comctl32_ordinal193>
+
+externdef __imp_comctl32_ordinal194:PPROC
+comctl32_ordinal194 equ <__imp_comctl32_ordinal194>
+
+externdef __imp_comctl32_ordinal195:PPROC
+comctl32_ordinal195 equ <__imp_comctl32_ordinal195>
+
+externdef __imp_comctl32_ordinal196:PPROC
+comctl32_ordinal196 equ <__imp_comctl32_ordinal196>
+
+externdef __imp_comctl32_ordinal197:PPROC
+comctl32_ordinal197 equ <__imp_comctl32_ordinal197>
+
+externdef __imp_comctl32_ordinal198:PPROC
+comctl32_ordinal198 equ <__imp_comctl32_ordinal198>
+
+externdef __imp_comctl32_ordinal199:PPROC
+comctl32_ordinal199 equ <__imp_comctl32_ordinal199>
+
+externdef __imp_comctl32_ordinal200:PPROC
+comctl32_ordinal200 equ <__imp_comctl32_ordinal200>
+
+externdef __imp_comctl32_ordinal201:PPROC
+comctl32_ordinal201 equ <__imp_comctl32_ordinal201>
+
+externdef __imp_comctl32_ordinal202:PPROC
+comctl32_ordinal202 equ <__imp_comctl32_ordinal202>
+
+externdef __imp_comctl32_ordinal203:PPROC
+comctl32_ordinal203 equ <__imp_comctl32_ordinal203>
+
+externdef __imp_comctl32_ordinal204:PPROC
+comctl32_ordinal204 equ <__imp_comctl32_ordinal204>
+
+externdef __imp_comctl32_ordinal205:PPROC
+comctl32_ordinal205 equ <__imp_comctl32_ordinal205>
+
+externdef __imp_comctl32_ordinal206:PPROC
+comctl32_ordinal206 equ <__imp_comctl32_ordinal206>
+
+externdef __imp_comctl32_ordinal207:PPROC
+comctl32_ordinal207 equ <__imp_comctl32_ordinal207>
+
+externdef __imp_comctl32_ordinal208:PPROC
+comctl32_ordinal208 equ <__imp_comctl32_ordinal208>
+
+externdef __imp_comctl32_ordinal209:PPROC
+comctl32_ordinal209 equ <__imp_comctl32_ordinal209>
+
+externdef __imp_comctl32_ordinal210:PPROC
+comctl32_ordinal210 equ <__imp_comctl32_ordinal210>
+
+externdef __imp_comctl32_ordinal211:PPROC
+comctl32_ordinal211 equ <__imp_comctl32_ordinal211>
+
+externdef __imp_comctl32_ordinal212:PPROC
+comctl32_ordinal212 equ <__imp_comctl32_ordinal212>
+
+externdef __imp_comctl32_ordinal213:PPROC
+comctl32_ordinal213 equ <__imp_comctl32_ordinal213>
+
+externdef __imp_comctl32_ordinal214:PPROC
+comctl32_ordinal214 equ <__imp_comctl32_ordinal214>
+
+externdef __imp_comctl32_ordinal215:PPROC
+comctl32_ordinal215 equ <__imp_comctl32_ordinal215>
+
+externdef __imp_comctl32_ordinal216:PPROC
+comctl32_ordinal216 equ <__imp_comctl32_ordinal216>
+
+externdef __imp_comctl32_ordinal217:PPROC
+comctl32_ordinal217 equ <__imp_comctl32_ordinal217>
+
+externdef __imp_comctl32_ordinal218:PPROC
+comctl32_ordinal218 equ <__imp_comctl32_ordinal218>
+
+externdef __imp_comctl32_ordinal219:PPROC
+comctl32_ordinal219 equ <__imp_comctl32_ordinal219>
+
+externdef __imp_comctl32_ordinal220:PPROC
+comctl32_ordinal220 equ <__imp_comctl32_ordinal220>
+
+externdef __imp_comctl32_ordinal221:PPROC
+comctl32_ordinal221 equ <__imp_comctl32_ordinal221>
+
+externdef __imp_comctl32_ordinal222:PPROC
+comctl32_ordinal222 equ <__imp_comctl32_ordinal222>
+
+externdef __imp_comctl32_ordinal223:PPROC
+comctl32_ordinal223 equ <__imp_comctl32_ordinal223>
+
+externdef __imp_comctl32_ordinal224:PPROC
+comctl32_ordinal224 equ <__imp_comctl32_ordinal224>
+
+externdef __imp_comctl32_ordinal225:PPROC
+comctl32_ordinal225 equ <__imp_comctl32_ordinal225>
+
+externdef __imp_comctl32_ordinal226:PPROC
+comctl32_ordinal226 equ <__imp_comctl32_ordinal226>
+
+externdef __imp_comctl32_ordinal227:PPROC
+comctl32_ordinal227 equ <__imp_comctl32_ordinal227>
+
+externdef __imp_comctl32_ordinal228:PPROC
+comctl32_ordinal228 equ <__imp_comctl32_ordinal228>
+
+externdef __imp_comctl32_ordinal229:PPROC
+comctl32_ordinal229 equ <__imp_comctl32_ordinal229>
+
+externdef __imp_comctl32_ordinal230:PPROC
+comctl32_ordinal230 equ <__imp_comctl32_ordinal230>
+
+externdef __imp_comctl32_ordinal231:PPROC
+comctl32_ordinal231 equ <__imp_comctl32_ordinal231>
+
+externdef __imp_comctl32_ordinal232:PPROC
+comctl32_ordinal232 equ <__imp_comctl32_ordinal232>
+
+externdef __imp_comctl32_ordinal233:PPROC
+comctl32_ordinal233 equ <__imp_comctl32_ordinal233>
+
+externdef __imp_comctl32_ordinal234:PPROC
+comctl32_ordinal234 equ <__imp_comctl32_ordinal234>
+
+externdef __imp_comctl32_ordinal235:PPROC
+comctl32_ordinal235 equ <__imp_comctl32_ordinal235>
+
+externdef __imp_comctl32_ordinal237:PPROC
+comctl32_ordinal237 equ <__imp_comctl32_ordinal237>
+
+externdef __imp_comctl32_ordinal238:PPROC
+comctl32_ordinal238 equ <__imp_comctl32_ordinal238>
+
+externdef __imp_comctl32_ordinal239:PPROC
+comctl32_ordinal239 equ <__imp_comctl32_ordinal239>
+
+externdef __imp_comctl32_ordinal240:PPROC
+comctl32_ordinal240 equ <__imp_comctl32_ordinal240>
+
+externdef __imp_comctl32_ordinal241:PPROC
+comctl32_ordinal241 equ <__imp_comctl32_ordinal241>
+
+externdef __imp_comctl32_ordinal242:PPROC
+comctl32_ordinal242 equ <__imp_comctl32_ordinal242>
+
+externdef __imp_comctl32_ordinal243:PPROC
+comctl32_ordinal243 equ <__imp_comctl32_ordinal243>
+
+externdef __imp_comctl32_ordinal244:PPROC
+comctl32_ordinal244 equ <__imp_comctl32_ordinal244>
+
+externdef __imp_comctl32_ordinal245:PPROC
+comctl32_ordinal245 equ <__imp_comctl32_ordinal245>
+
+externdef __imp_comctl32_ordinal246:PPROC
+comctl32_ordinal246 equ <__imp_comctl32_ordinal246>
+
+externdef __imp_comctl32_ordinal247:PPROC
+comctl32_ordinal247 equ <__imp_comctl32_ordinal247>
+
+externdef __imp_comctl32_ordinal248:PPROC
+comctl32_ordinal248 equ <__imp_comctl32_ordinal248>
+
+externdef __imp_comctl32_ordinal249:PPROC
+comctl32_ordinal249 equ <__imp_comctl32_ordinal249>
+
+externdef __imp_comctl32_ordinal250:PPROC
+comctl32_ordinal250 equ <__imp_comctl32_ordinal250>
+
+externdef __imp_comctl32_ordinal251:PPROC
+comctl32_ordinal251 equ <__imp_comctl32_ordinal251>
+
+externdef __imp_comctl32_ordinal252:PPROC
+comctl32_ordinal252 equ <__imp_comctl32_ordinal252>
+
+externdef __imp_comctl32_ordinal253:PPROC
+comctl32_ordinal253 equ <__imp_comctl32_ordinal253>
+
+externdef __imp_comctl32_ordinal254:PPROC
+comctl32_ordinal254 equ <__imp_comctl32_ordinal254>
+
+externdef __imp_comctl32_ordinal255:PPROC
+comctl32_ordinal255 equ <__imp_comctl32_ordinal255>
+
+externdef __imp_comctl32_ordinal256:PPROC
+comctl32_ordinal256 equ <__imp_comctl32_ordinal256>
+
+externdef __imp_comctl32_ordinal257:PPROC
+comctl32_ordinal257 equ <__imp_comctl32_ordinal257>
+
+externdef __imp_comctl32_ordinal258:PPROC
+comctl32_ordinal258 equ <__imp_comctl32_ordinal258>
+
+externdef __imp_comctl32_ordinal259:PPROC
+comctl32_ordinal259 equ <__imp_comctl32_ordinal259>
+
+externdef __imp_comctl32_ordinal260:PPROC
+comctl32_ordinal260 equ <__imp_comctl32_ordinal260>
+
+externdef __imp_comctl32_ordinal261:PPROC
+comctl32_ordinal261 equ <__imp_comctl32_ordinal261>
+
+externdef __imp_comctl32_ordinal262:PPROC
+comctl32_ordinal262 equ <__imp_comctl32_ordinal262>
+
+externdef __imp_comctl32_ordinal263:PPROC
+comctl32_ordinal263 equ <__imp_comctl32_ordinal263>
+
+externdef __imp_comctl32_ordinal264:PPROC
+comctl32_ordinal264 equ <__imp_comctl32_ordinal264>
+
+externdef __imp_comctl32_ordinal265:PPROC
+comctl32_ordinal265 equ <__imp_comctl32_ordinal265>
+
+externdef __imp_comctl32_ordinal266:PPROC
+comctl32_ordinal266 equ <__imp_comctl32_ordinal266>
+
+externdef __imp_comctl32_ordinal267:PPROC
+comctl32_ordinal267 equ <__imp_comctl32_ordinal267>
+
+externdef __imp_comctl32_ordinal268:PPROC
+comctl32_ordinal268 equ <__imp_comctl32_ordinal268>
+
+externdef __imp_comctl32_ordinal269:PPROC
+comctl32_ordinal269 equ <__imp_comctl32_ordinal269>
+
+externdef __imp_comctl32_ordinal270:PPROC
+comctl32_ordinal270 equ <__imp_comctl32_ordinal270>
+
+externdef __imp_comctl32_ordinal271:PPROC
+comctl32_ordinal271 equ <__imp_comctl32_ordinal271>
+
+externdef __imp_comctl32_ordinal272:PPROC
+comctl32_ordinal272 equ <__imp_comctl32_ordinal272>
+
+externdef __imp_comctl32_ordinal273:PPROC
+comctl32_ordinal273 equ <__imp_comctl32_ordinal273>
+
+externdef __imp_comctl32_ordinal274:PPROC
+comctl32_ordinal274 equ <__imp_comctl32_ordinal274>
+
+externdef __imp_comctl32_ordinal275:PPROC
+comctl32_ordinal275 equ <__imp_comctl32_ordinal275>
+
+externdef __imp_comctl32_ordinal276:PPROC
+comctl32_ordinal276 equ <__imp_comctl32_ordinal276>
+
+externdef __imp_comctl32_ordinal277:PPROC
+comctl32_ordinal277 equ <__imp_comctl32_ordinal277>
+
+externdef __imp_comctl32_ordinal278:PPROC
+comctl32_ordinal278 equ <__imp_comctl32_ordinal278>
+
+externdef __imp_comctl32_ordinal279:PPROC
+comctl32_ordinal279 equ <__imp_comctl32_ordinal279>
+
+externdef __imp_comctl32_ordinal280:PPROC
+comctl32_ordinal280 equ <__imp_comctl32_ordinal280>
+
+externdef __imp_comctl32_ordinal281:PPROC
+comctl32_ordinal281 equ <__imp_comctl32_ordinal281>
+
+externdef __imp_comctl32_ordinal282:PPROC
+comctl32_ordinal282 equ <__imp_comctl32_ordinal282>
+
+externdef __imp_comctl32_ordinal283:PPROC
+comctl32_ordinal283 equ <__imp_comctl32_ordinal283>
+
+externdef __imp_comctl32_ordinal284:PPROC
+comctl32_ordinal284 equ <__imp_comctl32_ordinal284>
+
+externdef __imp_comctl32_ordinal285:PPROC
+comctl32_ordinal285 equ <__imp_comctl32_ordinal285>
+
+externdef __imp_comctl32_ordinal286:PPROC
+comctl32_ordinal286 equ <__imp_comctl32_ordinal286>
+
+externdef __imp_comctl32_ordinal287:PPROC
+comctl32_ordinal287 equ <__imp_comctl32_ordinal287>
+
+externdef __imp_comctl32_ordinal288:PPROC
+comctl32_ordinal288 equ <__imp_comctl32_ordinal288>
+
+externdef __imp_comctl32_ordinal289:PPROC
+comctl32_ordinal289 equ <__imp_comctl32_ordinal289>
+
+externdef __imp_comctl32_ordinal290:PPROC
+comctl32_ordinal290 equ <__imp_comctl32_ordinal290>
+
+externdef __imp_comctl32_ordinal291:PPROC
+comctl32_ordinal291 equ <__imp_comctl32_ordinal291>
+
+externdef __imp_comctl32_ordinal292:PPROC
+comctl32_ordinal292 equ <__imp_comctl32_ordinal292>
+
+externdef __imp_comctl32_ordinal293:PPROC
+comctl32_ordinal293 equ <__imp_comctl32_ordinal293>
+
+externdef __imp_comctl32_ordinal294:PPROC
+comctl32_ordinal294 equ <__imp_comctl32_ordinal294>
+
+externdef __imp_comctl32_ordinal295:PPROC
+comctl32_ordinal295 equ <__imp_comctl32_ordinal295>
+
+externdef __imp_comctl32_ordinal296:PPROC
+comctl32_ordinal296 equ <__imp_comctl32_ordinal296>
+
+externdef __imp_comctl32_ordinal297:PPROC
+comctl32_ordinal297 equ <__imp_comctl32_ordinal297>
+
+externdef __imp_comctl32_ordinal298:PPROC
+comctl32_ordinal298 equ <__imp_comctl32_ordinal298>
+
+externdef __imp_comctl32_ordinal299:PPROC
+comctl32_ordinal299 equ <__imp_comctl32_ordinal299>
+
+externdef __imp_comctl32_ordinal300:PPROC
+comctl32_ordinal300 equ <__imp_comctl32_ordinal300>
+
+externdef __imp_comctl32_ordinal301:PPROC
+comctl32_ordinal301 equ <__imp_comctl32_ordinal301>
+
+externdef __imp_comctl32_ordinal302:PPROC
+comctl32_ordinal302 equ <__imp_comctl32_ordinal302>
+
+externdef __imp_comctl32_ordinal303:PPROC
+comctl32_ordinal303 equ <__imp_comctl32_ordinal303>
+
+externdef __imp_comctl32_ordinal304:PPROC
+comctl32_ordinal304 equ <__imp_comctl32_ordinal304>
+
+externdef __imp_comctl32_ordinal305:PPROC
+comctl32_ordinal305 equ <__imp_comctl32_ordinal305>
+
+externdef __imp_comctl32_ordinal306:PPROC
+comctl32_ordinal306 equ <__imp_comctl32_ordinal306>
+
+externdef __imp_comctl32_ordinal307:PPROC
+comctl32_ordinal307 equ <__imp_comctl32_ordinal307>
+
+externdef __imp_comctl32_ordinal308:PPROC
+comctl32_ordinal308 equ <__imp_comctl32_ordinal308>
+
+externdef __imp_comctl32_ordinal309:PPROC
+comctl32_ordinal309 equ <__imp_comctl32_ordinal309>
+
+externdef __imp_comctl32_ordinal310:PPROC
+comctl32_ordinal310 equ <__imp_comctl32_ordinal310>
+
+externdef __imp_comctl32_ordinal311:PPROC
+comctl32_ordinal311 equ <__imp_comctl32_ordinal311>
+
+externdef __imp_comctl32_ordinal312:PPROC
+comctl32_ordinal312 equ <__imp_comctl32_ordinal312>
+
+externdef __imp_comctl32_ordinal313:PPROC
+comctl32_ordinal313 equ <__imp_comctl32_ordinal313>
+
+externdef __imp_comctl32_ordinal314:PPROC
+comctl32_ordinal314 equ <__imp_comctl32_ordinal314>
+
+externdef __imp_comctl32_ordinal315:PPROC
+comctl32_ordinal315 equ <__imp_comctl32_ordinal315>
+
+externdef __imp_comctl32_ordinal316:PPROC
+comctl32_ordinal316 equ <__imp_comctl32_ordinal316>
+
+externdef __imp_comctl32_ordinal317:PPROC
+comctl32_ordinal317 equ <__imp_comctl32_ordinal317>
+
+externdef __imp_comctl32_ordinal318:PPROC
+comctl32_ordinal318 equ <__imp_comctl32_ordinal318>
+
+externdef __imp_comctl32_ordinal319:PPROC
+comctl32_ordinal319 equ <__imp_comctl32_ordinal319>
+
+externdef __imp_comctl32_ordinal322:PPROC
+comctl32_ordinal322 equ <__imp_comctl32_ordinal322>
+
+externdef __imp_comctl32_ordinal325:PPROC
+comctl32_ordinal325 equ <__imp_comctl32_ordinal325>
+
+externdef __imp_comctl32_ordinal326:PPROC
+comctl32_ordinal326 equ <__imp_comctl32_ordinal326>
+
+externdef __imp_comctl32_ordinal330:PPROC
+comctl32_ordinal330 equ <__imp_comctl32_ordinal330>
+
+externdef __imp_comctl32_ordinal331:PPROC
+comctl32_ordinal331 equ <__imp_comctl32_ordinal331>
+
+externdef __imp_comctl32_ordinal333:PPROC
+comctl32_ordinal333 equ <__imp_comctl32_ordinal333>
+
+externdef __imp_comctl32_ordinal340:PPROC
+comctl32_ordinal340 equ <__imp_comctl32_ordinal340>
+
+externdef __imp_comctl32_ordinal341:PPROC
+comctl32_ordinal341 equ <__imp_comctl32_ordinal341>
+
+externdef __imp_comctl32_ordinal342:PPROC
+comctl32_ordinal342 equ <__imp_comctl32_ordinal342>
+
+externdef __imp_comctl32_ordinal343:PPROC
+comctl32_ordinal343 equ <__imp_comctl32_ordinal343>
+
+externdef __imp_comctl32_ordinal344:PPROC
+comctl32_ordinal344 equ <__imp_comctl32_ordinal344>
+
+externdef __imp_comctl32_ordinal345:PPROC
+comctl32_ordinal345 equ <__imp_comctl32_ordinal345>
+
+externdef __imp_comctl32_ordinal346:PPROC
+comctl32_ordinal346 equ <__imp_comctl32_ordinal346>
+
+externdef __imp_comctl32_ordinal347:PPROC
+comctl32_ordinal347 equ <__imp_comctl32_ordinal347>
+
+externdef __imp_comctl32_ordinal348:PPROC
+comctl32_ordinal348 equ <__imp_comctl32_ordinal348>
+
+externdef __imp_comctl32_ordinal349:PPROC
+comctl32_ordinal349 equ <__imp_comctl32_ordinal349>
+
+externdef __imp_comctl32_ordinal350:PPROC
+comctl32_ordinal350 equ <__imp_comctl32_ordinal350>
+
+externdef __imp_comctl32_ordinal351:PPROC
+comctl32_ordinal351 equ <__imp_comctl32_ordinal351>
+
+externdef __imp_comctl32_ordinal352:PPROC
+comctl32_ordinal352 equ <__imp_comctl32_ordinal352>
+
+externdef __imp_comctl32_ordinal353:PPROC
+comctl32_ordinal353 equ <__imp_comctl32_ordinal353>
+
+externdef __imp_comctl32_ordinal354:PPROC
+comctl32_ordinal354 equ <__imp_comctl32_ordinal354>
+
+externdef __imp_comctl32_ordinal355:PPROC
+comctl32_ordinal355 equ <__imp_comctl32_ordinal355>
+
+externdef __imp_comctl32_ordinal356:PPROC
+comctl32_ordinal356 equ <__imp_comctl32_ordinal356>
+
+externdef __imp_comctl32_ordinal357:PPROC
+comctl32_ordinal357 equ <__imp_comctl32_ordinal357>
+
+externdef __imp_comctl32_ordinal358:PPROC
+comctl32_ordinal358 equ <__imp_comctl32_ordinal358>
+
+externdef __imp_comctl32_ordinal359:PPROC
+comctl32_ordinal359 equ <__imp_comctl32_ordinal359>
+
+externdef __imp_comctl32_ordinal360:PPROC
+comctl32_ordinal360 equ <__imp_comctl32_ordinal360>
+
+externdef __imp_comctl32_ordinal361:PPROC
+comctl32_ordinal361 equ <__imp_comctl32_ordinal361>
+
+externdef __imp_comctl32_ordinal362:PPROC
+comctl32_ordinal362 equ <__imp_comctl32_ordinal362>
+
+externdef __imp_comctl32_ordinal363:PPROC
+comctl32_ordinal363 equ <__imp_comctl32_ordinal363>
+
+externdef __imp_comctl32_ordinal364:PPROC
+comctl32_ordinal364 equ <__imp_comctl32_ordinal364>
+
+externdef __imp_comctl32_ordinal365:PPROC
+comctl32_ordinal365 equ <__imp_comctl32_ordinal365>
+
+externdef __imp_comctl32_ordinal366:PPROC
+comctl32_ordinal366 equ <__imp_comctl32_ordinal366>
+
+externdef __imp_comctl32_ordinal367:PPROC
+comctl32_ordinal367 equ <__imp_comctl32_ordinal367>
+
+externdef __imp_comctl32_ordinal368:PPROC
+comctl32_ordinal368 equ <__imp_comctl32_ordinal368>
+
+externdef __imp_comctl32_ordinal369:PPROC
+comctl32_ordinal369 equ <__imp_comctl32_ordinal369>
+
+externdef __imp_comctl32_ordinal370:PPROC
+comctl32_ordinal370 equ <__imp_comctl32_ordinal370>
+
+externdef __imp_comctl32_ordinal371:PPROC
+comctl32_ordinal371 equ <__imp_comctl32_ordinal371>
+
+externdef __imp_comctl32_ordinal372:PPROC
+comctl32_ordinal372 equ <__imp_comctl32_ordinal372>
+
+externdef __imp_comctl32_ordinal373:PPROC
+comctl32_ordinal373 equ <__imp_comctl32_ordinal373>
+
+externdef __imp_comctl32_ordinal374:PPROC
+comctl32_ordinal374 equ <__imp_comctl32_ordinal374>
+
+externdef __imp_comctl32_ordinal375:PPROC
+comctl32_ordinal375 equ <__imp_comctl32_ordinal375>
+
+externdef __imp_comctl32_ordinal376:PPROC
+comctl32_ordinal376 equ <__imp_comctl32_ordinal376>
+
+externdef __imp_comctl32_ordinal377:PPROC
+comctl32_ordinal377 equ <__imp_comctl32_ordinal377>
+
+externdef __imp_comctl32_ordinal378:PPROC
+comctl32_ordinal378 equ <__imp_comctl32_ordinal378>
+
+externdef __imp_comctl32_ordinal379:PPROC
+comctl32_ordinal379 equ <__imp_comctl32_ordinal379>
+
+externdef __imp_comctl32_ordinal380:PPROC
+comctl32_ordinal380 equ <__imp_comctl32_ordinal380>
+
+externdef __imp_comctl32_ordinal381:PPROC
+comctl32_ordinal381 equ <__imp_comctl32_ordinal381>
+
+externdef __imp_comctl32_ordinal382:PPROC
+comctl32_ordinal382 equ <__imp_comctl32_ordinal382>
+
+externdef __imp_comctl32_ordinal383:PPROC
+comctl32_ordinal383 equ <__imp_comctl32_ordinal383>
+
+externdef __imp_comctl32_ordinal384:PPROC
+comctl32_ordinal384 equ <__imp_comctl32_ordinal384>
+
+externdef __imp_comctl32_ordinal387:PPROC
+comctl32_ordinal387 equ <__imp_comctl32_ordinal387>
+
+externdef __imp_comctl32_ordinal389:PPROC
+comctl32_ordinal389 equ <__imp_comctl32_ordinal389>
+
+externdef __imp_comctl32_ordinal390:PPROC
+comctl32_ordinal390 equ <__imp_comctl32_ordinal390>
+
+externdef __imp_comctl32_ordinal391:PPROC
+comctl32_ordinal391 equ <__imp_comctl32_ordinal391>
+
+externdef __imp_comctl32_ordinal392:PPROC
+comctl32_ordinal392 equ <__imp_comctl32_ordinal392>
+
+externdef __imp_comctl32_ordinal393:PPROC
+comctl32_ordinal393 equ <__imp_comctl32_ordinal393>
+
+externdef __imp_comctl32_ordinal394:PPROC
+comctl32_ordinal394 equ <__imp_comctl32_ordinal394>
+
+externdef __imp_comctl32_ordinal395:PPROC
+comctl32_ordinal395 equ <__imp_comctl32_ordinal395>
+
+externdef __imp_comctl32_ordinal396:PPROC
+comctl32_ordinal396 equ <__imp_comctl32_ordinal396>
+
+externdef __imp_comctl32_ordinal397:PPROC
+comctl32_ordinal397 equ <__imp_comctl32_ordinal397>
+
+externdef __imp_comctl32_ordinal398:PPROC
+comctl32_ordinal398 equ <__imp_comctl32_ordinal398>
+
+externdef __imp_comctl32_ordinal399:PPROC
+comctl32_ordinal399 equ <__imp_comctl32_ordinal399>
+
+externdef __imp_comctl32_ordinal402:PPROC
+comctl32_ordinal402 equ <__imp_comctl32_ordinal402>
+
+externdef __imp_comctl32_ordinal404:PPROC
+comctl32_ordinal404 equ <__imp_comctl32_ordinal404>
+
+externdef __imp_comctl32_ordinal405:PPROC
+comctl32_ordinal405 equ <__imp_comctl32_ordinal405>
+
+externdef __imp_comctl32_ordinal406:PPROC
+comctl32_ordinal406 equ <__imp_comctl32_ordinal406>
+
+externdef __imp_comctl32_ordinal407:PPROC
+comctl32_ordinal407 equ <__imp_comctl32_ordinal407>
+
+externdef __imp_comctl32_ordinal408:PPROC
+comctl32_ordinal408 equ <__imp_comctl32_ordinal408>
+
+externdef __imp_comctl32_ordinal409:PPROC
+comctl32_ordinal409 equ <__imp_comctl32_ordinal409>
+
+externdef __imp_comctl32_ordinal411:PPROC
+comctl32_ordinal411 equ <__imp_comctl32_ordinal411>
+
+externdef __imp_comctl32_ordinal414:PPROC
+comctl32_ordinal414 equ <__imp_comctl32_ordinal414>
+
+externdef __imp_comctl32_ordinal415:PPROC
+comctl32_ordinal415 equ <__imp_comctl32_ordinal415>
+
+externdef __imp_comctl32_ordinal416:PPROC
+comctl32_ordinal416 equ <__imp_comctl32_ordinal416>
+
+externdef __imp_comctl32_ordinal417:PPROC
+comctl32_ordinal417 equ <__imp_comctl32_ordinal417>
+
+externdef __imp_comctl32_ordinal418:PPROC
+comctl32_ordinal418 equ <__imp_comctl32_ordinal418>
+
+externdef __imp_comctl32_ordinal419:PPROC
+comctl32_ordinal419 equ <__imp_comctl32_ordinal419>
+
+externdef __imp_comctl32_ordinal420:PPROC
+comctl32_ordinal420 equ <__imp_comctl32_ordinal420>
+
+externdef __imp_comctl32_ordinal421:PPROC
+comctl32_ordinal421 equ <__imp_comctl32_ordinal421>
+
+externdef __imp_comctl32_ordinal71:PPROC
+comctl32_ordinal71 equ <__imp_comctl32_ordinal71>
+
+externdef __imp_comctl32_ordinal72:PPROC
+comctl32_ordinal72 equ <__imp_comctl32_ordinal72>
+
+externdef __imp_comctl32_ordinal73:PPROC
+comctl32_ordinal73 equ <__imp_comctl32_ordinal73>
+
+externdef __imp_comctl32_ordinal74:PPROC
+comctl32_ordinal74 equ <__imp_comctl32_ordinal74>
+
+externdef __imp_comctl32_ordinal93:PPROC
+comctl32_ordinal93 equ <__imp_comctl32_ordinal93>
+
+externdef __imp_comctl32_ordinal94:PPROC
+comctl32_ordinal94 equ <__imp_comctl32_ordinal94>
+
+externdef __imp_comctl32_ordinal95:PPROC
+comctl32_ordinal95 equ <__imp_comctl32_ordinal95>
+
+externdef __imp_comctl32_ordinal96:PPROC
+comctl32_ordinal96 equ <__imp_comctl32_ordinal96>
+
+externdef __imp_comctl32_ordinal97:PPROC
+comctl32_ordinal97 equ <__imp_comctl32_ordinal97>
+
+externdef __imp_comctl32_ordinal98:PPROC
+comctl32_ordinal98 equ <__imp_comctl32_ordinal98>
+
+externdef __imp_comctl32_ordinal99:PPROC
+comctl32_ordinal99 equ <__imp_comctl32_ordinal99>
+
+externdef __imp_comctl32_ordinal9:PPROC
+comctl32_ordinal9 equ <__imp_comctl32_ordinal9>

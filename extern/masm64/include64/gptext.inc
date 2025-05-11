@@ -1,0 +1,38 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_GenerateIPSECPolicy:PPROC
+GenerateIPSECPolicy equ <__imp_GenerateIPSECPolicy>
+
+externdef __imp_GenerateScriptsGroupPolicy:PPROC
+GenerateScriptsGroupPolicy equ <__imp_GenerateScriptsGroupPolicy>
+
+externdef __imp_GenerateWIRELESSPolicy:PPROC
+GenerateWIRELESSPolicy equ <__imp_GenerateWIRELESSPolicy>
+
+externdef __imp_ProcessIPSECPolicyEx:PPROC
+ProcessIPSECPolicyEx equ <__imp_ProcessIPSECPolicyEx>
+
+externdef __imp_ProcessPSCHEDPolicy:PPROC
+ProcessPSCHEDPolicy equ <__imp_ProcessPSCHEDPolicy>
+
+externdef __imp_ProcessScriptsGroupPolicy:PPROC
+ProcessScriptsGroupPolicy equ <__imp_ProcessScriptsGroupPolicy>
+
+externdef __imp_ProcessScriptsGroupPolicyEx:PPROC
+ProcessScriptsGroupPolicyEx equ <__imp_ProcessScriptsGroupPolicyEx>
+
+externdef __imp_ProcessWIRELESSPolicyEx:PPROC
+ProcessWIRELESSPolicyEx equ <__imp_ProcessWIRELESSPolicyEx>
+
+externdef __imp_ScrRegGPOListToWbem:PPROC
+ScrRegGPOListToWbem equ <__imp_ScrRegGPOListToWbem>

@@ -1,0 +1,95 @@
+externdef __imp_LsaApCallPackage:PPROC
+LsaApCallPackage equ <__imp_LsaApCallPackage>
+
+externdef __imp_LsaApCallPackagePassthrough:PPROC
+LsaApCallPackagePassthrough equ <__imp_LsaApCallPackagePassthrough>
+
+externdef __imp_LsaApCallPackageUntrusted:PPROC
+LsaApCallPackageUntrusted equ <__imp_LsaApCallPackageUntrusted>
+
+externdef __imp_LsaApInitializePackage:PPROC
+LsaApInitializePackage equ <__imp_LsaApInitializePackage>
+
+externdef __imp_LsaApLogonTerminated:PPROC
+LsaApLogonTerminated equ <__imp_LsaApLogonTerminated>
+
+externdef __imp_LsaApLogonUserEx2:PPROC
+LsaApLogonUserEx2 equ <__imp_LsaApLogonUserEx2>
+
+externdef __imp_Msv1_0ExportSubAuthenticationRoutine:PPROC
+Msv1_0ExportSubAuthenticationRoutine equ <__imp_Msv1_0ExportSubAuthenticationRoutine>
+
+externdef __imp_Msv1_0SubAuthenticationPresent:PPROC
+Msv1_0SubAuthenticationPresent equ <__imp_Msv1_0SubAuthenticationPresent>
+
+externdef __imp_MsvGetLogonAttemptCount:PPROC
+MsvGetLogonAttemptCount equ <__imp_MsvGetLogonAttemptCount>
+
+externdef __imp_MsvSamLogoff:PPROC
+MsvSamLogoff equ <__imp_MsvSamLogoff>
+
+externdef __imp_MsvSamValidate:PPROC
+MsvSamValidate equ <__imp_MsvSamValidate>
+
+externdef __imp_MsvValidateTarget:PPROC
+MsvValidateTarget equ <__imp_MsvValidateTarget>
+
+externdef __imp_SpInitialize:PPROC
+SpInitialize equ <__imp_SpInitialize>
+
+externdef __imp_SpInstanceInit:PPROC
+SpInstanceInit equ <__imp_SpInstanceInit>
+
+externdef __imp_SpLsaModeInitialize:PPROC
+SpLsaModeInitialize equ <__imp_SpLsaModeInitialize>
+
+externdef __imp_SpUserModeInitialize:PPROC
+SpUserModeInitialize equ <__imp_SpUserModeInitialize>
+
+externdef __imp_msv1_0_ordinal16:PPROC
+msv1_0_ordinal16 equ <__imp_msv1_0_ordinal16>
+
+externdef __imp_msv1_0_ordinal17:PPROC
+msv1_0_ordinal17 equ <__imp_msv1_0_ordinal17>
+
+externdef __imp_msv1_0_ordinal18:PPROC
+msv1_0_ordinal18 equ <__imp_msv1_0_ordinal18>
+
+externdef __imp_msv1_0_ordinal19:PPROC
+msv1_0_ordinal19 equ <__imp_msv1_0_ordinal19>
+
+externdef __imp_msv1_0_ordinal20:PPROC
+msv1_0_ordinal20 equ <__imp_msv1_0_ordinal20>
+
+externdef __imp_msv1_0_ordinal21:PPROC
+msv1_0_ordinal21 equ <__imp_msv1_0_ordinal21>
+
+externdef __imp_msv1_0_ordinal22:PPROC
+msv1_0_ordinal22 equ <__imp_msv1_0_ordinal22>
+
+externdef __imp_msv1_0_ordinal23:PPROC
+msv1_0_ordinal23 equ <__imp_msv1_0_ordinal23>
+
+externdef __imp_msv1_0_ordinal24:PPROC
+msv1_0_ordinal24 equ <__imp_msv1_0_ordinal24>
+
+externdef __imp_msv1_0_ordinal25:PPROC
+msv1_0_ordinal25 equ <__imp_msv1_0_ordinal25>
+
+externdef __imp_msv1_0_ordinal26:PPROC
+msv1_0_ordinal26 equ <__imp_msv1_0_ordinal26>
+
+externdef __imp_msv1_0_ordinal27:PPROC
+msv1_0_ordinal27 equ <__imp_msv1_0_ordinal27>
+
+externdef __imp_msv1_0_ordinal28:PPROC
+msv1_0_ordinal28 equ <__imp_msv1_0_ordinal28>
+
+externdef __imp_msv1_0_ordinal29:PPROC
+msv1_0_ordinal29 equ <__imp_msv1_0_ordinal29>
+
+externdef __imp_msv1_0_ordinal30:PPROC
+msv1_0_ordinal30 equ <__imp_msv1_0_ordinal30>
+
+externdef __imp_msv1_0_ordinal31:PPROC
+msv1_0_ordinal31 equ <__imp_msv1_0_ordinal31>

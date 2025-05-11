@@ -1,0 +1,26 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_IASParmsFreeUserParms:PPROC
+IASParmsFreeUserParms equ <__imp_IASParmsFreeUserParms>
+
+externdef __imp_IASParmsQueryRasUser0:PPROC
+IASParmsQueryRasUser0 equ <__imp_IASParmsQueryRasUser0>
+
+externdef __imp_IASParmsQueryUserProperty:PPROC
+IASParmsQueryUserProperty equ <__imp_IASParmsQueryUserProperty>
+
+externdef __imp_IASParmsSetRasUser0:PPROC
+IASParmsSetRasUser0 equ <__imp_IASParmsSetRasUser0>
+
+externdef __imp_IASParmsSetUserProperty:PPROC
+IASParmsSetUserProperty equ <__imp_IASParmsSetUserProperty>

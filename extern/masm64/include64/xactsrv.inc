@@ -1,0 +1,344 @@
+externdef __imp_XsCaptureParameters:PPROC
+XsCaptureParameters equ <__imp_XsCaptureParameters>
+
+externdef __imp_XsCheckSmbDescriptor:PPROC
+XsCheckSmbDescriptor equ <__imp_XsCheckSmbDescriptor>
+
+externdef __imp_XsConvertServerEnumBuffer:PPROC
+XsConvertServerEnumBuffer equ <__imp_XsConvertServerEnumBuffer>
+
+externdef __imp_XsDupStrToWStr:PPROC
+XsDupStrToWStr equ <__imp_XsDupStrToWStr>
+
+externdef __imp_XsDupWStrToStr:PPROC
+XsDupWStrToStr equ <__imp_XsDupWStrToStr>
+
+externdef __imp_XsI_NetNameCanonicalize:PPROC
+XsI_NetNameCanonicalize equ <__imp_XsI_NetNameCanonicalize>
+
+externdef __imp_XsI_NetNameCompare:PPROC
+XsI_NetNameCompare equ <__imp_XsI_NetNameCompare>
+
+externdef __imp_XsI_NetNameValidate:PPROC
+XsI_NetNameValidate equ <__imp_XsI_NetNameValidate>
+
+externdef __imp_XsI_NetPathCanonicalize:PPROC
+XsI_NetPathCanonicalize equ <__imp_XsI_NetPathCanonicalize>
+
+externdef __imp_XsI_NetPathCompare:PPROC
+XsI_NetPathCompare equ <__imp_XsI_NetPathCompare>
+
+externdef __imp_XsI_NetPathType:PPROC
+XsI_NetPathType equ <__imp_XsI_NetPathType>
+
+externdef __imp_XsNetAccessAdd:PPROC
+XsNetAccessAdd equ <__imp_XsNetAccessAdd>
+
+externdef __imp_XsNetAccessDel:PPROC
+XsNetAccessDel equ <__imp_XsNetAccessDel>
+
+externdef __imp_XsNetAccessEnum:PPROC
+XsNetAccessEnum equ <__imp_XsNetAccessEnum>
+
+externdef __imp_XsNetAccessGetInfo:PPROC
+XsNetAccessGetInfo equ <__imp_XsNetAccessGetInfo>
+
+externdef __imp_XsNetAccessGetUserPerms:PPROC
+XsNetAccessGetUserPerms equ <__imp_XsNetAccessGetUserPerms>
+
+externdef __imp_XsNetAccessSetInfo:PPROC
+XsNetAccessSetInfo equ <__imp_XsNetAccessSetInfo>
+
+externdef __imp_XsNetAccountDeltas:PPROC
+XsNetAccountDeltas equ <__imp_XsNetAccountDeltas>
+
+externdef __imp_XsNetAccountSync:PPROC
+XsNetAccountSync equ <__imp_XsNetAccountSync>
+
+externdef __imp_XsNetBuildGetInfo:PPROC
+XsNetBuildGetInfo equ <__imp_XsNetBuildGetInfo>
+
+externdef __imp_XsNetCharDevControl:PPROC
+XsNetCharDevControl equ <__imp_XsNetCharDevControl>
+
+externdef __imp_XsNetCharDevEnum:PPROC
+XsNetCharDevEnum equ <__imp_XsNetCharDevEnum>
+
+externdef __imp_XsNetCharDevGetInfo:PPROC
+XsNetCharDevGetInfo equ <__imp_XsNetCharDevGetInfo>
+
+externdef __imp_XsNetCharDevQEnum:PPROC
+XsNetCharDevQEnum equ <__imp_XsNetCharDevQEnum>
+
+externdef __imp_XsNetCharDevQGetInfo:PPROC
+XsNetCharDevQGetInfo equ <__imp_XsNetCharDevQGetInfo>
+
+externdef __imp_XsNetCharDevQPurge:PPROC
+XsNetCharDevQPurge equ <__imp_XsNetCharDevQPurge>
+
+externdef __imp_XsNetCharDevQPurgeSelf:PPROC
+XsNetCharDevQPurgeSelf equ <__imp_XsNetCharDevQPurgeSelf>
+
+externdef __imp_XsNetCharDevQSetInfo:PPROC
+XsNetCharDevQSetInfo equ <__imp_XsNetCharDevQSetInfo>
+
+externdef __imp_XsNetConnectionEnum:PPROC
+XsNetConnectionEnum equ <__imp_XsNetConnectionEnum>
+
+externdef __imp_XsNetFileClose2:PPROC
+XsNetFileClose2 equ <__imp_XsNetFileClose2>
+
+externdef __imp_XsNetFileEnum2:PPROC
+XsNetFileEnum2 equ <__imp_XsNetFileEnum2>
+
+externdef __imp_XsNetFileGetInfo2:PPROC
+XsNetFileGetInfo2 equ <__imp_XsNetFileGetInfo2>
+
+externdef __imp_XsNetGetDCName:PPROC
+XsNetGetDCName equ <__imp_XsNetGetDCName>
+
+externdef __imp_XsNetGroupAdd:PPROC
+XsNetGroupAdd equ <__imp_XsNetGroupAdd>
+
+externdef __imp_XsNetGroupAddUser:PPROC
+XsNetGroupAddUser equ <__imp_XsNetGroupAddUser>
+
+externdef __imp_XsNetGroupDel:PPROC
+XsNetGroupDel equ <__imp_XsNetGroupDel>
+
+externdef __imp_XsNetGroupDelUser:PPROC
+XsNetGroupDelUser equ <__imp_XsNetGroupDelUser>
+
+externdef __imp_XsNetGroupEnum:PPROC
+XsNetGroupEnum equ <__imp_XsNetGroupEnum>
+
+externdef __imp_XsNetGroupGetInfo:PPROC
+XsNetGroupGetInfo equ <__imp_XsNetGroupGetInfo>
+
+externdef __imp_XsNetGroupGetUsers:PPROC
+XsNetGroupGetUsers equ <__imp_XsNetGroupGetUsers>
+
+externdef __imp_XsNetGroupSetInfo:PPROC
+XsNetGroupSetInfo equ <__imp_XsNetGroupSetInfo>
+
+externdef __imp_XsNetGroupSetUsers:PPROC
+XsNetGroupSetUsers equ <__imp_XsNetGroupSetUsers>
+
+externdef __imp_XsNetLogonEnum:PPROC
+XsNetLogonEnum equ <__imp_XsNetLogonEnum>
+
+externdef __imp_XsNetMessageBufferSend:PPROC
+XsNetMessageBufferSend equ <__imp_XsNetMessageBufferSend>
+
+externdef __imp_XsNetMessageNameAdd:PPROC
+XsNetMessageNameAdd equ <__imp_XsNetMessageNameAdd>
+
+externdef __imp_XsNetMessageNameDel:PPROC
+XsNetMessageNameDel equ <__imp_XsNetMessageNameDel>
+
+externdef __imp_XsNetMessageNameEnum:PPROC
+XsNetMessageNameEnum equ <__imp_XsNetMessageNameEnum>
+
+externdef __imp_XsNetMessageNameGetInfo:PPROC
+XsNetMessageNameGetInfo equ <__imp_XsNetMessageNameGetInfo>
+
+externdef __imp_XsNetPrintDestAdd:PPROC
+XsNetPrintDestAdd equ <__imp_XsNetPrintDestAdd>
+
+externdef __imp_XsNetPrintDestControl:PPROC
+XsNetPrintDestControl equ <__imp_XsNetPrintDestControl>
+
+externdef __imp_XsNetPrintDestDel:PPROC
+XsNetPrintDestDel equ <__imp_XsNetPrintDestDel>
+
+externdef __imp_XsNetPrintDestEnum:PPROC
+XsNetPrintDestEnum equ <__imp_XsNetPrintDestEnum>
+
+externdef __imp_XsNetPrintDestGetInfo:PPROC
+XsNetPrintDestGetInfo equ <__imp_XsNetPrintDestGetInfo>
+
+externdef __imp_XsNetPrintDestSetInfo:PPROC
+XsNetPrintDestSetInfo equ <__imp_XsNetPrintDestSetInfo>
+
+externdef __imp_XsNetPrintJobContinue:PPROC
+XsNetPrintJobContinue equ <__imp_XsNetPrintJobContinue>
+
+externdef __imp_XsNetPrintJobDel:PPROC
+XsNetPrintJobDel equ <__imp_XsNetPrintJobDel>
+
+externdef __imp_XsNetPrintJobEnum:PPROC
+XsNetPrintJobEnum equ <__imp_XsNetPrintJobEnum>
+
+externdef __imp_XsNetPrintJobGetInfo:PPROC
+XsNetPrintJobGetInfo equ <__imp_XsNetPrintJobGetInfo>
+
+externdef __imp_XsNetPrintJobPause:PPROC
+XsNetPrintJobPause equ <__imp_XsNetPrintJobPause>
+
+externdef __imp_XsNetPrintJobSetInfo:PPROC
+XsNetPrintJobSetInfo equ <__imp_XsNetPrintJobSetInfo>
+
+externdef __imp_XsNetPrintQAdd:PPROC
+XsNetPrintQAdd equ <__imp_XsNetPrintQAdd>
+
+externdef __imp_XsNetPrintQContinue:PPROC
+XsNetPrintQContinue equ <__imp_XsNetPrintQContinue>
+
+externdef __imp_XsNetPrintQDel:PPROC
+XsNetPrintQDel equ <__imp_XsNetPrintQDel>
+
+externdef __imp_XsNetPrintQEnum:PPROC
+XsNetPrintQEnum equ <__imp_XsNetPrintQEnum>
+
+externdef __imp_XsNetPrintQGetInfo:PPROC
+XsNetPrintQGetInfo equ <__imp_XsNetPrintQGetInfo>
+
+externdef __imp_XsNetPrintQPause:PPROC
+XsNetPrintQPause equ <__imp_XsNetPrintQPause>
+
+externdef __imp_XsNetPrintQPurge:PPROC
+XsNetPrintQPurge equ <__imp_XsNetPrintQPurge>
+
+externdef __imp_XsNetPrintQSetInfo:PPROC
+XsNetPrintQSetInfo equ <__imp_XsNetPrintQSetInfo>
+
+externdef __imp_XsNetRemoteTOD:PPROC
+XsNetRemoteTOD equ <__imp_XsNetRemoteTOD>
+
+externdef __imp_XsNetServerAuthenticate:PPROC
+XsNetServerAuthenticate equ <__imp_XsNetServerAuthenticate>
+
+externdef __imp_XsNetServerDiskEnum:PPROC
+XsNetServerDiskEnum equ <__imp_XsNetServerDiskEnum>
+
+externdef __imp_XsNetServerEnum2:PPROC
+XsNetServerEnum2 equ <__imp_XsNetServerEnum2>
+
+externdef __imp_XsNetServerEnum3:PPROC
+XsNetServerEnum3 equ <__imp_XsNetServerEnum3>
+
+externdef __imp_XsNetServerGetInfo:PPROC
+XsNetServerGetInfo equ <__imp_XsNetServerGetInfo>
+
+externdef __imp_XsNetServerPasswordSet:PPROC
+XsNetServerPasswordSet equ <__imp_XsNetServerPasswordSet>
+
+externdef __imp_XsNetServerReqChallenge:PPROC
+XsNetServerReqChallenge equ <__imp_XsNetServerReqChallenge>
+
+externdef __imp_XsNetServerSetInfo:PPROC
+XsNetServerSetInfo equ <__imp_XsNetServerSetInfo>
+
+externdef __imp_XsNetServiceControl:PPROC
+XsNetServiceControl equ <__imp_XsNetServiceControl>
+
+externdef __imp_XsNetServiceEnum:PPROC
+XsNetServiceEnum equ <__imp_XsNetServiceEnum>
+
+externdef __imp_XsNetServiceGetInfo:PPROC
+XsNetServiceGetInfo equ <__imp_XsNetServiceGetInfo>
+
+externdef __imp_XsNetServiceInstall:PPROC
+XsNetServiceInstall equ <__imp_XsNetServiceInstall>
+
+externdef __imp_XsNetSessionDel:PPROC
+XsNetSessionDel equ <__imp_XsNetSessionDel>
+
+externdef __imp_XsNetSessionEnum:PPROC
+XsNetSessionEnum equ <__imp_XsNetSessionEnum>
+
+externdef __imp_XsNetSessionGetInfo:PPROC
+XsNetSessionGetInfo equ <__imp_XsNetSessionGetInfo>
+
+externdef __imp_XsNetShareAdd:PPROC
+XsNetShareAdd equ <__imp_XsNetShareAdd>
+
+externdef __imp_XsNetShareCheck:PPROC
+XsNetShareCheck equ <__imp_XsNetShareCheck>
+
+externdef __imp_XsNetShareDel:PPROC
+XsNetShareDel equ <__imp_XsNetShareDel>
+
+externdef __imp_XsNetShareEnum:PPROC
+XsNetShareEnum equ <__imp_XsNetShareEnum>
+
+externdef __imp_XsNetShareGetInfo:PPROC
+XsNetShareGetInfo equ <__imp_XsNetShareGetInfo>
+
+externdef __imp_XsNetShareSetInfo:PPROC
+XsNetShareSetInfo equ <__imp_XsNetShareSetInfo>
+
+externdef __imp_XsNetStatisticsGet2:PPROC
+XsNetStatisticsGet2 equ <__imp_XsNetStatisticsGet2>
+
+externdef __imp_XsNetUnsupportedApi:PPROC
+XsNetUnsupportedApi equ <__imp_XsNetUnsupportedApi>
+
+externdef __imp_XsNetUseAdd:PPROC
+XsNetUseAdd equ <__imp_XsNetUseAdd>
+
+externdef __imp_XsNetUseDel:PPROC
+XsNetUseDel equ <__imp_XsNetUseDel>
+
+externdef __imp_XsNetUseEnum:PPROC
+XsNetUseEnum equ <__imp_XsNetUseEnum>
+
+externdef __imp_XsNetUseGetInfo:PPROC
+XsNetUseGetInfo equ <__imp_XsNetUseGetInfo>
+
+externdef __imp_XsNetUserAdd2:PPROC
+XsNetUserAdd2 equ <__imp_XsNetUserAdd2>
+
+externdef __imp_XsNetUserDel:PPROC
+XsNetUserDel equ <__imp_XsNetUserDel>
+
+externdef __imp_XsNetUserEnum2:PPROC
+XsNetUserEnum2 equ <__imp_XsNetUserEnum2>
+
+externdef __imp_XsNetUserEnum:PPROC
+XsNetUserEnum equ <__imp_XsNetUserEnum>
+
+externdef __imp_XsNetUserGetGroups:PPROC
+XsNetUserGetGroups equ <__imp_XsNetUserGetGroups>
+
+externdef __imp_XsNetUserGetInfo:PPROC
+XsNetUserGetInfo equ <__imp_XsNetUserGetInfo>
+
+externdef __imp_XsNetUserModalsGet:PPROC
+XsNetUserModalsGet equ <__imp_XsNetUserModalsGet>
+
+externdef __imp_XsNetUserModalsSet:PPROC
+XsNetUserModalsSet equ <__imp_XsNetUserModalsSet>
+
+externdef __imp_XsNetUserPasswordSet2:PPROC
+XsNetUserPasswordSet2 equ <__imp_XsNetUserPasswordSet2>
+
+externdef __imp_XsNetUserSetGroups:PPROC
+XsNetUserSetGroups equ <__imp_XsNetUserSetGroups>
+
+externdef __imp_XsNetUserSetInfo2:PPROC
+XsNetUserSetInfo2 equ <__imp_XsNetUserSetInfo2>
+
+externdef __imp_XsNetUserSetInfo:PPROC
+XsNetUserSetInfo equ <__imp_XsNetUserSetInfo>
+
+externdef __imp_XsNetWkstaGetInfo:PPROC
+XsNetWkstaGetInfo equ <__imp_XsNetWkstaGetInfo>
+
+externdef __imp_XsNetWkstaSetInfo:PPROC
+XsNetWkstaSetInfo equ <__imp_XsNetWkstaSetInfo>
+
+externdef __imp_XsNetWkstaSetUID:PPROC
+XsNetWkstaSetUID equ <__imp_XsNetWkstaSetUID>
+
+externdef __imp_XsNetWkstaUserLogoff:PPROC
+XsNetWkstaUserLogoff equ <__imp_XsNetWkstaUserLogoff>
+
+externdef __imp_XsNetWkstaUserLogon:PPROC
+XsNetWkstaUserLogon equ <__imp_XsNetWkstaUserLogon>
+
+externdef __imp_XsSamOEMChangePasswordUser2_P:PPROC
+XsSamOEMChangePasswordUser2_P equ <__imp_XsSamOEMChangePasswordUser2_P>
+
+externdef __imp_XsSetParameters:PPROC
+XsSetParameters equ <__imp_XsSetParameters>

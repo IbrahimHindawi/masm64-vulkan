@@ -1,0 +1,191 @@
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_IPSecAllocPolMem:PPROC
+IPSecAllocPolMem equ <__imp_IPSecAllocPolMem>
+
+externdef __imp_IPSecAllocPolStr:PPROC
+IPSecAllocPolStr equ <__imp_IPSecAllocPolStr>
+
+externdef __imp_IPSecAssignPolicy:PPROC
+IPSecAssignPolicy equ <__imp_IPSecAssignPolicy>
+
+externdef __imp_IPSecChooseDriverBootMode:PPROC
+IPSecChooseDriverBootMode equ <__imp_IPSecChooseDriverBootMode>
+
+externdef __imp_IPSecClearWMIStore:PPROC
+IPSecClearWMIStore equ <__imp_IPSecClearWMIStore>
+
+externdef __imp_IPSecClosePolicyStore:PPROC
+IPSecClosePolicyStore equ <__imp_IPSecClosePolicyStore>
+
+externdef __imp_IPSecCopyAuthMethod:PPROC
+IPSecCopyAuthMethod equ <__imp_IPSecCopyAuthMethod>
+
+externdef __imp_IPSecCopyFilterData:PPROC
+IPSecCopyFilterData equ <__imp_IPSecCopyFilterData>
+
+externdef __imp_IPSecCopyFilterSpec:PPROC
+IPSecCopyFilterSpec equ <__imp_IPSecCopyFilterSpec>
+
+externdef __imp_IPSecCopyISAKMPData:PPROC
+IPSecCopyISAKMPData equ <__imp_IPSecCopyISAKMPData>
+
+externdef __imp_IPSecCopyNFAData:PPROC
+IPSecCopyNFAData equ <__imp_IPSecCopyNFAData>
+
+externdef __imp_IPSecCopyNegPolData:PPROC
+IPSecCopyNegPolData equ <__imp_IPSecCopyNegPolData>
+
+externdef __imp_IPSecCopyPolicyData:PPROC
+IPSecCopyPolicyData equ <__imp_IPSecCopyPolicyData>
+
+externdef __imp_IPSecCreateFilterData:PPROC
+IPSecCreateFilterData equ <__imp_IPSecCreateFilterData>
+
+externdef __imp_IPSecCreateISAKMPData:PPROC
+IPSecCreateISAKMPData equ <__imp_IPSecCreateISAKMPData>
+
+externdef __imp_IPSecCreateNFAData:PPROC
+IPSecCreateNFAData equ <__imp_IPSecCreateNFAData>
+
+externdef __imp_IPSecCreateNegPolData:PPROC
+IPSecCreateNegPolData equ <__imp_IPSecCreateNegPolData>
+
+externdef __imp_IPSecCreatePolicyData:PPROC
+IPSecCreatePolicyData equ <__imp_IPSecCreatePolicyData>
+
+externdef __imp_IPSecDeleteFilterData:PPROC
+IPSecDeleteFilterData equ <__imp_IPSecDeleteFilterData>
+
+externdef __imp_IPSecDeleteISAKMPData:PPROC
+IPSecDeleteISAKMPData equ <__imp_IPSecDeleteISAKMPData>
+
+externdef __imp_IPSecDeleteNFAData:PPROC
+IPSecDeleteNFAData equ <__imp_IPSecDeleteNFAData>
+
+externdef __imp_IPSecDeleteNegPolData:PPROC
+IPSecDeleteNegPolData equ <__imp_IPSecDeleteNegPolData>
+
+externdef __imp_IPSecDeletePolicyData:PPROC
+IPSecDeletePolicyData equ <__imp_IPSecDeletePolicyData>
+
+externdef __imp_IPSecEnumFilterData:PPROC
+IPSecEnumFilterData equ <__imp_IPSecEnumFilterData>
+
+externdef __imp_IPSecEnumISAKMPData:PPROC
+IPSecEnumISAKMPData equ <__imp_IPSecEnumISAKMPData>
+
+externdef __imp_IPSecEnumNFAData:PPROC
+IPSecEnumNFAData equ <__imp_IPSecEnumNFAData>
+
+externdef __imp_IPSecEnumNegPolData:PPROC
+IPSecEnumNegPolData equ <__imp_IPSecEnumNegPolData>
+
+externdef __imp_IPSecEnumPolicyData:PPROC
+IPSecEnumPolicyData equ <__imp_IPSecEnumPolicyData>
+
+externdef __imp_IPSecExportPolicies:PPROC
+IPSecExportPolicies equ <__imp_IPSecExportPolicies>
+
+externdef __imp_IPSecFreeFilterData:PPROC
+IPSecFreeFilterData equ <__imp_IPSecFreeFilterData>
+
+externdef __imp_IPSecFreeFilterSpec:PPROC
+IPSecFreeFilterSpec equ <__imp_IPSecFreeFilterSpec>
+
+externdef __imp_IPSecFreeFilterSpecs:PPROC
+IPSecFreeFilterSpecs equ <__imp_IPSecFreeFilterSpecs>
+
+externdef __imp_IPSecFreeISAKMPData:PPROC
+IPSecFreeISAKMPData equ <__imp_IPSecFreeISAKMPData>
+
+externdef __imp_IPSecFreeMulFilterData:PPROC
+IPSecFreeMulFilterData equ <__imp_IPSecFreeMulFilterData>
+
+externdef __imp_IPSecFreeMulISAKMPData:PPROC
+IPSecFreeMulISAKMPData equ <__imp_IPSecFreeMulISAKMPData>
+
+externdef __imp_IPSecFreeMulNFAData:PPROC
+IPSecFreeMulNFAData equ <__imp_IPSecFreeMulNFAData>
+
+externdef __imp_IPSecFreeMulNegPolData:PPROC
+IPSecFreeMulNegPolData equ <__imp_IPSecFreeMulNegPolData>
+
+externdef __imp_IPSecFreeMulPolicyData:PPROC
+IPSecFreeMulPolicyData equ <__imp_IPSecFreeMulPolicyData>
+
+externdef __imp_IPSecFreeNFAData:PPROC
+IPSecFreeNFAData equ <__imp_IPSecFreeNFAData>
+
+externdef __imp_IPSecFreeNegPolData:PPROC
+IPSecFreeNegPolData equ <__imp_IPSecFreeNegPolData>
+
+externdef __imp_IPSecFreePolMem:PPROC
+IPSecFreePolMem equ <__imp_IPSecFreePolMem>
+
+externdef __imp_IPSecFreePolStr:PPROC
+IPSecFreePolStr equ <__imp_IPSecFreePolStr>
+
+externdef __imp_IPSecFreePolicyData:PPROC
+IPSecFreePolicyData equ <__imp_IPSecFreePolicyData>
+
+externdef __imp_IPSecGetAssignedDomainPolicyName:PPROC
+IPSecGetAssignedDomainPolicyName equ <__imp_IPSecGetAssignedDomainPolicyName>
+
+externdef __imp_IPSecGetAssignedPolicyData:PPROC
+IPSecGetAssignedPolicyData equ <__imp_IPSecGetAssignedPolicyData>
+
+externdef __imp_IPSecGetFilterData:PPROC
+IPSecGetFilterData equ <__imp_IPSecGetFilterData>
+
+externdef __imp_IPSecGetISAKMPData:PPROC
+IPSecGetISAKMPData equ <__imp_IPSecGetISAKMPData>
+
+externdef __imp_IPSecGetNegPolData:PPROC
+IPSecGetNegPolData equ <__imp_IPSecGetNegPolData>
+
+externdef __imp_IPSecImportPolicies:PPROC
+IPSecImportPolicies equ <__imp_IPSecImportPolicies>
+
+externdef __imp_IPSecIsDomainPolicyAssigned:PPROC
+IPSecIsDomainPolicyAssigned equ <__imp_IPSecIsDomainPolicyAssigned>
+
+externdef __imp_IPSecIsLocalPolicyAssigned:PPROC
+IPSecIsLocalPolicyAssigned equ <__imp_IPSecIsLocalPolicyAssigned>
+
+externdef __imp_IPSecOpenPolicyStore:PPROC
+IPSecOpenPolicyStore equ <__imp_IPSecOpenPolicyStore>
+
+externdef __imp_IPSecReallocatePolMem:PPROC
+IPSecReallocatePolMem equ <__imp_IPSecReallocatePolMem>
+
+externdef __imp_IPSecReallocatePolStr:PPROC
+IPSecReallocatePolStr equ <__imp_IPSecReallocatePolStr>
+
+externdef __imp_IPSecRestoreDefaultPolicies:PPROC
+IPSecRestoreDefaultPolicies equ <__imp_IPSecRestoreDefaultPolicies>
+
+externdef __imp_IPSecSetFilterData:PPROC
+IPSecSetFilterData equ <__imp_IPSecSetFilterData>
+
+externdef __imp_IPSecSetISAKMPData:PPROC
+IPSecSetISAKMPData equ <__imp_IPSecSetISAKMPData>
+
+externdef __imp_IPSecSetNFAData:PPROC
+IPSecSetNFAData equ <__imp_IPSecSetNFAData>
+
+externdef __imp_IPSecSetNegPolData:PPROC
+IPSecSetNegPolData equ <__imp_IPSecSetNegPolData>
+
+externdef __imp_IPSecSetPolicyData:PPROC
+IPSecSetPolicyData equ <__imp_IPSecSetPolicyData>
+
+externdef __imp_IPSecUnassignPolicy:PPROC
+IPSecUnassignPolicy equ <__imp_IPSecUnassignPolicy>
+
+externdef __imp_WriteDirectoryPolicyToWMI:PPROC
+WriteDirectoryPolicyToWMI equ <__imp_WriteDirectoryPolicyToWMI>

@@ -1,0 +1,2 @@
+externdef __imp_BluetoothClassInstaller:PPROC
+BluetoothClassInstaller equ <__imp_BluetoothClassInstaller>

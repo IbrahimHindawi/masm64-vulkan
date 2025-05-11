@@ -1,0 +1,44 @@
+externdef __imp_IcfgGetLastInstallErrorText:PPROC
+IcfgGetLastInstallErrorText equ <__imp_IcfgGetLastInstallErrorText>
+
+externdef __imp_IcfgInstallInetComponents:PPROC
+IcfgInstallInetComponents equ <__imp_IcfgInstallInetComponents>
+
+externdef __imp_IcfgInstallModem:PPROC
+IcfgInstallModem equ <__imp_IcfgInstallModem>
+
+externdef __imp_IcfgIsFileSharingTurnedOn:PPROC
+IcfgIsFileSharingTurnedOn equ <__imp_IcfgIsFileSharingTurnedOn>
+
+externdef __imp_IcfgIsGlobalDNS:PPROC
+IcfgIsGlobalDNS equ <__imp_IcfgIsGlobalDNS>
+
+externdef __imp_IcfgNeedInetComponents:PPROC
+IcfgNeedInetComponents equ <__imp_IcfgNeedInetComponents>
+
+externdef __imp_IcfgNeedModem:PPROC
+IcfgNeedModem equ <__imp_IcfgNeedModem>
+
+externdef __imp_IcfgRemoveGlobalDNS:PPROC
+IcfgRemoveGlobalDNS equ <__imp_IcfgRemoveGlobalDNS>
+
+externdef __imp_IcfgSetInstallSourcePath:PPROC
+IcfgSetInstallSourcePath equ <__imp_IcfgSetInstallSourcePath>
+
+externdef __imp_IcfgStartServices:PPROC
+IcfgStartServices equ <__imp_IcfgStartServices>
+
+externdef __imp_IcfgTurnOffFileSharing:PPROC
+IcfgTurnOffFileSharing equ <__imp_IcfgTurnOffFileSharing>
+
+externdef __imp_InetGetAutodial:PPROC
+InetGetAutodial equ <__imp_InetGetAutodial>
+
+externdef __imp_InetGetSupportedPlatform:PPROC
+InetGetSupportedPlatform equ <__imp_InetGetSupportedPlatform>
+
+externdef __imp_InetSetAutodial:PPROC
+InetSetAutodial equ <__imp_InetSetAutodial>
+
+externdef __imp_InetSetAutodialAddress:PPROC
+InetSetAutodialAddress equ <__imp_InetSetAutodialAddress>

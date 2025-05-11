@@ -1,0 +1,2 @@
+externdef __imp_DirectPlay8LobbyCreate:PPROC
+DirectPlay8LobbyCreate equ <__imp_DirectPlay8LobbyCreate>

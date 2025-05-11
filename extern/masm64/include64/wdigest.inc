@@ -1,0 +1,95 @@
+externdef __imp_CredentialUpdateFree:PPROC
+CredentialUpdateFree equ <__imp_CredentialUpdateFree>
+
+externdef __imp_CredentialUpdateNotify:PPROC
+CredentialUpdateNotify equ <__imp_CredentialUpdateNotify>
+
+externdef __imp_CredentialUpdateRegister:PPROC
+CredentialUpdateRegister equ <__imp_CredentialUpdateRegister>
+
+externdef __imp_SpInitialize:PPROC
+SpInitialize equ <__imp_SpInitialize>
+
+externdef __imp_SpInstanceInit:PPROC
+SpInstanceInit equ <__imp_SpInstanceInit>
+
+externdef __imp_SpLsaModeInitialize:PPROC
+SpLsaModeInitialize equ <__imp_SpLsaModeInitialize>
+
+externdef __imp_SpUserModeInitialize:PPROC
+SpUserModeInitialize equ <__imp_SpUserModeInitialize>
+
+externdef __imp_SsiCredentialsUpdateFree:PPROC
+SsiCredentialsUpdateFree equ <__imp_SsiCredentialsUpdateFree>
+
+externdef __imp_SsiCredentialsUpdateNotify:PPROC
+SsiCredentialsUpdateNotify equ <__imp_SsiCredentialsUpdateNotify>
+
+externdef __imp_wdigest_ordinal10:PPROC
+wdigest_ordinal10 equ <__imp_wdigest_ordinal10>
+
+externdef __imp_wdigest_ordinal11:PPROC
+wdigest_ordinal11 equ <__imp_wdigest_ordinal11>
+
+externdef __imp_wdigest_ordinal12:PPROC
+wdigest_ordinal12 equ <__imp_wdigest_ordinal12>
+
+externdef __imp_wdigest_ordinal13:PPROC
+wdigest_ordinal13 equ <__imp_wdigest_ordinal13>
+
+externdef __imp_wdigest_ordinal14:PPROC
+wdigest_ordinal14 equ <__imp_wdigest_ordinal14>
+
+externdef __imp_wdigest_ordinal15:PPROC
+wdigest_ordinal15 equ <__imp_wdigest_ordinal15>
+
+externdef __imp_wdigest_ordinal16:PPROC
+wdigest_ordinal16 equ <__imp_wdigest_ordinal16>
+
+externdef __imp_wdigest_ordinal17:PPROC
+wdigest_ordinal17 equ <__imp_wdigest_ordinal17>
+
+externdef __imp_wdigest_ordinal18:PPROC
+wdigest_ordinal18 equ <__imp_wdigest_ordinal18>
+
+externdef __imp_wdigest_ordinal19:PPROC
+wdigest_ordinal19 equ <__imp_wdigest_ordinal19>
+
+externdef __imp_wdigest_ordinal20:PPROC
+wdigest_ordinal20 equ <__imp_wdigest_ordinal20>
+
+externdef __imp_wdigest_ordinal21:PPROC
+wdigest_ordinal21 equ <__imp_wdigest_ordinal21>
+
+externdef __imp_wdigest_ordinal22:PPROC
+wdigest_ordinal22 equ <__imp_wdigest_ordinal22>
+
+externdef __imp_wdigest_ordinal23:PPROC
+wdigest_ordinal23 equ <__imp_wdigest_ordinal23>
+
+externdef __imp_wdigest_ordinal24:PPROC
+wdigest_ordinal24 equ <__imp_wdigest_ordinal24>
+
+externdef __imp_wdigest_ordinal25:PPROC
+wdigest_ordinal25 equ <__imp_wdigest_ordinal25>
+
+externdef __imp_wdigest_ordinal26:PPROC
+wdigest_ordinal26 equ <__imp_wdigest_ordinal26>
+
+externdef __imp_wdigest_ordinal27:PPROC
+wdigest_ordinal27 equ <__imp_wdigest_ordinal27>
+
+externdef __imp_wdigest_ordinal28:PPROC
+wdigest_ordinal28 equ <__imp_wdigest_ordinal28>
+
+externdef __imp_wdigest_ordinal29:PPROC
+wdigest_ordinal29 equ <__imp_wdigest_ordinal29>
+
+externdef __imp_wdigest_ordinal30:PPROC
+wdigest_ordinal30 equ <__imp_wdigest_ordinal30>
+
+externdef __imp_wdigest_ordinal31:PPROC
+wdigest_ordinal31 equ <__imp_wdigest_ordinal31>
+
+externdef __imp_wdigest_ordinal9:PPROC
+wdigest_ordinal9 equ <__imp_wdigest_ordinal9>

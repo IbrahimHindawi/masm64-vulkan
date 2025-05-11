@@ -1,0 +1,236 @@
+externdef __imp_ToplAddEdgeSetToGraph:PPROC
+ToplAddEdgeSetToGraph equ <__imp_ToplAddEdgeSetToGraph>
+
+externdef __imp_ToplAddEdgeToGraph:PPROC
+ToplAddEdgeToGraph equ <__imp_ToplAddEdgeToGraph>
+
+externdef __imp_ToplDeleteComponents:PPROC
+ToplDeleteComponents equ <__imp_ToplDeleteComponents>
+
+externdef __imp_ToplDeleteGraphState:PPROC
+ToplDeleteGraphState equ <__imp_ToplDeleteGraphState>
+
+externdef __imp_ToplDeleteSpanningTreeEdges:PPROC
+ToplDeleteSpanningTreeEdges equ <__imp_ToplDeleteSpanningTreeEdges>
+
+externdef __imp_ToplEdgeAssociate:PPROC
+ToplEdgeAssociate equ <__imp_ToplEdgeAssociate>
+
+externdef __imp_ToplEdgeCreate:PPROC
+ToplEdgeCreate equ <__imp_ToplEdgeCreate>
+
+externdef __imp_ToplEdgeDestroy:PPROC
+ToplEdgeDestroy equ <__imp_ToplEdgeDestroy>
+
+externdef __imp_ToplEdgeDisassociate:PPROC
+ToplEdgeDisassociate equ <__imp_ToplEdgeDisassociate>
+
+externdef __imp_ToplEdgeFree:PPROC
+ToplEdgeFree equ <__imp_ToplEdgeFree>
+
+externdef __imp_ToplEdgeGetFromVertex:PPROC
+ToplEdgeGetFromVertex equ <__imp_ToplEdgeGetFromVertex>
+
+externdef __imp_ToplEdgeGetToVertex:PPROC
+ToplEdgeGetToVertex equ <__imp_ToplEdgeGetToVertex>
+
+externdef __imp_ToplEdgeGetWeight:PPROC
+ToplEdgeGetWeight equ <__imp_ToplEdgeGetWeight>
+
+externdef __imp_ToplEdgeInit:PPROC
+ToplEdgeInit equ <__imp_ToplEdgeInit>
+
+externdef __imp_ToplEdgeSetFromVertex:PPROC
+ToplEdgeSetFromVertex equ <__imp_ToplEdgeSetFromVertex>
+
+externdef __imp_ToplEdgeSetToVertex:PPROC
+ToplEdgeSetToVertex equ <__imp_ToplEdgeSetToVertex>
+
+externdef __imp_ToplEdgeSetVtx:PPROC
+ToplEdgeSetVtx equ <__imp_ToplEdgeSetVtx>
+
+externdef __imp_ToplEdgeSetWeight:PPROC
+ToplEdgeSetWeight equ <__imp_ToplEdgeSetWeight>
+
+externdef __imp_ToplFree:PPROC
+ToplFree equ <__imp_ToplFree>
+
+externdef __imp_ToplGetAlwaysSchedule:PPROC
+ToplGetAlwaysSchedule equ <__imp_ToplGetAlwaysSchedule>
+
+externdef __imp_ToplGetSpanningTreeEdgesForVtx:PPROC
+ToplGetSpanningTreeEdgesForVtx equ <__imp_ToplGetSpanningTreeEdgesForVtx>
+
+externdef __imp_ToplGraphAddVertex:PPROC
+ToplGraphAddVertex equ <__imp_ToplGraphAddVertex>
+
+externdef __imp_ToplGraphCreate:PPROC
+ToplGraphCreate equ <__imp_ToplGraphCreate>
+
+externdef __imp_ToplGraphDestroy:PPROC
+ToplGraphDestroy equ <__imp_ToplGraphDestroy>
+
+externdef __imp_ToplGraphFindEdgesForMST:PPROC
+ToplGraphFindEdgesForMST equ <__imp_ToplGraphFindEdgesForMST>
+
+externdef __imp_ToplGraphFree:PPROC
+ToplGraphFree equ <__imp_ToplGraphFree>
+
+externdef __imp_ToplGraphInit:PPROC
+ToplGraphInit equ <__imp_ToplGraphInit>
+
+externdef __imp_ToplGraphMakeRing:PPROC
+ToplGraphMakeRing equ <__imp_ToplGraphMakeRing>
+
+externdef __imp_ToplGraphNumberOfVertices:PPROC
+ToplGraphNumberOfVertices equ <__imp_ToplGraphNumberOfVertices>
+
+externdef __imp_ToplGraphRemoveVertex:PPROC
+ToplGraphRemoveVertex equ <__imp_ToplGraphRemoveVertex>
+
+externdef __imp_ToplGraphSetVertexIter:PPROC
+ToplGraphSetVertexIter equ <__imp_ToplGraphSetVertexIter>
+
+externdef __imp_ToplHeapCreate:PPROC
+ToplHeapCreate equ <__imp_ToplHeapCreate>
+
+externdef __imp_ToplHeapDestroy:PPROC
+ToplHeapDestroy equ <__imp_ToplHeapDestroy>
+
+externdef __imp_ToplHeapExtractMin:PPROC
+ToplHeapExtractMin equ <__imp_ToplHeapExtractMin>
+
+externdef __imp_ToplHeapInsert:PPROC
+ToplHeapInsert equ <__imp_ToplHeapInsert>
+
+externdef __imp_ToplHeapIsElementOf:PPROC
+ToplHeapIsElementOf equ <__imp_ToplHeapIsElementOf>
+
+externdef __imp_ToplHeapIsEmpty:PPROC
+ToplHeapIsEmpty equ <__imp_ToplHeapIsEmpty>
+
+externdef __imp_ToplIsToplException:PPROC
+ToplIsToplException equ <__imp_ToplIsToplException>
+
+externdef __imp_ToplIterAdvance:PPROC
+ToplIterAdvance equ <__imp_ToplIterAdvance>
+
+externdef __imp_ToplIterCreate:PPROC
+ToplIterCreate equ <__imp_ToplIterCreate>
+
+externdef __imp_ToplIterFree:PPROC
+ToplIterFree equ <__imp_ToplIterFree>
+
+externdef __imp_ToplIterGetObject:PPROC
+ToplIterGetObject equ <__imp_ToplIterGetObject>
+
+externdef __imp_ToplListAddElem:PPROC
+ToplListAddElem equ <__imp_ToplListAddElem>
+
+externdef __imp_ToplListCreate:PPROC
+ToplListCreate equ <__imp_ToplListCreate>
+
+externdef __imp_ToplListFree:PPROC
+ToplListFree equ <__imp_ToplListFree>
+
+externdef __imp_ToplListNumberOfElements:PPROC
+ToplListNumberOfElements equ <__imp_ToplListNumberOfElements>
+
+externdef __imp_ToplListRemoveElem:PPROC
+ToplListRemoveElem equ <__imp_ToplListRemoveElem>
+
+externdef __imp_ToplListSetIter:PPROC
+ToplListSetIter equ <__imp_ToplListSetIter>
+
+externdef __imp_ToplMakeGraphState:PPROC
+ToplMakeGraphState equ <__imp_ToplMakeGraphState>
+
+externdef __imp_ToplPScheduleValid:PPROC
+ToplPScheduleValid equ <__imp_ToplPScheduleValid>
+
+externdef __imp_ToplSTHeapAdd:PPROC
+ToplSTHeapAdd equ <__imp_ToplSTHeapAdd>
+
+externdef __imp_ToplSTHeapCostReduced:PPROC
+ToplSTHeapCostReduced equ <__imp_ToplSTHeapCostReduced>
+
+externdef __imp_ToplSTHeapDestroy:PPROC
+ToplSTHeapDestroy equ <__imp_ToplSTHeapDestroy>
+
+externdef __imp_ToplSTHeapExtractMin:PPROC
+ToplSTHeapExtractMin equ <__imp_ToplSTHeapExtractMin>
+
+externdef __imp_ToplSTHeapInit:PPROC
+ToplSTHeapInit equ <__imp_ToplSTHeapInit>
+
+externdef __imp_ToplScheduleCacheCreate:PPROC
+ToplScheduleCacheCreate equ <__imp_ToplScheduleCacheCreate>
+
+externdef __imp_ToplScheduleCacheDestroy:PPROC
+ToplScheduleCacheDestroy equ <__imp_ToplScheduleCacheDestroy>
+
+externdef __imp_ToplScheduleCreate:PPROC
+ToplScheduleCreate equ <__imp_ToplScheduleCreate>
+
+externdef __imp_ToplScheduleDuration:PPROC
+ToplScheduleDuration equ <__imp_ToplScheduleDuration>
+
+externdef __imp_ToplScheduleExportReadonly:PPROC
+ToplScheduleExportReadonly equ <__imp_ToplScheduleExportReadonly>
+
+externdef __imp_ToplScheduleImport:PPROC
+ToplScheduleImport equ <__imp_ToplScheduleImport>
+
+externdef __imp_ToplScheduleIsEqual:PPROC
+ToplScheduleIsEqual equ <__imp_ToplScheduleIsEqual>
+
+externdef __imp_ToplScheduleMaxUnavailable:PPROC
+ToplScheduleMaxUnavailable equ <__imp_ToplScheduleMaxUnavailable>
+
+externdef __imp_ToplScheduleMerge:PPROC
+ToplScheduleMerge equ <__imp_ToplScheduleMerge>
+
+externdef __imp_ToplScheduleNumEntries:PPROC
+ToplScheduleNumEntries equ <__imp_ToplScheduleNumEntries>
+
+externdef __imp_ToplScheduleValid:PPROC
+ToplScheduleValid equ <__imp_ToplScheduleValid>
+
+externdef __imp_ToplSetAllocator:PPROC
+ToplSetAllocator equ <__imp_ToplSetAllocator>
+
+externdef __imp_ToplVertexCreate:PPROC
+ToplVertexCreate equ <__imp_ToplVertexCreate>
+
+externdef __imp_ToplVertexDestroy:PPROC
+ToplVertexDestroy equ <__imp_ToplVertexDestroy>
+
+externdef __imp_ToplVertexFree:PPROC
+ToplVertexFree equ <__imp_ToplVertexFree>
+
+externdef __imp_ToplVertexGetId:PPROC
+ToplVertexGetId equ <__imp_ToplVertexGetId>
+
+externdef __imp_ToplVertexGetInEdge:PPROC
+ToplVertexGetInEdge equ <__imp_ToplVertexGetInEdge>
+
+externdef __imp_ToplVertexGetOutEdge:PPROC
+ToplVertexGetOutEdge equ <__imp_ToplVertexGetOutEdge>
+
+externdef __imp_ToplVertexGetParent:PPROC
+ToplVertexGetParent equ <__imp_ToplVertexGetParent>
+
+externdef __imp_ToplVertexInit:PPROC
+ToplVertexInit equ <__imp_ToplVertexInit>
+
+externdef __imp_ToplVertexNumberOfInEdges:PPROC
+ToplVertexNumberOfInEdges equ <__imp_ToplVertexNumberOfInEdges>
+
+externdef __imp_ToplVertexNumberOfOutEdges:PPROC
+ToplVertexNumberOfOutEdges equ <__imp_ToplVertexNumberOfOutEdges>
+
+externdef __imp_ToplVertexSetId:PPROC
+ToplVertexSetId equ <__imp_ToplVertexSetId>
+
+externdef __imp_ToplVertexSetParent:PPROC
+ToplVertexSetParent equ <__imp_ToplVertexSetParent>

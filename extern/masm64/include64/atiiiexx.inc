@@ -1,0 +1,8 @@
+externdef __imp_InfEngInstallINFFile:PPROC
+InfEngInstallINFFile equ <__imp_InfEngInstallINFFile>
+
+externdef __imp_InfEngUnInstallINFFile:PPROC
+InfEngUnInstallINFFile equ <__imp_InfEngUnInstallINFFile>
+
+externdef __imp_InfEngUnInstallINFFile_RunDLL:PPROC
+InfEngUnInstallINFFile_RunDLL equ <__imp_InfEngUnInstallINFFile_RunDLL>

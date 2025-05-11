@@ -1,0 +1,44 @@
+externdef __imp_Close:PPROC
+Close equ <__imp_Close>
+
+externdef __imp_Collect:PPROC
+Collect equ <__imp_Collect>
+
+externdef __imp_Open:PPROC
+Open equ <__imp_Open>
+
+externdef __imp_RasAcctConfigChangeNotification:PPROC
+RasAcctConfigChangeNotification equ <__imp_RasAcctConfigChangeNotification>
+
+externdef __imp_RasAcctProviderFreeAttributes:PPROC
+RasAcctProviderFreeAttributes equ <__imp_RasAcctProviderFreeAttributes>
+
+externdef __imp_RasAcctProviderInitialize:PPROC
+RasAcctProviderInitialize equ <__imp_RasAcctProviderInitialize>
+
+externdef __imp_RasAcctProviderInterimAccounting:PPROC
+RasAcctProviderInterimAccounting equ <__imp_RasAcctProviderInterimAccounting>
+
+externdef __imp_RasAcctProviderStartAccounting:PPROC
+RasAcctProviderStartAccounting equ <__imp_RasAcctProviderStartAccounting>
+
+externdef __imp_RasAcctProviderStopAccounting:PPROC
+RasAcctProviderStopAccounting equ <__imp_RasAcctProviderStopAccounting>
+
+externdef __imp_RasAcctProviderTerminate:PPROC
+RasAcctProviderTerminate equ <__imp_RasAcctProviderTerminate>
+
+externdef __imp_RasAuthConfigChangeNotification:PPROC
+RasAuthConfigChangeNotification equ <__imp_RasAuthConfigChangeNotification>
+
+externdef __imp_RasAuthProviderAuthenticateUser:PPROC
+RasAuthProviderAuthenticateUser equ <__imp_RasAuthProviderAuthenticateUser>
+
+externdef __imp_RasAuthProviderFreeAttributes:PPROC
+RasAuthProviderFreeAttributes equ <__imp_RasAuthProviderFreeAttributes>
+
+externdef __imp_RasAuthProviderInitialize:PPROC
+RasAuthProviderInitialize equ <__imp_RasAuthProviderInitialize>
+
+externdef __imp_RasAuthProviderTerminate:PPROC
+RasAuthProviderTerminate equ <__imp_RasAuthProviderTerminate>

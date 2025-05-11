@@ -1,0 +1,125 @@
+externdef __imp_CreateSocketPort:PPROC
+CreateSocketPort equ <__imp_CreateSocketPort>
+
+externdef __imp_DeleteSocketPort:PPROC
+DeleteSocketPort equ <__imp_DeleteSocketPort>
+
+externdef __imp_FwBindFwInterfaceToAdapter:PPROC
+FwBindFwInterfaceToAdapter equ <__imp_FwBindFwInterfaceToAdapter>
+
+externdef __imp_FwConnectionRequestFailed:PPROC
+FwConnectionRequestFailed equ <__imp_FwConnectionRequestFailed>
+
+externdef __imp_FwCreateInterface:PPROC
+FwCreateInterface equ <__imp_FwCreateInterface>
+
+externdef __imp_FwDeleteInterface:PPROC
+FwDeleteInterface equ <__imp_FwDeleteInterface>
+
+externdef __imp_FwDisableFwInterface:PPROC
+FwDisableFwInterface equ <__imp_FwDisableFwInterface>
+
+externdef __imp_FwEnableFwInterface:PPROC
+FwEnableFwInterface equ <__imp_FwEnableFwInterface>
+
+externdef __imp_FwGetInterface:PPROC
+FwGetInterface equ <__imp_FwGetInterface>
+
+externdef __imp_FwGetNotificationResult:PPROC
+FwGetNotificationResult equ <__imp_FwGetNotificationResult>
+
+externdef __imp_FwGetStaticNetbiosNames:PPROC
+FwGetStaticNetbiosNames equ <__imp_FwGetStaticNetbiosNames>
+
+externdef __imp_FwIsStarted:PPROC
+FwIsStarted equ <__imp_FwIsStarted>
+
+externdef __imp_FwNotifyConnectionRequest:PPROC
+FwNotifyConnectionRequest equ <__imp_FwNotifyConnectionRequest>
+
+externdef __imp_FwSetInterface:PPROC
+FwSetInterface equ <__imp_FwSetInterface>
+
+externdef __imp_FwSetStaticNetbiosNames:PPROC
+FwSetStaticNetbiosNames equ <__imp_FwSetStaticNetbiosNames>
+
+externdef __imp_FwStart:PPROC
+FwStart equ <__imp_FwStart>
+
+externdef __imp_FwStop:PPROC
+FwStop equ <__imp_FwStop>
+
+externdef __imp_FwUnbindFwInterfaceFromAdapter:PPROC
+FwUnbindFwInterfaceFromAdapter equ <__imp_FwUnbindFwInterfaceFromAdapter>
+
+externdef __imp_FwUpdateConfig:PPROC
+FwUpdateConfig equ <__imp_FwUpdateConfig>
+
+externdef __imp_FwUpdateRouteTable:PPROC
+FwUpdateRouteTable equ <__imp_FwUpdateRouteTable>
+
+externdef __imp_GetAdapterNameFromMacAddrW:PPROC
+GetAdapterNameFromMacAddrW equ <__imp_GetAdapterNameFromMacAddrW>
+  IFDEF __UNICODE__
+    GetAdapterNameFromMacAddr equ <__imp_GetAdapterNameFromMacAddrW>
+  ENDIF
+
+externdef __imp_GetAdapterNameW:PPROC
+GetAdapterNameW equ <__imp_GetAdapterNameW>
+  IFDEF __UNICODE__
+    GetAdapterName equ <__imp_GetAdapterNameW>
+  ENDIF
+
+externdef __imp_GetFilters:PPROC
+GetFilters equ <__imp_GetFilters>
+
+externdef __imp_IpxAdjustIoCompletionParams:PPROC
+IpxAdjustIoCompletionParams equ <__imp_IpxAdjustIoCompletionParams>
+
+externdef __imp_IpxCreateAdapterConfigurationPort:PPROC
+IpxCreateAdapterConfigurationPort equ <__imp_IpxCreateAdapterConfigurationPort>
+
+externdef __imp_IpxDeleteAdapterConfigurationPort:PPROC
+IpxDeleteAdapterConfigurationPort equ <__imp_IpxDeleteAdapterConfigurationPort>
+
+externdef __imp_IpxDoesRouteExist:PPROC
+IpxDoesRouteExist equ <__imp_IpxDoesRouteExist>
+
+externdef __imp_IpxGetAdapterConfig:PPROC
+IpxGetAdapterConfig equ <__imp_IpxGetAdapterConfig>
+
+externdef __imp_IpxGetAdapterList:PPROC
+IpxGetAdapterList equ <__imp_IpxGetAdapterList>
+
+externdef __imp_IpxGetOverlappedResult:PPROC
+IpxGetOverlappedResult equ <__imp_IpxGetOverlappedResult>
+
+externdef __imp_IpxGetQueuedAdapterConfigurationStatus:PPROC
+IpxGetQueuedAdapterConfigurationStatus equ <__imp_IpxGetQueuedAdapterConfigurationStatus>
+
+externdef __imp_IpxGetQueuedCompletionStatus:PPROC
+IpxGetQueuedCompletionStatus equ <__imp_IpxGetQueuedCompletionStatus>
+
+externdef __imp_IpxPostQueuedCompletionStatus:PPROC
+IpxPostQueuedCompletionStatus equ <__imp_IpxPostQueuedCompletionStatus>
+
+externdef __imp_IpxRecvPacket:PPROC
+IpxRecvPacket equ <__imp_IpxRecvPacket>
+
+externdef __imp_IpxSendPacket:PPROC
+IpxSendPacket equ <__imp_IpxSendPacket>
+
+externdef __imp_IpxWanCreateAdapterConfigurationPort:PPROC
+IpxWanCreateAdapterConfigurationPort equ <__imp_IpxWanCreateAdapterConfigurationPort>
+
+externdef __imp_IpxWanQueryInactivityTimer:PPROC
+IpxWanQueryInactivityTimer equ <__imp_IpxWanQueryInactivityTimer>
+
+externdef __imp_IpxWanSetAdapterConfiguration:PPROC
+IpxWanSetAdapterConfiguration equ <__imp_IpxWanSetAdapterConfiguration>
+
+externdef __imp_ServiceMain:PPROC
+ServiceMain equ <__imp_ServiceMain>
+
+externdef __imp_SetFilters:PPROC
+SetFilters equ <__imp_SetFilters>

@@ -1,0 +1,383 @@
+externdef __imp_AddPersonalTrustDBPages:PPROC
+AddPersonalTrustDBPages equ <__imp_AddPersonalTrustDBPages>
+
+externdef __imp_CatalogCompactHashDatabase:PPROC
+CatalogCompactHashDatabase equ <__imp_CatalogCompactHashDatabase>
+
+externdef __imp_CryptCATAdminAcquireContext:PPROC
+CryptCATAdminAcquireContext equ <__imp_CryptCATAdminAcquireContext>
+
+externdef __imp_CryptCATAdminAddCatalog:PPROC
+CryptCATAdminAddCatalog equ <__imp_CryptCATAdminAddCatalog>
+
+externdef __imp_CryptCATAdminCalcHashFromFileHandle:PPROC
+CryptCATAdminCalcHashFromFileHandle equ <__imp_CryptCATAdminCalcHashFromFileHandle>
+
+externdef __imp_CryptCATAdminEnumCatalogFromHash:PPROC
+CryptCATAdminEnumCatalogFromHash equ <__imp_CryptCATAdminEnumCatalogFromHash>
+
+externdef __imp_CryptCATAdminPauseServiceForBackup:PPROC
+CryptCATAdminPauseServiceForBackup equ <__imp_CryptCATAdminPauseServiceForBackup>
+
+externdef __imp_CryptCATAdminReleaseCatalogContext:PPROC
+CryptCATAdminReleaseCatalogContext equ <__imp_CryptCATAdminReleaseCatalogContext>
+
+externdef __imp_CryptCATAdminReleaseContext:PPROC
+CryptCATAdminReleaseContext equ <__imp_CryptCATAdminReleaseContext>
+
+externdef __imp_CryptCATAdminRemoveCatalog:PPROC
+CryptCATAdminRemoveCatalog equ <__imp_CryptCATAdminRemoveCatalog>
+
+externdef __imp_CryptCATAdminResolveCatalogPath:PPROC
+CryptCATAdminResolveCatalogPath equ <__imp_CryptCATAdminResolveCatalogPath>
+
+externdef __imp_CryptCATCDFClose:PPROC
+CryptCATCDFClose equ <__imp_CryptCATCDFClose>
+
+externdef __imp_CryptCATCDFEnumAttributes:PPROC
+CryptCATCDFEnumAttributes equ <__imp_CryptCATCDFEnumAttributes>
+
+externdef __imp_CryptCATCDFEnumAttributesWithCDFTag:PPROC
+CryptCATCDFEnumAttributesWithCDFTag equ <__imp_CryptCATCDFEnumAttributesWithCDFTag>
+
+externdef __imp_CryptCATCDFEnumCatAttributes:PPROC
+CryptCATCDFEnumCatAttributes equ <__imp_CryptCATCDFEnumCatAttributes>
+
+externdef __imp_CryptCATCDFEnumMembers:PPROC
+CryptCATCDFEnumMembers equ <__imp_CryptCATCDFEnumMembers>
+
+externdef __imp_CryptCATCDFEnumMembersByCDFTag:PPROC
+CryptCATCDFEnumMembersByCDFTag equ <__imp_CryptCATCDFEnumMembersByCDFTag>
+
+externdef __imp_CryptCATCDFEnumMembersByCDFTagEx:PPROC
+CryptCATCDFEnumMembersByCDFTagEx equ <__imp_CryptCATCDFEnumMembersByCDFTagEx>
+
+externdef __imp_CryptCATCDFOpen:PPROC
+CryptCATCDFOpen equ <__imp_CryptCATCDFOpen>
+
+externdef __imp_CryptCATCatalogInfoFromContext:PPROC
+CryptCATCatalogInfoFromContext equ <__imp_CryptCATCatalogInfoFromContext>
+
+externdef __imp_CryptCATClose:PPROC
+CryptCATClose equ <__imp_CryptCATClose>
+
+externdef __imp_CryptCATEnumerateAttr:PPROC
+CryptCATEnumerateAttr equ <__imp_CryptCATEnumerateAttr>
+
+externdef __imp_CryptCATEnumerateCatAttr:PPROC
+CryptCATEnumerateCatAttr equ <__imp_CryptCATEnumerateCatAttr>
+
+externdef __imp_CryptCATEnumerateMember:PPROC
+CryptCATEnumerateMember equ <__imp_CryptCATEnumerateMember>
+
+externdef __imp_CryptCATGetAttrInfo:PPROC
+CryptCATGetAttrInfo equ <__imp_CryptCATGetAttrInfo>
+
+externdef __imp_CryptCATGetCatAttrInfo:PPROC
+CryptCATGetCatAttrInfo equ <__imp_CryptCATGetCatAttrInfo>
+
+externdef __imp_CryptCATGetMemberInfo:PPROC
+CryptCATGetMemberInfo equ <__imp_CryptCATGetMemberInfo>
+
+externdef __imp_CryptCATHandleFromStore:PPROC
+CryptCATHandleFromStore equ <__imp_CryptCATHandleFromStore>
+
+externdef __imp_CryptCATOpen:PPROC
+CryptCATOpen equ <__imp_CryptCATOpen>
+
+externdef __imp_CryptCATPersistStore:PPROC
+CryptCATPersistStore equ <__imp_CryptCATPersistStore>
+
+externdef __imp_CryptCATPutAttrInfo:PPROC
+CryptCATPutAttrInfo equ <__imp_CryptCATPutAttrInfo>
+
+externdef __imp_CryptCATPutCatAttrInfo:PPROC
+CryptCATPutCatAttrInfo equ <__imp_CryptCATPutCatAttrInfo>
+
+externdef __imp_CryptCATPutMemberInfo:PPROC
+CryptCATPutMemberInfo equ <__imp_CryptCATPutMemberInfo>
+
+externdef __imp_CryptCATStoreFromHandle:PPROC
+CryptCATStoreFromHandle equ <__imp_CryptCATStoreFromHandle>
+
+externdef __imp_CryptCATVerifyMember:PPROC
+CryptCATVerifyMember equ <__imp_CryptCATVerifyMember>
+
+externdef __imp_CryptSIPCreateIndirectData:PPROC
+CryptSIPCreateIndirectData equ <__imp_CryptSIPCreateIndirectData>
+
+externdef __imp_CryptSIPGetInfo:PPROC
+CryptSIPGetInfo equ <__imp_CryptSIPGetInfo>
+
+externdef __imp_CryptSIPGetRegWorkingFlags:PPROC
+CryptSIPGetRegWorkingFlags equ <__imp_CryptSIPGetRegWorkingFlags>
+
+externdef __imp_CryptSIPGetSignedDataMsg:PPROC
+CryptSIPGetSignedDataMsg equ <__imp_CryptSIPGetSignedDataMsg>
+
+externdef __imp_CryptSIPPutSignedDataMsg:PPROC
+CryptSIPPutSignedDataMsg equ <__imp_CryptSIPPutSignedDataMsg>
+
+externdef __imp_CryptSIPRemoveSignedDataMsg:PPROC
+CryptSIPRemoveSignedDataMsg equ <__imp_CryptSIPRemoveSignedDataMsg>
+
+externdef __imp_CryptSIPVerifyIndirectData:PPROC
+CryptSIPVerifyIndirectData equ <__imp_CryptSIPVerifyIndirectData>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_DriverCleanupPolicy:PPROC
+DriverCleanupPolicy equ <__imp_DriverCleanupPolicy>
+
+externdef __imp_DriverFinalPolicy:PPROC
+DriverFinalPolicy equ <__imp_DriverFinalPolicy>
+
+externdef __imp_DriverInitializePolicy:PPROC
+DriverInitializePolicy equ <__imp_DriverInitializePolicy>
+
+externdef __imp_FindCertsByIssuer:PPROC
+FindCertsByIssuer equ <__imp_FindCertsByIssuer>
+
+externdef __imp_GenericChainCertificateTrust:PPROC
+GenericChainCertificateTrust equ <__imp_GenericChainCertificateTrust>
+
+externdef __imp_GenericChainFinalProv:PPROC
+GenericChainFinalProv equ <__imp_GenericChainFinalProv>
+
+externdef __imp_HTTPSCertificateTrust:PPROC
+HTTPSCertificateTrust equ <__imp_HTTPSCertificateTrust>
+
+externdef __imp_HTTPSFinalProv:PPROC
+HTTPSFinalProv equ <__imp_HTTPSFinalProv>
+
+externdef __imp_I_CryptCatAdminMigrateToNewCatDB:PPROC
+I_CryptCatAdminMigrateToNewCatDB equ <__imp_I_CryptCatAdminMigrateToNewCatDB>
+
+externdef __imp_IsCatalogFile:PPROC
+IsCatalogFile equ <__imp_IsCatalogFile>
+
+externdef __imp_MsCatConstructHashTag:PPROC
+MsCatConstructHashTag equ <__imp_MsCatConstructHashTag>
+
+externdef __imp_MsCatFreeHashTag:PPROC
+MsCatFreeHashTag equ <__imp_MsCatFreeHashTag>
+
+externdef __imp_OfficeCleanupPolicy:PPROC
+OfficeCleanupPolicy equ <__imp_OfficeCleanupPolicy>
+
+externdef __imp_OfficeInitializePolicy:PPROC
+OfficeInitializePolicy equ <__imp_OfficeInitializePolicy>
+
+externdef __imp_OpenPersonalTrustDBDialog:PPROC
+OpenPersonalTrustDBDialog equ <__imp_OpenPersonalTrustDBDialog>
+
+externdef __imp_OpenPersonalTrustDBDialogEx:PPROC
+OpenPersonalTrustDBDialogEx equ <__imp_OpenPersonalTrustDBDialogEx>
+
+externdef __imp_SoftpubAuthenticode:PPROC
+SoftpubAuthenticode equ <__imp_SoftpubAuthenticode>
+
+externdef __imp_SoftpubCheckCert:PPROC
+SoftpubCheckCert equ <__imp_SoftpubCheckCert>
+
+externdef __imp_SoftpubCleanup:PPROC
+SoftpubCleanup equ <__imp_SoftpubCleanup>
+
+externdef __imp_SoftpubDefCertInit:PPROC
+SoftpubDefCertInit equ <__imp_SoftpubDefCertInit>
+
+externdef __imp_SoftpubDllRegisterServer:PPROC
+SoftpubDllRegisterServer equ <__imp_SoftpubDllRegisterServer>
+
+externdef __imp_SoftpubDllUnregisterServer:PPROC
+SoftpubDllUnregisterServer equ <__imp_SoftpubDllUnregisterServer>
+
+externdef __imp_SoftpubDumpStructure:PPROC
+SoftpubDumpStructure equ <__imp_SoftpubDumpStructure>
+
+externdef __imp_SoftpubFreeDefUsageCallData:PPROC
+SoftpubFreeDefUsageCallData equ <__imp_SoftpubFreeDefUsageCallData>
+
+externdef __imp_SoftpubInitialize:PPROC
+SoftpubInitialize equ <__imp_SoftpubInitialize>
+
+externdef __imp_SoftpubLoadDefUsageCallData:PPROC
+SoftpubLoadDefUsageCallData equ <__imp_SoftpubLoadDefUsageCallData>
+
+externdef __imp_SoftpubLoadMessage:PPROC
+SoftpubLoadMessage equ <__imp_SoftpubLoadMessage>
+
+externdef __imp_SoftpubLoadSignature:PPROC
+SoftpubLoadSignature equ <__imp_SoftpubLoadSignature>
+
+externdef __imp_TrustDecode:PPROC
+TrustDecode equ <__imp_TrustDecode>
+
+externdef __imp_TrustFindIssuerCertificate:PPROC
+TrustFindIssuerCertificate equ <__imp_TrustFindIssuerCertificate>
+
+externdef __imp_TrustFreeDecode:PPROC
+TrustFreeDecode equ <__imp_TrustFreeDecode>
+
+externdef __imp_TrustIsCertificateSelfSigned:PPROC
+TrustIsCertificateSelfSigned equ <__imp_TrustIsCertificateSelfSigned>
+
+externdef __imp_TrustOpenStores:PPROC
+TrustOpenStores equ <__imp_TrustOpenStores>
+
+externdef __imp_WTHelperCertCheckValidSignature:PPROC
+WTHelperCertCheckValidSignature equ <__imp_WTHelperCertCheckValidSignature>
+
+externdef __imp_WTHelperCertFindIssuerCertificate:PPROC
+WTHelperCertFindIssuerCertificate equ <__imp_WTHelperCertFindIssuerCertificate>
+
+externdef __imp_WTHelperCertIsSelfSigned:PPROC
+WTHelperCertIsSelfSigned equ <__imp_WTHelperCertIsSelfSigned>
+
+externdef __imp_WTHelperCheckCertUsage:PPROC
+WTHelperCheckCertUsage equ <__imp_WTHelperCheckCertUsage>
+
+externdef __imp_WTHelperGetAgencyInfo:PPROC
+WTHelperGetAgencyInfo equ <__imp_WTHelperGetAgencyInfo>
+
+externdef __imp_WTHelperGetFileHandle:PPROC
+WTHelperGetFileHandle equ <__imp_WTHelperGetFileHandle>
+
+externdef __imp_WTHelperGetFileHash:PPROC
+WTHelperGetFileHash equ <__imp_WTHelperGetFileHash>
+
+externdef __imp_WTHelperGetFileName:PPROC
+WTHelperGetFileName equ <__imp_WTHelperGetFileName>
+
+externdef __imp_WTHelperGetKnownUsages:PPROC
+WTHelperGetKnownUsages equ <__imp_WTHelperGetKnownUsages>
+
+externdef __imp_WTHelperGetProvCertFromChain:PPROC
+WTHelperGetProvCertFromChain equ <__imp_WTHelperGetProvCertFromChain>
+
+externdef __imp_WTHelperGetProvPrivateDataFromChain:PPROC
+WTHelperGetProvPrivateDataFromChain equ <__imp_WTHelperGetProvPrivateDataFromChain>
+
+externdef __imp_WTHelperGetProvSignerFromChain:PPROC
+WTHelperGetProvSignerFromChain equ <__imp_WTHelperGetProvSignerFromChain>
+
+externdef __imp_WTHelperIsInRootStore:PPROC
+WTHelperIsInRootStore equ <__imp_WTHelperIsInRootStore>
+
+externdef __imp_WTHelperOpenKnownStores:PPROC
+WTHelperOpenKnownStores equ <__imp_WTHelperOpenKnownStores>
+
+externdef __imp_WTHelperProvDataFromStateData:PPROC
+WTHelperProvDataFromStateData equ <__imp_WTHelperProvDataFromStateData>
+
+externdef __imp_WVTAsn1CatMemberInfoDecode:PPROC
+WVTAsn1CatMemberInfoDecode equ <__imp_WVTAsn1CatMemberInfoDecode>
+
+externdef __imp_WVTAsn1CatMemberInfoEncode:PPROC
+WVTAsn1CatMemberInfoEncode equ <__imp_WVTAsn1CatMemberInfoEncode>
+
+externdef __imp_WVTAsn1CatNameValueDecode:PPROC
+WVTAsn1CatNameValueDecode equ <__imp_WVTAsn1CatNameValueDecode>
+
+externdef __imp_WVTAsn1CatNameValueEncode:PPROC
+WVTAsn1CatNameValueEncode equ <__imp_WVTAsn1CatNameValueEncode>
+
+externdef __imp_WVTAsn1SpcFinancialCriteriaInfoDecode:PPROC
+WVTAsn1SpcFinancialCriteriaInfoDecode equ <__imp_WVTAsn1SpcFinancialCriteriaInfoDecode>
+
+externdef __imp_WVTAsn1SpcFinancialCriteriaInfoEncode:PPROC
+WVTAsn1SpcFinancialCriteriaInfoEncode equ <__imp_WVTAsn1SpcFinancialCriteriaInfoEncode>
+
+externdef __imp_WVTAsn1SpcIndirectDataContentDecode:PPROC
+WVTAsn1SpcIndirectDataContentDecode equ <__imp_WVTAsn1SpcIndirectDataContentDecode>
+
+externdef __imp_WVTAsn1SpcIndirectDataContentEncode:PPROC
+WVTAsn1SpcIndirectDataContentEncode equ <__imp_WVTAsn1SpcIndirectDataContentEncode>
+
+externdef __imp_WVTAsn1SpcLinkDecode:PPROC
+WVTAsn1SpcLinkDecode equ <__imp_WVTAsn1SpcLinkDecode>
+
+externdef __imp_WVTAsn1SpcLinkEncode:PPROC
+WVTAsn1SpcLinkEncode equ <__imp_WVTAsn1SpcLinkEncode>
+
+externdef __imp_WVTAsn1SpcMinimalCriteriaInfoDecode:PPROC
+WVTAsn1SpcMinimalCriteriaInfoDecode equ <__imp_WVTAsn1SpcMinimalCriteriaInfoDecode>
+
+externdef __imp_WVTAsn1SpcMinimalCriteriaInfoEncode:PPROC
+WVTAsn1SpcMinimalCriteriaInfoEncode equ <__imp_WVTAsn1SpcMinimalCriteriaInfoEncode>
+
+externdef __imp_WVTAsn1SpcPeImageDataDecode:PPROC
+WVTAsn1SpcPeImageDataDecode equ <__imp_WVTAsn1SpcPeImageDataDecode>
+
+externdef __imp_WVTAsn1SpcPeImageDataEncode:PPROC
+WVTAsn1SpcPeImageDataEncode equ <__imp_WVTAsn1SpcPeImageDataEncode>
+
+externdef __imp_WVTAsn1SpcSigInfoDecode:PPROC
+WVTAsn1SpcSigInfoDecode equ <__imp_WVTAsn1SpcSigInfoDecode>
+
+externdef __imp_WVTAsn1SpcSigInfoEncode:PPROC
+WVTAsn1SpcSigInfoEncode equ <__imp_WVTAsn1SpcSigInfoEncode>
+
+externdef __imp_WVTAsn1SpcSpAgencyInfoDecode:PPROC
+WVTAsn1SpcSpAgencyInfoDecode equ <__imp_WVTAsn1SpcSpAgencyInfoDecode>
+
+externdef __imp_WVTAsn1SpcSpAgencyInfoEncode:PPROC
+WVTAsn1SpcSpAgencyInfoEncode equ <__imp_WVTAsn1SpcSpAgencyInfoEncode>
+
+externdef __imp_WVTAsn1SpcSpOpusInfoDecode:PPROC
+WVTAsn1SpcSpOpusInfoDecode equ <__imp_WVTAsn1SpcSpOpusInfoDecode>
+
+externdef __imp_WVTAsn1SpcSpOpusInfoEncode:PPROC
+WVTAsn1SpcSpOpusInfoEncode equ <__imp_WVTAsn1SpcSpOpusInfoEncode>
+
+externdef __imp_WVTAsn1SpcStatementTypeDecode:PPROC
+WVTAsn1SpcStatementTypeDecode equ <__imp_WVTAsn1SpcStatementTypeDecode>
+
+externdef __imp_WVTAsn1SpcStatementTypeEncode:PPROC
+WVTAsn1SpcStatementTypeEncode equ <__imp_WVTAsn1SpcStatementTypeEncode>
+
+externdef __imp_WinVerifyTrust:PPROC
+WinVerifyTrust equ <__imp_WinVerifyTrust>
+
+externdef __imp_WinVerifyTrustEx:PPROC
+WinVerifyTrustEx equ <__imp_WinVerifyTrustEx>
+
+externdef __imp_WintrustAddActionID:PPROC
+WintrustAddActionID equ <__imp_WintrustAddActionID>
+
+externdef __imp_WintrustAddDefaultForUsage:PPROC
+WintrustAddDefaultForUsage equ <__imp_WintrustAddDefaultForUsage>
+
+externdef __imp_WintrustCertificateTrust:PPROC
+WintrustCertificateTrust equ <__imp_WintrustCertificateTrust>
+
+externdef __imp_WintrustGetDefaultForUsage:PPROC
+WintrustGetDefaultForUsage equ <__imp_WintrustGetDefaultForUsage>
+
+externdef __imp_WintrustGetRegPolicyFlags:PPROC
+WintrustGetRegPolicyFlags equ <__imp_WintrustGetRegPolicyFlags>
+
+externdef __imp_WintrustLoadFunctionPointers:PPROC
+WintrustLoadFunctionPointers equ <__imp_WintrustLoadFunctionPointers>
+
+externdef __imp_WintrustRemoveActionID:PPROC
+WintrustRemoveActionID equ <__imp_WintrustRemoveActionID>
+
+externdef __imp_WintrustSetRegPolicyFlags:PPROC
+WintrustSetRegPolicyFlags equ <__imp_WintrustSetRegPolicyFlags>
+
+externdef __imp_mscat32DllRegisterServer:PPROC
+mscat32DllRegisterServer equ <__imp_mscat32DllRegisterServer>
+
+externdef __imp_mscat32DllUnregisterServer:PPROC
+mscat32DllUnregisterServer equ <__imp_mscat32DllUnregisterServer>
+
+externdef __imp_mssip32DllRegisterServer:PPROC
+mssip32DllRegisterServer equ <__imp_mssip32DllRegisterServer>
+
+externdef __imp_mssip32DllUnregisterServer:PPROC
+mssip32DllUnregisterServer equ <__imp_mssip32DllUnregisterServer>

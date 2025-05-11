@@ -1,0 +1,2 @@
+externdef __imp_WmiPropCoInstaller:PPROC
+WmiPropCoInstaller equ <__imp_WmiPropCoInstaller>

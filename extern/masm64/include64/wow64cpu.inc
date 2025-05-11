@@ -1,0 +1,62 @@
+externdef __imp_CpuFlushInstructionCache:PPROC
+CpuFlushInstructionCache equ <__imp_CpuFlushInstructionCache>
+
+externdef __imp_CpuGetContext:PPROC
+CpuGetContext equ <__imp_CpuGetContext>
+
+externdef __imp_CpuGetStackPointer:PPROC
+CpuGetStackPointer equ <__imp_CpuGetStackPointer>
+
+externdef __imp_CpuInitializeStartupContext:PPROC
+CpuInitializeStartupContext equ <__imp_CpuInitializeStartupContext>
+
+externdef __imp_CpuNotifyDllLoad:PPROC
+CpuNotifyDllLoad equ <__imp_CpuNotifyDllLoad>
+
+externdef __imp_CpuNotifyDllUnload:PPROC
+CpuNotifyDllUnload equ <__imp_CpuNotifyDllUnload>
+
+externdef __imp_CpuPrepareForDebuggerAttach:PPROC
+CpuPrepareForDebuggerAttach equ <__imp_CpuPrepareForDebuggerAttach>
+
+externdef __imp_CpuProcessDebugEvent:PPROC
+CpuProcessDebugEvent equ <__imp_CpuProcessDebugEvent>
+
+externdef __imp_CpuProcessInit:PPROC
+CpuProcessInit equ <__imp_CpuProcessInit>
+
+externdef __imp_CpuProcessTerm:PPROC
+CpuProcessTerm equ <__imp_CpuProcessTerm>
+
+externdef __imp_CpuResetFloatingPoint:PPROC
+CpuResetFloatingPoint equ <__imp_CpuResetFloatingPoint>
+
+externdef __imp_CpuResetToConsistentState:PPROC
+CpuResetToConsistentState equ <__imp_CpuResetToConsistentState>
+
+externdef __imp_CpuSetContext:PPROC
+CpuSetContext equ <__imp_CpuSetContext>
+
+externdef __imp_CpuSetInstructionPointer:PPROC
+CpuSetInstructionPointer equ <__imp_CpuSetInstructionPointer>
+
+externdef __imp_CpuSetStackPointer:PPROC
+CpuSetStackPointer equ <__imp_CpuSetStackPointer>
+
+externdef __imp_CpuSimulate:PPROC
+CpuSimulate equ <__imp_CpuSimulate>
+
+externdef __imp_CpuSuspendThread:PPROC
+CpuSuspendThread equ <__imp_CpuSuspendThread>
+
+externdef __imp_CpuThreadInit:PPROC
+CpuThreadInit equ <__imp_CpuThreadInit>
+
+externdef __imp_CpuThreadTerm:PPROC
+CpuThreadTerm equ <__imp_CpuThreadTerm>
+
+externdef __imp_TurboDispatchJumpAddressEnd:PPROC
+TurboDispatchJumpAddressEnd equ <__imp_TurboDispatchJumpAddressEnd>
+
+externdef __imp_TurboDispatchJumpAddressStart:PPROC
+TurboDispatchJumpAddressStart equ <__imp_TurboDispatchJumpAddressStart>

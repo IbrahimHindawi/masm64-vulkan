@@ -1,0 +1,77 @@
+externdef __imp_DsrGetDcNameEx2:PPROC
+DsrGetDcNameEx2 equ <__imp_DsrGetDcNameEx2>
+
+externdef __imp_I_DsGetDcCache:PPROC
+I_DsGetDcCache equ <__imp_I_DsGetDcCache>
+
+externdef __imp_I_NetLogonAddressToSiteName:PPROC
+I_NetLogonAddressToSiteName equ <__imp_I_NetLogonAddressToSiteName>
+
+externdef __imp_I_NetLogonAppendChangeLog:PPROC
+I_NetLogonAppendChangeLog equ <__imp_I_NetLogonAppendChangeLog>
+
+externdef __imp_I_NetLogonCloseChangeLog:PPROC
+I_NetLogonCloseChangeLog equ <__imp_I_NetLogonCloseChangeLog>
+
+externdef __imp_I_NetLogonFree:PPROC
+I_NetLogonFree equ <__imp_I_NetLogonFree>
+
+externdef __imp_I_NetLogonGetAuthDataEx:PPROC
+I_NetLogonGetAuthDataEx equ <__imp_I_NetLogonGetAuthDataEx>
+
+externdef __imp_I_NetLogonGetIpAddresses:PPROC
+I_NetLogonGetIpAddresses equ <__imp_I_NetLogonGetIpAddresses>
+
+externdef __imp_I_NetLogonGetSerialNumber:PPROC
+I_NetLogonGetSerialNumber equ <__imp_I_NetLogonGetSerialNumber>
+
+externdef __imp_I_NetLogonLdapLookupEx:PPROC
+I_NetLogonLdapLookupEx equ <__imp_I_NetLogonLdapLookupEx>
+
+externdef __imp_I_NetLogonMixedDomain:PPROC
+I_NetLogonMixedDomain equ <__imp_I_NetLogonMixedDomain>
+
+externdef __imp_I_NetLogonNewChangeLog:PPROC
+I_NetLogonNewChangeLog equ <__imp_I_NetLogonNewChangeLog>
+
+externdef __imp_I_NetLogonReadChangeLog:PPROC
+I_NetLogonReadChangeLog equ <__imp_I_NetLogonReadChangeLog>
+
+externdef __imp_I_NetLogonSendToSamOnPdc:PPROC
+I_NetLogonSendToSamOnPdc equ <__imp_I_NetLogonSendToSamOnPdc>
+
+externdef __imp_I_NetLogonSetServiceBits:PPROC
+I_NetLogonSetServiceBits equ <__imp_I_NetLogonSetServiceBits>
+
+externdef __imp_I_NetNotifyDelta:PPROC
+I_NetNotifyDelta equ <__imp_I_NetNotifyDelta>
+
+externdef __imp_I_NetNotifyDsChange:PPROC
+I_NetNotifyDsChange equ <__imp_I_NetNotifyDsChange>
+
+externdef __imp_I_NetNotifyMachineAccount:PPROC
+I_NetNotifyMachineAccount equ <__imp_I_NetNotifyMachineAccount>
+
+externdef __imp_I_NetNotifyNetlogonDllHandle:PPROC
+I_NetNotifyNetlogonDllHandle equ <__imp_I_NetNotifyNetlogonDllHandle>
+
+externdef __imp_I_NetNotifyNtdsDsaDeletion:PPROC
+I_NetNotifyNtdsDsaDeletion equ <__imp_I_NetNotifyNtdsDsaDeletion>
+
+externdef __imp_I_NetNotifyRole:PPROC
+I_NetNotifyRole equ <__imp_I_NetNotifyRole>
+
+externdef __imp_I_NetNotifyTrustedDomain:PPROC
+I_NetNotifyTrustedDomain equ <__imp_I_NetNotifyTrustedDomain>
+
+externdef __imp_InitSecurityInterfaceW:PPROC
+InitSecurityInterfaceW equ <__imp_InitSecurityInterfaceW>
+  IFDEF __UNICODE__
+    InitSecurityInterface equ <__imp_InitSecurityInterfaceW>
+  ENDIF
+
+externdef __imp_NetILogonSamLogon:PPROC
+NetILogonSamLogon equ <__imp_NetILogonSamLogon>
+
+externdef __imp_NlNetlogonMain:PPROC
+NlNetlogonMain equ <__imp_NlNetlogonMain>

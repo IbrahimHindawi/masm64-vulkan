@@ -1,0 +1,395 @@
+externdef __imp_LogonIdFromWinStationNameA:PPROC
+LogonIdFromWinStationNameA equ <__imp_LogonIdFromWinStationNameA>
+  IFNDEF __UNICODE__
+    LogonIdFromWinStationName equ <__imp_LogonIdFromWinStationNameA>
+  ENDIF
+
+externdef __imp_LogonIdFromWinStationNameW:PPROC
+LogonIdFromWinStationNameW equ <__imp_LogonIdFromWinStationNameW>
+  IFDEF __UNICODE__
+    LogonIdFromWinStationName equ <__imp_LogonIdFromWinStationNameW>
+  ENDIF
+
+externdef __imp_RemoteAssistancePrepareSystemRestore:PPROC
+RemoteAssistancePrepareSystemRestore equ <__imp_RemoteAssistancePrepareSystemRestore>
+
+externdef __imp_ServerGetInternetConnectorStatus:PPROC
+ServerGetInternetConnectorStatus equ <__imp_ServerGetInternetConnectorStatus>
+
+externdef __imp_ServerLicensingClose:PPROC
+ServerLicensingClose equ <__imp_ServerLicensingClose>
+
+externdef __imp_ServerLicensingDeactivateCurrentPolicy:PPROC
+ServerLicensingDeactivateCurrentPolicy equ <__imp_ServerLicensingDeactivateCurrentPolicy>
+
+externdef __imp_ServerLicensingFreePolicyInformation:PPROC
+ServerLicensingFreePolicyInformation equ <__imp_ServerLicensingFreePolicyInformation>
+
+externdef __imp_ServerLicensingGetAvailablePolicyIds:PPROC
+ServerLicensingGetAvailablePolicyIds equ <__imp_ServerLicensingGetAvailablePolicyIds>
+
+externdef __imp_ServerLicensingGetPolicy:PPROC
+ServerLicensingGetPolicy equ <__imp_ServerLicensingGetPolicy>
+
+externdef __imp_ServerLicensingGetPolicyInformationA:PPROC
+ServerLicensingGetPolicyInformationA equ <__imp_ServerLicensingGetPolicyInformationA>
+  IFNDEF __UNICODE__
+    ServerLicensingGetPolicyInformation equ <__imp_ServerLicensingGetPolicyInformationA>
+  ENDIF
+
+externdef __imp_ServerLicensingGetPolicyInformationW:PPROC
+ServerLicensingGetPolicyInformationW equ <__imp_ServerLicensingGetPolicyInformationW>
+  IFDEF __UNICODE__
+    ServerLicensingGetPolicyInformation equ <__imp_ServerLicensingGetPolicyInformationW>
+  ENDIF
+
+externdef __imp_ServerLicensingLoadPolicy:PPROC
+ServerLicensingLoadPolicy equ <__imp_ServerLicensingLoadPolicy>
+
+externdef __imp_ServerLicensingOpenA:PPROC
+ServerLicensingOpenA equ <__imp_ServerLicensingOpenA>
+  IFNDEF __UNICODE__
+    ServerLicensingOpen equ <__imp_ServerLicensingOpenA>
+  ENDIF
+
+externdef __imp_ServerLicensingOpenW:PPROC
+ServerLicensingOpenW equ <__imp_ServerLicensingOpenW>
+  IFDEF __UNICODE__
+    ServerLicensingOpen equ <__imp_ServerLicensingOpenW>
+  ENDIF
+
+externdef __imp_ServerLicensingSetPolicy:PPROC
+ServerLicensingSetPolicy equ <__imp_ServerLicensingSetPolicy>
+
+externdef __imp_ServerLicensingUnloadPolicy:PPROC
+ServerLicensingUnloadPolicy equ <__imp_ServerLicensingUnloadPolicy>
+
+externdef __imp_ServerQueryInetConnectorInformationA:PPROC
+ServerQueryInetConnectorInformationA equ <__imp_ServerQueryInetConnectorInformationA>
+  IFNDEF __UNICODE__
+    ServerQueryInetConnectorInformation equ <__imp_ServerQueryInetConnectorInformationA>
+  ENDIF
+
+externdef __imp_ServerQueryInetConnectorInformationW:PPROC
+ServerQueryInetConnectorInformationW equ <__imp_ServerQueryInetConnectorInformationW>
+  IFDEF __UNICODE__
+    ServerQueryInetConnectorInformation equ <__imp_ServerQueryInetConnectorInformationW>
+  ENDIF
+
+externdef __imp_ServerSetInternetConnectorStatus:PPROC
+ServerSetInternetConnectorStatus equ <__imp_ServerSetInternetConnectorStatus>
+
+externdef __imp_WinStationActivateLicense:PPROC
+WinStationActivateLicense equ <__imp_WinStationActivateLicense>
+
+externdef __imp_WinStationAutoReconnect:PPROC
+WinStationAutoReconnect equ <__imp_WinStationAutoReconnect>
+
+externdef __imp_WinStationBroadcastSystemMessage:PPROC
+WinStationBroadcastSystemMessage equ <__imp_WinStationBroadcastSystemMessage>
+
+externdef __imp_WinStationCanLogonProceed:PPROC
+WinStationCanLogonProceed equ <__imp_WinStationCanLogonProceed>
+
+externdef __imp_WinStationCheckAccess:PPROC
+WinStationCheckAccess equ <__imp_WinStationCheckAccess>
+
+externdef __imp_WinStationCheckLoopBack:PPROC
+WinStationCheckLoopBack equ <__imp_WinStationCheckLoopBack>
+
+externdef __imp_WinStationCloseServer:PPROC
+WinStationCloseServer equ <__imp_WinStationCloseServer>
+
+externdef __imp_WinStationConnectA:PPROC
+WinStationConnectA equ <__imp_WinStationConnectA>
+  IFNDEF __UNICODE__
+    WinStationConnect equ <__imp_WinStationConnectA>
+  ENDIF
+
+externdef __imp_WinStationConnectCallback:PPROC
+WinStationConnectCallback equ <__imp_WinStationConnectCallback>
+
+externdef __imp_WinStationConnectW:PPROC
+WinStationConnectW equ <__imp_WinStationConnectW>
+  IFDEF __UNICODE__
+    WinStationConnect equ <__imp_WinStationConnectW>
+  ENDIF
+
+externdef __imp_WinStationDisconnect:PPROC
+WinStationDisconnect equ <__imp_WinStationDisconnect>
+
+externdef __imp_WinStationEnumerateA:PPROC
+WinStationEnumerateA equ <__imp_WinStationEnumerateA>
+  IFNDEF __UNICODE__
+    WinStationEnumerate equ <__imp_WinStationEnumerateA>
+  ENDIF
+
+externdef __imp_WinStationEnumerateLicenses:PPROC
+WinStationEnumerateLicenses equ <__imp_WinStationEnumerateLicenses>
+
+externdef __imp_WinStationEnumerateProcesses:PPROC
+WinStationEnumerateProcesses equ <__imp_WinStationEnumerateProcesses>
+
+externdef __imp_WinStationEnumerateW:PPROC
+WinStationEnumerateW equ <__imp_WinStationEnumerateW>
+  IFDEF __UNICODE__
+    WinStationEnumerate equ <__imp_WinStationEnumerateW>
+  ENDIF
+
+externdef __imp_WinStationEnumerate_IndexedA:PPROC
+WinStationEnumerate_IndexedA equ <__imp_WinStationEnumerate_IndexedA>
+  IFNDEF __UNICODE__
+    WinStationEnumerate_Indexed equ <__imp_WinStationEnumerate_IndexedA>
+  ENDIF
+
+externdef __imp_WinStationEnumerate_IndexedW:PPROC
+WinStationEnumerate_IndexedW equ <__imp_WinStationEnumerate_IndexedW>
+  IFDEF __UNICODE__
+    WinStationEnumerate_Indexed equ <__imp_WinStationEnumerate_IndexedW>
+  ENDIF
+
+externdef __imp_WinStationFreeGAPMemory:PPROC
+WinStationFreeGAPMemory equ <__imp_WinStationFreeGAPMemory>
+
+externdef __imp_WinStationFreeMemory:PPROC
+WinStationFreeMemory equ <__imp_WinStationFreeMemory>
+
+externdef __imp_WinStationGenerateLicense:PPROC
+WinStationGenerateLicense equ <__imp_WinStationGenerateLicense>
+
+externdef __imp_WinStationGetAllProcesses:PPROC
+WinStationGetAllProcesses equ <__imp_WinStationGetAllProcesses>
+
+externdef __imp_WinStationGetLanAdapterNameA:PPROC
+WinStationGetLanAdapterNameA equ <__imp_WinStationGetLanAdapterNameA>
+  IFNDEF __UNICODE__
+    WinStationGetLanAdapterName equ <__imp_WinStationGetLanAdapterNameA>
+  ENDIF
+
+externdef __imp_WinStationGetLanAdapterNameW:PPROC
+WinStationGetLanAdapterNameW equ <__imp_WinStationGetLanAdapterNameW>
+  IFDEF __UNICODE__
+    WinStationGetLanAdapterName equ <__imp_WinStationGetLanAdapterNameW>
+  ENDIF
+
+externdef __imp_WinStationGetMachinePolicy:PPROC
+WinStationGetMachinePolicy equ <__imp_WinStationGetMachinePolicy>
+
+externdef __imp_WinStationGetProcessSid:PPROC
+WinStationGetProcessSid equ <__imp_WinStationGetProcessSid>
+
+externdef __imp_WinStationGetTermSrvCountersValue:PPROC
+WinStationGetTermSrvCountersValue equ <__imp_WinStationGetTermSrvCountersValue>
+
+externdef __imp_WinStationInstallLicense:PPROC
+WinStationInstallLicense equ <__imp_WinStationInstallLicense>
+
+externdef __imp_WinStationIsHelpAssistantSession:PPROC
+WinStationIsHelpAssistantSession equ <__imp_WinStationIsHelpAssistantSession>
+
+externdef __imp_WinStationNameFromLogonIdA:PPROC
+WinStationNameFromLogonIdA equ <__imp_WinStationNameFromLogonIdA>
+  IFNDEF __UNICODE__
+    WinStationNameFromLogonId equ <__imp_WinStationNameFromLogonIdA>
+  ENDIF
+
+externdef __imp_WinStationNameFromLogonIdW:PPROC
+WinStationNameFromLogonIdW equ <__imp_WinStationNameFromLogonIdW>
+  IFDEF __UNICODE__
+    WinStationNameFromLogonId equ <__imp_WinStationNameFromLogonIdW>
+  ENDIF
+
+externdef __imp_WinStationNtsdDebug:PPROC
+WinStationNtsdDebug equ <__imp_WinStationNtsdDebug>
+
+externdef __imp_WinStationOpenServerA:PPROC
+WinStationOpenServerA equ <__imp_WinStationOpenServerA>
+  IFNDEF __UNICODE__
+    WinStationOpenServer equ <__imp_WinStationOpenServerA>
+  ENDIF
+
+externdef __imp_WinStationOpenServerW:PPROC
+WinStationOpenServerW equ <__imp_WinStationOpenServerW>
+  IFDEF __UNICODE__
+    WinStationOpenServer equ <__imp_WinStationOpenServerW>
+  ENDIF
+
+externdef __imp_WinStationQueryInformationA:PPROC
+WinStationQueryInformationA equ <__imp_WinStationQueryInformationA>
+  IFNDEF __UNICODE__
+    WinStationQueryInformation equ <__imp_WinStationQueryInformationA>
+  ENDIF
+
+externdef __imp_WinStationQueryInformationW:PPROC
+WinStationQueryInformationW equ <__imp_WinStationQueryInformationW>
+  IFDEF __UNICODE__
+    WinStationQueryInformation equ <__imp_WinStationQueryInformationW>
+  ENDIF
+
+externdef __imp_WinStationQueryLicense:PPROC
+WinStationQueryLicense equ <__imp_WinStationQueryLicense>
+
+externdef __imp_WinStationQueryLogonCredentialsW:PPROC
+WinStationQueryLogonCredentialsW equ <__imp_WinStationQueryLogonCredentialsW>
+  IFDEF __UNICODE__
+    WinStationQueryLogonCredentials equ <__imp_WinStationQueryLogonCredentialsW>
+  ENDIF
+
+externdef __imp_WinStationQueryUpdateRequired:PPROC
+WinStationQueryUpdateRequired equ <__imp_WinStationQueryUpdateRequired>
+
+externdef __imp_WinStationRedirectErrorMessage:PPROC
+WinStationRedirectErrorMessage equ <__imp_WinStationRedirectErrorMessage>
+
+externdef __imp_WinStationRegisterConsoleNotification:PPROC
+WinStationRegisterConsoleNotification equ <__imp_WinStationRegisterConsoleNotification>
+
+externdef __imp_WinStationRegisterConsoleNotificationEx:PPROC
+WinStationRegisterConsoleNotificationEx equ <__imp_WinStationRegisterConsoleNotificationEx>
+
+externdef __imp_WinStationRegisterNotificationEvent:PPROC
+WinStationRegisterNotificationEvent equ <__imp_WinStationRegisterNotificationEvent>
+
+externdef __imp_WinStationRemoveLicense:PPROC
+WinStationRemoveLicense equ <__imp_WinStationRemoveLicense>
+
+externdef __imp_WinStationRenameA:PPROC
+WinStationRenameA equ <__imp_WinStationRenameA>
+  IFNDEF __UNICODE__
+    WinStationRename equ <__imp_WinStationRenameA>
+  ENDIF
+
+externdef __imp_WinStationRenameW:PPROC
+WinStationRenameW equ <__imp_WinStationRenameW>
+  IFDEF __UNICODE__
+    WinStationRename equ <__imp_WinStationRenameW>
+  ENDIF
+
+externdef __imp_WinStationReset:PPROC
+WinStationReset equ <__imp_WinStationReset>
+
+externdef __imp_WinStationSendMessageA:PPROC
+WinStationSendMessageA equ <__imp_WinStationSendMessageA>
+  IFNDEF __UNICODE__
+    WinStationSendMessage equ <__imp_WinStationSendMessageA>
+  ENDIF
+
+externdef __imp_WinStationSendMessageW:PPROC
+WinStationSendMessageW equ <__imp_WinStationSendMessageW>
+  IFDEF __UNICODE__
+    WinStationSendMessage equ <__imp_WinStationSendMessageW>
+  ENDIF
+
+externdef __imp_WinStationSendWindowMessage:PPROC
+WinStationSendWindowMessage equ <__imp_WinStationSendWindowMessage>
+
+externdef __imp_WinStationServerPing:PPROC
+WinStationServerPing equ <__imp_WinStationServerPing>
+
+externdef __imp_WinStationSetInformationA:PPROC
+WinStationSetInformationA equ <__imp_WinStationSetInformationA>
+  IFNDEF __UNICODE__
+    WinStationSetInformation equ <__imp_WinStationSetInformationA>
+  ENDIF
+
+externdef __imp_WinStationSetInformationW:PPROC
+WinStationSetInformationW equ <__imp_WinStationSetInformationW>
+  IFDEF __UNICODE__
+    WinStationSetInformation equ <__imp_WinStationSetInformationW>
+  ENDIF
+
+externdef __imp_WinStationSetPoolCount:PPROC
+WinStationSetPoolCount equ <__imp_WinStationSetPoolCount>
+
+externdef __imp_WinStationShadow:PPROC
+WinStationShadow equ <__imp_WinStationShadow>
+
+externdef __imp_WinStationShadowStop:PPROC
+WinStationShadowStop equ <__imp_WinStationShadowStop>
+
+externdef __imp_WinStationShutdownSystem:PPROC
+WinStationShutdownSystem equ <__imp_WinStationShutdownSystem>
+
+externdef __imp_WinStationTerminateProcess:PPROC
+WinStationTerminateProcess equ <__imp_WinStationTerminateProcess>
+
+externdef __imp_WinStationUnRegisterConsoleNotification:PPROC
+WinStationUnRegisterConsoleNotification equ <__imp_WinStationUnRegisterConsoleNotification>
+
+externdef __imp_WinStationUnRegisterNotificationEvent:PPROC
+WinStationUnRegisterNotificationEvent equ <__imp_WinStationUnRegisterNotificationEvent>
+
+externdef __imp_WinStationVirtualOpen:PPROC
+WinStationVirtualOpen equ <__imp_WinStationVirtualOpen>
+
+externdef __imp_WinStationWaitSystemEvent:PPROC
+WinStationWaitSystemEvent equ <__imp_WinStationWaitSystemEvent>
+
+externdef __imp__NWLogonQueryAdmin:PPROC
+_NWLogonQueryAdmin equ <__imp__NWLogonQueryAdmin>
+
+externdef __imp__NWLogonSetAdmin:PPROC
+_NWLogonSetAdmin equ <__imp__NWLogonSetAdmin>
+
+externdef __imp__WinStationAnnoyancePopup:PPROC
+_WinStationAnnoyancePopup equ <__imp__WinStationAnnoyancePopup>
+
+externdef __imp__WinStationBeepOpen:PPROC
+_WinStationBeepOpen equ <__imp__WinStationBeepOpen>
+
+externdef __imp__WinStationBreakPoint:PPROC
+_WinStationBreakPoint equ <__imp__WinStationBreakPoint>
+
+externdef __imp__WinStationCallback:PPROC
+_WinStationCallback equ <__imp__WinStationCallback>
+
+externdef __imp__WinStationCheckForApplicationName:PPROC
+_WinStationCheckForApplicationName equ <__imp__WinStationCheckForApplicationName>
+
+externdef __imp__WinStationFUSCanRemoteUserDisconnect:PPROC
+_WinStationFUSCanRemoteUserDisconnect equ <__imp__WinStationFUSCanRemoteUserDisconnect>
+
+externdef __imp__WinStationGetApplicationInfo:PPROC
+_WinStationGetApplicationInfo equ <__imp__WinStationGetApplicationInfo>
+
+externdef __imp__WinStationNotifyDisconnectPipe:PPROC
+_WinStationNotifyDisconnectPipe equ <__imp__WinStationNotifyDisconnectPipe>
+
+externdef __imp__WinStationNotifyLogoff:PPROC
+_WinStationNotifyLogoff equ <__imp__WinStationNotifyLogoff>
+
+externdef __imp__WinStationNotifyLogon:PPROC
+_WinStationNotifyLogon equ <__imp__WinStationNotifyLogon>
+
+externdef __imp__WinStationNotifyNewSession:PPROC
+_WinStationNotifyNewSession equ <__imp__WinStationNotifyNewSession>
+
+externdef __imp__WinStationOpenSessionDirectory:PPROC
+_WinStationOpenSessionDirectory equ <__imp__WinStationOpenSessionDirectory>
+
+externdef __imp__WinStationReInitializeSecurity:PPROC
+_WinStationReInitializeSecurity equ <__imp__WinStationReInitializeSecurity>
+
+externdef __imp__WinStationReadRegistry:PPROC
+_WinStationReadRegistry equ <__imp__WinStationReadRegistry>
+
+externdef __imp__WinStationSessionInitialized:PPROC
+_WinStationSessionInitialized equ <__imp__WinStationSessionInitialized>
+
+externdef __imp__WinStationShadowTarget:PPROC
+_WinStationShadowTarget equ <__imp__WinStationShadowTarget>
+
+externdef __imp__WinStationShadowTargetSetup:PPROC
+_WinStationShadowTargetSetup equ <__imp__WinStationShadowTargetSetup>
+
+externdef __imp__WinStationUpdateClientCachedCredentials:PPROC
+_WinStationUpdateClientCachedCredentials equ <__imp__WinStationUpdateClientCachedCredentials>
+
+externdef __imp__WinStationUpdateSettings:PPROC
+_WinStationUpdateSettings equ <__imp__WinStationUpdateSettings>
+
+externdef __imp__WinStationUpdateUserConfig:PPROC
+_WinStationUpdateUserConfig equ <__imp__WinStationUpdateUserConfig>
+
+externdef __imp__WinStationWaitForConnect:PPROC
+_WinStationWaitForConnect equ <__imp__WinStationWaitForConnect>

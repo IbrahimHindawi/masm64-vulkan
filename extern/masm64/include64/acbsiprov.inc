@@ -1,0 +1,173 @@
+externdef __imp_ACSIClearCache:PPROC
+ACSIClearCache equ <__imp_ACSIClearCache>
+
+externdef __imp_ACSIPKICreate:PPROC
+ACSIPKICreate equ <__imp_ACSIPKICreate>
+
+externdef __imp_ACSIPKIDecryption:PPROC
+ACSIPKIDecryption equ <__imp_ACSIPKIDecryption>
+
+externdef __imp_ACSIPKIDelete:PPROC
+ACSIPKIDelete equ <__imp_ACSIPKIDelete>
+
+externdef __imp_ACSIPKIGenerateKey:PPROC
+ACSIPKIGenerateKey equ <__imp_ACSIPKIGenerateKey>
+
+externdef __imp_ACSIPKIGetList:PPROC
+ACSIPKIGetList equ <__imp_ACSIPKIGetList>
+
+externdef __imp_ACSIPKIReadAttribute:PPROC
+ACSIPKIReadAttribute equ <__imp_ACSIPKIReadAttribute>
+
+externdef __imp_ACSIPKISetDefaultCertificate:PPROC
+ACSIPKISetDefaultCertificate equ <__imp_ACSIPKISetDefaultCertificate>
+
+externdef __imp_ACSIPKISignature:PPROC
+ACSIPKISignature equ <__imp_ACSIPKISignature>
+
+externdef __imp_ACSIPKIUpdateAttribute:PPROC
+ACSIPKIUpdateAttribute equ <__imp_ACSIPKIUpdateAttribute>
+
+externdef __imp_ACSISKICreate:PPROC
+ACSISKICreate equ <__imp_ACSISKICreate>
+
+externdef __imp_ACSISKIDelete:PPROC
+ACSISKIDelete equ <__imp_ACSISKIDelete>
+
+externdef __imp_ACSISKIGetAuthCode:PPROC
+ACSISKIGetAuthCode equ <__imp_ACSISKIGetAuthCode>
+
+externdef __imp_ACSISKIGetClock:PPROC
+ACSISKIGetClock equ <__imp_ACSISKIGetClock>
+
+externdef __imp_ACSISKIGetList:PPROC
+ACSISKIGetList equ <__imp_ACSISKIGetList>
+
+externdef __imp_ACSISKIReadAttribute:PPROC
+ACSISKIReadAttribute equ <__imp_ACSISKIReadAttribute>
+
+externdef __imp_ACSISKIUpdateAttribute:PPROC
+ACSISKIUpdateAttribute equ <__imp_ACSISKIUpdateAttribute>
+
+externdef __imp_ACSISTATICDataCreate:PPROC
+ACSISTATICDataCreate equ <__imp_ACSISTATICDataCreate>
+
+externdef __imp_ACSISTATICDataDelete:PPROC
+ACSISTATICDataDelete equ <__imp_ACSISTATICDataDelete>
+
+externdef __imp_ACSISTATICDataRead:PPROC
+ACSISTATICDataRead equ <__imp_ACSISTATICDataRead>
+
+externdef __imp_ACSISTATICDataUpdate:PPROC
+ACSISTATICDataUpdate equ <__imp_ACSISTATICDataUpdate>
+
+externdef __imp_ACSISTATICGetCredentialType:PPROC
+ACSISTATICGetCredentialType equ <__imp_ACSISTATICGetCredentialType>
+
+externdef __imp_ACSISTATICGetList:PPROC
+ACSISTATICGetList equ <__imp_ACSISTATICGetList>
+
+externdef __imp_AC_XSI_GetBuffer:PPROC
+AC_XSI_GetBuffer equ <__imp_AC_XSI_GetBuffer>
+
+externdef __imp_AC_XSI_GetCertificate:PPROC
+AC_XSI_GetCertificate equ <__imp_AC_XSI_GetCertificate>
+
+externdef __imp_AC_XSI_GetProperties:PPROC
+AC_XSI_GetProperties equ <__imp_AC_XSI_GetProperties>
+
+externdef __imp_AC_XSI_SetBuffer:PPROC
+AC_XSI_SetBuffer equ <__imp_AC_XSI_SetBuffer>
+
+externdef __imp_AC_XSI_UtilChangePIN:PPROC
+AC_XSI_UtilChangePIN equ <__imp_AC_XSI_UtilChangePIN>
+
+externdef __imp_AC_XSI_UtilConnect:PPROC
+AC_XSI_UtilConnect equ <__imp_AC_XSI_UtilConnect>
+
+externdef __imp_AC_XSI_UtilDisconnect:PPROC
+AC_XSI_UtilDisconnect equ <__imp_AC_XSI_UtilDisconnect>
+
+externdef __imp_AC_XSI_UtilGetCardATR:PPROC
+AC_XSI_UtilGetCardATR equ <__imp_AC_XSI_UtilGetCardATR>
+
+externdef __imp_AC_XSI_UtilGetCardStatus:PPROC
+AC_XSI_UtilGetCardStatus equ <__imp_AC_XSI_UtilGetCardStatus>
+
+externdef __imp_AC_XSI_UtilGetCuid:PPROC
+AC_XSI_UtilGetCuid equ <__imp_AC_XSI_UtilGetCuid>
+
+externdef __imp_AC_XSI_UtilGetReaderList:PPROC
+AC_XSI_UtilGetReaderList equ <__imp_AC_XSI_UtilGetReaderList>
+
+externdef __imp_AC_XSI_UtilIsPINVerified:PPROC
+AC_XSI_UtilIsPINVerified equ <__imp_AC_XSI_UtilIsPINVerified>
+
+externdef __imp_AC_XSI_UtilLogin:PPROC
+AC_XSI_UtilLogin equ <__imp_AC_XSI_UtilLogin>
+
+externdef __imp_AC_XSI_UtilLogout:PPROC
+AC_XSI_UtilLogout equ <__imp_AC_XSI_UtilLogout>
+
+externdef __imp_gscBsiGcDataCreate:PPROC
+gscBsiGcDataCreate equ <__imp_gscBsiGcDataCreate>
+
+externdef __imp_gscBsiGcDataDelete:PPROC
+gscBsiGcDataDelete equ <__imp_gscBsiGcDataDelete>
+
+externdef __imp_gscBsiGcGetContainerProperties:PPROC
+gscBsiGcGetContainerProperties equ <__imp_gscBsiGcGetContainerProperties>
+
+externdef __imp_gscBsiGcReadTagList:PPROC
+gscBsiGcReadTagList equ <__imp_gscBsiGcReadTagList>
+
+externdef __imp_gscBsiGcReadValue:PPROC
+gscBsiGcReadValue equ <__imp_gscBsiGcReadValue>
+
+externdef __imp_gscBsiGcUpdateValue:PPROC
+gscBsiGcUpdateValue equ <__imp_gscBsiGcUpdateValue>
+
+externdef __imp_gscBsiGetChallenge:PPROC
+gscBsiGetChallenge equ <__imp_gscBsiGetChallenge>
+
+externdef __imp_gscBsiGetCryptoProperties:PPROC
+gscBsiGetCryptoProperties equ <__imp_gscBsiGetCryptoProperties>
+
+externdef __imp_gscBsiPkiCompute:PPROC
+gscBsiPkiCompute equ <__imp_gscBsiPkiCompute>
+
+externdef __imp_gscBsiPkiReadCertificate:PPROC
+gscBsiPkiReadCertificate equ <__imp_gscBsiPkiReadCertificate>
+
+externdef __imp_gscBsiSkiInternalAuthenticate:PPROC
+gscBsiSkiInternalAuthenticate equ <__imp_gscBsiSkiInternalAuthenticate>
+
+externdef __imp_gscBsiUtilAcquireContext:PPROC
+gscBsiUtilAcquireContext equ <__imp_gscBsiUtilAcquireContext>
+
+externdef __imp_gscBsiUtilBeginTransaction:PPROC
+gscBsiUtilBeginTransaction equ <__imp_gscBsiUtilBeginTransaction>
+
+externdef __imp_gscBsiUtilConnect:PPROC
+gscBsiUtilConnect equ <__imp_gscBsiUtilConnect>
+
+externdef __imp_gscBsiUtilDisconnect:PPROC
+gscBsiUtilDisconnect equ <__imp_gscBsiUtilDisconnect>
+
+externdef __imp_gscBsiUtilEndTransaction:PPROC
+gscBsiUtilEndTransaction equ <__imp_gscBsiUtilEndTransaction>
+
+externdef __imp_gscBsiUtilGetASPCOMhandle:PPROC
+gscBsiUtilGetASPCOMhandle equ <__imp_gscBsiUtilGetASPCOMhandle>
+
+externdef __imp_gscBsiUtilGetCardProperties:PPROC
+gscBsiUtilGetCardProperties equ <__imp_gscBsiUtilGetCardProperties>
+
+externdef __imp_gscBsiUtilGetVersion:PPROC
+gscBsiUtilGetVersion equ <__imp_gscBsiUtilGetVersion>
+
+externdef __imp_gscBsiUtilPassthru:PPROC
+gscBsiUtilPassthru equ <__imp_gscBsiUtilPassthru>
+
+externdef __imp_gscBsiUtilReleaseContext:PPROC
+gscBsiUtilReleaseContext equ <__imp_gscBsiUtilReleaseContext>

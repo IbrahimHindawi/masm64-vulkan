@@ -1,0 +1,2 @@
+externdef __imp_AgereSoftModemCoInstaller:PPROC
+AgereSoftModemCoInstaller equ <__imp_AgereSoftModemCoInstaller>

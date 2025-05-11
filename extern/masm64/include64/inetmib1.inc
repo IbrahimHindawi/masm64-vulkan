@@ -1,0 +1,11 @@
+externdef __imp_SnmpExtensionInit:PPROC
+SnmpExtensionInit equ <__imp_SnmpExtensionInit>
+
+externdef __imp_SnmpExtensionInitEx:PPROC
+SnmpExtensionInitEx equ <__imp_SnmpExtensionInitEx>
+
+externdef __imp_SnmpExtensionQuery:PPROC
+SnmpExtensionQuery equ <__imp_SnmpExtensionQuery>
+
+externdef __imp_SnmpExtensionTrap:PPROC
+SnmpExtensionTrap equ <__imp_SnmpExtensionTrap>

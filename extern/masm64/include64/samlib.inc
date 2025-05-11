@@ -1,0 +1,194 @@
+externdef __imp_SamAddMemberToAlias:PPROC
+SamAddMemberToAlias equ <__imp_SamAddMemberToAlias>
+
+externdef __imp_SamAddMemberToGroup:PPROC
+SamAddMemberToGroup equ <__imp_SamAddMemberToGroup>
+
+externdef __imp_SamAddMultipleMembersToAlias:PPROC
+SamAddMultipleMembersToAlias equ <__imp_SamAddMultipleMembersToAlias>
+
+externdef __imp_SamChangePasswordUser2:PPROC
+SamChangePasswordUser2 equ <__imp_SamChangePasswordUser2>
+
+externdef __imp_SamChangePasswordUser3:PPROC
+SamChangePasswordUser3 equ <__imp_SamChangePasswordUser3>
+
+externdef __imp_SamChangePasswordUser:PPROC
+SamChangePasswordUser equ <__imp_SamChangePasswordUser>
+
+externdef __imp_SamCloseHandle:PPROC
+SamCloseHandle equ <__imp_SamCloseHandle>
+
+externdef __imp_SamConnect:PPROC
+SamConnect equ <__imp_SamConnect>
+
+externdef __imp_SamConnectWithCreds:PPROC
+SamConnectWithCreds equ <__imp_SamConnectWithCreds>
+
+externdef __imp_SamCreateAliasInDomain:PPROC
+SamCreateAliasInDomain equ <__imp_SamCreateAliasInDomain>
+
+externdef __imp_SamCreateGroupInDomain:PPROC
+SamCreateGroupInDomain equ <__imp_SamCreateGroupInDomain>
+
+externdef __imp_SamCreateUser2InDomain:PPROC
+SamCreateUser2InDomain equ <__imp_SamCreateUser2InDomain>
+
+externdef __imp_SamCreateUserInDomain:PPROC
+SamCreateUserInDomain equ <__imp_SamCreateUserInDomain>
+
+externdef __imp_SamDeleteAlias:PPROC
+SamDeleteAlias equ <__imp_SamDeleteAlias>
+
+externdef __imp_SamDeleteGroup:PPROC
+SamDeleteGroup equ <__imp_SamDeleteGroup>
+
+externdef __imp_SamDeleteUser:PPROC
+SamDeleteUser equ <__imp_SamDeleteUser>
+
+externdef __imp_SamEnumerateAliasesInDomain:PPROC
+SamEnumerateAliasesInDomain equ <__imp_SamEnumerateAliasesInDomain>
+
+externdef __imp_SamEnumerateDomainsInSamServer:PPROC
+SamEnumerateDomainsInSamServer equ <__imp_SamEnumerateDomainsInSamServer>
+
+externdef __imp_SamEnumerateGroupsInDomain:PPROC
+SamEnumerateGroupsInDomain equ <__imp_SamEnumerateGroupsInDomain>
+
+externdef __imp_SamEnumerateUsersInDomain:PPROC
+SamEnumerateUsersInDomain equ <__imp_SamEnumerateUsersInDomain>
+
+externdef __imp_SamFreeMemory:PPROC
+SamFreeMemory equ <__imp_SamFreeMemory>
+
+externdef __imp_SamGetAliasMembership:PPROC
+SamGetAliasMembership equ <__imp_SamGetAliasMembership>
+
+externdef __imp_SamGetCompatibilityMode:PPROC
+SamGetCompatibilityMode equ <__imp_SamGetCompatibilityMode>
+
+externdef __imp_SamGetDisplayEnumerationIndex:PPROC
+SamGetDisplayEnumerationIndex equ <__imp_SamGetDisplayEnumerationIndex>
+
+externdef __imp_SamGetGroupsForUser:PPROC
+SamGetGroupsForUser equ <__imp_SamGetGroupsForUser>
+
+externdef __imp_SamGetMembersInAlias:PPROC
+SamGetMembersInAlias equ <__imp_SamGetMembersInAlias>
+
+externdef __imp_SamGetMembersInGroup:PPROC
+SamGetMembersInGroup equ <__imp_SamGetMembersInGroup>
+
+externdef __imp_SamLookupDomainInSamServer:PPROC
+SamLookupDomainInSamServer equ <__imp_SamLookupDomainInSamServer>
+
+externdef __imp_SamLookupIdsInDomain:PPROC
+SamLookupIdsInDomain equ <__imp_SamLookupIdsInDomain>
+
+externdef __imp_SamLookupNamesInDomain:PPROC
+SamLookupNamesInDomain equ <__imp_SamLookupNamesInDomain>
+
+externdef __imp_SamOpenAlias:PPROC
+SamOpenAlias equ <__imp_SamOpenAlias>
+
+externdef __imp_SamOpenDomain:PPROC
+SamOpenDomain equ <__imp_SamOpenDomain>
+
+externdef __imp_SamOpenGroup:PPROC
+SamOpenGroup equ <__imp_SamOpenGroup>
+
+externdef __imp_SamOpenUser:PPROC
+SamOpenUser equ <__imp_SamOpenUser>
+
+externdef __imp_SamQueryDisplayInformation:PPROC
+SamQueryDisplayInformation equ <__imp_SamQueryDisplayInformation>
+
+externdef __imp_SamQueryInformationAlias:PPROC
+SamQueryInformationAlias equ <__imp_SamQueryInformationAlias>
+
+externdef __imp_SamQueryInformationDomain:PPROC
+SamQueryInformationDomain equ <__imp_SamQueryInformationDomain>
+
+externdef __imp_SamQueryInformationGroup:PPROC
+SamQueryInformationGroup equ <__imp_SamQueryInformationGroup>
+
+externdef __imp_SamQueryInformationUser:PPROC
+SamQueryInformationUser equ <__imp_SamQueryInformationUser>
+
+externdef __imp_SamQuerySecurityObject:PPROC
+SamQuerySecurityObject equ <__imp_SamQuerySecurityObject>
+
+externdef __imp_SamRemoveMemberFromAlias:PPROC
+SamRemoveMemberFromAlias equ <__imp_SamRemoveMemberFromAlias>
+
+externdef __imp_SamRemoveMemberFromForeignDomain:PPROC
+SamRemoveMemberFromForeignDomain equ <__imp_SamRemoveMemberFromForeignDomain>
+
+externdef __imp_SamRemoveMemberFromGroup:PPROC
+SamRemoveMemberFromGroup equ <__imp_SamRemoveMemberFromGroup>
+
+externdef __imp_SamRemoveMultipleMembersFromAlias:PPROC
+SamRemoveMultipleMembersFromAlias equ <__imp_SamRemoveMultipleMembersFromAlias>
+
+externdef __imp_SamRidToSid:PPROC
+SamRidToSid equ <__imp_SamRidToSid>
+
+externdef __imp_SamSetInformationAlias:PPROC
+SamSetInformationAlias equ <__imp_SamSetInformationAlias>
+
+externdef __imp_SamSetInformationDomain:PPROC
+SamSetInformationDomain equ <__imp_SamSetInformationDomain>
+
+externdef __imp_SamSetInformationGroup:PPROC
+SamSetInformationGroup equ <__imp_SamSetInformationGroup>
+
+externdef __imp_SamSetInformationUser:PPROC
+SamSetInformationUser equ <__imp_SamSetInformationUser>
+
+externdef __imp_SamSetMemberAttributesOfGroup:PPROC
+SamSetMemberAttributesOfGroup equ <__imp_SamSetMemberAttributesOfGroup>
+
+externdef __imp_SamSetSecurityObject:PPROC
+SamSetSecurityObject equ <__imp_SamSetSecurityObject>
+
+externdef __imp_SamShutdownSamServer:PPROC
+SamShutdownSamServer equ <__imp_SamShutdownSamServer>
+
+externdef __imp_SamTestPrivateFunctionsDomain:PPROC
+SamTestPrivateFunctionsDomain equ <__imp_SamTestPrivateFunctionsDomain>
+
+externdef __imp_SamTestPrivateFunctionsUser:PPROC
+SamTestPrivateFunctionsUser equ <__imp_SamTestPrivateFunctionsUser>
+
+externdef __imp_SamValidatePassword:PPROC
+SamValidatePassword equ <__imp_SamValidatePassword>
+
+externdef __imp_SamiChangeKeys:PPROC
+SamiChangeKeys equ <__imp_SamiChangeKeys>
+
+externdef __imp_SamiChangePasswordUser2:PPROC
+SamiChangePasswordUser2 equ <__imp_SamiChangePasswordUser2>
+
+externdef __imp_SamiChangePasswordUser:PPROC
+SamiChangePasswordUser equ <__imp_SamiChangePasswordUser>
+
+externdef __imp_SamiEncryptPasswords:PPROC
+SamiEncryptPasswords equ <__imp_SamiEncryptPasswords>
+
+externdef __imp_SamiGetBootKeyInformation:PPROC
+SamiGetBootKeyInformation equ <__imp_SamiGetBootKeyInformation>
+
+externdef __imp_SamiLmChangePasswordUser:PPROC
+SamiLmChangePasswordUser equ <__imp_SamiLmChangePasswordUser>
+
+externdef __imp_SamiOemChangePasswordUser2:PPROC
+SamiOemChangePasswordUser2 equ <__imp_SamiOemChangePasswordUser2>
+
+externdef __imp_SamiSetBootKeyInformation:PPROC
+SamiSetBootKeyInformation equ <__imp_SamiSetBootKeyInformation>
+
+externdef __imp_SamiSetDSRMPassword:PPROC
+SamiSetDSRMPassword equ <__imp_SamiSetDSRMPassword>
+
+externdef __imp_SamiSetDSRMPasswordOWF:PPROC
+SamiSetDSRMPasswordOWF equ <__imp_SamiSetDSRMPasswordOWF>

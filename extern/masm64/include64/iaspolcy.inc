@@ -1,0 +1,26 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_IASAttributeAddRef:PPROC
+IASAttributeAddRef equ <__imp_IASAttributeAddRef>
+
+externdef __imp_IASAttributeAlloc:PPROC
+IASAttributeAlloc equ <__imp_IASAttributeAlloc>
+
+externdef __imp_IASAttributeAnsiAlloc:PPROC
+IASAttributeAnsiAlloc equ <__imp_IASAttributeAnsiAlloc>
+
+externdef __imp_IASAttributeRelease:PPROC
+IASAttributeRelease equ <__imp_IASAttributeRelease>
+
+externdef __imp_IASAttributeUnicodeAlloc:PPROC
+IASAttributeUnicodeAlloc equ <__imp_IASAttributeUnicodeAlloc>

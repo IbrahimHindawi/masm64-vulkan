@@ -1,0 +1,104 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_DoInitialCleanup:PPROC
+DoInitialCleanup equ <__imp_DoInitialCleanup>
+
+externdef __imp_HrCreateDesktopIcon:PPROC
+HrCreateDesktopIcon equ <__imp_HrCreateDesktopIcon>
+
+externdef __imp_HrGetAnswerFileParametersForNetCard:PPROC
+HrGetAnswerFileParametersForNetCard equ <__imp_HrGetAnswerFileParametersForNetCard>
+
+externdef __imp_HrGetExtendedStatusFromNCS:PPROC
+HrGetExtendedStatusFromNCS equ <__imp_HrGetExtendedStatusFromNCS>
+
+externdef __imp_HrGetIconFromMediaType:PPROC
+HrGetIconFromMediaType equ <__imp_HrGetIconFromMediaType>
+
+externdef __imp_HrGetIconFromMediaTypeEx:PPROC
+HrGetIconFromMediaTypeEx equ <__imp_HrGetIconFromMediaTypeEx>
+
+externdef __imp_HrGetInstanceGuidOfPreNT5NetCardInstance:PPROC
+HrGetInstanceGuidOfPreNT5NetCardInstance equ <__imp_HrGetInstanceGuidOfPreNT5NetCardInstance>
+
+externdef __imp_HrGetNetConExtendedStatusFromGuid:PPROC
+HrGetNetConExtendedStatusFromGuid equ <__imp_HrGetNetConExtendedStatusFromGuid>
+
+externdef __imp_HrGetNetConExtendedStatusFromINetConnection:PPROC
+HrGetNetConExtendedStatusFromINetConnection equ <__imp_HrGetNetConExtendedStatusFromINetConnection>
+
+externdef __imp_HrGetStatusStringFromNetConExtendedStatus:PPROC
+HrGetStatusStringFromNetConExtendedStatus equ <__imp_HrGetStatusStringFromNetConExtendedStatus>
+
+externdef __imp_HrIsIpStateCheckingEnabled:PPROC
+HrIsIpStateCheckingEnabled equ <__imp_HrIsIpStateCheckingEnabled>
+
+externdef __imp_HrLaunchConnection:PPROC
+HrLaunchConnection equ <__imp_HrLaunchConnection>
+
+externdef __imp_HrLaunchConnectionEx:PPROC
+HrLaunchConnectionEx equ <__imp_HrLaunchConnectionEx>
+
+externdef __imp_HrLaunchNetworkOptionalComponents:PPROC
+HrLaunchNetworkOptionalComponents equ <__imp_HrLaunchNetworkOptionalComponents>
+
+externdef __imp_HrOemUpgrade:PPROC
+HrOemUpgrade equ <__imp_HrOemUpgrade>
+
+externdef __imp_HrRenameConnection:PPROC
+HrRenameConnection equ <__imp_HrRenameConnection>
+
+externdef __imp_HrRunWizard:PPROC
+HrRunWizard equ <__imp_HrRunWizard>
+
+externdef __imp_InvokeDunFile:PPROC
+InvokeDunFile equ <__imp_InvokeDunFile>
+
+externdef __imp_NcFreeNetconProperties:PPROC
+NcFreeNetconProperties equ <__imp_NcFreeNetconProperties>
+
+externdef __imp_NcIsValidConnectionName:PPROC
+NcIsValidConnectionName equ <__imp_NcIsValidConnectionName>
+
+externdef __imp_NetSetupAddRasConnection:PPROC
+NetSetupAddRasConnection equ <__imp_NetSetupAddRasConnection>
+
+externdef __imp_NetSetupFinishInstall:PPROC
+NetSetupFinishInstall equ <__imp_NetSetupFinishInstall>
+
+externdef __imp_NetSetupInstallSoftware:PPROC
+NetSetupInstallSoftware equ <__imp_NetSetupInstallSoftware>
+
+externdef __imp_NetSetupPrepareSysPrep:PPROC
+NetSetupPrepareSysPrep equ <__imp_NetSetupPrepareSysPrep>
+
+externdef __imp_NetSetupRequestWizardPages:PPROC
+NetSetupRequestWizardPages equ <__imp_NetSetupRequestWizardPages>
+
+externdef __imp_NetSetupSetProgressCallback:PPROC
+NetSetupSetProgressCallback equ <__imp_NetSetupSetProgressCallback>
+
+externdef __imp_NormalizeExtendedStatus:PPROC
+NormalizeExtendedStatus equ <__imp_NormalizeExtendedStatus>
+
+externdef __imp_RaiseSupportDialog:PPROC
+RaiseSupportDialog equ <__imp_RaiseSupportDialog>
+
+externdef __imp_RepairConnection:PPROC
+RepairConnection equ <__imp_RepairConnection>
+
+externdef __imp_StartNCW:PPROC
+StartNCW equ <__imp_StartNCW>
+  IFDEF __UNICODE__
+    StartNC equ <__imp_StartNCW>
+  ENDIF

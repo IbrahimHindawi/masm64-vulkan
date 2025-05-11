@@ -1,0 +1,8 @@
+externdef __imp_CloseDiskObject:PPROC
+CloseDiskObject equ <__imp_CloseDiskObject>
+
+externdef __imp_CollectDiskObjectData:PPROC
+CollectDiskObjectData equ <__imp_CollectDiskObjectData>
+
+externdef __imp_OpenDiskObject:PPROC
+OpenDiskObject equ <__imp_OpenDiskObject>

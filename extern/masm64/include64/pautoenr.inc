@@ -1,0 +1,8 @@
+externdef __imp_CertAutoEnrollment:PPROC
+CertAutoEnrollment equ <__imp_CertAutoEnrollment>
+
+externdef __imp_CertAutoRemove:PPROC
+CertAutoRemove equ <__imp_CertAutoRemove>
+
+externdef __imp_ProvAutoEnrollment:PPROC
+ProvAutoEnrollment equ <__imp_ProvAutoEnrollment>

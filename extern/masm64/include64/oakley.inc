@@ -1,0 +1,56 @@
+externdef __imp_IKEAddSAs:PPROC
+IKEAddSAs equ <__imp_IKEAddSAs>
+
+externdef __imp_IKECloseIKENegotiationHandle:PPROC
+IKECloseIKENegotiationHandle equ <__imp_IKECloseIKENegotiationHandle>
+
+externdef __imp_IKECloseIKENotifyHandle:PPROC
+IKECloseIKENotifyHandle equ <__imp_IKECloseIKENotifyHandle>
+
+externdef __imp_IKEDeleteAssociation:PPROC
+IKEDeleteAssociation equ <__imp_IKEDeleteAssociation>
+
+externdef __imp_IKEEnumMMs:PPROC
+IKEEnumMMs equ <__imp_IKEEnumMMs>
+
+externdef __imp_IKEGetConfigurationVariables:PPROC
+IKEGetConfigurationVariables equ <__imp_IKEGetConfigurationVariables>
+
+externdef __imp_IKEInit:PPROC
+IKEInit equ <__imp_IKEInit>
+
+externdef __imp_IKEInitiateIKENegotiation:PPROC
+IKEInitiateIKENegotiation equ <__imp_IKEInitiateIKENegotiation>
+
+externdef __imp_IKEInterfaceChange:PPROC
+IKEInterfaceChange equ <__imp_IKEInterfaceChange>
+
+externdef __imp_IKENotifyPolicyChange:PPROC
+IKENotifyPolicyChange equ <__imp_IKENotifyPolicyChange>
+
+externdef __imp_IKEQueryIKENegotiationStatus:PPROC
+IKEQueryIKENegotiationStatus equ <__imp_IKEQueryIKENegotiationStatus>
+
+externdef __imp_IKEQuerySpiChange:PPROC
+IKEQuerySpiChange equ <__imp_IKEQuerySpiChange>
+
+externdef __imp_IKEQueryStatistics:PPROC
+IKEQueryStatistics equ <__imp_IKEQueryStatistics>
+
+externdef __imp_IKERegisterNotifyClient:PPROC
+IKERegisterNotifyClient equ <__imp_IKERegisterNotifyClient>
+
+externdef __imp_IKESetConfigurationVariables:PPROC
+IKESetConfigurationVariables equ <__imp_IKESetConfigurationVariables>
+
+externdef __imp_IKESetSddlConfig:PPROC
+IKESetSddlConfig equ <__imp_IKESetSddlConfig>
+
+externdef __imp_IKEShutdown:PPROC
+IKEShutdown equ <__imp_IKEShutdown>
+
+externdef __imp_oakley_ordinal29:PPROC
+oakley_ordinal29 equ <__imp_oakley_ordinal29>
+
+externdef __imp_oakley_ordinal32:PPROC
+oakley_ordinal32 equ <__imp_oakley_ordinal32>

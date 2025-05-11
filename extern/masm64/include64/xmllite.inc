@@ -1,0 +1,17 @@
+externdef __imp_CreateXmlReader:PPROC
+CreateXmlReader equ <__imp_CreateXmlReader>
+
+externdef __imp_CreateXmlReaderInputWithEncodingCodePage:PPROC
+CreateXmlReaderInputWithEncodingCodePage equ <__imp_CreateXmlReaderInputWithEncodingCodePage>
+
+externdef __imp_CreateXmlReaderInputWithEncodingName:PPROC
+CreateXmlReaderInputWithEncodingName equ <__imp_CreateXmlReaderInputWithEncodingName>
+
+externdef __imp_CreateXmlWriter:PPROC
+CreateXmlWriter equ <__imp_CreateXmlWriter>
+
+externdef __imp_CreateXmlWriterOutputWithEncodingCodePage:PPROC
+CreateXmlWriterOutputWithEncodingCodePage equ <__imp_CreateXmlWriterOutputWithEncodingCodePage>
+
+externdef __imp_CreateXmlWriterOutputWithEncodingName:PPROC
+CreateXmlWriterOutputWithEncodingName equ <__imp_CreateXmlWriterOutputWithEncodingName>

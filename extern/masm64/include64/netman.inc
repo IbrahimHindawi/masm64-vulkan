@@ -1,0 +1,35 @@
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_GetClientAdvises:PPROC
+GetClientAdvises equ <__imp_GetClientAdvises>
+
+externdef __imp_HrGetPnpDeviceStatus:PPROC
+HrGetPnpDeviceStatus equ <__imp_HrGetPnpDeviceStatus>
+
+externdef __imp_HrLanConnectionNameFromGuidOrPath:PPROC
+HrLanConnectionNameFromGuidOrPath equ <__imp_HrLanConnectionNameFromGuidOrPath>
+
+externdef __imp_HrPnpInstanceIdFromGuid:PPROC
+HrPnpInstanceIdFromGuid equ <__imp_HrPnpInstanceIdFromGuid>
+
+externdef __imp_HrQueryLanMediaState:PPROC
+HrQueryLanMediaState equ <__imp_HrQueryLanMediaState>
+
+externdef __imp_HrRasConnectionNameFromGuid:PPROC
+HrRasConnectionNameFromGuid equ <__imp_HrRasConnectionNameFromGuid>
+
+externdef __imp_NetManDiagFromCommandArgs:PPROC
+NetManDiagFromCommandArgs equ <__imp_NetManDiagFromCommandArgs>
+
+externdef __imp_ProcessQueue:PPROC
+ProcessQueue equ <__imp_ProcessQueue>
+
+externdef __imp_RasEventNotify:PPROC
+RasEventNotify equ <__imp_RasEventNotify>
+
+externdef __imp_ServiceMain:PPROC
+ServiceMain equ <__imp_ServiceMain>

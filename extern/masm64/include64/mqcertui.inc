@@ -1,0 +1,11 @@
+externdef __imp_SelectPersonalCertificateForRegister:PPROC
+SelectPersonalCertificateForRegister equ <__imp_SelectPersonalCertificateForRegister>
+
+externdef __imp_SelectPersonalCertificateForRemoval:PPROC
+SelectPersonalCertificateForRemoval equ <__imp_SelectPersonalCertificateForRemoval>
+
+externdef __imp_ShowCertificate:PPROC
+ShowCertificate equ <__imp_ShowCertificate>
+
+externdef __imp_ShowPersonalCertificates:PPROC
+ShowPersonalCertificates equ <__imp_ShowPersonalCertificates>

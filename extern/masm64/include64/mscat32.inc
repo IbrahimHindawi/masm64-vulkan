@@ -1,0 +1,107 @@
+externdef __imp_CatalogCompactHashDatabase:PPROC
+CatalogCompactHashDatabase equ <__imp_CatalogCompactHashDatabase>
+
+externdef __imp_CryptCATAdminAcquireContext:PPROC
+CryptCATAdminAcquireContext equ <__imp_CryptCATAdminAcquireContext>
+
+externdef __imp_CryptCATAdminAddCatalog:PPROC
+CryptCATAdminAddCatalog equ <__imp_CryptCATAdminAddCatalog>
+
+externdef __imp_CryptCATAdminCalcHashFromFileHandle:PPROC
+CryptCATAdminCalcHashFromFileHandle equ <__imp_CryptCATAdminCalcHashFromFileHandle>
+
+externdef __imp_CryptCATAdminEnumCatalogFromHash:PPROC
+CryptCATAdminEnumCatalogFromHash equ <__imp_CryptCATAdminEnumCatalogFromHash>
+
+externdef __imp_CryptCATAdminReleaseCatalogContext:PPROC
+CryptCATAdminReleaseCatalogContext equ <__imp_CryptCATAdminReleaseCatalogContext>
+
+externdef __imp_CryptCATAdminReleaseContext:PPROC
+CryptCATAdminReleaseContext equ <__imp_CryptCATAdminReleaseContext>
+
+externdef __imp_CryptCATCDFClose:PPROC
+CryptCATCDFClose equ <__imp_CryptCATCDFClose>
+
+externdef __imp_CryptCATCDFEnumAttributes:PPROC
+CryptCATCDFEnumAttributes equ <__imp_CryptCATCDFEnumAttributes>
+
+externdef __imp_CryptCATCDFEnumAttributesWithCDFTag:PPROC
+CryptCATCDFEnumAttributesWithCDFTag equ <__imp_CryptCATCDFEnumAttributesWithCDFTag>
+
+externdef __imp_CryptCATCDFEnumCatAttributes:PPROC
+CryptCATCDFEnumCatAttributes equ <__imp_CryptCATCDFEnumCatAttributes>
+
+externdef __imp_CryptCATCDFEnumMembers:PPROC
+CryptCATCDFEnumMembers equ <__imp_CryptCATCDFEnumMembers>
+
+externdef __imp_CryptCATCDFEnumMembersByCDFTag:PPROC
+CryptCATCDFEnumMembersByCDFTag equ <__imp_CryptCATCDFEnumMembersByCDFTag>
+
+externdef __imp_CryptCATCDFEnumMembersByCDFTagEx:PPROC
+CryptCATCDFEnumMembersByCDFTagEx equ <__imp_CryptCATCDFEnumMembersByCDFTagEx>
+
+externdef __imp_CryptCATCDFOpen:PPROC
+CryptCATCDFOpen equ <__imp_CryptCATCDFOpen>
+
+externdef __imp_CryptCATCatalogInfoFromContext:PPROC
+CryptCATCatalogInfoFromContext equ <__imp_CryptCATCatalogInfoFromContext>
+
+externdef __imp_CryptCATClose:PPROC
+CryptCATClose equ <__imp_CryptCATClose>
+
+externdef __imp_CryptCATEnumerateAttr:PPROC
+CryptCATEnumerateAttr equ <__imp_CryptCATEnumerateAttr>
+
+externdef __imp_CryptCATEnumerateCatAttr:PPROC
+CryptCATEnumerateCatAttr equ <__imp_CryptCATEnumerateCatAttr>
+
+externdef __imp_CryptCATEnumerateMember:PPROC
+CryptCATEnumerateMember equ <__imp_CryptCATEnumerateMember>
+
+externdef __imp_CryptCATGetAttrInfo:PPROC
+CryptCATGetAttrInfo equ <__imp_CryptCATGetAttrInfo>
+
+externdef __imp_CryptCATGetCatAttrInfo:PPROC
+CryptCATGetCatAttrInfo equ <__imp_CryptCATGetCatAttrInfo>
+
+externdef __imp_CryptCATGetMemberInfo:PPROC
+CryptCATGetMemberInfo equ <__imp_CryptCATGetMemberInfo>
+
+externdef __imp_CryptCATHandleFromStore:PPROC
+CryptCATHandleFromStore equ <__imp_CryptCATHandleFromStore>
+
+externdef __imp_CryptCATOpen:PPROC
+CryptCATOpen equ <__imp_CryptCATOpen>
+
+externdef __imp_CryptCATPersistStore:PPROC
+CryptCATPersistStore equ <__imp_CryptCATPersistStore>
+
+externdef __imp_CryptCATPutAttrInfo:PPROC
+CryptCATPutAttrInfo equ <__imp_CryptCATPutAttrInfo>
+
+externdef __imp_CryptCATPutCatAttrInfo:PPROC
+CryptCATPutCatAttrInfo equ <__imp_CryptCATPutCatAttrInfo>
+
+externdef __imp_CryptCATPutMemberInfo:PPROC
+CryptCATPutMemberInfo equ <__imp_CryptCATPutMemberInfo>
+
+externdef __imp_CryptCATStoreFromHandle:PPROC
+CryptCATStoreFromHandle equ <__imp_CryptCATStoreFromHandle>
+
+externdef __imp_CryptCATVerifyMember:PPROC
+CryptCATVerifyMember equ <__imp_CryptCATVerifyMember>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_IsCatalogFile:PPROC
+IsCatalogFile equ <__imp_IsCatalogFile>
+
+externdef __imp_MsCatConstructHashTag:PPROC
+MsCatConstructHashTag equ <__imp_MsCatConstructHashTag>
+
+externdef __imp_MsCatFreeHashTag:PPROC
+MsCatFreeHashTag equ <__imp_MsCatFreeHashTag>

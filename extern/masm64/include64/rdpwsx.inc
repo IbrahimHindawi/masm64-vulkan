@@ -1,0 +1,56 @@
+externdef __imp_WsxBrokenConnection:PPROC
+WsxBrokenConnection equ <__imp_WsxBrokenConnection>
+
+externdef __imp_WsxCanLogonProceed:PPROC
+WsxCanLogonProceed equ <__imp_WsxCanLogonProceed>
+
+externdef __imp_WsxClearContext:PPROC
+WsxClearContext equ <__imp_WsxClearContext>
+
+externdef __imp_WsxConnect:PPROC
+WsxConnect equ <__imp_WsxConnect>
+
+externdef __imp_WsxConvertPublishedApp:PPROC
+WsxConvertPublishedApp equ <__imp_WsxConvertPublishedApp>
+
+externdef __imp_WsxCopyContext:PPROC
+WsxCopyContext equ <__imp_WsxCopyContext>
+
+externdef __imp_WsxDisconnect:PPROC
+WsxDisconnect equ <__imp_WsxDisconnect>
+
+externdef __imp_WsxDuplicateContext:PPROC
+WsxDuplicateContext equ <__imp_WsxDuplicateContext>
+
+externdef __imp_WsxEscape:PPROC
+WsxEscape equ <__imp_WsxEscape>
+
+externdef __imp_WsxIcaStackIoControl:PPROC
+WsxIcaStackIoControl equ <__imp_WsxIcaStackIoControl>
+
+externdef __imp_WsxInitialize:PPROC
+WsxInitialize equ <__imp_WsxInitialize>
+
+externdef __imp_WsxInitializeClientData:PPROC
+WsxInitializeClientData equ <__imp_WsxInitializeClientData>
+
+externdef __imp_WsxLogonNotify:PPROC
+WsxLogonNotify equ <__imp_WsxLogonNotify>
+
+externdef __imp_WsxSendAutoReconnectStatus:PPROC
+WsxSendAutoReconnectStatus equ <__imp_WsxSendAutoReconnectStatus>
+
+externdef __imp_WsxSetErrorInfo:PPROC
+WsxSetErrorInfo equ <__imp_WsxSetErrorInfo>
+
+externdef __imp_WsxVirtualChannelSecurity:PPROC
+WsxVirtualChannelSecurity equ <__imp_WsxVirtualChannelSecurity>
+
+externdef __imp_WsxWinStationInitialize:PPROC
+WsxWinStationInitialize equ <__imp_WsxWinStationInitialize>
+
+externdef __imp_WsxWinStationReInitialize:PPROC
+WsxWinStationReInitialize equ <__imp_WsxWinStationReInitialize>
+
+externdef __imp_WsxWinStationRundown:PPROC
+WsxWinStationRundown equ <__imp_WsxWinStationRundown>

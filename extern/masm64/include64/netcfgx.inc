@@ -1,0 +1,50 @@
+externdef __imp_??4WLBS_REG_PARAMS@@QEAAAEAU0@AEBU0@@Z:PPROC
+??4WLBS_REG_PARAMS@@QEAAAEAU0@AEBU0@@Z equ <__imp_??4WLBS_REG_PARAMS@@QEAAAEAU0@AEBU0@@Z>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_HrDiAddComponentToINetCfg:PPROC
+HrDiAddComponentToINetCfg equ <__imp_HrDiAddComponentToINetCfg>
+
+externdef __imp_LanaCfgFromCommandArgs:PPROC
+LanaCfgFromCommandArgs equ <__imp_LanaCfgFromCommandArgs>
+
+externdef __imp_ModemClassCoInstaller:PPROC
+ModemClassCoInstaller equ <__imp_ModemClassCoInstaller>
+
+externdef __imp_NetCfgDiagFromCommandArgs:PPROC
+NetCfgDiagFromCommandArgs equ <__imp_NetCfgDiagFromCommandArgs>
+
+externdef __imp_NetCfgDiagRepairRegistryBindings:PPROC
+NetCfgDiagRepairRegistryBindings equ <__imp_NetCfgDiagRepairRegistryBindings>
+
+externdef __imp_NetClassInstaller:PPROC
+NetClassInstaller equ <__imp_NetClassInstaller>
+
+externdef __imp_NetPropPageProvider:PPROC
+NetPropPageProvider equ <__imp_NetPropPageProvider>
+
+externdef __imp_RasAddBindings:PPROC
+RasAddBindings equ <__imp_RasAddBindings>
+
+externdef __imp_RasCountBindings:PPROC
+RasCountBindings equ <__imp_RasCountBindings>
+
+externdef __imp_RasRemoveBindings:PPROC
+RasRemoveBindings equ <__imp_RasRemoveBindings>
+
+externdef __imp_SvchostChangeSvchostGroup:PPROC
+SvchostChangeSvchostGroup equ <__imp_SvchostChangeSvchostGroup>
+
+externdef __imp_UpdateLanaConfigUsingAnswerfile:PPROC
+UpdateLanaConfigUsingAnswerfile equ <__imp_UpdateLanaConfigUsingAnswerfile>

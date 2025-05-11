@@ -1,0 +1,92 @@
+externdef __imp_GetTermsrCompatFlags:PPROC
+GetTermsrCompatFlags equ <__imp_GetTermsrCompatFlags>
+
+externdef __imp_GetTermsrCompatFlagsEx:PPROC
+GetTermsrCompatFlagsEx equ <__imp_GetTermsrCompatFlagsEx>
+
+externdef __imp_TermServPrepareAppInstallDueMSI:PPROC
+TermServPrepareAppInstallDueMSI equ <__imp_TermServPrepareAppInstallDueMSI>
+
+externdef __imp_TermServProcessAppInstallDueMSI:PPROC
+TermServProcessAppInstallDueMSI equ <__imp_TermServProcessAppInstallDueMSI>
+
+externdef __imp_TermsrvAdjustPhyMemLimits:PPROC
+TermsrvAdjustPhyMemLimits equ <__imp_TermsrvAdjustPhyMemLimits>
+
+externdef __imp_TermsrvBuildIniFileName:PPROC
+TermsrvBuildIniFileName equ <__imp_TermsrvBuildIniFileName>
+
+externdef __imp_TermsrvBuildSysIniPath:PPROC
+TermsrvBuildSysIniPath equ <__imp_TermsrvBuildSysIniPath>
+
+externdef __imp_TermsrvCORIniFile:PPROC
+TermsrvCORIniFile equ <__imp_TermsrvCORIniFile>
+
+externdef __imp_TermsrvCheckNewIniFiles:PPROC
+TermsrvCheckNewIniFiles equ <__imp_TermsrvCheckNewIniFiles>
+
+externdef __imp_TermsrvConvertSysRootToUserDir:PPROC
+TermsrvConvertSysRootToUserDir equ <__imp_TermsrvConvertSysRootToUserDir>
+
+externdef __imp_TermsrvCopyIniFile:PPROC
+TermsrvCopyIniFile equ <__imp_TermsrvCopyIniFile>
+
+externdef __imp_TermsrvCreateRegEntry:PPROC
+TermsrvCreateRegEntry equ <__imp_TermsrvCreateRegEntry>
+
+externdef __imp_TermsrvDeleteKey:PPROC
+TermsrvDeleteKey equ <__imp_TermsrvDeleteKey>
+
+externdef __imp_TermsrvDeleteValue:PPROC
+TermsrvDeleteValue equ <__imp_TermsrvDeleteValue>
+
+externdef __imp_TermsrvFormatObjectName:PPROC
+TermsrvFormatObjectName equ <__imp_TermsrvFormatObjectName>
+
+externdef __imp_TermsrvGetComputerName:PPROC
+TermsrvGetComputerName equ <__imp_TermsrvGetComputerName>
+
+externdef __imp_TermsrvGetPreSetValue:PPROC
+TermsrvGetPreSetValue equ <__imp_TermsrvGetPreSetValue>
+
+externdef __imp_TermsrvGetString:PPROC
+TermsrvGetString equ <__imp_TermsrvGetString>
+
+externdef __imp_TermsrvGetWindowsDirectoryA:PPROC
+TermsrvGetWindowsDirectoryA equ <__imp_TermsrvGetWindowsDirectoryA>
+  IFNDEF __UNICODE__
+    TermsrvGetWindowsDirectory equ <__imp_TermsrvGetWindowsDirectoryA>
+  ENDIF
+
+externdef __imp_TermsrvGetWindowsDirectoryW:PPROC
+TermsrvGetWindowsDirectoryW equ <__imp_TermsrvGetWindowsDirectoryW>
+  IFDEF __UNICODE__
+    TermsrvGetWindowsDirectory equ <__imp_TermsrvGetWindowsDirectoryW>
+  ENDIF
+
+externdef __imp_TermsrvLogInstallIniFile:PPROC
+TermsrvLogInstallIniFile equ <__imp_TermsrvLogInstallIniFile>
+
+externdef __imp_TermsrvLogInstallIniFileEx:PPROC
+TermsrvLogInstallIniFileEx equ <__imp_TermsrvLogInstallIniFileEx>
+
+externdef __imp_TermsrvOpenRegEntry:PPROC
+TermsrvOpenRegEntry equ <__imp_TermsrvOpenRegEntry>
+
+externdef __imp_TermsrvOpenUserClasses:PPROC
+TermsrvOpenUserClasses equ <__imp_TermsrvOpenUserClasses>
+
+externdef __imp_TermsrvRemoveClassesKey:PPROC
+TermsrvRemoveClassesKey equ <__imp_TermsrvRemoveClassesKey>
+
+externdef __imp_TermsrvRestoreKey:PPROC
+TermsrvRestoreKey equ <__imp_TermsrvRestoreKey>
+
+externdef __imp_TermsrvSetKeySecurity:PPROC
+TermsrvSetKeySecurity equ <__imp_TermsrvSetKeySecurity>
+
+externdef __imp_TermsrvSetValueKey:PPROC
+TermsrvSetValueKey equ <__imp_TermsrvSetValueKey>
+
+externdef __imp_TermsrvUpdateAllUserMenu:PPROC
+TermsrvUpdateAllUserMenu equ <__imp_TermsrvUpdateAllUserMenu>

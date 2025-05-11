@@ -1,0 +1,71 @@
+externdef __imp_AddPersonalTrustDBPages:PPROC
+AddPersonalTrustDBPages equ <__imp_AddPersonalTrustDBPages>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_DriverCleanupPolicy:PPROC
+DriverCleanupPolicy equ <__imp_DriverCleanupPolicy>
+
+externdef __imp_DriverFinalPolicy:PPROC
+DriverFinalPolicy equ <__imp_DriverFinalPolicy>
+
+externdef __imp_DriverInitializePolicy:PPROC
+DriverInitializePolicy equ <__imp_DriverInitializePolicy>
+
+externdef __imp_FindCertsByIssuer:PPROC
+FindCertsByIssuer equ <__imp_FindCertsByIssuer>
+
+externdef __imp_GenericChainCertificateTrust:PPROC
+GenericChainCertificateTrust equ <__imp_GenericChainCertificateTrust>
+
+externdef __imp_GenericChainFinalProv:PPROC
+GenericChainFinalProv equ <__imp_GenericChainFinalProv>
+
+externdef __imp_HTTPSCertificateTrust:PPROC
+HTTPSCertificateTrust equ <__imp_HTTPSCertificateTrust>
+
+externdef __imp_HTTPSFinalProv:PPROC
+HTTPSFinalProv equ <__imp_HTTPSFinalProv>
+
+externdef __imp_OfficeCleanupPolicy:PPROC
+OfficeCleanupPolicy equ <__imp_OfficeCleanupPolicy>
+
+externdef __imp_OfficeInitializePolicy:PPROC
+OfficeInitializePolicy equ <__imp_OfficeInitializePolicy>
+
+externdef __imp_OpenPersonalTrustDBDialog:PPROC
+OpenPersonalTrustDBDialog equ <__imp_OpenPersonalTrustDBDialog>
+
+externdef __imp_SoftpubAuthenticode:PPROC
+SoftpubAuthenticode equ <__imp_SoftpubAuthenticode>
+
+externdef __imp_SoftpubCheckCert:PPROC
+SoftpubCheckCert equ <__imp_SoftpubCheckCert>
+
+externdef __imp_SoftpubCleanup:PPROC
+SoftpubCleanup equ <__imp_SoftpubCleanup>
+
+externdef __imp_SoftpubDefCertInit:PPROC
+SoftpubDefCertInit equ <__imp_SoftpubDefCertInit>
+
+externdef __imp_SoftpubDumpStructure:PPROC
+SoftpubDumpStructure equ <__imp_SoftpubDumpStructure>
+
+externdef __imp_SoftpubFreeDefUsageCallData:PPROC
+SoftpubFreeDefUsageCallData equ <__imp_SoftpubFreeDefUsageCallData>
+
+externdef __imp_SoftpubInitialize:PPROC
+SoftpubInitialize equ <__imp_SoftpubInitialize>
+
+externdef __imp_SoftpubLoadDefUsageCallData:PPROC
+SoftpubLoadDefUsageCallData equ <__imp_SoftpubLoadDefUsageCallData>
+
+externdef __imp_SoftpubLoadMessage:PPROC
+SoftpubLoadMessage equ <__imp_SoftpubLoadMessage>
+
+externdef __imp_SoftpubLoadSignature:PPROC
+SoftpubLoadSignature equ <__imp_SoftpubLoadSignature>

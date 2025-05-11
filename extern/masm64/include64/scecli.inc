@@ -1,0 +1,215 @@
+externdef __imp_DeltaNotify:PPROC
+DeltaNotify equ <__imp_DeltaNotify>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_InitializeChangeNotify:PPROC
+InitializeChangeNotify equ <__imp_InitializeChangeNotify>
+
+externdef __imp_SceAddToNameList:PPROC
+SceAddToNameList equ <__imp_SceAddToNameList>
+
+externdef __imp_SceAddToNameStatusList:PPROC
+SceAddToNameStatusList equ <__imp_SceAddToNameStatusList>
+
+externdef __imp_SceAddToObjectList:PPROC
+SceAddToObjectList equ <__imp_SceAddToObjectList>
+
+externdef __imp_SceAnalyzeSystem:PPROC
+SceAnalyzeSystem equ <__imp_SceAnalyzeSystem>
+
+externdef __imp_SceAppendSecurityProfileInfo:PPROC
+SceAppendSecurityProfileInfo equ <__imp_SceAppendSecurityProfileInfo>
+
+externdef __imp_SceBrowseDatabaseTable:PPROC
+SceBrowseDatabaseTable equ <__imp_SceBrowseDatabaseTable>
+
+externdef __imp_SceCloseProfile:PPROC
+SceCloseProfile equ <__imp_SceCloseProfile>
+
+externdef __imp_SceCommitTransaction:PPROC
+SceCommitTransaction equ <__imp_SceCommitTransaction>
+
+externdef __imp_SceCompareNameList:PPROC
+SceCompareNameList equ <__imp_SceCompareNameList>
+
+externdef __imp_SceCompareSecurityDescriptors:PPROC
+SceCompareSecurityDescriptors equ <__imp_SceCompareSecurityDescriptors>
+
+externdef __imp_SceConfigureConvertedFileSecurity:PPROC
+SceConfigureConvertedFileSecurity equ <__imp_SceConfigureConvertedFileSecurity>
+
+externdef __imp_SceConfigureSystem:PPROC
+SceConfigureSystem equ <__imp_SceConfigureSystem>
+
+externdef __imp_SceCopyBaseProfile:PPROC
+SceCopyBaseProfile equ <__imp_SceCopyBaseProfile>
+
+externdef __imp_SceCreateDirectory:PPROC
+SceCreateDirectory equ <__imp_SceCreateDirectory>
+
+externdef __imp_SceDcPromoCreateGPOsInSysvol:PPROC
+SceDcPromoCreateGPOsInSysvol equ <__imp_SceDcPromoCreateGPOsInSysvol>
+
+externdef __imp_SceDcPromoCreateGPOsInSysvolEx:PPROC
+SceDcPromoCreateGPOsInSysvolEx equ <__imp_SceDcPromoCreateGPOsInSysvolEx>
+
+externdef __imp_SceDcPromoteSecurity:PPROC
+SceDcPromoteSecurity equ <__imp_SceDcPromoteSecurity>
+
+externdef __imp_SceDcPromoteSecurityEx:PPROC
+SceDcPromoteSecurityEx equ <__imp_SceDcPromoteSecurityEx>
+
+externdef __imp_SceEnforceSecurityPolicyPropagation:PPROC
+SceEnforceSecurityPolicyPropagation equ <__imp_SceEnforceSecurityPolicyPropagation>
+
+externdef __imp_SceEnumerateServices:PPROC
+SceEnumerateServices equ <__imp_SceEnumerateServices>
+
+externdef __imp_SceFreeMemory:PPROC
+SceFreeMemory equ <__imp_SceFreeMemory>
+
+externdef __imp_SceFreeProfileMemory:PPROC
+SceFreeProfileMemory equ <__imp_SceFreeProfileMemory>
+
+externdef __imp_SceGenerateGroupPolicy:PPROC
+SceGenerateGroupPolicy equ <__imp_SceGenerateGroupPolicy>
+
+externdef __imp_SceGenerateRollback:PPROC
+SceGenerateRollback equ <__imp_SceGenerateRollback>
+
+externdef __imp_SceGetAnalysisAreaSummary:PPROC
+SceGetAnalysisAreaSummary equ <__imp_SceGetAnalysisAreaSummary>
+
+externdef __imp_SceGetAreas:PPROC
+SceGetAreas equ <__imp_SceGetAreas>
+
+externdef __imp_SceGetDatabaseSetting:PPROC
+SceGetDatabaseSetting equ <__imp_SceGetDatabaseSetting>
+
+externdef __imp_SceGetDbTime:PPROC
+SceGetDbTime equ <__imp_SceGetDbTime>
+
+externdef __imp_SceGetObjectChildren:PPROC
+SceGetObjectChildren equ <__imp_SceGetObjectChildren>
+
+externdef __imp_SceGetObjectSecurity:PPROC
+SceGetObjectSecurity equ <__imp_SceGetObjectSecurity>
+
+externdef __imp_SceGetScpProfileDescription:PPROC
+SceGetScpProfileDescription equ <__imp_SceGetScpProfileDescription>
+
+externdef __imp_SceGetSecurityProfileInfo:PPROC
+SceGetSecurityProfileInfo equ <__imp_SceGetSecurityProfileInfo>
+
+externdef __imp_SceGetServerProductType:PPROC
+SceGetServerProductType equ <__imp_SceGetServerProductType>
+
+externdef __imp_SceGetTimeStamp:PPROC
+SceGetTimeStamp equ <__imp_SceGetTimeStamp>
+
+externdef __imp_SceIsSystemDatabase:PPROC
+SceIsSystemDatabase equ <__imp_SceIsSystemDatabase>
+
+externdef __imp_SceLookupPrivRightName:PPROC
+SceLookupPrivRightName equ <__imp_SceLookupPrivRightName>
+
+externdef __imp_SceNotifyPolicyDelta:PPROC
+SceNotifyPolicyDelta equ <__imp_SceNotifyPolicyDelta>
+
+externdef __imp_SceOpenPolicy:PPROC
+SceOpenPolicy equ <__imp_SceOpenPolicy>
+
+externdef __imp_SceOpenProfile:PPROC
+SceOpenProfile equ <__imp_SceOpenProfile>
+
+externdef __imp_SceProcessEFSRecoveryGPO:PPROC
+SceProcessEFSRecoveryGPO equ <__imp_SceProcessEFSRecoveryGPO>
+
+externdef __imp_SceProcessSecurityPolicyGPO:PPROC
+SceProcessSecurityPolicyGPO equ <__imp_SceProcessSecurityPolicyGPO>
+
+externdef __imp_SceProcessSecurityPolicyGPOEx:PPROC
+SceProcessSecurityPolicyGPOEx equ <__imp_SceProcessSecurityPolicyGPOEx>
+
+externdef __imp_SceRegisterRegValues:PPROC
+SceRegisterRegValues equ <__imp_SceRegisterRegValues>
+
+externdef __imp_SceRollbackTransaction:PPROC
+SceRollbackTransaction equ <__imp_SceRollbackTransaction>
+
+externdef __imp_SceSetDatabaseSetting:PPROC
+SceSetDatabaseSetting equ <__imp_SceSetDatabaseSetting>
+
+externdef __imp_SceSetupBackupSecurity:PPROC
+SceSetupBackupSecurity equ <__imp_SceSetupBackupSecurity>
+
+externdef __imp_SceSetupConfigureServices:PPROC
+SceSetupConfigureServices equ <__imp_SceSetupConfigureServices>
+
+externdef __imp_SceSetupGenerateTemplate:PPROC
+SceSetupGenerateTemplate equ <__imp_SceSetupGenerateTemplate>
+
+externdef __imp_SceSetupMoveSecurityFile:PPROC
+SceSetupMoveSecurityFile equ <__imp_SceSetupMoveSecurityFile>
+
+externdef __imp_SceSetupRootSecurity:PPROC
+SceSetupRootSecurity equ <__imp_SceSetupRootSecurity>
+
+externdef __imp_SceSetupSystemByInfName:PPROC
+SceSetupSystemByInfName equ <__imp_SceSetupSystemByInfName>
+
+externdef __imp_SceSetupUnwindSecurityFile:PPROC
+SceSetupUnwindSecurityFile equ <__imp_SceSetupUnwindSecurityFile>
+
+externdef __imp_SceSetupUpdateSecurityFile:PPROC
+SceSetupUpdateSecurityFile equ <__imp_SceSetupUpdateSecurityFile>
+
+externdef __imp_SceSetupUpdateSecurityKey:PPROC
+SceSetupUpdateSecurityKey equ <__imp_SceSetupUpdateSecurityKey>
+
+externdef __imp_SceSetupUpdateSecurityService:PPROC
+SceSetupUpdateSecurityService equ <__imp_SceSetupUpdateSecurityService>
+
+externdef __imp_SceStartTransaction:PPROC
+SceStartTransaction equ <__imp_SceStartTransaction>
+
+externdef __imp_SceSvcConvertSDToText:PPROC
+SceSvcConvertSDToText equ <__imp_SceSvcConvertSDToText>
+
+externdef __imp_SceSvcConvertTextToSD:PPROC
+SceSvcConvertTextToSD equ <__imp_SceSvcConvertTextToSD>
+
+externdef __imp_SceSvcFree:PPROC
+SceSvcFree equ <__imp_SceSvcFree>
+
+externdef __imp_SceSvcGetInformationTemplate:PPROC
+SceSvcGetInformationTemplate equ <__imp_SceSvcGetInformationTemplate>
+
+externdef __imp_SceSvcQueryInfo:PPROC
+SceSvcQueryInfo equ <__imp_SceSvcQueryInfo>
+
+externdef __imp_SceSvcSetInfo:PPROC
+SceSvcSetInfo equ <__imp_SceSvcSetInfo>
+
+externdef __imp_SceSvcSetInformationTemplate:PPROC
+SceSvcSetInformationTemplate equ <__imp_SceSvcSetInformationTemplate>
+
+externdef __imp_SceSvcUpdateInfo:PPROC
+SceSvcUpdateInfo equ <__imp_SceSvcUpdateInfo>
+
+externdef __imp_SceSysPrep:PPROC
+SceSysPrep equ <__imp_SceSysPrep>
+
+externdef __imp_SceUpdateObjectInfo:PPROC
+SceUpdateObjectInfo equ <__imp_SceUpdateObjectInfo>
+
+externdef __imp_SceUpdateSecurityProfile:PPROC
+SceUpdateSecurityProfile equ <__imp_SceUpdateSecurityProfile>
+
+externdef __imp_SceWriteSecurityProfileInfo:PPROC
+SceWriteSecurityProfileInfo equ <__imp_SceWriteSecurityProfileInfo>

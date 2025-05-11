@@ -1,0 +1,137 @@
+externdef __imp_ClassInstall32:PPROC
+ClassInstall32 equ <__imp_ClassInstall32>
+
+externdef __imp_IppOcEntry:PPROC
+IppOcEntry equ <__imp_IppOcEntry>
+
+externdef __imp_PSetupAssociateICMProfiles:PPROC
+PSetupAssociateICMProfiles equ <__imp_PSetupAssociateICMProfiles>
+
+externdef __imp_PSetupBuildDriversFromPath:PPROC
+PSetupBuildDriversFromPath equ <__imp_PSetupBuildDriversFromPath>
+
+externdef __imp_PSetupCreateDrvSetupPage:PPROC
+PSetupCreateDrvSetupPage equ <__imp_PSetupCreateDrvSetupPage>
+
+externdef __imp_PSetupCreateMonitorInfo:PPROC
+PSetupCreateMonitorInfo equ <__imp_PSetupCreateMonitorInfo>
+
+externdef __imp_PSetupCreatePrinterDeviceInfoList:PPROC
+PSetupCreatePrinterDeviceInfoList equ <__imp_PSetupCreatePrinterDeviceInfoList>
+
+externdef __imp_PSetupDestroyDriverInfo3:PPROC
+PSetupDestroyDriverInfo3 equ <__imp_PSetupDestroyDriverInfo3>
+
+externdef __imp_PSetupDestroyMonitorInfo:PPROC
+PSetupDestroyMonitorInfo equ <__imp_PSetupDestroyMonitorInfo>
+
+externdef __imp_PSetupDestroyPrinterDeviceInfoList:PPROC
+PSetupDestroyPrinterDeviceInfoList equ <__imp_PSetupDestroyPrinterDeviceInfoList>
+
+externdef __imp_PSetupDestroySelectedDriverInfo:PPROC
+PSetupDestroySelectedDriverInfo equ <__imp_PSetupDestroySelectedDriverInfo>
+
+externdef __imp_PSetupDriverInfoFromName:PPROC
+PSetupDriverInfoFromName equ <__imp_PSetupDriverInfoFromName>
+
+externdef __imp_PSetupEnumMonitor:PPROC
+PSetupEnumMonitor equ <__imp_PSetupEnumMonitor>
+
+externdef __imp_PSetupFindMappedDriver:PPROC
+PSetupFindMappedDriver equ <__imp_PSetupFindMappedDriver>
+
+externdef __imp_PSetupFreeDrvField:PPROC
+PSetupFreeDrvField equ <__imp_PSetupFreeDrvField>
+
+externdef __imp_PSetupFreeMem:PPROC
+PSetupFreeMem equ <__imp_PSetupFreeMem>
+
+externdef __imp_PSetupGetActualInstallSection:PPROC
+PSetupGetActualInstallSection equ <__imp_PSetupGetActualInstallSection>
+
+externdef __imp_PSetupGetDriverInfForPrinter:PPROC
+PSetupGetDriverInfForPrinter equ <__imp_PSetupGetDriverInfForPrinter>
+
+externdef __imp_PSetupGetDriverInfForPrinterEx:PPROC
+PSetupGetDriverInfForPrinterEx equ <__imp_PSetupGetDriverInfForPrinterEx>
+
+externdef __imp_PSetupGetDriverInfo3:PPROC
+PSetupGetDriverInfo3 equ <__imp_PSetupGetDriverInfo3>
+
+externdef __imp_PSetupGetLocalDataField:PPROC
+PSetupGetLocalDataField equ <__imp_PSetupGetLocalDataField>
+
+externdef __imp_PSetupGetPathToSearch:PPROC
+PSetupGetPathToSearch equ <__imp_PSetupGetPathToSearch>
+
+externdef __imp_PSetupGetSelectedDriverInfo:PPROC
+PSetupGetSelectedDriverInfo equ <__imp_PSetupGetSelectedDriverInfo>
+
+externdef __imp_PSetupInstallICMProfiles:PPROC
+PSetupInstallICMProfiles equ <__imp_PSetupInstallICMProfiles>
+
+externdef __imp_PSetupInstallInboxDriverSilently:PPROC
+PSetupInstallInboxDriverSilently equ <__imp_PSetupInstallInboxDriverSilently>
+
+externdef __imp_PSetupInstallMonitor:PPROC
+PSetupInstallMonitor equ <__imp_PSetupInstallMonitor>
+
+externdef __imp_PSetupInstallPrinterDriver:PPROC
+PSetupInstallPrinterDriver equ <__imp_PSetupInstallPrinterDriver>
+
+externdef __imp_PSetupInstallPrinterDriverFromTheWeb:PPROC
+PSetupInstallPrinterDriverFromTheWeb equ <__imp_PSetupInstallPrinterDriverFromTheWeb>
+
+externdef __imp_PSetupIsCompatibleDriver:PPROC
+PSetupIsCompatibleDriver equ <__imp_PSetupIsCompatibleDriver>
+
+externdef __imp_PSetupIsDriverInstalled:PPROC
+PSetupIsDriverInstalled equ <__imp_PSetupIsDriverInstalled>
+
+externdef __imp_PSetupIsTheDriverFoundInInfInstalled:PPROC
+PSetupIsTheDriverFoundInInfInstalled equ <__imp_PSetupIsTheDriverFoundInInfInstalled>
+
+externdef __imp_PSetupKillBadUserConnections:PPROC
+PSetupKillBadUserConnections equ <__imp_PSetupKillBadUserConnections>
+
+externdef __imp_PSetupPreSelectDriver:PPROC
+PSetupPreSelectDriver equ <__imp_PSetupPreSelectDriver>
+
+externdef __imp_PSetupProcessPrinterAdded:PPROC
+PSetupProcessPrinterAdded equ <__imp_PSetupProcessPrinterAdded>
+
+externdef __imp_PSetupSelectDeviceButtons:PPROC
+PSetupSelectDeviceButtons equ <__imp_PSetupSelectDeviceButtons>
+
+externdef __imp_PSetupSelectDriver:PPROC
+PSetupSelectDriver equ <__imp_PSetupSelectDriver>
+
+externdef __imp_PSetupSetDriverPlatform:PPROC
+PSetupSetDriverPlatform equ <__imp_PSetupSetDriverPlatform>
+
+externdef __imp_PSetupSetSelectDevTitleAndInstructions:PPROC
+PSetupSetSelectDevTitleAndInstructions equ <__imp_PSetupSetSelectDevTitleAndInstructions>
+
+externdef __imp_PSetupShowBlockedDriverUI:PPROC
+PSetupShowBlockedDriverUI equ <__imp_PSetupShowBlockedDriverUI>
+
+externdef __imp_PSetupThisPlatform:PPROC
+PSetupThisPlatform equ <__imp_PSetupThisPlatform>
+
+externdef __imp_PSetupUpgradeClusterDriversW:PPROC
+PSetupUpgradeClusterDriversW equ <__imp_PSetupUpgradeClusterDriversW>
+  IFDEF __UNICODE__
+    PSetupUpgradeClusterDrivers equ <__imp_PSetupUpgradeClusterDriversW>
+  ENDIF
+
+externdef __imp_ServerInstallW:PPROC
+ServerInstallW equ <__imp_ServerInstallW>
+  IFDEF __UNICODE__
+    ServerInstall equ <__imp_ServerInstallW>
+  ENDIF
+
+externdef __imp_SetupInetPrint:PPROC
+SetupInetPrint equ <__imp_SetupInetPrint>
+
+externdef __imp_ntprint_ordinal1:PPROC
+ntprint_ordinal1 equ <__imp_ntprint_ordinal1>

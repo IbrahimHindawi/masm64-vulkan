@@ -1,0 +1,215 @@
+externdef __imp_ClusWorkerCheckTerminate:PPROC
+ClusWorkerCheckTerminate equ <__imp_ClusWorkerCheckTerminate>
+
+externdef __imp_ClusWorkerCreate:PPROC
+ClusWorkerCreate equ <__imp_ClusWorkerCreate>
+
+externdef __imp_ClusWorkerStart:PPROC
+ClusWorkerStart equ <__imp_ClusWorkerStart>
+
+externdef __imp_ClusWorkerTerminate:PPROC
+ClusWorkerTerminate equ <__imp_ClusWorkerTerminate>
+
+externdef __imp_ResUtilAddUnknownProperties:PPROC
+ResUtilAddUnknownProperties equ <__imp_ResUtilAddUnknownProperties>
+
+externdef __imp_ResUtilCreateDirectoryTree:PPROC
+ResUtilCreateDirectoryTree equ <__imp_ResUtilCreateDirectoryTree>
+
+externdef __imp_ResUtilDupParameterBlock:PPROC
+ResUtilDupParameterBlock equ <__imp_ResUtilDupParameterBlock>
+
+externdef __imp_ResUtilDupString:PPROC
+ResUtilDupString equ <__imp_ResUtilDupString>
+
+externdef __imp_ResUtilEnumPrivateProperties:PPROC
+ResUtilEnumPrivateProperties equ <__imp_ResUtilEnumPrivateProperties>
+
+externdef __imp_ResUtilEnumProperties:PPROC
+ResUtilEnumProperties equ <__imp_ResUtilEnumProperties>
+
+externdef __imp_ResUtilEnumResources:PPROC
+ResUtilEnumResources equ <__imp_ResUtilEnumResources>
+
+externdef __imp_ResUtilEnumResourcesEx:PPROC
+ResUtilEnumResourcesEx equ <__imp_ResUtilEnumResourcesEx>
+
+externdef __imp_ResUtilExpandEnvironmentStrings:PPROC
+ResUtilExpandEnvironmentStrings equ <__imp_ResUtilExpandEnvironmentStrings>
+
+externdef __imp_ResUtilFindBinaryProperty:PPROC
+ResUtilFindBinaryProperty equ <__imp_ResUtilFindBinaryProperty>
+
+externdef __imp_ResUtilFindDependentDiskResourceDriveLetter:PPROC
+ResUtilFindDependentDiskResourceDriveLetter equ <__imp_ResUtilFindDependentDiskResourceDriveLetter>
+
+externdef __imp_ResUtilFindDwordProperty:PPROC
+ResUtilFindDwordProperty equ <__imp_ResUtilFindDwordProperty>
+
+externdef __imp_ResUtilFindExpandSzProperty:PPROC
+ResUtilFindExpandSzProperty equ <__imp_ResUtilFindExpandSzProperty>
+
+externdef __imp_ResUtilFindExpandedSzProperty:PPROC
+ResUtilFindExpandedSzProperty equ <__imp_ResUtilFindExpandedSzProperty>
+
+externdef __imp_ResUtilFindLongProperty:PPROC
+ResUtilFindLongProperty equ <__imp_ResUtilFindLongProperty>
+
+externdef __imp_ResUtilFindMultiSzProperty:PPROC
+ResUtilFindMultiSzProperty equ <__imp_ResUtilFindMultiSzProperty>
+
+externdef __imp_ResUtilFindSzProperty:PPROC
+ResUtilFindSzProperty equ <__imp_ResUtilFindSzProperty>
+
+externdef __imp_ResUtilFreeEnvironment:PPROC
+ResUtilFreeEnvironment equ <__imp_ResUtilFreeEnvironment>
+
+externdef __imp_ResUtilFreeParameterBlock:PPROC
+ResUtilFreeParameterBlock equ <__imp_ResUtilFreeParameterBlock>
+
+externdef __imp_ResUtilGetAllProperties:PPROC
+ResUtilGetAllProperties equ <__imp_ResUtilGetAllProperties>
+
+externdef __imp_ResUtilGetBinaryProperty:PPROC
+ResUtilGetBinaryProperty equ <__imp_ResUtilGetBinaryProperty>
+
+externdef __imp_ResUtilGetBinaryValue:PPROC
+ResUtilGetBinaryValue equ <__imp_ResUtilGetBinaryValue>
+
+externdef __imp_ResUtilGetCoreClusterResources:PPROC
+ResUtilGetCoreClusterResources equ <__imp_ResUtilGetCoreClusterResources>
+
+externdef __imp_ResUtilGetDwordProperty:PPROC
+ResUtilGetDwordProperty equ <__imp_ResUtilGetDwordProperty>
+
+externdef __imp_ResUtilGetDwordValue:PPROC
+ResUtilGetDwordValue equ <__imp_ResUtilGetDwordValue>
+
+externdef __imp_ResUtilGetEnvironmentWithNetName:PPROC
+ResUtilGetEnvironmentWithNetName equ <__imp_ResUtilGetEnvironmentWithNetName>
+
+externdef __imp_ResUtilGetMultiSzProperty:PPROC
+ResUtilGetMultiSzProperty equ <__imp_ResUtilGetMultiSzProperty>
+
+externdef __imp_ResUtilGetPrivateProperties:PPROC
+ResUtilGetPrivateProperties equ <__imp_ResUtilGetPrivateProperties>
+
+externdef __imp_ResUtilGetProperties:PPROC
+ResUtilGetProperties equ <__imp_ResUtilGetProperties>
+
+externdef __imp_ResUtilGetPropertiesToParameterBlock:PPROC
+ResUtilGetPropertiesToParameterBlock equ <__imp_ResUtilGetPropertiesToParameterBlock>
+
+externdef __imp_ResUtilGetProperty:PPROC
+ResUtilGetProperty equ <__imp_ResUtilGetProperty>
+
+externdef __imp_ResUtilGetPropertyFormats:PPROC
+ResUtilGetPropertyFormats equ <__imp_ResUtilGetPropertyFormats>
+
+externdef __imp_ResUtilGetPropertySize:PPROC
+ResUtilGetPropertySize equ <__imp_ResUtilGetPropertySize>
+
+externdef __imp_ResUtilGetResourceDependency:PPROC
+ResUtilGetResourceDependency equ <__imp_ResUtilGetResourceDependency>
+
+externdef __imp_ResUtilGetResourceDependencyByClass:PPROC
+ResUtilGetResourceDependencyByClass equ <__imp_ResUtilGetResourceDependencyByClass>
+
+externdef __imp_ResUtilGetResourceDependencyByName:PPROC
+ResUtilGetResourceDependencyByName equ <__imp_ResUtilGetResourceDependencyByName>
+
+externdef __imp_ResUtilGetResourceDependentIPAddressProps:PPROC
+ResUtilGetResourceDependentIPAddressProps equ <__imp_ResUtilGetResourceDependentIPAddressProps>
+
+externdef __imp_ResUtilGetResourceName:PPROC
+ResUtilGetResourceName equ <__imp_ResUtilGetResourceName>
+
+externdef __imp_ResUtilGetResourceNameDependency:PPROC
+ResUtilGetResourceNameDependency equ <__imp_ResUtilGetResourceNameDependency>
+
+externdef __imp_ResUtilGetSzProperty:PPROC
+ResUtilGetSzProperty equ <__imp_ResUtilGetSzProperty>
+
+externdef __imp_ResUtilGetSzValue:PPROC
+ResUtilGetSzValue equ <__imp_ResUtilGetSzValue>
+
+externdef __imp_ResUtilIsPathValid:PPROC
+ResUtilIsPathValid equ <__imp_ResUtilIsPathValid>
+
+externdef __imp_ResUtilIsResourceClassEqual:PPROC
+ResUtilIsResourceClassEqual equ <__imp_ResUtilIsResourceClassEqual>
+
+externdef __imp_ResUtilPropertyListFromParameterBlock:PPROC
+ResUtilPropertyListFromParameterBlock equ <__imp_ResUtilPropertyListFromParameterBlock>
+
+externdef __imp_ResUtilRemoveResourceServiceEnvironment:PPROC
+ResUtilRemoveResourceServiceEnvironment equ <__imp_ResUtilRemoveResourceServiceEnvironment>
+
+externdef __imp_ResUtilResourceTypesEqual:PPROC
+ResUtilResourceTypesEqual equ <__imp_ResUtilResourceTypesEqual>
+
+externdef __imp_ResUtilResourcesEqual:PPROC
+ResUtilResourcesEqual equ <__imp_ResUtilResourcesEqual>
+
+externdef __imp_ResUtilSetBinaryValue:PPROC
+ResUtilSetBinaryValue equ <__imp_ResUtilSetBinaryValue>
+
+externdef __imp_ResUtilSetDwordValue:PPROC
+ResUtilSetDwordValue equ <__imp_ResUtilSetDwordValue>
+
+externdef __imp_ResUtilSetExpandSzValue:PPROC
+ResUtilSetExpandSzValue equ <__imp_ResUtilSetExpandSzValue>
+
+externdef __imp_ResUtilSetMultiSzValue:PPROC
+ResUtilSetMultiSzValue equ <__imp_ResUtilSetMultiSzValue>
+
+externdef __imp_ResUtilSetPrivatePropertyList:PPROC
+ResUtilSetPrivatePropertyList equ <__imp_ResUtilSetPrivatePropertyList>
+
+externdef __imp_ResUtilSetPropertyParameterBlock:PPROC
+ResUtilSetPropertyParameterBlock equ <__imp_ResUtilSetPropertyParameterBlock>
+
+externdef __imp_ResUtilSetPropertyParameterBlockEx:PPROC
+ResUtilSetPropertyParameterBlockEx equ <__imp_ResUtilSetPropertyParameterBlockEx>
+
+externdef __imp_ResUtilSetPropertyTable:PPROC
+ResUtilSetPropertyTable equ <__imp_ResUtilSetPropertyTable>
+
+externdef __imp_ResUtilSetPropertyTableEx:PPROC
+ResUtilSetPropertyTableEx equ <__imp_ResUtilSetPropertyTableEx>
+
+externdef __imp_ResUtilSetResourceServiceEnvironment:PPROC
+ResUtilSetResourceServiceEnvironment equ <__imp_ResUtilSetResourceServiceEnvironment>
+
+externdef __imp_ResUtilSetResourceServiceStartParameters:PPROC
+ResUtilSetResourceServiceStartParameters equ <__imp_ResUtilSetResourceServiceStartParameters>
+
+externdef __imp_ResUtilSetSzValue:PPROC
+ResUtilSetSzValue equ <__imp_ResUtilSetSzValue>
+
+externdef __imp_ResUtilSetUnknownProperties:PPROC
+ResUtilSetUnknownProperties equ <__imp_ResUtilSetUnknownProperties>
+
+externdef __imp_ResUtilStartResourceService:PPROC
+ResUtilStartResourceService equ <__imp_ResUtilStartResourceService>
+
+externdef __imp_ResUtilStopResourceService:PPROC
+ResUtilStopResourceService equ <__imp_ResUtilStopResourceService>
+
+externdef __imp_ResUtilStopService:PPROC
+ResUtilStopService equ <__imp_ResUtilStopService>
+
+externdef __imp_ResUtilTerminateServiceProcessFromResDll:PPROC
+ResUtilTerminateServiceProcessFromResDll equ <__imp_ResUtilTerminateServiceProcessFromResDll>
+
+externdef __imp_ResUtilVerifyPrivatePropertyList:PPROC
+ResUtilVerifyPrivatePropertyList equ <__imp_ResUtilVerifyPrivatePropertyList>
+
+externdef __imp_ResUtilVerifyPropertyTable:PPROC
+ResUtilVerifyPropertyTable equ <__imp_ResUtilVerifyPropertyTable>
+
+externdef __imp_ResUtilVerifyResourceService:PPROC
+ResUtilVerifyResourceService equ <__imp_ResUtilVerifyResourceService>
+
+externdef __imp_ResUtilVerifyService:PPROC
+ResUtilVerifyService equ <__imp_ResUtilVerifyService>

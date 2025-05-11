@@ -1,0 +1,92 @@
+externdef __imp_RegisterTicketExpiredNotificationEvent:PPROC
+RegisterTicketExpiredNotificationEvent equ <__imp_RegisterTicketExpiredNotificationEvent>
+
+externdef __imp_SCardResumeCertProp:PPROC
+SCardResumeCertProp equ <__imp_SCardResumeCertProp>
+
+externdef __imp_SCardStartCertProp:PPROC
+SCardStartCertProp equ <__imp_SCardStartCertProp>
+
+externdef __imp_SCardStopCertProp:PPROC
+SCardStopCertProp equ <__imp_SCardStopCertProp>
+
+externdef __imp_SCardSuspendCertProp:PPROC
+SCardSuspendCertProp equ <__imp_SCardSuspendCertProp>
+
+externdef __imp_SchedEventLogOff:PPROC
+SchedEventLogOff equ <__imp_SchedEventLogOff>
+
+externdef __imp_SchedStartShell:PPROC
+SchedStartShell equ <__imp_SchedStartShell>
+
+externdef __imp_SensDisconnectEvent:PPROC
+SensDisconnectEvent equ <__imp_SensDisconnectEvent>
+
+externdef __imp_SensLockEvent:PPROC
+SensLockEvent equ <__imp_SensLockEvent>
+
+externdef __imp_SensLogoffEvent:PPROC
+SensLogoffEvent equ <__imp_SensLogoffEvent>
+
+externdef __imp_SensLogonEvent:PPROC
+SensLogonEvent equ <__imp_SensLogonEvent>
+
+externdef __imp_SensPostShellEvent:PPROC
+SensPostShellEvent equ <__imp_SensPostShellEvent>
+
+externdef __imp_SensReconnectEvent:PPROC
+SensReconnectEvent equ <__imp_SensReconnectEvent>
+
+externdef __imp_SensShutdownEvent:PPROC
+SensShutdownEvent equ <__imp_SensShutdownEvent>
+
+externdef __imp_SensStartScreenSaverEvent:PPROC
+SensStartScreenSaverEvent equ <__imp_SensStartScreenSaverEvent>
+
+externdef __imp_SensStartShellEvent:PPROC
+SensStartShellEvent equ <__imp_SensStartShellEvent>
+
+externdef __imp_SensStartupEvent:PPROC
+SensStartupEvent equ <__imp_SensStartupEvent>
+
+externdef __imp_SensStopScreenSaverEvent:PPROC
+SensStopScreenSaverEvent equ <__imp_SensStopScreenSaverEvent>
+
+externdef __imp_SensUnlockEvent:PPROC
+SensUnlockEvent equ <__imp_SensUnlockEvent>
+
+externdef __imp_ShowNotificationBalloonW:PPROC
+ShowNotificationBalloonW equ <__imp_ShowNotificationBalloonW>
+  IFDEF __UNICODE__
+    ShowNotificationBalloon equ <__imp_ShowNotificationBalloonW>
+  ENDIF
+
+externdef __imp_TSEventDisconnect:PPROC
+TSEventDisconnect equ <__imp_TSEventDisconnect>
+
+externdef __imp_TSEventLogoff:PPROC
+TSEventLogoff equ <__imp_TSEventLogoff>
+
+externdef __imp_TSEventLogon:PPROC
+TSEventLogon equ <__imp_TSEventLogon>
+
+externdef __imp_TSEventPostShell:PPROC
+TSEventPostShell equ <__imp_TSEventPostShell>
+
+externdef __imp_TSEventReconnect:PPROC
+TSEventReconnect equ <__imp_TSEventReconnect>
+
+externdef __imp_TSEventShutdown:PPROC
+TSEventShutdown equ <__imp_TSEventShutdown>
+
+externdef __imp_TSEventStartShell:PPROC
+TSEventStartShell equ <__imp_TSEventStartShell>
+
+externdef __imp_TSEventStartup:PPROC
+TSEventStartup equ <__imp_TSEventStartup>
+
+externdef __imp_TermsrvCreateTempDir:PPROC
+TermsrvCreateTempDir equ <__imp_TermsrvCreateTempDir>
+
+externdef __imp_UnregisterTicketExpiredNotificationEvent:PPROC
+UnregisterTicketExpiredNotificationEvent equ <__imp_UnregisterTicketExpiredNotificationEvent>

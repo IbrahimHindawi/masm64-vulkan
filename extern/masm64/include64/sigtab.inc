@@ -1,0 +1,2 @@
+externdef __imp_DriverSigningDialog:PPROC
+DriverSigningDialog equ <__imp_DriverSigningDialog>

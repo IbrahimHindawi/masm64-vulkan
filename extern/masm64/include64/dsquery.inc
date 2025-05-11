@@ -1,0 +1,800 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllInstall:PPROC
+DllInstall equ <__imp_DllInstall>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_OpenQueryWindow:PPROC
+OpenQueryWindow equ <__imp_OpenQueryWindow>
+
+externdef __imp_OpenSavedDsQuery:PPROC
+OpenSavedDsQuery equ <__imp_OpenSavedDsQuery>
+
+externdef __imp_OpenSavedDsQueryW:PPROC
+OpenSavedDsQueryW equ <__imp_OpenSavedDsQueryW>
+  IFDEF __UNICODE__
+    OpenSavedDsQuery equ <__imp_OpenSavedDsQueryW>
+  ENDIF
+
+externdef __imp_dsquery_ordinal264:PPROC
+dsquery_ordinal264 equ <__imp_dsquery_ordinal264>
+
+externdef __imp_dsquery_ordinal265:PPROC
+dsquery_ordinal265 equ <__imp_dsquery_ordinal265>
+
+externdef __imp_dsquery_ordinal266:PPROC
+dsquery_ordinal266 equ <__imp_dsquery_ordinal266>
+
+externdef __imp_dsquery_ordinal267:PPROC
+dsquery_ordinal267 equ <__imp_dsquery_ordinal267>
+
+externdef __imp_dsquery_ordinal268:PPROC
+dsquery_ordinal268 equ <__imp_dsquery_ordinal268>
+
+externdef __imp_dsquery_ordinal269:PPROC
+dsquery_ordinal269 equ <__imp_dsquery_ordinal269>
+
+externdef __imp_dsquery_ordinal270:PPROC
+dsquery_ordinal270 equ <__imp_dsquery_ordinal270>
+
+externdef __imp_dsquery_ordinal271:PPROC
+dsquery_ordinal271 equ <__imp_dsquery_ordinal271>
+
+externdef __imp_dsquery_ordinal272:PPROC
+dsquery_ordinal272 equ <__imp_dsquery_ordinal272>
+
+externdef __imp_dsquery_ordinal273:PPROC
+dsquery_ordinal273 equ <__imp_dsquery_ordinal273>
+
+externdef __imp_dsquery_ordinal274:PPROC
+dsquery_ordinal274 equ <__imp_dsquery_ordinal274>
+
+externdef __imp_dsquery_ordinal275:PPROC
+dsquery_ordinal275 equ <__imp_dsquery_ordinal275>
+
+externdef __imp_dsquery_ordinal276:PPROC
+dsquery_ordinal276 equ <__imp_dsquery_ordinal276>
+
+externdef __imp_dsquery_ordinal277:PPROC
+dsquery_ordinal277 equ <__imp_dsquery_ordinal277>
+
+externdef __imp_dsquery_ordinal278:PPROC
+dsquery_ordinal278 equ <__imp_dsquery_ordinal278>
+
+externdef __imp_dsquery_ordinal279:PPROC
+dsquery_ordinal279 equ <__imp_dsquery_ordinal279>
+
+externdef __imp_dsquery_ordinal280:PPROC
+dsquery_ordinal280 equ <__imp_dsquery_ordinal280>
+
+externdef __imp_dsquery_ordinal281:PPROC
+dsquery_ordinal281 equ <__imp_dsquery_ordinal281>
+
+externdef __imp_dsquery_ordinal282:PPROC
+dsquery_ordinal282 equ <__imp_dsquery_ordinal282>
+
+externdef __imp_dsquery_ordinal283:PPROC
+dsquery_ordinal283 equ <__imp_dsquery_ordinal283>
+
+externdef __imp_dsquery_ordinal284:PPROC
+dsquery_ordinal284 equ <__imp_dsquery_ordinal284>
+
+externdef __imp_dsquery_ordinal285:PPROC
+dsquery_ordinal285 equ <__imp_dsquery_ordinal285>
+
+externdef __imp_dsquery_ordinal286:PPROC
+dsquery_ordinal286 equ <__imp_dsquery_ordinal286>
+
+externdef __imp_dsquery_ordinal287:PPROC
+dsquery_ordinal287 equ <__imp_dsquery_ordinal287>
+
+externdef __imp_dsquery_ordinal288:PPROC
+dsquery_ordinal288 equ <__imp_dsquery_ordinal288>
+
+externdef __imp_dsquery_ordinal289:PPROC
+dsquery_ordinal289 equ <__imp_dsquery_ordinal289>
+
+externdef __imp_dsquery_ordinal290:PPROC
+dsquery_ordinal290 equ <__imp_dsquery_ordinal290>
+
+externdef __imp_dsquery_ordinal291:PPROC
+dsquery_ordinal291 equ <__imp_dsquery_ordinal291>
+
+externdef __imp_dsquery_ordinal292:PPROC
+dsquery_ordinal292 equ <__imp_dsquery_ordinal292>
+
+externdef __imp_dsquery_ordinal293:PPROC
+dsquery_ordinal293 equ <__imp_dsquery_ordinal293>
+
+externdef __imp_dsquery_ordinal294:PPROC
+dsquery_ordinal294 equ <__imp_dsquery_ordinal294>
+
+externdef __imp_dsquery_ordinal295:PPROC
+dsquery_ordinal295 equ <__imp_dsquery_ordinal295>
+
+externdef __imp_dsquery_ordinal296:PPROC
+dsquery_ordinal296 equ <__imp_dsquery_ordinal296>
+
+externdef __imp_dsquery_ordinal297:PPROC
+dsquery_ordinal297 equ <__imp_dsquery_ordinal297>
+
+externdef __imp_dsquery_ordinal298:PPROC
+dsquery_ordinal298 equ <__imp_dsquery_ordinal298>
+
+externdef __imp_dsquery_ordinal299:PPROC
+dsquery_ordinal299 equ <__imp_dsquery_ordinal299>
+
+externdef __imp_dsquery_ordinal300:PPROC
+dsquery_ordinal300 equ <__imp_dsquery_ordinal300>
+
+externdef __imp_dsquery_ordinal301:PPROC
+dsquery_ordinal301 equ <__imp_dsquery_ordinal301>
+
+externdef __imp_dsquery_ordinal302:PPROC
+dsquery_ordinal302 equ <__imp_dsquery_ordinal302>
+
+externdef __imp_dsquery_ordinal303:PPROC
+dsquery_ordinal303 equ <__imp_dsquery_ordinal303>
+
+externdef __imp_dsquery_ordinal304:PPROC
+dsquery_ordinal304 equ <__imp_dsquery_ordinal304>
+
+externdef __imp_dsquery_ordinal305:PPROC
+dsquery_ordinal305 equ <__imp_dsquery_ordinal305>
+
+externdef __imp_dsquery_ordinal306:PPROC
+dsquery_ordinal306 equ <__imp_dsquery_ordinal306>
+
+externdef __imp_dsquery_ordinal307:PPROC
+dsquery_ordinal307 equ <__imp_dsquery_ordinal307>
+
+externdef __imp_dsquery_ordinal308:PPROC
+dsquery_ordinal308 equ <__imp_dsquery_ordinal308>
+
+externdef __imp_dsquery_ordinal309:PPROC
+dsquery_ordinal309 equ <__imp_dsquery_ordinal309>
+
+externdef __imp_dsquery_ordinal310:PPROC
+dsquery_ordinal310 equ <__imp_dsquery_ordinal310>
+
+externdef __imp_dsquery_ordinal311:PPROC
+dsquery_ordinal311 equ <__imp_dsquery_ordinal311>
+
+externdef __imp_dsquery_ordinal312:PPROC
+dsquery_ordinal312 equ <__imp_dsquery_ordinal312>
+
+externdef __imp_dsquery_ordinal313:PPROC
+dsquery_ordinal313 equ <__imp_dsquery_ordinal313>
+
+externdef __imp_dsquery_ordinal314:PPROC
+dsquery_ordinal314 equ <__imp_dsquery_ordinal314>
+
+externdef __imp_dsquery_ordinal315:PPROC
+dsquery_ordinal315 equ <__imp_dsquery_ordinal315>
+
+externdef __imp_dsquery_ordinal316:PPROC
+dsquery_ordinal316 equ <__imp_dsquery_ordinal316>
+
+externdef __imp_dsquery_ordinal317:PPROC
+dsquery_ordinal317 equ <__imp_dsquery_ordinal317>
+
+externdef __imp_dsquery_ordinal318:PPROC
+dsquery_ordinal318 equ <__imp_dsquery_ordinal318>
+
+externdef __imp_dsquery_ordinal319:PPROC
+dsquery_ordinal319 equ <__imp_dsquery_ordinal319>
+
+externdef __imp_dsquery_ordinal320:PPROC
+dsquery_ordinal320 equ <__imp_dsquery_ordinal320>
+
+externdef __imp_dsquery_ordinal321:PPROC
+dsquery_ordinal321 equ <__imp_dsquery_ordinal321>
+
+externdef __imp_dsquery_ordinal322:PPROC
+dsquery_ordinal322 equ <__imp_dsquery_ordinal322>
+
+externdef __imp_dsquery_ordinal323:PPROC
+dsquery_ordinal323 equ <__imp_dsquery_ordinal323>
+
+externdef __imp_dsquery_ordinal324:PPROC
+dsquery_ordinal324 equ <__imp_dsquery_ordinal324>
+
+externdef __imp_dsquery_ordinal325:PPROC
+dsquery_ordinal325 equ <__imp_dsquery_ordinal325>
+
+externdef __imp_dsquery_ordinal326:PPROC
+dsquery_ordinal326 equ <__imp_dsquery_ordinal326>
+
+externdef __imp_dsquery_ordinal327:PPROC
+dsquery_ordinal327 equ <__imp_dsquery_ordinal327>
+
+externdef __imp_dsquery_ordinal328:PPROC
+dsquery_ordinal328 equ <__imp_dsquery_ordinal328>
+
+externdef __imp_dsquery_ordinal329:PPROC
+dsquery_ordinal329 equ <__imp_dsquery_ordinal329>
+
+externdef __imp_dsquery_ordinal330:PPROC
+dsquery_ordinal330 equ <__imp_dsquery_ordinal330>
+
+externdef __imp_dsquery_ordinal331:PPROC
+dsquery_ordinal331 equ <__imp_dsquery_ordinal331>
+
+externdef __imp_dsquery_ordinal332:PPROC
+dsquery_ordinal332 equ <__imp_dsquery_ordinal332>
+
+externdef __imp_dsquery_ordinal333:PPROC
+dsquery_ordinal333 equ <__imp_dsquery_ordinal333>
+
+externdef __imp_dsquery_ordinal334:PPROC
+dsquery_ordinal334 equ <__imp_dsquery_ordinal334>
+
+externdef __imp_dsquery_ordinal335:PPROC
+dsquery_ordinal335 equ <__imp_dsquery_ordinal335>
+
+externdef __imp_dsquery_ordinal336:PPROC
+dsquery_ordinal336 equ <__imp_dsquery_ordinal336>
+
+externdef __imp_dsquery_ordinal337:PPROC
+dsquery_ordinal337 equ <__imp_dsquery_ordinal337>
+
+externdef __imp_dsquery_ordinal338:PPROC
+dsquery_ordinal338 equ <__imp_dsquery_ordinal338>
+
+externdef __imp_dsquery_ordinal339:PPROC
+dsquery_ordinal339 equ <__imp_dsquery_ordinal339>
+
+externdef __imp_dsquery_ordinal340:PPROC
+dsquery_ordinal340 equ <__imp_dsquery_ordinal340>
+
+externdef __imp_dsquery_ordinal341:PPROC
+dsquery_ordinal341 equ <__imp_dsquery_ordinal341>
+
+externdef __imp_dsquery_ordinal342:PPROC
+dsquery_ordinal342 equ <__imp_dsquery_ordinal342>
+
+externdef __imp_dsquery_ordinal343:PPROC
+dsquery_ordinal343 equ <__imp_dsquery_ordinal343>
+
+externdef __imp_dsquery_ordinal344:PPROC
+dsquery_ordinal344 equ <__imp_dsquery_ordinal344>
+
+externdef __imp_dsquery_ordinal345:PPROC
+dsquery_ordinal345 equ <__imp_dsquery_ordinal345>
+
+externdef __imp_dsquery_ordinal346:PPROC
+dsquery_ordinal346 equ <__imp_dsquery_ordinal346>
+
+externdef __imp_dsquery_ordinal347:PPROC
+dsquery_ordinal347 equ <__imp_dsquery_ordinal347>
+
+externdef __imp_dsquery_ordinal348:PPROC
+dsquery_ordinal348 equ <__imp_dsquery_ordinal348>
+
+externdef __imp_dsquery_ordinal349:PPROC
+dsquery_ordinal349 equ <__imp_dsquery_ordinal349>
+
+externdef __imp_dsquery_ordinal350:PPROC
+dsquery_ordinal350 equ <__imp_dsquery_ordinal350>
+
+externdef __imp_dsquery_ordinal351:PPROC
+dsquery_ordinal351 equ <__imp_dsquery_ordinal351>
+
+externdef __imp_dsquery_ordinal352:PPROC
+dsquery_ordinal352 equ <__imp_dsquery_ordinal352>
+
+externdef __imp_dsquery_ordinal353:PPROC
+dsquery_ordinal353 equ <__imp_dsquery_ordinal353>
+
+externdef __imp_dsquery_ordinal354:PPROC
+dsquery_ordinal354 equ <__imp_dsquery_ordinal354>
+
+externdef __imp_dsquery_ordinal355:PPROC
+dsquery_ordinal355 equ <__imp_dsquery_ordinal355>
+
+externdef __imp_dsquery_ordinal356:PPROC
+dsquery_ordinal356 equ <__imp_dsquery_ordinal356>
+
+externdef __imp_dsquery_ordinal357:PPROC
+dsquery_ordinal357 equ <__imp_dsquery_ordinal357>
+
+externdef __imp_dsquery_ordinal358:PPROC
+dsquery_ordinal358 equ <__imp_dsquery_ordinal358>
+
+externdef __imp_dsquery_ordinal359:PPROC
+dsquery_ordinal359 equ <__imp_dsquery_ordinal359>
+
+externdef __imp_dsquery_ordinal360:PPROC
+dsquery_ordinal360 equ <__imp_dsquery_ordinal360>
+
+externdef __imp_dsquery_ordinal361:PPROC
+dsquery_ordinal361 equ <__imp_dsquery_ordinal361>
+
+externdef __imp_dsquery_ordinal362:PPROC
+dsquery_ordinal362 equ <__imp_dsquery_ordinal362>
+
+externdef __imp_dsquery_ordinal363:PPROC
+dsquery_ordinal363 equ <__imp_dsquery_ordinal363>
+
+externdef __imp_dsquery_ordinal364:PPROC
+dsquery_ordinal364 equ <__imp_dsquery_ordinal364>
+
+externdef __imp_dsquery_ordinal365:PPROC
+dsquery_ordinal365 equ <__imp_dsquery_ordinal365>
+
+externdef __imp_dsquery_ordinal366:PPROC
+dsquery_ordinal366 equ <__imp_dsquery_ordinal366>
+
+externdef __imp_dsquery_ordinal367:PPROC
+dsquery_ordinal367 equ <__imp_dsquery_ordinal367>
+
+externdef __imp_dsquery_ordinal368:PPROC
+dsquery_ordinal368 equ <__imp_dsquery_ordinal368>
+
+externdef __imp_dsquery_ordinal369:PPROC
+dsquery_ordinal369 equ <__imp_dsquery_ordinal369>
+
+externdef __imp_dsquery_ordinal370:PPROC
+dsquery_ordinal370 equ <__imp_dsquery_ordinal370>
+
+externdef __imp_dsquery_ordinal371:PPROC
+dsquery_ordinal371 equ <__imp_dsquery_ordinal371>
+
+externdef __imp_dsquery_ordinal372:PPROC
+dsquery_ordinal372 equ <__imp_dsquery_ordinal372>
+
+externdef __imp_dsquery_ordinal373:PPROC
+dsquery_ordinal373 equ <__imp_dsquery_ordinal373>
+
+externdef __imp_dsquery_ordinal374:PPROC
+dsquery_ordinal374 equ <__imp_dsquery_ordinal374>
+
+externdef __imp_dsquery_ordinal375:PPROC
+dsquery_ordinal375 equ <__imp_dsquery_ordinal375>
+
+externdef __imp_dsquery_ordinal376:PPROC
+dsquery_ordinal376 equ <__imp_dsquery_ordinal376>
+
+externdef __imp_dsquery_ordinal377:PPROC
+dsquery_ordinal377 equ <__imp_dsquery_ordinal377>
+
+externdef __imp_dsquery_ordinal378:PPROC
+dsquery_ordinal378 equ <__imp_dsquery_ordinal378>
+
+externdef __imp_dsquery_ordinal379:PPROC
+dsquery_ordinal379 equ <__imp_dsquery_ordinal379>
+
+externdef __imp_dsquery_ordinal380:PPROC
+dsquery_ordinal380 equ <__imp_dsquery_ordinal380>
+
+externdef __imp_dsquery_ordinal381:PPROC
+dsquery_ordinal381 equ <__imp_dsquery_ordinal381>
+
+externdef __imp_dsquery_ordinal382:PPROC
+dsquery_ordinal382 equ <__imp_dsquery_ordinal382>
+
+externdef __imp_dsquery_ordinal383:PPROC
+dsquery_ordinal383 equ <__imp_dsquery_ordinal383>
+
+externdef __imp_dsquery_ordinal384:PPROC
+dsquery_ordinal384 equ <__imp_dsquery_ordinal384>
+
+externdef __imp_dsquery_ordinal385:PPROC
+dsquery_ordinal385 equ <__imp_dsquery_ordinal385>
+
+externdef __imp_dsquery_ordinal386:PPROC
+dsquery_ordinal386 equ <__imp_dsquery_ordinal386>
+
+externdef __imp_dsquery_ordinal387:PPROC
+dsquery_ordinal387 equ <__imp_dsquery_ordinal387>
+
+externdef __imp_dsquery_ordinal388:PPROC
+dsquery_ordinal388 equ <__imp_dsquery_ordinal388>
+
+externdef __imp_dsquery_ordinal389:PPROC
+dsquery_ordinal389 equ <__imp_dsquery_ordinal389>
+
+externdef __imp_dsquery_ordinal390:PPROC
+dsquery_ordinal390 equ <__imp_dsquery_ordinal390>
+
+externdef __imp_dsquery_ordinal391:PPROC
+dsquery_ordinal391 equ <__imp_dsquery_ordinal391>
+
+externdef __imp_dsquery_ordinal392:PPROC
+dsquery_ordinal392 equ <__imp_dsquery_ordinal392>
+
+externdef __imp_dsquery_ordinal393:PPROC
+dsquery_ordinal393 equ <__imp_dsquery_ordinal393>
+
+externdef __imp_dsquery_ordinal394:PPROC
+dsquery_ordinal394 equ <__imp_dsquery_ordinal394>
+
+externdef __imp_dsquery_ordinal395:PPROC
+dsquery_ordinal395 equ <__imp_dsquery_ordinal395>
+
+externdef __imp_dsquery_ordinal396:PPROC
+dsquery_ordinal396 equ <__imp_dsquery_ordinal396>
+
+externdef __imp_dsquery_ordinal397:PPROC
+dsquery_ordinal397 equ <__imp_dsquery_ordinal397>
+
+externdef __imp_dsquery_ordinal398:PPROC
+dsquery_ordinal398 equ <__imp_dsquery_ordinal398>
+
+externdef __imp_dsquery_ordinal399:PPROC
+dsquery_ordinal399 equ <__imp_dsquery_ordinal399>
+
+externdef __imp_dsquery_ordinal400:PPROC
+dsquery_ordinal400 equ <__imp_dsquery_ordinal400>
+
+externdef __imp_dsquery_ordinal401:PPROC
+dsquery_ordinal401 equ <__imp_dsquery_ordinal401>
+
+externdef __imp_dsquery_ordinal402:PPROC
+dsquery_ordinal402 equ <__imp_dsquery_ordinal402>
+
+externdef __imp_dsquery_ordinal403:PPROC
+dsquery_ordinal403 equ <__imp_dsquery_ordinal403>
+
+externdef __imp_dsquery_ordinal404:PPROC
+dsquery_ordinal404 equ <__imp_dsquery_ordinal404>
+
+externdef __imp_dsquery_ordinal405:PPROC
+dsquery_ordinal405 equ <__imp_dsquery_ordinal405>
+
+externdef __imp_dsquery_ordinal406:PPROC
+dsquery_ordinal406 equ <__imp_dsquery_ordinal406>
+
+externdef __imp_dsquery_ordinal407:PPROC
+dsquery_ordinal407 equ <__imp_dsquery_ordinal407>
+
+externdef __imp_dsquery_ordinal408:PPROC
+dsquery_ordinal408 equ <__imp_dsquery_ordinal408>
+
+externdef __imp_dsquery_ordinal409:PPROC
+dsquery_ordinal409 equ <__imp_dsquery_ordinal409>
+
+externdef __imp_dsquery_ordinal410:PPROC
+dsquery_ordinal410 equ <__imp_dsquery_ordinal410>
+
+externdef __imp_dsquery_ordinal411:PPROC
+dsquery_ordinal411 equ <__imp_dsquery_ordinal411>
+
+externdef __imp_dsquery_ordinal412:PPROC
+dsquery_ordinal412 equ <__imp_dsquery_ordinal412>
+
+externdef __imp_dsquery_ordinal413:PPROC
+dsquery_ordinal413 equ <__imp_dsquery_ordinal413>
+
+externdef __imp_dsquery_ordinal414:PPROC
+dsquery_ordinal414 equ <__imp_dsquery_ordinal414>
+
+externdef __imp_dsquery_ordinal415:PPROC
+dsquery_ordinal415 equ <__imp_dsquery_ordinal415>
+
+externdef __imp_dsquery_ordinal416:PPROC
+dsquery_ordinal416 equ <__imp_dsquery_ordinal416>
+
+externdef __imp_dsquery_ordinal417:PPROC
+dsquery_ordinal417 equ <__imp_dsquery_ordinal417>
+
+externdef __imp_dsquery_ordinal418:PPROC
+dsquery_ordinal418 equ <__imp_dsquery_ordinal418>
+
+externdef __imp_dsquery_ordinal419:PPROC
+dsquery_ordinal419 equ <__imp_dsquery_ordinal419>
+
+externdef __imp_dsquery_ordinal420:PPROC
+dsquery_ordinal420 equ <__imp_dsquery_ordinal420>
+
+externdef __imp_dsquery_ordinal421:PPROC
+dsquery_ordinal421 equ <__imp_dsquery_ordinal421>
+
+externdef __imp_dsquery_ordinal422:PPROC
+dsquery_ordinal422 equ <__imp_dsquery_ordinal422>
+
+externdef __imp_dsquery_ordinal423:PPROC
+dsquery_ordinal423 equ <__imp_dsquery_ordinal423>
+
+externdef __imp_dsquery_ordinal424:PPROC
+dsquery_ordinal424 equ <__imp_dsquery_ordinal424>
+
+externdef __imp_dsquery_ordinal425:PPROC
+dsquery_ordinal425 equ <__imp_dsquery_ordinal425>
+
+externdef __imp_dsquery_ordinal426:PPROC
+dsquery_ordinal426 equ <__imp_dsquery_ordinal426>
+
+externdef __imp_dsquery_ordinal427:PPROC
+dsquery_ordinal427 equ <__imp_dsquery_ordinal427>
+
+externdef __imp_dsquery_ordinal428:PPROC
+dsquery_ordinal428 equ <__imp_dsquery_ordinal428>
+
+externdef __imp_dsquery_ordinal429:PPROC
+dsquery_ordinal429 equ <__imp_dsquery_ordinal429>
+
+externdef __imp_dsquery_ordinal430:PPROC
+dsquery_ordinal430 equ <__imp_dsquery_ordinal430>
+
+externdef __imp_dsquery_ordinal431:PPROC
+dsquery_ordinal431 equ <__imp_dsquery_ordinal431>
+
+externdef __imp_dsquery_ordinal432:PPROC
+dsquery_ordinal432 equ <__imp_dsquery_ordinal432>
+
+externdef __imp_dsquery_ordinal433:PPROC
+dsquery_ordinal433 equ <__imp_dsquery_ordinal433>
+
+externdef __imp_dsquery_ordinal434:PPROC
+dsquery_ordinal434 equ <__imp_dsquery_ordinal434>
+
+externdef __imp_dsquery_ordinal435:PPROC
+dsquery_ordinal435 equ <__imp_dsquery_ordinal435>
+
+externdef __imp_dsquery_ordinal436:PPROC
+dsquery_ordinal436 equ <__imp_dsquery_ordinal436>
+
+externdef __imp_dsquery_ordinal437:PPROC
+dsquery_ordinal437 equ <__imp_dsquery_ordinal437>
+
+externdef __imp_dsquery_ordinal438:PPROC
+dsquery_ordinal438 equ <__imp_dsquery_ordinal438>
+
+externdef __imp_dsquery_ordinal439:PPROC
+dsquery_ordinal439 equ <__imp_dsquery_ordinal439>
+
+externdef __imp_dsquery_ordinal440:PPROC
+dsquery_ordinal440 equ <__imp_dsquery_ordinal440>
+
+externdef __imp_dsquery_ordinal441:PPROC
+dsquery_ordinal441 equ <__imp_dsquery_ordinal441>
+
+externdef __imp_dsquery_ordinal442:PPROC
+dsquery_ordinal442 equ <__imp_dsquery_ordinal442>
+
+externdef __imp_dsquery_ordinal443:PPROC
+dsquery_ordinal443 equ <__imp_dsquery_ordinal443>
+
+externdef __imp_dsquery_ordinal444:PPROC
+dsquery_ordinal444 equ <__imp_dsquery_ordinal444>
+
+externdef __imp_dsquery_ordinal445:PPROC
+dsquery_ordinal445 equ <__imp_dsquery_ordinal445>
+
+externdef __imp_dsquery_ordinal446:PPROC
+dsquery_ordinal446 equ <__imp_dsquery_ordinal446>
+
+externdef __imp_dsquery_ordinal447:PPROC
+dsquery_ordinal447 equ <__imp_dsquery_ordinal447>
+
+externdef __imp_dsquery_ordinal448:PPROC
+dsquery_ordinal448 equ <__imp_dsquery_ordinal448>
+
+externdef __imp_dsquery_ordinal449:PPROC
+dsquery_ordinal449 equ <__imp_dsquery_ordinal449>
+
+externdef __imp_dsquery_ordinal450:PPROC
+dsquery_ordinal450 equ <__imp_dsquery_ordinal450>
+
+externdef __imp_dsquery_ordinal451:PPROC
+dsquery_ordinal451 equ <__imp_dsquery_ordinal451>
+
+externdef __imp_dsquery_ordinal452:PPROC
+dsquery_ordinal452 equ <__imp_dsquery_ordinal452>
+
+externdef __imp_dsquery_ordinal453:PPROC
+dsquery_ordinal453 equ <__imp_dsquery_ordinal453>
+
+externdef __imp_dsquery_ordinal454:PPROC
+dsquery_ordinal454 equ <__imp_dsquery_ordinal454>
+
+externdef __imp_dsquery_ordinal455:PPROC
+dsquery_ordinal455 equ <__imp_dsquery_ordinal455>
+
+externdef __imp_dsquery_ordinal456:PPROC
+dsquery_ordinal456 equ <__imp_dsquery_ordinal456>
+
+externdef __imp_dsquery_ordinal457:PPROC
+dsquery_ordinal457 equ <__imp_dsquery_ordinal457>
+
+externdef __imp_dsquery_ordinal458:PPROC
+dsquery_ordinal458 equ <__imp_dsquery_ordinal458>
+
+externdef __imp_dsquery_ordinal459:PPROC
+dsquery_ordinal459 equ <__imp_dsquery_ordinal459>
+
+externdef __imp_dsquery_ordinal460:PPROC
+dsquery_ordinal460 equ <__imp_dsquery_ordinal460>
+
+externdef __imp_dsquery_ordinal461:PPROC
+dsquery_ordinal461 equ <__imp_dsquery_ordinal461>
+
+externdef __imp_dsquery_ordinal462:PPROC
+dsquery_ordinal462 equ <__imp_dsquery_ordinal462>
+
+externdef __imp_dsquery_ordinal463:PPROC
+dsquery_ordinal463 equ <__imp_dsquery_ordinal463>
+
+externdef __imp_dsquery_ordinal464:PPROC
+dsquery_ordinal464 equ <__imp_dsquery_ordinal464>
+
+externdef __imp_dsquery_ordinal465:PPROC
+dsquery_ordinal465 equ <__imp_dsquery_ordinal465>
+
+externdef __imp_dsquery_ordinal466:PPROC
+dsquery_ordinal466 equ <__imp_dsquery_ordinal466>
+
+externdef __imp_dsquery_ordinal467:PPROC
+dsquery_ordinal467 equ <__imp_dsquery_ordinal467>
+
+externdef __imp_dsquery_ordinal468:PPROC
+dsquery_ordinal468 equ <__imp_dsquery_ordinal468>
+
+externdef __imp_dsquery_ordinal469:PPROC
+dsquery_ordinal469 equ <__imp_dsquery_ordinal469>
+
+externdef __imp_dsquery_ordinal470:PPROC
+dsquery_ordinal470 equ <__imp_dsquery_ordinal470>
+
+externdef __imp_dsquery_ordinal471:PPROC
+dsquery_ordinal471 equ <__imp_dsquery_ordinal471>
+
+externdef __imp_dsquery_ordinal472:PPROC
+dsquery_ordinal472 equ <__imp_dsquery_ordinal472>
+
+externdef __imp_dsquery_ordinal473:PPROC
+dsquery_ordinal473 equ <__imp_dsquery_ordinal473>
+
+externdef __imp_dsquery_ordinal474:PPROC
+dsquery_ordinal474 equ <__imp_dsquery_ordinal474>
+
+externdef __imp_dsquery_ordinal475:PPROC
+dsquery_ordinal475 equ <__imp_dsquery_ordinal475>
+
+externdef __imp_dsquery_ordinal476:PPROC
+dsquery_ordinal476 equ <__imp_dsquery_ordinal476>
+
+externdef __imp_dsquery_ordinal477:PPROC
+dsquery_ordinal477 equ <__imp_dsquery_ordinal477>
+
+externdef __imp_dsquery_ordinal478:PPROC
+dsquery_ordinal478 equ <__imp_dsquery_ordinal478>
+
+externdef __imp_dsquery_ordinal479:PPROC
+dsquery_ordinal479 equ <__imp_dsquery_ordinal479>
+
+externdef __imp_dsquery_ordinal480:PPROC
+dsquery_ordinal480 equ <__imp_dsquery_ordinal480>
+
+externdef __imp_dsquery_ordinal481:PPROC
+dsquery_ordinal481 equ <__imp_dsquery_ordinal481>
+
+externdef __imp_dsquery_ordinal482:PPROC
+dsquery_ordinal482 equ <__imp_dsquery_ordinal482>
+
+externdef __imp_dsquery_ordinal483:PPROC
+dsquery_ordinal483 equ <__imp_dsquery_ordinal483>
+
+externdef __imp_dsquery_ordinal484:PPROC
+dsquery_ordinal484 equ <__imp_dsquery_ordinal484>
+
+externdef __imp_dsquery_ordinal485:PPROC
+dsquery_ordinal485 equ <__imp_dsquery_ordinal485>
+
+externdef __imp_dsquery_ordinal486:PPROC
+dsquery_ordinal486 equ <__imp_dsquery_ordinal486>
+
+externdef __imp_dsquery_ordinal487:PPROC
+dsquery_ordinal487 equ <__imp_dsquery_ordinal487>
+
+externdef __imp_dsquery_ordinal488:PPROC
+dsquery_ordinal488 equ <__imp_dsquery_ordinal488>
+
+externdef __imp_dsquery_ordinal489:PPROC
+dsquery_ordinal489 equ <__imp_dsquery_ordinal489>
+
+externdef __imp_dsquery_ordinal490:PPROC
+dsquery_ordinal490 equ <__imp_dsquery_ordinal490>
+
+externdef __imp_dsquery_ordinal491:PPROC
+dsquery_ordinal491 equ <__imp_dsquery_ordinal491>
+
+externdef __imp_dsquery_ordinal492:PPROC
+dsquery_ordinal492 equ <__imp_dsquery_ordinal492>
+
+externdef __imp_dsquery_ordinal493:PPROC
+dsquery_ordinal493 equ <__imp_dsquery_ordinal493>
+
+externdef __imp_dsquery_ordinal494:PPROC
+dsquery_ordinal494 equ <__imp_dsquery_ordinal494>
+
+externdef __imp_dsquery_ordinal495:PPROC
+dsquery_ordinal495 equ <__imp_dsquery_ordinal495>
+
+externdef __imp_dsquery_ordinal496:PPROC
+dsquery_ordinal496 equ <__imp_dsquery_ordinal496>
+
+externdef __imp_dsquery_ordinal497:PPROC
+dsquery_ordinal497 equ <__imp_dsquery_ordinal497>
+
+externdef __imp_dsquery_ordinal498:PPROC
+dsquery_ordinal498 equ <__imp_dsquery_ordinal498>
+
+externdef __imp_dsquery_ordinal499:PPROC
+dsquery_ordinal499 equ <__imp_dsquery_ordinal499>
+
+externdef __imp_dsquery_ordinal500:PPROC
+dsquery_ordinal500 equ <__imp_dsquery_ordinal500>
+
+externdef __imp_dsquery_ordinal501:PPROC
+dsquery_ordinal501 equ <__imp_dsquery_ordinal501>
+
+externdef __imp_dsquery_ordinal502:PPROC
+dsquery_ordinal502 equ <__imp_dsquery_ordinal502>
+
+externdef __imp_dsquery_ordinal503:PPROC
+dsquery_ordinal503 equ <__imp_dsquery_ordinal503>
+
+externdef __imp_dsquery_ordinal504:PPROC
+dsquery_ordinal504 equ <__imp_dsquery_ordinal504>
+
+externdef __imp_dsquery_ordinal505:PPROC
+dsquery_ordinal505 equ <__imp_dsquery_ordinal505>
+
+externdef __imp_dsquery_ordinal506:PPROC
+dsquery_ordinal506 equ <__imp_dsquery_ordinal506>
+
+externdef __imp_dsquery_ordinal507:PPROC
+dsquery_ordinal507 equ <__imp_dsquery_ordinal507>
+
+externdef __imp_dsquery_ordinal508:PPROC
+dsquery_ordinal508 equ <__imp_dsquery_ordinal508>
+
+externdef __imp_dsquery_ordinal509:PPROC
+dsquery_ordinal509 equ <__imp_dsquery_ordinal509>
+
+externdef __imp_dsquery_ordinal510:PPROC
+dsquery_ordinal510 equ <__imp_dsquery_ordinal510>
+
+externdef __imp_dsquery_ordinal511:PPROC
+dsquery_ordinal511 equ <__imp_dsquery_ordinal511>
+
+externdef __imp_dsquery_ordinal512:PPROC
+dsquery_ordinal512 equ <__imp_dsquery_ordinal512>
+
+externdef __imp_dsquery_ordinal513:PPROC
+dsquery_ordinal513 equ <__imp_dsquery_ordinal513>
+
+externdef __imp_dsquery_ordinal514:PPROC
+dsquery_ordinal514 equ <__imp_dsquery_ordinal514>
+
+externdef __imp_dsquery_ordinal515:PPROC
+dsquery_ordinal515 equ <__imp_dsquery_ordinal515>
+
+externdef __imp_dsquery_ordinal516:PPROC
+dsquery_ordinal516 equ <__imp_dsquery_ordinal516>
+
+externdef __imp_dsquery_ordinal517:PPROC
+dsquery_ordinal517 equ <__imp_dsquery_ordinal517>
+
+externdef __imp_dsquery_ordinal518:PPROC
+dsquery_ordinal518 equ <__imp_dsquery_ordinal518>
+
+externdef __imp_dsquery_ordinal519:PPROC
+dsquery_ordinal519 equ <__imp_dsquery_ordinal519>
+
+externdef __imp_dsquery_ordinal520:PPROC
+dsquery_ordinal520 equ <__imp_dsquery_ordinal520>
+
+externdef __imp_dsquery_ordinal521:PPROC
+dsquery_ordinal521 equ <__imp_dsquery_ordinal521>

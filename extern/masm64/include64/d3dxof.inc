@@ -1,0 +1,8 @@
+externdef __imp_DirectXFileCreate:PPROC
+DirectXFileCreate equ <__imp_DirectXFileCreate>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>

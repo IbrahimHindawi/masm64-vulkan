@@ -1,0 +1,41 @@
+externdef __imp_RapArrayLength:PPROC
+RapArrayLength equ <__imp_RapArrayLength>
+
+externdef __imp_RapAsciiToDecimal:PPROC
+RapAsciiToDecimal equ <__imp_RapAsciiToDecimal>
+
+externdef __imp_RapAuxDataCount:PPROC
+RapAuxDataCount equ <__imp_RapAuxDataCount>
+
+externdef __imp_RapAuxDataCountOffset:PPROC
+RapAuxDataCountOffset equ <__imp_RapAuxDataCountOffset>
+
+externdef __imp_RapConvertSingleEntry:PPROC
+RapConvertSingleEntry equ <__imp_RapConvertSingleEntry>
+
+externdef __imp_RapConvertSingleEntryEx:PPROC
+RapConvertSingleEntryEx equ <__imp_RapConvertSingleEntryEx>
+
+externdef __imp_RapExamineDescriptor:PPROC
+RapExamineDescriptor equ <__imp_RapExamineDescriptor>
+
+externdef __imp_RapGetFieldSize:PPROC
+RapGetFieldSize equ <__imp_RapGetFieldSize>
+
+externdef __imp_RapIsValidDescriptorSmb:PPROC
+RapIsValidDescriptorSmb equ <__imp_RapIsValidDescriptorSmb>
+
+externdef __imp_RapLastPointerOffset:PPROC
+RapLastPointerOffset equ <__imp_RapLastPointerOffset>
+
+externdef __imp_RapParmNumDescriptor:PPROC
+RapParmNumDescriptor equ <__imp_RapParmNumDescriptor>
+
+externdef __imp_RapStructureAlignment:PPROC
+RapStructureAlignment equ <__imp_RapStructureAlignment>
+
+externdef __imp_RapStructureSize:PPROC
+RapStructureSize equ <__imp_RapStructureSize>
+
+externdef __imp_RapTotalSize:PPROC
+RapTotalSize equ <__imp_RapTotalSize>

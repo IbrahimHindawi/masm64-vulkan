@@ -1,0 +1,101 @@
+externdef __imp_IcaCdCreateThread:PPROC
+IcaCdCreateThread equ <__imp_IcaCdCreateThread>
+
+externdef __imp_IcaCdIoControl:PPROC
+IcaCdIoControl equ <__imp_IcaCdIoControl>
+
+externdef __imp_IcaCdWaitForMultipleObjects:PPROC
+IcaCdWaitForMultipleObjects equ <__imp_IcaCdWaitForMultipleObjects>
+
+externdef __imp_IcaCdWaitForSingleObject:PPROC
+IcaCdWaitForSingleObject equ <__imp_IcaCdWaitForSingleObject>
+
+externdef __imp_IcaChannelClose:PPROC
+IcaChannelClose equ <__imp_IcaChannelClose>
+
+externdef __imp_IcaChannelIoControl:PPROC
+IcaChannelIoControl equ <__imp_IcaChannelIoControl>
+
+externdef __imp_IcaChannelOpen:PPROC
+IcaChannelOpen equ <__imp_IcaChannelOpen>
+
+externdef __imp_IcaChannelTrace:PPROC
+IcaChannelTrace equ <__imp_IcaChannelTrace>
+
+externdef __imp_IcaClose:PPROC
+IcaClose equ <__imp_IcaClose>
+
+externdef __imp_IcaIoControl:PPROC
+IcaIoControl equ <__imp_IcaIoControl>
+
+externdef __imp_IcaMemoryAllocate:PPROC
+IcaMemoryAllocate equ <__imp_IcaMemoryAllocate>
+
+externdef __imp_IcaMemoryFree:PPROC
+IcaMemoryFree equ <__imp_IcaMemoryFree>
+
+externdef __imp_IcaOpen:PPROC
+IcaOpen equ <__imp_IcaOpen>
+
+externdef __imp_IcaPushConsoleStack:PPROC
+IcaPushConsoleStack equ <__imp_IcaPushConsoleStack>
+
+externdef __imp_IcaStackCallback:PPROC
+IcaStackCallback equ <__imp_IcaStackCallback>
+
+externdef __imp_IcaStackClose:PPROC
+IcaStackClose equ <__imp_IcaStackClose>
+
+externdef __imp_IcaStackConnectionAccept:PPROC
+IcaStackConnectionAccept equ <__imp_IcaStackConnectionAccept>
+
+externdef __imp_IcaStackConnectionClose:PPROC
+IcaStackConnectionClose equ <__imp_IcaStackConnectionClose>
+
+externdef __imp_IcaStackConnectionRequest:PPROC
+IcaStackConnectionRequest equ <__imp_IcaStackConnectionRequest>
+
+externdef __imp_IcaStackConnectionWait:PPROC
+IcaStackConnectionWait equ <__imp_IcaStackConnectionWait>
+
+externdef __imp_IcaStackCreateShadowEndpoint:PPROC
+IcaStackCreateShadowEndpoint equ <__imp_IcaStackCreateShadowEndpoint>
+
+externdef __imp_IcaStackDisconnect:PPROC
+IcaStackDisconnect equ <__imp_IcaStackDisconnect>
+
+externdef __imp_IcaStackIoControl:PPROC
+IcaStackIoControl equ <__imp_IcaStackIoControl>
+
+externdef __imp_IcaStackIoControlNoConnLock:PPROC
+IcaStackIoControlNoConnLock equ <__imp_IcaStackIoControlNoConnLock>
+
+externdef __imp_IcaStackOpen:PPROC
+IcaStackOpen equ <__imp_IcaStackOpen>
+
+externdef __imp_IcaStackQueryLocalAddress:PPROC
+IcaStackQueryLocalAddress equ <__imp_IcaStackQueryLocalAddress>
+
+externdef __imp_IcaStackQueryState:PPROC
+IcaStackQueryState equ <__imp_IcaStackQueryState>
+
+externdef __imp_IcaStackReconnect:PPROC
+IcaStackReconnect equ <__imp_IcaStackReconnect>
+
+externdef __imp_IcaStackTerminate:PPROC
+IcaStackTerminate equ <__imp_IcaStackTerminate>
+
+externdef __imp_IcaStackTrace:PPROC
+IcaStackTrace equ <__imp_IcaStackTrace>
+
+externdef __imp_IcaStackUnlock:PPROC
+IcaStackUnlock equ <__imp_IcaStackUnlock>
+
+externdef __imp_IcaSystemTrace:PPROC
+IcaSystemTrace equ <__imp_IcaSystemTrace>
+
+externdef __imp_IcaTrace:PPROC
+IcaTrace equ <__imp_IcaTrace>
+
+externdef __imp__IcaStackIoControl:PPROC
+_IcaStackIoControl equ <__imp__IcaStackIoControl>

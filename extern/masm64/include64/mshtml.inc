@@ -1,0 +1,56 @@
+externdef __imp_CreateHTMLPropertyPage:PPROC
+CreateHTMLPropertyPage equ <__imp_CreateHTMLPropertyPage>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllEnumClassObjects:PPROC
+DllEnumClassObjects equ <__imp_DllEnumClassObjects>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllInstall:PPROC
+DllInstall equ <__imp_DllInstall>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_MatchExactGetIDsOfNames:PPROC
+MatchExactGetIDsOfNames equ <__imp_MatchExactGetIDsOfNames>
+
+externdef __imp_PrintHTML:PPROC
+PrintHTML equ <__imp_PrintHTML>
+
+externdef __imp_RNIGetCompatibleVersion:PPROC
+RNIGetCompatibleVersion equ <__imp_RNIGetCompatibleVersion>
+
+externdef __imp_RunHTMLApplication:PPROC
+RunHTMLApplication equ <__imp_RunHTMLApplication>
+
+externdef __imp_ShowHTMLDialog:PPROC
+ShowHTMLDialog equ <__imp_ShowHTMLDialog>
+
+externdef __imp_ShowHTMLDialogEx:PPROC
+ShowHTMLDialogEx equ <__imp_ShowHTMLDialogEx>
+
+externdef __imp_ShowModalDialog:PPROC
+ShowModalDialog equ <__imp_ShowModalDialog>
+
+externdef __imp_ShowModelessHTMLDialog:PPROC
+ShowModelessHTMLDialog equ <__imp_ShowModelessHTMLDialog>
+
+externdef __imp_com_ms_osp_ospmrshl_classInit:PPROC
+com_ms_osp_ospmrshl_classInit equ <__imp_com_ms_osp_ospmrshl_classInit>
+
+externdef __imp_com_ms_osp_ospmrshl_copyToExternal64:PPROC
+com_ms_osp_ospmrshl_copyToExternal64 equ <__imp_com_ms_osp_ospmrshl_copyToExternal64>
+
+externdef __imp_com_ms_osp_ospmrshl_releaseByValExternal64:PPROC
+com_ms_osp_ospmrshl_releaseByValExternal64 equ <__imp_com_ms_osp_ospmrshl_releaseByValExternal64>
+
+externdef __imp_com_ms_osp_ospmrshl_toJava64:PPROC
+com_ms_osp_ospmrshl_toJava64 equ <__imp_com_ms_osp_ospmrshl_toJava64>

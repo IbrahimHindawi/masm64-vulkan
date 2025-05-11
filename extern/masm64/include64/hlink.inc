@@ -1,0 +1,95 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_HlinkClone:PPROC
+HlinkClone equ <__imp_HlinkClone>
+
+externdef __imp_HlinkCreateBrowseContext:PPROC
+HlinkCreateBrowseContext equ <__imp_HlinkCreateBrowseContext>
+
+externdef __imp_HlinkCreateExtensionServices:PPROC
+HlinkCreateExtensionServices equ <__imp_HlinkCreateExtensionServices>
+
+externdef __imp_HlinkCreateFromData:PPROC
+HlinkCreateFromData equ <__imp_HlinkCreateFromData>
+
+externdef __imp_HlinkCreateFromMoniker:PPROC
+HlinkCreateFromMoniker equ <__imp_HlinkCreateFromMoniker>
+
+externdef __imp_HlinkCreateFromString:PPROC
+HlinkCreateFromString equ <__imp_HlinkCreateFromString>
+
+externdef __imp_HlinkCreateShortcut:PPROC
+HlinkCreateShortcut equ <__imp_HlinkCreateShortcut>
+
+externdef __imp_HlinkCreateShortcutFromMoniker:PPROC
+HlinkCreateShortcutFromMoniker equ <__imp_HlinkCreateShortcutFromMoniker>
+
+externdef __imp_HlinkCreateShortcutFromString:PPROC
+HlinkCreateShortcutFromString equ <__imp_HlinkCreateShortcutFromString>
+
+externdef __imp_HlinkGetSpecialReference:PPROC
+HlinkGetSpecialReference equ <__imp_HlinkGetSpecialReference>
+
+externdef __imp_HlinkGetValueFromParams:PPROC
+HlinkGetValueFromParams equ <__imp_HlinkGetValueFromParams>
+
+externdef __imp_HlinkIsShortcut:PPROC
+HlinkIsShortcut equ <__imp_HlinkIsShortcut>
+
+externdef __imp_HlinkNavigate:PPROC
+HlinkNavigate equ <__imp_HlinkNavigate>
+
+externdef __imp_HlinkNavigateToStringReference:PPROC
+HlinkNavigateToStringReference equ <__imp_HlinkNavigateToStringReference>
+
+externdef __imp_HlinkOnNavigate:PPROC
+HlinkOnNavigate equ <__imp_HlinkOnNavigate>
+
+externdef __imp_HlinkOnRenameDocument:PPROC
+HlinkOnRenameDocument equ <__imp_HlinkOnRenameDocument>
+
+externdef __imp_HlinkParseDisplayName:PPROC
+HlinkParseDisplayName equ <__imp_HlinkParseDisplayName>
+
+externdef __imp_HlinkPreprocessMoniker:PPROC
+HlinkPreprocessMoniker equ <__imp_HlinkPreprocessMoniker>
+
+externdef __imp_HlinkQueryCreateFromData:PPROC
+HlinkQueryCreateFromData equ <__imp_HlinkQueryCreateFromData>
+
+externdef __imp_HlinkResolveMonikerForData:PPROC
+HlinkResolveMonikerForData equ <__imp_HlinkResolveMonikerForData>
+
+externdef __imp_HlinkResolveShortcut:PPROC
+HlinkResolveShortcut equ <__imp_HlinkResolveShortcut>
+
+externdef __imp_HlinkResolveShortcutToMoniker:PPROC
+HlinkResolveShortcutToMoniker equ <__imp_HlinkResolveShortcutToMoniker>
+
+externdef __imp_HlinkResolveShortcutToString:PPROC
+HlinkResolveShortcutToString equ <__imp_HlinkResolveShortcutToString>
+
+externdef __imp_HlinkResolveStringForData:PPROC
+HlinkResolveStringForData equ <__imp_HlinkResolveStringForData>
+
+externdef __imp_HlinkSetSpecialReference:PPROC
+HlinkSetSpecialReference equ <__imp_HlinkSetSpecialReference>
+
+externdef __imp_HlinkTranslateURL:PPROC
+HlinkTranslateURL equ <__imp_HlinkTranslateURL>
+
+externdef __imp_HlinkUpdateStackItem:PPROC
+HlinkUpdateStackItem equ <__imp_HlinkUpdateStackItem>
+
+externdef __imp_OleSaveToStreamEx:PPROC
+OleSaveToStreamEx equ <__imp_OleSaveToStreamEx>

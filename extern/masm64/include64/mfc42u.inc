@@ -1,0 +1,20663 @@
+externdef __imp_?classCCachedDataPathProperty@CCachedDataPathProperty@@2UCRuntimeClass@@B:PPROC
+?classCCachedDataPathProperty@CCachedDataPathProperty@@2UCRuntimeClass@@B equ <__imp_?classCCachedDataPathProperty@CCachedDataPathProperty@@2UCRuntimeClass@@B>
+
+externdef __imp_?classCDataPathProperty@CDataPathProperty@@2UCRuntimeClass@@B:PPROC
+?classCDataPathProperty@CDataPathProperty@@2UCRuntimeClass@@B equ <__imp_?classCDataPathProperty@CDataPathProperty@@2UCRuntimeClass@@B>
+
+externdef __imp_AfxFreeLibrary:PPROC
+AfxFreeLibrary equ <__imp_AfxFreeLibrary>
+
+externdef __imp_AfxLoadLibrary:PPROC
+AfxLoadLibrary equ <__imp_AfxLoadLibrary>
+
+externdef __imp_AfxLockGlobals:PPROC
+AfxLockGlobals equ <__imp_AfxLockGlobals>
+
+externdef __imp_AfxUnlockGlobals:PPROC
+AfxUnlockGlobals equ <__imp_AfxUnlockGlobals>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_mfc42u_ordinal1000:PPROC
+mfc42u_ordinal1000 equ <__imp_mfc42u_ordinal1000>
+
+externdef __imp_mfc42u_ordinal1001:PPROC
+mfc42u_ordinal1001 equ <__imp_mfc42u_ordinal1001>
+
+externdef __imp_mfc42u_ordinal1002:PPROC
+mfc42u_ordinal1002 equ <__imp_mfc42u_ordinal1002>
+
+externdef __imp_mfc42u_ordinal1003:PPROC
+mfc42u_ordinal1003 equ <__imp_mfc42u_ordinal1003>
+
+externdef __imp_mfc42u_ordinal1004:PPROC
+mfc42u_ordinal1004 equ <__imp_mfc42u_ordinal1004>
+
+externdef __imp_mfc42u_ordinal1005:PPROC
+mfc42u_ordinal1005 equ <__imp_mfc42u_ordinal1005>
+
+externdef __imp_mfc42u_ordinal1006:PPROC
+mfc42u_ordinal1006 equ <__imp_mfc42u_ordinal1006>
+
+externdef __imp_mfc42u_ordinal1007:PPROC
+mfc42u_ordinal1007 equ <__imp_mfc42u_ordinal1007>
+
+externdef __imp_mfc42u_ordinal1008:PPROC
+mfc42u_ordinal1008 equ <__imp_mfc42u_ordinal1008>
+
+externdef __imp_mfc42u_ordinal1009:PPROC
+mfc42u_ordinal1009 equ <__imp_mfc42u_ordinal1009>
+
+externdef __imp_mfc42u_ordinal100:PPROC
+mfc42u_ordinal100 equ <__imp_mfc42u_ordinal100>
+
+externdef __imp_mfc42u_ordinal1010:PPROC
+mfc42u_ordinal1010 equ <__imp_mfc42u_ordinal1010>
+
+externdef __imp_mfc42u_ordinal1011:PPROC
+mfc42u_ordinal1011 equ <__imp_mfc42u_ordinal1011>
+
+externdef __imp_mfc42u_ordinal1012:PPROC
+mfc42u_ordinal1012 equ <__imp_mfc42u_ordinal1012>
+
+externdef __imp_mfc42u_ordinal1013:PPROC
+mfc42u_ordinal1013 equ <__imp_mfc42u_ordinal1013>
+
+externdef __imp_mfc42u_ordinal1014:PPROC
+mfc42u_ordinal1014 equ <__imp_mfc42u_ordinal1014>
+
+externdef __imp_mfc42u_ordinal1015:PPROC
+mfc42u_ordinal1015 equ <__imp_mfc42u_ordinal1015>
+
+externdef __imp_mfc42u_ordinal1016:PPROC
+mfc42u_ordinal1016 equ <__imp_mfc42u_ordinal1016>
+
+externdef __imp_mfc42u_ordinal1017:PPROC
+mfc42u_ordinal1017 equ <__imp_mfc42u_ordinal1017>
+
+externdef __imp_mfc42u_ordinal1018:PPROC
+mfc42u_ordinal1018 equ <__imp_mfc42u_ordinal1018>
+
+externdef __imp_mfc42u_ordinal1019:PPROC
+mfc42u_ordinal1019 equ <__imp_mfc42u_ordinal1019>
+
+externdef __imp_mfc42u_ordinal101:PPROC
+mfc42u_ordinal101 equ <__imp_mfc42u_ordinal101>
+
+externdef __imp_mfc42u_ordinal1020:PPROC
+mfc42u_ordinal1020 equ <__imp_mfc42u_ordinal1020>
+
+externdef __imp_mfc42u_ordinal1021:PPROC
+mfc42u_ordinal1021 equ <__imp_mfc42u_ordinal1021>
+
+externdef __imp_mfc42u_ordinal1022:PPROC
+mfc42u_ordinal1022 equ <__imp_mfc42u_ordinal1022>
+
+externdef __imp_mfc42u_ordinal1023:PPROC
+mfc42u_ordinal1023 equ <__imp_mfc42u_ordinal1023>
+
+externdef __imp_mfc42u_ordinal1024:PPROC
+mfc42u_ordinal1024 equ <__imp_mfc42u_ordinal1024>
+
+externdef __imp_mfc42u_ordinal1025:PPROC
+mfc42u_ordinal1025 equ <__imp_mfc42u_ordinal1025>
+
+externdef __imp_mfc42u_ordinal1026:PPROC
+mfc42u_ordinal1026 equ <__imp_mfc42u_ordinal1026>
+
+externdef __imp_mfc42u_ordinal1027:PPROC
+mfc42u_ordinal1027 equ <__imp_mfc42u_ordinal1027>
+
+externdef __imp_mfc42u_ordinal1028:PPROC
+mfc42u_ordinal1028 equ <__imp_mfc42u_ordinal1028>
+
+externdef __imp_mfc42u_ordinal1029:PPROC
+mfc42u_ordinal1029 equ <__imp_mfc42u_ordinal1029>
+
+externdef __imp_mfc42u_ordinal102:PPROC
+mfc42u_ordinal102 equ <__imp_mfc42u_ordinal102>
+
+externdef __imp_mfc42u_ordinal1030:PPROC
+mfc42u_ordinal1030 equ <__imp_mfc42u_ordinal1030>
+
+externdef __imp_mfc42u_ordinal1031:PPROC
+mfc42u_ordinal1031 equ <__imp_mfc42u_ordinal1031>
+
+externdef __imp_mfc42u_ordinal1032:PPROC
+mfc42u_ordinal1032 equ <__imp_mfc42u_ordinal1032>
+
+externdef __imp_mfc42u_ordinal1033:PPROC
+mfc42u_ordinal1033 equ <__imp_mfc42u_ordinal1033>
+
+externdef __imp_mfc42u_ordinal1034:PPROC
+mfc42u_ordinal1034 equ <__imp_mfc42u_ordinal1034>
+
+externdef __imp_mfc42u_ordinal1035:PPROC
+mfc42u_ordinal1035 equ <__imp_mfc42u_ordinal1035>
+
+externdef __imp_mfc42u_ordinal1036:PPROC
+mfc42u_ordinal1036 equ <__imp_mfc42u_ordinal1036>
+
+externdef __imp_mfc42u_ordinal1037:PPROC
+mfc42u_ordinal1037 equ <__imp_mfc42u_ordinal1037>
+
+externdef __imp_mfc42u_ordinal1038:PPROC
+mfc42u_ordinal1038 equ <__imp_mfc42u_ordinal1038>
+
+externdef __imp_mfc42u_ordinal1039:PPROC
+mfc42u_ordinal1039 equ <__imp_mfc42u_ordinal1039>
+
+externdef __imp_mfc42u_ordinal103:PPROC
+mfc42u_ordinal103 equ <__imp_mfc42u_ordinal103>
+
+externdef __imp_mfc42u_ordinal1040:PPROC
+mfc42u_ordinal1040 equ <__imp_mfc42u_ordinal1040>
+
+externdef __imp_mfc42u_ordinal1041:PPROC
+mfc42u_ordinal1041 equ <__imp_mfc42u_ordinal1041>
+
+externdef __imp_mfc42u_ordinal1042:PPROC
+mfc42u_ordinal1042 equ <__imp_mfc42u_ordinal1042>
+
+externdef __imp_mfc42u_ordinal1043:PPROC
+mfc42u_ordinal1043 equ <__imp_mfc42u_ordinal1043>
+
+externdef __imp_mfc42u_ordinal1044:PPROC
+mfc42u_ordinal1044 equ <__imp_mfc42u_ordinal1044>
+
+externdef __imp_mfc42u_ordinal1045:PPROC
+mfc42u_ordinal1045 equ <__imp_mfc42u_ordinal1045>
+
+externdef __imp_mfc42u_ordinal1046:PPROC
+mfc42u_ordinal1046 equ <__imp_mfc42u_ordinal1046>
+
+externdef __imp_mfc42u_ordinal1047:PPROC
+mfc42u_ordinal1047 equ <__imp_mfc42u_ordinal1047>
+
+externdef __imp_mfc42u_ordinal1048:PPROC
+mfc42u_ordinal1048 equ <__imp_mfc42u_ordinal1048>
+
+externdef __imp_mfc42u_ordinal1049:PPROC
+mfc42u_ordinal1049 equ <__imp_mfc42u_ordinal1049>
+
+externdef __imp_mfc42u_ordinal104:PPROC
+mfc42u_ordinal104 equ <__imp_mfc42u_ordinal104>
+
+externdef __imp_mfc42u_ordinal1050:PPROC
+mfc42u_ordinal1050 equ <__imp_mfc42u_ordinal1050>
+
+externdef __imp_mfc42u_ordinal1051:PPROC
+mfc42u_ordinal1051 equ <__imp_mfc42u_ordinal1051>
+
+externdef __imp_mfc42u_ordinal1052:PPROC
+mfc42u_ordinal1052 equ <__imp_mfc42u_ordinal1052>
+
+externdef __imp_mfc42u_ordinal1053:PPROC
+mfc42u_ordinal1053 equ <__imp_mfc42u_ordinal1053>
+
+externdef __imp_mfc42u_ordinal1054:PPROC
+mfc42u_ordinal1054 equ <__imp_mfc42u_ordinal1054>
+
+externdef __imp_mfc42u_ordinal1055:PPROC
+mfc42u_ordinal1055 equ <__imp_mfc42u_ordinal1055>
+
+externdef __imp_mfc42u_ordinal1056:PPROC
+mfc42u_ordinal1056 equ <__imp_mfc42u_ordinal1056>
+
+externdef __imp_mfc42u_ordinal1057:PPROC
+mfc42u_ordinal1057 equ <__imp_mfc42u_ordinal1057>
+
+externdef __imp_mfc42u_ordinal1058:PPROC
+mfc42u_ordinal1058 equ <__imp_mfc42u_ordinal1058>
+
+externdef __imp_mfc42u_ordinal1059:PPROC
+mfc42u_ordinal1059 equ <__imp_mfc42u_ordinal1059>
+
+externdef __imp_mfc42u_ordinal105:PPROC
+mfc42u_ordinal105 equ <__imp_mfc42u_ordinal105>
+
+externdef __imp_mfc42u_ordinal1060:PPROC
+mfc42u_ordinal1060 equ <__imp_mfc42u_ordinal1060>
+
+externdef __imp_mfc42u_ordinal1061:PPROC
+mfc42u_ordinal1061 equ <__imp_mfc42u_ordinal1061>
+
+externdef __imp_mfc42u_ordinal1062:PPROC
+mfc42u_ordinal1062 equ <__imp_mfc42u_ordinal1062>
+
+externdef __imp_mfc42u_ordinal1063:PPROC
+mfc42u_ordinal1063 equ <__imp_mfc42u_ordinal1063>
+
+externdef __imp_mfc42u_ordinal1064:PPROC
+mfc42u_ordinal1064 equ <__imp_mfc42u_ordinal1064>
+
+externdef __imp_mfc42u_ordinal1065:PPROC
+mfc42u_ordinal1065 equ <__imp_mfc42u_ordinal1065>
+
+externdef __imp_mfc42u_ordinal1066:PPROC
+mfc42u_ordinal1066 equ <__imp_mfc42u_ordinal1066>
+
+externdef __imp_mfc42u_ordinal1067:PPROC
+mfc42u_ordinal1067 equ <__imp_mfc42u_ordinal1067>
+
+externdef __imp_mfc42u_ordinal1068:PPROC
+mfc42u_ordinal1068 equ <__imp_mfc42u_ordinal1068>
+
+externdef __imp_mfc42u_ordinal1069:PPROC
+mfc42u_ordinal1069 equ <__imp_mfc42u_ordinal1069>
+
+externdef __imp_mfc42u_ordinal106:PPROC
+mfc42u_ordinal106 equ <__imp_mfc42u_ordinal106>
+
+externdef __imp_mfc42u_ordinal1070:PPROC
+mfc42u_ordinal1070 equ <__imp_mfc42u_ordinal1070>
+
+externdef __imp_mfc42u_ordinal1071:PPROC
+mfc42u_ordinal1071 equ <__imp_mfc42u_ordinal1071>
+
+externdef __imp_mfc42u_ordinal1072:PPROC
+mfc42u_ordinal1072 equ <__imp_mfc42u_ordinal1072>
+
+externdef __imp_mfc42u_ordinal1073:PPROC
+mfc42u_ordinal1073 equ <__imp_mfc42u_ordinal1073>
+
+externdef __imp_mfc42u_ordinal1074:PPROC
+mfc42u_ordinal1074 equ <__imp_mfc42u_ordinal1074>
+
+externdef __imp_mfc42u_ordinal1075:PPROC
+mfc42u_ordinal1075 equ <__imp_mfc42u_ordinal1075>
+
+externdef __imp_mfc42u_ordinal1076:PPROC
+mfc42u_ordinal1076 equ <__imp_mfc42u_ordinal1076>
+
+externdef __imp_mfc42u_ordinal1077:PPROC
+mfc42u_ordinal1077 equ <__imp_mfc42u_ordinal1077>
+
+externdef __imp_mfc42u_ordinal1078:PPROC
+mfc42u_ordinal1078 equ <__imp_mfc42u_ordinal1078>
+
+externdef __imp_mfc42u_ordinal1079:PPROC
+mfc42u_ordinal1079 equ <__imp_mfc42u_ordinal1079>
+
+externdef __imp_mfc42u_ordinal107:PPROC
+mfc42u_ordinal107 equ <__imp_mfc42u_ordinal107>
+
+externdef __imp_mfc42u_ordinal1080:PPROC
+mfc42u_ordinal1080 equ <__imp_mfc42u_ordinal1080>
+
+externdef __imp_mfc42u_ordinal1081:PPROC
+mfc42u_ordinal1081 equ <__imp_mfc42u_ordinal1081>
+
+externdef __imp_mfc42u_ordinal1082:PPROC
+mfc42u_ordinal1082 equ <__imp_mfc42u_ordinal1082>
+
+externdef __imp_mfc42u_ordinal1083:PPROC
+mfc42u_ordinal1083 equ <__imp_mfc42u_ordinal1083>
+
+externdef __imp_mfc42u_ordinal1084:PPROC
+mfc42u_ordinal1084 equ <__imp_mfc42u_ordinal1084>
+
+externdef __imp_mfc42u_ordinal1085:PPROC
+mfc42u_ordinal1085 equ <__imp_mfc42u_ordinal1085>
+
+externdef __imp_mfc42u_ordinal1086:PPROC
+mfc42u_ordinal1086 equ <__imp_mfc42u_ordinal1086>
+
+externdef __imp_mfc42u_ordinal1087:PPROC
+mfc42u_ordinal1087 equ <__imp_mfc42u_ordinal1087>
+
+externdef __imp_mfc42u_ordinal1088:PPROC
+mfc42u_ordinal1088 equ <__imp_mfc42u_ordinal1088>
+
+externdef __imp_mfc42u_ordinal1089:PPROC
+mfc42u_ordinal1089 equ <__imp_mfc42u_ordinal1089>
+
+externdef __imp_mfc42u_ordinal108:PPROC
+mfc42u_ordinal108 equ <__imp_mfc42u_ordinal108>
+
+externdef __imp_mfc42u_ordinal1090:PPROC
+mfc42u_ordinal1090 equ <__imp_mfc42u_ordinal1090>
+
+externdef __imp_mfc42u_ordinal1091:PPROC
+mfc42u_ordinal1091 equ <__imp_mfc42u_ordinal1091>
+
+externdef __imp_mfc42u_ordinal1092:PPROC
+mfc42u_ordinal1092 equ <__imp_mfc42u_ordinal1092>
+
+externdef __imp_mfc42u_ordinal1093:PPROC
+mfc42u_ordinal1093 equ <__imp_mfc42u_ordinal1093>
+
+externdef __imp_mfc42u_ordinal1094:PPROC
+mfc42u_ordinal1094 equ <__imp_mfc42u_ordinal1094>
+
+externdef __imp_mfc42u_ordinal1095:PPROC
+mfc42u_ordinal1095 equ <__imp_mfc42u_ordinal1095>
+
+externdef __imp_mfc42u_ordinal1096:PPROC
+mfc42u_ordinal1096 equ <__imp_mfc42u_ordinal1096>
+
+externdef __imp_mfc42u_ordinal1097:PPROC
+mfc42u_ordinal1097 equ <__imp_mfc42u_ordinal1097>
+
+externdef __imp_mfc42u_ordinal1098:PPROC
+mfc42u_ordinal1098 equ <__imp_mfc42u_ordinal1098>
+
+externdef __imp_mfc42u_ordinal1099:PPROC
+mfc42u_ordinal1099 equ <__imp_mfc42u_ordinal1099>
+
+externdef __imp_mfc42u_ordinal109:PPROC
+mfc42u_ordinal109 equ <__imp_mfc42u_ordinal109>
+
+externdef __imp_mfc42u_ordinal10:PPROC
+mfc42u_ordinal10 equ <__imp_mfc42u_ordinal10>
+
+externdef __imp_mfc42u_ordinal1100:PPROC
+mfc42u_ordinal1100 equ <__imp_mfc42u_ordinal1100>
+
+externdef __imp_mfc42u_ordinal1101:PPROC
+mfc42u_ordinal1101 equ <__imp_mfc42u_ordinal1101>
+
+externdef __imp_mfc42u_ordinal1102:PPROC
+mfc42u_ordinal1102 equ <__imp_mfc42u_ordinal1102>
+
+externdef __imp_mfc42u_ordinal1103:PPROC
+mfc42u_ordinal1103 equ <__imp_mfc42u_ordinal1103>
+
+externdef __imp_mfc42u_ordinal1104:PPROC
+mfc42u_ordinal1104 equ <__imp_mfc42u_ordinal1104>
+
+externdef __imp_mfc42u_ordinal1105:PPROC
+mfc42u_ordinal1105 equ <__imp_mfc42u_ordinal1105>
+
+externdef __imp_mfc42u_ordinal1106:PPROC
+mfc42u_ordinal1106 equ <__imp_mfc42u_ordinal1106>
+
+externdef __imp_mfc42u_ordinal1107:PPROC
+mfc42u_ordinal1107 equ <__imp_mfc42u_ordinal1107>
+
+externdef __imp_mfc42u_ordinal1108:PPROC
+mfc42u_ordinal1108 equ <__imp_mfc42u_ordinal1108>
+
+externdef __imp_mfc42u_ordinal1109:PPROC
+mfc42u_ordinal1109 equ <__imp_mfc42u_ordinal1109>
+
+externdef __imp_mfc42u_ordinal110:PPROC
+mfc42u_ordinal110 equ <__imp_mfc42u_ordinal110>
+
+externdef __imp_mfc42u_ordinal1110:PPROC
+mfc42u_ordinal1110 equ <__imp_mfc42u_ordinal1110>
+
+externdef __imp_mfc42u_ordinal1111:PPROC
+mfc42u_ordinal1111 equ <__imp_mfc42u_ordinal1111>
+
+externdef __imp_mfc42u_ordinal1112:PPROC
+mfc42u_ordinal1112 equ <__imp_mfc42u_ordinal1112>
+
+externdef __imp_mfc42u_ordinal1113:PPROC
+mfc42u_ordinal1113 equ <__imp_mfc42u_ordinal1113>
+
+externdef __imp_mfc42u_ordinal1114:PPROC
+mfc42u_ordinal1114 equ <__imp_mfc42u_ordinal1114>
+
+externdef __imp_mfc42u_ordinal1115:PPROC
+mfc42u_ordinal1115 equ <__imp_mfc42u_ordinal1115>
+
+externdef __imp_mfc42u_ordinal1116:PPROC
+mfc42u_ordinal1116 equ <__imp_mfc42u_ordinal1116>
+
+externdef __imp_mfc42u_ordinal1117:PPROC
+mfc42u_ordinal1117 equ <__imp_mfc42u_ordinal1117>
+
+externdef __imp_mfc42u_ordinal1118:PPROC
+mfc42u_ordinal1118 equ <__imp_mfc42u_ordinal1118>
+
+externdef __imp_mfc42u_ordinal1119:PPROC
+mfc42u_ordinal1119 equ <__imp_mfc42u_ordinal1119>
+
+externdef __imp_mfc42u_ordinal111:PPROC
+mfc42u_ordinal111 equ <__imp_mfc42u_ordinal111>
+
+externdef __imp_mfc42u_ordinal1120:PPROC
+mfc42u_ordinal1120 equ <__imp_mfc42u_ordinal1120>
+
+externdef __imp_mfc42u_ordinal1121:PPROC
+mfc42u_ordinal1121 equ <__imp_mfc42u_ordinal1121>
+
+externdef __imp_mfc42u_ordinal1122:PPROC
+mfc42u_ordinal1122 equ <__imp_mfc42u_ordinal1122>
+
+externdef __imp_mfc42u_ordinal1123:PPROC
+mfc42u_ordinal1123 equ <__imp_mfc42u_ordinal1123>
+
+externdef __imp_mfc42u_ordinal1124:PPROC
+mfc42u_ordinal1124 equ <__imp_mfc42u_ordinal1124>
+
+externdef __imp_mfc42u_ordinal1125:PPROC
+mfc42u_ordinal1125 equ <__imp_mfc42u_ordinal1125>
+
+externdef __imp_mfc42u_ordinal1126:PPROC
+mfc42u_ordinal1126 equ <__imp_mfc42u_ordinal1126>
+
+externdef __imp_mfc42u_ordinal1127:PPROC
+mfc42u_ordinal1127 equ <__imp_mfc42u_ordinal1127>
+
+externdef __imp_mfc42u_ordinal1128:PPROC
+mfc42u_ordinal1128 equ <__imp_mfc42u_ordinal1128>
+
+externdef __imp_mfc42u_ordinal1129:PPROC
+mfc42u_ordinal1129 equ <__imp_mfc42u_ordinal1129>
+
+externdef __imp_mfc42u_ordinal112:PPROC
+mfc42u_ordinal112 equ <__imp_mfc42u_ordinal112>
+
+externdef __imp_mfc42u_ordinal1130:PPROC
+mfc42u_ordinal1130 equ <__imp_mfc42u_ordinal1130>
+
+externdef __imp_mfc42u_ordinal1131:PPROC
+mfc42u_ordinal1131 equ <__imp_mfc42u_ordinal1131>
+
+externdef __imp_mfc42u_ordinal1132:PPROC
+mfc42u_ordinal1132 equ <__imp_mfc42u_ordinal1132>
+
+externdef __imp_mfc42u_ordinal1133:PPROC
+mfc42u_ordinal1133 equ <__imp_mfc42u_ordinal1133>
+
+externdef __imp_mfc42u_ordinal1134:PPROC
+mfc42u_ordinal1134 equ <__imp_mfc42u_ordinal1134>
+
+externdef __imp_mfc42u_ordinal1135:PPROC
+mfc42u_ordinal1135 equ <__imp_mfc42u_ordinal1135>
+
+externdef __imp_mfc42u_ordinal1136:PPROC
+mfc42u_ordinal1136 equ <__imp_mfc42u_ordinal1136>
+
+externdef __imp_mfc42u_ordinal1137:PPROC
+mfc42u_ordinal1137 equ <__imp_mfc42u_ordinal1137>
+
+externdef __imp_mfc42u_ordinal1138:PPROC
+mfc42u_ordinal1138 equ <__imp_mfc42u_ordinal1138>
+
+externdef __imp_mfc42u_ordinal1139:PPROC
+mfc42u_ordinal1139 equ <__imp_mfc42u_ordinal1139>
+
+externdef __imp_mfc42u_ordinal113:PPROC
+mfc42u_ordinal113 equ <__imp_mfc42u_ordinal113>
+
+externdef __imp_mfc42u_ordinal1140:PPROC
+mfc42u_ordinal1140 equ <__imp_mfc42u_ordinal1140>
+
+externdef __imp_mfc42u_ordinal1141:PPROC
+mfc42u_ordinal1141 equ <__imp_mfc42u_ordinal1141>
+
+externdef __imp_mfc42u_ordinal1142:PPROC
+mfc42u_ordinal1142 equ <__imp_mfc42u_ordinal1142>
+
+externdef __imp_mfc42u_ordinal1143:PPROC
+mfc42u_ordinal1143 equ <__imp_mfc42u_ordinal1143>
+
+externdef __imp_mfc42u_ordinal1144:PPROC
+mfc42u_ordinal1144 equ <__imp_mfc42u_ordinal1144>
+
+externdef __imp_mfc42u_ordinal1145:PPROC
+mfc42u_ordinal1145 equ <__imp_mfc42u_ordinal1145>
+
+externdef __imp_mfc42u_ordinal1146:PPROC
+mfc42u_ordinal1146 equ <__imp_mfc42u_ordinal1146>
+
+externdef __imp_mfc42u_ordinal1147:PPROC
+mfc42u_ordinal1147 equ <__imp_mfc42u_ordinal1147>
+
+externdef __imp_mfc42u_ordinal1148:PPROC
+mfc42u_ordinal1148 equ <__imp_mfc42u_ordinal1148>
+
+externdef __imp_mfc42u_ordinal1149:PPROC
+mfc42u_ordinal1149 equ <__imp_mfc42u_ordinal1149>
+
+externdef __imp_mfc42u_ordinal114:PPROC
+mfc42u_ordinal114 equ <__imp_mfc42u_ordinal114>
+
+externdef __imp_mfc42u_ordinal1150:PPROC
+mfc42u_ordinal1150 equ <__imp_mfc42u_ordinal1150>
+
+externdef __imp_mfc42u_ordinal1151:PPROC
+mfc42u_ordinal1151 equ <__imp_mfc42u_ordinal1151>
+
+externdef __imp_mfc42u_ordinal1152:PPROC
+mfc42u_ordinal1152 equ <__imp_mfc42u_ordinal1152>
+
+externdef __imp_mfc42u_ordinal1153:PPROC
+mfc42u_ordinal1153 equ <__imp_mfc42u_ordinal1153>
+
+externdef __imp_mfc42u_ordinal1154:PPROC
+mfc42u_ordinal1154 equ <__imp_mfc42u_ordinal1154>
+
+externdef __imp_mfc42u_ordinal1155:PPROC
+mfc42u_ordinal1155 equ <__imp_mfc42u_ordinal1155>
+
+externdef __imp_mfc42u_ordinal1156:PPROC
+mfc42u_ordinal1156 equ <__imp_mfc42u_ordinal1156>
+
+externdef __imp_mfc42u_ordinal1157:PPROC
+mfc42u_ordinal1157 equ <__imp_mfc42u_ordinal1157>
+
+externdef __imp_mfc42u_ordinal1158:PPROC
+mfc42u_ordinal1158 equ <__imp_mfc42u_ordinal1158>
+
+externdef __imp_mfc42u_ordinal1159:PPROC
+mfc42u_ordinal1159 equ <__imp_mfc42u_ordinal1159>
+
+externdef __imp_mfc42u_ordinal115:PPROC
+mfc42u_ordinal115 equ <__imp_mfc42u_ordinal115>
+
+externdef __imp_mfc42u_ordinal1160:PPROC
+mfc42u_ordinal1160 equ <__imp_mfc42u_ordinal1160>
+
+externdef __imp_mfc42u_ordinal1161:PPROC
+mfc42u_ordinal1161 equ <__imp_mfc42u_ordinal1161>
+
+externdef __imp_mfc42u_ordinal1162:PPROC
+mfc42u_ordinal1162 equ <__imp_mfc42u_ordinal1162>
+
+externdef __imp_mfc42u_ordinal1163:PPROC
+mfc42u_ordinal1163 equ <__imp_mfc42u_ordinal1163>
+
+externdef __imp_mfc42u_ordinal1164:PPROC
+mfc42u_ordinal1164 equ <__imp_mfc42u_ordinal1164>
+
+externdef __imp_mfc42u_ordinal1165:PPROC
+mfc42u_ordinal1165 equ <__imp_mfc42u_ordinal1165>
+
+externdef __imp_mfc42u_ordinal1166:PPROC
+mfc42u_ordinal1166 equ <__imp_mfc42u_ordinal1166>
+
+externdef __imp_mfc42u_ordinal1167:PPROC
+mfc42u_ordinal1167 equ <__imp_mfc42u_ordinal1167>
+
+externdef __imp_mfc42u_ordinal1168:PPROC
+mfc42u_ordinal1168 equ <__imp_mfc42u_ordinal1168>
+
+externdef __imp_mfc42u_ordinal1169:PPROC
+mfc42u_ordinal1169 equ <__imp_mfc42u_ordinal1169>
+
+externdef __imp_mfc42u_ordinal116:PPROC
+mfc42u_ordinal116 equ <__imp_mfc42u_ordinal116>
+
+externdef __imp_mfc42u_ordinal1170:PPROC
+mfc42u_ordinal1170 equ <__imp_mfc42u_ordinal1170>
+
+externdef __imp_mfc42u_ordinal1171:PPROC
+mfc42u_ordinal1171 equ <__imp_mfc42u_ordinal1171>
+
+externdef __imp_mfc42u_ordinal1172:PPROC
+mfc42u_ordinal1172 equ <__imp_mfc42u_ordinal1172>
+
+externdef __imp_mfc42u_ordinal1173:PPROC
+mfc42u_ordinal1173 equ <__imp_mfc42u_ordinal1173>
+
+externdef __imp_mfc42u_ordinal1174:PPROC
+mfc42u_ordinal1174 equ <__imp_mfc42u_ordinal1174>
+
+externdef __imp_mfc42u_ordinal1175:PPROC
+mfc42u_ordinal1175 equ <__imp_mfc42u_ordinal1175>
+
+externdef __imp_mfc42u_ordinal1176:PPROC
+mfc42u_ordinal1176 equ <__imp_mfc42u_ordinal1176>
+
+externdef __imp_mfc42u_ordinal1177:PPROC
+mfc42u_ordinal1177 equ <__imp_mfc42u_ordinal1177>
+
+externdef __imp_mfc42u_ordinal1178:PPROC
+mfc42u_ordinal1178 equ <__imp_mfc42u_ordinal1178>
+
+externdef __imp_mfc42u_ordinal1179:PPROC
+mfc42u_ordinal1179 equ <__imp_mfc42u_ordinal1179>
+
+externdef __imp_mfc42u_ordinal117:PPROC
+mfc42u_ordinal117 equ <__imp_mfc42u_ordinal117>
+
+externdef __imp_mfc42u_ordinal1180:PPROC
+mfc42u_ordinal1180 equ <__imp_mfc42u_ordinal1180>
+
+externdef __imp_mfc42u_ordinal1181:PPROC
+mfc42u_ordinal1181 equ <__imp_mfc42u_ordinal1181>
+
+externdef __imp_mfc42u_ordinal1182:PPROC
+mfc42u_ordinal1182 equ <__imp_mfc42u_ordinal1182>
+
+externdef __imp_mfc42u_ordinal1183:PPROC
+mfc42u_ordinal1183 equ <__imp_mfc42u_ordinal1183>
+
+externdef __imp_mfc42u_ordinal1184:PPROC
+mfc42u_ordinal1184 equ <__imp_mfc42u_ordinal1184>
+
+externdef __imp_mfc42u_ordinal1185:PPROC
+mfc42u_ordinal1185 equ <__imp_mfc42u_ordinal1185>
+
+externdef __imp_mfc42u_ordinal1186:PPROC
+mfc42u_ordinal1186 equ <__imp_mfc42u_ordinal1186>
+
+externdef __imp_mfc42u_ordinal1187:PPROC
+mfc42u_ordinal1187 equ <__imp_mfc42u_ordinal1187>
+
+externdef __imp_mfc42u_ordinal1188:PPROC
+mfc42u_ordinal1188 equ <__imp_mfc42u_ordinal1188>
+
+externdef __imp_mfc42u_ordinal1189:PPROC
+mfc42u_ordinal1189 equ <__imp_mfc42u_ordinal1189>
+
+externdef __imp_mfc42u_ordinal118:PPROC
+mfc42u_ordinal118 equ <__imp_mfc42u_ordinal118>
+
+externdef __imp_mfc42u_ordinal1190:PPROC
+mfc42u_ordinal1190 equ <__imp_mfc42u_ordinal1190>
+
+externdef __imp_mfc42u_ordinal1191:PPROC
+mfc42u_ordinal1191 equ <__imp_mfc42u_ordinal1191>
+
+externdef __imp_mfc42u_ordinal1192:PPROC
+mfc42u_ordinal1192 equ <__imp_mfc42u_ordinal1192>
+
+externdef __imp_mfc42u_ordinal1193:PPROC
+mfc42u_ordinal1193 equ <__imp_mfc42u_ordinal1193>
+
+externdef __imp_mfc42u_ordinal1194:PPROC
+mfc42u_ordinal1194 equ <__imp_mfc42u_ordinal1194>
+
+externdef __imp_mfc42u_ordinal1195:PPROC
+mfc42u_ordinal1195 equ <__imp_mfc42u_ordinal1195>
+
+externdef __imp_mfc42u_ordinal1196:PPROC
+mfc42u_ordinal1196 equ <__imp_mfc42u_ordinal1196>
+
+externdef __imp_mfc42u_ordinal1197:PPROC
+mfc42u_ordinal1197 equ <__imp_mfc42u_ordinal1197>
+
+externdef __imp_mfc42u_ordinal1198:PPROC
+mfc42u_ordinal1198 equ <__imp_mfc42u_ordinal1198>
+
+externdef __imp_mfc42u_ordinal1199:PPROC
+mfc42u_ordinal1199 equ <__imp_mfc42u_ordinal1199>
+
+externdef __imp_mfc42u_ordinal119:PPROC
+mfc42u_ordinal119 equ <__imp_mfc42u_ordinal119>
+
+externdef __imp_mfc42u_ordinal11:PPROC
+mfc42u_ordinal11 equ <__imp_mfc42u_ordinal11>
+
+externdef __imp_mfc42u_ordinal1200:PPROC
+mfc42u_ordinal1200 equ <__imp_mfc42u_ordinal1200>
+
+externdef __imp_mfc42u_ordinal1201:PPROC
+mfc42u_ordinal1201 equ <__imp_mfc42u_ordinal1201>
+
+externdef __imp_mfc42u_ordinal1202:PPROC
+mfc42u_ordinal1202 equ <__imp_mfc42u_ordinal1202>
+
+externdef __imp_mfc42u_ordinal1203:PPROC
+mfc42u_ordinal1203 equ <__imp_mfc42u_ordinal1203>
+
+externdef __imp_mfc42u_ordinal1204:PPROC
+mfc42u_ordinal1204 equ <__imp_mfc42u_ordinal1204>
+
+externdef __imp_mfc42u_ordinal1205:PPROC
+mfc42u_ordinal1205 equ <__imp_mfc42u_ordinal1205>
+
+externdef __imp_mfc42u_ordinal1206:PPROC
+mfc42u_ordinal1206 equ <__imp_mfc42u_ordinal1206>
+
+externdef __imp_mfc42u_ordinal1207:PPROC
+mfc42u_ordinal1207 equ <__imp_mfc42u_ordinal1207>
+
+externdef __imp_mfc42u_ordinal1208:PPROC
+mfc42u_ordinal1208 equ <__imp_mfc42u_ordinal1208>
+
+externdef __imp_mfc42u_ordinal1209:PPROC
+mfc42u_ordinal1209 equ <__imp_mfc42u_ordinal1209>
+
+externdef __imp_mfc42u_ordinal120:PPROC
+mfc42u_ordinal120 equ <__imp_mfc42u_ordinal120>
+
+externdef __imp_mfc42u_ordinal1210:PPROC
+mfc42u_ordinal1210 equ <__imp_mfc42u_ordinal1210>
+
+externdef __imp_mfc42u_ordinal1211:PPROC
+mfc42u_ordinal1211 equ <__imp_mfc42u_ordinal1211>
+
+externdef __imp_mfc42u_ordinal1212:PPROC
+mfc42u_ordinal1212 equ <__imp_mfc42u_ordinal1212>
+
+externdef __imp_mfc42u_ordinal1213:PPROC
+mfc42u_ordinal1213 equ <__imp_mfc42u_ordinal1213>
+
+externdef __imp_mfc42u_ordinal1214:PPROC
+mfc42u_ordinal1214 equ <__imp_mfc42u_ordinal1214>
+
+externdef __imp_mfc42u_ordinal1215:PPROC
+mfc42u_ordinal1215 equ <__imp_mfc42u_ordinal1215>
+
+externdef __imp_mfc42u_ordinal1216:PPROC
+mfc42u_ordinal1216 equ <__imp_mfc42u_ordinal1216>
+
+externdef __imp_mfc42u_ordinal1217:PPROC
+mfc42u_ordinal1217 equ <__imp_mfc42u_ordinal1217>
+
+externdef __imp_mfc42u_ordinal1218:PPROC
+mfc42u_ordinal1218 equ <__imp_mfc42u_ordinal1218>
+
+externdef __imp_mfc42u_ordinal1219:PPROC
+mfc42u_ordinal1219 equ <__imp_mfc42u_ordinal1219>
+
+externdef __imp_mfc42u_ordinal121:PPROC
+mfc42u_ordinal121 equ <__imp_mfc42u_ordinal121>
+
+externdef __imp_mfc42u_ordinal1220:PPROC
+mfc42u_ordinal1220 equ <__imp_mfc42u_ordinal1220>
+
+externdef __imp_mfc42u_ordinal1221:PPROC
+mfc42u_ordinal1221 equ <__imp_mfc42u_ordinal1221>
+
+externdef __imp_mfc42u_ordinal1222:PPROC
+mfc42u_ordinal1222 equ <__imp_mfc42u_ordinal1222>
+
+externdef __imp_mfc42u_ordinal1223:PPROC
+mfc42u_ordinal1223 equ <__imp_mfc42u_ordinal1223>
+
+externdef __imp_mfc42u_ordinal1224:PPROC
+mfc42u_ordinal1224 equ <__imp_mfc42u_ordinal1224>
+
+externdef __imp_mfc42u_ordinal1225:PPROC
+mfc42u_ordinal1225 equ <__imp_mfc42u_ordinal1225>
+
+externdef __imp_mfc42u_ordinal1226:PPROC
+mfc42u_ordinal1226 equ <__imp_mfc42u_ordinal1226>
+
+externdef __imp_mfc42u_ordinal1227:PPROC
+mfc42u_ordinal1227 equ <__imp_mfc42u_ordinal1227>
+
+externdef __imp_mfc42u_ordinal1228:PPROC
+mfc42u_ordinal1228 equ <__imp_mfc42u_ordinal1228>
+
+externdef __imp_mfc42u_ordinal1229:PPROC
+mfc42u_ordinal1229 equ <__imp_mfc42u_ordinal1229>
+
+externdef __imp_mfc42u_ordinal122:PPROC
+mfc42u_ordinal122 equ <__imp_mfc42u_ordinal122>
+
+externdef __imp_mfc42u_ordinal1230:PPROC
+mfc42u_ordinal1230 equ <__imp_mfc42u_ordinal1230>
+
+externdef __imp_mfc42u_ordinal1231:PPROC
+mfc42u_ordinal1231 equ <__imp_mfc42u_ordinal1231>
+
+externdef __imp_mfc42u_ordinal1232:PPROC
+mfc42u_ordinal1232 equ <__imp_mfc42u_ordinal1232>
+
+externdef __imp_mfc42u_ordinal1233:PPROC
+mfc42u_ordinal1233 equ <__imp_mfc42u_ordinal1233>
+
+externdef __imp_mfc42u_ordinal1234:PPROC
+mfc42u_ordinal1234 equ <__imp_mfc42u_ordinal1234>
+
+externdef __imp_mfc42u_ordinal1235:PPROC
+mfc42u_ordinal1235 equ <__imp_mfc42u_ordinal1235>
+
+externdef __imp_mfc42u_ordinal1236:PPROC
+mfc42u_ordinal1236 equ <__imp_mfc42u_ordinal1236>
+
+externdef __imp_mfc42u_ordinal1237:PPROC
+mfc42u_ordinal1237 equ <__imp_mfc42u_ordinal1237>
+
+externdef __imp_mfc42u_ordinal1238:PPROC
+mfc42u_ordinal1238 equ <__imp_mfc42u_ordinal1238>
+
+externdef __imp_mfc42u_ordinal1239:PPROC
+mfc42u_ordinal1239 equ <__imp_mfc42u_ordinal1239>
+
+externdef __imp_mfc42u_ordinal123:PPROC
+mfc42u_ordinal123 equ <__imp_mfc42u_ordinal123>
+
+externdef __imp_mfc42u_ordinal1240:PPROC
+mfc42u_ordinal1240 equ <__imp_mfc42u_ordinal1240>
+
+externdef __imp_mfc42u_ordinal1241:PPROC
+mfc42u_ordinal1241 equ <__imp_mfc42u_ordinal1241>
+
+externdef __imp_mfc42u_ordinal1242:PPROC
+mfc42u_ordinal1242 equ <__imp_mfc42u_ordinal1242>
+
+externdef __imp_mfc42u_ordinal1243:PPROC
+mfc42u_ordinal1243 equ <__imp_mfc42u_ordinal1243>
+
+externdef __imp_mfc42u_ordinal1244:PPROC
+mfc42u_ordinal1244 equ <__imp_mfc42u_ordinal1244>
+
+externdef __imp_mfc42u_ordinal1245:PPROC
+mfc42u_ordinal1245 equ <__imp_mfc42u_ordinal1245>
+
+externdef __imp_mfc42u_ordinal1246:PPROC
+mfc42u_ordinal1246 equ <__imp_mfc42u_ordinal1246>
+
+externdef __imp_mfc42u_ordinal1247:PPROC
+mfc42u_ordinal1247 equ <__imp_mfc42u_ordinal1247>
+
+externdef __imp_mfc42u_ordinal1248:PPROC
+mfc42u_ordinal1248 equ <__imp_mfc42u_ordinal1248>
+
+externdef __imp_mfc42u_ordinal1249:PPROC
+mfc42u_ordinal1249 equ <__imp_mfc42u_ordinal1249>
+
+externdef __imp_mfc42u_ordinal124:PPROC
+mfc42u_ordinal124 equ <__imp_mfc42u_ordinal124>
+
+externdef __imp_mfc42u_ordinal1250:PPROC
+mfc42u_ordinal1250 equ <__imp_mfc42u_ordinal1250>
+
+externdef __imp_mfc42u_ordinal1251:PPROC
+mfc42u_ordinal1251 equ <__imp_mfc42u_ordinal1251>
+
+externdef __imp_mfc42u_ordinal1252:PPROC
+mfc42u_ordinal1252 equ <__imp_mfc42u_ordinal1252>
+
+externdef __imp_mfc42u_ordinal1253:PPROC
+mfc42u_ordinal1253 equ <__imp_mfc42u_ordinal1253>
+
+externdef __imp_mfc42u_ordinal1254:PPROC
+mfc42u_ordinal1254 equ <__imp_mfc42u_ordinal1254>
+
+externdef __imp_mfc42u_ordinal1255:PPROC
+mfc42u_ordinal1255 equ <__imp_mfc42u_ordinal1255>
+
+externdef __imp_mfc42u_ordinal1256:PPROC
+mfc42u_ordinal1256 equ <__imp_mfc42u_ordinal1256>
+
+externdef __imp_mfc42u_ordinal1257:PPROC
+mfc42u_ordinal1257 equ <__imp_mfc42u_ordinal1257>
+
+externdef __imp_mfc42u_ordinal1258:PPROC
+mfc42u_ordinal1258 equ <__imp_mfc42u_ordinal1258>
+
+externdef __imp_mfc42u_ordinal1259:PPROC
+mfc42u_ordinal1259 equ <__imp_mfc42u_ordinal1259>
+
+externdef __imp_mfc42u_ordinal125:PPROC
+mfc42u_ordinal125 equ <__imp_mfc42u_ordinal125>
+
+externdef __imp_mfc42u_ordinal1260:PPROC
+mfc42u_ordinal1260 equ <__imp_mfc42u_ordinal1260>
+
+externdef __imp_mfc42u_ordinal1261:PPROC
+mfc42u_ordinal1261 equ <__imp_mfc42u_ordinal1261>
+
+externdef __imp_mfc42u_ordinal1262:PPROC
+mfc42u_ordinal1262 equ <__imp_mfc42u_ordinal1262>
+
+externdef __imp_mfc42u_ordinal1263:PPROC
+mfc42u_ordinal1263 equ <__imp_mfc42u_ordinal1263>
+
+externdef __imp_mfc42u_ordinal1264:PPROC
+mfc42u_ordinal1264 equ <__imp_mfc42u_ordinal1264>
+
+externdef __imp_mfc42u_ordinal1265:PPROC
+mfc42u_ordinal1265 equ <__imp_mfc42u_ordinal1265>
+
+externdef __imp_mfc42u_ordinal1266:PPROC
+mfc42u_ordinal1266 equ <__imp_mfc42u_ordinal1266>
+
+externdef __imp_mfc42u_ordinal1267:PPROC
+mfc42u_ordinal1267 equ <__imp_mfc42u_ordinal1267>
+
+externdef __imp_mfc42u_ordinal1268:PPROC
+mfc42u_ordinal1268 equ <__imp_mfc42u_ordinal1268>
+
+externdef __imp_mfc42u_ordinal1269:PPROC
+mfc42u_ordinal1269 equ <__imp_mfc42u_ordinal1269>
+
+externdef __imp_mfc42u_ordinal126:PPROC
+mfc42u_ordinal126 equ <__imp_mfc42u_ordinal126>
+
+externdef __imp_mfc42u_ordinal1270:PPROC
+mfc42u_ordinal1270 equ <__imp_mfc42u_ordinal1270>
+
+externdef __imp_mfc42u_ordinal1271:PPROC
+mfc42u_ordinal1271 equ <__imp_mfc42u_ordinal1271>
+
+externdef __imp_mfc42u_ordinal1272:PPROC
+mfc42u_ordinal1272 equ <__imp_mfc42u_ordinal1272>
+
+externdef __imp_mfc42u_ordinal1273:PPROC
+mfc42u_ordinal1273 equ <__imp_mfc42u_ordinal1273>
+
+externdef __imp_mfc42u_ordinal1274:PPROC
+mfc42u_ordinal1274 equ <__imp_mfc42u_ordinal1274>
+
+externdef __imp_mfc42u_ordinal1275:PPROC
+mfc42u_ordinal1275 equ <__imp_mfc42u_ordinal1275>
+
+externdef __imp_mfc42u_ordinal1276:PPROC
+mfc42u_ordinal1276 equ <__imp_mfc42u_ordinal1276>
+
+externdef __imp_mfc42u_ordinal1277:PPROC
+mfc42u_ordinal1277 equ <__imp_mfc42u_ordinal1277>
+
+externdef __imp_mfc42u_ordinal1278:PPROC
+mfc42u_ordinal1278 equ <__imp_mfc42u_ordinal1278>
+
+externdef __imp_mfc42u_ordinal1279:PPROC
+mfc42u_ordinal1279 equ <__imp_mfc42u_ordinal1279>
+
+externdef __imp_mfc42u_ordinal127:PPROC
+mfc42u_ordinal127 equ <__imp_mfc42u_ordinal127>
+
+externdef __imp_mfc42u_ordinal1280:PPROC
+mfc42u_ordinal1280 equ <__imp_mfc42u_ordinal1280>
+
+externdef __imp_mfc42u_ordinal1281:PPROC
+mfc42u_ordinal1281 equ <__imp_mfc42u_ordinal1281>
+
+externdef __imp_mfc42u_ordinal1282:PPROC
+mfc42u_ordinal1282 equ <__imp_mfc42u_ordinal1282>
+
+externdef __imp_mfc42u_ordinal1283:PPROC
+mfc42u_ordinal1283 equ <__imp_mfc42u_ordinal1283>
+
+externdef __imp_mfc42u_ordinal1284:PPROC
+mfc42u_ordinal1284 equ <__imp_mfc42u_ordinal1284>
+
+externdef __imp_mfc42u_ordinal1285:PPROC
+mfc42u_ordinal1285 equ <__imp_mfc42u_ordinal1285>
+
+externdef __imp_mfc42u_ordinal1286:PPROC
+mfc42u_ordinal1286 equ <__imp_mfc42u_ordinal1286>
+
+externdef __imp_mfc42u_ordinal1287:PPROC
+mfc42u_ordinal1287 equ <__imp_mfc42u_ordinal1287>
+
+externdef __imp_mfc42u_ordinal1288:PPROC
+mfc42u_ordinal1288 equ <__imp_mfc42u_ordinal1288>
+
+externdef __imp_mfc42u_ordinal1289:PPROC
+mfc42u_ordinal1289 equ <__imp_mfc42u_ordinal1289>
+
+externdef __imp_mfc42u_ordinal128:PPROC
+mfc42u_ordinal128 equ <__imp_mfc42u_ordinal128>
+
+externdef __imp_mfc42u_ordinal1290:PPROC
+mfc42u_ordinal1290 equ <__imp_mfc42u_ordinal1290>
+
+externdef __imp_mfc42u_ordinal1291:PPROC
+mfc42u_ordinal1291 equ <__imp_mfc42u_ordinal1291>
+
+externdef __imp_mfc42u_ordinal1292:PPROC
+mfc42u_ordinal1292 equ <__imp_mfc42u_ordinal1292>
+
+externdef __imp_mfc42u_ordinal1293:PPROC
+mfc42u_ordinal1293 equ <__imp_mfc42u_ordinal1293>
+
+externdef __imp_mfc42u_ordinal1294:PPROC
+mfc42u_ordinal1294 equ <__imp_mfc42u_ordinal1294>
+
+externdef __imp_mfc42u_ordinal1295:PPROC
+mfc42u_ordinal1295 equ <__imp_mfc42u_ordinal1295>
+
+externdef __imp_mfc42u_ordinal1296:PPROC
+mfc42u_ordinal1296 equ <__imp_mfc42u_ordinal1296>
+
+externdef __imp_mfc42u_ordinal1297:PPROC
+mfc42u_ordinal1297 equ <__imp_mfc42u_ordinal1297>
+
+externdef __imp_mfc42u_ordinal1298:PPROC
+mfc42u_ordinal1298 equ <__imp_mfc42u_ordinal1298>
+
+externdef __imp_mfc42u_ordinal1299:PPROC
+mfc42u_ordinal1299 equ <__imp_mfc42u_ordinal1299>
+
+externdef __imp_mfc42u_ordinal129:PPROC
+mfc42u_ordinal129 equ <__imp_mfc42u_ordinal129>
+
+externdef __imp_mfc42u_ordinal12:PPROC
+mfc42u_ordinal12 equ <__imp_mfc42u_ordinal12>
+
+externdef __imp_mfc42u_ordinal1300:PPROC
+mfc42u_ordinal1300 equ <__imp_mfc42u_ordinal1300>
+
+externdef __imp_mfc42u_ordinal1301:PPROC
+mfc42u_ordinal1301 equ <__imp_mfc42u_ordinal1301>
+
+externdef __imp_mfc42u_ordinal1302:PPROC
+mfc42u_ordinal1302 equ <__imp_mfc42u_ordinal1302>
+
+externdef __imp_mfc42u_ordinal1303:PPROC
+mfc42u_ordinal1303 equ <__imp_mfc42u_ordinal1303>
+
+externdef __imp_mfc42u_ordinal1304:PPROC
+mfc42u_ordinal1304 equ <__imp_mfc42u_ordinal1304>
+
+externdef __imp_mfc42u_ordinal1305:PPROC
+mfc42u_ordinal1305 equ <__imp_mfc42u_ordinal1305>
+
+externdef __imp_mfc42u_ordinal1306:PPROC
+mfc42u_ordinal1306 equ <__imp_mfc42u_ordinal1306>
+
+externdef __imp_mfc42u_ordinal1307:PPROC
+mfc42u_ordinal1307 equ <__imp_mfc42u_ordinal1307>
+
+externdef __imp_mfc42u_ordinal1308:PPROC
+mfc42u_ordinal1308 equ <__imp_mfc42u_ordinal1308>
+
+externdef __imp_mfc42u_ordinal1309:PPROC
+mfc42u_ordinal1309 equ <__imp_mfc42u_ordinal1309>
+
+externdef __imp_mfc42u_ordinal130:PPROC
+mfc42u_ordinal130 equ <__imp_mfc42u_ordinal130>
+
+externdef __imp_mfc42u_ordinal1310:PPROC
+mfc42u_ordinal1310 equ <__imp_mfc42u_ordinal1310>
+
+externdef __imp_mfc42u_ordinal1311:PPROC
+mfc42u_ordinal1311 equ <__imp_mfc42u_ordinal1311>
+
+externdef __imp_mfc42u_ordinal1312:PPROC
+mfc42u_ordinal1312 equ <__imp_mfc42u_ordinal1312>
+
+externdef __imp_mfc42u_ordinal1313:PPROC
+mfc42u_ordinal1313 equ <__imp_mfc42u_ordinal1313>
+
+externdef __imp_mfc42u_ordinal1314:PPROC
+mfc42u_ordinal1314 equ <__imp_mfc42u_ordinal1314>
+
+externdef __imp_mfc42u_ordinal1315:PPROC
+mfc42u_ordinal1315 equ <__imp_mfc42u_ordinal1315>
+
+externdef __imp_mfc42u_ordinal1316:PPROC
+mfc42u_ordinal1316 equ <__imp_mfc42u_ordinal1316>
+
+externdef __imp_mfc42u_ordinal1317:PPROC
+mfc42u_ordinal1317 equ <__imp_mfc42u_ordinal1317>
+
+externdef __imp_mfc42u_ordinal1318:PPROC
+mfc42u_ordinal1318 equ <__imp_mfc42u_ordinal1318>
+
+externdef __imp_mfc42u_ordinal1319:PPROC
+mfc42u_ordinal1319 equ <__imp_mfc42u_ordinal1319>
+
+externdef __imp_mfc42u_ordinal131:PPROC
+mfc42u_ordinal131 equ <__imp_mfc42u_ordinal131>
+
+externdef __imp_mfc42u_ordinal1320:PPROC
+mfc42u_ordinal1320 equ <__imp_mfc42u_ordinal1320>
+
+externdef __imp_mfc42u_ordinal1321:PPROC
+mfc42u_ordinal1321 equ <__imp_mfc42u_ordinal1321>
+
+externdef __imp_mfc42u_ordinal1322:PPROC
+mfc42u_ordinal1322 equ <__imp_mfc42u_ordinal1322>
+
+externdef __imp_mfc42u_ordinal1323:PPROC
+mfc42u_ordinal1323 equ <__imp_mfc42u_ordinal1323>
+
+externdef __imp_mfc42u_ordinal1324:PPROC
+mfc42u_ordinal1324 equ <__imp_mfc42u_ordinal1324>
+
+externdef __imp_mfc42u_ordinal1325:PPROC
+mfc42u_ordinal1325 equ <__imp_mfc42u_ordinal1325>
+
+externdef __imp_mfc42u_ordinal1326:PPROC
+mfc42u_ordinal1326 equ <__imp_mfc42u_ordinal1326>
+
+externdef __imp_mfc42u_ordinal1327:PPROC
+mfc42u_ordinal1327 equ <__imp_mfc42u_ordinal1327>
+
+externdef __imp_mfc42u_ordinal1328:PPROC
+mfc42u_ordinal1328 equ <__imp_mfc42u_ordinal1328>
+
+externdef __imp_mfc42u_ordinal1329:PPROC
+mfc42u_ordinal1329 equ <__imp_mfc42u_ordinal1329>
+
+externdef __imp_mfc42u_ordinal132:PPROC
+mfc42u_ordinal132 equ <__imp_mfc42u_ordinal132>
+
+externdef __imp_mfc42u_ordinal1330:PPROC
+mfc42u_ordinal1330 equ <__imp_mfc42u_ordinal1330>
+
+externdef __imp_mfc42u_ordinal1331:PPROC
+mfc42u_ordinal1331 equ <__imp_mfc42u_ordinal1331>
+
+externdef __imp_mfc42u_ordinal1332:PPROC
+mfc42u_ordinal1332 equ <__imp_mfc42u_ordinal1332>
+
+externdef __imp_mfc42u_ordinal1333:PPROC
+mfc42u_ordinal1333 equ <__imp_mfc42u_ordinal1333>
+
+externdef __imp_mfc42u_ordinal1334:PPROC
+mfc42u_ordinal1334 equ <__imp_mfc42u_ordinal1334>
+
+externdef __imp_mfc42u_ordinal1335:PPROC
+mfc42u_ordinal1335 equ <__imp_mfc42u_ordinal1335>
+
+externdef __imp_mfc42u_ordinal1336:PPROC
+mfc42u_ordinal1336 equ <__imp_mfc42u_ordinal1336>
+
+externdef __imp_mfc42u_ordinal1337:PPROC
+mfc42u_ordinal1337 equ <__imp_mfc42u_ordinal1337>
+
+externdef __imp_mfc42u_ordinal1338:PPROC
+mfc42u_ordinal1338 equ <__imp_mfc42u_ordinal1338>
+
+externdef __imp_mfc42u_ordinal1339:PPROC
+mfc42u_ordinal1339 equ <__imp_mfc42u_ordinal1339>
+
+externdef __imp_mfc42u_ordinal133:PPROC
+mfc42u_ordinal133 equ <__imp_mfc42u_ordinal133>
+
+externdef __imp_mfc42u_ordinal1340:PPROC
+mfc42u_ordinal1340 equ <__imp_mfc42u_ordinal1340>
+
+externdef __imp_mfc42u_ordinal1341:PPROC
+mfc42u_ordinal1341 equ <__imp_mfc42u_ordinal1341>
+
+externdef __imp_mfc42u_ordinal1342:PPROC
+mfc42u_ordinal1342 equ <__imp_mfc42u_ordinal1342>
+
+externdef __imp_mfc42u_ordinal1343:PPROC
+mfc42u_ordinal1343 equ <__imp_mfc42u_ordinal1343>
+
+externdef __imp_mfc42u_ordinal1344:PPROC
+mfc42u_ordinal1344 equ <__imp_mfc42u_ordinal1344>
+
+externdef __imp_mfc42u_ordinal1345:PPROC
+mfc42u_ordinal1345 equ <__imp_mfc42u_ordinal1345>
+
+externdef __imp_mfc42u_ordinal1346:PPROC
+mfc42u_ordinal1346 equ <__imp_mfc42u_ordinal1346>
+
+externdef __imp_mfc42u_ordinal1347:PPROC
+mfc42u_ordinal1347 equ <__imp_mfc42u_ordinal1347>
+
+externdef __imp_mfc42u_ordinal1348:PPROC
+mfc42u_ordinal1348 equ <__imp_mfc42u_ordinal1348>
+
+externdef __imp_mfc42u_ordinal1349:PPROC
+mfc42u_ordinal1349 equ <__imp_mfc42u_ordinal1349>
+
+externdef __imp_mfc42u_ordinal134:PPROC
+mfc42u_ordinal134 equ <__imp_mfc42u_ordinal134>
+
+externdef __imp_mfc42u_ordinal1350:PPROC
+mfc42u_ordinal1350 equ <__imp_mfc42u_ordinal1350>
+
+externdef __imp_mfc42u_ordinal1351:PPROC
+mfc42u_ordinal1351 equ <__imp_mfc42u_ordinal1351>
+
+externdef __imp_mfc42u_ordinal1352:PPROC
+mfc42u_ordinal1352 equ <__imp_mfc42u_ordinal1352>
+
+externdef __imp_mfc42u_ordinal1353:PPROC
+mfc42u_ordinal1353 equ <__imp_mfc42u_ordinal1353>
+
+externdef __imp_mfc42u_ordinal1354:PPROC
+mfc42u_ordinal1354 equ <__imp_mfc42u_ordinal1354>
+
+externdef __imp_mfc42u_ordinal1355:PPROC
+mfc42u_ordinal1355 equ <__imp_mfc42u_ordinal1355>
+
+externdef __imp_mfc42u_ordinal1356:PPROC
+mfc42u_ordinal1356 equ <__imp_mfc42u_ordinal1356>
+
+externdef __imp_mfc42u_ordinal1357:PPROC
+mfc42u_ordinal1357 equ <__imp_mfc42u_ordinal1357>
+
+externdef __imp_mfc42u_ordinal1358:PPROC
+mfc42u_ordinal1358 equ <__imp_mfc42u_ordinal1358>
+
+externdef __imp_mfc42u_ordinal1359:PPROC
+mfc42u_ordinal1359 equ <__imp_mfc42u_ordinal1359>
+
+externdef __imp_mfc42u_ordinal135:PPROC
+mfc42u_ordinal135 equ <__imp_mfc42u_ordinal135>
+
+externdef __imp_mfc42u_ordinal1360:PPROC
+mfc42u_ordinal1360 equ <__imp_mfc42u_ordinal1360>
+
+externdef __imp_mfc42u_ordinal1361:PPROC
+mfc42u_ordinal1361 equ <__imp_mfc42u_ordinal1361>
+
+externdef __imp_mfc42u_ordinal1362:PPROC
+mfc42u_ordinal1362 equ <__imp_mfc42u_ordinal1362>
+
+externdef __imp_mfc42u_ordinal1363:PPROC
+mfc42u_ordinal1363 equ <__imp_mfc42u_ordinal1363>
+
+externdef __imp_mfc42u_ordinal1364:PPROC
+mfc42u_ordinal1364 equ <__imp_mfc42u_ordinal1364>
+
+externdef __imp_mfc42u_ordinal1365:PPROC
+mfc42u_ordinal1365 equ <__imp_mfc42u_ordinal1365>
+
+externdef __imp_mfc42u_ordinal1366:PPROC
+mfc42u_ordinal1366 equ <__imp_mfc42u_ordinal1366>
+
+externdef __imp_mfc42u_ordinal1367:PPROC
+mfc42u_ordinal1367 equ <__imp_mfc42u_ordinal1367>
+
+externdef __imp_mfc42u_ordinal1368:PPROC
+mfc42u_ordinal1368 equ <__imp_mfc42u_ordinal1368>
+
+externdef __imp_mfc42u_ordinal1369:PPROC
+mfc42u_ordinal1369 equ <__imp_mfc42u_ordinal1369>
+
+externdef __imp_mfc42u_ordinal136:PPROC
+mfc42u_ordinal136 equ <__imp_mfc42u_ordinal136>
+
+externdef __imp_mfc42u_ordinal1370:PPROC
+mfc42u_ordinal1370 equ <__imp_mfc42u_ordinal1370>
+
+externdef __imp_mfc42u_ordinal1371:PPROC
+mfc42u_ordinal1371 equ <__imp_mfc42u_ordinal1371>
+
+externdef __imp_mfc42u_ordinal1372:PPROC
+mfc42u_ordinal1372 equ <__imp_mfc42u_ordinal1372>
+
+externdef __imp_mfc42u_ordinal1373:PPROC
+mfc42u_ordinal1373 equ <__imp_mfc42u_ordinal1373>
+
+externdef __imp_mfc42u_ordinal1374:PPROC
+mfc42u_ordinal1374 equ <__imp_mfc42u_ordinal1374>
+
+externdef __imp_mfc42u_ordinal1375:PPROC
+mfc42u_ordinal1375 equ <__imp_mfc42u_ordinal1375>
+
+externdef __imp_mfc42u_ordinal1376:PPROC
+mfc42u_ordinal1376 equ <__imp_mfc42u_ordinal1376>
+
+externdef __imp_mfc42u_ordinal1377:PPROC
+mfc42u_ordinal1377 equ <__imp_mfc42u_ordinal1377>
+
+externdef __imp_mfc42u_ordinal1378:PPROC
+mfc42u_ordinal1378 equ <__imp_mfc42u_ordinal1378>
+
+externdef __imp_mfc42u_ordinal1379:PPROC
+mfc42u_ordinal1379 equ <__imp_mfc42u_ordinal1379>
+
+externdef __imp_mfc42u_ordinal137:PPROC
+mfc42u_ordinal137 equ <__imp_mfc42u_ordinal137>
+
+externdef __imp_mfc42u_ordinal1380:PPROC
+mfc42u_ordinal1380 equ <__imp_mfc42u_ordinal1380>
+
+externdef __imp_mfc42u_ordinal1381:PPROC
+mfc42u_ordinal1381 equ <__imp_mfc42u_ordinal1381>
+
+externdef __imp_mfc42u_ordinal1382:PPROC
+mfc42u_ordinal1382 equ <__imp_mfc42u_ordinal1382>
+
+externdef __imp_mfc42u_ordinal1383:PPROC
+mfc42u_ordinal1383 equ <__imp_mfc42u_ordinal1383>
+
+externdef __imp_mfc42u_ordinal1384:PPROC
+mfc42u_ordinal1384 equ <__imp_mfc42u_ordinal1384>
+
+externdef __imp_mfc42u_ordinal1385:PPROC
+mfc42u_ordinal1385 equ <__imp_mfc42u_ordinal1385>
+
+externdef __imp_mfc42u_ordinal1386:PPROC
+mfc42u_ordinal1386 equ <__imp_mfc42u_ordinal1386>
+
+externdef __imp_mfc42u_ordinal1387:PPROC
+mfc42u_ordinal1387 equ <__imp_mfc42u_ordinal1387>
+
+externdef __imp_mfc42u_ordinal1388:PPROC
+mfc42u_ordinal1388 equ <__imp_mfc42u_ordinal1388>
+
+externdef __imp_mfc42u_ordinal1389:PPROC
+mfc42u_ordinal1389 equ <__imp_mfc42u_ordinal1389>
+
+externdef __imp_mfc42u_ordinal138:PPROC
+mfc42u_ordinal138 equ <__imp_mfc42u_ordinal138>
+
+externdef __imp_mfc42u_ordinal1390:PPROC
+mfc42u_ordinal1390 equ <__imp_mfc42u_ordinal1390>
+
+externdef __imp_mfc42u_ordinal1391:PPROC
+mfc42u_ordinal1391 equ <__imp_mfc42u_ordinal1391>
+
+externdef __imp_mfc42u_ordinal1392:PPROC
+mfc42u_ordinal1392 equ <__imp_mfc42u_ordinal1392>
+
+externdef __imp_mfc42u_ordinal1393:PPROC
+mfc42u_ordinal1393 equ <__imp_mfc42u_ordinal1393>
+
+externdef __imp_mfc42u_ordinal1394:PPROC
+mfc42u_ordinal1394 equ <__imp_mfc42u_ordinal1394>
+
+externdef __imp_mfc42u_ordinal1395:PPROC
+mfc42u_ordinal1395 equ <__imp_mfc42u_ordinal1395>
+
+externdef __imp_mfc42u_ordinal1396:PPROC
+mfc42u_ordinal1396 equ <__imp_mfc42u_ordinal1396>
+
+externdef __imp_mfc42u_ordinal1397:PPROC
+mfc42u_ordinal1397 equ <__imp_mfc42u_ordinal1397>
+
+externdef __imp_mfc42u_ordinal1398:PPROC
+mfc42u_ordinal1398 equ <__imp_mfc42u_ordinal1398>
+
+externdef __imp_mfc42u_ordinal1399:PPROC
+mfc42u_ordinal1399 equ <__imp_mfc42u_ordinal1399>
+
+externdef __imp_mfc42u_ordinal139:PPROC
+mfc42u_ordinal139 equ <__imp_mfc42u_ordinal139>
+
+externdef __imp_mfc42u_ordinal13:PPROC
+mfc42u_ordinal13 equ <__imp_mfc42u_ordinal13>
+
+externdef __imp_mfc42u_ordinal1400:PPROC
+mfc42u_ordinal1400 equ <__imp_mfc42u_ordinal1400>
+
+externdef __imp_mfc42u_ordinal1401:PPROC
+mfc42u_ordinal1401 equ <__imp_mfc42u_ordinal1401>
+
+externdef __imp_mfc42u_ordinal1402:PPROC
+mfc42u_ordinal1402 equ <__imp_mfc42u_ordinal1402>
+
+externdef __imp_mfc42u_ordinal1403:PPROC
+mfc42u_ordinal1403 equ <__imp_mfc42u_ordinal1403>
+
+externdef __imp_mfc42u_ordinal1404:PPROC
+mfc42u_ordinal1404 equ <__imp_mfc42u_ordinal1404>
+
+externdef __imp_mfc42u_ordinal1405:PPROC
+mfc42u_ordinal1405 equ <__imp_mfc42u_ordinal1405>
+
+externdef __imp_mfc42u_ordinal1406:PPROC
+mfc42u_ordinal1406 equ <__imp_mfc42u_ordinal1406>
+
+externdef __imp_mfc42u_ordinal1407:PPROC
+mfc42u_ordinal1407 equ <__imp_mfc42u_ordinal1407>
+
+externdef __imp_mfc42u_ordinal1408:PPROC
+mfc42u_ordinal1408 equ <__imp_mfc42u_ordinal1408>
+
+externdef __imp_mfc42u_ordinal1409:PPROC
+mfc42u_ordinal1409 equ <__imp_mfc42u_ordinal1409>
+
+externdef __imp_mfc42u_ordinal140:PPROC
+mfc42u_ordinal140 equ <__imp_mfc42u_ordinal140>
+
+externdef __imp_mfc42u_ordinal1410:PPROC
+mfc42u_ordinal1410 equ <__imp_mfc42u_ordinal1410>
+
+externdef __imp_mfc42u_ordinal1411:PPROC
+mfc42u_ordinal1411 equ <__imp_mfc42u_ordinal1411>
+
+externdef __imp_mfc42u_ordinal1412:PPROC
+mfc42u_ordinal1412 equ <__imp_mfc42u_ordinal1412>
+
+externdef __imp_mfc42u_ordinal1413:PPROC
+mfc42u_ordinal1413 equ <__imp_mfc42u_ordinal1413>
+
+externdef __imp_mfc42u_ordinal1414:PPROC
+mfc42u_ordinal1414 equ <__imp_mfc42u_ordinal1414>
+
+externdef __imp_mfc42u_ordinal1415:PPROC
+mfc42u_ordinal1415 equ <__imp_mfc42u_ordinal1415>
+
+externdef __imp_mfc42u_ordinal1416:PPROC
+mfc42u_ordinal1416 equ <__imp_mfc42u_ordinal1416>
+
+externdef __imp_mfc42u_ordinal1417:PPROC
+mfc42u_ordinal1417 equ <__imp_mfc42u_ordinal1417>
+
+externdef __imp_mfc42u_ordinal1418:PPROC
+mfc42u_ordinal1418 equ <__imp_mfc42u_ordinal1418>
+
+externdef __imp_mfc42u_ordinal1419:PPROC
+mfc42u_ordinal1419 equ <__imp_mfc42u_ordinal1419>
+
+externdef __imp_mfc42u_ordinal141:PPROC
+mfc42u_ordinal141 equ <__imp_mfc42u_ordinal141>
+
+externdef __imp_mfc42u_ordinal1420:PPROC
+mfc42u_ordinal1420 equ <__imp_mfc42u_ordinal1420>
+
+externdef __imp_mfc42u_ordinal1421:PPROC
+mfc42u_ordinal1421 equ <__imp_mfc42u_ordinal1421>
+
+externdef __imp_mfc42u_ordinal1422:PPROC
+mfc42u_ordinal1422 equ <__imp_mfc42u_ordinal1422>
+
+externdef __imp_mfc42u_ordinal1423:PPROC
+mfc42u_ordinal1423 equ <__imp_mfc42u_ordinal1423>
+
+externdef __imp_mfc42u_ordinal1424:PPROC
+mfc42u_ordinal1424 equ <__imp_mfc42u_ordinal1424>
+
+externdef __imp_mfc42u_ordinal1425:PPROC
+mfc42u_ordinal1425 equ <__imp_mfc42u_ordinal1425>
+
+externdef __imp_mfc42u_ordinal1426:PPROC
+mfc42u_ordinal1426 equ <__imp_mfc42u_ordinal1426>
+
+externdef __imp_mfc42u_ordinal1427:PPROC
+mfc42u_ordinal1427 equ <__imp_mfc42u_ordinal1427>
+
+externdef __imp_mfc42u_ordinal1428:PPROC
+mfc42u_ordinal1428 equ <__imp_mfc42u_ordinal1428>
+
+externdef __imp_mfc42u_ordinal1429:PPROC
+mfc42u_ordinal1429 equ <__imp_mfc42u_ordinal1429>
+
+externdef __imp_mfc42u_ordinal142:PPROC
+mfc42u_ordinal142 equ <__imp_mfc42u_ordinal142>
+
+externdef __imp_mfc42u_ordinal1430:PPROC
+mfc42u_ordinal1430 equ <__imp_mfc42u_ordinal1430>
+
+externdef __imp_mfc42u_ordinal1431:PPROC
+mfc42u_ordinal1431 equ <__imp_mfc42u_ordinal1431>
+
+externdef __imp_mfc42u_ordinal1432:PPROC
+mfc42u_ordinal1432 equ <__imp_mfc42u_ordinal1432>
+
+externdef __imp_mfc42u_ordinal1433:PPROC
+mfc42u_ordinal1433 equ <__imp_mfc42u_ordinal1433>
+
+externdef __imp_mfc42u_ordinal1434:PPROC
+mfc42u_ordinal1434 equ <__imp_mfc42u_ordinal1434>
+
+externdef __imp_mfc42u_ordinal1435:PPROC
+mfc42u_ordinal1435 equ <__imp_mfc42u_ordinal1435>
+
+externdef __imp_mfc42u_ordinal1436:PPROC
+mfc42u_ordinal1436 equ <__imp_mfc42u_ordinal1436>
+
+externdef __imp_mfc42u_ordinal1437:PPROC
+mfc42u_ordinal1437 equ <__imp_mfc42u_ordinal1437>
+
+externdef __imp_mfc42u_ordinal1438:PPROC
+mfc42u_ordinal1438 equ <__imp_mfc42u_ordinal1438>
+
+externdef __imp_mfc42u_ordinal1439:PPROC
+mfc42u_ordinal1439 equ <__imp_mfc42u_ordinal1439>
+
+externdef __imp_mfc42u_ordinal143:PPROC
+mfc42u_ordinal143 equ <__imp_mfc42u_ordinal143>
+
+externdef __imp_mfc42u_ordinal1440:PPROC
+mfc42u_ordinal1440 equ <__imp_mfc42u_ordinal1440>
+
+externdef __imp_mfc42u_ordinal1441:PPROC
+mfc42u_ordinal1441 equ <__imp_mfc42u_ordinal1441>
+
+externdef __imp_mfc42u_ordinal1442:PPROC
+mfc42u_ordinal1442 equ <__imp_mfc42u_ordinal1442>
+
+externdef __imp_mfc42u_ordinal1443:PPROC
+mfc42u_ordinal1443 equ <__imp_mfc42u_ordinal1443>
+
+externdef __imp_mfc42u_ordinal1444:PPROC
+mfc42u_ordinal1444 equ <__imp_mfc42u_ordinal1444>
+
+externdef __imp_mfc42u_ordinal1445:PPROC
+mfc42u_ordinal1445 equ <__imp_mfc42u_ordinal1445>
+
+externdef __imp_mfc42u_ordinal1447:PPROC
+mfc42u_ordinal1447 equ <__imp_mfc42u_ordinal1447>
+
+externdef __imp_mfc42u_ordinal1448:PPROC
+mfc42u_ordinal1448 equ <__imp_mfc42u_ordinal1448>
+
+externdef __imp_mfc42u_ordinal1449:PPROC
+mfc42u_ordinal1449 equ <__imp_mfc42u_ordinal1449>
+
+externdef __imp_mfc42u_ordinal144:PPROC
+mfc42u_ordinal144 equ <__imp_mfc42u_ordinal144>
+
+externdef __imp_mfc42u_ordinal1450:PPROC
+mfc42u_ordinal1450 equ <__imp_mfc42u_ordinal1450>
+
+externdef __imp_mfc42u_ordinal1451:PPROC
+mfc42u_ordinal1451 equ <__imp_mfc42u_ordinal1451>
+
+externdef __imp_mfc42u_ordinal1452:PPROC
+mfc42u_ordinal1452 equ <__imp_mfc42u_ordinal1452>
+
+externdef __imp_mfc42u_ordinal1453:PPROC
+mfc42u_ordinal1453 equ <__imp_mfc42u_ordinal1453>
+
+externdef __imp_mfc42u_ordinal1454:PPROC
+mfc42u_ordinal1454 equ <__imp_mfc42u_ordinal1454>
+
+externdef __imp_mfc42u_ordinal1455:PPROC
+mfc42u_ordinal1455 equ <__imp_mfc42u_ordinal1455>
+
+externdef __imp_mfc42u_ordinal1456:PPROC
+mfc42u_ordinal1456 equ <__imp_mfc42u_ordinal1456>
+
+externdef __imp_mfc42u_ordinal1457:PPROC
+mfc42u_ordinal1457 equ <__imp_mfc42u_ordinal1457>
+
+externdef __imp_mfc42u_ordinal1458:PPROC
+mfc42u_ordinal1458 equ <__imp_mfc42u_ordinal1458>
+
+externdef __imp_mfc42u_ordinal1459:PPROC
+mfc42u_ordinal1459 equ <__imp_mfc42u_ordinal1459>
+
+externdef __imp_mfc42u_ordinal145:PPROC
+mfc42u_ordinal145 equ <__imp_mfc42u_ordinal145>
+
+externdef __imp_mfc42u_ordinal1460:PPROC
+mfc42u_ordinal1460 equ <__imp_mfc42u_ordinal1460>
+
+externdef __imp_mfc42u_ordinal1461:PPROC
+mfc42u_ordinal1461 equ <__imp_mfc42u_ordinal1461>
+
+externdef __imp_mfc42u_ordinal1462:PPROC
+mfc42u_ordinal1462 equ <__imp_mfc42u_ordinal1462>
+
+externdef __imp_mfc42u_ordinal1463:PPROC
+mfc42u_ordinal1463 equ <__imp_mfc42u_ordinal1463>
+
+externdef __imp_mfc42u_ordinal1464:PPROC
+mfc42u_ordinal1464 equ <__imp_mfc42u_ordinal1464>
+
+externdef __imp_mfc42u_ordinal1465:PPROC
+mfc42u_ordinal1465 equ <__imp_mfc42u_ordinal1465>
+
+externdef __imp_mfc42u_ordinal1466:PPROC
+mfc42u_ordinal1466 equ <__imp_mfc42u_ordinal1466>
+
+externdef __imp_mfc42u_ordinal1467:PPROC
+mfc42u_ordinal1467 equ <__imp_mfc42u_ordinal1467>
+
+externdef __imp_mfc42u_ordinal1468:PPROC
+mfc42u_ordinal1468 equ <__imp_mfc42u_ordinal1468>
+
+externdef __imp_mfc42u_ordinal1469:PPROC
+mfc42u_ordinal1469 equ <__imp_mfc42u_ordinal1469>
+
+externdef __imp_mfc42u_ordinal146:PPROC
+mfc42u_ordinal146 equ <__imp_mfc42u_ordinal146>
+
+externdef __imp_mfc42u_ordinal1470:PPROC
+mfc42u_ordinal1470 equ <__imp_mfc42u_ordinal1470>
+
+externdef __imp_mfc42u_ordinal1471:PPROC
+mfc42u_ordinal1471 equ <__imp_mfc42u_ordinal1471>
+
+externdef __imp_mfc42u_ordinal1472:PPROC
+mfc42u_ordinal1472 equ <__imp_mfc42u_ordinal1472>
+
+externdef __imp_mfc42u_ordinal1473:PPROC
+mfc42u_ordinal1473 equ <__imp_mfc42u_ordinal1473>
+
+externdef __imp_mfc42u_ordinal1474:PPROC
+mfc42u_ordinal1474 equ <__imp_mfc42u_ordinal1474>
+
+externdef __imp_mfc42u_ordinal1475:PPROC
+mfc42u_ordinal1475 equ <__imp_mfc42u_ordinal1475>
+
+externdef __imp_mfc42u_ordinal1476:PPROC
+mfc42u_ordinal1476 equ <__imp_mfc42u_ordinal1476>
+
+externdef __imp_mfc42u_ordinal1477:PPROC
+mfc42u_ordinal1477 equ <__imp_mfc42u_ordinal1477>
+
+externdef __imp_mfc42u_ordinal1478:PPROC
+mfc42u_ordinal1478 equ <__imp_mfc42u_ordinal1478>
+
+externdef __imp_mfc42u_ordinal1479:PPROC
+mfc42u_ordinal1479 equ <__imp_mfc42u_ordinal1479>
+
+externdef __imp_mfc42u_ordinal147:PPROC
+mfc42u_ordinal147 equ <__imp_mfc42u_ordinal147>
+
+externdef __imp_mfc42u_ordinal1480:PPROC
+mfc42u_ordinal1480 equ <__imp_mfc42u_ordinal1480>
+
+externdef __imp_mfc42u_ordinal1481:PPROC
+mfc42u_ordinal1481 equ <__imp_mfc42u_ordinal1481>
+
+externdef __imp_mfc42u_ordinal1482:PPROC
+mfc42u_ordinal1482 equ <__imp_mfc42u_ordinal1482>
+
+externdef __imp_mfc42u_ordinal1483:PPROC
+mfc42u_ordinal1483 equ <__imp_mfc42u_ordinal1483>
+
+externdef __imp_mfc42u_ordinal1484:PPROC
+mfc42u_ordinal1484 equ <__imp_mfc42u_ordinal1484>
+
+externdef __imp_mfc42u_ordinal1485:PPROC
+mfc42u_ordinal1485 equ <__imp_mfc42u_ordinal1485>
+
+externdef __imp_mfc42u_ordinal1486:PPROC
+mfc42u_ordinal1486 equ <__imp_mfc42u_ordinal1486>
+
+externdef __imp_mfc42u_ordinal1488:PPROC
+mfc42u_ordinal1488 equ <__imp_mfc42u_ordinal1488>
+
+externdef __imp_mfc42u_ordinal1489:PPROC
+mfc42u_ordinal1489 equ <__imp_mfc42u_ordinal1489>
+
+externdef __imp_mfc42u_ordinal148:PPROC
+mfc42u_ordinal148 equ <__imp_mfc42u_ordinal148>
+
+externdef __imp_mfc42u_ordinal1491:PPROC
+mfc42u_ordinal1491 equ <__imp_mfc42u_ordinal1491>
+
+externdef __imp_mfc42u_ordinal1492:PPROC
+mfc42u_ordinal1492 equ <__imp_mfc42u_ordinal1492>
+
+externdef __imp_mfc42u_ordinal1493:PPROC
+mfc42u_ordinal1493 equ <__imp_mfc42u_ordinal1493>
+
+externdef __imp_mfc42u_ordinal1494:PPROC
+mfc42u_ordinal1494 equ <__imp_mfc42u_ordinal1494>
+
+externdef __imp_mfc42u_ordinal1495:PPROC
+mfc42u_ordinal1495 equ <__imp_mfc42u_ordinal1495>
+
+externdef __imp_mfc42u_ordinal1496:PPROC
+mfc42u_ordinal1496 equ <__imp_mfc42u_ordinal1496>
+
+externdef __imp_mfc42u_ordinal1497:PPROC
+mfc42u_ordinal1497 equ <__imp_mfc42u_ordinal1497>
+
+externdef __imp_mfc42u_ordinal1498:PPROC
+mfc42u_ordinal1498 equ <__imp_mfc42u_ordinal1498>
+
+externdef __imp_mfc42u_ordinal1499:PPROC
+mfc42u_ordinal1499 equ <__imp_mfc42u_ordinal1499>
+
+externdef __imp_mfc42u_ordinal149:PPROC
+mfc42u_ordinal149 equ <__imp_mfc42u_ordinal149>
+
+externdef __imp_mfc42u_ordinal14:PPROC
+mfc42u_ordinal14 equ <__imp_mfc42u_ordinal14>
+
+externdef __imp_mfc42u_ordinal1500:PPROC
+mfc42u_ordinal1500 equ <__imp_mfc42u_ordinal1500>
+
+externdef __imp_mfc42u_ordinal1501:PPROC
+mfc42u_ordinal1501 equ <__imp_mfc42u_ordinal1501>
+
+externdef __imp_mfc42u_ordinal1502:PPROC
+mfc42u_ordinal1502 equ <__imp_mfc42u_ordinal1502>
+
+externdef __imp_mfc42u_ordinal1503:PPROC
+mfc42u_ordinal1503 equ <__imp_mfc42u_ordinal1503>
+
+externdef __imp_mfc42u_ordinal1504:PPROC
+mfc42u_ordinal1504 equ <__imp_mfc42u_ordinal1504>
+
+externdef __imp_mfc42u_ordinal1505:PPROC
+mfc42u_ordinal1505 equ <__imp_mfc42u_ordinal1505>
+
+externdef __imp_mfc42u_ordinal1506:PPROC
+mfc42u_ordinal1506 equ <__imp_mfc42u_ordinal1506>
+
+externdef __imp_mfc42u_ordinal1507:PPROC
+mfc42u_ordinal1507 equ <__imp_mfc42u_ordinal1507>
+
+externdef __imp_mfc42u_ordinal1508:PPROC
+mfc42u_ordinal1508 equ <__imp_mfc42u_ordinal1508>
+
+externdef __imp_mfc42u_ordinal1509:PPROC
+mfc42u_ordinal1509 equ <__imp_mfc42u_ordinal1509>
+
+externdef __imp_mfc42u_ordinal150:PPROC
+mfc42u_ordinal150 equ <__imp_mfc42u_ordinal150>
+
+externdef __imp_mfc42u_ordinal1510:PPROC
+mfc42u_ordinal1510 equ <__imp_mfc42u_ordinal1510>
+
+externdef __imp_mfc42u_ordinal1511:PPROC
+mfc42u_ordinal1511 equ <__imp_mfc42u_ordinal1511>
+
+externdef __imp_mfc42u_ordinal1512:PPROC
+mfc42u_ordinal1512 equ <__imp_mfc42u_ordinal1512>
+
+externdef __imp_mfc42u_ordinal1513:PPROC
+mfc42u_ordinal1513 equ <__imp_mfc42u_ordinal1513>
+
+externdef __imp_mfc42u_ordinal1514:PPROC
+mfc42u_ordinal1514 equ <__imp_mfc42u_ordinal1514>
+
+externdef __imp_mfc42u_ordinal1515:PPROC
+mfc42u_ordinal1515 equ <__imp_mfc42u_ordinal1515>
+
+externdef __imp_mfc42u_ordinal1516:PPROC
+mfc42u_ordinal1516 equ <__imp_mfc42u_ordinal1516>
+
+externdef __imp_mfc42u_ordinal1517:PPROC
+mfc42u_ordinal1517 equ <__imp_mfc42u_ordinal1517>
+
+externdef __imp_mfc42u_ordinal1518:PPROC
+mfc42u_ordinal1518 equ <__imp_mfc42u_ordinal1518>
+
+externdef __imp_mfc42u_ordinal1519:PPROC
+mfc42u_ordinal1519 equ <__imp_mfc42u_ordinal1519>
+
+externdef __imp_mfc42u_ordinal151:PPROC
+mfc42u_ordinal151 equ <__imp_mfc42u_ordinal151>
+
+externdef __imp_mfc42u_ordinal1520:PPROC
+mfc42u_ordinal1520 equ <__imp_mfc42u_ordinal1520>
+
+externdef __imp_mfc42u_ordinal1521:PPROC
+mfc42u_ordinal1521 equ <__imp_mfc42u_ordinal1521>
+
+externdef __imp_mfc42u_ordinal1522:PPROC
+mfc42u_ordinal1522 equ <__imp_mfc42u_ordinal1522>
+
+externdef __imp_mfc42u_ordinal1523:PPROC
+mfc42u_ordinal1523 equ <__imp_mfc42u_ordinal1523>
+
+externdef __imp_mfc42u_ordinal1524:PPROC
+mfc42u_ordinal1524 equ <__imp_mfc42u_ordinal1524>
+
+externdef __imp_mfc42u_ordinal1525:PPROC
+mfc42u_ordinal1525 equ <__imp_mfc42u_ordinal1525>
+
+externdef __imp_mfc42u_ordinal1526:PPROC
+mfc42u_ordinal1526 equ <__imp_mfc42u_ordinal1526>
+
+externdef __imp_mfc42u_ordinal1527:PPROC
+mfc42u_ordinal1527 equ <__imp_mfc42u_ordinal1527>
+
+externdef __imp_mfc42u_ordinal1528:PPROC
+mfc42u_ordinal1528 equ <__imp_mfc42u_ordinal1528>
+
+externdef __imp_mfc42u_ordinal1529:PPROC
+mfc42u_ordinal1529 equ <__imp_mfc42u_ordinal1529>
+
+externdef __imp_mfc42u_ordinal152:PPROC
+mfc42u_ordinal152 equ <__imp_mfc42u_ordinal152>
+
+externdef __imp_mfc42u_ordinal1530:PPROC
+mfc42u_ordinal1530 equ <__imp_mfc42u_ordinal1530>
+
+externdef __imp_mfc42u_ordinal1531:PPROC
+mfc42u_ordinal1531 equ <__imp_mfc42u_ordinal1531>
+
+externdef __imp_mfc42u_ordinal1532:PPROC
+mfc42u_ordinal1532 equ <__imp_mfc42u_ordinal1532>
+
+externdef __imp_mfc42u_ordinal1533:PPROC
+mfc42u_ordinal1533 equ <__imp_mfc42u_ordinal1533>
+
+externdef __imp_mfc42u_ordinal1534:PPROC
+mfc42u_ordinal1534 equ <__imp_mfc42u_ordinal1534>
+
+externdef __imp_mfc42u_ordinal1535:PPROC
+mfc42u_ordinal1535 equ <__imp_mfc42u_ordinal1535>
+
+externdef __imp_mfc42u_ordinal1536:PPROC
+mfc42u_ordinal1536 equ <__imp_mfc42u_ordinal1536>
+
+externdef __imp_mfc42u_ordinal1537:PPROC
+mfc42u_ordinal1537 equ <__imp_mfc42u_ordinal1537>
+
+externdef __imp_mfc42u_ordinal1538:PPROC
+mfc42u_ordinal1538 equ <__imp_mfc42u_ordinal1538>
+
+externdef __imp_mfc42u_ordinal1539:PPROC
+mfc42u_ordinal1539 equ <__imp_mfc42u_ordinal1539>
+
+externdef __imp_mfc42u_ordinal153:PPROC
+mfc42u_ordinal153 equ <__imp_mfc42u_ordinal153>
+
+externdef __imp_mfc42u_ordinal1540:PPROC
+mfc42u_ordinal1540 equ <__imp_mfc42u_ordinal1540>
+
+externdef __imp_mfc42u_ordinal1541:PPROC
+mfc42u_ordinal1541 equ <__imp_mfc42u_ordinal1541>
+
+externdef __imp_mfc42u_ordinal1542:PPROC
+mfc42u_ordinal1542 equ <__imp_mfc42u_ordinal1542>
+
+externdef __imp_mfc42u_ordinal1543:PPROC
+mfc42u_ordinal1543 equ <__imp_mfc42u_ordinal1543>
+
+externdef __imp_mfc42u_ordinal1544:PPROC
+mfc42u_ordinal1544 equ <__imp_mfc42u_ordinal1544>
+
+externdef __imp_mfc42u_ordinal1545:PPROC
+mfc42u_ordinal1545 equ <__imp_mfc42u_ordinal1545>
+
+externdef __imp_mfc42u_ordinal1546:PPROC
+mfc42u_ordinal1546 equ <__imp_mfc42u_ordinal1546>
+
+externdef __imp_mfc42u_ordinal1547:PPROC
+mfc42u_ordinal1547 equ <__imp_mfc42u_ordinal1547>
+
+externdef __imp_mfc42u_ordinal1548:PPROC
+mfc42u_ordinal1548 equ <__imp_mfc42u_ordinal1548>
+
+externdef __imp_mfc42u_ordinal1549:PPROC
+mfc42u_ordinal1549 equ <__imp_mfc42u_ordinal1549>
+
+externdef __imp_mfc42u_ordinal154:PPROC
+mfc42u_ordinal154 equ <__imp_mfc42u_ordinal154>
+
+externdef __imp_mfc42u_ordinal1550:PPROC
+mfc42u_ordinal1550 equ <__imp_mfc42u_ordinal1550>
+
+externdef __imp_mfc42u_ordinal1551:PPROC
+mfc42u_ordinal1551 equ <__imp_mfc42u_ordinal1551>
+
+externdef __imp_mfc42u_ordinal1552:PPROC
+mfc42u_ordinal1552 equ <__imp_mfc42u_ordinal1552>
+
+externdef __imp_mfc42u_ordinal1553:PPROC
+mfc42u_ordinal1553 equ <__imp_mfc42u_ordinal1553>
+
+externdef __imp_mfc42u_ordinal1554:PPROC
+mfc42u_ordinal1554 equ <__imp_mfc42u_ordinal1554>
+
+externdef __imp_mfc42u_ordinal1555:PPROC
+mfc42u_ordinal1555 equ <__imp_mfc42u_ordinal1555>
+
+externdef __imp_mfc42u_ordinal1556:PPROC
+mfc42u_ordinal1556 equ <__imp_mfc42u_ordinal1556>
+
+externdef __imp_mfc42u_ordinal1557:PPROC
+mfc42u_ordinal1557 equ <__imp_mfc42u_ordinal1557>
+
+externdef __imp_mfc42u_ordinal1558:PPROC
+mfc42u_ordinal1558 equ <__imp_mfc42u_ordinal1558>
+
+externdef __imp_mfc42u_ordinal1559:PPROC
+mfc42u_ordinal1559 equ <__imp_mfc42u_ordinal1559>
+
+externdef __imp_mfc42u_ordinal155:PPROC
+mfc42u_ordinal155 equ <__imp_mfc42u_ordinal155>
+
+externdef __imp_mfc42u_ordinal1560:PPROC
+mfc42u_ordinal1560 equ <__imp_mfc42u_ordinal1560>
+
+externdef __imp_mfc42u_ordinal1561:PPROC
+mfc42u_ordinal1561 equ <__imp_mfc42u_ordinal1561>
+
+externdef __imp_mfc42u_ordinal1562:PPROC
+mfc42u_ordinal1562 equ <__imp_mfc42u_ordinal1562>
+
+externdef __imp_mfc42u_ordinal1563:PPROC
+mfc42u_ordinal1563 equ <__imp_mfc42u_ordinal1563>
+
+externdef __imp_mfc42u_ordinal1564:PPROC
+mfc42u_ordinal1564 equ <__imp_mfc42u_ordinal1564>
+
+externdef __imp_mfc42u_ordinal1565:PPROC
+mfc42u_ordinal1565 equ <__imp_mfc42u_ordinal1565>
+
+externdef __imp_mfc42u_ordinal1566:PPROC
+mfc42u_ordinal1566 equ <__imp_mfc42u_ordinal1566>
+
+externdef __imp_mfc42u_ordinal1567:PPROC
+mfc42u_ordinal1567 equ <__imp_mfc42u_ordinal1567>
+
+externdef __imp_mfc42u_ordinal1568:PPROC
+mfc42u_ordinal1568 equ <__imp_mfc42u_ordinal1568>
+
+externdef __imp_mfc42u_ordinal1569:PPROC
+mfc42u_ordinal1569 equ <__imp_mfc42u_ordinal1569>
+
+externdef __imp_mfc42u_ordinal156:PPROC
+mfc42u_ordinal156 equ <__imp_mfc42u_ordinal156>
+
+externdef __imp_mfc42u_ordinal1570:PPROC
+mfc42u_ordinal1570 equ <__imp_mfc42u_ordinal1570>
+
+externdef __imp_mfc42u_ordinal1571:PPROC
+mfc42u_ordinal1571 equ <__imp_mfc42u_ordinal1571>
+
+externdef __imp_mfc42u_ordinal1572:PPROC
+mfc42u_ordinal1572 equ <__imp_mfc42u_ordinal1572>
+
+externdef __imp_mfc42u_ordinal1573:PPROC
+mfc42u_ordinal1573 equ <__imp_mfc42u_ordinal1573>
+
+externdef __imp_mfc42u_ordinal1574:PPROC
+mfc42u_ordinal1574 equ <__imp_mfc42u_ordinal1574>
+
+externdef __imp_mfc42u_ordinal1575:PPROC
+mfc42u_ordinal1575 equ <__imp_mfc42u_ordinal1575>
+
+externdef __imp_mfc42u_ordinal1577:PPROC
+mfc42u_ordinal1577 equ <__imp_mfc42u_ordinal1577>
+
+externdef __imp_mfc42u_ordinal1578:PPROC
+mfc42u_ordinal1578 equ <__imp_mfc42u_ordinal1578>
+
+externdef __imp_mfc42u_ordinal1579:PPROC
+mfc42u_ordinal1579 equ <__imp_mfc42u_ordinal1579>
+
+externdef __imp_mfc42u_ordinal157:PPROC
+mfc42u_ordinal157 equ <__imp_mfc42u_ordinal157>
+
+externdef __imp_mfc42u_ordinal1580:PPROC
+mfc42u_ordinal1580 equ <__imp_mfc42u_ordinal1580>
+
+externdef __imp_mfc42u_ordinal1581:PPROC
+mfc42u_ordinal1581 equ <__imp_mfc42u_ordinal1581>
+
+externdef __imp_mfc42u_ordinal1582:PPROC
+mfc42u_ordinal1582 equ <__imp_mfc42u_ordinal1582>
+
+externdef __imp_mfc42u_ordinal1583:PPROC
+mfc42u_ordinal1583 equ <__imp_mfc42u_ordinal1583>
+
+externdef __imp_mfc42u_ordinal1584:PPROC
+mfc42u_ordinal1584 equ <__imp_mfc42u_ordinal1584>
+
+externdef __imp_mfc42u_ordinal1585:PPROC
+mfc42u_ordinal1585 equ <__imp_mfc42u_ordinal1585>
+
+externdef __imp_mfc42u_ordinal1586:PPROC
+mfc42u_ordinal1586 equ <__imp_mfc42u_ordinal1586>
+
+externdef __imp_mfc42u_ordinal1587:PPROC
+mfc42u_ordinal1587 equ <__imp_mfc42u_ordinal1587>
+
+externdef __imp_mfc42u_ordinal1588:PPROC
+mfc42u_ordinal1588 equ <__imp_mfc42u_ordinal1588>
+
+externdef __imp_mfc42u_ordinal1589:PPROC
+mfc42u_ordinal1589 equ <__imp_mfc42u_ordinal1589>
+
+externdef __imp_mfc42u_ordinal158:PPROC
+mfc42u_ordinal158 equ <__imp_mfc42u_ordinal158>
+
+externdef __imp_mfc42u_ordinal1590:PPROC
+mfc42u_ordinal1590 equ <__imp_mfc42u_ordinal1590>
+
+externdef __imp_mfc42u_ordinal1591:PPROC
+mfc42u_ordinal1591 equ <__imp_mfc42u_ordinal1591>
+
+externdef __imp_mfc42u_ordinal1592:PPROC
+mfc42u_ordinal1592 equ <__imp_mfc42u_ordinal1592>
+
+externdef __imp_mfc42u_ordinal1593:PPROC
+mfc42u_ordinal1593 equ <__imp_mfc42u_ordinal1593>
+
+externdef __imp_mfc42u_ordinal1594:PPROC
+mfc42u_ordinal1594 equ <__imp_mfc42u_ordinal1594>
+
+externdef __imp_mfc42u_ordinal1595:PPROC
+mfc42u_ordinal1595 equ <__imp_mfc42u_ordinal1595>
+
+externdef __imp_mfc42u_ordinal1596:PPROC
+mfc42u_ordinal1596 equ <__imp_mfc42u_ordinal1596>
+
+externdef __imp_mfc42u_ordinal1597:PPROC
+mfc42u_ordinal1597 equ <__imp_mfc42u_ordinal1597>
+
+externdef __imp_mfc42u_ordinal1598:PPROC
+mfc42u_ordinal1598 equ <__imp_mfc42u_ordinal1598>
+
+externdef __imp_mfc42u_ordinal1599:PPROC
+mfc42u_ordinal1599 equ <__imp_mfc42u_ordinal1599>
+
+externdef __imp_mfc42u_ordinal159:PPROC
+mfc42u_ordinal159 equ <__imp_mfc42u_ordinal159>
+
+externdef __imp_mfc42u_ordinal15:PPROC
+mfc42u_ordinal15 equ <__imp_mfc42u_ordinal15>
+
+externdef __imp_mfc42u_ordinal1600:PPROC
+mfc42u_ordinal1600 equ <__imp_mfc42u_ordinal1600>
+
+externdef __imp_mfc42u_ordinal1601:PPROC
+mfc42u_ordinal1601 equ <__imp_mfc42u_ordinal1601>
+
+externdef __imp_mfc42u_ordinal1602:PPROC
+mfc42u_ordinal1602 equ <__imp_mfc42u_ordinal1602>
+
+externdef __imp_mfc42u_ordinal1603:PPROC
+mfc42u_ordinal1603 equ <__imp_mfc42u_ordinal1603>
+
+externdef __imp_mfc42u_ordinal1604:PPROC
+mfc42u_ordinal1604 equ <__imp_mfc42u_ordinal1604>
+
+externdef __imp_mfc42u_ordinal1605:PPROC
+mfc42u_ordinal1605 equ <__imp_mfc42u_ordinal1605>
+
+externdef __imp_mfc42u_ordinal1606:PPROC
+mfc42u_ordinal1606 equ <__imp_mfc42u_ordinal1606>
+
+externdef __imp_mfc42u_ordinal1607:PPROC
+mfc42u_ordinal1607 equ <__imp_mfc42u_ordinal1607>
+
+externdef __imp_mfc42u_ordinal1608:PPROC
+mfc42u_ordinal1608 equ <__imp_mfc42u_ordinal1608>
+
+externdef __imp_mfc42u_ordinal1609:PPROC
+mfc42u_ordinal1609 equ <__imp_mfc42u_ordinal1609>
+
+externdef __imp_mfc42u_ordinal160:PPROC
+mfc42u_ordinal160 equ <__imp_mfc42u_ordinal160>
+
+externdef __imp_mfc42u_ordinal1610:PPROC
+mfc42u_ordinal1610 equ <__imp_mfc42u_ordinal1610>
+
+externdef __imp_mfc42u_ordinal1611:PPROC
+mfc42u_ordinal1611 equ <__imp_mfc42u_ordinal1611>
+
+externdef __imp_mfc42u_ordinal1612:PPROC
+mfc42u_ordinal1612 equ <__imp_mfc42u_ordinal1612>
+
+externdef __imp_mfc42u_ordinal1613:PPROC
+mfc42u_ordinal1613 equ <__imp_mfc42u_ordinal1613>
+
+externdef __imp_mfc42u_ordinal1614:PPROC
+mfc42u_ordinal1614 equ <__imp_mfc42u_ordinal1614>
+
+externdef __imp_mfc42u_ordinal1615:PPROC
+mfc42u_ordinal1615 equ <__imp_mfc42u_ordinal1615>
+
+externdef __imp_mfc42u_ordinal1616:PPROC
+mfc42u_ordinal1616 equ <__imp_mfc42u_ordinal1616>
+
+externdef __imp_mfc42u_ordinal1617:PPROC
+mfc42u_ordinal1617 equ <__imp_mfc42u_ordinal1617>
+
+externdef __imp_mfc42u_ordinal1618:PPROC
+mfc42u_ordinal1618 equ <__imp_mfc42u_ordinal1618>
+
+externdef __imp_mfc42u_ordinal1619:PPROC
+mfc42u_ordinal1619 equ <__imp_mfc42u_ordinal1619>
+
+externdef __imp_mfc42u_ordinal161:PPROC
+mfc42u_ordinal161 equ <__imp_mfc42u_ordinal161>
+
+externdef __imp_mfc42u_ordinal1620:PPROC
+mfc42u_ordinal1620 equ <__imp_mfc42u_ordinal1620>
+
+externdef __imp_mfc42u_ordinal1621:PPROC
+mfc42u_ordinal1621 equ <__imp_mfc42u_ordinal1621>
+
+externdef __imp_mfc42u_ordinal1622:PPROC
+mfc42u_ordinal1622 equ <__imp_mfc42u_ordinal1622>
+
+externdef __imp_mfc42u_ordinal1623:PPROC
+mfc42u_ordinal1623 equ <__imp_mfc42u_ordinal1623>
+
+externdef __imp_mfc42u_ordinal1624:PPROC
+mfc42u_ordinal1624 equ <__imp_mfc42u_ordinal1624>
+
+externdef __imp_mfc42u_ordinal1625:PPROC
+mfc42u_ordinal1625 equ <__imp_mfc42u_ordinal1625>
+
+externdef __imp_mfc42u_ordinal1626:PPROC
+mfc42u_ordinal1626 equ <__imp_mfc42u_ordinal1626>
+
+externdef __imp_mfc42u_ordinal1627:PPROC
+mfc42u_ordinal1627 equ <__imp_mfc42u_ordinal1627>
+
+externdef __imp_mfc42u_ordinal1628:PPROC
+mfc42u_ordinal1628 equ <__imp_mfc42u_ordinal1628>
+
+externdef __imp_mfc42u_ordinal1629:PPROC
+mfc42u_ordinal1629 equ <__imp_mfc42u_ordinal1629>
+
+externdef __imp_mfc42u_ordinal162:PPROC
+mfc42u_ordinal162 equ <__imp_mfc42u_ordinal162>
+
+externdef __imp_mfc42u_ordinal1630:PPROC
+mfc42u_ordinal1630 equ <__imp_mfc42u_ordinal1630>
+
+externdef __imp_mfc42u_ordinal1631:PPROC
+mfc42u_ordinal1631 equ <__imp_mfc42u_ordinal1631>
+
+externdef __imp_mfc42u_ordinal1632:PPROC
+mfc42u_ordinal1632 equ <__imp_mfc42u_ordinal1632>
+
+externdef __imp_mfc42u_ordinal1633:PPROC
+mfc42u_ordinal1633 equ <__imp_mfc42u_ordinal1633>
+
+externdef __imp_mfc42u_ordinal1634:PPROC
+mfc42u_ordinal1634 equ <__imp_mfc42u_ordinal1634>
+
+externdef __imp_mfc42u_ordinal1635:PPROC
+mfc42u_ordinal1635 equ <__imp_mfc42u_ordinal1635>
+
+externdef __imp_mfc42u_ordinal1636:PPROC
+mfc42u_ordinal1636 equ <__imp_mfc42u_ordinal1636>
+
+externdef __imp_mfc42u_ordinal1637:PPROC
+mfc42u_ordinal1637 equ <__imp_mfc42u_ordinal1637>
+
+externdef __imp_mfc42u_ordinal1638:PPROC
+mfc42u_ordinal1638 equ <__imp_mfc42u_ordinal1638>
+
+externdef __imp_mfc42u_ordinal1639:PPROC
+mfc42u_ordinal1639 equ <__imp_mfc42u_ordinal1639>
+
+externdef __imp_mfc42u_ordinal163:PPROC
+mfc42u_ordinal163 equ <__imp_mfc42u_ordinal163>
+
+externdef __imp_mfc42u_ordinal1640:PPROC
+mfc42u_ordinal1640 equ <__imp_mfc42u_ordinal1640>
+
+externdef __imp_mfc42u_ordinal1641:PPROC
+mfc42u_ordinal1641 equ <__imp_mfc42u_ordinal1641>
+
+externdef __imp_mfc42u_ordinal1642:PPROC
+mfc42u_ordinal1642 equ <__imp_mfc42u_ordinal1642>
+
+externdef __imp_mfc42u_ordinal1643:PPROC
+mfc42u_ordinal1643 equ <__imp_mfc42u_ordinal1643>
+
+externdef __imp_mfc42u_ordinal1644:PPROC
+mfc42u_ordinal1644 equ <__imp_mfc42u_ordinal1644>
+
+externdef __imp_mfc42u_ordinal1645:PPROC
+mfc42u_ordinal1645 equ <__imp_mfc42u_ordinal1645>
+
+externdef __imp_mfc42u_ordinal1646:PPROC
+mfc42u_ordinal1646 equ <__imp_mfc42u_ordinal1646>
+
+externdef __imp_mfc42u_ordinal1647:PPROC
+mfc42u_ordinal1647 equ <__imp_mfc42u_ordinal1647>
+
+externdef __imp_mfc42u_ordinal1648:PPROC
+mfc42u_ordinal1648 equ <__imp_mfc42u_ordinal1648>
+
+externdef __imp_mfc42u_ordinal1649:PPROC
+mfc42u_ordinal1649 equ <__imp_mfc42u_ordinal1649>
+
+externdef __imp_mfc42u_ordinal164:PPROC
+mfc42u_ordinal164 equ <__imp_mfc42u_ordinal164>
+
+externdef __imp_mfc42u_ordinal1650:PPROC
+mfc42u_ordinal1650 equ <__imp_mfc42u_ordinal1650>
+
+externdef __imp_mfc42u_ordinal1651:PPROC
+mfc42u_ordinal1651 equ <__imp_mfc42u_ordinal1651>
+
+externdef __imp_mfc42u_ordinal1652:PPROC
+mfc42u_ordinal1652 equ <__imp_mfc42u_ordinal1652>
+
+externdef __imp_mfc42u_ordinal1653:PPROC
+mfc42u_ordinal1653 equ <__imp_mfc42u_ordinal1653>
+
+externdef __imp_mfc42u_ordinal1654:PPROC
+mfc42u_ordinal1654 equ <__imp_mfc42u_ordinal1654>
+
+externdef __imp_mfc42u_ordinal1655:PPROC
+mfc42u_ordinal1655 equ <__imp_mfc42u_ordinal1655>
+
+externdef __imp_mfc42u_ordinal1656:PPROC
+mfc42u_ordinal1656 equ <__imp_mfc42u_ordinal1656>
+
+externdef __imp_mfc42u_ordinal1657:PPROC
+mfc42u_ordinal1657 equ <__imp_mfc42u_ordinal1657>
+
+externdef __imp_mfc42u_ordinal1658:PPROC
+mfc42u_ordinal1658 equ <__imp_mfc42u_ordinal1658>
+
+externdef __imp_mfc42u_ordinal1659:PPROC
+mfc42u_ordinal1659 equ <__imp_mfc42u_ordinal1659>
+
+externdef __imp_mfc42u_ordinal165:PPROC
+mfc42u_ordinal165 equ <__imp_mfc42u_ordinal165>
+
+externdef __imp_mfc42u_ordinal1660:PPROC
+mfc42u_ordinal1660 equ <__imp_mfc42u_ordinal1660>
+
+externdef __imp_mfc42u_ordinal1661:PPROC
+mfc42u_ordinal1661 equ <__imp_mfc42u_ordinal1661>
+
+externdef __imp_mfc42u_ordinal1662:PPROC
+mfc42u_ordinal1662 equ <__imp_mfc42u_ordinal1662>
+
+externdef __imp_mfc42u_ordinal1663:PPROC
+mfc42u_ordinal1663 equ <__imp_mfc42u_ordinal1663>
+
+externdef __imp_mfc42u_ordinal1664:PPROC
+mfc42u_ordinal1664 equ <__imp_mfc42u_ordinal1664>
+
+externdef __imp_mfc42u_ordinal1665:PPROC
+mfc42u_ordinal1665 equ <__imp_mfc42u_ordinal1665>
+
+externdef __imp_mfc42u_ordinal1666:PPROC
+mfc42u_ordinal1666 equ <__imp_mfc42u_ordinal1666>
+
+externdef __imp_mfc42u_ordinal1667:PPROC
+mfc42u_ordinal1667 equ <__imp_mfc42u_ordinal1667>
+
+externdef __imp_mfc42u_ordinal1668:PPROC
+mfc42u_ordinal1668 equ <__imp_mfc42u_ordinal1668>
+
+externdef __imp_mfc42u_ordinal1669:PPROC
+mfc42u_ordinal1669 equ <__imp_mfc42u_ordinal1669>
+
+externdef __imp_mfc42u_ordinal166:PPROC
+mfc42u_ordinal166 equ <__imp_mfc42u_ordinal166>
+
+externdef __imp_mfc42u_ordinal1670:PPROC
+mfc42u_ordinal1670 equ <__imp_mfc42u_ordinal1670>
+
+externdef __imp_mfc42u_ordinal1671:PPROC
+mfc42u_ordinal1671 equ <__imp_mfc42u_ordinal1671>
+
+externdef __imp_mfc42u_ordinal1672:PPROC
+mfc42u_ordinal1672 equ <__imp_mfc42u_ordinal1672>
+
+externdef __imp_mfc42u_ordinal1673:PPROC
+mfc42u_ordinal1673 equ <__imp_mfc42u_ordinal1673>
+
+externdef __imp_mfc42u_ordinal1674:PPROC
+mfc42u_ordinal1674 equ <__imp_mfc42u_ordinal1674>
+
+externdef __imp_mfc42u_ordinal1675:PPROC
+mfc42u_ordinal1675 equ <__imp_mfc42u_ordinal1675>
+
+externdef __imp_mfc42u_ordinal1676:PPROC
+mfc42u_ordinal1676 equ <__imp_mfc42u_ordinal1676>
+
+externdef __imp_mfc42u_ordinal1677:PPROC
+mfc42u_ordinal1677 equ <__imp_mfc42u_ordinal1677>
+
+externdef __imp_mfc42u_ordinal1678:PPROC
+mfc42u_ordinal1678 equ <__imp_mfc42u_ordinal1678>
+
+externdef __imp_mfc42u_ordinal1679:PPROC
+mfc42u_ordinal1679 equ <__imp_mfc42u_ordinal1679>
+
+externdef __imp_mfc42u_ordinal167:PPROC
+mfc42u_ordinal167 equ <__imp_mfc42u_ordinal167>
+
+externdef __imp_mfc42u_ordinal1680:PPROC
+mfc42u_ordinal1680 equ <__imp_mfc42u_ordinal1680>
+
+externdef __imp_mfc42u_ordinal1681:PPROC
+mfc42u_ordinal1681 equ <__imp_mfc42u_ordinal1681>
+
+externdef __imp_mfc42u_ordinal1682:PPROC
+mfc42u_ordinal1682 equ <__imp_mfc42u_ordinal1682>
+
+externdef __imp_mfc42u_ordinal1683:PPROC
+mfc42u_ordinal1683 equ <__imp_mfc42u_ordinal1683>
+
+externdef __imp_mfc42u_ordinal1684:PPROC
+mfc42u_ordinal1684 equ <__imp_mfc42u_ordinal1684>
+
+externdef __imp_mfc42u_ordinal1685:PPROC
+mfc42u_ordinal1685 equ <__imp_mfc42u_ordinal1685>
+
+externdef __imp_mfc42u_ordinal1686:PPROC
+mfc42u_ordinal1686 equ <__imp_mfc42u_ordinal1686>
+
+externdef __imp_mfc42u_ordinal1687:PPROC
+mfc42u_ordinal1687 equ <__imp_mfc42u_ordinal1687>
+
+externdef __imp_mfc42u_ordinal1688:PPROC
+mfc42u_ordinal1688 equ <__imp_mfc42u_ordinal1688>
+
+externdef __imp_mfc42u_ordinal1689:PPROC
+mfc42u_ordinal1689 equ <__imp_mfc42u_ordinal1689>
+
+externdef __imp_mfc42u_ordinal168:PPROC
+mfc42u_ordinal168 equ <__imp_mfc42u_ordinal168>
+
+externdef __imp_mfc42u_ordinal1690:PPROC
+mfc42u_ordinal1690 equ <__imp_mfc42u_ordinal1690>
+
+externdef __imp_mfc42u_ordinal1691:PPROC
+mfc42u_ordinal1691 equ <__imp_mfc42u_ordinal1691>
+
+externdef __imp_mfc42u_ordinal1692:PPROC
+mfc42u_ordinal1692 equ <__imp_mfc42u_ordinal1692>
+
+externdef __imp_mfc42u_ordinal1693:PPROC
+mfc42u_ordinal1693 equ <__imp_mfc42u_ordinal1693>
+
+externdef __imp_mfc42u_ordinal1694:PPROC
+mfc42u_ordinal1694 equ <__imp_mfc42u_ordinal1694>
+
+externdef __imp_mfc42u_ordinal1695:PPROC
+mfc42u_ordinal1695 equ <__imp_mfc42u_ordinal1695>
+
+externdef __imp_mfc42u_ordinal1696:PPROC
+mfc42u_ordinal1696 equ <__imp_mfc42u_ordinal1696>
+
+externdef __imp_mfc42u_ordinal1697:PPROC
+mfc42u_ordinal1697 equ <__imp_mfc42u_ordinal1697>
+
+externdef __imp_mfc42u_ordinal1698:PPROC
+mfc42u_ordinal1698 equ <__imp_mfc42u_ordinal1698>
+
+externdef __imp_mfc42u_ordinal1699:PPROC
+mfc42u_ordinal1699 equ <__imp_mfc42u_ordinal1699>
+
+externdef __imp_mfc42u_ordinal169:PPROC
+mfc42u_ordinal169 equ <__imp_mfc42u_ordinal169>
+
+externdef __imp_mfc42u_ordinal16:PPROC
+mfc42u_ordinal16 equ <__imp_mfc42u_ordinal16>
+
+externdef __imp_mfc42u_ordinal1700:PPROC
+mfc42u_ordinal1700 equ <__imp_mfc42u_ordinal1700>
+
+externdef __imp_mfc42u_ordinal1701:PPROC
+mfc42u_ordinal1701 equ <__imp_mfc42u_ordinal1701>
+
+externdef __imp_mfc42u_ordinal1702:PPROC
+mfc42u_ordinal1702 equ <__imp_mfc42u_ordinal1702>
+
+externdef __imp_mfc42u_ordinal1703:PPROC
+mfc42u_ordinal1703 equ <__imp_mfc42u_ordinal1703>
+
+externdef __imp_mfc42u_ordinal1704:PPROC
+mfc42u_ordinal1704 equ <__imp_mfc42u_ordinal1704>
+
+externdef __imp_mfc42u_ordinal1705:PPROC
+mfc42u_ordinal1705 equ <__imp_mfc42u_ordinal1705>
+
+externdef __imp_mfc42u_ordinal1706:PPROC
+mfc42u_ordinal1706 equ <__imp_mfc42u_ordinal1706>
+
+externdef __imp_mfc42u_ordinal1707:PPROC
+mfc42u_ordinal1707 equ <__imp_mfc42u_ordinal1707>
+
+externdef __imp_mfc42u_ordinal1708:PPROC
+mfc42u_ordinal1708 equ <__imp_mfc42u_ordinal1708>
+
+externdef __imp_mfc42u_ordinal1709:PPROC
+mfc42u_ordinal1709 equ <__imp_mfc42u_ordinal1709>
+
+externdef __imp_mfc42u_ordinal170:PPROC
+mfc42u_ordinal170 equ <__imp_mfc42u_ordinal170>
+
+externdef __imp_mfc42u_ordinal1710:PPROC
+mfc42u_ordinal1710 equ <__imp_mfc42u_ordinal1710>
+
+externdef __imp_mfc42u_ordinal1711:PPROC
+mfc42u_ordinal1711 equ <__imp_mfc42u_ordinal1711>
+
+externdef __imp_mfc42u_ordinal1712:PPROC
+mfc42u_ordinal1712 equ <__imp_mfc42u_ordinal1712>
+
+externdef __imp_mfc42u_ordinal1713:PPROC
+mfc42u_ordinal1713 equ <__imp_mfc42u_ordinal1713>
+
+externdef __imp_mfc42u_ordinal1714:PPROC
+mfc42u_ordinal1714 equ <__imp_mfc42u_ordinal1714>
+
+externdef __imp_mfc42u_ordinal1715:PPROC
+mfc42u_ordinal1715 equ <__imp_mfc42u_ordinal1715>
+
+externdef __imp_mfc42u_ordinal1716:PPROC
+mfc42u_ordinal1716 equ <__imp_mfc42u_ordinal1716>
+
+externdef __imp_mfc42u_ordinal1717:PPROC
+mfc42u_ordinal1717 equ <__imp_mfc42u_ordinal1717>
+
+externdef __imp_mfc42u_ordinal1718:PPROC
+mfc42u_ordinal1718 equ <__imp_mfc42u_ordinal1718>
+
+externdef __imp_mfc42u_ordinal1719:PPROC
+mfc42u_ordinal1719 equ <__imp_mfc42u_ordinal1719>
+
+externdef __imp_mfc42u_ordinal171:PPROC
+mfc42u_ordinal171 equ <__imp_mfc42u_ordinal171>
+
+externdef __imp_mfc42u_ordinal1720:PPROC
+mfc42u_ordinal1720 equ <__imp_mfc42u_ordinal1720>
+
+externdef __imp_mfc42u_ordinal1721:PPROC
+mfc42u_ordinal1721 equ <__imp_mfc42u_ordinal1721>
+
+externdef __imp_mfc42u_ordinal1722:PPROC
+mfc42u_ordinal1722 equ <__imp_mfc42u_ordinal1722>
+
+externdef __imp_mfc42u_ordinal1723:PPROC
+mfc42u_ordinal1723 equ <__imp_mfc42u_ordinal1723>
+
+externdef __imp_mfc42u_ordinal1724:PPROC
+mfc42u_ordinal1724 equ <__imp_mfc42u_ordinal1724>
+
+externdef __imp_mfc42u_ordinal1725:PPROC
+mfc42u_ordinal1725 equ <__imp_mfc42u_ordinal1725>
+
+externdef __imp_mfc42u_ordinal1726:PPROC
+mfc42u_ordinal1726 equ <__imp_mfc42u_ordinal1726>
+
+externdef __imp_mfc42u_ordinal1727:PPROC
+mfc42u_ordinal1727 equ <__imp_mfc42u_ordinal1727>
+
+externdef __imp_mfc42u_ordinal1728:PPROC
+mfc42u_ordinal1728 equ <__imp_mfc42u_ordinal1728>
+
+externdef __imp_mfc42u_ordinal1729:PPROC
+mfc42u_ordinal1729 equ <__imp_mfc42u_ordinal1729>
+
+externdef __imp_mfc42u_ordinal172:PPROC
+mfc42u_ordinal172 equ <__imp_mfc42u_ordinal172>
+
+externdef __imp_mfc42u_ordinal1730:PPROC
+mfc42u_ordinal1730 equ <__imp_mfc42u_ordinal1730>
+
+externdef __imp_mfc42u_ordinal1731:PPROC
+mfc42u_ordinal1731 equ <__imp_mfc42u_ordinal1731>
+
+externdef __imp_mfc42u_ordinal1732:PPROC
+mfc42u_ordinal1732 equ <__imp_mfc42u_ordinal1732>
+
+externdef __imp_mfc42u_ordinal1733:PPROC
+mfc42u_ordinal1733 equ <__imp_mfc42u_ordinal1733>
+
+externdef __imp_mfc42u_ordinal1734:PPROC
+mfc42u_ordinal1734 equ <__imp_mfc42u_ordinal1734>
+
+externdef __imp_mfc42u_ordinal1735:PPROC
+mfc42u_ordinal1735 equ <__imp_mfc42u_ordinal1735>
+
+externdef __imp_mfc42u_ordinal1736:PPROC
+mfc42u_ordinal1736 equ <__imp_mfc42u_ordinal1736>
+
+externdef __imp_mfc42u_ordinal1737:PPROC
+mfc42u_ordinal1737 equ <__imp_mfc42u_ordinal1737>
+
+externdef __imp_mfc42u_ordinal1738:PPROC
+mfc42u_ordinal1738 equ <__imp_mfc42u_ordinal1738>
+
+externdef __imp_mfc42u_ordinal1739:PPROC
+mfc42u_ordinal1739 equ <__imp_mfc42u_ordinal1739>
+
+externdef __imp_mfc42u_ordinal173:PPROC
+mfc42u_ordinal173 equ <__imp_mfc42u_ordinal173>
+
+externdef __imp_mfc42u_ordinal1740:PPROC
+mfc42u_ordinal1740 equ <__imp_mfc42u_ordinal1740>
+
+externdef __imp_mfc42u_ordinal1741:PPROC
+mfc42u_ordinal1741 equ <__imp_mfc42u_ordinal1741>
+
+externdef __imp_mfc42u_ordinal1742:PPROC
+mfc42u_ordinal1742 equ <__imp_mfc42u_ordinal1742>
+
+externdef __imp_mfc42u_ordinal1743:PPROC
+mfc42u_ordinal1743 equ <__imp_mfc42u_ordinal1743>
+
+externdef __imp_mfc42u_ordinal1744:PPROC
+mfc42u_ordinal1744 equ <__imp_mfc42u_ordinal1744>
+
+externdef __imp_mfc42u_ordinal1745:PPROC
+mfc42u_ordinal1745 equ <__imp_mfc42u_ordinal1745>
+
+externdef __imp_mfc42u_ordinal1746:PPROC
+mfc42u_ordinal1746 equ <__imp_mfc42u_ordinal1746>
+
+externdef __imp_mfc42u_ordinal1747:PPROC
+mfc42u_ordinal1747 equ <__imp_mfc42u_ordinal1747>
+
+externdef __imp_mfc42u_ordinal1748:PPROC
+mfc42u_ordinal1748 equ <__imp_mfc42u_ordinal1748>
+
+externdef __imp_mfc42u_ordinal1749:PPROC
+mfc42u_ordinal1749 equ <__imp_mfc42u_ordinal1749>
+
+externdef __imp_mfc42u_ordinal174:PPROC
+mfc42u_ordinal174 equ <__imp_mfc42u_ordinal174>
+
+externdef __imp_mfc42u_ordinal1750:PPROC
+mfc42u_ordinal1750 equ <__imp_mfc42u_ordinal1750>
+
+externdef __imp_mfc42u_ordinal1751:PPROC
+mfc42u_ordinal1751 equ <__imp_mfc42u_ordinal1751>
+
+externdef __imp_mfc42u_ordinal1752:PPROC
+mfc42u_ordinal1752 equ <__imp_mfc42u_ordinal1752>
+
+externdef __imp_mfc42u_ordinal1753:PPROC
+mfc42u_ordinal1753 equ <__imp_mfc42u_ordinal1753>
+
+externdef __imp_mfc42u_ordinal1754:PPROC
+mfc42u_ordinal1754 equ <__imp_mfc42u_ordinal1754>
+
+externdef __imp_mfc42u_ordinal1755:PPROC
+mfc42u_ordinal1755 equ <__imp_mfc42u_ordinal1755>
+
+externdef __imp_mfc42u_ordinal1756:PPROC
+mfc42u_ordinal1756 equ <__imp_mfc42u_ordinal1756>
+
+externdef __imp_mfc42u_ordinal1757:PPROC
+mfc42u_ordinal1757 equ <__imp_mfc42u_ordinal1757>
+
+externdef __imp_mfc42u_ordinal1758:PPROC
+mfc42u_ordinal1758 equ <__imp_mfc42u_ordinal1758>
+
+externdef __imp_mfc42u_ordinal1759:PPROC
+mfc42u_ordinal1759 equ <__imp_mfc42u_ordinal1759>
+
+externdef __imp_mfc42u_ordinal175:PPROC
+mfc42u_ordinal175 equ <__imp_mfc42u_ordinal175>
+
+externdef __imp_mfc42u_ordinal1760:PPROC
+mfc42u_ordinal1760 equ <__imp_mfc42u_ordinal1760>
+
+externdef __imp_mfc42u_ordinal1761:PPROC
+mfc42u_ordinal1761 equ <__imp_mfc42u_ordinal1761>
+
+externdef __imp_mfc42u_ordinal1762:PPROC
+mfc42u_ordinal1762 equ <__imp_mfc42u_ordinal1762>
+
+externdef __imp_mfc42u_ordinal1763:PPROC
+mfc42u_ordinal1763 equ <__imp_mfc42u_ordinal1763>
+
+externdef __imp_mfc42u_ordinal1764:PPROC
+mfc42u_ordinal1764 equ <__imp_mfc42u_ordinal1764>
+
+externdef __imp_mfc42u_ordinal1765:PPROC
+mfc42u_ordinal1765 equ <__imp_mfc42u_ordinal1765>
+
+externdef __imp_mfc42u_ordinal1766:PPROC
+mfc42u_ordinal1766 equ <__imp_mfc42u_ordinal1766>
+
+externdef __imp_mfc42u_ordinal1767:PPROC
+mfc42u_ordinal1767 equ <__imp_mfc42u_ordinal1767>
+
+externdef __imp_mfc42u_ordinal1768:PPROC
+mfc42u_ordinal1768 equ <__imp_mfc42u_ordinal1768>
+
+externdef __imp_mfc42u_ordinal1769:PPROC
+mfc42u_ordinal1769 equ <__imp_mfc42u_ordinal1769>
+
+externdef __imp_mfc42u_ordinal176:PPROC
+mfc42u_ordinal176 equ <__imp_mfc42u_ordinal176>
+
+externdef __imp_mfc42u_ordinal1770:PPROC
+mfc42u_ordinal1770 equ <__imp_mfc42u_ordinal1770>
+
+externdef __imp_mfc42u_ordinal1771:PPROC
+mfc42u_ordinal1771 equ <__imp_mfc42u_ordinal1771>
+
+externdef __imp_mfc42u_ordinal1772:PPROC
+mfc42u_ordinal1772 equ <__imp_mfc42u_ordinal1772>
+
+externdef __imp_mfc42u_ordinal1773:PPROC
+mfc42u_ordinal1773 equ <__imp_mfc42u_ordinal1773>
+
+externdef __imp_mfc42u_ordinal1774:PPROC
+mfc42u_ordinal1774 equ <__imp_mfc42u_ordinal1774>
+
+externdef __imp_mfc42u_ordinal1775:PPROC
+mfc42u_ordinal1775 equ <__imp_mfc42u_ordinal1775>
+
+externdef __imp_mfc42u_ordinal1776:PPROC
+mfc42u_ordinal1776 equ <__imp_mfc42u_ordinal1776>
+
+externdef __imp_mfc42u_ordinal1777:PPROC
+mfc42u_ordinal1777 equ <__imp_mfc42u_ordinal1777>
+
+externdef __imp_mfc42u_ordinal1778:PPROC
+mfc42u_ordinal1778 equ <__imp_mfc42u_ordinal1778>
+
+externdef __imp_mfc42u_ordinal1779:PPROC
+mfc42u_ordinal1779 equ <__imp_mfc42u_ordinal1779>
+
+externdef __imp_mfc42u_ordinal177:PPROC
+mfc42u_ordinal177 equ <__imp_mfc42u_ordinal177>
+
+externdef __imp_mfc42u_ordinal1780:PPROC
+mfc42u_ordinal1780 equ <__imp_mfc42u_ordinal1780>
+
+externdef __imp_mfc42u_ordinal1781:PPROC
+mfc42u_ordinal1781 equ <__imp_mfc42u_ordinal1781>
+
+externdef __imp_mfc42u_ordinal1782:PPROC
+mfc42u_ordinal1782 equ <__imp_mfc42u_ordinal1782>
+
+externdef __imp_mfc42u_ordinal1783:PPROC
+mfc42u_ordinal1783 equ <__imp_mfc42u_ordinal1783>
+
+externdef __imp_mfc42u_ordinal1784:PPROC
+mfc42u_ordinal1784 equ <__imp_mfc42u_ordinal1784>
+
+externdef __imp_mfc42u_ordinal1785:PPROC
+mfc42u_ordinal1785 equ <__imp_mfc42u_ordinal1785>
+
+externdef __imp_mfc42u_ordinal1786:PPROC
+mfc42u_ordinal1786 equ <__imp_mfc42u_ordinal1786>
+
+externdef __imp_mfc42u_ordinal1787:PPROC
+mfc42u_ordinal1787 equ <__imp_mfc42u_ordinal1787>
+
+externdef __imp_mfc42u_ordinal1788:PPROC
+mfc42u_ordinal1788 equ <__imp_mfc42u_ordinal1788>
+
+externdef __imp_mfc42u_ordinal1789:PPROC
+mfc42u_ordinal1789 equ <__imp_mfc42u_ordinal1789>
+
+externdef __imp_mfc42u_ordinal178:PPROC
+mfc42u_ordinal178 equ <__imp_mfc42u_ordinal178>
+
+externdef __imp_mfc42u_ordinal1790:PPROC
+mfc42u_ordinal1790 equ <__imp_mfc42u_ordinal1790>
+
+externdef __imp_mfc42u_ordinal1791:PPROC
+mfc42u_ordinal1791 equ <__imp_mfc42u_ordinal1791>
+
+externdef __imp_mfc42u_ordinal1792:PPROC
+mfc42u_ordinal1792 equ <__imp_mfc42u_ordinal1792>
+
+externdef __imp_mfc42u_ordinal1793:PPROC
+mfc42u_ordinal1793 equ <__imp_mfc42u_ordinal1793>
+
+externdef __imp_mfc42u_ordinal1794:PPROC
+mfc42u_ordinal1794 equ <__imp_mfc42u_ordinal1794>
+
+externdef __imp_mfc42u_ordinal1795:PPROC
+mfc42u_ordinal1795 equ <__imp_mfc42u_ordinal1795>
+
+externdef __imp_mfc42u_ordinal1796:PPROC
+mfc42u_ordinal1796 equ <__imp_mfc42u_ordinal1796>
+
+externdef __imp_mfc42u_ordinal1797:PPROC
+mfc42u_ordinal1797 equ <__imp_mfc42u_ordinal1797>
+
+externdef __imp_mfc42u_ordinal1798:PPROC
+mfc42u_ordinal1798 equ <__imp_mfc42u_ordinal1798>
+
+externdef __imp_mfc42u_ordinal1799:PPROC
+mfc42u_ordinal1799 equ <__imp_mfc42u_ordinal1799>
+
+externdef __imp_mfc42u_ordinal179:PPROC
+mfc42u_ordinal179 equ <__imp_mfc42u_ordinal179>
+
+externdef __imp_mfc42u_ordinal17:PPROC
+mfc42u_ordinal17 equ <__imp_mfc42u_ordinal17>
+
+externdef __imp_mfc42u_ordinal1800:PPROC
+mfc42u_ordinal1800 equ <__imp_mfc42u_ordinal1800>
+
+externdef __imp_mfc42u_ordinal1801:PPROC
+mfc42u_ordinal1801 equ <__imp_mfc42u_ordinal1801>
+
+externdef __imp_mfc42u_ordinal1802:PPROC
+mfc42u_ordinal1802 equ <__imp_mfc42u_ordinal1802>
+
+externdef __imp_mfc42u_ordinal1803:PPROC
+mfc42u_ordinal1803 equ <__imp_mfc42u_ordinal1803>
+
+externdef __imp_mfc42u_ordinal1804:PPROC
+mfc42u_ordinal1804 equ <__imp_mfc42u_ordinal1804>
+
+externdef __imp_mfc42u_ordinal1805:PPROC
+mfc42u_ordinal1805 equ <__imp_mfc42u_ordinal1805>
+
+externdef __imp_mfc42u_ordinal1806:PPROC
+mfc42u_ordinal1806 equ <__imp_mfc42u_ordinal1806>
+
+externdef __imp_mfc42u_ordinal1807:PPROC
+mfc42u_ordinal1807 equ <__imp_mfc42u_ordinal1807>
+
+externdef __imp_mfc42u_ordinal1808:PPROC
+mfc42u_ordinal1808 equ <__imp_mfc42u_ordinal1808>
+
+externdef __imp_mfc42u_ordinal1809:PPROC
+mfc42u_ordinal1809 equ <__imp_mfc42u_ordinal1809>
+
+externdef __imp_mfc42u_ordinal180:PPROC
+mfc42u_ordinal180 equ <__imp_mfc42u_ordinal180>
+
+externdef __imp_mfc42u_ordinal1810:PPROC
+mfc42u_ordinal1810 equ <__imp_mfc42u_ordinal1810>
+
+externdef __imp_mfc42u_ordinal1811:PPROC
+mfc42u_ordinal1811 equ <__imp_mfc42u_ordinal1811>
+
+externdef __imp_mfc42u_ordinal1812:PPROC
+mfc42u_ordinal1812 equ <__imp_mfc42u_ordinal1812>
+
+externdef __imp_mfc42u_ordinal1813:PPROC
+mfc42u_ordinal1813 equ <__imp_mfc42u_ordinal1813>
+
+externdef __imp_mfc42u_ordinal1814:PPROC
+mfc42u_ordinal1814 equ <__imp_mfc42u_ordinal1814>
+
+externdef __imp_mfc42u_ordinal1815:PPROC
+mfc42u_ordinal1815 equ <__imp_mfc42u_ordinal1815>
+
+externdef __imp_mfc42u_ordinal1816:PPROC
+mfc42u_ordinal1816 equ <__imp_mfc42u_ordinal1816>
+
+externdef __imp_mfc42u_ordinal1817:PPROC
+mfc42u_ordinal1817 equ <__imp_mfc42u_ordinal1817>
+
+externdef __imp_mfc42u_ordinal1818:PPROC
+mfc42u_ordinal1818 equ <__imp_mfc42u_ordinal1818>
+
+externdef __imp_mfc42u_ordinal1819:PPROC
+mfc42u_ordinal1819 equ <__imp_mfc42u_ordinal1819>
+
+externdef __imp_mfc42u_ordinal181:PPROC
+mfc42u_ordinal181 equ <__imp_mfc42u_ordinal181>
+
+externdef __imp_mfc42u_ordinal1820:PPROC
+mfc42u_ordinal1820 equ <__imp_mfc42u_ordinal1820>
+
+externdef __imp_mfc42u_ordinal1821:PPROC
+mfc42u_ordinal1821 equ <__imp_mfc42u_ordinal1821>
+
+externdef __imp_mfc42u_ordinal1822:PPROC
+mfc42u_ordinal1822 equ <__imp_mfc42u_ordinal1822>
+
+externdef __imp_mfc42u_ordinal1823:PPROC
+mfc42u_ordinal1823 equ <__imp_mfc42u_ordinal1823>
+
+externdef __imp_mfc42u_ordinal1824:PPROC
+mfc42u_ordinal1824 equ <__imp_mfc42u_ordinal1824>
+
+externdef __imp_mfc42u_ordinal1825:PPROC
+mfc42u_ordinal1825 equ <__imp_mfc42u_ordinal1825>
+
+externdef __imp_mfc42u_ordinal1826:PPROC
+mfc42u_ordinal1826 equ <__imp_mfc42u_ordinal1826>
+
+externdef __imp_mfc42u_ordinal1827:PPROC
+mfc42u_ordinal1827 equ <__imp_mfc42u_ordinal1827>
+
+externdef __imp_mfc42u_ordinal1828:PPROC
+mfc42u_ordinal1828 equ <__imp_mfc42u_ordinal1828>
+
+externdef __imp_mfc42u_ordinal1829:PPROC
+mfc42u_ordinal1829 equ <__imp_mfc42u_ordinal1829>
+
+externdef __imp_mfc42u_ordinal182:PPROC
+mfc42u_ordinal182 equ <__imp_mfc42u_ordinal182>
+
+externdef __imp_mfc42u_ordinal1830:PPROC
+mfc42u_ordinal1830 equ <__imp_mfc42u_ordinal1830>
+
+externdef __imp_mfc42u_ordinal1831:PPROC
+mfc42u_ordinal1831 equ <__imp_mfc42u_ordinal1831>
+
+externdef __imp_mfc42u_ordinal1832:PPROC
+mfc42u_ordinal1832 equ <__imp_mfc42u_ordinal1832>
+
+externdef __imp_mfc42u_ordinal1833:PPROC
+mfc42u_ordinal1833 equ <__imp_mfc42u_ordinal1833>
+
+externdef __imp_mfc42u_ordinal1834:PPROC
+mfc42u_ordinal1834 equ <__imp_mfc42u_ordinal1834>
+
+externdef __imp_mfc42u_ordinal1835:PPROC
+mfc42u_ordinal1835 equ <__imp_mfc42u_ordinal1835>
+
+externdef __imp_mfc42u_ordinal1836:PPROC
+mfc42u_ordinal1836 equ <__imp_mfc42u_ordinal1836>
+
+externdef __imp_mfc42u_ordinal1837:PPROC
+mfc42u_ordinal1837 equ <__imp_mfc42u_ordinal1837>
+
+externdef __imp_mfc42u_ordinal1838:PPROC
+mfc42u_ordinal1838 equ <__imp_mfc42u_ordinal1838>
+
+externdef __imp_mfc42u_ordinal1839:PPROC
+mfc42u_ordinal1839 equ <__imp_mfc42u_ordinal1839>
+
+externdef __imp_mfc42u_ordinal183:PPROC
+mfc42u_ordinal183 equ <__imp_mfc42u_ordinal183>
+
+externdef __imp_mfc42u_ordinal1840:PPROC
+mfc42u_ordinal1840 equ <__imp_mfc42u_ordinal1840>
+
+externdef __imp_mfc42u_ordinal1841:PPROC
+mfc42u_ordinal1841 equ <__imp_mfc42u_ordinal1841>
+
+externdef __imp_mfc42u_ordinal1842:PPROC
+mfc42u_ordinal1842 equ <__imp_mfc42u_ordinal1842>
+
+externdef __imp_mfc42u_ordinal1843:PPROC
+mfc42u_ordinal1843 equ <__imp_mfc42u_ordinal1843>
+
+externdef __imp_mfc42u_ordinal1844:PPROC
+mfc42u_ordinal1844 equ <__imp_mfc42u_ordinal1844>
+
+externdef __imp_mfc42u_ordinal1845:PPROC
+mfc42u_ordinal1845 equ <__imp_mfc42u_ordinal1845>
+
+externdef __imp_mfc42u_ordinal1846:PPROC
+mfc42u_ordinal1846 equ <__imp_mfc42u_ordinal1846>
+
+externdef __imp_mfc42u_ordinal1847:PPROC
+mfc42u_ordinal1847 equ <__imp_mfc42u_ordinal1847>
+
+externdef __imp_mfc42u_ordinal1848:PPROC
+mfc42u_ordinal1848 equ <__imp_mfc42u_ordinal1848>
+
+externdef __imp_mfc42u_ordinal1849:PPROC
+mfc42u_ordinal1849 equ <__imp_mfc42u_ordinal1849>
+
+externdef __imp_mfc42u_ordinal184:PPROC
+mfc42u_ordinal184 equ <__imp_mfc42u_ordinal184>
+
+externdef __imp_mfc42u_ordinal1850:PPROC
+mfc42u_ordinal1850 equ <__imp_mfc42u_ordinal1850>
+
+externdef __imp_mfc42u_ordinal1851:PPROC
+mfc42u_ordinal1851 equ <__imp_mfc42u_ordinal1851>
+
+externdef __imp_mfc42u_ordinal1852:PPROC
+mfc42u_ordinal1852 equ <__imp_mfc42u_ordinal1852>
+
+externdef __imp_mfc42u_ordinal1853:PPROC
+mfc42u_ordinal1853 equ <__imp_mfc42u_ordinal1853>
+
+externdef __imp_mfc42u_ordinal1854:PPROC
+mfc42u_ordinal1854 equ <__imp_mfc42u_ordinal1854>
+
+externdef __imp_mfc42u_ordinal1855:PPROC
+mfc42u_ordinal1855 equ <__imp_mfc42u_ordinal1855>
+
+externdef __imp_mfc42u_ordinal1856:PPROC
+mfc42u_ordinal1856 equ <__imp_mfc42u_ordinal1856>
+
+externdef __imp_mfc42u_ordinal1857:PPROC
+mfc42u_ordinal1857 equ <__imp_mfc42u_ordinal1857>
+
+externdef __imp_mfc42u_ordinal1858:PPROC
+mfc42u_ordinal1858 equ <__imp_mfc42u_ordinal1858>
+
+externdef __imp_mfc42u_ordinal1859:PPROC
+mfc42u_ordinal1859 equ <__imp_mfc42u_ordinal1859>
+
+externdef __imp_mfc42u_ordinal185:PPROC
+mfc42u_ordinal185 equ <__imp_mfc42u_ordinal185>
+
+externdef __imp_mfc42u_ordinal1860:PPROC
+mfc42u_ordinal1860 equ <__imp_mfc42u_ordinal1860>
+
+externdef __imp_mfc42u_ordinal1861:PPROC
+mfc42u_ordinal1861 equ <__imp_mfc42u_ordinal1861>
+
+externdef __imp_mfc42u_ordinal1862:PPROC
+mfc42u_ordinal1862 equ <__imp_mfc42u_ordinal1862>
+
+externdef __imp_mfc42u_ordinal1863:PPROC
+mfc42u_ordinal1863 equ <__imp_mfc42u_ordinal1863>
+
+externdef __imp_mfc42u_ordinal1864:PPROC
+mfc42u_ordinal1864 equ <__imp_mfc42u_ordinal1864>
+
+externdef __imp_mfc42u_ordinal1865:PPROC
+mfc42u_ordinal1865 equ <__imp_mfc42u_ordinal1865>
+
+externdef __imp_mfc42u_ordinal1866:PPROC
+mfc42u_ordinal1866 equ <__imp_mfc42u_ordinal1866>
+
+externdef __imp_mfc42u_ordinal1867:PPROC
+mfc42u_ordinal1867 equ <__imp_mfc42u_ordinal1867>
+
+externdef __imp_mfc42u_ordinal1868:PPROC
+mfc42u_ordinal1868 equ <__imp_mfc42u_ordinal1868>
+
+externdef __imp_mfc42u_ordinal1869:PPROC
+mfc42u_ordinal1869 equ <__imp_mfc42u_ordinal1869>
+
+externdef __imp_mfc42u_ordinal186:PPROC
+mfc42u_ordinal186 equ <__imp_mfc42u_ordinal186>
+
+externdef __imp_mfc42u_ordinal1870:PPROC
+mfc42u_ordinal1870 equ <__imp_mfc42u_ordinal1870>
+
+externdef __imp_mfc42u_ordinal1871:PPROC
+mfc42u_ordinal1871 equ <__imp_mfc42u_ordinal1871>
+
+externdef __imp_mfc42u_ordinal1872:PPROC
+mfc42u_ordinal1872 equ <__imp_mfc42u_ordinal1872>
+
+externdef __imp_mfc42u_ordinal1873:PPROC
+mfc42u_ordinal1873 equ <__imp_mfc42u_ordinal1873>
+
+externdef __imp_mfc42u_ordinal1874:PPROC
+mfc42u_ordinal1874 equ <__imp_mfc42u_ordinal1874>
+
+externdef __imp_mfc42u_ordinal1875:PPROC
+mfc42u_ordinal1875 equ <__imp_mfc42u_ordinal1875>
+
+externdef __imp_mfc42u_ordinal1876:PPROC
+mfc42u_ordinal1876 equ <__imp_mfc42u_ordinal1876>
+
+externdef __imp_mfc42u_ordinal1877:PPROC
+mfc42u_ordinal1877 equ <__imp_mfc42u_ordinal1877>
+
+externdef __imp_mfc42u_ordinal1878:PPROC
+mfc42u_ordinal1878 equ <__imp_mfc42u_ordinal1878>
+
+externdef __imp_mfc42u_ordinal1879:PPROC
+mfc42u_ordinal1879 equ <__imp_mfc42u_ordinal1879>
+
+externdef __imp_mfc42u_ordinal187:PPROC
+mfc42u_ordinal187 equ <__imp_mfc42u_ordinal187>
+
+externdef __imp_mfc42u_ordinal1880:PPROC
+mfc42u_ordinal1880 equ <__imp_mfc42u_ordinal1880>
+
+externdef __imp_mfc42u_ordinal1881:PPROC
+mfc42u_ordinal1881 equ <__imp_mfc42u_ordinal1881>
+
+externdef __imp_mfc42u_ordinal1882:PPROC
+mfc42u_ordinal1882 equ <__imp_mfc42u_ordinal1882>
+
+externdef __imp_mfc42u_ordinal1883:PPROC
+mfc42u_ordinal1883 equ <__imp_mfc42u_ordinal1883>
+
+externdef __imp_mfc42u_ordinal1884:PPROC
+mfc42u_ordinal1884 equ <__imp_mfc42u_ordinal1884>
+
+externdef __imp_mfc42u_ordinal1885:PPROC
+mfc42u_ordinal1885 equ <__imp_mfc42u_ordinal1885>
+
+externdef __imp_mfc42u_ordinal1886:PPROC
+mfc42u_ordinal1886 equ <__imp_mfc42u_ordinal1886>
+
+externdef __imp_mfc42u_ordinal1887:PPROC
+mfc42u_ordinal1887 equ <__imp_mfc42u_ordinal1887>
+
+externdef __imp_mfc42u_ordinal1888:PPROC
+mfc42u_ordinal1888 equ <__imp_mfc42u_ordinal1888>
+
+externdef __imp_mfc42u_ordinal1889:PPROC
+mfc42u_ordinal1889 equ <__imp_mfc42u_ordinal1889>
+
+externdef __imp_mfc42u_ordinal188:PPROC
+mfc42u_ordinal188 equ <__imp_mfc42u_ordinal188>
+
+externdef __imp_mfc42u_ordinal1890:PPROC
+mfc42u_ordinal1890 equ <__imp_mfc42u_ordinal1890>
+
+externdef __imp_mfc42u_ordinal1891:PPROC
+mfc42u_ordinal1891 equ <__imp_mfc42u_ordinal1891>
+
+externdef __imp_mfc42u_ordinal1892:PPROC
+mfc42u_ordinal1892 equ <__imp_mfc42u_ordinal1892>
+
+externdef __imp_mfc42u_ordinal1893:PPROC
+mfc42u_ordinal1893 equ <__imp_mfc42u_ordinal1893>
+
+externdef __imp_mfc42u_ordinal1894:PPROC
+mfc42u_ordinal1894 equ <__imp_mfc42u_ordinal1894>
+
+externdef __imp_mfc42u_ordinal1895:PPROC
+mfc42u_ordinal1895 equ <__imp_mfc42u_ordinal1895>
+
+externdef __imp_mfc42u_ordinal1896:PPROC
+mfc42u_ordinal1896 equ <__imp_mfc42u_ordinal1896>
+
+externdef __imp_mfc42u_ordinal1897:PPROC
+mfc42u_ordinal1897 equ <__imp_mfc42u_ordinal1897>
+
+externdef __imp_mfc42u_ordinal1898:PPROC
+mfc42u_ordinal1898 equ <__imp_mfc42u_ordinal1898>
+
+externdef __imp_mfc42u_ordinal1899:PPROC
+mfc42u_ordinal1899 equ <__imp_mfc42u_ordinal1899>
+
+externdef __imp_mfc42u_ordinal189:PPROC
+mfc42u_ordinal189 equ <__imp_mfc42u_ordinal189>
+
+externdef __imp_mfc42u_ordinal18:PPROC
+mfc42u_ordinal18 equ <__imp_mfc42u_ordinal18>
+
+externdef __imp_mfc42u_ordinal1900:PPROC
+mfc42u_ordinal1900 equ <__imp_mfc42u_ordinal1900>
+
+externdef __imp_mfc42u_ordinal1901:PPROC
+mfc42u_ordinal1901 equ <__imp_mfc42u_ordinal1901>
+
+externdef __imp_mfc42u_ordinal1902:PPROC
+mfc42u_ordinal1902 equ <__imp_mfc42u_ordinal1902>
+
+externdef __imp_mfc42u_ordinal1903:PPROC
+mfc42u_ordinal1903 equ <__imp_mfc42u_ordinal1903>
+
+externdef __imp_mfc42u_ordinal1904:PPROC
+mfc42u_ordinal1904 equ <__imp_mfc42u_ordinal1904>
+
+externdef __imp_mfc42u_ordinal1905:PPROC
+mfc42u_ordinal1905 equ <__imp_mfc42u_ordinal1905>
+
+externdef __imp_mfc42u_ordinal1906:PPROC
+mfc42u_ordinal1906 equ <__imp_mfc42u_ordinal1906>
+
+externdef __imp_mfc42u_ordinal1907:PPROC
+mfc42u_ordinal1907 equ <__imp_mfc42u_ordinal1907>
+
+externdef __imp_mfc42u_ordinal1908:PPROC
+mfc42u_ordinal1908 equ <__imp_mfc42u_ordinal1908>
+
+externdef __imp_mfc42u_ordinal1909:PPROC
+mfc42u_ordinal1909 equ <__imp_mfc42u_ordinal1909>
+
+externdef __imp_mfc42u_ordinal190:PPROC
+mfc42u_ordinal190 equ <__imp_mfc42u_ordinal190>
+
+externdef __imp_mfc42u_ordinal1910:PPROC
+mfc42u_ordinal1910 equ <__imp_mfc42u_ordinal1910>
+
+externdef __imp_mfc42u_ordinal1911:PPROC
+mfc42u_ordinal1911 equ <__imp_mfc42u_ordinal1911>
+
+externdef __imp_mfc42u_ordinal1912:PPROC
+mfc42u_ordinal1912 equ <__imp_mfc42u_ordinal1912>
+
+externdef __imp_mfc42u_ordinal1913:PPROC
+mfc42u_ordinal1913 equ <__imp_mfc42u_ordinal1913>
+
+externdef __imp_mfc42u_ordinal1914:PPROC
+mfc42u_ordinal1914 equ <__imp_mfc42u_ordinal1914>
+
+externdef __imp_mfc42u_ordinal1915:PPROC
+mfc42u_ordinal1915 equ <__imp_mfc42u_ordinal1915>
+
+externdef __imp_mfc42u_ordinal1916:PPROC
+mfc42u_ordinal1916 equ <__imp_mfc42u_ordinal1916>
+
+externdef __imp_mfc42u_ordinal1917:PPROC
+mfc42u_ordinal1917 equ <__imp_mfc42u_ordinal1917>
+
+externdef __imp_mfc42u_ordinal1918:PPROC
+mfc42u_ordinal1918 equ <__imp_mfc42u_ordinal1918>
+
+externdef __imp_mfc42u_ordinal1919:PPROC
+mfc42u_ordinal1919 equ <__imp_mfc42u_ordinal1919>
+
+externdef __imp_mfc42u_ordinal191:PPROC
+mfc42u_ordinal191 equ <__imp_mfc42u_ordinal191>
+
+externdef __imp_mfc42u_ordinal1920:PPROC
+mfc42u_ordinal1920 equ <__imp_mfc42u_ordinal1920>
+
+externdef __imp_mfc42u_ordinal1921:PPROC
+mfc42u_ordinal1921 equ <__imp_mfc42u_ordinal1921>
+
+externdef __imp_mfc42u_ordinal1922:PPROC
+mfc42u_ordinal1922 equ <__imp_mfc42u_ordinal1922>
+
+externdef __imp_mfc42u_ordinal1923:PPROC
+mfc42u_ordinal1923 equ <__imp_mfc42u_ordinal1923>
+
+externdef __imp_mfc42u_ordinal1924:PPROC
+mfc42u_ordinal1924 equ <__imp_mfc42u_ordinal1924>
+
+externdef __imp_mfc42u_ordinal1925:PPROC
+mfc42u_ordinal1925 equ <__imp_mfc42u_ordinal1925>
+
+externdef __imp_mfc42u_ordinal1926:PPROC
+mfc42u_ordinal1926 equ <__imp_mfc42u_ordinal1926>
+
+externdef __imp_mfc42u_ordinal1927:PPROC
+mfc42u_ordinal1927 equ <__imp_mfc42u_ordinal1927>
+
+externdef __imp_mfc42u_ordinal1928:PPROC
+mfc42u_ordinal1928 equ <__imp_mfc42u_ordinal1928>
+
+externdef __imp_mfc42u_ordinal1929:PPROC
+mfc42u_ordinal1929 equ <__imp_mfc42u_ordinal1929>
+
+externdef __imp_mfc42u_ordinal192:PPROC
+mfc42u_ordinal192 equ <__imp_mfc42u_ordinal192>
+
+externdef __imp_mfc42u_ordinal1930:PPROC
+mfc42u_ordinal1930 equ <__imp_mfc42u_ordinal1930>
+
+externdef __imp_mfc42u_ordinal1931:PPROC
+mfc42u_ordinal1931 equ <__imp_mfc42u_ordinal1931>
+
+externdef __imp_mfc42u_ordinal1932:PPROC
+mfc42u_ordinal1932 equ <__imp_mfc42u_ordinal1932>
+
+externdef __imp_mfc42u_ordinal1933:PPROC
+mfc42u_ordinal1933 equ <__imp_mfc42u_ordinal1933>
+
+externdef __imp_mfc42u_ordinal1934:PPROC
+mfc42u_ordinal1934 equ <__imp_mfc42u_ordinal1934>
+
+externdef __imp_mfc42u_ordinal1935:PPROC
+mfc42u_ordinal1935 equ <__imp_mfc42u_ordinal1935>
+
+externdef __imp_mfc42u_ordinal1936:PPROC
+mfc42u_ordinal1936 equ <__imp_mfc42u_ordinal1936>
+
+externdef __imp_mfc42u_ordinal1937:PPROC
+mfc42u_ordinal1937 equ <__imp_mfc42u_ordinal1937>
+
+externdef __imp_mfc42u_ordinal1938:PPROC
+mfc42u_ordinal1938 equ <__imp_mfc42u_ordinal1938>
+
+externdef __imp_mfc42u_ordinal1939:PPROC
+mfc42u_ordinal1939 equ <__imp_mfc42u_ordinal1939>
+
+externdef __imp_mfc42u_ordinal193:PPROC
+mfc42u_ordinal193 equ <__imp_mfc42u_ordinal193>
+
+externdef __imp_mfc42u_ordinal1940:PPROC
+mfc42u_ordinal1940 equ <__imp_mfc42u_ordinal1940>
+
+externdef __imp_mfc42u_ordinal1941:PPROC
+mfc42u_ordinal1941 equ <__imp_mfc42u_ordinal1941>
+
+externdef __imp_mfc42u_ordinal1942:PPROC
+mfc42u_ordinal1942 equ <__imp_mfc42u_ordinal1942>
+
+externdef __imp_mfc42u_ordinal1943:PPROC
+mfc42u_ordinal1943 equ <__imp_mfc42u_ordinal1943>
+
+externdef __imp_mfc42u_ordinal1944:PPROC
+mfc42u_ordinal1944 equ <__imp_mfc42u_ordinal1944>
+
+externdef __imp_mfc42u_ordinal1945:PPROC
+mfc42u_ordinal1945 equ <__imp_mfc42u_ordinal1945>
+
+externdef __imp_mfc42u_ordinal1946:PPROC
+mfc42u_ordinal1946 equ <__imp_mfc42u_ordinal1946>
+
+externdef __imp_mfc42u_ordinal1947:PPROC
+mfc42u_ordinal1947 equ <__imp_mfc42u_ordinal1947>
+
+externdef __imp_mfc42u_ordinal1948:PPROC
+mfc42u_ordinal1948 equ <__imp_mfc42u_ordinal1948>
+
+externdef __imp_mfc42u_ordinal1949:PPROC
+mfc42u_ordinal1949 equ <__imp_mfc42u_ordinal1949>
+
+externdef __imp_mfc42u_ordinal194:PPROC
+mfc42u_ordinal194 equ <__imp_mfc42u_ordinal194>
+
+externdef __imp_mfc42u_ordinal1950:PPROC
+mfc42u_ordinal1950 equ <__imp_mfc42u_ordinal1950>
+
+externdef __imp_mfc42u_ordinal1951:PPROC
+mfc42u_ordinal1951 equ <__imp_mfc42u_ordinal1951>
+
+externdef __imp_mfc42u_ordinal1952:PPROC
+mfc42u_ordinal1952 equ <__imp_mfc42u_ordinal1952>
+
+externdef __imp_mfc42u_ordinal1953:PPROC
+mfc42u_ordinal1953 equ <__imp_mfc42u_ordinal1953>
+
+externdef __imp_mfc42u_ordinal1954:PPROC
+mfc42u_ordinal1954 equ <__imp_mfc42u_ordinal1954>
+
+externdef __imp_mfc42u_ordinal1955:PPROC
+mfc42u_ordinal1955 equ <__imp_mfc42u_ordinal1955>
+
+externdef __imp_mfc42u_ordinal1956:PPROC
+mfc42u_ordinal1956 equ <__imp_mfc42u_ordinal1956>
+
+externdef __imp_mfc42u_ordinal1957:PPROC
+mfc42u_ordinal1957 equ <__imp_mfc42u_ordinal1957>
+
+externdef __imp_mfc42u_ordinal1958:PPROC
+mfc42u_ordinal1958 equ <__imp_mfc42u_ordinal1958>
+
+externdef __imp_mfc42u_ordinal1959:PPROC
+mfc42u_ordinal1959 equ <__imp_mfc42u_ordinal1959>
+
+externdef __imp_mfc42u_ordinal195:PPROC
+mfc42u_ordinal195 equ <__imp_mfc42u_ordinal195>
+
+externdef __imp_mfc42u_ordinal1960:PPROC
+mfc42u_ordinal1960 equ <__imp_mfc42u_ordinal1960>
+
+externdef __imp_mfc42u_ordinal1961:PPROC
+mfc42u_ordinal1961 equ <__imp_mfc42u_ordinal1961>
+
+externdef __imp_mfc42u_ordinal1962:PPROC
+mfc42u_ordinal1962 equ <__imp_mfc42u_ordinal1962>
+
+externdef __imp_mfc42u_ordinal1963:PPROC
+mfc42u_ordinal1963 equ <__imp_mfc42u_ordinal1963>
+
+externdef __imp_mfc42u_ordinal1964:PPROC
+mfc42u_ordinal1964 equ <__imp_mfc42u_ordinal1964>
+
+externdef __imp_mfc42u_ordinal1965:PPROC
+mfc42u_ordinal1965 equ <__imp_mfc42u_ordinal1965>
+
+externdef __imp_mfc42u_ordinal1966:PPROC
+mfc42u_ordinal1966 equ <__imp_mfc42u_ordinal1966>
+
+externdef __imp_mfc42u_ordinal1967:PPROC
+mfc42u_ordinal1967 equ <__imp_mfc42u_ordinal1967>
+
+externdef __imp_mfc42u_ordinal1968:PPROC
+mfc42u_ordinal1968 equ <__imp_mfc42u_ordinal1968>
+
+externdef __imp_mfc42u_ordinal1969:PPROC
+mfc42u_ordinal1969 equ <__imp_mfc42u_ordinal1969>
+
+externdef __imp_mfc42u_ordinal196:PPROC
+mfc42u_ordinal196 equ <__imp_mfc42u_ordinal196>
+
+externdef __imp_mfc42u_ordinal1970:PPROC
+mfc42u_ordinal1970 equ <__imp_mfc42u_ordinal1970>
+
+externdef __imp_mfc42u_ordinal1971:PPROC
+mfc42u_ordinal1971 equ <__imp_mfc42u_ordinal1971>
+
+externdef __imp_mfc42u_ordinal1972:PPROC
+mfc42u_ordinal1972 equ <__imp_mfc42u_ordinal1972>
+
+externdef __imp_mfc42u_ordinal1973:PPROC
+mfc42u_ordinal1973 equ <__imp_mfc42u_ordinal1973>
+
+externdef __imp_mfc42u_ordinal1974:PPROC
+mfc42u_ordinal1974 equ <__imp_mfc42u_ordinal1974>
+
+externdef __imp_mfc42u_ordinal1975:PPROC
+mfc42u_ordinal1975 equ <__imp_mfc42u_ordinal1975>
+
+externdef __imp_mfc42u_ordinal1976:PPROC
+mfc42u_ordinal1976 equ <__imp_mfc42u_ordinal1976>
+
+externdef __imp_mfc42u_ordinal1977:PPROC
+mfc42u_ordinal1977 equ <__imp_mfc42u_ordinal1977>
+
+externdef __imp_mfc42u_ordinal1978:PPROC
+mfc42u_ordinal1978 equ <__imp_mfc42u_ordinal1978>
+
+externdef __imp_mfc42u_ordinal1979:PPROC
+mfc42u_ordinal1979 equ <__imp_mfc42u_ordinal1979>
+
+externdef __imp_mfc42u_ordinal197:PPROC
+mfc42u_ordinal197 equ <__imp_mfc42u_ordinal197>
+
+externdef __imp_mfc42u_ordinal1980:PPROC
+mfc42u_ordinal1980 equ <__imp_mfc42u_ordinal1980>
+
+externdef __imp_mfc42u_ordinal1981:PPROC
+mfc42u_ordinal1981 equ <__imp_mfc42u_ordinal1981>
+
+externdef __imp_mfc42u_ordinal1982:PPROC
+mfc42u_ordinal1982 equ <__imp_mfc42u_ordinal1982>
+
+externdef __imp_mfc42u_ordinal1983:PPROC
+mfc42u_ordinal1983 equ <__imp_mfc42u_ordinal1983>
+
+externdef __imp_mfc42u_ordinal1984:PPROC
+mfc42u_ordinal1984 equ <__imp_mfc42u_ordinal1984>
+
+externdef __imp_mfc42u_ordinal1985:PPROC
+mfc42u_ordinal1985 equ <__imp_mfc42u_ordinal1985>
+
+externdef __imp_mfc42u_ordinal1986:PPROC
+mfc42u_ordinal1986 equ <__imp_mfc42u_ordinal1986>
+
+externdef __imp_mfc42u_ordinal1987:PPROC
+mfc42u_ordinal1987 equ <__imp_mfc42u_ordinal1987>
+
+externdef __imp_mfc42u_ordinal1988:PPROC
+mfc42u_ordinal1988 equ <__imp_mfc42u_ordinal1988>
+
+externdef __imp_mfc42u_ordinal1989:PPROC
+mfc42u_ordinal1989 equ <__imp_mfc42u_ordinal1989>
+
+externdef __imp_mfc42u_ordinal198:PPROC
+mfc42u_ordinal198 equ <__imp_mfc42u_ordinal198>
+
+externdef __imp_mfc42u_ordinal1990:PPROC
+mfc42u_ordinal1990 equ <__imp_mfc42u_ordinal1990>
+
+externdef __imp_mfc42u_ordinal1991:PPROC
+mfc42u_ordinal1991 equ <__imp_mfc42u_ordinal1991>
+
+externdef __imp_mfc42u_ordinal1992:PPROC
+mfc42u_ordinal1992 equ <__imp_mfc42u_ordinal1992>
+
+externdef __imp_mfc42u_ordinal1993:PPROC
+mfc42u_ordinal1993 equ <__imp_mfc42u_ordinal1993>
+
+externdef __imp_mfc42u_ordinal1994:PPROC
+mfc42u_ordinal1994 equ <__imp_mfc42u_ordinal1994>
+
+externdef __imp_mfc42u_ordinal1995:PPROC
+mfc42u_ordinal1995 equ <__imp_mfc42u_ordinal1995>
+
+externdef __imp_mfc42u_ordinal1996:PPROC
+mfc42u_ordinal1996 equ <__imp_mfc42u_ordinal1996>
+
+externdef __imp_mfc42u_ordinal1997:PPROC
+mfc42u_ordinal1997 equ <__imp_mfc42u_ordinal1997>
+
+externdef __imp_mfc42u_ordinal1998:PPROC
+mfc42u_ordinal1998 equ <__imp_mfc42u_ordinal1998>
+
+externdef __imp_mfc42u_ordinal1999:PPROC
+mfc42u_ordinal1999 equ <__imp_mfc42u_ordinal1999>
+
+externdef __imp_mfc42u_ordinal199:PPROC
+mfc42u_ordinal199 equ <__imp_mfc42u_ordinal199>
+
+externdef __imp_mfc42u_ordinal19:PPROC
+mfc42u_ordinal19 equ <__imp_mfc42u_ordinal19>
+
+externdef __imp_mfc42u_ordinal2000:PPROC
+mfc42u_ordinal2000 equ <__imp_mfc42u_ordinal2000>
+
+externdef __imp_mfc42u_ordinal2001:PPROC
+mfc42u_ordinal2001 equ <__imp_mfc42u_ordinal2001>
+
+externdef __imp_mfc42u_ordinal2002:PPROC
+mfc42u_ordinal2002 equ <__imp_mfc42u_ordinal2002>
+
+externdef __imp_mfc42u_ordinal2003:PPROC
+mfc42u_ordinal2003 equ <__imp_mfc42u_ordinal2003>
+
+externdef __imp_mfc42u_ordinal2004:PPROC
+mfc42u_ordinal2004 equ <__imp_mfc42u_ordinal2004>
+
+externdef __imp_mfc42u_ordinal2005:PPROC
+mfc42u_ordinal2005 equ <__imp_mfc42u_ordinal2005>
+
+externdef __imp_mfc42u_ordinal2006:PPROC
+mfc42u_ordinal2006 equ <__imp_mfc42u_ordinal2006>
+
+externdef __imp_mfc42u_ordinal2007:PPROC
+mfc42u_ordinal2007 equ <__imp_mfc42u_ordinal2007>
+
+externdef __imp_mfc42u_ordinal2008:PPROC
+mfc42u_ordinal2008 equ <__imp_mfc42u_ordinal2008>
+
+externdef __imp_mfc42u_ordinal2009:PPROC
+mfc42u_ordinal2009 equ <__imp_mfc42u_ordinal2009>
+
+externdef __imp_mfc42u_ordinal200:PPROC
+mfc42u_ordinal200 equ <__imp_mfc42u_ordinal200>
+
+externdef __imp_mfc42u_ordinal2010:PPROC
+mfc42u_ordinal2010 equ <__imp_mfc42u_ordinal2010>
+
+externdef __imp_mfc42u_ordinal2011:PPROC
+mfc42u_ordinal2011 equ <__imp_mfc42u_ordinal2011>
+
+externdef __imp_mfc42u_ordinal2012:PPROC
+mfc42u_ordinal2012 equ <__imp_mfc42u_ordinal2012>
+
+externdef __imp_mfc42u_ordinal2013:PPROC
+mfc42u_ordinal2013 equ <__imp_mfc42u_ordinal2013>
+
+externdef __imp_mfc42u_ordinal2014:PPROC
+mfc42u_ordinal2014 equ <__imp_mfc42u_ordinal2014>
+
+externdef __imp_mfc42u_ordinal2015:PPROC
+mfc42u_ordinal2015 equ <__imp_mfc42u_ordinal2015>
+
+externdef __imp_mfc42u_ordinal2016:PPROC
+mfc42u_ordinal2016 equ <__imp_mfc42u_ordinal2016>
+
+externdef __imp_mfc42u_ordinal2017:PPROC
+mfc42u_ordinal2017 equ <__imp_mfc42u_ordinal2017>
+
+externdef __imp_mfc42u_ordinal2018:PPROC
+mfc42u_ordinal2018 equ <__imp_mfc42u_ordinal2018>
+
+externdef __imp_mfc42u_ordinal2019:PPROC
+mfc42u_ordinal2019 equ <__imp_mfc42u_ordinal2019>
+
+externdef __imp_mfc42u_ordinal201:PPROC
+mfc42u_ordinal201 equ <__imp_mfc42u_ordinal201>
+
+externdef __imp_mfc42u_ordinal2020:PPROC
+mfc42u_ordinal2020 equ <__imp_mfc42u_ordinal2020>
+
+externdef __imp_mfc42u_ordinal2021:PPROC
+mfc42u_ordinal2021 equ <__imp_mfc42u_ordinal2021>
+
+externdef __imp_mfc42u_ordinal2022:PPROC
+mfc42u_ordinal2022 equ <__imp_mfc42u_ordinal2022>
+
+externdef __imp_mfc42u_ordinal2023:PPROC
+mfc42u_ordinal2023 equ <__imp_mfc42u_ordinal2023>
+
+externdef __imp_mfc42u_ordinal2024:PPROC
+mfc42u_ordinal2024 equ <__imp_mfc42u_ordinal2024>
+
+externdef __imp_mfc42u_ordinal2025:PPROC
+mfc42u_ordinal2025 equ <__imp_mfc42u_ordinal2025>
+
+externdef __imp_mfc42u_ordinal2026:PPROC
+mfc42u_ordinal2026 equ <__imp_mfc42u_ordinal2026>
+
+externdef __imp_mfc42u_ordinal2027:PPROC
+mfc42u_ordinal2027 equ <__imp_mfc42u_ordinal2027>
+
+externdef __imp_mfc42u_ordinal2028:PPROC
+mfc42u_ordinal2028 equ <__imp_mfc42u_ordinal2028>
+
+externdef __imp_mfc42u_ordinal2029:PPROC
+mfc42u_ordinal2029 equ <__imp_mfc42u_ordinal2029>
+
+externdef __imp_mfc42u_ordinal202:PPROC
+mfc42u_ordinal202 equ <__imp_mfc42u_ordinal202>
+
+externdef __imp_mfc42u_ordinal2030:PPROC
+mfc42u_ordinal2030 equ <__imp_mfc42u_ordinal2030>
+
+externdef __imp_mfc42u_ordinal2031:PPROC
+mfc42u_ordinal2031 equ <__imp_mfc42u_ordinal2031>
+
+externdef __imp_mfc42u_ordinal2032:PPROC
+mfc42u_ordinal2032 equ <__imp_mfc42u_ordinal2032>
+
+externdef __imp_mfc42u_ordinal2033:PPROC
+mfc42u_ordinal2033 equ <__imp_mfc42u_ordinal2033>
+
+externdef __imp_mfc42u_ordinal2034:PPROC
+mfc42u_ordinal2034 equ <__imp_mfc42u_ordinal2034>
+
+externdef __imp_mfc42u_ordinal2035:PPROC
+mfc42u_ordinal2035 equ <__imp_mfc42u_ordinal2035>
+
+externdef __imp_mfc42u_ordinal2036:PPROC
+mfc42u_ordinal2036 equ <__imp_mfc42u_ordinal2036>
+
+externdef __imp_mfc42u_ordinal2037:PPROC
+mfc42u_ordinal2037 equ <__imp_mfc42u_ordinal2037>
+
+externdef __imp_mfc42u_ordinal2038:PPROC
+mfc42u_ordinal2038 equ <__imp_mfc42u_ordinal2038>
+
+externdef __imp_mfc42u_ordinal2039:PPROC
+mfc42u_ordinal2039 equ <__imp_mfc42u_ordinal2039>
+
+externdef __imp_mfc42u_ordinal203:PPROC
+mfc42u_ordinal203 equ <__imp_mfc42u_ordinal203>
+
+externdef __imp_mfc42u_ordinal2040:PPROC
+mfc42u_ordinal2040 equ <__imp_mfc42u_ordinal2040>
+
+externdef __imp_mfc42u_ordinal2041:PPROC
+mfc42u_ordinal2041 equ <__imp_mfc42u_ordinal2041>
+
+externdef __imp_mfc42u_ordinal2042:PPROC
+mfc42u_ordinal2042 equ <__imp_mfc42u_ordinal2042>
+
+externdef __imp_mfc42u_ordinal2043:PPROC
+mfc42u_ordinal2043 equ <__imp_mfc42u_ordinal2043>
+
+externdef __imp_mfc42u_ordinal2044:PPROC
+mfc42u_ordinal2044 equ <__imp_mfc42u_ordinal2044>
+
+externdef __imp_mfc42u_ordinal2045:PPROC
+mfc42u_ordinal2045 equ <__imp_mfc42u_ordinal2045>
+
+externdef __imp_mfc42u_ordinal2046:PPROC
+mfc42u_ordinal2046 equ <__imp_mfc42u_ordinal2046>
+
+externdef __imp_mfc42u_ordinal2047:PPROC
+mfc42u_ordinal2047 equ <__imp_mfc42u_ordinal2047>
+
+externdef __imp_mfc42u_ordinal2048:PPROC
+mfc42u_ordinal2048 equ <__imp_mfc42u_ordinal2048>
+
+externdef __imp_mfc42u_ordinal2049:PPROC
+mfc42u_ordinal2049 equ <__imp_mfc42u_ordinal2049>
+
+externdef __imp_mfc42u_ordinal204:PPROC
+mfc42u_ordinal204 equ <__imp_mfc42u_ordinal204>
+
+externdef __imp_mfc42u_ordinal2050:PPROC
+mfc42u_ordinal2050 equ <__imp_mfc42u_ordinal2050>
+
+externdef __imp_mfc42u_ordinal2051:PPROC
+mfc42u_ordinal2051 equ <__imp_mfc42u_ordinal2051>
+
+externdef __imp_mfc42u_ordinal2052:PPROC
+mfc42u_ordinal2052 equ <__imp_mfc42u_ordinal2052>
+
+externdef __imp_mfc42u_ordinal2053:PPROC
+mfc42u_ordinal2053 equ <__imp_mfc42u_ordinal2053>
+
+externdef __imp_mfc42u_ordinal2054:PPROC
+mfc42u_ordinal2054 equ <__imp_mfc42u_ordinal2054>
+
+externdef __imp_mfc42u_ordinal2055:PPROC
+mfc42u_ordinal2055 equ <__imp_mfc42u_ordinal2055>
+
+externdef __imp_mfc42u_ordinal2056:PPROC
+mfc42u_ordinal2056 equ <__imp_mfc42u_ordinal2056>
+
+externdef __imp_mfc42u_ordinal2057:PPROC
+mfc42u_ordinal2057 equ <__imp_mfc42u_ordinal2057>
+
+externdef __imp_mfc42u_ordinal2058:PPROC
+mfc42u_ordinal2058 equ <__imp_mfc42u_ordinal2058>
+
+externdef __imp_mfc42u_ordinal2059:PPROC
+mfc42u_ordinal2059 equ <__imp_mfc42u_ordinal2059>
+
+externdef __imp_mfc42u_ordinal205:PPROC
+mfc42u_ordinal205 equ <__imp_mfc42u_ordinal205>
+
+externdef __imp_mfc42u_ordinal2060:PPROC
+mfc42u_ordinal2060 equ <__imp_mfc42u_ordinal2060>
+
+externdef __imp_mfc42u_ordinal2061:PPROC
+mfc42u_ordinal2061 equ <__imp_mfc42u_ordinal2061>
+
+externdef __imp_mfc42u_ordinal2062:PPROC
+mfc42u_ordinal2062 equ <__imp_mfc42u_ordinal2062>
+
+externdef __imp_mfc42u_ordinal2063:PPROC
+mfc42u_ordinal2063 equ <__imp_mfc42u_ordinal2063>
+
+externdef __imp_mfc42u_ordinal2064:PPROC
+mfc42u_ordinal2064 equ <__imp_mfc42u_ordinal2064>
+
+externdef __imp_mfc42u_ordinal2065:PPROC
+mfc42u_ordinal2065 equ <__imp_mfc42u_ordinal2065>
+
+externdef __imp_mfc42u_ordinal2066:PPROC
+mfc42u_ordinal2066 equ <__imp_mfc42u_ordinal2066>
+
+externdef __imp_mfc42u_ordinal2067:PPROC
+mfc42u_ordinal2067 equ <__imp_mfc42u_ordinal2067>
+
+externdef __imp_mfc42u_ordinal2068:PPROC
+mfc42u_ordinal2068 equ <__imp_mfc42u_ordinal2068>
+
+externdef __imp_mfc42u_ordinal2069:PPROC
+mfc42u_ordinal2069 equ <__imp_mfc42u_ordinal2069>
+
+externdef __imp_mfc42u_ordinal206:PPROC
+mfc42u_ordinal206 equ <__imp_mfc42u_ordinal206>
+
+externdef __imp_mfc42u_ordinal2070:PPROC
+mfc42u_ordinal2070 equ <__imp_mfc42u_ordinal2070>
+
+externdef __imp_mfc42u_ordinal2071:PPROC
+mfc42u_ordinal2071 equ <__imp_mfc42u_ordinal2071>
+
+externdef __imp_mfc42u_ordinal2072:PPROC
+mfc42u_ordinal2072 equ <__imp_mfc42u_ordinal2072>
+
+externdef __imp_mfc42u_ordinal2073:PPROC
+mfc42u_ordinal2073 equ <__imp_mfc42u_ordinal2073>
+
+externdef __imp_mfc42u_ordinal2074:PPROC
+mfc42u_ordinal2074 equ <__imp_mfc42u_ordinal2074>
+
+externdef __imp_mfc42u_ordinal2075:PPROC
+mfc42u_ordinal2075 equ <__imp_mfc42u_ordinal2075>
+
+externdef __imp_mfc42u_ordinal2076:PPROC
+mfc42u_ordinal2076 equ <__imp_mfc42u_ordinal2076>
+
+externdef __imp_mfc42u_ordinal2077:PPROC
+mfc42u_ordinal2077 equ <__imp_mfc42u_ordinal2077>
+
+externdef __imp_mfc42u_ordinal2078:PPROC
+mfc42u_ordinal2078 equ <__imp_mfc42u_ordinal2078>
+
+externdef __imp_mfc42u_ordinal2079:PPROC
+mfc42u_ordinal2079 equ <__imp_mfc42u_ordinal2079>
+
+externdef __imp_mfc42u_ordinal207:PPROC
+mfc42u_ordinal207 equ <__imp_mfc42u_ordinal207>
+
+externdef __imp_mfc42u_ordinal2080:PPROC
+mfc42u_ordinal2080 equ <__imp_mfc42u_ordinal2080>
+
+externdef __imp_mfc42u_ordinal2081:PPROC
+mfc42u_ordinal2081 equ <__imp_mfc42u_ordinal2081>
+
+externdef __imp_mfc42u_ordinal2082:PPROC
+mfc42u_ordinal2082 equ <__imp_mfc42u_ordinal2082>
+
+externdef __imp_mfc42u_ordinal2083:PPROC
+mfc42u_ordinal2083 equ <__imp_mfc42u_ordinal2083>
+
+externdef __imp_mfc42u_ordinal2084:PPROC
+mfc42u_ordinal2084 equ <__imp_mfc42u_ordinal2084>
+
+externdef __imp_mfc42u_ordinal2085:PPROC
+mfc42u_ordinal2085 equ <__imp_mfc42u_ordinal2085>
+
+externdef __imp_mfc42u_ordinal2086:PPROC
+mfc42u_ordinal2086 equ <__imp_mfc42u_ordinal2086>
+
+externdef __imp_mfc42u_ordinal2087:PPROC
+mfc42u_ordinal2087 equ <__imp_mfc42u_ordinal2087>
+
+externdef __imp_mfc42u_ordinal2088:PPROC
+mfc42u_ordinal2088 equ <__imp_mfc42u_ordinal2088>
+
+externdef __imp_mfc42u_ordinal2089:PPROC
+mfc42u_ordinal2089 equ <__imp_mfc42u_ordinal2089>
+
+externdef __imp_mfc42u_ordinal208:PPROC
+mfc42u_ordinal208 equ <__imp_mfc42u_ordinal208>
+
+externdef __imp_mfc42u_ordinal2090:PPROC
+mfc42u_ordinal2090 equ <__imp_mfc42u_ordinal2090>
+
+externdef __imp_mfc42u_ordinal2091:PPROC
+mfc42u_ordinal2091 equ <__imp_mfc42u_ordinal2091>
+
+externdef __imp_mfc42u_ordinal2092:PPROC
+mfc42u_ordinal2092 equ <__imp_mfc42u_ordinal2092>
+
+externdef __imp_mfc42u_ordinal2093:PPROC
+mfc42u_ordinal2093 equ <__imp_mfc42u_ordinal2093>
+
+externdef __imp_mfc42u_ordinal2094:PPROC
+mfc42u_ordinal2094 equ <__imp_mfc42u_ordinal2094>
+
+externdef __imp_mfc42u_ordinal2095:PPROC
+mfc42u_ordinal2095 equ <__imp_mfc42u_ordinal2095>
+
+externdef __imp_mfc42u_ordinal2096:PPROC
+mfc42u_ordinal2096 equ <__imp_mfc42u_ordinal2096>
+
+externdef __imp_mfc42u_ordinal2097:PPROC
+mfc42u_ordinal2097 equ <__imp_mfc42u_ordinal2097>
+
+externdef __imp_mfc42u_ordinal2098:PPROC
+mfc42u_ordinal2098 equ <__imp_mfc42u_ordinal2098>
+
+externdef __imp_mfc42u_ordinal2099:PPROC
+mfc42u_ordinal2099 equ <__imp_mfc42u_ordinal2099>
+
+externdef __imp_mfc42u_ordinal209:PPROC
+mfc42u_ordinal209 equ <__imp_mfc42u_ordinal209>
+
+externdef __imp_mfc42u_ordinal20:PPROC
+mfc42u_ordinal20 equ <__imp_mfc42u_ordinal20>
+
+externdef __imp_mfc42u_ordinal2100:PPROC
+mfc42u_ordinal2100 equ <__imp_mfc42u_ordinal2100>
+
+externdef __imp_mfc42u_ordinal2101:PPROC
+mfc42u_ordinal2101 equ <__imp_mfc42u_ordinal2101>
+
+externdef __imp_mfc42u_ordinal2102:PPROC
+mfc42u_ordinal2102 equ <__imp_mfc42u_ordinal2102>
+
+externdef __imp_mfc42u_ordinal2103:PPROC
+mfc42u_ordinal2103 equ <__imp_mfc42u_ordinal2103>
+
+externdef __imp_mfc42u_ordinal2104:PPROC
+mfc42u_ordinal2104 equ <__imp_mfc42u_ordinal2104>
+
+externdef __imp_mfc42u_ordinal2105:PPROC
+mfc42u_ordinal2105 equ <__imp_mfc42u_ordinal2105>
+
+externdef __imp_mfc42u_ordinal2106:PPROC
+mfc42u_ordinal2106 equ <__imp_mfc42u_ordinal2106>
+
+externdef __imp_mfc42u_ordinal2107:PPROC
+mfc42u_ordinal2107 equ <__imp_mfc42u_ordinal2107>
+
+externdef __imp_mfc42u_ordinal2108:PPROC
+mfc42u_ordinal2108 equ <__imp_mfc42u_ordinal2108>
+
+externdef __imp_mfc42u_ordinal2109:PPROC
+mfc42u_ordinal2109 equ <__imp_mfc42u_ordinal2109>
+
+externdef __imp_mfc42u_ordinal210:PPROC
+mfc42u_ordinal210 equ <__imp_mfc42u_ordinal210>
+
+externdef __imp_mfc42u_ordinal2110:PPROC
+mfc42u_ordinal2110 equ <__imp_mfc42u_ordinal2110>
+
+externdef __imp_mfc42u_ordinal2111:PPROC
+mfc42u_ordinal2111 equ <__imp_mfc42u_ordinal2111>
+
+externdef __imp_mfc42u_ordinal2112:PPROC
+mfc42u_ordinal2112 equ <__imp_mfc42u_ordinal2112>
+
+externdef __imp_mfc42u_ordinal2113:PPROC
+mfc42u_ordinal2113 equ <__imp_mfc42u_ordinal2113>
+
+externdef __imp_mfc42u_ordinal2114:PPROC
+mfc42u_ordinal2114 equ <__imp_mfc42u_ordinal2114>
+
+externdef __imp_mfc42u_ordinal2115:PPROC
+mfc42u_ordinal2115 equ <__imp_mfc42u_ordinal2115>
+
+externdef __imp_mfc42u_ordinal2116:PPROC
+mfc42u_ordinal2116 equ <__imp_mfc42u_ordinal2116>
+
+externdef __imp_mfc42u_ordinal2117:PPROC
+mfc42u_ordinal2117 equ <__imp_mfc42u_ordinal2117>
+
+externdef __imp_mfc42u_ordinal2118:PPROC
+mfc42u_ordinal2118 equ <__imp_mfc42u_ordinal2118>
+
+externdef __imp_mfc42u_ordinal2119:PPROC
+mfc42u_ordinal2119 equ <__imp_mfc42u_ordinal2119>
+
+externdef __imp_mfc42u_ordinal211:PPROC
+mfc42u_ordinal211 equ <__imp_mfc42u_ordinal211>
+
+externdef __imp_mfc42u_ordinal2120:PPROC
+mfc42u_ordinal2120 equ <__imp_mfc42u_ordinal2120>
+
+externdef __imp_mfc42u_ordinal2121:PPROC
+mfc42u_ordinal2121 equ <__imp_mfc42u_ordinal2121>
+
+externdef __imp_mfc42u_ordinal2122:PPROC
+mfc42u_ordinal2122 equ <__imp_mfc42u_ordinal2122>
+
+externdef __imp_mfc42u_ordinal2123:PPROC
+mfc42u_ordinal2123 equ <__imp_mfc42u_ordinal2123>
+
+externdef __imp_mfc42u_ordinal2124:PPROC
+mfc42u_ordinal2124 equ <__imp_mfc42u_ordinal2124>
+
+externdef __imp_mfc42u_ordinal2125:PPROC
+mfc42u_ordinal2125 equ <__imp_mfc42u_ordinal2125>
+
+externdef __imp_mfc42u_ordinal2126:PPROC
+mfc42u_ordinal2126 equ <__imp_mfc42u_ordinal2126>
+
+externdef __imp_mfc42u_ordinal2127:PPROC
+mfc42u_ordinal2127 equ <__imp_mfc42u_ordinal2127>
+
+externdef __imp_mfc42u_ordinal2128:PPROC
+mfc42u_ordinal2128 equ <__imp_mfc42u_ordinal2128>
+
+externdef __imp_mfc42u_ordinal2129:PPROC
+mfc42u_ordinal2129 equ <__imp_mfc42u_ordinal2129>
+
+externdef __imp_mfc42u_ordinal212:PPROC
+mfc42u_ordinal212 equ <__imp_mfc42u_ordinal212>
+
+externdef __imp_mfc42u_ordinal2130:PPROC
+mfc42u_ordinal2130 equ <__imp_mfc42u_ordinal2130>
+
+externdef __imp_mfc42u_ordinal2131:PPROC
+mfc42u_ordinal2131 equ <__imp_mfc42u_ordinal2131>
+
+externdef __imp_mfc42u_ordinal2132:PPROC
+mfc42u_ordinal2132 equ <__imp_mfc42u_ordinal2132>
+
+externdef __imp_mfc42u_ordinal2133:PPROC
+mfc42u_ordinal2133 equ <__imp_mfc42u_ordinal2133>
+
+externdef __imp_mfc42u_ordinal2134:PPROC
+mfc42u_ordinal2134 equ <__imp_mfc42u_ordinal2134>
+
+externdef __imp_mfc42u_ordinal2135:PPROC
+mfc42u_ordinal2135 equ <__imp_mfc42u_ordinal2135>
+
+externdef __imp_mfc42u_ordinal2136:PPROC
+mfc42u_ordinal2136 equ <__imp_mfc42u_ordinal2136>
+
+externdef __imp_mfc42u_ordinal2137:PPROC
+mfc42u_ordinal2137 equ <__imp_mfc42u_ordinal2137>
+
+externdef __imp_mfc42u_ordinal2138:PPROC
+mfc42u_ordinal2138 equ <__imp_mfc42u_ordinal2138>
+
+externdef __imp_mfc42u_ordinal2139:PPROC
+mfc42u_ordinal2139 equ <__imp_mfc42u_ordinal2139>
+
+externdef __imp_mfc42u_ordinal213:PPROC
+mfc42u_ordinal213 equ <__imp_mfc42u_ordinal213>
+
+externdef __imp_mfc42u_ordinal2140:PPROC
+mfc42u_ordinal2140 equ <__imp_mfc42u_ordinal2140>
+
+externdef __imp_mfc42u_ordinal2141:PPROC
+mfc42u_ordinal2141 equ <__imp_mfc42u_ordinal2141>
+
+externdef __imp_mfc42u_ordinal2142:PPROC
+mfc42u_ordinal2142 equ <__imp_mfc42u_ordinal2142>
+
+externdef __imp_mfc42u_ordinal2143:PPROC
+mfc42u_ordinal2143 equ <__imp_mfc42u_ordinal2143>
+
+externdef __imp_mfc42u_ordinal2144:PPROC
+mfc42u_ordinal2144 equ <__imp_mfc42u_ordinal2144>
+
+externdef __imp_mfc42u_ordinal2145:PPROC
+mfc42u_ordinal2145 equ <__imp_mfc42u_ordinal2145>
+
+externdef __imp_mfc42u_ordinal2146:PPROC
+mfc42u_ordinal2146 equ <__imp_mfc42u_ordinal2146>
+
+externdef __imp_mfc42u_ordinal2147:PPROC
+mfc42u_ordinal2147 equ <__imp_mfc42u_ordinal2147>
+
+externdef __imp_mfc42u_ordinal2148:PPROC
+mfc42u_ordinal2148 equ <__imp_mfc42u_ordinal2148>
+
+externdef __imp_mfc42u_ordinal2149:PPROC
+mfc42u_ordinal2149 equ <__imp_mfc42u_ordinal2149>
+
+externdef __imp_mfc42u_ordinal214:PPROC
+mfc42u_ordinal214 equ <__imp_mfc42u_ordinal214>
+
+externdef __imp_mfc42u_ordinal2150:PPROC
+mfc42u_ordinal2150 equ <__imp_mfc42u_ordinal2150>
+
+externdef __imp_mfc42u_ordinal2151:PPROC
+mfc42u_ordinal2151 equ <__imp_mfc42u_ordinal2151>
+
+externdef __imp_mfc42u_ordinal2152:PPROC
+mfc42u_ordinal2152 equ <__imp_mfc42u_ordinal2152>
+
+externdef __imp_mfc42u_ordinal2153:PPROC
+mfc42u_ordinal2153 equ <__imp_mfc42u_ordinal2153>
+
+externdef __imp_mfc42u_ordinal2154:PPROC
+mfc42u_ordinal2154 equ <__imp_mfc42u_ordinal2154>
+
+externdef __imp_mfc42u_ordinal2155:PPROC
+mfc42u_ordinal2155 equ <__imp_mfc42u_ordinal2155>
+
+externdef __imp_mfc42u_ordinal2156:PPROC
+mfc42u_ordinal2156 equ <__imp_mfc42u_ordinal2156>
+
+externdef __imp_mfc42u_ordinal2157:PPROC
+mfc42u_ordinal2157 equ <__imp_mfc42u_ordinal2157>
+
+externdef __imp_mfc42u_ordinal2158:PPROC
+mfc42u_ordinal2158 equ <__imp_mfc42u_ordinal2158>
+
+externdef __imp_mfc42u_ordinal2159:PPROC
+mfc42u_ordinal2159 equ <__imp_mfc42u_ordinal2159>
+
+externdef __imp_mfc42u_ordinal215:PPROC
+mfc42u_ordinal215 equ <__imp_mfc42u_ordinal215>
+
+externdef __imp_mfc42u_ordinal2160:PPROC
+mfc42u_ordinal2160 equ <__imp_mfc42u_ordinal2160>
+
+externdef __imp_mfc42u_ordinal2161:PPROC
+mfc42u_ordinal2161 equ <__imp_mfc42u_ordinal2161>
+
+externdef __imp_mfc42u_ordinal2162:PPROC
+mfc42u_ordinal2162 equ <__imp_mfc42u_ordinal2162>
+
+externdef __imp_mfc42u_ordinal2163:PPROC
+mfc42u_ordinal2163 equ <__imp_mfc42u_ordinal2163>
+
+externdef __imp_mfc42u_ordinal2164:PPROC
+mfc42u_ordinal2164 equ <__imp_mfc42u_ordinal2164>
+
+externdef __imp_mfc42u_ordinal2165:PPROC
+mfc42u_ordinal2165 equ <__imp_mfc42u_ordinal2165>
+
+externdef __imp_mfc42u_ordinal2166:PPROC
+mfc42u_ordinal2166 equ <__imp_mfc42u_ordinal2166>
+
+externdef __imp_mfc42u_ordinal2167:PPROC
+mfc42u_ordinal2167 equ <__imp_mfc42u_ordinal2167>
+
+externdef __imp_mfc42u_ordinal2168:PPROC
+mfc42u_ordinal2168 equ <__imp_mfc42u_ordinal2168>
+
+externdef __imp_mfc42u_ordinal2169:PPROC
+mfc42u_ordinal2169 equ <__imp_mfc42u_ordinal2169>
+
+externdef __imp_mfc42u_ordinal216:PPROC
+mfc42u_ordinal216 equ <__imp_mfc42u_ordinal216>
+
+externdef __imp_mfc42u_ordinal2170:PPROC
+mfc42u_ordinal2170 equ <__imp_mfc42u_ordinal2170>
+
+externdef __imp_mfc42u_ordinal2171:PPROC
+mfc42u_ordinal2171 equ <__imp_mfc42u_ordinal2171>
+
+externdef __imp_mfc42u_ordinal2172:PPROC
+mfc42u_ordinal2172 equ <__imp_mfc42u_ordinal2172>
+
+externdef __imp_mfc42u_ordinal2173:PPROC
+mfc42u_ordinal2173 equ <__imp_mfc42u_ordinal2173>
+
+externdef __imp_mfc42u_ordinal2174:PPROC
+mfc42u_ordinal2174 equ <__imp_mfc42u_ordinal2174>
+
+externdef __imp_mfc42u_ordinal2175:PPROC
+mfc42u_ordinal2175 equ <__imp_mfc42u_ordinal2175>
+
+externdef __imp_mfc42u_ordinal2176:PPROC
+mfc42u_ordinal2176 equ <__imp_mfc42u_ordinal2176>
+
+externdef __imp_mfc42u_ordinal2177:PPROC
+mfc42u_ordinal2177 equ <__imp_mfc42u_ordinal2177>
+
+externdef __imp_mfc42u_ordinal2178:PPROC
+mfc42u_ordinal2178 equ <__imp_mfc42u_ordinal2178>
+
+externdef __imp_mfc42u_ordinal2179:PPROC
+mfc42u_ordinal2179 equ <__imp_mfc42u_ordinal2179>
+
+externdef __imp_mfc42u_ordinal217:PPROC
+mfc42u_ordinal217 equ <__imp_mfc42u_ordinal217>
+
+externdef __imp_mfc42u_ordinal2180:PPROC
+mfc42u_ordinal2180 equ <__imp_mfc42u_ordinal2180>
+
+externdef __imp_mfc42u_ordinal2181:PPROC
+mfc42u_ordinal2181 equ <__imp_mfc42u_ordinal2181>
+
+externdef __imp_mfc42u_ordinal2182:PPROC
+mfc42u_ordinal2182 equ <__imp_mfc42u_ordinal2182>
+
+externdef __imp_mfc42u_ordinal2183:PPROC
+mfc42u_ordinal2183 equ <__imp_mfc42u_ordinal2183>
+
+externdef __imp_mfc42u_ordinal2184:PPROC
+mfc42u_ordinal2184 equ <__imp_mfc42u_ordinal2184>
+
+externdef __imp_mfc42u_ordinal2185:PPROC
+mfc42u_ordinal2185 equ <__imp_mfc42u_ordinal2185>
+
+externdef __imp_mfc42u_ordinal2186:PPROC
+mfc42u_ordinal2186 equ <__imp_mfc42u_ordinal2186>
+
+externdef __imp_mfc42u_ordinal2187:PPROC
+mfc42u_ordinal2187 equ <__imp_mfc42u_ordinal2187>
+
+externdef __imp_mfc42u_ordinal2188:PPROC
+mfc42u_ordinal2188 equ <__imp_mfc42u_ordinal2188>
+
+externdef __imp_mfc42u_ordinal2189:PPROC
+mfc42u_ordinal2189 equ <__imp_mfc42u_ordinal2189>
+
+externdef __imp_mfc42u_ordinal218:PPROC
+mfc42u_ordinal218 equ <__imp_mfc42u_ordinal218>
+
+externdef __imp_mfc42u_ordinal2190:PPROC
+mfc42u_ordinal2190 equ <__imp_mfc42u_ordinal2190>
+
+externdef __imp_mfc42u_ordinal2191:PPROC
+mfc42u_ordinal2191 equ <__imp_mfc42u_ordinal2191>
+
+externdef __imp_mfc42u_ordinal2192:PPROC
+mfc42u_ordinal2192 equ <__imp_mfc42u_ordinal2192>
+
+externdef __imp_mfc42u_ordinal2193:PPROC
+mfc42u_ordinal2193 equ <__imp_mfc42u_ordinal2193>
+
+externdef __imp_mfc42u_ordinal2194:PPROC
+mfc42u_ordinal2194 equ <__imp_mfc42u_ordinal2194>
+
+externdef __imp_mfc42u_ordinal2195:PPROC
+mfc42u_ordinal2195 equ <__imp_mfc42u_ordinal2195>
+
+externdef __imp_mfc42u_ordinal2196:PPROC
+mfc42u_ordinal2196 equ <__imp_mfc42u_ordinal2196>
+
+externdef __imp_mfc42u_ordinal2197:PPROC
+mfc42u_ordinal2197 equ <__imp_mfc42u_ordinal2197>
+
+externdef __imp_mfc42u_ordinal2198:PPROC
+mfc42u_ordinal2198 equ <__imp_mfc42u_ordinal2198>
+
+externdef __imp_mfc42u_ordinal2199:PPROC
+mfc42u_ordinal2199 equ <__imp_mfc42u_ordinal2199>
+
+externdef __imp_mfc42u_ordinal219:PPROC
+mfc42u_ordinal219 equ <__imp_mfc42u_ordinal219>
+
+externdef __imp_mfc42u_ordinal21:PPROC
+mfc42u_ordinal21 equ <__imp_mfc42u_ordinal21>
+
+externdef __imp_mfc42u_ordinal2200:PPROC
+mfc42u_ordinal2200 equ <__imp_mfc42u_ordinal2200>
+
+externdef __imp_mfc42u_ordinal2201:PPROC
+mfc42u_ordinal2201 equ <__imp_mfc42u_ordinal2201>
+
+externdef __imp_mfc42u_ordinal2202:PPROC
+mfc42u_ordinal2202 equ <__imp_mfc42u_ordinal2202>
+
+externdef __imp_mfc42u_ordinal2203:PPROC
+mfc42u_ordinal2203 equ <__imp_mfc42u_ordinal2203>
+
+externdef __imp_mfc42u_ordinal2204:PPROC
+mfc42u_ordinal2204 equ <__imp_mfc42u_ordinal2204>
+
+externdef __imp_mfc42u_ordinal2205:PPROC
+mfc42u_ordinal2205 equ <__imp_mfc42u_ordinal2205>
+
+externdef __imp_mfc42u_ordinal2206:PPROC
+mfc42u_ordinal2206 equ <__imp_mfc42u_ordinal2206>
+
+externdef __imp_mfc42u_ordinal2207:PPROC
+mfc42u_ordinal2207 equ <__imp_mfc42u_ordinal2207>
+
+externdef __imp_mfc42u_ordinal2208:PPROC
+mfc42u_ordinal2208 equ <__imp_mfc42u_ordinal2208>
+
+externdef __imp_mfc42u_ordinal2209:PPROC
+mfc42u_ordinal2209 equ <__imp_mfc42u_ordinal2209>
+
+externdef __imp_mfc42u_ordinal220:PPROC
+mfc42u_ordinal220 equ <__imp_mfc42u_ordinal220>
+
+externdef __imp_mfc42u_ordinal2210:PPROC
+mfc42u_ordinal2210 equ <__imp_mfc42u_ordinal2210>
+
+externdef __imp_mfc42u_ordinal2211:PPROC
+mfc42u_ordinal2211 equ <__imp_mfc42u_ordinal2211>
+
+externdef __imp_mfc42u_ordinal2212:PPROC
+mfc42u_ordinal2212 equ <__imp_mfc42u_ordinal2212>
+
+externdef __imp_mfc42u_ordinal2213:PPROC
+mfc42u_ordinal2213 equ <__imp_mfc42u_ordinal2213>
+
+externdef __imp_mfc42u_ordinal2214:PPROC
+mfc42u_ordinal2214 equ <__imp_mfc42u_ordinal2214>
+
+externdef __imp_mfc42u_ordinal2215:PPROC
+mfc42u_ordinal2215 equ <__imp_mfc42u_ordinal2215>
+
+externdef __imp_mfc42u_ordinal2216:PPROC
+mfc42u_ordinal2216 equ <__imp_mfc42u_ordinal2216>
+
+externdef __imp_mfc42u_ordinal2217:PPROC
+mfc42u_ordinal2217 equ <__imp_mfc42u_ordinal2217>
+
+externdef __imp_mfc42u_ordinal2218:PPROC
+mfc42u_ordinal2218 equ <__imp_mfc42u_ordinal2218>
+
+externdef __imp_mfc42u_ordinal2219:PPROC
+mfc42u_ordinal2219 equ <__imp_mfc42u_ordinal2219>
+
+externdef __imp_mfc42u_ordinal221:PPROC
+mfc42u_ordinal221 equ <__imp_mfc42u_ordinal221>
+
+externdef __imp_mfc42u_ordinal2220:PPROC
+mfc42u_ordinal2220 equ <__imp_mfc42u_ordinal2220>
+
+externdef __imp_mfc42u_ordinal2221:PPROC
+mfc42u_ordinal2221 equ <__imp_mfc42u_ordinal2221>
+
+externdef __imp_mfc42u_ordinal2222:PPROC
+mfc42u_ordinal2222 equ <__imp_mfc42u_ordinal2222>
+
+externdef __imp_mfc42u_ordinal2223:PPROC
+mfc42u_ordinal2223 equ <__imp_mfc42u_ordinal2223>
+
+externdef __imp_mfc42u_ordinal2224:PPROC
+mfc42u_ordinal2224 equ <__imp_mfc42u_ordinal2224>
+
+externdef __imp_mfc42u_ordinal2225:PPROC
+mfc42u_ordinal2225 equ <__imp_mfc42u_ordinal2225>
+
+externdef __imp_mfc42u_ordinal2226:PPROC
+mfc42u_ordinal2226 equ <__imp_mfc42u_ordinal2226>
+
+externdef __imp_mfc42u_ordinal2227:PPROC
+mfc42u_ordinal2227 equ <__imp_mfc42u_ordinal2227>
+
+externdef __imp_mfc42u_ordinal2228:PPROC
+mfc42u_ordinal2228 equ <__imp_mfc42u_ordinal2228>
+
+externdef __imp_mfc42u_ordinal2229:PPROC
+mfc42u_ordinal2229 equ <__imp_mfc42u_ordinal2229>
+
+externdef __imp_mfc42u_ordinal222:PPROC
+mfc42u_ordinal222 equ <__imp_mfc42u_ordinal222>
+
+externdef __imp_mfc42u_ordinal2230:PPROC
+mfc42u_ordinal2230 equ <__imp_mfc42u_ordinal2230>
+
+externdef __imp_mfc42u_ordinal2231:PPROC
+mfc42u_ordinal2231 equ <__imp_mfc42u_ordinal2231>
+
+externdef __imp_mfc42u_ordinal2232:PPROC
+mfc42u_ordinal2232 equ <__imp_mfc42u_ordinal2232>
+
+externdef __imp_mfc42u_ordinal2233:PPROC
+mfc42u_ordinal2233 equ <__imp_mfc42u_ordinal2233>
+
+externdef __imp_mfc42u_ordinal2234:PPROC
+mfc42u_ordinal2234 equ <__imp_mfc42u_ordinal2234>
+
+externdef __imp_mfc42u_ordinal2235:PPROC
+mfc42u_ordinal2235 equ <__imp_mfc42u_ordinal2235>
+
+externdef __imp_mfc42u_ordinal2236:PPROC
+mfc42u_ordinal2236 equ <__imp_mfc42u_ordinal2236>
+
+externdef __imp_mfc42u_ordinal2237:PPROC
+mfc42u_ordinal2237 equ <__imp_mfc42u_ordinal2237>
+
+externdef __imp_mfc42u_ordinal2238:PPROC
+mfc42u_ordinal2238 equ <__imp_mfc42u_ordinal2238>
+
+externdef __imp_mfc42u_ordinal2239:PPROC
+mfc42u_ordinal2239 equ <__imp_mfc42u_ordinal2239>
+
+externdef __imp_mfc42u_ordinal223:PPROC
+mfc42u_ordinal223 equ <__imp_mfc42u_ordinal223>
+
+externdef __imp_mfc42u_ordinal2240:PPROC
+mfc42u_ordinal2240 equ <__imp_mfc42u_ordinal2240>
+
+externdef __imp_mfc42u_ordinal2241:PPROC
+mfc42u_ordinal2241 equ <__imp_mfc42u_ordinal2241>
+
+externdef __imp_mfc42u_ordinal2242:PPROC
+mfc42u_ordinal2242 equ <__imp_mfc42u_ordinal2242>
+
+externdef __imp_mfc42u_ordinal2243:PPROC
+mfc42u_ordinal2243 equ <__imp_mfc42u_ordinal2243>
+
+externdef __imp_mfc42u_ordinal2244:PPROC
+mfc42u_ordinal2244 equ <__imp_mfc42u_ordinal2244>
+
+externdef __imp_mfc42u_ordinal2245:PPROC
+mfc42u_ordinal2245 equ <__imp_mfc42u_ordinal2245>
+
+externdef __imp_mfc42u_ordinal2246:PPROC
+mfc42u_ordinal2246 equ <__imp_mfc42u_ordinal2246>
+
+externdef __imp_mfc42u_ordinal2247:PPROC
+mfc42u_ordinal2247 equ <__imp_mfc42u_ordinal2247>
+
+externdef __imp_mfc42u_ordinal2248:PPROC
+mfc42u_ordinal2248 equ <__imp_mfc42u_ordinal2248>
+
+externdef __imp_mfc42u_ordinal2249:PPROC
+mfc42u_ordinal2249 equ <__imp_mfc42u_ordinal2249>
+
+externdef __imp_mfc42u_ordinal224:PPROC
+mfc42u_ordinal224 equ <__imp_mfc42u_ordinal224>
+
+externdef __imp_mfc42u_ordinal2250:PPROC
+mfc42u_ordinal2250 equ <__imp_mfc42u_ordinal2250>
+
+externdef __imp_mfc42u_ordinal2251:PPROC
+mfc42u_ordinal2251 equ <__imp_mfc42u_ordinal2251>
+
+externdef __imp_mfc42u_ordinal2252:PPROC
+mfc42u_ordinal2252 equ <__imp_mfc42u_ordinal2252>
+
+externdef __imp_mfc42u_ordinal2253:PPROC
+mfc42u_ordinal2253 equ <__imp_mfc42u_ordinal2253>
+
+externdef __imp_mfc42u_ordinal2254:PPROC
+mfc42u_ordinal2254 equ <__imp_mfc42u_ordinal2254>
+
+externdef __imp_mfc42u_ordinal2255:PPROC
+mfc42u_ordinal2255 equ <__imp_mfc42u_ordinal2255>
+
+externdef __imp_mfc42u_ordinal2256:PPROC
+mfc42u_ordinal2256 equ <__imp_mfc42u_ordinal2256>
+
+externdef __imp_mfc42u_ordinal2257:PPROC
+mfc42u_ordinal2257 equ <__imp_mfc42u_ordinal2257>
+
+externdef __imp_mfc42u_ordinal2258:PPROC
+mfc42u_ordinal2258 equ <__imp_mfc42u_ordinal2258>
+
+externdef __imp_mfc42u_ordinal2259:PPROC
+mfc42u_ordinal2259 equ <__imp_mfc42u_ordinal2259>
+
+externdef __imp_mfc42u_ordinal225:PPROC
+mfc42u_ordinal225 equ <__imp_mfc42u_ordinal225>
+
+externdef __imp_mfc42u_ordinal2260:PPROC
+mfc42u_ordinal2260 equ <__imp_mfc42u_ordinal2260>
+
+externdef __imp_mfc42u_ordinal2261:PPROC
+mfc42u_ordinal2261 equ <__imp_mfc42u_ordinal2261>
+
+externdef __imp_mfc42u_ordinal2262:PPROC
+mfc42u_ordinal2262 equ <__imp_mfc42u_ordinal2262>
+
+externdef __imp_mfc42u_ordinal2263:PPROC
+mfc42u_ordinal2263 equ <__imp_mfc42u_ordinal2263>
+
+externdef __imp_mfc42u_ordinal2264:PPROC
+mfc42u_ordinal2264 equ <__imp_mfc42u_ordinal2264>
+
+externdef __imp_mfc42u_ordinal2265:PPROC
+mfc42u_ordinal2265 equ <__imp_mfc42u_ordinal2265>
+
+externdef __imp_mfc42u_ordinal2266:PPROC
+mfc42u_ordinal2266 equ <__imp_mfc42u_ordinal2266>
+
+externdef __imp_mfc42u_ordinal2267:PPROC
+mfc42u_ordinal2267 equ <__imp_mfc42u_ordinal2267>
+
+externdef __imp_mfc42u_ordinal2268:PPROC
+mfc42u_ordinal2268 equ <__imp_mfc42u_ordinal2268>
+
+externdef __imp_mfc42u_ordinal2269:PPROC
+mfc42u_ordinal2269 equ <__imp_mfc42u_ordinal2269>
+
+externdef __imp_mfc42u_ordinal226:PPROC
+mfc42u_ordinal226 equ <__imp_mfc42u_ordinal226>
+
+externdef __imp_mfc42u_ordinal2270:PPROC
+mfc42u_ordinal2270 equ <__imp_mfc42u_ordinal2270>
+
+externdef __imp_mfc42u_ordinal2271:PPROC
+mfc42u_ordinal2271 equ <__imp_mfc42u_ordinal2271>
+
+externdef __imp_mfc42u_ordinal2272:PPROC
+mfc42u_ordinal2272 equ <__imp_mfc42u_ordinal2272>
+
+externdef __imp_mfc42u_ordinal2273:PPROC
+mfc42u_ordinal2273 equ <__imp_mfc42u_ordinal2273>
+
+externdef __imp_mfc42u_ordinal2274:PPROC
+mfc42u_ordinal2274 equ <__imp_mfc42u_ordinal2274>
+
+externdef __imp_mfc42u_ordinal2275:PPROC
+mfc42u_ordinal2275 equ <__imp_mfc42u_ordinal2275>
+
+externdef __imp_mfc42u_ordinal2276:PPROC
+mfc42u_ordinal2276 equ <__imp_mfc42u_ordinal2276>
+
+externdef __imp_mfc42u_ordinal2277:PPROC
+mfc42u_ordinal2277 equ <__imp_mfc42u_ordinal2277>
+
+externdef __imp_mfc42u_ordinal2278:PPROC
+mfc42u_ordinal2278 equ <__imp_mfc42u_ordinal2278>
+
+externdef __imp_mfc42u_ordinal2279:PPROC
+mfc42u_ordinal2279 equ <__imp_mfc42u_ordinal2279>
+
+externdef __imp_mfc42u_ordinal227:PPROC
+mfc42u_ordinal227 equ <__imp_mfc42u_ordinal227>
+
+externdef __imp_mfc42u_ordinal2280:PPROC
+mfc42u_ordinal2280 equ <__imp_mfc42u_ordinal2280>
+
+externdef __imp_mfc42u_ordinal2281:PPROC
+mfc42u_ordinal2281 equ <__imp_mfc42u_ordinal2281>
+
+externdef __imp_mfc42u_ordinal2282:PPROC
+mfc42u_ordinal2282 equ <__imp_mfc42u_ordinal2282>
+
+externdef __imp_mfc42u_ordinal2283:PPROC
+mfc42u_ordinal2283 equ <__imp_mfc42u_ordinal2283>
+
+externdef __imp_mfc42u_ordinal2284:PPROC
+mfc42u_ordinal2284 equ <__imp_mfc42u_ordinal2284>
+
+externdef __imp_mfc42u_ordinal2285:PPROC
+mfc42u_ordinal2285 equ <__imp_mfc42u_ordinal2285>
+
+externdef __imp_mfc42u_ordinal2286:PPROC
+mfc42u_ordinal2286 equ <__imp_mfc42u_ordinal2286>
+
+externdef __imp_mfc42u_ordinal2287:PPROC
+mfc42u_ordinal2287 equ <__imp_mfc42u_ordinal2287>
+
+externdef __imp_mfc42u_ordinal2288:PPROC
+mfc42u_ordinal2288 equ <__imp_mfc42u_ordinal2288>
+
+externdef __imp_mfc42u_ordinal2289:PPROC
+mfc42u_ordinal2289 equ <__imp_mfc42u_ordinal2289>
+
+externdef __imp_mfc42u_ordinal228:PPROC
+mfc42u_ordinal228 equ <__imp_mfc42u_ordinal228>
+
+externdef __imp_mfc42u_ordinal2290:PPROC
+mfc42u_ordinal2290 equ <__imp_mfc42u_ordinal2290>
+
+externdef __imp_mfc42u_ordinal2291:PPROC
+mfc42u_ordinal2291 equ <__imp_mfc42u_ordinal2291>
+
+externdef __imp_mfc42u_ordinal2292:PPROC
+mfc42u_ordinal2292 equ <__imp_mfc42u_ordinal2292>
+
+externdef __imp_mfc42u_ordinal2293:PPROC
+mfc42u_ordinal2293 equ <__imp_mfc42u_ordinal2293>
+
+externdef __imp_mfc42u_ordinal2294:PPROC
+mfc42u_ordinal2294 equ <__imp_mfc42u_ordinal2294>
+
+externdef __imp_mfc42u_ordinal2295:PPROC
+mfc42u_ordinal2295 equ <__imp_mfc42u_ordinal2295>
+
+externdef __imp_mfc42u_ordinal2296:PPROC
+mfc42u_ordinal2296 equ <__imp_mfc42u_ordinal2296>
+
+externdef __imp_mfc42u_ordinal2297:PPROC
+mfc42u_ordinal2297 equ <__imp_mfc42u_ordinal2297>
+
+externdef __imp_mfc42u_ordinal2298:PPROC
+mfc42u_ordinal2298 equ <__imp_mfc42u_ordinal2298>
+
+externdef __imp_mfc42u_ordinal2299:PPROC
+mfc42u_ordinal2299 equ <__imp_mfc42u_ordinal2299>
+
+externdef __imp_mfc42u_ordinal229:PPROC
+mfc42u_ordinal229 equ <__imp_mfc42u_ordinal229>
+
+externdef __imp_mfc42u_ordinal22:PPROC
+mfc42u_ordinal22 equ <__imp_mfc42u_ordinal22>
+
+externdef __imp_mfc42u_ordinal2300:PPROC
+mfc42u_ordinal2300 equ <__imp_mfc42u_ordinal2300>
+
+externdef __imp_mfc42u_ordinal2301:PPROC
+mfc42u_ordinal2301 equ <__imp_mfc42u_ordinal2301>
+
+externdef __imp_mfc42u_ordinal2302:PPROC
+mfc42u_ordinal2302 equ <__imp_mfc42u_ordinal2302>
+
+externdef __imp_mfc42u_ordinal2303:PPROC
+mfc42u_ordinal2303 equ <__imp_mfc42u_ordinal2303>
+
+externdef __imp_mfc42u_ordinal2304:PPROC
+mfc42u_ordinal2304 equ <__imp_mfc42u_ordinal2304>
+
+externdef __imp_mfc42u_ordinal2305:PPROC
+mfc42u_ordinal2305 equ <__imp_mfc42u_ordinal2305>
+
+externdef __imp_mfc42u_ordinal2306:PPROC
+mfc42u_ordinal2306 equ <__imp_mfc42u_ordinal2306>
+
+externdef __imp_mfc42u_ordinal2307:PPROC
+mfc42u_ordinal2307 equ <__imp_mfc42u_ordinal2307>
+
+externdef __imp_mfc42u_ordinal2308:PPROC
+mfc42u_ordinal2308 equ <__imp_mfc42u_ordinal2308>
+
+externdef __imp_mfc42u_ordinal2309:PPROC
+mfc42u_ordinal2309 equ <__imp_mfc42u_ordinal2309>
+
+externdef __imp_mfc42u_ordinal230:PPROC
+mfc42u_ordinal230 equ <__imp_mfc42u_ordinal230>
+
+externdef __imp_mfc42u_ordinal2310:PPROC
+mfc42u_ordinal2310 equ <__imp_mfc42u_ordinal2310>
+
+externdef __imp_mfc42u_ordinal2311:PPROC
+mfc42u_ordinal2311 equ <__imp_mfc42u_ordinal2311>
+
+externdef __imp_mfc42u_ordinal2312:PPROC
+mfc42u_ordinal2312 equ <__imp_mfc42u_ordinal2312>
+
+externdef __imp_mfc42u_ordinal2313:PPROC
+mfc42u_ordinal2313 equ <__imp_mfc42u_ordinal2313>
+
+externdef __imp_mfc42u_ordinal2314:PPROC
+mfc42u_ordinal2314 equ <__imp_mfc42u_ordinal2314>
+
+externdef __imp_mfc42u_ordinal2315:PPROC
+mfc42u_ordinal2315 equ <__imp_mfc42u_ordinal2315>
+
+externdef __imp_mfc42u_ordinal2316:PPROC
+mfc42u_ordinal2316 equ <__imp_mfc42u_ordinal2316>
+
+externdef __imp_mfc42u_ordinal2317:PPROC
+mfc42u_ordinal2317 equ <__imp_mfc42u_ordinal2317>
+
+externdef __imp_mfc42u_ordinal2318:PPROC
+mfc42u_ordinal2318 equ <__imp_mfc42u_ordinal2318>
+
+externdef __imp_mfc42u_ordinal2319:PPROC
+mfc42u_ordinal2319 equ <__imp_mfc42u_ordinal2319>
+
+externdef __imp_mfc42u_ordinal231:PPROC
+mfc42u_ordinal231 equ <__imp_mfc42u_ordinal231>
+
+externdef __imp_mfc42u_ordinal2320:PPROC
+mfc42u_ordinal2320 equ <__imp_mfc42u_ordinal2320>
+
+externdef __imp_mfc42u_ordinal2321:PPROC
+mfc42u_ordinal2321 equ <__imp_mfc42u_ordinal2321>
+
+externdef __imp_mfc42u_ordinal2322:PPROC
+mfc42u_ordinal2322 equ <__imp_mfc42u_ordinal2322>
+
+externdef __imp_mfc42u_ordinal2323:PPROC
+mfc42u_ordinal2323 equ <__imp_mfc42u_ordinal2323>
+
+externdef __imp_mfc42u_ordinal2324:PPROC
+mfc42u_ordinal2324 equ <__imp_mfc42u_ordinal2324>
+
+externdef __imp_mfc42u_ordinal2325:PPROC
+mfc42u_ordinal2325 equ <__imp_mfc42u_ordinal2325>
+
+externdef __imp_mfc42u_ordinal2326:PPROC
+mfc42u_ordinal2326 equ <__imp_mfc42u_ordinal2326>
+
+externdef __imp_mfc42u_ordinal2327:PPROC
+mfc42u_ordinal2327 equ <__imp_mfc42u_ordinal2327>
+
+externdef __imp_mfc42u_ordinal2328:PPROC
+mfc42u_ordinal2328 equ <__imp_mfc42u_ordinal2328>
+
+externdef __imp_mfc42u_ordinal2329:PPROC
+mfc42u_ordinal2329 equ <__imp_mfc42u_ordinal2329>
+
+externdef __imp_mfc42u_ordinal232:PPROC
+mfc42u_ordinal232 equ <__imp_mfc42u_ordinal232>
+
+externdef __imp_mfc42u_ordinal2330:PPROC
+mfc42u_ordinal2330 equ <__imp_mfc42u_ordinal2330>
+
+externdef __imp_mfc42u_ordinal2331:PPROC
+mfc42u_ordinal2331 equ <__imp_mfc42u_ordinal2331>
+
+externdef __imp_mfc42u_ordinal2332:PPROC
+mfc42u_ordinal2332 equ <__imp_mfc42u_ordinal2332>
+
+externdef __imp_mfc42u_ordinal2333:PPROC
+mfc42u_ordinal2333 equ <__imp_mfc42u_ordinal2333>
+
+externdef __imp_mfc42u_ordinal2334:PPROC
+mfc42u_ordinal2334 equ <__imp_mfc42u_ordinal2334>
+
+externdef __imp_mfc42u_ordinal2335:PPROC
+mfc42u_ordinal2335 equ <__imp_mfc42u_ordinal2335>
+
+externdef __imp_mfc42u_ordinal2336:PPROC
+mfc42u_ordinal2336 equ <__imp_mfc42u_ordinal2336>
+
+externdef __imp_mfc42u_ordinal2337:PPROC
+mfc42u_ordinal2337 equ <__imp_mfc42u_ordinal2337>
+
+externdef __imp_mfc42u_ordinal2338:PPROC
+mfc42u_ordinal2338 equ <__imp_mfc42u_ordinal2338>
+
+externdef __imp_mfc42u_ordinal2339:PPROC
+mfc42u_ordinal2339 equ <__imp_mfc42u_ordinal2339>
+
+externdef __imp_mfc42u_ordinal233:PPROC
+mfc42u_ordinal233 equ <__imp_mfc42u_ordinal233>
+
+externdef __imp_mfc42u_ordinal2340:PPROC
+mfc42u_ordinal2340 equ <__imp_mfc42u_ordinal2340>
+
+externdef __imp_mfc42u_ordinal2341:PPROC
+mfc42u_ordinal2341 equ <__imp_mfc42u_ordinal2341>
+
+externdef __imp_mfc42u_ordinal2342:PPROC
+mfc42u_ordinal2342 equ <__imp_mfc42u_ordinal2342>
+
+externdef __imp_mfc42u_ordinal2343:PPROC
+mfc42u_ordinal2343 equ <__imp_mfc42u_ordinal2343>
+
+externdef __imp_mfc42u_ordinal2344:PPROC
+mfc42u_ordinal2344 equ <__imp_mfc42u_ordinal2344>
+
+externdef __imp_mfc42u_ordinal2345:PPROC
+mfc42u_ordinal2345 equ <__imp_mfc42u_ordinal2345>
+
+externdef __imp_mfc42u_ordinal2346:PPROC
+mfc42u_ordinal2346 equ <__imp_mfc42u_ordinal2346>
+
+externdef __imp_mfc42u_ordinal2347:PPROC
+mfc42u_ordinal2347 equ <__imp_mfc42u_ordinal2347>
+
+externdef __imp_mfc42u_ordinal2348:PPROC
+mfc42u_ordinal2348 equ <__imp_mfc42u_ordinal2348>
+
+externdef __imp_mfc42u_ordinal2349:PPROC
+mfc42u_ordinal2349 equ <__imp_mfc42u_ordinal2349>
+
+externdef __imp_mfc42u_ordinal234:PPROC
+mfc42u_ordinal234 equ <__imp_mfc42u_ordinal234>
+
+externdef __imp_mfc42u_ordinal2350:PPROC
+mfc42u_ordinal2350 equ <__imp_mfc42u_ordinal2350>
+
+externdef __imp_mfc42u_ordinal2351:PPROC
+mfc42u_ordinal2351 equ <__imp_mfc42u_ordinal2351>
+
+externdef __imp_mfc42u_ordinal2352:PPROC
+mfc42u_ordinal2352 equ <__imp_mfc42u_ordinal2352>
+
+externdef __imp_mfc42u_ordinal2353:PPROC
+mfc42u_ordinal2353 equ <__imp_mfc42u_ordinal2353>
+
+externdef __imp_mfc42u_ordinal2354:PPROC
+mfc42u_ordinal2354 equ <__imp_mfc42u_ordinal2354>
+
+externdef __imp_mfc42u_ordinal2355:PPROC
+mfc42u_ordinal2355 equ <__imp_mfc42u_ordinal2355>
+
+externdef __imp_mfc42u_ordinal2356:PPROC
+mfc42u_ordinal2356 equ <__imp_mfc42u_ordinal2356>
+
+externdef __imp_mfc42u_ordinal2357:PPROC
+mfc42u_ordinal2357 equ <__imp_mfc42u_ordinal2357>
+
+externdef __imp_mfc42u_ordinal2358:PPROC
+mfc42u_ordinal2358 equ <__imp_mfc42u_ordinal2358>
+
+externdef __imp_mfc42u_ordinal2359:PPROC
+mfc42u_ordinal2359 equ <__imp_mfc42u_ordinal2359>
+
+externdef __imp_mfc42u_ordinal235:PPROC
+mfc42u_ordinal235 equ <__imp_mfc42u_ordinal235>
+
+externdef __imp_mfc42u_ordinal2360:PPROC
+mfc42u_ordinal2360 equ <__imp_mfc42u_ordinal2360>
+
+externdef __imp_mfc42u_ordinal2361:PPROC
+mfc42u_ordinal2361 equ <__imp_mfc42u_ordinal2361>
+
+externdef __imp_mfc42u_ordinal2362:PPROC
+mfc42u_ordinal2362 equ <__imp_mfc42u_ordinal2362>
+
+externdef __imp_mfc42u_ordinal2363:PPROC
+mfc42u_ordinal2363 equ <__imp_mfc42u_ordinal2363>
+
+externdef __imp_mfc42u_ordinal2364:PPROC
+mfc42u_ordinal2364 equ <__imp_mfc42u_ordinal2364>
+
+externdef __imp_mfc42u_ordinal2365:PPROC
+mfc42u_ordinal2365 equ <__imp_mfc42u_ordinal2365>
+
+externdef __imp_mfc42u_ordinal2366:PPROC
+mfc42u_ordinal2366 equ <__imp_mfc42u_ordinal2366>
+
+externdef __imp_mfc42u_ordinal2367:PPROC
+mfc42u_ordinal2367 equ <__imp_mfc42u_ordinal2367>
+
+externdef __imp_mfc42u_ordinal2368:PPROC
+mfc42u_ordinal2368 equ <__imp_mfc42u_ordinal2368>
+
+externdef __imp_mfc42u_ordinal2369:PPROC
+mfc42u_ordinal2369 equ <__imp_mfc42u_ordinal2369>
+
+externdef __imp_mfc42u_ordinal236:PPROC
+mfc42u_ordinal236 equ <__imp_mfc42u_ordinal236>
+
+externdef __imp_mfc42u_ordinal2370:PPROC
+mfc42u_ordinal2370 equ <__imp_mfc42u_ordinal2370>
+
+externdef __imp_mfc42u_ordinal2371:PPROC
+mfc42u_ordinal2371 equ <__imp_mfc42u_ordinal2371>
+
+externdef __imp_mfc42u_ordinal2372:PPROC
+mfc42u_ordinal2372 equ <__imp_mfc42u_ordinal2372>
+
+externdef __imp_mfc42u_ordinal2373:PPROC
+mfc42u_ordinal2373 equ <__imp_mfc42u_ordinal2373>
+
+externdef __imp_mfc42u_ordinal2374:PPROC
+mfc42u_ordinal2374 equ <__imp_mfc42u_ordinal2374>
+
+externdef __imp_mfc42u_ordinal2375:PPROC
+mfc42u_ordinal2375 equ <__imp_mfc42u_ordinal2375>
+
+externdef __imp_mfc42u_ordinal2376:PPROC
+mfc42u_ordinal2376 equ <__imp_mfc42u_ordinal2376>
+
+externdef __imp_mfc42u_ordinal2377:PPROC
+mfc42u_ordinal2377 equ <__imp_mfc42u_ordinal2377>
+
+externdef __imp_mfc42u_ordinal2378:PPROC
+mfc42u_ordinal2378 equ <__imp_mfc42u_ordinal2378>
+
+externdef __imp_mfc42u_ordinal2379:PPROC
+mfc42u_ordinal2379 equ <__imp_mfc42u_ordinal2379>
+
+externdef __imp_mfc42u_ordinal237:PPROC
+mfc42u_ordinal237 equ <__imp_mfc42u_ordinal237>
+
+externdef __imp_mfc42u_ordinal2380:PPROC
+mfc42u_ordinal2380 equ <__imp_mfc42u_ordinal2380>
+
+externdef __imp_mfc42u_ordinal2381:PPROC
+mfc42u_ordinal2381 equ <__imp_mfc42u_ordinal2381>
+
+externdef __imp_mfc42u_ordinal2382:PPROC
+mfc42u_ordinal2382 equ <__imp_mfc42u_ordinal2382>
+
+externdef __imp_mfc42u_ordinal2383:PPROC
+mfc42u_ordinal2383 equ <__imp_mfc42u_ordinal2383>
+
+externdef __imp_mfc42u_ordinal2384:PPROC
+mfc42u_ordinal2384 equ <__imp_mfc42u_ordinal2384>
+
+externdef __imp_mfc42u_ordinal2385:PPROC
+mfc42u_ordinal2385 equ <__imp_mfc42u_ordinal2385>
+
+externdef __imp_mfc42u_ordinal2386:PPROC
+mfc42u_ordinal2386 equ <__imp_mfc42u_ordinal2386>
+
+externdef __imp_mfc42u_ordinal2387:PPROC
+mfc42u_ordinal2387 equ <__imp_mfc42u_ordinal2387>
+
+externdef __imp_mfc42u_ordinal2388:PPROC
+mfc42u_ordinal2388 equ <__imp_mfc42u_ordinal2388>
+
+externdef __imp_mfc42u_ordinal2389:PPROC
+mfc42u_ordinal2389 equ <__imp_mfc42u_ordinal2389>
+
+externdef __imp_mfc42u_ordinal238:PPROC
+mfc42u_ordinal238 equ <__imp_mfc42u_ordinal238>
+
+externdef __imp_mfc42u_ordinal2390:PPROC
+mfc42u_ordinal2390 equ <__imp_mfc42u_ordinal2390>
+
+externdef __imp_mfc42u_ordinal2391:PPROC
+mfc42u_ordinal2391 equ <__imp_mfc42u_ordinal2391>
+
+externdef __imp_mfc42u_ordinal2392:PPROC
+mfc42u_ordinal2392 equ <__imp_mfc42u_ordinal2392>
+
+externdef __imp_mfc42u_ordinal2393:PPROC
+mfc42u_ordinal2393 equ <__imp_mfc42u_ordinal2393>
+
+externdef __imp_mfc42u_ordinal2394:PPROC
+mfc42u_ordinal2394 equ <__imp_mfc42u_ordinal2394>
+
+externdef __imp_mfc42u_ordinal2395:PPROC
+mfc42u_ordinal2395 equ <__imp_mfc42u_ordinal2395>
+
+externdef __imp_mfc42u_ordinal2396:PPROC
+mfc42u_ordinal2396 equ <__imp_mfc42u_ordinal2396>
+
+externdef __imp_mfc42u_ordinal2397:PPROC
+mfc42u_ordinal2397 equ <__imp_mfc42u_ordinal2397>
+
+externdef __imp_mfc42u_ordinal2398:PPROC
+mfc42u_ordinal2398 equ <__imp_mfc42u_ordinal2398>
+
+externdef __imp_mfc42u_ordinal2399:PPROC
+mfc42u_ordinal2399 equ <__imp_mfc42u_ordinal2399>
+
+externdef __imp_mfc42u_ordinal239:PPROC
+mfc42u_ordinal239 equ <__imp_mfc42u_ordinal239>
+
+externdef __imp_mfc42u_ordinal23:PPROC
+mfc42u_ordinal23 equ <__imp_mfc42u_ordinal23>
+
+externdef __imp_mfc42u_ordinal2400:PPROC
+mfc42u_ordinal2400 equ <__imp_mfc42u_ordinal2400>
+
+externdef __imp_mfc42u_ordinal2401:PPROC
+mfc42u_ordinal2401 equ <__imp_mfc42u_ordinal2401>
+
+externdef __imp_mfc42u_ordinal2402:PPROC
+mfc42u_ordinal2402 equ <__imp_mfc42u_ordinal2402>
+
+externdef __imp_mfc42u_ordinal2403:PPROC
+mfc42u_ordinal2403 equ <__imp_mfc42u_ordinal2403>
+
+externdef __imp_mfc42u_ordinal2404:PPROC
+mfc42u_ordinal2404 equ <__imp_mfc42u_ordinal2404>
+
+externdef __imp_mfc42u_ordinal2405:PPROC
+mfc42u_ordinal2405 equ <__imp_mfc42u_ordinal2405>
+
+externdef __imp_mfc42u_ordinal2406:PPROC
+mfc42u_ordinal2406 equ <__imp_mfc42u_ordinal2406>
+
+externdef __imp_mfc42u_ordinal2407:PPROC
+mfc42u_ordinal2407 equ <__imp_mfc42u_ordinal2407>
+
+externdef __imp_mfc42u_ordinal2408:PPROC
+mfc42u_ordinal2408 equ <__imp_mfc42u_ordinal2408>
+
+externdef __imp_mfc42u_ordinal2409:PPROC
+mfc42u_ordinal2409 equ <__imp_mfc42u_ordinal2409>
+
+externdef __imp_mfc42u_ordinal240:PPROC
+mfc42u_ordinal240 equ <__imp_mfc42u_ordinal240>
+
+externdef __imp_mfc42u_ordinal2410:PPROC
+mfc42u_ordinal2410 equ <__imp_mfc42u_ordinal2410>
+
+externdef __imp_mfc42u_ordinal2411:PPROC
+mfc42u_ordinal2411 equ <__imp_mfc42u_ordinal2411>
+
+externdef __imp_mfc42u_ordinal2412:PPROC
+mfc42u_ordinal2412 equ <__imp_mfc42u_ordinal2412>
+
+externdef __imp_mfc42u_ordinal2413:PPROC
+mfc42u_ordinal2413 equ <__imp_mfc42u_ordinal2413>
+
+externdef __imp_mfc42u_ordinal2414:PPROC
+mfc42u_ordinal2414 equ <__imp_mfc42u_ordinal2414>
+
+externdef __imp_mfc42u_ordinal2415:PPROC
+mfc42u_ordinal2415 equ <__imp_mfc42u_ordinal2415>
+
+externdef __imp_mfc42u_ordinal2416:PPROC
+mfc42u_ordinal2416 equ <__imp_mfc42u_ordinal2416>
+
+externdef __imp_mfc42u_ordinal2417:PPROC
+mfc42u_ordinal2417 equ <__imp_mfc42u_ordinal2417>
+
+externdef __imp_mfc42u_ordinal2418:PPROC
+mfc42u_ordinal2418 equ <__imp_mfc42u_ordinal2418>
+
+externdef __imp_mfc42u_ordinal2419:PPROC
+mfc42u_ordinal2419 equ <__imp_mfc42u_ordinal2419>
+
+externdef __imp_mfc42u_ordinal241:PPROC
+mfc42u_ordinal241 equ <__imp_mfc42u_ordinal241>
+
+externdef __imp_mfc42u_ordinal2420:PPROC
+mfc42u_ordinal2420 equ <__imp_mfc42u_ordinal2420>
+
+externdef __imp_mfc42u_ordinal2421:PPROC
+mfc42u_ordinal2421 equ <__imp_mfc42u_ordinal2421>
+
+externdef __imp_mfc42u_ordinal2422:PPROC
+mfc42u_ordinal2422 equ <__imp_mfc42u_ordinal2422>
+
+externdef __imp_mfc42u_ordinal2423:PPROC
+mfc42u_ordinal2423 equ <__imp_mfc42u_ordinal2423>
+
+externdef __imp_mfc42u_ordinal2424:PPROC
+mfc42u_ordinal2424 equ <__imp_mfc42u_ordinal2424>
+
+externdef __imp_mfc42u_ordinal2425:PPROC
+mfc42u_ordinal2425 equ <__imp_mfc42u_ordinal2425>
+
+externdef __imp_mfc42u_ordinal2426:PPROC
+mfc42u_ordinal2426 equ <__imp_mfc42u_ordinal2426>
+
+externdef __imp_mfc42u_ordinal2427:PPROC
+mfc42u_ordinal2427 equ <__imp_mfc42u_ordinal2427>
+
+externdef __imp_mfc42u_ordinal2428:PPROC
+mfc42u_ordinal2428 equ <__imp_mfc42u_ordinal2428>
+
+externdef __imp_mfc42u_ordinal2429:PPROC
+mfc42u_ordinal2429 equ <__imp_mfc42u_ordinal2429>
+
+externdef __imp_mfc42u_ordinal242:PPROC
+mfc42u_ordinal242 equ <__imp_mfc42u_ordinal242>
+
+externdef __imp_mfc42u_ordinal2430:PPROC
+mfc42u_ordinal2430 equ <__imp_mfc42u_ordinal2430>
+
+externdef __imp_mfc42u_ordinal2431:PPROC
+mfc42u_ordinal2431 equ <__imp_mfc42u_ordinal2431>
+
+externdef __imp_mfc42u_ordinal2432:PPROC
+mfc42u_ordinal2432 equ <__imp_mfc42u_ordinal2432>
+
+externdef __imp_mfc42u_ordinal2433:PPROC
+mfc42u_ordinal2433 equ <__imp_mfc42u_ordinal2433>
+
+externdef __imp_mfc42u_ordinal2434:PPROC
+mfc42u_ordinal2434 equ <__imp_mfc42u_ordinal2434>
+
+externdef __imp_mfc42u_ordinal2435:PPROC
+mfc42u_ordinal2435 equ <__imp_mfc42u_ordinal2435>
+
+externdef __imp_mfc42u_ordinal2436:PPROC
+mfc42u_ordinal2436 equ <__imp_mfc42u_ordinal2436>
+
+externdef __imp_mfc42u_ordinal2437:PPROC
+mfc42u_ordinal2437 equ <__imp_mfc42u_ordinal2437>
+
+externdef __imp_mfc42u_ordinal2438:PPROC
+mfc42u_ordinal2438 equ <__imp_mfc42u_ordinal2438>
+
+externdef __imp_mfc42u_ordinal2439:PPROC
+mfc42u_ordinal2439 equ <__imp_mfc42u_ordinal2439>
+
+externdef __imp_mfc42u_ordinal243:PPROC
+mfc42u_ordinal243 equ <__imp_mfc42u_ordinal243>
+
+externdef __imp_mfc42u_ordinal2440:PPROC
+mfc42u_ordinal2440 equ <__imp_mfc42u_ordinal2440>
+
+externdef __imp_mfc42u_ordinal2441:PPROC
+mfc42u_ordinal2441 equ <__imp_mfc42u_ordinal2441>
+
+externdef __imp_mfc42u_ordinal2442:PPROC
+mfc42u_ordinal2442 equ <__imp_mfc42u_ordinal2442>
+
+externdef __imp_mfc42u_ordinal2443:PPROC
+mfc42u_ordinal2443 equ <__imp_mfc42u_ordinal2443>
+
+externdef __imp_mfc42u_ordinal2444:PPROC
+mfc42u_ordinal2444 equ <__imp_mfc42u_ordinal2444>
+
+externdef __imp_mfc42u_ordinal2445:PPROC
+mfc42u_ordinal2445 equ <__imp_mfc42u_ordinal2445>
+
+externdef __imp_mfc42u_ordinal2446:PPROC
+mfc42u_ordinal2446 equ <__imp_mfc42u_ordinal2446>
+
+externdef __imp_mfc42u_ordinal2447:PPROC
+mfc42u_ordinal2447 equ <__imp_mfc42u_ordinal2447>
+
+externdef __imp_mfc42u_ordinal2448:PPROC
+mfc42u_ordinal2448 equ <__imp_mfc42u_ordinal2448>
+
+externdef __imp_mfc42u_ordinal2449:PPROC
+mfc42u_ordinal2449 equ <__imp_mfc42u_ordinal2449>
+
+externdef __imp_mfc42u_ordinal244:PPROC
+mfc42u_ordinal244 equ <__imp_mfc42u_ordinal244>
+
+externdef __imp_mfc42u_ordinal2450:PPROC
+mfc42u_ordinal2450 equ <__imp_mfc42u_ordinal2450>
+
+externdef __imp_mfc42u_ordinal2451:PPROC
+mfc42u_ordinal2451 equ <__imp_mfc42u_ordinal2451>
+
+externdef __imp_mfc42u_ordinal2452:PPROC
+mfc42u_ordinal2452 equ <__imp_mfc42u_ordinal2452>
+
+externdef __imp_mfc42u_ordinal2453:PPROC
+mfc42u_ordinal2453 equ <__imp_mfc42u_ordinal2453>
+
+externdef __imp_mfc42u_ordinal2454:PPROC
+mfc42u_ordinal2454 equ <__imp_mfc42u_ordinal2454>
+
+externdef __imp_mfc42u_ordinal2455:PPROC
+mfc42u_ordinal2455 equ <__imp_mfc42u_ordinal2455>
+
+externdef __imp_mfc42u_ordinal2456:PPROC
+mfc42u_ordinal2456 equ <__imp_mfc42u_ordinal2456>
+
+externdef __imp_mfc42u_ordinal2457:PPROC
+mfc42u_ordinal2457 equ <__imp_mfc42u_ordinal2457>
+
+externdef __imp_mfc42u_ordinal2458:PPROC
+mfc42u_ordinal2458 equ <__imp_mfc42u_ordinal2458>
+
+externdef __imp_mfc42u_ordinal2459:PPROC
+mfc42u_ordinal2459 equ <__imp_mfc42u_ordinal2459>
+
+externdef __imp_mfc42u_ordinal245:PPROC
+mfc42u_ordinal245 equ <__imp_mfc42u_ordinal245>
+
+externdef __imp_mfc42u_ordinal2460:PPROC
+mfc42u_ordinal2460 equ <__imp_mfc42u_ordinal2460>
+
+externdef __imp_mfc42u_ordinal2461:PPROC
+mfc42u_ordinal2461 equ <__imp_mfc42u_ordinal2461>
+
+externdef __imp_mfc42u_ordinal2462:PPROC
+mfc42u_ordinal2462 equ <__imp_mfc42u_ordinal2462>
+
+externdef __imp_mfc42u_ordinal2463:PPROC
+mfc42u_ordinal2463 equ <__imp_mfc42u_ordinal2463>
+
+externdef __imp_mfc42u_ordinal2464:PPROC
+mfc42u_ordinal2464 equ <__imp_mfc42u_ordinal2464>
+
+externdef __imp_mfc42u_ordinal2465:PPROC
+mfc42u_ordinal2465 equ <__imp_mfc42u_ordinal2465>
+
+externdef __imp_mfc42u_ordinal2466:PPROC
+mfc42u_ordinal2466 equ <__imp_mfc42u_ordinal2466>
+
+externdef __imp_mfc42u_ordinal2467:PPROC
+mfc42u_ordinal2467 equ <__imp_mfc42u_ordinal2467>
+
+externdef __imp_mfc42u_ordinal2468:PPROC
+mfc42u_ordinal2468 equ <__imp_mfc42u_ordinal2468>
+
+externdef __imp_mfc42u_ordinal2469:PPROC
+mfc42u_ordinal2469 equ <__imp_mfc42u_ordinal2469>
+
+externdef __imp_mfc42u_ordinal246:PPROC
+mfc42u_ordinal246 equ <__imp_mfc42u_ordinal246>
+
+externdef __imp_mfc42u_ordinal2470:PPROC
+mfc42u_ordinal2470 equ <__imp_mfc42u_ordinal2470>
+
+externdef __imp_mfc42u_ordinal2471:PPROC
+mfc42u_ordinal2471 equ <__imp_mfc42u_ordinal2471>
+
+externdef __imp_mfc42u_ordinal2472:PPROC
+mfc42u_ordinal2472 equ <__imp_mfc42u_ordinal2472>
+
+externdef __imp_mfc42u_ordinal2473:PPROC
+mfc42u_ordinal2473 equ <__imp_mfc42u_ordinal2473>
+
+externdef __imp_mfc42u_ordinal2474:PPROC
+mfc42u_ordinal2474 equ <__imp_mfc42u_ordinal2474>
+
+externdef __imp_mfc42u_ordinal2475:PPROC
+mfc42u_ordinal2475 equ <__imp_mfc42u_ordinal2475>
+
+externdef __imp_mfc42u_ordinal2476:PPROC
+mfc42u_ordinal2476 equ <__imp_mfc42u_ordinal2476>
+
+externdef __imp_mfc42u_ordinal2477:PPROC
+mfc42u_ordinal2477 equ <__imp_mfc42u_ordinal2477>
+
+externdef __imp_mfc42u_ordinal2478:PPROC
+mfc42u_ordinal2478 equ <__imp_mfc42u_ordinal2478>
+
+externdef __imp_mfc42u_ordinal2479:PPROC
+mfc42u_ordinal2479 equ <__imp_mfc42u_ordinal2479>
+
+externdef __imp_mfc42u_ordinal247:PPROC
+mfc42u_ordinal247 equ <__imp_mfc42u_ordinal247>
+
+externdef __imp_mfc42u_ordinal2480:PPROC
+mfc42u_ordinal2480 equ <__imp_mfc42u_ordinal2480>
+
+externdef __imp_mfc42u_ordinal2481:PPROC
+mfc42u_ordinal2481 equ <__imp_mfc42u_ordinal2481>
+
+externdef __imp_mfc42u_ordinal2482:PPROC
+mfc42u_ordinal2482 equ <__imp_mfc42u_ordinal2482>
+
+externdef __imp_mfc42u_ordinal2483:PPROC
+mfc42u_ordinal2483 equ <__imp_mfc42u_ordinal2483>
+
+externdef __imp_mfc42u_ordinal2484:PPROC
+mfc42u_ordinal2484 equ <__imp_mfc42u_ordinal2484>
+
+externdef __imp_mfc42u_ordinal2485:PPROC
+mfc42u_ordinal2485 equ <__imp_mfc42u_ordinal2485>
+
+externdef __imp_mfc42u_ordinal2486:PPROC
+mfc42u_ordinal2486 equ <__imp_mfc42u_ordinal2486>
+
+externdef __imp_mfc42u_ordinal2487:PPROC
+mfc42u_ordinal2487 equ <__imp_mfc42u_ordinal2487>
+
+externdef __imp_mfc42u_ordinal2488:PPROC
+mfc42u_ordinal2488 equ <__imp_mfc42u_ordinal2488>
+
+externdef __imp_mfc42u_ordinal2489:PPROC
+mfc42u_ordinal2489 equ <__imp_mfc42u_ordinal2489>
+
+externdef __imp_mfc42u_ordinal248:PPROC
+mfc42u_ordinal248 equ <__imp_mfc42u_ordinal248>
+
+externdef __imp_mfc42u_ordinal2490:PPROC
+mfc42u_ordinal2490 equ <__imp_mfc42u_ordinal2490>
+
+externdef __imp_mfc42u_ordinal2491:PPROC
+mfc42u_ordinal2491 equ <__imp_mfc42u_ordinal2491>
+
+externdef __imp_mfc42u_ordinal2492:PPROC
+mfc42u_ordinal2492 equ <__imp_mfc42u_ordinal2492>
+
+externdef __imp_mfc42u_ordinal2493:PPROC
+mfc42u_ordinal2493 equ <__imp_mfc42u_ordinal2493>
+
+externdef __imp_mfc42u_ordinal2494:PPROC
+mfc42u_ordinal2494 equ <__imp_mfc42u_ordinal2494>
+
+externdef __imp_mfc42u_ordinal2495:PPROC
+mfc42u_ordinal2495 equ <__imp_mfc42u_ordinal2495>
+
+externdef __imp_mfc42u_ordinal2496:PPROC
+mfc42u_ordinal2496 equ <__imp_mfc42u_ordinal2496>
+
+externdef __imp_mfc42u_ordinal2497:PPROC
+mfc42u_ordinal2497 equ <__imp_mfc42u_ordinal2497>
+
+externdef __imp_mfc42u_ordinal2498:PPROC
+mfc42u_ordinal2498 equ <__imp_mfc42u_ordinal2498>
+
+externdef __imp_mfc42u_ordinal2499:PPROC
+mfc42u_ordinal2499 equ <__imp_mfc42u_ordinal2499>
+
+externdef __imp_mfc42u_ordinal249:PPROC
+mfc42u_ordinal249 equ <__imp_mfc42u_ordinal249>
+
+externdef __imp_mfc42u_ordinal24:PPROC
+mfc42u_ordinal24 equ <__imp_mfc42u_ordinal24>
+
+externdef __imp_mfc42u_ordinal2500:PPROC
+mfc42u_ordinal2500 equ <__imp_mfc42u_ordinal2500>
+
+externdef __imp_mfc42u_ordinal2501:PPROC
+mfc42u_ordinal2501 equ <__imp_mfc42u_ordinal2501>
+
+externdef __imp_mfc42u_ordinal2502:PPROC
+mfc42u_ordinal2502 equ <__imp_mfc42u_ordinal2502>
+
+externdef __imp_mfc42u_ordinal2503:PPROC
+mfc42u_ordinal2503 equ <__imp_mfc42u_ordinal2503>
+
+externdef __imp_mfc42u_ordinal2504:PPROC
+mfc42u_ordinal2504 equ <__imp_mfc42u_ordinal2504>
+
+externdef __imp_mfc42u_ordinal2505:PPROC
+mfc42u_ordinal2505 equ <__imp_mfc42u_ordinal2505>
+
+externdef __imp_mfc42u_ordinal2506:PPROC
+mfc42u_ordinal2506 equ <__imp_mfc42u_ordinal2506>
+
+externdef __imp_mfc42u_ordinal2507:PPROC
+mfc42u_ordinal2507 equ <__imp_mfc42u_ordinal2507>
+
+externdef __imp_mfc42u_ordinal2508:PPROC
+mfc42u_ordinal2508 equ <__imp_mfc42u_ordinal2508>
+
+externdef __imp_mfc42u_ordinal2509:PPROC
+mfc42u_ordinal2509 equ <__imp_mfc42u_ordinal2509>
+
+externdef __imp_mfc42u_ordinal250:PPROC
+mfc42u_ordinal250 equ <__imp_mfc42u_ordinal250>
+
+externdef __imp_mfc42u_ordinal2510:PPROC
+mfc42u_ordinal2510 equ <__imp_mfc42u_ordinal2510>
+
+externdef __imp_mfc42u_ordinal2511:PPROC
+mfc42u_ordinal2511 equ <__imp_mfc42u_ordinal2511>
+
+externdef __imp_mfc42u_ordinal2512:PPROC
+mfc42u_ordinal2512 equ <__imp_mfc42u_ordinal2512>
+
+externdef __imp_mfc42u_ordinal2513:PPROC
+mfc42u_ordinal2513 equ <__imp_mfc42u_ordinal2513>
+
+externdef __imp_mfc42u_ordinal2514:PPROC
+mfc42u_ordinal2514 equ <__imp_mfc42u_ordinal2514>
+
+externdef __imp_mfc42u_ordinal2515:PPROC
+mfc42u_ordinal2515 equ <__imp_mfc42u_ordinal2515>
+
+externdef __imp_mfc42u_ordinal2516:PPROC
+mfc42u_ordinal2516 equ <__imp_mfc42u_ordinal2516>
+
+externdef __imp_mfc42u_ordinal2517:PPROC
+mfc42u_ordinal2517 equ <__imp_mfc42u_ordinal2517>
+
+externdef __imp_mfc42u_ordinal2518:PPROC
+mfc42u_ordinal2518 equ <__imp_mfc42u_ordinal2518>
+
+externdef __imp_mfc42u_ordinal2519:PPROC
+mfc42u_ordinal2519 equ <__imp_mfc42u_ordinal2519>
+
+externdef __imp_mfc42u_ordinal251:PPROC
+mfc42u_ordinal251 equ <__imp_mfc42u_ordinal251>
+
+externdef __imp_mfc42u_ordinal2520:PPROC
+mfc42u_ordinal2520 equ <__imp_mfc42u_ordinal2520>
+
+externdef __imp_mfc42u_ordinal2521:PPROC
+mfc42u_ordinal2521 equ <__imp_mfc42u_ordinal2521>
+
+externdef __imp_mfc42u_ordinal2522:PPROC
+mfc42u_ordinal2522 equ <__imp_mfc42u_ordinal2522>
+
+externdef __imp_mfc42u_ordinal2523:PPROC
+mfc42u_ordinal2523 equ <__imp_mfc42u_ordinal2523>
+
+externdef __imp_mfc42u_ordinal2524:PPROC
+mfc42u_ordinal2524 equ <__imp_mfc42u_ordinal2524>
+
+externdef __imp_mfc42u_ordinal2525:PPROC
+mfc42u_ordinal2525 equ <__imp_mfc42u_ordinal2525>
+
+externdef __imp_mfc42u_ordinal2526:PPROC
+mfc42u_ordinal2526 equ <__imp_mfc42u_ordinal2526>
+
+externdef __imp_mfc42u_ordinal2527:PPROC
+mfc42u_ordinal2527 equ <__imp_mfc42u_ordinal2527>
+
+externdef __imp_mfc42u_ordinal2528:PPROC
+mfc42u_ordinal2528 equ <__imp_mfc42u_ordinal2528>
+
+externdef __imp_mfc42u_ordinal2529:PPROC
+mfc42u_ordinal2529 equ <__imp_mfc42u_ordinal2529>
+
+externdef __imp_mfc42u_ordinal252:PPROC
+mfc42u_ordinal252 equ <__imp_mfc42u_ordinal252>
+
+externdef __imp_mfc42u_ordinal2530:PPROC
+mfc42u_ordinal2530 equ <__imp_mfc42u_ordinal2530>
+
+externdef __imp_mfc42u_ordinal2531:PPROC
+mfc42u_ordinal2531 equ <__imp_mfc42u_ordinal2531>
+
+externdef __imp_mfc42u_ordinal2532:PPROC
+mfc42u_ordinal2532 equ <__imp_mfc42u_ordinal2532>
+
+externdef __imp_mfc42u_ordinal2533:PPROC
+mfc42u_ordinal2533 equ <__imp_mfc42u_ordinal2533>
+
+externdef __imp_mfc42u_ordinal2534:PPROC
+mfc42u_ordinal2534 equ <__imp_mfc42u_ordinal2534>
+
+externdef __imp_mfc42u_ordinal2535:PPROC
+mfc42u_ordinal2535 equ <__imp_mfc42u_ordinal2535>
+
+externdef __imp_mfc42u_ordinal2536:PPROC
+mfc42u_ordinal2536 equ <__imp_mfc42u_ordinal2536>
+
+externdef __imp_mfc42u_ordinal2537:PPROC
+mfc42u_ordinal2537 equ <__imp_mfc42u_ordinal2537>
+
+externdef __imp_mfc42u_ordinal2538:PPROC
+mfc42u_ordinal2538 equ <__imp_mfc42u_ordinal2538>
+
+externdef __imp_mfc42u_ordinal2539:PPROC
+mfc42u_ordinal2539 equ <__imp_mfc42u_ordinal2539>
+
+externdef __imp_mfc42u_ordinal253:PPROC
+mfc42u_ordinal253 equ <__imp_mfc42u_ordinal253>
+
+externdef __imp_mfc42u_ordinal2540:PPROC
+mfc42u_ordinal2540 equ <__imp_mfc42u_ordinal2540>
+
+externdef __imp_mfc42u_ordinal2541:PPROC
+mfc42u_ordinal2541 equ <__imp_mfc42u_ordinal2541>
+
+externdef __imp_mfc42u_ordinal2542:PPROC
+mfc42u_ordinal2542 equ <__imp_mfc42u_ordinal2542>
+
+externdef __imp_mfc42u_ordinal2543:PPROC
+mfc42u_ordinal2543 equ <__imp_mfc42u_ordinal2543>
+
+externdef __imp_mfc42u_ordinal2544:PPROC
+mfc42u_ordinal2544 equ <__imp_mfc42u_ordinal2544>
+
+externdef __imp_mfc42u_ordinal2545:PPROC
+mfc42u_ordinal2545 equ <__imp_mfc42u_ordinal2545>
+
+externdef __imp_mfc42u_ordinal2546:PPROC
+mfc42u_ordinal2546 equ <__imp_mfc42u_ordinal2546>
+
+externdef __imp_mfc42u_ordinal2547:PPROC
+mfc42u_ordinal2547 equ <__imp_mfc42u_ordinal2547>
+
+externdef __imp_mfc42u_ordinal2548:PPROC
+mfc42u_ordinal2548 equ <__imp_mfc42u_ordinal2548>
+
+externdef __imp_mfc42u_ordinal2549:PPROC
+mfc42u_ordinal2549 equ <__imp_mfc42u_ordinal2549>
+
+externdef __imp_mfc42u_ordinal254:PPROC
+mfc42u_ordinal254 equ <__imp_mfc42u_ordinal254>
+
+externdef __imp_mfc42u_ordinal2550:PPROC
+mfc42u_ordinal2550 equ <__imp_mfc42u_ordinal2550>
+
+externdef __imp_mfc42u_ordinal2551:PPROC
+mfc42u_ordinal2551 equ <__imp_mfc42u_ordinal2551>
+
+externdef __imp_mfc42u_ordinal2552:PPROC
+mfc42u_ordinal2552 equ <__imp_mfc42u_ordinal2552>
+
+externdef __imp_mfc42u_ordinal2553:PPROC
+mfc42u_ordinal2553 equ <__imp_mfc42u_ordinal2553>
+
+externdef __imp_mfc42u_ordinal2554:PPROC
+mfc42u_ordinal2554 equ <__imp_mfc42u_ordinal2554>
+
+externdef __imp_mfc42u_ordinal2555:PPROC
+mfc42u_ordinal2555 equ <__imp_mfc42u_ordinal2555>
+
+externdef __imp_mfc42u_ordinal2556:PPROC
+mfc42u_ordinal2556 equ <__imp_mfc42u_ordinal2556>
+
+externdef __imp_mfc42u_ordinal2557:PPROC
+mfc42u_ordinal2557 equ <__imp_mfc42u_ordinal2557>
+
+externdef __imp_mfc42u_ordinal2558:PPROC
+mfc42u_ordinal2558 equ <__imp_mfc42u_ordinal2558>
+
+externdef __imp_mfc42u_ordinal2559:PPROC
+mfc42u_ordinal2559 equ <__imp_mfc42u_ordinal2559>
+
+externdef __imp_mfc42u_ordinal255:PPROC
+mfc42u_ordinal255 equ <__imp_mfc42u_ordinal255>
+
+externdef __imp_mfc42u_ordinal2560:PPROC
+mfc42u_ordinal2560 equ <__imp_mfc42u_ordinal2560>
+
+externdef __imp_mfc42u_ordinal2561:PPROC
+mfc42u_ordinal2561 equ <__imp_mfc42u_ordinal2561>
+
+externdef __imp_mfc42u_ordinal2562:PPROC
+mfc42u_ordinal2562 equ <__imp_mfc42u_ordinal2562>
+
+externdef __imp_mfc42u_ordinal2563:PPROC
+mfc42u_ordinal2563 equ <__imp_mfc42u_ordinal2563>
+
+externdef __imp_mfc42u_ordinal2564:PPROC
+mfc42u_ordinal2564 equ <__imp_mfc42u_ordinal2564>
+
+externdef __imp_mfc42u_ordinal2565:PPROC
+mfc42u_ordinal2565 equ <__imp_mfc42u_ordinal2565>
+
+externdef __imp_mfc42u_ordinal2566:PPROC
+mfc42u_ordinal2566 equ <__imp_mfc42u_ordinal2566>
+
+externdef __imp_mfc42u_ordinal2567:PPROC
+mfc42u_ordinal2567 equ <__imp_mfc42u_ordinal2567>
+
+externdef __imp_mfc42u_ordinal2568:PPROC
+mfc42u_ordinal2568 equ <__imp_mfc42u_ordinal2568>
+
+externdef __imp_mfc42u_ordinal2569:PPROC
+mfc42u_ordinal2569 equ <__imp_mfc42u_ordinal2569>
+
+externdef __imp_mfc42u_ordinal256:PPROC
+mfc42u_ordinal256 equ <__imp_mfc42u_ordinal256>
+
+externdef __imp_mfc42u_ordinal2570:PPROC
+mfc42u_ordinal2570 equ <__imp_mfc42u_ordinal2570>
+
+externdef __imp_mfc42u_ordinal2571:PPROC
+mfc42u_ordinal2571 equ <__imp_mfc42u_ordinal2571>
+
+externdef __imp_mfc42u_ordinal2572:PPROC
+mfc42u_ordinal2572 equ <__imp_mfc42u_ordinal2572>
+
+externdef __imp_mfc42u_ordinal2573:PPROC
+mfc42u_ordinal2573 equ <__imp_mfc42u_ordinal2573>
+
+externdef __imp_mfc42u_ordinal2574:PPROC
+mfc42u_ordinal2574 equ <__imp_mfc42u_ordinal2574>
+
+externdef __imp_mfc42u_ordinal2575:PPROC
+mfc42u_ordinal2575 equ <__imp_mfc42u_ordinal2575>
+
+externdef __imp_mfc42u_ordinal2576:PPROC
+mfc42u_ordinal2576 equ <__imp_mfc42u_ordinal2576>
+
+externdef __imp_mfc42u_ordinal2577:PPROC
+mfc42u_ordinal2577 equ <__imp_mfc42u_ordinal2577>
+
+externdef __imp_mfc42u_ordinal2578:PPROC
+mfc42u_ordinal2578 equ <__imp_mfc42u_ordinal2578>
+
+externdef __imp_mfc42u_ordinal2579:PPROC
+mfc42u_ordinal2579 equ <__imp_mfc42u_ordinal2579>
+
+externdef __imp_mfc42u_ordinal257:PPROC
+mfc42u_ordinal257 equ <__imp_mfc42u_ordinal257>
+
+externdef __imp_mfc42u_ordinal2580:PPROC
+mfc42u_ordinal2580 equ <__imp_mfc42u_ordinal2580>
+
+externdef __imp_mfc42u_ordinal2581:PPROC
+mfc42u_ordinal2581 equ <__imp_mfc42u_ordinal2581>
+
+externdef __imp_mfc42u_ordinal2582:PPROC
+mfc42u_ordinal2582 equ <__imp_mfc42u_ordinal2582>
+
+externdef __imp_mfc42u_ordinal2583:PPROC
+mfc42u_ordinal2583 equ <__imp_mfc42u_ordinal2583>
+
+externdef __imp_mfc42u_ordinal2584:PPROC
+mfc42u_ordinal2584 equ <__imp_mfc42u_ordinal2584>
+
+externdef __imp_mfc42u_ordinal2585:PPROC
+mfc42u_ordinal2585 equ <__imp_mfc42u_ordinal2585>
+
+externdef __imp_mfc42u_ordinal2586:PPROC
+mfc42u_ordinal2586 equ <__imp_mfc42u_ordinal2586>
+
+externdef __imp_mfc42u_ordinal2587:PPROC
+mfc42u_ordinal2587 equ <__imp_mfc42u_ordinal2587>
+
+externdef __imp_mfc42u_ordinal2588:PPROC
+mfc42u_ordinal2588 equ <__imp_mfc42u_ordinal2588>
+
+externdef __imp_mfc42u_ordinal2589:PPROC
+mfc42u_ordinal2589 equ <__imp_mfc42u_ordinal2589>
+
+externdef __imp_mfc42u_ordinal258:PPROC
+mfc42u_ordinal258 equ <__imp_mfc42u_ordinal258>
+
+externdef __imp_mfc42u_ordinal2590:PPROC
+mfc42u_ordinal2590 equ <__imp_mfc42u_ordinal2590>
+
+externdef __imp_mfc42u_ordinal2591:PPROC
+mfc42u_ordinal2591 equ <__imp_mfc42u_ordinal2591>
+
+externdef __imp_mfc42u_ordinal2592:PPROC
+mfc42u_ordinal2592 equ <__imp_mfc42u_ordinal2592>
+
+externdef __imp_mfc42u_ordinal2593:PPROC
+mfc42u_ordinal2593 equ <__imp_mfc42u_ordinal2593>
+
+externdef __imp_mfc42u_ordinal2594:PPROC
+mfc42u_ordinal2594 equ <__imp_mfc42u_ordinal2594>
+
+externdef __imp_mfc42u_ordinal2595:PPROC
+mfc42u_ordinal2595 equ <__imp_mfc42u_ordinal2595>
+
+externdef __imp_mfc42u_ordinal2596:PPROC
+mfc42u_ordinal2596 equ <__imp_mfc42u_ordinal2596>
+
+externdef __imp_mfc42u_ordinal2597:PPROC
+mfc42u_ordinal2597 equ <__imp_mfc42u_ordinal2597>
+
+externdef __imp_mfc42u_ordinal2598:PPROC
+mfc42u_ordinal2598 equ <__imp_mfc42u_ordinal2598>
+
+externdef __imp_mfc42u_ordinal2599:PPROC
+mfc42u_ordinal2599 equ <__imp_mfc42u_ordinal2599>
+
+externdef __imp_mfc42u_ordinal259:PPROC
+mfc42u_ordinal259 equ <__imp_mfc42u_ordinal259>
+
+externdef __imp_mfc42u_ordinal25:PPROC
+mfc42u_ordinal25 equ <__imp_mfc42u_ordinal25>
+
+externdef __imp_mfc42u_ordinal2600:PPROC
+mfc42u_ordinal2600 equ <__imp_mfc42u_ordinal2600>
+
+externdef __imp_mfc42u_ordinal2601:PPROC
+mfc42u_ordinal2601 equ <__imp_mfc42u_ordinal2601>
+
+externdef __imp_mfc42u_ordinal2602:PPROC
+mfc42u_ordinal2602 equ <__imp_mfc42u_ordinal2602>
+
+externdef __imp_mfc42u_ordinal2603:PPROC
+mfc42u_ordinal2603 equ <__imp_mfc42u_ordinal2603>
+
+externdef __imp_mfc42u_ordinal2604:PPROC
+mfc42u_ordinal2604 equ <__imp_mfc42u_ordinal2604>
+
+externdef __imp_mfc42u_ordinal2605:PPROC
+mfc42u_ordinal2605 equ <__imp_mfc42u_ordinal2605>
+
+externdef __imp_mfc42u_ordinal2606:PPROC
+mfc42u_ordinal2606 equ <__imp_mfc42u_ordinal2606>
+
+externdef __imp_mfc42u_ordinal2607:PPROC
+mfc42u_ordinal2607 equ <__imp_mfc42u_ordinal2607>
+
+externdef __imp_mfc42u_ordinal2608:PPROC
+mfc42u_ordinal2608 equ <__imp_mfc42u_ordinal2608>
+
+externdef __imp_mfc42u_ordinal2609:PPROC
+mfc42u_ordinal2609 equ <__imp_mfc42u_ordinal2609>
+
+externdef __imp_mfc42u_ordinal260:PPROC
+mfc42u_ordinal260 equ <__imp_mfc42u_ordinal260>
+
+externdef __imp_mfc42u_ordinal2610:PPROC
+mfc42u_ordinal2610 equ <__imp_mfc42u_ordinal2610>
+
+externdef __imp_mfc42u_ordinal2611:PPROC
+mfc42u_ordinal2611 equ <__imp_mfc42u_ordinal2611>
+
+externdef __imp_mfc42u_ordinal2612:PPROC
+mfc42u_ordinal2612 equ <__imp_mfc42u_ordinal2612>
+
+externdef __imp_mfc42u_ordinal2613:PPROC
+mfc42u_ordinal2613 equ <__imp_mfc42u_ordinal2613>
+
+externdef __imp_mfc42u_ordinal2614:PPROC
+mfc42u_ordinal2614 equ <__imp_mfc42u_ordinal2614>
+
+externdef __imp_mfc42u_ordinal2615:PPROC
+mfc42u_ordinal2615 equ <__imp_mfc42u_ordinal2615>
+
+externdef __imp_mfc42u_ordinal2616:PPROC
+mfc42u_ordinal2616 equ <__imp_mfc42u_ordinal2616>
+
+externdef __imp_mfc42u_ordinal2617:PPROC
+mfc42u_ordinal2617 equ <__imp_mfc42u_ordinal2617>
+
+externdef __imp_mfc42u_ordinal2618:PPROC
+mfc42u_ordinal2618 equ <__imp_mfc42u_ordinal2618>
+
+externdef __imp_mfc42u_ordinal2619:PPROC
+mfc42u_ordinal2619 equ <__imp_mfc42u_ordinal2619>
+
+externdef __imp_mfc42u_ordinal261:PPROC
+mfc42u_ordinal261 equ <__imp_mfc42u_ordinal261>
+
+externdef __imp_mfc42u_ordinal2620:PPROC
+mfc42u_ordinal2620 equ <__imp_mfc42u_ordinal2620>
+
+externdef __imp_mfc42u_ordinal2621:PPROC
+mfc42u_ordinal2621 equ <__imp_mfc42u_ordinal2621>
+
+externdef __imp_mfc42u_ordinal2622:PPROC
+mfc42u_ordinal2622 equ <__imp_mfc42u_ordinal2622>
+
+externdef __imp_mfc42u_ordinal2623:PPROC
+mfc42u_ordinal2623 equ <__imp_mfc42u_ordinal2623>
+
+externdef __imp_mfc42u_ordinal2624:PPROC
+mfc42u_ordinal2624 equ <__imp_mfc42u_ordinal2624>
+
+externdef __imp_mfc42u_ordinal2625:PPROC
+mfc42u_ordinal2625 equ <__imp_mfc42u_ordinal2625>
+
+externdef __imp_mfc42u_ordinal2626:PPROC
+mfc42u_ordinal2626 equ <__imp_mfc42u_ordinal2626>
+
+externdef __imp_mfc42u_ordinal2627:PPROC
+mfc42u_ordinal2627 equ <__imp_mfc42u_ordinal2627>
+
+externdef __imp_mfc42u_ordinal2628:PPROC
+mfc42u_ordinal2628 equ <__imp_mfc42u_ordinal2628>
+
+externdef __imp_mfc42u_ordinal2629:PPROC
+mfc42u_ordinal2629 equ <__imp_mfc42u_ordinal2629>
+
+externdef __imp_mfc42u_ordinal262:PPROC
+mfc42u_ordinal262 equ <__imp_mfc42u_ordinal262>
+
+externdef __imp_mfc42u_ordinal2630:PPROC
+mfc42u_ordinal2630 equ <__imp_mfc42u_ordinal2630>
+
+externdef __imp_mfc42u_ordinal2631:PPROC
+mfc42u_ordinal2631 equ <__imp_mfc42u_ordinal2631>
+
+externdef __imp_mfc42u_ordinal2632:PPROC
+mfc42u_ordinal2632 equ <__imp_mfc42u_ordinal2632>
+
+externdef __imp_mfc42u_ordinal2633:PPROC
+mfc42u_ordinal2633 equ <__imp_mfc42u_ordinal2633>
+
+externdef __imp_mfc42u_ordinal2634:PPROC
+mfc42u_ordinal2634 equ <__imp_mfc42u_ordinal2634>
+
+externdef __imp_mfc42u_ordinal2635:PPROC
+mfc42u_ordinal2635 equ <__imp_mfc42u_ordinal2635>
+
+externdef __imp_mfc42u_ordinal2636:PPROC
+mfc42u_ordinal2636 equ <__imp_mfc42u_ordinal2636>
+
+externdef __imp_mfc42u_ordinal2637:PPROC
+mfc42u_ordinal2637 equ <__imp_mfc42u_ordinal2637>
+
+externdef __imp_mfc42u_ordinal2638:PPROC
+mfc42u_ordinal2638 equ <__imp_mfc42u_ordinal2638>
+
+externdef __imp_mfc42u_ordinal2639:PPROC
+mfc42u_ordinal2639 equ <__imp_mfc42u_ordinal2639>
+
+externdef __imp_mfc42u_ordinal263:PPROC
+mfc42u_ordinal263 equ <__imp_mfc42u_ordinal263>
+
+externdef __imp_mfc42u_ordinal2640:PPROC
+mfc42u_ordinal2640 equ <__imp_mfc42u_ordinal2640>
+
+externdef __imp_mfc42u_ordinal2641:PPROC
+mfc42u_ordinal2641 equ <__imp_mfc42u_ordinal2641>
+
+externdef __imp_mfc42u_ordinal2642:PPROC
+mfc42u_ordinal2642 equ <__imp_mfc42u_ordinal2642>
+
+externdef __imp_mfc42u_ordinal2643:PPROC
+mfc42u_ordinal2643 equ <__imp_mfc42u_ordinal2643>
+
+externdef __imp_mfc42u_ordinal2644:PPROC
+mfc42u_ordinal2644 equ <__imp_mfc42u_ordinal2644>
+
+externdef __imp_mfc42u_ordinal2645:PPROC
+mfc42u_ordinal2645 equ <__imp_mfc42u_ordinal2645>
+
+externdef __imp_mfc42u_ordinal2646:PPROC
+mfc42u_ordinal2646 equ <__imp_mfc42u_ordinal2646>
+
+externdef __imp_mfc42u_ordinal2647:PPROC
+mfc42u_ordinal2647 equ <__imp_mfc42u_ordinal2647>
+
+externdef __imp_mfc42u_ordinal2648:PPROC
+mfc42u_ordinal2648 equ <__imp_mfc42u_ordinal2648>
+
+externdef __imp_mfc42u_ordinal2649:PPROC
+mfc42u_ordinal2649 equ <__imp_mfc42u_ordinal2649>
+
+externdef __imp_mfc42u_ordinal264:PPROC
+mfc42u_ordinal264 equ <__imp_mfc42u_ordinal264>
+
+externdef __imp_mfc42u_ordinal2650:PPROC
+mfc42u_ordinal2650 equ <__imp_mfc42u_ordinal2650>
+
+externdef __imp_mfc42u_ordinal2651:PPROC
+mfc42u_ordinal2651 equ <__imp_mfc42u_ordinal2651>
+
+externdef __imp_mfc42u_ordinal2652:PPROC
+mfc42u_ordinal2652 equ <__imp_mfc42u_ordinal2652>
+
+externdef __imp_mfc42u_ordinal2653:PPROC
+mfc42u_ordinal2653 equ <__imp_mfc42u_ordinal2653>
+
+externdef __imp_mfc42u_ordinal2654:PPROC
+mfc42u_ordinal2654 equ <__imp_mfc42u_ordinal2654>
+
+externdef __imp_mfc42u_ordinal2655:PPROC
+mfc42u_ordinal2655 equ <__imp_mfc42u_ordinal2655>
+
+externdef __imp_mfc42u_ordinal2656:PPROC
+mfc42u_ordinal2656 equ <__imp_mfc42u_ordinal2656>
+
+externdef __imp_mfc42u_ordinal2657:PPROC
+mfc42u_ordinal2657 equ <__imp_mfc42u_ordinal2657>
+
+externdef __imp_mfc42u_ordinal2658:PPROC
+mfc42u_ordinal2658 equ <__imp_mfc42u_ordinal2658>
+
+externdef __imp_mfc42u_ordinal2659:PPROC
+mfc42u_ordinal2659 equ <__imp_mfc42u_ordinal2659>
+
+externdef __imp_mfc42u_ordinal265:PPROC
+mfc42u_ordinal265 equ <__imp_mfc42u_ordinal265>
+
+externdef __imp_mfc42u_ordinal2660:PPROC
+mfc42u_ordinal2660 equ <__imp_mfc42u_ordinal2660>
+
+externdef __imp_mfc42u_ordinal2661:PPROC
+mfc42u_ordinal2661 equ <__imp_mfc42u_ordinal2661>
+
+externdef __imp_mfc42u_ordinal2662:PPROC
+mfc42u_ordinal2662 equ <__imp_mfc42u_ordinal2662>
+
+externdef __imp_mfc42u_ordinal2663:PPROC
+mfc42u_ordinal2663 equ <__imp_mfc42u_ordinal2663>
+
+externdef __imp_mfc42u_ordinal2664:PPROC
+mfc42u_ordinal2664 equ <__imp_mfc42u_ordinal2664>
+
+externdef __imp_mfc42u_ordinal2665:PPROC
+mfc42u_ordinal2665 equ <__imp_mfc42u_ordinal2665>
+
+externdef __imp_mfc42u_ordinal2666:PPROC
+mfc42u_ordinal2666 equ <__imp_mfc42u_ordinal2666>
+
+externdef __imp_mfc42u_ordinal2667:PPROC
+mfc42u_ordinal2667 equ <__imp_mfc42u_ordinal2667>
+
+externdef __imp_mfc42u_ordinal2668:PPROC
+mfc42u_ordinal2668 equ <__imp_mfc42u_ordinal2668>
+
+externdef __imp_mfc42u_ordinal2669:PPROC
+mfc42u_ordinal2669 equ <__imp_mfc42u_ordinal2669>
+
+externdef __imp_mfc42u_ordinal266:PPROC
+mfc42u_ordinal266 equ <__imp_mfc42u_ordinal266>
+
+externdef __imp_mfc42u_ordinal2670:PPROC
+mfc42u_ordinal2670 equ <__imp_mfc42u_ordinal2670>
+
+externdef __imp_mfc42u_ordinal2671:PPROC
+mfc42u_ordinal2671 equ <__imp_mfc42u_ordinal2671>
+
+externdef __imp_mfc42u_ordinal2672:PPROC
+mfc42u_ordinal2672 equ <__imp_mfc42u_ordinal2672>
+
+externdef __imp_mfc42u_ordinal2673:PPROC
+mfc42u_ordinal2673 equ <__imp_mfc42u_ordinal2673>
+
+externdef __imp_mfc42u_ordinal2674:PPROC
+mfc42u_ordinal2674 equ <__imp_mfc42u_ordinal2674>
+
+externdef __imp_mfc42u_ordinal2675:PPROC
+mfc42u_ordinal2675 equ <__imp_mfc42u_ordinal2675>
+
+externdef __imp_mfc42u_ordinal2676:PPROC
+mfc42u_ordinal2676 equ <__imp_mfc42u_ordinal2676>
+
+externdef __imp_mfc42u_ordinal2677:PPROC
+mfc42u_ordinal2677 equ <__imp_mfc42u_ordinal2677>
+
+externdef __imp_mfc42u_ordinal2678:PPROC
+mfc42u_ordinal2678 equ <__imp_mfc42u_ordinal2678>
+
+externdef __imp_mfc42u_ordinal2679:PPROC
+mfc42u_ordinal2679 equ <__imp_mfc42u_ordinal2679>
+
+externdef __imp_mfc42u_ordinal267:PPROC
+mfc42u_ordinal267 equ <__imp_mfc42u_ordinal267>
+
+externdef __imp_mfc42u_ordinal2680:PPROC
+mfc42u_ordinal2680 equ <__imp_mfc42u_ordinal2680>
+
+externdef __imp_mfc42u_ordinal2681:PPROC
+mfc42u_ordinal2681 equ <__imp_mfc42u_ordinal2681>
+
+externdef __imp_mfc42u_ordinal2682:PPROC
+mfc42u_ordinal2682 equ <__imp_mfc42u_ordinal2682>
+
+externdef __imp_mfc42u_ordinal2683:PPROC
+mfc42u_ordinal2683 equ <__imp_mfc42u_ordinal2683>
+
+externdef __imp_mfc42u_ordinal2684:PPROC
+mfc42u_ordinal2684 equ <__imp_mfc42u_ordinal2684>
+
+externdef __imp_mfc42u_ordinal2685:PPROC
+mfc42u_ordinal2685 equ <__imp_mfc42u_ordinal2685>
+
+externdef __imp_mfc42u_ordinal2686:PPROC
+mfc42u_ordinal2686 equ <__imp_mfc42u_ordinal2686>
+
+externdef __imp_mfc42u_ordinal2687:PPROC
+mfc42u_ordinal2687 equ <__imp_mfc42u_ordinal2687>
+
+externdef __imp_mfc42u_ordinal2688:PPROC
+mfc42u_ordinal2688 equ <__imp_mfc42u_ordinal2688>
+
+externdef __imp_mfc42u_ordinal2689:PPROC
+mfc42u_ordinal2689 equ <__imp_mfc42u_ordinal2689>
+
+externdef __imp_mfc42u_ordinal268:PPROC
+mfc42u_ordinal268 equ <__imp_mfc42u_ordinal268>
+
+externdef __imp_mfc42u_ordinal2690:PPROC
+mfc42u_ordinal2690 equ <__imp_mfc42u_ordinal2690>
+
+externdef __imp_mfc42u_ordinal2691:PPROC
+mfc42u_ordinal2691 equ <__imp_mfc42u_ordinal2691>
+
+externdef __imp_mfc42u_ordinal2692:PPROC
+mfc42u_ordinal2692 equ <__imp_mfc42u_ordinal2692>
+
+externdef __imp_mfc42u_ordinal2693:PPROC
+mfc42u_ordinal2693 equ <__imp_mfc42u_ordinal2693>
+
+externdef __imp_mfc42u_ordinal2694:PPROC
+mfc42u_ordinal2694 equ <__imp_mfc42u_ordinal2694>
+
+externdef __imp_mfc42u_ordinal2695:PPROC
+mfc42u_ordinal2695 equ <__imp_mfc42u_ordinal2695>
+
+externdef __imp_mfc42u_ordinal2696:PPROC
+mfc42u_ordinal2696 equ <__imp_mfc42u_ordinal2696>
+
+externdef __imp_mfc42u_ordinal2697:PPROC
+mfc42u_ordinal2697 equ <__imp_mfc42u_ordinal2697>
+
+externdef __imp_mfc42u_ordinal2698:PPROC
+mfc42u_ordinal2698 equ <__imp_mfc42u_ordinal2698>
+
+externdef __imp_mfc42u_ordinal2699:PPROC
+mfc42u_ordinal2699 equ <__imp_mfc42u_ordinal2699>
+
+externdef __imp_mfc42u_ordinal269:PPROC
+mfc42u_ordinal269 equ <__imp_mfc42u_ordinal269>
+
+externdef __imp_mfc42u_ordinal26:PPROC
+mfc42u_ordinal26 equ <__imp_mfc42u_ordinal26>
+
+externdef __imp_mfc42u_ordinal2700:PPROC
+mfc42u_ordinal2700 equ <__imp_mfc42u_ordinal2700>
+
+externdef __imp_mfc42u_ordinal2701:PPROC
+mfc42u_ordinal2701 equ <__imp_mfc42u_ordinal2701>
+
+externdef __imp_mfc42u_ordinal2702:PPROC
+mfc42u_ordinal2702 equ <__imp_mfc42u_ordinal2702>
+
+externdef __imp_mfc42u_ordinal2703:PPROC
+mfc42u_ordinal2703 equ <__imp_mfc42u_ordinal2703>
+
+externdef __imp_mfc42u_ordinal2704:PPROC
+mfc42u_ordinal2704 equ <__imp_mfc42u_ordinal2704>
+
+externdef __imp_mfc42u_ordinal2705:PPROC
+mfc42u_ordinal2705 equ <__imp_mfc42u_ordinal2705>
+
+externdef __imp_mfc42u_ordinal2706:PPROC
+mfc42u_ordinal2706 equ <__imp_mfc42u_ordinal2706>
+
+externdef __imp_mfc42u_ordinal2707:PPROC
+mfc42u_ordinal2707 equ <__imp_mfc42u_ordinal2707>
+
+externdef __imp_mfc42u_ordinal2708:PPROC
+mfc42u_ordinal2708 equ <__imp_mfc42u_ordinal2708>
+
+externdef __imp_mfc42u_ordinal2709:PPROC
+mfc42u_ordinal2709 equ <__imp_mfc42u_ordinal2709>
+
+externdef __imp_mfc42u_ordinal270:PPROC
+mfc42u_ordinal270 equ <__imp_mfc42u_ordinal270>
+
+externdef __imp_mfc42u_ordinal2710:PPROC
+mfc42u_ordinal2710 equ <__imp_mfc42u_ordinal2710>
+
+externdef __imp_mfc42u_ordinal2711:PPROC
+mfc42u_ordinal2711 equ <__imp_mfc42u_ordinal2711>
+
+externdef __imp_mfc42u_ordinal2712:PPROC
+mfc42u_ordinal2712 equ <__imp_mfc42u_ordinal2712>
+
+externdef __imp_mfc42u_ordinal2713:PPROC
+mfc42u_ordinal2713 equ <__imp_mfc42u_ordinal2713>
+
+externdef __imp_mfc42u_ordinal2714:PPROC
+mfc42u_ordinal2714 equ <__imp_mfc42u_ordinal2714>
+
+externdef __imp_mfc42u_ordinal2715:PPROC
+mfc42u_ordinal2715 equ <__imp_mfc42u_ordinal2715>
+
+externdef __imp_mfc42u_ordinal2716:PPROC
+mfc42u_ordinal2716 equ <__imp_mfc42u_ordinal2716>
+
+externdef __imp_mfc42u_ordinal2717:PPROC
+mfc42u_ordinal2717 equ <__imp_mfc42u_ordinal2717>
+
+externdef __imp_mfc42u_ordinal2718:PPROC
+mfc42u_ordinal2718 equ <__imp_mfc42u_ordinal2718>
+
+externdef __imp_mfc42u_ordinal2719:PPROC
+mfc42u_ordinal2719 equ <__imp_mfc42u_ordinal2719>
+
+externdef __imp_mfc42u_ordinal271:PPROC
+mfc42u_ordinal271 equ <__imp_mfc42u_ordinal271>
+
+externdef __imp_mfc42u_ordinal2720:PPROC
+mfc42u_ordinal2720 equ <__imp_mfc42u_ordinal2720>
+
+externdef __imp_mfc42u_ordinal2721:PPROC
+mfc42u_ordinal2721 equ <__imp_mfc42u_ordinal2721>
+
+externdef __imp_mfc42u_ordinal2722:PPROC
+mfc42u_ordinal2722 equ <__imp_mfc42u_ordinal2722>
+
+externdef __imp_mfc42u_ordinal2723:PPROC
+mfc42u_ordinal2723 equ <__imp_mfc42u_ordinal2723>
+
+externdef __imp_mfc42u_ordinal2724:PPROC
+mfc42u_ordinal2724 equ <__imp_mfc42u_ordinal2724>
+
+externdef __imp_mfc42u_ordinal2725:PPROC
+mfc42u_ordinal2725 equ <__imp_mfc42u_ordinal2725>
+
+externdef __imp_mfc42u_ordinal2726:PPROC
+mfc42u_ordinal2726 equ <__imp_mfc42u_ordinal2726>
+
+externdef __imp_mfc42u_ordinal2727:PPROC
+mfc42u_ordinal2727 equ <__imp_mfc42u_ordinal2727>
+
+externdef __imp_mfc42u_ordinal2728:PPROC
+mfc42u_ordinal2728 equ <__imp_mfc42u_ordinal2728>
+
+externdef __imp_mfc42u_ordinal2729:PPROC
+mfc42u_ordinal2729 equ <__imp_mfc42u_ordinal2729>
+
+externdef __imp_mfc42u_ordinal272:PPROC
+mfc42u_ordinal272 equ <__imp_mfc42u_ordinal272>
+
+externdef __imp_mfc42u_ordinal2730:PPROC
+mfc42u_ordinal2730 equ <__imp_mfc42u_ordinal2730>
+
+externdef __imp_mfc42u_ordinal2731:PPROC
+mfc42u_ordinal2731 equ <__imp_mfc42u_ordinal2731>
+
+externdef __imp_mfc42u_ordinal2732:PPROC
+mfc42u_ordinal2732 equ <__imp_mfc42u_ordinal2732>
+
+externdef __imp_mfc42u_ordinal2733:PPROC
+mfc42u_ordinal2733 equ <__imp_mfc42u_ordinal2733>
+
+externdef __imp_mfc42u_ordinal2734:PPROC
+mfc42u_ordinal2734 equ <__imp_mfc42u_ordinal2734>
+
+externdef __imp_mfc42u_ordinal2735:PPROC
+mfc42u_ordinal2735 equ <__imp_mfc42u_ordinal2735>
+
+externdef __imp_mfc42u_ordinal2736:PPROC
+mfc42u_ordinal2736 equ <__imp_mfc42u_ordinal2736>
+
+externdef __imp_mfc42u_ordinal2737:PPROC
+mfc42u_ordinal2737 equ <__imp_mfc42u_ordinal2737>
+
+externdef __imp_mfc42u_ordinal2738:PPROC
+mfc42u_ordinal2738 equ <__imp_mfc42u_ordinal2738>
+
+externdef __imp_mfc42u_ordinal2739:PPROC
+mfc42u_ordinal2739 equ <__imp_mfc42u_ordinal2739>
+
+externdef __imp_mfc42u_ordinal273:PPROC
+mfc42u_ordinal273 equ <__imp_mfc42u_ordinal273>
+
+externdef __imp_mfc42u_ordinal2740:PPROC
+mfc42u_ordinal2740 equ <__imp_mfc42u_ordinal2740>
+
+externdef __imp_mfc42u_ordinal2741:PPROC
+mfc42u_ordinal2741 equ <__imp_mfc42u_ordinal2741>
+
+externdef __imp_mfc42u_ordinal2742:PPROC
+mfc42u_ordinal2742 equ <__imp_mfc42u_ordinal2742>
+
+externdef __imp_mfc42u_ordinal2743:PPROC
+mfc42u_ordinal2743 equ <__imp_mfc42u_ordinal2743>
+
+externdef __imp_mfc42u_ordinal2744:PPROC
+mfc42u_ordinal2744 equ <__imp_mfc42u_ordinal2744>
+
+externdef __imp_mfc42u_ordinal2745:PPROC
+mfc42u_ordinal2745 equ <__imp_mfc42u_ordinal2745>
+
+externdef __imp_mfc42u_ordinal2746:PPROC
+mfc42u_ordinal2746 equ <__imp_mfc42u_ordinal2746>
+
+externdef __imp_mfc42u_ordinal2747:PPROC
+mfc42u_ordinal2747 equ <__imp_mfc42u_ordinal2747>
+
+externdef __imp_mfc42u_ordinal2748:PPROC
+mfc42u_ordinal2748 equ <__imp_mfc42u_ordinal2748>
+
+externdef __imp_mfc42u_ordinal2749:PPROC
+mfc42u_ordinal2749 equ <__imp_mfc42u_ordinal2749>
+
+externdef __imp_mfc42u_ordinal274:PPROC
+mfc42u_ordinal274 equ <__imp_mfc42u_ordinal274>
+
+externdef __imp_mfc42u_ordinal2750:PPROC
+mfc42u_ordinal2750 equ <__imp_mfc42u_ordinal2750>
+
+externdef __imp_mfc42u_ordinal2751:PPROC
+mfc42u_ordinal2751 equ <__imp_mfc42u_ordinal2751>
+
+externdef __imp_mfc42u_ordinal2752:PPROC
+mfc42u_ordinal2752 equ <__imp_mfc42u_ordinal2752>
+
+externdef __imp_mfc42u_ordinal2753:PPROC
+mfc42u_ordinal2753 equ <__imp_mfc42u_ordinal2753>
+
+externdef __imp_mfc42u_ordinal2754:PPROC
+mfc42u_ordinal2754 equ <__imp_mfc42u_ordinal2754>
+
+externdef __imp_mfc42u_ordinal2755:PPROC
+mfc42u_ordinal2755 equ <__imp_mfc42u_ordinal2755>
+
+externdef __imp_mfc42u_ordinal2756:PPROC
+mfc42u_ordinal2756 equ <__imp_mfc42u_ordinal2756>
+
+externdef __imp_mfc42u_ordinal2757:PPROC
+mfc42u_ordinal2757 equ <__imp_mfc42u_ordinal2757>
+
+externdef __imp_mfc42u_ordinal2758:PPROC
+mfc42u_ordinal2758 equ <__imp_mfc42u_ordinal2758>
+
+externdef __imp_mfc42u_ordinal2759:PPROC
+mfc42u_ordinal2759 equ <__imp_mfc42u_ordinal2759>
+
+externdef __imp_mfc42u_ordinal275:PPROC
+mfc42u_ordinal275 equ <__imp_mfc42u_ordinal275>
+
+externdef __imp_mfc42u_ordinal2760:PPROC
+mfc42u_ordinal2760 equ <__imp_mfc42u_ordinal2760>
+
+externdef __imp_mfc42u_ordinal2761:PPROC
+mfc42u_ordinal2761 equ <__imp_mfc42u_ordinal2761>
+
+externdef __imp_mfc42u_ordinal2762:PPROC
+mfc42u_ordinal2762 equ <__imp_mfc42u_ordinal2762>
+
+externdef __imp_mfc42u_ordinal2763:PPROC
+mfc42u_ordinal2763 equ <__imp_mfc42u_ordinal2763>
+
+externdef __imp_mfc42u_ordinal2764:PPROC
+mfc42u_ordinal2764 equ <__imp_mfc42u_ordinal2764>
+
+externdef __imp_mfc42u_ordinal2765:PPROC
+mfc42u_ordinal2765 equ <__imp_mfc42u_ordinal2765>
+
+externdef __imp_mfc42u_ordinal2766:PPROC
+mfc42u_ordinal2766 equ <__imp_mfc42u_ordinal2766>
+
+externdef __imp_mfc42u_ordinal2767:PPROC
+mfc42u_ordinal2767 equ <__imp_mfc42u_ordinal2767>
+
+externdef __imp_mfc42u_ordinal2768:PPROC
+mfc42u_ordinal2768 equ <__imp_mfc42u_ordinal2768>
+
+externdef __imp_mfc42u_ordinal2769:PPROC
+mfc42u_ordinal2769 equ <__imp_mfc42u_ordinal2769>
+
+externdef __imp_mfc42u_ordinal276:PPROC
+mfc42u_ordinal276 equ <__imp_mfc42u_ordinal276>
+
+externdef __imp_mfc42u_ordinal2770:PPROC
+mfc42u_ordinal2770 equ <__imp_mfc42u_ordinal2770>
+
+externdef __imp_mfc42u_ordinal2771:PPROC
+mfc42u_ordinal2771 equ <__imp_mfc42u_ordinal2771>
+
+externdef __imp_mfc42u_ordinal2772:PPROC
+mfc42u_ordinal2772 equ <__imp_mfc42u_ordinal2772>
+
+externdef __imp_mfc42u_ordinal2773:PPROC
+mfc42u_ordinal2773 equ <__imp_mfc42u_ordinal2773>
+
+externdef __imp_mfc42u_ordinal2774:PPROC
+mfc42u_ordinal2774 equ <__imp_mfc42u_ordinal2774>
+
+externdef __imp_mfc42u_ordinal2775:PPROC
+mfc42u_ordinal2775 equ <__imp_mfc42u_ordinal2775>
+
+externdef __imp_mfc42u_ordinal2776:PPROC
+mfc42u_ordinal2776 equ <__imp_mfc42u_ordinal2776>
+
+externdef __imp_mfc42u_ordinal2777:PPROC
+mfc42u_ordinal2777 equ <__imp_mfc42u_ordinal2777>
+
+externdef __imp_mfc42u_ordinal2778:PPROC
+mfc42u_ordinal2778 equ <__imp_mfc42u_ordinal2778>
+
+externdef __imp_mfc42u_ordinal2779:PPROC
+mfc42u_ordinal2779 equ <__imp_mfc42u_ordinal2779>
+
+externdef __imp_mfc42u_ordinal277:PPROC
+mfc42u_ordinal277 equ <__imp_mfc42u_ordinal277>
+
+externdef __imp_mfc42u_ordinal2780:PPROC
+mfc42u_ordinal2780 equ <__imp_mfc42u_ordinal2780>
+
+externdef __imp_mfc42u_ordinal2781:PPROC
+mfc42u_ordinal2781 equ <__imp_mfc42u_ordinal2781>
+
+externdef __imp_mfc42u_ordinal2782:PPROC
+mfc42u_ordinal2782 equ <__imp_mfc42u_ordinal2782>
+
+externdef __imp_mfc42u_ordinal2783:PPROC
+mfc42u_ordinal2783 equ <__imp_mfc42u_ordinal2783>
+
+externdef __imp_mfc42u_ordinal2784:PPROC
+mfc42u_ordinal2784 equ <__imp_mfc42u_ordinal2784>
+
+externdef __imp_mfc42u_ordinal2785:PPROC
+mfc42u_ordinal2785 equ <__imp_mfc42u_ordinal2785>
+
+externdef __imp_mfc42u_ordinal2786:PPROC
+mfc42u_ordinal2786 equ <__imp_mfc42u_ordinal2786>
+
+externdef __imp_mfc42u_ordinal2787:PPROC
+mfc42u_ordinal2787 equ <__imp_mfc42u_ordinal2787>
+
+externdef __imp_mfc42u_ordinal2788:PPROC
+mfc42u_ordinal2788 equ <__imp_mfc42u_ordinal2788>
+
+externdef __imp_mfc42u_ordinal2789:PPROC
+mfc42u_ordinal2789 equ <__imp_mfc42u_ordinal2789>
+
+externdef __imp_mfc42u_ordinal278:PPROC
+mfc42u_ordinal278 equ <__imp_mfc42u_ordinal278>
+
+externdef __imp_mfc42u_ordinal2790:PPROC
+mfc42u_ordinal2790 equ <__imp_mfc42u_ordinal2790>
+
+externdef __imp_mfc42u_ordinal2791:PPROC
+mfc42u_ordinal2791 equ <__imp_mfc42u_ordinal2791>
+
+externdef __imp_mfc42u_ordinal2792:PPROC
+mfc42u_ordinal2792 equ <__imp_mfc42u_ordinal2792>
+
+externdef __imp_mfc42u_ordinal2793:PPROC
+mfc42u_ordinal2793 equ <__imp_mfc42u_ordinal2793>
+
+externdef __imp_mfc42u_ordinal2794:PPROC
+mfc42u_ordinal2794 equ <__imp_mfc42u_ordinal2794>
+
+externdef __imp_mfc42u_ordinal2795:PPROC
+mfc42u_ordinal2795 equ <__imp_mfc42u_ordinal2795>
+
+externdef __imp_mfc42u_ordinal2796:PPROC
+mfc42u_ordinal2796 equ <__imp_mfc42u_ordinal2796>
+
+externdef __imp_mfc42u_ordinal2797:PPROC
+mfc42u_ordinal2797 equ <__imp_mfc42u_ordinal2797>
+
+externdef __imp_mfc42u_ordinal2798:PPROC
+mfc42u_ordinal2798 equ <__imp_mfc42u_ordinal2798>
+
+externdef __imp_mfc42u_ordinal2799:PPROC
+mfc42u_ordinal2799 equ <__imp_mfc42u_ordinal2799>
+
+externdef __imp_mfc42u_ordinal279:PPROC
+mfc42u_ordinal279 equ <__imp_mfc42u_ordinal279>
+
+externdef __imp_mfc42u_ordinal27:PPROC
+mfc42u_ordinal27 equ <__imp_mfc42u_ordinal27>
+
+externdef __imp_mfc42u_ordinal2800:PPROC
+mfc42u_ordinal2800 equ <__imp_mfc42u_ordinal2800>
+
+externdef __imp_mfc42u_ordinal2801:PPROC
+mfc42u_ordinal2801 equ <__imp_mfc42u_ordinal2801>
+
+externdef __imp_mfc42u_ordinal2802:PPROC
+mfc42u_ordinal2802 equ <__imp_mfc42u_ordinal2802>
+
+externdef __imp_mfc42u_ordinal2803:PPROC
+mfc42u_ordinal2803 equ <__imp_mfc42u_ordinal2803>
+
+externdef __imp_mfc42u_ordinal2804:PPROC
+mfc42u_ordinal2804 equ <__imp_mfc42u_ordinal2804>
+
+externdef __imp_mfc42u_ordinal2805:PPROC
+mfc42u_ordinal2805 equ <__imp_mfc42u_ordinal2805>
+
+externdef __imp_mfc42u_ordinal2806:PPROC
+mfc42u_ordinal2806 equ <__imp_mfc42u_ordinal2806>
+
+externdef __imp_mfc42u_ordinal2807:PPROC
+mfc42u_ordinal2807 equ <__imp_mfc42u_ordinal2807>
+
+externdef __imp_mfc42u_ordinal2808:PPROC
+mfc42u_ordinal2808 equ <__imp_mfc42u_ordinal2808>
+
+externdef __imp_mfc42u_ordinal2809:PPROC
+mfc42u_ordinal2809 equ <__imp_mfc42u_ordinal2809>
+
+externdef __imp_mfc42u_ordinal280:PPROC
+mfc42u_ordinal280 equ <__imp_mfc42u_ordinal280>
+
+externdef __imp_mfc42u_ordinal2810:PPROC
+mfc42u_ordinal2810 equ <__imp_mfc42u_ordinal2810>
+
+externdef __imp_mfc42u_ordinal2811:PPROC
+mfc42u_ordinal2811 equ <__imp_mfc42u_ordinal2811>
+
+externdef __imp_mfc42u_ordinal2812:PPROC
+mfc42u_ordinal2812 equ <__imp_mfc42u_ordinal2812>
+
+externdef __imp_mfc42u_ordinal2813:PPROC
+mfc42u_ordinal2813 equ <__imp_mfc42u_ordinal2813>
+
+externdef __imp_mfc42u_ordinal2814:PPROC
+mfc42u_ordinal2814 equ <__imp_mfc42u_ordinal2814>
+
+externdef __imp_mfc42u_ordinal2815:PPROC
+mfc42u_ordinal2815 equ <__imp_mfc42u_ordinal2815>
+
+externdef __imp_mfc42u_ordinal2816:PPROC
+mfc42u_ordinal2816 equ <__imp_mfc42u_ordinal2816>
+
+externdef __imp_mfc42u_ordinal2817:PPROC
+mfc42u_ordinal2817 equ <__imp_mfc42u_ordinal2817>
+
+externdef __imp_mfc42u_ordinal2818:PPROC
+mfc42u_ordinal2818 equ <__imp_mfc42u_ordinal2818>
+
+externdef __imp_mfc42u_ordinal2819:PPROC
+mfc42u_ordinal2819 equ <__imp_mfc42u_ordinal2819>
+
+externdef __imp_mfc42u_ordinal281:PPROC
+mfc42u_ordinal281 equ <__imp_mfc42u_ordinal281>
+
+externdef __imp_mfc42u_ordinal2820:PPROC
+mfc42u_ordinal2820 equ <__imp_mfc42u_ordinal2820>
+
+externdef __imp_mfc42u_ordinal2821:PPROC
+mfc42u_ordinal2821 equ <__imp_mfc42u_ordinal2821>
+
+externdef __imp_mfc42u_ordinal2822:PPROC
+mfc42u_ordinal2822 equ <__imp_mfc42u_ordinal2822>
+
+externdef __imp_mfc42u_ordinal2823:PPROC
+mfc42u_ordinal2823 equ <__imp_mfc42u_ordinal2823>
+
+externdef __imp_mfc42u_ordinal2824:PPROC
+mfc42u_ordinal2824 equ <__imp_mfc42u_ordinal2824>
+
+externdef __imp_mfc42u_ordinal2825:PPROC
+mfc42u_ordinal2825 equ <__imp_mfc42u_ordinal2825>
+
+externdef __imp_mfc42u_ordinal2826:PPROC
+mfc42u_ordinal2826 equ <__imp_mfc42u_ordinal2826>
+
+externdef __imp_mfc42u_ordinal2827:PPROC
+mfc42u_ordinal2827 equ <__imp_mfc42u_ordinal2827>
+
+externdef __imp_mfc42u_ordinal2828:PPROC
+mfc42u_ordinal2828 equ <__imp_mfc42u_ordinal2828>
+
+externdef __imp_mfc42u_ordinal2829:PPROC
+mfc42u_ordinal2829 equ <__imp_mfc42u_ordinal2829>
+
+externdef __imp_mfc42u_ordinal282:PPROC
+mfc42u_ordinal282 equ <__imp_mfc42u_ordinal282>
+
+externdef __imp_mfc42u_ordinal2830:PPROC
+mfc42u_ordinal2830 equ <__imp_mfc42u_ordinal2830>
+
+externdef __imp_mfc42u_ordinal2831:PPROC
+mfc42u_ordinal2831 equ <__imp_mfc42u_ordinal2831>
+
+externdef __imp_mfc42u_ordinal2832:PPROC
+mfc42u_ordinal2832 equ <__imp_mfc42u_ordinal2832>
+
+externdef __imp_mfc42u_ordinal2833:PPROC
+mfc42u_ordinal2833 equ <__imp_mfc42u_ordinal2833>
+
+externdef __imp_mfc42u_ordinal2834:PPROC
+mfc42u_ordinal2834 equ <__imp_mfc42u_ordinal2834>
+
+externdef __imp_mfc42u_ordinal2835:PPROC
+mfc42u_ordinal2835 equ <__imp_mfc42u_ordinal2835>
+
+externdef __imp_mfc42u_ordinal2836:PPROC
+mfc42u_ordinal2836 equ <__imp_mfc42u_ordinal2836>
+
+externdef __imp_mfc42u_ordinal2837:PPROC
+mfc42u_ordinal2837 equ <__imp_mfc42u_ordinal2837>
+
+externdef __imp_mfc42u_ordinal2838:PPROC
+mfc42u_ordinal2838 equ <__imp_mfc42u_ordinal2838>
+
+externdef __imp_mfc42u_ordinal2839:PPROC
+mfc42u_ordinal2839 equ <__imp_mfc42u_ordinal2839>
+
+externdef __imp_mfc42u_ordinal283:PPROC
+mfc42u_ordinal283 equ <__imp_mfc42u_ordinal283>
+
+externdef __imp_mfc42u_ordinal2840:PPROC
+mfc42u_ordinal2840 equ <__imp_mfc42u_ordinal2840>
+
+externdef __imp_mfc42u_ordinal2841:PPROC
+mfc42u_ordinal2841 equ <__imp_mfc42u_ordinal2841>
+
+externdef __imp_mfc42u_ordinal2842:PPROC
+mfc42u_ordinal2842 equ <__imp_mfc42u_ordinal2842>
+
+externdef __imp_mfc42u_ordinal2843:PPROC
+mfc42u_ordinal2843 equ <__imp_mfc42u_ordinal2843>
+
+externdef __imp_mfc42u_ordinal2844:PPROC
+mfc42u_ordinal2844 equ <__imp_mfc42u_ordinal2844>
+
+externdef __imp_mfc42u_ordinal2845:PPROC
+mfc42u_ordinal2845 equ <__imp_mfc42u_ordinal2845>
+
+externdef __imp_mfc42u_ordinal2846:PPROC
+mfc42u_ordinal2846 equ <__imp_mfc42u_ordinal2846>
+
+externdef __imp_mfc42u_ordinal2847:PPROC
+mfc42u_ordinal2847 equ <__imp_mfc42u_ordinal2847>
+
+externdef __imp_mfc42u_ordinal2848:PPROC
+mfc42u_ordinal2848 equ <__imp_mfc42u_ordinal2848>
+
+externdef __imp_mfc42u_ordinal2849:PPROC
+mfc42u_ordinal2849 equ <__imp_mfc42u_ordinal2849>
+
+externdef __imp_mfc42u_ordinal284:PPROC
+mfc42u_ordinal284 equ <__imp_mfc42u_ordinal284>
+
+externdef __imp_mfc42u_ordinal2850:PPROC
+mfc42u_ordinal2850 equ <__imp_mfc42u_ordinal2850>
+
+externdef __imp_mfc42u_ordinal2851:PPROC
+mfc42u_ordinal2851 equ <__imp_mfc42u_ordinal2851>
+
+externdef __imp_mfc42u_ordinal2852:PPROC
+mfc42u_ordinal2852 equ <__imp_mfc42u_ordinal2852>
+
+externdef __imp_mfc42u_ordinal2853:PPROC
+mfc42u_ordinal2853 equ <__imp_mfc42u_ordinal2853>
+
+externdef __imp_mfc42u_ordinal2854:PPROC
+mfc42u_ordinal2854 equ <__imp_mfc42u_ordinal2854>
+
+externdef __imp_mfc42u_ordinal2855:PPROC
+mfc42u_ordinal2855 equ <__imp_mfc42u_ordinal2855>
+
+externdef __imp_mfc42u_ordinal2856:PPROC
+mfc42u_ordinal2856 equ <__imp_mfc42u_ordinal2856>
+
+externdef __imp_mfc42u_ordinal2857:PPROC
+mfc42u_ordinal2857 equ <__imp_mfc42u_ordinal2857>
+
+externdef __imp_mfc42u_ordinal2858:PPROC
+mfc42u_ordinal2858 equ <__imp_mfc42u_ordinal2858>
+
+externdef __imp_mfc42u_ordinal2859:PPROC
+mfc42u_ordinal2859 equ <__imp_mfc42u_ordinal2859>
+
+externdef __imp_mfc42u_ordinal285:PPROC
+mfc42u_ordinal285 equ <__imp_mfc42u_ordinal285>
+
+externdef __imp_mfc42u_ordinal2860:PPROC
+mfc42u_ordinal2860 equ <__imp_mfc42u_ordinal2860>
+
+externdef __imp_mfc42u_ordinal2861:PPROC
+mfc42u_ordinal2861 equ <__imp_mfc42u_ordinal2861>
+
+externdef __imp_mfc42u_ordinal2862:PPROC
+mfc42u_ordinal2862 equ <__imp_mfc42u_ordinal2862>
+
+externdef __imp_mfc42u_ordinal2863:PPROC
+mfc42u_ordinal2863 equ <__imp_mfc42u_ordinal2863>
+
+externdef __imp_mfc42u_ordinal2864:PPROC
+mfc42u_ordinal2864 equ <__imp_mfc42u_ordinal2864>
+
+externdef __imp_mfc42u_ordinal2865:PPROC
+mfc42u_ordinal2865 equ <__imp_mfc42u_ordinal2865>
+
+externdef __imp_mfc42u_ordinal2866:PPROC
+mfc42u_ordinal2866 equ <__imp_mfc42u_ordinal2866>
+
+externdef __imp_mfc42u_ordinal2867:PPROC
+mfc42u_ordinal2867 equ <__imp_mfc42u_ordinal2867>
+
+externdef __imp_mfc42u_ordinal2868:PPROC
+mfc42u_ordinal2868 equ <__imp_mfc42u_ordinal2868>
+
+externdef __imp_mfc42u_ordinal2869:PPROC
+mfc42u_ordinal2869 equ <__imp_mfc42u_ordinal2869>
+
+externdef __imp_mfc42u_ordinal286:PPROC
+mfc42u_ordinal286 equ <__imp_mfc42u_ordinal286>
+
+externdef __imp_mfc42u_ordinal2870:PPROC
+mfc42u_ordinal2870 equ <__imp_mfc42u_ordinal2870>
+
+externdef __imp_mfc42u_ordinal2871:PPROC
+mfc42u_ordinal2871 equ <__imp_mfc42u_ordinal2871>
+
+externdef __imp_mfc42u_ordinal2872:PPROC
+mfc42u_ordinal2872 equ <__imp_mfc42u_ordinal2872>
+
+externdef __imp_mfc42u_ordinal2873:PPROC
+mfc42u_ordinal2873 equ <__imp_mfc42u_ordinal2873>
+
+externdef __imp_mfc42u_ordinal2874:PPROC
+mfc42u_ordinal2874 equ <__imp_mfc42u_ordinal2874>
+
+externdef __imp_mfc42u_ordinal2875:PPROC
+mfc42u_ordinal2875 equ <__imp_mfc42u_ordinal2875>
+
+externdef __imp_mfc42u_ordinal2876:PPROC
+mfc42u_ordinal2876 equ <__imp_mfc42u_ordinal2876>
+
+externdef __imp_mfc42u_ordinal2877:PPROC
+mfc42u_ordinal2877 equ <__imp_mfc42u_ordinal2877>
+
+externdef __imp_mfc42u_ordinal2878:PPROC
+mfc42u_ordinal2878 equ <__imp_mfc42u_ordinal2878>
+
+externdef __imp_mfc42u_ordinal2879:PPROC
+mfc42u_ordinal2879 equ <__imp_mfc42u_ordinal2879>
+
+externdef __imp_mfc42u_ordinal287:PPROC
+mfc42u_ordinal287 equ <__imp_mfc42u_ordinal287>
+
+externdef __imp_mfc42u_ordinal2880:PPROC
+mfc42u_ordinal2880 equ <__imp_mfc42u_ordinal2880>
+
+externdef __imp_mfc42u_ordinal2881:PPROC
+mfc42u_ordinal2881 equ <__imp_mfc42u_ordinal2881>
+
+externdef __imp_mfc42u_ordinal2882:PPROC
+mfc42u_ordinal2882 equ <__imp_mfc42u_ordinal2882>
+
+externdef __imp_mfc42u_ordinal2883:PPROC
+mfc42u_ordinal2883 equ <__imp_mfc42u_ordinal2883>
+
+externdef __imp_mfc42u_ordinal2884:PPROC
+mfc42u_ordinal2884 equ <__imp_mfc42u_ordinal2884>
+
+externdef __imp_mfc42u_ordinal2885:PPROC
+mfc42u_ordinal2885 equ <__imp_mfc42u_ordinal2885>
+
+externdef __imp_mfc42u_ordinal2886:PPROC
+mfc42u_ordinal2886 equ <__imp_mfc42u_ordinal2886>
+
+externdef __imp_mfc42u_ordinal2887:PPROC
+mfc42u_ordinal2887 equ <__imp_mfc42u_ordinal2887>
+
+externdef __imp_mfc42u_ordinal2888:PPROC
+mfc42u_ordinal2888 equ <__imp_mfc42u_ordinal2888>
+
+externdef __imp_mfc42u_ordinal2889:PPROC
+mfc42u_ordinal2889 equ <__imp_mfc42u_ordinal2889>
+
+externdef __imp_mfc42u_ordinal288:PPROC
+mfc42u_ordinal288 equ <__imp_mfc42u_ordinal288>
+
+externdef __imp_mfc42u_ordinal2890:PPROC
+mfc42u_ordinal2890 equ <__imp_mfc42u_ordinal2890>
+
+externdef __imp_mfc42u_ordinal2891:PPROC
+mfc42u_ordinal2891 equ <__imp_mfc42u_ordinal2891>
+
+externdef __imp_mfc42u_ordinal2892:PPROC
+mfc42u_ordinal2892 equ <__imp_mfc42u_ordinal2892>
+
+externdef __imp_mfc42u_ordinal2893:PPROC
+mfc42u_ordinal2893 equ <__imp_mfc42u_ordinal2893>
+
+externdef __imp_mfc42u_ordinal2894:PPROC
+mfc42u_ordinal2894 equ <__imp_mfc42u_ordinal2894>
+
+externdef __imp_mfc42u_ordinal2895:PPROC
+mfc42u_ordinal2895 equ <__imp_mfc42u_ordinal2895>
+
+externdef __imp_mfc42u_ordinal2896:PPROC
+mfc42u_ordinal2896 equ <__imp_mfc42u_ordinal2896>
+
+externdef __imp_mfc42u_ordinal2897:PPROC
+mfc42u_ordinal2897 equ <__imp_mfc42u_ordinal2897>
+
+externdef __imp_mfc42u_ordinal2898:PPROC
+mfc42u_ordinal2898 equ <__imp_mfc42u_ordinal2898>
+
+externdef __imp_mfc42u_ordinal2899:PPROC
+mfc42u_ordinal2899 equ <__imp_mfc42u_ordinal2899>
+
+externdef __imp_mfc42u_ordinal289:PPROC
+mfc42u_ordinal289 equ <__imp_mfc42u_ordinal289>
+
+externdef __imp_mfc42u_ordinal28:PPROC
+mfc42u_ordinal28 equ <__imp_mfc42u_ordinal28>
+
+externdef __imp_mfc42u_ordinal2900:PPROC
+mfc42u_ordinal2900 equ <__imp_mfc42u_ordinal2900>
+
+externdef __imp_mfc42u_ordinal2901:PPROC
+mfc42u_ordinal2901 equ <__imp_mfc42u_ordinal2901>
+
+externdef __imp_mfc42u_ordinal2902:PPROC
+mfc42u_ordinal2902 equ <__imp_mfc42u_ordinal2902>
+
+externdef __imp_mfc42u_ordinal2903:PPROC
+mfc42u_ordinal2903 equ <__imp_mfc42u_ordinal2903>
+
+externdef __imp_mfc42u_ordinal2904:PPROC
+mfc42u_ordinal2904 equ <__imp_mfc42u_ordinal2904>
+
+externdef __imp_mfc42u_ordinal2905:PPROC
+mfc42u_ordinal2905 equ <__imp_mfc42u_ordinal2905>
+
+externdef __imp_mfc42u_ordinal2906:PPROC
+mfc42u_ordinal2906 equ <__imp_mfc42u_ordinal2906>
+
+externdef __imp_mfc42u_ordinal2907:PPROC
+mfc42u_ordinal2907 equ <__imp_mfc42u_ordinal2907>
+
+externdef __imp_mfc42u_ordinal2908:PPROC
+mfc42u_ordinal2908 equ <__imp_mfc42u_ordinal2908>
+
+externdef __imp_mfc42u_ordinal2909:PPROC
+mfc42u_ordinal2909 equ <__imp_mfc42u_ordinal2909>
+
+externdef __imp_mfc42u_ordinal290:PPROC
+mfc42u_ordinal290 equ <__imp_mfc42u_ordinal290>
+
+externdef __imp_mfc42u_ordinal2910:PPROC
+mfc42u_ordinal2910 equ <__imp_mfc42u_ordinal2910>
+
+externdef __imp_mfc42u_ordinal2911:PPROC
+mfc42u_ordinal2911 equ <__imp_mfc42u_ordinal2911>
+
+externdef __imp_mfc42u_ordinal2912:PPROC
+mfc42u_ordinal2912 equ <__imp_mfc42u_ordinal2912>
+
+externdef __imp_mfc42u_ordinal2913:PPROC
+mfc42u_ordinal2913 equ <__imp_mfc42u_ordinal2913>
+
+externdef __imp_mfc42u_ordinal2914:PPROC
+mfc42u_ordinal2914 equ <__imp_mfc42u_ordinal2914>
+
+externdef __imp_mfc42u_ordinal2915:PPROC
+mfc42u_ordinal2915 equ <__imp_mfc42u_ordinal2915>
+
+externdef __imp_mfc42u_ordinal2916:PPROC
+mfc42u_ordinal2916 equ <__imp_mfc42u_ordinal2916>
+
+externdef __imp_mfc42u_ordinal2917:PPROC
+mfc42u_ordinal2917 equ <__imp_mfc42u_ordinal2917>
+
+externdef __imp_mfc42u_ordinal2918:PPROC
+mfc42u_ordinal2918 equ <__imp_mfc42u_ordinal2918>
+
+externdef __imp_mfc42u_ordinal2919:PPROC
+mfc42u_ordinal2919 equ <__imp_mfc42u_ordinal2919>
+
+externdef __imp_mfc42u_ordinal291:PPROC
+mfc42u_ordinal291 equ <__imp_mfc42u_ordinal291>
+
+externdef __imp_mfc42u_ordinal2920:PPROC
+mfc42u_ordinal2920 equ <__imp_mfc42u_ordinal2920>
+
+externdef __imp_mfc42u_ordinal2921:PPROC
+mfc42u_ordinal2921 equ <__imp_mfc42u_ordinal2921>
+
+externdef __imp_mfc42u_ordinal2922:PPROC
+mfc42u_ordinal2922 equ <__imp_mfc42u_ordinal2922>
+
+externdef __imp_mfc42u_ordinal2923:PPROC
+mfc42u_ordinal2923 equ <__imp_mfc42u_ordinal2923>
+
+externdef __imp_mfc42u_ordinal2924:PPROC
+mfc42u_ordinal2924 equ <__imp_mfc42u_ordinal2924>
+
+externdef __imp_mfc42u_ordinal2925:PPROC
+mfc42u_ordinal2925 equ <__imp_mfc42u_ordinal2925>
+
+externdef __imp_mfc42u_ordinal2926:PPROC
+mfc42u_ordinal2926 equ <__imp_mfc42u_ordinal2926>
+
+externdef __imp_mfc42u_ordinal2927:PPROC
+mfc42u_ordinal2927 equ <__imp_mfc42u_ordinal2927>
+
+externdef __imp_mfc42u_ordinal2928:PPROC
+mfc42u_ordinal2928 equ <__imp_mfc42u_ordinal2928>
+
+externdef __imp_mfc42u_ordinal2929:PPROC
+mfc42u_ordinal2929 equ <__imp_mfc42u_ordinal2929>
+
+externdef __imp_mfc42u_ordinal292:PPROC
+mfc42u_ordinal292 equ <__imp_mfc42u_ordinal292>
+
+externdef __imp_mfc42u_ordinal2930:PPROC
+mfc42u_ordinal2930 equ <__imp_mfc42u_ordinal2930>
+
+externdef __imp_mfc42u_ordinal2931:PPROC
+mfc42u_ordinal2931 equ <__imp_mfc42u_ordinal2931>
+
+externdef __imp_mfc42u_ordinal2932:PPROC
+mfc42u_ordinal2932 equ <__imp_mfc42u_ordinal2932>
+
+externdef __imp_mfc42u_ordinal2933:PPROC
+mfc42u_ordinal2933 equ <__imp_mfc42u_ordinal2933>
+
+externdef __imp_mfc42u_ordinal2934:PPROC
+mfc42u_ordinal2934 equ <__imp_mfc42u_ordinal2934>
+
+externdef __imp_mfc42u_ordinal2935:PPROC
+mfc42u_ordinal2935 equ <__imp_mfc42u_ordinal2935>
+
+externdef __imp_mfc42u_ordinal2936:PPROC
+mfc42u_ordinal2936 equ <__imp_mfc42u_ordinal2936>
+
+externdef __imp_mfc42u_ordinal2937:PPROC
+mfc42u_ordinal2937 equ <__imp_mfc42u_ordinal2937>
+
+externdef __imp_mfc42u_ordinal2938:PPROC
+mfc42u_ordinal2938 equ <__imp_mfc42u_ordinal2938>
+
+externdef __imp_mfc42u_ordinal2939:PPROC
+mfc42u_ordinal2939 equ <__imp_mfc42u_ordinal2939>
+
+externdef __imp_mfc42u_ordinal293:PPROC
+mfc42u_ordinal293 equ <__imp_mfc42u_ordinal293>
+
+externdef __imp_mfc42u_ordinal2940:PPROC
+mfc42u_ordinal2940 equ <__imp_mfc42u_ordinal2940>
+
+externdef __imp_mfc42u_ordinal2941:PPROC
+mfc42u_ordinal2941 equ <__imp_mfc42u_ordinal2941>
+
+externdef __imp_mfc42u_ordinal2942:PPROC
+mfc42u_ordinal2942 equ <__imp_mfc42u_ordinal2942>
+
+externdef __imp_mfc42u_ordinal2943:PPROC
+mfc42u_ordinal2943 equ <__imp_mfc42u_ordinal2943>
+
+externdef __imp_mfc42u_ordinal2944:PPROC
+mfc42u_ordinal2944 equ <__imp_mfc42u_ordinal2944>
+
+externdef __imp_mfc42u_ordinal2945:PPROC
+mfc42u_ordinal2945 equ <__imp_mfc42u_ordinal2945>
+
+externdef __imp_mfc42u_ordinal2946:PPROC
+mfc42u_ordinal2946 equ <__imp_mfc42u_ordinal2946>
+
+externdef __imp_mfc42u_ordinal2947:PPROC
+mfc42u_ordinal2947 equ <__imp_mfc42u_ordinal2947>
+
+externdef __imp_mfc42u_ordinal2948:PPROC
+mfc42u_ordinal2948 equ <__imp_mfc42u_ordinal2948>
+
+externdef __imp_mfc42u_ordinal2949:PPROC
+mfc42u_ordinal2949 equ <__imp_mfc42u_ordinal2949>
+
+externdef __imp_mfc42u_ordinal294:PPROC
+mfc42u_ordinal294 equ <__imp_mfc42u_ordinal294>
+
+externdef __imp_mfc42u_ordinal2950:PPROC
+mfc42u_ordinal2950 equ <__imp_mfc42u_ordinal2950>
+
+externdef __imp_mfc42u_ordinal2951:PPROC
+mfc42u_ordinal2951 equ <__imp_mfc42u_ordinal2951>
+
+externdef __imp_mfc42u_ordinal2952:PPROC
+mfc42u_ordinal2952 equ <__imp_mfc42u_ordinal2952>
+
+externdef __imp_mfc42u_ordinal2953:PPROC
+mfc42u_ordinal2953 equ <__imp_mfc42u_ordinal2953>
+
+externdef __imp_mfc42u_ordinal2954:PPROC
+mfc42u_ordinal2954 equ <__imp_mfc42u_ordinal2954>
+
+externdef __imp_mfc42u_ordinal2955:PPROC
+mfc42u_ordinal2955 equ <__imp_mfc42u_ordinal2955>
+
+externdef __imp_mfc42u_ordinal2956:PPROC
+mfc42u_ordinal2956 equ <__imp_mfc42u_ordinal2956>
+
+externdef __imp_mfc42u_ordinal2957:PPROC
+mfc42u_ordinal2957 equ <__imp_mfc42u_ordinal2957>
+
+externdef __imp_mfc42u_ordinal2958:PPROC
+mfc42u_ordinal2958 equ <__imp_mfc42u_ordinal2958>
+
+externdef __imp_mfc42u_ordinal2959:PPROC
+mfc42u_ordinal2959 equ <__imp_mfc42u_ordinal2959>
+
+externdef __imp_mfc42u_ordinal295:PPROC
+mfc42u_ordinal295 equ <__imp_mfc42u_ordinal295>
+
+externdef __imp_mfc42u_ordinal2960:PPROC
+mfc42u_ordinal2960 equ <__imp_mfc42u_ordinal2960>
+
+externdef __imp_mfc42u_ordinal2961:PPROC
+mfc42u_ordinal2961 equ <__imp_mfc42u_ordinal2961>
+
+externdef __imp_mfc42u_ordinal2962:PPROC
+mfc42u_ordinal2962 equ <__imp_mfc42u_ordinal2962>
+
+externdef __imp_mfc42u_ordinal2963:PPROC
+mfc42u_ordinal2963 equ <__imp_mfc42u_ordinal2963>
+
+externdef __imp_mfc42u_ordinal2964:PPROC
+mfc42u_ordinal2964 equ <__imp_mfc42u_ordinal2964>
+
+externdef __imp_mfc42u_ordinal2965:PPROC
+mfc42u_ordinal2965 equ <__imp_mfc42u_ordinal2965>
+
+externdef __imp_mfc42u_ordinal2966:PPROC
+mfc42u_ordinal2966 equ <__imp_mfc42u_ordinal2966>
+
+externdef __imp_mfc42u_ordinal2967:PPROC
+mfc42u_ordinal2967 equ <__imp_mfc42u_ordinal2967>
+
+externdef __imp_mfc42u_ordinal2968:PPROC
+mfc42u_ordinal2968 equ <__imp_mfc42u_ordinal2968>
+
+externdef __imp_mfc42u_ordinal2969:PPROC
+mfc42u_ordinal2969 equ <__imp_mfc42u_ordinal2969>
+
+externdef __imp_mfc42u_ordinal296:PPROC
+mfc42u_ordinal296 equ <__imp_mfc42u_ordinal296>
+
+externdef __imp_mfc42u_ordinal2970:PPROC
+mfc42u_ordinal2970 equ <__imp_mfc42u_ordinal2970>
+
+externdef __imp_mfc42u_ordinal2971:PPROC
+mfc42u_ordinal2971 equ <__imp_mfc42u_ordinal2971>
+
+externdef __imp_mfc42u_ordinal2972:PPROC
+mfc42u_ordinal2972 equ <__imp_mfc42u_ordinal2972>
+
+externdef __imp_mfc42u_ordinal2973:PPROC
+mfc42u_ordinal2973 equ <__imp_mfc42u_ordinal2973>
+
+externdef __imp_mfc42u_ordinal2974:PPROC
+mfc42u_ordinal2974 equ <__imp_mfc42u_ordinal2974>
+
+externdef __imp_mfc42u_ordinal2975:PPROC
+mfc42u_ordinal2975 equ <__imp_mfc42u_ordinal2975>
+
+externdef __imp_mfc42u_ordinal2976:PPROC
+mfc42u_ordinal2976 equ <__imp_mfc42u_ordinal2976>
+
+externdef __imp_mfc42u_ordinal2977:PPROC
+mfc42u_ordinal2977 equ <__imp_mfc42u_ordinal2977>
+
+externdef __imp_mfc42u_ordinal2978:PPROC
+mfc42u_ordinal2978 equ <__imp_mfc42u_ordinal2978>
+
+externdef __imp_mfc42u_ordinal2979:PPROC
+mfc42u_ordinal2979 equ <__imp_mfc42u_ordinal2979>
+
+externdef __imp_mfc42u_ordinal297:PPROC
+mfc42u_ordinal297 equ <__imp_mfc42u_ordinal297>
+
+externdef __imp_mfc42u_ordinal2980:PPROC
+mfc42u_ordinal2980 equ <__imp_mfc42u_ordinal2980>
+
+externdef __imp_mfc42u_ordinal2981:PPROC
+mfc42u_ordinal2981 equ <__imp_mfc42u_ordinal2981>
+
+externdef __imp_mfc42u_ordinal2982:PPROC
+mfc42u_ordinal2982 equ <__imp_mfc42u_ordinal2982>
+
+externdef __imp_mfc42u_ordinal2983:PPROC
+mfc42u_ordinal2983 equ <__imp_mfc42u_ordinal2983>
+
+externdef __imp_mfc42u_ordinal2984:PPROC
+mfc42u_ordinal2984 equ <__imp_mfc42u_ordinal2984>
+
+externdef __imp_mfc42u_ordinal2985:PPROC
+mfc42u_ordinal2985 equ <__imp_mfc42u_ordinal2985>
+
+externdef __imp_mfc42u_ordinal2986:PPROC
+mfc42u_ordinal2986 equ <__imp_mfc42u_ordinal2986>
+
+externdef __imp_mfc42u_ordinal2987:PPROC
+mfc42u_ordinal2987 equ <__imp_mfc42u_ordinal2987>
+
+externdef __imp_mfc42u_ordinal2988:PPROC
+mfc42u_ordinal2988 equ <__imp_mfc42u_ordinal2988>
+
+externdef __imp_mfc42u_ordinal2989:PPROC
+mfc42u_ordinal2989 equ <__imp_mfc42u_ordinal2989>
+
+externdef __imp_mfc42u_ordinal298:PPROC
+mfc42u_ordinal298 equ <__imp_mfc42u_ordinal298>
+
+externdef __imp_mfc42u_ordinal2990:PPROC
+mfc42u_ordinal2990 equ <__imp_mfc42u_ordinal2990>
+
+externdef __imp_mfc42u_ordinal2991:PPROC
+mfc42u_ordinal2991 equ <__imp_mfc42u_ordinal2991>
+
+externdef __imp_mfc42u_ordinal2992:PPROC
+mfc42u_ordinal2992 equ <__imp_mfc42u_ordinal2992>
+
+externdef __imp_mfc42u_ordinal2993:PPROC
+mfc42u_ordinal2993 equ <__imp_mfc42u_ordinal2993>
+
+externdef __imp_mfc42u_ordinal2994:PPROC
+mfc42u_ordinal2994 equ <__imp_mfc42u_ordinal2994>
+
+externdef __imp_mfc42u_ordinal2995:PPROC
+mfc42u_ordinal2995 equ <__imp_mfc42u_ordinal2995>
+
+externdef __imp_mfc42u_ordinal2996:PPROC
+mfc42u_ordinal2996 equ <__imp_mfc42u_ordinal2996>
+
+externdef __imp_mfc42u_ordinal2997:PPROC
+mfc42u_ordinal2997 equ <__imp_mfc42u_ordinal2997>
+
+externdef __imp_mfc42u_ordinal2998:PPROC
+mfc42u_ordinal2998 equ <__imp_mfc42u_ordinal2998>
+
+externdef __imp_mfc42u_ordinal2999:PPROC
+mfc42u_ordinal2999 equ <__imp_mfc42u_ordinal2999>
+
+externdef __imp_mfc42u_ordinal299:PPROC
+mfc42u_ordinal299 equ <__imp_mfc42u_ordinal299>
+
+externdef __imp_mfc42u_ordinal29:PPROC
+mfc42u_ordinal29 equ <__imp_mfc42u_ordinal29>
+
+externdef __imp_mfc42u_ordinal3000:PPROC
+mfc42u_ordinal3000 equ <__imp_mfc42u_ordinal3000>
+
+externdef __imp_mfc42u_ordinal3001:PPROC
+mfc42u_ordinal3001 equ <__imp_mfc42u_ordinal3001>
+
+externdef __imp_mfc42u_ordinal3002:PPROC
+mfc42u_ordinal3002 equ <__imp_mfc42u_ordinal3002>
+
+externdef __imp_mfc42u_ordinal3003:PPROC
+mfc42u_ordinal3003 equ <__imp_mfc42u_ordinal3003>
+
+externdef __imp_mfc42u_ordinal3004:PPROC
+mfc42u_ordinal3004 equ <__imp_mfc42u_ordinal3004>
+
+externdef __imp_mfc42u_ordinal3005:PPROC
+mfc42u_ordinal3005 equ <__imp_mfc42u_ordinal3005>
+
+externdef __imp_mfc42u_ordinal3006:PPROC
+mfc42u_ordinal3006 equ <__imp_mfc42u_ordinal3006>
+
+externdef __imp_mfc42u_ordinal3007:PPROC
+mfc42u_ordinal3007 equ <__imp_mfc42u_ordinal3007>
+
+externdef __imp_mfc42u_ordinal3008:PPROC
+mfc42u_ordinal3008 equ <__imp_mfc42u_ordinal3008>
+
+externdef __imp_mfc42u_ordinal3009:PPROC
+mfc42u_ordinal3009 equ <__imp_mfc42u_ordinal3009>
+
+externdef __imp_mfc42u_ordinal300:PPROC
+mfc42u_ordinal300 equ <__imp_mfc42u_ordinal300>
+
+externdef __imp_mfc42u_ordinal3010:PPROC
+mfc42u_ordinal3010 equ <__imp_mfc42u_ordinal3010>
+
+externdef __imp_mfc42u_ordinal3011:PPROC
+mfc42u_ordinal3011 equ <__imp_mfc42u_ordinal3011>
+
+externdef __imp_mfc42u_ordinal3012:PPROC
+mfc42u_ordinal3012 equ <__imp_mfc42u_ordinal3012>
+
+externdef __imp_mfc42u_ordinal3013:PPROC
+mfc42u_ordinal3013 equ <__imp_mfc42u_ordinal3013>
+
+externdef __imp_mfc42u_ordinal3014:PPROC
+mfc42u_ordinal3014 equ <__imp_mfc42u_ordinal3014>
+
+externdef __imp_mfc42u_ordinal3015:PPROC
+mfc42u_ordinal3015 equ <__imp_mfc42u_ordinal3015>
+
+externdef __imp_mfc42u_ordinal3016:PPROC
+mfc42u_ordinal3016 equ <__imp_mfc42u_ordinal3016>
+
+externdef __imp_mfc42u_ordinal3017:PPROC
+mfc42u_ordinal3017 equ <__imp_mfc42u_ordinal3017>
+
+externdef __imp_mfc42u_ordinal3018:PPROC
+mfc42u_ordinal3018 equ <__imp_mfc42u_ordinal3018>
+
+externdef __imp_mfc42u_ordinal3019:PPROC
+mfc42u_ordinal3019 equ <__imp_mfc42u_ordinal3019>
+
+externdef __imp_mfc42u_ordinal301:PPROC
+mfc42u_ordinal301 equ <__imp_mfc42u_ordinal301>
+
+externdef __imp_mfc42u_ordinal3020:PPROC
+mfc42u_ordinal3020 equ <__imp_mfc42u_ordinal3020>
+
+externdef __imp_mfc42u_ordinal3021:PPROC
+mfc42u_ordinal3021 equ <__imp_mfc42u_ordinal3021>
+
+externdef __imp_mfc42u_ordinal3022:PPROC
+mfc42u_ordinal3022 equ <__imp_mfc42u_ordinal3022>
+
+externdef __imp_mfc42u_ordinal3023:PPROC
+mfc42u_ordinal3023 equ <__imp_mfc42u_ordinal3023>
+
+externdef __imp_mfc42u_ordinal3024:PPROC
+mfc42u_ordinal3024 equ <__imp_mfc42u_ordinal3024>
+
+externdef __imp_mfc42u_ordinal3025:PPROC
+mfc42u_ordinal3025 equ <__imp_mfc42u_ordinal3025>
+
+externdef __imp_mfc42u_ordinal3026:PPROC
+mfc42u_ordinal3026 equ <__imp_mfc42u_ordinal3026>
+
+externdef __imp_mfc42u_ordinal3027:PPROC
+mfc42u_ordinal3027 equ <__imp_mfc42u_ordinal3027>
+
+externdef __imp_mfc42u_ordinal3028:PPROC
+mfc42u_ordinal3028 equ <__imp_mfc42u_ordinal3028>
+
+externdef __imp_mfc42u_ordinal3029:PPROC
+mfc42u_ordinal3029 equ <__imp_mfc42u_ordinal3029>
+
+externdef __imp_mfc42u_ordinal302:PPROC
+mfc42u_ordinal302 equ <__imp_mfc42u_ordinal302>
+
+externdef __imp_mfc42u_ordinal3030:PPROC
+mfc42u_ordinal3030 equ <__imp_mfc42u_ordinal3030>
+
+externdef __imp_mfc42u_ordinal3031:PPROC
+mfc42u_ordinal3031 equ <__imp_mfc42u_ordinal3031>
+
+externdef __imp_mfc42u_ordinal3032:PPROC
+mfc42u_ordinal3032 equ <__imp_mfc42u_ordinal3032>
+
+externdef __imp_mfc42u_ordinal3033:PPROC
+mfc42u_ordinal3033 equ <__imp_mfc42u_ordinal3033>
+
+externdef __imp_mfc42u_ordinal3034:PPROC
+mfc42u_ordinal3034 equ <__imp_mfc42u_ordinal3034>
+
+externdef __imp_mfc42u_ordinal3035:PPROC
+mfc42u_ordinal3035 equ <__imp_mfc42u_ordinal3035>
+
+externdef __imp_mfc42u_ordinal3036:PPROC
+mfc42u_ordinal3036 equ <__imp_mfc42u_ordinal3036>
+
+externdef __imp_mfc42u_ordinal3037:PPROC
+mfc42u_ordinal3037 equ <__imp_mfc42u_ordinal3037>
+
+externdef __imp_mfc42u_ordinal3038:PPROC
+mfc42u_ordinal3038 equ <__imp_mfc42u_ordinal3038>
+
+externdef __imp_mfc42u_ordinal3039:PPROC
+mfc42u_ordinal3039 equ <__imp_mfc42u_ordinal3039>
+
+externdef __imp_mfc42u_ordinal303:PPROC
+mfc42u_ordinal303 equ <__imp_mfc42u_ordinal303>
+
+externdef __imp_mfc42u_ordinal3040:PPROC
+mfc42u_ordinal3040 equ <__imp_mfc42u_ordinal3040>
+
+externdef __imp_mfc42u_ordinal3041:PPROC
+mfc42u_ordinal3041 equ <__imp_mfc42u_ordinal3041>
+
+externdef __imp_mfc42u_ordinal3042:PPROC
+mfc42u_ordinal3042 equ <__imp_mfc42u_ordinal3042>
+
+externdef __imp_mfc42u_ordinal3043:PPROC
+mfc42u_ordinal3043 equ <__imp_mfc42u_ordinal3043>
+
+externdef __imp_mfc42u_ordinal3044:PPROC
+mfc42u_ordinal3044 equ <__imp_mfc42u_ordinal3044>
+
+externdef __imp_mfc42u_ordinal3045:PPROC
+mfc42u_ordinal3045 equ <__imp_mfc42u_ordinal3045>
+
+externdef __imp_mfc42u_ordinal3046:PPROC
+mfc42u_ordinal3046 equ <__imp_mfc42u_ordinal3046>
+
+externdef __imp_mfc42u_ordinal3047:PPROC
+mfc42u_ordinal3047 equ <__imp_mfc42u_ordinal3047>
+
+externdef __imp_mfc42u_ordinal3048:PPROC
+mfc42u_ordinal3048 equ <__imp_mfc42u_ordinal3048>
+
+externdef __imp_mfc42u_ordinal3049:PPROC
+mfc42u_ordinal3049 equ <__imp_mfc42u_ordinal3049>
+
+externdef __imp_mfc42u_ordinal304:PPROC
+mfc42u_ordinal304 equ <__imp_mfc42u_ordinal304>
+
+externdef __imp_mfc42u_ordinal3050:PPROC
+mfc42u_ordinal3050 equ <__imp_mfc42u_ordinal3050>
+
+externdef __imp_mfc42u_ordinal3051:PPROC
+mfc42u_ordinal3051 equ <__imp_mfc42u_ordinal3051>
+
+externdef __imp_mfc42u_ordinal3052:PPROC
+mfc42u_ordinal3052 equ <__imp_mfc42u_ordinal3052>
+
+externdef __imp_mfc42u_ordinal3053:PPROC
+mfc42u_ordinal3053 equ <__imp_mfc42u_ordinal3053>
+
+externdef __imp_mfc42u_ordinal3054:PPROC
+mfc42u_ordinal3054 equ <__imp_mfc42u_ordinal3054>
+
+externdef __imp_mfc42u_ordinal3055:PPROC
+mfc42u_ordinal3055 equ <__imp_mfc42u_ordinal3055>
+
+externdef __imp_mfc42u_ordinal3056:PPROC
+mfc42u_ordinal3056 equ <__imp_mfc42u_ordinal3056>
+
+externdef __imp_mfc42u_ordinal3057:PPROC
+mfc42u_ordinal3057 equ <__imp_mfc42u_ordinal3057>
+
+externdef __imp_mfc42u_ordinal3058:PPROC
+mfc42u_ordinal3058 equ <__imp_mfc42u_ordinal3058>
+
+externdef __imp_mfc42u_ordinal3059:PPROC
+mfc42u_ordinal3059 equ <__imp_mfc42u_ordinal3059>
+
+externdef __imp_mfc42u_ordinal305:PPROC
+mfc42u_ordinal305 equ <__imp_mfc42u_ordinal305>
+
+externdef __imp_mfc42u_ordinal3060:PPROC
+mfc42u_ordinal3060 equ <__imp_mfc42u_ordinal3060>
+
+externdef __imp_mfc42u_ordinal3061:PPROC
+mfc42u_ordinal3061 equ <__imp_mfc42u_ordinal3061>
+
+externdef __imp_mfc42u_ordinal3062:PPROC
+mfc42u_ordinal3062 equ <__imp_mfc42u_ordinal3062>
+
+externdef __imp_mfc42u_ordinal3063:PPROC
+mfc42u_ordinal3063 equ <__imp_mfc42u_ordinal3063>
+
+externdef __imp_mfc42u_ordinal3064:PPROC
+mfc42u_ordinal3064 equ <__imp_mfc42u_ordinal3064>
+
+externdef __imp_mfc42u_ordinal3065:PPROC
+mfc42u_ordinal3065 equ <__imp_mfc42u_ordinal3065>
+
+externdef __imp_mfc42u_ordinal3066:PPROC
+mfc42u_ordinal3066 equ <__imp_mfc42u_ordinal3066>
+
+externdef __imp_mfc42u_ordinal3067:PPROC
+mfc42u_ordinal3067 equ <__imp_mfc42u_ordinal3067>
+
+externdef __imp_mfc42u_ordinal3068:PPROC
+mfc42u_ordinal3068 equ <__imp_mfc42u_ordinal3068>
+
+externdef __imp_mfc42u_ordinal3069:PPROC
+mfc42u_ordinal3069 equ <__imp_mfc42u_ordinal3069>
+
+externdef __imp_mfc42u_ordinal306:PPROC
+mfc42u_ordinal306 equ <__imp_mfc42u_ordinal306>
+
+externdef __imp_mfc42u_ordinal3070:PPROC
+mfc42u_ordinal3070 equ <__imp_mfc42u_ordinal3070>
+
+externdef __imp_mfc42u_ordinal3071:PPROC
+mfc42u_ordinal3071 equ <__imp_mfc42u_ordinal3071>
+
+externdef __imp_mfc42u_ordinal3072:PPROC
+mfc42u_ordinal3072 equ <__imp_mfc42u_ordinal3072>
+
+externdef __imp_mfc42u_ordinal3073:PPROC
+mfc42u_ordinal3073 equ <__imp_mfc42u_ordinal3073>
+
+externdef __imp_mfc42u_ordinal3074:PPROC
+mfc42u_ordinal3074 equ <__imp_mfc42u_ordinal3074>
+
+externdef __imp_mfc42u_ordinal3075:PPROC
+mfc42u_ordinal3075 equ <__imp_mfc42u_ordinal3075>
+
+externdef __imp_mfc42u_ordinal3076:PPROC
+mfc42u_ordinal3076 equ <__imp_mfc42u_ordinal3076>
+
+externdef __imp_mfc42u_ordinal3077:PPROC
+mfc42u_ordinal3077 equ <__imp_mfc42u_ordinal3077>
+
+externdef __imp_mfc42u_ordinal3078:PPROC
+mfc42u_ordinal3078 equ <__imp_mfc42u_ordinal3078>
+
+externdef __imp_mfc42u_ordinal3079:PPROC
+mfc42u_ordinal3079 equ <__imp_mfc42u_ordinal3079>
+
+externdef __imp_mfc42u_ordinal307:PPROC
+mfc42u_ordinal307 equ <__imp_mfc42u_ordinal307>
+
+externdef __imp_mfc42u_ordinal3080:PPROC
+mfc42u_ordinal3080 equ <__imp_mfc42u_ordinal3080>
+
+externdef __imp_mfc42u_ordinal3081:PPROC
+mfc42u_ordinal3081 equ <__imp_mfc42u_ordinal3081>
+
+externdef __imp_mfc42u_ordinal3082:PPROC
+mfc42u_ordinal3082 equ <__imp_mfc42u_ordinal3082>
+
+externdef __imp_mfc42u_ordinal3083:PPROC
+mfc42u_ordinal3083 equ <__imp_mfc42u_ordinal3083>
+
+externdef __imp_mfc42u_ordinal3084:PPROC
+mfc42u_ordinal3084 equ <__imp_mfc42u_ordinal3084>
+
+externdef __imp_mfc42u_ordinal3085:PPROC
+mfc42u_ordinal3085 equ <__imp_mfc42u_ordinal3085>
+
+externdef __imp_mfc42u_ordinal3086:PPROC
+mfc42u_ordinal3086 equ <__imp_mfc42u_ordinal3086>
+
+externdef __imp_mfc42u_ordinal3087:PPROC
+mfc42u_ordinal3087 equ <__imp_mfc42u_ordinal3087>
+
+externdef __imp_mfc42u_ordinal3088:PPROC
+mfc42u_ordinal3088 equ <__imp_mfc42u_ordinal3088>
+
+externdef __imp_mfc42u_ordinal3089:PPROC
+mfc42u_ordinal3089 equ <__imp_mfc42u_ordinal3089>
+
+externdef __imp_mfc42u_ordinal308:PPROC
+mfc42u_ordinal308 equ <__imp_mfc42u_ordinal308>
+
+externdef __imp_mfc42u_ordinal3090:PPROC
+mfc42u_ordinal3090 equ <__imp_mfc42u_ordinal3090>
+
+externdef __imp_mfc42u_ordinal3091:PPROC
+mfc42u_ordinal3091 equ <__imp_mfc42u_ordinal3091>
+
+externdef __imp_mfc42u_ordinal3092:PPROC
+mfc42u_ordinal3092 equ <__imp_mfc42u_ordinal3092>
+
+externdef __imp_mfc42u_ordinal3093:PPROC
+mfc42u_ordinal3093 equ <__imp_mfc42u_ordinal3093>
+
+externdef __imp_mfc42u_ordinal3094:PPROC
+mfc42u_ordinal3094 equ <__imp_mfc42u_ordinal3094>
+
+externdef __imp_mfc42u_ordinal3095:PPROC
+mfc42u_ordinal3095 equ <__imp_mfc42u_ordinal3095>
+
+externdef __imp_mfc42u_ordinal3096:PPROC
+mfc42u_ordinal3096 equ <__imp_mfc42u_ordinal3096>
+
+externdef __imp_mfc42u_ordinal3097:PPROC
+mfc42u_ordinal3097 equ <__imp_mfc42u_ordinal3097>
+
+externdef __imp_mfc42u_ordinal3098:PPROC
+mfc42u_ordinal3098 equ <__imp_mfc42u_ordinal3098>
+
+externdef __imp_mfc42u_ordinal3099:PPROC
+mfc42u_ordinal3099 equ <__imp_mfc42u_ordinal3099>
+
+externdef __imp_mfc42u_ordinal309:PPROC
+mfc42u_ordinal309 equ <__imp_mfc42u_ordinal309>
+
+externdef __imp_mfc42u_ordinal30:PPROC
+mfc42u_ordinal30 equ <__imp_mfc42u_ordinal30>
+
+externdef __imp_mfc42u_ordinal3100:PPROC
+mfc42u_ordinal3100 equ <__imp_mfc42u_ordinal3100>
+
+externdef __imp_mfc42u_ordinal3101:PPROC
+mfc42u_ordinal3101 equ <__imp_mfc42u_ordinal3101>
+
+externdef __imp_mfc42u_ordinal3102:PPROC
+mfc42u_ordinal3102 equ <__imp_mfc42u_ordinal3102>
+
+externdef __imp_mfc42u_ordinal3103:PPROC
+mfc42u_ordinal3103 equ <__imp_mfc42u_ordinal3103>
+
+externdef __imp_mfc42u_ordinal3104:PPROC
+mfc42u_ordinal3104 equ <__imp_mfc42u_ordinal3104>
+
+externdef __imp_mfc42u_ordinal3105:PPROC
+mfc42u_ordinal3105 equ <__imp_mfc42u_ordinal3105>
+
+externdef __imp_mfc42u_ordinal3106:PPROC
+mfc42u_ordinal3106 equ <__imp_mfc42u_ordinal3106>
+
+externdef __imp_mfc42u_ordinal3107:PPROC
+mfc42u_ordinal3107 equ <__imp_mfc42u_ordinal3107>
+
+externdef __imp_mfc42u_ordinal3108:PPROC
+mfc42u_ordinal3108 equ <__imp_mfc42u_ordinal3108>
+
+externdef __imp_mfc42u_ordinal3109:PPROC
+mfc42u_ordinal3109 equ <__imp_mfc42u_ordinal3109>
+
+externdef __imp_mfc42u_ordinal310:PPROC
+mfc42u_ordinal310 equ <__imp_mfc42u_ordinal310>
+
+externdef __imp_mfc42u_ordinal3110:PPROC
+mfc42u_ordinal3110 equ <__imp_mfc42u_ordinal3110>
+
+externdef __imp_mfc42u_ordinal3111:PPROC
+mfc42u_ordinal3111 equ <__imp_mfc42u_ordinal3111>
+
+externdef __imp_mfc42u_ordinal3112:PPROC
+mfc42u_ordinal3112 equ <__imp_mfc42u_ordinal3112>
+
+externdef __imp_mfc42u_ordinal3113:PPROC
+mfc42u_ordinal3113 equ <__imp_mfc42u_ordinal3113>
+
+externdef __imp_mfc42u_ordinal3114:PPROC
+mfc42u_ordinal3114 equ <__imp_mfc42u_ordinal3114>
+
+externdef __imp_mfc42u_ordinal3115:PPROC
+mfc42u_ordinal3115 equ <__imp_mfc42u_ordinal3115>
+
+externdef __imp_mfc42u_ordinal3116:PPROC
+mfc42u_ordinal3116 equ <__imp_mfc42u_ordinal3116>
+
+externdef __imp_mfc42u_ordinal3117:PPROC
+mfc42u_ordinal3117 equ <__imp_mfc42u_ordinal3117>
+
+externdef __imp_mfc42u_ordinal3118:PPROC
+mfc42u_ordinal3118 equ <__imp_mfc42u_ordinal3118>
+
+externdef __imp_mfc42u_ordinal3119:PPROC
+mfc42u_ordinal3119 equ <__imp_mfc42u_ordinal3119>
+
+externdef __imp_mfc42u_ordinal311:PPROC
+mfc42u_ordinal311 equ <__imp_mfc42u_ordinal311>
+
+externdef __imp_mfc42u_ordinal3120:PPROC
+mfc42u_ordinal3120 equ <__imp_mfc42u_ordinal3120>
+
+externdef __imp_mfc42u_ordinal3121:PPROC
+mfc42u_ordinal3121 equ <__imp_mfc42u_ordinal3121>
+
+externdef __imp_mfc42u_ordinal3122:PPROC
+mfc42u_ordinal3122 equ <__imp_mfc42u_ordinal3122>
+
+externdef __imp_mfc42u_ordinal3123:PPROC
+mfc42u_ordinal3123 equ <__imp_mfc42u_ordinal3123>
+
+externdef __imp_mfc42u_ordinal3124:PPROC
+mfc42u_ordinal3124 equ <__imp_mfc42u_ordinal3124>
+
+externdef __imp_mfc42u_ordinal3125:PPROC
+mfc42u_ordinal3125 equ <__imp_mfc42u_ordinal3125>
+
+externdef __imp_mfc42u_ordinal3126:PPROC
+mfc42u_ordinal3126 equ <__imp_mfc42u_ordinal3126>
+
+externdef __imp_mfc42u_ordinal3127:PPROC
+mfc42u_ordinal3127 equ <__imp_mfc42u_ordinal3127>
+
+externdef __imp_mfc42u_ordinal3128:PPROC
+mfc42u_ordinal3128 equ <__imp_mfc42u_ordinal3128>
+
+externdef __imp_mfc42u_ordinal3129:PPROC
+mfc42u_ordinal3129 equ <__imp_mfc42u_ordinal3129>
+
+externdef __imp_mfc42u_ordinal312:PPROC
+mfc42u_ordinal312 equ <__imp_mfc42u_ordinal312>
+
+externdef __imp_mfc42u_ordinal3130:PPROC
+mfc42u_ordinal3130 equ <__imp_mfc42u_ordinal3130>
+
+externdef __imp_mfc42u_ordinal3131:PPROC
+mfc42u_ordinal3131 equ <__imp_mfc42u_ordinal3131>
+
+externdef __imp_mfc42u_ordinal3132:PPROC
+mfc42u_ordinal3132 equ <__imp_mfc42u_ordinal3132>
+
+externdef __imp_mfc42u_ordinal3133:PPROC
+mfc42u_ordinal3133 equ <__imp_mfc42u_ordinal3133>
+
+externdef __imp_mfc42u_ordinal3134:PPROC
+mfc42u_ordinal3134 equ <__imp_mfc42u_ordinal3134>
+
+externdef __imp_mfc42u_ordinal3135:PPROC
+mfc42u_ordinal3135 equ <__imp_mfc42u_ordinal3135>
+
+externdef __imp_mfc42u_ordinal3136:PPROC
+mfc42u_ordinal3136 equ <__imp_mfc42u_ordinal3136>
+
+externdef __imp_mfc42u_ordinal3137:PPROC
+mfc42u_ordinal3137 equ <__imp_mfc42u_ordinal3137>
+
+externdef __imp_mfc42u_ordinal3138:PPROC
+mfc42u_ordinal3138 equ <__imp_mfc42u_ordinal3138>
+
+externdef __imp_mfc42u_ordinal3139:PPROC
+mfc42u_ordinal3139 equ <__imp_mfc42u_ordinal3139>
+
+externdef __imp_mfc42u_ordinal313:PPROC
+mfc42u_ordinal313 equ <__imp_mfc42u_ordinal313>
+
+externdef __imp_mfc42u_ordinal3140:PPROC
+mfc42u_ordinal3140 equ <__imp_mfc42u_ordinal3140>
+
+externdef __imp_mfc42u_ordinal3141:PPROC
+mfc42u_ordinal3141 equ <__imp_mfc42u_ordinal3141>
+
+externdef __imp_mfc42u_ordinal3142:PPROC
+mfc42u_ordinal3142 equ <__imp_mfc42u_ordinal3142>
+
+externdef __imp_mfc42u_ordinal3143:PPROC
+mfc42u_ordinal3143 equ <__imp_mfc42u_ordinal3143>
+
+externdef __imp_mfc42u_ordinal3144:PPROC
+mfc42u_ordinal3144 equ <__imp_mfc42u_ordinal3144>
+
+externdef __imp_mfc42u_ordinal3145:PPROC
+mfc42u_ordinal3145 equ <__imp_mfc42u_ordinal3145>
+
+externdef __imp_mfc42u_ordinal3146:PPROC
+mfc42u_ordinal3146 equ <__imp_mfc42u_ordinal3146>
+
+externdef __imp_mfc42u_ordinal3147:PPROC
+mfc42u_ordinal3147 equ <__imp_mfc42u_ordinal3147>
+
+externdef __imp_mfc42u_ordinal3148:PPROC
+mfc42u_ordinal3148 equ <__imp_mfc42u_ordinal3148>
+
+externdef __imp_mfc42u_ordinal3149:PPROC
+mfc42u_ordinal3149 equ <__imp_mfc42u_ordinal3149>
+
+externdef __imp_mfc42u_ordinal314:PPROC
+mfc42u_ordinal314 equ <__imp_mfc42u_ordinal314>
+
+externdef __imp_mfc42u_ordinal3150:PPROC
+mfc42u_ordinal3150 equ <__imp_mfc42u_ordinal3150>
+
+externdef __imp_mfc42u_ordinal3151:PPROC
+mfc42u_ordinal3151 equ <__imp_mfc42u_ordinal3151>
+
+externdef __imp_mfc42u_ordinal3152:PPROC
+mfc42u_ordinal3152 equ <__imp_mfc42u_ordinal3152>
+
+externdef __imp_mfc42u_ordinal3153:PPROC
+mfc42u_ordinal3153 equ <__imp_mfc42u_ordinal3153>
+
+externdef __imp_mfc42u_ordinal3154:PPROC
+mfc42u_ordinal3154 equ <__imp_mfc42u_ordinal3154>
+
+externdef __imp_mfc42u_ordinal3155:PPROC
+mfc42u_ordinal3155 equ <__imp_mfc42u_ordinal3155>
+
+externdef __imp_mfc42u_ordinal3156:PPROC
+mfc42u_ordinal3156 equ <__imp_mfc42u_ordinal3156>
+
+externdef __imp_mfc42u_ordinal3157:PPROC
+mfc42u_ordinal3157 equ <__imp_mfc42u_ordinal3157>
+
+externdef __imp_mfc42u_ordinal3158:PPROC
+mfc42u_ordinal3158 equ <__imp_mfc42u_ordinal3158>
+
+externdef __imp_mfc42u_ordinal3159:PPROC
+mfc42u_ordinal3159 equ <__imp_mfc42u_ordinal3159>
+
+externdef __imp_mfc42u_ordinal315:PPROC
+mfc42u_ordinal315 equ <__imp_mfc42u_ordinal315>
+
+externdef __imp_mfc42u_ordinal3160:PPROC
+mfc42u_ordinal3160 equ <__imp_mfc42u_ordinal3160>
+
+externdef __imp_mfc42u_ordinal3161:PPROC
+mfc42u_ordinal3161 equ <__imp_mfc42u_ordinal3161>
+
+externdef __imp_mfc42u_ordinal3162:PPROC
+mfc42u_ordinal3162 equ <__imp_mfc42u_ordinal3162>
+
+externdef __imp_mfc42u_ordinal3163:PPROC
+mfc42u_ordinal3163 equ <__imp_mfc42u_ordinal3163>
+
+externdef __imp_mfc42u_ordinal3164:PPROC
+mfc42u_ordinal3164 equ <__imp_mfc42u_ordinal3164>
+
+externdef __imp_mfc42u_ordinal3165:PPROC
+mfc42u_ordinal3165 equ <__imp_mfc42u_ordinal3165>
+
+externdef __imp_mfc42u_ordinal3166:PPROC
+mfc42u_ordinal3166 equ <__imp_mfc42u_ordinal3166>
+
+externdef __imp_mfc42u_ordinal3167:PPROC
+mfc42u_ordinal3167 equ <__imp_mfc42u_ordinal3167>
+
+externdef __imp_mfc42u_ordinal3168:PPROC
+mfc42u_ordinal3168 equ <__imp_mfc42u_ordinal3168>
+
+externdef __imp_mfc42u_ordinal3169:PPROC
+mfc42u_ordinal3169 equ <__imp_mfc42u_ordinal3169>
+
+externdef __imp_mfc42u_ordinal316:PPROC
+mfc42u_ordinal316 equ <__imp_mfc42u_ordinal316>
+
+externdef __imp_mfc42u_ordinal3170:PPROC
+mfc42u_ordinal3170 equ <__imp_mfc42u_ordinal3170>
+
+externdef __imp_mfc42u_ordinal3171:PPROC
+mfc42u_ordinal3171 equ <__imp_mfc42u_ordinal3171>
+
+externdef __imp_mfc42u_ordinal3172:PPROC
+mfc42u_ordinal3172 equ <__imp_mfc42u_ordinal3172>
+
+externdef __imp_mfc42u_ordinal3173:PPROC
+mfc42u_ordinal3173 equ <__imp_mfc42u_ordinal3173>
+
+externdef __imp_mfc42u_ordinal3174:PPROC
+mfc42u_ordinal3174 equ <__imp_mfc42u_ordinal3174>
+
+externdef __imp_mfc42u_ordinal3175:PPROC
+mfc42u_ordinal3175 equ <__imp_mfc42u_ordinal3175>
+
+externdef __imp_mfc42u_ordinal3176:PPROC
+mfc42u_ordinal3176 equ <__imp_mfc42u_ordinal3176>
+
+externdef __imp_mfc42u_ordinal3177:PPROC
+mfc42u_ordinal3177 equ <__imp_mfc42u_ordinal3177>
+
+externdef __imp_mfc42u_ordinal3178:PPROC
+mfc42u_ordinal3178 equ <__imp_mfc42u_ordinal3178>
+
+externdef __imp_mfc42u_ordinal3179:PPROC
+mfc42u_ordinal3179 equ <__imp_mfc42u_ordinal3179>
+
+externdef __imp_mfc42u_ordinal317:PPROC
+mfc42u_ordinal317 equ <__imp_mfc42u_ordinal317>
+
+externdef __imp_mfc42u_ordinal3180:PPROC
+mfc42u_ordinal3180 equ <__imp_mfc42u_ordinal3180>
+
+externdef __imp_mfc42u_ordinal3181:PPROC
+mfc42u_ordinal3181 equ <__imp_mfc42u_ordinal3181>
+
+externdef __imp_mfc42u_ordinal3182:PPROC
+mfc42u_ordinal3182 equ <__imp_mfc42u_ordinal3182>
+
+externdef __imp_mfc42u_ordinal3183:PPROC
+mfc42u_ordinal3183 equ <__imp_mfc42u_ordinal3183>
+
+externdef __imp_mfc42u_ordinal3184:PPROC
+mfc42u_ordinal3184 equ <__imp_mfc42u_ordinal3184>
+
+externdef __imp_mfc42u_ordinal3185:PPROC
+mfc42u_ordinal3185 equ <__imp_mfc42u_ordinal3185>
+
+externdef __imp_mfc42u_ordinal3186:PPROC
+mfc42u_ordinal3186 equ <__imp_mfc42u_ordinal3186>
+
+externdef __imp_mfc42u_ordinal3187:PPROC
+mfc42u_ordinal3187 equ <__imp_mfc42u_ordinal3187>
+
+externdef __imp_mfc42u_ordinal3188:PPROC
+mfc42u_ordinal3188 equ <__imp_mfc42u_ordinal3188>
+
+externdef __imp_mfc42u_ordinal3189:PPROC
+mfc42u_ordinal3189 equ <__imp_mfc42u_ordinal3189>
+
+externdef __imp_mfc42u_ordinal318:PPROC
+mfc42u_ordinal318 equ <__imp_mfc42u_ordinal318>
+
+externdef __imp_mfc42u_ordinal3190:PPROC
+mfc42u_ordinal3190 equ <__imp_mfc42u_ordinal3190>
+
+externdef __imp_mfc42u_ordinal3191:PPROC
+mfc42u_ordinal3191 equ <__imp_mfc42u_ordinal3191>
+
+externdef __imp_mfc42u_ordinal3192:PPROC
+mfc42u_ordinal3192 equ <__imp_mfc42u_ordinal3192>
+
+externdef __imp_mfc42u_ordinal3193:PPROC
+mfc42u_ordinal3193 equ <__imp_mfc42u_ordinal3193>
+
+externdef __imp_mfc42u_ordinal3194:PPROC
+mfc42u_ordinal3194 equ <__imp_mfc42u_ordinal3194>
+
+externdef __imp_mfc42u_ordinal3195:PPROC
+mfc42u_ordinal3195 equ <__imp_mfc42u_ordinal3195>
+
+externdef __imp_mfc42u_ordinal3196:PPROC
+mfc42u_ordinal3196 equ <__imp_mfc42u_ordinal3196>
+
+externdef __imp_mfc42u_ordinal3197:PPROC
+mfc42u_ordinal3197 equ <__imp_mfc42u_ordinal3197>
+
+externdef __imp_mfc42u_ordinal3198:PPROC
+mfc42u_ordinal3198 equ <__imp_mfc42u_ordinal3198>
+
+externdef __imp_mfc42u_ordinal3199:PPROC
+mfc42u_ordinal3199 equ <__imp_mfc42u_ordinal3199>
+
+externdef __imp_mfc42u_ordinal319:PPROC
+mfc42u_ordinal319 equ <__imp_mfc42u_ordinal319>
+
+externdef __imp_mfc42u_ordinal31:PPROC
+mfc42u_ordinal31 equ <__imp_mfc42u_ordinal31>
+
+externdef __imp_mfc42u_ordinal3200:PPROC
+mfc42u_ordinal3200 equ <__imp_mfc42u_ordinal3200>
+
+externdef __imp_mfc42u_ordinal3201:PPROC
+mfc42u_ordinal3201 equ <__imp_mfc42u_ordinal3201>
+
+externdef __imp_mfc42u_ordinal3202:PPROC
+mfc42u_ordinal3202 equ <__imp_mfc42u_ordinal3202>
+
+externdef __imp_mfc42u_ordinal3203:PPROC
+mfc42u_ordinal3203 equ <__imp_mfc42u_ordinal3203>
+
+externdef __imp_mfc42u_ordinal3204:PPROC
+mfc42u_ordinal3204 equ <__imp_mfc42u_ordinal3204>
+
+externdef __imp_mfc42u_ordinal3205:PPROC
+mfc42u_ordinal3205 equ <__imp_mfc42u_ordinal3205>
+
+externdef __imp_mfc42u_ordinal3206:PPROC
+mfc42u_ordinal3206 equ <__imp_mfc42u_ordinal3206>
+
+externdef __imp_mfc42u_ordinal3207:PPROC
+mfc42u_ordinal3207 equ <__imp_mfc42u_ordinal3207>
+
+externdef __imp_mfc42u_ordinal3208:PPROC
+mfc42u_ordinal3208 equ <__imp_mfc42u_ordinal3208>
+
+externdef __imp_mfc42u_ordinal3209:PPROC
+mfc42u_ordinal3209 equ <__imp_mfc42u_ordinal3209>
+
+externdef __imp_mfc42u_ordinal320:PPROC
+mfc42u_ordinal320 equ <__imp_mfc42u_ordinal320>
+
+externdef __imp_mfc42u_ordinal3210:PPROC
+mfc42u_ordinal3210 equ <__imp_mfc42u_ordinal3210>
+
+externdef __imp_mfc42u_ordinal3211:PPROC
+mfc42u_ordinal3211 equ <__imp_mfc42u_ordinal3211>
+
+externdef __imp_mfc42u_ordinal3212:PPROC
+mfc42u_ordinal3212 equ <__imp_mfc42u_ordinal3212>
+
+externdef __imp_mfc42u_ordinal3213:PPROC
+mfc42u_ordinal3213 equ <__imp_mfc42u_ordinal3213>
+
+externdef __imp_mfc42u_ordinal3214:PPROC
+mfc42u_ordinal3214 equ <__imp_mfc42u_ordinal3214>
+
+externdef __imp_mfc42u_ordinal3215:PPROC
+mfc42u_ordinal3215 equ <__imp_mfc42u_ordinal3215>
+
+externdef __imp_mfc42u_ordinal3216:PPROC
+mfc42u_ordinal3216 equ <__imp_mfc42u_ordinal3216>
+
+externdef __imp_mfc42u_ordinal3217:PPROC
+mfc42u_ordinal3217 equ <__imp_mfc42u_ordinal3217>
+
+externdef __imp_mfc42u_ordinal3218:PPROC
+mfc42u_ordinal3218 equ <__imp_mfc42u_ordinal3218>
+
+externdef __imp_mfc42u_ordinal3219:PPROC
+mfc42u_ordinal3219 equ <__imp_mfc42u_ordinal3219>
+
+externdef __imp_mfc42u_ordinal321:PPROC
+mfc42u_ordinal321 equ <__imp_mfc42u_ordinal321>
+
+externdef __imp_mfc42u_ordinal3220:PPROC
+mfc42u_ordinal3220 equ <__imp_mfc42u_ordinal3220>
+
+externdef __imp_mfc42u_ordinal3221:PPROC
+mfc42u_ordinal3221 equ <__imp_mfc42u_ordinal3221>
+
+externdef __imp_mfc42u_ordinal3222:PPROC
+mfc42u_ordinal3222 equ <__imp_mfc42u_ordinal3222>
+
+externdef __imp_mfc42u_ordinal3223:PPROC
+mfc42u_ordinal3223 equ <__imp_mfc42u_ordinal3223>
+
+externdef __imp_mfc42u_ordinal3224:PPROC
+mfc42u_ordinal3224 equ <__imp_mfc42u_ordinal3224>
+
+externdef __imp_mfc42u_ordinal3225:PPROC
+mfc42u_ordinal3225 equ <__imp_mfc42u_ordinal3225>
+
+externdef __imp_mfc42u_ordinal3226:PPROC
+mfc42u_ordinal3226 equ <__imp_mfc42u_ordinal3226>
+
+externdef __imp_mfc42u_ordinal3227:PPROC
+mfc42u_ordinal3227 equ <__imp_mfc42u_ordinal3227>
+
+externdef __imp_mfc42u_ordinal3228:PPROC
+mfc42u_ordinal3228 equ <__imp_mfc42u_ordinal3228>
+
+externdef __imp_mfc42u_ordinal3229:PPROC
+mfc42u_ordinal3229 equ <__imp_mfc42u_ordinal3229>
+
+externdef __imp_mfc42u_ordinal322:PPROC
+mfc42u_ordinal322 equ <__imp_mfc42u_ordinal322>
+
+externdef __imp_mfc42u_ordinal3230:PPROC
+mfc42u_ordinal3230 equ <__imp_mfc42u_ordinal3230>
+
+externdef __imp_mfc42u_ordinal3231:PPROC
+mfc42u_ordinal3231 equ <__imp_mfc42u_ordinal3231>
+
+externdef __imp_mfc42u_ordinal3232:PPROC
+mfc42u_ordinal3232 equ <__imp_mfc42u_ordinal3232>
+
+externdef __imp_mfc42u_ordinal3233:PPROC
+mfc42u_ordinal3233 equ <__imp_mfc42u_ordinal3233>
+
+externdef __imp_mfc42u_ordinal3234:PPROC
+mfc42u_ordinal3234 equ <__imp_mfc42u_ordinal3234>
+
+externdef __imp_mfc42u_ordinal3235:PPROC
+mfc42u_ordinal3235 equ <__imp_mfc42u_ordinal3235>
+
+externdef __imp_mfc42u_ordinal3236:PPROC
+mfc42u_ordinal3236 equ <__imp_mfc42u_ordinal3236>
+
+externdef __imp_mfc42u_ordinal3237:PPROC
+mfc42u_ordinal3237 equ <__imp_mfc42u_ordinal3237>
+
+externdef __imp_mfc42u_ordinal3238:PPROC
+mfc42u_ordinal3238 equ <__imp_mfc42u_ordinal3238>
+
+externdef __imp_mfc42u_ordinal3239:PPROC
+mfc42u_ordinal3239 equ <__imp_mfc42u_ordinal3239>
+
+externdef __imp_mfc42u_ordinal323:PPROC
+mfc42u_ordinal323 equ <__imp_mfc42u_ordinal323>
+
+externdef __imp_mfc42u_ordinal3240:PPROC
+mfc42u_ordinal3240 equ <__imp_mfc42u_ordinal3240>
+
+externdef __imp_mfc42u_ordinal3241:PPROC
+mfc42u_ordinal3241 equ <__imp_mfc42u_ordinal3241>
+
+externdef __imp_mfc42u_ordinal3242:PPROC
+mfc42u_ordinal3242 equ <__imp_mfc42u_ordinal3242>
+
+externdef __imp_mfc42u_ordinal3243:PPROC
+mfc42u_ordinal3243 equ <__imp_mfc42u_ordinal3243>
+
+externdef __imp_mfc42u_ordinal3244:PPROC
+mfc42u_ordinal3244 equ <__imp_mfc42u_ordinal3244>
+
+externdef __imp_mfc42u_ordinal3245:PPROC
+mfc42u_ordinal3245 equ <__imp_mfc42u_ordinal3245>
+
+externdef __imp_mfc42u_ordinal3246:PPROC
+mfc42u_ordinal3246 equ <__imp_mfc42u_ordinal3246>
+
+externdef __imp_mfc42u_ordinal3247:PPROC
+mfc42u_ordinal3247 equ <__imp_mfc42u_ordinal3247>
+
+externdef __imp_mfc42u_ordinal3248:PPROC
+mfc42u_ordinal3248 equ <__imp_mfc42u_ordinal3248>
+
+externdef __imp_mfc42u_ordinal3249:PPROC
+mfc42u_ordinal3249 equ <__imp_mfc42u_ordinal3249>
+
+externdef __imp_mfc42u_ordinal324:PPROC
+mfc42u_ordinal324 equ <__imp_mfc42u_ordinal324>
+
+externdef __imp_mfc42u_ordinal3250:PPROC
+mfc42u_ordinal3250 equ <__imp_mfc42u_ordinal3250>
+
+externdef __imp_mfc42u_ordinal3251:PPROC
+mfc42u_ordinal3251 equ <__imp_mfc42u_ordinal3251>
+
+externdef __imp_mfc42u_ordinal3252:PPROC
+mfc42u_ordinal3252 equ <__imp_mfc42u_ordinal3252>
+
+externdef __imp_mfc42u_ordinal3253:PPROC
+mfc42u_ordinal3253 equ <__imp_mfc42u_ordinal3253>
+
+externdef __imp_mfc42u_ordinal3254:PPROC
+mfc42u_ordinal3254 equ <__imp_mfc42u_ordinal3254>
+
+externdef __imp_mfc42u_ordinal3255:PPROC
+mfc42u_ordinal3255 equ <__imp_mfc42u_ordinal3255>
+
+externdef __imp_mfc42u_ordinal3256:PPROC
+mfc42u_ordinal3256 equ <__imp_mfc42u_ordinal3256>
+
+externdef __imp_mfc42u_ordinal3257:PPROC
+mfc42u_ordinal3257 equ <__imp_mfc42u_ordinal3257>
+
+externdef __imp_mfc42u_ordinal3258:PPROC
+mfc42u_ordinal3258 equ <__imp_mfc42u_ordinal3258>
+
+externdef __imp_mfc42u_ordinal3259:PPROC
+mfc42u_ordinal3259 equ <__imp_mfc42u_ordinal3259>
+
+externdef __imp_mfc42u_ordinal325:PPROC
+mfc42u_ordinal325 equ <__imp_mfc42u_ordinal325>
+
+externdef __imp_mfc42u_ordinal3260:PPROC
+mfc42u_ordinal3260 equ <__imp_mfc42u_ordinal3260>
+
+externdef __imp_mfc42u_ordinal3261:PPROC
+mfc42u_ordinal3261 equ <__imp_mfc42u_ordinal3261>
+
+externdef __imp_mfc42u_ordinal3262:PPROC
+mfc42u_ordinal3262 equ <__imp_mfc42u_ordinal3262>
+
+externdef __imp_mfc42u_ordinal3263:PPROC
+mfc42u_ordinal3263 equ <__imp_mfc42u_ordinal3263>
+
+externdef __imp_mfc42u_ordinal3264:PPROC
+mfc42u_ordinal3264 equ <__imp_mfc42u_ordinal3264>
+
+externdef __imp_mfc42u_ordinal3265:PPROC
+mfc42u_ordinal3265 equ <__imp_mfc42u_ordinal3265>
+
+externdef __imp_mfc42u_ordinal3266:PPROC
+mfc42u_ordinal3266 equ <__imp_mfc42u_ordinal3266>
+
+externdef __imp_mfc42u_ordinal3267:PPROC
+mfc42u_ordinal3267 equ <__imp_mfc42u_ordinal3267>
+
+externdef __imp_mfc42u_ordinal3268:PPROC
+mfc42u_ordinal3268 equ <__imp_mfc42u_ordinal3268>
+
+externdef __imp_mfc42u_ordinal3269:PPROC
+mfc42u_ordinal3269 equ <__imp_mfc42u_ordinal3269>
+
+externdef __imp_mfc42u_ordinal326:PPROC
+mfc42u_ordinal326 equ <__imp_mfc42u_ordinal326>
+
+externdef __imp_mfc42u_ordinal3270:PPROC
+mfc42u_ordinal3270 equ <__imp_mfc42u_ordinal3270>
+
+externdef __imp_mfc42u_ordinal3271:PPROC
+mfc42u_ordinal3271 equ <__imp_mfc42u_ordinal3271>
+
+externdef __imp_mfc42u_ordinal3272:PPROC
+mfc42u_ordinal3272 equ <__imp_mfc42u_ordinal3272>
+
+externdef __imp_mfc42u_ordinal3273:PPROC
+mfc42u_ordinal3273 equ <__imp_mfc42u_ordinal3273>
+
+externdef __imp_mfc42u_ordinal3274:PPROC
+mfc42u_ordinal3274 equ <__imp_mfc42u_ordinal3274>
+
+externdef __imp_mfc42u_ordinal3275:PPROC
+mfc42u_ordinal3275 equ <__imp_mfc42u_ordinal3275>
+
+externdef __imp_mfc42u_ordinal3276:PPROC
+mfc42u_ordinal3276 equ <__imp_mfc42u_ordinal3276>
+
+externdef __imp_mfc42u_ordinal3277:PPROC
+mfc42u_ordinal3277 equ <__imp_mfc42u_ordinal3277>
+
+externdef __imp_mfc42u_ordinal3278:PPROC
+mfc42u_ordinal3278 equ <__imp_mfc42u_ordinal3278>
+
+externdef __imp_mfc42u_ordinal3279:PPROC
+mfc42u_ordinal3279 equ <__imp_mfc42u_ordinal3279>
+
+externdef __imp_mfc42u_ordinal327:PPROC
+mfc42u_ordinal327 equ <__imp_mfc42u_ordinal327>
+
+externdef __imp_mfc42u_ordinal3280:PPROC
+mfc42u_ordinal3280 equ <__imp_mfc42u_ordinal3280>
+
+externdef __imp_mfc42u_ordinal3281:PPROC
+mfc42u_ordinal3281 equ <__imp_mfc42u_ordinal3281>
+
+externdef __imp_mfc42u_ordinal3282:PPROC
+mfc42u_ordinal3282 equ <__imp_mfc42u_ordinal3282>
+
+externdef __imp_mfc42u_ordinal3283:PPROC
+mfc42u_ordinal3283 equ <__imp_mfc42u_ordinal3283>
+
+externdef __imp_mfc42u_ordinal3284:PPROC
+mfc42u_ordinal3284 equ <__imp_mfc42u_ordinal3284>
+
+externdef __imp_mfc42u_ordinal3285:PPROC
+mfc42u_ordinal3285 equ <__imp_mfc42u_ordinal3285>
+
+externdef __imp_mfc42u_ordinal3286:PPROC
+mfc42u_ordinal3286 equ <__imp_mfc42u_ordinal3286>
+
+externdef __imp_mfc42u_ordinal3287:PPROC
+mfc42u_ordinal3287 equ <__imp_mfc42u_ordinal3287>
+
+externdef __imp_mfc42u_ordinal3288:PPROC
+mfc42u_ordinal3288 equ <__imp_mfc42u_ordinal3288>
+
+externdef __imp_mfc42u_ordinal3289:PPROC
+mfc42u_ordinal3289 equ <__imp_mfc42u_ordinal3289>
+
+externdef __imp_mfc42u_ordinal328:PPROC
+mfc42u_ordinal328 equ <__imp_mfc42u_ordinal328>
+
+externdef __imp_mfc42u_ordinal3290:PPROC
+mfc42u_ordinal3290 equ <__imp_mfc42u_ordinal3290>
+
+externdef __imp_mfc42u_ordinal3291:PPROC
+mfc42u_ordinal3291 equ <__imp_mfc42u_ordinal3291>
+
+externdef __imp_mfc42u_ordinal3292:PPROC
+mfc42u_ordinal3292 equ <__imp_mfc42u_ordinal3292>
+
+externdef __imp_mfc42u_ordinal3293:PPROC
+mfc42u_ordinal3293 equ <__imp_mfc42u_ordinal3293>
+
+externdef __imp_mfc42u_ordinal3294:PPROC
+mfc42u_ordinal3294 equ <__imp_mfc42u_ordinal3294>
+
+externdef __imp_mfc42u_ordinal3295:PPROC
+mfc42u_ordinal3295 equ <__imp_mfc42u_ordinal3295>
+
+externdef __imp_mfc42u_ordinal3296:PPROC
+mfc42u_ordinal3296 equ <__imp_mfc42u_ordinal3296>
+
+externdef __imp_mfc42u_ordinal3297:PPROC
+mfc42u_ordinal3297 equ <__imp_mfc42u_ordinal3297>
+
+externdef __imp_mfc42u_ordinal3298:PPROC
+mfc42u_ordinal3298 equ <__imp_mfc42u_ordinal3298>
+
+externdef __imp_mfc42u_ordinal3299:PPROC
+mfc42u_ordinal3299 equ <__imp_mfc42u_ordinal3299>
+
+externdef __imp_mfc42u_ordinal329:PPROC
+mfc42u_ordinal329 equ <__imp_mfc42u_ordinal329>
+
+externdef __imp_mfc42u_ordinal32:PPROC
+mfc42u_ordinal32 equ <__imp_mfc42u_ordinal32>
+
+externdef __imp_mfc42u_ordinal3300:PPROC
+mfc42u_ordinal3300 equ <__imp_mfc42u_ordinal3300>
+
+externdef __imp_mfc42u_ordinal3301:PPROC
+mfc42u_ordinal3301 equ <__imp_mfc42u_ordinal3301>
+
+externdef __imp_mfc42u_ordinal3302:PPROC
+mfc42u_ordinal3302 equ <__imp_mfc42u_ordinal3302>
+
+externdef __imp_mfc42u_ordinal3303:PPROC
+mfc42u_ordinal3303 equ <__imp_mfc42u_ordinal3303>
+
+externdef __imp_mfc42u_ordinal3304:PPROC
+mfc42u_ordinal3304 equ <__imp_mfc42u_ordinal3304>
+
+externdef __imp_mfc42u_ordinal3305:PPROC
+mfc42u_ordinal3305 equ <__imp_mfc42u_ordinal3305>
+
+externdef __imp_mfc42u_ordinal3306:PPROC
+mfc42u_ordinal3306 equ <__imp_mfc42u_ordinal3306>
+
+externdef __imp_mfc42u_ordinal3307:PPROC
+mfc42u_ordinal3307 equ <__imp_mfc42u_ordinal3307>
+
+externdef __imp_mfc42u_ordinal3308:PPROC
+mfc42u_ordinal3308 equ <__imp_mfc42u_ordinal3308>
+
+externdef __imp_mfc42u_ordinal3309:PPROC
+mfc42u_ordinal3309 equ <__imp_mfc42u_ordinal3309>
+
+externdef __imp_mfc42u_ordinal330:PPROC
+mfc42u_ordinal330 equ <__imp_mfc42u_ordinal330>
+
+externdef __imp_mfc42u_ordinal3310:PPROC
+mfc42u_ordinal3310 equ <__imp_mfc42u_ordinal3310>
+
+externdef __imp_mfc42u_ordinal3311:PPROC
+mfc42u_ordinal3311 equ <__imp_mfc42u_ordinal3311>
+
+externdef __imp_mfc42u_ordinal3312:PPROC
+mfc42u_ordinal3312 equ <__imp_mfc42u_ordinal3312>
+
+externdef __imp_mfc42u_ordinal3313:PPROC
+mfc42u_ordinal3313 equ <__imp_mfc42u_ordinal3313>
+
+externdef __imp_mfc42u_ordinal3314:PPROC
+mfc42u_ordinal3314 equ <__imp_mfc42u_ordinal3314>
+
+externdef __imp_mfc42u_ordinal3315:PPROC
+mfc42u_ordinal3315 equ <__imp_mfc42u_ordinal3315>
+
+externdef __imp_mfc42u_ordinal3316:PPROC
+mfc42u_ordinal3316 equ <__imp_mfc42u_ordinal3316>
+
+externdef __imp_mfc42u_ordinal3317:PPROC
+mfc42u_ordinal3317 equ <__imp_mfc42u_ordinal3317>
+
+externdef __imp_mfc42u_ordinal3318:PPROC
+mfc42u_ordinal3318 equ <__imp_mfc42u_ordinal3318>
+
+externdef __imp_mfc42u_ordinal3319:PPROC
+mfc42u_ordinal3319 equ <__imp_mfc42u_ordinal3319>
+
+externdef __imp_mfc42u_ordinal331:PPROC
+mfc42u_ordinal331 equ <__imp_mfc42u_ordinal331>
+
+externdef __imp_mfc42u_ordinal3320:PPROC
+mfc42u_ordinal3320 equ <__imp_mfc42u_ordinal3320>
+
+externdef __imp_mfc42u_ordinal3321:PPROC
+mfc42u_ordinal3321 equ <__imp_mfc42u_ordinal3321>
+
+externdef __imp_mfc42u_ordinal3322:PPROC
+mfc42u_ordinal3322 equ <__imp_mfc42u_ordinal3322>
+
+externdef __imp_mfc42u_ordinal3323:PPROC
+mfc42u_ordinal3323 equ <__imp_mfc42u_ordinal3323>
+
+externdef __imp_mfc42u_ordinal3324:PPROC
+mfc42u_ordinal3324 equ <__imp_mfc42u_ordinal3324>
+
+externdef __imp_mfc42u_ordinal3325:PPROC
+mfc42u_ordinal3325 equ <__imp_mfc42u_ordinal3325>
+
+externdef __imp_mfc42u_ordinal3326:PPROC
+mfc42u_ordinal3326 equ <__imp_mfc42u_ordinal3326>
+
+externdef __imp_mfc42u_ordinal3327:PPROC
+mfc42u_ordinal3327 equ <__imp_mfc42u_ordinal3327>
+
+externdef __imp_mfc42u_ordinal3328:PPROC
+mfc42u_ordinal3328 equ <__imp_mfc42u_ordinal3328>
+
+externdef __imp_mfc42u_ordinal3329:PPROC
+mfc42u_ordinal3329 equ <__imp_mfc42u_ordinal3329>
+
+externdef __imp_mfc42u_ordinal332:PPROC
+mfc42u_ordinal332 equ <__imp_mfc42u_ordinal332>
+
+externdef __imp_mfc42u_ordinal3330:PPROC
+mfc42u_ordinal3330 equ <__imp_mfc42u_ordinal3330>
+
+externdef __imp_mfc42u_ordinal3331:PPROC
+mfc42u_ordinal3331 equ <__imp_mfc42u_ordinal3331>
+
+externdef __imp_mfc42u_ordinal3332:PPROC
+mfc42u_ordinal3332 equ <__imp_mfc42u_ordinal3332>
+
+externdef __imp_mfc42u_ordinal3333:PPROC
+mfc42u_ordinal3333 equ <__imp_mfc42u_ordinal3333>
+
+externdef __imp_mfc42u_ordinal3334:PPROC
+mfc42u_ordinal3334 equ <__imp_mfc42u_ordinal3334>
+
+externdef __imp_mfc42u_ordinal3335:PPROC
+mfc42u_ordinal3335 equ <__imp_mfc42u_ordinal3335>
+
+externdef __imp_mfc42u_ordinal3336:PPROC
+mfc42u_ordinal3336 equ <__imp_mfc42u_ordinal3336>
+
+externdef __imp_mfc42u_ordinal3337:PPROC
+mfc42u_ordinal3337 equ <__imp_mfc42u_ordinal3337>
+
+externdef __imp_mfc42u_ordinal3338:PPROC
+mfc42u_ordinal3338 equ <__imp_mfc42u_ordinal3338>
+
+externdef __imp_mfc42u_ordinal3339:PPROC
+mfc42u_ordinal3339 equ <__imp_mfc42u_ordinal3339>
+
+externdef __imp_mfc42u_ordinal333:PPROC
+mfc42u_ordinal333 equ <__imp_mfc42u_ordinal333>
+
+externdef __imp_mfc42u_ordinal3340:PPROC
+mfc42u_ordinal3340 equ <__imp_mfc42u_ordinal3340>
+
+externdef __imp_mfc42u_ordinal3341:PPROC
+mfc42u_ordinal3341 equ <__imp_mfc42u_ordinal3341>
+
+externdef __imp_mfc42u_ordinal3342:PPROC
+mfc42u_ordinal3342 equ <__imp_mfc42u_ordinal3342>
+
+externdef __imp_mfc42u_ordinal3343:PPROC
+mfc42u_ordinal3343 equ <__imp_mfc42u_ordinal3343>
+
+externdef __imp_mfc42u_ordinal3344:PPROC
+mfc42u_ordinal3344 equ <__imp_mfc42u_ordinal3344>
+
+externdef __imp_mfc42u_ordinal3345:PPROC
+mfc42u_ordinal3345 equ <__imp_mfc42u_ordinal3345>
+
+externdef __imp_mfc42u_ordinal3346:PPROC
+mfc42u_ordinal3346 equ <__imp_mfc42u_ordinal3346>
+
+externdef __imp_mfc42u_ordinal3347:PPROC
+mfc42u_ordinal3347 equ <__imp_mfc42u_ordinal3347>
+
+externdef __imp_mfc42u_ordinal3348:PPROC
+mfc42u_ordinal3348 equ <__imp_mfc42u_ordinal3348>
+
+externdef __imp_mfc42u_ordinal3349:PPROC
+mfc42u_ordinal3349 equ <__imp_mfc42u_ordinal3349>
+
+externdef __imp_mfc42u_ordinal334:PPROC
+mfc42u_ordinal334 equ <__imp_mfc42u_ordinal334>
+
+externdef __imp_mfc42u_ordinal3350:PPROC
+mfc42u_ordinal3350 equ <__imp_mfc42u_ordinal3350>
+
+externdef __imp_mfc42u_ordinal3351:PPROC
+mfc42u_ordinal3351 equ <__imp_mfc42u_ordinal3351>
+
+externdef __imp_mfc42u_ordinal3352:PPROC
+mfc42u_ordinal3352 equ <__imp_mfc42u_ordinal3352>
+
+externdef __imp_mfc42u_ordinal3353:PPROC
+mfc42u_ordinal3353 equ <__imp_mfc42u_ordinal3353>
+
+externdef __imp_mfc42u_ordinal3354:PPROC
+mfc42u_ordinal3354 equ <__imp_mfc42u_ordinal3354>
+
+externdef __imp_mfc42u_ordinal3355:PPROC
+mfc42u_ordinal3355 equ <__imp_mfc42u_ordinal3355>
+
+externdef __imp_mfc42u_ordinal3356:PPROC
+mfc42u_ordinal3356 equ <__imp_mfc42u_ordinal3356>
+
+externdef __imp_mfc42u_ordinal3357:PPROC
+mfc42u_ordinal3357 equ <__imp_mfc42u_ordinal3357>
+
+externdef __imp_mfc42u_ordinal3358:PPROC
+mfc42u_ordinal3358 equ <__imp_mfc42u_ordinal3358>
+
+externdef __imp_mfc42u_ordinal3359:PPROC
+mfc42u_ordinal3359 equ <__imp_mfc42u_ordinal3359>
+
+externdef __imp_mfc42u_ordinal335:PPROC
+mfc42u_ordinal335 equ <__imp_mfc42u_ordinal335>
+
+externdef __imp_mfc42u_ordinal3360:PPROC
+mfc42u_ordinal3360 equ <__imp_mfc42u_ordinal3360>
+
+externdef __imp_mfc42u_ordinal3361:PPROC
+mfc42u_ordinal3361 equ <__imp_mfc42u_ordinal3361>
+
+externdef __imp_mfc42u_ordinal3362:PPROC
+mfc42u_ordinal3362 equ <__imp_mfc42u_ordinal3362>
+
+externdef __imp_mfc42u_ordinal3363:PPROC
+mfc42u_ordinal3363 equ <__imp_mfc42u_ordinal3363>
+
+externdef __imp_mfc42u_ordinal3364:PPROC
+mfc42u_ordinal3364 equ <__imp_mfc42u_ordinal3364>
+
+externdef __imp_mfc42u_ordinal3365:PPROC
+mfc42u_ordinal3365 equ <__imp_mfc42u_ordinal3365>
+
+externdef __imp_mfc42u_ordinal3366:PPROC
+mfc42u_ordinal3366 equ <__imp_mfc42u_ordinal3366>
+
+externdef __imp_mfc42u_ordinal3367:PPROC
+mfc42u_ordinal3367 equ <__imp_mfc42u_ordinal3367>
+
+externdef __imp_mfc42u_ordinal3368:PPROC
+mfc42u_ordinal3368 equ <__imp_mfc42u_ordinal3368>
+
+externdef __imp_mfc42u_ordinal3369:PPROC
+mfc42u_ordinal3369 equ <__imp_mfc42u_ordinal3369>
+
+externdef __imp_mfc42u_ordinal336:PPROC
+mfc42u_ordinal336 equ <__imp_mfc42u_ordinal336>
+
+externdef __imp_mfc42u_ordinal3370:PPROC
+mfc42u_ordinal3370 equ <__imp_mfc42u_ordinal3370>
+
+externdef __imp_mfc42u_ordinal3371:PPROC
+mfc42u_ordinal3371 equ <__imp_mfc42u_ordinal3371>
+
+externdef __imp_mfc42u_ordinal3372:PPROC
+mfc42u_ordinal3372 equ <__imp_mfc42u_ordinal3372>
+
+externdef __imp_mfc42u_ordinal3373:PPROC
+mfc42u_ordinal3373 equ <__imp_mfc42u_ordinal3373>
+
+externdef __imp_mfc42u_ordinal3374:PPROC
+mfc42u_ordinal3374 equ <__imp_mfc42u_ordinal3374>
+
+externdef __imp_mfc42u_ordinal3375:PPROC
+mfc42u_ordinal3375 equ <__imp_mfc42u_ordinal3375>
+
+externdef __imp_mfc42u_ordinal3376:PPROC
+mfc42u_ordinal3376 equ <__imp_mfc42u_ordinal3376>
+
+externdef __imp_mfc42u_ordinal3377:PPROC
+mfc42u_ordinal3377 equ <__imp_mfc42u_ordinal3377>
+
+externdef __imp_mfc42u_ordinal3378:PPROC
+mfc42u_ordinal3378 equ <__imp_mfc42u_ordinal3378>
+
+externdef __imp_mfc42u_ordinal3379:PPROC
+mfc42u_ordinal3379 equ <__imp_mfc42u_ordinal3379>
+
+externdef __imp_mfc42u_ordinal337:PPROC
+mfc42u_ordinal337 equ <__imp_mfc42u_ordinal337>
+
+externdef __imp_mfc42u_ordinal3380:PPROC
+mfc42u_ordinal3380 equ <__imp_mfc42u_ordinal3380>
+
+externdef __imp_mfc42u_ordinal3381:PPROC
+mfc42u_ordinal3381 equ <__imp_mfc42u_ordinal3381>
+
+externdef __imp_mfc42u_ordinal3382:PPROC
+mfc42u_ordinal3382 equ <__imp_mfc42u_ordinal3382>
+
+externdef __imp_mfc42u_ordinal3383:PPROC
+mfc42u_ordinal3383 equ <__imp_mfc42u_ordinal3383>
+
+externdef __imp_mfc42u_ordinal3384:PPROC
+mfc42u_ordinal3384 equ <__imp_mfc42u_ordinal3384>
+
+externdef __imp_mfc42u_ordinal3385:PPROC
+mfc42u_ordinal3385 equ <__imp_mfc42u_ordinal3385>
+
+externdef __imp_mfc42u_ordinal3386:PPROC
+mfc42u_ordinal3386 equ <__imp_mfc42u_ordinal3386>
+
+externdef __imp_mfc42u_ordinal3387:PPROC
+mfc42u_ordinal3387 equ <__imp_mfc42u_ordinal3387>
+
+externdef __imp_mfc42u_ordinal3388:PPROC
+mfc42u_ordinal3388 equ <__imp_mfc42u_ordinal3388>
+
+externdef __imp_mfc42u_ordinal3389:PPROC
+mfc42u_ordinal3389 equ <__imp_mfc42u_ordinal3389>
+
+externdef __imp_mfc42u_ordinal338:PPROC
+mfc42u_ordinal338 equ <__imp_mfc42u_ordinal338>
+
+externdef __imp_mfc42u_ordinal3390:PPROC
+mfc42u_ordinal3390 equ <__imp_mfc42u_ordinal3390>
+
+externdef __imp_mfc42u_ordinal3391:PPROC
+mfc42u_ordinal3391 equ <__imp_mfc42u_ordinal3391>
+
+externdef __imp_mfc42u_ordinal3392:PPROC
+mfc42u_ordinal3392 equ <__imp_mfc42u_ordinal3392>
+
+externdef __imp_mfc42u_ordinal3393:PPROC
+mfc42u_ordinal3393 equ <__imp_mfc42u_ordinal3393>
+
+externdef __imp_mfc42u_ordinal3394:PPROC
+mfc42u_ordinal3394 equ <__imp_mfc42u_ordinal3394>
+
+externdef __imp_mfc42u_ordinal3395:PPROC
+mfc42u_ordinal3395 equ <__imp_mfc42u_ordinal3395>
+
+externdef __imp_mfc42u_ordinal3396:PPROC
+mfc42u_ordinal3396 equ <__imp_mfc42u_ordinal3396>
+
+externdef __imp_mfc42u_ordinal3397:PPROC
+mfc42u_ordinal3397 equ <__imp_mfc42u_ordinal3397>
+
+externdef __imp_mfc42u_ordinal3398:PPROC
+mfc42u_ordinal3398 equ <__imp_mfc42u_ordinal3398>
+
+externdef __imp_mfc42u_ordinal3399:PPROC
+mfc42u_ordinal3399 equ <__imp_mfc42u_ordinal3399>
+
+externdef __imp_mfc42u_ordinal339:PPROC
+mfc42u_ordinal339 equ <__imp_mfc42u_ordinal339>
+
+externdef __imp_mfc42u_ordinal33:PPROC
+mfc42u_ordinal33 equ <__imp_mfc42u_ordinal33>
+
+externdef __imp_mfc42u_ordinal3400:PPROC
+mfc42u_ordinal3400 equ <__imp_mfc42u_ordinal3400>
+
+externdef __imp_mfc42u_ordinal3401:PPROC
+mfc42u_ordinal3401 equ <__imp_mfc42u_ordinal3401>
+
+externdef __imp_mfc42u_ordinal3402:PPROC
+mfc42u_ordinal3402 equ <__imp_mfc42u_ordinal3402>
+
+externdef __imp_mfc42u_ordinal3403:PPROC
+mfc42u_ordinal3403 equ <__imp_mfc42u_ordinal3403>
+
+externdef __imp_mfc42u_ordinal3404:PPROC
+mfc42u_ordinal3404 equ <__imp_mfc42u_ordinal3404>
+
+externdef __imp_mfc42u_ordinal3405:PPROC
+mfc42u_ordinal3405 equ <__imp_mfc42u_ordinal3405>
+
+externdef __imp_mfc42u_ordinal3406:PPROC
+mfc42u_ordinal3406 equ <__imp_mfc42u_ordinal3406>
+
+externdef __imp_mfc42u_ordinal3407:PPROC
+mfc42u_ordinal3407 equ <__imp_mfc42u_ordinal3407>
+
+externdef __imp_mfc42u_ordinal3408:PPROC
+mfc42u_ordinal3408 equ <__imp_mfc42u_ordinal3408>
+
+externdef __imp_mfc42u_ordinal3409:PPROC
+mfc42u_ordinal3409 equ <__imp_mfc42u_ordinal3409>
+
+externdef __imp_mfc42u_ordinal340:PPROC
+mfc42u_ordinal340 equ <__imp_mfc42u_ordinal340>
+
+externdef __imp_mfc42u_ordinal3410:PPROC
+mfc42u_ordinal3410 equ <__imp_mfc42u_ordinal3410>
+
+externdef __imp_mfc42u_ordinal3411:PPROC
+mfc42u_ordinal3411 equ <__imp_mfc42u_ordinal3411>
+
+externdef __imp_mfc42u_ordinal3412:PPROC
+mfc42u_ordinal3412 equ <__imp_mfc42u_ordinal3412>
+
+externdef __imp_mfc42u_ordinal3413:PPROC
+mfc42u_ordinal3413 equ <__imp_mfc42u_ordinal3413>
+
+externdef __imp_mfc42u_ordinal3414:PPROC
+mfc42u_ordinal3414 equ <__imp_mfc42u_ordinal3414>
+
+externdef __imp_mfc42u_ordinal3415:PPROC
+mfc42u_ordinal3415 equ <__imp_mfc42u_ordinal3415>
+
+externdef __imp_mfc42u_ordinal3416:PPROC
+mfc42u_ordinal3416 equ <__imp_mfc42u_ordinal3416>
+
+externdef __imp_mfc42u_ordinal3417:PPROC
+mfc42u_ordinal3417 equ <__imp_mfc42u_ordinal3417>
+
+externdef __imp_mfc42u_ordinal3418:PPROC
+mfc42u_ordinal3418 equ <__imp_mfc42u_ordinal3418>
+
+externdef __imp_mfc42u_ordinal3419:PPROC
+mfc42u_ordinal3419 equ <__imp_mfc42u_ordinal3419>
+
+externdef __imp_mfc42u_ordinal341:PPROC
+mfc42u_ordinal341 equ <__imp_mfc42u_ordinal341>
+
+externdef __imp_mfc42u_ordinal3420:PPROC
+mfc42u_ordinal3420 equ <__imp_mfc42u_ordinal3420>
+
+externdef __imp_mfc42u_ordinal3421:PPROC
+mfc42u_ordinal3421 equ <__imp_mfc42u_ordinal3421>
+
+externdef __imp_mfc42u_ordinal3422:PPROC
+mfc42u_ordinal3422 equ <__imp_mfc42u_ordinal3422>
+
+externdef __imp_mfc42u_ordinal3423:PPROC
+mfc42u_ordinal3423 equ <__imp_mfc42u_ordinal3423>
+
+externdef __imp_mfc42u_ordinal3424:PPROC
+mfc42u_ordinal3424 equ <__imp_mfc42u_ordinal3424>
+
+externdef __imp_mfc42u_ordinal3425:PPROC
+mfc42u_ordinal3425 equ <__imp_mfc42u_ordinal3425>
+
+externdef __imp_mfc42u_ordinal3426:PPROC
+mfc42u_ordinal3426 equ <__imp_mfc42u_ordinal3426>
+
+externdef __imp_mfc42u_ordinal3427:PPROC
+mfc42u_ordinal3427 equ <__imp_mfc42u_ordinal3427>
+
+externdef __imp_mfc42u_ordinal3428:PPROC
+mfc42u_ordinal3428 equ <__imp_mfc42u_ordinal3428>
+
+externdef __imp_mfc42u_ordinal3429:PPROC
+mfc42u_ordinal3429 equ <__imp_mfc42u_ordinal3429>
+
+externdef __imp_mfc42u_ordinal342:PPROC
+mfc42u_ordinal342 equ <__imp_mfc42u_ordinal342>
+
+externdef __imp_mfc42u_ordinal3430:PPROC
+mfc42u_ordinal3430 equ <__imp_mfc42u_ordinal3430>
+
+externdef __imp_mfc42u_ordinal3431:PPROC
+mfc42u_ordinal3431 equ <__imp_mfc42u_ordinal3431>
+
+externdef __imp_mfc42u_ordinal3432:PPROC
+mfc42u_ordinal3432 equ <__imp_mfc42u_ordinal3432>
+
+externdef __imp_mfc42u_ordinal3433:PPROC
+mfc42u_ordinal3433 equ <__imp_mfc42u_ordinal3433>
+
+externdef __imp_mfc42u_ordinal3434:PPROC
+mfc42u_ordinal3434 equ <__imp_mfc42u_ordinal3434>
+
+externdef __imp_mfc42u_ordinal3435:PPROC
+mfc42u_ordinal3435 equ <__imp_mfc42u_ordinal3435>
+
+externdef __imp_mfc42u_ordinal3436:PPROC
+mfc42u_ordinal3436 equ <__imp_mfc42u_ordinal3436>
+
+externdef __imp_mfc42u_ordinal3437:PPROC
+mfc42u_ordinal3437 equ <__imp_mfc42u_ordinal3437>
+
+externdef __imp_mfc42u_ordinal3438:PPROC
+mfc42u_ordinal3438 equ <__imp_mfc42u_ordinal3438>
+
+externdef __imp_mfc42u_ordinal3439:PPROC
+mfc42u_ordinal3439 equ <__imp_mfc42u_ordinal3439>
+
+externdef __imp_mfc42u_ordinal343:PPROC
+mfc42u_ordinal343 equ <__imp_mfc42u_ordinal343>
+
+externdef __imp_mfc42u_ordinal3440:PPROC
+mfc42u_ordinal3440 equ <__imp_mfc42u_ordinal3440>
+
+externdef __imp_mfc42u_ordinal3441:PPROC
+mfc42u_ordinal3441 equ <__imp_mfc42u_ordinal3441>
+
+externdef __imp_mfc42u_ordinal3442:PPROC
+mfc42u_ordinal3442 equ <__imp_mfc42u_ordinal3442>
+
+externdef __imp_mfc42u_ordinal3443:PPROC
+mfc42u_ordinal3443 equ <__imp_mfc42u_ordinal3443>
+
+externdef __imp_mfc42u_ordinal3444:PPROC
+mfc42u_ordinal3444 equ <__imp_mfc42u_ordinal3444>
+
+externdef __imp_mfc42u_ordinal3445:PPROC
+mfc42u_ordinal3445 equ <__imp_mfc42u_ordinal3445>
+
+externdef __imp_mfc42u_ordinal3446:PPROC
+mfc42u_ordinal3446 equ <__imp_mfc42u_ordinal3446>
+
+externdef __imp_mfc42u_ordinal3447:PPROC
+mfc42u_ordinal3447 equ <__imp_mfc42u_ordinal3447>
+
+externdef __imp_mfc42u_ordinal3448:PPROC
+mfc42u_ordinal3448 equ <__imp_mfc42u_ordinal3448>
+
+externdef __imp_mfc42u_ordinal3449:PPROC
+mfc42u_ordinal3449 equ <__imp_mfc42u_ordinal3449>
+
+externdef __imp_mfc42u_ordinal344:PPROC
+mfc42u_ordinal344 equ <__imp_mfc42u_ordinal344>
+
+externdef __imp_mfc42u_ordinal3450:PPROC
+mfc42u_ordinal3450 equ <__imp_mfc42u_ordinal3450>
+
+externdef __imp_mfc42u_ordinal3451:PPROC
+mfc42u_ordinal3451 equ <__imp_mfc42u_ordinal3451>
+
+externdef __imp_mfc42u_ordinal3452:PPROC
+mfc42u_ordinal3452 equ <__imp_mfc42u_ordinal3452>
+
+externdef __imp_mfc42u_ordinal3453:PPROC
+mfc42u_ordinal3453 equ <__imp_mfc42u_ordinal3453>
+
+externdef __imp_mfc42u_ordinal3454:PPROC
+mfc42u_ordinal3454 equ <__imp_mfc42u_ordinal3454>
+
+externdef __imp_mfc42u_ordinal3455:PPROC
+mfc42u_ordinal3455 equ <__imp_mfc42u_ordinal3455>
+
+externdef __imp_mfc42u_ordinal3456:PPROC
+mfc42u_ordinal3456 equ <__imp_mfc42u_ordinal3456>
+
+externdef __imp_mfc42u_ordinal3457:PPROC
+mfc42u_ordinal3457 equ <__imp_mfc42u_ordinal3457>
+
+externdef __imp_mfc42u_ordinal3458:PPROC
+mfc42u_ordinal3458 equ <__imp_mfc42u_ordinal3458>
+
+externdef __imp_mfc42u_ordinal3459:PPROC
+mfc42u_ordinal3459 equ <__imp_mfc42u_ordinal3459>
+
+externdef __imp_mfc42u_ordinal345:PPROC
+mfc42u_ordinal345 equ <__imp_mfc42u_ordinal345>
+
+externdef __imp_mfc42u_ordinal3460:PPROC
+mfc42u_ordinal3460 equ <__imp_mfc42u_ordinal3460>
+
+externdef __imp_mfc42u_ordinal3461:PPROC
+mfc42u_ordinal3461 equ <__imp_mfc42u_ordinal3461>
+
+externdef __imp_mfc42u_ordinal3462:PPROC
+mfc42u_ordinal3462 equ <__imp_mfc42u_ordinal3462>
+
+externdef __imp_mfc42u_ordinal3463:PPROC
+mfc42u_ordinal3463 equ <__imp_mfc42u_ordinal3463>
+
+externdef __imp_mfc42u_ordinal3464:PPROC
+mfc42u_ordinal3464 equ <__imp_mfc42u_ordinal3464>
+
+externdef __imp_mfc42u_ordinal3465:PPROC
+mfc42u_ordinal3465 equ <__imp_mfc42u_ordinal3465>
+
+externdef __imp_mfc42u_ordinal3466:PPROC
+mfc42u_ordinal3466 equ <__imp_mfc42u_ordinal3466>
+
+externdef __imp_mfc42u_ordinal3467:PPROC
+mfc42u_ordinal3467 equ <__imp_mfc42u_ordinal3467>
+
+externdef __imp_mfc42u_ordinal3468:PPROC
+mfc42u_ordinal3468 equ <__imp_mfc42u_ordinal3468>
+
+externdef __imp_mfc42u_ordinal3469:PPROC
+mfc42u_ordinal3469 equ <__imp_mfc42u_ordinal3469>
+
+externdef __imp_mfc42u_ordinal346:PPROC
+mfc42u_ordinal346 equ <__imp_mfc42u_ordinal346>
+
+externdef __imp_mfc42u_ordinal3470:PPROC
+mfc42u_ordinal3470 equ <__imp_mfc42u_ordinal3470>
+
+externdef __imp_mfc42u_ordinal3471:PPROC
+mfc42u_ordinal3471 equ <__imp_mfc42u_ordinal3471>
+
+externdef __imp_mfc42u_ordinal3472:PPROC
+mfc42u_ordinal3472 equ <__imp_mfc42u_ordinal3472>
+
+externdef __imp_mfc42u_ordinal3473:PPROC
+mfc42u_ordinal3473 equ <__imp_mfc42u_ordinal3473>
+
+externdef __imp_mfc42u_ordinal3474:PPROC
+mfc42u_ordinal3474 equ <__imp_mfc42u_ordinal3474>
+
+externdef __imp_mfc42u_ordinal3475:PPROC
+mfc42u_ordinal3475 equ <__imp_mfc42u_ordinal3475>
+
+externdef __imp_mfc42u_ordinal3476:PPROC
+mfc42u_ordinal3476 equ <__imp_mfc42u_ordinal3476>
+
+externdef __imp_mfc42u_ordinal3477:PPROC
+mfc42u_ordinal3477 equ <__imp_mfc42u_ordinal3477>
+
+externdef __imp_mfc42u_ordinal3478:PPROC
+mfc42u_ordinal3478 equ <__imp_mfc42u_ordinal3478>
+
+externdef __imp_mfc42u_ordinal3479:PPROC
+mfc42u_ordinal3479 equ <__imp_mfc42u_ordinal3479>
+
+externdef __imp_mfc42u_ordinal347:PPROC
+mfc42u_ordinal347 equ <__imp_mfc42u_ordinal347>
+
+externdef __imp_mfc42u_ordinal3480:PPROC
+mfc42u_ordinal3480 equ <__imp_mfc42u_ordinal3480>
+
+externdef __imp_mfc42u_ordinal3481:PPROC
+mfc42u_ordinal3481 equ <__imp_mfc42u_ordinal3481>
+
+externdef __imp_mfc42u_ordinal3482:PPROC
+mfc42u_ordinal3482 equ <__imp_mfc42u_ordinal3482>
+
+externdef __imp_mfc42u_ordinal3483:PPROC
+mfc42u_ordinal3483 equ <__imp_mfc42u_ordinal3483>
+
+externdef __imp_mfc42u_ordinal3484:PPROC
+mfc42u_ordinal3484 equ <__imp_mfc42u_ordinal3484>
+
+externdef __imp_mfc42u_ordinal3485:PPROC
+mfc42u_ordinal3485 equ <__imp_mfc42u_ordinal3485>
+
+externdef __imp_mfc42u_ordinal3486:PPROC
+mfc42u_ordinal3486 equ <__imp_mfc42u_ordinal3486>
+
+externdef __imp_mfc42u_ordinal3487:PPROC
+mfc42u_ordinal3487 equ <__imp_mfc42u_ordinal3487>
+
+externdef __imp_mfc42u_ordinal3488:PPROC
+mfc42u_ordinal3488 equ <__imp_mfc42u_ordinal3488>
+
+externdef __imp_mfc42u_ordinal3489:PPROC
+mfc42u_ordinal3489 equ <__imp_mfc42u_ordinal3489>
+
+externdef __imp_mfc42u_ordinal348:PPROC
+mfc42u_ordinal348 equ <__imp_mfc42u_ordinal348>
+
+externdef __imp_mfc42u_ordinal3490:PPROC
+mfc42u_ordinal3490 equ <__imp_mfc42u_ordinal3490>
+
+externdef __imp_mfc42u_ordinal3491:PPROC
+mfc42u_ordinal3491 equ <__imp_mfc42u_ordinal3491>
+
+externdef __imp_mfc42u_ordinal3492:PPROC
+mfc42u_ordinal3492 equ <__imp_mfc42u_ordinal3492>
+
+externdef __imp_mfc42u_ordinal3493:PPROC
+mfc42u_ordinal3493 equ <__imp_mfc42u_ordinal3493>
+
+externdef __imp_mfc42u_ordinal3494:PPROC
+mfc42u_ordinal3494 equ <__imp_mfc42u_ordinal3494>
+
+externdef __imp_mfc42u_ordinal3495:PPROC
+mfc42u_ordinal3495 equ <__imp_mfc42u_ordinal3495>
+
+externdef __imp_mfc42u_ordinal3496:PPROC
+mfc42u_ordinal3496 equ <__imp_mfc42u_ordinal3496>
+
+externdef __imp_mfc42u_ordinal3497:PPROC
+mfc42u_ordinal3497 equ <__imp_mfc42u_ordinal3497>
+
+externdef __imp_mfc42u_ordinal3498:PPROC
+mfc42u_ordinal3498 equ <__imp_mfc42u_ordinal3498>
+
+externdef __imp_mfc42u_ordinal3499:PPROC
+mfc42u_ordinal3499 equ <__imp_mfc42u_ordinal3499>
+
+externdef __imp_mfc42u_ordinal349:PPROC
+mfc42u_ordinal349 equ <__imp_mfc42u_ordinal349>
+
+externdef __imp_mfc42u_ordinal34:PPROC
+mfc42u_ordinal34 equ <__imp_mfc42u_ordinal34>
+
+externdef __imp_mfc42u_ordinal3500:PPROC
+mfc42u_ordinal3500 equ <__imp_mfc42u_ordinal3500>
+
+externdef __imp_mfc42u_ordinal3501:PPROC
+mfc42u_ordinal3501 equ <__imp_mfc42u_ordinal3501>
+
+externdef __imp_mfc42u_ordinal3502:PPROC
+mfc42u_ordinal3502 equ <__imp_mfc42u_ordinal3502>
+
+externdef __imp_mfc42u_ordinal3503:PPROC
+mfc42u_ordinal3503 equ <__imp_mfc42u_ordinal3503>
+
+externdef __imp_mfc42u_ordinal3504:PPROC
+mfc42u_ordinal3504 equ <__imp_mfc42u_ordinal3504>
+
+externdef __imp_mfc42u_ordinal3505:PPROC
+mfc42u_ordinal3505 equ <__imp_mfc42u_ordinal3505>
+
+externdef __imp_mfc42u_ordinal3506:PPROC
+mfc42u_ordinal3506 equ <__imp_mfc42u_ordinal3506>
+
+externdef __imp_mfc42u_ordinal3507:PPROC
+mfc42u_ordinal3507 equ <__imp_mfc42u_ordinal3507>
+
+externdef __imp_mfc42u_ordinal3508:PPROC
+mfc42u_ordinal3508 equ <__imp_mfc42u_ordinal3508>
+
+externdef __imp_mfc42u_ordinal3509:PPROC
+mfc42u_ordinal3509 equ <__imp_mfc42u_ordinal3509>
+
+externdef __imp_mfc42u_ordinal350:PPROC
+mfc42u_ordinal350 equ <__imp_mfc42u_ordinal350>
+
+externdef __imp_mfc42u_ordinal3510:PPROC
+mfc42u_ordinal3510 equ <__imp_mfc42u_ordinal3510>
+
+externdef __imp_mfc42u_ordinal3511:PPROC
+mfc42u_ordinal3511 equ <__imp_mfc42u_ordinal3511>
+
+externdef __imp_mfc42u_ordinal3512:PPROC
+mfc42u_ordinal3512 equ <__imp_mfc42u_ordinal3512>
+
+externdef __imp_mfc42u_ordinal3513:PPROC
+mfc42u_ordinal3513 equ <__imp_mfc42u_ordinal3513>
+
+externdef __imp_mfc42u_ordinal3514:PPROC
+mfc42u_ordinal3514 equ <__imp_mfc42u_ordinal3514>
+
+externdef __imp_mfc42u_ordinal3515:PPROC
+mfc42u_ordinal3515 equ <__imp_mfc42u_ordinal3515>
+
+externdef __imp_mfc42u_ordinal3516:PPROC
+mfc42u_ordinal3516 equ <__imp_mfc42u_ordinal3516>
+
+externdef __imp_mfc42u_ordinal3517:PPROC
+mfc42u_ordinal3517 equ <__imp_mfc42u_ordinal3517>
+
+externdef __imp_mfc42u_ordinal3518:PPROC
+mfc42u_ordinal3518 equ <__imp_mfc42u_ordinal3518>
+
+externdef __imp_mfc42u_ordinal3519:PPROC
+mfc42u_ordinal3519 equ <__imp_mfc42u_ordinal3519>
+
+externdef __imp_mfc42u_ordinal351:PPROC
+mfc42u_ordinal351 equ <__imp_mfc42u_ordinal351>
+
+externdef __imp_mfc42u_ordinal3520:PPROC
+mfc42u_ordinal3520 equ <__imp_mfc42u_ordinal3520>
+
+externdef __imp_mfc42u_ordinal3521:PPROC
+mfc42u_ordinal3521 equ <__imp_mfc42u_ordinal3521>
+
+externdef __imp_mfc42u_ordinal3522:PPROC
+mfc42u_ordinal3522 equ <__imp_mfc42u_ordinal3522>
+
+externdef __imp_mfc42u_ordinal3523:PPROC
+mfc42u_ordinal3523 equ <__imp_mfc42u_ordinal3523>
+
+externdef __imp_mfc42u_ordinal3524:PPROC
+mfc42u_ordinal3524 equ <__imp_mfc42u_ordinal3524>
+
+externdef __imp_mfc42u_ordinal3525:PPROC
+mfc42u_ordinal3525 equ <__imp_mfc42u_ordinal3525>
+
+externdef __imp_mfc42u_ordinal3526:PPROC
+mfc42u_ordinal3526 equ <__imp_mfc42u_ordinal3526>
+
+externdef __imp_mfc42u_ordinal3527:PPROC
+mfc42u_ordinal3527 equ <__imp_mfc42u_ordinal3527>
+
+externdef __imp_mfc42u_ordinal3528:PPROC
+mfc42u_ordinal3528 equ <__imp_mfc42u_ordinal3528>
+
+externdef __imp_mfc42u_ordinal3529:PPROC
+mfc42u_ordinal3529 equ <__imp_mfc42u_ordinal3529>
+
+externdef __imp_mfc42u_ordinal352:PPROC
+mfc42u_ordinal352 equ <__imp_mfc42u_ordinal352>
+
+externdef __imp_mfc42u_ordinal3530:PPROC
+mfc42u_ordinal3530 equ <__imp_mfc42u_ordinal3530>
+
+externdef __imp_mfc42u_ordinal3531:PPROC
+mfc42u_ordinal3531 equ <__imp_mfc42u_ordinal3531>
+
+externdef __imp_mfc42u_ordinal3532:PPROC
+mfc42u_ordinal3532 equ <__imp_mfc42u_ordinal3532>
+
+externdef __imp_mfc42u_ordinal3533:PPROC
+mfc42u_ordinal3533 equ <__imp_mfc42u_ordinal3533>
+
+externdef __imp_mfc42u_ordinal3534:PPROC
+mfc42u_ordinal3534 equ <__imp_mfc42u_ordinal3534>
+
+externdef __imp_mfc42u_ordinal3535:PPROC
+mfc42u_ordinal3535 equ <__imp_mfc42u_ordinal3535>
+
+externdef __imp_mfc42u_ordinal3536:PPROC
+mfc42u_ordinal3536 equ <__imp_mfc42u_ordinal3536>
+
+externdef __imp_mfc42u_ordinal3537:PPROC
+mfc42u_ordinal3537 equ <__imp_mfc42u_ordinal3537>
+
+externdef __imp_mfc42u_ordinal3538:PPROC
+mfc42u_ordinal3538 equ <__imp_mfc42u_ordinal3538>
+
+externdef __imp_mfc42u_ordinal3539:PPROC
+mfc42u_ordinal3539 equ <__imp_mfc42u_ordinal3539>
+
+externdef __imp_mfc42u_ordinal353:PPROC
+mfc42u_ordinal353 equ <__imp_mfc42u_ordinal353>
+
+externdef __imp_mfc42u_ordinal3540:PPROC
+mfc42u_ordinal3540 equ <__imp_mfc42u_ordinal3540>
+
+externdef __imp_mfc42u_ordinal3541:PPROC
+mfc42u_ordinal3541 equ <__imp_mfc42u_ordinal3541>
+
+externdef __imp_mfc42u_ordinal3542:PPROC
+mfc42u_ordinal3542 equ <__imp_mfc42u_ordinal3542>
+
+externdef __imp_mfc42u_ordinal3543:PPROC
+mfc42u_ordinal3543 equ <__imp_mfc42u_ordinal3543>
+
+externdef __imp_mfc42u_ordinal3544:PPROC
+mfc42u_ordinal3544 equ <__imp_mfc42u_ordinal3544>
+
+externdef __imp_mfc42u_ordinal3545:PPROC
+mfc42u_ordinal3545 equ <__imp_mfc42u_ordinal3545>
+
+externdef __imp_mfc42u_ordinal3546:PPROC
+mfc42u_ordinal3546 equ <__imp_mfc42u_ordinal3546>
+
+externdef __imp_mfc42u_ordinal3547:PPROC
+mfc42u_ordinal3547 equ <__imp_mfc42u_ordinal3547>
+
+externdef __imp_mfc42u_ordinal3548:PPROC
+mfc42u_ordinal3548 equ <__imp_mfc42u_ordinal3548>
+
+externdef __imp_mfc42u_ordinal3549:PPROC
+mfc42u_ordinal3549 equ <__imp_mfc42u_ordinal3549>
+
+externdef __imp_mfc42u_ordinal354:PPROC
+mfc42u_ordinal354 equ <__imp_mfc42u_ordinal354>
+
+externdef __imp_mfc42u_ordinal3550:PPROC
+mfc42u_ordinal3550 equ <__imp_mfc42u_ordinal3550>
+
+externdef __imp_mfc42u_ordinal3551:PPROC
+mfc42u_ordinal3551 equ <__imp_mfc42u_ordinal3551>
+
+externdef __imp_mfc42u_ordinal3552:PPROC
+mfc42u_ordinal3552 equ <__imp_mfc42u_ordinal3552>
+
+externdef __imp_mfc42u_ordinal3553:PPROC
+mfc42u_ordinal3553 equ <__imp_mfc42u_ordinal3553>
+
+externdef __imp_mfc42u_ordinal3554:PPROC
+mfc42u_ordinal3554 equ <__imp_mfc42u_ordinal3554>
+
+externdef __imp_mfc42u_ordinal3555:PPROC
+mfc42u_ordinal3555 equ <__imp_mfc42u_ordinal3555>
+
+externdef __imp_mfc42u_ordinal3556:PPROC
+mfc42u_ordinal3556 equ <__imp_mfc42u_ordinal3556>
+
+externdef __imp_mfc42u_ordinal3557:PPROC
+mfc42u_ordinal3557 equ <__imp_mfc42u_ordinal3557>
+
+externdef __imp_mfc42u_ordinal3558:PPROC
+mfc42u_ordinal3558 equ <__imp_mfc42u_ordinal3558>
+
+externdef __imp_mfc42u_ordinal3559:PPROC
+mfc42u_ordinal3559 equ <__imp_mfc42u_ordinal3559>
+
+externdef __imp_mfc42u_ordinal355:PPROC
+mfc42u_ordinal355 equ <__imp_mfc42u_ordinal355>
+
+externdef __imp_mfc42u_ordinal3560:PPROC
+mfc42u_ordinal3560 equ <__imp_mfc42u_ordinal3560>
+
+externdef __imp_mfc42u_ordinal3561:PPROC
+mfc42u_ordinal3561 equ <__imp_mfc42u_ordinal3561>
+
+externdef __imp_mfc42u_ordinal3562:PPROC
+mfc42u_ordinal3562 equ <__imp_mfc42u_ordinal3562>
+
+externdef __imp_mfc42u_ordinal3563:PPROC
+mfc42u_ordinal3563 equ <__imp_mfc42u_ordinal3563>
+
+externdef __imp_mfc42u_ordinal3564:PPROC
+mfc42u_ordinal3564 equ <__imp_mfc42u_ordinal3564>
+
+externdef __imp_mfc42u_ordinal3565:PPROC
+mfc42u_ordinal3565 equ <__imp_mfc42u_ordinal3565>
+
+externdef __imp_mfc42u_ordinal3566:PPROC
+mfc42u_ordinal3566 equ <__imp_mfc42u_ordinal3566>
+
+externdef __imp_mfc42u_ordinal3567:PPROC
+mfc42u_ordinal3567 equ <__imp_mfc42u_ordinal3567>
+
+externdef __imp_mfc42u_ordinal3568:PPROC
+mfc42u_ordinal3568 equ <__imp_mfc42u_ordinal3568>
+
+externdef __imp_mfc42u_ordinal3569:PPROC
+mfc42u_ordinal3569 equ <__imp_mfc42u_ordinal3569>
+
+externdef __imp_mfc42u_ordinal356:PPROC
+mfc42u_ordinal356 equ <__imp_mfc42u_ordinal356>
+
+externdef __imp_mfc42u_ordinal3570:PPROC
+mfc42u_ordinal3570 equ <__imp_mfc42u_ordinal3570>
+
+externdef __imp_mfc42u_ordinal3571:PPROC
+mfc42u_ordinal3571 equ <__imp_mfc42u_ordinal3571>
+
+externdef __imp_mfc42u_ordinal3572:PPROC
+mfc42u_ordinal3572 equ <__imp_mfc42u_ordinal3572>
+
+externdef __imp_mfc42u_ordinal3573:PPROC
+mfc42u_ordinal3573 equ <__imp_mfc42u_ordinal3573>
+
+externdef __imp_mfc42u_ordinal3574:PPROC
+mfc42u_ordinal3574 equ <__imp_mfc42u_ordinal3574>
+
+externdef __imp_mfc42u_ordinal3575:PPROC
+mfc42u_ordinal3575 equ <__imp_mfc42u_ordinal3575>
+
+externdef __imp_mfc42u_ordinal3576:PPROC
+mfc42u_ordinal3576 equ <__imp_mfc42u_ordinal3576>
+
+externdef __imp_mfc42u_ordinal3577:PPROC
+mfc42u_ordinal3577 equ <__imp_mfc42u_ordinal3577>
+
+externdef __imp_mfc42u_ordinal3578:PPROC
+mfc42u_ordinal3578 equ <__imp_mfc42u_ordinal3578>
+
+externdef __imp_mfc42u_ordinal3579:PPROC
+mfc42u_ordinal3579 equ <__imp_mfc42u_ordinal3579>
+
+externdef __imp_mfc42u_ordinal357:PPROC
+mfc42u_ordinal357 equ <__imp_mfc42u_ordinal357>
+
+externdef __imp_mfc42u_ordinal3580:PPROC
+mfc42u_ordinal3580 equ <__imp_mfc42u_ordinal3580>
+
+externdef __imp_mfc42u_ordinal3581:PPROC
+mfc42u_ordinal3581 equ <__imp_mfc42u_ordinal3581>
+
+externdef __imp_mfc42u_ordinal3582:PPROC
+mfc42u_ordinal3582 equ <__imp_mfc42u_ordinal3582>
+
+externdef __imp_mfc42u_ordinal3583:PPROC
+mfc42u_ordinal3583 equ <__imp_mfc42u_ordinal3583>
+
+externdef __imp_mfc42u_ordinal3584:PPROC
+mfc42u_ordinal3584 equ <__imp_mfc42u_ordinal3584>
+
+externdef __imp_mfc42u_ordinal3585:PPROC
+mfc42u_ordinal3585 equ <__imp_mfc42u_ordinal3585>
+
+externdef __imp_mfc42u_ordinal3586:PPROC
+mfc42u_ordinal3586 equ <__imp_mfc42u_ordinal3586>
+
+externdef __imp_mfc42u_ordinal3587:PPROC
+mfc42u_ordinal3587 equ <__imp_mfc42u_ordinal3587>
+
+externdef __imp_mfc42u_ordinal3588:PPROC
+mfc42u_ordinal3588 equ <__imp_mfc42u_ordinal3588>
+
+externdef __imp_mfc42u_ordinal3589:PPROC
+mfc42u_ordinal3589 equ <__imp_mfc42u_ordinal3589>
+
+externdef __imp_mfc42u_ordinal358:PPROC
+mfc42u_ordinal358 equ <__imp_mfc42u_ordinal358>
+
+externdef __imp_mfc42u_ordinal3590:PPROC
+mfc42u_ordinal3590 equ <__imp_mfc42u_ordinal3590>
+
+externdef __imp_mfc42u_ordinal3591:PPROC
+mfc42u_ordinal3591 equ <__imp_mfc42u_ordinal3591>
+
+externdef __imp_mfc42u_ordinal3592:PPROC
+mfc42u_ordinal3592 equ <__imp_mfc42u_ordinal3592>
+
+externdef __imp_mfc42u_ordinal3593:PPROC
+mfc42u_ordinal3593 equ <__imp_mfc42u_ordinal3593>
+
+externdef __imp_mfc42u_ordinal3594:PPROC
+mfc42u_ordinal3594 equ <__imp_mfc42u_ordinal3594>
+
+externdef __imp_mfc42u_ordinal3595:PPROC
+mfc42u_ordinal3595 equ <__imp_mfc42u_ordinal3595>
+
+externdef __imp_mfc42u_ordinal3596:PPROC
+mfc42u_ordinal3596 equ <__imp_mfc42u_ordinal3596>
+
+externdef __imp_mfc42u_ordinal3597:PPROC
+mfc42u_ordinal3597 equ <__imp_mfc42u_ordinal3597>
+
+externdef __imp_mfc42u_ordinal3598:PPROC
+mfc42u_ordinal3598 equ <__imp_mfc42u_ordinal3598>
+
+externdef __imp_mfc42u_ordinal3599:PPROC
+mfc42u_ordinal3599 equ <__imp_mfc42u_ordinal3599>
+
+externdef __imp_mfc42u_ordinal359:PPROC
+mfc42u_ordinal359 equ <__imp_mfc42u_ordinal359>
+
+externdef __imp_mfc42u_ordinal35:PPROC
+mfc42u_ordinal35 equ <__imp_mfc42u_ordinal35>
+
+externdef __imp_mfc42u_ordinal3600:PPROC
+mfc42u_ordinal3600 equ <__imp_mfc42u_ordinal3600>
+
+externdef __imp_mfc42u_ordinal3601:PPROC
+mfc42u_ordinal3601 equ <__imp_mfc42u_ordinal3601>
+
+externdef __imp_mfc42u_ordinal3602:PPROC
+mfc42u_ordinal3602 equ <__imp_mfc42u_ordinal3602>
+
+externdef __imp_mfc42u_ordinal3603:PPROC
+mfc42u_ordinal3603 equ <__imp_mfc42u_ordinal3603>
+
+externdef __imp_mfc42u_ordinal3604:PPROC
+mfc42u_ordinal3604 equ <__imp_mfc42u_ordinal3604>
+
+externdef __imp_mfc42u_ordinal3605:PPROC
+mfc42u_ordinal3605 equ <__imp_mfc42u_ordinal3605>
+
+externdef __imp_mfc42u_ordinal3606:PPROC
+mfc42u_ordinal3606 equ <__imp_mfc42u_ordinal3606>
+
+externdef __imp_mfc42u_ordinal3607:PPROC
+mfc42u_ordinal3607 equ <__imp_mfc42u_ordinal3607>
+
+externdef __imp_mfc42u_ordinal3608:PPROC
+mfc42u_ordinal3608 equ <__imp_mfc42u_ordinal3608>
+
+externdef __imp_mfc42u_ordinal3609:PPROC
+mfc42u_ordinal3609 equ <__imp_mfc42u_ordinal3609>
+
+externdef __imp_mfc42u_ordinal360:PPROC
+mfc42u_ordinal360 equ <__imp_mfc42u_ordinal360>
+
+externdef __imp_mfc42u_ordinal3610:PPROC
+mfc42u_ordinal3610 equ <__imp_mfc42u_ordinal3610>
+
+externdef __imp_mfc42u_ordinal3611:PPROC
+mfc42u_ordinal3611 equ <__imp_mfc42u_ordinal3611>
+
+externdef __imp_mfc42u_ordinal3612:PPROC
+mfc42u_ordinal3612 equ <__imp_mfc42u_ordinal3612>
+
+externdef __imp_mfc42u_ordinal3613:PPROC
+mfc42u_ordinal3613 equ <__imp_mfc42u_ordinal3613>
+
+externdef __imp_mfc42u_ordinal3614:PPROC
+mfc42u_ordinal3614 equ <__imp_mfc42u_ordinal3614>
+
+externdef __imp_mfc42u_ordinal3615:PPROC
+mfc42u_ordinal3615 equ <__imp_mfc42u_ordinal3615>
+
+externdef __imp_mfc42u_ordinal3616:PPROC
+mfc42u_ordinal3616 equ <__imp_mfc42u_ordinal3616>
+
+externdef __imp_mfc42u_ordinal3617:PPROC
+mfc42u_ordinal3617 equ <__imp_mfc42u_ordinal3617>
+
+externdef __imp_mfc42u_ordinal3618:PPROC
+mfc42u_ordinal3618 equ <__imp_mfc42u_ordinal3618>
+
+externdef __imp_mfc42u_ordinal3619:PPROC
+mfc42u_ordinal3619 equ <__imp_mfc42u_ordinal3619>
+
+externdef __imp_mfc42u_ordinal361:PPROC
+mfc42u_ordinal361 equ <__imp_mfc42u_ordinal361>
+
+externdef __imp_mfc42u_ordinal3620:PPROC
+mfc42u_ordinal3620 equ <__imp_mfc42u_ordinal3620>
+
+externdef __imp_mfc42u_ordinal3621:PPROC
+mfc42u_ordinal3621 equ <__imp_mfc42u_ordinal3621>
+
+externdef __imp_mfc42u_ordinal3622:PPROC
+mfc42u_ordinal3622 equ <__imp_mfc42u_ordinal3622>
+
+externdef __imp_mfc42u_ordinal3623:PPROC
+mfc42u_ordinal3623 equ <__imp_mfc42u_ordinal3623>
+
+externdef __imp_mfc42u_ordinal3624:PPROC
+mfc42u_ordinal3624 equ <__imp_mfc42u_ordinal3624>
+
+externdef __imp_mfc42u_ordinal3625:PPROC
+mfc42u_ordinal3625 equ <__imp_mfc42u_ordinal3625>
+
+externdef __imp_mfc42u_ordinal3626:PPROC
+mfc42u_ordinal3626 equ <__imp_mfc42u_ordinal3626>
+
+externdef __imp_mfc42u_ordinal3627:PPROC
+mfc42u_ordinal3627 equ <__imp_mfc42u_ordinal3627>
+
+externdef __imp_mfc42u_ordinal3628:PPROC
+mfc42u_ordinal3628 equ <__imp_mfc42u_ordinal3628>
+
+externdef __imp_mfc42u_ordinal3629:PPROC
+mfc42u_ordinal3629 equ <__imp_mfc42u_ordinal3629>
+
+externdef __imp_mfc42u_ordinal362:PPROC
+mfc42u_ordinal362 equ <__imp_mfc42u_ordinal362>
+
+externdef __imp_mfc42u_ordinal3630:PPROC
+mfc42u_ordinal3630 equ <__imp_mfc42u_ordinal3630>
+
+externdef __imp_mfc42u_ordinal3631:PPROC
+mfc42u_ordinal3631 equ <__imp_mfc42u_ordinal3631>
+
+externdef __imp_mfc42u_ordinal3632:PPROC
+mfc42u_ordinal3632 equ <__imp_mfc42u_ordinal3632>
+
+externdef __imp_mfc42u_ordinal3633:PPROC
+mfc42u_ordinal3633 equ <__imp_mfc42u_ordinal3633>
+
+externdef __imp_mfc42u_ordinal3634:PPROC
+mfc42u_ordinal3634 equ <__imp_mfc42u_ordinal3634>
+
+externdef __imp_mfc42u_ordinal3635:PPROC
+mfc42u_ordinal3635 equ <__imp_mfc42u_ordinal3635>
+
+externdef __imp_mfc42u_ordinal3636:PPROC
+mfc42u_ordinal3636 equ <__imp_mfc42u_ordinal3636>
+
+externdef __imp_mfc42u_ordinal3637:PPROC
+mfc42u_ordinal3637 equ <__imp_mfc42u_ordinal3637>
+
+externdef __imp_mfc42u_ordinal3638:PPROC
+mfc42u_ordinal3638 equ <__imp_mfc42u_ordinal3638>
+
+externdef __imp_mfc42u_ordinal3639:PPROC
+mfc42u_ordinal3639 equ <__imp_mfc42u_ordinal3639>
+
+externdef __imp_mfc42u_ordinal363:PPROC
+mfc42u_ordinal363 equ <__imp_mfc42u_ordinal363>
+
+externdef __imp_mfc42u_ordinal3640:PPROC
+mfc42u_ordinal3640 equ <__imp_mfc42u_ordinal3640>
+
+externdef __imp_mfc42u_ordinal3641:PPROC
+mfc42u_ordinal3641 equ <__imp_mfc42u_ordinal3641>
+
+externdef __imp_mfc42u_ordinal3642:PPROC
+mfc42u_ordinal3642 equ <__imp_mfc42u_ordinal3642>
+
+externdef __imp_mfc42u_ordinal3643:PPROC
+mfc42u_ordinal3643 equ <__imp_mfc42u_ordinal3643>
+
+externdef __imp_mfc42u_ordinal3644:PPROC
+mfc42u_ordinal3644 equ <__imp_mfc42u_ordinal3644>
+
+externdef __imp_mfc42u_ordinal3645:PPROC
+mfc42u_ordinal3645 equ <__imp_mfc42u_ordinal3645>
+
+externdef __imp_mfc42u_ordinal3646:PPROC
+mfc42u_ordinal3646 equ <__imp_mfc42u_ordinal3646>
+
+externdef __imp_mfc42u_ordinal3647:PPROC
+mfc42u_ordinal3647 equ <__imp_mfc42u_ordinal3647>
+
+externdef __imp_mfc42u_ordinal3648:PPROC
+mfc42u_ordinal3648 equ <__imp_mfc42u_ordinal3648>
+
+externdef __imp_mfc42u_ordinal3649:PPROC
+mfc42u_ordinal3649 equ <__imp_mfc42u_ordinal3649>
+
+externdef __imp_mfc42u_ordinal364:PPROC
+mfc42u_ordinal364 equ <__imp_mfc42u_ordinal364>
+
+externdef __imp_mfc42u_ordinal3650:PPROC
+mfc42u_ordinal3650 equ <__imp_mfc42u_ordinal3650>
+
+externdef __imp_mfc42u_ordinal3651:PPROC
+mfc42u_ordinal3651 equ <__imp_mfc42u_ordinal3651>
+
+externdef __imp_mfc42u_ordinal3652:PPROC
+mfc42u_ordinal3652 equ <__imp_mfc42u_ordinal3652>
+
+externdef __imp_mfc42u_ordinal3653:PPROC
+mfc42u_ordinal3653 equ <__imp_mfc42u_ordinal3653>
+
+externdef __imp_mfc42u_ordinal3654:PPROC
+mfc42u_ordinal3654 equ <__imp_mfc42u_ordinal3654>
+
+externdef __imp_mfc42u_ordinal3655:PPROC
+mfc42u_ordinal3655 equ <__imp_mfc42u_ordinal3655>
+
+externdef __imp_mfc42u_ordinal3656:PPROC
+mfc42u_ordinal3656 equ <__imp_mfc42u_ordinal3656>
+
+externdef __imp_mfc42u_ordinal3657:PPROC
+mfc42u_ordinal3657 equ <__imp_mfc42u_ordinal3657>
+
+externdef __imp_mfc42u_ordinal3658:PPROC
+mfc42u_ordinal3658 equ <__imp_mfc42u_ordinal3658>
+
+externdef __imp_mfc42u_ordinal3659:PPROC
+mfc42u_ordinal3659 equ <__imp_mfc42u_ordinal3659>
+
+externdef __imp_mfc42u_ordinal365:PPROC
+mfc42u_ordinal365 equ <__imp_mfc42u_ordinal365>
+
+externdef __imp_mfc42u_ordinal3660:PPROC
+mfc42u_ordinal3660 equ <__imp_mfc42u_ordinal3660>
+
+externdef __imp_mfc42u_ordinal3661:PPROC
+mfc42u_ordinal3661 equ <__imp_mfc42u_ordinal3661>
+
+externdef __imp_mfc42u_ordinal3662:PPROC
+mfc42u_ordinal3662 equ <__imp_mfc42u_ordinal3662>
+
+externdef __imp_mfc42u_ordinal3663:PPROC
+mfc42u_ordinal3663 equ <__imp_mfc42u_ordinal3663>
+
+externdef __imp_mfc42u_ordinal3664:PPROC
+mfc42u_ordinal3664 equ <__imp_mfc42u_ordinal3664>
+
+externdef __imp_mfc42u_ordinal3665:PPROC
+mfc42u_ordinal3665 equ <__imp_mfc42u_ordinal3665>
+
+externdef __imp_mfc42u_ordinal3666:PPROC
+mfc42u_ordinal3666 equ <__imp_mfc42u_ordinal3666>
+
+externdef __imp_mfc42u_ordinal3667:PPROC
+mfc42u_ordinal3667 equ <__imp_mfc42u_ordinal3667>
+
+externdef __imp_mfc42u_ordinal3668:PPROC
+mfc42u_ordinal3668 equ <__imp_mfc42u_ordinal3668>
+
+externdef __imp_mfc42u_ordinal3669:PPROC
+mfc42u_ordinal3669 equ <__imp_mfc42u_ordinal3669>
+
+externdef __imp_mfc42u_ordinal366:PPROC
+mfc42u_ordinal366 equ <__imp_mfc42u_ordinal366>
+
+externdef __imp_mfc42u_ordinal3670:PPROC
+mfc42u_ordinal3670 equ <__imp_mfc42u_ordinal3670>
+
+externdef __imp_mfc42u_ordinal3671:PPROC
+mfc42u_ordinal3671 equ <__imp_mfc42u_ordinal3671>
+
+externdef __imp_mfc42u_ordinal3672:PPROC
+mfc42u_ordinal3672 equ <__imp_mfc42u_ordinal3672>
+
+externdef __imp_mfc42u_ordinal3673:PPROC
+mfc42u_ordinal3673 equ <__imp_mfc42u_ordinal3673>
+
+externdef __imp_mfc42u_ordinal3674:PPROC
+mfc42u_ordinal3674 equ <__imp_mfc42u_ordinal3674>
+
+externdef __imp_mfc42u_ordinal3675:PPROC
+mfc42u_ordinal3675 equ <__imp_mfc42u_ordinal3675>
+
+externdef __imp_mfc42u_ordinal3676:PPROC
+mfc42u_ordinal3676 equ <__imp_mfc42u_ordinal3676>
+
+externdef __imp_mfc42u_ordinal3677:PPROC
+mfc42u_ordinal3677 equ <__imp_mfc42u_ordinal3677>
+
+externdef __imp_mfc42u_ordinal3678:PPROC
+mfc42u_ordinal3678 equ <__imp_mfc42u_ordinal3678>
+
+externdef __imp_mfc42u_ordinal3679:PPROC
+mfc42u_ordinal3679 equ <__imp_mfc42u_ordinal3679>
+
+externdef __imp_mfc42u_ordinal367:PPROC
+mfc42u_ordinal367 equ <__imp_mfc42u_ordinal367>
+
+externdef __imp_mfc42u_ordinal3680:PPROC
+mfc42u_ordinal3680 equ <__imp_mfc42u_ordinal3680>
+
+externdef __imp_mfc42u_ordinal3681:PPROC
+mfc42u_ordinal3681 equ <__imp_mfc42u_ordinal3681>
+
+externdef __imp_mfc42u_ordinal3682:PPROC
+mfc42u_ordinal3682 equ <__imp_mfc42u_ordinal3682>
+
+externdef __imp_mfc42u_ordinal3683:PPROC
+mfc42u_ordinal3683 equ <__imp_mfc42u_ordinal3683>
+
+externdef __imp_mfc42u_ordinal3684:PPROC
+mfc42u_ordinal3684 equ <__imp_mfc42u_ordinal3684>
+
+externdef __imp_mfc42u_ordinal3685:PPROC
+mfc42u_ordinal3685 equ <__imp_mfc42u_ordinal3685>
+
+externdef __imp_mfc42u_ordinal3686:PPROC
+mfc42u_ordinal3686 equ <__imp_mfc42u_ordinal3686>
+
+externdef __imp_mfc42u_ordinal3687:PPROC
+mfc42u_ordinal3687 equ <__imp_mfc42u_ordinal3687>
+
+externdef __imp_mfc42u_ordinal3688:PPROC
+mfc42u_ordinal3688 equ <__imp_mfc42u_ordinal3688>
+
+externdef __imp_mfc42u_ordinal3689:PPROC
+mfc42u_ordinal3689 equ <__imp_mfc42u_ordinal3689>
+
+externdef __imp_mfc42u_ordinal368:PPROC
+mfc42u_ordinal368 equ <__imp_mfc42u_ordinal368>
+
+externdef __imp_mfc42u_ordinal3690:PPROC
+mfc42u_ordinal3690 equ <__imp_mfc42u_ordinal3690>
+
+externdef __imp_mfc42u_ordinal3691:PPROC
+mfc42u_ordinal3691 equ <__imp_mfc42u_ordinal3691>
+
+externdef __imp_mfc42u_ordinal3692:PPROC
+mfc42u_ordinal3692 equ <__imp_mfc42u_ordinal3692>
+
+externdef __imp_mfc42u_ordinal3693:PPROC
+mfc42u_ordinal3693 equ <__imp_mfc42u_ordinal3693>
+
+externdef __imp_mfc42u_ordinal3694:PPROC
+mfc42u_ordinal3694 equ <__imp_mfc42u_ordinal3694>
+
+externdef __imp_mfc42u_ordinal3695:PPROC
+mfc42u_ordinal3695 equ <__imp_mfc42u_ordinal3695>
+
+externdef __imp_mfc42u_ordinal3696:PPROC
+mfc42u_ordinal3696 equ <__imp_mfc42u_ordinal3696>
+
+externdef __imp_mfc42u_ordinal3697:PPROC
+mfc42u_ordinal3697 equ <__imp_mfc42u_ordinal3697>
+
+externdef __imp_mfc42u_ordinal3698:PPROC
+mfc42u_ordinal3698 equ <__imp_mfc42u_ordinal3698>
+
+externdef __imp_mfc42u_ordinal3699:PPROC
+mfc42u_ordinal3699 equ <__imp_mfc42u_ordinal3699>
+
+externdef __imp_mfc42u_ordinal369:PPROC
+mfc42u_ordinal369 equ <__imp_mfc42u_ordinal369>
+
+externdef __imp_mfc42u_ordinal36:PPROC
+mfc42u_ordinal36 equ <__imp_mfc42u_ordinal36>
+
+externdef __imp_mfc42u_ordinal3700:PPROC
+mfc42u_ordinal3700 equ <__imp_mfc42u_ordinal3700>
+
+externdef __imp_mfc42u_ordinal3701:PPROC
+mfc42u_ordinal3701 equ <__imp_mfc42u_ordinal3701>
+
+externdef __imp_mfc42u_ordinal3702:PPROC
+mfc42u_ordinal3702 equ <__imp_mfc42u_ordinal3702>
+
+externdef __imp_mfc42u_ordinal3703:PPROC
+mfc42u_ordinal3703 equ <__imp_mfc42u_ordinal3703>
+
+externdef __imp_mfc42u_ordinal3704:PPROC
+mfc42u_ordinal3704 equ <__imp_mfc42u_ordinal3704>
+
+externdef __imp_mfc42u_ordinal3705:PPROC
+mfc42u_ordinal3705 equ <__imp_mfc42u_ordinal3705>
+
+externdef __imp_mfc42u_ordinal3706:PPROC
+mfc42u_ordinal3706 equ <__imp_mfc42u_ordinal3706>
+
+externdef __imp_mfc42u_ordinal3707:PPROC
+mfc42u_ordinal3707 equ <__imp_mfc42u_ordinal3707>
+
+externdef __imp_mfc42u_ordinal3708:PPROC
+mfc42u_ordinal3708 equ <__imp_mfc42u_ordinal3708>
+
+externdef __imp_mfc42u_ordinal3709:PPROC
+mfc42u_ordinal3709 equ <__imp_mfc42u_ordinal3709>
+
+externdef __imp_mfc42u_ordinal370:PPROC
+mfc42u_ordinal370 equ <__imp_mfc42u_ordinal370>
+
+externdef __imp_mfc42u_ordinal3710:PPROC
+mfc42u_ordinal3710 equ <__imp_mfc42u_ordinal3710>
+
+externdef __imp_mfc42u_ordinal3711:PPROC
+mfc42u_ordinal3711 equ <__imp_mfc42u_ordinal3711>
+
+externdef __imp_mfc42u_ordinal3712:PPROC
+mfc42u_ordinal3712 equ <__imp_mfc42u_ordinal3712>
+
+externdef __imp_mfc42u_ordinal3713:PPROC
+mfc42u_ordinal3713 equ <__imp_mfc42u_ordinal3713>
+
+externdef __imp_mfc42u_ordinal3714:PPROC
+mfc42u_ordinal3714 equ <__imp_mfc42u_ordinal3714>
+
+externdef __imp_mfc42u_ordinal3715:PPROC
+mfc42u_ordinal3715 equ <__imp_mfc42u_ordinal3715>
+
+externdef __imp_mfc42u_ordinal3716:PPROC
+mfc42u_ordinal3716 equ <__imp_mfc42u_ordinal3716>
+
+externdef __imp_mfc42u_ordinal3717:PPROC
+mfc42u_ordinal3717 equ <__imp_mfc42u_ordinal3717>
+
+externdef __imp_mfc42u_ordinal3718:PPROC
+mfc42u_ordinal3718 equ <__imp_mfc42u_ordinal3718>
+
+externdef __imp_mfc42u_ordinal3719:PPROC
+mfc42u_ordinal3719 equ <__imp_mfc42u_ordinal3719>
+
+externdef __imp_mfc42u_ordinal371:PPROC
+mfc42u_ordinal371 equ <__imp_mfc42u_ordinal371>
+
+externdef __imp_mfc42u_ordinal3720:PPROC
+mfc42u_ordinal3720 equ <__imp_mfc42u_ordinal3720>
+
+externdef __imp_mfc42u_ordinal3721:PPROC
+mfc42u_ordinal3721 equ <__imp_mfc42u_ordinal3721>
+
+externdef __imp_mfc42u_ordinal3722:PPROC
+mfc42u_ordinal3722 equ <__imp_mfc42u_ordinal3722>
+
+externdef __imp_mfc42u_ordinal3723:PPROC
+mfc42u_ordinal3723 equ <__imp_mfc42u_ordinal3723>
+
+externdef __imp_mfc42u_ordinal3724:PPROC
+mfc42u_ordinal3724 equ <__imp_mfc42u_ordinal3724>
+
+externdef __imp_mfc42u_ordinal3725:PPROC
+mfc42u_ordinal3725 equ <__imp_mfc42u_ordinal3725>
+
+externdef __imp_mfc42u_ordinal3726:PPROC
+mfc42u_ordinal3726 equ <__imp_mfc42u_ordinal3726>
+
+externdef __imp_mfc42u_ordinal3727:PPROC
+mfc42u_ordinal3727 equ <__imp_mfc42u_ordinal3727>
+
+externdef __imp_mfc42u_ordinal3728:PPROC
+mfc42u_ordinal3728 equ <__imp_mfc42u_ordinal3728>
+
+externdef __imp_mfc42u_ordinal3729:PPROC
+mfc42u_ordinal3729 equ <__imp_mfc42u_ordinal3729>
+
+externdef __imp_mfc42u_ordinal372:PPROC
+mfc42u_ordinal372 equ <__imp_mfc42u_ordinal372>
+
+externdef __imp_mfc42u_ordinal3730:PPROC
+mfc42u_ordinal3730 equ <__imp_mfc42u_ordinal3730>
+
+externdef __imp_mfc42u_ordinal3731:PPROC
+mfc42u_ordinal3731 equ <__imp_mfc42u_ordinal3731>
+
+externdef __imp_mfc42u_ordinal3732:PPROC
+mfc42u_ordinal3732 equ <__imp_mfc42u_ordinal3732>
+
+externdef __imp_mfc42u_ordinal3733:PPROC
+mfc42u_ordinal3733 equ <__imp_mfc42u_ordinal3733>
+
+externdef __imp_mfc42u_ordinal3734:PPROC
+mfc42u_ordinal3734 equ <__imp_mfc42u_ordinal3734>
+
+externdef __imp_mfc42u_ordinal3735:PPROC
+mfc42u_ordinal3735 equ <__imp_mfc42u_ordinal3735>
+
+externdef __imp_mfc42u_ordinal3736:PPROC
+mfc42u_ordinal3736 equ <__imp_mfc42u_ordinal3736>
+
+externdef __imp_mfc42u_ordinal3737:PPROC
+mfc42u_ordinal3737 equ <__imp_mfc42u_ordinal3737>
+
+externdef __imp_mfc42u_ordinal3738:PPROC
+mfc42u_ordinal3738 equ <__imp_mfc42u_ordinal3738>
+
+externdef __imp_mfc42u_ordinal3739:PPROC
+mfc42u_ordinal3739 equ <__imp_mfc42u_ordinal3739>
+
+externdef __imp_mfc42u_ordinal373:PPROC
+mfc42u_ordinal373 equ <__imp_mfc42u_ordinal373>
+
+externdef __imp_mfc42u_ordinal3740:PPROC
+mfc42u_ordinal3740 equ <__imp_mfc42u_ordinal3740>
+
+externdef __imp_mfc42u_ordinal3741:PPROC
+mfc42u_ordinal3741 equ <__imp_mfc42u_ordinal3741>
+
+externdef __imp_mfc42u_ordinal3742:PPROC
+mfc42u_ordinal3742 equ <__imp_mfc42u_ordinal3742>
+
+externdef __imp_mfc42u_ordinal3743:PPROC
+mfc42u_ordinal3743 equ <__imp_mfc42u_ordinal3743>
+
+externdef __imp_mfc42u_ordinal3744:PPROC
+mfc42u_ordinal3744 equ <__imp_mfc42u_ordinal3744>
+
+externdef __imp_mfc42u_ordinal3745:PPROC
+mfc42u_ordinal3745 equ <__imp_mfc42u_ordinal3745>
+
+externdef __imp_mfc42u_ordinal3746:PPROC
+mfc42u_ordinal3746 equ <__imp_mfc42u_ordinal3746>
+
+externdef __imp_mfc42u_ordinal3747:PPROC
+mfc42u_ordinal3747 equ <__imp_mfc42u_ordinal3747>
+
+externdef __imp_mfc42u_ordinal3748:PPROC
+mfc42u_ordinal3748 equ <__imp_mfc42u_ordinal3748>
+
+externdef __imp_mfc42u_ordinal3749:PPROC
+mfc42u_ordinal3749 equ <__imp_mfc42u_ordinal3749>
+
+externdef __imp_mfc42u_ordinal374:PPROC
+mfc42u_ordinal374 equ <__imp_mfc42u_ordinal374>
+
+externdef __imp_mfc42u_ordinal3750:PPROC
+mfc42u_ordinal3750 equ <__imp_mfc42u_ordinal3750>
+
+externdef __imp_mfc42u_ordinal3751:PPROC
+mfc42u_ordinal3751 equ <__imp_mfc42u_ordinal3751>
+
+externdef __imp_mfc42u_ordinal3752:PPROC
+mfc42u_ordinal3752 equ <__imp_mfc42u_ordinal3752>
+
+externdef __imp_mfc42u_ordinal3753:PPROC
+mfc42u_ordinal3753 equ <__imp_mfc42u_ordinal3753>
+
+externdef __imp_mfc42u_ordinal3754:PPROC
+mfc42u_ordinal3754 equ <__imp_mfc42u_ordinal3754>
+
+externdef __imp_mfc42u_ordinal3755:PPROC
+mfc42u_ordinal3755 equ <__imp_mfc42u_ordinal3755>
+
+externdef __imp_mfc42u_ordinal3756:PPROC
+mfc42u_ordinal3756 equ <__imp_mfc42u_ordinal3756>
+
+externdef __imp_mfc42u_ordinal3757:PPROC
+mfc42u_ordinal3757 equ <__imp_mfc42u_ordinal3757>
+
+externdef __imp_mfc42u_ordinal3758:PPROC
+mfc42u_ordinal3758 equ <__imp_mfc42u_ordinal3758>
+
+externdef __imp_mfc42u_ordinal3759:PPROC
+mfc42u_ordinal3759 equ <__imp_mfc42u_ordinal3759>
+
+externdef __imp_mfc42u_ordinal375:PPROC
+mfc42u_ordinal375 equ <__imp_mfc42u_ordinal375>
+
+externdef __imp_mfc42u_ordinal3760:PPROC
+mfc42u_ordinal3760 equ <__imp_mfc42u_ordinal3760>
+
+externdef __imp_mfc42u_ordinal3761:PPROC
+mfc42u_ordinal3761 equ <__imp_mfc42u_ordinal3761>
+
+externdef __imp_mfc42u_ordinal3762:PPROC
+mfc42u_ordinal3762 equ <__imp_mfc42u_ordinal3762>
+
+externdef __imp_mfc42u_ordinal3763:PPROC
+mfc42u_ordinal3763 equ <__imp_mfc42u_ordinal3763>
+
+externdef __imp_mfc42u_ordinal3764:PPROC
+mfc42u_ordinal3764 equ <__imp_mfc42u_ordinal3764>
+
+externdef __imp_mfc42u_ordinal3765:PPROC
+mfc42u_ordinal3765 equ <__imp_mfc42u_ordinal3765>
+
+externdef __imp_mfc42u_ordinal3766:PPROC
+mfc42u_ordinal3766 equ <__imp_mfc42u_ordinal3766>
+
+externdef __imp_mfc42u_ordinal3767:PPROC
+mfc42u_ordinal3767 equ <__imp_mfc42u_ordinal3767>
+
+externdef __imp_mfc42u_ordinal3768:PPROC
+mfc42u_ordinal3768 equ <__imp_mfc42u_ordinal3768>
+
+externdef __imp_mfc42u_ordinal3769:PPROC
+mfc42u_ordinal3769 equ <__imp_mfc42u_ordinal3769>
+
+externdef __imp_mfc42u_ordinal376:PPROC
+mfc42u_ordinal376 equ <__imp_mfc42u_ordinal376>
+
+externdef __imp_mfc42u_ordinal3770:PPROC
+mfc42u_ordinal3770 equ <__imp_mfc42u_ordinal3770>
+
+externdef __imp_mfc42u_ordinal3771:PPROC
+mfc42u_ordinal3771 equ <__imp_mfc42u_ordinal3771>
+
+externdef __imp_mfc42u_ordinal3772:PPROC
+mfc42u_ordinal3772 equ <__imp_mfc42u_ordinal3772>
+
+externdef __imp_mfc42u_ordinal3773:PPROC
+mfc42u_ordinal3773 equ <__imp_mfc42u_ordinal3773>
+
+externdef __imp_mfc42u_ordinal3774:PPROC
+mfc42u_ordinal3774 equ <__imp_mfc42u_ordinal3774>
+
+externdef __imp_mfc42u_ordinal3775:PPROC
+mfc42u_ordinal3775 equ <__imp_mfc42u_ordinal3775>
+
+externdef __imp_mfc42u_ordinal3776:PPROC
+mfc42u_ordinal3776 equ <__imp_mfc42u_ordinal3776>
+
+externdef __imp_mfc42u_ordinal3777:PPROC
+mfc42u_ordinal3777 equ <__imp_mfc42u_ordinal3777>
+
+externdef __imp_mfc42u_ordinal3778:PPROC
+mfc42u_ordinal3778 equ <__imp_mfc42u_ordinal3778>
+
+externdef __imp_mfc42u_ordinal3779:PPROC
+mfc42u_ordinal3779 equ <__imp_mfc42u_ordinal3779>
+
+externdef __imp_mfc42u_ordinal377:PPROC
+mfc42u_ordinal377 equ <__imp_mfc42u_ordinal377>
+
+externdef __imp_mfc42u_ordinal3780:PPROC
+mfc42u_ordinal3780 equ <__imp_mfc42u_ordinal3780>
+
+externdef __imp_mfc42u_ordinal3781:PPROC
+mfc42u_ordinal3781 equ <__imp_mfc42u_ordinal3781>
+
+externdef __imp_mfc42u_ordinal3782:PPROC
+mfc42u_ordinal3782 equ <__imp_mfc42u_ordinal3782>
+
+externdef __imp_mfc42u_ordinal3783:PPROC
+mfc42u_ordinal3783 equ <__imp_mfc42u_ordinal3783>
+
+externdef __imp_mfc42u_ordinal3784:PPROC
+mfc42u_ordinal3784 equ <__imp_mfc42u_ordinal3784>
+
+externdef __imp_mfc42u_ordinal3785:PPROC
+mfc42u_ordinal3785 equ <__imp_mfc42u_ordinal3785>
+
+externdef __imp_mfc42u_ordinal3786:PPROC
+mfc42u_ordinal3786 equ <__imp_mfc42u_ordinal3786>
+
+externdef __imp_mfc42u_ordinal3787:PPROC
+mfc42u_ordinal3787 equ <__imp_mfc42u_ordinal3787>
+
+externdef __imp_mfc42u_ordinal3788:PPROC
+mfc42u_ordinal3788 equ <__imp_mfc42u_ordinal3788>
+
+externdef __imp_mfc42u_ordinal3789:PPROC
+mfc42u_ordinal3789 equ <__imp_mfc42u_ordinal3789>
+
+externdef __imp_mfc42u_ordinal378:PPROC
+mfc42u_ordinal378 equ <__imp_mfc42u_ordinal378>
+
+externdef __imp_mfc42u_ordinal3790:PPROC
+mfc42u_ordinal3790 equ <__imp_mfc42u_ordinal3790>
+
+externdef __imp_mfc42u_ordinal3791:PPROC
+mfc42u_ordinal3791 equ <__imp_mfc42u_ordinal3791>
+
+externdef __imp_mfc42u_ordinal3792:PPROC
+mfc42u_ordinal3792 equ <__imp_mfc42u_ordinal3792>
+
+externdef __imp_mfc42u_ordinal3793:PPROC
+mfc42u_ordinal3793 equ <__imp_mfc42u_ordinal3793>
+
+externdef __imp_mfc42u_ordinal3794:PPROC
+mfc42u_ordinal3794 equ <__imp_mfc42u_ordinal3794>
+
+externdef __imp_mfc42u_ordinal3795:PPROC
+mfc42u_ordinal3795 equ <__imp_mfc42u_ordinal3795>
+
+externdef __imp_mfc42u_ordinal3796:PPROC
+mfc42u_ordinal3796 equ <__imp_mfc42u_ordinal3796>
+
+externdef __imp_mfc42u_ordinal3797:PPROC
+mfc42u_ordinal3797 equ <__imp_mfc42u_ordinal3797>
+
+externdef __imp_mfc42u_ordinal3798:PPROC
+mfc42u_ordinal3798 equ <__imp_mfc42u_ordinal3798>
+
+externdef __imp_mfc42u_ordinal3799:PPROC
+mfc42u_ordinal3799 equ <__imp_mfc42u_ordinal3799>
+
+externdef __imp_mfc42u_ordinal379:PPROC
+mfc42u_ordinal379 equ <__imp_mfc42u_ordinal379>
+
+externdef __imp_mfc42u_ordinal37:PPROC
+mfc42u_ordinal37 equ <__imp_mfc42u_ordinal37>
+
+externdef __imp_mfc42u_ordinal3800:PPROC
+mfc42u_ordinal3800 equ <__imp_mfc42u_ordinal3800>
+
+externdef __imp_mfc42u_ordinal3801:PPROC
+mfc42u_ordinal3801 equ <__imp_mfc42u_ordinal3801>
+
+externdef __imp_mfc42u_ordinal3802:PPROC
+mfc42u_ordinal3802 equ <__imp_mfc42u_ordinal3802>
+
+externdef __imp_mfc42u_ordinal3803:PPROC
+mfc42u_ordinal3803 equ <__imp_mfc42u_ordinal3803>
+
+externdef __imp_mfc42u_ordinal3804:PPROC
+mfc42u_ordinal3804 equ <__imp_mfc42u_ordinal3804>
+
+externdef __imp_mfc42u_ordinal3805:PPROC
+mfc42u_ordinal3805 equ <__imp_mfc42u_ordinal3805>
+
+externdef __imp_mfc42u_ordinal3806:PPROC
+mfc42u_ordinal3806 equ <__imp_mfc42u_ordinal3806>
+
+externdef __imp_mfc42u_ordinal3807:PPROC
+mfc42u_ordinal3807 equ <__imp_mfc42u_ordinal3807>
+
+externdef __imp_mfc42u_ordinal3808:PPROC
+mfc42u_ordinal3808 equ <__imp_mfc42u_ordinal3808>
+
+externdef __imp_mfc42u_ordinal3809:PPROC
+mfc42u_ordinal3809 equ <__imp_mfc42u_ordinal3809>
+
+externdef __imp_mfc42u_ordinal380:PPROC
+mfc42u_ordinal380 equ <__imp_mfc42u_ordinal380>
+
+externdef __imp_mfc42u_ordinal3810:PPROC
+mfc42u_ordinal3810 equ <__imp_mfc42u_ordinal3810>
+
+externdef __imp_mfc42u_ordinal3811:PPROC
+mfc42u_ordinal3811 equ <__imp_mfc42u_ordinal3811>
+
+externdef __imp_mfc42u_ordinal3812:PPROC
+mfc42u_ordinal3812 equ <__imp_mfc42u_ordinal3812>
+
+externdef __imp_mfc42u_ordinal3813:PPROC
+mfc42u_ordinal3813 equ <__imp_mfc42u_ordinal3813>
+
+externdef __imp_mfc42u_ordinal3814:PPROC
+mfc42u_ordinal3814 equ <__imp_mfc42u_ordinal3814>
+
+externdef __imp_mfc42u_ordinal3815:PPROC
+mfc42u_ordinal3815 equ <__imp_mfc42u_ordinal3815>
+
+externdef __imp_mfc42u_ordinal3816:PPROC
+mfc42u_ordinal3816 equ <__imp_mfc42u_ordinal3816>
+
+externdef __imp_mfc42u_ordinal3817:PPROC
+mfc42u_ordinal3817 equ <__imp_mfc42u_ordinal3817>
+
+externdef __imp_mfc42u_ordinal3818:PPROC
+mfc42u_ordinal3818 equ <__imp_mfc42u_ordinal3818>
+
+externdef __imp_mfc42u_ordinal3819:PPROC
+mfc42u_ordinal3819 equ <__imp_mfc42u_ordinal3819>
+
+externdef __imp_mfc42u_ordinal381:PPROC
+mfc42u_ordinal381 equ <__imp_mfc42u_ordinal381>
+
+externdef __imp_mfc42u_ordinal3820:PPROC
+mfc42u_ordinal3820 equ <__imp_mfc42u_ordinal3820>
+
+externdef __imp_mfc42u_ordinal3821:PPROC
+mfc42u_ordinal3821 equ <__imp_mfc42u_ordinal3821>
+
+externdef __imp_mfc42u_ordinal3822:PPROC
+mfc42u_ordinal3822 equ <__imp_mfc42u_ordinal3822>
+
+externdef __imp_mfc42u_ordinal3823:PPROC
+mfc42u_ordinal3823 equ <__imp_mfc42u_ordinal3823>
+
+externdef __imp_mfc42u_ordinal3824:PPROC
+mfc42u_ordinal3824 equ <__imp_mfc42u_ordinal3824>
+
+externdef __imp_mfc42u_ordinal3825:PPROC
+mfc42u_ordinal3825 equ <__imp_mfc42u_ordinal3825>
+
+externdef __imp_mfc42u_ordinal3826:PPROC
+mfc42u_ordinal3826 equ <__imp_mfc42u_ordinal3826>
+
+externdef __imp_mfc42u_ordinal3827:PPROC
+mfc42u_ordinal3827 equ <__imp_mfc42u_ordinal3827>
+
+externdef __imp_mfc42u_ordinal3828:PPROC
+mfc42u_ordinal3828 equ <__imp_mfc42u_ordinal3828>
+
+externdef __imp_mfc42u_ordinal3829:PPROC
+mfc42u_ordinal3829 equ <__imp_mfc42u_ordinal3829>
+
+externdef __imp_mfc42u_ordinal382:PPROC
+mfc42u_ordinal382 equ <__imp_mfc42u_ordinal382>
+
+externdef __imp_mfc42u_ordinal3830:PPROC
+mfc42u_ordinal3830 equ <__imp_mfc42u_ordinal3830>
+
+externdef __imp_mfc42u_ordinal3831:PPROC
+mfc42u_ordinal3831 equ <__imp_mfc42u_ordinal3831>
+
+externdef __imp_mfc42u_ordinal3832:PPROC
+mfc42u_ordinal3832 equ <__imp_mfc42u_ordinal3832>
+
+externdef __imp_mfc42u_ordinal3833:PPROC
+mfc42u_ordinal3833 equ <__imp_mfc42u_ordinal3833>
+
+externdef __imp_mfc42u_ordinal3834:PPROC
+mfc42u_ordinal3834 equ <__imp_mfc42u_ordinal3834>
+
+externdef __imp_mfc42u_ordinal3835:PPROC
+mfc42u_ordinal3835 equ <__imp_mfc42u_ordinal3835>
+
+externdef __imp_mfc42u_ordinal3836:PPROC
+mfc42u_ordinal3836 equ <__imp_mfc42u_ordinal3836>
+
+externdef __imp_mfc42u_ordinal3837:PPROC
+mfc42u_ordinal3837 equ <__imp_mfc42u_ordinal3837>
+
+externdef __imp_mfc42u_ordinal3838:PPROC
+mfc42u_ordinal3838 equ <__imp_mfc42u_ordinal3838>
+
+externdef __imp_mfc42u_ordinal3839:PPROC
+mfc42u_ordinal3839 equ <__imp_mfc42u_ordinal3839>
+
+externdef __imp_mfc42u_ordinal383:PPROC
+mfc42u_ordinal383 equ <__imp_mfc42u_ordinal383>
+
+externdef __imp_mfc42u_ordinal3840:PPROC
+mfc42u_ordinal3840 equ <__imp_mfc42u_ordinal3840>
+
+externdef __imp_mfc42u_ordinal3841:PPROC
+mfc42u_ordinal3841 equ <__imp_mfc42u_ordinal3841>
+
+externdef __imp_mfc42u_ordinal3842:PPROC
+mfc42u_ordinal3842 equ <__imp_mfc42u_ordinal3842>
+
+externdef __imp_mfc42u_ordinal3843:PPROC
+mfc42u_ordinal3843 equ <__imp_mfc42u_ordinal3843>
+
+externdef __imp_mfc42u_ordinal3844:PPROC
+mfc42u_ordinal3844 equ <__imp_mfc42u_ordinal3844>
+
+externdef __imp_mfc42u_ordinal3845:PPROC
+mfc42u_ordinal3845 equ <__imp_mfc42u_ordinal3845>
+
+externdef __imp_mfc42u_ordinal3846:PPROC
+mfc42u_ordinal3846 equ <__imp_mfc42u_ordinal3846>
+
+externdef __imp_mfc42u_ordinal3847:PPROC
+mfc42u_ordinal3847 equ <__imp_mfc42u_ordinal3847>
+
+externdef __imp_mfc42u_ordinal3848:PPROC
+mfc42u_ordinal3848 equ <__imp_mfc42u_ordinal3848>
+
+externdef __imp_mfc42u_ordinal3849:PPROC
+mfc42u_ordinal3849 equ <__imp_mfc42u_ordinal3849>
+
+externdef __imp_mfc42u_ordinal384:PPROC
+mfc42u_ordinal384 equ <__imp_mfc42u_ordinal384>
+
+externdef __imp_mfc42u_ordinal3850:PPROC
+mfc42u_ordinal3850 equ <__imp_mfc42u_ordinal3850>
+
+externdef __imp_mfc42u_ordinal3851:PPROC
+mfc42u_ordinal3851 equ <__imp_mfc42u_ordinal3851>
+
+externdef __imp_mfc42u_ordinal3852:PPROC
+mfc42u_ordinal3852 equ <__imp_mfc42u_ordinal3852>
+
+externdef __imp_mfc42u_ordinal3853:PPROC
+mfc42u_ordinal3853 equ <__imp_mfc42u_ordinal3853>
+
+externdef __imp_mfc42u_ordinal3854:PPROC
+mfc42u_ordinal3854 equ <__imp_mfc42u_ordinal3854>
+
+externdef __imp_mfc42u_ordinal3855:PPROC
+mfc42u_ordinal3855 equ <__imp_mfc42u_ordinal3855>
+
+externdef __imp_mfc42u_ordinal3856:PPROC
+mfc42u_ordinal3856 equ <__imp_mfc42u_ordinal3856>
+
+externdef __imp_mfc42u_ordinal3857:PPROC
+mfc42u_ordinal3857 equ <__imp_mfc42u_ordinal3857>
+
+externdef __imp_mfc42u_ordinal3858:PPROC
+mfc42u_ordinal3858 equ <__imp_mfc42u_ordinal3858>
+
+externdef __imp_mfc42u_ordinal3859:PPROC
+mfc42u_ordinal3859 equ <__imp_mfc42u_ordinal3859>
+
+externdef __imp_mfc42u_ordinal385:PPROC
+mfc42u_ordinal385 equ <__imp_mfc42u_ordinal385>
+
+externdef __imp_mfc42u_ordinal3860:PPROC
+mfc42u_ordinal3860 equ <__imp_mfc42u_ordinal3860>
+
+externdef __imp_mfc42u_ordinal3861:PPROC
+mfc42u_ordinal3861 equ <__imp_mfc42u_ordinal3861>
+
+externdef __imp_mfc42u_ordinal3862:PPROC
+mfc42u_ordinal3862 equ <__imp_mfc42u_ordinal3862>
+
+externdef __imp_mfc42u_ordinal3863:PPROC
+mfc42u_ordinal3863 equ <__imp_mfc42u_ordinal3863>
+
+externdef __imp_mfc42u_ordinal3864:PPROC
+mfc42u_ordinal3864 equ <__imp_mfc42u_ordinal3864>
+
+externdef __imp_mfc42u_ordinal3865:PPROC
+mfc42u_ordinal3865 equ <__imp_mfc42u_ordinal3865>
+
+externdef __imp_mfc42u_ordinal3866:PPROC
+mfc42u_ordinal3866 equ <__imp_mfc42u_ordinal3866>
+
+externdef __imp_mfc42u_ordinal3867:PPROC
+mfc42u_ordinal3867 equ <__imp_mfc42u_ordinal3867>
+
+externdef __imp_mfc42u_ordinal3868:PPROC
+mfc42u_ordinal3868 equ <__imp_mfc42u_ordinal3868>
+
+externdef __imp_mfc42u_ordinal3869:PPROC
+mfc42u_ordinal3869 equ <__imp_mfc42u_ordinal3869>
+
+externdef __imp_mfc42u_ordinal386:PPROC
+mfc42u_ordinal386 equ <__imp_mfc42u_ordinal386>
+
+externdef __imp_mfc42u_ordinal3870:PPROC
+mfc42u_ordinal3870 equ <__imp_mfc42u_ordinal3870>
+
+externdef __imp_mfc42u_ordinal3871:PPROC
+mfc42u_ordinal3871 equ <__imp_mfc42u_ordinal3871>
+
+externdef __imp_mfc42u_ordinal3872:PPROC
+mfc42u_ordinal3872 equ <__imp_mfc42u_ordinal3872>
+
+externdef __imp_mfc42u_ordinal3873:PPROC
+mfc42u_ordinal3873 equ <__imp_mfc42u_ordinal3873>
+
+externdef __imp_mfc42u_ordinal3874:PPROC
+mfc42u_ordinal3874 equ <__imp_mfc42u_ordinal3874>
+
+externdef __imp_mfc42u_ordinal3875:PPROC
+mfc42u_ordinal3875 equ <__imp_mfc42u_ordinal3875>
+
+externdef __imp_mfc42u_ordinal3876:PPROC
+mfc42u_ordinal3876 equ <__imp_mfc42u_ordinal3876>
+
+externdef __imp_mfc42u_ordinal3877:PPROC
+mfc42u_ordinal3877 equ <__imp_mfc42u_ordinal3877>
+
+externdef __imp_mfc42u_ordinal3878:PPROC
+mfc42u_ordinal3878 equ <__imp_mfc42u_ordinal3878>
+
+externdef __imp_mfc42u_ordinal3879:PPROC
+mfc42u_ordinal3879 equ <__imp_mfc42u_ordinal3879>
+
+externdef __imp_mfc42u_ordinal387:PPROC
+mfc42u_ordinal387 equ <__imp_mfc42u_ordinal387>
+
+externdef __imp_mfc42u_ordinal3880:PPROC
+mfc42u_ordinal3880 equ <__imp_mfc42u_ordinal3880>
+
+externdef __imp_mfc42u_ordinal3881:PPROC
+mfc42u_ordinal3881 equ <__imp_mfc42u_ordinal3881>
+
+externdef __imp_mfc42u_ordinal3882:PPROC
+mfc42u_ordinal3882 equ <__imp_mfc42u_ordinal3882>
+
+externdef __imp_mfc42u_ordinal3883:PPROC
+mfc42u_ordinal3883 equ <__imp_mfc42u_ordinal3883>
+
+externdef __imp_mfc42u_ordinal3884:PPROC
+mfc42u_ordinal3884 equ <__imp_mfc42u_ordinal3884>
+
+externdef __imp_mfc42u_ordinal3885:PPROC
+mfc42u_ordinal3885 equ <__imp_mfc42u_ordinal3885>
+
+externdef __imp_mfc42u_ordinal3886:PPROC
+mfc42u_ordinal3886 equ <__imp_mfc42u_ordinal3886>
+
+externdef __imp_mfc42u_ordinal3887:PPROC
+mfc42u_ordinal3887 equ <__imp_mfc42u_ordinal3887>
+
+externdef __imp_mfc42u_ordinal3888:PPROC
+mfc42u_ordinal3888 equ <__imp_mfc42u_ordinal3888>
+
+externdef __imp_mfc42u_ordinal3889:PPROC
+mfc42u_ordinal3889 equ <__imp_mfc42u_ordinal3889>
+
+externdef __imp_mfc42u_ordinal388:PPROC
+mfc42u_ordinal388 equ <__imp_mfc42u_ordinal388>
+
+externdef __imp_mfc42u_ordinal3890:PPROC
+mfc42u_ordinal3890 equ <__imp_mfc42u_ordinal3890>
+
+externdef __imp_mfc42u_ordinal3891:PPROC
+mfc42u_ordinal3891 equ <__imp_mfc42u_ordinal3891>
+
+externdef __imp_mfc42u_ordinal3892:PPROC
+mfc42u_ordinal3892 equ <__imp_mfc42u_ordinal3892>
+
+externdef __imp_mfc42u_ordinal3893:PPROC
+mfc42u_ordinal3893 equ <__imp_mfc42u_ordinal3893>
+
+externdef __imp_mfc42u_ordinal3894:PPROC
+mfc42u_ordinal3894 equ <__imp_mfc42u_ordinal3894>
+
+externdef __imp_mfc42u_ordinal3895:PPROC
+mfc42u_ordinal3895 equ <__imp_mfc42u_ordinal3895>
+
+externdef __imp_mfc42u_ordinal3896:PPROC
+mfc42u_ordinal3896 equ <__imp_mfc42u_ordinal3896>
+
+externdef __imp_mfc42u_ordinal3897:PPROC
+mfc42u_ordinal3897 equ <__imp_mfc42u_ordinal3897>
+
+externdef __imp_mfc42u_ordinal3898:PPROC
+mfc42u_ordinal3898 equ <__imp_mfc42u_ordinal3898>
+
+externdef __imp_mfc42u_ordinal3899:PPROC
+mfc42u_ordinal3899 equ <__imp_mfc42u_ordinal3899>
+
+externdef __imp_mfc42u_ordinal389:PPROC
+mfc42u_ordinal389 equ <__imp_mfc42u_ordinal389>
+
+externdef __imp_mfc42u_ordinal38:PPROC
+mfc42u_ordinal38 equ <__imp_mfc42u_ordinal38>
+
+externdef __imp_mfc42u_ordinal3900:PPROC
+mfc42u_ordinal3900 equ <__imp_mfc42u_ordinal3900>
+
+externdef __imp_mfc42u_ordinal3901:PPROC
+mfc42u_ordinal3901 equ <__imp_mfc42u_ordinal3901>
+
+externdef __imp_mfc42u_ordinal3902:PPROC
+mfc42u_ordinal3902 equ <__imp_mfc42u_ordinal3902>
+
+externdef __imp_mfc42u_ordinal3903:PPROC
+mfc42u_ordinal3903 equ <__imp_mfc42u_ordinal3903>
+
+externdef __imp_mfc42u_ordinal3904:PPROC
+mfc42u_ordinal3904 equ <__imp_mfc42u_ordinal3904>
+
+externdef __imp_mfc42u_ordinal3905:PPROC
+mfc42u_ordinal3905 equ <__imp_mfc42u_ordinal3905>
+
+externdef __imp_mfc42u_ordinal3906:PPROC
+mfc42u_ordinal3906 equ <__imp_mfc42u_ordinal3906>
+
+externdef __imp_mfc42u_ordinal3907:PPROC
+mfc42u_ordinal3907 equ <__imp_mfc42u_ordinal3907>
+
+externdef __imp_mfc42u_ordinal3908:PPROC
+mfc42u_ordinal3908 equ <__imp_mfc42u_ordinal3908>
+
+externdef __imp_mfc42u_ordinal3909:PPROC
+mfc42u_ordinal3909 equ <__imp_mfc42u_ordinal3909>
+
+externdef __imp_mfc42u_ordinal390:PPROC
+mfc42u_ordinal390 equ <__imp_mfc42u_ordinal390>
+
+externdef __imp_mfc42u_ordinal3910:PPROC
+mfc42u_ordinal3910 equ <__imp_mfc42u_ordinal3910>
+
+externdef __imp_mfc42u_ordinal3911:PPROC
+mfc42u_ordinal3911 equ <__imp_mfc42u_ordinal3911>
+
+externdef __imp_mfc42u_ordinal3912:PPROC
+mfc42u_ordinal3912 equ <__imp_mfc42u_ordinal3912>
+
+externdef __imp_mfc42u_ordinal3913:PPROC
+mfc42u_ordinal3913 equ <__imp_mfc42u_ordinal3913>
+
+externdef __imp_mfc42u_ordinal3914:PPROC
+mfc42u_ordinal3914 equ <__imp_mfc42u_ordinal3914>
+
+externdef __imp_mfc42u_ordinal3915:PPROC
+mfc42u_ordinal3915 equ <__imp_mfc42u_ordinal3915>
+
+externdef __imp_mfc42u_ordinal3916:PPROC
+mfc42u_ordinal3916 equ <__imp_mfc42u_ordinal3916>
+
+externdef __imp_mfc42u_ordinal3917:PPROC
+mfc42u_ordinal3917 equ <__imp_mfc42u_ordinal3917>
+
+externdef __imp_mfc42u_ordinal3918:PPROC
+mfc42u_ordinal3918 equ <__imp_mfc42u_ordinal3918>
+
+externdef __imp_mfc42u_ordinal3919:PPROC
+mfc42u_ordinal3919 equ <__imp_mfc42u_ordinal3919>
+
+externdef __imp_mfc42u_ordinal391:PPROC
+mfc42u_ordinal391 equ <__imp_mfc42u_ordinal391>
+
+externdef __imp_mfc42u_ordinal3920:PPROC
+mfc42u_ordinal3920 equ <__imp_mfc42u_ordinal3920>
+
+externdef __imp_mfc42u_ordinal3921:PPROC
+mfc42u_ordinal3921 equ <__imp_mfc42u_ordinal3921>
+
+externdef __imp_mfc42u_ordinal3922:PPROC
+mfc42u_ordinal3922 equ <__imp_mfc42u_ordinal3922>
+
+externdef __imp_mfc42u_ordinal3923:PPROC
+mfc42u_ordinal3923 equ <__imp_mfc42u_ordinal3923>
+
+externdef __imp_mfc42u_ordinal3924:PPROC
+mfc42u_ordinal3924 equ <__imp_mfc42u_ordinal3924>
+
+externdef __imp_mfc42u_ordinal3925:PPROC
+mfc42u_ordinal3925 equ <__imp_mfc42u_ordinal3925>
+
+externdef __imp_mfc42u_ordinal3926:PPROC
+mfc42u_ordinal3926 equ <__imp_mfc42u_ordinal3926>
+
+externdef __imp_mfc42u_ordinal3927:PPROC
+mfc42u_ordinal3927 equ <__imp_mfc42u_ordinal3927>
+
+externdef __imp_mfc42u_ordinal3928:PPROC
+mfc42u_ordinal3928 equ <__imp_mfc42u_ordinal3928>
+
+externdef __imp_mfc42u_ordinal3929:PPROC
+mfc42u_ordinal3929 equ <__imp_mfc42u_ordinal3929>
+
+externdef __imp_mfc42u_ordinal392:PPROC
+mfc42u_ordinal392 equ <__imp_mfc42u_ordinal392>
+
+externdef __imp_mfc42u_ordinal3930:PPROC
+mfc42u_ordinal3930 equ <__imp_mfc42u_ordinal3930>
+
+externdef __imp_mfc42u_ordinal3931:PPROC
+mfc42u_ordinal3931 equ <__imp_mfc42u_ordinal3931>
+
+externdef __imp_mfc42u_ordinal3932:PPROC
+mfc42u_ordinal3932 equ <__imp_mfc42u_ordinal3932>
+
+externdef __imp_mfc42u_ordinal3933:PPROC
+mfc42u_ordinal3933 equ <__imp_mfc42u_ordinal3933>
+
+externdef __imp_mfc42u_ordinal3934:PPROC
+mfc42u_ordinal3934 equ <__imp_mfc42u_ordinal3934>
+
+externdef __imp_mfc42u_ordinal3935:PPROC
+mfc42u_ordinal3935 equ <__imp_mfc42u_ordinal3935>
+
+externdef __imp_mfc42u_ordinal3936:PPROC
+mfc42u_ordinal3936 equ <__imp_mfc42u_ordinal3936>
+
+externdef __imp_mfc42u_ordinal3937:PPROC
+mfc42u_ordinal3937 equ <__imp_mfc42u_ordinal3937>
+
+externdef __imp_mfc42u_ordinal3938:PPROC
+mfc42u_ordinal3938 equ <__imp_mfc42u_ordinal3938>
+
+externdef __imp_mfc42u_ordinal3939:PPROC
+mfc42u_ordinal3939 equ <__imp_mfc42u_ordinal3939>
+
+externdef __imp_mfc42u_ordinal393:PPROC
+mfc42u_ordinal393 equ <__imp_mfc42u_ordinal393>
+
+externdef __imp_mfc42u_ordinal3940:PPROC
+mfc42u_ordinal3940 equ <__imp_mfc42u_ordinal3940>
+
+externdef __imp_mfc42u_ordinal3941:PPROC
+mfc42u_ordinal3941 equ <__imp_mfc42u_ordinal3941>
+
+externdef __imp_mfc42u_ordinal3942:PPROC
+mfc42u_ordinal3942 equ <__imp_mfc42u_ordinal3942>
+
+externdef __imp_mfc42u_ordinal3943:PPROC
+mfc42u_ordinal3943 equ <__imp_mfc42u_ordinal3943>
+
+externdef __imp_mfc42u_ordinal3944:PPROC
+mfc42u_ordinal3944 equ <__imp_mfc42u_ordinal3944>
+
+externdef __imp_mfc42u_ordinal3945:PPROC
+mfc42u_ordinal3945 equ <__imp_mfc42u_ordinal3945>
+
+externdef __imp_mfc42u_ordinal3946:PPROC
+mfc42u_ordinal3946 equ <__imp_mfc42u_ordinal3946>
+
+externdef __imp_mfc42u_ordinal3947:PPROC
+mfc42u_ordinal3947 equ <__imp_mfc42u_ordinal3947>
+
+externdef __imp_mfc42u_ordinal3948:PPROC
+mfc42u_ordinal3948 equ <__imp_mfc42u_ordinal3948>
+
+externdef __imp_mfc42u_ordinal3949:PPROC
+mfc42u_ordinal3949 equ <__imp_mfc42u_ordinal3949>
+
+externdef __imp_mfc42u_ordinal394:PPROC
+mfc42u_ordinal394 equ <__imp_mfc42u_ordinal394>
+
+externdef __imp_mfc42u_ordinal3950:PPROC
+mfc42u_ordinal3950 equ <__imp_mfc42u_ordinal3950>
+
+externdef __imp_mfc42u_ordinal3951:PPROC
+mfc42u_ordinal3951 equ <__imp_mfc42u_ordinal3951>
+
+externdef __imp_mfc42u_ordinal3952:PPROC
+mfc42u_ordinal3952 equ <__imp_mfc42u_ordinal3952>
+
+externdef __imp_mfc42u_ordinal3953:PPROC
+mfc42u_ordinal3953 equ <__imp_mfc42u_ordinal3953>
+
+externdef __imp_mfc42u_ordinal3954:PPROC
+mfc42u_ordinal3954 equ <__imp_mfc42u_ordinal3954>
+
+externdef __imp_mfc42u_ordinal3955:PPROC
+mfc42u_ordinal3955 equ <__imp_mfc42u_ordinal3955>
+
+externdef __imp_mfc42u_ordinal3956:PPROC
+mfc42u_ordinal3956 equ <__imp_mfc42u_ordinal3956>
+
+externdef __imp_mfc42u_ordinal3957:PPROC
+mfc42u_ordinal3957 equ <__imp_mfc42u_ordinal3957>
+
+externdef __imp_mfc42u_ordinal3958:PPROC
+mfc42u_ordinal3958 equ <__imp_mfc42u_ordinal3958>
+
+externdef __imp_mfc42u_ordinal3959:PPROC
+mfc42u_ordinal3959 equ <__imp_mfc42u_ordinal3959>
+
+externdef __imp_mfc42u_ordinal395:PPROC
+mfc42u_ordinal395 equ <__imp_mfc42u_ordinal395>
+
+externdef __imp_mfc42u_ordinal3960:PPROC
+mfc42u_ordinal3960 equ <__imp_mfc42u_ordinal3960>
+
+externdef __imp_mfc42u_ordinal3961:PPROC
+mfc42u_ordinal3961 equ <__imp_mfc42u_ordinal3961>
+
+externdef __imp_mfc42u_ordinal3962:PPROC
+mfc42u_ordinal3962 equ <__imp_mfc42u_ordinal3962>
+
+externdef __imp_mfc42u_ordinal3963:PPROC
+mfc42u_ordinal3963 equ <__imp_mfc42u_ordinal3963>
+
+externdef __imp_mfc42u_ordinal3964:PPROC
+mfc42u_ordinal3964 equ <__imp_mfc42u_ordinal3964>
+
+externdef __imp_mfc42u_ordinal3965:PPROC
+mfc42u_ordinal3965 equ <__imp_mfc42u_ordinal3965>
+
+externdef __imp_mfc42u_ordinal3966:PPROC
+mfc42u_ordinal3966 equ <__imp_mfc42u_ordinal3966>
+
+externdef __imp_mfc42u_ordinal3967:PPROC
+mfc42u_ordinal3967 equ <__imp_mfc42u_ordinal3967>
+
+externdef __imp_mfc42u_ordinal3968:PPROC
+mfc42u_ordinal3968 equ <__imp_mfc42u_ordinal3968>
+
+externdef __imp_mfc42u_ordinal3969:PPROC
+mfc42u_ordinal3969 equ <__imp_mfc42u_ordinal3969>
+
+externdef __imp_mfc42u_ordinal396:PPROC
+mfc42u_ordinal396 equ <__imp_mfc42u_ordinal396>
+
+externdef __imp_mfc42u_ordinal3970:PPROC
+mfc42u_ordinal3970 equ <__imp_mfc42u_ordinal3970>
+
+externdef __imp_mfc42u_ordinal3971:PPROC
+mfc42u_ordinal3971 equ <__imp_mfc42u_ordinal3971>
+
+externdef __imp_mfc42u_ordinal3972:PPROC
+mfc42u_ordinal3972 equ <__imp_mfc42u_ordinal3972>
+
+externdef __imp_mfc42u_ordinal3973:PPROC
+mfc42u_ordinal3973 equ <__imp_mfc42u_ordinal3973>
+
+externdef __imp_mfc42u_ordinal3974:PPROC
+mfc42u_ordinal3974 equ <__imp_mfc42u_ordinal3974>
+
+externdef __imp_mfc42u_ordinal3975:PPROC
+mfc42u_ordinal3975 equ <__imp_mfc42u_ordinal3975>
+
+externdef __imp_mfc42u_ordinal3976:PPROC
+mfc42u_ordinal3976 equ <__imp_mfc42u_ordinal3976>
+
+externdef __imp_mfc42u_ordinal3977:PPROC
+mfc42u_ordinal3977 equ <__imp_mfc42u_ordinal3977>
+
+externdef __imp_mfc42u_ordinal3978:PPROC
+mfc42u_ordinal3978 equ <__imp_mfc42u_ordinal3978>
+
+externdef __imp_mfc42u_ordinal3979:PPROC
+mfc42u_ordinal3979 equ <__imp_mfc42u_ordinal3979>
+
+externdef __imp_mfc42u_ordinal397:PPROC
+mfc42u_ordinal397 equ <__imp_mfc42u_ordinal397>
+
+externdef __imp_mfc42u_ordinal3980:PPROC
+mfc42u_ordinal3980 equ <__imp_mfc42u_ordinal3980>
+
+externdef __imp_mfc42u_ordinal3981:PPROC
+mfc42u_ordinal3981 equ <__imp_mfc42u_ordinal3981>
+
+externdef __imp_mfc42u_ordinal3982:PPROC
+mfc42u_ordinal3982 equ <__imp_mfc42u_ordinal3982>
+
+externdef __imp_mfc42u_ordinal3983:PPROC
+mfc42u_ordinal3983 equ <__imp_mfc42u_ordinal3983>
+
+externdef __imp_mfc42u_ordinal3984:PPROC
+mfc42u_ordinal3984 equ <__imp_mfc42u_ordinal3984>
+
+externdef __imp_mfc42u_ordinal3985:PPROC
+mfc42u_ordinal3985 equ <__imp_mfc42u_ordinal3985>
+
+externdef __imp_mfc42u_ordinal3986:PPROC
+mfc42u_ordinal3986 equ <__imp_mfc42u_ordinal3986>
+
+externdef __imp_mfc42u_ordinal3987:PPROC
+mfc42u_ordinal3987 equ <__imp_mfc42u_ordinal3987>
+
+externdef __imp_mfc42u_ordinal3988:PPROC
+mfc42u_ordinal3988 equ <__imp_mfc42u_ordinal3988>
+
+externdef __imp_mfc42u_ordinal3989:PPROC
+mfc42u_ordinal3989 equ <__imp_mfc42u_ordinal3989>
+
+externdef __imp_mfc42u_ordinal398:PPROC
+mfc42u_ordinal398 equ <__imp_mfc42u_ordinal398>
+
+externdef __imp_mfc42u_ordinal3990:PPROC
+mfc42u_ordinal3990 equ <__imp_mfc42u_ordinal3990>
+
+externdef __imp_mfc42u_ordinal3991:PPROC
+mfc42u_ordinal3991 equ <__imp_mfc42u_ordinal3991>
+
+externdef __imp_mfc42u_ordinal3992:PPROC
+mfc42u_ordinal3992 equ <__imp_mfc42u_ordinal3992>
+
+externdef __imp_mfc42u_ordinal3993:PPROC
+mfc42u_ordinal3993 equ <__imp_mfc42u_ordinal3993>
+
+externdef __imp_mfc42u_ordinal3994:PPROC
+mfc42u_ordinal3994 equ <__imp_mfc42u_ordinal3994>
+
+externdef __imp_mfc42u_ordinal3995:PPROC
+mfc42u_ordinal3995 equ <__imp_mfc42u_ordinal3995>
+
+externdef __imp_mfc42u_ordinal3996:PPROC
+mfc42u_ordinal3996 equ <__imp_mfc42u_ordinal3996>
+
+externdef __imp_mfc42u_ordinal3997:PPROC
+mfc42u_ordinal3997 equ <__imp_mfc42u_ordinal3997>
+
+externdef __imp_mfc42u_ordinal3998:PPROC
+mfc42u_ordinal3998 equ <__imp_mfc42u_ordinal3998>
+
+externdef __imp_mfc42u_ordinal3999:PPROC
+mfc42u_ordinal3999 equ <__imp_mfc42u_ordinal3999>
+
+externdef __imp_mfc42u_ordinal399:PPROC
+mfc42u_ordinal399 equ <__imp_mfc42u_ordinal399>
+
+externdef __imp_mfc42u_ordinal39:PPROC
+mfc42u_ordinal39 equ <__imp_mfc42u_ordinal39>
+
+externdef __imp_mfc42u_ordinal4000:PPROC
+mfc42u_ordinal4000 equ <__imp_mfc42u_ordinal4000>
+
+externdef __imp_mfc42u_ordinal4001:PPROC
+mfc42u_ordinal4001 equ <__imp_mfc42u_ordinal4001>
+
+externdef __imp_mfc42u_ordinal4002:PPROC
+mfc42u_ordinal4002 equ <__imp_mfc42u_ordinal4002>
+
+externdef __imp_mfc42u_ordinal4003:PPROC
+mfc42u_ordinal4003 equ <__imp_mfc42u_ordinal4003>
+
+externdef __imp_mfc42u_ordinal4004:PPROC
+mfc42u_ordinal4004 equ <__imp_mfc42u_ordinal4004>
+
+externdef __imp_mfc42u_ordinal4005:PPROC
+mfc42u_ordinal4005 equ <__imp_mfc42u_ordinal4005>
+
+externdef __imp_mfc42u_ordinal4006:PPROC
+mfc42u_ordinal4006 equ <__imp_mfc42u_ordinal4006>
+
+externdef __imp_mfc42u_ordinal4007:PPROC
+mfc42u_ordinal4007 equ <__imp_mfc42u_ordinal4007>
+
+externdef __imp_mfc42u_ordinal4008:PPROC
+mfc42u_ordinal4008 equ <__imp_mfc42u_ordinal4008>
+
+externdef __imp_mfc42u_ordinal4009:PPROC
+mfc42u_ordinal4009 equ <__imp_mfc42u_ordinal4009>
+
+externdef __imp_mfc42u_ordinal400:PPROC
+mfc42u_ordinal400 equ <__imp_mfc42u_ordinal400>
+
+externdef __imp_mfc42u_ordinal4010:PPROC
+mfc42u_ordinal4010 equ <__imp_mfc42u_ordinal4010>
+
+externdef __imp_mfc42u_ordinal4011:PPROC
+mfc42u_ordinal4011 equ <__imp_mfc42u_ordinal4011>
+
+externdef __imp_mfc42u_ordinal4012:PPROC
+mfc42u_ordinal4012 equ <__imp_mfc42u_ordinal4012>
+
+externdef __imp_mfc42u_ordinal4013:PPROC
+mfc42u_ordinal4013 equ <__imp_mfc42u_ordinal4013>
+
+externdef __imp_mfc42u_ordinal4014:PPROC
+mfc42u_ordinal4014 equ <__imp_mfc42u_ordinal4014>
+
+externdef __imp_mfc42u_ordinal4015:PPROC
+mfc42u_ordinal4015 equ <__imp_mfc42u_ordinal4015>
+
+externdef __imp_mfc42u_ordinal4016:PPROC
+mfc42u_ordinal4016 equ <__imp_mfc42u_ordinal4016>
+
+externdef __imp_mfc42u_ordinal4017:PPROC
+mfc42u_ordinal4017 equ <__imp_mfc42u_ordinal4017>
+
+externdef __imp_mfc42u_ordinal4018:PPROC
+mfc42u_ordinal4018 equ <__imp_mfc42u_ordinal4018>
+
+externdef __imp_mfc42u_ordinal4019:PPROC
+mfc42u_ordinal4019 equ <__imp_mfc42u_ordinal4019>
+
+externdef __imp_mfc42u_ordinal401:PPROC
+mfc42u_ordinal401 equ <__imp_mfc42u_ordinal401>
+
+externdef __imp_mfc42u_ordinal4020:PPROC
+mfc42u_ordinal4020 equ <__imp_mfc42u_ordinal4020>
+
+externdef __imp_mfc42u_ordinal4021:PPROC
+mfc42u_ordinal4021 equ <__imp_mfc42u_ordinal4021>
+
+externdef __imp_mfc42u_ordinal4022:PPROC
+mfc42u_ordinal4022 equ <__imp_mfc42u_ordinal4022>
+
+externdef __imp_mfc42u_ordinal4023:PPROC
+mfc42u_ordinal4023 equ <__imp_mfc42u_ordinal4023>
+
+externdef __imp_mfc42u_ordinal4024:PPROC
+mfc42u_ordinal4024 equ <__imp_mfc42u_ordinal4024>
+
+externdef __imp_mfc42u_ordinal4025:PPROC
+mfc42u_ordinal4025 equ <__imp_mfc42u_ordinal4025>
+
+externdef __imp_mfc42u_ordinal4026:PPROC
+mfc42u_ordinal4026 equ <__imp_mfc42u_ordinal4026>
+
+externdef __imp_mfc42u_ordinal4027:PPROC
+mfc42u_ordinal4027 equ <__imp_mfc42u_ordinal4027>
+
+externdef __imp_mfc42u_ordinal4028:PPROC
+mfc42u_ordinal4028 equ <__imp_mfc42u_ordinal4028>
+
+externdef __imp_mfc42u_ordinal4029:PPROC
+mfc42u_ordinal4029 equ <__imp_mfc42u_ordinal4029>
+
+externdef __imp_mfc42u_ordinal402:PPROC
+mfc42u_ordinal402 equ <__imp_mfc42u_ordinal402>
+
+externdef __imp_mfc42u_ordinal4030:PPROC
+mfc42u_ordinal4030 equ <__imp_mfc42u_ordinal4030>
+
+externdef __imp_mfc42u_ordinal4031:PPROC
+mfc42u_ordinal4031 equ <__imp_mfc42u_ordinal4031>
+
+externdef __imp_mfc42u_ordinal4032:PPROC
+mfc42u_ordinal4032 equ <__imp_mfc42u_ordinal4032>
+
+externdef __imp_mfc42u_ordinal4033:PPROC
+mfc42u_ordinal4033 equ <__imp_mfc42u_ordinal4033>
+
+externdef __imp_mfc42u_ordinal4034:PPROC
+mfc42u_ordinal4034 equ <__imp_mfc42u_ordinal4034>
+
+externdef __imp_mfc42u_ordinal4035:PPROC
+mfc42u_ordinal4035 equ <__imp_mfc42u_ordinal4035>
+
+externdef __imp_mfc42u_ordinal4036:PPROC
+mfc42u_ordinal4036 equ <__imp_mfc42u_ordinal4036>
+
+externdef __imp_mfc42u_ordinal4037:PPROC
+mfc42u_ordinal4037 equ <__imp_mfc42u_ordinal4037>
+
+externdef __imp_mfc42u_ordinal4038:PPROC
+mfc42u_ordinal4038 equ <__imp_mfc42u_ordinal4038>
+
+externdef __imp_mfc42u_ordinal4039:PPROC
+mfc42u_ordinal4039 equ <__imp_mfc42u_ordinal4039>
+
+externdef __imp_mfc42u_ordinal403:PPROC
+mfc42u_ordinal403 equ <__imp_mfc42u_ordinal403>
+
+externdef __imp_mfc42u_ordinal4040:PPROC
+mfc42u_ordinal4040 equ <__imp_mfc42u_ordinal4040>
+
+externdef __imp_mfc42u_ordinal4041:PPROC
+mfc42u_ordinal4041 equ <__imp_mfc42u_ordinal4041>
+
+externdef __imp_mfc42u_ordinal4042:PPROC
+mfc42u_ordinal4042 equ <__imp_mfc42u_ordinal4042>
+
+externdef __imp_mfc42u_ordinal4043:PPROC
+mfc42u_ordinal4043 equ <__imp_mfc42u_ordinal4043>
+
+externdef __imp_mfc42u_ordinal4044:PPROC
+mfc42u_ordinal4044 equ <__imp_mfc42u_ordinal4044>
+
+externdef __imp_mfc42u_ordinal4045:PPROC
+mfc42u_ordinal4045 equ <__imp_mfc42u_ordinal4045>
+
+externdef __imp_mfc42u_ordinal4046:PPROC
+mfc42u_ordinal4046 equ <__imp_mfc42u_ordinal4046>
+
+externdef __imp_mfc42u_ordinal4047:PPROC
+mfc42u_ordinal4047 equ <__imp_mfc42u_ordinal4047>
+
+externdef __imp_mfc42u_ordinal4048:PPROC
+mfc42u_ordinal4048 equ <__imp_mfc42u_ordinal4048>
+
+externdef __imp_mfc42u_ordinal4049:PPROC
+mfc42u_ordinal4049 equ <__imp_mfc42u_ordinal4049>
+
+externdef __imp_mfc42u_ordinal404:PPROC
+mfc42u_ordinal404 equ <__imp_mfc42u_ordinal404>
+
+externdef __imp_mfc42u_ordinal4050:PPROC
+mfc42u_ordinal4050 equ <__imp_mfc42u_ordinal4050>
+
+externdef __imp_mfc42u_ordinal4051:PPROC
+mfc42u_ordinal4051 equ <__imp_mfc42u_ordinal4051>
+
+externdef __imp_mfc42u_ordinal4052:PPROC
+mfc42u_ordinal4052 equ <__imp_mfc42u_ordinal4052>
+
+externdef __imp_mfc42u_ordinal4053:PPROC
+mfc42u_ordinal4053 equ <__imp_mfc42u_ordinal4053>
+
+externdef __imp_mfc42u_ordinal4054:PPROC
+mfc42u_ordinal4054 equ <__imp_mfc42u_ordinal4054>
+
+externdef __imp_mfc42u_ordinal4055:PPROC
+mfc42u_ordinal4055 equ <__imp_mfc42u_ordinal4055>
+
+externdef __imp_mfc42u_ordinal4056:PPROC
+mfc42u_ordinal4056 equ <__imp_mfc42u_ordinal4056>
+
+externdef __imp_mfc42u_ordinal4057:PPROC
+mfc42u_ordinal4057 equ <__imp_mfc42u_ordinal4057>
+
+externdef __imp_mfc42u_ordinal4058:PPROC
+mfc42u_ordinal4058 equ <__imp_mfc42u_ordinal4058>
+
+externdef __imp_mfc42u_ordinal4059:PPROC
+mfc42u_ordinal4059 equ <__imp_mfc42u_ordinal4059>
+
+externdef __imp_mfc42u_ordinal405:PPROC
+mfc42u_ordinal405 equ <__imp_mfc42u_ordinal405>
+
+externdef __imp_mfc42u_ordinal4060:PPROC
+mfc42u_ordinal4060 equ <__imp_mfc42u_ordinal4060>
+
+externdef __imp_mfc42u_ordinal4061:PPROC
+mfc42u_ordinal4061 equ <__imp_mfc42u_ordinal4061>
+
+externdef __imp_mfc42u_ordinal4062:PPROC
+mfc42u_ordinal4062 equ <__imp_mfc42u_ordinal4062>
+
+externdef __imp_mfc42u_ordinal4063:PPROC
+mfc42u_ordinal4063 equ <__imp_mfc42u_ordinal4063>
+
+externdef __imp_mfc42u_ordinal4064:PPROC
+mfc42u_ordinal4064 equ <__imp_mfc42u_ordinal4064>
+
+externdef __imp_mfc42u_ordinal4065:PPROC
+mfc42u_ordinal4065 equ <__imp_mfc42u_ordinal4065>
+
+externdef __imp_mfc42u_ordinal4066:PPROC
+mfc42u_ordinal4066 equ <__imp_mfc42u_ordinal4066>
+
+externdef __imp_mfc42u_ordinal4067:PPROC
+mfc42u_ordinal4067 equ <__imp_mfc42u_ordinal4067>
+
+externdef __imp_mfc42u_ordinal4068:PPROC
+mfc42u_ordinal4068 equ <__imp_mfc42u_ordinal4068>
+
+externdef __imp_mfc42u_ordinal4069:PPROC
+mfc42u_ordinal4069 equ <__imp_mfc42u_ordinal4069>
+
+externdef __imp_mfc42u_ordinal406:PPROC
+mfc42u_ordinal406 equ <__imp_mfc42u_ordinal406>
+
+externdef __imp_mfc42u_ordinal4070:PPROC
+mfc42u_ordinal4070 equ <__imp_mfc42u_ordinal4070>
+
+externdef __imp_mfc42u_ordinal4071:PPROC
+mfc42u_ordinal4071 equ <__imp_mfc42u_ordinal4071>
+
+externdef __imp_mfc42u_ordinal4072:PPROC
+mfc42u_ordinal4072 equ <__imp_mfc42u_ordinal4072>
+
+externdef __imp_mfc42u_ordinal4073:PPROC
+mfc42u_ordinal4073 equ <__imp_mfc42u_ordinal4073>
+
+externdef __imp_mfc42u_ordinal4074:PPROC
+mfc42u_ordinal4074 equ <__imp_mfc42u_ordinal4074>
+
+externdef __imp_mfc42u_ordinal4075:PPROC
+mfc42u_ordinal4075 equ <__imp_mfc42u_ordinal4075>
+
+externdef __imp_mfc42u_ordinal4076:PPROC
+mfc42u_ordinal4076 equ <__imp_mfc42u_ordinal4076>
+
+externdef __imp_mfc42u_ordinal4077:PPROC
+mfc42u_ordinal4077 equ <__imp_mfc42u_ordinal4077>
+
+externdef __imp_mfc42u_ordinal4078:PPROC
+mfc42u_ordinal4078 equ <__imp_mfc42u_ordinal4078>
+
+externdef __imp_mfc42u_ordinal4079:PPROC
+mfc42u_ordinal4079 equ <__imp_mfc42u_ordinal4079>
+
+externdef __imp_mfc42u_ordinal407:PPROC
+mfc42u_ordinal407 equ <__imp_mfc42u_ordinal407>
+
+externdef __imp_mfc42u_ordinal4080:PPROC
+mfc42u_ordinal4080 equ <__imp_mfc42u_ordinal4080>
+
+externdef __imp_mfc42u_ordinal4081:PPROC
+mfc42u_ordinal4081 equ <__imp_mfc42u_ordinal4081>
+
+externdef __imp_mfc42u_ordinal4082:PPROC
+mfc42u_ordinal4082 equ <__imp_mfc42u_ordinal4082>
+
+externdef __imp_mfc42u_ordinal4083:PPROC
+mfc42u_ordinal4083 equ <__imp_mfc42u_ordinal4083>
+
+externdef __imp_mfc42u_ordinal4084:PPROC
+mfc42u_ordinal4084 equ <__imp_mfc42u_ordinal4084>
+
+externdef __imp_mfc42u_ordinal4085:PPROC
+mfc42u_ordinal4085 equ <__imp_mfc42u_ordinal4085>
+
+externdef __imp_mfc42u_ordinal4086:PPROC
+mfc42u_ordinal4086 equ <__imp_mfc42u_ordinal4086>
+
+externdef __imp_mfc42u_ordinal4087:PPROC
+mfc42u_ordinal4087 equ <__imp_mfc42u_ordinal4087>
+
+externdef __imp_mfc42u_ordinal4088:PPROC
+mfc42u_ordinal4088 equ <__imp_mfc42u_ordinal4088>
+
+externdef __imp_mfc42u_ordinal4089:PPROC
+mfc42u_ordinal4089 equ <__imp_mfc42u_ordinal4089>
+
+externdef __imp_mfc42u_ordinal408:PPROC
+mfc42u_ordinal408 equ <__imp_mfc42u_ordinal408>
+
+externdef __imp_mfc42u_ordinal4090:PPROC
+mfc42u_ordinal4090 equ <__imp_mfc42u_ordinal4090>
+
+externdef __imp_mfc42u_ordinal4091:PPROC
+mfc42u_ordinal4091 equ <__imp_mfc42u_ordinal4091>
+
+externdef __imp_mfc42u_ordinal4092:PPROC
+mfc42u_ordinal4092 equ <__imp_mfc42u_ordinal4092>
+
+externdef __imp_mfc42u_ordinal4093:PPROC
+mfc42u_ordinal4093 equ <__imp_mfc42u_ordinal4093>
+
+externdef __imp_mfc42u_ordinal4094:PPROC
+mfc42u_ordinal4094 equ <__imp_mfc42u_ordinal4094>
+
+externdef __imp_mfc42u_ordinal4095:PPROC
+mfc42u_ordinal4095 equ <__imp_mfc42u_ordinal4095>
+
+externdef __imp_mfc42u_ordinal4096:PPROC
+mfc42u_ordinal4096 equ <__imp_mfc42u_ordinal4096>
+
+externdef __imp_mfc42u_ordinal4097:PPROC
+mfc42u_ordinal4097 equ <__imp_mfc42u_ordinal4097>
+
+externdef __imp_mfc42u_ordinal4098:PPROC
+mfc42u_ordinal4098 equ <__imp_mfc42u_ordinal4098>
+
+externdef __imp_mfc42u_ordinal4099:PPROC
+mfc42u_ordinal4099 equ <__imp_mfc42u_ordinal4099>
+
+externdef __imp_mfc42u_ordinal409:PPROC
+mfc42u_ordinal409 equ <__imp_mfc42u_ordinal409>
+
+externdef __imp_mfc42u_ordinal40:PPROC
+mfc42u_ordinal40 equ <__imp_mfc42u_ordinal40>
+
+externdef __imp_mfc42u_ordinal4100:PPROC
+mfc42u_ordinal4100 equ <__imp_mfc42u_ordinal4100>
+
+externdef __imp_mfc42u_ordinal4101:PPROC
+mfc42u_ordinal4101 equ <__imp_mfc42u_ordinal4101>
+
+externdef __imp_mfc42u_ordinal4102:PPROC
+mfc42u_ordinal4102 equ <__imp_mfc42u_ordinal4102>
+
+externdef __imp_mfc42u_ordinal4103:PPROC
+mfc42u_ordinal4103 equ <__imp_mfc42u_ordinal4103>
+
+externdef __imp_mfc42u_ordinal4104:PPROC
+mfc42u_ordinal4104 equ <__imp_mfc42u_ordinal4104>
+
+externdef __imp_mfc42u_ordinal4105:PPROC
+mfc42u_ordinal4105 equ <__imp_mfc42u_ordinal4105>
+
+externdef __imp_mfc42u_ordinal4106:PPROC
+mfc42u_ordinal4106 equ <__imp_mfc42u_ordinal4106>
+
+externdef __imp_mfc42u_ordinal4107:PPROC
+mfc42u_ordinal4107 equ <__imp_mfc42u_ordinal4107>
+
+externdef __imp_mfc42u_ordinal4108:PPROC
+mfc42u_ordinal4108 equ <__imp_mfc42u_ordinal4108>
+
+externdef __imp_mfc42u_ordinal4109:PPROC
+mfc42u_ordinal4109 equ <__imp_mfc42u_ordinal4109>
+
+externdef __imp_mfc42u_ordinal410:PPROC
+mfc42u_ordinal410 equ <__imp_mfc42u_ordinal410>
+
+externdef __imp_mfc42u_ordinal4110:PPROC
+mfc42u_ordinal4110 equ <__imp_mfc42u_ordinal4110>
+
+externdef __imp_mfc42u_ordinal4111:PPROC
+mfc42u_ordinal4111 equ <__imp_mfc42u_ordinal4111>
+
+externdef __imp_mfc42u_ordinal4112:PPROC
+mfc42u_ordinal4112 equ <__imp_mfc42u_ordinal4112>
+
+externdef __imp_mfc42u_ordinal4113:PPROC
+mfc42u_ordinal4113 equ <__imp_mfc42u_ordinal4113>
+
+externdef __imp_mfc42u_ordinal4114:PPROC
+mfc42u_ordinal4114 equ <__imp_mfc42u_ordinal4114>
+
+externdef __imp_mfc42u_ordinal4115:PPROC
+mfc42u_ordinal4115 equ <__imp_mfc42u_ordinal4115>
+
+externdef __imp_mfc42u_ordinal4116:PPROC
+mfc42u_ordinal4116 equ <__imp_mfc42u_ordinal4116>
+
+externdef __imp_mfc42u_ordinal4117:PPROC
+mfc42u_ordinal4117 equ <__imp_mfc42u_ordinal4117>
+
+externdef __imp_mfc42u_ordinal4118:PPROC
+mfc42u_ordinal4118 equ <__imp_mfc42u_ordinal4118>
+
+externdef __imp_mfc42u_ordinal4119:PPROC
+mfc42u_ordinal4119 equ <__imp_mfc42u_ordinal4119>
+
+externdef __imp_mfc42u_ordinal411:PPROC
+mfc42u_ordinal411 equ <__imp_mfc42u_ordinal411>
+
+externdef __imp_mfc42u_ordinal4120:PPROC
+mfc42u_ordinal4120 equ <__imp_mfc42u_ordinal4120>
+
+externdef __imp_mfc42u_ordinal4121:PPROC
+mfc42u_ordinal4121 equ <__imp_mfc42u_ordinal4121>
+
+externdef __imp_mfc42u_ordinal4122:PPROC
+mfc42u_ordinal4122 equ <__imp_mfc42u_ordinal4122>
+
+externdef __imp_mfc42u_ordinal4123:PPROC
+mfc42u_ordinal4123 equ <__imp_mfc42u_ordinal4123>
+
+externdef __imp_mfc42u_ordinal4124:PPROC
+mfc42u_ordinal4124 equ <__imp_mfc42u_ordinal4124>
+
+externdef __imp_mfc42u_ordinal4125:PPROC
+mfc42u_ordinal4125 equ <__imp_mfc42u_ordinal4125>
+
+externdef __imp_mfc42u_ordinal4126:PPROC
+mfc42u_ordinal4126 equ <__imp_mfc42u_ordinal4126>
+
+externdef __imp_mfc42u_ordinal4127:PPROC
+mfc42u_ordinal4127 equ <__imp_mfc42u_ordinal4127>
+
+externdef __imp_mfc42u_ordinal4128:PPROC
+mfc42u_ordinal4128 equ <__imp_mfc42u_ordinal4128>
+
+externdef __imp_mfc42u_ordinal4129:PPROC
+mfc42u_ordinal4129 equ <__imp_mfc42u_ordinal4129>
+
+externdef __imp_mfc42u_ordinal412:PPROC
+mfc42u_ordinal412 equ <__imp_mfc42u_ordinal412>
+
+externdef __imp_mfc42u_ordinal4130:PPROC
+mfc42u_ordinal4130 equ <__imp_mfc42u_ordinal4130>
+
+externdef __imp_mfc42u_ordinal4131:PPROC
+mfc42u_ordinal4131 equ <__imp_mfc42u_ordinal4131>
+
+externdef __imp_mfc42u_ordinal4132:PPROC
+mfc42u_ordinal4132 equ <__imp_mfc42u_ordinal4132>
+
+externdef __imp_mfc42u_ordinal4133:PPROC
+mfc42u_ordinal4133 equ <__imp_mfc42u_ordinal4133>
+
+externdef __imp_mfc42u_ordinal4134:PPROC
+mfc42u_ordinal4134 equ <__imp_mfc42u_ordinal4134>
+
+externdef __imp_mfc42u_ordinal4135:PPROC
+mfc42u_ordinal4135 equ <__imp_mfc42u_ordinal4135>
+
+externdef __imp_mfc42u_ordinal4136:PPROC
+mfc42u_ordinal4136 equ <__imp_mfc42u_ordinal4136>
+
+externdef __imp_mfc42u_ordinal4137:PPROC
+mfc42u_ordinal4137 equ <__imp_mfc42u_ordinal4137>
+
+externdef __imp_mfc42u_ordinal4138:PPROC
+mfc42u_ordinal4138 equ <__imp_mfc42u_ordinal4138>
+
+externdef __imp_mfc42u_ordinal4139:PPROC
+mfc42u_ordinal4139 equ <__imp_mfc42u_ordinal4139>
+
+externdef __imp_mfc42u_ordinal413:PPROC
+mfc42u_ordinal413 equ <__imp_mfc42u_ordinal413>
+
+externdef __imp_mfc42u_ordinal4140:PPROC
+mfc42u_ordinal4140 equ <__imp_mfc42u_ordinal4140>
+
+externdef __imp_mfc42u_ordinal4141:PPROC
+mfc42u_ordinal4141 equ <__imp_mfc42u_ordinal4141>
+
+externdef __imp_mfc42u_ordinal4142:PPROC
+mfc42u_ordinal4142 equ <__imp_mfc42u_ordinal4142>
+
+externdef __imp_mfc42u_ordinal4143:PPROC
+mfc42u_ordinal4143 equ <__imp_mfc42u_ordinal4143>
+
+externdef __imp_mfc42u_ordinal4144:PPROC
+mfc42u_ordinal4144 equ <__imp_mfc42u_ordinal4144>
+
+externdef __imp_mfc42u_ordinal4145:PPROC
+mfc42u_ordinal4145 equ <__imp_mfc42u_ordinal4145>
+
+externdef __imp_mfc42u_ordinal4146:PPROC
+mfc42u_ordinal4146 equ <__imp_mfc42u_ordinal4146>
+
+externdef __imp_mfc42u_ordinal4147:PPROC
+mfc42u_ordinal4147 equ <__imp_mfc42u_ordinal4147>
+
+externdef __imp_mfc42u_ordinal4148:PPROC
+mfc42u_ordinal4148 equ <__imp_mfc42u_ordinal4148>
+
+externdef __imp_mfc42u_ordinal4149:PPROC
+mfc42u_ordinal4149 equ <__imp_mfc42u_ordinal4149>
+
+externdef __imp_mfc42u_ordinal414:PPROC
+mfc42u_ordinal414 equ <__imp_mfc42u_ordinal414>
+
+externdef __imp_mfc42u_ordinal4150:PPROC
+mfc42u_ordinal4150 equ <__imp_mfc42u_ordinal4150>
+
+externdef __imp_mfc42u_ordinal4151:PPROC
+mfc42u_ordinal4151 equ <__imp_mfc42u_ordinal4151>
+
+externdef __imp_mfc42u_ordinal4152:PPROC
+mfc42u_ordinal4152 equ <__imp_mfc42u_ordinal4152>
+
+externdef __imp_mfc42u_ordinal4153:PPROC
+mfc42u_ordinal4153 equ <__imp_mfc42u_ordinal4153>
+
+externdef __imp_mfc42u_ordinal4154:PPROC
+mfc42u_ordinal4154 equ <__imp_mfc42u_ordinal4154>
+
+externdef __imp_mfc42u_ordinal4155:PPROC
+mfc42u_ordinal4155 equ <__imp_mfc42u_ordinal4155>
+
+externdef __imp_mfc42u_ordinal4156:PPROC
+mfc42u_ordinal4156 equ <__imp_mfc42u_ordinal4156>
+
+externdef __imp_mfc42u_ordinal4157:PPROC
+mfc42u_ordinal4157 equ <__imp_mfc42u_ordinal4157>
+
+externdef __imp_mfc42u_ordinal4158:PPROC
+mfc42u_ordinal4158 equ <__imp_mfc42u_ordinal4158>
+
+externdef __imp_mfc42u_ordinal4159:PPROC
+mfc42u_ordinal4159 equ <__imp_mfc42u_ordinal4159>
+
+externdef __imp_mfc42u_ordinal415:PPROC
+mfc42u_ordinal415 equ <__imp_mfc42u_ordinal415>
+
+externdef __imp_mfc42u_ordinal4160:PPROC
+mfc42u_ordinal4160 equ <__imp_mfc42u_ordinal4160>
+
+externdef __imp_mfc42u_ordinal4161:PPROC
+mfc42u_ordinal4161 equ <__imp_mfc42u_ordinal4161>
+
+externdef __imp_mfc42u_ordinal4162:PPROC
+mfc42u_ordinal4162 equ <__imp_mfc42u_ordinal4162>
+
+externdef __imp_mfc42u_ordinal4163:PPROC
+mfc42u_ordinal4163 equ <__imp_mfc42u_ordinal4163>
+
+externdef __imp_mfc42u_ordinal4164:PPROC
+mfc42u_ordinal4164 equ <__imp_mfc42u_ordinal4164>
+
+externdef __imp_mfc42u_ordinal4165:PPROC
+mfc42u_ordinal4165 equ <__imp_mfc42u_ordinal4165>
+
+externdef __imp_mfc42u_ordinal4166:PPROC
+mfc42u_ordinal4166 equ <__imp_mfc42u_ordinal4166>
+
+externdef __imp_mfc42u_ordinal4167:PPROC
+mfc42u_ordinal4167 equ <__imp_mfc42u_ordinal4167>
+
+externdef __imp_mfc42u_ordinal4168:PPROC
+mfc42u_ordinal4168 equ <__imp_mfc42u_ordinal4168>
+
+externdef __imp_mfc42u_ordinal4169:PPROC
+mfc42u_ordinal4169 equ <__imp_mfc42u_ordinal4169>
+
+externdef __imp_mfc42u_ordinal416:PPROC
+mfc42u_ordinal416 equ <__imp_mfc42u_ordinal416>
+
+externdef __imp_mfc42u_ordinal4170:PPROC
+mfc42u_ordinal4170 equ <__imp_mfc42u_ordinal4170>
+
+externdef __imp_mfc42u_ordinal4171:PPROC
+mfc42u_ordinal4171 equ <__imp_mfc42u_ordinal4171>
+
+externdef __imp_mfc42u_ordinal4172:PPROC
+mfc42u_ordinal4172 equ <__imp_mfc42u_ordinal4172>
+
+externdef __imp_mfc42u_ordinal4173:PPROC
+mfc42u_ordinal4173 equ <__imp_mfc42u_ordinal4173>
+
+externdef __imp_mfc42u_ordinal4174:PPROC
+mfc42u_ordinal4174 equ <__imp_mfc42u_ordinal4174>
+
+externdef __imp_mfc42u_ordinal4175:PPROC
+mfc42u_ordinal4175 equ <__imp_mfc42u_ordinal4175>
+
+externdef __imp_mfc42u_ordinal4176:PPROC
+mfc42u_ordinal4176 equ <__imp_mfc42u_ordinal4176>
+
+externdef __imp_mfc42u_ordinal4177:PPROC
+mfc42u_ordinal4177 equ <__imp_mfc42u_ordinal4177>
+
+externdef __imp_mfc42u_ordinal4178:PPROC
+mfc42u_ordinal4178 equ <__imp_mfc42u_ordinal4178>
+
+externdef __imp_mfc42u_ordinal4179:PPROC
+mfc42u_ordinal4179 equ <__imp_mfc42u_ordinal4179>
+
+externdef __imp_mfc42u_ordinal417:PPROC
+mfc42u_ordinal417 equ <__imp_mfc42u_ordinal417>
+
+externdef __imp_mfc42u_ordinal4180:PPROC
+mfc42u_ordinal4180 equ <__imp_mfc42u_ordinal4180>
+
+externdef __imp_mfc42u_ordinal4181:PPROC
+mfc42u_ordinal4181 equ <__imp_mfc42u_ordinal4181>
+
+externdef __imp_mfc42u_ordinal4182:PPROC
+mfc42u_ordinal4182 equ <__imp_mfc42u_ordinal4182>
+
+externdef __imp_mfc42u_ordinal4183:PPROC
+mfc42u_ordinal4183 equ <__imp_mfc42u_ordinal4183>
+
+externdef __imp_mfc42u_ordinal4184:PPROC
+mfc42u_ordinal4184 equ <__imp_mfc42u_ordinal4184>
+
+externdef __imp_mfc42u_ordinal4185:PPROC
+mfc42u_ordinal4185 equ <__imp_mfc42u_ordinal4185>
+
+externdef __imp_mfc42u_ordinal4186:PPROC
+mfc42u_ordinal4186 equ <__imp_mfc42u_ordinal4186>
+
+externdef __imp_mfc42u_ordinal4187:PPROC
+mfc42u_ordinal4187 equ <__imp_mfc42u_ordinal4187>
+
+externdef __imp_mfc42u_ordinal4188:PPROC
+mfc42u_ordinal4188 equ <__imp_mfc42u_ordinal4188>
+
+externdef __imp_mfc42u_ordinal4189:PPROC
+mfc42u_ordinal4189 equ <__imp_mfc42u_ordinal4189>
+
+externdef __imp_mfc42u_ordinal418:PPROC
+mfc42u_ordinal418 equ <__imp_mfc42u_ordinal418>
+
+externdef __imp_mfc42u_ordinal4190:PPROC
+mfc42u_ordinal4190 equ <__imp_mfc42u_ordinal4190>
+
+externdef __imp_mfc42u_ordinal4191:PPROC
+mfc42u_ordinal4191 equ <__imp_mfc42u_ordinal4191>
+
+externdef __imp_mfc42u_ordinal4192:PPROC
+mfc42u_ordinal4192 equ <__imp_mfc42u_ordinal4192>
+
+externdef __imp_mfc42u_ordinal4193:PPROC
+mfc42u_ordinal4193 equ <__imp_mfc42u_ordinal4193>
+
+externdef __imp_mfc42u_ordinal4194:PPROC
+mfc42u_ordinal4194 equ <__imp_mfc42u_ordinal4194>
+
+externdef __imp_mfc42u_ordinal4195:PPROC
+mfc42u_ordinal4195 equ <__imp_mfc42u_ordinal4195>
+
+externdef __imp_mfc42u_ordinal4196:PPROC
+mfc42u_ordinal4196 equ <__imp_mfc42u_ordinal4196>
+
+externdef __imp_mfc42u_ordinal4197:PPROC
+mfc42u_ordinal4197 equ <__imp_mfc42u_ordinal4197>
+
+externdef __imp_mfc42u_ordinal4198:PPROC
+mfc42u_ordinal4198 equ <__imp_mfc42u_ordinal4198>
+
+externdef __imp_mfc42u_ordinal4199:PPROC
+mfc42u_ordinal4199 equ <__imp_mfc42u_ordinal4199>
+
+externdef __imp_mfc42u_ordinal419:PPROC
+mfc42u_ordinal419 equ <__imp_mfc42u_ordinal419>
+
+externdef __imp_mfc42u_ordinal41:PPROC
+mfc42u_ordinal41 equ <__imp_mfc42u_ordinal41>
+
+externdef __imp_mfc42u_ordinal4200:PPROC
+mfc42u_ordinal4200 equ <__imp_mfc42u_ordinal4200>
+
+externdef __imp_mfc42u_ordinal4201:PPROC
+mfc42u_ordinal4201 equ <__imp_mfc42u_ordinal4201>
+
+externdef __imp_mfc42u_ordinal4202:PPROC
+mfc42u_ordinal4202 equ <__imp_mfc42u_ordinal4202>
+
+externdef __imp_mfc42u_ordinal4203:PPROC
+mfc42u_ordinal4203 equ <__imp_mfc42u_ordinal4203>
+
+externdef __imp_mfc42u_ordinal4204:PPROC
+mfc42u_ordinal4204 equ <__imp_mfc42u_ordinal4204>
+
+externdef __imp_mfc42u_ordinal4205:PPROC
+mfc42u_ordinal4205 equ <__imp_mfc42u_ordinal4205>
+
+externdef __imp_mfc42u_ordinal4206:PPROC
+mfc42u_ordinal4206 equ <__imp_mfc42u_ordinal4206>
+
+externdef __imp_mfc42u_ordinal4207:PPROC
+mfc42u_ordinal4207 equ <__imp_mfc42u_ordinal4207>
+
+externdef __imp_mfc42u_ordinal4208:PPROC
+mfc42u_ordinal4208 equ <__imp_mfc42u_ordinal4208>
+
+externdef __imp_mfc42u_ordinal4209:PPROC
+mfc42u_ordinal4209 equ <__imp_mfc42u_ordinal4209>
+
+externdef __imp_mfc42u_ordinal420:PPROC
+mfc42u_ordinal420 equ <__imp_mfc42u_ordinal420>
+
+externdef __imp_mfc42u_ordinal4210:PPROC
+mfc42u_ordinal4210 equ <__imp_mfc42u_ordinal4210>
+
+externdef __imp_mfc42u_ordinal4211:PPROC
+mfc42u_ordinal4211 equ <__imp_mfc42u_ordinal4211>
+
+externdef __imp_mfc42u_ordinal4212:PPROC
+mfc42u_ordinal4212 equ <__imp_mfc42u_ordinal4212>
+
+externdef __imp_mfc42u_ordinal4213:PPROC
+mfc42u_ordinal4213 equ <__imp_mfc42u_ordinal4213>
+
+externdef __imp_mfc42u_ordinal4214:PPROC
+mfc42u_ordinal4214 equ <__imp_mfc42u_ordinal4214>
+
+externdef __imp_mfc42u_ordinal4215:PPROC
+mfc42u_ordinal4215 equ <__imp_mfc42u_ordinal4215>
+
+externdef __imp_mfc42u_ordinal4216:PPROC
+mfc42u_ordinal4216 equ <__imp_mfc42u_ordinal4216>
+
+externdef __imp_mfc42u_ordinal4217:PPROC
+mfc42u_ordinal4217 equ <__imp_mfc42u_ordinal4217>
+
+externdef __imp_mfc42u_ordinal4218:PPROC
+mfc42u_ordinal4218 equ <__imp_mfc42u_ordinal4218>
+
+externdef __imp_mfc42u_ordinal4219:PPROC
+mfc42u_ordinal4219 equ <__imp_mfc42u_ordinal4219>
+
+externdef __imp_mfc42u_ordinal421:PPROC
+mfc42u_ordinal421 equ <__imp_mfc42u_ordinal421>
+
+externdef __imp_mfc42u_ordinal4220:PPROC
+mfc42u_ordinal4220 equ <__imp_mfc42u_ordinal4220>
+
+externdef __imp_mfc42u_ordinal4221:PPROC
+mfc42u_ordinal4221 equ <__imp_mfc42u_ordinal4221>
+
+externdef __imp_mfc42u_ordinal4222:PPROC
+mfc42u_ordinal4222 equ <__imp_mfc42u_ordinal4222>
+
+externdef __imp_mfc42u_ordinal4223:PPROC
+mfc42u_ordinal4223 equ <__imp_mfc42u_ordinal4223>
+
+externdef __imp_mfc42u_ordinal4224:PPROC
+mfc42u_ordinal4224 equ <__imp_mfc42u_ordinal4224>
+
+externdef __imp_mfc42u_ordinal4225:PPROC
+mfc42u_ordinal4225 equ <__imp_mfc42u_ordinal4225>
+
+externdef __imp_mfc42u_ordinal4226:PPROC
+mfc42u_ordinal4226 equ <__imp_mfc42u_ordinal4226>
+
+externdef __imp_mfc42u_ordinal4227:PPROC
+mfc42u_ordinal4227 equ <__imp_mfc42u_ordinal4227>
+
+externdef __imp_mfc42u_ordinal4228:PPROC
+mfc42u_ordinal4228 equ <__imp_mfc42u_ordinal4228>
+
+externdef __imp_mfc42u_ordinal4229:PPROC
+mfc42u_ordinal4229 equ <__imp_mfc42u_ordinal4229>
+
+externdef __imp_mfc42u_ordinal422:PPROC
+mfc42u_ordinal422 equ <__imp_mfc42u_ordinal422>
+
+externdef __imp_mfc42u_ordinal4230:PPROC
+mfc42u_ordinal4230 equ <__imp_mfc42u_ordinal4230>
+
+externdef __imp_mfc42u_ordinal4231:PPROC
+mfc42u_ordinal4231 equ <__imp_mfc42u_ordinal4231>
+
+externdef __imp_mfc42u_ordinal4232:PPROC
+mfc42u_ordinal4232 equ <__imp_mfc42u_ordinal4232>
+
+externdef __imp_mfc42u_ordinal4233:PPROC
+mfc42u_ordinal4233 equ <__imp_mfc42u_ordinal4233>
+
+externdef __imp_mfc42u_ordinal4234:PPROC
+mfc42u_ordinal4234 equ <__imp_mfc42u_ordinal4234>
+
+externdef __imp_mfc42u_ordinal4235:PPROC
+mfc42u_ordinal4235 equ <__imp_mfc42u_ordinal4235>
+
+externdef __imp_mfc42u_ordinal4236:PPROC
+mfc42u_ordinal4236 equ <__imp_mfc42u_ordinal4236>
+
+externdef __imp_mfc42u_ordinal4237:PPROC
+mfc42u_ordinal4237 equ <__imp_mfc42u_ordinal4237>
+
+externdef __imp_mfc42u_ordinal4238:PPROC
+mfc42u_ordinal4238 equ <__imp_mfc42u_ordinal4238>
+
+externdef __imp_mfc42u_ordinal4239:PPROC
+mfc42u_ordinal4239 equ <__imp_mfc42u_ordinal4239>
+
+externdef __imp_mfc42u_ordinal423:PPROC
+mfc42u_ordinal423 equ <__imp_mfc42u_ordinal423>
+
+externdef __imp_mfc42u_ordinal4240:PPROC
+mfc42u_ordinal4240 equ <__imp_mfc42u_ordinal4240>
+
+externdef __imp_mfc42u_ordinal4241:PPROC
+mfc42u_ordinal4241 equ <__imp_mfc42u_ordinal4241>
+
+externdef __imp_mfc42u_ordinal4242:PPROC
+mfc42u_ordinal4242 equ <__imp_mfc42u_ordinal4242>
+
+externdef __imp_mfc42u_ordinal4243:PPROC
+mfc42u_ordinal4243 equ <__imp_mfc42u_ordinal4243>
+
+externdef __imp_mfc42u_ordinal4244:PPROC
+mfc42u_ordinal4244 equ <__imp_mfc42u_ordinal4244>
+
+externdef __imp_mfc42u_ordinal4245:PPROC
+mfc42u_ordinal4245 equ <__imp_mfc42u_ordinal4245>
+
+externdef __imp_mfc42u_ordinal4246:PPROC
+mfc42u_ordinal4246 equ <__imp_mfc42u_ordinal4246>
+
+externdef __imp_mfc42u_ordinal4247:PPROC
+mfc42u_ordinal4247 equ <__imp_mfc42u_ordinal4247>
+
+externdef __imp_mfc42u_ordinal4248:PPROC
+mfc42u_ordinal4248 equ <__imp_mfc42u_ordinal4248>
+
+externdef __imp_mfc42u_ordinal4249:PPROC
+mfc42u_ordinal4249 equ <__imp_mfc42u_ordinal4249>
+
+externdef __imp_mfc42u_ordinal424:PPROC
+mfc42u_ordinal424 equ <__imp_mfc42u_ordinal424>
+
+externdef __imp_mfc42u_ordinal4250:PPROC
+mfc42u_ordinal4250 equ <__imp_mfc42u_ordinal4250>
+
+externdef __imp_mfc42u_ordinal4251:PPROC
+mfc42u_ordinal4251 equ <__imp_mfc42u_ordinal4251>
+
+externdef __imp_mfc42u_ordinal4252:PPROC
+mfc42u_ordinal4252 equ <__imp_mfc42u_ordinal4252>
+
+externdef __imp_mfc42u_ordinal4253:PPROC
+mfc42u_ordinal4253 equ <__imp_mfc42u_ordinal4253>
+
+externdef __imp_mfc42u_ordinal4254:PPROC
+mfc42u_ordinal4254 equ <__imp_mfc42u_ordinal4254>
+
+externdef __imp_mfc42u_ordinal4255:PPROC
+mfc42u_ordinal4255 equ <__imp_mfc42u_ordinal4255>
+
+externdef __imp_mfc42u_ordinal4256:PPROC
+mfc42u_ordinal4256 equ <__imp_mfc42u_ordinal4256>
+
+externdef __imp_mfc42u_ordinal4257:PPROC
+mfc42u_ordinal4257 equ <__imp_mfc42u_ordinal4257>
+
+externdef __imp_mfc42u_ordinal4258:PPROC
+mfc42u_ordinal4258 equ <__imp_mfc42u_ordinal4258>
+
+externdef __imp_mfc42u_ordinal4259:PPROC
+mfc42u_ordinal4259 equ <__imp_mfc42u_ordinal4259>
+
+externdef __imp_mfc42u_ordinal425:PPROC
+mfc42u_ordinal425 equ <__imp_mfc42u_ordinal425>
+
+externdef __imp_mfc42u_ordinal4260:PPROC
+mfc42u_ordinal4260 equ <__imp_mfc42u_ordinal4260>
+
+externdef __imp_mfc42u_ordinal4261:PPROC
+mfc42u_ordinal4261 equ <__imp_mfc42u_ordinal4261>
+
+externdef __imp_mfc42u_ordinal4262:PPROC
+mfc42u_ordinal4262 equ <__imp_mfc42u_ordinal4262>
+
+externdef __imp_mfc42u_ordinal4263:PPROC
+mfc42u_ordinal4263 equ <__imp_mfc42u_ordinal4263>
+
+externdef __imp_mfc42u_ordinal4264:PPROC
+mfc42u_ordinal4264 equ <__imp_mfc42u_ordinal4264>
+
+externdef __imp_mfc42u_ordinal4265:PPROC
+mfc42u_ordinal4265 equ <__imp_mfc42u_ordinal4265>
+
+externdef __imp_mfc42u_ordinal4266:PPROC
+mfc42u_ordinal4266 equ <__imp_mfc42u_ordinal4266>
+
+externdef __imp_mfc42u_ordinal4267:PPROC
+mfc42u_ordinal4267 equ <__imp_mfc42u_ordinal4267>
+
+externdef __imp_mfc42u_ordinal4268:PPROC
+mfc42u_ordinal4268 equ <__imp_mfc42u_ordinal4268>
+
+externdef __imp_mfc42u_ordinal4269:PPROC
+mfc42u_ordinal4269 equ <__imp_mfc42u_ordinal4269>
+
+externdef __imp_mfc42u_ordinal426:PPROC
+mfc42u_ordinal426 equ <__imp_mfc42u_ordinal426>
+
+externdef __imp_mfc42u_ordinal4270:PPROC
+mfc42u_ordinal4270 equ <__imp_mfc42u_ordinal4270>
+
+externdef __imp_mfc42u_ordinal4271:PPROC
+mfc42u_ordinal4271 equ <__imp_mfc42u_ordinal4271>
+
+externdef __imp_mfc42u_ordinal4272:PPROC
+mfc42u_ordinal4272 equ <__imp_mfc42u_ordinal4272>
+
+externdef __imp_mfc42u_ordinal4273:PPROC
+mfc42u_ordinal4273 equ <__imp_mfc42u_ordinal4273>
+
+externdef __imp_mfc42u_ordinal4274:PPROC
+mfc42u_ordinal4274 equ <__imp_mfc42u_ordinal4274>
+
+externdef __imp_mfc42u_ordinal4275:PPROC
+mfc42u_ordinal4275 equ <__imp_mfc42u_ordinal4275>
+
+externdef __imp_mfc42u_ordinal4276:PPROC
+mfc42u_ordinal4276 equ <__imp_mfc42u_ordinal4276>
+
+externdef __imp_mfc42u_ordinal4277:PPROC
+mfc42u_ordinal4277 equ <__imp_mfc42u_ordinal4277>
+
+externdef __imp_mfc42u_ordinal4278:PPROC
+mfc42u_ordinal4278 equ <__imp_mfc42u_ordinal4278>
+
+externdef __imp_mfc42u_ordinal4279:PPROC
+mfc42u_ordinal4279 equ <__imp_mfc42u_ordinal4279>
+
+externdef __imp_mfc42u_ordinal427:PPROC
+mfc42u_ordinal427 equ <__imp_mfc42u_ordinal427>
+
+externdef __imp_mfc42u_ordinal4280:PPROC
+mfc42u_ordinal4280 equ <__imp_mfc42u_ordinal4280>
+
+externdef __imp_mfc42u_ordinal4281:PPROC
+mfc42u_ordinal4281 equ <__imp_mfc42u_ordinal4281>
+
+externdef __imp_mfc42u_ordinal4282:PPROC
+mfc42u_ordinal4282 equ <__imp_mfc42u_ordinal4282>
+
+externdef __imp_mfc42u_ordinal4283:PPROC
+mfc42u_ordinal4283 equ <__imp_mfc42u_ordinal4283>
+
+externdef __imp_mfc42u_ordinal4284:PPROC
+mfc42u_ordinal4284 equ <__imp_mfc42u_ordinal4284>
+
+externdef __imp_mfc42u_ordinal4285:PPROC
+mfc42u_ordinal4285 equ <__imp_mfc42u_ordinal4285>
+
+externdef __imp_mfc42u_ordinal4286:PPROC
+mfc42u_ordinal4286 equ <__imp_mfc42u_ordinal4286>
+
+externdef __imp_mfc42u_ordinal4287:PPROC
+mfc42u_ordinal4287 equ <__imp_mfc42u_ordinal4287>
+
+externdef __imp_mfc42u_ordinal4288:PPROC
+mfc42u_ordinal4288 equ <__imp_mfc42u_ordinal4288>
+
+externdef __imp_mfc42u_ordinal4289:PPROC
+mfc42u_ordinal4289 equ <__imp_mfc42u_ordinal4289>
+
+externdef __imp_mfc42u_ordinal428:PPROC
+mfc42u_ordinal428 equ <__imp_mfc42u_ordinal428>
+
+externdef __imp_mfc42u_ordinal4290:PPROC
+mfc42u_ordinal4290 equ <__imp_mfc42u_ordinal4290>
+
+externdef __imp_mfc42u_ordinal4291:PPROC
+mfc42u_ordinal4291 equ <__imp_mfc42u_ordinal4291>
+
+externdef __imp_mfc42u_ordinal4292:PPROC
+mfc42u_ordinal4292 equ <__imp_mfc42u_ordinal4292>
+
+externdef __imp_mfc42u_ordinal4293:PPROC
+mfc42u_ordinal4293 equ <__imp_mfc42u_ordinal4293>
+
+externdef __imp_mfc42u_ordinal4294:PPROC
+mfc42u_ordinal4294 equ <__imp_mfc42u_ordinal4294>
+
+externdef __imp_mfc42u_ordinal4295:PPROC
+mfc42u_ordinal4295 equ <__imp_mfc42u_ordinal4295>
+
+externdef __imp_mfc42u_ordinal4296:PPROC
+mfc42u_ordinal4296 equ <__imp_mfc42u_ordinal4296>
+
+externdef __imp_mfc42u_ordinal4297:PPROC
+mfc42u_ordinal4297 equ <__imp_mfc42u_ordinal4297>
+
+externdef __imp_mfc42u_ordinal4298:PPROC
+mfc42u_ordinal4298 equ <__imp_mfc42u_ordinal4298>
+
+externdef __imp_mfc42u_ordinal4299:PPROC
+mfc42u_ordinal4299 equ <__imp_mfc42u_ordinal4299>
+
+externdef __imp_mfc42u_ordinal429:PPROC
+mfc42u_ordinal429 equ <__imp_mfc42u_ordinal429>
+
+externdef __imp_mfc42u_ordinal42:PPROC
+mfc42u_ordinal42 equ <__imp_mfc42u_ordinal42>
+
+externdef __imp_mfc42u_ordinal4300:PPROC
+mfc42u_ordinal4300 equ <__imp_mfc42u_ordinal4300>
+
+externdef __imp_mfc42u_ordinal4301:PPROC
+mfc42u_ordinal4301 equ <__imp_mfc42u_ordinal4301>
+
+externdef __imp_mfc42u_ordinal4302:PPROC
+mfc42u_ordinal4302 equ <__imp_mfc42u_ordinal4302>
+
+externdef __imp_mfc42u_ordinal4303:PPROC
+mfc42u_ordinal4303 equ <__imp_mfc42u_ordinal4303>
+
+externdef __imp_mfc42u_ordinal4304:PPROC
+mfc42u_ordinal4304 equ <__imp_mfc42u_ordinal4304>
+
+externdef __imp_mfc42u_ordinal4305:PPROC
+mfc42u_ordinal4305 equ <__imp_mfc42u_ordinal4305>
+
+externdef __imp_mfc42u_ordinal4306:PPROC
+mfc42u_ordinal4306 equ <__imp_mfc42u_ordinal4306>
+
+externdef __imp_mfc42u_ordinal4307:PPROC
+mfc42u_ordinal4307 equ <__imp_mfc42u_ordinal4307>
+
+externdef __imp_mfc42u_ordinal4308:PPROC
+mfc42u_ordinal4308 equ <__imp_mfc42u_ordinal4308>
+
+externdef __imp_mfc42u_ordinal4309:PPROC
+mfc42u_ordinal4309 equ <__imp_mfc42u_ordinal4309>
+
+externdef __imp_mfc42u_ordinal430:PPROC
+mfc42u_ordinal430 equ <__imp_mfc42u_ordinal430>
+
+externdef __imp_mfc42u_ordinal4310:PPROC
+mfc42u_ordinal4310 equ <__imp_mfc42u_ordinal4310>
+
+externdef __imp_mfc42u_ordinal4311:PPROC
+mfc42u_ordinal4311 equ <__imp_mfc42u_ordinal4311>
+
+externdef __imp_mfc42u_ordinal4312:PPROC
+mfc42u_ordinal4312 equ <__imp_mfc42u_ordinal4312>
+
+externdef __imp_mfc42u_ordinal4313:PPROC
+mfc42u_ordinal4313 equ <__imp_mfc42u_ordinal4313>
+
+externdef __imp_mfc42u_ordinal4314:PPROC
+mfc42u_ordinal4314 equ <__imp_mfc42u_ordinal4314>
+
+externdef __imp_mfc42u_ordinal4315:PPROC
+mfc42u_ordinal4315 equ <__imp_mfc42u_ordinal4315>
+
+externdef __imp_mfc42u_ordinal4316:PPROC
+mfc42u_ordinal4316 equ <__imp_mfc42u_ordinal4316>
+
+externdef __imp_mfc42u_ordinal4317:PPROC
+mfc42u_ordinal4317 equ <__imp_mfc42u_ordinal4317>
+
+externdef __imp_mfc42u_ordinal4318:PPROC
+mfc42u_ordinal4318 equ <__imp_mfc42u_ordinal4318>
+
+externdef __imp_mfc42u_ordinal4319:PPROC
+mfc42u_ordinal4319 equ <__imp_mfc42u_ordinal4319>
+
+externdef __imp_mfc42u_ordinal431:PPROC
+mfc42u_ordinal431 equ <__imp_mfc42u_ordinal431>
+
+externdef __imp_mfc42u_ordinal4320:PPROC
+mfc42u_ordinal4320 equ <__imp_mfc42u_ordinal4320>
+
+externdef __imp_mfc42u_ordinal4321:PPROC
+mfc42u_ordinal4321 equ <__imp_mfc42u_ordinal4321>
+
+externdef __imp_mfc42u_ordinal4322:PPROC
+mfc42u_ordinal4322 equ <__imp_mfc42u_ordinal4322>
+
+externdef __imp_mfc42u_ordinal4323:PPROC
+mfc42u_ordinal4323 equ <__imp_mfc42u_ordinal4323>
+
+externdef __imp_mfc42u_ordinal4324:PPROC
+mfc42u_ordinal4324 equ <__imp_mfc42u_ordinal4324>
+
+externdef __imp_mfc42u_ordinal4325:PPROC
+mfc42u_ordinal4325 equ <__imp_mfc42u_ordinal4325>
+
+externdef __imp_mfc42u_ordinal4326:PPROC
+mfc42u_ordinal4326 equ <__imp_mfc42u_ordinal4326>
+
+externdef __imp_mfc42u_ordinal4327:PPROC
+mfc42u_ordinal4327 equ <__imp_mfc42u_ordinal4327>
+
+externdef __imp_mfc42u_ordinal4328:PPROC
+mfc42u_ordinal4328 equ <__imp_mfc42u_ordinal4328>
+
+externdef __imp_mfc42u_ordinal4329:PPROC
+mfc42u_ordinal4329 equ <__imp_mfc42u_ordinal4329>
+
+externdef __imp_mfc42u_ordinal432:PPROC
+mfc42u_ordinal432 equ <__imp_mfc42u_ordinal432>
+
+externdef __imp_mfc42u_ordinal4330:PPROC
+mfc42u_ordinal4330 equ <__imp_mfc42u_ordinal4330>
+
+externdef __imp_mfc42u_ordinal4331:PPROC
+mfc42u_ordinal4331 equ <__imp_mfc42u_ordinal4331>
+
+externdef __imp_mfc42u_ordinal4332:PPROC
+mfc42u_ordinal4332 equ <__imp_mfc42u_ordinal4332>
+
+externdef __imp_mfc42u_ordinal4333:PPROC
+mfc42u_ordinal4333 equ <__imp_mfc42u_ordinal4333>
+
+externdef __imp_mfc42u_ordinal4334:PPROC
+mfc42u_ordinal4334 equ <__imp_mfc42u_ordinal4334>
+
+externdef __imp_mfc42u_ordinal4335:PPROC
+mfc42u_ordinal4335 equ <__imp_mfc42u_ordinal4335>
+
+externdef __imp_mfc42u_ordinal4336:PPROC
+mfc42u_ordinal4336 equ <__imp_mfc42u_ordinal4336>
+
+externdef __imp_mfc42u_ordinal4337:PPROC
+mfc42u_ordinal4337 equ <__imp_mfc42u_ordinal4337>
+
+externdef __imp_mfc42u_ordinal4338:PPROC
+mfc42u_ordinal4338 equ <__imp_mfc42u_ordinal4338>
+
+externdef __imp_mfc42u_ordinal4339:PPROC
+mfc42u_ordinal4339 equ <__imp_mfc42u_ordinal4339>
+
+externdef __imp_mfc42u_ordinal433:PPROC
+mfc42u_ordinal433 equ <__imp_mfc42u_ordinal433>
+
+externdef __imp_mfc42u_ordinal4340:PPROC
+mfc42u_ordinal4340 equ <__imp_mfc42u_ordinal4340>
+
+externdef __imp_mfc42u_ordinal4341:PPROC
+mfc42u_ordinal4341 equ <__imp_mfc42u_ordinal4341>
+
+externdef __imp_mfc42u_ordinal4342:PPROC
+mfc42u_ordinal4342 equ <__imp_mfc42u_ordinal4342>
+
+externdef __imp_mfc42u_ordinal4343:PPROC
+mfc42u_ordinal4343 equ <__imp_mfc42u_ordinal4343>
+
+externdef __imp_mfc42u_ordinal4344:PPROC
+mfc42u_ordinal4344 equ <__imp_mfc42u_ordinal4344>
+
+externdef __imp_mfc42u_ordinal4345:PPROC
+mfc42u_ordinal4345 equ <__imp_mfc42u_ordinal4345>
+
+externdef __imp_mfc42u_ordinal4346:PPROC
+mfc42u_ordinal4346 equ <__imp_mfc42u_ordinal4346>
+
+externdef __imp_mfc42u_ordinal4347:PPROC
+mfc42u_ordinal4347 equ <__imp_mfc42u_ordinal4347>
+
+externdef __imp_mfc42u_ordinal4348:PPROC
+mfc42u_ordinal4348 equ <__imp_mfc42u_ordinal4348>
+
+externdef __imp_mfc42u_ordinal4349:PPROC
+mfc42u_ordinal4349 equ <__imp_mfc42u_ordinal4349>
+
+externdef __imp_mfc42u_ordinal434:PPROC
+mfc42u_ordinal434 equ <__imp_mfc42u_ordinal434>
+
+externdef __imp_mfc42u_ordinal4350:PPROC
+mfc42u_ordinal4350 equ <__imp_mfc42u_ordinal4350>
+
+externdef __imp_mfc42u_ordinal4351:PPROC
+mfc42u_ordinal4351 equ <__imp_mfc42u_ordinal4351>
+
+externdef __imp_mfc42u_ordinal4352:PPROC
+mfc42u_ordinal4352 equ <__imp_mfc42u_ordinal4352>
+
+externdef __imp_mfc42u_ordinal4353:PPROC
+mfc42u_ordinal4353 equ <__imp_mfc42u_ordinal4353>
+
+externdef __imp_mfc42u_ordinal4354:PPROC
+mfc42u_ordinal4354 equ <__imp_mfc42u_ordinal4354>
+
+externdef __imp_mfc42u_ordinal4355:PPROC
+mfc42u_ordinal4355 equ <__imp_mfc42u_ordinal4355>
+
+externdef __imp_mfc42u_ordinal4356:PPROC
+mfc42u_ordinal4356 equ <__imp_mfc42u_ordinal4356>
+
+externdef __imp_mfc42u_ordinal4357:PPROC
+mfc42u_ordinal4357 equ <__imp_mfc42u_ordinal4357>
+
+externdef __imp_mfc42u_ordinal4358:PPROC
+mfc42u_ordinal4358 equ <__imp_mfc42u_ordinal4358>
+
+externdef __imp_mfc42u_ordinal4359:PPROC
+mfc42u_ordinal4359 equ <__imp_mfc42u_ordinal4359>
+
+externdef __imp_mfc42u_ordinal435:PPROC
+mfc42u_ordinal435 equ <__imp_mfc42u_ordinal435>
+
+externdef __imp_mfc42u_ordinal4360:PPROC
+mfc42u_ordinal4360 equ <__imp_mfc42u_ordinal4360>
+
+externdef __imp_mfc42u_ordinal4361:PPROC
+mfc42u_ordinal4361 equ <__imp_mfc42u_ordinal4361>
+
+externdef __imp_mfc42u_ordinal4362:PPROC
+mfc42u_ordinal4362 equ <__imp_mfc42u_ordinal4362>
+
+externdef __imp_mfc42u_ordinal4363:PPROC
+mfc42u_ordinal4363 equ <__imp_mfc42u_ordinal4363>
+
+externdef __imp_mfc42u_ordinal4364:PPROC
+mfc42u_ordinal4364 equ <__imp_mfc42u_ordinal4364>
+
+externdef __imp_mfc42u_ordinal4365:PPROC
+mfc42u_ordinal4365 equ <__imp_mfc42u_ordinal4365>
+
+externdef __imp_mfc42u_ordinal4366:PPROC
+mfc42u_ordinal4366 equ <__imp_mfc42u_ordinal4366>
+
+externdef __imp_mfc42u_ordinal4367:PPROC
+mfc42u_ordinal4367 equ <__imp_mfc42u_ordinal4367>
+
+externdef __imp_mfc42u_ordinal4368:PPROC
+mfc42u_ordinal4368 equ <__imp_mfc42u_ordinal4368>
+
+externdef __imp_mfc42u_ordinal4369:PPROC
+mfc42u_ordinal4369 equ <__imp_mfc42u_ordinal4369>
+
+externdef __imp_mfc42u_ordinal436:PPROC
+mfc42u_ordinal436 equ <__imp_mfc42u_ordinal436>
+
+externdef __imp_mfc42u_ordinal4370:PPROC
+mfc42u_ordinal4370 equ <__imp_mfc42u_ordinal4370>
+
+externdef __imp_mfc42u_ordinal4371:PPROC
+mfc42u_ordinal4371 equ <__imp_mfc42u_ordinal4371>
+
+externdef __imp_mfc42u_ordinal4372:PPROC
+mfc42u_ordinal4372 equ <__imp_mfc42u_ordinal4372>
+
+externdef __imp_mfc42u_ordinal4373:PPROC
+mfc42u_ordinal4373 equ <__imp_mfc42u_ordinal4373>
+
+externdef __imp_mfc42u_ordinal4374:PPROC
+mfc42u_ordinal4374 equ <__imp_mfc42u_ordinal4374>
+
+externdef __imp_mfc42u_ordinal4375:PPROC
+mfc42u_ordinal4375 equ <__imp_mfc42u_ordinal4375>
+
+externdef __imp_mfc42u_ordinal4376:PPROC
+mfc42u_ordinal4376 equ <__imp_mfc42u_ordinal4376>
+
+externdef __imp_mfc42u_ordinal4377:PPROC
+mfc42u_ordinal4377 equ <__imp_mfc42u_ordinal4377>
+
+externdef __imp_mfc42u_ordinal4378:PPROC
+mfc42u_ordinal4378 equ <__imp_mfc42u_ordinal4378>
+
+externdef __imp_mfc42u_ordinal4379:PPROC
+mfc42u_ordinal4379 equ <__imp_mfc42u_ordinal4379>
+
+externdef __imp_mfc42u_ordinal437:PPROC
+mfc42u_ordinal437 equ <__imp_mfc42u_ordinal437>
+
+externdef __imp_mfc42u_ordinal4380:PPROC
+mfc42u_ordinal4380 equ <__imp_mfc42u_ordinal4380>
+
+externdef __imp_mfc42u_ordinal4381:PPROC
+mfc42u_ordinal4381 equ <__imp_mfc42u_ordinal4381>
+
+externdef __imp_mfc42u_ordinal4382:PPROC
+mfc42u_ordinal4382 equ <__imp_mfc42u_ordinal4382>
+
+externdef __imp_mfc42u_ordinal4383:PPROC
+mfc42u_ordinal4383 equ <__imp_mfc42u_ordinal4383>
+
+externdef __imp_mfc42u_ordinal4384:PPROC
+mfc42u_ordinal4384 equ <__imp_mfc42u_ordinal4384>
+
+externdef __imp_mfc42u_ordinal4385:PPROC
+mfc42u_ordinal4385 equ <__imp_mfc42u_ordinal4385>
+
+externdef __imp_mfc42u_ordinal4386:PPROC
+mfc42u_ordinal4386 equ <__imp_mfc42u_ordinal4386>
+
+externdef __imp_mfc42u_ordinal4387:PPROC
+mfc42u_ordinal4387 equ <__imp_mfc42u_ordinal4387>
+
+externdef __imp_mfc42u_ordinal4388:PPROC
+mfc42u_ordinal4388 equ <__imp_mfc42u_ordinal4388>
+
+externdef __imp_mfc42u_ordinal4389:PPROC
+mfc42u_ordinal4389 equ <__imp_mfc42u_ordinal4389>
+
+externdef __imp_mfc42u_ordinal438:PPROC
+mfc42u_ordinal438 equ <__imp_mfc42u_ordinal438>
+
+externdef __imp_mfc42u_ordinal4390:PPROC
+mfc42u_ordinal4390 equ <__imp_mfc42u_ordinal4390>
+
+externdef __imp_mfc42u_ordinal4391:PPROC
+mfc42u_ordinal4391 equ <__imp_mfc42u_ordinal4391>
+
+externdef __imp_mfc42u_ordinal4392:PPROC
+mfc42u_ordinal4392 equ <__imp_mfc42u_ordinal4392>
+
+externdef __imp_mfc42u_ordinal4393:PPROC
+mfc42u_ordinal4393 equ <__imp_mfc42u_ordinal4393>
+
+externdef __imp_mfc42u_ordinal4394:PPROC
+mfc42u_ordinal4394 equ <__imp_mfc42u_ordinal4394>
+
+externdef __imp_mfc42u_ordinal4395:PPROC
+mfc42u_ordinal4395 equ <__imp_mfc42u_ordinal4395>
+
+externdef __imp_mfc42u_ordinal4396:PPROC
+mfc42u_ordinal4396 equ <__imp_mfc42u_ordinal4396>
+
+externdef __imp_mfc42u_ordinal4397:PPROC
+mfc42u_ordinal4397 equ <__imp_mfc42u_ordinal4397>
+
+externdef __imp_mfc42u_ordinal4398:PPROC
+mfc42u_ordinal4398 equ <__imp_mfc42u_ordinal4398>
+
+externdef __imp_mfc42u_ordinal4399:PPROC
+mfc42u_ordinal4399 equ <__imp_mfc42u_ordinal4399>
+
+externdef __imp_mfc42u_ordinal439:PPROC
+mfc42u_ordinal439 equ <__imp_mfc42u_ordinal439>
+
+externdef __imp_mfc42u_ordinal43:PPROC
+mfc42u_ordinal43 equ <__imp_mfc42u_ordinal43>
+
+externdef __imp_mfc42u_ordinal4400:PPROC
+mfc42u_ordinal4400 equ <__imp_mfc42u_ordinal4400>
+
+externdef __imp_mfc42u_ordinal4401:PPROC
+mfc42u_ordinal4401 equ <__imp_mfc42u_ordinal4401>
+
+externdef __imp_mfc42u_ordinal4402:PPROC
+mfc42u_ordinal4402 equ <__imp_mfc42u_ordinal4402>
+
+externdef __imp_mfc42u_ordinal4403:PPROC
+mfc42u_ordinal4403 equ <__imp_mfc42u_ordinal4403>
+
+externdef __imp_mfc42u_ordinal4404:PPROC
+mfc42u_ordinal4404 equ <__imp_mfc42u_ordinal4404>
+
+externdef __imp_mfc42u_ordinal4405:PPROC
+mfc42u_ordinal4405 equ <__imp_mfc42u_ordinal4405>
+
+externdef __imp_mfc42u_ordinal4406:PPROC
+mfc42u_ordinal4406 equ <__imp_mfc42u_ordinal4406>
+
+externdef __imp_mfc42u_ordinal4407:PPROC
+mfc42u_ordinal4407 equ <__imp_mfc42u_ordinal4407>
+
+externdef __imp_mfc42u_ordinal4408:PPROC
+mfc42u_ordinal4408 equ <__imp_mfc42u_ordinal4408>
+
+externdef __imp_mfc42u_ordinal4409:PPROC
+mfc42u_ordinal4409 equ <__imp_mfc42u_ordinal4409>
+
+externdef __imp_mfc42u_ordinal440:PPROC
+mfc42u_ordinal440 equ <__imp_mfc42u_ordinal440>
+
+externdef __imp_mfc42u_ordinal4410:PPROC
+mfc42u_ordinal4410 equ <__imp_mfc42u_ordinal4410>
+
+externdef __imp_mfc42u_ordinal4411:PPROC
+mfc42u_ordinal4411 equ <__imp_mfc42u_ordinal4411>
+
+externdef __imp_mfc42u_ordinal4412:PPROC
+mfc42u_ordinal4412 equ <__imp_mfc42u_ordinal4412>
+
+externdef __imp_mfc42u_ordinal4413:PPROC
+mfc42u_ordinal4413 equ <__imp_mfc42u_ordinal4413>
+
+externdef __imp_mfc42u_ordinal4414:PPROC
+mfc42u_ordinal4414 equ <__imp_mfc42u_ordinal4414>
+
+externdef __imp_mfc42u_ordinal4415:PPROC
+mfc42u_ordinal4415 equ <__imp_mfc42u_ordinal4415>
+
+externdef __imp_mfc42u_ordinal4416:PPROC
+mfc42u_ordinal4416 equ <__imp_mfc42u_ordinal4416>
+
+externdef __imp_mfc42u_ordinal4417:PPROC
+mfc42u_ordinal4417 equ <__imp_mfc42u_ordinal4417>
+
+externdef __imp_mfc42u_ordinal4418:PPROC
+mfc42u_ordinal4418 equ <__imp_mfc42u_ordinal4418>
+
+externdef __imp_mfc42u_ordinal4419:PPROC
+mfc42u_ordinal4419 equ <__imp_mfc42u_ordinal4419>
+
+externdef __imp_mfc42u_ordinal441:PPROC
+mfc42u_ordinal441 equ <__imp_mfc42u_ordinal441>
+
+externdef __imp_mfc42u_ordinal4420:PPROC
+mfc42u_ordinal4420 equ <__imp_mfc42u_ordinal4420>
+
+externdef __imp_mfc42u_ordinal4421:PPROC
+mfc42u_ordinal4421 equ <__imp_mfc42u_ordinal4421>
+
+externdef __imp_mfc42u_ordinal4422:PPROC
+mfc42u_ordinal4422 equ <__imp_mfc42u_ordinal4422>
+
+externdef __imp_mfc42u_ordinal4423:PPROC
+mfc42u_ordinal4423 equ <__imp_mfc42u_ordinal4423>
+
+externdef __imp_mfc42u_ordinal4424:PPROC
+mfc42u_ordinal4424 equ <__imp_mfc42u_ordinal4424>
+
+externdef __imp_mfc42u_ordinal4425:PPROC
+mfc42u_ordinal4425 equ <__imp_mfc42u_ordinal4425>
+
+externdef __imp_mfc42u_ordinal4426:PPROC
+mfc42u_ordinal4426 equ <__imp_mfc42u_ordinal4426>
+
+externdef __imp_mfc42u_ordinal4427:PPROC
+mfc42u_ordinal4427 equ <__imp_mfc42u_ordinal4427>
+
+externdef __imp_mfc42u_ordinal4428:PPROC
+mfc42u_ordinal4428 equ <__imp_mfc42u_ordinal4428>
+
+externdef __imp_mfc42u_ordinal4429:PPROC
+mfc42u_ordinal4429 equ <__imp_mfc42u_ordinal4429>
+
+externdef __imp_mfc42u_ordinal442:PPROC
+mfc42u_ordinal442 equ <__imp_mfc42u_ordinal442>
+
+externdef __imp_mfc42u_ordinal4430:PPROC
+mfc42u_ordinal4430 equ <__imp_mfc42u_ordinal4430>
+
+externdef __imp_mfc42u_ordinal4431:PPROC
+mfc42u_ordinal4431 equ <__imp_mfc42u_ordinal4431>
+
+externdef __imp_mfc42u_ordinal4432:PPROC
+mfc42u_ordinal4432 equ <__imp_mfc42u_ordinal4432>
+
+externdef __imp_mfc42u_ordinal4433:PPROC
+mfc42u_ordinal4433 equ <__imp_mfc42u_ordinal4433>
+
+externdef __imp_mfc42u_ordinal4434:PPROC
+mfc42u_ordinal4434 equ <__imp_mfc42u_ordinal4434>
+
+externdef __imp_mfc42u_ordinal4435:PPROC
+mfc42u_ordinal4435 equ <__imp_mfc42u_ordinal4435>
+
+externdef __imp_mfc42u_ordinal4436:PPROC
+mfc42u_ordinal4436 equ <__imp_mfc42u_ordinal4436>
+
+externdef __imp_mfc42u_ordinal4437:PPROC
+mfc42u_ordinal4437 equ <__imp_mfc42u_ordinal4437>
+
+externdef __imp_mfc42u_ordinal4438:PPROC
+mfc42u_ordinal4438 equ <__imp_mfc42u_ordinal4438>
+
+externdef __imp_mfc42u_ordinal4439:PPROC
+mfc42u_ordinal4439 equ <__imp_mfc42u_ordinal4439>
+
+externdef __imp_mfc42u_ordinal443:PPROC
+mfc42u_ordinal443 equ <__imp_mfc42u_ordinal443>
+
+externdef __imp_mfc42u_ordinal4440:PPROC
+mfc42u_ordinal4440 equ <__imp_mfc42u_ordinal4440>
+
+externdef __imp_mfc42u_ordinal4441:PPROC
+mfc42u_ordinal4441 equ <__imp_mfc42u_ordinal4441>
+
+externdef __imp_mfc42u_ordinal4442:PPROC
+mfc42u_ordinal4442 equ <__imp_mfc42u_ordinal4442>
+
+externdef __imp_mfc42u_ordinal4443:PPROC
+mfc42u_ordinal4443 equ <__imp_mfc42u_ordinal4443>
+
+externdef __imp_mfc42u_ordinal4444:PPROC
+mfc42u_ordinal4444 equ <__imp_mfc42u_ordinal4444>
+
+externdef __imp_mfc42u_ordinal4445:PPROC
+mfc42u_ordinal4445 equ <__imp_mfc42u_ordinal4445>
+
+externdef __imp_mfc42u_ordinal4446:PPROC
+mfc42u_ordinal4446 equ <__imp_mfc42u_ordinal4446>
+
+externdef __imp_mfc42u_ordinal4447:PPROC
+mfc42u_ordinal4447 equ <__imp_mfc42u_ordinal4447>
+
+externdef __imp_mfc42u_ordinal4448:PPROC
+mfc42u_ordinal4448 equ <__imp_mfc42u_ordinal4448>
+
+externdef __imp_mfc42u_ordinal4449:PPROC
+mfc42u_ordinal4449 equ <__imp_mfc42u_ordinal4449>
+
+externdef __imp_mfc42u_ordinal444:PPROC
+mfc42u_ordinal444 equ <__imp_mfc42u_ordinal444>
+
+externdef __imp_mfc42u_ordinal4450:PPROC
+mfc42u_ordinal4450 equ <__imp_mfc42u_ordinal4450>
+
+externdef __imp_mfc42u_ordinal4451:PPROC
+mfc42u_ordinal4451 equ <__imp_mfc42u_ordinal4451>
+
+externdef __imp_mfc42u_ordinal4452:PPROC
+mfc42u_ordinal4452 equ <__imp_mfc42u_ordinal4452>
+
+externdef __imp_mfc42u_ordinal4453:PPROC
+mfc42u_ordinal4453 equ <__imp_mfc42u_ordinal4453>
+
+externdef __imp_mfc42u_ordinal4454:PPROC
+mfc42u_ordinal4454 equ <__imp_mfc42u_ordinal4454>
+
+externdef __imp_mfc42u_ordinal4455:PPROC
+mfc42u_ordinal4455 equ <__imp_mfc42u_ordinal4455>
+
+externdef __imp_mfc42u_ordinal4456:PPROC
+mfc42u_ordinal4456 equ <__imp_mfc42u_ordinal4456>
+
+externdef __imp_mfc42u_ordinal4457:PPROC
+mfc42u_ordinal4457 equ <__imp_mfc42u_ordinal4457>
+
+externdef __imp_mfc42u_ordinal4458:PPROC
+mfc42u_ordinal4458 equ <__imp_mfc42u_ordinal4458>
+
+externdef __imp_mfc42u_ordinal4459:PPROC
+mfc42u_ordinal4459 equ <__imp_mfc42u_ordinal4459>
+
+externdef __imp_mfc42u_ordinal445:PPROC
+mfc42u_ordinal445 equ <__imp_mfc42u_ordinal445>
+
+externdef __imp_mfc42u_ordinal4460:PPROC
+mfc42u_ordinal4460 equ <__imp_mfc42u_ordinal4460>
+
+externdef __imp_mfc42u_ordinal4461:PPROC
+mfc42u_ordinal4461 equ <__imp_mfc42u_ordinal4461>
+
+externdef __imp_mfc42u_ordinal4462:PPROC
+mfc42u_ordinal4462 equ <__imp_mfc42u_ordinal4462>
+
+externdef __imp_mfc42u_ordinal4463:PPROC
+mfc42u_ordinal4463 equ <__imp_mfc42u_ordinal4463>
+
+externdef __imp_mfc42u_ordinal4464:PPROC
+mfc42u_ordinal4464 equ <__imp_mfc42u_ordinal4464>
+
+externdef __imp_mfc42u_ordinal4465:PPROC
+mfc42u_ordinal4465 equ <__imp_mfc42u_ordinal4465>
+
+externdef __imp_mfc42u_ordinal4466:PPROC
+mfc42u_ordinal4466 equ <__imp_mfc42u_ordinal4466>
+
+externdef __imp_mfc42u_ordinal4467:PPROC
+mfc42u_ordinal4467 equ <__imp_mfc42u_ordinal4467>
+
+externdef __imp_mfc42u_ordinal4468:PPROC
+mfc42u_ordinal4468 equ <__imp_mfc42u_ordinal4468>
+
+externdef __imp_mfc42u_ordinal4469:PPROC
+mfc42u_ordinal4469 equ <__imp_mfc42u_ordinal4469>
+
+externdef __imp_mfc42u_ordinal446:PPROC
+mfc42u_ordinal446 equ <__imp_mfc42u_ordinal446>
+
+externdef __imp_mfc42u_ordinal4470:PPROC
+mfc42u_ordinal4470 equ <__imp_mfc42u_ordinal4470>
+
+externdef __imp_mfc42u_ordinal4471:PPROC
+mfc42u_ordinal4471 equ <__imp_mfc42u_ordinal4471>
+
+externdef __imp_mfc42u_ordinal4472:PPROC
+mfc42u_ordinal4472 equ <__imp_mfc42u_ordinal4472>
+
+externdef __imp_mfc42u_ordinal4473:PPROC
+mfc42u_ordinal4473 equ <__imp_mfc42u_ordinal4473>
+
+externdef __imp_mfc42u_ordinal4474:PPROC
+mfc42u_ordinal4474 equ <__imp_mfc42u_ordinal4474>
+
+externdef __imp_mfc42u_ordinal4475:PPROC
+mfc42u_ordinal4475 equ <__imp_mfc42u_ordinal4475>
+
+externdef __imp_mfc42u_ordinal4476:PPROC
+mfc42u_ordinal4476 equ <__imp_mfc42u_ordinal4476>
+
+externdef __imp_mfc42u_ordinal4477:PPROC
+mfc42u_ordinal4477 equ <__imp_mfc42u_ordinal4477>
+
+externdef __imp_mfc42u_ordinal4478:PPROC
+mfc42u_ordinal4478 equ <__imp_mfc42u_ordinal4478>
+
+externdef __imp_mfc42u_ordinal4479:PPROC
+mfc42u_ordinal4479 equ <__imp_mfc42u_ordinal4479>
+
+externdef __imp_mfc42u_ordinal447:PPROC
+mfc42u_ordinal447 equ <__imp_mfc42u_ordinal447>
+
+externdef __imp_mfc42u_ordinal4480:PPROC
+mfc42u_ordinal4480 equ <__imp_mfc42u_ordinal4480>
+
+externdef __imp_mfc42u_ordinal4481:PPROC
+mfc42u_ordinal4481 equ <__imp_mfc42u_ordinal4481>
+
+externdef __imp_mfc42u_ordinal4482:PPROC
+mfc42u_ordinal4482 equ <__imp_mfc42u_ordinal4482>
+
+externdef __imp_mfc42u_ordinal4483:PPROC
+mfc42u_ordinal4483 equ <__imp_mfc42u_ordinal4483>
+
+externdef __imp_mfc42u_ordinal4484:PPROC
+mfc42u_ordinal4484 equ <__imp_mfc42u_ordinal4484>
+
+externdef __imp_mfc42u_ordinal4485:PPROC
+mfc42u_ordinal4485 equ <__imp_mfc42u_ordinal4485>
+
+externdef __imp_mfc42u_ordinal4486:PPROC
+mfc42u_ordinal4486 equ <__imp_mfc42u_ordinal4486>
+
+externdef __imp_mfc42u_ordinal4487:PPROC
+mfc42u_ordinal4487 equ <__imp_mfc42u_ordinal4487>
+
+externdef __imp_mfc42u_ordinal4488:PPROC
+mfc42u_ordinal4488 equ <__imp_mfc42u_ordinal4488>
+
+externdef __imp_mfc42u_ordinal4489:PPROC
+mfc42u_ordinal4489 equ <__imp_mfc42u_ordinal4489>
+
+externdef __imp_mfc42u_ordinal448:PPROC
+mfc42u_ordinal448 equ <__imp_mfc42u_ordinal448>
+
+externdef __imp_mfc42u_ordinal4490:PPROC
+mfc42u_ordinal4490 equ <__imp_mfc42u_ordinal4490>
+
+externdef __imp_mfc42u_ordinal4491:PPROC
+mfc42u_ordinal4491 equ <__imp_mfc42u_ordinal4491>
+
+externdef __imp_mfc42u_ordinal4492:PPROC
+mfc42u_ordinal4492 equ <__imp_mfc42u_ordinal4492>
+
+externdef __imp_mfc42u_ordinal4493:PPROC
+mfc42u_ordinal4493 equ <__imp_mfc42u_ordinal4493>
+
+externdef __imp_mfc42u_ordinal4494:PPROC
+mfc42u_ordinal4494 equ <__imp_mfc42u_ordinal4494>
+
+externdef __imp_mfc42u_ordinal4495:PPROC
+mfc42u_ordinal4495 equ <__imp_mfc42u_ordinal4495>
+
+externdef __imp_mfc42u_ordinal4496:PPROC
+mfc42u_ordinal4496 equ <__imp_mfc42u_ordinal4496>
+
+externdef __imp_mfc42u_ordinal4497:PPROC
+mfc42u_ordinal4497 equ <__imp_mfc42u_ordinal4497>
+
+externdef __imp_mfc42u_ordinal4498:PPROC
+mfc42u_ordinal4498 equ <__imp_mfc42u_ordinal4498>
+
+externdef __imp_mfc42u_ordinal4499:PPROC
+mfc42u_ordinal4499 equ <__imp_mfc42u_ordinal4499>
+
+externdef __imp_mfc42u_ordinal449:PPROC
+mfc42u_ordinal449 equ <__imp_mfc42u_ordinal449>
+
+externdef __imp_mfc42u_ordinal44:PPROC
+mfc42u_ordinal44 equ <__imp_mfc42u_ordinal44>
+
+externdef __imp_mfc42u_ordinal4500:PPROC
+mfc42u_ordinal4500 equ <__imp_mfc42u_ordinal4500>
+
+externdef __imp_mfc42u_ordinal4501:PPROC
+mfc42u_ordinal4501 equ <__imp_mfc42u_ordinal4501>
+
+externdef __imp_mfc42u_ordinal4502:PPROC
+mfc42u_ordinal4502 equ <__imp_mfc42u_ordinal4502>
+
+externdef __imp_mfc42u_ordinal4503:PPROC
+mfc42u_ordinal4503 equ <__imp_mfc42u_ordinal4503>
+
+externdef __imp_mfc42u_ordinal4504:PPROC
+mfc42u_ordinal4504 equ <__imp_mfc42u_ordinal4504>
+
+externdef __imp_mfc42u_ordinal4505:PPROC
+mfc42u_ordinal4505 equ <__imp_mfc42u_ordinal4505>
+
+externdef __imp_mfc42u_ordinal4506:PPROC
+mfc42u_ordinal4506 equ <__imp_mfc42u_ordinal4506>
+
+externdef __imp_mfc42u_ordinal4507:PPROC
+mfc42u_ordinal4507 equ <__imp_mfc42u_ordinal4507>
+
+externdef __imp_mfc42u_ordinal4508:PPROC
+mfc42u_ordinal4508 equ <__imp_mfc42u_ordinal4508>
+
+externdef __imp_mfc42u_ordinal4509:PPROC
+mfc42u_ordinal4509 equ <__imp_mfc42u_ordinal4509>
+
+externdef __imp_mfc42u_ordinal450:PPROC
+mfc42u_ordinal450 equ <__imp_mfc42u_ordinal450>
+
+externdef __imp_mfc42u_ordinal4510:PPROC
+mfc42u_ordinal4510 equ <__imp_mfc42u_ordinal4510>
+
+externdef __imp_mfc42u_ordinal4511:PPROC
+mfc42u_ordinal4511 equ <__imp_mfc42u_ordinal4511>
+
+externdef __imp_mfc42u_ordinal4512:PPROC
+mfc42u_ordinal4512 equ <__imp_mfc42u_ordinal4512>
+
+externdef __imp_mfc42u_ordinal4513:PPROC
+mfc42u_ordinal4513 equ <__imp_mfc42u_ordinal4513>
+
+externdef __imp_mfc42u_ordinal4514:PPROC
+mfc42u_ordinal4514 equ <__imp_mfc42u_ordinal4514>
+
+externdef __imp_mfc42u_ordinal4515:PPROC
+mfc42u_ordinal4515 equ <__imp_mfc42u_ordinal4515>
+
+externdef __imp_mfc42u_ordinal4516:PPROC
+mfc42u_ordinal4516 equ <__imp_mfc42u_ordinal4516>
+
+externdef __imp_mfc42u_ordinal4517:PPROC
+mfc42u_ordinal4517 equ <__imp_mfc42u_ordinal4517>
+
+externdef __imp_mfc42u_ordinal4518:PPROC
+mfc42u_ordinal4518 equ <__imp_mfc42u_ordinal4518>
+
+externdef __imp_mfc42u_ordinal4519:PPROC
+mfc42u_ordinal4519 equ <__imp_mfc42u_ordinal4519>
+
+externdef __imp_mfc42u_ordinal451:PPROC
+mfc42u_ordinal451 equ <__imp_mfc42u_ordinal451>
+
+externdef __imp_mfc42u_ordinal4520:PPROC
+mfc42u_ordinal4520 equ <__imp_mfc42u_ordinal4520>
+
+externdef __imp_mfc42u_ordinal4521:PPROC
+mfc42u_ordinal4521 equ <__imp_mfc42u_ordinal4521>
+
+externdef __imp_mfc42u_ordinal4522:PPROC
+mfc42u_ordinal4522 equ <__imp_mfc42u_ordinal4522>
+
+externdef __imp_mfc42u_ordinal4523:PPROC
+mfc42u_ordinal4523 equ <__imp_mfc42u_ordinal4523>
+
+externdef __imp_mfc42u_ordinal4524:PPROC
+mfc42u_ordinal4524 equ <__imp_mfc42u_ordinal4524>
+
+externdef __imp_mfc42u_ordinal4525:PPROC
+mfc42u_ordinal4525 equ <__imp_mfc42u_ordinal4525>
+
+externdef __imp_mfc42u_ordinal4526:PPROC
+mfc42u_ordinal4526 equ <__imp_mfc42u_ordinal4526>
+
+externdef __imp_mfc42u_ordinal4527:PPROC
+mfc42u_ordinal4527 equ <__imp_mfc42u_ordinal4527>
+
+externdef __imp_mfc42u_ordinal4528:PPROC
+mfc42u_ordinal4528 equ <__imp_mfc42u_ordinal4528>
+
+externdef __imp_mfc42u_ordinal4529:PPROC
+mfc42u_ordinal4529 equ <__imp_mfc42u_ordinal4529>
+
+externdef __imp_mfc42u_ordinal452:PPROC
+mfc42u_ordinal452 equ <__imp_mfc42u_ordinal452>
+
+externdef __imp_mfc42u_ordinal4530:PPROC
+mfc42u_ordinal4530 equ <__imp_mfc42u_ordinal4530>
+
+externdef __imp_mfc42u_ordinal4531:PPROC
+mfc42u_ordinal4531 equ <__imp_mfc42u_ordinal4531>
+
+externdef __imp_mfc42u_ordinal4532:PPROC
+mfc42u_ordinal4532 equ <__imp_mfc42u_ordinal4532>
+
+externdef __imp_mfc42u_ordinal4533:PPROC
+mfc42u_ordinal4533 equ <__imp_mfc42u_ordinal4533>
+
+externdef __imp_mfc42u_ordinal4534:PPROC
+mfc42u_ordinal4534 equ <__imp_mfc42u_ordinal4534>
+
+externdef __imp_mfc42u_ordinal4535:PPROC
+mfc42u_ordinal4535 equ <__imp_mfc42u_ordinal4535>
+
+externdef __imp_mfc42u_ordinal4536:PPROC
+mfc42u_ordinal4536 equ <__imp_mfc42u_ordinal4536>
+
+externdef __imp_mfc42u_ordinal4537:PPROC
+mfc42u_ordinal4537 equ <__imp_mfc42u_ordinal4537>
+
+externdef __imp_mfc42u_ordinal4538:PPROC
+mfc42u_ordinal4538 equ <__imp_mfc42u_ordinal4538>
+
+externdef __imp_mfc42u_ordinal4539:PPROC
+mfc42u_ordinal4539 equ <__imp_mfc42u_ordinal4539>
+
+externdef __imp_mfc42u_ordinal453:PPROC
+mfc42u_ordinal453 equ <__imp_mfc42u_ordinal453>
+
+externdef __imp_mfc42u_ordinal4540:PPROC
+mfc42u_ordinal4540 equ <__imp_mfc42u_ordinal4540>
+
+externdef __imp_mfc42u_ordinal4541:PPROC
+mfc42u_ordinal4541 equ <__imp_mfc42u_ordinal4541>
+
+externdef __imp_mfc42u_ordinal4542:PPROC
+mfc42u_ordinal4542 equ <__imp_mfc42u_ordinal4542>
+
+externdef __imp_mfc42u_ordinal4543:PPROC
+mfc42u_ordinal4543 equ <__imp_mfc42u_ordinal4543>
+
+externdef __imp_mfc42u_ordinal4544:PPROC
+mfc42u_ordinal4544 equ <__imp_mfc42u_ordinal4544>
+
+externdef __imp_mfc42u_ordinal4545:PPROC
+mfc42u_ordinal4545 equ <__imp_mfc42u_ordinal4545>
+
+externdef __imp_mfc42u_ordinal4546:PPROC
+mfc42u_ordinal4546 equ <__imp_mfc42u_ordinal4546>
+
+externdef __imp_mfc42u_ordinal4547:PPROC
+mfc42u_ordinal4547 equ <__imp_mfc42u_ordinal4547>
+
+externdef __imp_mfc42u_ordinal4548:PPROC
+mfc42u_ordinal4548 equ <__imp_mfc42u_ordinal4548>
+
+externdef __imp_mfc42u_ordinal4549:PPROC
+mfc42u_ordinal4549 equ <__imp_mfc42u_ordinal4549>
+
+externdef __imp_mfc42u_ordinal454:PPROC
+mfc42u_ordinal454 equ <__imp_mfc42u_ordinal454>
+
+externdef __imp_mfc42u_ordinal4550:PPROC
+mfc42u_ordinal4550 equ <__imp_mfc42u_ordinal4550>
+
+externdef __imp_mfc42u_ordinal4551:PPROC
+mfc42u_ordinal4551 equ <__imp_mfc42u_ordinal4551>
+
+externdef __imp_mfc42u_ordinal4552:PPROC
+mfc42u_ordinal4552 equ <__imp_mfc42u_ordinal4552>
+
+externdef __imp_mfc42u_ordinal4553:PPROC
+mfc42u_ordinal4553 equ <__imp_mfc42u_ordinal4553>
+
+externdef __imp_mfc42u_ordinal4554:PPROC
+mfc42u_ordinal4554 equ <__imp_mfc42u_ordinal4554>
+
+externdef __imp_mfc42u_ordinal4555:PPROC
+mfc42u_ordinal4555 equ <__imp_mfc42u_ordinal4555>
+
+externdef __imp_mfc42u_ordinal4556:PPROC
+mfc42u_ordinal4556 equ <__imp_mfc42u_ordinal4556>
+
+externdef __imp_mfc42u_ordinal4557:PPROC
+mfc42u_ordinal4557 equ <__imp_mfc42u_ordinal4557>
+
+externdef __imp_mfc42u_ordinal4558:PPROC
+mfc42u_ordinal4558 equ <__imp_mfc42u_ordinal4558>
+
+externdef __imp_mfc42u_ordinal4559:PPROC
+mfc42u_ordinal4559 equ <__imp_mfc42u_ordinal4559>
+
+externdef __imp_mfc42u_ordinal455:PPROC
+mfc42u_ordinal455 equ <__imp_mfc42u_ordinal455>
+
+externdef __imp_mfc42u_ordinal4560:PPROC
+mfc42u_ordinal4560 equ <__imp_mfc42u_ordinal4560>
+
+externdef __imp_mfc42u_ordinal4561:PPROC
+mfc42u_ordinal4561 equ <__imp_mfc42u_ordinal4561>
+
+externdef __imp_mfc42u_ordinal4562:PPROC
+mfc42u_ordinal4562 equ <__imp_mfc42u_ordinal4562>
+
+externdef __imp_mfc42u_ordinal4563:PPROC
+mfc42u_ordinal4563 equ <__imp_mfc42u_ordinal4563>
+
+externdef __imp_mfc42u_ordinal4564:PPROC
+mfc42u_ordinal4564 equ <__imp_mfc42u_ordinal4564>
+
+externdef __imp_mfc42u_ordinal4565:PPROC
+mfc42u_ordinal4565 equ <__imp_mfc42u_ordinal4565>
+
+externdef __imp_mfc42u_ordinal4566:PPROC
+mfc42u_ordinal4566 equ <__imp_mfc42u_ordinal4566>
+
+externdef __imp_mfc42u_ordinal4567:PPROC
+mfc42u_ordinal4567 equ <__imp_mfc42u_ordinal4567>
+
+externdef __imp_mfc42u_ordinal4568:PPROC
+mfc42u_ordinal4568 equ <__imp_mfc42u_ordinal4568>
+
+externdef __imp_mfc42u_ordinal4569:PPROC
+mfc42u_ordinal4569 equ <__imp_mfc42u_ordinal4569>
+
+externdef __imp_mfc42u_ordinal456:PPROC
+mfc42u_ordinal456 equ <__imp_mfc42u_ordinal456>
+
+externdef __imp_mfc42u_ordinal4570:PPROC
+mfc42u_ordinal4570 equ <__imp_mfc42u_ordinal4570>
+
+externdef __imp_mfc42u_ordinal4571:PPROC
+mfc42u_ordinal4571 equ <__imp_mfc42u_ordinal4571>
+
+externdef __imp_mfc42u_ordinal4572:PPROC
+mfc42u_ordinal4572 equ <__imp_mfc42u_ordinal4572>
+
+externdef __imp_mfc42u_ordinal4573:PPROC
+mfc42u_ordinal4573 equ <__imp_mfc42u_ordinal4573>
+
+externdef __imp_mfc42u_ordinal4574:PPROC
+mfc42u_ordinal4574 equ <__imp_mfc42u_ordinal4574>
+
+externdef __imp_mfc42u_ordinal4575:PPROC
+mfc42u_ordinal4575 equ <__imp_mfc42u_ordinal4575>
+
+externdef __imp_mfc42u_ordinal4576:PPROC
+mfc42u_ordinal4576 equ <__imp_mfc42u_ordinal4576>
+
+externdef __imp_mfc42u_ordinal4577:PPROC
+mfc42u_ordinal4577 equ <__imp_mfc42u_ordinal4577>
+
+externdef __imp_mfc42u_ordinal4578:PPROC
+mfc42u_ordinal4578 equ <__imp_mfc42u_ordinal4578>
+
+externdef __imp_mfc42u_ordinal4579:PPROC
+mfc42u_ordinal4579 equ <__imp_mfc42u_ordinal4579>
+
+externdef __imp_mfc42u_ordinal457:PPROC
+mfc42u_ordinal457 equ <__imp_mfc42u_ordinal457>
+
+externdef __imp_mfc42u_ordinal4580:PPROC
+mfc42u_ordinal4580 equ <__imp_mfc42u_ordinal4580>
+
+externdef __imp_mfc42u_ordinal4581:PPROC
+mfc42u_ordinal4581 equ <__imp_mfc42u_ordinal4581>
+
+externdef __imp_mfc42u_ordinal4582:PPROC
+mfc42u_ordinal4582 equ <__imp_mfc42u_ordinal4582>
+
+externdef __imp_mfc42u_ordinal4583:PPROC
+mfc42u_ordinal4583 equ <__imp_mfc42u_ordinal4583>
+
+externdef __imp_mfc42u_ordinal4584:PPROC
+mfc42u_ordinal4584 equ <__imp_mfc42u_ordinal4584>
+
+externdef __imp_mfc42u_ordinal4585:PPROC
+mfc42u_ordinal4585 equ <__imp_mfc42u_ordinal4585>
+
+externdef __imp_mfc42u_ordinal4586:PPROC
+mfc42u_ordinal4586 equ <__imp_mfc42u_ordinal4586>
+
+externdef __imp_mfc42u_ordinal4587:PPROC
+mfc42u_ordinal4587 equ <__imp_mfc42u_ordinal4587>
+
+externdef __imp_mfc42u_ordinal4588:PPROC
+mfc42u_ordinal4588 equ <__imp_mfc42u_ordinal4588>
+
+externdef __imp_mfc42u_ordinal4589:PPROC
+mfc42u_ordinal4589 equ <__imp_mfc42u_ordinal4589>
+
+externdef __imp_mfc42u_ordinal458:PPROC
+mfc42u_ordinal458 equ <__imp_mfc42u_ordinal458>
+
+externdef __imp_mfc42u_ordinal4590:PPROC
+mfc42u_ordinal4590 equ <__imp_mfc42u_ordinal4590>
+
+externdef __imp_mfc42u_ordinal4591:PPROC
+mfc42u_ordinal4591 equ <__imp_mfc42u_ordinal4591>
+
+externdef __imp_mfc42u_ordinal4592:PPROC
+mfc42u_ordinal4592 equ <__imp_mfc42u_ordinal4592>
+
+externdef __imp_mfc42u_ordinal4593:PPROC
+mfc42u_ordinal4593 equ <__imp_mfc42u_ordinal4593>
+
+externdef __imp_mfc42u_ordinal4594:PPROC
+mfc42u_ordinal4594 equ <__imp_mfc42u_ordinal4594>
+
+externdef __imp_mfc42u_ordinal4595:PPROC
+mfc42u_ordinal4595 equ <__imp_mfc42u_ordinal4595>
+
+externdef __imp_mfc42u_ordinal4596:PPROC
+mfc42u_ordinal4596 equ <__imp_mfc42u_ordinal4596>
+
+externdef __imp_mfc42u_ordinal4597:PPROC
+mfc42u_ordinal4597 equ <__imp_mfc42u_ordinal4597>
+
+externdef __imp_mfc42u_ordinal4598:PPROC
+mfc42u_ordinal4598 equ <__imp_mfc42u_ordinal4598>
+
+externdef __imp_mfc42u_ordinal4599:PPROC
+mfc42u_ordinal4599 equ <__imp_mfc42u_ordinal4599>
+
+externdef __imp_mfc42u_ordinal459:PPROC
+mfc42u_ordinal459 equ <__imp_mfc42u_ordinal459>
+
+externdef __imp_mfc42u_ordinal45:PPROC
+mfc42u_ordinal45 equ <__imp_mfc42u_ordinal45>
+
+externdef __imp_mfc42u_ordinal4600:PPROC
+mfc42u_ordinal4600 equ <__imp_mfc42u_ordinal4600>
+
+externdef __imp_mfc42u_ordinal4601:PPROC
+mfc42u_ordinal4601 equ <__imp_mfc42u_ordinal4601>
+
+externdef __imp_mfc42u_ordinal4602:PPROC
+mfc42u_ordinal4602 equ <__imp_mfc42u_ordinal4602>
+
+externdef __imp_mfc42u_ordinal4603:PPROC
+mfc42u_ordinal4603 equ <__imp_mfc42u_ordinal4603>
+
+externdef __imp_mfc42u_ordinal4604:PPROC
+mfc42u_ordinal4604 equ <__imp_mfc42u_ordinal4604>
+
+externdef __imp_mfc42u_ordinal4605:PPROC
+mfc42u_ordinal4605 equ <__imp_mfc42u_ordinal4605>
+
+externdef __imp_mfc42u_ordinal4606:PPROC
+mfc42u_ordinal4606 equ <__imp_mfc42u_ordinal4606>
+
+externdef __imp_mfc42u_ordinal4607:PPROC
+mfc42u_ordinal4607 equ <__imp_mfc42u_ordinal4607>
+
+externdef __imp_mfc42u_ordinal4608:PPROC
+mfc42u_ordinal4608 equ <__imp_mfc42u_ordinal4608>
+
+externdef __imp_mfc42u_ordinal4609:PPROC
+mfc42u_ordinal4609 equ <__imp_mfc42u_ordinal4609>
+
+externdef __imp_mfc42u_ordinal460:PPROC
+mfc42u_ordinal460 equ <__imp_mfc42u_ordinal460>
+
+externdef __imp_mfc42u_ordinal4610:PPROC
+mfc42u_ordinal4610 equ <__imp_mfc42u_ordinal4610>
+
+externdef __imp_mfc42u_ordinal4611:PPROC
+mfc42u_ordinal4611 equ <__imp_mfc42u_ordinal4611>
+
+externdef __imp_mfc42u_ordinal4612:PPROC
+mfc42u_ordinal4612 equ <__imp_mfc42u_ordinal4612>
+
+externdef __imp_mfc42u_ordinal4613:PPROC
+mfc42u_ordinal4613 equ <__imp_mfc42u_ordinal4613>
+
+externdef __imp_mfc42u_ordinal4614:PPROC
+mfc42u_ordinal4614 equ <__imp_mfc42u_ordinal4614>
+
+externdef __imp_mfc42u_ordinal4615:PPROC
+mfc42u_ordinal4615 equ <__imp_mfc42u_ordinal4615>
+
+externdef __imp_mfc42u_ordinal4616:PPROC
+mfc42u_ordinal4616 equ <__imp_mfc42u_ordinal4616>
+
+externdef __imp_mfc42u_ordinal4617:PPROC
+mfc42u_ordinal4617 equ <__imp_mfc42u_ordinal4617>
+
+externdef __imp_mfc42u_ordinal4618:PPROC
+mfc42u_ordinal4618 equ <__imp_mfc42u_ordinal4618>
+
+externdef __imp_mfc42u_ordinal4619:PPROC
+mfc42u_ordinal4619 equ <__imp_mfc42u_ordinal4619>
+
+externdef __imp_mfc42u_ordinal461:PPROC
+mfc42u_ordinal461 equ <__imp_mfc42u_ordinal461>
+
+externdef __imp_mfc42u_ordinal4620:PPROC
+mfc42u_ordinal4620 equ <__imp_mfc42u_ordinal4620>
+
+externdef __imp_mfc42u_ordinal4621:PPROC
+mfc42u_ordinal4621 equ <__imp_mfc42u_ordinal4621>
+
+externdef __imp_mfc42u_ordinal4622:PPROC
+mfc42u_ordinal4622 equ <__imp_mfc42u_ordinal4622>
+
+externdef __imp_mfc42u_ordinal4623:PPROC
+mfc42u_ordinal4623 equ <__imp_mfc42u_ordinal4623>
+
+externdef __imp_mfc42u_ordinal4624:PPROC
+mfc42u_ordinal4624 equ <__imp_mfc42u_ordinal4624>
+
+externdef __imp_mfc42u_ordinal4625:PPROC
+mfc42u_ordinal4625 equ <__imp_mfc42u_ordinal4625>
+
+externdef __imp_mfc42u_ordinal4626:PPROC
+mfc42u_ordinal4626 equ <__imp_mfc42u_ordinal4626>
+
+externdef __imp_mfc42u_ordinal4627:PPROC
+mfc42u_ordinal4627 equ <__imp_mfc42u_ordinal4627>
+
+externdef __imp_mfc42u_ordinal4628:PPROC
+mfc42u_ordinal4628 equ <__imp_mfc42u_ordinal4628>
+
+externdef __imp_mfc42u_ordinal4629:PPROC
+mfc42u_ordinal4629 equ <__imp_mfc42u_ordinal4629>
+
+externdef __imp_mfc42u_ordinal462:PPROC
+mfc42u_ordinal462 equ <__imp_mfc42u_ordinal462>
+
+externdef __imp_mfc42u_ordinal4630:PPROC
+mfc42u_ordinal4630 equ <__imp_mfc42u_ordinal4630>
+
+externdef __imp_mfc42u_ordinal4631:PPROC
+mfc42u_ordinal4631 equ <__imp_mfc42u_ordinal4631>
+
+externdef __imp_mfc42u_ordinal4632:PPROC
+mfc42u_ordinal4632 equ <__imp_mfc42u_ordinal4632>
+
+externdef __imp_mfc42u_ordinal4633:PPROC
+mfc42u_ordinal4633 equ <__imp_mfc42u_ordinal4633>
+
+externdef __imp_mfc42u_ordinal4634:PPROC
+mfc42u_ordinal4634 equ <__imp_mfc42u_ordinal4634>
+
+externdef __imp_mfc42u_ordinal4635:PPROC
+mfc42u_ordinal4635 equ <__imp_mfc42u_ordinal4635>
+
+externdef __imp_mfc42u_ordinal4636:PPROC
+mfc42u_ordinal4636 equ <__imp_mfc42u_ordinal4636>
+
+externdef __imp_mfc42u_ordinal4637:PPROC
+mfc42u_ordinal4637 equ <__imp_mfc42u_ordinal4637>
+
+externdef __imp_mfc42u_ordinal4638:PPROC
+mfc42u_ordinal4638 equ <__imp_mfc42u_ordinal4638>
+
+externdef __imp_mfc42u_ordinal4639:PPROC
+mfc42u_ordinal4639 equ <__imp_mfc42u_ordinal4639>
+
+externdef __imp_mfc42u_ordinal463:PPROC
+mfc42u_ordinal463 equ <__imp_mfc42u_ordinal463>
+
+externdef __imp_mfc42u_ordinal4640:PPROC
+mfc42u_ordinal4640 equ <__imp_mfc42u_ordinal4640>
+
+externdef __imp_mfc42u_ordinal4641:PPROC
+mfc42u_ordinal4641 equ <__imp_mfc42u_ordinal4641>
+
+externdef __imp_mfc42u_ordinal4642:PPROC
+mfc42u_ordinal4642 equ <__imp_mfc42u_ordinal4642>
+
+externdef __imp_mfc42u_ordinal4643:PPROC
+mfc42u_ordinal4643 equ <__imp_mfc42u_ordinal4643>
+
+externdef __imp_mfc42u_ordinal4644:PPROC
+mfc42u_ordinal4644 equ <__imp_mfc42u_ordinal4644>
+
+externdef __imp_mfc42u_ordinal4645:PPROC
+mfc42u_ordinal4645 equ <__imp_mfc42u_ordinal4645>
+
+externdef __imp_mfc42u_ordinal4646:PPROC
+mfc42u_ordinal4646 equ <__imp_mfc42u_ordinal4646>
+
+externdef __imp_mfc42u_ordinal4647:PPROC
+mfc42u_ordinal4647 equ <__imp_mfc42u_ordinal4647>
+
+externdef __imp_mfc42u_ordinal4648:PPROC
+mfc42u_ordinal4648 equ <__imp_mfc42u_ordinal4648>
+
+externdef __imp_mfc42u_ordinal4649:PPROC
+mfc42u_ordinal4649 equ <__imp_mfc42u_ordinal4649>
+
+externdef __imp_mfc42u_ordinal464:PPROC
+mfc42u_ordinal464 equ <__imp_mfc42u_ordinal464>
+
+externdef __imp_mfc42u_ordinal4650:PPROC
+mfc42u_ordinal4650 equ <__imp_mfc42u_ordinal4650>
+
+externdef __imp_mfc42u_ordinal4651:PPROC
+mfc42u_ordinal4651 equ <__imp_mfc42u_ordinal4651>
+
+externdef __imp_mfc42u_ordinal4652:PPROC
+mfc42u_ordinal4652 equ <__imp_mfc42u_ordinal4652>
+
+externdef __imp_mfc42u_ordinal4653:PPROC
+mfc42u_ordinal4653 equ <__imp_mfc42u_ordinal4653>
+
+externdef __imp_mfc42u_ordinal4654:PPROC
+mfc42u_ordinal4654 equ <__imp_mfc42u_ordinal4654>
+
+externdef __imp_mfc42u_ordinal4655:PPROC
+mfc42u_ordinal4655 equ <__imp_mfc42u_ordinal4655>
+
+externdef __imp_mfc42u_ordinal4656:PPROC
+mfc42u_ordinal4656 equ <__imp_mfc42u_ordinal4656>
+
+externdef __imp_mfc42u_ordinal4657:PPROC
+mfc42u_ordinal4657 equ <__imp_mfc42u_ordinal4657>
+
+externdef __imp_mfc42u_ordinal4658:PPROC
+mfc42u_ordinal4658 equ <__imp_mfc42u_ordinal4658>
+
+externdef __imp_mfc42u_ordinal4659:PPROC
+mfc42u_ordinal4659 equ <__imp_mfc42u_ordinal4659>
+
+externdef __imp_mfc42u_ordinal465:PPROC
+mfc42u_ordinal465 equ <__imp_mfc42u_ordinal465>
+
+externdef __imp_mfc42u_ordinal4660:PPROC
+mfc42u_ordinal4660 equ <__imp_mfc42u_ordinal4660>
+
+externdef __imp_mfc42u_ordinal4661:PPROC
+mfc42u_ordinal4661 equ <__imp_mfc42u_ordinal4661>
+
+externdef __imp_mfc42u_ordinal4662:PPROC
+mfc42u_ordinal4662 equ <__imp_mfc42u_ordinal4662>
+
+externdef __imp_mfc42u_ordinal4663:PPROC
+mfc42u_ordinal4663 equ <__imp_mfc42u_ordinal4663>
+
+externdef __imp_mfc42u_ordinal4664:PPROC
+mfc42u_ordinal4664 equ <__imp_mfc42u_ordinal4664>
+
+externdef __imp_mfc42u_ordinal4665:PPROC
+mfc42u_ordinal4665 equ <__imp_mfc42u_ordinal4665>
+
+externdef __imp_mfc42u_ordinal4666:PPROC
+mfc42u_ordinal4666 equ <__imp_mfc42u_ordinal4666>
+
+externdef __imp_mfc42u_ordinal4667:PPROC
+mfc42u_ordinal4667 equ <__imp_mfc42u_ordinal4667>
+
+externdef __imp_mfc42u_ordinal4668:PPROC
+mfc42u_ordinal4668 equ <__imp_mfc42u_ordinal4668>
+
+externdef __imp_mfc42u_ordinal4669:PPROC
+mfc42u_ordinal4669 equ <__imp_mfc42u_ordinal4669>
+
+externdef __imp_mfc42u_ordinal466:PPROC
+mfc42u_ordinal466 equ <__imp_mfc42u_ordinal466>
+
+externdef __imp_mfc42u_ordinal4670:PPROC
+mfc42u_ordinal4670 equ <__imp_mfc42u_ordinal4670>
+
+externdef __imp_mfc42u_ordinal4671:PPROC
+mfc42u_ordinal4671 equ <__imp_mfc42u_ordinal4671>
+
+externdef __imp_mfc42u_ordinal4672:PPROC
+mfc42u_ordinal4672 equ <__imp_mfc42u_ordinal4672>
+
+externdef __imp_mfc42u_ordinal4673:PPROC
+mfc42u_ordinal4673 equ <__imp_mfc42u_ordinal4673>
+
+externdef __imp_mfc42u_ordinal4674:PPROC
+mfc42u_ordinal4674 equ <__imp_mfc42u_ordinal4674>
+
+externdef __imp_mfc42u_ordinal4675:PPROC
+mfc42u_ordinal4675 equ <__imp_mfc42u_ordinal4675>
+
+externdef __imp_mfc42u_ordinal4676:PPROC
+mfc42u_ordinal4676 equ <__imp_mfc42u_ordinal4676>
+
+externdef __imp_mfc42u_ordinal4677:PPROC
+mfc42u_ordinal4677 equ <__imp_mfc42u_ordinal4677>
+
+externdef __imp_mfc42u_ordinal4678:PPROC
+mfc42u_ordinal4678 equ <__imp_mfc42u_ordinal4678>
+
+externdef __imp_mfc42u_ordinal4679:PPROC
+mfc42u_ordinal4679 equ <__imp_mfc42u_ordinal4679>
+
+externdef __imp_mfc42u_ordinal467:PPROC
+mfc42u_ordinal467 equ <__imp_mfc42u_ordinal467>
+
+externdef __imp_mfc42u_ordinal4680:PPROC
+mfc42u_ordinal4680 equ <__imp_mfc42u_ordinal4680>
+
+externdef __imp_mfc42u_ordinal4681:PPROC
+mfc42u_ordinal4681 equ <__imp_mfc42u_ordinal4681>
+
+externdef __imp_mfc42u_ordinal4682:PPROC
+mfc42u_ordinal4682 equ <__imp_mfc42u_ordinal4682>
+
+externdef __imp_mfc42u_ordinal4683:PPROC
+mfc42u_ordinal4683 equ <__imp_mfc42u_ordinal4683>
+
+externdef __imp_mfc42u_ordinal4684:PPROC
+mfc42u_ordinal4684 equ <__imp_mfc42u_ordinal4684>
+
+externdef __imp_mfc42u_ordinal4685:PPROC
+mfc42u_ordinal4685 equ <__imp_mfc42u_ordinal4685>
+
+externdef __imp_mfc42u_ordinal4686:PPROC
+mfc42u_ordinal4686 equ <__imp_mfc42u_ordinal4686>
+
+externdef __imp_mfc42u_ordinal4687:PPROC
+mfc42u_ordinal4687 equ <__imp_mfc42u_ordinal4687>
+
+externdef __imp_mfc42u_ordinal4688:PPROC
+mfc42u_ordinal4688 equ <__imp_mfc42u_ordinal4688>
+
+externdef __imp_mfc42u_ordinal4689:PPROC
+mfc42u_ordinal4689 equ <__imp_mfc42u_ordinal4689>
+
+externdef __imp_mfc42u_ordinal468:PPROC
+mfc42u_ordinal468 equ <__imp_mfc42u_ordinal468>
+
+externdef __imp_mfc42u_ordinal4690:PPROC
+mfc42u_ordinal4690 equ <__imp_mfc42u_ordinal4690>
+
+externdef __imp_mfc42u_ordinal4691:PPROC
+mfc42u_ordinal4691 equ <__imp_mfc42u_ordinal4691>
+
+externdef __imp_mfc42u_ordinal4692:PPROC
+mfc42u_ordinal4692 equ <__imp_mfc42u_ordinal4692>
+
+externdef __imp_mfc42u_ordinal4693:PPROC
+mfc42u_ordinal4693 equ <__imp_mfc42u_ordinal4693>
+
+externdef __imp_mfc42u_ordinal4694:PPROC
+mfc42u_ordinal4694 equ <__imp_mfc42u_ordinal4694>
+
+externdef __imp_mfc42u_ordinal4695:PPROC
+mfc42u_ordinal4695 equ <__imp_mfc42u_ordinal4695>
+
+externdef __imp_mfc42u_ordinal4696:PPROC
+mfc42u_ordinal4696 equ <__imp_mfc42u_ordinal4696>
+
+externdef __imp_mfc42u_ordinal4697:PPROC
+mfc42u_ordinal4697 equ <__imp_mfc42u_ordinal4697>
+
+externdef __imp_mfc42u_ordinal4698:PPROC
+mfc42u_ordinal4698 equ <__imp_mfc42u_ordinal4698>
+
+externdef __imp_mfc42u_ordinal4699:PPROC
+mfc42u_ordinal4699 equ <__imp_mfc42u_ordinal4699>
+
+externdef __imp_mfc42u_ordinal469:PPROC
+mfc42u_ordinal469 equ <__imp_mfc42u_ordinal469>
+
+externdef __imp_mfc42u_ordinal46:PPROC
+mfc42u_ordinal46 equ <__imp_mfc42u_ordinal46>
+
+externdef __imp_mfc42u_ordinal4700:PPROC
+mfc42u_ordinal4700 equ <__imp_mfc42u_ordinal4700>
+
+externdef __imp_mfc42u_ordinal4701:PPROC
+mfc42u_ordinal4701 equ <__imp_mfc42u_ordinal4701>
+
+externdef __imp_mfc42u_ordinal4702:PPROC
+mfc42u_ordinal4702 equ <__imp_mfc42u_ordinal4702>
+
+externdef __imp_mfc42u_ordinal4703:PPROC
+mfc42u_ordinal4703 equ <__imp_mfc42u_ordinal4703>
+
+externdef __imp_mfc42u_ordinal4704:PPROC
+mfc42u_ordinal4704 equ <__imp_mfc42u_ordinal4704>
+
+externdef __imp_mfc42u_ordinal4705:PPROC
+mfc42u_ordinal4705 equ <__imp_mfc42u_ordinal4705>
+
+externdef __imp_mfc42u_ordinal4706:PPROC
+mfc42u_ordinal4706 equ <__imp_mfc42u_ordinal4706>
+
+externdef __imp_mfc42u_ordinal4707:PPROC
+mfc42u_ordinal4707 equ <__imp_mfc42u_ordinal4707>
+
+externdef __imp_mfc42u_ordinal4708:PPROC
+mfc42u_ordinal4708 equ <__imp_mfc42u_ordinal4708>
+
+externdef __imp_mfc42u_ordinal4709:PPROC
+mfc42u_ordinal4709 equ <__imp_mfc42u_ordinal4709>
+
+externdef __imp_mfc42u_ordinal470:PPROC
+mfc42u_ordinal470 equ <__imp_mfc42u_ordinal470>
+
+externdef __imp_mfc42u_ordinal4710:PPROC
+mfc42u_ordinal4710 equ <__imp_mfc42u_ordinal4710>
+
+externdef __imp_mfc42u_ordinal4711:PPROC
+mfc42u_ordinal4711 equ <__imp_mfc42u_ordinal4711>
+
+externdef __imp_mfc42u_ordinal4712:PPROC
+mfc42u_ordinal4712 equ <__imp_mfc42u_ordinal4712>
+
+externdef __imp_mfc42u_ordinal4713:PPROC
+mfc42u_ordinal4713 equ <__imp_mfc42u_ordinal4713>
+
+externdef __imp_mfc42u_ordinal4714:PPROC
+mfc42u_ordinal4714 equ <__imp_mfc42u_ordinal4714>
+
+externdef __imp_mfc42u_ordinal4715:PPROC
+mfc42u_ordinal4715 equ <__imp_mfc42u_ordinal4715>
+
+externdef __imp_mfc42u_ordinal4716:PPROC
+mfc42u_ordinal4716 equ <__imp_mfc42u_ordinal4716>
+
+externdef __imp_mfc42u_ordinal4717:PPROC
+mfc42u_ordinal4717 equ <__imp_mfc42u_ordinal4717>
+
+externdef __imp_mfc42u_ordinal4718:PPROC
+mfc42u_ordinal4718 equ <__imp_mfc42u_ordinal4718>
+
+externdef __imp_mfc42u_ordinal4719:PPROC
+mfc42u_ordinal4719 equ <__imp_mfc42u_ordinal4719>
+
+externdef __imp_mfc42u_ordinal471:PPROC
+mfc42u_ordinal471 equ <__imp_mfc42u_ordinal471>
+
+externdef __imp_mfc42u_ordinal4720:PPROC
+mfc42u_ordinal4720 equ <__imp_mfc42u_ordinal4720>
+
+externdef __imp_mfc42u_ordinal4721:PPROC
+mfc42u_ordinal4721 equ <__imp_mfc42u_ordinal4721>
+
+externdef __imp_mfc42u_ordinal4722:PPROC
+mfc42u_ordinal4722 equ <__imp_mfc42u_ordinal4722>
+
+externdef __imp_mfc42u_ordinal4723:PPROC
+mfc42u_ordinal4723 equ <__imp_mfc42u_ordinal4723>
+
+externdef __imp_mfc42u_ordinal4724:PPROC
+mfc42u_ordinal4724 equ <__imp_mfc42u_ordinal4724>
+
+externdef __imp_mfc42u_ordinal4725:PPROC
+mfc42u_ordinal4725 equ <__imp_mfc42u_ordinal4725>
+
+externdef __imp_mfc42u_ordinal4726:PPROC
+mfc42u_ordinal4726 equ <__imp_mfc42u_ordinal4726>
+
+externdef __imp_mfc42u_ordinal4727:PPROC
+mfc42u_ordinal4727 equ <__imp_mfc42u_ordinal4727>
+
+externdef __imp_mfc42u_ordinal4728:PPROC
+mfc42u_ordinal4728 equ <__imp_mfc42u_ordinal4728>
+
+externdef __imp_mfc42u_ordinal4729:PPROC
+mfc42u_ordinal4729 equ <__imp_mfc42u_ordinal4729>
+
+externdef __imp_mfc42u_ordinal472:PPROC
+mfc42u_ordinal472 equ <__imp_mfc42u_ordinal472>
+
+externdef __imp_mfc42u_ordinal4730:PPROC
+mfc42u_ordinal4730 equ <__imp_mfc42u_ordinal4730>
+
+externdef __imp_mfc42u_ordinal4731:PPROC
+mfc42u_ordinal4731 equ <__imp_mfc42u_ordinal4731>
+
+externdef __imp_mfc42u_ordinal4732:PPROC
+mfc42u_ordinal4732 equ <__imp_mfc42u_ordinal4732>
+
+externdef __imp_mfc42u_ordinal4733:PPROC
+mfc42u_ordinal4733 equ <__imp_mfc42u_ordinal4733>
+
+externdef __imp_mfc42u_ordinal4734:PPROC
+mfc42u_ordinal4734 equ <__imp_mfc42u_ordinal4734>
+
+externdef __imp_mfc42u_ordinal4735:PPROC
+mfc42u_ordinal4735 equ <__imp_mfc42u_ordinal4735>
+
+externdef __imp_mfc42u_ordinal4736:PPROC
+mfc42u_ordinal4736 equ <__imp_mfc42u_ordinal4736>
+
+externdef __imp_mfc42u_ordinal4737:PPROC
+mfc42u_ordinal4737 equ <__imp_mfc42u_ordinal4737>
+
+externdef __imp_mfc42u_ordinal4738:PPROC
+mfc42u_ordinal4738 equ <__imp_mfc42u_ordinal4738>
+
+externdef __imp_mfc42u_ordinal4739:PPROC
+mfc42u_ordinal4739 equ <__imp_mfc42u_ordinal4739>
+
+externdef __imp_mfc42u_ordinal473:PPROC
+mfc42u_ordinal473 equ <__imp_mfc42u_ordinal473>
+
+externdef __imp_mfc42u_ordinal4740:PPROC
+mfc42u_ordinal4740 equ <__imp_mfc42u_ordinal4740>
+
+externdef __imp_mfc42u_ordinal4741:PPROC
+mfc42u_ordinal4741 equ <__imp_mfc42u_ordinal4741>
+
+externdef __imp_mfc42u_ordinal4742:PPROC
+mfc42u_ordinal4742 equ <__imp_mfc42u_ordinal4742>
+
+externdef __imp_mfc42u_ordinal4743:PPROC
+mfc42u_ordinal4743 equ <__imp_mfc42u_ordinal4743>
+
+externdef __imp_mfc42u_ordinal4744:PPROC
+mfc42u_ordinal4744 equ <__imp_mfc42u_ordinal4744>
+
+externdef __imp_mfc42u_ordinal4745:PPROC
+mfc42u_ordinal4745 equ <__imp_mfc42u_ordinal4745>
+
+externdef __imp_mfc42u_ordinal4746:PPROC
+mfc42u_ordinal4746 equ <__imp_mfc42u_ordinal4746>
+
+externdef __imp_mfc42u_ordinal4747:PPROC
+mfc42u_ordinal4747 equ <__imp_mfc42u_ordinal4747>
+
+externdef __imp_mfc42u_ordinal4748:PPROC
+mfc42u_ordinal4748 equ <__imp_mfc42u_ordinal4748>
+
+externdef __imp_mfc42u_ordinal4749:PPROC
+mfc42u_ordinal4749 equ <__imp_mfc42u_ordinal4749>
+
+externdef __imp_mfc42u_ordinal474:PPROC
+mfc42u_ordinal474 equ <__imp_mfc42u_ordinal474>
+
+externdef __imp_mfc42u_ordinal4750:PPROC
+mfc42u_ordinal4750 equ <__imp_mfc42u_ordinal4750>
+
+externdef __imp_mfc42u_ordinal4751:PPROC
+mfc42u_ordinal4751 equ <__imp_mfc42u_ordinal4751>
+
+externdef __imp_mfc42u_ordinal4752:PPROC
+mfc42u_ordinal4752 equ <__imp_mfc42u_ordinal4752>
+
+externdef __imp_mfc42u_ordinal4753:PPROC
+mfc42u_ordinal4753 equ <__imp_mfc42u_ordinal4753>
+
+externdef __imp_mfc42u_ordinal4754:PPROC
+mfc42u_ordinal4754 equ <__imp_mfc42u_ordinal4754>
+
+externdef __imp_mfc42u_ordinal4755:PPROC
+mfc42u_ordinal4755 equ <__imp_mfc42u_ordinal4755>
+
+externdef __imp_mfc42u_ordinal4756:PPROC
+mfc42u_ordinal4756 equ <__imp_mfc42u_ordinal4756>
+
+externdef __imp_mfc42u_ordinal4757:PPROC
+mfc42u_ordinal4757 equ <__imp_mfc42u_ordinal4757>
+
+externdef __imp_mfc42u_ordinal4758:PPROC
+mfc42u_ordinal4758 equ <__imp_mfc42u_ordinal4758>
+
+externdef __imp_mfc42u_ordinal4759:PPROC
+mfc42u_ordinal4759 equ <__imp_mfc42u_ordinal4759>
+
+externdef __imp_mfc42u_ordinal475:PPROC
+mfc42u_ordinal475 equ <__imp_mfc42u_ordinal475>
+
+externdef __imp_mfc42u_ordinal4760:PPROC
+mfc42u_ordinal4760 equ <__imp_mfc42u_ordinal4760>
+
+externdef __imp_mfc42u_ordinal4761:PPROC
+mfc42u_ordinal4761 equ <__imp_mfc42u_ordinal4761>
+
+externdef __imp_mfc42u_ordinal4762:PPROC
+mfc42u_ordinal4762 equ <__imp_mfc42u_ordinal4762>
+
+externdef __imp_mfc42u_ordinal4763:PPROC
+mfc42u_ordinal4763 equ <__imp_mfc42u_ordinal4763>
+
+externdef __imp_mfc42u_ordinal4764:PPROC
+mfc42u_ordinal4764 equ <__imp_mfc42u_ordinal4764>
+
+externdef __imp_mfc42u_ordinal4765:PPROC
+mfc42u_ordinal4765 equ <__imp_mfc42u_ordinal4765>
+
+externdef __imp_mfc42u_ordinal4766:PPROC
+mfc42u_ordinal4766 equ <__imp_mfc42u_ordinal4766>
+
+externdef __imp_mfc42u_ordinal4767:PPROC
+mfc42u_ordinal4767 equ <__imp_mfc42u_ordinal4767>
+
+externdef __imp_mfc42u_ordinal4768:PPROC
+mfc42u_ordinal4768 equ <__imp_mfc42u_ordinal4768>
+
+externdef __imp_mfc42u_ordinal4769:PPROC
+mfc42u_ordinal4769 equ <__imp_mfc42u_ordinal4769>
+
+externdef __imp_mfc42u_ordinal476:PPROC
+mfc42u_ordinal476 equ <__imp_mfc42u_ordinal476>
+
+externdef __imp_mfc42u_ordinal4770:PPROC
+mfc42u_ordinal4770 equ <__imp_mfc42u_ordinal4770>
+
+externdef __imp_mfc42u_ordinal4771:PPROC
+mfc42u_ordinal4771 equ <__imp_mfc42u_ordinal4771>
+
+externdef __imp_mfc42u_ordinal4772:PPROC
+mfc42u_ordinal4772 equ <__imp_mfc42u_ordinal4772>
+
+externdef __imp_mfc42u_ordinal4773:PPROC
+mfc42u_ordinal4773 equ <__imp_mfc42u_ordinal4773>
+
+externdef __imp_mfc42u_ordinal4774:PPROC
+mfc42u_ordinal4774 equ <__imp_mfc42u_ordinal4774>
+
+externdef __imp_mfc42u_ordinal4775:PPROC
+mfc42u_ordinal4775 equ <__imp_mfc42u_ordinal4775>
+
+externdef __imp_mfc42u_ordinal4776:PPROC
+mfc42u_ordinal4776 equ <__imp_mfc42u_ordinal4776>
+
+externdef __imp_mfc42u_ordinal4777:PPROC
+mfc42u_ordinal4777 equ <__imp_mfc42u_ordinal4777>
+
+externdef __imp_mfc42u_ordinal4778:PPROC
+mfc42u_ordinal4778 equ <__imp_mfc42u_ordinal4778>
+
+externdef __imp_mfc42u_ordinal4779:PPROC
+mfc42u_ordinal4779 equ <__imp_mfc42u_ordinal4779>
+
+externdef __imp_mfc42u_ordinal477:PPROC
+mfc42u_ordinal477 equ <__imp_mfc42u_ordinal477>
+
+externdef __imp_mfc42u_ordinal4780:PPROC
+mfc42u_ordinal4780 equ <__imp_mfc42u_ordinal4780>
+
+externdef __imp_mfc42u_ordinal4781:PPROC
+mfc42u_ordinal4781 equ <__imp_mfc42u_ordinal4781>
+
+externdef __imp_mfc42u_ordinal4782:PPROC
+mfc42u_ordinal4782 equ <__imp_mfc42u_ordinal4782>
+
+externdef __imp_mfc42u_ordinal4783:PPROC
+mfc42u_ordinal4783 equ <__imp_mfc42u_ordinal4783>
+
+externdef __imp_mfc42u_ordinal4784:PPROC
+mfc42u_ordinal4784 equ <__imp_mfc42u_ordinal4784>
+
+externdef __imp_mfc42u_ordinal4785:PPROC
+mfc42u_ordinal4785 equ <__imp_mfc42u_ordinal4785>
+
+externdef __imp_mfc42u_ordinal4786:PPROC
+mfc42u_ordinal4786 equ <__imp_mfc42u_ordinal4786>
+
+externdef __imp_mfc42u_ordinal4787:PPROC
+mfc42u_ordinal4787 equ <__imp_mfc42u_ordinal4787>
+
+externdef __imp_mfc42u_ordinal4788:PPROC
+mfc42u_ordinal4788 equ <__imp_mfc42u_ordinal4788>
+
+externdef __imp_mfc42u_ordinal4789:PPROC
+mfc42u_ordinal4789 equ <__imp_mfc42u_ordinal4789>
+
+externdef __imp_mfc42u_ordinal478:PPROC
+mfc42u_ordinal478 equ <__imp_mfc42u_ordinal478>
+
+externdef __imp_mfc42u_ordinal4790:PPROC
+mfc42u_ordinal4790 equ <__imp_mfc42u_ordinal4790>
+
+externdef __imp_mfc42u_ordinal4791:PPROC
+mfc42u_ordinal4791 equ <__imp_mfc42u_ordinal4791>
+
+externdef __imp_mfc42u_ordinal4792:PPROC
+mfc42u_ordinal4792 equ <__imp_mfc42u_ordinal4792>
+
+externdef __imp_mfc42u_ordinal4793:PPROC
+mfc42u_ordinal4793 equ <__imp_mfc42u_ordinal4793>
+
+externdef __imp_mfc42u_ordinal4794:PPROC
+mfc42u_ordinal4794 equ <__imp_mfc42u_ordinal4794>
+
+externdef __imp_mfc42u_ordinal4795:PPROC
+mfc42u_ordinal4795 equ <__imp_mfc42u_ordinal4795>
+
+externdef __imp_mfc42u_ordinal4796:PPROC
+mfc42u_ordinal4796 equ <__imp_mfc42u_ordinal4796>
+
+externdef __imp_mfc42u_ordinal4797:PPROC
+mfc42u_ordinal4797 equ <__imp_mfc42u_ordinal4797>
+
+externdef __imp_mfc42u_ordinal4798:PPROC
+mfc42u_ordinal4798 equ <__imp_mfc42u_ordinal4798>
+
+externdef __imp_mfc42u_ordinal4799:PPROC
+mfc42u_ordinal4799 equ <__imp_mfc42u_ordinal4799>
+
+externdef __imp_mfc42u_ordinal479:PPROC
+mfc42u_ordinal479 equ <__imp_mfc42u_ordinal479>
+
+externdef __imp_mfc42u_ordinal47:PPROC
+mfc42u_ordinal47 equ <__imp_mfc42u_ordinal47>
+
+externdef __imp_mfc42u_ordinal4800:PPROC
+mfc42u_ordinal4800 equ <__imp_mfc42u_ordinal4800>
+
+externdef __imp_mfc42u_ordinal4801:PPROC
+mfc42u_ordinal4801 equ <__imp_mfc42u_ordinal4801>
+
+externdef __imp_mfc42u_ordinal4802:PPROC
+mfc42u_ordinal4802 equ <__imp_mfc42u_ordinal4802>
+
+externdef __imp_mfc42u_ordinal4803:PPROC
+mfc42u_ordinal4803 equ <__imp_mfc42u_ordinal4803>
+
+externdef __imp_mfc42u_ordinal4804:PPROC
+mfc42u_ordinal4804 equ <__imp_mfc42u_ordinal4804>
+
+externdef __imp_mfc42u_ordinal4805:PPROC
+mfc42u_ordinal4805 equ <__imp_mfc42u_ordinal4805>
+
+externdef __imp_mfc42u_ordinal4806:PPROC
+mfc42u_ordinal4806 equ <__imp_mfc42u_ordinal4806>
+
+externdef __imp_mfc42u_ordinal4807:PPROC
+mfc42u_ordinal4807 equ <__imp_mfc42u_ordinal4807>
+
+externdef __imp_mfc42u_ordinal4808:PPROC
+mfc42u_ordinal4808 equ <__imp_mfc42u_ordinal4808>
+
+externdef __imp_mfc42u_ordinal4809:PPROC
+mfc42u_ordinal4809 equ <__imp_mfc42u_ordinal4809>
+
+externdef __imp_mfc42u_ordinal480:PPROC
+mfc42u_ordinal480 equ <__imp_mfc42u_ordinal480>
+
+externdef __imp_mfc42u_ordinal4810:PPROC
+mfc42u_ordinal4810 equ <__imp_mfc42u_ordinal4810>
+
+externdef __imp_mfc42u_ordinal4811:PPROC
+mfc42u_ordinal4811 equ <__imp_mfc42u_ordinal4811>
+
+externdef __imp_mfc42u_ordinal4812:PPROC
+mfc42u_ordinal4812 equ <__imp_mfc42u_ordinal4812>
+
+externdef __imp_mfc42u_ordinal4813:PPROC
+mfc42u_ordinal4813 equ <__imp_mfc42u_ordinal4813>
+
+externdef __imp_mfc42u_ordinal4814:PPROC
+mfc42u_ordinal4814 equ <__imp_mfc42u_ordinal4814>
+
+externdef __imp_mfc42u_ordinal4815:PPROC
+mfc42u_ordinal4815 equ <__imp_mfc42u_ordinal4815>
+
+externdef __imp_mfc42u_ordinal4816:PPROC
+mfc42u_ordinal4816 equ <__imp_mfc42u_ordinal4816>
+
+externdef __imp_mfc42u_ordinal4817:PPROC
+mfc42u_ordinal4817 equ <__imp_mfc42u_ordinal4817>
+
+externdef __imp_mfc42u_ordinal4818:PPROC
+mfc42u_ordinal4818 equ <__imp_mfc42u_ordinal4818>
+
+externdef __imp_mfc42u_ordinal4819:PPROC
+mfc42u_ordinal4819 equ <__imp_mfc42u_ordinal4819>
+
+externdef __imp_mfc42u_ordinal481:PPROC
+mfc42u_ordinal481 equ <__imp_mfc42u_ordinal481>
+
+externdef __imp_mfc42u_ordinal4820:PPROC
+mfc42u_ordinal4820 equ <__imp_mfc42u_ordinal4820>
+
+externdef __imp_mfc42u_ordinal4821:PPROC
+mfc42u_ordinal4821 equ <__imp_mfc42u_ordinal4821>
+
+externdef __imp_mfc42u_ordinal4822:PPROC
+mfc42u_ordinal4822 equ <__imp_mfc42u_ordinal4822>
+
+externdef __imp_mfc42u_ordinal4823:PPROC
+mfc42u_ordinal4823 equ <__imp_mfc42u_ordinal4823>
+
+externdef __imp_mfc42u_ordinal4824:PPROC
+mfc42u_ordinal4824 equ <__imp_mfc42u_ordinal4824>
+
+externdef __imp_mfc42u_ordinal4825:PPROC
+mfc42u_ordinal4825 equ <__imp_mfc42u_ordinal4825>
+
+externdef __imp_mfc42u_ordinal4826:PPROC
+mfc42u_ordinal4826 equ <__imp_mfc42u_ordinal4826>
+
+externdef __imp_mfc42u_ordinal4827:PPROC
+mfc42u_ordinal4827 equ <__imp_mfc42u_ordinal4827>
+
+externdef __imp_mfc42u_ordinal4828:PPROC
+mfc42u_ordinal4828 equ <__imp_mfc42u_ordinal4828>
+
+externdef __imp_mfc42u_ordinal4829:PPROC
+mfc42u_ordinal4829 equ <__imp_mfc42u_ordinal4829>
+
+externdef __imp_mfc42u_ordinal482:PPROC
+mfc42u_ordinal482 equ <__imp_mfc42u_ordinal482>
+
+externdef __imp_mfc42u_ordinal4830:PPROC
+mfc42u_ordinal4830 equ <__imp_mfc42u_ordinal4830>
+
+externdef __imp_mfc42u_ordinal4831:PPROC
+mfc42u_ordinal4831 equ <__imp_mfc42u_ordinal4831>
+
+externdef __imp_mfc42u_ordinal4832:PPROC
+mfc42u_ordinal4832 equ <__imp_mfc42u_ordinal4832>
+
+externdef __imp_mfc42u_ordinal4833:PPROC
+mfc42u_ordinal4833 equ <__imp_mfc42u_ordinal4833>
+
+externdef __imp_mfc42u_ordinal4834:PPROC
+mfc42u_ordinal4834 equ <__imp_mfc42u_ordinal4834>
+
+externdef __imp_mfc42u_ordinal4835:PPROC
+mfc42u_ordinal4835 equ <__imp_mfc42u_ordinal4835>
+
+externdef __imp_mfc42u_ordinal4836:PPROC
+mfc42u_ordinal4836 equ <__imp_mfc42u_ordinal4836>
+
+externdef __imp_mfc42u_ordinal4837:PPROC
+mfc42u_ordinal4837 equ <__imp_mfc42u_ordinal4837>
+
+externdef __imp_mfc42u_ordinal4838:PPROC
+mfc42u_ordinal4838 equ <__imp_mfc42u_ordinal4838>
+
+externdef __imp_mfc42u_ordinal4839:PPROC
+mfc42u_ordinal4839 equ <__imp_mfc42u_ordinal4839>
+
+externdef __imp_mfc42u_ordinal483:PPROC
+mfc42u_ordinal483 equ <__imp_mfc42u_ordinal483>
+
+externdef __imp_mfc42u_ordinal4840:PPROC
+mfc42u_ordinal4840 equ <__imp_mfc42u_ordinal4840>
+
+externdef __imp_mfc42u_ordinal4841:PPROC
+mfc42u_ordinal4841 equ <__imp_mfc42u_ordinal4841>
+
+externdef __imp_mfc42u_ordinal4842:PPROC
+mfc42u_ordinal4842 equ <__imp_mfc42u_ordinal4842>
+
+externdef __imp_mfc42u_ordinal4843:PPROC
+mfc42u_ordinal4843 equ <__imp_mfc42u_ordinal4843>
+
+externdef __imp_mfc42u_ordinal4844:PPROC
+mfc42u_ordinal4844 equ <__imp_mfc42u_ordinal4844>
+
+externdef __imp_mfc42u_ordinal4845:PPROC
+mfc42u_ordinal4845 equ <__imp_mfc42u_ordinal4845>
+
+externdef __imp_mfc42u_ordinal4846:PPROC
+mfc42u_ordinal4846 equ <__imp_mfc42u_ordinal4846>
+
+externdef __imp_mfc42u_ordinal4847:PPROC
+mfc42u_ordinal4847 equ <__imp_mfc42u_ordinal4847>
+
+externdef __imp_mfc42u_ordinal4848:PPROC
+mfc42u_ordinal4848 equ <__imp_mfc42u_ordinal4848>
+
+externdef __imp_mfc42u_ordinal4849:PPROC
+mfc42u_ordinal4849 equ <__imp_mfc42u_ordinal4849>
+
+externdef __imp_mfc42u_ordinal484:PPROC
+mfc42u_ordinal484 equ <__imp_mfc42u_ordinal484>
+
+externdef __imp_mfc42u_ordinal4850:PPROC
+mfc42u_ordinal4850 equ <__imp_mfc42u_ordinal4850>
+
+externdef __imp_mfc42u_ordinal4851:PPROC
+mfc42u_ordinal4851 equ <__imp_mfc42u_ordinal4851>
+
+externdef __imp_mfc42u_ordinal4852:PPROC
+mfc42u_ordinal4852 equ <__imp_mfc42u_ordinal4852>
+
+externdef __imp_mfc42u_ordinal4853:PPROC
+mfc42u_ordinal4853 equ <__imp_mfc42u_ordinal4853>
+
+externdef __imp_mfc42u_ordinal4854:PPROC
+mfc42u_ordinal4854 equ <__imp_mfc42u_ordinal4854>
+
+externdef __imp_mfc42u_ordinal4855:PPROC
+mfc42u_ordinal4855 equ <__imp_mfc42u_ordinal4855>
+
+externdef __imp_mfc42u_ordinal4856:PPROC
+mfc42u_ordinal4856 equ <__imp_mfc42u_ordinal4856>
+
+externdef __imp_mfc42u_ordinal4857:PPROC
+mfc42u_ordinal4857 equ <__imp_mfc42u_ordinal4857>
+
+externdef __imp_mfc42u_ordinal4858:PPROC
+mfc42u_ordinal4858 equ <__imp_mfc42u_ordinal4858>
+
+externdef __imp_mfc42u_ordinal4859:PPROC
+mfc42u_ordinal4859 equ <__imp_mfc42u_ordinal4859>
+
+externdef __imp_mfc42u_ordinal485:PPROC
+mfc42u_ordinal485 equ <__imp_mfc42u_ordinal485>
+
+externdef __imp_mfc42u_ordinal4860:PPROC
+mfc42u_ordinal4860 equ <__imp_mfc42u_ordinal4860>
+
+externdef __imp_mfc42u_ordinal4861:PPROC
+mfc42u_ordinal4861 equ <__imp_mfc42u_ordinal4861>
+
+externdef __imp_mfc42u_ordinal4862:PPROC
+mfc42u_ordinal4862 equ <__imp_mfc42u_ordinal4862>
+
+externdef __imp_mfc42u_ordinal4863:PPROC
+mfc42u_ordinal4863 equ <__imp_mfc42u_ordinal4863>
+
+externdef __imp_mfc42u_ordinal4864:PPROC
+mfc42u_ordinal4864 equ <__imp_mfc42u_ordinal4864>
+
+externdef __imp_mfc42u_ordinal4865:PPROC
+mfc42u_ordinal4865 equ <__imp_mfc42u_ordinal4865>
+
+externdef __imp_mfc42u_ordinal4866:PPROC
+mfc42u_ordinal4866 equ <__imp_mfc42u_ordinal4866>
+
+externdef __imp_mfc42u_ordinal4867:PPROC
+mfc42u_ordinal4867 equ <__imp_mfc42u_ordinal4867>
+
+externdef __imp_mfc42u_ordinal4868:PPROC
+mfc42u_ordinal4868 equ <__imp_mfc42u_ordinal4868>
+
+externdef __imp_mfc42u_ordinal4869:PPROC
+mfc42u_ordinal4869 equ <__imp_mfc42u_ordinal4869>
+
+externdef __imp_mfc42u_ordinal486:PPROC
+mfc42u_ordinal486 equ <__imp_mfc42u_ordinal486>
+
+externdef __imp_mfc42u_ordinal4870:PPROC
+mfc42u_ordinal4870 equ <__imp_mfc42u_ordinal4870>
+
+externdef __imp_mfc42u_ordinal4871:PPROC
+mfc42u_ordinal4871 equ <__imp_mfc42u_ordinal4871>
+
+externdef __imp_mfc42u_ordinal4872:PPROC
+mfc42u_ordinal4872 equ <__imp_mfc42u_ordinal4872>
+
+externdef __imp_mfc42u_ordinal4873:PPROC
+mfc42u_ordinal4873 equ <__imp_mfc42u_ordinal4873>
+
+externdef __imp_mfc42u_ordinal4874:PPROC
+mfc42u_ordinal4874 equ <__imp_mfc42u_ordinal4874>
+
+externdef __imp_mfc42u_ordinal4875:PPROC
+mfc42u_ordinal4875 equ <__imp_mfc42u_ordinal4875>
+
+externdef __imp_mfc42u_ordinal4876:PPROC
+mfc42u_ordinal4876 equ <__imp_mfc42u_ordinal4876>
+
+externdef __imp_mfc42u_ordinal4877:PPROC
+mfc42u_ordinal4877 equ <__imp_mfc42u_ordinal4877>
+
+externdef __imp_mfc42u_ordinal4878:PPROC
+mfc42u_ordinal4878 equ <__imp_mfc42u_ordinal4878>
+
+externdef __imp_mfc42u_ordinal4879:PPROC
+mfc42u_ordinal4879 equ <__imp_mfc42u_ordinal4879>
+
+externdef __imp_mfc42u_ordinal487:PPROC
+mfc42u_ordinal487 equ <__imp_mfc42u_ordinal487>
+
+externdef __imp_mfc42u_ordinal4880:PPROC
+mfc42u_ordinal4880 equ <__imp_mfc42u_ordinal4880>
+
+externdef __imp_mfc42u_ordinal4881:PPROC
+mfc42u_ordinal4881 equ <__imp_mfc42u_ordinal4881>
+
+externdef __imp_mfc42u_ordinal4882:PPROC
+mfc42u_ordinal4882 equ <__imp_mfc42u_ordinal4882>
+
+externdef __imp_mfc42u_ordinal4883:PPROC
+mfc42u_ordinal4883 equ <__imp_mfc42u_ordinal4883>
+
+externdef __imp_mfc42u_ordinal4884:PPROC
+mfc42u_ordinal4884 equ <__imp_mfc42u_ordinal4884>
+
+externdef __imp_mfc42u_ordinal4885:PPROC
+mfc42u_ordinal4885 equ <__imp_mfc42u_ordinal4885>
+
+externdef __imp_mfc42u_ordinal4886:PPROC
+mfc42u_ordinal4886 equ <__imp_mfc42u_ordinal4886>
+
+externdef __imp_mfc42u_ordinal4887:PPROC
+mfc42u_ordinal4887 equ <__imp_mfc42u_ordinal4887>
+
+externdef __imp_mfc42u_ordinal4888:PPROC
+mfc42u_ordinal4888 equ <__imp_mfc42u_ordinal4888>
+
+externdef __imp_mfc42u_ordinal4889:PPROC
+mfc42u_ordinal4889 equ <__imp_mfc42u_ordinal4889>
+
+externdef __imp_mfc42u_ordinal488:PPROC
+mfc42u_ordinal488 equ <__imp_mfc42u_ordinal488>
+
+externdef __imp_mfc42u_ordinal4890:PPROC
+mfc42u_ordinal4890 equ <__imp_mfc42u_ordinal4890>
+
+externdef __imp_mfc42u_ordinal4891:PPROC
+mfc42u_ordinal4891 equ <__imp_mfc42u_ordinal4891>
+
+externdef __imp_mfc42u_ordinal4892:PPROC
+mfc42u_ordinal4892 equ <__imp_mfc42u_ordinal4892>
+
+externdef __imp_mfc42u_ordinal4893:PPROC
+mfc42u_ordinal4893 equ <__imp_mfc42u_ordinal4893>
+
+externdef __imp_mfc42u_ordinal4894:PPROC
+mfc42u_ordinal4894 equ <__imp_mfc42u_ordinal4894>
+
+externdef __imp_mfc42u_ordinal4895:PPROC
+mfc42u_ordinal4895 equ <__imp_mfc42u_ordinal4895>
+
+externdef __imp_mfc42u_ordinal4896:PPROC
+mfc42u_ordinal4896 equ <__imp_mfc42u_ordinal4896>
+
+externdef __imp_mfc42u_ordinal4897:PPROC
+mfc42u_ordinal4897 equ <__imp_mfc42u_ordinal4897>
+
+externdef __imp_mfc42u_ordinal4898:PPROC
+mfc42u_ordinal4898 equ <__imp_mfc42u_ordinal4898>
+
+externdef __imp_mfc42u_ordinal4899:PPROC
+mfc42u_ordinal4899 equ <__imp_mfc42u_ordinal4899>
+
+externdef __imp_mfc42u_ordinal489:PPROC
+mfc42u_ordinal489 equ <__imp_mfc42u_ordinal489>
+
+externdef __imp_mfc42u_ordinal48:PPROC
+mfc42u_ordinal48 equ <__imp_mfc42u_ordinal48>
+
+externdef __imp_mfc42u_ordinal4900:PPROC
+mfc42u_ordinal4900 equ <__imp_mfc42u_ordinal4900>
+
+externdef __imp_mfc42u_ordinal4901:PPROC
+mfc42u_ordinal4901 equ <__imp_mfc42u_ordinal4901>
+
+externdef __imp_mfc42u_ordinal4902:PPROC
+mfc42u_ordinal4902 equ <__imp_mfc42u_ordinal4902>
+
+externdef __imp_mfc42u_ordinal4903:PPROC
+mfc42u_ordinal4903 equ <__imp_mfc42u_ordinal4903>
+
+externdef __imp_mfc42u_ordinal4904:PPROC
+mfc42u_ordinal4904 equ <__imp_mfc42u_ordinal4904>
+
+externdef __imp_mfc42u_ordinal4905:PPROC
+mfc42u_ordinal4905 equ <__imp_mfc42u_ordinal4905>
+
+externdef __imp_mfc42u_ordinal4906:PPROC
+mfc42u_ordinal4906 equ <__imp_mfc42u_ordinal4906>
+
+externdef __imp_mfc42u_ordinal4907:PPROC
+mfc42u_ordinal4907 equ <__imp_mfc42u_ordinal4907>
+
+externdef __imp_mfc42u_ordinal4908:PPROC
+mfc42u_ordinal4908 equ <__imp_mfc42u_ordinal4908>
+
+externdef __imp_mfc42u_ordinal4909:PPROC
+mfc42u_ordinal4909 equ <__imp_mfc42u_ordinal4909>
+
+externdef __imp_mfc42u_ordinal490:PPROC
+mfc42u_ordinal490 equ <__imp_mfc42u_ordinal490>
+
+externdef __imp_mfc42u_ordinal4910:PPROC
+mfc42u_ordinal4910 equ <__imp_mfc42u_ordinal4910>
+
+externdef __imp_mfc42u_ordinal4911:PPROC
+mfc42u_ordinal4911 equ <__imp_mfc42u_ordinal4911>
+
+externdef __imp_mfc42u_ordinal4912:PPROC
+mfc42u_ordinal4912 equ <__imp_mfc42u_ordinal4912>
+
+externdef __imp_mfc42u_ordinal4913:PPROC
+mfc42u_ordinal4913 equ <__imp_mfc42u_ordinal4913>
+
+externdef __imp_mfc42u_ordinal4914:PPROC
+mfc42u_ordinal4914 equ <__imp_mfc42u_ordinal4914>
+
+externdef __imp_mfc42u_ordinal4915:PPROC
+mfc42u_ordinal4915 equ <__imp_mfc42u_ordinal4915>
+
+externdef __imp_mfc42u_ordinal4916:PPROC
+mfc42u_ordinal4916 equ <__imp_mfc42u_ordinal4916>
+
+externdef __imp_mfc42u_ordinal4917:PPROC
+mfc42u_ordinal4917 equ <__imp_mfc42u_ordinal4917>
+
+externdef __imp_mfc42u_ordinal4918:PPROC
+mfc42u_ordinal4918 equ <__imp_mfc42u_ordinal4918>
+
+externdef __imp_mfc42u_ordinal4919:PPROC
+mfc42u_ordinal4919 equ <__imp_mfc42u_ordinal4919>
+
+externdef __imp_mfc42u_ordinal491:PPROC
+mfc42u_ordinal491 equ <__imp_mfc42u_ordinal491>
+
+externdef __imp_mfc42u_ordinal4920:PPROC
+mfc42u_ordinal4920 equ <__imp_mfc42u_ordinal4920>
+
+externdef __imp_mfc42u_ordinal4921:PPROC
+mfc42u_ordinal4921 equ <__imp_mfc42u_ordinal4921>
+
+externdef __imp_mfc42u_ordinal4922:PPROC
+mfc42u_ordinal4922 equ <__imp_mfc42u_ordinal4922>
+
+externdef __imp_mfc42u_ordinal4923:PPROC
+mfc42u_ordinal4923 equ <__imp_mfc42u_ordinal4923>
+
+externdef __imp_mfc42u_ordinal4924:PPROC
+mfc42u_ordinal4924 equ <__imp_mfc42u_ordinal4924>
+
+externdef __imp_mfc42u_ordinal4925:PPROC
+mfc42u_ordinal4925 equ <__imp_mfc42u_ordinal4925>
+
+externdef __imp_mfc42u_ordinal4926:PPROC
+mfc42u_ordinal4926 equ <__imp_mfc42u_ordinal4926>
+
+externdef __imp_mfc42u_ordinal4927:PPROC
+mfc42u_ordinal4927 equ <__imp_mfc42u_ordinal4927>
+
+externdef __imp_mfc42u_ordinal4928:PPROC
+mfc42u_ordinal4928 equ <__imp_mfc42u_ordinal4928>
+
+externdef __imp_mfc42u_ordinal4929:PPROC
+mfc42u_ordinal4929 equ <__imp_mfc42u_ordinal4929>
+
+externdef __imp_mfc42u_ordinal492:PPROC
+mfc42u_ordinal492 equ <__imp_mfc42u_ordinal492>
+
+externdef __imp_mfc42u_ordinal4930:PPROC
+mfc42u_ordinal4930 equ <__imp_mfc42u_ordinal4930>
+
+externdef __imp_mfc42u_ordinal4931:PPROC
+mfc42u_ordinal4931 equ <__imp_mfc42u_ordinal4931>
+
+externdef __imp_mfc42u_ordinal4932:PPROC
+mfc42u_ordinal4932 equ <__imp_mfc42u_ordinal4932>
+
+externdef __imp_mfc42u_ordinal4933:PPROC
+mfc42u_ordinal4933 equ <__imp_mfc42u_ordinal4933>
+
+externdef __imp_mfc42u_ordinal4934:PPROC
+mfc42u_ordinal4934 equ <__imp_mfc42u_ordinal4934>
+
+externdef __imp_mfc42u_ordinal4935:PPROC
+mfc42u_ordinal4935 equ <__imp_mfc42u_ordinal4935>
+
+externdef __imp_mfc42u_ordinal4936:PPROC
+mfc42u_ordinal4936 equ <__imp_mfc42u_ordinal4936>
+
+externdef __imp_mfc42u_ordinal4937:PPROC
+mfc42u_ordinal4937 equ <__imp_mfc42u_ordinal4937>
+
+externdef __imp_mfc42u_ordinal4938:PPROC
+mfc42u_ordinal4938 equ <__imp_mfc42u_ordinal4938>
+
+externdef __imp_mfc42u_ordinal4939:PPROC
+mfc42u_ordinal4939 equ <__imp_mfc42u_ordinal4939>
+
+externdef __imp_mfc42u_ordinal493:PPROC
+mfc42u_ordinal493 equ <__imp_mfc42u_ordinal493>
+
+externdef __imp_mfc42u_ordinal4940:PPROC
+mfc42u_ordinal4940 equ <__imp_mfc42u_ordinal4940>
+
+externdef __imp_mfc42u_ordinal4941:PPROC
+mfc42u_ordinal4941 equ <__imp_mfc42u_ordinal4941>
+
+externdef __imp_mfc42u_ordinal4942:PPROC
+mfc42u_ordinal4942 equ <__imp_mfc42u_ordinal4942>
+
+externdef __imp_mfc42u_ordinal4943:PPROC
+mfc42u_ordinal4943 equ <__imp_mfc42u_ordinal4943>
+
+externdef __imp_mfc42u_ordinal4944:PPROC
+mfc42u_ordinal4944 equ <__imp_mfc42u_ordinal4944>
+
+externdef __imp_mfc42u_ordinal4945:PPROC
+mfc42u_ordinal4945 equ <__imp_mfc42u_ordinal4945>
+
+externdef __imp_mfc42u_ordinal4946:PPROC
+mfc42u_ordinal4946 equ <__imp_mfc42u_ordinal4946>
+
+externdef __imp_mfc42u_ordinal4947:PPROC
+mfc42u_ordinal4947 equ <__imp_mfc42u_ordinal4947>
+
+externdef __imp_mfc42u_ordinal4948:PPROC
+mfc42u_ordinal4948 equ <__imp_mfc42u_ordinal4948>
+
+externdef __imp_mfc42u_ordinal4949:PPROC
+mfc42u_ordinal4949 equ <__imp_mfc42u_ordinal4949>
+
+externdef __imp_mfc42u_ordinal494:PPROC
+mfc42u_ordinal494 equ <__imp_mfc42u_ordinal494>
+
+externdef __imp_mfc42u_ordinal4950:PPROC
+mfc42u_ordinal4950 equ <__imp_mfc42u_ordinal4950>
+
+externdef __imp_mfc42u_ordinal4951:PPROC
+mfc42u_ordinal4951 equ <__imp_mfc42u_ordinal4951>
+
+externdef __imp_mfc42u_ordinal4952:PPROC
+mfc42u_ordinal4952 equ <__imp_mfc42u_ordinal4952>
+
+externdef __imp_mfc42u_ordinal4953:PPROC
+mfc42u_ordinal4953 equ <__imp_mfc42u_ordinal4953>
+
+externdef __imp_mfc42u_ordinal4954:PPROC
+mfc42u_ordinal4954 equ <__imp_mfc42u_ordinal4954>
+
+externdef __imp_mfc42u_ordinal4955:PPROC
+mfc42u_ordinal4955 equ <__imp_mfc42u_ordinal4955>
+
+externdef __imp_mfc42u_ordinal4956:PPROC
+mfc42u_ordinal4956 equ <__imp_mfc42u_ordinal4956>
+
+externdef __imp_mfc42u_ordinal4957:PPROC
+mfc42u_ordinal4957 equ <__imp_mfc42u_ordinal4957>
+
+externdef __imp_mfc42u_ordinal4958:PPROC
+mfc42u_ordinal4958 equ <__imp_mfc42u_ordinal4958>
+
+externdef __imp_mfc42u_ordinal4959:PPROC
+mfc42u_ordinal4959 equ <__imp_mfc42u_ordinal4959>
+
+externdef __imp_mfc42u_ordinal495:PPROC
+mfc42u_ordinal495 equ <__imp_mfc42u_ordinal495>
+
+externdef __imp_mfc42u_ordinal4960:PPROC
+mfc42u_ordinal4960 equ <__imp_mfc42u_ordinal4960>
+
+externdef __imp_mfc42u_ordinal4961:PPROC
+mfc42u_ordinal4961 equ <__imp_mfc42u_ordinal4961>
+
+externdef __imp_mfc42u_ordinal4962:PPROC
+mfc42u_ordinal4962 equ <__imp_mfc42u_ordinal4962>
+
+externdef __imp_mfc42u_ordinal4963:PPROC
+mfc42u_ordinal4963 equ <__imp_mfc42u_ordinal4963>
+
+externdef __imp_mfc42u_ordinal4964:PPROC
+mfc42u_ordinal4964 equ <__imp_mfc42u_ordinal4964>
+
+externdef __imp_mfc42u_ordinal4965:PPROC
+mfc42u_ordinal4965 equ <__imp_mfc42u_ordinal4965>
+
+externdef __imp_mfc42u_ordinal4966:PPROC
+mfc42u_ordinal4966 equ <__imp_mfc42u_ordinal4966>
+
+externdef __imp_mfc42u_ordinal4967:PPROC
+mfc42u_ordinal4967 equ <__imp_mfc42u_ordinal4967>
+
+externdef __imp_mfc42u_ordinal4968:PPROC
+mfc42u_ordinal4968 equ <__imp_mfc42u_ordinal4968>
+
+externdef __imp_mfc42u_ordinal4969:PPROC
+mfc42u_ordinal4969 equ <__imp_mfc42u_ordinal4969>
+
+externdef __imp_mfc42u_ordinal496:PPROC
+mfc42u_ordinal496 equ <__imp_mfc42u_ordinal496>
+
+externdef __imp_mfc42u_ordinal4970:PPROC
+mfc42u_ordinal4970 equ <__imp_mfc42u_ordinal4970>
+
+externdef __imp_mfc42u_ordinal4971:PPROC
+mfc42u_ordinal4971 equ <__imp_mfc42u_ordinal4971>
+
+externdef __imp_mfc42u_ordinal4972:PPROC
+mfc42u_ordinal4972 equ <__imp_mfc42u_ordinal4972>
+
+externdef __imp_mfc42u_ordinal4973:PPROC
+mfc42u_ordinal4973 equ <__imp_mfc42u_ordinal4973>
+
+externdef __imp_mfc42u_ordinal4974:PPROC
+mfc42u_ordinal4974 equ <__imp_mfc42u_ordinal4974>
+
+externdef __imp_mfc42u_ordinal4975:PPROC
+mfc42u_ordinal4975 equ <__imp_mfc42u_ordinal4975>
+
+externdef __imp_mfc42u_ordinal4976:PPROC
+mfc42u_ordinal4976 equ <__imp_mfc42u_ordinal4976>
+
+externdef __imp_mfc42u_ordinal4977:PPROC
+mfc42u_ordinal4977 equ <__imp_mfc42u_ordinal4977>
+
+externdef __imp_mfc42u_ordinal4978:PPROC
+mfc42u_ordinal4978 equ <__imp_mfc42u_ordinal4978>
+
+externdef __imp_mfc42u_ordinal4979:PPROC
+mfc42u_ordinal4979 equ <__imp_mfc42u_ordinal4979>
+
+externdef __imp_mfc42u_ordinal497:PPROC
+mfc42u_ordinal497 equ <__imp_mfc42u_ordinal497>
+
+externdef __imp_mfc42u_ordinal4980:PPROC
+mfc42u_ordinal4980 equ <__imp_mfc42u_ordinal4980>
+
+externdef __imp_mfc42u_ordinal4981:PPROC
+mfc42u_ordinal4981 equ <__imp_mfc42u_ordinal4981>
+
+externdef __imp_mfc42u_ordinal4982:PPROC
+mfc42u_ordinal4982 equ <__imp_mfc42u_ordinal4982>
+
+externdef __imp_mfc42u_ordinal4983:PPROC
+mfc42u_ordinal4983 equ <__imp_mfc42u_ordinal4983>
+
+externdef __imp_mfc42u_ordinal4984:PPROC
+mfc42u_ordinal4984 equ <__imp_mfc42u_ordinal4984>
+
+externdef __imp_mfc42u_ordinal4985:PPROC
+mfc42u_ordinal4985 equ <__imp_mfc42u_ordinal4985>
+
+externdef __imp_mfc42u_ordinal4986:PPROC
+mfc42u_ordinal4986 equ <__imp_mfc42u_ordinal4986>
+
+externdef __imp_mfc42u_ordinal4987:PPROC
+mfc42u_ordinal4987 equ <__imp_mfc42u_ordinal4987>
+
+externdef __imp_mfc42u_ordinal4988:PPROC
+mfc42u_ordinal4988 equ <__imp_mfc42u_ordinal4988>
+
+externdef __imp_mfc42u_ordinal4989:PPROC
+mfc42u_ordinal4989 equ <__imp_mfc42u_ordinal4989>
+
+externdef __imp_mfc42u_ordinal498:PPROC
+mfc42u_ordinal498 equ <__imp_mfc42u_ordinal498>
+
+externdef __imp_mfc42u_ordinal4990:PPROC
+mfc42u_ordinal4990 equ <__imp_mfc42u_ordinal4990>
+
+externdef __imp_mfc42u_ordinal4991:PPROC
+mfc42u_ordinal4991 equ <__imp_mfc42u_ordinal4991>
+
+externdef __imp_mfc42u_ordinal4992:PPROC
+mfc42u_ordinal4992 equ <__imp_mfc42u_ordinal4992>
+
+externdef __imp_mfc42u_ordinal4993:PPROC
+mfc42u_ordinal4993 equ <__imp_mfc42u_ordinal4993>
+
+externdef __imp_mfc42u_ordinal4994:PPROC
+mfc42u_ordinal4994 equ <__imp_mfc42u_ordinal4994>
+
+externdef __imp_mfc42u_ordinal4995:PPROC
+mfc42u_ordinal4995 equ <__imp_mfc42u_ordinal4995>
+
+externdef __imp_mfc42u_ordinal4996:PPROC
+mfc42u_ordinal4996 equ <__imp_mfc42u_ordinal4996>
+
+externdef __imp_mfc42u_ordinal4997:PPROC
+mfc42u_ordinal4997 equ <__imp_mfc42u_ordinal4997>
+
+externdef __imp_mfc42u_ordinal4998:PPROC
+mfc42u_ordinal4998 equ <__imp_mfc42u_ordinal4998>
+
+externdef __imp_mfc42u_ordinal4999:PPROC
+mfc42u_ordinal4999 equ <__imp_mfc42u_ordinal4999>
+
+externdef __imp_mfc42u_ordinal499:PPROC
+mfc42u_ordinal499 equ <__imp_mfc42u_ordinal499>
+
+externdef __imp_mfc42u_ordinal49:PPROC
+mfc42u_ordinal49 equ <__imp_mfc42u_ordinal49>
+
+externdef __imp_mfc42u_ordinal5000:PPROC
+mfc42u_ordinal5000 equ <__imp_mfc42u_ordinal5000>
+
+externdef __imp_mfc42u_ordinal5001:PPROC
+mfc42u_ordinal5001 equ <__imp_mfc42u_ordinal5001>
+
+externdef __imp_mfc42u_ordinal5002:PPROC
+mfc42u_ordinal5002 equ <__imp_mfc42u_ordinal5002>
+
+externdef __imp_mfc42u_ordinal5003:PPROC
+mfc42u_ordinal5003 equ <__imp_mfc42u_ordinal5003>
+
+externdef __imp_mfc42u_ordinal5004:PPROC
+mfc42u_ordinal5004 equ <__imp_mfc42u_ordinal5004>
+
+externdef __imp_mfc42u_ordinal5005:PPROC
+mfc42u_ordinal5005 equ <__imp_mfc42u_ordinal5005>
+
+externdef __imp_mfc42u_ordinal5006:PPROC
+mfc42u_ordinal5006 equ <__imp_mfc42u_ordinal5006>
+
+externdef __imp_mfc42u_ordinal5007:PPROC
+mfc42u_ordinal5007 equ <__imp_mfc42u_ordinal5007>
+
+externdef __imp_mfc42u_ordinal5008:PPROC
+mfc42u_ordinal5008 equ <__imp_mfc42u_ordinal5008>
+
+externdef __imp_mfc42u_ordinal5009:PPROC
+mfc42u_ordinal5009 equ <__imp_mfc42u_ordinal5009>
+
+externdef __imp_mfc42u_ordinal500:PPROC
+mfc42u_ordinal500 equ <__imp_mfc42u_ordinal500>
+
+externdef __imp_mfc42u_ordinal5010:PPROC
+mfc42u_ordinal5010 equ <__imp_mfc42u_ordinal5010>
+
+externdef __imp_mfc42u_ordinal5011:PPROC
+mfc42u_ordinal5011 equ <__imp_mfc42u_ordinal5011>
+
+externdef __imp_mfc42u_ordinal5012:PPROC
+mfc42u_ordinal5012 equ <__imp_mfc42u_ordinal5012>
+
+externdef __imp_mfc42u_ordinal5013:PPROC
+mfc42u_ordinal5013 equ <__imp_mfc42u_ordinal5013>
+
+externdef __imp_mfc42u_ordinal5014:PPROC
+mfc42u_ordinal5014 equ <__imp_mfc42u_ordinal5014>
+
+externdef __imp_mfc42u_ordinal5015:PPROC
+mfc42u_ordinal5015 equ <__imp_mfc42u_ordinal5015>
+
+externdef __imp_mfc42u_ordinal5016:PPROC
+mfc42u_ordinal5016 equ <__imp_mfc42u_ordinal5016>
+
+externdef __imp_mfc42u_ordinal5017:PPROC
+mfc42u_ordinal5017 equ <__imp_mfc42u_ordinal5017>
+
+externdef __imp_mfc42u_ordinal5018:PPROC
+mfc42u_ordinal5018 equ <__imp_mfc42u_ordinal5018>
+
+externdef __imp_mfc42u_ordinal5019:PPROC
+mfc42u_ordinal5019 equ <__imp_mfc42u_ordinal5019>
+
+externdef __imp_mfc42u_ordinal501:PPROC
+mfc42u_ordinal501 equ <__imp_mfc42u_ordinal501>
+
+externdef __imp_mfc42u_ordinal5020:PPROC
+mfc42u_ordinal5020 equ <__imp_mfc42u_ordinal5020>
+
+externdef __imp_mfc42u_ordinal5021:PPROC
+mfc42u_ordinal5021 equ <__imp_mfc42u_ordinal5021>
+
+externdef __imp_mfc42u_ordinal5022:PPROC
+mfc42u_ordinal5022 equ <__imp_mfc42u_ordinal5022>
+
+externdef __imp_mfc42u_ordinal5023:PPROC
+mfc42u_ordinal5023 equ <__imp_mfc42u_ordinal5023>
+
+externdef __imp_mfc42u_ordinal5024:PPROC
+mfc42u_ordinal5024 equ <__imp_mfc42u_ordinal5024>
+
+externdef __imp_mfc42u_ordinal5025:PPROC
+mfc42u_ordinal5025 equ <__imp_mfc42u_ordinal5025>
+
+externdef __imp_mfc42u_ordinal5026:PPROC
+mfc42u_ordinal5026 equ <__imp_mfc42u_ordinal5026>
+
+externdef __imp_mfc42u_ordinal5027:PPROC
+mfc42u_ordinal5027 equ <__imp_mfc42u_ordinal5027>
+
+externdef __imp_mfc42u_ordinal5028:PPROC
+mfc42u_ordinal5028 equ <__imp_mfc42u_ordinal5028>
+
+externdef __imp_mfc42u_ordinal5029:PPROC
+mfc42u_ordinal5029 equ <__imp_mfc42u_ordinal5029>
+
+externdef __imp_mfc42u_ordinal502:PPROC
+mfc42u_ordinal502 equ <__imp_mfc42u_ordinal502>
+
+externdef __imp_mfc42u_ordinal5030:PPROC
+mfc42u_ordinal5030 equ <__imp_mfc42u_ordinal5030>
+
+externdef __imp_mfc42u_ordinal5031:PPROC
+mfc42u_ordinal5031 equ <__imp_mfc42u_ordinal5031>
+
+externdef __imp_mfc42u_ordinal5032:PPROC
+mfc42u_ordinal5032 equ <__imp_mfc42u_ordinal5032>
+
+externdef __imp_mfc42u_ordinal5033:PPROC
+mfc42u_ordinal5033 equ <__imp_mfc42u_ordinal5033>
+
+externdef __imp_mfc42u_ordinal5034:PPROC
+mfc42u_ordinal5034 equ <__imp_mfc42u_ordinal5034>
+
+externdef __imp_mfc42u_ordinal5035:PPROC
+mfc42u_ordinal5035 equ <__imp_mfc42u_ordinal5035>
+
+externdef __imp_mfc42u_ordinal5036:PPROC
+mfc42u_ordinal5036 equ <__imp_mfc42u_ordinal5036>
+
+externdef __imp_mfc42u_ordinal5037:PPROC
+mfc42u_ordinal5037 equ <__imp_mfc42u_ordinal5037>
+
+externdef __imp_mfc42u_ordinal5038:PPROC
+mfc42u_ordinal5038 equ <__imp_mfc42u_ordinal5038>
+
+externdef __imp_mfc42u_ordinal5039:PPROC
+mfc42u_ordinal5039 equ <__imp_mfc42u_ordinal5039>
+
+externdef __imp_mfc42u_ordinal503:PPROC
+mfc42u_ordinal503 equ <__imp_mfc42u_ordinal503>
+
+externdef __imp_mfc42u_ordinal5040:PPROC
+mfc42u_ordinal5040 equ <__imp_mfc42u_ordinal5040>
+
+externdef __imp_mfc42u_ordinal5041:PPROC
+mfc42u_ordinal5041 equ <__imp_mfc42u_ordinal5041>
+
+externdef __imp_mfc42u_ordinal5042:PPROC
+mfc42u_ordinal5042 equ <__imp_mfc42u_ordinal5042>
+
+externdef __imp_mfc42u_ordinal5043:PPROC
+mfc42u_ordinal5043 equ <__imp_mfc42u_ordinal5043>
+
+externdef __imp_mfc42u_ordinal5044:PPROC
+mfc42u_ordinal5044 equ <__imp_mfc42u_ordinal5044>
+
+externdef __imp_mfc42u_ordinal5045:PPROC
+mfc42u_ordinal5045 equ <__imp_mfc42u_ordinal5045>
+
+externdef __imp_mfc42u_ordinal5046:PPROC
+mfc42u_ordinal5046 equ <__imp_mfc42u_ordinal5046>
+
+externdef __imp_mfc42u_ordinal5047:PPROC
+mfc42u_ordinal5047 equ <__imp_mfc42u_ordinal5047>
+
+externdef __imp_mfc42u_ordinal5048:PPROC
+mfc42u_ordinal5048 equ <__imp_mfc42u_ordinal5048>
+
+externdef __imp_mfc42u_ordinal5049:PPROC
+mfc42u_ordinal5049 equ <__imp_mfc42u_ordinal5049>
+
+externdef __imp_mfc42u_ordinal504:PPROC
+mfc42u_ordinal504 equ <__imp_mfc42u_ordinal504>
+
+externdef __imp_mfc42u_ordinal5050:PPROC
+mfc42u_ordinal5050 equ <__imp_mfc42u_ordinal5050>
+
+externdef __imp_mfc42u_ordinal5051:PPROC
+mfc42u_ordinal5051 equ <__imp_mfc42u_ordinal5051>
+
+externdef __imp_mfc42u_ordinal5052:PPROC
+mfc42u_ordinal5052 equ <__imp_mfc42u_ordinal5052>
+
+externdef __imp_mfc42u_ordinal5053:PPROC
+mfc42u_ordinal5053 equ <__imp_mfc42u_ordinal5053>
+
+externdef __imp_mfc42u_ordinal5054:PPROC
+mfc42u_ordinal5054 equ <__imp_mfc42u_ordinal5054>
+
+externdef __imp_mfc42u_ordinal5055:PPROC
+mfc42u_ordinal5055 equ <__imp_mfc42u_ordinal5055>
+
+externdef __imp_mfc42u_ordinal5056:PPROC
+mfc42u_ordinal5056 equ <__imp_mfc42u_ordinal5056>
+
+externdef __imp_mfc42u_ordinal5057:PPROC
+mfc42u_ordinal5057 equ <__imp_mfc42u_ordinal5057>
+
+externdef __imp_mfc42u_ordinal5058:PPROC
+mfc42u_ordinal5058 equ <__imp_mfc42u_ordinal5058>
+
+externdef __imp_mfc42u_ordinal5059:PPROC
+mfc42u_ordinal5059 equ <__imp_mfc42u_ordinal5059>
+
+externdef __imp_mfc42u_ordinal505:PPROC
+mfc42u_ordinal505 equ <__imp_mfc42u_ordinal505>
+
+externdef __imp_mfc42u_ordinal5060:PPROC
+mfc42u_ordinal5060 equ <__imp_mfc42u_ordinal5060>
+
+externdef __imp_mfc42u_ordinal5061:PPROC
+mfc42u_ordinal5061 equ <__imp_mfc42u_ordinal5061>
+
+externdef __imp_mfc42u_ordinal5062:PPROC
+mfc42u_ordinal5062 equ <__imp_mfc42u_ordinal5062>
+
+externdef __imp_mfc42u_ordinal5063:PPROC
+mfc42u_ordinal5063 equ <__imp_mfc42u_ordinal5063>
+
+externdef __imp_mfc42u_ordinal5064:PPROC
+mfc42u_ordinal5064 equ <__imp_mfc42u_ordinal5064>
+
+externdef __imp_mfc42u_ordinal5065:PPROC
+mfc42u_ordinal5065 equ <__imp_mfc42u_ordinal5065>
+
+externdef __imp_mfc42u_ordinal5066:PPROC
+mfc42u_ordinal5066 equ <__imp_mfc42u_ordinal5066>
+
+externdef __imp_mfc42u_ordinal5067:PPROC
+mfc42u_ordinal5067 equ <__imp_mfc42u_ordinal5067>
+
+externdef __imp_mfc42u_ordinal5068:PPROC
+mfc42u_ordinal5068 equ <__imp_mfc42u_ordinal5068>
+
+externdef __imp_mfc42u_ordinal5069:PPROC
+mfc42u_ordinal5069 equ <__imp_mfc42u_ordinal5069>
+
+externdef __imp_mfc42u_ordinal506:PPROC
+mfc42u_ordinal506 equ <__imp_mfc42u_ordinal506>
+
+externdef __imp_mfc42u_ordinal5070:PPROC
+mfc42u_ordinal5070 equ <__imp_mfc42u_ordinal5070>
+
+externdef __imp_mfc42u_ordinal5071:PPROC
+mfc42u_ordinal5071 equ <__imp_mfc42u_ordinal5071>
+
+externdef __imp_mfc42u_ordinal5072:PPROC
+mfc42u_ordinal5072 equ <__imp_mfc42u_ordinal5072>
+
+externdef __imp_mfc42u_ordinal5073:PPROC
+mfc42u_ordinal5073 equ <__imp_mfc42u_ordinal5073>
+
+externdef __imp_mfc42u_ordinal5074:PPROC
+mfc42u_ordinal5074 equ <__imp_mfc42u_ordinal5074>
+
+externdef __imp_mfc42u_ordinal5075:PPROC
+mfc42u_ordinal5075 equ <__imp_mfc42u_ordinal5075>
+
+externdef __imp_mfc42u_ordinal5076:PPROC
+mfc42u_ordinal5076 equ <__imp_mfc42u_ordinal5076>
+
+externdef __imp_mfc42u_ordinal5077:PPROC
+mfc42u_ordinal5077 equ <__imp_mfc42u_ordinal5077>
+
+externdef __imp_mfc42u_ordinal5078:PPROC
+mfc42u_ordinal5078 equ <__imp_mfc42u_ordinal5078>
+
+externdef __imp_mfc42u_ordinal5079:PPROC
+mfc42u_ordinal5079 equ <__imp_mfc42u_ordinal5079>
+
+externdef __imp_mfc42u_ordinal507:PPROC
+mfc42u_ordinal507 equ <__imp_mfc42u_ordinal507>
+
+externdef __imp_mfc42u_ordinal5080:PPROC
+mfc42u_ordinal5080 equ <__imp_mfc42u_ordinal5080>
+
+externdef __imp_mfc42u_ordinal5081:PPROC
+mfc42u_ordinal5081 equ <__imp_mfc42u_ordinal5081>
+
+externdef __imp_mfc42u_ordinal5082:PPROC
+mfc42u_ordinal5082 equ <__imp_mfc42u_ordinal5082>
+
+externdef __imp_mfc42u_ordinal5083:PPROC
+mfc42u_ordinal5083 equ <__imp_mfc42u_ordinal5083>
+
+externdef __imp_mfc42u_ordinal5084:PPROC
+mfc42u_ordinal5084 equ <__imp_mfc42u_ordinal5084>
+
+externdef __imp_mfc42u_ordinal5085:PPROC
+mfc42u_ordinal5085 equ <__imp_mfc42u_ordinal5085>
+
+externdef __imp_mfc42u_ordinal5086:PPROC
+mfc42u_ordinal5086 equ <__imp_mfc42u_ordinal5086>
+
+externdef __imp_mfc42u_ordinal5087:PPROC
+mfc42u_ordinal5087 equ <__imp_mfc42u_ordinal5087>
+
+externdef __imp_mfc42u_ordinal5088:PPROC
+mfc42u_ordinal5088 equ <__imp_mfc42u_ordinal5088>
+
+externdef __imp_mfc42u_ordinal5089:PPROC
+mfc42u_ordinal5089 equ <__imp_mfc42u_ordinal5089>
+
+externdef __imp_mfc42u_ordinal508:PPROC
+mfc42u_ordinal508 equ <__imp_mfc42u_ordinal508>
+
+externdef __imp_mfc42u_ordinal5090:PPROC
+mfc42u_ordinal5090 equ <__imp_mfc42u_ordinal5090>
+
+externdef __imp_mfc42u_ordinal5091:PPROC
+mfc42u_ordinal5091 equ <__imp_mfc42u_ordinal5091>
+
+externdef __imp_mfc42u_ordinal5092:PPROC
+mfc42u_ordinal5092 equ <__imp_mfc42u_ordinal5092>
+
+externdef __imp_mfc42u_ordinal5093:PPROC
+mfc42u_ordinal5093 equ <__imp_mfc42u_ordinal5093>
+
+externdef __imp_mfc42u_ordinal5094:PPROC
+mfc42u_ordinal5094 equ <__imp_mfc42u_ordinal5094>
+
+externdef __imp_mfc42u_ordinal5095:PPROC
+mfc42u_ordinal5095 equ <__imp_mfc42u_ordinal5095>
+
+externdef __imp_mfc42u_ordinal5096:PPROC
+mfc42u_ordinal5096 equ <__imp_mfc42u_ordinal5096>
+
+externdef __imp_mfc42u_ordinal5097:PPROC
+mfc42u_ordinal5097 equ <__imp_mfc42u_ordinal5097>
+
+externdef __imp_mfc42u_ordinal5098:PPROC
+mfc42u_ordinal5098 equ <__imp_mfc42u_ordinal5098>
+
+externdef __imp_mfc42u_ordinal5099:PPROC
+mfc42u_ordinal5099 equ <__imp_mfc42u_ordinal5099>
+
+externdef __imp_mfc42u_ordinal509:PPROC
+mfc42u_ordinal509 equ <__imp_mfc42u_ordinal509>
+
+externdef __imp_mfc42u_ordinal50:PPROC
+mfc42u_ordinal50 equ <__imp_mfc42u_ordinal50>
+
+externdef __imp_mfc42u_ordinal5100:PPROC
+mfc42u_ordinal5100 equ <__imp_mfc42u_ordinal5100>
+
+externdef __imp_mfc42u_ordinal5101:PPROC
+mfc42u_ordinal5101 equ <__imp_mfc42u_ordinal5101>
+
+externdef __imp_mfc42u_ordinal5102:PPROC
+mfc42u_ordinal5102 equ <__imp_mfc42u_ordinal5102>
+
+externdef __imp_mfc42u_ordinal5103:PPROC
+mfc42u_ordinal5103 equ <__imp_mfc42u_ordinal5103>
+
+externdef __imp_mfc42u_ordinal5104:PPROC
+mfc42u_ordinal5104 equ <__imp_mfc42u_ordinal5104>
+
+externdef __imp_mfc42u_ordinal5105:PPROC
+mfc42u_ordinal5105 equ <__imp_mfc42u_ordinal5105>
+
+externdef __imp_mfc42u_ordinal5106:PPROC
+mfc42u_ordinal5106 equ <__imp_mfc42u_ordinal5106>
+
+externdef __imp_mfc42u_ordinal5107:PPROC
+mfc42u_ordinal5107 equ <__imp_mfc42u_ordinal5107>
+
+externdef __imp_mfc42u_ordinal5108:PPROC
+mfc42u_ordinal5108 equ <__imp_mfc42u_ordinal5108>
+
+externdef __imp_mfc42u_ordinal5109:PPROC
+mfc42u_ordinal5109 equ <__imp_mfc42u_ordinal5109>
+
+externdef __imp_mfc42u_ordinal510:PPROC
+mfc42u_ordinal510 equ <__imp_mfc42u_ordinal510>
+
+externdef __imp_mfc42u_ordinal5110:PPROC
+mfc42u_ordinal5110 equ <__imp_mfc42u_ordinal5110>
+
+externdef __imp_mfc42u_ordinal5111:PPROC
+mfc42u_ordinal5111 equ <__imp_mfc42u_ordinal5111>
+
+externdef __imp_mfc42u_ordinal5112:PPROC
+mfc42u_ordinal5112 equ <__imp_mfc42u_ordinal5112>
+
+externdef __imp_mfc42u_ordinal5113:PPROC
+mfc42u_ordinal5113 equ <__imp_mfc42u_ordinal5113>
+
+externdef __imp_mfc42u_ordinal5114:PPROC
+mfc42u_ordinal5114 equ <__imp_mfc42u_ordinal5114>
+
+externdef __imp_mfc42u_ordinal5115:PPROC
+mfc42u_ordinal5115 equ <__imp_mfc42u_ordinal5115>
+
+externdef __imp_mfc42u_ordinal5116:PPROC
+mfc42u_ordinal5116 equ <__imp_mfc42u_ordinal5116>
+
+externdef __imp_mfc42u_ordinal5117:PPROC
+mfc42u_ordinal5117 equ <__imp_mfc42u_ordinal5117>
+
+externdef __imp_mfc42u_ordinal5118:PPROC
+mfc42u_ordinal5118 equ <__imp_mfc42u_ordinal5118>
+
+externdef __imp_mfc42u_ordinal5119:PPROC
+mfc42u_ordinal5119 equ <__imp_mfc42u_ordinal5119>
+
+externdef __imp_mfc42u_ordinal511:PPROC
+mfc42u_ordinal511 equ <__imp_mfc42u_ordinal511>
+
+externdef __imp_mfc42u_ordinal5120:PPROC
+mfc42u_ordinal5120 equ <__imp_mfc42u_ordinal5120>
+
+externdef __imp_mfc42u_ordinal5121:PPROC
+mfc42u_ordinal5121 equ <__imp_mfc42u_ordinal5121>
+
+externdef __imp_mfc42u_ordinal5122:PPROC
+mfc42u_ordinal5122 equ <__imp_mfc42u_ordinal5122>
+
+externdef __imp_mfc42u_ordinal5123:PPROC
+mfc42u_ordinal5123 equ <__imp_mfc42u_ordinal5123>
+
+externdef __imp_mfc42u_ordinal5124:PPROC
+mfc42u_ordinal5124 equ <__imp_mfc42u_ordinal5124>
+
+externdef __imp_mfc42u_ordinal5125:PPROC
+mfc42u_ordinal5125 equ <__imp_mfc42u_ordinal5125>
+
+externdef __imp_mfc42u_ordinal5126:PPROC
+mfc42u_ordinal5126 equ <__imp_mfc42u_ordinal5126>
+
+externdef __imp_mfc42u_ordinal5127:PPROC
+mfc42u_ordinal5127 equ <__imp_mfc42u_ordinal5127>
+
+externdef __imp_mfc42u_ordinal5128:PPROC
+mfc42u_ordinal5128 equ <__imp_mfc42u_ordinal5128>
+
+externdef __imp_mfc42u_ordinal5129:PPROC
+mfc42u_ordinal5129 equ <__imp_mfc42u_ordinal5129>
+
+externdef __imp_mfc42u_ordinal512:PPROC
+mfc42u_ordinal512 equ <__imp_mfc42u_ordinal512>
+
+externdef __imp_mfc42u_ordinal5130:PPROC
+mfc42u_ordinal5130 equ <__imp_mfc42u_ordinal5130>
+
+externdef __imp_mfc42u_ordinal5131:PPROC
+mfc42u_ordinal5131 equ <__imp_mfc42u_ordinal5131>
+
+externdef __imp_mfc42u_ordinal5132:PPROC
+mfc42u_ordinal5132 equ <__imp_mfc42u_ordinal5132>
+
+externdef __imp_mfc42u_ordinal5133:PPROC
+mfc42u_ordinal5133 equ <__imp_mfc42u_ordinal5133>
+
+externdef __imp_mfc42u_ordinal5134:PPROC
+mfc42u_ordinal5134 equ <__imp_mfc42u_ordinal5134>
+
+externdef __imp_mfc42u_ordinal5135:PPROC
+mfc42u_ordinal5135 equ <__imp_mfc42u_ordinal5135>
+
+externdef __imp_mfc42u_ordinal5136:PPROC
+mfc42u_ordinal5136 equ <__imp_mfc42u_ordinal5136>
+
+externdef __imp_mfc42u_ordinal5137:PPROC
+mfc42u_ordinal5137 equ <__imp_mfc42u_ordinal5137>
+
+externdef __imp_mfc42u_ordinal5138:PPROC
+mfc42u_ordinal5138 equ <__imp_mfc42u_ordinal5138>
+
+externdef __imp_mfc42u_ordinal5139:PPROC
+mfc42u_ordinal5139 equ <__imp_mfc42u_ordinal5139>
+
+externdef __imp_mfc42u_ordinal513:PPROC
+mfc42u_ordinal513 equ <__imp_mfc42u_ordinal513>
+
+externdef __imp_mfc42u_ordinal5140:PPROC
+mfc42u_ordinal5140 equ <__imp_mfc42u_ordinal5140>
+
+externdef __imp_mfc42u_ordinal5141:PPROC
+mfc42u_ordinal5141 equ <__imp_mfc42u_ordinal5141>
+
+externdef __imp_mfc42u_ordinal5142:PPROC
+mfc42u_ordinal5142 equ <__imp_mfc42u_ordinal5142>
+
+externdef __imp_mfc42u_ordinal5143:PPROC
+mfc42u_ordinal5143 equ <__imp_mfc42u_ordinal5143>
+
+externdef __imp_mfc42u_ordinal5144:PPROC
+mfc42u_ordinal5144 equ <__imp_mfc42u_ordinal5144>
+
+externdef __imp_mfc42u_ordinal5145:PPROC
+mfc42u_ordinal5145 equ <__imp_mfc42u_ordinal5145>
+
+externdef __imp_mfc42u_ordinal5146:PPROC
+mfc42u_ordinal5146 equ <__imp_mfc42u_ordinal5146>
+
+externdef __imp_mfc42u_ordinal5147:PPROC
+mfc42u_ordinal5147 equ <__imp_mfc42u_ordinal5147>
+
+externdef __imp_mfc42u_ordinal5148:PPROC
+mfc42u_ordinal5148 equ <__imp_mfc42u_ordinal5148>
+
+externdef __imp_mfc42u_ordinal5149:PPROC
+mfc42u_ordinal5149 equ <__imp_mfc42u_ordinal5149>
+
+externdef __imp_mfc42u_ordinal514:PPROC
+mfc42u_ordinal514 equ <__imp_mfc42u_ordinal514>
+
+externdef __imp_mfc42u_ordinal5150:PPROC
+mfc42u_ordinal5150 equ <__imp_mfc42u_ordinal5150>
+
+externdef __imp_mfc42u_ordinal5151:PPROC
+mfc42u_ordinal5151 equ <__imp_mfc42u_ordinal5151>
+
+externdef __imp_mfc42u_ordinal5152:PPROC
+mfc42u_ordinal5152 equ <__imp_mfc42u_ordinal5152>
+
+externdef __imp_mfc42u_ordinal5153:PPROC
+mfc42u_ordinal5153 equ <__imp_mfc42u_ordinal5153>
+
+externdef __imp_mfc42u_ordinal5154:PPROC
+mfc42u_ordinal5154 equ <__imp_mfc42u_ordinal5154>
+
+externdef __imp_mfc42u_ordinal5155:PPROC
+mfc42u_ordinal5155 equ <__imp_mfc42u_ordinal5155>
+
+externdef __imp_mfc42u_ordinal5156:PPROC
+mfc42u_ordinal5156 equ <__imp_mfc42u_ordinal5156>
+
+externdef __imp_mfc42u_ordinal5157:PPROC
+mfc42u_ordinal5157 equ <__imp_mfc42u_ordinal5157>
+
+externdef __imp_mfc42u_ordinal5158:PPROC
+mfc42u_ordinal5158 equ <__imp_mfc42u_ordinal5158>
+
+externdef __imp_mfc42u_ordinal5159:PPROC
+mfc42u_ordinal5159 equ <__imp_mfc42u_ordinal5159>
+
+externdef __imp_mfc42u_ordinal515:PPROC
+mfc42u_ordinal515 equ <__imp_mfc42u_ordinal515>
+
+externdef __imp_mfc42u_ordinal5160:PPROC
+mfc42u_ordinal5160 equ <__imp_mfc42u_ordinal5160>
+
+externdef __imp_mfc42u_ordinal5161:PPROC
+mfc42u_ordinal5161 equ <__imp_mfc42u_ordinal5161>
+
+externdef __imp_mfc42u_ordinal5162:PPROC
+mfc42u_ordinal5162 equ <__imp_mfc42u_ordinal5162>
+
+externdef __imp_mfc42u_ordinal5163:PPROC
+mfc42u_ordinal5163 equ <__imp_mfc42u_ordinal5163>
+
+externdef __imp_mfc42u_ordinal5164:PPROC
+mfc42u_ordinal5164 equ <__imp_mfc42u_ordinal5164>
+
+externdef __imp_mfc42u_ordinal5165:PPROC
+mfc42u_ordinal5165 equ <__imp_mfc42u_ordinal5165>
+
+externdef __imp_mfc42u_ordinal5166:PPROC
+mfc42u_ordinal5166 equ <__imp_mfc42u_ordinal5166>
+
+externdef __imp_mfc42u_ordinal5167:PPROC
+mfc42u_ordinal5167 equ <__imp_mfc42u_ordinal5167>
+
+externdef __imp_mfc42u_ordinal5168:PPROC
+mfc42u_ordinal5168 equ <__imp_mfc42u_ordinal5168>
+
+externdef __imp_mfc42u_ordinal5169:PPROC
+mfc42u_ordinal5169 equ <__imp_mfc42u_ordinal5169>
+
+externdef __imp_mfc42u_ordinal516:PPROC
+mfc42u_ordinal516 equ <__imp_mfc42u_ordinal516>
+
+externdef __imp_mfc42u_ordinal5170:PPROC
+mfc42u_ordinal5170 equ <__imp_mfc42u_ordinal5170>
+
+externdef __imp_mfc42u_ordinal5171:PPROC
+mfc42u_ordinal5171 equ <__imp_mfc42u_ordinal5171>
+
+externdef __imp_mfc42u_ordinal5172:PPROC
+mfc42u_ordinal5172 equ <__imp_mfc42u_ordinal5172>
+
+externdef __imp_mfc42u_ordinal5173:PPROC
+mfc42u_ordinal5173 equ <__imp_mfc42u_ordinal5173>
+
+externdef __imp_mfc42u_ordinal5174:PPROC
+mfc42u_ordinal5174 equ <__imp_mfc42u_ordinal5174>
+
+externdef __imp_mfc42u_ordinal5175:PPROC
+mfc42u_ordinal5175 equ <__imp_mfc42u_ordinal5175>
+
+externdef __imp_mfc42u_ordinal5176:PPROC
+mfc42u_ordinal5176 equ <__imp_mfc42u_ordinal5176>
+
+externdef __imp_mfc42u_ordinal5177:PPROC
+mfc42u_ordinal5177 equ <__imp_mfc42u_ordinal5177>
+
+externdef __imp_mfc42u_ordinal5178:PPROC
+mfc42u_ordinal5178 equ <__imp_mfc42u_ordinal5178>
+
+externdef __imp_mfc42u_ordinal5179:PPROC
+mfc42u_ordinal5179 equ <__imp_mfc42u_ordinal5179>
+
+externdef __imp_mfc42u_ordinal517:PPROC
+mfc42u_ordinal517 equ <__imp_mfc42u_ordinal517>
+
+externdef __imp_mfc42u_ordinal5180:PPROC
+mfc42u_ordinal5180 equ <__imp_mfc42u_ordinal5180>
+
+externdef __imp_mfc42u_ordinal5181:PPROC
+mfc42u_ordinal5181 equ <__imp_mfc42u_ordinal5181>
+
+externdef __imp_mfc42u_ordinal5182:PPROC
+mfc42u_ordinal5182 equ <__imp_mfc42u_ordinal5182>
+
+externdef __imp_mfc42u_ordinal5183:PPROC
+mfc42u_ordinal5183 equ <__imp_mfc42u_ordinal5183>
+
+externdef __imp_mfc42u_ordinal5184:PPROC
+mfc42u_ordinal5184 equ <__imp_mfc42u_ordinal5184>
+
+externdef __imp_mfc42u_ordinal5185:PPROC
+mfc42u_ordinal5185 equ <__imp_mfc42u_ordinal5185>
+
+externdef __imp_mfc42u_ordinal5186:PPROC
+mfc42u_ordinal5186 equ <__imp_mfc42u_ordinal5186>
+
+externdef __imp_mfc42u_ordinal5187:PPROC
+mfc42u_ordinal5187 equ <__imp_mfc42u_ordinal5187>
+
+externdef __imp_mfc42u_ordinal5188:PPROC
+mfc42u_ordinal5188 equ <__imp_mfc42u_ordinal5188>
+
+externdef __imp_mfc42u_ordinal5189:PPROC
+mfc42u_ordinal5189 equ <__imp_mfc42u_ordinal5189>
+
+externdef __imp_mfc42u_ordinal518:PPROC
+mfc42u_ordinal518 equ <__imp_mfc42u_ordinal518>
+
+externdef __imp_mfc42u_ordinal5190:PPROC
+mfc42u_ordinal5190 equ <__imp_mfc42u_ordinal5190>
+
+externdef __imp_mfc42u_ordinal5191:PPROC
+mfc42u_ordinal5191 equ <__imp_mfc42u_ordinal5191>
+
+externdef __imp_mfc42u_ordinal5192:PPROC
+mfc42u_ordinal5192 equ <__imp_mfc42u_ordinal5192>
+
+externdef __imp_mfc42u_ordinal5193:PPROC
+mfc42u_ordinal5193 equ <__imp_mfc42u_ordinal5193>
+
+externdef __imp_mfc42u_ordinal5194:PPROC
+mfc42u_ordinal5194 equ <__imp_mfc42u_ordinal5194>
+
+externdef __imp_mfc42u_ordinal5195:PPROC
+mfc42u_ordinal5195 equ <__imp_mfc42u_ordinal5195>
+
+externdef __imp_mfc42u_ordinal5196:PPROC
+mfc42u_ordinal5196 equ <__imp_mfc42u_ordinal5196>
+
+externdef __imp_mfc42u_ordinal5197:PPROC
+mfc42u_ordinal5197 equ <__imp_mfc42u_ordinal5197>
+
+externdef __imp_mfc42u_ordinal5198:PPROC
+mfc42u_ordinal5198 equ <__imp_mfc42u_ordinal5198>
+
+externdef __imp_mfc42u_ordinal5199:PPROC
+mfc42u_ordinal5199 equ <__imp_mfc42u_ordinal5199>
+
+externdef __imp_mfc42u_ordinal519:PPROC
+mfc42u_ordinal519 equ <__imp_mfc42u_ordinal519>
+
+externdef __imp_mfc42u_ordinal51:PPROC
+mfc42u_ordinal51 equ <__imp_mfc42u_ordinal51>
+
+externdef __imp_mfc42u_ordinal5200:PPROC
+mfc42u_ordinal5200 equ <__imp_mfc42u_ordinal5200>
+
+externdef __imp_mfc42u_ordinal5201:PPROC
+mfc42u_ordinal5201 equ <__imp_mfc42u_ordinal5201>
+
+externdef __imp_mfc42u_ordinal5202:PPROC
+mfc42u_ordinal5202 equ <__imp_mfc42u_ordinal5202>
+
+externdef __imp_mfc42u_ordinal5203:PPROC
+mfc42u_ordinal5203 equ <__imp_mfc42u_ordinal5203>
+
+externdef __imp_mfc42u_ordinal5204:PPROC
+mfc42u_ordinal5204 equ <__imp_mfc42u_ordinal5204>
+
+externdef __imp_mfc42u_ordinal5205:PPROC
+mfc42u_ordinal5205 equ <__imp_mfc42u_ordinal5205>
+
+externdef __imp_mfc42u_ordinal5206:PPROC
+mfc42u_ordinal5206 equ <__imp_mfc42u_ordinal5206>
+
+externdef __imp_mfc42u_ordinal5207:PPROC
+mfc42u_ordinal5207 equ <__imp_mfc42u_ordinal5207>
+
+externdef __imp_mfc42u_ordinal5208:PPROC
+mfc42u_ordinal5208 equ <__imp_mfc42u_ordinal5208>
+
+externdef __imp_mfc42u_ordinal5209:PPROC
+mfc42u_ordinal5209 equ <__imp_mfc42u_ordinal5209>
+
+externdef __imp_mfc42u_ordinal520:PPROC
+mfc42u_ordinal520 equ <__imp_mfc42u_ordinal520>
+
+externdef __imp_mfc42u_ordinal5210:PPROC
+mfc42u_ordinal5210 equ <__imp_mfc42u_ordinal5210>
+
+externdef __imp_mfc42u_ordinal5211:PPROC
+mfc42u_ordinal5211 equ <__imp_mfc42u_ordinal5211>
+
+externdef __imp_mfc42u_ordinal5212:PPROC
+mfc42u_ordinal5212 equ <__imp_mfc42u_ordinal5212>
+
+externdef __imp_mfc42u_ordinal5213:PPROC
+mfc42u_ordinal5213 equ <__imp_mfc42u_ordinal5213>
+
+externdef __imp_mfc42u_ordinal5214:PPROC
+mfc42u_ordinal5214 equ <__imp_mfc42u_ordinal5214>
+
+externdef __imp_mfc42u_ordinal5215:PPROC
+mfc42u_ordinal5215 equ <__imp_mfc42u_ordinal5215>
+
+externdef __imp_mfc42u_ordinal5216:PPROC
+mfc42u_ordinal5216 equ <__imp_mfc42u_ordinal5216>
+
+externdef __imp_mfc42u_ordinal5217:PPROC
+mfc42u_ordinal5217 equ <__imp_mfc42u_ordinal5217>
+
+externdef __imp_mfc42u_ordinal5218:PPROC
+mfc42u_ordinal5218 equ <__imp_mfc42u_ordinal5218>
+
+externdef __imp_mfc42u_ordinal5219:PPROC
+mfc42u_ordinal5219 equ <__imp_mfc42u_ordinal5219>
+
+externdef __imp_mfc42u_ordinal521:PPROC
+mfc42u_ordinal521 equ <__imp_mfc42u_ordinal521>
+
+externdef __imp_mfc42u_ordinal5220:PPROC
+mfc42u_ordinal5220 equ <__imp_mfc42u_ordinal5220>
+
+externdef __imp_mfc42u_ordinal5221:PPROC
+mfc42u_ordinal5221 equ <__imp_mfc42u_ordinal5221>
+
+externdef __imp_mfc42u_ordinal5222:PPROC
+mfc42u_ordinal5222 equ <__imp_mfc42u_ordinal5222>
+
+externdef __imp_mfc42u_ordinal5223:PPROC
+mfc42u_ordinal5223 equ <__imp_mfc42u_ordinal5223>
+
+externdef __imp_mfc42u_ordinal5224:PPROC
+mfc42u_ordinal5224 equ <__imp_mfc42u_ordinal5224>
+
+externdef __imp_mfc42u_ordinal5225:PPROC
+mfc42u_ordinal5225 equ <__imp_mfc42u_ordinal5225>
+
+externdef __imp_mfc42u_ordinal5226:PPROC
+mfc42u_ordinal5226 equ <__imp_mfc42u_ordinal5226>
+
+externdef __imp_mfc42u_ordinal5227:PPROC
+mfc42u_ordinal5227 equ <__imp_mfc42u_ordinal5227>
+
+externdef __imp_mfc42u_ordinal5228:PPROC
+mfc42u_ordinal5228 equ <__imp_mfc42u_ordinal5228>
+
+externdef __imp_mfc42u_ordinal5229:PPROC
+mfc42u_ordinal5229 equ <__imp_mfc42u_ordinal5229>
+
+externdef __imp_mfc42u_ordinal522:PPROC
+mfc42u_ordinal522 equ <__imp_mfc42u_ordinal522>
+
+externdef __imp_mfc42u_ordinal5230:PPROC
+mfc42u_ordinal5230 equ <__imp_mfc42u_ordinal5230>
+
+externdef __imp_mfc42u_ordinal5231:PPROC
+mfc42u_ordinal5231 equ <__imp_mfc42u_ordinal5231>
+
+externdef __imp_mfc42u_ordinal5232:PPROC
+mfc42u_ordinal5232 equ <__imp_mfc42u_ordinal5232>
+
+externdef __imp_mfc42u_ordinal5233:PPROC
+mfc42u_ordinal5233 equ <__imp_mfc42u_ordinal5233>
+
+externdef __imp_mfc42u_ordinal5234:PPROC
+mfc42u_ordinal5234 equ <__imp_mfc42u_ordinal5234>
+
+externdef __imp_mfc42u_ordinal5235:PPROC
+mfc42u_ordinal5235 equ <__imp_mfc42u_ordinal5235>
+
+externdef __imp_mfc42u_ordinal5236:PPROC
+mfc42u_ordinal5236 equ <__imp_mfc42u_ordinal5236>
+
+externdef __imp_mfc42u_ordinal5237:PPROC
+mfc42u_ordinal5237 equ <__imp_mfc42u_ordinal5237>
+
+externdef __imp_mfc42u_ordinal5238:PPROC
+mfc42u_ordinal5238 equ <__imp_mfc42u_ordinal5238>
+
+externdef __imp_mfc42u_ordinal5239:PPROC
+mfc42u_ordinal5239 equ <__imp_mfc42u_ordinal5239>
+
+externdef __imp_mfc42u_ordinal523:PPROC
+mfc42u_ordinal523 equ <__imp_mfc42u_ordinal523>
+
+externdef __imp_mfc42u_ordinal5240:PPROC
+mfc42u_ordinal5240 equ <__imp_mfc42u_ordinal5240>
+
+externdef __imp_mfc42u_ordinal5241:PPROC
+mfc42u_ordinal5241 equ <__imp_mfc42u_ordinal5241>
+
+externdef __imp_mfc42u_ordinal5242:PPROC
+mfc42u_ordinal5242 equ <__imp_mfc42u_ordinal5242>
+
+externdef __imp_mfc42u_ordinal5243:PPROC
+mfc42u_ordinal5243 equ <__imp_mfc42u_ordinal5243>
+
+externdef __imp_mfc42u_ordinal5244:PPROC
+mfc42u_ordinal5244 equ <__imp_mfc42u_ordinal5244>
+
+externdef __imp_mfc42u_ordinal5245:PPROC
+mfc42u_ordinal5245 equ <__imp_mfc42u_ordinal5245>
+
+externdef __imp_mfc42u_ordinal5246:PPROC
+mfc42u_ordinal5246 equ <__imp_mfc42u_ordinal5246>
+
+externdef __imp_mfc42u_ordinal5247:PPROC
+mfc42u_ordinal5247 equ <__imp_mfc42u_ordinal5247>
+
+externdef __imp_mfc42u_ordinal5248:PPROC
+mfc42u_ordinal5248 equ <__imp_mfc42u_ordinal5248>
+
+externdef __imp_mfc42u_ordinal5249:PPROC
+mfc42u_ordinal5249 equ <__imp_mfc42u_ordinal5249>
+
+externdef __imp_mfc42u_ordinal524:PPROC
+mfc42u_ordinal524 equ <__imp_mfc42u_ordinal524>
+
+externdef __imp_mfc42u_ordinal5250:PPROC
+mfc42u_ordinal5250 equ <__imp_mfc42u_ordinal5250>
+
+externdef __imp_mfc42u_ordinal5251:PPROC
+mfc42u_ordinal5251 equ <__imp_mfc42u_ordinal5251>
+
+externdef __imp_mfc42u_ordinal5252:PPROC
+mfc42u_ordinal5252 equ <__imp_mfc42u_ordinal5252>
+
+externdef __imp_mfc42u_ordinal5253:PPROC
+mfc42u_ordinal5253 equ <__imp_mfc42u_ordinal5253>
+
+externdef __imp_mfc42u_ordinal5254:PPROC
+mfc42u_ordinal5254 equ <__imp_mfc42u_ordinal5254>
+
+externdef __imp_mfc42u_ordinal5255:PPROC
+mfc42u_ordinal5255 equ <__imp_mfc42u_ordinal5255>
+
+externdef __imp_mfc42u_ordinal5256:PPROC
+mfc42u_ordinal5256 equ <__imp_mfc42u_ordinal5256>
+
+externdef __imp_mfc42u_ordinal5257:PPROC
+mfc42u_ordinal5257 equ <__imp_mfc42u_ordinal5257>
+
+externdef __imp_mfc42u_ordinal5258:PPROC
+mfc42u_ordinal5258 equ <__imp_mfc42u_ordinal5258>
+
+externdef __imp_mfc42u_ordinal5259:PPROC
+mfc42u_ordinal5259 equ <__imp_mfc42u_ordinal5259>
+
+externdef __imp_mfc42u_ordinal525:PPROC
+mfc42u_ordinal525 equ <__imp_mfc42u_ordinal525>
+
+externdef __imp_mfc42u_ordinal5260:PPROC
+mfc42u_ordinal5260 equ <__imp_mfc42u_ordinal5260>
+
+externdef __imp_mfc42u_ordinal5261:PPROC
+mfc42u_ordinal5261 equ <__imp_mfc42u_ordinal5261>
+
+externdef __imp_mfc42u_ordinal5262:PPROC
+mfc42u_ordinal5262 equ <__imp_mfc42u_ordinal5262>
+
+externdef __imp_mfc42u_ordinal5263:PPROC
+mfc42u_ordinal5263 equ <__imp_mfc42u_ordinal5263>
+
+externdef __imp_mfc42u_ordinal5264:PPROC
+mfc42u_ordinal5264 equ <__imp_mfc42u_ordinal5264>
+
+externdef __imp_mfc42u_ordinal5265:PPROC
+mfc42u_ordinal5265 equ <__imp_mfc42u_ordinal5265>
+
+externdef __imp_mfc42u_ordinal5266:PPROC
+mfc42u_ordinal5266 equ <__imp_mfc42u_ordinal5266>
+
+externdef __imp_mfc42u_ordinal5267:PPROC
+mfc42u_ordinal5267 equ <__imp_mfc42u_ordinal5267>
+
+externdef __imp_mfc42u_ordinal5268:PPROC
+mfc42u_ordinal5268 equ <__imp_mfc42u_ordinal5268>
+
+externdef __imp_mfc42u_ordinal5269:PPROC
+mfc42u_ordinal5269 equ <__imp_mfc42u_ordinal5269>
+
+externdef __imp_mfc42u_ordinal526:PPROC
+mfc42u_ordinal526 equ <__imp_mfc42u_ordinal526>
+
+externdef __imp_mfc42u_ordinal5270:PPROC
+mfc42u_ordinal5270 equ <__imp_mfc42u_ordinal5270>
+
+externdef __imp_mfc42u_ordinal5271:PPROC
+mfc42u_ordinal5271 equ <__imp_mfc42u_ordinal5271>
+
+externdef __imp_mfc42u_ordinal5272:PPROC
+mfc42u_ordinal5272 equ <__imp_mfc42u_ordinal5272>
+
+externdef __imp_mfc42u_ordinal5273:PPROC
+mfc42u_ordinal5273 equ <__imp_mfc42u_ordinal5273>
+
+externdef __imp_mfc42u_ordinal5274:PPROC
+mfc42u_ordinal5274 equ <__imp_mfc42u_ordinal5274>
+
+externdef __imp_mfc42u_ordinal5275:PPROC
+mfc42u_ordinal5275 equ <__imp_mfc42u_ordinal5275>
+
+externdef __imp_mfc42u_ordinal5276:PPROC
+mfc42u_ordinal5276 equ <__imp_mfc42u_ordinal5276>
+
+externdef __imp_mfc42u_ordinal5277:PPROC
+mfc42u_ordinal5277 equ <__imp_mfc42u_ordinal5277>
+
+externdef __imp_mfc42u_ordinal5278:PPROC
+mfc42u_ordinal5278 equ <__imp_mfc42u_ordinal5278>
+
+externdef __imp_mfc42u_ordinal5279:PPROC
+mfc42u_ordinal5279 equ <__imp_mfc42u_ordinal5279>
+
+externdef __imp_mfc42u_ordinal527:PPROC
+mfc42u_ordinal527 equ <__imp_mfc42u_ordinal527>
+
+externdef __imp_mfc42u_ordinal5280:PPROC
+mfc42u_ordinal5280 equ <__imp_mfc42u_ordinal5280>
+
+externdef __imp_mfc42u_ordinal5281:PPROC
+mfc42u_ordinal5281 equ <__imp_mfc42u_ordinal5281>
+
+externdef __imp_mfc42u_ordinal5282:PPROC
+mfc42u_ordinal5282 equ <__imp_mfc42u_ordinal5282>
+
+externdef __imp_mfc42u_ordinal5283:PPROC
+mfc42u_ordinal5283 equ <__imp_mfc42u_ordinal5283>
+
+externdef __imp_mfc42u_ordinal5284:PPROC
+mfc42u_ordinal5284 equ <__imp_mfc42u_ordinal5284>
+
+externdef __imp_mfc42u_ordinal5285:PPROC
+mfc42u_ordinal5285 equ <__imp_mfc42u_ordinal5285>
+
+externdef __imp_mfc42u_ordinal5286:PPROC
+mfc42u_ordinal5286 equ <__imp_mfc42u_ordinal5286>
+
+externdef __imp_mfc42u_ordinal5287:PPROC
+mfc42u_ordinal5287 equ <__imp_mfc42u_ordinal5287>
+
+externdef __imp_mfc42u_ordinal5288:PPROC
+mfc42u_ordinal5288 equ <__imp_mfc42u_ordinal5288>
+
+externdef __imp_mfc42u_ordinal5289:PPROC
+mfc42u_ordinal5289 equ <__imp_mfc42u_ordinal5289>
+
+externdef __imp_mfc42u_ordinal528:PPROC
+mfc42u_ordinal528 equ <__imp_mfc42u_ordinal528>
+
+externdef __imp_mfc42u_ordinal5290:PPROC
+mfc42u_ordinal5290 equ <__imp_mfc42u_ordinal5290>
+
+externdef __imp_mfc42u_ordinal5291:PPROC
+mfc42u_ordinal5291 equ <__imp_mfc42u_ordinal5291>
+
+externdef __imp_mfc42u_ordinal5292:PPROC
+mfc42u_ordinal5292 equ <__imp_mfc42u_ordinal5292>
+
+externdef __imp_mfc42u_ordinal5293:PPROC
+mfc42u_ordinal5293 equ <__imp_mfc42u_ordinal5293>
+
+externdef __imp_mfc42u_ordinal5294:PPROC
+mfc42u_ordinal5294 equ <__imp_mfc42u_ordinal5294>
+
+externdef __imp_mfc42u_ordinal5295:PPROC
+mfc42u_ordinal5295 equ <__imp_mfc42u_ordinal5295>
+
+externdef __imp_mfc42u_ordinal5296:PPROC
+mfc42u_ordinal5296 equ <__imp_mfc42u_ordinal5296>
+
+externdef __imp_mfc42u_ordinal5297:PPROC
+mfc42u_ordinal5297 equ <__imp_mfc42u_ordinal5297>
+
+externdef __imp_mfc42u_ordinal5298:PPROC
+mfc42u_ordinal5298 equ <__imp_mfc42u_ordinal5298>
+
+externdef __imp_mfc42u_ordinal5299:PPROC
+mfc42u_ordinal5299 equ <__imp_mfc42u_ordinal5299>
+
+externdef __imp_mfc42u_ordinal529:PPROC
+mfc42u_ordinal529 equ <__imp_mfc42u_ordinal529>
+
+externdef __imp_mfc42u_ordinal52:PPROC
+mfc42u_ordinal52 equ <__imp_mfc42u_ordinal52>
+
+externdef __imp_mfc42u_ordinal5300:PPROC
+mfc42u_ordinal5300 equ <__imp_mfc42u_ordinal5300>
+
+externdef __imp_mfc42u_ordinal5301:PPROC
+mfc42u_ordinal5301 equ <__imp_mfc42u_ordinal5301>
+
+externdef __imp_mfc42u_ordinal5302:PPROC
+mfc42u_ordinal5302 equ <__imp_mfc42u_ordinal5302>
+
+externdef __imp_mfc42u_ordinal5303:PPROC
+mfc42u_ordinal5303 equ <__imp_mfc42u_ordinal5303>
+
+externdef __imp_mfc42u_ordinal5304:PPROC
+mfc42u_ordinal5304 equ <__imp_mfc42u_ordinal5304>
+
+externdef __imp_mfc42u_ordinal5305:PPROC
+mfc42u_ordinal5305 equ <__imp_mfc42u_ordinal5305>
+
+externdef __imp_mfc42u_ordinal5306:PPROC
+mfc42u_ordinal5306 equ <__imp_mfc42u_ordinal5306>
+
+externdef __imp_mfc42u_ordinal5307:PPROC
+mfc42u_ordinal5307 equ <__imp_mfc42u_ordinal5307>
+
+externdef __imp_mfc42u_ordinal5308:PPROC
+mfc42u_ordinal5308 equ <__imp_mfc42u_ordinal5308>
+
+externdef __imp_mfc42u_ordinal5309:PPROC
+mfc42u_ordinal5309 equ <__imp_mfc42u_ordinal5309>
+
+externdef __imp_mfc42u_ordinal530:PPROC
+mfc42u_ordinal530 equ <__imp_mfc42u_ordinal530>
+
+externdef __imp_mfc42u_ordinal5310:PPROC
+mfc42u_ordinal5310 equ <__imp_mfc42u_ordinal5310>
+
+externdef __imp_mfc42u_ordinal5311:PPROC
+mfc42u_ordinal5311 equ <__imp_mfc42u_ordinal5311>
+
+externdef __imp_mfc42u_ordinal5312:PPROC
+mfc42u_ordinal5312 equ <__imp_mfc42u_ordinal5312>
+
+externdef __imp_mfc42u_ordinal5313:PPROC
+mfc42u_ordinal5313 equ <__imp_mfc42u_ordinal5313>
+
+externdef __imp_mfc42u_ordinal5314:PPROC
+mfc42u_ordinal5314 equ <__imp_mfc42u_ordinal5314>
+
+externdef __imp_mfc42u_ordinal5315:PPROC
+mfc42u_ordinal5315 equ <__imp_mfc42u_ordinal5315>
+
+externdef __imp_mfc42u_ordinal5316:PPROC
+mfc42u_ordinal5316 equ <__imp_mfc42u_ordinal5316>
+
+externdef __imp_mfc42u_ordinal5317:PPROC
+mfc42u_ordinal5317 equ <__imp_mfc42u_ordinal5317>
+
+externdef __imp_mfc42u_ordinal5318:PPROC
+mfc42u_ordinal5318 equ <__imp_mfc42u_ordinal5318>
+
+externdef __imp_mfc42u_ordinal5319:PPROC
+mfc42u_ordinal5319 equ <__imp_mfc42u_ordinal5319>
+
+externdef __imp_mfc42u_ordinal531:PPROC
+mfc42u_ordinal531 equ <__imp_mfc42u_ordinal531>
+
+externdef __imp_mfc42u_ordinal5320:PPROC
+mfc42u_ordinal5320 equ <__imp_mfc42u_ordinal5320>
+
+externdef __imp_mfc42u_ordinal5321:PPROC
+mfc42u_ordinal5321 equ <__imp_mfc42u_ordinal5321>
+
+externdef __imp_mfc42u_ordinal5322:PPROC
+mfc42u_ordinal5322 equ <__imp_mfc42u_ordinal5322>
+
+externdef __imp_mfc42u_ordinal5323:PPROC
+mfc42u_ordinal5323 equ <__imp_mfc42u_ordinal5323>
+
+externdef __imp_mfc42u_ordinal5324:PPROC
+mfc42u_ordinal5324 equ <__imp_mfc42u_ordinal5324>
+
+externdef __imp_mfc42u_ordinal5325:PPROC
+mfc42u_ordinal5325 equ <__imp_mfc42u_ordinal5325>
+
+externdef __imp_mfc42u_ordinal5326:PPROC
+mfc42u_ordinal5326 equ <__imp_mfc42u_ordinal5326>
+
+externdef __imp_mfc42u_ordinal5327:PPROC
+mfc42u_ordinal5327 equ <__imp_mfc42u_ordinal5327>
+
+externdef __imp_mfc42u_ordinal5328:PPROC
+mfc42u_ordinal5328 equ <__imp_mfc42u_ordinal5328>
+
+externdef __imp_mfc42u_ordinal5329:PPROC
+mfc42u_ordinal5329 equ <__imp_mfc42u_ordinal5329>
+
+externdef __imp_mfc42u_ordinal532:PPROC
+mfc42u_ordinal532 equ <__imp_mfc42u_ordinal532>
+
+externdef __imp_mfc42u_ordinal5330:PPROC
+mfc42u_ordinal5330 equ <__imp_mfc42u_ordinal5330>
+
+externdef __imp_mfc42u_ordinal5331:PPROC
+mfc42u_ordinal5331 equ <__imp_mfc42u_ordinal5331>
+
+externdef __imp_mfc42u_ordinal5332:PPROC
+mfc42u_ordinal5332 equ <__imp_mfc42u_ordinal5332>
+
+externdef __imp_mfc42u_ordinal5333:PPROC
+mfc42u_ordinal5333 equ <__imp_mfc42u_ordinal5333>
+
+externdef __imp_mfc42u_ordinal5334:PPROC
+mfc42u_ordinal5334 equ <__imp_mfc42u_ordinal5334>
+
+externdef __imp_mfc42u_ordinal5335:PPROC
+mfc42u_ordinal5335 equ <__imp_mfc42u_ordinal5335>
+
+externdef __imp_mfc42u_ordinal5336:PPROC
+mfc42u_ordinal5336 equ <__imp_mfc42u_ordinal5336>
+
+externdef __imp_mfc42u_ordinal5337:PPROC
+mfc42u_ordinal5337 equ <__imp_mfc42u_ordinal5337>
+
+externdef __imp_mfc42u_ordinal5338:PPROC
+mfc42u_ordinal5338 equ <__imp_mfc42u_ordinal5338>
+
+externdef __imp_mfc42u_ordinal5339:PPROC
+mfc42u_ordinal5339 equ <__imp_mfc42u_ordinal5339>
+
+externdef __imp_mfc42u_ordinal533:PPROC
+mfc42u_ordinal533 equ <__imp_mfc42u_ordinal533>
+
+externdef __imp_mfc42u_ordinal5340:PPROC
+mfc42u_ordinal5340 equ <__imp_mfc42u_ordinal5340>
+
+externdef __imp_mfc42u_ordinal5341:PPROC
+mfc42u_ordinal5341 equ <__imp_mfc42u_ordinal5341>
+
+externdef __imp_mfc42u_ordinal5342:PPROC
+mfc42u_ordinal5342 equ <__imp_mfc42u_ordinal5342>
+
+externdef __imp_mfc42u_ordinal5343:PPROC
+mfc42u_ordinal5343 equ <__imp_mfc42u_ordinal5343>
+
+externdef __imp_mfc42u_ordinal5344:PPROC
+mfc42u_ordinal5344 equ <__imp_mfc42u_ordinal5344>
+
+externdef __imp_mfc42u_ordinal5345:PPROC
+mfc42u_ordinal5345 equ <__imp_mfc42u_ordinal5345>
+
+externdef __imp_mfc42u_ordinal5346:PPROC
+mfc42u_ordinal5346 equ <__imp_mfc42u_ordinal5346>
+
+externdef __imp_mfc42u_ordinal5347:PPROC
+mfc42u_ordinal5347 equ <__imp_mfc42u_ordinal5347>
+
+externdef __imp_mfc42u_ordinal5348:PPROC
+mfc42u_ordinal5348 equ <__imp_mfc42u_ordinal5348>
+
+externdef __imp_mfc42u_ordinal5349:PPROC
+mfc42u_ordinal5349 equ <__imp_mfc42u_ordinal5349>
+
+externdef __imp_mfc42u_ordinal534:PPROC
+mfc42u_ordinal534 equ <__imp_mfc42u_ordinal534>
+
+externdef __imp_mfc42u_ordinal5350:PPROC
+mfc42u_ordinal5350 equ <__imp_mfc42u_ordinal5350>
+
+externdef __imp_mfc42u_ordinal5351:PPROC
+mfc42u_ordinal5351 equ <__imp_mfc42u_ordinal5351>
+
+externdef __imp_mfc42u_ordinal5352:PPROC
+mfc42u_ordinal5352 equ <__imp_mfc42u_ordinal5352>
+
+externdef __imp_mfc42u_ordinal5353:PPROC
+mfc42u_ordinal5353 equ <__imp_mfc42u_ordinal5353>
+
+externdef __imp_mfc42u_ordinal5354:PPROC
+mfc42u_ordinal5354 equ <__imp_mfc42u_ordinal5354>
+
+externdef __imp_mfc42u_ordinal5355:PPROC
+mfc42u_ordinal5355 equ <__imp_mfc42u_ordinal5355>
+
+externdef __imp_mfc42u_ordinal5356:PPROC
+mfc42u_ordinal5356 equ <__imp_mfc42u_ordinal5356>
+
+externdef __imp_mfc42u_ordinal5357:PPROC
+mfc42u_ordinal5357 equ <__imp_mfc42u_ordinal5357>
+
+externdef __imp_mfc42u_ordinal5358:PPROC
+mfc42u_ordinal5358 equ <__imp_mfc42u_ordinal5358>
+
+externdef __imp_mfc42u_ordinal5359:PPROC
+mfc42u_ordinal5359 equ <__imp_mfc42u_ordinal5359>
+
+externdef __imp_mfc42u_ordinal535:PPROC
+mfc42u_ordinal535 equ <__imp_mfc42u_ordinal535>
+
+externdef __imp_mfc42u_ordinal5360:PPROC
+mfc42u_ordinal5360 equ <__imp_mfc42u_ordinal5360>
+
+externdef __imp_mfc42u_ordinal5361:PPROC
+mfc42u_ordinal5361 equ <__imp_mfc42u_ordinal5361>
+
+externdef __imp_mfc42u_ordinal5362:PPROC
+mfc42u_ordinal5362 equ <__imp_mfc42u_ordinal5362>
+
+externdef __imp_mfc42u_ordinal5363:PPROC
+mfc42u_ordinal5363 equ <__imp_mfc42u_ordinal5363>
+
+externdef __imp_mfc42u_ordinal5364:PPROC
+mfc42u_ordinal5364 equ <__imp_mfc42u_ordinal5364>
+
+externdef __imp_mfc42u_ordinal5365:PPROC
+mfc42u_ordinal5365 equ <__imp_mfc42u_ordinal5365>
+
+externdef __imp_mfc42u_ordinal5366:PPROC
+mfc42u_ordinal5366 equ <__imp_mfc42u_ordinal5366>
+
+externdef __imp_mfc42u_ordinal5367:PPROC
+mfc42u_ordinal5367 equ <__imp_mfc42u_ordinal5367>
+
+externdef __imp_mfc42u_ordinal5368:PPROC
+mfc42u_ordinal5368 equ <__imp_mfc42u_ordinal5368>
+
+externdef __imp_mfc42u_ordinal5369:PPROC
+mfc42u_ordinal5369 equ <__imp_mfc42u_ordinal5369>
+
+externdef __imp_mfc42u_ordinal536:PPROC
+mfc42u_ordinal536 equ <__imp_mfc42u_ordinal536>
+
+externdef __imp_mfc42u_ordinal5370:PPROC
+mfc42u_ordinal5370 equ <__imp_mfc42u_ordinal5370>
+
+externdef __imp_mfc42u_ordinal5371:PPROC
+mfc42u_ordinal5371 equ <__imp_mfc42u_ordinal5371>
+
+externdef __imp_mfc42u_ordinal5372:PPROC
+mfc42u_ordinal5372 equ <__imp_mfc42u_ordinal5372>
+
+externdef __imp_mfc42u_ordinal5373:PPROC
+mfc42u_ordinal5373 equ <__imp_mfc42u_ordinal5373>
+
+externdef __imp_mfc42u_ordinal5374:PPROC
+mfc42u_ordinal5374 equ <__imp_mfc42u_ordinal5374>
+
+externdef __imp_mfc42u_ordinal5375:PPROC
+mfc42u_ordinal5375 equ <__imp_mfc42u_ordinal5375>
+
+externdef __imp_mfc42u_ordinal5376:PPROC
+mfc42u_ordinal5376 equ <__imp_mfc42u_ordinal5376>
+
+externdef __imp_mfc42u_ordinal5377:PPROC
+mfc42u_ordinal5377 equ <__imp_mfc42u_ordinal5377>
+
+externdef __imp_mfc42u_ordinal5378:PPROC
+mfc42u_ordinal5378 equ <__imp_mfc42u_ordinal5378>
+
+externdef __imp_mfc42u_ordinal5379:PPROC
+mfc42u_ordinal5379 equ <__imp_mfc42u_ordinal5379>
+
+externdef __imp_mfc42u_ordinal537:PPROC
+mfc42u_ordinal537 equ <__imp_mfc42u_ordinal537>
+
+externdef __imp_mfc42u_ordinal5380:PPROC
+mfc42u_ordinal5380 equ <__imp_mfc42u_ordinal5380>
+
+externdef __imp_mfc42u_ordinal5381:PPROC
+mfc42u_ordinal5381 equ <__imp_mfc42u_ordinal5381>
+
+externdef __imp_mfc42u_ordinal5382:PPROC
+mfc42u_ordinal5382 equ <__imp_mfc42u_ordinal5382>
+
+externdef __imp_mfc42u_ordinal5383:PPROC
+mfc42u_ordinal5383 equ <__imp_mfc42u_ordinal5383>
+
+externdef __imp_mfc42u_ordinal5384:PPROC
+mfc42u_ordinal5384 equ <__imp_mfc42u_ordinal5384>
+
+externdef __imp_mfc42u_ordinal5385:PPROC
+mfc42u_ordinal5385 equ <__imp_mfc42u_ordinal5385>
+
+externdef __imp_mfc42u_ordinal5386:PPROC
+mfc42u_ordinal5386 equ <__imp_mfc42u_ordinal5386>
+
+externdef __imp_mfc42u_ordinal5387:PPROC
+mfc42u_ordinal5387 equ <__imp_mfc42u_ordinal5387>
+
+externdef __imp_mfc42u_ordinal5388:PPROC
+mfc42u_ordinal5388 equ <__imp_mfc42u_ordinal5388>
+
+externdef __imp_mfc42u_ordinal5389:PPROC
+mfc42u_ordinal5389 equ <__imp_mfc42u_ordinal5389>
+
+externdef __imp_mfc42u_ordinal538:PPROC
+mfc42u_ordinal538 equ <__imp_mfc42u_ordinal538>
+
+externdef __imp_mfc42u_ordinal5390:PPROC
+mfc42u_ordinal5390 equ <__imp_mfc42u_ordinal5390>
+
+externdef __imp_mfc42u_ordinal5391:PPROC
+mfc42u_ordinal5391 equ <__imp_mfc42u_ordinal5391>
+
+externdef __imp_mfc42u_ordinal5392:PPROC
+mfc42u_ordinal5392 equ <__imp_mfc42u_ordinal5392>
+
+externdef __imp_mfc42u_ordinal5393:PPROC
+mfc42u_ordinal5393 equ <__imp_mfc42u_ordinal5393>
+
+externdef __imp_mfc42u_ordinal5394:PPROC
+mfc42u_ordinal5394 equ <__imp_mfc42u_ordinal5394>
+
+externdef __imp_mfc42u_ordinal5395:PPROC
+mfc42u_ordinal5395 equ <__imp_mfc42u_ordinal5395>
+
+externdef __imp_mfc42u_ordinal5396:PPROC
+mfc42u_ordinal5396 equ <__imp_mfc42u_ordinal5396>
+
+externdef __imp_mfc42u_ordinal5397:PPROC
+mfc42u_ordinal5397 equ <__imp_mfc42u_ordinal5397>
+
+externdef __imp_mfc42u_ordinal5398:PPROC
+mfc42u_ordinal5398 equ <__imp_mfc42u_ordinal5398>
+
+externdef __imp_mfc42u_ordinal5399:PPROC
+mfc42u_ordinal5399 equ <__imp_mfc42u_ordinal5399>
+
+externdef __imp_mfc42u_ordinal539:PPROC
+mfc42u_ordinal539 equ <__imp_mfc42u_ordinal539>
+
+externdef __imp_mfc42u_ordinal53:PPROC
+mfc42u_ordinal53 equ <__imp_mfc42u_ordinal53>
+
+externdef __imp_mfc42u_ordinal5400:PPROC
+mfc42u_ordinal5400 equ <__imp_mfc42u_ordinal5400>
+
+externdef __imp_mfc42u_ordinal5401:PPROC
+mfc42u_ordinal5401 equ <__imp_mfc42u_ordinal5401>
+
+externdef __imp_mfc42u_ordinal5402:PPROC
+mfc42u_ordinal5402 equ <__imp_mfc42u_ordinal5402>
+
+externdef __imp_mfc42u_ordinal5403:PPROC
+mfc42u_ordinal5403 equ <__imp_mfc42u_ordinal5403>
+
+externdef __imp_mfc42u_ordinal5404:PPROC
+mfc42u_ordinal5404 equ <__imp_mfc42u_ordinal5404>
+
+externdef __imp_mfc42u_ordinal5405:PPROC
+mfc42u_ordinal5405 equ <__imp_mfc42u_ordinal5405>
+
+externdef __imp_mfc42u_ordinal5406:PPROC
+mfc42u_ordinal5406 equ <__imp_mfc42u_ordinal5406>
+
+externdef __imp_mfc42u_ordinal5407:PPROC
+mfc42u_ordinal5407 equ <__imp_mfc42u_ordinal5407>
+
+externdef __imp_mfc42u_ordinal5408:PPROC
+mfc42u_ordinal5408 equ <__imp_mfc42u_ordinal5408>
+
+externdef __imp_mfc42u_ordinal5409:PPROC
+mfc42u_ordinal5409 equ <__imp_mfc42u_ordinal5409>
+
+externdef __imp_mfc42u_ordinal540:PPROC
+mfc42u_ordinal540 equ <__imp_mfc42u_ordinal540>
+
+externdef __imp_mfc42u_ordinal5410:PPROC
+mfc42u_ordinal5410 equ <__imp_mfc42u_ordinal5410>
+
+externdef __imp_mfc42u_ordinal5411:PPROC
+mfc42u_ordinal5411 equ <__imp_mfc42u_ordinal5411>
+
+externdef __imp_mfc42u_ordinal5412:PPROC
+mfc42u_ordinal5412 equ <__imp_mfc42u_ordinal5412>
+
+externdef __imp_mfc42u_ordinal5413:PPROC
+mfc42u_ordinal5413 equ <__imp_mfc42u_ordinal5413>
+
+externdef __imp_mfc42u_ordinal5414:PPROC
+mfc42u_ordinal5414 equ <__imp_mfc42u_ordinal5414>
+
+externdef __imp_mfc42u_ordinal5415:PPROC
+mfc42u_ordinal5415 equ <__imp_mfc42u_ordinal5415>
+
+externdef __imp_mfc42u_ordinal5416:PPROC
+mfc42u_ordinal5416 equ <__imp_mfc42u_ordinal5416>
+
+externdef __imp_mfc42u_ordinal5417:PPROC
+mfc42u_ordinal5417 equ <__imp_mfc42u_ordinal5417>
+
+externdef __imp_mfc42u_ordinal5418:PPROC
+mfc42u_ordinal5418 equ <__imp_mfc42u_ordinal5418>
+
+externdef __imp_mfc42u_ordinal5419:PPROC
+mfc42u_ordinal5419 equ <__imp_mfc42u_ordinal5419>
+
+externdef __imp_mfc42u_ordinal541:PPROC
+mfc42u_ordinal541 equ <__imp_mfc42u_ordinal541>
+
+externdef __imp_mfc42u_ordinal5420:PPROC
+mfc42u_ordinal5420 equ <__imp_mfc42u_ordinal5420>
+
+externdef __imp_mfc42u_ordinal5421:PPROC
+mfc42u_ordinal5421 equ <__imp_mfc42u_ordinal5421>
+
+externdef __imp_mfc42u_ordinal5422:PPROC
+mfc42u_ordinal5422 equ <__imp_mfc42u_ordinal5422>
+
+externdef __imp_mfc42u_ordinal5423:PPROC
+mfc42u_ordinal5423 equ <__imp_mfc42u_ordinal5423>
+
+externdef __imp_mfc42u_ordinal5424:PPROC
+mfc42u_ordinal5424 equ <__imp_mfc42u_ordinal5424>
+
+externdef __imp_mfc42u_ordinal5425:PPROC
+mfc42u_ordinal5425 equ <__imp_mfc42u_ordinal5425>
+
+externdef __imp_mfc42u_ordinal5426:PPROC
+mfc42u_ordinal5426 equ <__imp_mfc42u_ordinal5426>
+
+externdef __imp_mfc42u_ordinal5427:PPROC
+mfc42u_ordinal5427 equ <__imp_mfc42u_ordinal5427>
+
+externdef __imp_mfc42u_ordinal5428:PPROC
+mfc42u_ordinal5428 equ <__imp_mfc42u_ordinal5428>
+
+externdef __imp_mfc42u_ordinal5429:PPROC
+mfc42u_ordinal5429 equ <__imp_mfc42u_ordinal5429>
+
+externdef __imp_mfc42u_ordinal542:PPROC
+mfc42u_ordinal542 equ <__imp_mfc42u_ordinal542>
+
+externdef __imp_mfc42u_ordinal5430:PPROC
+mfc42u_ordinal5430 equ <__imp_mfc42u_ordinal5430>
+
+externdef __imp_mfc42u_ordinal5431:PPROC
+mfc42u_ordinal5431 equ <__imp_mfc42u_ordinal5431>
+
+externdef __imp_mfc42u_ordinal5432:PPROC
+mfc42u_ordinal5432 equ <__imp_mfc42u_ordinal5432>
+
+externdef __imp_mfc42u_ordinal5433:PPROC
+mfc42u_ordinal5433 equ <__imp_mfc42u_ordinal5433>
+
+externdef __imp_mfc42u_ordinal5434:PPROC
+mfc42u_ordinal5434 equ <__imp_mfc42u_ordinal5434>
+
+externdef __imp_mfc42u_ordinal5435:PPROC
+mfc42u_ordinal5435 equ <__imp_mfc42u_ordinal5435>
+
+externdef __imp_mfc42u_ordinal5436:PPROC
+mfc42u_ordinal5436 equ <__imp_mfc42u_ordinal5436>
+
+externdef __imp_mfc42u_ordinal5437:PPROC
+mfc42u_ordinal5437 equ <__imp_mfc42u_ordinal5437>
+
+externdef __imp_mfc42u_ordinal5438:PPROC
+mfc42u_ordinal5438 equ <__imp_mfc42u_ordinal5438>
+
+externdef __imp_mfc42u_ordinal5439:PPROC
+mfc42u_ordinal5439 equ <__imp_mfc42u_ordinal5439>
+
+externdef __imp_mfc42u_ordinal543:PPROC
+mfc42u_ordinal543 equ <__imp_mfc42u_ordinal543>
+
+externdef __imp_mfc42u_ordinal5440:PPROC
+mfc42u_ordinal5440 equ <__imp_mfc42u_ordinal5440>
+
+externdef __imp_mfc42u_ordinal5441:PPROC
+mfc42u_ordinal5441 equ <__imp_mfc42u_ordinal5441>
+
+externdef __imp_mfc42u_ordinal5442:PPROC
+mfc42u_ordinal5442 equ <__imp_mfc42u_ordinal5442>
+
+externdef __imp_mfc42u_ordinal5443:PPROC
+mfc42u_ordinal5443 equ <__imp_mfc42u_ordinal5443>
+
+externdef __imp_mfc42u_ordinal5444:PPROC
+mfc42u_ordinal5444 equ <__imp_mfc42u_ordinal5444>
+
+externdef __imp_mfc42u_ordinal5445:PPROC
+mfc42u_ordinal5445 equ <__imp_mfc42u_ordinal5445>
+
+externdef __imp_mfc42u_ordinal5446:PPROC
+mfc42u_ordinal5446 equ <__imp_mfc42u_ordinal5446>
+
+externdef __imp_mfc42u_ordinal5447:PPROC
+mfc42u_ordinal5447 equ <__imp_mfc42u_ordinal5447>
+
+externdef __imp_mfc42u_ordinal5448:PPROC
+mfc42u_ordinal5448 equ <__imp_mfc42u_ordinal5448>
+
+externdef __imp_mfc42u_ordinal5449:PPROC
+mfc42u_ordinal5449 equ <__imp_mfc42u_ordinal5449>
+
+externdef __imp_mfc42u_ordinal544:PPROC
+mfc42u_ordinal544 equ <__imp_mfc42u_ordinal544>
+
+externdef __imp_mfc42u_ordinal5450:PPROC
+mfc42u_ordinal5450 equ <__imp_mfc42u_ordinal5450>
+
+externdef __imp_mfc42u_ordinal5451:PPROC
+mfc42u_ordinal5451 equ <__imp_mfc42u_ordinal5451>
+
+externdef __imp_mfc42u_ordinal5452:PPROC
+mfc42u_ordinal5452 equ <__imp_mfc42u_ordinal5452>
+
+externdef __imp_mfc42u_ordinal5453:PPROC
+mfc42u_ordinal5453 equ <__imp_mfc42u_ordinal5453>
+
+externdef __imp_mfc42u_ordinal5454:PPROC
+mfc42u_ordinal5454 equ <__imp_mfc42u_ordinal5454>
+
+externdef __imp_mfc42u_ordinal5455:PPROC
+mfc42u_ordinal5455 equ <__imp_mfc42u_ordinal5455>
+
+externdef __imp_mfc42u_ordinal5456:PPROC
+mfc42u_ordinal5456 equ <__imp_mfc42u_ordinal5456>
+
+externdef __imp_mfc42u_ordinal5457:PPROC
+mfc42u_ordinal5457 equ <__imp_mfc42u_ordinal5457>
+
+externdef __imp_mfc42u_ordinal5458:PPROC
+mfc42u_ordinal5458 equ <__imp_mfc42u_ordinal5458>
+
+externdef __imp_mfc42u_ordinal5459:PPROC
+mfc42u_ordinal5459 equ <__imp_mfc42u_ordinal5459>
+
+externdef __imp_mfc42u_ordinal545:PPROC
+mfc42u_ordinal545 equ <__imp_mfc42u_ordinal545>
+
+externdef __imp_mfc42u_ordinal5460:PPROC
+mfc42u_ordinal5460 equ <__imp_mfc42u_ordinal5460>
+
+externdef __imp_mfc42u_ordinal5461:PPROC
+mfc42u_ordinal5461 equ <__imp_mfc42u_ordinal5461>
+
+externdef __imp_mfc42u_ordinal5462:PPROC
+mfc42u_ordinal5462 equ <__imp_mfc42u_ordinal5462>
+
+externdef __imp_mfc42u_ordinal5463:PPROC
+mfc42u_ordinal5463 equ <__imp_mfc42u_ordinal5463>
+
+externdef __imp_mfc42u_ordinal5464:PPROC
+mfc42u_ordinal5464 equ <__imp_mfc42u_ordinal5464>
+
+externdef __imp_mfc42u_ordinal5465:PPROC
+mfc42u_ordinal5465 equ <__imp_mfc42u_ordinal5465>
+
+externdef __imp_mfc42u_ordinal5466:PPROC
+mfc42u_ordinal5466 equ <__imp_mfc42u_ordinal5466>
+
+externdef __imp_mfc42u_ordinal5467:PPROC
+mfc42u_ordinal5467 equ <__imp_mfc42u_ordinal5467>
+
+externdef __imp_mfc42u_ordinal5468:PPROC
+mfc42u_ordinal5468 equ <__imp_mfc42u_ordinal5468>
+
+externdef __imp_mfc42u_ordinal5469:PPROC
+mfc42u_ordinal5469 equ <__imp_mfc42u_ordinal5469>
+
+externdef __imp_mfc42u_ordinal546:PPROC
+mfc42u_ordinal546 equ <__imp_mfc42u_ordinal546>
+
+externdef __imp_mfc42u_ordinal5470:PPROC
+mfc42u_ordinal5470 equ <__imp_mfc42u_ordinal5470>
+
+externdef __imp_mfc42u_ordinal5471:PPROC
+mfc42u_ordinal5471 equ <__imp_mfc42u_ordinal5471>
+
+externdef __imp_mfc42u_ordinal5472:PPROC
+mfc42u_ordinal5472 equ <__imp_mfc42u_ordinal5472>
+
+externdef __imp_mfc42u_ordinal5473:PPROC
+mfc42u_ordinal5473 equ <__imp_mfc42u_ordinal5473>
+
+externdef __imp_mfc42u_ordinal5474:PPROC
+mfc42u_ordinal5474 equ <__imp_mfc42u_ordinal5474>
+
+externdef __imp_mfc42u_ordinal5475:PPROC
+mfc42u_ordinal5475 equ <__imp_mfc42u_ordinal5475>
+
+externdef __imp_mfc42u_ordinal5476:PPROC
+mfc42u_ordinal5476 equ <__imp_mfc42u_ordinal5476>
+
+externdef __imp_mfc42u_ordinal5477:PPROC
+mfc42u_ordinal5477 equ <__imp_mfc42u_ordinal5477>
+
+externdef __imp_mfc42u_ordinal5478:PPROC
+mfc42u_ordinal5478 equ <__imp_mfc42u_ordinal5478>
+
+externdef __imp_mfc42u_ordinal5479:PPROC
+mfc42u_ordinal5479 equ <__imp_mfc42u_ordinal5479>
+
+externdef __imp_mfc42u_ordinal547:PPROC
+mfc42u_ordinal547 equ <__imp_mfc42u_ordinal547>
+
+externdef __imp_mfc42u_ordinal5480:PPROC
+mfc42u_ordinal5480 equ <__imp_mfc42u_ordinal5480>
+
+externdef __imp_mfc42u_ordinal5481:PPROC
+mfc42u_ordinal5481 equ <__imp_mfc42u_ordinal5481>
+
+externdef __imp_mfc42u_ordinal5482:PPROC
+mfc42u_ordinal5482 equ <__imp_mfc42u_ordinal5482>
+
+externdef __imp_mfc42u_ordinal5483:PPROC
+mfc42u_ordinal5483 equ <__imp_mfc42u_ordinal5483>
+
+externdef __imp_mfc42u_ordinal5484:PPROC
+mfc42u_ordinal5484 equ <__imp_mfc42u_ordinal5484>
+
+externdef __imp_mfc42u_ordinal5485:PPROC
+mfc42u_ordinal5485 equ <__imp_mfc42u_ordinal5485>
+
+externdef __imp_mfc42u_ordinal5486:PPROC
+mfc42u_ordinal5486 equ <__imp_mfc42u_ordinal5486>
+
+externdef __imp_mfc42u_ordinal5487:PPROC
+mfc42u_ordinal5487 equ <__imp_mfc42u_ordinal5487>
+
+externdef __imp_mfc42u_ordinal5488:PPROC
+mfc42u_ordinal5488 equ <__imp_mfc42u_ordinal5488>
+
+externdef __imp_mfc42u_ordinal5489:PPROC
+mfc42u_ordinal5489 equ <__imp_mfc42u_ordinal5489>
+
+externdef __imp_mfc42u_ordinal548:PPROC
+mfc42u_ordinal548 equ <__imp_mfc42u_ordinal548>
+
+externdef __imp_mfc42u_ordinal5490:PPROC
+mfc42u_ordinal5490 equ <__imp_mfc42u_ordinal5490>
+
+externdef __imp_mfc42u_ordinal5491:PPROC
+mfc42u_ordinal5491 equ <__imp_mfc42u_ordinal5491>
+
+externdef __imp_mfc42u_ordinal5492:PPROC
+mfc42u_ordinal5492 equ <__imp_mfc42u_ordinal5492>
+
+externdef __imp_mfc42u_ordinal5493:PPROC
+mfc42u_ordinal5493 equ <__imp_mfc42u_ordinal5493>
+
+externdef __imp_mfc42u_ordinal5494:PPROC
+mfc42u_ordinal5494 equ <__imp_mfc42u_ordinal5494>
+
+externdef __imp_mfc42u_ordinal5495:PPROC
+mfc42u_ordinal5495 equ <__imp_mfc42u_ordinal5495>
+
+externdef __imp_mfc42u_ordinal5496:PPROC
+mfc42u_ordinal5496 equ <__imp_mfc42u_ordinal5496>
+
+externdef __imp_mfc42u_ordinal5497:PPROC
+mfc42u_ordinal5497 equ <__imp_mfc42u_ordinal5497>
+
+externdef __imp_mfc42u_ordinal5498:PPROC
+mfc42u_ordinal5498 equ <__imp_mfc42u_ordinal5498>
+
+externdef __imp_mfc42u_ordinal5499:PPROC
+mfc42u_ordinal5499 equ <__imp_mfc42u_ordinal5499>
+
+externdef __imp_mfc42u_ordinal549:PPROC
+mfc42u_ordinal549 equ <__imp_mfc42u_ordinal549>
+
+externdef __imp_mfc42u_ordinal54:PPROC
+mfc42u_ordinal54 equ <__imp_mfc42u_ordinal54>
+
+externdef __imp_mfc42u_ordinal5500:PPROC
+mfc42u_ordinal5500 equ <__imp_mfc42u_ordinal5500>
+
+externdef __imp_mfc42u_ordinal5501:PPROC
+mfc42u_ordinal5501 equ <__imp_mfc42u_ordinal5501>
+
+externdef __imp_mfc42u_ordinal5502:PPROC
+mfc42u_ordinal5502 equ <__imp_mfc42u_ordinal5502>
+
+externdef __imp_mfc42u_ordinal5503:PPROC
+mfc42u_ordinal5503 equ <__imp_mfc42u_ordinal5503>
+
+externdef __imp_mfc42u_ordinal5504:PPROC
+mfc42u_ordinal5504 equ <__imp_mfc42u_ordinal5504>
+
+externdef __imp_mfc42u_ordinal5505:PPROC
+mfc42u_ordinal5505 equ <__imp_mfc42u_ordinal5505>
+
+externdef __imp_mfc42u_ordinal5506:PPROC
+mfc42u_ordinal5506 equ <__imp_mfc42u_ordinal5506>
+
+externdef __imp_mfc42u_ordinal5507:PPROC
+mfc42u_ordinal5507 equ <__imp_mfc42u_ordinal5507>
+
+externdef __imp_mfc42u_ordinal5508:PPROC
+mfc42u_ordinal5508 equ <__imp_mfc42u_ordinal5508>
+
+externdef __imp_mfc42u_ordinal5509:PPROC
+mfc42u_ordinal5509 equ <__imp_mfc42u_ordinal5509>
+
+externdef __imp_mfc42u_ordinal550:PPROC
+mfc42u_ordinal550 equ <__imp_mfc42u_ordinal550>
+
+externdef __imp_mfc42u_ordinal5510:PPROC
+mfc42u_ordinal5510 equ <__imp_mfc42u_ordinal5510>
+
+externdef __imp_mfc42u_ordinal5511:PPROC
+mfc42u_ordinal5511 equ <__imp_mfc42u_ordinal5511>
+
+externdef __imp_mfc42u_ordinal5512:PPROC
+mfc42u_ordinal5512 equ <__imp_mfc42u_ordinal5512>
+
+externdef __imp_mfc42u_ordinal5513:PPROC
+mfc42u_ordinal5513 equ <__imp_mfc42u_ordinal5513>
+
+externdef __imp_mfc42u_ordinal5514:PPROC
+mfc42u_ordinal5514 equ <__imp_mfc42u_ordinal5514>
+
+externdef __imp_mfc42u_ordinal5515:PPROC
+mfc42u_ordinal5515 equ <__imp_mfc42u_ordinal5515>
+
+externdef __imp_mfc42u_ordinal5516:PPROC
+mfc42u_ordinal5516 equ <__imp_mfc42u_ordinal5516>
+
+externdef __imp_mfc42u_ordinal5517:PPROC
+mfc42u_ordinal5517 equ <__imp_mfc42u_ordinal5517>
+
+externdef __imp_mfc42u_ordinal5518:PPROC
+mfc42u_ordinal5518 equ <__imp_mfc42u_ordinal5518>
+
+externdef __imp_mfc42u_ordinal5519:PPROC
+mfc42u_ordinal5519 equ <__imp_mfc42u_ordinal5519>
+
+externdef __imp_mfc42u_ordinal551:PPROC
+mfc42u_ordinal551 equ <__imp_mfc42u_ordinal551>
+
+externdef __imp_mfc42u_ordinal5520:PPROC
+mfc42u_ordinal5520 equ <__imp_mfc42u_ordinal5520>
+
+externdef __imp_mfc42u_ordinal5521:PPROC
+mfc42u_ordinal5521 equ <__imp_mfc42u_ordinal5521>
+
+externdef __imp_mfc42u_ordinal5522:PPROC
+mfc42u_ordinal5522 equ <__imp_mfc42u_ordinal5522>
+
+externdef __imp_mfc42u_ordinal5523:PPROC
+mfc42u_ordinal5523 equ <__imp_mfc42u_ordinal5523>
+
+externdef __imp_mfc42u_ordinal5524:PPROC
+mfc42u_ordinal5524 equ <__imp_mfc42u_ordinal5524>
+
+externdef __imp_mfc42u_ordinal5525:PPROC
+mfc42u_ordinal5525 equ <__imp_mfc42u_ordinal5525>
+
+externdef __imp_mfc42u_ordinal5526:PPROC
+mfc42u_ordinal5526 equ <__imp_mfc42u_ordinal5526>
+
+externdef __imp_mfc42u_ordinal5527:PPROC
+mfc42u_ordinal5527 equ <__imp_mfc42u_ordinal5527>
+
+externdef __imp_mfc42u_ordinal5528:PPROC
+mfc42u_ordinal5528 equ <__imp_mfc42u_ordinal5528>
+
+externdef __imp_mfc42u_ordinal5529:PPROC
+mfc42u_ordinal5529 equ <__imp_mfc42u_ordinal5529>
+
+externdef __imp_mfc42u_ordinal552:PPROC
+mfc42u_ordinal552 equ <__imp_mfc42u_ordinal552>
+
+externdef __imp_mfc42u_ordinal5530:PPROC
+mfc42u_ordinal5530 equ <__imp_mfc42u_ordinal5530>
+
+externdef __imp_mfc42u_ordinal5531:PPROC
+mfc42u_ordinal5531 equ <__imp_mfc42u_ordinal5531>
+
+externdef __imp_mfc42u_ordinal5532:PPROC
+mfc42u_ordinal5532 equ <__imp_mfc42u_ordinal5532>
+
+externdef __imp_mfc42u_ordinal5533:PPROC
+mfc42u_ordinal5533 equ <__imp_mfc42u_ordinal5533>
+
+externdef __imp_mfc42u_ordinal5534:PPROC
+mfc42u_ordinal5534 equ <__imp_mfc42u_ordinal5534>
+
+externdef __imp_mfc42u_ordinal5535:PPROC
+mfc42u_ordinal5535 equ <__imp_mfc42u_ordinal5535>
+
+externdef __imp_mfc42u_ordinal5536:PPROC
+mfc42u_ordinal5536 equ <__imp_mfc42u_ordinal5536>
+
+externdef __imp_mfc42u_ordinal5537:PPROC
+mfc42u_ordinal5537 equ <__imp_mfc42u_ordinal5537>
+
+externdef __imp_mfc42u_ordinal5538:PPROC
+mfc42u_ordinal5538 equ <__imp_mfc42u_ordinal5538>
+
+externdef __imp_mfc42u_ordinal5539:PPROC
+mfc42u_ordinal5539 equ <__imp_mfc42u_ordinal5539>
+
+externdef __imp_mfc42u_ordinal553:PPROC
+mfc42u_ordinal553 equ <__imp_mfc42u_ordinal553>
+
+externdef __imp_mfc42u_ordinal5540:PPROC
+mfc42u_ordinal5540 equ <__imp_mfc42u_ordinal5540>
+
+externdef __imp_mfc42u_ordinal5541:PPROC
+mfc42u_ordinal5541 equ <__imp_mfc42u_ordinal5541>
+
+externdef __imp_mfc42u_ordinal5542:PPROC
+mfc42u_ordinal5542 equ <__imp_mfc42u_ordinal5542>
+
+externdef __imp_mfc42u_ordinal5543:PPROC
+mfc42u_ordinal5543 equ <__imp_mfc42u_ordinal5543>
+
+externdef __imp_mfc42u_ordinal5544:PPROC
+mfc42u_ordinal5544 equ <__imp_mfc42u_ordinal5544>
+
+externdef __imp_mfc42u_ordinal5545:PPROC
+mfc42u_ordinal5545 equ <__imp_mfc42u_ordinal5545>
+
+externdef __imp_mfc42u_ordinal5546:PPROC
+mfc42u_ordinal5546 equ <__imp_mfc42u_ordinal5546>
+
+externdef __imp_mfc42u_ordinal5547:PPROC
+mfc42u_ordinal5547 equ <__imp_mfc42u_ordinal5547>
+
+externdef __imp_mfc42u_ordinal5548:PPROC
+mfc42u_ordinal5548 equ <__imp_mfc42u_ordinal5548>
+
+externdef __imp_mfc42u_ordinal5549:PPROC
+mfc42u_ordinal5549 equ <__imp_mfc42u_ordinal5549>
+
+externdef __imp_mfc42u_ordinal554:PPROC
+mfc42u_ordinal554 equ <__imp_mfc42u_ordinal554>
+
+externdef __imp_mfc42u_ordinal5550:PPROC
+mfc42u_ordinal5550 equ <__imp_mfc42u_ordinal5550>
+
+externdef __imp_mfc42u_ordinal5551:PPROC
+mfc42u_ordinal5551 equ <__imp_mfc42u_ordinal5551>
+
+externdef __imp_mfc42u_ordinal5552:PPROC
+mfc42u_ordinal5552 equ <__imp_mfc42u_ordinal5552>
+
+externdef __imp_mfc42u_ordinal5553:PPROC
+mfc42u_ordinal5553 equ <__imp_mfc42u_ordinal5553>
+
+externdef __imp_mfc42u_ordinal5554:PPROC
+mfc42u_ordinal5554 equ <__imp_mfc42u_ordinal5554>
+
+externdef __imp_mfc42u_ordinal5555:PPROC
+mfc42u_ordinal5555 equ <__imp_mfc42u_ordinal5555>
+
+externdef __imp_mfc42u_ordinal5556:PPROC
+mfc42u_ordinal5556 equ <__imp_mfc42u_ordinal5556>
+
+externdef __imp_mfc42u_ordinal5557:PPROC
+mfc42u_ordinal5557 equ <__imp_mfc42u_ordinal5557>
+
+externdef __imp_mfc42u_ordinal5558:PPROC
+mfc42u_ordinal5558 equ <__imp_mfc42u_ordinal5558>
+
+externdef __imp_mfc42u_ordinal5559:PPROC
+mfc42u_ordinal5559 equ <__imp_mfc42u_ordinal5559>
+
+externdef __imp_mfc42u_ordinal555:PPROC
+mfc42u_ordinal555 equ <__imp_mfc42u_ordinal555>
+
+externdef __imp_mfc42u_ordinal5560:PPROC
+mfc42u_ordinal5560 equ <__imp_mfc42u_ordinal5560>
+
+externdef __imp_mfc42u_ordinal5561:PPROC
+mfc42u_ordinal5561 equ <__imp_mfc42u_ordinal5561>
+
+externdef __imp_mfc42u_ordinal5562:PPROC
+mfc42u_ordinal5562 equ <__imp_mfc42u_ordinal5562>
+
+externdef __imp_mfc42u_ordinal5563:PPROC
+mfc42u_ordinal5563 equ <__imp_mfc42u_ordinal5563>
+
+externdef __imp_mfc42u_ordinal5564:PPROC
+mfc42u_ordinal5564 equ <__imp_mfc42u_ordinal5564>
+
+externdef __imp_mfc42u_ordinal5565:PPROC
+mfc42u_ordinal5565 equ <__imp_mfc42u_ordinal5565>
+
+externdef __imp_mfc42u_ordinal5566:PPROC
+mfc42u_ordinal5566 equ <__imp_mfc42u_ordinal5566>
+
+externdef __imp_mfc42u_ordinal5567:PPROC
+mfc42u_ordinal5567 equ <__imp_mfc42u_ordinal5567>
+
+externdef __imp_mfc42u_ordinal5568:PPROC
+mfc42u_ordinal5568 equ <__imp_mfc42u_ordinal5568>
+
+externdef __imp_mfc42u_ordinal5569:PPROC
+mfc42u_ordinal5569 equ <__imp_mfc42u_ordinal5569>
+
+externdef __imp_mfc42u_ordinal556:PPROC
+mfc42u_ordinal556 equ <__imp_mfc42u_ordinal556>
+
+externdef __imp_mfc42u_ordinal5570:PPROC
+mfc42u_ordinal5570 equ <__imp_mfc42u_ordinal5570>
+
+externdef __imp_mfc42u_ordinal5571:PPROC
+mfc42u_ordinal5571 equ <__imp_mfc42u_ordinal5571>
+
+externdef __imp_mfc42u_ordinal5572:PPROC
+mfc42u_ordinal5572 equ <__imp_mfc42u_ordinal5572>
+
+externdef __imp_mfc42u_ordinal5573:PPROC
+mfc42u_ordinal5573 equ <__imp_mfc42u_ordinal5573>
+
+externdef __imp_mfc42u_ordinal5574:PPROC
+mfc42u_ordinal5574 equ <__imp_mfc42u_ordinal5574>
+
+externdef __imp_mfc42u_ordinal5575:PPROC
+mfc42u_ordinal5575 equ <__imp_mfc42u_ordinal5575>
+
+externdef __imp_mfc42u_ordinal5576:PPROC
+mfc42u_ordinal5576 equ <__imp_mfc42u_ordinal5576>
+
+externdef __imp_mfc42u_ordinal5577:PPROC
+mfc42u_ordinal5577 equ <__imp_mfc42u_ordinal5577>
+
+externdef __imp_mfc42u_ordinal5578:PPROC
+mfc42u_ordinal5578 equ <__imp_mfc42u_ordinal5578>
+
+externdef __imp_mfc42u_ordinal5579:PPROC
+mfc42u_ordinal5579 equ <__imp_mfc42u_ordinal5579>
+
+externdef __imp_mfc42u_ordinal557:PPROC
+mfc42u_ordinal557 equ <__imp_mfc42u_ordinal557>
+
+externdef __imp_mfc42u_ordinal5580:PPROC
+mfc42u_ordinal5580 equ <__imp_mfc42u_ordinal5580>
+
+externdef __imp_mfc42u_ordinal5581:PPROC
+mfc42u_ordinal5581 equ <__imp_mfc42u_ordinal5581>
+
+externdef __imp_mfc42u_ordinal5582:PPROC
+mfc42u_ordinal5582 equ <__imp_mfc42u_ordinal5582>
+
+externdef __imp_mfc42u_ordinal5583:PPROC
+mfc42u_ordinal5583 equ <__imp_mfc42u_ordinal5583>
+
+externdef __imp_mfc42u_ordinal5584:PPROC
+mfc42u_ordinal5584 equ <__imp_mfc42u_ordinal5584>
+
+externdef __imp_mfc42u_ordinal5585:PPROC
+mfc42u_ordinal5585 equ <__imp_mfc42u_ordinal5585>
+
+externdef __imp_mfc42u_ordinal5586:PPROC
+mfc42u_ordinal5586 equ <__imp_mfc42u_ordinal5586>
+
+externdef __imp_mfc42u_ordinal5587:PPROC
+mfc42u_ordinal5587 equ <__imp_mfc42u_ordinal5587>
+
+externdef __imp_mfc42u_ordinal5588:PPROC
+mfc42u_ordinal5588 equ <__imp_mfc42u_ordinal5588>
+
+externdef __imp_mfc42u_ordinal5589:PPROC
+mfc42u_ordinal5589 equ <__imp_mfc42u_ordinal5589>
+
+externdef __imp_mfc42u_ordinal558:PPROC
+mfc42u_ordinal558 equ <__imp_mfc42u_ordinal558>
+
+externdef __imp_mfc42u_ordinal5590:PPROC
+mfc42u_ordinal5590 equ <__imp_mfc42u_ordinal5590>
+
+externdef __imp_mfc42u_ordinal5591:PPROC
+mfc42u_ordinal5591 equ <__imp_mfc42u_ordinal5591>
+
+externdef __imp_mfc42u_ordinal5592:PPROC
+mfc42u_ordinal5592 equ <__imp_mfc42u_ordinal5592>
+
+externdef __imp_mfc42u_ordinal5593:PPROC
+mfc42u_ordinal5593 equ <__imp_mfc42u_ordinal5593>
+
+externdef __imp_mfc42u_ordinal5594:PPROC
+mfc42u_ordinal5594 equ <__imp_mfc42u_ordinal5594>
+
+externdef __imp_mfc42u_ordinal5595:PPROC
+mfc42u_ordinal5595 equ <__imp_mfc42u_ordinal5595>
+
+externdef __imp_mfc42u_ordinal5596:PPROC
+mfc42u_ordinal5596 equ <__imp_mfc42u_ordinal5596>
+
+externdef __imp_mfc42u_ordinal5597:PPROC
+mfc42u_ordinal5597 equ <__imp_mfc42u_ordinal5597>
+
+externdef __imp_mfc42u_ordinal5598:PPROC
+mfc42u_ordinal5598 equ <__imp_mfc42u_ordinal5598>
+
+externdef __imp_mfc42u_ordinal5599:PPROC
+mfc42u_ordinal5599 equ <__imp_mfc42u_ordinal5599>
+
+externdef __imp_mfc42u_ordinal559:PPROC
+mfc42u_ordinal559 equ <__imp_mfc42u_ordinal559>
+
+externdef __imp_mfc42u_ordinal55:PPROC
+mfc42u_ordinal55 equ <__imp_mfc42u_ordinal55>
+
+externdef __imp_mfc42u_ordinal5600:PPROC
+mfc42u_ordinal5600 equ <__imp_mfc42u_ordinal5600>
+
+externdef __imp_mfc42u_ordinal5601:PPROC
+mfc42u_ordinal5601 equ <__imp_mfc42u_ordinal5601>
+
+externdef __imp_mfc42u_ordinal5602:PPROC
+mfc42u_ordinal5602 equ <__imp_mfc42u_ordinal5602>
+
+externdef __imp_mfc42u_ordinal5603:PPROC
+mfc42u_ordinal5603 equ <__imp_mfc42u_ordinal5603>
+
+externdef __imp_mfc42u_ordinal5604:PPROC
+mfc42u_ordinal5604 equ <__imp_mfc42u_ordinal5604>
+
+externdef __imp_mfc42u_ordinal5605:PPROC
+mfc42u_ordinal5605 equ <__imp_mfc42u_ordinal5605>
+
+externdef __imp_mfc42u_ordinal5606:PPROC
+mfc42u_ordinal5606 equ <__imp_mfc42u_ordinal5606>
+
+externdef __imp_mfc42u_ordinal5607:PPROC
+mfc42u_ordinal5607 equ <__imp_mfc42u_ordinal5607>
+
+externdef __imp_mfc42u_ordinal5608:PPROC
+mfc42u_ordinal5608 equ <__imp_mfc42u_ordinal5608>
+
+externdef __imp_mfc42u_ordinal5609:PPROC
+mfc42u_ordinal5609 equ <__imp_mfc42u_ordinal5609>
+
+externdef __imp_mfc42u_ordinal560:PPROC
+mfc42u_ordinal560 equ <__imp_mfc42u_ordinal560>
+
+externdef __imp_mfc42u_ordinal5610:PPROC
+mfc42u_ordinal5610 equ <__imp_mfc42u_ordinal5610>
+
+externdef __imp_mfc42u_ordinal5611:PPROC
+mfc42u_ordinal5611 equ <__imp_mfc42u_ordinal5611>
+
+externdef __imp_mfc42u_ordinal5612:PPROC
+mfc42u_ordinal5612 equ <__imp_mfc42u_ordinal5612>
+
+externdef __imp_mfc42u_ordinal5613:PPROC
+mfc42u_ordinal5613 equ <__imp_mfc42u_ordinal5613>
+
+externdef __imp_mfc42u_ordinal5614:PPROC
+mfc42u_ordinal5614 equ <__imp_mfc42u_ordinal5614>
+
+externdef __imp_mfc42u_ordinal5615:PPROC
+mfc42u_ordinal5615 equ <__imp_mfc42u_ordinal5615>
+
+externdef __imp_mfc42u_ordinal5616:PPROC
+mfc42u_ordinal5616 equ <__imp_mfc42u_ordinal5616>
+
+externdef __imp_mfc42u_ordinal5617:PPROC
+mfc42u_ordinal5617 equ <__imp_mfc42u_ordinal5617>
+
+externdef __imp_mfc42u_ordinal5618:PPROC
+mfc42u_ordinal5618 equ <__imp_mfc42u_ordinal5618>
+
+externdef __imp_mfc42u_ordinal5619:PPROC
+mfc42u_ordinal5619 equ <__imp_mfc42u_ordinal5619>
+
+externdef __imp_mfc42u_ordinal561:PPROC
+mfc42u_ordinal561 equ <__imp_mfc42u_ordinal561>
+
+externdef __imp_mfc42u_ordinal5620:PPROC
+mfc42u_ordinal5620 equ <__imp_mfc42u_ordinal5620>
+
+externdef __imp_mfc42u_ordinal5621:PPROC
+mfc42u_ordinal5621 equ <__imp_mfc42u_ordinal5621>
+
+externdef __imp_mfc42u_ordinal5622:PPROC
+mfc42u_ordinal5622 equ <__imp_mfc42u_ordinal5622>
+
+externdef __imp_mfc42u_ordinal5623:PPROC
+mfc42u_ordinal5623 equ <__imp_mfc42u_ordinal5623>
+
+externdef __imp_mfc42u_ordinal5624:PPROC
+mfc42u_ordinal5624 equ <__imp_mfc42u_ordinal5624>
+
+externdef __imp_mfc42u_ordinal5625:PPROC
+mfc42u_ordinal5625 equ <__imp_mfc42u_ordinal5625>
+
+externdef __imp_mfc42u_ordinal5626:PPROC
+mfc42u_ordinal5626 equ <__imp_mfc42u_ordinal5626>
+
+externdef __imp_mfc42u_ordinal5627:PPROC
+mfc42u_ordinal5627 equ <__imp_mfc42u_ordinal5627>
+
+externdef __imp_mfc42u_ordinal5628:PPROC
+mfc42u_ordinal5628 equ <__imp_mfc42u_ordinal5628>
+
+externdef __imp_mfc42u_ordinal5629:PPROC
+mfc42u_ordinal5629 equ <__imp_mfc42u_ordinal5629>
+
+externdef __imp_mfc42u_ordinal562:PPROC
+mfc42u_ordinal562 equ <__imp_mfc42u_ordinal562>
+
+externdef __imp_mfc42u_ordinal5630:PPROC
+mfc42u_ordinal5630 equ <__imp_mfc42u_ordinal5630>
+
+externdef __imp_mfc42u_ordinal5631:PPROC
+mfc42u_ordinal5631 equ <__imp_mfc42u_ordinal5631>
+
+externdef __imp_mfc42u_ordinal5632:PPROC
+mfc42u_ordinal5632 equ <__imp_mfc42u_ordinal5632>
+
+externdef __imp_mfc42u_ordinal5633:PPROC
+mfc42u_ordinal5633 equ <__imp_mfc42u_ordinal5633>
+
+externdef __imp_mfc42u_ordinal5634:PPROC
+mfc42u_ordinal5634 equ <__imp_mfc42u_ordinal5634>
+
+externdef __imp_mfc42u_ordinal5635:PPROC
+mfc42u_ordinal5635 equ <__imp_mfc42u_ordinal5635>
+
+externdef __imp_mfc42u_ordinal5636:PPROC
+mfc42u_ordinal5636 equ <__imp_mfc42u_ordinal5636>
+
+externdef __imp_mfc42u_ordinal5637:PPROC
+mfc42u_ordinal5637 equ <__imp_mfc42u_ordinal5637>
+
+externdef __imp_mfc42u_ordinal5638:PPROC
+mfc42u_ordinal5638 equ <__imp_mfc42u_ordinal5638>
+
+externdef __imp_mfc42u_ordinal5639:PPROC
+mfc42u_ordinal5639 equ <__imp_mfc42u_ordinal5639>
+
+externdef __imp_mfc42u_ordinal563:PPROC
+mfc42u_ordinal563 equ <__imp_mfc42u_ordinal563>
+
+externdef __imp_mfc42u_ordinal5640:PPROC
+mfc42u_ordinal5640 equ <__imp_mfc42u_ordinal5640>
+
+externdef __imp_mfc42u_ordinal5641:PPROC
+mfc42u_ordinal5641 equ <__imp_mfc42u_ordinal5641>
+
+externdef __imp_mfc42u_ordinal5642:PPROC
+mfc42u_ordinal5642 equ <__imp_mfc42u_ordinal5642>
+
+externdef __imp_mfc42u_ordinal5643:PPROC
+mfc42u_ordinal5643 equ <__imp_mfc42u_ordinal5643>
+
+externdef __imp_mfc42u_ordinal5644:PPROC
+mfc42u_ordinal5644 equ <__imp_mfc42u_ordinal5644>
+
+externdef __imp_mfc42u_ordinal5645:PPROC
+mfc42u_ordinal5645 equ <__imp_mfc42u_ordinal5645>
+
+externdef __imp_mfc42u_ordinal5646:PPROC
+mfc42u_ordinal5646 equ <__imp_mfc42u_ordinal5646>
+
+externdef __imp_mfc42u_ordinal5647:PPROC
+mfc42u_ordinal5647 equ <__imp_mfc42u_ordinal5647>
+
+externdef __imp_mfc42u_ordinal5648:PPROC
+mfc42u_ordinal5648 equ <__imp_mfc42u_ordinal5648>
+
+externdef __imp_mfc42u_ordinal5649:PPROC
+mfc42u_ordinal5649 equ <__imp_mfc42u_ordinal5649>
+
+externdef __imp_mfc42u_ordinal564:PPROC
+mfc42u_ordinal564 equ <__imp_mfc42u_ordinal564>
+
+externdef __imp_mfc42u_ordinal5650:PPROC
+mfc42u_ordinal5650 equ <__imp_mfc42u_ordinal5650>
+
+externdef __imp_mfc42u_ordinal5651:PPROC
+mfc42u_ordinal5651 equ <__imp_mfc42u_ordinal5651>
+
+externdef __imp_mfc42u_ordinal5652:PPROC
+mfc42u_ordinal5652 equ <__imp_mfc42u_ordinal5652>
+
+externdef __imp_mfc42u_ordinal5653:PPROC
+mfc42u_ordinal5653 equ <__imp_mfc42u_ordinal5653>
+
+externdef __imp_mfc42u_ordinal5654:PPROC
+mfc42u_ordinal5654 equ <__imp_mfc42u_ordinal5654>
+
+externdef __imp_mfc42u_ordinal5655:PPROC
+mfc42u_ordinal5655 equ <__imp_mfc42u_ordinal5655>
+
+externdef __imp_mfc42u_ordinal5656:PPROC
+mfc42u_ordinal5656 equ <__imp_mfc42u_ordinal5656>
+
+externdef __imp_mfc42u_ordinal5657:PPROC
+mfc42u_ordinal5657 equ <__imp_mfc42u_ordinal5657>
+
+externdef __imp_mfc42u_ordinal5658:PPROC
+mfc42u_ordinal5658 equ <__imp_mfc42u_ordinal5658>
+
+externdef __imp_mfc42u_ordinal5659:PPROC
+mfc42u_ordinal5659 equ <__imp_mfc42u_ordinal5659>
+
+externdef __imp_mfc42u_ordinal565:PPROC
+mfc42u_ordinal565 equ <__imp_mfc42u_ordinal565>
+
+externdef __imp_mfc42u_ordinal5660:PPROC
+mfc42u_ordinal5660 equ <__imp_mfc42u_ordinal5660>
+
+externdef __imp_mfc42u_ordinal5661:PPROC
+mfc42u_ordinal5661 equ <__imp_mfc42u_ordinal5661>
+
+externdef __imp_mfc42u_ordinal5662:PPROC
+mfc42u_ordinal5662 equ <__imp_mfc42u_ordinal5662>
+
+externdef __imp_mfc42u_ordinal5663:PPROC
+mfc42u_ordinal5663 equ <__imp_mfc42u_ordinal5663>
+
+externdef __imp_mfc42u_ordinal5664:PPROC
+mfc42u_ordinal5664 equ <__imp_mfc42u_ordinal5664>
+
+externdef __imp_mfc42u_ordinal5665:PPROC
+mfc42u_ordinal5665 equ <__imp_mfc42u_ordinal5665>
+
+externdef __imp_mfc42u_ordinal5666:PPROC
+mfc42u_ordinal5666 equ <__imp_mfc42u_ordinal5666>
+
+externdef __imp_mfc42u_ordinal5667:PPROC
+mfc42u_ordinal5667 equ <__imp_mfc42u_ordinal5667>
+
+externdef __imp_mfc42u_ordinal5668:PPROC
+mfc42u_ordinal5668 equ <__imp_mfc42u_ordinal5668>
+
+externdef __imp_mfc42u_ordinal5669:PPROC
+mfc42u_ordinal5669 equ <__imp_mfc42u_ordinal5669>
+
+externdef __imp_mfc42u_ordinal566:PPROC
+mfc42u_ordinal566 equ <__imp_mfc42u_ordinal566>
+
+externdef __imp_mfc42u_ordinal5670:PPROC
+mfc42u_ordinal5670 equ <__imp_mfc42u_ordinal5670>
+
+externdef __imp_mfc42u_ordinal5671:PPROC
+mfc42u_ordinal5671 equ <__imp_mfc42u_ordinal5671>
+
+externdef __imp_mfc42u_ordinal5672:PPROC
+mfc42u_ordinal5672 equ <__imp_mfc42u_ordinal5672>
+
+externdef __imp_mfc42u_ordinal5673:PPROC
+mfc42u_ordinal5673 equ <__imp_mfc42u_ordinal5673>
+
+externdef __imp_mfc42u_ordinal5674:PPROC
+mfc42u_ordinal5674 equ <__imp_mfc42u_ordinal5674>
+
+externdef __imp_mfc42u_ordinal5675:PPROC
+mfc42u_ordinal5675 equ <__imp_mfc42u_ordinal5675>
+
+externdef __imp_mfc42u_ordinal5676:PPROC
+mfc42u_ordinal5676 equ <__imp_mfc42u_ordinal5676>
+
+externdef __imp_mfc42u_ordinal5677:PPROC
+mfc42u_ordinal5677 equ <__imp_mfc42u_ordinal5677>
+
+externdef __imp_mfc42u_ordinal5678:PPROC
+mfc42u_ordinal5678 equ <__imp_mfc42u_ordinal5678>
+
+externdef __imp_mfc42u_ordinal5679:PPROC
+mfc42u_ordinal5679 equ <__imp_mfc42u_ordinal5679>
+
+externdef __imp_mfc42u_ordinal567:PPROC
+mfc42u_ordinal567 equ <__imp_mfc42u_ordinal567>
+
+externdef __imp_mfc42u_ordinal5680:PPROC
+mfc42u_ordinal5680 equ <__imp_mfc42u_ordinal5680>
+
+externdef __imp_mfc42u_ordinal5681:PPROC
+mfc42u_ordinal5681 equ <__imp_mfc42u_ordinal5681>
+
+externdef __imp_mfc42u_ordinal5682:PPROC
+mfc42u_ordinal5682 equ <__imp_mfc42u_ordinal5682>
+
+externdef __imp_mfc42u_ordinal5683:PPROC
+mfc42u_ordinal5683 equ <__imp_mfc42u_ordinal5683>
+
+externdef __imp_mfc42u_ordinal5684:PPROC
+mfc42u_ordinal5684 equ <__imp_mfc42u_ordinal5684>
+
+externdef __imp_mfc42u_ordinal5685:PPROC
+mfc42u_ordinal5685 equ <__imp_mfc42u_ordinal5685>
+
+externdef __imp_mfc42u_ordinal5686:PPROC
+mfc42u_ordinal5686 equ <__imp_mfc42u_ordinal5686>
+
+externdef __imp_mfc42u_ordinal5687:PPROC
+mfc42u_ordinal5687 equ <__imp_mfc42u_ordinal5687>
+
+externdef __imp_mfc42u_ordinal5688:PPROC
+mfc42u_ordinal5688 equ <__imp_mfc42u_ordinal5688>
+
+externdef __imp_mfc42u_ordinal5689:PPROC
+mfc42u_ordinal5689 equ <__imp_mfc42u_ordinal5689>
+
+externdef __imp_mfc42u_ordinal568:PPROC
+mfc42u_ordinal568 equ <__imp_mfc42u_ordinal568>
+
+externdef __imp_mfc42u_ordinal5690:PPROC
+mfc42u_ordinal5690 equ <__imp_mfc42u_ordinal5690>
+
+externdef __imp_mfc42u_ordinal5691:PPROC
+mfc42u_ordinal5691 equ <__imp_mfc42u_ordinal5691>
+
+externdef __imp_mfc42u_ordinal5692:PPROC
+mfc42u_ordinal5692 equ <__imp_mfc42u_ordinal5692>
+
+externdef __imp_mfc42u_ordinal5693:PPROC
+mfc42u_ordinal5693 equ <__imp_mfc42u_ordinal5693>
+
+externdef __imp_mfc42u_ordinal5694:PPROC
+mfc42u_ordinal5694 equ <__imp_mfc42u_ordinal5694>
+
+externdef __imp_mfc42u_ordinal5695:PPROC
+mfc42u_ordinal5695 equ <__imp_mfc42u_ordinal5695>
+
+externdef __imp_mfc42u_ordinal5696:PPROC
+mfc42u_ordinal5696 equ <__imp_mfc42u_ordinal5696>
+
+externdef __imp_mfc42u_ordinal5697:PPROC
+mfc42u_ordinal5697 equ <__imp_mfc42u_ordinal5697>
+
+externdef __imp_mfc42u_ordinal5698:PPROC
+mfc42u_ordinal5698 equ <__imp_mfc42u_ordinal5698>
+
+externdef __imp_mfc42u_ordinal5699:PPROC
+mfc42u_ordinal5699 equ <__imp_mfc42u_ordinal5699>
+
+externdef __imp_mfc42u_ordinal569:PPROC
+mfc42u_ordinal569 equ <__imp_mfc42u_ordinal569>
+
+externdef __imp_mfc42u_ordinal56:PPROC
+mfc42u_ordinal56 equ <__imp_mfc42u_ordinal56>
+
+externdef __imp_mfc42u_ordinal5700:PPROC
+mfc42u_ordinal5700 equ <__imp_mfc42u_ordinal5700>
+
+externdef __imp_mfc42u_ordinal5701:PPROC
+mfc42u_ordinal5701 equ <__imp_mfc42u_ordinal5701>
+
+externdef __imp_mfc42u_ordinal5702:PPROC
+mfc42u_ordinal5702 equ <__imp_mfc42u_ordinal5702>
+
+externdef __imp_mfc42u_ordinal5703:PPROC
+mfc42u_ordinal5703 equ <__imp_mfc42u_ordinal5703>
+
+externdef __imp_mfc42u_ordinal5704:PPROC
+mfc42u_ordinal5704 equ <__imp_mfc42u_ordinal5704>
+
+externdef __imp_mfc42u_ordinal5705:PPROC
+mfc42u_ordinal5705 equ <__imp_mfc42u_ordinal5705>
+
+externdef __imp_mfc42u_ordinal5706:PPROC
+mfc42u_ordinal5706 equ <__imp_mfc42u_ordinal5706>
+
+externdef __imp_mfc42u_ordinal5707:PPROC
+mfc42u_ordinal5707 equ <__imp_mfc42u_ordinal5707>
+
+externdef __imp_mfc42u_ordinal5708:PPROC
+mfc42u_ordinal5708 equ <__imp_mfc42u_ordinal5708>
+
+externdef __imp_mfc42u_ordinal5709:PPROC
+mfc42u_ordinal5709 equ <__imp_mfc42u_ordinal5709>
+
+externdef __imp_mfc42u_ordinal570:PPROC
+mfc42u_ordinal570 equ <__imp_mfc42u_ordinal570>
+
+externdef __imp_mfc42u_ordinal5710:PPROC
+mfc42u_ordinal5710 equ <__imp_mfc42u_ordinal5710>
+
+externdef __imp_mfc42u_ordinal5711:PPROC
+mfc42u_ordinal5711 equ <__imp_mfc42u_ordinal5711>
+
+externdef __imp_mfc42u_ordinal5712:PPROC
+mfc42u_ordinal5712 equ <__imp_mfc42u_ordinal5712>
+
+externdef __imp_mfc42u_ordinal5713:PPROC
+mfc42u_ordinal5713 equ <__imp_mfc42u_ordinal5713>
+
+externdef __imp_mfc42u_ordinal5714:PPROC
+mfc42u_ordinal5714 equ <__imp_mfc42u_ordinal5714>
+
+externdef __imp_mfc42u_ordinal5715:PPROC
+mfc42u_ordinal5715 equ <__imp_mfc42u_ordinal5715>
+
+externdef __imp_mfc42u_ordinal5716:PPROC
+mfc42u_ordinal5716 equ <__imp_mfc42u_ordinal5716>
+
+externdef __imp_mfc42u_ordinal5717:PPROC
+mfc42u_ordinal5717 equ <__imp_mfc42u_ordinal5717>
+
+externdef __imp_mfc42u_ordinal5718:PPROC
+mfc42u_ordinal5718 equ <__imp_mfc42u_ordinal5718>
+
+externdef __imp_mfc42u_ordinal5719:PPROC
+mfc42u_ordinal5719 equ <__imp_mfc42u_ordinal5719>
+
+externdef __imp_mfc42u_ordinal571:PPROC
+mfc42u_ordinal571 equ <__imp_mfc42u_ordinal571>
+
+externdef __imp_mfc42u_ordinal5720:PPROC
+mfc42u_ordinal5720 equ <__imp_mfc42u_ordinal5720>
+
+externdef __imp_mfc42u_ordinal5721:PPROC
+mfc42u_ordinal5721 equ <__imp_mfc42u_ordinal5721>
+
+externdef __imp_mfc42u_ordinal5722:PPROC
+mfc42u_ordinal5722 equ <__imp_mfc42u_ordinal5722>
+
+externdef __imp_mfc42u_ordinal5723:PPROC
+mfc42u_ordinal5723 equ <__imp_mfc42u_ordinal5723>
+
+externdef __imp_mfc42u_ordinal5724:PPROC
+mfc42u_ordinal5724 equ <__imp_mfc42u_ordinal5724>
+
+externdef __imp_mfc42u_ordinal5725:PPROC
+mfc42u_ordinal5725 equ <__imp_mfc42u_ordinal5725>
+
+externdef __imp_mfc42u_ordinal5726:PPROC
+mfc42u_ordinal5726 equ <__imp_mfc42u_ordinal5726>
+
+externdef __imp_mfc42u_ordinal5727:PPROC
+mfc42u_ordinal5727 equ <__imp_mfc42u_ordinal5727>
+
+externdef __imp_mfc42u_ordinal5728:PPROC
+mfc42u_ordinal5728 equ <__imp_mfc42u_ordinal5728>
+
+externdef __imp_mfc42u_ordinal5729:PPROC
+mfc42u_ordinal5729 equ <__imp_mfc42u_ordinal5729>
+
+externdef __imp_mfc42u_ordinal572:PPROC
+mfc42u_ordinal572 equ <__imp_mfc42u_ordinal572>
+
+externdef __imp_mfc42u_ordinal5730:PPROC
+mfc42u_ordinal5730 equ <__imp_mfc42u_ordinal5730>
+
+externdef __imp_mfc42u_ordinal5731:PPROC
+mfc42u_ordinal5731 equ <__imp_mfc42u_ordinal5731>
+
+externdef __imp_mfc42u_ordinal5732:PPROC
+mfc42u_ordinal5732 equ <__imp_mfc42u_ordinal5732>
+
+externdef __imp_mfc42u_ordinal5733:PPROC
+mfc42u_ordinal5733 equ <__imp_mfc42u_ordinal5733>
+
+externdef __imp_mfc42u_ordinal5734:PPROC
+mfc42u_ordinal5734 equ <__imp_mfc42u_ordinal5734>
+
+externdef __imp_mfc42u_ordinal5735:PPROC
+mfc42u_ordinal5735 equ <__imp_mfc42u_ordinal5735>
+
+externdef __imp_mfc42u_ordinal5736:PPROC
+mfc42u_ordinal5736 equ <__imp_mfc42u_ordinal5736>
+
+externdef __imp_mfc42u_ordinal5737:PPROC
+mfc42u_ordinal5737 equ <__imp_mfc42u_ordinal5737>
+
+externdef __imp_mfc42u_ordinal5738:PPROC
+mfc42u_ordinal5738 equ <__imp_mfc42u_ordinal5738>
+
+externdef __imp_mfc42u_ordinal5739:PPROC
+mfc42u_ordinal5739 equ <__imp_mfc42u_ordinal5739>
+
+externdef __imp_mfc42u_ordinal573:PPROC
+mfc42u_ordinal573 equ <__imp_mfc42u_ordinal573>
+
+externdef __imp_mfc42u_ordinal5740:PPROC
+mfc42u_ordinal5740 equ <__imp_mfc42u_ordinal5740>
+
+externdef __imp_mfc42u_ordinal5741:PPROC
+mfc42u_ordinal5741 equ <__imp_mfc42u_ordinal5741>
+
+externdef __imp_mfc42u_ordinal5742:PPROC
+mfc42u_ordinal5742 equ <__imp_mfc42u_ordinal5742>
+
+externdef __imp_mfc42u_ordinal5743:PPROC
+mfc42u_ordinal5743 equ <__imp_mfc42u_ordinal5743>
+
+externdef __imp_mfc42u_ordinal5744:PPROC
+mfc42u_ordinal5744 equ <__imp_mfc42u_ordinal5744>
+
+externdef __imp_mfc42u_ordinal5745:PPROC
+mfc42u_ordinal5745 equ <__imp_mfc42u_ordinal5745>
+
+externdef __imp_mfc42u_ordinal5746:PPROC
+mfc42u_ordinal5746 equ <__imp_mfc42u_ordinal5746>
+
+externdef __imp_mfc42u_ordinal5747:PPROC
+mfc42u_ordinal5747 equ <__imp_mfc42u_ordinal5747>
+
+externdef __imp_mfc42u_ordinal5748:PPROC
+mfc42u_ordinal5748 equ <__imp_mfc42u_ordinal5748>
+
+externdef __imp_mfc42u_ordinal5749:PPROC
+mfc42u_ordinal5749 equ <__imp_mfc42u_ordinal5749>
+
+externdef __imp_mfc42u_ordinal574:PPROC
+mfc42u_ordinal574 equ <__imp_mfc42u_ordinal574>
+
+externdef __imp_mfc42u_ordinal5750:PPROC
+mfc42u_ordinal5750 equ <__imp_mfc42u_ordinal5750>
+
+externdef __imp_mfc42u_ordinal5751:PPROC
+mfc42u_ordinal5751 equ <__imp_mfc42u_ordinal5751>
+
+externdef __imp_mfc42u_ordinal5752:PPROC
+mfc42u_ordinal5752 equ <__imp_mfc42u_ordinal5752>
+
+externdef __imp_mfc42u_ordinal5753:PPROC
+mfc42u_ordinal5753 equ <__imp_mfc42u_ordinal5753>
+
+externdef __imp_mfc42u_ordinal5754:PPROC
+mfc42u_ordinal5754 equ <__imp_mfc42u_ordinal5754>
+
+externdef __imp_mfc42u_ordinal5755:PPROC
+mfc42u_ordinal5755 equ <__imp_mfc42u_ordinal5755>
+
+externdef __imp_mfc42u_ordinal5756:PPROC
+mfc42u_ordinal5756 equ <__imp_mfc42u_ordinal5756>
+
+externdef __imp_mfc42u_ordinal5757:PPROC
+mfc42u_ordinal5757 equ <__imp_mfc42u_ordinal5757>
+
+externdef __imp_mfc42u_ordinal5758:PPROC
+mfc42u_ordinal5758 equ <__imp_mfc42u_ordinal5758>
+
+externdef __imp_mfc42u_ordinal5759:PPROC
+mfc42u_ordinal5759 equ <__imp_mfc42u_ordinal5759>
+
+externdef __imp_mfc42u_ordinal575:PPROC
+mfc42u_ordinal575 equ <__imp_mfc42u_ordinal575>
+
+externdef __imp_mfc42u_ordinal5760:PPROC
+mfc42u_ordinal5760 equ <__imp_mfc42u_ordinal5760>
+
+externdef __imp_mfc42u_ordinal5761:PPROC
+mfc42u_ordinal5761 equ <__imp_mfc42u_ordinal5761>
+
+externdef __imp_mfc42u_ordinal5762:PPROC
+mfc42u_ordinal5762 equ <__imp_mfc42u_ordinal5762>
+
+externdef __imp_mfc42u_ordinal5763:PPROC
+mfc42u_ordinal5763 equ <__imp_mfc42u_ordinal5763>
+
+externdef __imp_mfc42u_ordinal5764:PPROC
+mfc42u_ordinal5764 equ <__imp_mfc42u_ordinal5764>
+
+externdef __imp_mfc42u_ordinal5765:PPROC
+mfc42u_ordinal5765 equ <__imp_mfc42u_ordinal5765>
+
+externdef __imp_mfc42u_ordinal5766:PPROC
+mfc42u_ordinal5766 equ <__imp_mfc42u_ordinal5766>
+
+externdef __imp_mfc42u_ordinal5767:PPROC
+mfc42u_ordinal5767 equ <__imp_mfc42u_ordinal5767>
+
+externdef __imp_mfc42u_ordinal5768:PPROC
+mfc42u_ordinal5768 equ <__imp_mfc42u_ordinal5768>
+
+externdef __imp_mfc42u_ordinal5769:PPROC
+mfc42u_ordinal5769 equ <__imp_mfc42u_ordinal5769>
+
+externdef __imp_mfc42u_ordinal576:PPROC
+mfc42u_ordinal576 equ <__imp_mfc42u_ordinal576>
+
+externdef __imp_mfc42u_ordinal5770:PPROC
+mfc42u_ordinal5770 equ <__imp_mfc42u_ordinal5770>
+
+externdef __imp_mfc42u_ordinal5771:PPROC
+mfc42u_ordinal5771 equ <__imp_mfc42u_ordinal5771>
+
+externdef __imp_mfc42u_ordinal5772:PPROC
+mfc42u_ordinal5772 equ <__imp_mfc42u_ordinal5772>
+
+externdef __imp_mfc42u_ordinal5773:PPROC
+mfc42u_ordinal5773 equ <__imp_mfc42u_ordinal5773>
+
+externdef __imp_mfc42u_ordinal5774:PPROC
+mfc42u_ordinal5774 equ <__imp_mfc42u_ordinal5774>
+
+externdef __imp_mfc42u_ordinal5775:PPROC
+mfc42u_ordinal5775 equ <__imp_mfc42u_ordinal5775>
+
+externdef __imp_mfc42u_ordinal5776:PPROC
+mfc42u_ordinal5776 equ <__imp_mfc42u_ordinal5776>
+
+externdef __imp_mfc42u_ordinal5777:PPROC
+mfc42u_ordinal5777 equ <__imp_mfc42u_ordinal5777>
+
+externdef __imp_mfc42u_ordinal5778:PPROC
+mfc42u_ordinal5778 equ <__imp_mfc42u_ordinal5778>
+
+externdef __imp_mfc42u_ordinal5779:PPROC
+mfc42u_ordinal5779 equ <__imp_mfc42u_ordinal5779>
+
+externdef __imp_mfc42u_ordinal577:PPROC
+mfc42u_ordinal577 equ <__imp_mfc42u_ordinal577>
+
+externdef __imp_mfc42u_ordinal5780:PPROC
+mfc42u_ordinal5780 equ <__imp_mfc42u_ordinal5780>
+
+externdef __imp_mfc42u_ordinal5781:PPROC
+mfc42u_ordinal5781 equ <__imp_mfc42u_ordinal5781>
+
+externdef __imp_mfc42u_ordinal5782:PPROC
+mfc42u_ordinal5782 equ <__imp_mfc42u_ordinal5782>
+
+externdef __imp_mfc42u_ordinal5783:PPROC
+mfc42u_ordinal5783 equ <__imp_mfc42u_ordinal5783>
+
+externdef __imp_mfc42u_ordinal5784:PPROC
+mfc42u_ordinal5784 equ <__imp_mfc42u_ordinal5784>
+
+externdef __imp_mfc42u_ordinal5785:PPROC
+mfc42u_ordinal5785 equ <__imp_mfc42u_ordinal5785>
+
+externdef __imp_mfc42u_ordinal5786:PPROC
+mfc42u_ordinal5786 equ <__imp_mfc42u_ordinal5786>
+
+externdef __imp_mfc42u_ordinal5787:PPROC
+mfc42u_ordinal5787 equ <__imp_mfc42u_ordinal5787>
+
+externdef __imp_mfc42u_ordinal5788:PPROC
+mfc42u_ordinal5788 equ <__imp_mfc42u_ordinal5788>
+
+externdef __imp_mfc42u_ordinal5789:PPROC
+mfc42u_ordinal5789 equ <__imp_mfc42u_ordinal5789>
+
+externdef __imp_mfc42u_ordinal578:PPROC
+mfc42u_ordinal578 equ <__imp_mfc42u_ordinal578>
+
+externdef __imp_mfc42u_ordinal5790:PPROC
+mfc42u_ordinal5790 equ <__imp_mfc42u_ordinal5790>
+
+externdef __imp_mfc42u_ordinal5791:PPROC
+mfc42u_ordinal5791 equ <__imp_mfc42u_ordinal5791>
+
+externdef __imp_mfc42u_ordinal5792:PPROC
+mfc42u_ordinal5792 equ <__imp_mfc42u_ordinal5792>
+
+externdef __imp_mfc42u_ordinal5793:PPROC
+mfc42u_ordinal5793 equ <__imp_mfc42u_ordinal5793>
+
+externdef __imp_mfc42u_ordinal5794:PPROC
+mfc42u_ordinal5794 equ <__imp_mfc42u_ordinal5794>
+
+externdef __imp_mfc42u_ordinal5795:PPROC
+mfc42u_ordinal5795 equ <__imp_mfc42u_ordinal5795>
+
+externdef __imp_mfc42u_ordinal5796:PPROC
+mfc42u_ordinal5796 equ <__imp_mfc42u_ordinal5796>
+
+externdef __imp_mfc42u_ordinal5797:PPROC
+mfc42u_ordinal5797 equ <__imp_mfc42u_ordinal5797>
+
+externdef __imp_mfc42u_ordinal5798:PPROC
+mfc42u_ordinal5798 equ <__imp_mfc42u_ordinal5798>
+
+externdef __imp_mfc42u_ordinal5799:PPROC
+mfc42u_ordinal5799 equ <__imp_mfc42u_ordinal5799>
+
+externdef __imp_mfc42u_ordinal579:PPROC
+mfc42u_ordinal579 equ <__imp_mfc42u_ordinal579>
+
+externdef __imp_mfc42u_ordinal57:PPROC
+mfc42u_ordinal57 equ <__imp_mfc42u_ordinal57>
+
+externdef __imp_mfc42u_ordinal5800:PPROC
+mfc42u_ordinal5800 equ <__imp_mfc42u_ordinal5800>
+
+externdef __imp_mfc42u_ordinal5801:PPROC
+mfc42u_ordinal5801 equ <__imp_mfc42u_ordinal5801>
+
+externdef __imp_mfc42u_ordinal5802:PPROC
+mfc42u_ordinal5802 equ <__imp_mfc42u_ordinal5802>
+
+externdef __imp_mfc42u_ordinal5803:PPROC
+mfc42u_ordinal5803 equ <__imp_mfc42u_ordinal5803>
+
+externdef __imp_mfc42u_ordinal5804:PPROC
+mfc42u_ordinal5804 equ <__imp_mfc42u_ordinal5804>
+
+externdef __imp_mfc42u_ordinal5805:PPROC
+mfc42u_ordinal5805 equ <__imp_mfc42u_ordinal5805>
+
+externdef __imp_mfc42u_ordinal5806:PPROC
+mfc42u_ordinal5806 equ <__imp_mfc42u_ordinal5806>
+
+externdef __imp_mfc42u_ordinal5807:PPROC
+mfc42u_ordinal5807 equ <__imp_mfc42u_ordinal5807>
+
+externdef __imp_mfc42u_ordinal5808:PPROC
+mfc42u_ordinal5808 equ <__imp_mfc42u_ordinal5808>
+
+externdef __imp_mfc42u_ordinal5809:PPROC
+mfc42u_ordinal5809 equ <__imp_mfc42u_ordinal5809>
+
+externdef __imp_mfc42u_ordinal580:PPROC
+mfc42u_ordinal580 equ <__imp_mfc42u_ordinal580>
+
+externdef __imp_mfc42u_ordinal5810:PPROC
+mfc42u_ordinal5810 equ <__imp_mfc42u_ordinal5810>
+
+externdef __imp_mfc42u_ordinal5811:PPROC
+mfc42u_ordinal5811 equ <__imp_mfc42u_ordinal5811>
+
+externdef __imp_mfc42u_ordinal5812:PPROC
+mfc42u_ordinal5812 equ <__imp_mfc42u_ordinal5812>
+
+externdef __imp_mfc42u_ordinal5813:PPROC
+mfc42u_ordinal5813 equ <__imp_mfc42u_ordinal5813>
+
+externdef __imp_mfc42u_ordinal5814:PPROC
+mfc42u_ordinal5814 equ <__imp_mfc42u_ordinal5814>
+
+externdef __imp_mfc42u_ordinal5815:PPROC
+mfc42u_ordinal5815 equ <__imp_mfc42u_ordinal5815>
+
+externdef __imp_mfc42u_ordinal5816:PPROC
+mfc42u_ordinal5816 equ <__imp_mfc42u_ordinal5816>
+
+externdef __imp_mfc42u_ordinal5817:PPROC
+mfc42u_ordinal5817 equ <__imp_mfc42u_ordinal5817>
+
+externdef __imp_mfc42u_ordinal5818:PPROC
+mfc42u_ordinal5818 equ <__imp_mfc42u_ordinal5818>
+
+externdef __imp_mfc42u_ordinal5819:PPROC
+mfc42u_ordinal5819 equ <__imp_mfc42u_ordinal5819>
+
+externdef __imp_mfc42u_ordinal581:PPROC
+mfc42u_ordinal581 equ <__imp_mfc42u_ordinal581>
+
+externdef __imp_mfc42u_ordinal5820:PPROC
+mfc42u_ordinal5820 equ <__imp_mfc42u_ordinal5820>
+
+externdef __imp_mfc42u_ordinal5821:PPROC
+mfc42u_ordinal5821 equ <__imp_mfc42u_ordinal5821>
+
+externdef __imp_mfc42u_ordinal5822:PPROC
+mfc42u_ordinal5822 equ <__imp_mfc42u_ordinal5822>
+
+externdef __imp_mfc42u_ordinal5823:PPROC
+mfc42u_ordinal5823 equ <__imp_mfc42u_ordinal5823>
+
+externdef __imp_mfc42u_ordinal5824:PPROC
+mfc42u_ordinal5824 equ <__imp_mfc42u_ordinal5824>
+
+externdef __imp_mfc42u_ordinal5825:PPROC
+mfc42u_ordinal5825 equ <__imp_mfc42u_ordinal5825>
+
+externdef __imp_mfc42u_ordinal5826:PPROC
+mfc42u_ordinal5826 equ <__imp_mfc42u_ordinal5826>
+
+externdef __imp_mfc42u_ordinal5827:PPROC
+mfc42u_ordinal5827 equ <__imp_mfc42u_ordinal5827>
+
+externdef __imp_mfc42u_ordinal5828:PPROC
+mfc42u_ordinal5828 equ <__imp_mfc42u_ordinal5828>
+
+externdef __imp_mfc42u_ordinal5829:PPROC
+mfc42u_ordinal5829 equ <__imp_mfc42u_ordinal5829>
+
+externdef __imp_mfc42u_ordinal582:PPROC
+mfc42u_ordinal582 equ <__imp_mfc42u_ordinal582>
+
+externdef __imp_mfc42u_ordinal5830:PPROC
+mfc42u_ordinal5830 equ <__imp_mfc42u_ordinal5830>
+
+externdef __imp_mfc42u_ordinal5831:PPROC
+mfc42u_ordinal5831 equ <__imp_mfc42u_ordinal5831>
+
+externdef __imp_mfc42u_ordinal5832:PPROC
+mfc42u_ordinal5832 equ <__imp_mfc42u_ordinal5832>
+
+externdef __imp_mfc42u_ordinal5833:PPROC
+mfc42u_ordinal5833 equ <__imp_mfc42u_ordinal5833>
+
+externdef __imp_mfc42u_ordinal5834:PPROC
+mfc42u_ordinal5834 equ <__imp_mfc42u_ordinal5834>
+
+externdef __imp_mfc42u_ordinal5835:PPROC
+mfc42u_ordinal5835 equ <__imp_mfc42u_ordinal5835>
+
+externdef __imp_mfc42u_ordinal5836:PPROC
+mfc42u_ordinal5836 equ <__imp_mfc42u_ordinal5836>
+
+externdef __imp_mfc42u_ordinal5837:PPROC
+mfc42u_ordinal5837 equ <__imp_mfc42u_ordinal5837>
+
+externdef __imp_mfc42u_ordinal5838:PPROC
+mfc42u_ordinal5838 equ <__imp_mfc42u_ordinal5838>
+
+externdef __imp_mfc42u_ordinal5839:PPROC
+mfc42u_ordinal5839 equ <__imp_mfc42u_ordinal5839>
+
+externdef __imp_mfc42u_ordinal583:PPROC
+mfc42u_ordinal583 equ <__imp_mfc42u_ordinal583>
+
+externdef __imp_mfc42u_ordinal5840:PPROC
+mfc42u_ordinal5840 equ <__imp_mfc42u_ordinal5840>
+
+externdef __imp_mfc42u_ordinal5841:PPROC
+mfc42u_ordinal5841 equ <__imp_mfc42u_ordinal5841>
+
+externdef __imp_mfc42u_ordinal5842:PPROC
+mfc42u_ordinal5842 equ <__imp_mfc42u_ordinal5842>
+
+externdef __imp_mfc42u_ordinal5843:PPROC
+mfc42u_ordinal5843 equ <__imp_mfc42u_ordinal5843>
+
+externdef __imp_mfc42u_ordinal5844:PPROC
+mfc42u_ordinal5844 equ <__imp_mfc42u_ordinal5844>
+
+externdef __imp_mfc42u_ordinal5845:PPROC
+mfc42u_ordinal5845 equ <__imp_mfc42u_ordinal5845>
+
+externdef __imp_mfc42u_ordinal5846:PPROC
+mfc42u_ordinal5846 equ <__imp_mfc42u_ordinal5846>
+
+externdef __imp_mfc42u_ordinal5847:PPROC
+mfc42u_ordinal5847 equ <__imp_mfc42u_ordinal5847>
+
+externdef __imp_mfc42u_ordinal5848:PPROC
+mfc42u_ordinal5848 equ <__imp_mfc42u_ordinal5848>
+
+externdef __imp_mfc42u_ordinal5849:PPROC
+mfc42u_ordinal5849 equ <__imp_mfc42u_ordinal5849>
+
+externdef __imp_mfc42u_ordinal584:PPROC
+mfc42u_ordinal584 equ <__imp_mfc42u_ordinal584>
+
+externdef __imp_mfc42u_ordinal5850:PPROC
+mfc42u_ordinal5850 equ <__imp_mfc42u_ordinal5850>
+
+externdef __imp_mfc42u_ordinal5851:PPROC
+mfc42u_ordinal5851 equ <__imp_mfc42u_ordinal5851>
+
+externdef __imp_mfc42u_ordinal5852:PPROC
+mfc42u_ordinal5852 equ <__imp_mfc42u_ordinal5852>
+
+externdef __imp_mfc42u_ordinal5853:PPROC
+mfc42u_ordinal5853 equ <__imp_mfc42u_ordinal5853>
+
+externdef __imp_mfc42u_ordinal5854:PPROC
+mfc42u_ordinal5854 equ <__imp_mfc42u_ordinal5854>
+
+externdef __imp_mfc42u_ordinal5855:PPROC
+mfc42u_ordinal5855 equ <__imp_mfc42u_ordinal5855>
+
+externdef __imp_mfc42u_ordinal5856:PPROC
+mfc42u_ordinal5856 equ <__imp_mfc42u_ordinal5856>
+
+externdef __imp_mfc42u_ordinal5857:PPROC
+mfc42u_ordinal5857 equ <__imp_mfc42u_ordinal5857>
+
+externdef __imp_mfc42u_ordinal5858:PPROC
+mfc42u_ordinal5858 equ <__imp_mfc42u_ordinal5858>
+
+externdef __imp_mfc42u_ordinal5859:PPROC
+mfc42u_ordinal5859 equ <__imp_mfc42u_ordinal5859>
+
+externdef __imp_mfc42u_ordinal585:PPROC
+mfc42u_ordinal585 equ <__imp_mfc42u_ordinal585>
+
+externdef __imp_mfc42u_ordinal5860:PPROC
+mfc42u_ordinal5860 equ <__imp_mfc42u_ordinal5860>
+
+externdef __imp_mfc42u_ordinal5861:PPROC
+mfc42u_ordinal5861 equ <__imp_mfc42u_ordinal5861>
+
+externdef __imp_mfc42u_ordinal5862:PPROC
+mfc42u_ordinal5862 equ <__imp_mfc42u_ordinal5862>
+
+externdef __imp_mfc42u_ordinal5863:PPROC
+mfc42u_ordinal5863 equ <__imp_mfc42u_ordinal5863>
+
+externdef __imp_mfc42u_ordinal5864:PPROC
+mfc42u_ordinal5864 equ <__imp_mfc42u_ordinal5864>
+
+externdef __imp_mfc42u_ordinal5865:PPROC
+mfc42u_ordinal5865 equ <__imp_mfc42u_ordinal5865>
+
+externdef __imp_mfc42u_ordinal5866:PPROC
+mfc42u_ordinal5866 equ <__imp_mfc42u_ordinal5866>
+
+externdef __imp_mfc42u_ordinal5867:PPROC
+mfc42u_ordinal5867 equ <__imp_mfc42u_ordinal5867>
+
+externdef __imp_mfc42u_ordinal5868:PPROC
+mfc42u_ordinal5868 equ <__imp_mfc42u_ordinal5868>
+
+externdef __imp_mfc42u_ordinal5869:PPROC
+mfc42u_ordinal5869 equ <__imp_mfc42u_ordinal5869>
+
+externdef __imp_mfc42u_ordinal586:PPROC
+mfc42u_ordinal586 equ <__imp_mfc42u_ordinal586>
+
+externdef __imp_mfc42u_ordinal5870:PPROC
+mfc42u_ordinal5870 equ <__imp_mfc42u_ordinal5870>
+
+externdef __imp_mfc42u_ordinal5871:PPROC
+mfc42u_ordinal5871 equ <__imp_mfc42u_ordinal5871>
+
+externdef __imp_mfc42u_ordinal5872:PPROC
+mfc42u_ordinal5872 equ <__imp_mfc42u_ordinal5872>
+
+externdef __imp_mfc42u_ordinal5873:PPROC
+mfc42u_ordinal5873 equ <__imp_mfc42u_ordinal5873>
+
+externdef __imp_mfc42u_ordinal5874:PPROC
+mfc42u_ordinal5874 equ <__imp_mfc42u_ordinal5874>
+
+externdef __imp_mfc42u_ordinal5875:PPROC
+mfc42u_ordinal5875 equ <__imp_mfc42u_ordinal5875>
+
+externdef __imp_mfc42u_ordinal5876:PPROC
+mfc42u_ordinal5876 equ <__imp_mfc42u_ordinal5876>
+
+externdef __imp_mfc42u_ordinal5877:PPROC
+mfc42u_ordinal5877 equ <__imp_mfc42u_ordinal5877>
+
+externdef __imp_mfc42u_ordinal5878:PPROC
+mfc42u_ordinal5878 equ <__imp_mfc42u_ordinal5878>
+
+externdef __imp_mfc42u_ordinal5879:PPROC
+mfc42u_ordinal5879 equ <__imp_mfc42u_ordinal5879>
+
+externdef __imp_mfc42u_ordinal587:PPROC
+mfc42u_ordinal587 equ <__imp_mfc42u_ordinal587>
+
+externdef __imp_mfc42u_ordinal5880:PPROC
+mfc42u_ordinal5880 equ <__imp_mfc42u_ordinal5880>
+
+externdef __imp_mfc42u_ordinal5881:PPROC
+mfc42u_ordinal5881 equ <__imp_mfc42u_ordinal5881>
+
+externdef __imp_mfc42u_ordinal5882:PPROC
+mfc42u_ordinal5882 equ <__imp_mfc42u_ordinal5882>
+
+externdef __imp_mfc42u_ordinal5883:PPROC
+mfc42u_ordinal5883 equ <__imp_mfc42u_ordinal5883>
+
+externdef __imp_mfc42u_ordinal5884:PPROC
+mfc42u_ordinal5884 equ <__imp_mfc42u_ordinal5884>
+
+externdef __imp_mfc42u_ordinal5885:PPROC
+mfc42u_ordinal5885 equ <__imp_mfc42u_ordinal5885>
+
+externdef __imp_mfc42u_ordinal5886:PPROC
+mfc42u_ordinal5886 equ <__imp_mfc42u_ordinal5886>
+
+externdef __imp_mfc42u_ordinal5887:PPROC
+mfc42u_ordinal5887 equ <__imp_mfc42u_ordinal5887>
+
+externdef __imp_mfc42u_ordinal5888:PPROC
+mfc42u_ordinal5888 equ <__imp_mfc42u_ordinal5888>
+
+externdef __imp_mfc42u_ordinal5889:PPROC
+mfc42u_ordinal5889 equ <__imp_mfc42u_ordinal5889>
+
+externdef __imp_mfc42u_ordinal588:PPROC
+mfc42u_ordinal588 equ <__imp_mfc42u_ordinal588>
+
+externdef __imp_mfc42u_ordinal5890:PPROC
+mfc42u_ordinal5890 equ <__imp_mfc42u_ordinal5890>
+
+externdef __imp_mfc42u_ordinal5891:PPROC
+mfc42u_ordinal5891 equ <__imp_mfc42u_ordinal5891>
+
+externdef __imp_mfc42u_ordinal5892:PPROC
+mfc42u_ordinal5892 equ <__imp_mfc42u_ordinal5892>
+
+externdef __imp_mfc42u_ordinal5893:PPROC
+mfc42u_ordinal5893 equ <__imp_mfc42u_ordinal5893>
+
+externdef __imp_mfc42u_ordinal5894:PPROC
+mfc42u_ordinal5894 equ <__imp_mfc42u_ordinal5894>
+
+externdef __imp_mfc42u_ordinal5895:PPROC
+mfc42u_ordinal5895 equ <__imp_mfc42u_ordinal5895>
+
+externdef __imp_mfc42u_ordinal5896:PPROC
+mfc42u_ordinal5896 equ <__imp_mfc42u_ordinal5896>
+
+externdef __imp_mfc42u_ordinal5897:PPROC
+mfc42u_ordinal5897 equ <__imp_mfc42u_ordinal5897>
+
+externdef __imp_mfc42u_ordinal5898:PPROC
+mfc42u_ordinal5898 equ <__imp_mfc42u_ordinal5898>
+
+externdef __imp_mfc42u_ordinal5899:PPROC
+mfc42u_ordinal5899 equ <__imp_mfc42u_ordinal5899>
+
+externdef __imp_mfc42u_ordinal589:PPROC
+mfc42u_ordinal589 equ <__imp_mfc42u_ordinal589>
+
+externdef __imp_mfc42u_ordinal58:PPROC
+mfc42u_ordinal58 equ <__imp_mfc42u_ordinal58>
+
+externdef __imp_mfc42u_ordinal5900:PPROC
+mfc42u_ordinal5900 equ <__imp_mfc42u_ordinal5900>
+
+externdef __imp_mfc42u_ordinal5901:PPROC
+mfc42u_ordinal5901 equ <__imp_mfc42u_ordinal5901>
+
+externdef __imp_mfc42u_ordinal5902:PPROC
+mfc42u_ordinal5902 equ <__imp_mfc42u_ordinal5902>
+
+externdef __imp_mfc42u_ordinal5903:PPROC
+mfc42u_ordinal5903 equ <__imp_mfc42u_ordinal5903>
+
+externdef __imp_mfc42u_ordinal5904:PPROC
+mfc42u_ordinal5904 equ <__imp_mfc42u_ordinal5904>
+
+externdef __imp_mfc42u_ordinal5905:PPROC
+mfc42u_ordinal5905 equ <__imp_mfc42u_ordinal5905>
+
+externdef __imp_mfc42u_ordinal5906:PPROC
+mfc42u_ordinal5906 equ <__imp_mfc42u_ordinal5906>
+
+externdef __imp_mfc42u_ordinal5907:PPROC
+mfc42u_ordinal5907 equ <__imp_mfc42u_ordinal5907>
+
+externdef __imp_mfc42u_ordinal5908:PPROC
+mfc42u_ordinal5908 equ <__imp_mfc42u_ordinal5908>
+
+externdef __imp_mfc42u_ordinal5909:PPROC
+mfc42u_ordinal5909 equ <__imp_mfc42u_ordinal5909>
+
+externdef __imp_mfc42u_ordinal590:PPROC
+mfc42u_ordinal590 equ <__imp_mfc42u_ordinal590>
+
+externdef __imp_mfc42u_ordinal5910:PPROC
+mfc42u_ordinal5910 equ <__imp_mfc42u_ordinal5910>
+
+externdef __imp_mfc42u_ordinal5911:PPROC
+mfc42u_ordinal5911 equ <__imp_mfc42u_ordinal5911>
+
+externdef __imp_mfc42u_ordinal5912:PPROC
+mfc42u_ordinal5912 equ <__imp_mfc42u_ordinal5912>
+
+externdef __imp_mfc42u_ordinal5913:PPROC
+mfc42u_ordinal5913 equ <__imp_mfc42u_ordinal5913>
+
+externdef __imp_mfc42u_ordinal5914:PPROC
+mfc42u_ordinal5914 equ <__imp_mfc42u_ordinal5914>
+
+externdef __imp_mfc42u_ordinal5915:PPROC
+mfc42u_ordinal5915 equ <__imp_mfc42u_ordinal5915>
+
+externdef __imp_mfc42u_ordinal5916:PPROC
+mfc42u_ordinal5916 equ <__imp_mfc42u_ordinal5916>
+
+externdef __imp_mfc42u_ordinal5917:PPROC
+mfc42u_ordinal5917 equ <__imp_mfc42u_ordinal5917>
+
+externdef __imp_mfc42u_ordinal5918:PPROC
+mfc42u_ordinal5918 equ <__imp_mfc42u_ordinal5918>
+
+externdef __imp_mfc42u_ordinal5919:PPROC
+mfc42u_ordinal5919 equ <__imp_mfc42u_ordinal5919>
+
+externdef __imp_mfc42u_ordinal591:PPROC
+mfc42u_ordinal591 equ <__imp_mfc42u_ordinal591>
+
+externdef __imp_mfc42u_ordinal5920:PPROC
+mfc42u_ordinal5920 equ <__imp_mfc42u_ordinal5920>
+
+externdef __imp_mfc42u_ordinal5921:PPROC
+mfc42u_ordinal5921 equ <__imp_mfc42u_ordinal5921>
+
+externdef __imp_mfc42u_ordinal5922:PPROC
+mfc42u_ordinal5922 equ <__imp_mfc42u_ordinal5922>
+
+externdef __imp_mfc42u_ordinal5923:PPROC
+mfc42u_ordinal5923 equ <__imp_mfc42u_ordinal5923>
+
+externdef __imp_mfc42u_ordinal5924:PPROC
+mfc42u_ordinal5924 equ <__imp_mfc42u_ordinal5924>
+
+externdef __imp_mfc42u_ordinal5925:PPROC
+mfc42u_ordinal5925 equ <__imp_mfc42u_ordinal5925>
+
+externdef __imp_mfc42u_ordinal5926:PPROC
+mfc42u_ordinal5926 equ <__imp_mfc42u_ordinal5926>
+
+externdef __imp_mfc42u_ordinal5927:PPROC
+mfc42u_ordinal5927 equ <__imp_mfc42u_ordinal5927>
+
+externdef __imp_mfc42u_ordinal5928:PPROC
+mfc42u_ordinal5928 equ <__imp_mfc42u_ordinal5928>
+
+externdef __imp_mfc42u_ordinal5929:PPROC
+mfc42u_ordinal5929 equ <__imp_mfc42u_ordinal5929>
+
+externdef __imp_mfc42u_ordinal592:PPROC
+mfc42u_ordinal592 equ <__imp_mfc42u_ordinal592>
+
+externdef __imp_mfc42u_ordinal5930:PPROC
+mfc42u_ordinal5930 equ <__imp_mfc42u_ordinal5930>
+
+externdef __imp_mfc42u_ordinal5931:PPROC
+mfc42u_ordinal5931 equ <__imp_mfc42u_ordinal5931>
+
+externdef __imp_mfc42u_ordinal5932:PPROC
+mfc42u_ordinal5932 equ <__imp_mfc42u_ordinal5932>
+
+externdef __imp_mfc42u_ordinal5933:PPROC
+mfc42u_ordinal5933 equ <__imp_mfc42u_ordinal5933>
+
+externdef __imp_mfc42u_ordinal5934:PPROC
+mfc42u_ordinal5934 equ <__imp_mfc42u_ordinal5934>
+
+externdef __imp_mfc42u_ordinal5935:PPROC
+mfc42u_ordinal5935 equ <__imp_mfc42u_ordinal5935>
+
+externdef __imp_mfc42u_ordinal5936:PPROC
+mfc42u_ordinal5936 equ <__imp_mfc42u_ordinal5936>
+
+externdef __imp_mfc42u_ordinal5937:PPROC
+mfc42u_ordinal5937 equ <__imp_mfc42u_ordinal5937>
+
+externdef __imp_mfc42u_ordinal5938:PPROC
+mfc42u_ordinal5938 equ <__imp_mfc42u_ordinal5938>
+
+externdef __imp_mfc42u_ordinal5939:PPROC
+mfc42u_ordinal5939 equ <__imp_mfc42u_ordinal5939>
+
+externdef __imp_mfc42u_ordinal593:PPROC
+mfc42u_ordinal593 equ <__imp_mfc42u_ordinal593>
+
+externdef __imp_mfc42u_ordinal5940:PPROC
+mfc42u_ordinal5940 equ <__imp_mfc42u_ordinal5940>
+
+externdef __imp_mfc42u_ordinal5941:PPROC
+mfc42u_ordinal5941 equ <__imp_mfc42u_ordinal5941>
+
+externdef __imp_mfc42u_ordinal5942:PPROC
+mfc42u_ordinal5942 equ <__imp_mfc42u_ordinal5942>
+
+externdef __imp_mfc42u_ordinal5943:PPROC
+mfc42u_ordinal5943 equ <__imp_mfc42u_ordinal5943>
+
+externdef __imp_mfc42u_ordinal5944:PPROC
+mfc42u_ordinal5944 equ <__imp_mfc42u_ordinal5944>
+
+externdef __imp_mfc42u_ordinal5945:PPROC
+mfc42u_ordinal5945 equ <__imp_mfc42u_ordinal5945>
+
+externdef __imp_mfc42u_ordinal5946:PPROC
+mfc42u_ordinal5946 equ <__imp_mfc42u_ordinal5946>
+
+externdef __imp_mfc42u_ordinal5947:PPROC
+mfc42u_ordinal5947 equ <__imp_mfc42u_ordinal5947>
+
+externdef __imp_mfc42u_ordinal5948:PPROC
+mfc42u_ordinal5948 equ <__imp_mfc42u_ordinal5948>
+
+externdef __imp_mfc42u_ordinal5949:PPROC
+mfc42u_ordinal5949 equ <__imp_mfc42u_ordinal5949>
+
+externdef __imp_mfc42u_ordinal594:PPROC
+mfc42u_ordinal594 equ <__imp_mfc42u_ordinal594>
+
+externdef __imp_mfc42u_ordinal5950:PPROC
+mfc42u_ordinal5950 equ <__imp_mfc42u_ordinal5950>
+
+externdef __imp_mfc42u_ordinal5951:PPROC
+mfc42u_ordinal5951 equ <__imp_mfc42u_ordinal5951>
+
+externdef __imp_mfc42u_ordinal5952:PPROC
+mfc42u_ordinal5952 equ <__imp_mfc42u_ordinal5952>
+
+externdef __imp_mfc42u_ordinal5953:PPROC
+mfc42u_ordinal5953 equ <__imp_mfc42u_ordinal5953>
+
+externdef __imp_mfc42u_ordinal5954:PPROC
+mfc42u_ordinal5954 equ <__imp_mfc42u_ordinal5954>
+
+externdef __imp_mfc42u_ordinal5955:PPROC
+mfc42u_ordinal5955 equ <__imp_mfc42u_ordinal5955>
+
+externdef __imp_mfc42u_ordinal5956:PPROC
+mfc42u_ordinal5956 equ <__imp_mfc42u_ordinal5956>
+
+externdef __imp_mfc42u_ordinal5957:PPROC
+mfc42u_ordinal5957 equ <__imp_mfc42u_ordinal5957>
+
+externdef __imp_mfc42u_ordinal5958:PPROC
+mfc42u_ordinal5958 equ <__imp_mfc42u_ordinal5958>
+
+externdef __imp_mfc42u_ordinal5959:PPROC
+mfc42u_ordinal5959 equ <__imp_mfc42u_ordinal5959>
+
+externdef __imp_mfc42u_ordinal595:PPROC
+mfc42u_ordinal595 equ <__imp_mfc42u_ordinal595>
+
+externdef __imp_mfc42u_ordinal5960:PPROC
+mfc42u_ordinal5960 equ <__imp_mfc42u_ordinal5960>
+
+externdef __imp_mfc42u_ordinal5961:PPROC
+mfc42u_ordinal5961 equ <__imp_mfc42u_ordinal5961>
+
+externdef __imp_mfc42u_ordinal5962:PPROC
+mfc42u_ordinal5962 equ <__imp_mfc42u_ordinal5962>
+
+externdef __imp_mfc42u_ordinal5963:PPROC
+mfc42u_ordinal5963 equ <__imp_mfc42u_ordinal5963>
+
+externdef __imp_mfc42u_ordinal5964:PPROC
+mfc42u_ordinal5964 equ <__imp_mfc42u_ordinal5964>
+
+externdef __imp_mfc42u_ordinal5965:PPROC
+mfc42u_ordinal5965 equ <__imp_mfc42u_ordinal5965>
+
+externdef __imp_mfc42u_ordinal5966:PPROC
+mfc42u_ordinal5966 equ <__imp_mfc42u_ordinal5966>
+
+externdef __imp_mfc42u_ordinal5967:PPROC
+mfc42u_ordinal5967 equ <__imp_mfc42u_ordinal5967>
+
+externdef __imp_mfc42u_ordinal5968:PPROC
+mfc42u_ordinal5968 equ <__imp_mfc42u_ordinal5968>
+
+externdef __imp_mfc42u_ordinal5969:PPROC
+mfc42u_ordinal5969 equ <__imp_mfc42u_ordinal5969>
+
+externdef __imp_mfc42u_ordinal596:PPROC
+mfc42u_ordinal596 equ <__imp_mfc42u_ordinal596>
+
+externdef __imp_mfc42u_ordinal5970:PPROC
+mfc42u_ordinal5970 equ <__imp_mfc42u_ordinal5970>
+
+externdef __imp_mfc42u_ordinal5971:PPROC
+mfc42u_ordinal5971 equ <__imp_mfc42u_ordinal5971>
+
+externdef __imp_mfc42u_ordinal5972:PPROC
+mfc42u_ordinal5972 equ <__imp_mfc42u_ordinal5972>
+
+externdef __imp_mfc42u_ordinal5973:PPROC
+mfc42u_ordinal5973 equ <__imp_mfc42u_ordinal5973>
+
+externdef __imp_mfc42u_ordinal5974:PPROC
+mfc42u_ordinal5974 equ <__imp_mfc42u_ordinal5974>
+
+externdef __imp_mfc42u_ordinal5975:PPROC
+mfc42u_ordinal5975 equ <__imp_mfc42u_ordinal5975>
+
+externdef __imp_mfc42u_ordinal5976:PPROC
+mfc42u_ordinal5976 equ <__imp_mfc42u_ordinal5976>
+
+externdef __imp_mfc42u_ordinal5977:PPROC
+mfc42u_ordinal5977 equ <__imp_mfc42u_ordinal5977>
+
+externdef __imp_mfc42u_ordinal5978:PPROC
+mfc42u_ordinal5978 equ <__imp_mfc42u_ordinal5978>
+
+externdef __imp_mfc42u_ordinal5979:PPROC
+mfc42u_ordinal5979 equ <__imp_mfc42u_ordinal5979>
+
+externdef __imp_mfc42u_ordinal597:PPROC
+mfc42u_ordinal597 equ <__imp_mfc42u_ordinal597>
+
+externdef __imp_mfc42u_ordinal5980:PPROC
+mfc42u_ordinal5980 equ <__imp_mfc42u_ordinal5980>
+
+externdef __imp_mfc42u_ordinal5981:PPROC
+mfc42u_ordinal5981 equ <__imp_mfc42u_ordinal5981>
+
+externdef __imp_mfc42u_ordinal5982:PPROC
+mfc42u_ordinal5982 equ <__imp_mfc42u_ordinal5982>
+
+externdef __imp_mfc42u_ordinal5983:PPROC
+mfc42u_ordinal5983 equ <__imp_mfc42u_ordinal5983>
+
+externdef __imp_mfc42u_ordinal5984:PPROC
+mfc42u_ordinal5984 equ <__imp_mfc42u_ordinal5984>
+
+externdef __imp_mfc42u_ordinal5985:PPROC
+mfc42u_ordinal5985 equ <__imp_mfc42u_ordinal5985>
+
+externdef __imp_mfc42u_ordinal5986:PPROC
+mfc42u_ordinal5986 equ <__imp_mfc42u_ordinal5986>
+
+externdef __imp_mfc42u_ordinal5987:PPROC
+mfc42u_ordinal5987 equ <__imp_mfc42u_ordinal5987>
+
+externdef __imp_mfc42u_ordinal5988:PPROC
+mfc42u_ordinal5988 equ <__imp_mfc42u_ordinal5988>
+
+externdef __imp_mfc42u_ordinal5989:PPROC
+mfc42u_ordinal5989 equ <__imp_mfc42u_ordinal5989>
+
+externdef __imp_mfc42u_ordinal598:PPROC
+mfc42u_ordinal598 equ <__imp_mfc42u_ordinal598>
+
+externdef __imp_mfc42u_ordinal5990:PPROC
+mfc42u_ordinal5990 equ <__imp_mfc42u_ordinal5990>
+
+externdef __imp_mfc42u_ordinal5991:PPROC
+mfc42u_ordinal5991 equ <__imp_mfc42u_ordinal5991>
+
+externdef __imp_mfc42u_ordinal5992:PPROC
+mfc42u_ordinal5992 equ <__imp_mfc42u_ordinal5992>
+
+externdef __imp_mfc42u_ordinal5993:PPROC
+mfc42u_ordinal5993 equ <__imp_mfc42u_ordinal5993>
+
+externdef __imp_mfc42u_ordinal5994:PPROC
+mfc42u_ordinal5994 equ <__imp_mfc42u_ordinal5994>
+
+externdef __imp_mfc42u_ordinal5995:PPROC
+mfc42u_ordinal5995 equ <__imp_mfc42u_ordinal5995>
+
+externdef __imp_mfc42u_ordinal5996:PPROC
+mfc42u_ordinal5996 equ <__imp_mfc42u_ordinal5996>
+
+externdef __imp_mfc42u_ordinal5997:PPROC
+mfc42u_ordinal5997 equ <__imp_mfc42u_ordinal5997>
+
+externdef __imp_mfc42u_ordinal5998:PPROC
+mfc42u_ordinal5998 equ <__imp_mfc42u_ordinal5998>
+
+externdef __imp_mfc42u_ordinal5999:PPROC
+mfc42u_ordinal5999 equ <__imp_mfc42u_ordinal5999>
+
+externdef __imp_mfc42u_ordinal599:PPROC
+mfc42u_ordinal599 equ <__imp_mfc42u_ordinal599>
+
+externdef __imp_mfc42u_ordinal59:PPROC
+mfc42u_ordinal59 equ <__imp_mfc42u_ordinal59>
+
+externdef __imp_mfc42u_ordinal6000:PPROC
+mfc42u_ordinal6000 equ <__imp_mfc42u_ordinal6000>
+
+externdef __imp_mfc42u_ordinal6001:PPROC
+mfc42u_ordinal6001 equ <__imp_mfc42u_ordinal6001>
+
+externdef __imp_mfc42u_ordinal6002:PPROC
+mfc42u_ordinal6002 equ <__imp_mfc42u_ordinal6002>
+
+externdef __imp_mfc42u_ordinal6003:PPROC
+mfc42u_ordinal6003 equ <__imp_mfc42u_ordinal6003>
+
+externdef __imp_mfc42u_ordinal6004:PPROC
+mfc42u_ordinal6004 equ <__imp_mfc42u_ordinal6004>
+
+externdef __imp_mfc42u_ordinal6005:PPROC
+mfc42u_ordinal6005 equ <__imp_mfc42u_ordinal6005>
+
+externdef __imp_mfc42u_ordinal6006:PPROC
+mfc42u_ordinal6006 equ <__imp_mfc42u_ordinal6006>
+
+externdef __imp_mfc42u_ordinal6007:PPROC
+mfc42u_ordinal6007 equ <__imp_mfc42u_ordinal6007>
+
+externdef __imp_mfc42u_ordinal6008:PPROC
+mfc42u_ordinal6008 equ <__imp_mfc42u_ordinal6008>
+
+externdef __imp_mfc42u_ordinal6009:PPROC
+mfc42u_ordinal6009 equ <__imp_mfc42u_ordinal6009>
+
+externdef __imp_mfc42u_ordinal600:PPROC
+mfc42u_ordinal600 equ <__imp_mfc42u_ordinal600>
+
+externdef __imp_mfc42u_ordinal6010:PPROC
+mfc42u_ordinal6010 equ <__imp_mfc42u_ordinal6010>
+
+externdef __imp_mfc42u_ordinal6011:PPROC
+mfc42u_ordinal6011 equ <__imp_mfc42u_ordinal6011>
+
+externdef __imp_mfc42u_ordinal6012:PPROC
+mfc42u_ordinal6012 equ <__imp_mfc42u_ordinal6012>
+
+externdef __imp_mfc42u_ordinal6013:PPROC
+mfc42u_ordinal6013 equ <__imp_mfc42u_ordinal6013>
+
+externdef __imp_mfc42u_ordinal6014:PPROC
+mfc42u_ordinal6014 equ <__imp_mfc42u_ordinal6014>
+
+externdef __imp_mfc42u_ordinal6015:PPROC
+mfc42u_ordinal6015 equ <__imp_mfc42u_ordinal6015>
+
+externdef __imp_mfc42u_ordinal6016:PPROC
+mfc42u_ordinal6016 equ <__imp_mfc42u_ordinal6016>
+
+externdef __imp_mfc42u_ordinal6017:PPROC
+mfc42u_ordinal6017 equ <__imp_mfc42u_ordinal6017>
+
+externdef __imp_mfc42u_ordinal6018:PPROC
+mfc42u_ordinal6018 equ <__imp_mfc42u_ordinal6018>
+
+externdef __imp_mfc42u_ordinal6019:PPROC
+mfc42u_ordinal6019 equ <__imp_mfc42u_ordinal6019>
+
+externdef __imp_mfc42u_ordinal601:PPROC
+mfc42u_ordinal601 equ <__imp_mfc42u_ordinal601>
+
+externdef __imp_mfc42u_ordinal6020:PPROC
+mfc42u_ordinal6020 equ <__imp_mfc42u_ordinal6020>
+
+externdef __imp_mfc42u_ordinal6021:PPROC
+mfc42u_ordinal6021 equ <__imp_mfc42u_ordinal6021>
+
+externdef __imp_mfc42u_ordinal6022:PPROC
+mfc42u_ordinal6022 equ <__imp_mfc42u_ordinal6022>
+
+externdef __imp_mfc42u_ordinal6023:PPROC
+mfc42u_ordinal6023 equ <__imp_mfc42u_ordinal6023>
+
+externdef __imp_mfc42u_ordinal6024:PPROC
+mfc42u_ordinal6024 equ <__imp_mfc42u_ordinal6024>
+
+externdef __imp_mfc42u_ordinal6025:PPROC
+mfc42u_ordinal6025 equ <__imp_mfc42u_ordinal6025>
+
+externdef __imp_mfc42u_ordinal6026:PPROC
+mfc42u_ordinal6026 equ <__imp_mfc42u_ordinal6026>
+
+externdef __imp_mfc42u_ordinal6027:PPROC
+mfc42u_ordinal6027 equ <__imp_mfc42u_ordinal6027>
+
+externdef __imp_mfc42u_ordinal6028:PPROC
+mfc42u_ordinal6028 equ <__imp_mfc42u_ordinal6028>
+
+externdef __imp_mfc42u_ordinal6029:PPROC
+mfc42u_ordinal6029 equ <__imp_mfc42u_ordinal6029>
+
+externdef __imp_mfc42u_ordinal602:PPROC
+mfc42u_ordinal602 equ <__imp_mfc42u_ordinal602>
+
+externdef __imp_mfc42u_ordinal6030:PPROC
+mfc42u_ordinal6030 equ <__imp_mfc42u_ordinal6030>
+
+externdef __imp_mfc42u_ordinal6031:PPROC
+mfc42u_ordinal6031 equ <__imp_mfc42u_ordinal6031>
+
+externdef __imp_mfc42u_ordinal6032:PPROC
+mfc42u_ordinal6032 equ <__imp_mfc42u_ordinal6032>
+
+externdef __imp_mfc42u_ordinal6033:PPROC
+mfc42u_ordinal6033 equ <__imp_mfc42u_ordinal6033>
+
+externdef __imp_mfc42u_ordinal6034:PPROC
+mfc42u_ordinal6034 equ <__imp_mfc42u_ordinal6034>
+
+externdef __imp_mfc42u_ordinal6035:PPROC
+mfc42u_ordinal6035 equ <__imp_mfc42u_ordinal6035>
+
+externdef __imp_mfc42u_ordinal6036:PPROC
+mfc42u_ordinal6036 equ <__imp_mfc42u_ordinal6036>
+
+externdef __imp_mfc42u_ordinal6037:PPROC
+mfc42u_ordinal6037 equ <__imp_mfc42u_ordinal6037>
+
+externdef __imp_mfc42u_ordinal6038:PPROC
+mfc42u_ordinal6038 equ <__imp_mfc42u_ordinal6038>
+
+externdef __imp_mfc42u_ordinal6039:PPROC
+mfc42u_ordinal6039 equ <__imp_mfc42u_ordinal6039>
+
+externdef __imp_mfc42u_ordinal603:PPROC
+mfc42u_ordinal603 equ <__imp_mfc42u_ordinal603>
+
+externdef __imp_mfc42u_ordinal6040:PPROC
+mfc42u_ordinal6040 equ <__imp_mfc42u_ordinal6040>
+
+externdef __imp_mfc42u_ordinal6041:PPROC
+mfc42u_ordinal6041 equ <__imp_mfc42u_ordinal6041>
+
+externdef __imp_mfc42u_ordinal6042:PPROC
+mfc42u_ordinal6042 equ <__imp_mfc42u_ordinal6042>
+
+externdef __imp_mfc42u_ordinal6043:PPROC
+mfc42u_ordinal6043 equ <__imp_mfc42u_ordinal6043>
+
+externdef __imp_mfc42u_ordinal6044:PPROC
+mfc42u_ordinal6044 equ <__imp_mfc42u_ordinal6044>
+
+externdef __imp_mfc42u_ordinal6045:PPROC
+mfc42u_ordinal6045 equ <__imp_mfc42u_ordinal6045>
+
+externdef __imp_mfc42u_ordinal6046:PPROC
+mfc42u_ordinal6046 equ <__imp_mfc42u_ordinal6046>
+
+externdef __imp_mfc42u_ordinal6047:PPROC
+mfc42u_ordinal6047 equ <__imp_mfc42u_ordinal6047>
+
+externdef __imp_mfc42u_ordinal6048:PPROC
+mfc42u_ordinal6048 equ <__imp_mfc42u_ordinal6048>
+
+externdef __imp_mfc42u_ordinal6049:PPROC
+mfc42u_ordinal6049 equ <__imp_mfc42u_ordinal6049>
+
+externdef __imp_mfc42u_ordinal604:PPROC
+mfc42u_ordinal604 equ <__imp_mfc42u_ordinal604>
+
+externdef __imp_mfc42u_ordinal6050:PPROC
+mfc42u_ordinal6050 equ <__imp_mfc42u_ordinal6050>
+
+externdef __imp_mfc42u_ordinal6051:PPROC
+mfc42u_ordinal6051 equ <__imp_mfc42u_ordinal6051>
+
+externdef __imp_mfc42u_ordinal6052:PPROC
+mfc42u_ordinal6052 equ <__imp_mfc42u_ordinal6052>
+
+externdef __imp_mfc42u_ordinal6053:PPROC
+mfc42u_ordinal6053 equ <__imp_mfc42u_ordinal6053>
+
+externdef __imp_mfc42u_ordinal6054:PPROC
+mfc42u_ordinal6054 equ <__imp_mfc42u_ordinal6054>
+
+externdef __imp_mfc42u_ordinal6055:PPROC
+mfc42u_ordinal6055 equ <__imp_mfc42u_ordinal6055>
+
+externdef __imp_mfc42u_ordinal6056:PPROC
+mfc42u_ordinal6056 equ <__imp_mfc42u_ordinal6056>
+
+externdef __imp_mfc42u_ordinal6057:PPROC
+mfc42u_ordinal6057 equ <__imp_mfc42u_ordinal6057>
+
+externdef __imp_mfc42u_ordinal6058:PPROC
+mfc42u_ordinal6058 equ <__imp_mfc42u_ordinal6058>
+
+externdef __imp_mfc42u_ordinal6059:PPROC
+mfc42u_ordinal6059 equ <__imp_mfc42u_ordinal6059>
+
+externdef __imp_mfc42u_ordinal605:PPROC
+mfc42u_ordinal605 equ <__imp_mfc42u_ordinal605>
+
+externdef __imp_mfc42u_ordinal6060:PPROC
+mfc42u_ordinal6060 equ <__imp_mfc42u_ordinal6060>
+
+externdef __imp_mfc42u_ordinal6061:PPROC
+mfc42u_ordinal6061 equ <__imp_mfc42u_ordinal6061>
+
+externdef __imp_mfc42u_ordinal6062:PPROC
+mfc42u_ordinal6062 equ <__imp_mfc42u_ordinal6062>
+
+externdef __imp_mfc42u_ordinal6063:PPROC
+mfc42u_ordinal6063 equ <__imp_mfc42u_ordinal6063>
+
+externdef __imp_mfc42u_ordinal6064:PPROC
+mfc42u_ordinal6064 equ <__imp_mfc42u_ordinal6064>
+
+externdef __imp_mfc42u_ordinal6065:PPROC
+mfc42u_ordinal6065 equ <__imp_mfc42u_ordinal6065>
+
+externdef __imp_mfc42u_ordinal6066:PPROC
+mfc42u_ordinal6066 equ <__imp_mfc42u_ordinal6066>
+
+externdef __imp_mfc42u_ordinal6067:PPROC
+mfc42u_ordinal6067 equ <__imp_mfc42u_ordinal6067>
+
+externdef __imp_mfc42u_ordinal6068:PPROC
+mfc42u_ordinal6068 equ <__imp_mfc42u_ordinal6068>
+
+externdef __imp_mfc42u_ordinal6069:PPROC
+mfc42u_ordinal6069 equ <__imp_mfc42u_ordinal6069>
+
+externdef __imp_mfc42u_ordinal606:PPROC
+mfc42u_ordinal606 equ <__imp_mfc42u_ordinal606>
+
+externdef __imp_mfc42u_ordinal6070:PPROC
+mfc42u_ordinal6070 equ <__imp_mfc42u_ordinal6070>
+
+externdef __imp_mfc42u_ordinal6071:PPROC
+mfc42u_ordinal6071 equ <__imp_mfc42u_ordinal6071>
+
+externdef __imp_mfc42u_ordinal6072:PPROC
+mfc42u_ordinal6072 equ <__imp_mfc42u_ordinal6072>
+
+externdef __imp_mfc42u_ordinal6073:PPROC
+mfc42u_ordinal6073 equ <__imp_mfc42u_ordinal6073>
+
+externdef __imp_mfc42u_ordinal6074:PPROC
+mfc42u_ordinal6074 equ <__imp_mfc42u_ordinal6074>
+
+externdef __imp_mfc42u_ordinal6075:PPROC
+mfc42u_ordinal6075 equ <__imp_mfc42u_ordinal6075>
+
+externdef __imp_mfc42u_ordinal6076:PPROC
+mfc42u_ordinal6076 equ <__imp_mfc42u_ordinal6076>
+
+externdef __imp_mfc42u_ordinal6077:PPROC
+mfc42u_ordinal6077 equ <__imp_mfc42u_ordinal6077>
+
+externdef __imp_mfc42u_ordinal6078:PPROC
+mfc42u_ordinal6078 equ <__imp_mfc42u_ordinal6078>
+
+externdef __imp_mfc42u_ordinal6079:PPROC
+mfc42u_ordinal6079 equ <__imp_mfc42u_ordinal6079>
+
+externdef __imp_mfc42u_ordinal607:PPROC
+mfc42u_ordinal607 equ <__imp_mfc42u_ordinal607>
+
+externdef __imp_mfc42u_ordinal6080:PPROC
+mfc42u_ordinal6080 equ <__imp_mfc42u_ordinal6080>
+
+externdef __imp_mfc42u_ordinal6081:PPROC
+mfc42u_ordinal6081 equ <__imp_mfc42u_ordinal6081>
+
+externdef __imp_mfc42u_ordinal6082:PPROC
+mfc42u_ordinal6082 equ <__imp_mfc42u_ordinal6082>
+
+externdef __imp_mfc42u_ordinal6083:PPROC
+mfc42u_ordinal6083 equ <__imp_mfc42u_ordinal6083>
+
+externdef __imp_mfc42u_ordinal6084:PPROC
+mfc42u_ordinal6084 equ <__imp_mfc42u_ordinal6084>
+
+externdef __imp_mfc42u_ordinal6085:PPROC
+mfc42u_ordinal6085 equ <__imp_mfc42u_ordinal6085>
+
+externdef __imp_mfc42u_ordinal6086:PPROC
+mfc42u_ordinal6086 equ <__imp_mfc42u_ordinal6086>
+
+externdef __imp_mfc42u_ordinal6087:PPROC
+mfc42u_ordinal6087 equ <__imp_mfc42u_ordinal6087>
+
+externdef __imp_mfc42u_ordinal6088:PPROC
+mfc42u_ordinal6088 equ <__imp_mfc42u_ordinal6088>
+
+externdef __imp_mfc42u_ordinal6089:PPROC
+mfc42u_ordinal6089 equ <__imp_mfc42u_ordinal6089>
+
+externdef __imp_mfc42u_ordinal608:PPROC
+mfc42u_ordinal608 equ <__imp_mfc42u_ordinal608>
+
+externdef __imp_mfc42u_ordinal6090:PPROC
+mfc42u_ordinal6090 equ <__imp_mfc42u_ordinal6090>
+
+externdef __imp_mfc42u_ordinal6091:PPROC
+mfc42u_ordinal6091 equ <__imp_mfc42u_ordinal6091>
+
+externdef __imp_mfc42u_ordinal6092:PPROC
+mfc42u_ordinal6092 equ <__imp_mfc42u_ordinal6092>
+
+externdef __imp_mfc42u_ordinal6093:PPROC
+mfc42u_ordinal6093 equ <__imp_mfc42u_ordinal6093>
+
+externdef __imp_mfc42u_ordinal6094:PPROC
+mfc42u_ordinal6094 equ <__imp_mfc42u_ordinal6094>
+
+externdef __imp_mfc42u_ordinal6095:PPROC
+mfc42u_ordinal6095 equ <__imp_mfc42u_ordinal6095>
+
+externdef __imp_mfc42u_ordinal6096:PPROC
+mfc42u_ordinal6096 equ <__imp_mfc42u_ordinal6096>
+
+externdef __imp_mfc42u_ordinal6097:PPROC
+mfc42u_ordinal6097 equ <__imp_mfc42u_ordinal6097>
+
+externdef __imp_mfc42u_ordinal6098:PPROC
+mfc42u_ordinal6098 equ <__imp_mfc42u_ordinal6098>
+
+externdef __imp_mfc42u_ordinal6099:PPROC
+mfc42u_ordinal6099 equ <__imp_mfc42u_ordinal6099>
+
+externdef __imp_mfc42u_ordinal609:PPROC
+mfc42u_ordinal609 equ <__imp_mfc42u_ordinal609>
+
+externdef __imp_mfc42u_ordinal60:PPROC
+mfc42u_ordinal60 equ <__imp_mfc42u_ordinal60>
+
+externdef __imp_mfc42u_ordinal6100:PPROC
+mfc42u_ordinal6100 equ <__imp_mfc42u_ordinal6100>
+
+externdef __imp_mfc42u_ordinal6101:PPROC
+mfc42u_ordinal6101 equ <__imp_mfc42u_ordinal6101>
+
+externdef __imp_mfc42u_ordinal6102:PPROC
+mfc42u_ordinal6102 equ <__imp_mfc42u_ordinal6102>
+
+externdef __imp_mfc42u_ordinal6103:PPROC
+mfc42u_ordinal6103 equ <__imp_mfc42u_ordinal6103>
+
+externdef __imp_mfc42u_ordinal6104:PPROC
+mfc42u_ordinal6104 equ <__imp_mfc42u_ordinal6104>
+
+externdef __imp_mfc42u_ordinal6105:PPROC
+mfc42u_ordinal6105 equ <__imp_mfc42u_ordinal6105>
+
+externdef __imp_mfc42u_ordinal6106:PPROC
+mfc42u_ordinal6106 equ <__imp_mfc42u_ordinal6106>
+
+externdef __imp_mfc42u_ordinal6107:PPROC
+mfc42u_ordinal6107 equ <__imp_mfc42u_ordinal6107>
+
+externdef __imp_mfc42u_ordinal6108:PPROC
+mfc42u_ordinal6108 equ <__imp_mfc42u_ordinal6108>
+
+externdef __imp_mfc42u_ordinal6109:PPROC
+mfc42u_ordinal6109 equ <__imp_mfc42u_ordinal6109>
+
+externdef __imp_mfc42u_ordinal610:PPROC
+mfc42u_ordinal610 equ <__imp_mfc42u_ordinal610>
+
+externdef __imp_mfc42u_ordinal6110:PPROC
+mfc42u_ordinal6110 equ <__imp_mfc42u_ordinal6110>
+
+externdef __imp_mfc42u_ordinal6111:PPROC
+mfc42u_ordinal6111 equ <__imp_mfc42u_ordinal6111>
+
+externdef __imp_mfc42u_ordinal6112:PPROC
+mfc42u_ordinal6112 equ <__imp_mfc42u_ordinal6112>
+
+externdef __imp_mfc42u_ordinal6113:PPROC
+mfc42u_ordinal6113 equ <__imp_mfc42u_ordinal6113>
+
+externdef __imp_mfc42u_ordinal6114:PPROC
+mfc42u_ordinal6114 equ <__imp_mfc42u_ordinal6114>
+
+externdef __imp_mfc42u_ordinal6115:PPROC
+mfc42u_ordinal6115 equ <__imp_mfc42u_ordinal6115>
+
+externdef __imp_mfc42u_ordinal6116:PPROC
+mfc42u_ordinal6116 equ <__imp_mfc42u_ordinal6116>
+
+externdef __imp_mfc42u_ordinal6117:PPROC
+mfc42u_ordinal6117 equ <__imp_mfc42u_ordinal6117>
+
+externdef __imp_mfc42u_ordinal6118:PPROC
+mfc42u_ordinal6118 equ <__imp_mfc42u_ordinal6118>
+
+externdef __imp_mfc42u_ordinal6119:PPROC
+mfc42u_ordinal6119 equ <__imp_mfc42u_ordinal6119>
+
+externdef __imp_mfc42u_ordinal611:PPROC
+mfc42u_ordinal611 equ <__imp_mfc42u_ordinal611>
+
+externdef __imp_mfc42u_ordinal6120:PPROC
+mfc42u_ordinal6120 equ <__imp_mfc42u_ordinal6120>
+
+externdef __imp_mfc42u_ordinal6121:PPROC
+mfc42u_ordinal6121 equ <__imp_mfc42u_ordinal6121>
+
+externdef __imp_mfc42u_ordinal6122:PPROC
+mfc42u_ordinal6122 equ <__imp_mfc42u_ordinal6122>
+
+externdef __imp_mfc42u_ordinal6123:PPROC
+mfc42u_ordinal6123 equ <__imp_mfc42u_ordinal6123>
+
+externdef __imp_mfc42u_ordinal6124:PPROC
+mfc42u_ordinal6124 equ <__imp_mfc42u_ordinal6124>
+
+externdef __imp_mfc42u_ordinal6125:PPROC
+mfc42u_ordinal6125 equ <__imp_mfc42u_ordinal6125>
+
+externdef __imp_mfc42u_ordinal6126:PPROC
+mfc42u_ordinal6126 equ <__imp_mfc42u_ordinal6126>
+
+externdef __imp_mfc42u_ordinal6127:PPROC
+mfc42u_ordinal6127 equ <__imp_mfc42u_ordinal6127>
+
+externdef __imp_mfc42u_ordinal6128:PPROC
+mfc42u_ordinal6128 equ <__imp_mfc42u_ordinal6128>
+
+externdef __imp_mfc42u_ordinal6129:PPROC
+mfc42u_ordinal6129 equ <__imp_mfc42u_ordinal6129>
+
+externdef __imp_mfc42u_ordinal612:PPROC
+mfc42u_ordinal612 equ <__imp_mfc42u_ordinal612>
+
+externdef __imp_mfc42u_ordinal6130:PPROC
+mfc42u_ordinal6130 equ <__imp_mfc42u_ordinal6130>
+
+externdef __imp_mfc42u_ordinal6131:PPROC
+mfc42u_ordinal6131 equ <__imp_mfc42u_ordinal6131>
+
+externdef __imp_mfc42u_ordinal6132:PPROC
+mfc42u_ordinal6132 equ <__imp_mfc42u_ordinal6132>
+
+externdef __imp_mfc42u_ordinal6133:PPROC
+mfc42u_ordinal6133 equ <__imp_mfc42u_ordinal6133>
+
+externdef __imp_mfc42u_ordinal6134:PPROC
+mfc42u_ordinal6134 equ <__imp_mfc42u_ordinal6134>
+
+externdef __imp_mfc42u_ordinal6135:PPROC
+mfc42u_ordinal6135 equ <__imp_mfc42u_ordinal6135>
+
+externdef __imp_mfc42u_ordinal6136:PPROC
+mfc42u_ordinal6136 equ <__imp_mfc42u_ordinal6136>
+
+externdef __imp_mfc42u_ordinal6137:PPROC
+mfc42u_ordinal6137 equ <__imp_mfc42u_ordinal6137>
+
+externdef __imp_mfc42u_ordinal6138:PPROC
+mfc42u_ordinal6138 equ <__imp_mfc42u_ordinal6138>
+
+externdef __imp_mfc42u_ordinal6139:PPROC
+mfc42u_ordinal6139 equ <__imp_mfc42u_ordinal6139>
+
+externdef __imp_mfc42u_ordinal613:PPROC
+mfc42u_ordinal613 equ <__imp_mfc42u_ordinal613>
+
+externdef __imp_mfc42u_ordinal6140:PPROC
+mfc42u_ordinal6140 equ <__imp_mfc42u_ordinal6140>
+
+externdef __imp_mfc42u_ordinal6141:PPROC
+mfc42u_ordinal6141 equ <__imp_mfc42u_ordinal6141>
+
+externdef __imp_mfc42u_ordinal6142:PPROC
+mfc42u_ordinal6142 equ <__imp_mfc42u_ordinal6142>
+
+externdef __imp_mfc42u_ordinal6143:PPROC
+mfc42u_ordinal6143 equ <__imp_mfc42u_ordinal6143>
+
+externdef __imp_mfc42u_ordinal6144:PPROC
+mfc42u_ordinal6144 equ <__imp_mfc42u_ordinal6144>
+
+externdef __imp_mfc42u_ordinal6145:PPROC
+mfc42u_ordinal6145 equ <__imp_mfc42u_ordinal6145>
+
+externdef __imp_mfc42u_ordinal6146:PPROC
+mfc42u_ordinal6146 equ <__imp_mfc42u_ordinal6146>
+
+externdef __imp_mfc42u_ordinal6147:PPROC
+mfc42u_ordinal6147 equ <__imp_mfc42u_ordinal6147>
+
+externdef __imp_mfc42u_ordinal6148:PPROC
+mfc42u_ordinal6148 equ <__imp_mfc42u_ordinal6148>
+
+externdef __imp_mfc42u_ordinal6149:PPROC
+mfc42u_ordinal6149 equ <__imp_mfc42u_ordinal6149>
+
+externdef __imp_mfc42u_ordinal614:PPROC
+mfc42u_ordinal614 equ <__imp_mfc42u_ordinal614>
+
+externdef __imp_mfc42u_ordinal6150:PPROC
+mfc42u_ordinal6150 equ <__imp_mfc42u_ordinal6150>
+
+externdef __imp_mfc42u_ordinal6151:PPROC
+mfc42u_ordinal6151 equ <__imp_mfc42u_ordinal6151>
+
+externdef __imp_mfc42u_ordinal6152:PPROC
+mfc42u_ordinal6152 equ <__imp_mfc42u_ordinal6152>
+
+externdef __imp_mfc42u_ordinal6153:PPROC
+mfc42u_ordinal6153 equ <__imp_mfc42u_ordinal6153>
+
+externdef __imp_mfc42u_ordinal6154:PPROC
+mfc42u_ordinal6154 equ <__imp_mfc42u_ordinal6154>
+
+externdef __imp_mfc42u_ordinal6155:PPROC
+mfc42u_ordinal6155 equ <__imp_mfc42u_ordinal6155>
+
+externdef __imp_mfc42u_ordinal6156:PPROC
+mfc42u_ordinal6156 equ <__imp_mfc42u_ordinal6156>
+
+externdef __imp_mfc42u_ordinal6157:PPROC
+mfc42u_ordinal6157 equ <__imp_mfc42u_ordinal6157>
+
+externdef __imp_mfc42u_ordinal6158:PPROC
+mfc42u_ordinal6158 equ <__imp_mfc42u_ordinal6158>
+
+externdef __imp_mfc42u_ordinal6159:PPROC
+mfc42u_ordinal6159 equ <__imp_mfc42u_ordinal6159>
+
+externdef __imp_mfc42u_ordinal615:PPROC
+mfc42u_ordinal615 equ <__imp_mfc42u_ordinal615>
+
+externdef __imp_mfc42u_ordinal6160:PPROC
+mfc42u_ordinal6160 equ <__imp_mfc42u_ordinal6160>
+
+externdef __imp_mfc42u_ordinal6161:PPROC
+mfc42u_ordinal6161 equ <__imp_mfc42u_ordinal6161>
+
+externdef __imp_mfc42u_ordinal6162:PPROC
+mfc42u_ordinal6162 equ <__imp_mfc42u_ordinal6162>
+
+externdef __imp_mfc42u_ordinal6163:PPROC
+mfc42u_ordinal6163 equ <__imp_mfc42u_ordinal6163>
+
+externdef __imp_mfc42u_ordinal6164:PPROC
+mfc42u_ordinal6164 equ <__imp_mfc42u_ordinal6164>
+
+externdef __imp_mfc42u_ordinal6165:PPROC
+mfc42u_ordinal6165 equ <__imp_mfc42u_ordinal6165>
+
+externdef __imp_mfc42u_ordinal6166:PPROC
+mfc42u_ordinal6166 equ <__imp_mfc42u_ordinal6166>
+
+externdef __imp_mfc42u_ordinal6167:PPROC
+mfc42u_ordinal6167 equ <__imp_mfc42u_ordinal6167>
+
+externdef __imp_mfc42u_ordinal6168:PPROC
+mfc42u_ordinal6168 equ <__imp_mfc42u_ordinal6168>
+
+externdef __imp_mfc42u_ordinal6169:PPROC
+mfc42u_ordinal6169 equ <__imp_mfc42u_ordinal6169>
+
+externdef __imp_mfc42u_ordinal616:PPROC
+mfc42u_ordinal616 equ <__imp_mfc42u_ordinal616>
+
+externdef __imp_mfc42u_ordinal6170:PPROC
+mfc42u_ordinal6170 equ <__imp_mfc42u_ordinal6170>
+
+externdef __imp_mfc42u_ordinal6171:PPROC
+mfc42u_ordinal6171 equ <__imp_mfc42u_ordinal6171>
+
+externdef __imp_mfc42u_ordinal6172:PPROC
+mfc42u_ordinal6172 equ <__imp_mfc42u_ordinal6172>
+
+externdef __imp_mfc42u_ordinal6173:PPROC
+mfc42u_ordinal6173 equ <__imp_mfc42u_ordinal6173>
+
+externdef __imp_mfc42u_ordinal6174:PPROC
+mfc42u_ordinal6174 equ <__imp_mfc42u_ordinal6174>
+
+externdef __imp_mfc42u_ordinal6175:PPROC
+mfc42u_ordinal6175 equ <__imp_mfc42u_ordinal6175>
+
+externdef __imp_mfc42u_ordinal6176:PPROC
+mfc42u_ordinal6176 equ <__imp_mfc42u_ordinal6176>
+
+externdef __imp_mfc42u_ordinal6177:PPROC
+mfc42u_ordinal6177 equ <__imp_mfc42u_ordinal6177>
+
+externdef __imp_mfc42u_ordinal6178:PPROC
+mfc42u_ordinal6178 equ <__imp_mfc42u_ordinal6178>
+
+externdef __imp_mfc42u_ordinal6179:PPROC
+mfc42u_ordinal6179 equ <__imp_mfc42u_ordinal6179>
+
+externdef __imp_mfc42u_ordinal617:PPROC
+mfc42u_ordinal617 equ <__imp_mfc42u_ordinal617>
+
+externdef __imp_mfc42u_ordinal6180:PPROC
+mfc42u_ordinal6180 equ <__imp_mfc42u_ordinal6180>
+
+externdef __imp_mfc42u_ordinal6181:PPROC
+mfc42u_ordinal6181 equ <__imp_mfc42u_ordinal6181>
+
+externdef __imp_mfc42u_ordinal6182:PPROC
+mfc42u_ordinal6182 equ <__imp_mfc42u_ordinal6182>
+
+externdef __imp_mfc42u_ordinal6183:PPROC
+mfc42u_ordinal6183 equ <__imp_mfc42u_ordinal6183>
+
+externdef __imp_mfc42u_ordinal6184:PPROC
+mfc42u_ordinal6184 equ <__imp_mfc42u_ordinal6184>
+
+externdef __imp_mfc42u_ordinal6185:PPROC
+mfc42u_ordinal6185 equ <__imp_mfc42u_ordinal6185>
+
+externdef __imp_mfc42u_ordinal6186:PPROC
+mfc42u_ordinal6186 equ <__imp_mfc42u_ordinal6186>
+
+externdef __imp_mfc42u_ordinal6187:PPROC
+mfc42u_ordinal6187 equ <__imp_mfc42u_ordinal6187>
+
+externdef __imp_mfc42u_ordinal6188:PPROC
+mfc42u_ordinal6188 equ <__imp_mfc42u_ordinal6188>
+
+externdef __imp_mfc42u_ordinal6189:PPROC
+mfc42u_ordinal6189 equ <__imp_mfc42u_ordinal6189>
+
+externdef __imp_mfc42u_ordinal618:PPROC
+mfc42u_ordinal618 equ <__imp_mfc42u_ordinal618>
+
+externdef __imp_mfc42u_ordinal6190:PPROC
+mfc42u_ordinal6190 equ <__imp_mfc42u_ordinal6190>
+
+externdef __imp_mfc42u_ordinal6191:PPROC
+mfc42u_ordinal6191 equ <__imp_mfc42u_ordinal6191>
+
+externdef __imp_mfc42u_ordinal6192:PPROC
+mfc42u_ordinal6192 equ <__imp_mfc42u_ordinal6192>
+
+externdef __imp_mfc42u_ordinal6193:PPROC
+mfc42u_ordinal6193 equ <__imp_mfc42u_ordinal6193>
+
+externdef __imp_mfc42u_ordinal6194:PPROC
+mfc42u_ordinal6194 equ <__imp_mfc42u_ordinal6194>
+
+externdef __imp_mfc42u_ordinal6195:PPROC
+mfc42u_ordinal6195 equ <__imp_mfc42u_ordinal6195>
+
+externdef __imp_mfc42u_ordinal6196:PPROC
+mfc42u_ordinal6196 equ <__imp_mfc42u_ordinal6196>
+
+externdef __imp_mfc42u_ordinal6197:PPROC
+mfc42u_ordinal6197 equ <__imp_mfc42u_ordinal6197>
+
+externdef __imp_mfc42u_ordinal6198:PPROC
+mfc42u_ordinal6198 equ <__imp_mfc42u_ordinal6198>
+
+externdef __imp_mfc42u_ordinal6199:PPROC
+mfc42u_ordinal6199 equ <__imp_mfc42u_ordinal6199>
+
+externdef __imp_mfc42u_ordinal619:PPROC
+mfc42u_ordinal619 equ <__imp_mfc42u_ordinal619>
+
+externdef __imp_mfc42u_ordinal61:PPROC
+mfc42u_ordinal61 equ <__imp_mfc42u_ordinal61>
+
+externdef __imp_mfc42u_ordinal6200:PPROC
+mfc42u_ordinal6200 equ <__imp_mfc42u_ordinal6200>
+
+externdef __imp_mfc42u_ordinal6201:PPROC
+mfc42u_ordinal6201 equ <__imp_mfc42u_ordinal6201>
+
+externdef __imp_mfc42u_ordinal6202:PPROC
+mfc42u_ordinal6202 equ <__imp_mfc42u_ordinal6202>
+
+externdef __imp_mfc42u_ordinal6203:PPROC
+mfc42u_ordinal6203 equ <__imp_mfc42u_ordinal6203>
+
+externdef __imp_mfc42u_ordinal6204:PPROC
+mfc42u_ordinal6204 equ <__imp_mfc42u_ordinal6204>
+
+externdef __imp_mfc42u_ordinal6205:PPROC
+mfc42u_ordinal6205 equ <__imp_mfc42u_ordinal6205>
+
+externdef __imp_mfc42u_ordinal6206:PPROC
+mfc42u_ordinal6206 equ <__imp_mfc42u_ordinal6206>
+
+externdef __imp_mfc42u_ordinal6207:PPROC
+mfc42u_ordinal6207 equ <__imp_mfc42u_ordinal6207>
+
+externdef __imp_mfc42u_ordinal6208:PPROC
+mfc42u_ordinal6208 equ <__imp_mfc42u_ordinal6208>
+
+externdef __imp_mfc42u_ordinal6209:PPROC
+mfc42u_ordinal6209 equ <__imp_mfc42u_ordinal6209>
+
+externdef __imp_mfc42u_ordinal620:PPROC
+mfc42u_ordinal620 equ <__imp_mfc42u_ordinal620>
+
+externdef __imp_mfc42u_ordinal6210:PPROC
+mfc42u_ordinal6210 equ <__imp_mfc42u_ordinal6210>
+
+externdef __imp_mfc42u_ordinal6211:PPROC
+mfc42u_ordinal6211 equ <__imp_mfc42u_ordinal6211>
+
+externdef __imp_mfc42u_ordinal6212:PPROC
+mfc42u_ordinal6212 equ <__imp_mfc42u_ordinal6212>
+
+externdef __imp_mfc42u_ordinal6213:PPROC
+mfc42u_ordinal6213 equ <__imp_mfc42u_ordinal6213>
+
+externdef __imp_mfc42u_ordinal6214:PPROC
+mfc42u_ordinal6214 equ <__imp_mfc42u_ordinal6214>
+
+externdef __imp_mfc42u_ordinal6215:PPROC
+mfc42u_ordinal6215 equ <__imp_mfc42u_ordinal6215>
+
+externdef __imp_mfc42u_ordinal6216:PPROC
+mfc42u_ordinal6216 equ <__imp_mfc42u_ordinal6216>
+
+externdef __imp_mfc42u_ordinal6217:PPROC
+mfc42u_ordinal6217 equ <__imp_mfc42u_ordinal6217>
+
+externdef __imp_mfc42u_ordinal6218:PPROC
+mfc42u_ordinal6218 equ <__imp_mfc42u_ordinal6218>
+
+externdef __imp_mfc42u_ordinal6219:PPROC
+mfc42u_ordinal6219 equ <__imp_mfc42u_ordinal6219>
+
+externdef __imp_mfc42u_ordinal621:PPROC
+mfc42u_ordinal621 equ <__imp_mfc42u_ordinal621>
+
+externdef __imp_mfc42u_ordinal6220:PPROC
+mfc42u_ordinal6220 equ <__imp_mfc42u_ordinal6220>
+
+externdef __imp_mfc42u_ordinal6221:PPROC
+mfc42u_ordinal6221 equ <__imp_mfc42u_ordinal6221>
+
+externdef __imp_mfc42u_ordinal6222:PPROC
+mfc42u_ordinal6222 equ <__imp_mfc42u_ordinal6222>
+
+externdef __imp_mfc42u_ordinal6223:PPROC
+mfc42u_ordinal6223 equ <__imp_mfc42u_ordinal6223>
+
+externdef __imp_mfc42u_ordinal6224:PPROC
+mfc42u_ordinal6224 equ <__imp_mfc42u_ordinal6224>
+
+externdef __imp_mfc42u_ordinal6225:PPROC
+mfc42u_ordinal6225 equ <__imp_mfc42u_ordinal6225>
+
+externdef __imp_mfc42u_ordinal6226:PPROC
+mfc42u_ordinal6226 equ <__imp_mfc42u_ordinal6226>
+
+externdef __imp_mfc42u_ordinal6227:PPROC
+mfc42u_ordinal6227 equ <__imp_mfc42u_ordinal6227>
+
+externdef __imp_mfc42u_ordinal6228:PPROC
+mfc42u_ordinal6228 equ <__imp_mfc42u_ordinal6228>
+
+externdef __imp_mfc42u_ordinal6229:PPROC
+mfc42u_ordinal6229 equ <__imp_mfc42u_ordinal6229>
+
+externdef __imp_mfc42u_ordinal622:PPROC
+mfc42u_ordinal622 equ <__imp_mfc42u_ordinal622>
+
+externdef __imp_mfc42u_ordinal6230:PPROC
+mfc42u_ordinal6230 equ <__imp_mfc42u_ordinal6230>
+
+externdef __imp_mfc42u_ordinal6231:PPROC
+mfc42u_ordinal6231 equ <__imp_mfc42u_ordinal6231>
+
+externdef __imp_mfc42u_ordinal6232:PPROC
+mfc42u_ordinal6232 equ <__imp_mfc42u_ordinal6232>
+
+externdef __imp_mfc42u_ordinal6233:PPROC
+mfc42u_ordinal6233 equ <__imp_mfc42u_ordinal6233>
+
+externdef __imp_mfc42u_ordinal6234:PPROC
+mfc42u_ordinal6234 equ <__imp_mfc42u_ordinal6234>
+
+externdef __imp_mfc42u_ordinal6235:PPROC
+mfc42u_ordinal6235 equ <__imp_mfc42u_ordinal6235>
+
+externdef __imp_mfc42u_ordinal6236:PPROC
+mfc42u_ordinal6236 equ <__imp_mfc42u_ordinal6236>
+
+externdef __imp_mfc42u_ordinal6237:PPROC
+mfc42u_ordinal6237 equ <__imp_mfc42u_ordinal6237>
+
+externdef __imp_mfc42u_ordinal6238:PPROC
+mfc42u_ordinal6238 equ <__imp_mfc42u_ordinal6238>
+
+externdef __imp_mfc42u_ordinal6239:PPROC
+mfc42u_ordinal6239 equ <__imp_mfc42u_ordinal6239>
+
+externdef __imp_mfc42u_ordinal623:PPROC
+mfc42u_ordinal623 equ <__imp_mfc42u_ordinal623>
+
+externdef __imp_mfc42u_ordinal6240:PPROC
+mfc42u_ordinal6240 equ <__imp_mfc42u_ordinal6240>
+
+externdef __imp_mfc42u_ordinal6241:PPROC
+mfc42u_ordinal6241 equ <__imp_mfc42u_ordinal6241>
+
+externdef __imp_mfc42u_ordinal6242:PPROC
+mfc42u_ordinal6242 equ <__imp_mfc42u_ordinal6242>
+
+externdef __imp_mfc42u_ordinal6243:PPROC
+mfc42u_ordinal6243 equ <__imp_mfc42u_ordinal6243>
+
+externdef __imp_mfc42u_ordinal6244:PPROC
+mfc42u_ordinal6244 equ <__imp_mfc42u_ordinal6244>
+
+externdef __imp_mfc42u_ordinal6245:PPROC
+mfc42u_ordinal6245 equ <__imp_mfc42u_ordinal6245>
+
+externdef __imp_mfc42u_ordinal6246:PPROC
+mfc42u_ordinal6246 equ <__imp_mfc42u_ordinal6246>
+
+externdef __imp_mfc42u_ordinal6247:PPROC
+mfc42u_ordinal6247 equ <__imp_mfc42u_ordinal6247>
+
+externdef __imp_mfc42u_ordinal6248:PPROC
+mfc42u_ordinal6248 equ <__imp_mfc42u_ordinal6248>
+
+externdef __imp_mfc42u_ordinal6249:PPROC
+mfc42u_ordinal6249 equ <__imp_mfc42u_ordinal6249>
+
+externdef __imp_mfc42u_ordinal624:PPROC
+mfc42u_ordinal624 equ <__imp_mfc42u_ordinal624>
+
+externdef __imp_mfc42u_ordinal6250:PPROC
+mfc42u_ordinal6250 equ <__imp_mfc42u_ordinal6250>
+
+externdef __imp_mfc42u_ordinal6251:PPROC
+mfc42u_ordinal6251 equ <__imp_mfc42u_ordinal6251>
+
+externdef __imp_mfc42u_ordinal6252:PPROC
+mfc42u_ordinal6252 equ <__imp_mfc42u_ordinal6252>
+
+externdef __imp_mfc42u_ordinal6253:PPROC
+mfc42u_ordinal6253 equ <__imp_mfc42u_ordinal6253>
+
+externdef __imp_mfc42u_ordinal6254:PPROC
+mfc42u_ordinal6254 equ <__imp_mfc42u_ordinal6254>
+
+externdef __imp_mfc42u_ordinal6255:PPROC
+mfc42u_ordinal6255 equ <__imp_mfc42u_ordinal6255>
+
+externdef __imp_mfc42u_ordinal6256:PPROC
+mfc42u_ordinal6256 equ <__imp_mfc42u_ordinal6256>
+
+externdef __imp_mfc42u_ordinal6257:PPROC
+mfc42u_ordinal6257 equ <__imp_mfc42u_ordinal6257>
+
+externdef __imp_mfc42u_ordinal6258:PPROC
+mfc42u_ordinal6258 equ <__imp_mfc42u_ordinal6258>
+
+externdef __imp_mfc42u_ordinal6259:PPROC
+mfc42u_ordinal6259 equ <__imp_mfc42u_ordinal6259>
+
+externdef __imp_mfc42u_ordinal625:PPROC
+mfc42u_ordinal625 equ <__imp_mfc42u_ordinal625>
+
+externdef __imp_mfc42u_ordinal6260:PPROC
+mfc42u_ordinal6260 equ <__imp_mfc42u_ordinal6260>
+
+externdef __imp_mfc42u_ordinal6261:PPROC
+mfc42u_ordinal6261 equ <__imp_mfc42u_ordinal6261>
+
+externdef __imp_mfc42u_ordinal6262:PPROC
+mfc42u_ordinal6262 equ <__imp_mfc42u_ordinal6262>
+
+externdef __imp_mfc42u_ordinal6263:PPROC
+mfc42u_ordinal6263 equ <__imp_mfc42u_ordinal6263>
+
+externdef __imp_mfc42u_ordinal6264:PPROC
+mfc42u_ordinal6264 equ <__imp_mfc42u_ordinal6264>
+
+externdef __imp_mfc42u_ordinal6265:PPROC
+mfc42u_ordinal6265 equ <__imp_mfc42u_ordinal6265>
+
+externdef __imp_mfc42u_ordinal6266:PPROC
+mfc42u_ordinal6266 equ <__imp_mfc42u_ordinal6266>
+
+externdef __imp_mfc42u_ordinal6267:PPROC
+mfc42u_ordinal6267 equ <__imp_mfc42u_ordinal6267>
+
+externdef __imp_mfc42u_ordinal6268:PPROC
+mfc42u_ordinal6268 equ <__imp_mfc42u_ordinal6268>
+
+externdef __imp_mfc42u_ordinal6269:PPROC
+mfc42u_ordinal6269 equ <__imp_mfc42u_ordinal6269>
+
+externdef __imp_mfc42u_ordinal626:PPROC
+mfc42u_ordinal626 equ <__imp_mfc42u_ordinal626>
+
+externdef __imp_mfc42u_ordinal6270:PPROC
+mfc42u_ordinal6270 equ <__imp_mfc42u_ordinal6270>
+
+externdef __imp_mfc42u_ordinal6271:PPROC
+mfc42u_ordinal6271 equ <__imp_mfc42u_ordinal6271>
+
+externdef __imp_mfc42u_ordinal6272:PPROC
+mfc42u_ordinal6272 equ <__imp_mfc42u_ordinal6272>
+
+externdef __imp_mfc42u_ordinal6273:PPROC
+mfc42u_ordinal6273 equ <__imp_mfc42u_ordinal6273>
+
+externdef __imp_mfc42u_ordinal6274:PPROC
+mfc42u_ordinal6274 equ <__imp_mfc42u_ordinal6274>
+
+externdef __imp_mfc42u_ordinal6275:PPROC
+mfc42u_ordinal6275 equ <__imp_mfc42u_ordinal6275>
+
+externdef __imp_mfc42u_ordinal6276:PPROC
+mfc42u_ordinal6276 equ <__imp_mfc42u_ordinal6276>
+
+externdef __imp_mfc42u_ordinal6277:PPROC
+mfc42u_ordinal6277 equ <__imp_mfc42u_ordinal6277>
+
+externdef __imp_mfc42u_ordinal6278:PPROC
+mfc42u_ordinal6278 equ <__imp_mfc42u_ordinal6278>
+
+externdef __imp_mfc42u_ordinal6279:PPROC
+mfc42u_ordinal6279 equ <__imp_mfc42u_ordinal6279>
+
+externdef __imp_mfc42u_ordinal627:PPROC
+mfc42u_ordinal627 equ <__imp_mfc42u_ordinal627>
+
+externdef __imp_mfc42u_ordinal6280:PPROC
+mfc42u_ordinal6280 equ <__imp_mfc42u_ordinal6280>
+
+externdef __imp_mfc42u_ordinal6281:PPROC
+mfc42u_ordinal6281 equ <__imp_mfc42u_ordinal6281>
+
+externdef __imp_mfc42u_ordinal6282:PPROC
+mfc42u_ordinal6282 equ <__imp_mfc42u_ordinal6282>
+
+externdef __imp_mfc42u_ordinal6283:PPROC
+mfc42u_ordinal6283 equ <__imp_mfc42u_ordinal6283>
+
+externdef __imp_mfc42u_ordinal6284:PPROC
+mfc42u_ordinal6284 equ <__imp_mfc42u_ordinal6284>
+
+externdef __imp_mfc42u_ordinal6285:PPROC
+mfc42u_ordinal6285 equ <__imp_mfc42u_ordinal6285>
+
+externdef __imp_mfc42u_ordinal6286:PPROC
+mfc42u_ordinal6286 equ <__imp_mfc42u_ordinal6286>
+
+externdef __imp_mfc42u_ordinal6287:PPROC
+mfc42u_ordinal6287 equ <__imp_mfc42u_ordinal6287>
+
+externdef __imp_mfc42u_ordinal6288:PPROC
+mfc42u_ordinal6288 equ <__imp_mfc42u_ordinal6288>
+
+externdef __imp_mfc42u_ordinal6289:PPROC
+mfc42u_ordinal6289 equ <__imp_mfc42u_ordinal6289>
+
+externdef __imp_mfc42u_ordinal628:PPROC
+mfc42u_ordinal628 equ <__imp_mfc42u_ordinal628>
+
+externdef __imp_mfc42u_ordinal6290:PPROC
+mfc42u_ordinal6290 equ <__imp_mfc42u_ordinal6290>
+
+externdef __imp_mfc42u_ordinal6291:PPROC
+mfc42u_ordinal6291 equ <__imp_mfc42u_ordinal6291>
+
+externdef __imp_mfc42u_ordinal6292:PPROC
+mfc42u_ordinal6292 equ <__imp_mfc42u_ordinal6292>
+
+externdef __imp_mfc42u_ordinal6293:PPROC
+mfc42u_ordinal6293 equ <__imp_mfc42u_ordinal6293>
+
+externdef __imp_mfc42u_ordinal6294:PPROC
+mfc42u_ordinal6294 equ <__imp_mfc42u_ordinal6294>
+
+externdef __imp_mfc42u_ordinal6295:PPROC
+mfc42u_ordinal6295 equ <__imp_mfc42u_ordinal6295>
+
+externdef __imp_mfc42u_ordinal6296:PPROC
+mfc42u_ordinal6296 equ <__imp_mfc42u_ordinal6296>
+
+externdef __imp_mfc42u_ordinal6297:PPROC
+mfc42u_ordinal6297 equ <__imp_mfc42u_ordinal6297>
+
+externdef __imp_mfc42u_ordinal6298:PPROC
+mfc42u_ordinal6298 equ <__imp_mfc42u_ordinal6298>
+
+externdef __imp_mfc42u_ordinal6299:PPROC
+mfc42u_ordinal6299 equ <__imp_mfc42u_ordinal6299>
+
+externdef __imp_mfc42u_ordinal629:PPROC
+mfc42u_ordinal629 equ <__imp_mfc42u_ordinal629>
+
+externdef __imp_mfc42u_ordinal62:PPROC
+mfc42u_ordinal62 equ <__imp_mfc42u_ordinal62>
+
+externdef __imp_mfc42u_ordinal6300:PPROC
+mfc42u_ordinal6300 equ <__imp_mfc42u_ordinal6300>
+
+externdef __imp_mfc42u_ordinal6301:PPROC
+mfc42u_ordinal6301 equ <__imp_mfc42u_ordinal6301>
+
+externdef __imp_mfc42u_ordinal6302:PPROC
+mfc42u_ordinal6302 equ <__imp_mfc42u_ordinal6302>
+
+externdef __imp_mfc42u_ordinal6303:PPROC
+mfc42u_ordinal6303 equ <__imp_mfc42u_ordinal6303>
+
+externdef __imp_mfc42u_ordinal6304:PPROC
+mfc42u_ordinal6304 equ <__imp_mfc42u_ordinal6304>
+
+externdef __imp_mfc42u_ordinal6305:PPROC
+mfc42u_ordinal6305 equ <__imp_mfc42u_ordinal6305>
+
+externdef __imp_mfc42u_ordinal6306:PPROC
+mfc42u_ordinal6306 equ <__imp_mfc42u_ordinal6306>
+
+externdef __imp_mfc42u_ordinal6307:PPROC
+mfc42u_ordinal6307 equ <__imp_mfc42u_ordinal6307>
+
+externdef __imp_mfc42u_ordinal6308:PPROC
+mfc42u_ordinal6308 equ <__imp_mfc42u_ordinal6308>
+
+externdef __imp_mfc42u_ordinal6309:PPROC
+mfc42u_ordinal6309 equ <__imp_mfc42u_ordinal6309>
+
+externdef __imp_mfc42u_ordinal630:PPROC
+mfc42u_ordinal630 equ <__imp_mfc42u_ordinal630>
+
+externdef __imp_mfc42u_ordinal6310:PPROC
+mfc42u_ordinal6310 equ <__imp_mfc42u_ordinal6310>
+
+externdef __imp_mfc42u_ordinal6311:PPROC
+mfc42u_ordinal6311 equ <__imp_mfc42u_ordinal6311>
+
+externdef __imp_mfc42u_ordinal6312:PPROC
+mfc42u_ordinal6312 equ <__imp_mfc42u_ordinal6312>
+
+externdef __imp_mfc42u_ordinal6313:PPROC
+mfc42u_ordinal6313 equ <__imp_mfc42u_ordinal6313>
+
+externdef __imp_mfc42u_ordinal6314:PPROC
+mfc42u_ordinal6314 equ <__imp_mfc42u_ordinal6314>
+
+externdef __imp_mfc42u_ordinal6315:PPROC
+mfc42u_ordinal6315 equ <__imp_mfc42u_ordinal6315>
+
+externdef __imp_mfc42u_ordinal6316:PPROC
+mfc42u_ordinal6316 equ <__imp_mfc42u_ordinal6316>
+
+externdef __imp_mfc42u_ordinal6317:PPROC
+mfc42u_ordinal6317 equ <__imp_mfc42u_ordinal6317>
+
+externdef __imp_mfc42u_ordinal6318:PPROC
+mfc42u_ordinal6318 equ <__imp_mfc42u_ordinal6318>
+
+externdef __imp_mfc42u_ordinal6319:PPROC
+mfc42u_ordinal6319 equ <__imp_mfc42u_ordinal6319>
+
+externdef __imp_mfc42u_ordinal631:PPROC
+mfc42u_ordinal631 equ <__imp_mfc42u_ordinal631>
+
+externdef __imp_mfc42u_ordinal6320:PPROC
+mfc42u_ordinal6320 equ <__imp_mfc42u_ordinal6320>
+
+externdef __imp_mfc42u_ordinal6321:PPROC
+mfc42u_ordinal6321 equ <__imp_mfc42u_ordinal6321>
+
+externdef __imp_mfc42u_ordinal6322:PPROC
+mfc42u_ordinal6322 equ <__imp_mfc42u_ordinal6322>
+
+externdef __imp_mfc42u_ordinal6323:PPROC
+mfc42u_ordinal6323 equ <__imp_mfc42u_ordinal6323>
+
+externdef __imp_mfc42u_ordinal6324:PPROC
+mfc42u_ordinal6324 equ <__imp_mfc42u_ordinal6324>
+
+externdef __imp_mfc42u_ordinal6325:PPROC
+mfc42u_ordinal6325 equ <__imp_mfc42u_ordinal6325>
+
+externdef __imp_mfc42u_ordinal6326:PPROC
+mfc42u_ordinal6326 equ <__imp_mfc42u_ordinal6326>
+
+externdef __imp_mfc42u_ordinal6327:PPROC
+mfc42u_ordinal6327 equ <__imp_mfc42u_ordinal6327>
+
+externdef __imp_mfc42u_ordinal6328:PPROC
+mfc42u_ordinal6328 equ <__imp_mfc42u_ordinal6328>
+
+externdef __imp_mfc42u_ordinal6329:PPROC
+mfc42u_ordinal6329 equ <__imp_mfc42u_ordinal6329>
+
+externdef __imp_mfc42u_ordinal632:PPROC
+mfc42u_ordinal632 equ <__imp_mfc42u_ordinal632>
+
+externdef __imp_mfc42u_ordinal6330:PPROC
+mfc42u_ordinal6330 equ <__imp_mfc42u_ordinal6330>
+
+externdef __imp_mfc42u_ordinal6331:PPROC
+mfc42u_ordinal6331 equ <__imp_mfc42u_ordinal6331>
+
+externdef __imp_mfc42u_ordinal6332:PPROC
+mfc42u_ordinal6332 equ <__imp_mfc42u_ordinal6332>
+
+externdef __imp_mfc42u_ordinal6333:PPROC
+mfc42u_ordinal6333 equ <__imp_mfc42u_ordinal6333>
+
+externdef __imp_mfc42u_ordinal6334:PPROC
+mfc42u_ordinal6334 equ <__imp_mfc42u_ordinal6334>
+
+externdef __imp_mfc42u_ordinal6335:PPROC
+mfc42u_ordinal6335 equ <__imp_mfc42u_ordinal6335>
+
+externdef __imp_mfc42u_ordinal6336:PPROC
+mfc42u_ordinal6336 equ <__imp_mfc42u_ordinal6336>
+
+externdef __imp_mfc42u_ordinal6337:PPROC
+mfc42u_ordinal6337 equ <__imp_mfc42u_ordinal6337>
+
+externdef __imp_mfc42u_ordinal6338:PPROC
+mfc42u_ordinal6338 equ <__imp_mfc42u_ordinal6338>
+
+externdef __imp_mfc42u_ordinal6339:PPROC
+mfc42u_ordinal6339 equ <__imp_mfc42u_ordinal6339>
+
+externdef __imp_mfc42u_ordinal633:PPROC
+mfc42u_ordinal633 equ <__imp_mfc42u_ordinal633>
+
+externdef __imp_mfc42u_ordinal6340:PPROC
+mfc42u_ordinal6340 equ <__imp_mfc42u_ordinal6340>
+
+externdef __imp_mfc42u_ordinal6341:PPROC
+mfc42u_ordinal6341 equ <__imp_mfc42u_ordinal6341>
+
+externdef __imp_mfc42u_ordinal6342:PPROC
+mfc42u_ordinal6342 equ <__imp_mfc42u_ordinal6342>
+
+externdef __imp_mfc42u_ordinal6343:PPROC
+mfc42u_ordinal6343 equ <__imp_mfc42u_ordinal6343>
+
+externdef __imp_mfc42u_ordinal6344:PPROC
+mfc42u_ordinal6344 equ <__imp_mfc42u_ordinal6344>
+
+externdef __imp_mfc42u_ordinal6345:PPROC
+mfc42u_ordinal6345 equ <__imp_mfc42u_ordinal6345>
+
+externdef __imp_mfc42u_ordinal6346:PPROC
+mfc42u_ordinal6346 equ <__imp_mfc42u_ordinal6346>
+
+externdef __imp_mfc42u_ordinal6347:PPROC
+mfc42u_ordinal6347 equ <__imp_mfc42u_ordinal6347>
+
+externdef __imp_mfc42u_ordinal6348:PPROC
+mfc42u_ordinal6348 equ <__imp_mfc42u_ordinal6348>
+
+externdef __imp_mfc42u_ordinal6349:PPROC
+mfc42u_ordinal6349 equ <__imp_mfc42u_ordinal6349>
+
+externdef __imp_mfc42u_ordinal634:PPROC
+mfc42u_ordinal634 equ <__imp_mfc42u_ordinal634>
+
+externdef __imp_mfc42u_ordinal6350:PPROC
+mfc42u_ordinal6350 equ <__imp_mfc42u_ordinal6350>
+
+externdef __imp_mfc42u_ordinal6351:PPROC
+mfc42u_ordinal6351 equ <__imp_mfc42u_ordinal6351>
+
+externdef __imp_mfc42u_ordinal6352:PPROC
+mfc42u_ordinal6352 equ <__imp_mfc42u_ordinal6352>
+
+externdef __imp_mfc42u_ordinal6353:PPROC
+mfc42u_ordinal6353 equ <__imp_mfc42u_ordinal6353>
+
+externdef __imp_mfc42u_ordinal6354:PPROC
+mfc42u_ordinal6354 equ <__imp_mfc42u_ordinal6354>
+
+externdef __imp_mfc42u_ordinal6355:PPROC
+mfc42u_ordinal6355 equ <__imp_mfc42u_ordinal6355>
+
+externdef __imp_mfc42u_ordinal6356:PPROC
+mfc42u_ordinal6356 equ <__imp_mfc42u_ordinal6356>
+
+externdef __imp_mfc42u_ordinal6357:PPROC
+mfc42u_ordinal6357 equ <__imp_mfc42u_ordinal6357>
+
+externdef __imp_mfc42u_ordinal6358:PPROC
+mfc42u_ordinal6358 equ <__imp_mfc42u_ordinal6358>
+
+externdef __imp_mfc42u_ordinal6359:PPROC
+mfc42u_ordinal6359 equ <__imp_mfc42u_ordinal6359>
+
+externdef __imp_mfc42u_ordinal635:PPROC
+mfc42u_ordinal635 equ <__imp_mfc42u_ordinal635>
+
+externdef __imp_mfc42u_ordinal6360:PPROC
+mfc42u_ordinal6360 equ <__imp_mfc42u_ordinal6360>
+
+externdef __imp_mfc42u_ordinal6361:PPROC
+mfc42u_ordinal6361 equ <__imp_mfc42u_ordinal6361>
+
+externdef __imp_mfc42u_ordinal6362:PPROC
+mfc42u_ordinal6362 equ <__imp_mfc42u_ordinal6362>
+
+externdef __imp_mfc42u_ordinal6363:PPROC
+mfc42u_ordinal6363 equ <__imp_mfc42u_ordinal6363>
+
+externdef __imp_mfc42u_ordinal6364:PPROC
+mfc42u_ordinal6364 equ <__imp_mfc42u_ordinal6364>
+
+externdef __imp_mfc42u_ordinal6365:PPROC
+mfc42u_ordinal6365 equ <__imp_mfc42u_ordinal6365>
+
+externdef __imp_mfc42u_ordinal6366:PPROC
+mfc42u_ordinal6366 equ <__imp_mfc42u_ordinal6366>
+
+externdef __imp_mfc42u_ordinal6367:PPROC
+mfc42u_ordinal6367 equ <__imp_mfc42u_ordinal6367>
+
+externdef __imp_mfc42u_ordinal6368:PPROC
+mfc42u_ordinal6368 equ <__imp_mfc42u_ordinal6368>
+
+externdef __imp_mfc42u_ordinal6369:PPROC
+mfc42u_ordinal6369 equ <__imp_mfc42u_ordinal6369>
+
+externdef __imp_mfc42u_ordinal636:PPROC
+mfc42u_ordinal636 equ <__imp_mfc42u_ordinal636>
+
+externdef __imp_mfc42u_ordinal6370:PPROC
+mfc42u_ordinal6370 equ <__imp_mfc42u_ordinal6370>
+
+externdef __imp_mfc42u_ordinal6371:PPROC
+mfc42u_ordinal6371 equ <__imp_mfc42u_ordinal6371>
+
+externdef __imp_mfc42u_ordinal6372:PPROC
+mfc42u_ordinal6372 equ <__imp_mfc42u_ordinal6372>
+
+externdef __imp_mfc42u_ordinal6373:PPROC
+mfc42u_ordinal6373 equ <__imp_mfc42u_ordinal6373>
+
+externdef __imp_mfc42u_ordinal6374:PPROC
+mfc42u_ordinal6374 equ <__imp_mfc42u_ordinal6374>
+
+externdef __imp_mfc42u_ordinal6375:PPROC
+mfc42u_ordinal6375 equ <__imp_mfc42u_ordinal6375>
+
+externdef __imp_mfc42u_ordinal6376:PPROC
+mfc42u_ordinal6376 equ <__imp_mfc42u_ordinal6376>
+
+externdef __imp_mfc42u_ordinal6377:PPROC
+mfc42u_ordinal6377 equ <__imp_mfc42u_ordinal6377>
+
+externdef __imp_mfc42u_ordinal6378:PPROC
+mfc42u_ordinal6378 equ <__imp_mfc42u_ordinal6378>
+
+externdef __imp_mfc42u_ordinal6379:PPROC
+mfc42u_ordinal6379 equ <__imp_mfc42u_ordinal6379>
+
+externdef __imp_mfc42u_ordinal637:PPROC
+mfc42u_ordinal637 equ <__imp_mfc42u_ordinal637>
+
+externdef __imp_mfc42u_ordinal6380:PPROC
+mfc42u_ordinal6380 equ <__imp_mfc42u_ordinal6380>
+
+externdef __imp_mfc42u_ordinal6381:PPROC
+mfc42u_ordinal6381 equ <__imp_mfc42u_ordinal6381>
+
+externdef __imp_mfc42u_ordinal6382:PPROC
+mfc42u_ordinal6382 equ <__imp_mfc42u_ordinal6382>
+
+externdef __imp_mfc42u_ordinal6383:PPROC
+mfc42u_ordinal6383 equ <__imp_mfc42u_ordinal6383>
+
+externdef __imp_mfc42u_ordinal6384:PPROC
+mfc42u_ordinal6384 equ <__imp_mfc42u_ordinal6384>
+
+externdef __imp_mfc42u_ordinal6385:PPROC
+mfc42u_ordinal6385 equ <__imp_mfc42u_ordinal6385>
+
+externdef __imp_mfc42u_ordinal6386:PPROC
+mfc42u_ordinal6386 equ <__imp_mfc42u_ordinal6386>
+
+externdef __imp_mfc42u_ordinal6387:PPROC
+mfc42u_ordinal6387 equ <__imp_mfc42u_ordinal6387>
+
+externdef __imp_mfc42u_ordinal6388:PPROC
+mfc42u_ordinal6388 equ <__imp_mfc42u_ordinal6388>
+
+externdef __imp_mfc42u_ordinal6389:PPROC
+mfc42u_ordinal6389 equ <__imp_mfc42u_ordinal6389>
+
+externdef __imp_mfc42u_ordinal638:PPROC
+mfc42u_ordinal638 equ <__imp_mfc42u_ordinal638>
+
+externdef __imp_mfc42u_ordinal6390:PPROC
+mfc42u_ordinal6390 equ <__imp_mfc42u_ordinal6390>
+
+externdef __imp_mfc42u_ordinal6391:PPROC
+mfc42u_ordinal6391 equ <__imp_mfc42u_ordinal6391>
+
+externdef __imp_mfc42u_ordinal6392:PPROC
+mfc42u_ordinal6392 equ <__imp_mfc42u_ordinal6392>
+
+externdef __imp_mfc42u_ordinal6393:PPROC
+mfc42u_ordinal6393 equ <__imp_mfc42u_ordinal6393>
+
+externdef __imp_mfc42u_ordinal6394:PPROC
+mfc42u_ordinal6394 equ <__imp_mfc42u_ordinal6394>
+
+externdef __imp_mfc42u_ordinal6395:PPROC
+mfc42u_ordinal6395 equ <__imp_mfc42u_ordinal6395>
+
+externdef __imp_mfc42u_ordinal6396:PPROC
+mfc42u_ordinal6396 equ <__imp_mfc42u_ordinal6396>
+
+externdef __imp_mfc42u_ordinal6397:PPROC
+mfc42u_ordinal6397 equ <__imp_mfc42u_ordinal6397>
+
+externdef __imp_mfc42u_ordinal6398:PPROC
+mfc42u_ordinal6398 equ <__imp_mfc42u_ordinal6398>
+
+externdef __imp_mfc42u_ordinal6399:PPROC
+mfc42u_ordinal6399 equ <__imp_mfc42u_ordinal6399>
+
+externdef __imp_mfc42u_ordinal639:PPROC
+mfc42u_ordinal639 equ <__imp_mfc42u_ordinal639>
+
+externdef __imp_mfc42u_ordinal63:PPROC
+mfc42u_ordinal63 equ <__imp_mfc42u_ordinal63>
+
+externdef __imp_mfc42u_ordinal6400:PPROC
+mfc42u_ordinal6400 equ <__imp_mfc42u_ordinal6400>
+
+externdef __imp_mfc42u_ordinal6401:PPROC
+mfc42u_ordinal6401 equ <__imp_mfc42u_ordinal6401>
+
+externdef __imp_mfc42u_ordinal6402:PPROC
+mfc42u_ordinal6402 equ <__imp_mfc42u_ordinal6402>
+
+externdef __imp_mfc42u_ordinal6403:PPROC
+mfc42u_ordinal6403 equ <__imp_mfc42u_ordinal6403>
+
+externdef __imp_mfc42u_ordinal6404:PPROC
+mfc42u_ordinal6404 equ <__imp_mfc42u_ordinal6404>
+
+externdef __imp_mfc42u_ordinal6405:PPROC
+mfc42u_ordinal6405 equ <__imp_mfc42u_ordinal6405>
+
+externdef __imp_mfc42u_ordinal6406:PPROC
+mfc42u_ordinal6406 equ <__imp_mfc42u_ordinal6406>
+
+externdef __imp_mfc42u_ordinal6407:PPROC
+mfc42u_ordinal6407 equ <__imp_mfc42u_ordinal6407>
+
+externdef __imp_mfc42u_ordinal6408:PPROC
+mfc42u_ordinal6408 equ <__imp_mfc42u_ordinal6408>
+
+externdef __imp_mfc42u_ordinal6409:PPROC
+mfc42u_ordinal6409 equ <__imp_mfc42u_ordinal6409>
+
+externdef __imp_mfc42u_ordinal640:PPROC
+mfc42u_ordinal640 equ <__imp_mfc42u_ordinal640>
+
+externdef __imp_mfc42u_ordinal6410:PPROC
+mfc42u_ordinal6410 equ <__imp_mfc42u_ordinal6410>
+
+externdef __imp_mfc42u_ordinal6411:PPROC
+mfc42u_ordinal6411 equ <__imp_mfc42u_ordinal6411>
+
+externdef __imp_mfc42u_ordinal6412:PPROC
+mfc42u_ordinal6412 equ <__imp_mfc42u_ordinal6412>
+
+externdef __imp_mfc42u_ordinal6413:PPROC
+mfc42u_ordinal6413 equ <__imp_mfc42u_ordinal6413>
+
+externdef __imp_mfc42u_ordinal6414:PPROC
+mfc42u_ordinal6414 equ <__imp_mfc42u_ordinal6414>
+
+externdef __imp_mfc42u_ordinal6415:PPROC
+mfc42u_ordinal6415 equ <__imp_mfc42u_ordinal6415>
+
+externdef __imp_mfc42u_ordinal6416:PPROC
+mfc42u_ordinal6416 equ <__imp_mfc42u_ordinal6416>
+
+externdef __imp_mfc42u_ordinal6417:PPROC
+mfc42u_ordinal6417 equ <__imp_mfc42u_ordinal6417>
+
+externdef __imp_mfc42u_ordinal6418:PPROC
+mfc42u_ordinal6418 equ <__imp_mfc42u_ordinal6418>
+
+externdef __imp_mfc42u_ordinal6419:PPROC
+mfc42u_ordinal6419 equ <__imp_mfc42u_ordinal6419>
+
+externdef __imp_mfc42u_ordinal641:PPROC
+mfc42u_ordinal641 equ <__imp_mfc42u_ordinal641>
+
+externdef __imp_mfc42u_ordinal6420:PPROC
+mfc42u_ordinal6420 equ <__imp_mfc42u_ordinal6420>
+
+externdef __imp_mfc42u_ordinal6421:PPROC
+mfc42u_ordinal6421 equ <__imp_mfc42u_ordinal6421>
+
+externdef __imp_mfc42u_ordinal6422:PPROC
+mfc42u_ordinal6422 equ <__imp_mfc42u_ordinal6422>
+
+externdef __imp_mfc42u_ordinal6423:PPROC
+mfc42u_ordinal6423 equ <__imp_mfc42u_ordinal6423>
+
+externdef __imp_mfc42u_ordinal6424:PPROC
+mfc42u_ordinal6424 equ <__imp_mfc42u_ordinal6424>
+
+externdef __imp_mfc42u_ordinal6425:PPROC
+mfc42u_ordinal6425 equ <__imp_mfc42u_ordinal6425>
+
+externdef __imp_mfc42u_ordinal6426:PPROC
+mfc42u_ordinal6426 equ <__imp_mfc42u_ordinal6426>
+
+externdef __imp_mfc42u_ordinal6427:PPROC
+mfc42u_ordinal6427 equ <__imp_mfc42u_ordinal6427>
+
+externdef __imp_mfc42u_ordinal6428:PPROC
+mfc42u_ordinal6428 equ <__imp_mfc42u_ordinal6428>
+
+externdef __imp_mfc42u_ordinal6429:PPROC
+mfc42u_ordinal6429 equ <__imp_mfc42u_ordinal6429>
+
+externdef __imp_mfc42u_ordinal642:PPROC
+mfc42u_ordinal642 equ <__imp_mfc42u_ordinal642>
+
+externdef __imp_mfc42u_ordinal6430:PPROC
+mfc42u_ordinal6430 equ <__imp_mfc42u_ordinal6430>
+
+externdef __imp_mfc42u_ordinal6431:PPROC
+mfc42u_ordinal6431 equ <__imp_mfc42u_ordinal6431>
+
+externdef __imp_mfc42u_ordinal6432:PPROC
+mfc42u_ordinal6432 equ <__imp_mfc42u_ordinal6432>
+
+externdef __imp_mfc42u_ordinal6433:PPROC
+mfc42u_ordinal6433 equ <__imp_mfc42u_ordinal6433>
+
+externdef __imp_mfc42u_ordinal6434:PPROC
+mfc42u_ordinal6434 equ <__imp_mfc42u_ordinal6434>
+
+externdef __imp_mfc42u_ordinal6435:PPROC
+mfc42u_ordinal6435 equ <__imp_mfc42u_ordinal6435>
+
+externdef __imp_mfc42u_ordinal6436:PPROC
+mfc42u_ordinal6436 equ <__imp_mfc42u_ordinal6436>
+
+externdef __imp_mfc42u_ordinal6437:PPROC
+mfc42u_ordinal6437 equ <__imp_mfc42u_ordinal6437>
+
+externdef __imp_mfc42u_ordinal6438:PPROC
+mfc42u_ordinal6438 equ <__imp_mfc42u_ordinal6438>
+
+externdef __imp_mfc42u_ordinal6439:PPROC
+mfc42u_ordinal6439 equ <__imp_mfc42u_ordinal6439>
+
+externdef __imp_mfc42u_ordinal643:PPROC
+mfc42u_ordinal643 equ <__imp_mfc42u_ordinal643>
+
+externdef __imp_mfc42u_ordinal6440:PPROC
+mfc42u_ordinal6440 equ <__imp_mfc42u_ordinal6440>
+
+externdef __imp_mfc42u_ordinal6441:PPROC
+mfc42u_ordinal6441 equ <__imp_mfc42u_ordinal6441>
+
+externdef __imp_mfc42u_ordinal6442:PPROC
+mfc42u_ordinal6442 equ <__imp_mfc42u_ordinal6442>
+
+externdef __imp_mfc42u_ordinal6443:PPROC
+mfc42u_ordinal6443 equ <__imp_mfc42u_ordinal6443>
+
+externdef __imp_mfc42u_ordinal6444:PPROC
+mfc42u_ordinal6444 equ <__imp_mfc42u_ordinal6444>
+
+externdef __imp_mfc42u_ordinal6445:PPROC
+mfc42u_ordinal6445 equ <__imp_mfc42u_ordinal6445>
+
+externdef __imp_mfc42u_ordinal6446:PPROC
+mfc42u_ordinal6446 equ <__imp_mfc42u_ordinal6446>
+
+externdef __imp_mfc42u_ordinal6447:PPROC
+mfc42u_ordinal6447 equ <__imp_mfc42u_ordinal6447>
+
+externdef __imp_mfc42u_ordinal6448:PPROC
+mfc42u_ordinal6448 equ <__imp_mfc42u_ordinal6448>
+
+externdef __imp_mfc42u_ordinal6449:PPROC
+mfc42u_ordinal6449 equ <__imp_mfc42u_ordinal6449>
+
+externdef __imp_mfc42u_ordinal644:PPROC
+mfc42u_ordinal644 equ <__imp_mfc42u_ordinal644>
+
+externdef __imp_mfc42u_ordinal6450:PPROC
+mfc42u_ordinal6450 equ <__imp_mfc42u_ordinal6450>
+
+externdef __imp_mfc42u_ordinal6451:PPROC
+mfc42u_ordinal6451 equ <__imp_mfc42u_ordinal6451>
+
+externdef __imp_mfc42u_ordinal6452:PPROC
+mfc42u_ordinal6452 equ <__imp_mfc42u_ordinal6452>
+
+externdef __imp_mfc42u_ordinal6453:PPROC
+mfc42u_ordinal6453 equ <__imp_mfc42u_ordinal6453>
+
+externdef __imp_mfc42u_ordinal6454:PPROC
+mfc42u_ordinal6454 equ <__imp_mfc42u_ordinal6454>
+
+externdef __imp_mfc42u_ordinal6455:PPROC
+mfc42u_ordinal6455 equ <__imp_mfc42u_ordinal6455>
+
+externdef __imp_mfc42u_ordinal6456:PPROC
+mfc42u_ordinal6456 equ <__imp_mfc42u_ordinal6456>
+
+externdef __imp_mfc42u_ordinal6457:PPROC
+mfc42u_ordinal6457 equ <__imp_mfc42u_ordinal6457>
+
+externdef __imp_mfc42u_ordinal6458:PPROC
+mfc42u_ordinal6458 equ <__imp_mfc42u_ordinal6458>
+
+externdef __imp_mfc42u_ordinal6459:PPROC
+mfc42u_ordinal6459 equ <__imp_mfc42u_ordinal6459>
+
+externdef __imp_mfc42u_ordinal645:PPROC
+mfc42u_ordinal645 equ <__imp_mfc42u_ordinal645>
+
+externdef __imp_mfc42u_ordinal6460:PPROC
+mfc42u_ordinal6460 equ <__imp_mfc42u_ordinal6460>
+
+externdef __imp_mfc42u_ordinal6461:PPROC
+mfc42u_ordinal6461 equ <__imp_mfc42u_ordinal6461>
+
+externdef __imp_mfc42u_ordinal6462:PPROC
+mfc42u_ordinal6462 equ <__imp_mfc42u_ordinal6462>
+
+externdef __imp_mfc42u_ordinal6463:PPROC
+mfc42u_ordinal6463 equ <__imp_mfc42u_ordinal6463>
+
+externdef __imp_mfc42u_ordinal6464:PPROC
+mfc42u_ordinal6464 equ <__imp_mfc42u_ordinal6464>
+
+externdef __imp_mfc42u_ordinal6465:PPROC
+mfc42u_ordinal6465 equ <__imp_mfc42u_ordinal6465>
+
+externdef __imp_mfc42u_ordinal6466:PPROC
+mfc42u_ordinal6466 equ <__imp_mfc42u_ordinal6466>
+
+externdef __imp_mfc42u_ordinal6467:PPROC
+mfc42u_ordinal6467 equ <__imp_mfc42u_ordinal6467>
+
+externdef __imp_mfc42u_ordinal6468:PPROC
+mfc42u_ordinal6468 equ <__imp_mfc42u_ordinal6468>
+
+externdef __imp_mfc42u_ordinal6469:PPROC
+mfc42u_ordinal6469 equ <__imp_mfc42u_ordinal6469>
+
+externdef __imp_mfc42u_ordinal646:PPROC
+mfc42u_ordinal646 equ <__imp_mfc42u_ordinal646>
+
+externdef __imp_mfc42u_ordinal6470:PPROC
+mfc42u_ordinal6470 equ <__imp_mfc42u_ordinal6470>
+
+externdef __imp_mfc42u_ordinal6471:PPROC
+mfc42u_ordinal6471 equ <__imp_mfc42u_ordinal6471>
+
+externdef __imp_mfc42u_ordinal6472:PPROC
+mfc42u_ordinal6472 equ <__imp_mfc42u_ordinal6472>
+
+externdef __imp_mfc42u_ordinal6473:PPROC
+mfc42u_ordinal6473 equ <__imp_mfc42u_ordinal6473>
+
+externdef __imp_mfc42u_ordinal6474:PPROC
+mfc42u_ordinal6474 equ <__imp_mfc42u_ordinal6474>
+
+externdef __imp_mfc42u_ordinal6475:PPROC
+mfc42u_ordinal6475 equ <__imp_mfc42u_ordinal6475>
+
+externdef __imp_mfc42u_ordinal6476:PPROC
+mfc42u_ordinal6476 equ <__imp_mfc42u_ordinal6476>
+
+externdef __imp_mfc42u_ordinal6477:PPROC
+mfc42u_ordinal6477 equ <__imp_mfc42u_ordinal6477>
+
+externdef __imp_mfc42u_ordinal6478:PPROC
+mfc42u_ordinal6478 equ <__imp_mfc42u_ordinal6478>
+
+externdef __imp_mfc42u_ordinal6479:PPROC
+mfc42u_ordinal6479 equ <__imp_mfc42u_ordinal6479>
+
+externdef __imp_mfc42u_ordinal647:PPROC
+mfc42u_ordinal647 equ <__imp_mfc42u_ordinal647>
+
+externdef __imp_mfc42u_ordinal6480:PPROC
+mfc42u_ordinal6480 equ <__imp_mfc42u_ordinal6480>
+
+externdef __imp_mfc42u_ordinal6481:PPROC
+mfc42u_ordinal6481 equ <__imp_mfc42u_ordinal6481>
+
+externdef __imp_mfc42u_ordinal6482:PPROC
+mfc42u_ordinal6482 equ <__imp_mfc42u_ordinal6482>
+
+externdef __imp_mfc42u_ordinal6483:PPROC
+mfc42u_ordinal6483 equ <__imp_mfc42u_ordinal6483>
+
+externdef __imp_mfc42u_ordinal6484:PPROC
+mfc42u_ordinal6484 equ <__imp_mfc42u_ordinal6484>
+
+externdef __imp_mfc42u_ordinal6485:PPROC
+mfc42u_ordinal6485 equ <__imp_mfc42u_ordinal6485>
+
+externdef __imp_mfc42u_ordinal6486:PPROC
+mfc42u_ordinal6486 equ <__imp_mfc42u_ordinal6486>
+
+externdef __imp_mfc42u_ordinal6487:PPROC
+mfc42u_ordinal6487 equ <__imp_mfc42u_ordinal6487>
+
+externdef __imp_mfc42u_ordinal6488:PPROC
+mfc42u_ordinal6488 equ <__imp_mfc42u_ordinal6488>
+
+externdef __imp_mfc42u_ordinal6489:PPROC
+mfc42u_ordinal6489 equ <__imp_mfc42u_ordinal6489>
+
+externdef __imp_mfc42u_ordinal648:PPROC
+mfc42u_ordinal648 equ <__imp_mfc42u_ordinal648>
+
+externdef __imp_mfc42u_ordinal6490:PPROC
+mfc42u_ordinal6490 equ <__imp_mfc42u_ordinal6490>
+
+externdef __imp_mfc42u_ordinal6491:PPROC
+mfc42u_ordinal6491 equ <__imp_mfc42u_ordinal6491>
+
+externdef __imp_mfc42u_ordinal6492:PPROC
+mfc42u_ordinal6492 equ <__imp_mfc42u_ordinal6492>
+
+externdef __imp_mfc42u_ordinal6493:PPROC
+mfc42u_ordinal6493 equ <__imp_mfc42u_ordinal6493>
+
+externdef __imp_mfc42u_ordinal6494:PPROC
+mfc42u_ordinal6494 equ <__imp_mfc42u_ordinal6494>
+
+externdef __imp_mfc42u_ordinal6495:PPROC
+mfc42u_ordinal6495 equ <__imp_mfc42u_ordinal6495>
+
+externdef __imp_mfc42u_ordinal6496:PPROC
+mfc42u_ordinal6496 equ <__imp_mfc42u_ordinal6496>
+
+externdef __imp_mfc42u_ordinal6497:PPROC
+mfc42u_ordinal6497 equ <__imp_mfc42u_ordinal6497>
+
+externdef __imp_mfc42u_ordinal6498:PPROC
+mfc42u_ordinal6498 equ <__imp_mfc42u_ordinal6498>
+
+externdef __imp_mfc42u_ordinal6499:PPROC
+mfc42u_ordinal6499 equ <__imp_mfc42u_ordinal6499>
+
+externdef __imp_mfc42u_ordinal649:PPROC
+mfc42u_ordinal649 equ <__imp_mfc42u_ordinal649>
+
+externdef __imp_mfc42u_ordinal64:PPROC
+mfc42u_ordinal64 equ <__imp_mfc42u_ordinal64>
+
+externdef __imp_mfc42u_ordinal6500:PPROC
+mfc42u_ordinal6500 equ <__imp_mfc42u_ordinal6500>
+
+externdef __imp_mfc42u_ordinal6501:PPROC
+mfc42u_ordinal6501 equ <__imp_mfc42u_ordinal6501>
+
+externdef __imp_mfc42u_ordinal6502:PPROC
+mfc42u_ordinal6502 equ <__imp_mfc42u_ordinal6502>
+
+externdef __imp_mfc42u_ordinal6503:PPROC
+mfc42u_ordinal6503 equ <__imp_mfc42u_ordinal6503>
+
+externdef __imp_mfc42u_ordinal6504:PPROC
+mfc42u_ordinal6504 equ <__imp_mfc42u_ordinal6504>
+
+externdef __imp_mfc42u_ordinal6505:PPROC
+mfc42u_ordinal6505 equ <__imp_mfc42u_ordinal6505>
+
+externdef __imp_mfc42u_ordinal6506:PPROC
+mfc42u_ordinal6506 equ <__imp_mfc42u_ordinal6506>
+
+externdef __imp_mfc42u_ordinal6507:PPROC
+mfc42u_ordinal6507 equ <__imp_mfc42u_ordinal6507>
+
+externdef __imp_mfc42u_ordinal6508:PPROC
+mfc42u_ordinal6508 equ <__imp_mfc42u_ordinal6508>
+
+externdef __imp_mfc42u_ordinal6509:PPROC
+mfc42u_ordinal6509 equ <__imp_mfc42u_ordinal6509>
+
+externdef __imp_mfc42u_ordinal650:PPROC
+mfc42u_ordinal650 equ <__imp_mfc42u_ordinal650>
+
+externdef __imp_mfc42u_ordinal6510:PPROC
+mfc42u_ordinal6510 equ <__imp_mfc42u_ordinal6510>
+
+externdef __imp_mfc42u_ordinal6511:PPROC
+mfc42u_ordinal6511 equ <__imp_mfc42u_ordinal6511>
+
+externdef __imp_mfc42u_ordinal6512:PPROC
+mfc42u_ordinal6512 equ <__imp_mfc42u_ordinal6512>
+
+externdef __imp_mfc42u_ordinal6513:PPROC
+mfc42u_ordinal6513 equ <__imp_mfc42u_ordinal6513>
+
+externdef __imp_mfc42u_ordinal6514:PPROC
+mfc42u_ordinal6514 equ <__imp_mfc42u_ordinal6514>
+
+externdef __imp_mfc42u_ordinal6515:PPROC
+mfc42u_ordinal6515 equ <__imp_mfc42u_ordinal6515>
+
+externdef __imp_mfc42u_ordinal6516:PPROC
+mfc42u_ordinal6516 equ <__imp_mfc42u_ordinal6516>
+
+externdef __imp_mfc42u_ordinal6517:PPROC
+mfc42u_ordinal6517 equ <__imp_mfc42u_ordinal6517>
+
+externdef __imp_mfc42u_ordinal6518:PPROC
+mfc42u_ordinal6518 equ <__imp_mfc42u_ordinal6518>
+
+externdef __imp_mfc42u_ordinal6519:PPROC
+mfc42u_ordinal6519 equ <__imp_mfc42u_ordinal6519>
+
+externdef __imp_mfc42u_ordinal651:PPROC
+mfc42u_ordinal651 equ <__imp_mfc42u_ordinal651>
+
+externdef __imp_mfc42u_ordinal6520:PPROC
+mfc42u_ordinal6520 equ <__imp_mfc42u_ordinal6520>
+
+externdef __imp_mfc42u_ordinal6521:PPROC
+mfc42u_ordinal6521 equ <__imp_mfc42u_ordinal6521>
+
+externdef __imp_mfc42u_ordinal6522:PPROC
+mfc42u_ordinal6522 equ <__imp_mfc42u_ordinal6522>
+
+externdef __imp_mfc42u_ordinal6523:PPROC
+mfc42u_ordinal6523 equ <__imp_mfc42u_ordinal6523>
+
+externdef __imp_mfc42u_ordinal6524:PPROC
+mfc42u_ordinal6524 equ <__imp_mfc42u_ordinal6524>
+
+externdef __imp_mfc42u_ordinal6525:PPROC
+mfc42u_ordinal6525 equ <__imp_mfc42u_ordinal6525>
+
+externdef __imp_mfc42u_ordinal6526:PPROC
+mfc42u_ordinal6526 equ <__imp_mfc42u_ordinal6526>
+
+externdef __imp_mfc42u_ordinal6527:PPROC
+mfc42u_ordinal6527 equ <__imp_mfc42u_ordinal6527>
+
+externdef __imp_mfc42u_ordinal6528:PPROC
+mfc42u_ordinal6528 equ <__imp_mfc42u_ordinal6528>
+
+externdef __imp_mfc42u_ordinal6529:PPROC
+mfc42u_ordinal6529 equ <__imp_mfc42u_ordinal6529>
+
+externdef __imp_mfc42u_ordinal652:PPROC
+mfc42u_ordinal652 equ <__imp_mfc42u_ordinal652>
+
+externdef __imp_mfc42u_ordinal6530:PPROC
+mfc42u_ordinal6530 equ <__imp_mfc42u_ordinal6530>
+
+externdef __imp_mfc42u_ordinal6531:PPROC
+mfc42u_ordinal6531 equ <__imp_mfc42u_ordinal6531>
+
+externdef __imp_mfc42u_ordinal6532:PPROC
+mfc42u_ordinal6532 equ <__imp_mfc42u_ordinal6532>
+
+externdef __imp_mfc42u_ordinal6533:PPROC
+mfc42u_ordinal6533 equ <__imp_mfc42u_ordinal6533>
+
+externdef __imp_mfc42u_ordinal6534:PPROC
+mfc42u_ordinal6534 equ <__imp_mfc42u_ordinal6534>
+
+externdef __imp_mfc42u_ordinal6535:PPROC
+mfc42u_ordinal6535 equ <__imp_mfc42u_ordinal6535>
+
+externdef __imp_mfc42u_ordinal6536:PPROC
+mfc42u_ordinal6536 equ <__imp_mfc42u_ordinal6536>
+
+externdef __imp_mfc42u_ordinal6537:PPROC
+mfc42u_ordinal6537 equ <__imp_mfc42u_ordinal6537>
+
+externdef __imp_mfc42u_ordinal6538:PPROC
+mfc42u_ordinal6538 equ <__imp_mfc42u_ordinal6538>
+
+externdef __imp_mfc42u_ordinal6539:PPROC
+mfc42u_ordinal6539 equ <__imp_mfc42u_ordinal6539>
+
+externdef __imp_mfc42u_ordinal653:PPROC
+mfc42u_ordinal653 equ <__imp_mfc42u_ordinal653>
+
+externdef __imp_mfc42u_ordinal6540:PPROC
+mfc42u_ordinal6540 equ <__imp_mfc42u_ordinal6540>
+
+externdef __imp_mfc42u_ordinal6541:PPROC
+mfc42u_ordinal6541 equ <__imp_mfc42u_ordinal6541>
+
+externdef __imp_mfc42u_ordinal6542:PPROC
+mfc42u_ordinal6542 equ <__imp_mfc42u_ordinal6542>
+
+externdef __imp_mfc42u_ordinal6543:PPROC
+mfc42u_ordinal6543 equ <__imp_mfc42u_ordinal6543>
+
+externdef __imp_mfc42u_ordinal6544:PPROC
+mfc42u_ordinal6544 equ <__imp_mfc42u_ordinal6544>
+
+externdef __imp_mfc42u_ordinal6545:PPROC
+mfc42u_ordinal6545 equ <__imp_mfc42u_ordinal6545>
+
+externdef __imp_mfc42u_ordinal6546:PPROC
+mfc42u_ordinal6546 equ <__imp_mfc42u_ordinal6546>
+
+externdef __imp_mfc42u_ordinal6547:PPROC
+mfc42u_ordinal6547 equ <__imp_mfc42u_ordinal6547>
+
+externdef __imp_mfc42u_ordinal6548:PPROC
+mfc42u_ordinal6548 equ <__imp_mfc42u_ordinal6548>
+
+externdef __imp_mfc42u_ordinal6549:PPROC
+mfc42u_ordinal6549 equ <__imp_mfc42u_ordinal6549>
+
+externdef __imp_mfc42u_ordinal654:PPROC
+mfc42u_ordinal654 equ <__imp_mfc42u_ordinal654>
+
+externdef __imp_mfc42u_ordinal6550:PPROC
+mfc42u_ordinal6550 equ <__imp_mfc42u_ordinal6550>
+
+externdef __imp_mfc42u_ordinal6551:PPROC
+mfc42u_ordinal6551 equ <__imp_mfc42u_ordinal6551>
+
+externdef __imp_mfc42u_ordinal6552:PPROC
+mfc42u_ordinal6552 equ <__imp_mfc42u_ordinal6552>
+
+externdef __imp_mfc42u_ordinal6553:PPROC
+mfc42u_ordinal6553 equ <__imp_mfc42u_ordinal6553>
+
+externdef __imp_mfc42u_ordinal6554:PPROC
+mfc42u_ordinal6554 equ <__imp_mfc42u_ordinal6554>
+
+externdef __imp_mfc42u_ordinal6555:PPROC
+mfc42u_ordinal6555 equ <__imp_mfc42u_ordinal6555>
+
+externdef __imp_mfc42u_ordinal6556:PPROC
+mfc42u_ordinal6556 equ <__imp_mfc42u_ordinal6556>
+
+externdef __imp_mfc42u_ordinal6557:PPROC
+mfc42u_ordinal6557 equ <__imp_mfc42u_ordinal6557>
+
+externdef __imp_mfc42u_ordinal6558:PPROC
+mfc42u_ordinal6558 equ <__imp_mfc42u_ordinal6558>
+
+externdef __imp_mfc42u_ordinal6559:PPROC
+mfc42u_ordinal6559 equ <__imp_mfc42u_ordinal6559>
+
+externdef __imp_mfc42u_ordinal655:PPROC
+mfc42u_ordinal655 equ <__imp_mfc42u_ordinal655>
+
+externdef __imp_mfc42u_ordinal6560:PPROC
+mfc42u_ordinal6560 equ <__imp_mfc42u_ordinal6560>
+
+externdef __imp_mfc42u_ordinal6561:PPROC
+mfc42u_ordinal6561 equ <__imp_mfc42u_ordinal6561>
+
+externdef __imp_mfc42u_ordinal6562:PPROC
+mfc42u_ordinal6562 equ <__imp_mfc42u_ordinal6562>
+
+externdef __imp_mfc42u_ordinal6563:PPROC
+mfc42u_ordinal6563 equ <__imp_mfc42u_ordinal6563>
+
+externdef __imp_mfc42u_ordinal6564:PPROC
+mfc42u_ordinal6564 equ <__imp_mfc42u_ordinal6564>
+
+externdef __imp_mfc42u_ordinal6565:PPROC
+mfc42u_ordinal6565 equ <__imp_mfc42u_ordinal6565>
+
+externdef __imp_mfc42u_ordinal6566:PPROC
+mfc42u_ordinal6566 equ <__imp_mfc42u_ordinal6566>
+
+externdef __imp_mfc42u_ordinal6567:PPROC
+mfc42u_ordinal6567 equ <__imp_mfc42u_ordinal6567>
+
+externdef __imp_mfc42u_ordinal6568:PPROC
+mfc42u_ordinal6568 equ <__imp_mfc42u_ordinal6568>
+
+externdef __imp_mfc42u_ordinal6569:PPROC
+mfc42u_ordinal6569 equ <__imp_mfc42u_ordinal6569>
+
+externdef __imp_mfc42u_ordinal656:PPROC
+mfc42u_ordinal656 equ <__imp_mfc42u_ordinal656>
+
+externdef __imp_mfc42u_ordinal6570:PPROC
+mfc42u_ordinal6570 equ <__imp_mfc42u_ordinal6570>
+
+externdef __imp_mfc42u_ordinal6571:PPROC
+mfc42u_ordinal6571 equ <__imp_mfc42u_ordinal6571>
+
+externdef __imp_mfc42u_ordinal6572:PPROC
+mfc42u_ordinal6572 equ <__imp_mfc42u_ordinal6572>
+
+externdef __imp_mfc42u_ordinal6573:PPROC
+mfc42u_ordinal6573 equ <__imp_mfc42u_ordinal6573>
+
+externdef __imp_mfc42u_ordinal6574:PPROC
+mfc42u_ordinal6574 equ <__imp_mfc42u_ordinal6574>
+
+externdef __imp_mfc42u_ordinal6575:PPROC
+mfc42u_ordinal6575 equ <__imp_mfc42u_ordinal6575>
+
+externdef __imp_mfc42u_ordinal6576:PPROC
+mfc42u_ordinal6576 equ <__imp_mfc42u_ordinal6576>
+
+externdef __imp_mfc42u_ordinal6577:PPROC
+mfc42u_ordinal6577 equ <__imp_mfc42u_ordinal6577>
+
+externdef __imp_mfc42u_ordinal6578:PPROC
+mfc42u_ordinal6578 equ <__imp_mfc42u_ordinal6578>
+
+externdef __imp_mfc42u_ordinal6579:PPROC
+mfc42u_ordinal6579 equ <__imp_mfc42u_ordinal6579>
+
+externdef __imp_mfc42u_ordinal657:PPROC
+mfc42u_ordinal657 equ <__imp_mfc42u_ordinal657>
+
+externdef __imp_mfc42u_ordinal6580:PPROC
+mfc42u_ordinal6580 equ <__imp_mfc42u_ordinal6580>
+
+externdef __imp_mfc42u_ordinal6581:PPROC
+mfc42u_ordinal6581 equ <__imp_mfc42u_ordinal6581>
+
+externdef __imp_mfc42u_ordinal6582:PPROC
+mfc42u_ordinal6582 equ <__imp_mfc42u_ordinal6582>
+
+externdef __imp_mfc42u_ordinal6583:PPROC
+mfc42u_ordinal6583 equ <__imp_mfc42u_ordinal6583>
+
+externdef __imp_mfc42u_ordinal6584:PPROC
+mfc42u_ordinal6584 equ <__imp_mfc42u_ordinal6584>
+
+externdef __imp_mfc42u_ordinal6585:PPROC
+mfc42u_ordinal6585 equ <__imp_mfc42u_ordinal6585>
+
+externdef __imp_mfc42u_ordinal6586:PPROC
+mfc42u_ordinal6586 equ <__imp_mfc42u_ordinal6586>
+
+externdef __imp_mfc42u_ordinal6587:PPROC
+mfc42u_ordinal6587 equ <__imp_mfc42u_ordinal6587>
+
+externdef __imp_mfc42u_ordinal6588:PPROC
+mfc42u_ordinal6588 equ <__imp_mfc42u_ordinal6588>
+
+externdef __imp_mfc42u_ordinal6589:PPROC
+mfc42u_ordinal6589 equ <__imp_mfc42u_ordinal6589>
+
+externdef __imp_mfc42u_ordinal658:PPROC
+mfc42u_ordinal658 equ <__imp_mfc42u_ordinal658>
+
+externdef __imp_mfc42u_ordinal6590:PPROC
+mfc42u_ordinal6590 equ <__imp_mfc42u_ordinal6590>
+
+externdef __imp_mfc42u_ordinal6591:PPROC
+mfc42u_ordinal6591 equ <__imp_mfc42u_ordinal6591>
+
+externdef __imp_mfc42u_ordinal6592:PPROC
+mfc42u_ordinal6592 equ <__imp_mfc42u_ordinal6592>
+
+externdef __imp_mfc42u_ordinal6593:PPROC
+mfc42u_ordinal6593 equ <__imp_mfc42u_ordinal6593>
+
+externdef __imp_mfc42u_ordinal6594:PPROC
+mfc42u_ordinal6594 equ <__imp_mfc42u_ordinal6594>
+
+externdef __imp_mfc42u_ordinal6595:PPROC
+mfc42u_ordinal6595 equ <__imp_mfc42u_ordinal6595>
+
+externdef __imp_mfc42u_ordinal6596:PPROC
+mfc42u_ordinal6596 equ <__imp_mfc42u_ordinal6596>
+
+externdef __imp_mfc42u_ordinal6597:PPROC
+mfc42u_ordinal6597 equ <__imp_mfc42u_ordinal6597>
+
+externdef __imp_mfc42u_ordinal6598:PPROC
+mfc42u_ordinal6598 equ <__imp_mfc42u_ordinal6598>
+
+externdef __imp_mfc42u_ordinal6599:PPROC
+mfc42u_ordinal6599 equ <__imp_mfc42u_ordinal6599>
+
+externdef __imp_mfc42u_ordinal659:PPROC
+mfc42u_ordinal659 equ <__imp_mfc42u_ordinal659>
+
+externdef __imp_mfc42u_ordinal65:PPROC
+mfc42u_ordinal65 equ <__imp_mfc42u_ordinal65>
+
+externdef __imp_mfc42u_ordinal6600:PPROC
+mfc42u_ordinal6600 equ <__imp_mfc42u_ordinal6600>
+
+externdef __imp_mfc42u_ordinal6601:PPROC
+mfc42u_ordinal6601 equ <__imp_mfc42u_ordinal6601>
+
+externdef __imp_mfc42u_ordinal6602:PPROC
+mfc42u_ordinal6602 equ <__imp_mfc42u_ordinal6602>
+
+externdef __imp_mfc42u_ordinal6603:PPROC
+mfc42u_ordinal6603 equ <__imp_mfc42u_ordinal6603>
+
+externdef __imp_mfc42u_ordinal6604:PPROC
+mfc42u_ordinal6604 equ <__imp_mfc42u_ordinal6604>
+
+externdef __imp_mfc42u_ordinal6605:PPROC
+mfc42u_ordinal6605 equ <__imp_mfc42u_ordinal6605>
+
+externdef __imp_mfc42u_ordinal6606:PPROC
+mfc42u_ordinal6606 equ <__imp_mfc42u_ordinal6606>
+
+externdef __imp_mfc42u_ordinal6607:PPROC
+mfc42u_ordinal6607 equ <__imp_mfc42u_ordinal6607>
+
+externdef __imp_mfc42u_ordinal6608:PPROC
+mfc42u_ordinal6608 equ <__imp_mfc42u_ordinal6608>
+
+externdef __imp_mfc42u_ordinal6609:PPROC
+mfc42u_ordinal6609 equ <__imp_mfc42u_ordinal6609>
+
+externdef __imp_mfc42u_ordinal660:PPROC
+mfc42u_ordinal660 equ <__imp_mfc42u_ordinal660>
+
+externdef __imp_mfc42u_ordinal6610:PPROC
+mfc42u_ordinal6610 equ <__imp_mfc42u_ordinal6610>
+
+externdef __imp_mfc42u_ordinal6611:PPROC
+mfc42u_ordinal6611 equ <__imp_mfc42u_ordinal6611>
+
+externdef __imp_mfc42u_ordinal6612:PPROC
+mfc42u_ordinal6612 equ <__imp_mfc42u_ordinal6612>
+
+externdef __imp_mfc42u_ordinal6613:PPROC
+mfc42u_ordinal6613 equ <__imp_mfc42u_ordinal6613>
+
+externdef __imp_mfc42u_ordinal6614:PPROC
+mfc42u_ordinal6614 equ <__imp_mfc42u_ordinal6614>
+
+externdef __imp_mfc42u_ordinal6615:PPROC
+mfc42u_ordinal6615 equ <__imp_mfc42u_ordinal6615>
+
+externdef __imp_mfc42u_ordinal6616:PPROC
+mfc42u_ordinal6616 equ <__imp_mfc42u_ordinal6616>
+
+externdef __imp_mfc42u_ordinal6617:PPROC
+mfc42u_ordinal6617 equ <__imp_mfc42u_ordinal6617>
+
+externdef __imp_mfc42u_ordinal6618:PPROC
+mfc42u_ordinal6618 equ <__imp_mfc42u_ordinal6618>
+
+externdef __imp_mfc42u_ordinal6619:PPROC
+mfc42u_ordinal6619 equ <__imp_mfc42u_ordinal6619>
+
+externdef __imp_mfc42u_ordinal661:PPROC
+mfc42u_ordinal661 equ <__imp_mfc42u_ordinal661>
+
+externdef __imp_mfc42u_ordinal6620:PPROC
+mfc42u_ordinal6620 equ <__imp_mfc42u_ordinal6620>
+
+externdef __imp_mfc42u_ordinal6621:PPROC
+mfc42u_ordinal6621 equ <__imp_mfc42u_ordinal6621>
+
+externdef __imp_mfc42u_ordinal6622:PPROC
+mfc42u_ordinal6622 equ <__imp_mfc42u_ordinal6622>
+
+externdef __imp_mfc42u_ordinal6623:PPROC
+mfc42u_ordinal6623 equ <__imp_mfc42u_ordinal6623>
+
+externdef __imp_mfc42u_ordinal6624:PPROC
+mfc42u_ordinal6624 equ <__imp_mfc42u_ordinal6624>
+
+externdef __imp_mfc42u_ordinal6625:PPROC
+mfc42u_ordinal6625 equ <__imp_mfc42u_ordinal6625>
+
+externdef __imp_mfc42u_ordinal6626:PPROC
+mfc42u_ordinal6626 equ <__imp_mfc42u_ordinal6626>
+
+externdef __imp_mfc42u_ordinal6627:PPROC
+mfc42u_ordinal6627 equ <__imp_mfc42u_ordinal6627>
+
+externdef __imp_mfc42u_ordinal6628:PPROC
+mfc42u_ordinal6628 equ <__imp_mfc42u_ordinal6628>
+
+externdef __imp_mfc42u_ordinal6629:PPROC
+mfc42u_ordinal6629 equ <__imp_mfc42u_ordinal6629>
+
+externdef __imp_mfc42u_ordinal662:PPROC
+mfc42u_ordinal662 equ <__imp_mfc42u_ordinal662>
+
+externdef __imp_mfc42u_ordinal6630:PPROC
+mfc42u_ordinal6630 equ <__imp_mfc42u_ordinal6630>
+
+externdef __imp_mfc42u_ordinal6631:PPROC
+mfc42u_ordinal6631 equ <__imp_mfc42u_ordinal6631>
+
+externdef __imp_mfc42u_ordinal6632:PPROC
+mfc42u_ordinal6632 equ <__imp_mfc42u_ordinal6632>
+
+externdef __imp_mfc42u_ordinal6633:PPROC
+mfc42u_ordinal6633 equ <__imp_mfc42u_ordinal6633>
+
+externdef __imp_mfc42u_ordinal6634:PPROC
+mfc42u_ordinal6634 equ <__imp_mfc42u_ordinal6634>
+
+externdef __imp_mfc42u_ordinal6635:PPROC
+mfc42u_ordinal6635 equ <__imp_mfc42u_ordinal6635>
+
+externdef __imp_mfc42u_ordinal6636:PPROC
+mfc42u_ordinal6636 equ <__imp_mfc42u_ordinal6636>
+
+externdef __imp_mfc42u_ordinal6637:PPROC
+mfc42u_ordinal6637 equ <__imp_mfc42u_ordinal6637>
+
+externdef __imp_mfc42u_ordinal6638:PPROC
+mfc42u_ordinal6638 equ <__imp_mfc42u_ordinal6638>
+
+externdef __imp_mfc42u_ordinal6639:PPROC
+mfc42u_ordinal6639 equ <__imp_mfc42u_ordinal6639>
+
+externdef __imp_mfc42u_ordinal663:PPROC
+mfc42u_ordinal663 equ <__imp_mfc42u_ordinal663>
+
+externdef __imp_mfc42u_ordinal6640:PPROC
+mfc42u_ordinal6640 equ <__imp_mfc42u_ordinal6640>
+
+externdef __imp_mfc42u_ordinal6641:PPROC
+mfc42u_ordinal6641 equ <__imp_mfc42u_ordinal6641>
+
+externdef __imp_mfc42u_ordinal6642:PPROC
+mfc42u_ordinal6642 equ <__imp_mfc42u_ordinal6642>
+
+externdef __imp_mfc42u_ordinal6643:PPROC
+mfc42u_ordinal6643 equ <__imp_mfc42u_ordinal6643>
+
+externdef __imp_mfc42u_ordinal6644:PPROC
+mfc42u_ordinal6644 equ <__imp_mfc42u_ordinal6644>
+
+externdef __imp_mfc42u_ordinal6645:PPROC
+mfc42u_ordinal6645 equ <__imp_mfc42u_ordinal6645>
+
+externdef __imp_mfc42u_ordinal6646:PPROC
+mfc42u_ordinal6646 equ <__imp_mfc42u_ordinal6646>
+
+externdef __imp_mfc42u_ordinal6647:PPROC
+mfc42u_ordinal6647 equ <__imp_mfc42u_ordinal6647>
+
+externdef __imp_mfc42u_ordinal6648:PPROC
+mfc42u_ordinal6648 equ <__imp_mfc42u_ordinal6648>
+
+externdef __imp_mfc42u_ordinal6649:PPROC
+mfc42u_ordinal6649 equ <__imp_mfc42u_ordinal6649>
+
+externdef __imp_mfc42u_ordinal664:PPROC
+mfc42u_ordinal664 equ <__imp_mfc42u_ordinal664>
+
+externdef __imp_mfc42u_ordinal6650:PPROC
+mfc42u_ordinal6650 equ <__imp_mfc42u_ordinal6650>
+
+externdef __imp_mfc42u_ordinal6651:PPROC
+mfc42u_ordinal6651 equ <__imp_mfc42u_ordinal6651>
+
+externdef __imp_mfc42u_ordinal6652:PPROC
+mfc42u_ordinal6652 equ <__imp_mfc42u_ordinal6652>
+
+externdef __imp_mfc42u_ordinal6653:PPROC
+mfc42u_ordinal6653 equ <__imp_mfc42u_ordinal6653>
+
+externdef __imp_mfc42u_ordinal6654:PPROC
+mfc42u_ordinal6654 equ <__imp_mfc42u_ordinal6654>
+
+externdef __imp_mfc42u_ordinal6655:PPROC
+mfc42u_ordinal6655 equ <__imp_mfc42u_ordinal6655>
+
+externdef __imp_mfc42u_ordinal6656:PPROC
+mfc42u_ordinal6656 equ <__imp_mfc42u_ordinal6656>
+
+externdef __imp_mfc42u_ordinal6657:PPROC
+mfc42u_ordinal6657 equ <__imp_mfc42u_ordinal6657>
+
+externdef __imp_mfc42u_ordinal6658:PPROC
+mfc42u_ordinal6658 equ <__imp_mfc42u_ordinal6658>
+
+externdef __imp_mfc42u_ordinal6659:PPROC
+mfc42u_ordinal6659 equ <__imp_mfc42u_ordinal6659>
+
+externdef __imp_mfc42u_ordinal665:PPROC
+mfc42u_ordinal665 equ <__imp_mfc42u_ordinal665>
+
+externdef __imp_mfc42u_ordinal6660:PPROC
+mfc42u_ordinal6660 equ <__imp_mfc42u_ordinal6660>
+
+externdef __imp_mfc42u_ordinal6661:PPROC
+mfc42u_ordinal6661 equ <__imp_mfc42u_ordinal6661>
+
+externdef __imp_mfc42u_ordinal6662:PPROC
+mfc42u_ordinal6662 equ <__imp_mfc42u_ordinal6662>
+
+externdef __imp_mfc42u_ordinal6663:PPROC
+mfc42u_ordinal6663 equ <__imp_mfc42u_ordinal6663>
+
+externdef __imp_mfc42u_ordinal6664:PPROC
+mfc42u_ordinal6664 equ <__imp_mfc42u_ordinal6664>
+
+externdef __imp_mfc42u_ordinal6665:PPROC
+mfc42u_ordinal6665 equ <__imp_mfc42u_ordinal6665>
+
+externdef __imp_mfc42u_ordinal6666:PPROC
+mfc42u_ordinal6666 equ <__imp_mfc42u_ordinal6666>
+
+externdef __imp_mfc42u_ordinal6667:PPROC
+mfc42u_ordinal6667 equ <__imp_mfc42u_ordinal6667>
+
+externdef __imp_mfc42u_ordinal6668:PPROC
+mfc42u_ordinal6668 equ <__imp_mfc42u_ordinal6668>
+
+externdef __imp_mfc42u_ordinal6669:PPROC
+mfc42u_ordinal6669 equ <__imp_mfc42u_ordinal6669>
+
+externdef __imp_mfc42u_ordinal666:PPROC
+mfc42u_ordinal666 equ <__imp_mfc42u_ordinal666>
+
+externdef __imp_mfc42u_ordinal6670:PPROC
+mfc42u_ordinal6670 equ <__imp_mfc42u_ordinal6670>
+
+externdef __imp_mfc42u_ordinal6671:PPROC
+mfc42u_ordinal6671 equ <__imp_mfc42u_ordinal6671>
+
+externdef __imp_mfc42u_ordinal6672:PPROC
+mfc42u_ordinal6672 equ <__imp_mfc42u_ordinal6672>
+
+externdef __imp_mfc42u_ordinal6673:PPROC
+mfc42u_ordinal6673 equ <__imp_mfc42u_ordinal6673>
+
+externdef __imp_mfc42u_ordinal6674:PPROC
+mfc42u_ordinal6674 equ <__imp_mfc42u_ordinal6674>
+
+externdef __imp_mfc42u_ordinal6675:PPROC
+mfc42u_ordinal6675 equ <__imp_mfc42u_ordinal6675>
+
+externdef __imp_mfc42u_ordinal6676:PPROC
+mfc42u_ordinal6676 equ <__imp_mfc42u_ordinal6676>
+
+externdef __imp_mfc42u_ordinal6677:PPROC
+mfc42u_ordinal6677 equ <__imp_mfc42u_ordinal6677>
+
+externdef __imp_mfc42u_ordinal6678:PPROC
+mfc42u_ordinal6678 equ <__imp_mfc42u_ordinal6678>
+
+externdef __imp_mfc42u_ordinal6679:PPROC
+mfc42u_ordinal6679 equ <__imp_mfc42u_ordinal6679>
+
+externdef __imp_mfc42u_ordinal667:PPROC
+mfc42u_ordinal667 equ <__imp_mfc42u_ordinal667>
+
+externdef __imp_mfc42u_ordinal6680:PPROC
+mfc42u_ordinal6680 equ <__imp_mfc42u_ordinal6680>
+
+externdef __imp_mfc42u_ordinal6681:PPROC
+mfc42u_ordinal6681 equ <__imp_mfc42u_ordinal6681>
+
+externdef __imp_mfc42u_ordinal6682:PPROC
+mfc42u_ordinal6682 equ <__imp_mfc42u_ordinal6682>
+
+externdef __imp_mfc42u_ordinal6683:PPROC
+mfc42u_ordinal6683 equ <__imp_mfc42u_ordinal6683>
+
+externdef __imp_mfc42u_ordinal6684:PPROC
+mfc42u_ordinal6684 equ <__imp_mfc42u_ordinal6684>
+
+externdef __imp_mfc42u_ordinal6685:PPROC
+mfc42u_ordinal6685 equ <__imp_mfc42u_ordinal6685>
+
+externdef __imp_mfc42u_ordinal6686:PPROC
+mfc42u_ordinal6686 equ <__imp_mfc42u_ordinal6686>
+
+externdef __imp_mfc42u_ordinal6687:PPROC
+mfc42u_ordinal6687 equ <__imp_mfc42u_ordinal6687>
+
+externdef __imp_mfc42u_ordinal6688:PPROC
+mfc42u_ordinal6688 equ <__imp_mfc42u_ordinal6688>
+
+externdef __imp_mfc42u_ordinal6689:PPROC
+mfc42u_ordinal6689 equ <__imp_mfc42u_ordinal6689>
+
+externdef __imp_mfc42u_ordinal668:PPROC
+mfc42u_ordinal668 equ <__imp_mfc42u_ordinal668>
+
+externdef __imp_mfc42u_ordinal6690:PPROC
+mfc42u_ordinal6690 equ <__imp_mfc42u_ordinal6690>
+
+externdef __imp_mfc42u_ordinal6691:PPROC
+mfc42u_ordinal6691 equ <__imp_mfc42u_ordinal6691>
+
+externdef __imp_mfc42u_ordinal6692:PPROC
+mfc42u_ordinal6692 equ <__imp_mfc42u_ordinal6692>
+
+externdef __imp_mfc42u_ordinal6693:PPROC
+mfc42u_ordinal6693 equ <__imp_mfc42u_ordinal6693>
+
+externdef __imp_mfc42u_ordinal6694:PPROC
+mfc42u_ordinal6694 equ <__imp_mfc42u_ordinal6694>
+
+externdef __imp_mfc42u_ordinal6695:PPROC
+mfc42u_ordinal6695 equ <__imp_mfc42u_ordinal6695>
+
+externdef __imp_mfc42u_ordinal6696:PPROC
+mfc42u_ordinal6696 equ <__imp_mfc42u_ordinal6696>
+
+externdef __imp_mfc42u_ordinal6697:PPROC
+mfc42u_ordinal6697 equ <__imp_mfc42u_ordinal6697>
+
+externdef __imp_mfc42u_ordinal6698:PPROC
+mfc42u_ordinal6698 equ <__imp_mfc42u_ordinal6698>
+
+externdef __imp_mfc42u_ordinal6699:PPROC
+mfc42u_ordinal6699 equ <__imp_mfc42u_ordinal6699>
+
+externdef __imp_mfc42u_ordinal669:PPROC
+mfc42u_ordinal669 equ <__imp_mfc42u_ordinal669>
+
+externdef __imp_mfc42u_ordinal66:PPROC
+mfc42u_ordinal66 equ <__imp_mfc42u_ordinal66>
+
+externdef __imp_mfc42u_ordinal6700:PPROC
+mfc42u_ordinal6700 equ <__imp_mfc42u_ordinal6700>
+
+externdef __imp_mfc42u_ordinal6701:PPROC
+mfc42u_ordinal6701 equ <__imp_mfc42u_ordinal6701>
+
+externdef __imp_mfc42u_ordinal6702:PPROC
+mfc42u_ordinal6702 equ <__imp_mfc42u_ordinal6702>
+
+externdef __imp_mfc42u_ordinal6703:PPROC
+mfc42u_ordinal6703 equ <__imp_mfc42u_ordinal6703>
+
+externdef __imp_mfc42u_ordinal6704:PPROC
+mfc42u_ordinal6704 equ <__imp_mfc42u_ordinal6704>
+
+externdef __imp_mfc42u_ordinal6705:PPROC
+mfc42u_ordinal6705 equ <__imp_mfc42u_ordinal6705>
+
+externdef __imp_mfc42u_ordinal6706:PPROC
+mfc42u_ordinal6706 equ <__imp_mfc42u_ordinal6706>
+
+externdef __imp_mfc42u_ordinal6707:PPROC
+mfc42u_ordinal6707 equ <__imp_mfc42u_ordinal6707>
+
+externdef __imp_mfc42u_ordinal6708:PPROC
+mfc42u_ordinal6708 equ <__imp_mfc42u_ordinal6708>
+
+externdef __imp_mfc42u_ordinal6709:PPROC
+mfc42u_ordinal6709 equ <__imp_mfc42u_ordinal6709>
+
+externdef __imp_mfc42u_ordinal670:PPROC
+mfc42u_ordinal670 equ <__imp_mfc42u_ordinal670>
+
+externdef __imp_mfc42u_ordinal6710:PPROC
+mfc42u_ordinal6710 equ <__imp_mfc42u_ordinal6710>
+
+externdef __imp_mfc42u_ordinal6711:PPROC
+mfc42u_ordinal6711 equ <__imp_mfc42u_ordinal6711>
+
+externdef __imp_mfc42u_ordinal6712:PPROC
+mfc42u_ordinal6712 equ <__imp_mfc42u_ordinal6712>
+
+externdef __imp_mfc42u_ordinal6713:PPROC
+mfc42u_ordinal6713 equ <__imp_mfc42u_ordinal6713>
+
+externdef __imp_mfc42u_ordinal6714:PPROC
+mfc42u_ordinal6714 equ <__imp_mfc42u_ordinal6714>
+
+externdef __imp_mfc42u_ordinal6715:PPROC
+mfc42u_ordinal6715 equ <__imp_mfc42u_ordinal6715>
+
+externdef __imp_mfc42u_ordinal6716:PPROC
+mfc42u_ordinal6716 equ <__imp_mfc42u_ordinal6716>
+
+externdef __imp_mfc42u_ordinal6717:PPROC
+mfc42u_ordinal6717 equ <__imp_mfc42u_ordinal6717>
+
+externdef __imp_mfc42u_ordinal6718:PPROC
+mfc42u_ordinal6718 equ <__imp_mfc42u_ordinal6718>
+
+externdef __imp_mfc42u_ordinal6719:PPROC
+mfc42u_ordinal6719 equ <__imp_mfc42u_ordinal6719>
+
+externdef __imp_mfc42u_ordinal671:PPROC
+mfc42u_ordinal671 equ <__imp_mfc42u_ordinal671>
+
+externdef __imp_mfc42u_ordinal6720:PPROC
+mfc42u_ordinal6720 equ <__imp_mfc42u_ordinal6720>
+
+externdef __imp_mfc42u_ordinal6721:PPROC
+mfc42u_ordinal6721 equ <__imp_mfc42u_ordinal6721>
+
+externdef __imp_mfc42u_ordinal6722:PPROC
+mfc42u_ordinal6722 equ <__imp_mfc42u_ordinal6722>
+
+externdef __imp_mfc42u_ordinal6723:PPROC
+mfc42u_ordinal6723 equ <__imp_mfc42u_ordinal6723>
+
+externdef __imp_mfc42u_ordinal6724:PPROC
+mfc42u_ordinal6724 equ <__imp_mfc42u_ordinal6724>
+
+externdef __imp_mfc42u_ordinal6725:PPROC
+mfc42u_ordinal6725 equ <__imp_mfc42u_ordinal6725>
+
+externdef __imp_mfc42u_ordinal6726:PPROC
+mfc42u_ordinal6726 equ <__imp_mfc42u_ordinal6726>
+
+externdef __imp_mfc42u_ordinal6727:PPROC
+mfc42u_ordinal6727 equ <__imp_mfc42u_ordinal6727>
+
+externdef __imp_mfc42u_ordinal6728:PPROC
+mfc42u_ordinal6728 equ <__imp_mfc42u_ordinal6728>
+
+externdef __imp_mfc42u_ordinal6729:PPROC
+mfc42u_ordinal6729 equ <__imp_mfc42u_ordinal6729>
+
+externdef __imp_mfc42u_ordinal672:PPROC
+mfc42u_ordinal672 equ <__imp_mfc42u_ordinal672>
+
+externdef __imp_mfc42u_ordinal6730:PPROC
+mfc42u_ordinal6730 equ <__imp_mfc42u_ordinal6730>
+
+externdef __imp_mfc42u_ordinal6731:PPROC
+mfc42u_ordinal6731 equ <__imp_mfc42u_ordinal6731>
+
+externdef __imp_mfc42u_ordinal6732:PPROC
+mfc42u_ordinal6732 equ <__imp_mfc42u_ordinal6732>
+
+externdef __imp_mfc42u_ordinal6733:PPROC
+mfc42u_ordinal6733 equ <__imp_mfc42u_ordinal6733>
+
+externdef __imp_mfc42u_ordinal6734:PPROC
+mfc42u_ordinal6734 equ <__imp_mfc42u_ordinal6734>
+
+externdef __imp_mfc42u_ordinal6735:PPROC
+mfc42u_ordinal6735 equ <__imp_mfc42u_ordinal6735>
+
+externdef __imp_mfc42u_ordinal6736:PPROC
+mfc42u_ordinal6736 equ <__imp_mfc42u_ordinal6736>
+
+externdef __imp_mfc42u_ordinal6737:PPROC
+mfc42u_ordinal6737 equ <__imp_mfc42u_ordinal6737>
+
+externdef __imp_mfc42u_ordinal6738:PPROC
+mfc42u_ordinal6738 equ <__imp_mfc42u_ordinal6738>
+
+externdef __imp_mfc42u_ordinal6739:PPROC
+mfc42u_ordinal6739 equ <__imp_mfc42u_ordinal6739>
+
+externdef __imp_mfc42u_ordinal673:PPROC
+mfc42u_ordinal673 equ <__imp_mfc42u_ordinal673>
+
+externdef __imp_mfc42u_ordinal6740:PPROC
+mfc42u_ordinal6740 equ <__imp_mfc42u_ordinal6740>
+
+externdef __imp_mfc42u_ordinal6741:PPROC
+mfc42u_ordinal6741 equ <__imp_mfc42u_ordinal6741>
+
+externdef __imp_mfc42u_ordinal6742:PPROC
+mfc42u_ordinal6742 equ <__imp_mfc42u_ordinal6742>
+
+externdef __imp_mfc42u_ordinal6743:PPROC
+mfc42u_ordinal6743 equ <__imp_mfc42u_ordinal6743>
+
+externdef __imp_mfc42u_ordinal6744:PPROC
+mfc42u_ordinal6744 equ <__imp_mfc42u_ordinal6744>
+
+externdef __imp_mfc42u_ordinal6745:PPROC
+mfc42u_ordinal6745 equ <__imp_mfc42u_ordinal6745>
+
+externdef __imp_mfc42u_ordinal6746:PPROC
+mfc42u_ordinal6746 equ <__imp_mfc42u_ordinal6746>
+
+externdef __imp_mfc42u_ordinal6747:PPROC
+mfc42u_ordinal6747 equ <__imp_mfc42u_ordinal6747>
+
+externdef __imp_mfc42u_ordinal6748:PPROC
+mfc42u_ordinal6748 equ <__imp_mfc42u_ordinal6748>
+
+externdef __imp_mfc42u_ordinal6749:PPROC
+mfc42u_ordinal6749 equ <__imp_mfc42u_ordinal6749>
+
+externdef __imp_mfc42u_ordinal674:PPROC
+mfc42u_ordinal674 equ <__imp_mfc42u_ordinal674>
+
+externdef __imp_mfc42u_ordinal6750:PPROC
+mfc42u_ordinal6750 equ <__imp_mfc42u_ordinal6750>
+
+externdef __imp_mfc42u_ordinal6751:PPROC
+mfc42u_ordinal6751 equ <__imp_mfc42u_ordinal6751>
+
+externdef __imp_mfc42u_ordinal6752:PPROC
+mfc42u_ordinal6752 equ <__imp_mfc42u_ordinal6752>
+
+externdef __imp_mfc42u_ordinal6753:PPROC
+mfc42u_ordinal6753 equ <__imp_mfc42u_ordinal6753>
+
+externdef __imp_mfc42u_ordinal6754:PPROC
+mfc42u_ordinal6754 equ <__imp_mfc42u_ordinal6754>
+
+externdef __imp_mfc42u_ordinal6755:PPROC
+mfc42u_ordinal6755 equ <__imp_mfc42u_ordinal6755>
+
+externdef __imp_mfc42u_ordinal6756:PPROC
+mfc42u_ordinal6756 equ <__imp_mfc42u_ordinal6756>
+
+externdef __imp_mfc42u_ordinal6757:PPROC
+mfc42u_ordinal6757 equ <__imp_mfc42u_ordinal6757>
+
+externdef __imp_mfc42u_ordinal6758:PPROC
+mfc42u_ordinal6758 equ <__imp_mfc42u_ordinal6758>
+
+externdef __imp_mfc42u_ordinal6759:PPROC
+mfc42u_ordinal6759 equ <__imp_mfc42u_ordinal6759>
+
+externdef __imp_mfc42u_ordinal675:PPROC
+mfc42u_ordinal675 equ <__imp_mfc42u_ordinal675>
+
+externdef __imp_mfc42u_ordinal6760:PPROC
+mfc42u_ordinal6760 equ <__imp_mfc42u_ordinal6760>
+
+externdef __imp_mfc42u_ordinal6761:PPROC
+mfc42u_ordinal6761 equ <__imp_mfc42u_ordinal6761>
+
+externdef __imp_mfc42u_ordinal6762:PPROC
+mfc42u_ordinal6762 equ <__imp_mfc42u_ordinal6762>
+
+externdef __imp_mfc42u_ordinal6763:PPROC
+mfc42u_ordinal6763 equ <__imp_mfc42u_ordinal6763>
+
+externdef __imp_mfc42u_ordinal6764:PPROC
+mfc42u_ordinal6764 equ <__imp_mfc42u_ordinal6764>
+
+externdef __imp_mfc42u_ordinal6765:PPROC
+mfc42u_ordinal6765 equ <__imp_mfc42u_ordinal6765>
+
+externdef __imp_mfc42u_ordinal6766:PPROC
+mfc42u_ordinal6766 equ <__imp_mfc42u_ordinal6766>
+
+externdef __imp_mfc42u_ordinal6767:PPROC
+mfc42u_ordinal6767 equ <__imp_mfc42u_ordinal6767>
+
+externdef __imp_mfc42u_ordinal6768:PPROC
+mfc42u_ordinal6768 equ <__imp_mfc42u_ordinal6768>
+
+externdef __imp_mfc42u_ordinal6769:PPROC
+mfc42u_ordinal6769 equ <__imp_mfc42u_ordinal6769>
+
+externdef __imp_mfc42u_ordinal676:PPROC
+mfc42u_ordinal676 equ <__imp_mfc42u_ordinal676>
+
+externdef __imp_mfc42u_ordinal6770:PPROC
+mfc42u_ordinal6770 equ <__imp_mfc42u_ordinal6770>
+
+externdef __imp_mfc42u_ordinal6771:PPROC
+mfc42u_ordinal6771 equ <__imp_mfc42u_ordinal6771>
+
+externdef __imp_mfc42u_ordinal6772:PPROC
+mfc42u_ordinal6772 equ <__imp_mfc42u_ordinal6772>
+
+externdef __imp_mfc42u_ordinal6773:PPROC
+mfc42u_ordinal6773 equ <__imp_mfc42u_ordinal6773>
+
+externdef __imp_mfc42u_ordinal6774:PPROC
+mfc42u_ordinal6774 equ <__imp_mfc42u_ordinal6774>
+
+externdef __imp_mfc42u_ordinal6775:PPROC
+mfc42u_ordinal6775 equ <__imp_mfc42u_ordinal6775>
+
+externdef __imp_mfc42u_ordinal6776:PPROC
+mfc42u_ordinal6776 equ <__imp_mfc42u_ordinal6776>
+
+externdef __imp_mfc42u_ordinal6777:PPROC
+mfc42u_ordinal6777 equ <__imp_mfc42u_ordinal6777>
+
+externdef __imp_mfc42u_ordinal6778:PPROC
+mfc42u_ordinal6778 equ <__imp_mfc42u_ordinal6778>
+
+externdef __imp_mfc42u_ordinal6779:PPROC
+mfc42u_ordinal6779 equ <__imp_mfc42u_ordinal6779>
+
+externdef __imp_mfc42u_ordinal677:PPROC
+mfc42u_ordinal677 equ <__imp_mfc42u_ordinal677>
+
+externdef __imp_mfc42u_ordinal6780:PPROC
+mfc42u_ordinal6780 equ <__imp_mfc42u_ordinal6780>
+
+externdef __imp_mfc42u_ordinal6781:PPROC
+mfc42u_ordinal6781 equ <__imp_mfc42u_ordinal6781>
+
+externdef __imp_mfc42u_ordinal6782:PPROC
+mfc42u_ordinal6782 equ <__imp_mfc42u_ordinal6782>
+
+externdef __imp_mfc42u_ordinal6783:PPROC
+mfc42u_ordinal6783 equ <__imp_mfc42u_ordinal6783>
+
+externdef __imp_mfc42u_ordinal6784:PPROC
+mfc42u_ordinal6784 equ <__imp_mfc42u_ordinal6784>
+
+externdef __imp_mfc42u_ordinal6785:PPROC
+mfc42u_ordinal6785 equ <__imp_mfc42u_ordinal6785>
+
+externdef __imp_mfc42u_ordinal6786:PPROC
+mfc42u_ordinal6786 equ <__imp_mfc42u_ordinal6786>
+
+externdef __imp_mfc42u_ordinal6787:PPROC
+mfc42u_ordinal6787 equ <__imp_mfc42u_ordinal6787>
+
+externdef __imp_mfc42u_ordinal6788:PPROC
+mfc42u_ordinal6788 equ <__imp_mfc42u_ordinal6788>
+
+externdef __imp_mfc42u_ordinal6789:PPROC
+mfc42u_ordinal6789 equ <__imp_mfc42u_ordinal6789>
+
+externdef __imp_mfc42u_ordinal678:PPROC
+mfc42u_ordinal678 equ <__imp_mfc42u_ordinal678>
+
+externdef __imp_mfc42u_ordinal6790:PPROC
+mfc42u_ordinal6790 equ <__imp_mfc42u_ordinal6790>
+
+externdef __imp_mfc42u_ordinal6791:PPROC
+mfc42u_ordinal6791 equ <__imp_mfc42u_ordinal6791>
+
+externdef __imp_mfc42u_ordinal6792:PPROC
+mfc42u_ordinal6792 equ <__imp_mfc42u_ordinal6792>
+
+externdef __imp_mfc42u_ordinal6793:PPROC
+mfc42u_ordinal6793 equ <__imp_mfc42u_ordinal6793>
+
+externdef __imp_mfc42u_ordinal6794:PPROC
+mfc42u_ordinal6794 equ <__imp_mfc42u_ordinal6794>
+
+externdef __imp_mfc42u_ordinal6795:PPROC
+mfc42u_ordinal6795 equ <__imp_mfc42u_ordinal6795>
+
+externdef __imp_mfc42u_ordinal6796:PPROC
+mfc42u_ordinal6796 equ <__imp_mfc42u_ordinal6796>
+
+externdef __imp_mfc42u_ordinal6797:PPROC
+mfc42u_ordinal6797 equ <__imp_mfc42u_ordinal6797>
+
+externdef __imp_mfc42u_ordinal6798:PPROC
+mfc42u_ordinal6798 equ <__imp_mfc42u_ordinal6798>
+
+externdef __imp_mfc42u_ordinal6799:PPROC
+mfc42u_ordinal6799 equ <__imp_mfc42u_ordinal6799>
+
+externdef __imp_mfc42u_ordinal679:PPROC
+mfc42u_ordinal679 equ <__imp_mfc42u_ordinal679>
+
+externdef __imp_mfc42u_ordinal67:PPROC
+mfc42u_ordinal67 equ <__imp_mfc42u_ordinal67>
+
+externdef __imp_mfc42u_ordinal6800:PPROC
+mfc42u_ordinal6800 equ <__imp_mfc42u_ordinal6800>
+
+externdef __imp_mfc42u_ordinal6801:PPROC
+mfc42u_ordinal6801 equ <__imp_mfc42u_ordinal6801>
+
+externdef __imp_mfc42u_ordinal6802:PPROC
+mfc42u_ordinal6802 equ <__imp_mfc42u_ordinal6802>
+
+externdef __imp_mfc42u_ordinal6803:PPROC
+mfc42u_ordinal6803 equ <__imp_mfc42u_ordinal6803>
+
+externdef __imp_mfc42u_ordinal6804:PPROC
+mfc42u_ordinal6804 equ <__imp_mfc42u_ordinal6804>
+
+externdef __imp_mfc42u_ordinal6805:PPROC
+mfc42u_ordinal6805 equ <__imp_mfc42u_ordinal6805>
+
+externdef __imp_mfc42u_ordinal6806:PPROC
+mfc42u_ordinal6806 equ <__imp_mfc42u_ordinal6806>
+
+externdef __imp_mfc42u_ordinal6807:PPROC
+mfc42u_ordinal6807 equ <__imp_mfc42u_ordinal6807>
+
+externdef __imp_mfc42u_ordinal6808:PPROC
+mfc42u_ordinal6808 equ <__imp_mfc42u_ordinal6808>
+
+externdef __imp_mfc42u_ordinal6809:PPROC
+mfc42u_ordinal6809 equ <__imp_mfc42u_ordinal6809>
+
+externdef __imp_mfc42u_ordinal680:PPROC
+mfc42u_ordinal680 equ <__imp_mfc42u_ordinal680>
+
+externdef __imp_mfc42u_ordinal6810:PPROC
+mfc42u_ordinal6810 equ <__imp_mfc42u_ordinal6810>
+
+externdef __imp_mfc42u_ordinal6811:PPROC
+mfc42u_ordinal6811 equ <__imp_mfc42u_ordinal6811>
+
+externdef __imp_mfc42u_ordinal6812:PPROC
+mfc42u_ordinal6812 equ <__imp_mfc42u_ordinal6812>
+
+externdef __imp_mfc42u_ordinal6813:PPROC
+mfc42u_ordinal6813 equ <__imp_mfc42u_ordinal6813>
+
+externdef __imp_mfc42u_ordinal6814:PPROC
+mfc42u_ordinal6814 equ <__imp_mfc42u_ordinal6814>
+
+externdef __imp_mfc42u_ordinal6815:PPROC
+mfc42u_ordinal6815 equ <__imp_mfc42u_ordinal6815>
+
+externdef __imp_mfc42u_ordinal6816:PPROC
+mfc42u_ordinal6816 equ <__imp_mfc42u_ordinal6816>
+
+externdef __imp_mfc42u_ordinal6817:PPROC
+mfc42u_ordinal6817 equ <__imp_mfc42u_ordinal6817>
+
+externdef __imp_mfc42u_ordinal6818:PPROC
+mfc42u_ordinal6818 equ <__imp_mfc42u_ordinal6818>
+
+externdef __imp_mfc42u_ordinal6819:PPROC
+mfc42u_ordinal6819 equ <__imp_mfc42u_ordinal6819>
+
+externdef __imp_mfc42u_ordinal681:PPROC
+mfc42u_ordinal681 equ <__imp_mfc42u_ordinal681>
+
+externdef __imp_mfc42u_ordinal6820:PPROC
+mfc42u_ordinal6820 equ <__imp_mfc42u_ordinal6820>
+
+externdef __imp_mfc42u_ordinal6821:PPROC
+mfc42u_ordinal6821 equ <__imp_mfc42u_ordinal6821>
+
+externdef __imp_mfc42u_ordinal6822:PPROC
+mfc42u_ordinal6822 equ <__imp_mfc42u_ordinal6822>
+
+externdef __imp_mfc42u_ordinal6823:PPROC
+mfc42u_ordinal6823 equ <__imp_mfc42u_ordinal6823>
+
+externdef __imp_mfc42u_ordinal6824:PPROC
+mfc42u_ordinal6824 equ <__imp_mfc42u_ordinal6824>
+
+externdef __imp_mfc42u_ordinal6825:PPROC
+mfc42u_ordinal6825 equ <__imp_mfc42u_ordinal6825>
+
+externdef __imp_mfc42u_ordinal6826:PPROC
+mfc42u_ordinal6826 equ <__imp_mfc42u_ordinal6826>
+
+externdef __imp_mfc42u_ordinal6827:PPROC
+mfc42u_ordinal6827 equ <__imp_mfc42u_ordinal6827>
+
+externdef __imp_mfc42u_ordinal6828:PPROC
+mfc42u_ordinal6828 equ <__imp_mfc42u_ordinal6828>
+
+externdef __imp_mfc42u_ordinal6829:PPROC
+mfc42u_ordinal6829 equ <__imp_mfc42u_ordinal6829>
+
+externdef __imp_mfc42u_ordinal682:PPROC
+mfc42u_ordinal682 equ <__imp_mfc42u_ordinal682>
+
+externdef __imp_mfc42u_ordinal6830:PPROC
+mfc42u_ordinal6830 equ <__imp_mfc42u_ordinal6830>
+
+externdef __imp_mfc42u_ordinal6831:PPROC
+mfc42u_ordinal6831 equ <__imp_mfc42u_ordinal6831>
+
+externdef __imp_mfc42u_ordinal6832:PPROC
+mfc42u_ordinal6832 equ <__imp_mfc42u_ordinal6832>
+
+externdef __imp_mfc42u_ordinal6833:PPROC
+mfc42u_ordinal6833 equ <__imp_mfc42u_ordinal6833>
+
+externdef __imp_mfc42u_ordinal6834:PPROC
+mfc42u_ordinal6834 equ <__imp_mfc42u_ordinal6834>
+
+externdef __imp_mfc42u_ordinal6835:PPROC
+mfc42u_ordinal6835 equ <__imp_mfc42u_ordinal6835>
+
+externdef __imp_mfc42u_ordinal6836:PPROC
+mfc42u_ordinal6836 equ <__imp_mfc42u_ordinal6836>
+
+externdef __imp_mfc42u_ordinal6837:PPROC
+mfc42u_ordinal6837 equ <__imp_mfc42u_ordinal6837>
+
+externdef __imp_mfc42u_ordinal6838:PPROC
+mfc42u_ordinal6838 equ <__imp_mfc42u_ordinal6838>
+
+externdef __imp_mfc42u_ordinal6839:PPROC
+mfc42u_ordinal6839 equ <__imp_mfc42u_ordinal6839>
+
+externdef __imp_mfc42u_ordinal683:PPROC
+mfc42u_ordinal683 equ <__imp_mfc42u_ordinal683>
+
+externdef __imp_mfc42u_ordinal6840:PPROC
+mfc42u_ordinal6840 equ <__imp_mfc42u_ordinal6840>
+
+externdef __imp_mfc42u_ordinal6841:PPROC
+mfc42u_ordinal6841 equ <__imp_mfc42u_ordinal6841>
+
+externdef __imp_mfc42u_ordinal6842:PPROC
+mfc42u_ordinal6842 equ <__imp_mfc42u_ordinal6842>
+
+externdef __imp_mfc42u_ordinal6843:PPROC
+mfc42u_ordinal6843 equ <__imp_mfc42u_ordinal6843>
+
+externdef __imp_mfc42u_ordinal6844:PPROC
+mfc42u_ordinal6844 equ <__imp_mfc42u_ordinal6844>
+
+externdef __imp_mfc42u_ordinal6845:PPROC
+mfc42u_ordinal6845 equ <__imp_mfc42u_ordinal6845>
+
+externdef __imp_mfc42u_ordinal6846:PPROC
+mfc42u_ordinal6846 equ <__imp_mfc42u_ordinal6846>
+
+externdef __imp_mfc42u_ordinal6847:PPROC
+mfc42u_ordinal6847 equ <__imp_mfc42u_ordinal6847>
+
+externdef __imp_mfc42u_ordinal6848:PPROC
+mfc42u_ordinal6848 equ <__imp_mfc42u_ordinal6848>
+
+externdef __imp_mfc42u_ordinal6849:PPROC
+mfc42u_ordinal6849 equ <__imp_mfc42u_ordinal6849>
+
+externdef __imp_mfc42u_ordinal684:PPROC
+mfc42u_ordinal684 equ <__imp_mfc42u_ordinal684>
+
+externdef __imp_mfc42u_ordinal6850:PPROC
+mfc42u_ordinal6850 equ <__imp_mfc42u_ordinal6850>
+
+externdef __imp_mfc42u_ordinal6851:PPROC
+mfc42u_ordinal6851 equ <__imp_mfc42u_ordinal6851>
+
+externdef __imp_mfc42u_ordinal6852:PPROC
+mfc42u_ordinal6852 equ <__imp_mfc42u_ordinal6852>
+
+externdef __imp_mfc42u_ordinal6853:PPROC
+mfc42u_ordinal6853 equ <__imp_mfc42u_ordinal6853>
+
+externdef __imp_mfc42u_ordinal6854:PPROC
+mfc42u_ordinal6854 equ <__imp_mfc42u_ordinal6854>
+
+externdef __imp_mfc42u_ordinal6855:PPROC
+mfc42u_ordinal6855 equ <__imp_mfc42u_ordinal6855>
+
+externdef __imp_mfc42u_ordinal6856:PPROC
+mfc42u_ordinal6856 equ <__imp_mfc42u_ordinal6856>
+
+externdef __imp_mfc42u_ordinal6857:PPROC
+mfc42u_ordinal6857 equ <__imp_mfc42u_ordinal6857>
+
+externdef __imp_mfc42u_ordinal6858:PPROC
+mfc42u_ordinal6858 equ <__imp_mfc42u_ordinal6858>
+
+externdef __imp_mfc42u_ordinal6859:PPROC
+mfc42u_ordinal6859 equ <__imp_mfc42u_ordinal6859>
+
+externdef __imp_mfc42u_ordinal685:PPROC
+mfc42u_ordinal685 equ <__imp_mfc42u_ordinal685>
+
+externdef __imp_mfc42u_ordinal6860:PPROC
+mfc42u_ordinal6860 equ <__imp_mfc42u_ordinal6860>
+
+externdef __imp_mfc42u_ordinal6861:PPROC
+mfc42u_ordinal6861 equ <__imp_mfc42u_ordinal6861>
+
+externdef __imp_mfc42u_ordinal6862:PPROC
+mfc42u_ordinal6862 equ <__imp_mfc42u_ordinal6862>
+
+externdef __imp_mfc42u_ordinal6863:PPROC
+mfc42u_ordinal6863 equ <__imp_mfc42u_ordinal6863>
+
+externdef __imp_mfc42u_ordinal6864:PPROC
+mfc42u_ordinal6864 equ <__imp_mfc42u_ordinal6864>
+
+externdef __imp_mfc42u_ordinal6865:PPROC
+mfc42u_ordinal6865 equ <__imp_mfc42u_ordinal6865>
+
+externdef __imp_mfc42u_ordinal6866:PPROC
+mfc42u_ordinal6866 equ <__imp_mfc42u_ordinal6866>
+
+externdef __imp_mfc42u_ordinal6867:PPROC
+mfc42u_ordinal6867 equ <__imp_mfc42u_ordinal6867>
+
+externdef __imp_mfc42u_ordinal6868:PPROC
+mfc42u_ordinal6868 equ <__imp_mfc42u_ordinal6868>
+
+externdef __imp_mfc42u_ordinal6869:PPROC
+mfc42u_ordinal6869 equ <__imp_mfc42u_ordinal6869>
+
+externdef __imp_mfc42u_ordinal686:PPROC
+mfc42u_ordinal686 equ <__imp_mfc42u_ordinal686>
+
+externdef __imp_mfc42u_ordinal6870:PPROC
+mfc42u_ordinal6870 equ <__imp_mfc42u_ordinal6870>
+
+externdef __imp_mfc42u_ordinal6871:PPROC
+mfc42u_ordinal6871 equ <__imp_mfc42u_ordinal6871>
+
+externdef __imp_mfc42u_ordinal6872:PPROC
+mfc42u_ordinal6872 equ <__imp_mfc42u_ordinal6872>
+
+externdef __imp_mfc42u_ordinal6873:PPROC
+mfc42u_ordinal6873 equ <__imp_mfc42u_ordinal6873>
+
+externdef __imp_mfc42u_ordinal6874:PPROC
+mfc42u_ordinal6874 equ <__imp_mfc42u_ordinal6874>
+
+externdef __imp_mfc42u_ordinal6875:PPROC
+mfc42u_ordinal6875 equ <__imp_mfc42u_ordinal6875>
+
+externdef __imp_mfc42u_ordinal6876:PPROC
+mfc42u_ordinal6876 equ <__imp_mfc42u_ordinal6876>
+
+externdef __imp_mfc42u_ordinal6877:PPROC
+mfc42u_ordinal6877 equ <__imp_mfc42u_ordinal6877>
+
+externdef __imp_mfc42u_ordinal6878:PPROC
+mfc42u_ordinal6878 equ <__imp_mfc42u_ordinal6878>
+
+externdef __imp_mfc42u_ordinal6879:PPROC
+mfc42u_ordinal6879 equ <__imp_mfc42u_ordinal6879>
+
+externdef __imp_mfc42u_ordinal687:PPROC
+mfc42u_ordinal687 equ <__imp_mfc42u_ordinal687>
+
+externdef __imp_mfc42u_ordinal6880:PPROC
+mfc42u_ordinal6880 equ <__imp_mfc42u_ordinal6880>
+
+externdef __imp_mfc42u_ordinal6881:PPROC
+mfc42u_ordinal6881 equ <__imp_mfc42u_ordinal6881>
+
+externdef __imp_mfc42u_ordinal6882:PPROC
+mfc42u_ordinal6882 equ <__imp_mfc42u_ordinal6882>
+
+externdef __imp_mfc42u_ordinal6883:PPROC
+mfc42u_ordinal6883 equ <__imp_mfc42u_ordinal6883>
+
+externdef __imp_mfc42u_ordinal6884:PPROC
+mfc42u_ordinal6884 equ <__imp_mfc42u_ordinal6884>
+
+externdef __imp_mfc42u_ordinal6885:PPROC
+mfc42u_ordinal6885 equ <__imp_mfc42u_ordinal6885>
+
+externdef __imp_mfc42u_ordinal6886:PPROC
+mfc42u_ordinal6886 equ <__imp_mfc42u_ordinal6886>
+
+externdef __imp_mfc42u_ordinal6887:PPROC
+mfc42u_ordinal6887 equ <__imp_mfc42u_ordinal6887>
+
+externdef __imp_mfc42u_ordinal6888:PPROC
+mfc42u_ordinal6888 equ <__imp_mfc42u_ordinal6888>
+
+externdef __imp_mfc42u_ordinal688:PPROC
+mfc42u_ordinal688 equ <__imp_mfc42u_ordinal688>
+
+externdef __imp_mfc42u_ordinal689:PPROC
+mfc42u_ordinal689 equ <__imp_mfc42u_ordinal689>
+
+externdef __imp_mfc42u_ordinal68:PPROC
+mfc42u_ordinal68 equ <__imp_mfc42u_ordinal68>
+
+externdef __imp_mfc42u_ordinal690:PPROC
+mfc42u_ordinal690 equ <__imp_mfc42u_ordinal690>
+
+externdef __imp_mfc42u_ordinal691:PPROC
+mfc42u_ordinal691 equ <__imp_mfc42u_ordinal691>
+
+externdef __imp_mfc42u_ordinal692:PPROC
+mfc42u_ordinal692 equ <__imp_mfc42u_ordinal692>
+
+externdef __imp_mfc42u_ordinal693:PPROC
+mfc42u_ordinal693 equ <__imp_mfc42u_ordinal693>
+
+externdef __imp_mfc42u_ordinal694:PPROC
+mfc42u_ordinal694 equ <__imp_mfc42u_ordinal694>
+
+externdef __imp_mfc42u_ordinal695:PPROC
+mfc42u_ordinal695 equ <__imp_mfc42u_ordinal695>
+
+externdef __imp_mfc42u_ordinal696:PPROC
+mfc42u_ordinal696 equ <__imp_mfc42u_ordinal696>
+
+externdef __imp_mfc42u_ordinal697:PPROC
+mfc42u_ordinal697 equ <__imp_mfc42u_ordinal697>
+
+externdef __imp_mfc42u_ordinal698:PPROC
+mfc42u_ordinal698 equ <__imp_mfc42u_ordinal698>
+
+externdef __imp_mfc42u_ordinal699:PPROC
+mfc42u_ordinal699 equ <__imp_mfc42u_ordinal699>
+
+externdef __imp_mfc42u_ordinal69:PPROC
+mfc42u_ordinal69 equ <__imp_mfc42u_ordinal69>
+
+externdef __imp_mfc42u_ordinal700:PPROC
+mfc42u_ordinal700 equ <__imp_mfc42u_ordinal700>
+
+externdef __imp_mfc42u_ordinal701:PPROC
+mfc42u_ordinal701 equ <__imp_mfc42u_ordinal701>
+
+externdef __imp_mfc42u_ordinal702:PPROC
+mfc42u_ordinal702 equ <__imp_mfc42u_ordinal702>
+
+externdef __imp_mfc42u_ordinal703:PPROC
+mfc42u_ordinal703 equ <__imp_mfc42u_ordinal703>
+
+externdef __imp_mfc42u_ordinal704:PPROC
+mfc42u_ordinal704 equ <__imp_mfc42u_ordinal704>
+
+externdef __imp_mfc42u_ordinal705:PPROC
+mfc42u_ordinal705 equ <__imp_mfc42u_ordinal705>
+
+externdef __imp_mfc42u_ordinal706:PPROC
+mfc42u_ordinal706 equ <__imp_mfc42u_ordinal706>
+
+externdef __imp_mfc42u_ordinal707:PPROC
+mfc42u_ordinal707 equ <__imp_mfc42u_ordinal707>
+
+externdef __imp_mfc42u_ordinal708:PPROC
+mfc42u_ordinal708 equ <__imp_mfc42u_ordinal708>
+
+externdef __imp_mfc42u_ordinal709:PPROC
+mfc42u_ordinal709 equ <__imp_mfc42u_ordinal709>
+
+externdef __imp_mfc42u_ordinal70:PPROC
+mfc42u_ordinal70 equ <__imp_mfc42u_ordinal70>
+
+externdef __imp_mfc42u_ordinal710:PPROC
+mfc42u_ordinal710 equ <__imp_mfc42u_ordinal710>
+
+externdef __imp_mfc42u_ordinal711:PPROC
+mfc42u_ordinal711 equ <__imp_mfc42u_ordinal711>
+
+externdef __imp_mfc42u_ordinal712:PPROC
+mfc42u_ordinal712 equ <__imp_mfc42u_ordinal712>
+
+externdef __imp_mfc42u_ordinal713:PPROC
+mfc42u_ordinal713 equ <__imp_mfc42u_ordinal713>
+
+externdef __imp_mfc42u_ordinal714:PPROC
+mfc42u_ordinal714 equ <__imp_mfc42u_ordinal714>
+
+externdef __imp_mfc42u_ordinal715:PPROC
+mfc42u_ordinal715 equ <__imp_mfc42u_ordinal715>
+
+externdef __imp_mfc42u_ordinal716:PPROC
+mfc42u_ordinal716 equ <__imp_mfc42u_ordinal716>
+
+externdef __imp_mfc42u_ordinal717:PPROC
+mfc42u_ordinal717 equ <__imp_mfc42u_ordinal717>
+
+externdef __imp_mfc42u_ordinal718:PPROC
+mfc42u_ordinal718 equ <__imp_mfc42u_ordinal718>
+
+externdef __imp_mfc42u_ordinal719:PPROC
+mfc42u_ordinal719 equ <__imp_mfc42u_ordinal719>
+
+externdef __imp_mfc42u_ordinal71:PPROC
+mfc42u_ordinal71 equ <__imp_mfc42u_ordinal71>
+
+externdef __imp_mfc42u_ordinal720:PPROC
+mfc42u_ordinal720 equ <__imp_mfc42u_ordinal720>
+
+externdef __imp_mfc42u_ordinal721:PPROC
+mfc42u_ordinal721 equ <__imp_mfc42u_ordinal721>
+
+externdef __imp_mfc42u_ordinal722:PPROC
+mfc42u_ordinal722 equ <__imp_mfc42u_ordinal722>
+
+externdef __imp_mfc42u_ordinal723:PPROC
+mfc42u_ordinal723 equ <__imp_mfc42u_ordinal723>
+
+externdef __imp_mfc42u_ordinal724:PPROC
+mfc42u_ordinal724 equ <__imp_mfc42u_ordinal724>
+
+externdef __imp_mfc42u_ordinal725:PPROC
+mfc42u_ordinal725 equ <__imp_mfc42u_ordinal725>
+
+externdef __imp_mfc42u_ordinal726:PPROC
+mfc42u_ordinal726 equ <__imp_mfc42u_ordinal726>
+
+externdef __imp_mfc42u_ordinal727:PPROC
+mfc42u_ordinal727 equ <__imp_mfc42u_ordinal727>
+
+externdef __imp_mfc42u_ordinal728:PPROC
+mfc42u_ordinal728 equ <__imp_mfc42u_ordinal728>
+
+externdef __imp_mfc42u_ordinal729:PPROC
+mfc42u_ordinal729 equ <__imp_mfc42u_ordinal729>
+
+externdef __imp_mfc42u_ordinal72:PPROC
+mfc42u_ordinal72 equ <__imp_mfc42u_ordinal72>
+
+externdef __imp_mfc42u_ordinal730:PPROC
+mfc42u_ordinal730 equ <__imp_mfc42u_ordinal730>
+
+externdef __imp_mfc42u_ordinal731:PPROC
+mfc42u_ordinal731 equ <__imp_mfc42u_ordinal731>
+
+externdef __imp_mfc42u_ordinal732:PPROC
+mfc42u_ordinal732 equ <__imp_mfc42u_ordinal732>
+
+externdef __imp_mfc42u_ordinal733:PPROC
+mfc42u_ordinal733 equ <__imp_mfc42u_ordinal733>
+
+externdef __imp_mfc42u_ordinal734:PPROC
+mfc42u_ordinal734 equ <__imp_mfc42u_ordinal734>
+
+externdef __imp_mfc42u_ordinal735:PPROC
+mfc42u_ordinal735 equ <__imp_mfc42u_ordinal735>
+
+externdef __imp_mfc42u_ordinal736:PPROC
+mfc42u_ordinal736 equ <__imp_mfc42u_ordinal736>
+
+externdef __imp_mfc42u_ordinal737:PPROC
+mfc42u_ordinal737 equ <__imp_mfc42u_ordinal737>
+
+externdef __imp_mfc42u_ordinal738:PPROC
+mfc42u_ordinal738 equ <__imp_mfc42u_ordinal738>
+
+externdef __imp_mfc42u_ordinal739:PPROC
+mfc42u_ordinal739 equ <__imp_mfc42u_ordinal739>
+
+externdef __imp_mfc42u_ordinal73:PPROC
+mfc42u_ordinal73 equ <__imp_mfc42u_ordinal73>
+
+externdef __imp_mfc42u_ordinal740:PPROC
+mfc42u_ordinal740 equ <__imp_mfc42u_ordinal740>
+
+externdef __imp_mfc42u_ordinal741:PPROC
+mfc42u_ordinal741 equ <__imp_mfc42u_ordinal741>
+
+externdef __imp_mfc42u_ordinal742:PPROC
+mfc42u_ordinal742 equ <__imp_mfc42u_ordinal742>
+
+externdef __imp_mfc42u_ordinal743:PPROC
+mfc42u_ordinal743 equ <__imp_mfc42u_ordinal743>
+
+externdef __imp_mfc42u_ordinal744:PPROC
+mfc42u_ordinal744 equ <__imp_mfc42u_ordinal744>
+
+externdef __imp_mfc42u_ordinal745:PPROC
+mfc42u_ordinal745 equ <__imp_mfc42u_ordinal745>
+
+externdef __imp_mfc42u_ordinal746:PPROC
+mfc42u_ordinal746 equ <__imp_mfc42u_ordinal746>
+
+externdef __imp_mfc42u_ordinal747:PPROC
+mfc42u_ordinal747 equ <__imp_mfc42u_ordinal747>
+
+externdef __imp_mfc42u_ordinal748:PPROC
+mfc42u_ordinal748 equ <__imp_mfc42u_ordinal748>
+
+externdef __imp_mfc42u_ordinal749:PPROC
+mfc42u_ordinal749 equ <__imp_mfc42u_ordinal749>
+
+externdef __imp_mfc42u_ordinal74:PPROC
+mfc42u_ordinal74 equ <__imp_mfc42u_ordinal74>
+
+externdef __imp_mfc42u_ordinal750:PPROC
+mfc42u_ordinal750 equ <__imp_mfc42u_ordinal750>
+
+externdef __imp_mfc42u_ordinal751:PPROC
+mfc42u_ordinal751 equ <__imp_mfc42u_ordinal751>
+
+externdef __imp_mfc42u_ordinal752:PPROC
+mfc42u_ordinal752 equ <__imp_mfc42u_ordinal752>
+
+externdef __imp_mfc42u_ordinal753:PPROC
+mfc42u_ordinal753 equ <__imp_mfc42u_ordinal753>
+
+externdef __imp_mfc42u_ordinal754:PPROC
+mfc42u_ordinal754 equ <__imp_mfc42u_ordinal754>
+
+externdef __imp_mfc42u_ordinal755:PPROC
+mfc42u_ordinal755 equ <__imp_mfc42u_ordinal755>
+
+externdef __imp_mfc42u_ordinal756:PPROC
+mfc42u_ordinal756 equ <__imp_mfc42u_ordinal756>
+
+externdef __imp_mfc42u_ordinal757:PPROC
+mfc42u_ordinal757 equ <__imp_mfc42u_ordinal757>
+
+externdef __imp_mfc42u_ordinal758:PPROC
+mfc42u_ordinal758 equ <__imp_mfc42u_ordinal758>
+
+externdef __imp_mfc42u_ordinal759:PPROC
+mfc42u_ordinal759 equ <__imp_mfc42u_ordinal759>
+
+externdef __imp_mfc42u_ordinal75:PPROC
+mfc42u_ordinal75 equ <__imp_mfc42u_ordinal75>
+
+externdef __imp_mfc42u_ordinal760:PPROC
+mfc42u_ordinal760 equ <__imp_mfc42u_ordinal760>
+
+externdef __imp_mfc42u_ordinal761:PPROC
+mfc42u_ordinal761 equ <__imp_mfc42u_ordinal761>
+
+externdef __imp_mfc42u_ordinal762:PPROC
+mfc42u_ordinal762 equ <__imp_mfc42u_ordinal762>
+
+externdef __imp_mfc42u_ordinal763:PPROC
+mfc42u_ordinal763 equ <__imp_mfc42u_ordinal763>
+
+externdef __imp_mfc42u_ordinal764:PPROC
+mfc42u_ordinal764 equ <__imp_mfc42u_ordinal764>
+
+externdef __imp_mfc42u_ordinal765:PPROC
+mfc42u_ordinal765 equ <__imp_mfc42u_ordinal765>
+
+externdef __imp_mfc42u_ordinal766:PPROC
+mfc42u_ordinal766 equ <__imp_mfc42u_ordinal766>
+
+externdef __imp_mfc42u_ordinal767:PPROC
+mfc42u_ordinal767 equ <__imp_mfc42u_ordinal767>
+
+externdef __imp_mfc42u_ordinal768:PPROC
+mfc42u_ordinal768 equ <__imp_mfc42u_ordinal768>
+
+externdef __imp_mfc42u_ordinal769:PPROC
+mfc42u_ordinal769 equ <__imp_mfc42u_ordinal769>
+
+externdef __imp_mfc42u_ordinal76:PPROC
+mfc42u_ordinal76 equ <__imp_mfc42u_ordinal76>
+
+externdef __imp_mfc42u_ordinal770:PPROC
+mfc42u_ordinal770 equ <__imp_mfc42u_ordinal770>
+
+externdef __imp_mfc42u_ordinal771:PPROC
+mfc42u_ordinal771 equ <__imp_mfc42u_ordinal771>
+
+externdef __imp_mfc42u_ordinal772:PPROC
+mfc42u_ordinal772 equ <__imp_mfc42u_ordinal772>
+
+externdef __imp_mfc42u_ordinal773:PPROC
+mfc42u_ordinal773 equ <__imp_mfc42u_ordinal773>
+
+externdef __imp_mfc42u_ordinal774:PPROC
+mfc42u_ordinal774 equ <__imp_mfc42u_ordinal774>
+
+externdef __imp_mfc42u_ordinal775:PPROC
+mfc42u_ordinal775 equ <__imp_mfc42u_ordinal775>
+
+externdef __imp_mfc42u_ordinal776:PPROC
+mfc42u_ordinal776 equ <__imp_mfc42u_ordinal776>
+
+externdef __imp_mfc42u_ordinal777:PPROC
+mfc42u_ordinal777 equ <__imp_mfc42u_ordinal777>
+
+externdef __imp_mfc42u_ordinal778:PPROC
+mfc42u_ordinal778 equ <__imp_mfc42u_ordinal778>
+
+externdef __imp_mfc42u_ordinal779:PPROC
+mfc42u_ordinal779 equ <__imp_mfc42u_ordinal779>
+
+externdef __imp_mfc42u_ordinal77:PPROC
+mfc42u_ordinal77 equ <__imp_mfc42u_ordinal77>
+
+externdef __imp_mfc42u_ordinal780:PPROC
+mfc42u_ordinal780 equ <__imp_mfc42u_ordinal780>
+
+externdef __imp_mfc42u_ordinal781:PPROC
+mfc42u_ordinal781 equ <__imp_mfc42u_ordinal781>
+
+externdef __imp_mfc42u_ordinal782:PPROC
+mfc42u_ordinal782 equ <__imp_mfc42u_ordinal782>
+
+externdef __imp_mfc42u_ordinal783:PPROC
+mfc42u_ordinal783 equ <__imp_mfc42u_ordinal783>
+
+externdef __imp_mfc42u_ordinal784:PPROC
+mfc42u_ordinal784 equ <__imp_mfc42u_ordinal784>
+
+externdef __imp_mfc42u_ordinal785:PPROC
+mfc42u_ordinal785 equ <__imp_mfc42u_ordinal785>
+
+externdef __imp_mfc42u_ordinal786:PPROC
+mfc42u_ordinal786 equ <__imp_mfc42u_ordinal786>
+
+externdef __imp_mfc42u_ordinal787:PPROC
+mfc42u_ordinal787 equ <__imp_mfc42u_ordinal787>
+
+externdef __imp_mfc42u_ordinal788:PPROC
+mfc42u_ordinal788 equ <__imp_mfc42u_ordinal788>
+
+externdef __imp_mfc42u_ordinal789:PPROC
+mfc42u_ordinal789 equ <__imp_mfc42u_ordinal789>
+
+externdef __imp_mfc42u_ordinal78:PPROC
+mfc42u_ordinal78 equ <__imp_mfc42u_ordinal78>
+
+externdef __imp_mfc42u_ordinal790:PPROC
+mfc42u_ordinal790 equ <__imp_mfc42u_ordinal790>
+
+externdef __imp_mfc42u_ordinal791:PPROC
+mfc42u_ordinal791 equ <__imp_mfc42u_ordinal791>
+
+externdef __imp_mfc42u_ordinal792:PPROC
+mfc42u_ordinal792 equ <__imp_mfc42u_ordinal792>
+
+externdef __imp_mfc42u_ordinal793:PPROC
+mfc42u_ordinal793 equ <__imp_mfc42u_ordinal793>
+
+externdef __imp_mfc42u_ordinal794:PPROC
+mfc42u_ordinal794 equ <__imp_mfc42u_ordinal794>
+
+externdef __imp_mfc42u_ordinal795:PPROC
+mfc42u_ordinal795 equ <__imp_mfc42u_ordinal795>
+
+externdef __imp_mfc42u_ordinal796:PPROC
+mfc42u_ordinal796 equ <__imp_mfc42u_ordinal796>
+
+externdef __imp_mfc42u_ordinal797:PPROC
+mfc42u_ordinal797 equ <__imp_mfc42u_ordinal797>
+
+externdef __imp_mfc42u_ordinal798:PPROC
+mfc42u_ordinal798 equ <__imp_mfc42u_ordinal798>
+
+externdef __imp_mfc42u_ordinal799:PPROC
+mfc42u_ordinal799 equ <__imp_mfc42u_ordinal799>
+
+externdef __imp_mfc42u_ordinal79:PPROC
+mfc42u_ordinal79 equ <__imp_mfc42u_ordinal79>
+
+externdef __imp_mfc42u_ordinal7:PPROC
+mfc42u_ordinal7 equ <__imp_mfc42u_ordinal7>
+
+externdef __imp_mfc42u_ordinal800:PPROC
+mfc42u_ordinal800 equ <__imp_mfc42u_ordinal800>
+
+externdef __imp_mfc42u_ordinal801:PPROC
+mfc42u_ordinal801 equ <__imp_mfc42u_ordinal801>
+
+externdef __imp_mfc42u_ordinal802:PPROC
+mfc42u_ordinal802 equ <__imp_mfc42u_ordinal802>
+
+externdef __imp_mfc42u_ordinal803:PPROC
+mfc42u_ordinal803 equ <__imp_mfc42u_ordinal803>
+
+externdef __imp_mfc42u_ordinal804:PPROC
+mfc42u_ordinal804 equ <__imp_mfc42u_ordinal804>
+
+externdef __imp_mfc42u_ordinal805:PPROC
+mfc42u_ordinal805 equ <__imp_mfc42u_ordinal805>
+
+externdef __imp_mfc42u_ordinal806:PPROC
+mfc42u_ordinal806 equ <__imp_mfc42u_ordinal806>
+
+externdef __imp_mfc42u_ordinal807:PPROC
+mfc42u_ordinal807 equ <__imp_mfc42u_ordinal807>
+
+externdef __imp_mfc42u_ordinal808:PPROC
+mfc42u_ordinal808 equ <__imp_mfc42u_ordinal808>
+
+externdef __imp_mfc42u_ordinal809:PPROC
+mfc42u_ordinal809 equ <__imp_mfc42u_ordinal809>
+
+externdef __imp_mfc42u_ordinal80:PPROC
+mfc42u_ordinal80 equ <__imp_mfc42u_ordinal80>
+
+externdef __imp_mfc42u_ordinal810:PPROC
+mfc42u_ordinal810 equ <__imp_mfc42u_ordinal810>
+
+externdef __imp_mfc42u_ordinal811:PPROC
+mfc42u_ordinal811 equ <__imp_mfc42u_ordinal811>
+
+externdef __imp_mfc42u_ordinal812:PPROC
+mfc42u_ordinal812 equ <__imp_mfc42u_ordinal812>
+
+externdef __imp_mfc42u_ordinal813:PPROC
+mfc42u_ordinal813 equ <__imp_mfc42u_ordinal813>
+
+externdef __imp_mfc42u_ordinal814:PPROC
+mfc42u_ordinal814 equ <__imp_mfc42u_ordinal814>
+
+externdef __imp_mfc42u_ordinal815:PPROC
+mfc42u_ordinal815 equ <__imp_mfc42u_ordinal815>
+
+externdef __imp_mfc42u_ordinal816:PPROC
+mfc42u_ordinal816 equ <__imp_mfc42u_ordinal816>
+
+externdef __imp_mfc42u_ordinal817:PPROC
+mfc42u_ordinal817 equ <__imp_mfc42u_ordinal817>
+
+externdef __imp_mfc42u_ordinal818:PPROC
+mfc42u_ordinal818 equ <__imp_mfc42u_ordinal818>
+
+externdef __imp_mfc42u_ordinal819:PPROC
+mfc42u_ordinal819 equ <__imp_mfc42u_ordinal819>
+
+externdef __imp_mfc42u_ordinal81:PPROC
+mfc42u_ordinal81 equ <__imp_mfc42u_ordinal81>
+
+externdef __imp_mfc42u_ordinal820:PPROC
+mfc42u_ordinal820 equ <__imp_mfc42u_ordinal820>
+
+externdef __imp_mfc42u_ordinal821:PPROC
+mfc42u_ordinal821 equ <__imp_mfc42u_ordinal821>
+
+externdef __imp_mfc42u_ordinal822:PPROC
+mfc42u_ordinal822 equ <__imp_mfc42u_ordinal822>
+
+externdef __imp_mfc42u_ordinal823:PPROC
+mfc42u_ordinal823 equ <__imp_mfc42u_ordinal823>
+
+externdef __imp_mfc42u_ordinal824:PPROC
+mfc42u_ordinal824 equ <__imp_mfc42u_ordinal824>
+
+externdef __imp_mfc42u_ordinal825:PPROC
+mfc42u_ordinal825 equ <__imp_mfc42u_ordinal825>
+
+externdef __imp_mfc42u_ordinal826:PPROC
+mfc42u_ordinal826 equ <__imp_mfc42u_ordinal826>
+
+externdef __imp_mfc42u_ordinal827:PPROC
+mfc42u_ordinal827 equ <__imp_mfc42u_ordinal827>
+
+externdef __imp_mfc42u_ordinal828:PPROC
+mfc42u_ordinal828 equ <__imp_mfc42u_ordinal828>
+
+externdef __imp_mfc42u_ordinal829:PPROC
+mfc42u_ordinal829 equ <__imp_mfc42u_ordinal829>
+
+externdef __imp_mfc42u_ordinal82:PPROC
+mfc42u_ordinal82 equ <__imp_mfc42u_ordinal82>
+
+externdef __imp_mfc42u_ordinal830:PPROC
+mfc42u_ordinal830 equ <__imp_mfc42u_ordinal830>
+
+externdef __imp_mfc42u_ordinal831:PPROC
+mfc42u_ordinal831 equ <__imp_mfc42u_ordinal831>
+
+externdef __imp_mfc42u_ordinal832:PPROC
+mfc42u_ordinal832 equ <__imp_mfc42u_ordinal832>
+
+externdef __imp_mfc42u_ordinal833:PPROC
+mfc42u_ordinal833 equ <__imp_mfc42u_ordinal833>
+
+externdef __imp_mfc42u_ordinal834:PPROC
+mfc42u_ordinal834 equ <__imp_mfc42u_ordinal834>
+
+externdef __imp_mfc42u_ordinal835:PPROC
+mfc42u_ordinal835 equ <__imp_mfc42u_ordinal835>
+
+externdef __imp_mfc42u_ordinal836:PPROC
+mfc42u_ordinal836 equ <__imp_mfc42u_ordinal836>
+
+externdef __imp_mfc42u_ordinal837:PPROC
+mfc42u_ordinal837 equ <__imp_mfc42u_ordinal837>
+
+externdef __imp_mfc42u_ordinal838:PPROC
+mfc42u_ordinal838 equ <__imp_mfc42u_ordinal838>
+
+externdef __imp_mfc42u_ordinal839:PPROC
+mfc42u_ordinal839 equ <__imp_mfc42u_ordinal839>
+
+externdef __imp_mfc42u_ordinal83:PPROC
+mfc42u_ordinal83 equ <__imp_mfc42u_ordinal83>
+
+externdef __imp_mfc42u_ordinal840:PPROC
+mfc42u_ordinal840 equ <__imp_mfc42u_ordinal840>
+
+externdef __imp_mfc42u_ordinal841:PPROC
+mfc42u_ordinal841 equ <__imp_mfc42u_ordinal841>
+
+externdef __imp_mfc42u_ordinal842:PPROC
+mfc42u_ordinal842 equ <__imp_mfc42u_ordinal842>
+
+externdef __imp_mfc42u_ordinal843:PPROC
+mfc42u_ordinal843 equ <__imp_mfc42u_ordinal843>
+
+externdef __imp_mfc42u_ordinal844:PPROC
+mfc42u_ordinal844 equ <__imp_mfc42u_ordinal844>
+
+externdef __imp_mfc42u_ordinal845:PPROC
+mfc42u_ordinal845 equ <__imp_mfc42u_ordinal845>
+
+externdef __imp_mfc42u_ordinal846:PPROC
+mfc42u_ordinal846 equ <__imp_mfc42u_ordinal846>
+
+externdef __imp_mfc42u_ordinal847:PPROC
+mfc42u_ordinal847 equ <__imp_mfc42u_ordinal847>
+
+externdef __imp_mfc42u_ordinal848:PPROC
+mfc42u_ordinal848 equ <__imp_mfc42u_ordinal848>
+
+externdef __imp_mfc42u_ordinal849:PPROC
+mfc42u_ordinal849 equ <__imp_mfc42u_ordinal849>
+
+externdef __imp_mfc42u_ordinal84:PPROC
+mfc42u_ordinal84 equ <__imp_mfc42u_ordinal84>
+
+externdef __imp_mfc42u_ordinal850:PPROC
+mfc42u_ordinal850 equ <__imp_mfc42u_ordinal850>
+
+externdef __imp_mfc42u_ordinal851:PPROC
+mfc42u_ordinal851 equ <__imp_mfc42u_ordinal851>
+
+externdef __imp_mfc42u_ordinal852:PPROC
+mfc42u_ordinal852 equ <__imp_mfc42u_ordinal852>
+
+externdef __imp_mfc42u_ordinal853:PPROC
+mfc42u_ordinal853 equ <__imp_mfc42u_ordinal853>
+
+externdef __imp_mfc42u_ordinal854:PPROC
+mfc42u_ordinal854 equ <__imp_mfc42u_ordinal854>
+
+externdef __imp_mfc42u_ordinal855:PPROC
+mfc42u_ordinal855 equ <__imp_mfc42u_ordinal855>
+
+externdef __imp_mfc42u_ordinal856:PPROC
+mfc42u_ordinal856 equ <__imp_mfc42u_ordinal856>
+
+externdef __imp_mfc42u_ordinal857:PPROC
+mfc42u_ordinal857 equ <__imp_mfc42u_ordinal857>
+
+externdef __imp_mfc42u_ordinal858:PPROC
+mfc42u_ordinal858 equ <__imp_mfc42u_ordinal858>
+
+externdef __imp_mfc42u_ordinal859:PPROC
+mfc42u_ordinal859 equ <__imp_mfc42u_ordinal859>
+
+externdef __imp_mfc42u_ordinal85:PPROC
+mfc42u_ordinal85 equ <__imp_mfc42u_ordinal85>
+
+externdef __imp_mfc42u_ordinal860:PPROC
+mfc42u_ordinal860 equ <__imp_mfc42u_ordinal860>
+
+externdef __imp_mfc42u_ordinal861:PPROC
+mfc42u_ordinal861 equ <__imp_mfc42u_ordinal861>
+
+externdef __imp_mfc42u_ordinal862:PPROC
+mfc42u_ordinal862 equ <__imp_mfc42u_ordinal862>
+
+externdef __imp_mfc42u_ordinal863:PPROC
+mfc42u_ordinal863 equ <__imp_mfc42u_ordinal863>
+
+externdef __imp_mfc42u_ordinal864:PPROC
+mfc42u_ordinal864 equ <__imp_mfc42u_ordinal864>
+
+externdef __imp_mfc42u_ordinal865:PPROC
+mfc42u_ordinal865 equ <__imp_mfc42u_ordinal865>
+
+externdef __imp_mfc42u_ordinal866:PPROC
+mfc42u_ordinal866 equ <__imp_mfc42u_ordinal866>
+
+externdef __imp_mfc42u_ordinal867:PPROC
+mfc42u_ordinal867 equ <__imp_mfc42u_ordinal867>
+
+externdef __imp_mfc42u_ordinal868:PPROC
+mfc42u_ordinal868 equ <__imp_mfc42u_ordinal868>
+
+externdef __imp_mfc42u_ordinal869:PPROC
+mfc42u_ordinal869 equ <__imp_mfc42u_ordinal869>
+
+externdef __imp_mfc42u_ordinal86:PPROC
+mfc42u_ordinal86 equ <__imp_mfc42u_ordinal86>
+
+externdef __imp_mfc42u_ordinal870:PPROC
+mfc42u_ordinal870 equ <__imp_mfc42u_ordinal870>
+
+externdef __imp_mfc42u_ordinal871:PPROC
+mfc42u_ordinal871 equ <__imp_mfc42u_ordinal871>
+
+externdef __imp_mfc42u_ordinal872:PPROC
+mfc42u_ordinal872 equ <__imp_mfc42u_ordinal872>
+
+externdef __imp_mfc42u_ordinal873:PPROC
+mfc42u_ordinal873 equ <__imp_mfc42u_ordinal873>
+
+externdef __imp_mfc42u_ordinal874:PPROC
+mfc42u_ordinal874 equ <__imp_mfc42u_ordinal874>
+
+externdef __imp_mfc42u_ordinal875:PPROC
+mfc42u_ordinal875 equ <__imp_mfc42u_ordinal875>
+
+externdef __imp_mfc42u_ordinal876:PPROC
+mfc42u_ordinal876 equ <__imp_mfc42u_ordinal876>
+
+externdef __imp_mfc42u_ordinal877:PPROC
+mfc42u_ordinal877 equ <__imp_mfc42u_ordinal877>
+
+externdef __imp_mfc42u_ordinal878:PPROC
+mfc42u_ordinal878 equ <__imp_mfc42u_ordinal878>
+
+externdef __imp_mfc42u_ordinal879:PPROC
+mfc42u_ordinal879 equ <__imp_mfc42u_ordinal879>
+
+externdef __imp_mfc42u_ordinal87:PPROC
+mfc42u_ordinal87 equ <__imp_mfc42u_ordinal87>
+
+externdef __imp_mfc42u_ordinal880:PPROC
+mfc42u_ordinal880 equ <__imp_mfc42u_ordinal880>
+
+externdef __imp_mfc42u_ordinal881:PPROC
+mfc42u_ordinal881 equ <__imp_mfc42u_ordinal881>
+
+externdef __imp_mfc42u_ordinal882:PPROC
+mfc42u_ordinal882 equ <__imp_mfc42u_ordinal882>
+
+externdef __imp_mfc42u_ordinal883:PPROC
+mfc42u_ordinal883 equ <__imp_mfc42u_ordinal883>
+
+externdef __imp_mfc42u_ordinal884:PPROC
+mfc42u_ordinal884 equ <__imp_mfc42u_ordinal884>
+
+externdef __imp_mfc42u_ordinal885:PPROC
+mfc42u_ordinal885 equ <__imp_mfc42u_ordinal885>
+
+externdef __imp_mfc42u_ordinal886:PPROC
+mfc42u_ordinal886 equ <__imp_mfc42u_ordinal886>
+
+externdef __imp_mfc42u_ordinal887:PPROC
+mfc42u_ordinal887 equ <__imp_mfc42u_ordinal887>
+
+externdef __imp_mfc42u_ordinal888:PPROC
+mfc42u_ordinal888 equ <__imp_mfc42u_ordinal888>
+
+externdef __imp_mfc42u_ordinal889:PPROC
+mfc42u_ordinal889 equ <__imp_mfc42u_ordinal889>
+
+externdef __imp_mfc42u_ordinal88:PPROC
+mfc42u_ordinal88 equ <__imp_mfc42u_ordinal88>
+
+externdef __imp_mfc42u_ordinal890:PPROC
+mfc42u_ordinal890 equ <__imp_mfc42u_ordinal890>
+
+externdef __imp_mfc42u_ordinal891:PPROC
+mfc42u_ordinal891 equ <__imp_mfc42u_ordinal891>
+
+externdef __imp_mfc42u_ordinal892:PPROC
+mfc42u_ordinal892 equ <__imp_mfc42u_ordinal892>
+
+externdef __imp_mfc42u_ordinal893:PPROC
+mfc42u_ordinal893 equ <__imp_mfc42u_ordinal893>
+
+externdef __imp_mfc42u_ordinal894:PPROC
+mfc42u_ordinal894 equ <__imp_mfc42u_ordinal894>
+
+externdef __imp_mfc42u_ordinal895:PPROC
+mfc42u_ordinal895 equ <__imp_mfc42u_ordinal895>
+
+externdef __imp_mfc42u_ordinal896:PPROC
+mfc42u_ordinal896 equ <__imp_mfc42u_ordinal896>
+
+externdef __imp_mfc42u_ordinal897:PPROC
+mfc42u_ordinal897 equ <__imp_mfc42u_ordinal897>
+
+externdef __imp_mfc42u_ordinal898:PPROC
+mfc42u_ordinal898 equ <__imp_mfc42u_ordinal898>
+
+externdef __imp_mfc42u_ordinal899:PPROC
+mfc42u_ordinal899 equ <__imp_mfc42u_ordinal899>
+
+externdef __imp_mfc42u_ordinal89:PPROC
+mfc42u_ordinal89 equ <__imp_mfc42u_ordinal89>
+
+externdef __imp_mfc42u_ordinal8:PPROC
+mfc42u_ordinal8 equ <__imp_mfc42u_ordinal8>
+
+externdef __imp_mfc42u_ordinal900:PPROC
+mfc42u_ordinal900 equ <__imp_mfc42u_ordinal900>
+
+externdef __imp_mfc42u_ordinal901:PPROC
+mfc42u_ordinal901 equ <__imp_mfc42u_ordinal901>
+
+externdef __imp_mfc42u_ordinal902:PPROC
+mfc42u_ordinal902 equ <__imp_mfc42u_ordinal902>
+
+externdef __imp_mfc42u_ordinal903:PPROC
+mfc42u_ordinal903 equ <__imp_mfc42u_ordinal903>
+
+externdef __imp_mfc42u_ordinal904:PPROC
+mfc42u_ordinal904 equ <__imp_mfc42u_ordinal904>
+
+externdef __imp_mfc42u_ordinal905:PPROC
+mfc42u_ordinal905 equ <__imp_mfc42u_ordinal905>
+
+externdef __imp_mfc42u_ordinal906:PPROC
+mfc42u_ordinal906 equ <__imp_mfc42u_ordinal906>
+
+externdef __imp_mfc42u_ordinal907:PPROC
+mfc42u_ordinal907 equ <__imp_mfc42u_ordinal907>
+
+externdef __imp_mfc42u_ordinal908:PPROC
+mfc42u_ordinal908 equ <__imp_mfc42u_ordinal908>
+
+externdef __imp_mfc42u_ordinal909:PPROC
+mfc42u_ordinal909 equ <__imp_mfc42u_ordinal909>
+
+externdef __imp_mfc42u_ordinal90:PPROC
+mfc42u_ordinal90 equ <__imp_mfc42u_ordinal90>
+
+externdef __imp_mfc42u_ordinal910:PPROC
+mfc42u_ordinal910 equ <__imp_mfc42u_ordinal910>
+
+externdef __imp_mfc42u_ordinal911:PPROC
+mfc42u_ordinal911 equ <__imp_mfc42u_ordinal911>
+
+externdef __imp_mfc42u_ordinal912:PPROC
+mfc42u_ordinal912 equ <__imp_mfc42u_ordinal912>
+
+externdef __imp_mfc42u_ordinal913:PPROC
+mfc42u_ordinal913 equ <__imp_mfc42u_ordinal913>
+
+externdef __imp_mfc42u_ordinal914:PPROC
+mfc42u_ordinal914 equ <__imp_mfc42u_ordinal914>
+
+externdef __imp_mfc42u_ordinal915:PPROC
+mfc42u_ordinal915 equ <__imp_mfc42u_ordinal915>
+
+externdef __imp_mfc42u_ordinal916:PPROC
+mfc42u_ordinal916 equ <__imp_mfc42u_ordinal916>
+
+externdef __imp_mfc42u_ordinal917:PPROC
+mfc42u_ordinal917 equ <__imp_mfc42u_ordinal917>
+
+externdef __imp_mfc42u_ordinal918:PPROC
+mfc42u_ordinal918 equ <__imp_mfc42u_ordinal918>
+
+externdef __imp_mfc42u_ordinal919:PPROC
+mfc42u_ordinal919 equ <__imp_mfc42u_ordinal919>
+
+externdef __imp_mfc42u_ordinal91:PPROC
+mfc42u_ordinal91 equ <__imp_mfc42u_ordinal91>
+
+externdef __imp_mfc42u_ordinal920:PPROC
+mfc42u_ordinal920 equ <__imp_mfc42u_ordinal920>
+
+externdef __imp_mfc42u_ordinal921:PPROC
+mfc42u_ordinal921 equ <__imp_mfc42u_ordinal921>
+
+externdef __imp_mfc42u_ordinal922:PPROC
+mfc42u_ordinal922 equ <__imp_mfc42u_ordinal922>
+
+externdef __imp_mfc42u_ordinal923:PPROC
+mfc42u_ordinal923 equ <__imp_mfc42u_ordinal923>
+
+externdef __imp_mfc42u_ordinal924:PPROC
+mfc42u_ordinal924 equ <__imp_mfc42u_ordinal924>
+
+externdef __imp_mfc42u_ordinal925:PPROC
+mfc42u_ordinal925 equ <__imp_mfc42u_ordinal925>
+
+externdef __imp_mfc42u_ordinal926:PPROC
+mfc42u_ordinal926 equ <__imp_mfc42u_ordinal926>
+
+externdef __imp_mfc42u_ordinal927:PPROC
+mfc42u_ordinal927 equ <__imp_mfc42u_ordinal927>
+
+externdef __imp_mfc42u_ordinal928:PPROC
+mfc42u_ordinal928 equ <__imp_mfc42u_ordinal928>
+
+externdef __imp_mfc42u_ordinal929:PPROC
+mfc42u_ordinal929 equ <__imp_mfc42u_ordinal929>
+
+externdef __imp_mfc42u_ordinal92:PPROC
+mfc42u_ordinal92 equ <__imp_mfc42u_ordinal92>
+
+externdef __imp_mfc42u_ordinal930:PPROC
+mfc42u_ordinal930 equ <__imp_mfc42u_ordinal930>
+
+externdef __imp_mfc42u_ordinal931:PPROC
+mfc42u_ordinal931 equ <__imp_mfc42u_ordinal931>
+
+externdef __imp_mfc42u_ordinal932:PPROC
+mfc42u_ordinal932 equ <__imp_mfc42u_ordinal932>
+
+externdef __imp_mfc42u_ordinal933:PPROC
+mfc42u_ordinal933 equ <__imp_mfc42u_ordinal933>
+
+externdef __imp_mfc42u_ordinal934:PPROC
+mfc42u_ordinal934 equ <__imp_mfc42u_ordinal934>
+
+externdef __imp_mfc42u_ordinal935:PPROC
+mfc42u_ordinal935 equ <__imp_mfc42u_ordinal935>
+
+externdef __imp_mfc42u_ordinal936:PPROC
+mfc42u_ordinal936 equ <__imp_mfc42u_ordinal936>
+
+externdef __imp_mfc42u_ordinal937:PPROC
+mfc42u_ordinal937 equ <__imp_mfc42u_ordinal937>
+
+externdef __imp_mfc42u_ordinal938:PPROC
+mfc42u_ordinal938 equ <__imp_mfc42u_ordinal938>
+
+externdef __imp_mfc42u_ordinal939:PPROC
+mfc42u_ordinal939 equ <__imp_mfc42u_ordinal939>
+
+externdef __imp_mfc42u_ordinal93:PPROC
+mfc42u_ordinal93 equ <__imp_mfc42u_ordinal93>
+
+externdef __imp_mfc42u_ordinal940:PPROC
+mfc42u_ordinal940 equ <__imp_mfc42u_ordinal940>
+
+externdef __imp_mfc42u_ordinal941:PPROC
+mfc42u_ordinal941 equ <__imp_mfc42u_ordinal941>
+
+externdef __imp_mfc42u_ordinal942:PPROC
+mfc42u_ordinal942 equ <__imp_mfc42u_ordinal942>
+
+externdef __imp_mfc42u_ordinal943:PPROC
+mfc42u_ordinal943 equ <__imp_mfc42u_ordinal943>
+
+externdef __imp_mfc42u_ordinal944:PPROC
+mfc42u_ordinal944 equ <__imp_mfc42u_ordinal944>
+
+externdef __imp_mfc42u_ordinal945:PPROC
+mfc42u_ordinal945 equ <__imp_mfc42u_ordinal945>
+
+externdef __imp_mfc42u_ordinal946:PPROC
+mfc42u_ordinal946 equ <__imp_mfc42u_ordinal946>
+
+externdef __imp_mfc42u_ordinal947:PPROC
+mfc42u_ordinal947 equ <__imp_mfc42u_ordinal947>
+
+externdef __imp_mfc42u_ordinal948:PPROC
+mfc42u_ordinal948 equ <__imp_mfc42u_ordinal948>
+
+externdef __imp_mfc42u_ordinal949:PPROC
+mfc42u_ordinal949 equ <__imp_mfc42u_ordinal949>
+
+externdef __imp_mfc42u_ordinal94:PPROC
+mfc42u_ordinal94 equ <__imp_mfc42u_ordinal94>
+
+externdef __imp_mfc42u_ordinal950:PPROC
+mfc42u_ordinal950 equ <__imp_mfc42u_ordinal950>
+
+externdef __imp_mfc42u_ordinal951:PPROC
+mfc42u_ordinal951 equ <__imp_mfc42u_ordinal951>
+
+externdef __imp_mfc42u_ordinal952:PPROC
+mfc42u_ordinal952 equ <__imp_mfc42u_ordinal952>
+
+externdef __imp_mfc42u_ordinal953:PPROC
+mfc42u_ordinal953 equ <__imp_mfc42u_ordinal953>
+
+externdef __imp_mfc42u_ordinal954:PPROC
+mfc42u_ordinal954 equ <__imp_mfc42u_ordinal954>
+
+externdef __imp_mfc42u_ordinal955:PPROC
+mfc42u_ordinal955 equ <__imp_mfc42u_ordinal955>
+
+externdef __imp_mfc42u_ordinal956:PPROC
+mfc42u_ordinal956 equ <__imp_mfc42u_ordinal956>
+
+externdef __imp_mfc42u_ordinal957:PPROC
+mfc42u_ordinal957 equ <__imp_mfc42u_ordinal957>
+
+externdef __imp_mfc42u_ordinal958:PPROC
+mfc42u_ordinal958 equ <__imp_mfc42u_ordinal958>
+
+externdef __imp_mfc42u_ordinal959:PPROC
+mfc42u_ordinal959 equ <__imp_mfc42u_ordinal959>
+
+externdef __imp_mfc42u_ordinal95:PPROC
+mfc42u_ordinal95 equ <__imp_mfc42u_ordinal95>
+
+externdef __imp_mfc42u_ordinal960:PPROC
+mfc42u_ordinal960 equ <__imp_mfc42u_ordinal960>
+
+externdef __imp_mfc42u_ordinal961:PPROC
+mfc42u_ordinal961 equ <__imp_mfc42u_ordinal961>
+
+externdef __imp_mfc42u_ordinal962:PPROC
+mfc42u_ordinal962 equ <__imp_mfc42u_ordinal962>
+
+externdef __imp_mfc42u_ordinal963:PPROC
+mfc42u_ordinal963 equ <__imp_mfc42u_ordinal963>
+
+externdef __imp_mfc42u_ordinal964:PPROC
+mfc42u_ordinal964 equ <__imp_mfc42u_ordinal964>
+
+externdef __imp_mfc42u_ordinal965:PPROC
+mfc42u_ordinal965 equ <__imp_mfc42u_ordinal965>
+
+externdef __imp_mfc42u_ordinal966:PPROC
+mfc42u_ordinal966 equ <__imp_mfc42u_ordinal966>
+
+externdef __imp_mfc42u_ordinal967:PPROC
+mfc42u_ordinal967 equ <__imp_mfc42u_ordinal967>
+
+externdef __imp_mfc42u_ordinal968:PPROC
+mfc42u_ordinal968 equ <__imp_mfc42u_ordinal968>
+
+externdef __imp_mfc42u_ordinal969:PPROC
+mfc42u_ordinal969 equ <__imp_mfc42u_ordinal969>
+
+externdef __imp_mfc42u_ordinal96:PPROC
+mfc42u_ordinal96 equ <__imp_mfc42u_ordinal96>
+
+externdef __imp_mfc42u_ordinal970:PPROC
+mfc42u_ordinal970 equ <__imp_mfc42u_ordinal970>
+
+externdef __imp_mfc42u_ordinal971:PPROC
+mfc42u_ordinal971 equ <__imp_mfc42u_ordinal971>
+
+externdef __imp_mfc42u_ordinal972:PPROC
+mfc42u_ordinal972 equ <__imp_mfc42u_ordinal972>
+
+externdef __imp_mfc42u_ordinal973:PPROC
+mfc42u_ordinal973 equ <__imp_mfc42u_ordinal973>
+
+externdef __imp_mfc42u_ordinal974:PPROC
+mfc42u_ordinal974 equ <__imp_mfc42u_ordinal974>
+
+externdef __imp_mfc42u_ordinal975:PPROC
+mfc42u_ordinal975 equ <__imp_mfc42u_ordinal975>
+
+externdef __imp_mfc42u_ordinal976:PPROC
+mfc42u_ordinal976 equ <__imp_mfc42u_ordinal976>
+
+externdef __imp_mfc42u_ordinal977:PPROC
+mfc42u_ordinal977 equ <__imp_mfc42u_ordinal977>
+
+externdef __imp_mfc42u_ordinal978:PPROC
+mfc42u_ordinal978 equ <__imp_mfc42u_ordinal978>
+
+externdef __imp_mfc42u_ordinal979:PPROC
+mfc42u_ordinal979 equ <__imp_mfc42u_ordinal979>
+
+externdef __imp_mfc42u_ordinal97:PPROC
+mfc42u_ordinal97 equ <__imp_mfc42u_ordinal97>
+
+externdef __imp_mfc42u_ordinal980:PPROC
+mfc42u_ordinal980 equ <__imp_mfc42u_ordinal980>
+
+externdef __imp_mfc42u_ordinal981:PPROC
+mfc42u_ordinal981 equ <__imp_mfc42u_ordinal981>
+
+externdef __imp_mfc42u_ordinal982:PPROC
+mfc42u_ordinal982 equ <__imp_mfc42u_ordinal982>
+
+externdef __imp_mfc42u_ordinal983:PPROC
+mfc42u_ordinal983 equ <__imp_mfc42u_ordinal983>
+
+externdef __imp_mfc42u_ordinal984:PPROC
+mfc42u_ordinal984 equ <__imp_mfc42u_ordinal984>
+
+externdef __imp_mfc42u_ordinal985:PPROC
+mfc42u_ordinal985 equ <__imp_mfc42u_ordinal985>
+
+externdef __imp_mfc42u_ordinal986:PPROC
+mfc42u_ordinal986 equ <__imp_mfc42u_ordinal986>
+
+externdef __imp_mfc42u_ordinal987:PPROC
+mfc42u_ordinal987 equ <__imp_mfc42u_ordinal987>
+
+externdef __imp_mfc42u_ordinal988:PPROC
+mfc42u_ordinal988 equ <__imp_mfc42u_ordinal988>
+
+externdef __imp_mfc42u_ordinal989:PPROC
+mfc42u_ordinal989 equ <__imp_mfc42u_ordinal989>
+
+externdef __imp_mfc42u_ordinal98:PPROC
+mfc42u_ordinal98 equ <__imp_mfc42u_ordinal98>
+
+externdef __imp_mfc42u_ordinal990:PPROC
+mfc42u_ordinal990 equ <__imp_mfc42u_ordinal990>
+
+externdef __imp_mfc42u_ordinal991:PPROC
+mfc42u_ordinal991 equ <__imp_mfc42u_ordinal991>
+
+externdef __imp_mfc42u_ordinal992:PPROC
+mfc42u_ordinal992 equ <__imp_mfc42u_ordinal992>
+
+externdef __imp_mfc42u_ordinal993:PPROC
+mfc42u_ordinal993 equ <__imp_mfc42u_ordinal993>
+
+externdef __imp_mfc42u_ordinal994:PPROC
+mfc42u_ordinal994 equ <__imp_mfc42u_ordinal994>
+
+externdef __imp_mfc42u_ordinal995:PPROC
+mfc42u_ordinal995 equ <__imp_mfc42u_ordinal995>
+
+externdef __imp_mfc42u_ordinal996:PPROC
+mfc42u_ordinal996 equ <__imp_mfc42u_ordinal996>
+
+externdef __imp_mfc42u_ordinal997:PPROC
+mfc42u_ordinal997 equ <__imp_mfc42u_ordinal997>
+
+externdef __imp_mfc42u_ordinal998:PPROC
+mfc42u_ordinal998 equ <__imp_mfc42u_ordinal998>
+
+externdef __imp_mfc42u_ordinal999:PPROC
+mfc42u_ordinal999 equ <__imp_mfc42u_ordinal999>
+
+externdef __imp_mfc42u_ordinal99:PPROC
+mfc42u_ordinal99 equ <__imp_mfc42u_ordinal99>
+
+externdef __imp_mfc42u_ordinal9:PPROC
+mfc42u_ordinal9 equ <__imp_mfc42u_ordinal9>

@@ -4,14 +4,11 @@
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;----------[types modules constants procedure prototypes]------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-; option casemap:none
-external equ extern
+option casemap:none
+; external equ extern
 StdOutHandle equ -11
-include macros/x64calling.inc
-include macros/x64macros.inc
-include include/kernel32.inc
-include structdefs.asm
-; include include/fileextd.inc
+include win64.inc
+include kernel32.inc
 
 ;----------[types]---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 pointer typedef qword
@@ -49,7 +46,7 @@ phrase byte "This is a phrase", 0Ah, 0dh
 phraselength equ $ - phrase 
 hInstance qword ?
 nShowCmd sdword 10
-wndclass WNDCLASSEXA <>
+wndclass WNDCLASSEX <>
 style word ?
 ;----------[code section]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .code
@@ -86,13 +83,13 @@ main proc
     mov cx, CS_OWNDC
     or cx, CS_HREDRAW
     or cx, CS_VREDRAW
-    mov wndclass.WNDCLASSEXA.dwStyle, CS_OWNDC
+    mov wndclass.WNDCLASSEX.style, CS_OWNDC
     lea rcx, WindowProc
-    mov wndclass.WNDCLASSEXA.lpfnWndProc, rcx
+    mov wndclass.WNDCLASSEX.lpfnWndProc, rcx
     lea rcx, hInstance
-    mov wndclass.WNDCLASSEXA.hInst, rcx
+    mov wndclass.WNDCLASSEX.hInstance, rcx
     lea rcx, window_class_title
-    mov wndclass.WNDCLASSEXA.lpszClassName, rcx
+    mov wndclass.WNDCLASSEX.lpszClassName, rcx
 
     ;-----[terminate program]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ; these instructions show how to cleanly exit the program.                          

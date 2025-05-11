@@ -1,0 +1,404 @@
+externdef __imp_DsRolerDcAsDc:PPROC
+DsRolerDcAsDc equ <__imp_DsRolerDcAsDc>
+
+externdef __imp_DsRolerDcAsReplica:PPROC
+DsRolerDcAsReplica equ <__imp_DsRolerDcAsReplica>
+
+externdef __imp_DsRolerDemoteDc:PPROC
+DsRolerDemoteDc equ <__imp_DsRolerDemoteDc>
+
+externdef __imp_DsRolerGetDcOperationProgress:PPROC
+DsRolerGetDcOperationProgress equ <__imp_DsRolerGetDcOperationProgress>
+
+externdef __imp_DsRolerGetDcOperationResults:PPROC
+DsRolerGetDcOperationResults equ <__imp_DsRolerGetDcOperationResults>
+
+externdef __imp_LsaIAddNameToLogonSession:PPROC
+LsaIAddNameToLogonSession equ <__imp_LsaIAddNameToLogonSession>
+
+externdef __imp_LsaIAdtAuditingEnabledByCategory:PPROC
+LsaIAdtAuditingEnabledByCategory equ <__imp_LsaIAdtAuditingEnabledByCategory>
+
+externdef __imp_LsaIAllocateHeap:PPROC
+LsaIAllocateHeap equ <__imp_LsaIAllocateHeap>
+
+externdef __imp_LsaIAllocateHeapZero:PPROC
+LsaIAllocateHeapZero equ <__imp_LsaIAllocateHeapZero>
+
+externdef __imp_LsaIAuditAccountLogon:PPROC
+LsaIAuditAccountLogon equ <__imp_LsaIAuditAccountLogon>
+
+externdef __imp_LsaIAuditAccountLogonEx:PPROC
+LsaIAuditAccountLogonEx equ <__imp_LsaIAuditAccountLogonEx>
+
+externdef __imp_LsaIAuditKdcEvent:PPROC
+LsaIAuditKdcEvent equ <__imp_LsaIAuditKdcEvent>
+
+externdef __imp_LsaIAuditKerberosLogon:PPROC
+LsaIAuditKerberosLogon equ <__imp_LsaIAuditKerberosLogon>
+
+externdef __imp_LsaIAuditLogonUsingExplicitCreds:PPROC
+LsaIAuditLogonUsingExplicitCreds equ <__imp_LsaIAuditLogonUsingExplicitCreds>
+
+externdef __imp_LsaIAuditNotifyPackageLoad:PPROC
+LsaIAuditNotifyPackageLoad equ <__imp_LsaIAuditNotifyPackageLoad>
+
+externdef __imp_LsaIAuditPasswordAccessEvent:PPROC
+LsaIAuditPasswordAccessEvent equ <__imp_LsaIAuditPasswordAccessEvent>
+
+externdef __imp_LsaIAuditReplay:PPROC
+LsaIAuditReplay equ <__imp_LsaIAuditReplay>
+
+externdef __imp_LsaIAuditSamEvent:PPROC
+LsaIAuditSamEvent equ <__imp_LsaIAuditSamEvent>
+
+externdef __imp_LsaICallPackage:PPROC
+LsaICallPackage equ <__imp_LsaICallPackage>
+
+externdef __imp_LsaICallPackageEx:PPROC
+LsaICallPackageEx equ <__imp_LsaICallPackageEx>
+
+externdef __imp_LsaICallPackagePassthrough:PPROC
+LsaICallPackagePassthrough equ <__imp_LsaICallPackagePassthrough>
+
+externdef __imp_LsaICancelNotification:PPROC
+LsaICancelNotification equ <__imp_LsaICancelNotification>
+
+externdef __imp_LsaIChangeSecretCipherKey:PPROC
+LsaIChangeSecretCipherKey equ <__imp_LsaIChangeSecretCipherKey>
+
+externdef __imp_LsaICryptProtectData:PPROC
+LsaICryptProtectData equ <__imp_LsaICryptProtectData>
+
+externdef __imp_LsaICryptUnprotectData:PPROC
+LsaICryptUnprotectData equ <__imp_LsaICryptUnprotectData>
+
+externdef __imp_LsaIDereferenceCredHandle:PPROC
+LsaIDereferenceCredHandle equ <__imp_LsaIDereferenceCredHandle>
+
+externdef __imp_LsaIDsNotifiedObjectChange:PPROC
+LsaIDsNotifiedObjectChange equ <__imp_LsaIDsNotifiedObjectChange>
+
+externdef __imp_LsaIEnumerateSecrets:PPROC
+LsaIEnumerateSecrets equ <__imp_LsaIEnumerateSecrets>
+
+externdef __imp_LsaIEqualLogonProcessName:PPROC
+LsaIEqualLogonProcessName equ <__imp_LsaIEqualLogonProcessName>
+
+externdef __imp_LsaIFilterNamespace:PPROC
+LsaIFilterNamespace equ <__imp_LsaIFilterNamespace>
+
+externdef __imp_LsaIFilterSids:PPROC
+LsaIFilterSids equ <__imp_LsaIFilterSids>
+
+externdef __imp_LsaIForestTrustFindMatch:PPROC
+LsaIForestTrustFindMatch equ <__imp_LsaIForestTrustFindMatch>
+
+externdef __imp_LsaIFreeForestTrustInfo:PPROC
+LsaIFreeForestTrustInfo equ <__imp_LsaIFreeForestTrustInfo>
+
+externdef __imp_LsaIFreeHeap:PPROC
+LsaIFreeHeap equ <__imp_LsaIFreeHeap>
+
+externdef __imp_LsaIFreeReturnBuffer:PPROC
+LsaIFreeReturnBuffer equ <__imp_LsaIFreeReturnBuffer>
+
+externdef __imp_LsaIFree_LSAI_PRIVATE_DATA:PPROC
+LsaIFree_LSAI_PRIVATE_DATA equ <__imp_LsaIFree_LSAI_PRIVATE_DATA>
+  IFNDEF __UNICODE__
+    LsaIFree_LSAI_PRIVATE_DAT equ <__imp_LsaIFree_LSAI_PRIVATE_DATA>
+  ENDIF
+
+externdef __imp_LsaIFree_LSAI_SECRET_ENUM_BUFFER:PPROC
+LsaIFree_LSAI_SECRET_ENUM_BUFFER equ <__imp_LsaIFree_LSAI_SECRET_ENUM_BUFFER>
+
+externdef __imp_LsaIFree_LSAPR_ACCOUNT_ENUM_BUFFER:PPROC
+LsaIFree_LSAPR_ACCOUNT_ENUM_BUFFER equ <__imp_LsaIFree_LSAPR_ACCOUNT_ENUM_BUFFER>
+
+externdef __imp_LsaIFree_LSAPR_CR_CIPHER_VALUE:PPROC
+LsaIFree_LSAPR_CR_CIPHER_VALUE equ <__imp_LsaIFree_LSAPR_CR_CIPHER_VALUE>
+
+externdef __imp_LsaIFree_LSAPR_POLICY_DOMAIN_INFORMATION:PPROC
+LsaIFree_LSAPR_POLICY_DOMAIN_INFORMATION equ <__imp_LsaIFree_LSAPR_POLICY_DOMAIN_INFORMATION>
+
+externdef __imp_LsaIFree_LSAPR_POLICY_INFORMATION:PPROC
+LsaIFree_LSAPR_POLICY_INFORMATION equ <__imp_LsaIFree_LSAPR_POLICY_INFORMATION>
+
+externdef __imp_LsaIFree_LSAPR_PRIVILEGE_ENUM_BUFFER:PPROC
+LsaIFree_LSAPR_PRIVILEGE_ENUM_BUFFER equ <__imp_LsaIFree_LSAPR_PRIVILEGE_ENUM_BUFFER>
+
+externdef __imp_LsaIFree_LSAPR_PRIVILEGE_SET:PPROC
+LsaIFree_LSAPR_PRIVILEGE_SET equ <__imp_LsaIFree_LSAPR_PRIVILEGE_SET>
+
+externdef __imp_LsaIFree_LSAPR_REFERENCED_DOMAIN_LIST:PPROC
+LsaIFree_LSAPR_REFERENCED_DOMAIN_LIST equ <__imp_LsaIFree_LSAPR_REFERENCED_DOMAIN_LIST>
+
+externdef __imp_LsaIFree_LSAPR_SR_SECURITY_DESCRIPTOR:PPROC
+LsaIFree_LSAPR_SR_SECURITY_DESCRIPTOR equ <__imp_LsaIFree_LSAPR_SR_SECURITY_DESCRIPTOR>
+
+externdef __imp_LsaIFree_LSAPR_TRANSLATED_NAMES:PPROC
+LsaIFree_LSAPR_TRANSLATED_NAMES equ <__imp_LsaIFree_LSAPR_TRANSLATED_NAMES>
+
+externdef __imp_LsaIFree_LSAPR_TRANSLATED_SIDS:PPROC
+LsaIFree_LSAPR_TRANSLATED_SIDS equ <__imp_LsaIFree_LSAPR_TRANSLATED_SIDS>
+
+externdef __imp_LsaIFree_LSAPR_TRUSTED_DOMAIN_INFO:PPROC
+LsaIFree_LSAPR_TRUSTED_DOMAIN_INFO equ <__imp_LsaIFree_LSAPR_TRUSTED_DOMAIN_INFO>
+
+externdef __imp_LsaIFree_LSAPR_TRUSTED_ENUM_BUFFER:PPROC
+LsaIFree_LSAPR_TRUSTED_ENUM_BUFFER equ <__imp_LsaIFree_LSAPR_TRUSTED_ENUM_BUFFER>
+
+externdef __imp_LsaIFree_LSAPR_TRUSTED_ENUM_BUFFER_EX:PPROC
+LsaIFree_LSAPR_TRUSTED_ENUM_BUFFER_EX equ <__imp_LsaIFree_LSAPR_TRUSTED_ENUM_BUFFER_EX>
+
+externdef __imp_LsaIFree_LSAPR_TRUST_INFORMATION:PPROC
+LsaIFree_LSAPR_TRUST_INFORMATION equ <__imp_LsaIFree_LSAPR_TRUST_INFORMATION>
+
+externdef __imp_LsaIFree_LSAPR_UNICODE_STRING:PPROC
+LsaIFree_LSAPR_UNICODE_STRING equ <__imp_LsaIFree_LSAPR_UNICODE_STRING>
+
+externdef __imp_LsaIFree_LSAPR_UNICODE_STRING_BUFFER:PPROC
+LsaIFree_LSAPR_UNICODE_STRING_BUFFER equ <__imp_LsaIFree_LSAPR_UNICODE_STRING_BUFFER>
+
+externdef __imp_LsaIFree_LSAP_SITENAME_INFO:PPROC
+LsaIFree_LSAP_SITENAME_INFO equ <__imp_LsaIFree_LSAP_SITENAME_INFO>
+
+externdef __imp_LsaIFree_LSAP_SITE_INFO:PPROC
+LsaIFree_LSAP_SITE_INFO equ <__imp_LsaIFree_LSAP_SITE_INFO>
+
+externdef __imp_LsaIFree_LSAP_SUBNET_INFO:PPROC
+LsaIFree_LSAP_SUBNET_INFO equ <__imp_LsaIFree_LSAP_SUBNET_INFO>
+
+externdef __imp_LsaIFree_LSAP_UPN_SUFFIXES:PPROC
+LsaIFree_LSAP_UPN_SUFFIXES equ <__imp_LsaIFree_LSAP_UPN_SUFFIXES>
+
+externdef __imp_LsaIFree_LSA_FOREST_TRUST_COLLISION_INFORMATION:PPROC
+LsaIFree_LSA_FOREST_TRUST_COLLISION_INFORMATION equ <__imp_LsaIFree_LSA_FOREST_TRUST_COLLISION_INFORMATION>
+
+externdef __imp_LsaIFree_LSA_FOREST_TRUST_INFORMATION:PPROC
+LsaIFree_LSA_FOREST_TRUST_INFORMATION equ <__imp_LsaIFree_LSA_FOREST_TRUST_INFORMATION>
+
+externdef __imp_LsaIGetBootOption:PPROC
+LsaIGetBootOption equ <__imp_LsaIGetBootOption>
+
+externdef __imp_LsaIGetCallInfo:PPROC
+LsaIGetCallInfo equ <__imp_LsaIGetCallInfo>
+
+externdef __imp_LsaIGetForestTrustInformation:PPROC
+LsaIGetForestTrustInformation equ <__imp_LsaIGetForestTrustInformation>
+
+externdef __imp_LsaIGetLogonGuid:PPROC
+LsaIGetLogonGuid equ <__imp_LsaIGetLogonGuid>
+
+externdef __imp_LsaIGetNameFromLuid:PPROC
+LsaIGetNameFromLuid equ <__imp_LsaIGetNameFromLuid>
+
+externdef __imp_LsaIGetNbAndDnsDomainNames:PPROC
+LsaIGetNbAndDnsDomainNames equ <__imp_LsaIGetNbAndDnsDomainNames>
+
+externdef __imp_LsaIGetSerialNumberPolicy:PPROC
+LsaIGetSerialNumberPolicy equ <__imp_LsaIGetSerialNumberPolicy>
+
+externdef __imp_LsaIGetSiteName:PPROC
+LsaIGetSiteName equ <__imp_LsaIGetSiteName>
+
+externdef __imp_LsaIHealthCheck:PPROC
+LsaIHealthCheck equ <__imp_LsaIHealthCheck>
+
+externdef __imp_LsaIImpersonateClient:PPROC
+LsaIImpersonateClient equ <__imp_LsaIImpersonateClient>
+
+externdef __imp_LsaIIsDomainWithinForest:PPROC
+LsaIIsDomainWithinForest equ <__imp_LsaIIsDomainWithinForest>
+
+externdef __imp_LsaIIsDsPaused:PPROC
+LsaIIsDsPaused equ <__imp_LsaIIsDsPaused>
+
+externdef __imp_LsaIKerberosRegisterTrustNotification:PPROC
+LsaIKerberosRegisterTrustNotification equ <__imp_LsaIKerberosRegisterTrustNotification>
+
+externdef __imp_LsaILookupWellKnownName:PPROC
+LsaILookupWellKnownName equ <__imp_LsaILookupWellKnownName>
+
+externdef __imp_LsaINoMoreWin2KDomain:PPROC
+LsaINoMoreWin2KDomain equ <__imp_LsaINoMoreWin2KDomain>
+
+externdef __imp_LsaINotifyChangeNotification:PPROC
+LsaINotifyChangeNotification equ <__imp_LsaINotifyChangeNotification>
+
+externdef __imp_LsaINotifyGCStatusChange:PPROC
+LsaINotifyGCStatusChange equ <__imp_LsaINotifyGCStatusChange>
+
+externdef __imp_LsaINotifyNetlogonParametersChangeW:PPROC
+LsaINotifyNetlogonParametersChangeW equ <__imp_LsaINotifyNetlogonParametersChangeW>
+  IFDEF __UNICODE__
+    LsaINotifyNetlogonParametersChange equ <__imp_LsaINotifyNetlogonParametersChangeW>
+  ENDIF
+
+externdef __imp_LsaINotifyPasswordChanged:PPROC
+LsaINotifyPasswordChanged equ <__imp_LsaINotifyPasswordChanged>
+
+externdef __imp_LsaIOpenPolicyTrusted:PPROC
+LsaIOpenPolicyTrusted equ <__imp_LsaIOpenPolicyTrusted>
+
+externdef __imp_LsaIQueryForestTrustInfo:PPROC
+LsaIQueryForestTrustInfo equ <__imp_LsaIQueryForestTrustInfo>
+
+externdef __imp_LsaIQueryInformationPolicyTrusted:PPROC
+LsaIQueryInformationPolicyTrusted equ <__imp_LsaIQueryInformationPolicyTrusted>
+
+externdef __imp_LsaIQuerySiteInfo:PPROC
+LsaIQuerySiteInfo equ <__imp_LsaIQuerySiteInfo>
+
+externdef __imp_LsaIQuerySubnetInfo:PPROC
+LsaIQuerySubnetInfo equ <__imp_LsaIQuerySubnetInfo>
+
+externdef __imp_LsaIQueryUpnSuffixes:PPROC
+LsaIQueryUpnSuffixes equ <__imp_LsaIQueryUpnSuffixes>
+
+externdef __imp_LsaIReferenceCredHandle:PPROC
+LsaIReferenceCredHandle equ <__imp_LsaIReferenceCredHandle>
+
+externdef __imp_LsaIRegisterNotification:PPROC
+LsaIRegisterNotification equ <__imp_LsaIRegisterNotification>
+
+externdef __imp_LsaIRegisterPolicyChangeNotificationCallback:PPROC
+LsaIRegisterPolicyChangeNotificationCallback equ <__imp_LsaIRegisterPolicyChangeNotificationCallback>
+
+externdef __imp_LsaISafeMode:PPROC
+LsaISafeMode equ <__imp_LsaISafeMode>
+
+externdef __imp_LsaISamIndicatedDsStarted:PPROC
+LsaISamIndicatedDsStarted equ <__imp_LsaISamIndicatedDsStarted>
+
+externdef __imp_LsaISetBootOption:PPROC
+LsaISetBootOption equ <__imp_LsaISetBootOption>
+
+externdef __imp_LsaISetClientDnsHostName:PPROC
+LsaISetClientDnsHostName equ <__imp_LsaISetClientDnsHostName>
+
+externdef __imp_LsaISetLogonGuidInLogonSession:PPROC
+LsaISetLogonGuidInLogonSession equ <__imp_LsaISetLogonGuidInLogonSession>
+
+externdef __imp_LsaISetPackageAttrInLogonSession:PPROC
+LsaISetPackageAttrInLogonSession equ <__imp_LsaISetPackageAttrInLogonSession>
+
+externdef __imp_LsaISetSerialNumberPolicy:PPROC
+LsaISetSerialNumberPolicy equ <__imp_LsaISetSerialNumberPolicy>
+
+externdef __imp_LsaISetTimesSecret:PPROC
+LsaISetTimesSecret equ <__imp_LsaISetTimesSecret>
+
+externdef __imp_LsaISetTokenDacl:PPROC
+LsaISetTokenDacl equ <__imp_LsaISetTokenDacl>
+
+externdef __imp_LsaISetupWasRun:PPROC
+LsaISetupWasRun equ <__imp_LsaISetupWasRun>
+
+externdef __imp_LsaIUnregisterAllPolicyChangeNotificationCallback:PPROC
+LsaIUnregisterAllPolicyChangeNotificationCallback equ <__imp_LsaIUnregisterAllPolicyChangeNotificationCallback>
+
+externdef __imp_LsaIUnregisterPolicyChangeNotificationCallback:PPROC
+LsaIUnregisterPolicyChangeNotificationCallback equ <__imp_LsaIUnregisterPolicyChangeNotificationCallback>
+
+externdef __imp_LsaIUpdateForestTrustInformation:PPROC
+LsaIUpdateForestTrustInformation equ <__imp_LsaIUpdateForestTrustInformation>
+
+externdef __imp_LsaIWriteAuditEvent:PPROC
+LsaIWriteAuditEvent equ <__imp_LsaIWriteAuditEvent>
+
+externdef __imp_LsapAuOpenSam:PPROC
+LsapAuOpenSam equ <__imp_LsapAuOpenSam>
+
+externdef __imp_LsapCheckBootMode:PPROC
+LsapCheckBootMode equ <__imp_LsapCheckBootMode>
+
+externdef __imp_LsapDsDebugInitialize:PPROC
+LsapDsDebugInitialize equ <__imp_LsapDsDebugInitialize>
+
+externdef __imp_LsapDsInitializeDsStateInfo:PPROC
+LsapDsInitializeDsStateInfo equ <__imp_LsapDsInitializeDsStateInfo>
+
+externdef __imp_LsapDsInitializePromoteInterface:PPROC
+LsapDsInitializePromoteInterface equ <__imp_LsapDsInitializePromoteInterface>
+
+externdef __imp_LsapInitLsa:PPROC
+LsapInitLsa equ <__imp_LsapInitLsa>
+
+externdef __imp_LsarClose:PPROC
+LsarClose equ <__imp_LsarClose>
+
+externdef __imp_LsarCreateSecret:PPROC
+LsarCreateSecret equ <__imp_LsarCreateSecret>
+
+externdef __imp_LsarDelete:PPROC
+LsarDelete equ <__imp_LsarDelete>
+
+externdef __imp_LsarEnumerateAccounts:PPROC
+LsarEnumerateAccounts equ <__imp_LsarEnumerateAccounts>
+
+externdef __imp_LsarEnumeratePrivilegesAccount:PPROC
+LsarEnumeratePrivilegesAccount equ <__imp_LsarEnumeratePrivilegesAccount>
+
+externdef __imp_LsarEnumerateTrustedDomains:PPROC
+LsarEnumerateTrustedDomains equ <__imp_LsarEnumerateTrustedDomains>
+
+externdef __imp_LsarEnumerateTrustedDomainsEx:PPROC
+LsarEnumerateTrustedDomainsEx equ <__imp_LsarEnumerateTrustedDomainsEx>
+
+externdef __imp_LsarGetSystemAccessAccount:PPROC
+LsarGetSystemAccessAccount equ <__imp_LsarGetSystemAccessAccount>
+
+externdef __imp_LsarLookupPrivilegeName:PPROC
+LsarLookupPrivilegeName equ <__imp_LsarLookupPrivilegeName>
+
+externdef __imp_LsarLookupSids2:PPROC
+LsarLookupSids2 equ <__imp_LsarLookupSids2>
+
+externdef __imp_LsarLookupSids:PPROC
+LsarLookupSids equ <__imp_LsarLookupSids>
+
+externdef __imp_LsarOpenAccount:PPROC
+LsarOpenAccount equ <__imp_LsarOpenAccount>
+
+externdef __imp_LsarOpenPolicy:PPROC
+LsarOpenPolicy equ <__imp_LsarOpenPolicy>
+
+externdef __imp_LsarOpenSecret:PPROC
+LsarOpenSecret equ <__imp_LsarOpenSecret>
+
+externdef __imp_LsarOpenTrustedDomain:PPROC
+LsarOpenTrustedDomain equ <__imp_LsarOpenTrustedDomain>
+
+externdef __imp_LsarQueryDomainInformationPolicy:PPROC
+LsarQueryDomainInformationPolicy equ <__imp_LsarQueryDomainInformationPolicy>
+
+externdef __imp_LsarQueryInfoTrustedDomain:PPROC
+LsarQueryInfoTrustedDomain equ <__imp_LsarQueryInfoTrustedDomain>
+
+externdef __imp_LsarQueryInformationPolicy:PPROC
+LsarQueryInformationPolicy equ <__imp_LsarQueryInformationPolicy>
+
+externdef __imp_LsarQuerySecret:PPROC
+LsarQuerySecret equ <__imp_LsarQuerySecret>
+
+externdef __imp_LsarQuerySecurityObject:PPROC
+LsarQuerySecurityObject equ <__imp_LsarQuerySecurityObject>
+
+externdef __imp_LsarQueryTrustedDomainInfoByName:PPROC
+LsarQueryTrustedDomainInfoByName equ <__imp_LsarQueryTrustedDomainInfoByName>
+
+externdef __imp_LsarSetInformationPolicy:PPROC
+LsarSetInformationPolicy equ <__imp_LsarSetInformationPolicy>
+
+externdef __imp_LsarSetSecret:PPROC
+LsarSetSecret equ <__imp_LsarSetSecret>
+
+externdef __imp_LsarSetSecurityObject:PPROC
+LsarSetSecurityObject equ <__imp_LsarSetSecurityObject>
+
+externdef __imp_LsarSetTrustedDomainInfoByName:PPROC
+LsarSetTrustedDomainInfoByName equ <__imp_LsarSetTrustedDomainInfoByName>
+
+externdef __imp_ServiceInit:PPROC
+ServiceInit equ <__imp_ServiceInit>

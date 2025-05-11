@@ -1,0 +1,869 @@
+externdef __imp_CertAddCRLContextToStore:PPROC
+CertAddCRLContextToStore equ <__imp_CertAddCRLContextToStore>
+
+externdef __imp_CertAddCRLLinkToStore:PPROC
+CertAddCRLLinkToStore equ <__imp_CertAddCRLLinkToStore>
+
+externdef __imp_CertAddCTLContextToStore:PPROC
+CertAddCTLContextToStore equ <__imp_CertAddCTLContextToStore>
+
+externdef __imp_CertAddCTLLinkToStore:PPROC
+CertAddCTLLinkToStore equ <__imp_CertAddCTLLinkToStore>
+
+externdef __imp_CertAddCertificateContextToStore:PPROC
+CertAddCertificateContextToStore equ <__imp_CertAddCertificateContextToStore>
+
+externdef __imp_CertAddCertificateLinkToStore:PPROC
+CertAddCertificateLinkToStore equ <__imp_CertAddCertificateLinkToStore>
+
+externdef __imp_CertAddEncodedCRLToStore:PPROC
+CertAddEncodedCRLToStore equ <__imp_CertAddEncodedCRLToStore>
+
+externdef __imp_CertAddEncodedCTLToStore:PPROC
+CertAddEncodedCTLToStore equ <__imp_CertAddEncodedCTLToStore>
+
+externdef __imp_CertAddEncodedCertificateToStore:PPROC
+CertAddEncodedCertificateToStore equ <__imp_CertAddEncodedCertificateToStore>
+
+externdef __imp_CertAddEncodedCertificateToSystemStoreA:PPROC
+CertAddEncodedCertificateToSystemStoreA equ <__imp_CertAddEncodedCertificateToSystemStoreA>
+  IFNDEF __UNICODE__
+    CertAddEncodedCertificateToSystemStore equ <__imp_CertAddEncodedCertificateToSystemStoreA>
+  ENDIF
+
+externdef __imp_CertAddEncodedCertificateToSystemStoreW:PPROC
+CertAddEncodedCertificateToSystemStoreW equ <__imp_CertAddEncodedCertificateToSystemStoreW>
+  IFDEF __UNICODE__
+    CertAddEncodedCertificateToSystemStore equ <__imp_CertAddEncodedCertificateToSystemStoreW>
+  ENDIF
+
+externdef __imp_CertAddEnhancedKeyUsageIdentifier:PPROC
+CertAddEnhancedKeyUsageIdentifier equ <__imp_CertAddEnhancedKeyUsageIdentifier>
+
+externdef __imp_CertAddSerializedElementToStore:PPROC
+CertAddSerializedElementToStore equ <__imp_CertAddSerializedElementToStore>
+
+externdef __imp_CertAddStoreToCollection:PPROC
+CertAddStoreToCollection equ <__imp_CertAddStoreToCollection>
+
+externdef __imp_CertAlgIdToOID:PPROC
+CertAlgIdToOID equ <__imp_CertAlgIdToOID>
+
+externdef __imp_CertCloseStore:PPROC
+CertCloseStore equ <__imp_CertCloseStore>
+
+externdef __imp_CertCompareCertificate:PPROC
+CertCompareCertificate equ <__imp_CertCompareCertificate>
+
+externdef __imp_CertCompareCertificateName:PPROC
+CertCompareCertificateName equ <__imp_CertCompareCertificateName>
+
+externdef __imp_CertCompareIntegerBlob:PPROC
+CertCompareIntegerBlob equ <__imp_CertCompareIntegerBlob>
+
+externdef __imp_CertComparePublicKeyInfo:PPROC
+CertComparePublicKeyInfo equ <__imp_CertComparePublicKeyInfo>
+
+externdef __imp_CertControlStore:PPROC
+CertControlStore equ <__imp_CertControlStore>
+
+externdef __imp_CertCreateCRLContext:PPROC
+CertCreateCRLContext equ <__imp_CertCreateCRLContext>
+
+externdef __imp_CertCreateCTLContext:PPROC
+CertCreateCTLContext equ <__imp_CertCreateCTLContext>
+
+externdef __imp_CertCreateCTLEntryFromCertificateContextProperties:PPROC
+CertCreateCTLEntryFromCertificateContextProperties equ <__imp_CertCreateCTLEntryFromCertificateContextProperties>
+
+externdef __imp_CertCreateCertificateChainEngine:PPROC
+CertCreateCertificateChainEngine equ <__imp_CertCreateCertificateChainEngine>
+
+externdef __imp_CertCreateCertificateContext:PPROC
+CertCreateCertificateContext equ <__imp_CertCreateCertificateContext>
+
+externdef __imp_CertCreateContext:PPROC
+CertCreateContext equ <__imp_CertCreateContext>
+
+externdef __imp_CertCreateSelfSignCertificate:PPROC
+CertCreateSelfSignCertificate equ <__imp_CertCreateSelfSignCertificate>
+
+externdef __imp_CertDeleteCRLFromStore:PPROC
+CertDeleteCRLFromStore equ <__imp_CertDeleteCRLFromStore>
+
+externdef __imp_CertDeleteCTLFromStore:PPROC
+CertDeleteCTLFromStore equ <__imp_CertDeleteCTLFromStore>
+
+externdef __imp_CertDeleteCertificateFromStore:PPROC
+CertDeleteCertificateFromStore equ <__imp_CertDeleteCertificateFromStore>
+
+externdef __imp_CertDuplicateCRLContext:PPROC
+CertDuplicateCRLContext equ <__imp_CertDuplicateCRLContext>
+
+externdef __imp_CertDuplicateCTLContext:PPROC
+CertDuplicateCTLContext equ <__imp_CertDuplicateCTLContext>
+
+externdef __imp_CertDuplicateCertificateChain:PPROC
+CertDuplicateCertificateChain equ <__imp_CertDuplicateCertificateChain>
+
+externdef __imp_CertDuplicateCertificateContext:PPROC
+CertDuplicateCertificateContext equ <__imp_CertDuplicateCertificateContext>
+
+externdef __imp_CertDuplicateStore:PPROC
+CertDuplicateStore equ <__imp_CertDuplicateStore>
+
+externdef __imp_CertEnumCRLContextProperties:PPROC
+CertEnumCRLContextProperties equ <__imp_CertEnumCRLContextProperties>
+
+externdef __imp_CertEnumCRLsInStore:PPROC
+CertEnumCRLsInStore equ <__imp_CertEnumCRLsInStore>
+
+externdef __imp_CertEnumCTLContextProperties:PPROC
+CertEnumCTLContextProperties equ <__imp_CertEnumCTLContextProperties>
+
+externdef __imp_CertEnumCTLsInStore:PPROC
+CertEnumCTLsInStore equ <__imp_CertEnumCTLsInStore>
+
+externdef __imp_CertEnumCertificateContextProperties:PPROC
+CertEnumCertificateContextProperties equ <__imp_CertEnumCertificateContextProperties>
+
+externdef __imp_CertEnumCertificatesInStore:PPROC
+CertEnumCertificatesInStore equ <__imp_CertEnumCertificatesInStore>
+
+externdef __imp_CertEnumPhysicalStore:PPROC
+CertEnumPhysicalStore equ <__imp_CertEnumPhysicalStore>
+
+externdef __imp_CertEnumSubjectInSortedCTL:PPROC
+CertEnumSubjectInSortedCTL equ <__imp_CertEnumSubjectInSortedCTL>
+
+externdef __imp_CertEnumSystemStore:PPROC
+CertEnumSystemStore equ <__imp_CertEnumSystemStore>
+
+externdef __imp_CertEnumSystemStoreLocation:PPROC
+CertEnumSystemStoreLocation equ <__imp_CertEnumSystemStoreLocation>
+
+externdef __imp_CertFindAttribute:PPROC
+CertFindAttribute equ <__imp_CertFindAttribute>
+
+externdef __imp_CertFindCRLInStore:PPROC
+CertFindCRLInStore equ <__imp_CertFindCRLInStore>
+
+externdef __imp_CertFindCTLInStore:PPROC
+CertFindCTLInStore equ <__imp_CertFindCTLInStore>
+
+externdef __imp_CertFindCertificateInCRL:PPROC
+CertFindCertificateInCRL equ <__imp_CertFindCertificateInCRL>
+
+externdef __imp_CertFindCertificateInStore:PPROC
+CertFindCertificateInStore equ <__imp_CertFindCertificateInStore>
+
+externdef __imp_CertFindChainInStore:PPROC
+CertFindChainInStore equ <__imp_CertFindChainInStore>
+
+externdef __imp_CertFindExtension:PPROC
+CertFindExtension equ <__imp_CertFindExtension>
+
+externdef __imp_CertFindRDNAttr:PPROC
+CertFindRDNAttr equ <__imp_CertFindRDNAttr>
+
+externdef __imp_CertFindSubjectInCTL:PPROC
+CertFindSubjectInCTL equ <__imp_CertFindSubjectInCTL>
+
+externdef __imp_CertFindSubjectInSortedCTL:PPROC
+CertFindSubjectInSortedCTL equ <__imp_CertFindSubjectInSortedCTL>
+
+externdef __imp_CertFreeCRLContext:PPROC
+CertFreeCRLContext equ <__imp_CertFreeCRLContext>
+
+externdef __imp_CertFreeCTLContext:PPROC
+CertFreeCTLContext equ <__imp_CertFreeCTLContext>
+
+externdef __imp_CertFreeCertificateChain:PPROC
+CertFreeCertificateChain equ <__imp_CertFreeCertificateChain>
+
+externdef __imp_CertFreeCertificateChainEngine:PPROC
+CertFreeCertificateChainEngine equ <__imp_CertFreeCertificateChainEngine>
+
+externdef __imp_CertFreeCertificateContext:PPROC
+CertFreeCertificateContext equ <__imp_CertFreeCertificateContext>
+
+externdef __imp_CertGetCRLContextProperty:PPROC
+CertGetCRLContextProperty equ <__imp_CertGetCRLContextProperty>
+
+externdef __imp_CertGetCRLFromStore:PPROC
+CertGetCRLFromStore equ <__imp_CertGetCRLFromStore>
+
+externdef __imp_CertGetCTLContextProperty:PPROC
+CertGetCTLContextProperty equ <__imp_CertGetCTLContextProperty>
+
+externdef __imp_CertGetCertificateChain:PPROC
+CertGetCertificateChain equ <__imp_CertGetCertificateChain>
+
+externdef __imp_CertGetCertificateContextProperty:PPROC
+CertGetCertificateContextProperty equ <__imp_CertGetCertificateContextProperty>
+
+externdef __imp_CertGetEnhancedKeyUsage:PPROC
+CertGetEnhancedKeyUsage equ <__imp_CertGetEnhancedKeyUsage>
+
+externdef __imp_CertGetIntendedKeyUsage:PPROC
+CertGetIntendedKeyUsage equ <__imp_CertGetIntendedKeyUsage>
+
+externdef __imp_CertGetIssuerCertificateFromStore:PPROC
+CertGetIssuerCertificateFromStore equ <__imp_CertGetIssuerCertificateFromStore>
+
+externdef __imp_CertGetNameStringA:PPROC
+CertGetNameStringA equ <__imp_CertGetNameStringA>
+  IFNDEF __UNICODE__
+    CertGetNameString equ <__imp_CertGetNameStringA>
+  ENDIF
+
+externdef __imp_CertGetNameStringW:PPROC
+CertGetNameStringW equ <__imp_CertGetNameStringW>
+  IFDEF __UNICODE__
+    CertGetNameString equ <__imp_CertGetNameStringW>
+  ENDIF
+
+externdef __imp_CertGetPublicKeyLength:PPROC
+CertGetPublicKeyLength equ <__imp_CertGetPublicKeyLength>
+
+externdef __imp_CertGetStoreProperty:PPROC
+CertGetStoreProperty equ <__imp_CertGetStoreProperty>
+
+externdef __imp_CertGetSubjectCertificateFromStore:PPROC
+CertGetSubjectCertificateFromStore equ <__imp_CertGetSubjectCertificateFromStore>
+
+externdef __imp_CertGetValidUsages:PPROC
+CertGetValidUsages equ <__imp_CertGetValidUsages>
+
+externdef __imp_CertIsRDNAttrsInCertificateName:PPROC
+CertIsRDNAttrsInCertificateName equ <__imp_CertIsRDNAttrsInCertificateName>
+
+externdef __imp_CertIsValidCRLForCertificate:PPROC
+CertIsValidCRLForCertificate equ <__imp_CertIsValidCRLForCertificate>
+
+externdef __imp_CertNameToStrA:PPROC
+CertNameToStrA equ <__imp_CertNameToStrA>
+  IFNDEF __UNICODE__
+    CertNameToStr equ <__imp_CertNameToStrA>
+  ENDIF
+
+externdef __imp_CertNameToStrW:PPROC
+CertNameToStrW equ <__imp_CertNameToStrW>
+  IFDEF __UNICODE__
+    CertNameToStr equ <__imp_CertNameToStrW>
+  ENDIF
+
+externdef __imp_CertOIDToAlgId:PPROC
+CertOIDToAlgId equ <__imp_CertOIDToAlgId>
+
+externdef __imp_CertOpenStore:PPROC
+CertOpenStore equ <__imp_CertOpenStore>
+
+externdef __imp_CertOpenSystemStoreA:PPROC
+CertOpenSystemStoreA equ <__imp_CertOpenSystemStoreA>
+  IFNDEF __UNICODE__
+    CertOpenSystemStore equ <__imp_CertOpenSystemStoreA>
+  ENDIF
+
+externdef __imp_CertOpenSystemStoreW:PPROC
+CertOpenSystemStoreW equ <__imp_CertOpenSystemStoreW>
+  IFDEF __UNICODE__
+    CertOpenSystemStore equ <__imp_CertOpenSystemStoreW>
+  ENDIF
+
+externdef __imp_CertRDNValueToStrA:PPROC
+CertRDNValueToStrA equ <__imp_CertRDNValueToStrA>
+  IFNDEF __UNICODE__
+    CertRDNValueToStr equ <__imp_CertRDNValueToStrA>
+  ENDIF
+
+externdef __imp_CertRDNValueToStrW:PPROC
+CertRDNValueToStrW equ <__imp_CertRDNValueToStrW>
+  IFDEF __UNICODE__
+    CertRDNValueToStr equ <__imp_CertRDNValueToStrW>
+  ENDIF
+
+externdef __imp_CertRegisterPhysicalStore:PPROC
+CertRegisterPhysicalStore equ <__imp_CertRegisterPhysicalStore>
+
+externdef __imp_CertRegisterSystemStore:PPROC
+CertRegisterSystemStore equ <__imp_CertRegisterSystemStore>
+
+externdef __imp_CertRemoveEnhancedKeyUsageIdentifier:PPROC
+CertRemoveEnhancedKeyUsageIdentifier equ <__imp_CertRemoveEnhancedKeyUsageIdentifier>
+
+externdef __imp_CertRemoveStoreFromCollection:PPROC
+CertRemoveStoreFromCollection equ <__imp_CertRemoveStoreFromCollection>
+
+externdef __imp_CertResyncCertificateChainEngine:PPROC
+CertResyncCertificateChainEngine equ <__imp_CertResyncCertificateChainEngine>
+
+externdef __imp_CertSaveStore:PPROC
+CertSaveStore equ <__imp_CertSaveStore>
+
+externdef __imp_CertSerializeCRLStoreElement:PPROC
+CertSerializeCRLStoreElement equ <__imp_CertSerializeCRLStoreElement>
+
+externdef __imp_CertSerializeCTLStoreElement:PPROC
+CertSerializeCTLStoreElement equ <__imp_CertSerializeCTLStoreElement>
+
+externdef __imp_CertSerializeCertificateStoreElement:PPROC
+CertSerializeCertificateStoreElement equ <__imp_CertSerializeCertificateStoreElement>
+
+externdef __imp_CertSetCRLContextProperty:PPROC
+CertSetCRLContextProperty equ <__imp_CertSetCRLContextProperty>
+
+externdef __imp_CertSetCTLContextProperty:PPROC
+CertSetCTLContextProperty equ <__imp_CertSetCTLContextProperty>
+
+externdef __imp_CertSetCertificateContextPropertiesFromCTLEntry:PPROC
+CertSetCertificateContextPropertiesFromCTLEntry equ <__imp_CertSetCertificateContextPropertiesFromCTLEntry>
+
+externdef __imp_CertSetCertificateContextProperty:PPROC
+CertSetCertificateContextProperty equ <__imp_CertSetCertificateContextProperty>
+
+externdef __imp_CertSetEnhancedKeyUsage:PPROC
+CertSetEnhancedKeyUsage equ <__imp_CertSetEnhancedKeyUsage>
+
+externdef __imp_CertSetStoreProperty:PPROC
+CertSetStoreProperty equ <__imp_CertSetStoreProperty>
+
+externdef __imp_CertStrToNameA:PPROC
+CertStrToNameA equ <__imp_CertStrToNameA>
+  IFNDEF __UNICODE__
+    CertStrToName equ <__imp_CertStrToNameA>
+  ENDIF
+
+externdef __imp_CertStrToNameW:PPROC
+CertStrToNameW equ <__imp_CertStrToNameW>
+  IFDEF __UNICODE__
+    CertStrToName equ <__imp_CertStrToNameW>
+  ENDIF
+
+externdef __imp_CertUnregisterPhysicalStore:PPROC
+CertUnregisterPhysicalStore equ <__imp_CertUnregisterPhysicalStore>
+
+externdef __imp_CertUnregisterSystemStore:PPROC
+CertUnregisterSystemStore equ <__imp_CertUnregisterSystemStore>
+
+externdef __imp_CertVerifyCRLRevocation:PPROC
+CertVerifyCRLRevocation equ <__imp_CertVerifyCRLRevocation>
+
+externdef __imp_CertVerifyCRLTimeValidity:PPROC
+CertVerifyCRLTimeValidity equ <__imp_CertVerifyCRLTimeValidity>
+
+externdef __imp_CertVerifyCTLUsage:PPROC
+CertVerifyCTLUsage equ <__imp_CertVerifyCTLUsage>
+
+externdef __imp_CertVerifyCertificateChainPolicy:PPROC
+CertVerifyCertificateChainPolicy equ <__imp_CertVerifyCertificateChainPolicy>
+
+externdef __imp_CertVerifyRevocation:PPROC
+CertVerifyRevocation equ <__imp_CertVerifyRevocation>
+
+externdef __imp_CertVerifySubjectCertificateContext:PPROC
+CertVerifySubjectCertificateContext equ <__imp_CertVerifySubjectCertificateContext>
+
+externdef __imp_CertVerifyTimeValidity:PPROC
+CertVerifyTimeValidity equ <__imp_CertVerifyTimeValidity>
+
+externdef __imp_CertVerifyValidityNesting:PPROC
+CertVerifyValidityNesting equ <__imp_CertVerifyValidityNesting>
+
+externdef __imp_ChainWlxLogoffEvent:PPROC
+ChainWlxLogoffEvent equ <__imp_ChainWlxLogoffEvent>
+
+externdef __imp_CloseCertPerformanceData:PPROC
+CloseCertPerformanceData equ <__imp_CloseCertPerformanceData>
+
+externdef __imp_CollectCertPerformanceData:PPROC
+CollectCertPerformanceData equ <__imp_CollectCertPerformanceData>
+
+externdef __imp_CryptAcquireCertificatePrivateKey:PPROC
+CryptAcquireCertificatePrivateKey equ <__imp_CryptAcquireCertificatePrivateKey>
+
+externdef __imp_CryptBinaryToStringA:PPROC
+CryptBinaryToStringA equ <__imp_CryptBinaryToStringA>
+  IFNDEF __UNICODE__
+    CryptBinaryToString equ <__imp_CryptBinaryToStringA>
+  ENDIF
+
+externdef __imp_CryptBinaryToStringW:PPROC
+CryptBinaryToStringW equ <__imp_CryptBinaryToStringW>
+  IFDEF __UNICODE__
+    CryptBinaryToString equ <__imp_CryptBinaryToStringW>
+  ENDIF
+
+externdef __imp_CryptCloseAsyncHandle:PPROC
+CryptCloseAsyncHandle equ <__imp_CryptCloseAsyncHandle>
+
+externdef __imp_CryptCreateAsyncHandle:PPROC
+CryptCreateAsyncHandle equ <__imp_CryptCreateAsyncHandle>
+
+externdef __imp_CryptCreateKeyIdentifierFromCSP:PPROC
+CryptCreateKeyIdentifierFromCSP equ <__imp_CryptCreateKeyIdentifierFromCSP>
+
+externdef __imp_CryptDecodeMessage:PPROC
+CryptDecodeMessage equ <__imp_CryptDecodeMessage>
+
+externdef __imp_CryptDecodeObject:PPROC
+CryptDecodeObject equ <__imp_CryptDecodeObject>
+
+externdef __imp_CryptDecodeObjectEx:PPROC
+CryptDecodeObjectEx equ <__imp_CryptDecodeObjectEx>
+
+externdef __imp_CryptDecryptAndVerifyMessageSignature:PPROC
+CryptDecryptAndVerifyMessageSignature equ <__imp_CryptDecryptAndVerifyMessageSignature>
+
+externdef __imp_CryptDecryptMessage:PPROC
+CryptDecryptMessage equ <__imp_CryptDecryptMessage>
+
+externdef __imp_CryptEncodeObject:PPROC
+CryptEncodeObject equ <__imp_CryptEncodeObject>
+
+externdef __imp_CryptEncodeObjectEx:PPROC
+CryptEncodeObjectEx equ <__imp_CryptEncodeObjectEx>
+
+externdef __imp_CryptEncryptMessage:PPROC
+CryptEncryptMessage equ <__imp_CryptEncryptMessage>
+
+externdef __imp_CryptEnumKeyIdentifierProperties:PPROC
+CryptEnumKeyIdentifierProperties equ <__imp_CryptEnumKeyIdentifierProperties>
+
+externdef __imp_CryptEnumOIDFunction:PPROC
+CryptEnumOIDFunction equ <__imp_CryptEnumOIDFunction>
+
+externdef __imp_CryptEnumOIDInfo:PPROC
+CryptEnumOIDInfo equ <__imp_CryptEnumOIDInfo>
+
+externdef __imp_CryptExportPKCS8:PPROC
+CryptExportPKCS8 equ <__imp_CryptExportPKCS8>
+
+externdef __imp_CryptExportPublicKeyInfo:PPROC
+CryptExportPublicKeyInfo equ <__imp_CryptExportPublicKeyInfo>
+
+externdef __imp_CryptExportPublicKeyInfoEx:PPROC
+CryptExportPublicKeyInfoEx equ <__imp_CryptExportPublicKeyInfoEx>
+
+externdef __imp_CryptFindCertificateKeyProvInfo:PPROC
+CryptFindCertificateKeyProvInfo equ <__imp_CryptFindCertificateKeyProvInfo>
+
+externdef __imp_CryptFindLocalizedName:PPROC
+CryptFindLocalizedName equ <__imp_CryptFindLocalizedName>
+
+externdef __imp_CryptFindOIDInfo:PPROC
+CryptFindOIDInfo equ <__imp_CryptFindOIDInfo>
+
+externdef __imp_CryptFormatObject:PPROC
+CryptFormatObject equ <__imp_CryptFormatObject>
+
+externdef __imp_CryptFreeOIDFunctionAddress:PPROC
+CryptFreeOIDFunctionAddress equ <__imp_CryptFreeOIDFunctionAddress>
+
+externdef __imp_CryptGetAsyncParam:PPROC
+CryptGetAsyncParam equ <__imp_CryptGetAsyncParam>
+
+externdef __imp_CryptGetDefaultOIDDllList:PPROC
+CryptGetDefaultOIDDllList equ <__imp_CryptGetDefaultOIDDllList>
+
+externdef __imp_CryptGetDefaultOIDFunctionAddress:PPROC
+CryptGetDefaultOIDFunctionAddress equ <__imp_CryptGetDefaultOIDFunctionAddress>
+
+externdef __imp_CryptGetKeyIdentifierProperty:PPROC
+CryptGetKeyIdentifierProperty equ <__imp_CryptGetKeyIdentifierProperty>
+
+externdef __imp_CryptGetMessageCertificates:PPROC
+CryptGetMessageCertificates equ <__imp_CryptGetMessageCertificates>
+
+externdef __imp_CryptGetMessageSignerCount:PPROC
+CryptGetMessageSignerCount equ <__imp_CryptGetMessageSignerCount>
+
+externdef __imp_CryptGetOIDFunctionAddress:PPROC
+CryptGetOIDFunctionAddress equ <__imp_CryptGetOIDFunctionAddress>
+
+externdef __imp_CryptGetOIDFunctionValue:PPROC
+CryptGetOIDFunctionValue equ <__imp_CryptGetOIDFunctionValue>
+
+externdef __imp_CryptHashCertificate:PPROC
+CryptHashCertificate equ <__imp_CryptHashCertificate>
+
+externdef __imp_CryptHashMessage:PPROC
+CryptHashMessage equ <__imp_CryptHashMessage>
+
+externdef __imp_CryptHashPublicKeyInfo:PPROC
+CryptHashPublicKeyInfo equ <__imp_CryptHashPublicKeyInfo>
+
+externdef __imp_CryptHashToBeSigned:PPROC
+CryptHashToBeSigned equ <__imp_CryptHashToBeSigned>
+
+externdef __imp_CryptImportPKCS8:PPROC
+CryptImportPKCS8 equ <__imp_CryptImportPKCS8>
+
+externdef __imp_CryptImportPublicKeyInfo:PPROC
+CryptImportPublicKeyInfo equ <__imp_CryptImportPublicKeyInfo>
+
+externdef __imp_CryptImportPublicKeyInfoEx:PPROC
+CryptImportPublicKeyInfoEx equ <__imp_CryptImportPublicKeyInfoEx>
+
+externdef __imp_CryptInitOIDFunctionSet:PPROC
+CryptInitOIDFunctionSet equ <__imp_CryptInitOIDFunctionSet>
+
+externdef __imp_CryptInstallDefaultContext:PPROC
+CryptInstallDefaultContext equ <__imp_CryptInstallDefaultContext>
+
+externdef __imp_CryptInstallOIDFunctionAddress:PPROC
+CryptInstallOIDFunctionAddress equ <__imp_CryptInstallOIDFunctionAddress>
+
+externdef __imp_CryptLoadSip:PPROC
+CryptLoadSip equ <__imp_CryptLoadSip>
+
+externdef __imp_CryptMemAlloc:PPROC
+CryptMemAlloc equ <__imp_CryptMemAlloc>
+
+externdef __imp_CryptMemFree:PPROC
+CryptMemFree equ <__imp_CryptMemFree>
+
+externdef __imp_CryptMemRealloc:PPROC
+CryptMemRealloc equ <__imp_CryptMemRealloc>
+
+externdef __imp_CryptMsgCalculateEncodedLength:PPROC
+CryptMsgCalculateEncodedLength equ <__imp_CryptMsgCalculateEncodedLength>
+
+externdef __imp_CryptMsgClose:PPROC
+CryptMsgClose equ <__imp_CryptMsgClose>
+
+externdef __imp_CryptMsgControl:PPROC
+CryptMsgControl equ <__imp_CryptMsgControl>
+
+externdef __imp_CryptMsgCountersign:PPROC
+CryptMsgCountersign equ <__imp_CryptMsgCountersign>
+
+externdef __imp_CryptMsgCountersignEncoded:PPROC
+CryptMsgCountersignEncoded equ <__imp_CryptMsgCountersignEncoded>
+
+externdef __imp_CryptMsgDuplicate:PPROC
+CryptMsgDuplicate equ <__imp_CryptMsgDuplicate>
+
+externdef __imp_CryptMsgEncodeAndSignCTL:PPROC
+CryptMsgEncodeAndSignCTL equ <__imp_CryptMsgEncodeAndSignCTL>
+
+externdef __imp_CryptMsgGetAndVerifySigner:PPROC
+CryptMsgGetAndVerifySigner equ <__imp_CryptMsgGetAndVerifySigner>
+
+externdef __imp_CryptMsgGetParam:PPROC
+CryptMsgGetParam equ <__imp_CryptMsgGetParam>
+
+externdef __imp_CryptMsgOpenToDecode:PPROC
+CryptMsgOpenToDecode equ <__imp_CryptMsgOpenToDecode>
+
+externdef __imp_CryptMsgOpenToEncode:PPROC
+CryptMsgOpenToEncode equ <__imp_CryptMsgOpenToEncode>
+
+externdef __imp_CryptMsgSignCTL:PPROC
+CryptMsgSignCTL equ <__imp_CryptMsgSignCTL>
+
+externdef __imp_CryptMsgUpdate:PPROC
+CryptMsgUpdate equ <__imp_CryptMsgUpdate>
+
+externdef __imp_CryptMsgVerifyCountersignatureEncoded:PPROC
+CryptMsgVerifyCountersignatureEncoded equ <__imp_CryptMsgVerifyCountersignatureEncoded>
+
+externdef __imp_CryptMsgVerifyCountersignatureEncodedEx:PPROC
+CryptMsgVerifyCountersignatureEncodedEx equ <__imp_CryptMsgVerifyCountersignatureEncodedEx>
+
+externdef __imp_CryptProtectData:PPROC
+CryptProtectData equ <__imp_CryptProtectData>
+
+externdef __imp_CryptProtectMemory:PPROC
+CryptProtectMemory equ <__imp_CryptProtectMemory>
+
+externdef __imp_CryptQueryObject:PPROC
+CryptQueryObject equ <__imp_CryptQueryObject>
+
+externdef __imp_CryptRegisterDefaultOIDFunction:PPROC
+CryptRegisterDefaultOIDFunction equ <__imp_CryptRegisterDefaultOIDFunction>
+
+externdef __imp_CryptRegisterOIDFunction:PPROC
+CryptRegisterOIDFunction equ <__imp_CryptRegisterOIDFunction>
+
+externdef __imp_CryptRegisterOIDInfo:PPROC
+CryptRegisterOIDInfo equ <__imp_CryptRegisterOIDInfo>
+
+externdef __imp_CryptSIPAddProvider:PPROC
+CryptSIPAddProvider equ <__imp_CryptSIPAddProvider>
+
+externdef __imp_CryptSIPCreateIndirectData:PPROC
+CryptSIPCreateIndirectData equ <__imp_CryptSIPCreateIndirectData>
+
+externdef __imp_CryptSIPGetSignedDataMsg:PPROC
+CryptSIPGetSignedDataMsg equ <__imp_CryptSIPGetSignedDataMsg>
+
+externdef __imp_CryptSIPLoad:PPROC
+CryptSIPLoad equ <__imp_CryptSIPLoad>
+
+externdef __imp_CryptSIPPutSignedDataMsg:PPROC
+CryptSIPPutSignedDataMsg equ <__imp_CryptSIPPutSignedDataMsg>
+
+externdef __imp_CryptSIPRemoveProvider:PPROC
+CryptSIPRemoveProvider equ <__imp_CryptSIPRemoveProvider>
+
+externdef __imp_CryptSIPRemoveSignedDataMsg:PPROC
+CryptSIPRemoveSignedDataMsg equ <__imp_CryptSIPRemoveSignedDataMsg>
+
+externdef __imp_CryptSIPRetrieveSubjectGuid:PPROC
+CryptSIPRetrieveSubjectGuid equ <__imp_CryptSIPRetrieveSubjectGuid>
+
+externdef __imp_CryptSIPRetrieveSubjectGuidForCatalogFile:PPROC
+CryptSIPRetrieveSubjectGuidForCatalogFile equ <__imp_CryptSIPRetrieveSubjectGuidForCatalogFile>
+
+externdef __imp_CryptSIPVerifyIndirectData:PPROC
+CryptSIPVerifyIndirectData equ <__imp_CryptSIPVerifyIndirectData>
+
+externdef __imp_CryptSetAsyncParam:PPROC
+CryptSetAsyncParam equ <__imp_CryptSetAsyncParam>
+
+externdef __imp_CryptSetKeyIdentifierProperty:PPROC
+CryptSetKeyIdentifierProperty equ <__imp_CryptSetKeyIdentifierProperty>
+
+externdef __imp_CryptSetOIDFunctionValue:PPROC
+CryptSetOIDFunctionValue equ <__imp_CryptSetOIDFunctionValue>
+
+externdef __imp_CryptSignAndEncodeCertificate:PPROC
+CryptSignAndEncodeCertificate equ <__imp_CryptSignAndEncodeCertificate>
+
+externdef __imp_CryptSignAndEncryptMessage:PPROC
+CryptSignAndEncryptMessage equ <__imp_CryptSignAndEncryptMessage>
+
+externdef __imp_CryptSignCertificate:PPROC
+CryptSignCertificate equ <__imp_CryptSignCertificate>
+
+externdef __imp_CryptSignMessage:PPROC
+CryptSignMessage equ <__imp_CryptSignMessage>
+
+externdef __imp_CryptSignMessageWithKey:PPROC
+CryptSignMessageWithKey equ <__imp_CryptSignMessageWithKey>
+
+externdef __imp_CryptStringToBinaryA:PPROC
+CryptStringToBinaryA equ <__imp_CryptStringToBinaryA>
+  IFNDEF __UNICODE__
+    CryptStringToBinary equ <__imp_CryptStringToBinaryA>
+  ENDIF
+
+externdef __imp_CryptStringToBinaryW:PPROC
+CryptStringToBinaryW equ <__imp_CryptStringToBinaryW>
+  IFDEF __UNICODE__
+    CryptStringToBinary equ <__imp_CryptStringToBinaryW>
+  ENDIF
+
+externdef __imp_CryptUninstallDefaultContext:PPROC
+CryptUninstallDefaultContext equ <__imp_CryptUninstallDefaultContext>
+
+externdef __imp_CryptUnprotectData:PPROC
+CryptUnprotectData equ <__imp_CryptUnprotectData>
+
+externdef __imp_CryptUnprotectMemory:PPROC
+CryptUnprotectMemory equ <__imp_CryptUnprotectMemory>
+
+externdef __imp_CryptUnregisterDefaultOIDFunction:PPROC
+CryptUnregisterDefaultOIDFunction equ <__imp_CryptUnregisterDefaultOIDFunction>
+
+externdef __imp_CryptUnregisterOIDFunction:PPROC
+CryptUnregisterOIDFunction equ <__imp_CryptUnregisterOIDFunction>
+
+externdef __imp_CryptUnregisterOIDInfo:PPROC
+CryptUnregisterOIDInfo equ <__imp_CryptUnregisterOIDInfo>
+
+externdef __imp_CryptVerifyCertificateSignature:PPROC
+CryptVerifyCertificateSignature equ <__imp_CryptVerifyCertificateSignature>
+
+externdef __imp_CryptVerifyCertificateSignatureEx:PPROC
+CryptVerifyCertificateSignatureEx equ <__imp_CryptVerifyCertificateSignatureEx>
+
+externdef __imp_CryptVerifyDetachedMessageHash:PPROC
+CryptVerifyDetachedMessageHash equ <__imp_CryptVerifyDetachedMessageHash>
+
+externdef __imp_CryptVerifyDetachedMessageSignature:PPROC
+CryptVerifyDetachedMessageSignature equ <__imp_CryptVerifyDetachedMessageSignature>
+
+externdef __imp_CryptVerifyMessageHash:PPROC
+CryptVerifyMessageHash equ <__imp_CryptVerifyMessageHash>
+
+externdef __imp_CryptVerifyMessageSignature:PPROC
+CryptVerifyMessageSignature equ <__imp_CryptVerifyMessageSignature>
+
+externdef __imp_CryptVerifyMessageSignatureWithKey:PPROC
+CryptVerifyMessageSignatureWithKey equ <__imp_CryptVerifyMessageSignatureWithKey>
+
+externdef __imp_I_CertProtectFunction:PPROC
+I_CertProtectFunction equ <__imp_I_CertProtectFunction>
+
+externdef __imp_I_CertSrvProtectFunction:PPROC
+I_CertSrvProtectFunction equ <__imp_I_CertSrvProtectFunction>
+
+externdef __imp_I_CertSyncStore:PPROC
+I_CertSyncStore equ <__imp_I_CertSyncStore>
+
+externdef __imp_I_CertUpdateStore:PPROC
+I_CertUpdateStore equ <__imp_I_CertUpdateStore>
+
+externdef __imp_I_CryptAddRefLruEntry:PPROC
+I_CryptAddRefLruEntry equ <__imp_I_CryptAddRefLruEntry>
+
+externdef __imp_I_CryptAddSmartCardCertToStore:PPROC
+I_CryptAddSmartCardCertToStore equ <__imp_I_CryptAddSmartCardCertToStore>
+
+externdef __imp_I_CryptAllocTls:PPROC
+I_CryptAllocTls equ <__imp_I_CryptAllocTls>
+
+externdef __imp_I_CryptCreateLruCache:PPROC
+I_CryptCreateLruCache equ <__imp_I_CryptCreateLruCache>
+
+externdef __imp_I_CryptCreateLruEntry:PPROC
+I_CryptCreateLruEntry equ <__imp_I_CryptCreateLruEntry>
+
+externdef __imp_I_CryptDetachTls:PPROC
+I_CryptDetachTls equ <__imp_I_CryptDetachTls>
+
+externdef __imp_I_CryptDisableLruOfEntries:PPROC
+I_CryptDisableLruOfEntries equ <__imp_I_CryptDisableLruOfEntries>
+
+externdef __imp_I_CryptEnableLruOfEntries:PPROC
+I_CryptEnableLruOfEntries equ <__imp_I_CryptEnableLruOfEntries>
+
+externdef __imp_I_CryptEnumMatchingLruEntries:PPROC
+I_CryptEnumMatchingLruEntries equ <__imp_I_CryptEnumMatchingLruEntries>
+
+externdef __imp_I_CryptFindLruEntry:PPROC
+I_CryptFindLruEntry equ <__imp_I_CryptFindLruEntry>
+
+externdef __imp_I_CryptFindLruEntryData:PPROC
+I_CryptFindLruEntryData equ <__imp_I_CryptFindLruEntryData>
+
+externdef __imp_I_CryptFindSmartCardCertInStore:PPROC
+I_CryptFindSmartCardCertInStore equ <__imp_I_CryptFindSmartCardCertInStore>
+
+externdef __imp_I_CryptFlushLruCache:PPROC
+I_CryptFlushLruCache equ <__imp_I_CryptFlushLruCache>
+
+externdef __imp_I_CryptFreeLruCache:PPROC
+I_CryptFreeLruCache equ <__imp_I_CryptFreeLruCache>
+
+externdef __imp_I_CryptFreeTls:PPROC
+I_CryptFreeTls equ <__imp_I_CryptFreeTls>
+
+externdef __imp_I_CryptGetAsn1Decoder:PPROC
+I_CryptGetAsn1Decoder equ <__imp_I_CryptGetAsn1Decoder>
+
+externdef __imp_I_CryptGetAsn1Encoder:PPROC
+I_CryptGetAsn1Encoder equ <__imp_I_CryptGetAsn1Encoder>
+
+externdef __imp_I_CryptGetDefaultCryptProv:PPROC
+I_CryptGetDefaultCryptProv equ <__imp_I_CryptGetDefaultCryptProv>
+
+externdef __imp_I_CryptGetDefaultCryptProvForEncrypt:PPROC
+I_CryptGetDefaultCryptProvForEncrypt equ <__imp_I_CryptGetDefaultCryptProvForEncrypt>
+
+externdef __imp_I_CryptGetFileVersion:PPROC
+I_CryptGetFileVersion equ <__imp_I_CryptGetFileVersion>
+
+externdef __imp_I_CryptGetLruEntryData:PPROC
+I_CryptGetLruEntryData equ <__imp_I_CryptGetLruEntryData>
+
+externdef __imp_I_CryptGetLruEntryIdentifier:PPROC
+I_CryptGetLruEntryIdentifier equ <__imp_I_CryptGetLruEntryIdentifier>
+
+externdef __imp_I_CryptGetOssGlobal:PPROC
+I_CryptGetOssGlobal equ <__imp_I_CryptGetOssGlobal>
+
+externdef __imp_I_CryptGetTls:PPROC
+I_CryptGetTls equ <__imp_I_CryptGetTls>
+
+externdef __imp_I_CryptInsertLruEntry:PPROC
+I_CryptInsertLruEntry equ <__imp_I_CryptInsertLruEntry>
+
+externdef __imp_I_CryptInstallAsn1Module:PPROC
+I_CryptInstallAsn1Module equ <__imp_I_CryptInstallAsn1Module>
+
+externdef __imp_I_CryptInstallOssGlobal:PPROC
+I_CryptInstallOssGlobal equ <__imp_I_CryptInstallOssGlobal>
+
+externdef __imp_I_CryptReadTrustedPublisherDWORDValueFromRegistry:PPROC
+I_CryptReadTrustedPublisherDWORDValueFromRegistry equ <__imp_I_CryptReadTrustedPublisherDWORDValueFromRegistry>
+
+externdef __imp_I_CryptRegisterSmartCardStore:PPROC
+I_CryptRegisterSmartCardStore equ <__imp_I_CryptRegisterSmartCardStore>
+
+externdef __imp_I_CryptReleaseLruEntry:PPROC
+I_CryptReleaseLruEntry equ <__imp_I_CryptReleaseLruEntry>
+
+externdef __imp_I_CryptRemoveLruEntry:PPROC
+I_CryptRemoveLruEntry equ <__imp_I_CryptRemoveLruEntry>
+
+externdef __imp_I_CryptSetTls:PPROC
+I_CryptSetTls equ <__imp_I_CryptSetTls>
+
+externdef __imp_I_CryptTouchLruEntry:PPROC
+I_CryptTouchLruEntry equ <__imp_I_CryptTouchLruEntry>
+
+externdef __imp_I_CryptUninstallAsn1Module:PPROC
+I_CryptUninstallAsn1Module equ <__imp_I_CryptUninstallAsn1Module>
+
+externdef __imp_I_CryptUninstallOssGlobal:PPROC
+I_CryptUninstallOssGlobal equ <__imp_I_CryptUninstallOssGlobal>
+
+externdef __imp_I_CryptUnregisterSmartCardStore:PPROC
+I_CryptUnregisterSmartCardStore equ <__imp_I_CryptUnregisterSmartCardStore>
+
+externdef __imp_I_CryptWalkAllLruCacheEntries:PPROC
+I_CryptWalkAllLruCacheEntries equ <__imp_I_CryptWalkAllLruCacheEntries>
+
+externdef __imp_OpenCertPerformanceData:PPROC
+OpenCertPerformanceData equ <__imp_OpenCertPerformanceData>
+
+externdef __imp_PFXExportCertStore:PPROC
+PFXExportCertStore equ <__imp_PFXExportCertStore>
+
+externdef __imp_PFXExportCertStoreEx:PPROC
+PFXExportCertStoreEx equ <__imp_PFXExportCertStoreEx>
+
+externdef __imp_PFXImportCertStore:PPROC
+PFXImportCertStore equ <__imp_PFXImportCertStore>
+
+externdef __imp_PFXIsPFXBlob:PPROC
+PFXIsPFXBlob equ <__imp_PFXIsPFXBlob>
+
+externdef __imp_PFXVerifyPassword:PPROC
+PFXVerifyPassword equ <__imp_PFXVerifyPassword>
+
+externdef __imp_crypt32_ordinal1001:PPROC
+crypt32_ordinal1001 equ <__imp_crypt32_ordinal1001>
+
+externdef __imp_crypt32_ordinal1002:PPROC
+crypt32_ordinal1002 equ <__imp_crypt32_ordinal1002>
+
+externdef __imp_crypt32_ordinal1003:PPROC
+crypt32_ordinal1003 equ <__imp_crypt32_ordinal1003>
+
+externdef __imp_crypt32_ordinal1004:PPROC
+crypt32_ordinal1004 equ <__imp_crypt32_ordinal1004>
+
+externdef __imp_crypt32_ordinal1005:PPROC
+crypt32_ordinal1005 equ <__imp_crypt32_ordinal1005>
+
+externdef __imp_crypt32_ordinal1006:PPROC
+crypt32_ordinal1006 equ <__imp_crypt32_ordinal1006>
+
+externdef __imp_crypt32_ordinal1007:PPROC
+crypt32_ordinal1007 equ <__imp_crypt32_ordinal1007>
+
+externdef __imp_crypt32_ordinal1008:PPROC
+crypt32_ordinal1008 equ <__imp_crypt32_ordinal1008>
+
+externdef __imp_crypt32_ordinal1009:PPROC
+crypt32_ordinal1009 equ <__imp_crypt32_ordinal1009>
+
+externdef __imp_crypt32_ordinal1010:PPROC
+crypt32_ordinal1010 equ <__imp_crypt32_ordinal1010>
+
+externdef __imp_crypt32_ordinal1011:PPROC
+crypt32_ordinal1011 equ <__imp_crypt32_ordinal1011>

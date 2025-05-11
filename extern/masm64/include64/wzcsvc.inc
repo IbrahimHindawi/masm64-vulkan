@@ -1,0 +1,11 @@
+externdef __imp_SvchostPushServiceGlobals:PPROC
+SvchostPushServiceGlobals equ <__imp_SvchostPushServiceGlobals>
+
+externdef __imp_WZCQueryGUIDNCSState:PPROC
+WZCQueryGUIDNCSState equ <__imp_WZCQueryGUIDNCSState>
+
+externdef __imp_WZCSvcMain:PPROC
+WZCSvcMain equ <__imp_WZCSvcMain>
+
+externdef __imp_WZCTrayIconReady:PPROC
+WZCTrayIconReady equ <__imp_WZCTrayIconReady>

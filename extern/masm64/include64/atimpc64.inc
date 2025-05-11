@@ -1,0 +1,5 @@
+externdef __imp_atimpc64_ordinal2007:PPROC
+atimpc64_ordinal2007 equ <__imp_atimpc64_ordinal2007>
+
+externdef __imp_atimpc64_ordinal2008:PPROC
+atimpc64_ordinal2008 equ <__imp_atimpc64_ordinal2008>

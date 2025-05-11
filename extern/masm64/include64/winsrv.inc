@@ -1,0 +1,11 @@
+externdef __imp_ConServerDllInitialization:PPROC
+ConServerDllInitialization equ <__imp_ConServerDllInitialization>
+
+externdef __imp_UserServerDllInitialization:PPROC
+UserServerDllInitialization equ <__imp_UserServerDllInitialization>
+
+externdef __imp__UserSoundSentry:PPROC
+_UserSoundSentry equ <__imp__UserSoundSentry>
+
+externdef __imp__UserTestTokenForInteractive:PPROC
+_UserTestTokenForInteractive equ <__imp__UserTestTokenForInteractive>

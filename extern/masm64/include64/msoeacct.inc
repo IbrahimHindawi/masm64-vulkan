@@ -1,0 +1,26 @@
+externdef __imp_CreateAccountsFromFile:PPROC
+CreateAccountsFromFile equ <__imp_CreateAccountsFromFile>
+
+externdef __imp_CreateAccountsFromFileEx:PPROC
+CreateAccountsFromFileEx equ <__imp_CreateAccountsFromFileEx>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_GetDllMajorVersion:PPROC
+GetDllMajorVersion equ <__imp_GetDllMajorVersion>
+
+externdef __imp_HrCreateAccountManager:PPROC
+HrCreateAccountManager equ <__imp_HrCreateAccountManager>
+
+externdef __imp_ValidEmailAddress:PPROC
+ValidEmailAddress equ <__imp_ValidEmailAddress>

@@ -1,0 +1,68 @@
+externdef __imp_CallNtPowerInformation:PPROC
+CallNtPowerInformation equ <__imp_CallNtPowerInformation>
+
+externdef __imp_CanUserWritePwrScheme:PPROC
+CanUserWritePwrScheme equ <__imp_CanUserWritePwrScheme>
+
+externdef __imp_DeletePwrScheme:PPROC
+DeletePwrScheme equ <__imp_DeletePwrScheme>
+
+externdef __imp_EnumPwrSchemes:PPROC
+EnumPwrSchemes equ <__imp_EnumPwrSchemes>
+
+externdef __imp_GetActivePwrScheme:PPROC
+GetActivePwrScheme equ <__imp_GetActivePwrScheme>
+
+externdef __imp_GetCurrentPowerPolicies:PPROC
+GetCurrentPowerPolicies equ <__imp_GetCurrentPowerPolicies>
+
+externdef __imp_GetPwrCapabilities:PPROC
+GetPwrCapabilities equ <__imp_GetPwrCapabilities>
+
+externdef __imp_GetPwrDiskSpindownRange:PPROC
+GetPwrDiskSpindownRange equ <__imp_GetPwrDiskSpindownRange>
+
+externdef __imp_IsAdminOverrideActive:PPROC
+IsAdminOverrideActive equ <__imp_IsAdminOverrideActive>
+
+externdef __imp_IsPwrHibernateAllowed:PPROC
+IsPwrHibernateAllowed equ <__imp_IsPwrHibernateAllowed>
+
+externdef __imp_IsPwrShutdownAllowed:PPROC
+IsPwrShutdownAllowed equ <__imp_IsPwrShutdownAllowed>
+
+externdef __imp_IsPwrSuspendAllowed:PPROC
+IsPwrSuspendAllowed equ <__imp_IsPwrSuspendAllowed>
+
+externdef __imp_LoadCurrentPwrScheme:PPROC
+LoadCurrentPwrScheme equ <__imp_LoadCurrentPwrScheme>
+
+externdef __imp_MergeLegacyPwrScheme:PPROC
+MergeLegacyPwrScheme equ <__imp_MergeLegacyPwrScheme>
+
+externdef __imp_ReadGlobalPwrPolicy:PPROC
+ReadGlobalPwrPolicy equ <__imp_ReadGlobalPwrPolicy>
+
+externdef __imp_ReadProcessorPwrScheme:PPROC
+ReadProcessorPwrScheme equ <__imp_ReadProcessorPwrScheme>
+
+externdef __imp_ReadPwrScheme:PPROC
+ReadPwrScheme equ <__imp_ReadPwrScheme>
+
+externdef __imp_SetActivePwrScheme:PPROC
+SetActivePwrScheme equ <__imp_SetActivePwrScheme>
+
+externdef __imp_SetSuspendState:PPROC
+SetSuspendState equ <__imp_SetSuspendState>
+
+externdef __imp_ValidatePowerPolicies:PPROC
+ValidatePowerPolicies equ <__imp_ValidatePowerPolicies>
+
+externdef __imp_WriteGlobalPwrPolicy:PPROC
+WriteGlobalPwrPolicy equ <__imp_WriteGlobalPwrPolicy>
+
+externdef __imp_WriteProcessorPwrScheme:PPROC
+WriteProcessorPwrScheme equ <__imp_WriteProcessorPwrScheme>
+
+externdef __imp_WritePwrScheme:PPROC
+WritePwrScheme equ <__imp_WritePwrScheme>

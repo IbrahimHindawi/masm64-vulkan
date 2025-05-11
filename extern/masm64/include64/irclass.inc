@@ -1,0 +1,5 @@
+externdef __imp_IrSIRClassCoInstaller:PPROC
+IrSIRClassCoInstaller equ <__imp_IrSIRClassCoInstaller>
+
+externdef __imp_IrSIRPortPropPageProvider:PPROC
+IrSIRPortPropPageProvider equ <__imp_IrSIRPortPropPageProvider>

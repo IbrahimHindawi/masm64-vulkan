@@ -1,0 +1,44 @@
+externdef __imp_TTCharToUnicode:PPROC
+TTCharToUnicode equ <__imp_TTCharToUnicode>
+
+externdef __imp_TTDeleteEmbeddedFont:PPROC
+TTDeleteEmbeddedFont equ <__imp_TTDeleteEmbeddedFont>
+
+externdef __imp_TTEmbedFont:PPROC
+TTEmbedFont equ <__imp_TTEmbedFont>
+
+externdef __imp_TTEmbedFontEx:PPROC
+TTEmbedFontEx equ <__imp_TTEmbedFontEx>
+
+externdef __imp_TTEmbedFontFromFileA:PPROC
+TTEmbedFontFromFileA equ <__imp_TTEmbedFontFromFileA>
+  IFNDEF __UNICODE__
+    TTEmbedFontFromFile equ <__imp_TTEmbedFontFromFileA>
+  ENDIF
+
+externdef __imp_TTEnableEmbeddingForFacename:PPROC
+TTEnableEmbeddingForFacename equ <__imp_TTEnableEmbeddingForFacename>
+
+externdef __imp_TTGetEmbeddedFontInfo:PPROC
+TTGetEmbeddedFontInfo equ <__imp_TTGetEmbeddedFontInfo>
+
+externdef __imp_TTGetEmbeddingType:PPROC
+TTGetEmbeddingType equ <__imp_TTGetEmbeddingType>
+
+externdef __imp_TTGetNewFontName:PPROC
+TTGetNewFontName equ <__imp_TTGetNewFontName>
+
+externdef __imp_TTIsEmbeddingEnabled:PPROC
+TTIsEmbeddingEnabled equ <__imp_TTIsEmbeddingEnabled>
+
+externdef __imp_TTIsEmbeddingEnabledForFacename:PPROC
+TTIsEmbeddingEnabledForFacename equ <__imp_TTIsEmbeddingEnabledForFacename>
+
+externdef __imp_TTLoadEmbeddedFont:PPROC
+TTLoadEmbeddedFont equ <__imp_TTLoadEmbeddedFont>
+
+externdef __imp_TTRunValidationTests:PPROC
+TTRunValidationTests equ <__imp_TTRunValidationTests>
+
+externdef __imp_TTRunValidationTestsEx:PPROC
+TTRunValidationTestsEx equ <__imp_TTRunValidationTestsEx>

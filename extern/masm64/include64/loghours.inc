@@ -1,0 +1,29 @@
+externdef __imp_ConnectionScheduleDialog:PPROC
+ConnectionScheduleDialog equ <__imp_ConnectionScheduleDialog>
+
+externdef __imp_ConnectionScheduleDialogEx:PPROC
+ConnectionScheduleDialogEx equ <__imp_ConnectionScheduleDialogEx>
+
+externdef __imp_DialinHoursDialog:PPROC
+DialinHoursDialog equ <__imp_DialinHoursDialog>
+
+externdef __imp_DialinHoursDialogEx:PPROC
+DialinHoursDialogEx equ <__imp_DialinHoursDialogEx>
+
+externdef __imp_DirSyncScheduleDialog:PPROC
+DirSyncScheduleDialog equ <__imp_DirSyncScheduleDialog>
+
+externdef __imp_DirSyncScheduleDialogEx:PPROC
+DirSyncScheduleDialogEx equ <__imp_DirSyncScheduleDialogEx>
+
+externdef __imp_LogonScheduleDialog:PPROC
+LogonScheduleDialog equ <__imp_LogonScheduleDialog>
+
+externdef __imp_LogonScheduleDialogEx:PPROC
+LogonScheduleDialogEx equ <__imp_LogonScheduleDialogEx>
+
+externdef __imp_ReplicationScheduleDialog:PPROC
+ReplicationScheduleDialog equ <__imp_ReplicationScheduleDialog>
+
+externdef __imp_ReplicationScheduleDialogEx:PPROC
+ReplicationScheduleDialogEx equ <__imp_ReplicationScheduleDialogEx>

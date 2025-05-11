@@ -1,0 +1,29 @@
+externdef __imp_WmiAddObjectProp:PPROC
+WmiAddObjectProp equ <__imp_WmiAddObjectProp>
+
+externdef __imp_WmiCommitObject:PPROC
+WmiCommitObject equ <__imp_WmiCommitObject>
+
+externdef __imp_WmiCreateObject:PPROC
+WmiCreateObject equ <__imp_WmiCreateObject>
+
+externdef __imp_WmiCreateObjectWithFormat:PPROC
+WmiCreateObjectWithFormat equ <__imp_WmiCreateObjectWithFormat>
+
+externdef __imp_WmiCreateObjectWithProps:PPROC
+WmiCreateObjectWithProps equ <__imp_WmiCreateObjectWithProps>
+
+externdef __imp_WmiDestroyObject:PPROC
+WmiDestroyObject equ <__imp_WmiDestroyObject>
+
+externdef __imp_WmiEventSourceConnect:PPROC
+WmiEventSourceConnect equ <__imp_WmiEventSourceConnect>
+
+externdef __imp_WmiEventSourceDisconnect:PPROC
+WmiEventSourceDisconnect equ <__imp_WmiEventSourceDisconnect>
+
+externdef __imp_WmiIsObjectActive:PPROC
+WmiIsObjectActive equ <__imp_WmiIsObjectActive>
+
+externdef __imp_WmiSetAndCommitObject:PPROC
+WmiSetAndCommitObject equ <__imp_WmiSetAndCommitObject>

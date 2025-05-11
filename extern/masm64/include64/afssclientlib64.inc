@@ -1,0 +1,2 @@
+externdef __imp_GetAFSSClientInterface:PPROC
+GetAFSSClientInterface equ <__imp_GetAFSSClientInterface>

@@ -1,0 +1,8 @@
+externdef __imp_dpcdll_ordinal123:PPROC
+dpcdll_ordinal123 equ <__imp_dpcdll_ordinal123>
+
+externdef __imp_dpcdll_ordinal124:PPROC
+dpcdll_ordinal124 equ <__imp_dpcdll_ordinal124>
+
+externdef __imp_dpcdll_ordinal125:PPROC
+dpcdll_ordinal125 equ <__imp_dpcdll_ordinal125>

@@ -1,0 +1,29 @@
+externdef __imp_ExGetCfgVersionInfo:PPROC
+ExGetCfgVersionInfo equ <__imp_ExGetCfgVersionInfo>
+
+externdef __imp_ExtEncryptionLevels:PPROC
+ExtEncryptionLevels equ <__imp_ExtEncryptionLevels>
+
+externdef __imp_ExtEnd:PPROC
+ExtEnd equ <__imp_ExtEnd>
+
+externdef __imp_ExtGetCapabilities:PPROC
+ExtGetCapabilities equ <__imp_ExtGetCapabilities>
+
+externdef __imp_ExtGetEncryptionLevelAndDescrEx:PPROC
+ExtGetEncryptionLevelAndDescrEx equ <__imp_ExtGetEncryptionLevelAndDescrEx>
+
+externdef __imp_ExtGetEncryptionLevelDescr:PPROC
+ExtGetEncryptionLevelDescr equ <__imp_ExtGetEncryptionLevelDescr>
+
+externdef __imp_ExtGetSecurityLayerDescrString:PPROC
+ExtGetSecurityLayerDescrString equ <__imp_ExtGetSecurityLayerDescrString>
+
+externdef __imp_ExtGetSecurityLayerName:PPROC
+ExtGetSecurityLayerName equ <__imp_ExtGetSecurityLayerName>
+
+externdef __imp_ExtSecurityLayers:PPROC
+ExtSecurityLayers equ <__imp_ExtSecurityLayers>
+
+externdef __imp_ExtStart:PPROC
+ExtStart equ <__imp_ExtStart>

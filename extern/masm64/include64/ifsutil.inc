@@ -1,0 +1,515 @@
+externdef __imp_??0CANNED_SECURITY@@QEAA@XZ:PPROC
+??0CANNED_SECURITY@@QEAA@XZ equ <__imp_??0CANNED_SECURITY@@QEAA@XZ>
+
+externdef __imp_??0DIGRAPH@@QEAA@XZ:PPROC
+??0DIGRAPH@@QEAA@XZ equ <__imp_??0DIGRAPH@@QEAA@XZ>
+
+externdef __imp_??0DIGRAPH_EDGE@@QEAA@XZ:PPROC
+??0DIGRAPH_EDGE@@QEAA@XZ equ <__imp_??0DIGRAPH_EDGE@@QEAA@XZ>
+
+externdef __imp_??0DP_DRIVE@@QEAA@XZ:PPROC
+??0DP_DRIVE@@QEAA@XZ equ <__imp_??0DP_DRIVE@@QEAA@XZ>
+
+externdef __imp_??0INTSTACK@@QEAA@XZ:PPROC
+??0INTSTACK@@QEAA@XZ equ <__imp_??0INTSTACK@@QEAA@XZ>
+
+externdef __imp_??0LOG_IO_DP_DRIVE@@QEAA@XZ:PPROC
+??0LOG_IO_DP_DRIVE@@QEAA@XZ equ <__imp_??0LOG_IO_DP_DRIVE@@QEAA@XZ>
+
+externdef __imp_??0MOUNT_POINT_MAP@@QEAA@XZ:PPROC
+??0MOUNT_POINT_MAP@@QEAA@XZ equ <__imp_??0MOUNT_POINT_MAP@@QEAA@XZ>
+
+externdef __imp_??0MOUNT_POINT_TUPLE@@QEAA@XZ:PPROC
+??0MOUNT_POINT_TUPLE@@QEAA@XZ equ <__imp_??0MOUNT_POINT_TUPLE@@QEAA@XZ>
+
+externdef __imp_??0NUMBER_SET@@QEAA@XZ:PPROC
+??0NUMBER_SET@@QEAA@XZ equ <__imp_??0NUMBER_SET@@QEAA@XZ>
+
+externdef __imp_??0READ_CACHE@@QEAA@XZ:PPROC
+??0READ_CACHE@@QEAA@XZ equ <__imp_??0READ_CACHE@@QEAA@XZ>
+
+externdef __imp_??0READ_WRITE_CACHE@@QEAA@XZ:PPROC
+??0READ_WRITE_CACHE@@QEAA@XZ equ <__imp_??0READ_WRITE_CACHE@@QEAA@XZ>
+
+externdef __imp_??0SECRUN@@QEAA@XZ:PPROC
+??0SECRUN@@QEAA@XZ equ <__imp_??0SECRUN@@QEAA@XZ>
+
+externdef __imp_??0SNAPSHOT@@AEAA@XZ:PPROC
+??0SNAPSHOT@@AEAA@XZ equ <__imp_??0SNAPSHOT@@AEAA@XZ>
+
+externdef __imp_??0SPARSE_SET@@QEAA@XZ:PPROC
+??0SPARSE_SET@@QEAA@XZ equ <__imp_??0SPARSE_SET@@QEAA@XZ>
+
+externdef __imp_??0SUPERAREA@@IEAA@XZ:PPROC
+??0SUPERAREA@@IEAA@XZ equ <__imp_??0SUPERAREA@@IEAA@XZ>
+
+externdef __imp_??0TLINK@@QEAA@XZ:PPROC
+??0TLINK@@QEAA@XZ equ <__imp_??0TLINK@@QEAA@XZ>
+
+externdef __imp_??0VOL_LIODPDRV@@IEAA@XZ:PPROC
+??0VOL_LIODPDRV@@IEAA@XZ equ <__imp_??0VOL_LIODPDRV@@IEAA@XZ>
+
+externdef __imp_??1CANNED_SECURITY@@UEAA@XZ:PPROC
+??1CANNED_SECURITY@@UEAA@XZ equ <__imp_??1CANNED_SECURITY@@UEAA@XZ>
+
+externdef __imp_??1DIGRAPH@@UEAA@XZ:PPROC
+??1DIGRAPH@@UEAA@XZ equ <__imp_??1DIGRAPH@@UEAA@XZ>
+
+externdef __imp_??1DP_DRIVE@@UEAA@XZ:PPROC
+??1DP_DRIVE@@UEAA@XZ equ <__imp_??1DP_DRIVE@@UEAA@XZ>
+
+externdef __imp_??1INTSTACK@@UEAA@XZ:PPROC
+??1INTSTACK@@UEAA@XZ equ <__imp_??1INTSTACK@@UEAA@XZ>
+
+externdef __imp_??1LOG_IO_DP_DRIVE@@UEAA@XZ:PPROC
+??1LOG_IO_DP_DRIVE@@UEAA@XZ equ <__imp_??1LOG_IO_DP_DRIVE@@UEAA@XZ>
+
+externdef __imp_??1MOUNT_POINT_MAP@@UEAA@XZ:PPROC
+??1MOUNT_POINT_MAP@@UEAA@XZ equ <__imp_??1MOUNT_POINT_MAP@@UEAA@XZ>
+
+externdef __imp_??1NUMBER_SET@@UEAA@XZ:PPROC
+??1NUMBER_SET@@UEAA@XZ equ <__imp_??1NUMBER_SET@@UEAA@XZ>
+
+externdef __imp_??1SECRUN@@UEAA@XZ:PPROC
+??1SECRUN@@UEAA@XZ equ <__imp_??1SECRUN@@UEAA@XZ>
+
+externdef __imp_??1SNAPSHOT@@EEAA@XZ:PPROC
+??1SNAPSHOT@@EEAA@XZ equ <__imp_??1SNAPSHOT@@EEAA@XZ>
+
+externdef __imp_??1SPARSE_SET@@UEAA@XZ:PPROC
+??1SPARSE_SET@@UEAA@XZ equ <__imp_??1SPARSE_SET@@UEAA@XZ>
+
+externdef __imp_??1SUPERAREA@@UEAA@XZ:PPROC
+??1SUPERAREA@@UEAA@XZ equ <__imp_??1SUPERAREA@@UEAA@XZ>
+
+externdef __imp_??1TLINK@@UEAA@XZ:PPROC
+??1TLINK@@UEAA@XZ equ <__imp_??1TLINK@@UEAA@XZ>
+
+externdef __imp_??1VOL_LIODPDRV@@UEAA@XZ:PPROC
+??1VOL_LIODPDRV@@UEAA@XZ equ <__imp_??1VOL_LIODPDRV@@UEAA@XZ>
+
+externdef __imp_?Add@NUMBER_SET@@QEAAEPEBV1@@Z:PPROC
+?Add@NUMBER_SET@@QEAAEPEBV1@@Z equ <__imp_?Add@NUMBER_SET@@QEAAEPEBV1@@Z>
+
+externdef __imp_?Add@NUMBER_SET@@QEAAEVBIG_INT@@0@Z:PPROC
+?Add@NUMBER_SET@@QEAAEVBIG_INT@@0@Z equ <__imp_?Add@NUMBER_SET@@QEAAEVBIG_INT@@0@Z>
+
+externdef __imp_?Add@NUMBER_SET@@QEAAEVBIG_INT@@@Z:PPROC
+?Add@NUMBER_SET@@QEAAEVBIG_INT@@@Z equ <__imp_?Add@NUMBER_SET@@QEAAEVBIG_INT@@@Z>
+
+externdef __imp_?AddDriveName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z:PPROC
+?AddDriveName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z equ <__imp_?AddDriveName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z>
+
+externdef __imp_?AddEdge@DIGRAPH@@QEAAEKK@Z:PPROC
+?AddEdge@DIGRAPH@@QEAAEKK@Z equ <__imp_?AddEdge@DIGRAPH@@QEAAEKK@Z>
+
+externdef __imp_?AddEntry@AUTOREG@@SAEPEBVWSTRING@@@Z:PPROC
+?AddEntry@AUTOREG@@SAEPEBVWSTRING@@@Z equ <__imp_?AddEntry@AUTOREG@@SAEPEBVWSTRING@@@Z>
+
+externdef __imp_?AddNext@NUMBER_SET@@QEAAEVBIG_INT@@@Z:PPROC
+?AddNext@NUMBER_SET@@QEAAEVBIG_INT@@@Z equ <__imp_?AddNext@NUMBER_SET@@QEAAEVBIG_INT@@@Z>
+
+externdef __imp_?AddStart@NUMBER_SET@@QEAAEVBIG_INT@@@Z:PPROC
+?AddStart@NUMBER_SET@@QEAAEVBIG_INT@@@Z equ <__imp_?AddStart@NUMBER_SET@@QEAAEVBIG_INT@@@Z>
+
+externdef __imp_?AddVolumeName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z:PPROC
+?AddVolumeName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z equ <__imp_?AddVolumeName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z>
+
+externdef __imp_?CheckAndAdd@NUMBER_SET@@QEAAEVBIG_INT@@PEAE@Z:PPROC
+?CheckAndAdd@NUMBER_SET@@QEAAEVBIG_INT@@PEAE@Z equ <__imp_?CheckAndAdd@NUMBER_SET@@QEAAEVBIG_INT@@PEAE@Z>
+
+externdef __imp_?CheckAndAdd@SPARSE_SET@@QEAAEVBIG_INT@@PEAE@Z:PPROC
+?CheckAndAdd@SPARSE_SET@@QEAAEVBIG_INT@@PEAE@Z equ <__imp_?CheckAndAdd@SPARSE_SET@@QEAAEVBIG_INT@@PEAE@Z>
+
+externdef __imp_?CheckAndRemove@NUMBER_SET@@QEAAEVBIG_INT@@PEAE@Z:PPROC
+?CheckAndRemove@NUMBER_SET@@QEAAEVBIG_INT@@PEAE@Z equ <__imp_?CheckAndRemove@NUMBER_SET@@QEAAEVBIG_INT@@PEAE@Z>
+
+externdef __imp_?CheckAndRemove@SPARSE_SET@@QEAAEVBIG_INT@@PEAE@Z:PPROC
+?CheckAndRemove@SPARSE_SET@@QEAAEVBIG_INT@@PEAE@Z equ <__imp_?CheckAndRemove@SPARSE_SET@@QEAAEVBIG_INT@@PEAE@Z>
+
+externdef __imp_?CheckSnapshotPresence@SNAPSHOT@@QEAAEXZ:PPROC
+?CheckSnapshotPresence@SNAPSHOT@@QEAAEXZ equ <__imp_?CheckSnapshotPresence@SNAPSHOT@@QEAAEXZ>
+
+externdef __imp_?CheckValidSecurityDescriptor@IFS_SYSTEM@@SAEKPEAU_SECURITY_DESCRIPTOR@@@Z:PPROC
+?CheckValidSecurityDescriptor@IFS_SYSTEM@@SAEKPEAU_SECURITY_DESCRIPTOR@@@Z equ <__imp_?CheckValidSecurityDescriptor@IFS_SYSTEM@@SAEKPEAU_SECURITY_DESCRIPTOR@@@Z>
+
+externdef __imp_?ChkDsk@VOL_LIODPDRV@@QEAAEW4FIX_LEVEL@@PEAVMESSAGE@@KKGPEAKPEBVWSTRING@@@Z:PPROC
+?ChkDsk@VOL_LIODPDRV@@QEAAEW4FIX_LEVEL@@PEAVMESSAGE@@KKGPEAKPEBVWSTRING@@@Z equ <__imp_?ChkDsk@VOL_LIODPDRV@@QEAAEW4FIX_LEVEL@@PEAVMESSAGE@@KKGPEAKPEBVWSTRING@@@Z>
+
+externdef __imp_?CloseDriveHandle@DP_DRIVE@@QEAAXXZ:PPROC
+?CloseDriveHandle@DP_DRIVE@@QEAAXXZ equ <__imp_?CloseDriveHandle@DP_DRIVE@@QEAAXXZ>
+
+externdef __imp_?ComputeVolId@SUPERAREA@@SAKK@Z:PPROC
+?ComputeVolId@SUPERAREA@@SAKK@Z equ <__imp_?ComputeVolId@SUPERAREA@@SAKK@Z>
+
+externdef __imp_?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@0@Z:PPROC
+?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@0@Z equ <__imp_?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@0@Z>
+
+externdef __imp_?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@E@Z:PPROC
+?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@E@Z equ <__imp_?DeleteEntry@AUTOREG@@SAEPEBVWSTRING@@E@Z>
+
+externdef __imp_?DiskCopyMainLoop@@YAHPEBVWSTRING@@000EPEAVMESSAGE@@1@Z:PPROC
+?DiskCopyMainLoop@@YAHPEBVWSTRING@@000EPEAVMESSAGE@@1@Z equ <__imp_?DiskCopyMainLoop@@YAHPEBVWSTRING@@000EPEAVMESSAGE@@1@Z>
+
+externdef __imp_?DismountAndLock@IO_DP_DRIVE@@QEAAEXZ:PPROC
+?DismountAndLock@IO_DP_DRIVE@@QEAAEXZ equ <__imp_?DismountAndLock@IO_DP_DRIVE@@QEAAEXZ>
+
+externdef __imp_?DismountVolume@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z:PPROC
+?DismountVolume@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z equ <__imp_?DismountVolume@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z>
+
+externdef __imp_?DoesIntersectSet@NUMBER_SET@@QEBAEVBIG_INT@@0@Z:PPROC
+?DoesIntersectSet@NUMBER_SET@@QEBAEVBIG_INT@@0@Z equ <__imp_?DoesIntersectSet@NUMBER_SET@@QEBAEVBIG_INT@@0@Z>
+
+externdef __imp_?DosDriveNameToNtDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z:PPROC
+?DosDriveNameToNtDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z equ <__imp_?DosDriveNameToNtDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z>
+
+externdef __imp_?DumpHashTable@SPARSE_SET@@QEAAXXZ:PPROC
+?DumpHashTable@SPARSE_SET@@QEAAXXZ equ <__imp_?DumpHashTable@SPARSE_SET@@QEAAXXZ>
+
+externdef __imp_?EliminateCycles@DIGRAPH@@QEAAEPEAVCONTAINER@@PEAE@Z:PPROC
+?EliminateCycles@DIGRAPH@@QEAAEPEAVCONTAINER@@PEAE@Z equ <__imp_?EliminateCycles@DIGRAPH@@QEAAEPEAVCONTAINER@@PEAE@Z>
+
+externdef __imp_?EnableFileSystem@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z:PPROC
+?EnableFileSystem@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z equ <__imp_?EnableFileSystem@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z>
+
+externdef __imp_?EnableVolumeCompression@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z:PPROC
+?EnableVolumeCompression@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z equ <__imp_?EnableVolumeCompression@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z>
+
+externdef __imp_?EnableVolumeUpgrade@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z:PPROC
+?EnableVolumeUpgrade@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z equ <__imp_?EnableVolumeUpgrade@IFS_SYSTEM@@SAEPEBVWSTRING@@@Z>
+
+externdef __imp_?FileSetAttributes@IFS_SYSTEM@@SAEPEBVWSTRING@@KPEAK@Z:PPROC
+?FileSetAttributes@IFS_SYSTEM@@SAEPEBVWSTRING@@KPEAK@Z equ <__imp_?FileSetAttributes@IFS_SYSTEM@@SAEPEBVWSTRING@@KPEAK@Z>
+
+externdef __imp_?FlushCache@IO_DP_DRIVE@@QEAAEXZ:PPROC
+?FlushCache@IO_DP_DRIVE@@QEAAEXZ equ <__imp_?FlushCache@IO_DP_DRIVE@@QEAAEXZ>
+
+externdef __imp_?ForceAutochk@VOL_LIODPDRV@@QEAAEEKKGPEBVWSTRING@@@Z:PPROC
+?ForceAutochk@VOL_LIODPDRV@@QEAAEEKKGPEBVWSTRING@@@Z equ <__imp_?ForceAutochk@VOL_LIODPDRV@@QEAAEEKKGPEBVWSTRING@@@Z>
+
+externdef __imp_?Format@VOL_LIODPDRV@@QEAA?AW4FORMAT_ERROR_CODE@@PEBVWSTRING@@PEAVMESSAGE@@KKK@Z:PPROC
+?Format@VOL_LIODPDRV@@QEAA?AW4FORMAT_ERROR_CODE@@PEBVWSTRING@@PEAVMESSAGE@@KKK@Z equ <__imp_?Format@VOL_LIODPDRV@@QEAA?AW4FORMAT_ERROR_CODE@@PEBVWSTRING@@PEAVMESSAGE@@KKK@Z>
+
+externdef __imp_?GenerateLabelNotification@SUPERAREA@@SAJPEBVWSTRING@@PEAV2@PEAU_FILE_FS_SIZE_INFORMATION@@PEAU_FILE_FS_VOLUME_INFORMATION@@@Z:PPROC
+?GenerateLabelNotification@SUPERAREA@@SAJPEBVWSTRING@@PEAV2@PEAU_FILE_FS_SIZE_INFORMATION@@PEAU_FILE_FS_VOLUME_INFORMATION@@@Z equ <__imp_?GenerateLabelNotification@SUPERAREA@@SAJPEBVWSTRING@@PEAV2@PEAU_FILE_FS_SIZE_INFORMATION@@PEAU_FILE_FS_VOLUME_INFORMATION@@@Z>
+
+externdef __imp_?GetAt@MOUNT_POINT_MAP@@QEAAEKPEAVWSTRING@@0@Z:PPROC
+?GetAt@MOUNT_POINT_MAP@@QEAAEKPEAVWSTRING@@0@Z equ <__imp_?GetAt@MOUNT_POINT_MAP@@QEAAEKPEAVWSTRING@@0@Z>
+
+externdef __imp_?GetBuffer@TLINK@@QEAAPEAXPEAX@Z:PPROC
+?GetBuffer@TLINK@@QEAAPEAXPEAX@Z equ <__imp_?GetBuffer@TLINK@@QEAAPEAXPEAX@Z>
+
+externdef __imp_?GetCannedSecurity@IFS_SYSTEM@@SAPEAVCANNED_SECURITY@@XZ:PPROC
+?GetCannedSecurity@IFS_SYSTEM@@SAPEAVCANNED_SECURITY@@XZ equ <__imp_?GetCannedSecurity@IFS_SYSTEM@@SAPEAVCANNED_SECURITY@@XZ>
+
+externdef __imp_?GetCannedSecurityDescriptor@CANNED_SECURITY@@QEAAPEAXW4_CANNED_SECURITY_TYPE@@PEAK@Z:PPROC
+?GetCannedSecurityDescriptor@CANNED_SECURITY@@QEAAPEAXW4_CANNED_SECURITY_TYPE@@PEAK@Z equ <__imp_?GetCannedSecurityDescriptor@CANNED_SECURITY@@QEAAPEAXW4_CANNED_SECURITY_TYPE@@PEAK@Z>
+
+externdef __imp_?GetData@TLINK@@QEAAAEAVBIG_INT@@G@Z:PPROC
+?GetData@TLINK@@QEAAAEAVBIG_INT@@G@Z equ <__imp_?GetData@TLINK@@QEAAAEAVBIG_INT@@G@Z>
+
+externdef __imp_?GetData@TLINK@@QEAAAEAVBIG_INT@@PEAX@Z:PPROC
+?GetData@TLINK@@QEAAAEAVBIG_INT@@PEAX@Z equ <__imp_?GetData@TLINK@@QEAAAEAVBIG_INT@@PEAX@Z>
+
+externdef __imp_?GetDrive@SECRUN@@QEAAPEAVIO_DP_DRIVE@@XZ:PPROC
+?GetDrive@SECRUN@@QEAAPEAVIO_DP_DRIVE@@XZ equ <__imp_?GetDrive@SECRUN@@QEAAPEAVIO_DP_DRIVE@@XZ>
+
+externdef __imp_?GetDrive@SUPERAREA@@QEAAPEAVIO_DP_DRIVE@@XZ:PPROC
+?GetDrive@SUPERAREA@@QEAAPEAVIO_DP_DRIVE@@XZ equ <__imp_?GetDrive@SUPERAREA@@QEAAPEAVIO_DP_DRIVE@@XZ>
+
+externdef __imp_?GetFirst@TLINK@@QEAAPEAXXZ:PPROC
+?GetFirst@TLINK@@QEAAPEAXXZ equ <__imp_?GetFirst@TLINK@@QEAAPEAXXZ>
+
+externdef __imp_?GetMessageW@IO_DP_DRIVE@@QEAAPEAVMESSAGE@@XZ:PPROC
+?GetMessageW@IO_DP_DRIVE@@QEAAPEAVMESSAGE@@XZ equ <__imp_?GetMessageW@IO_DP_DRIVE@@QEAAPEAVMESSAGE@@XZ>
+
+externdef __imp_?GetMessageW@SUPERAREA@@QEAAPEAVMESSAGE@@XZ:PPROC
+?GetMessageW@SUPERAREA@@QEAAPEAVMESSAGE@@XZ equ <__imp_?GetMessageW@SUPERAREA@@QEAAPEAVMESSAGE@@XZ>
+
+externdef __imp_?GetNext@TLINK@@QEAAPEAXPEAX@Z:PPROC
+?GetNext@TLINK@@QEAAPEAXPEAX@Z equ <__imp_?GetNext@TLINK@@QEAAPEAXPEAX@Z>
+
+externdef __imp_?GetNextDataSlot@TLINK@@QEAAAEAVBIG_INT@@XZ:PPROC
+?GetNextDataSlot@TLINK@@QEAAAEAVBIG_INT@@XZ equ <__imp_?GetNextDataSlot@TLINK@@QEAAAEAVBIG_INT@@XZ>
+
+externdef __imp_?GetSnapshotGlobalDeviceName@SNAPSHOT@@QEAAPEAGXZ:PPROC
+?GetSnapshotGlobalDeviceName@SNAPSHOT@@QEAAPEAGXZ equ <__imp_?GetSnapshotGlobalDeviceName@SNAPSHOT@@QEAAPEAGXZ>
+
+externdef __imp_?GetSnapshotNtDeviceName@SNAPSHOT@@QEAAPEAGXZ:PPROC
+?GetSnapshotNtDeviceName@SNAPSHOT@@QEAAPEAGXZ equ <__imp_?GetSnapshotNtDeviceName@SNAPSHOT@@QEAAPEAGXZ>
+
+externdef __imp_?GetSortedFirst@TLINK@@QEAAPEAXXZ:PPROC
+?GetSortedFirst@TLINK@@QEAAPEAXXZ equ <__imp_?GetSortedFirst@TLINK@@QEAAPEAXXZ>
+
+externdef __imp_?GetSortedNext@TLINK@@QEAAPEAXPEAX@Z:PPROC
+?GetSortedNext@TLINK@@QEAAPEAXPEAX@Z equ <__imp_?GetSortedNext@TLINK@@QEAAPEAXPEAX@Z>
+
+externdef __imp_?GetVolumeSnapshot@SNAPSHOT@@SAEPEAVWSTRING@@PEAPEAV1@@Z:PPROC
+?GetVolumeSnapshot@SNAPSHOT@@SAEPEAVWSTRING@@PEAPEAV1@@Z equ <__imp_?GetVolumeSnapshot@SNAPSHOT@@SAEPEAVWSTRING@@PEAPEAV1@@Z>
+
+externdef __imp_?Initialize@CANNED_SECURITY@@QEAAEXZ:PPROC
+?Initialize@CANNED_SECURITY@@QEAAEXZ equ <__imp_?Initialize@CANNED_SECURITY@@QEAAEXZ>
+
+externdef __imp_?Initialize@DIGRAPH@@QEAAEK@Z:PPROC
+?Initialize@DIGRAPH@@QEAAEK@Z equ <__imp_?Initialize@DIGRAPH@@QEAAEK@Z>
+
+externdef __imp_?Initialize@DP_DRIVE@@QEAAEPEBVWSTRING@@0PEAVMESSAGE@@EE@Z:PPROC
+?Initialize@DP_DRIVE@@QEAAEPEBVWSTRING@@0PEAVMESSAGE@@EE@Z equ <__imp_?Initialize@DP_DRIVE@@QEAAEPEBVWSTRING@@0PEAVMESSAGE@@EE@Z>
+
+externdef __imp_?Initialize@DP_DRIVE@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@EEG@Z:PPROC
+?Initialize@DP_DRIVE@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@EEG@Z equ <__imp_?Initialize@DP_DRIVE@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@EEG@Z>
+
+externdef __imp_?Initialize@INTSTACK@@QEAAEXZ:PPROC
+?Initialize@INTSTACK@@QEAAEXZ equ <__imp_?Initialize@INTSTACK@@QEAAEXZ>
+
+externdef __imp_?Initialize@LOG_IO_DP_DRIVE@@QEAAEPEBVWSTRING@@0PEAVMESSAGE@@E@Z:PPROC
+?Initialize@LOG_IO_DP_DRIVE@@QEAAEPEBVWSTRING@@0PEAVMESSAGE@@E@Z equ <__imp_?Initialize@LOG_IO_DP_DRIVE@@QEAAEPEBVWSTRING@@0PEAVMESSAGE@@E@Z>
+
+externdef __imp_?Initialize@LOG_IO_DP_DRIVE@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@EG@Z:PPROC
+?Initialize@LOG_IO_DP_DRIVE@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@EG@Z equ <__imp_?Initialize@LOG_IO_DP_DRIVE@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@EG@Z>
+
+externdef __imp_?Initialize@MOUNT_POINT_MAP@@QEAAEXZ:PPROC
+?Initialize@MOUNT_POINT_MAP@@QEAAEXZ equ <__imp_?Initialize@MOUNT_POINT_MAP@@QEAAEXZ>
+
+externdef __imp_?Initialize@NUMBER_SET@@QEAAEXZ:PPROC
+?Initialize@NUMBER_SET@@QEAAEXZ equ <__imp_?Initialize@NUMBER_SET@@QEAAEXZ>
+
+externdef __imp_?Initialize@READ_CACHE@@QEAAEPEAVIO_DP_DRIVE@@K@Z:PPROC
+?Initialize@READ_CACHE@@QEAAEPEAVIO_DP_DRIVE@@K@Z equ <__imp_?Initialize@READ_CACHE@@QEAAEPEAVIO_DP_DRIVE@@K@Z>
+
+externdef __imp_?Initialize@READ_WRITE_CACHE@@QEAAEPEAVIO_DP_DRIVE@@K@Z:PPROC
+?Initialize@READ_WRITE_CACHE@@QEAAEPEAVIO_DP_DRIVE@@K@Z equ <__imp_?Initialize@READ_WRITE_CACHE@@QEAAEPEAVIO_DP_DRIVE@@K@Z>
+
+externdef __imp_?Initialize@SECRUN@@QEAAEPEAVMEM@@PEAVIO_DP_DRIVE@@VBIG_INT@@K@Z:PPROC
+?Initialize@SECRUN@@QEAAEPEAVMEM@@PEAVIO_DP_DRIVE@@VBIG_INT@@K@Z equ <__imp_?Initialize@SECRUN@@QEAAEPEAVMEM@@PEAVIO_DP_DRIVE@@VBIG_INT@@K@Z>
+
+externdef __imp_?Initialize@SNAPSHOT@@AEAAJPEAG@Z:PPROC
+?Initialize@SNAPSHOT@@AEAAJPEAG@Z equ <__imp_?Initialize@SNAPSHOT@@AEAAJPEAG@Z>
+
+externdef __imp_?Initialize@SPARSE_SET@@QEAAEXZ:PPROC
+?Initialize@SPARSE_SET@@QEAAEXZ equ <__imp_?Initialize@SPARSE_SET@@QEAAEXZ>
+
+externdef __imp_?Initialize@SUPERAREA@@IEAAEPEAVMEM@@PEAVLOG_IO_DP_DRIVE@@KPEAVMESSAGE@@@Z:PPROC
+?Initialize@SUPERAREA@@IEAAEPEAVMEM@@PEAVLOG_IO_DP_DRIVE@@KPEAVMESSAGE@@@Z equ <__imp_?Initialize@SUPERAREA@@IEAAEPEAVMEM@@PEAVLOG_IO_DP_DRIVE@@KPEAVMESSAGE@@@Z>
+
+externdef __imp_?Initialize@TLINK@@QEAAEG@Z:PPROC
+?Initialize@TLINK@@QEAAEG@Z equ <__imp_?Initialize@TLINK@@QEAAEG@Z>
+
+externdef __imp_?Initialize@VOL_LIODPDRV@@IEAA?AW4FORMAT_ERROR_CODE@@PEBVWSTRING@@PEAVSUPERAREA@@PEAVMESSAGE@@EEW4_MEDIA_TYPE@@GE@Z:PPROC
+?Initialize@VOL_LIODPDRV@@IEAA?AW4FORMAT_ERROR_CODE@@PEBVWSTRING@@PEAVSUPERAREA@@PEAVMESSAGE@@EEW4_MEDIA_TYPE@@GE@Z equ <__imp_?Initialize@VOL_LIODPDRV@@IEAA?AW4FORMAT_ERROR_CODE@@PEBVWSTRING@@PEAVSUPERAREA@@PEAVMESSAGE@@EEW4_MEDIA_TYPE@@GE@Z>
+
+externdef __imp_?Initialize@VOL_LIODPDRV@@IEAAEPEBVWSTRING@@0PEAVSUPERAREA@@PEAVMESSAGE@@E@Z:PPROC
+?Initialize@VOL_LIODPDRV@@IEAAEPEBVWSTRING@@0PEAVSUPERAREA@@PEAVMESSAGE@@E@Z equ <__imp_?Initialize@VOL_LIODPDRV@@IEAAEPEBVWSTRING@@0PEAVSUPERAREA@@PEAVMESSAGE@@E@Z>
+
+externdef __imp_?InvalidateVolume@IO_DP_DRIVE@@QEAAEXZ:PPROC
+?InvalidateVolume@IO_DP_DRIVE@@QEAAEXZ equ <__imp_?InvalidateVolume@IO_DP_DRIVE@@QEAAEXZ>
+
+externdef __imp_?IsArcSystemPartition@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAE@Z:PPROC
+?IsArcSystemPartition@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAE@Z equ <__imp_?IsArcSystemPartition@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAE@Z>
+
+externdef __imp_?IsEntryPresent@AUTOREG@@SAEPEBVWSTRING@@0@Z:PPROC
+?IsEntryPresent@AUTOREG@@SAEPEBVWSTRING@@0@Z equ <__imp_?IsEntryPresent@AUTOREG@@SAEPEBVWSTRING@@0@Z>
+
+externdef __imp_?IsEntryPresent@AUTOREG@@SAEPEBVWSTRING@@@Z:PPROC
+?IsEntryPresent@AUTOREG@@SAEPEBVWSTRING@@@Z equ <__imp_?IsEntryPresent@AUTOREG@@SAEPEBVWSTRING@@@Z>
+
+externdef __imp_?IsFileSystemEnabled@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAE@Z:PPROC
+?IsFileSystemEnabled@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAE@Z equ <__imp_?IsFileSystemEnabled@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAE@Z>
+
+externdef __imp_?IsFrontEndPresent@AUTOREG@@SAEPEBVWSTRING@@0@Z:PPROC
+?IsFrontEndPresent@AUTOREG@@SAEPEBVWSTRING@@0@Z equ <__imp_?IsFrontEndPresent@AUTOREG@@SAEPEBVWSTRING@@0@Z>
+
+externdef __imp_?IsThisNtfs@IFS_SYSTEM@@SAEVBIG_INT@@KPEAX@Z:PPROC
+?IsThisNtfs@IFS_SYSTEM@@SAEVBIG_INT@@KPEAX@Z equ <__imp_?IsThisNtfs@IFS_SYSTEM@@SAEVBIG_INT@@KPEAX@Z>
+
+externdef __imp_?IsVolumeDirty@IFS_SYSTEM@@SAEPEAVWSTRING@@PEAE@Z:PPROC
+?IsVolumeDirty@IFS_SYSTEM@@SAEPEAVWSTRING@@PEAE@Z equ <__imp_?IsVolumeDirty@IFS_SYSTEM@@SAEPEAVWSTRING@@PEAE@Z>
+
+externdef __imp_?Lock@IO_DP_DRIVE@@QEAAEXZ:PPROC
+?Lock@IO_DP_DRIVE@@QEAAEXZ equ <__imp_?Lock@IO_DP_DRIVE@@QEAAEXZ>
+
+externdef __imp_?Look@INTSTACK@@QEBA?AVBIG_INT@@K@Z:PPROC
+?Look@INTSTACK@@QEBA?AVBIG_INT@@K@Z equ <__imp_?Look@INTSTACK@@QEBA?AVBIG_INT@@K@Z>
+
+externdef __imp_?NtDriveNameToDosDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z:PPROC
+?NtDriveNameToDosDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z equ <__imp_?NtDriveNameToDosDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z>
+
+externdef __imp_?Pop@INTSTACK@@QEAAXK@Z:PPROC
+?Pop@INTSTACK@@QEAAXK@Z equ <__imp_?Pop@INTSTACK@@QEAAXK@Z>
+
+externdef __imp_?Push@INTSTACK@@QEAAEVBIG_INT@@@Z:PPROC
+?Push@INTSTACK@@QEAAEVBIG_INT@@@Z equ <__imp_?Push@INTSTACK@@QEAAEVBIG_INT@@@Z>
+
+externdef __imp_?PushEntry@AUTOREG@@SAEPEBVWSTRING@@@Z:PPROC
+?PushEntry@AUTOREG@@SAEPEBVWSTRING@@@Z equ <__imp_?PushEntry@AUTOREG@@SAEPEBVWSTRING@@@Z>
+
+externdef __imp_?QueryAutochkTimeOut@VOL_LIODPDRV@@SAEPEAK@Z:PPROC
+?QueryAutochkTimeOut@VOL_LIODPDRV@@SAEPEAK@Z equ <__imp_?QueryAutochkTimeOut@VOL_LIODPDRV@@SAEPEAK@Z>
+
+externdef __imp_?QueryCanonicalNtDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z:PPROC
+?QueryCanonicalNtDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z equ <__imp_?QueryCanonicalNtDriveName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@@Z>
+
+externdef __imp_?QueryChildren@DIGRAPH@@QEBAEKPEAVNUMBER_SET@@@Z:PPROC
+?QueryChildren@DIGRAPH@@QEBAEKPEAVNUMBER_SET@@@Z equ <__imp_?QueryChildren@DIGRAPH@@QEBAEKPEAVNUMBER_SET@@@Z>
+
+externdef __imp_?QueryCompressedInteger@BIG_INT@@QEBAXPEAE0@Z:PPROC
+?QueryCompressedInteger@BIG_INT@@QEBAXPEAE0@Z equ <__imp_?QueryCompressedInteger@BIG_INT@@QEBAXPEAE0@Z>
+
+externdef __imp_?QueryContainingRange@NUMBER_SET@@QEBAEVBIG_INT@@PEAV2@1@Z:PPROC
+?QueryContainingRange@NUMBER_SET@@QEBAEVBIG_INT@@PEAV2@1@Z equ <__imp_?QueryContainingRange@NUMBER_SET@@QEBAEVBIG_INT@@PEAV2@1@Z>
+
+externdef __imp_?QueryDisjointRange@NUMBER_SET@@QEBAXKPEAVBIG_INT@@0@Z:PPROC
+?QueryDisjointRange@NUMBER_SET@@QEBAXKPEAVBIG_INT@@0@Z equ <__imp_?QueryDisjointRange@NUMBER_SET@@QEBAXKPEAVBIG_INT@@0@Z>
+
+externdef __imp_?QueryDisjointRangeAndAssignBuffer@TLINK@@QEAAPEAXPEAVBIG_INT@@PEAG1PEAXK2@Z:PPROC
+?QueryDisjointRangeAndAssignBuffer@TLINK@@QEAAPEAXPEAVBIG_INT@@PEAG1PEAXK2@Z equ <__imp_?QueryDisjointRangeAndAssignBuffer@TLINK@@QEAAPEAXPEAVBIG_INT@@PEAG1PEAXK2@Z>
+
+externdef __imp_?QueryDriveHandle@DP_DRIVE@@QEBAPEAXXZ:PPROC
+?QueryDriveHandle@DP_DRIVE@@QEBAPEAXXZ equ <__imp_?QueryDriveHandle@DP_DRIVE@@QEBAPEAXXZ>
+
+externdef __imp_?QueryDriveName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z:PPROC
+?QueryDriveName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z equ <__imp_?QueryDriveName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z>
+
+externdef __imp_?QueryDriveType@DP_DRIVE@@QEBA?AW4DRIVE_TYPE@@XZ:PPROC
+?QueryDriveType@DP_DRIVE@@QEBA?AW4DRIVE_TYPE@@XZ equ <__imp_?QueryDriveType@DP_DRIVE@@QEBA?AW4DRIVE_TYPE@@XZ>
+
+externdef __imp_?QueryFileSystemName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@PEAJ1@Z:PPROC
+?QueryFileSystemName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@PEAJ1@Z equ <__imp_?QueryFileSystemName@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAV2@PEAJ1@Z>
+
+externdef __imp_?QueryFreeDiskSpace@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAVBIG_INT@@@Z:PPROC
+?QueryFreeDiskSpace@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAVBIG_INT@@@Z equ <__imp_?QueryFreeDiskSpace@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAVBIG_INT@@@Z>
+
+externdef __imp_?QueryMachineUniqueToken@@YAKXZ:PPROC
+?QueryMachineUniqueToken@@YAKXZ equ <__imp_?QueryMachineUniqueToken@@YAKXZ>
+
+externdef __imp_?QueryMediaByte@DP_DRIVE@@QEBAEXZ:PPROC
+?QueryMediaByte@DP_DRIVE@@QEBAEXZ equ <__imp_?QueryMediaByte@DP_DRIVE@@QEBAEXZ>
+
+externdef __imp_?QueryMemberCount@TLINK@@QEBAGXZ:PPROC
+?QueryMemberCount@TLINK@@QEBAGXZ equ <__imp_?QueryMemberCount@TLINK@@QEBAGXZ>
+
+externdef __imp_?QueryMrwSupport@DP_DRIVE@@SAEPEAX@Z:PPROC
+?QueryMrwSupport@DP_DRIVE@@SAEPEAX@Z equ <__imp_?QueryMrwSupport@DP_DRIVE@@SAEPEAX@Z>
+
+externdef __imp_?QueryNtfsSupportInfo@DP_DRIVE@@SAJPEAXPEAE@Z:PPROC
+?QueryNtfsSupportInfo@DP_DRIVE@@SAJPEAXPEAE@Z equ <__imp_?QueryNtfsSupportInfo@DP_DRIVE@@SAJPEAXPEAE@Z>
+
+externdef __imp_?QueryNtfsTime@IFS_SYSTEM@@SAXPEAT_LARGE_INTEGER@@@Z:PPROC
+?QueryNtfsTime@IFS_SYSTEM@@SAXPEAT_LARGE_INTEGER@@@Z equ <__imp_?QueryNtfsTime@IFS_SYSTEM@@SAXPEAT_LARGE_INTEGER@@@Z>
+
+externdef __imp_?QueryNtfsVersion@IFS_SYSTEM@@SAEPEAE0PEAVLOG_IO_DP_DRIVE@@PEAX@Z:PPROC
+?QueryNtfsVersion@IFS_SYSTEM@@SAEPEAE0PEAVLOG_IO_DP_DRIVE@@PEAX@Z equ <__imp_?QueryNtfsVersion@IFS_SYSTEM@@SAEPEAE0PEAVLOG_IO_DP_DRIVE@@PEAX@Z>
+
+externdef __imp_?QueryNumber@NUMBER_SET@@QEBA?AVBIG_INT@@V2@@Z:PPROC
+?QueryNumber@NUMBER_SET@@QEBA?AVBIG_INT@@V2@@Z equ <__imp_?QueryNumber@NUMBER_SET@@QEBA?AVBIG_INT@@V2@@Z>
+
+externdef __imp_?QueryPageSize@IFS_SYSTEM@@SAKXZ:PPROC
+?QueryPageSize@IFS_SYSTEM@@SAKXZ equ <__imp_?QueryPageSize@IFS_SYSTEM@@SAKXZ>
+
+externdef __imp_?QueryParents@DIGRAPH@@QEBAEKPEAVNUMBER_SET@@@Z:PPROC
+?QueryParents@DIGRAPH@@QEBAEKPEAVNUMBER_SET@@@Z equ <__imp_?QueryParents@DIGRAPH@@QEBAEKPEAVNUMBER_SET@@@Z>
+
+externdef __imp_?QueryParentsWithChildren@DIGRAPH@@QEBAEPEAVNUMBER_SET@@K@Z:PPROC
+?QueryParentsWithChildren@DIGRAPH@@QEBAEPEAVNUMBER_SET@@K@Z equ <__imp_?QueryParentsWithChildren@DIGRAPH@@QEBAEPEAVNUMBER_SET@@K@Z>
+
+externdef __imp_?QueryRecommendedMediaType@DP_DRIVE@@QEBA?AW4_MEDIA_TYPE@@XZ:PPROC
+?QueryRecommendedMediaType@DP_DRIVE@@QEBA?AW4_MEDIA_TYPE@@XZ equ <__imp_?QueryRecommendedMediaType@DP_DRIVE@@QEBA?AW4_MEDIA_TYPE@@XZ>
+
+externdef __imp_?QuerySectorSize@DP_DRIVE@@UEBAKXZ:PPROC
+?QuerySectorSize@DP_DRIVE@@UEBAKXZ equ <__imp_?QuerySectorSize@DP_DRIVE@@UEBAKXZ>
+
+externdef __imp_?QuerySectors@DP_DRIVE@@UEBA?AVBIG_INT@@XZ:PPROC
+?QuerySectors@DP_DRIVE@@UEBA?AVBIG_INT@@XZ equ <__imp_?QuerySectors@DP_DRIVE@@UEBA?AVBIG_INT@@XZ>
+
+externdef __imp_?QuerySize@TLINK@@QEBAGXZ:PPROC
+?QuerySize@TLINK@@QEBAGXZ equ <__imp_?QuerySize@TLINK@@QEBAGXZ>
+
+externdef __imp_?QueryVolumeName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z:PPROC
+?QueryVolumeName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z equ <__imp_?QueryVolumeName@MOUNT_POINT_MAP@@QEAAEPEAVWSTRING@@0@Z>
+
+externdef __imp_?Read@IO_DP_DRIVE@@QEAAEVBIG_INT@@KPEAX@Z:PPROC
+?Read@IO_DP_DRIVE@@QEAAEVBIG_INT@@KPEAX@Z equ <__imp_?Read@IO_DP_DRIVE@@QEAAEVBIG_INT@@KPEAX@Z>
+
+externdef __imp_?Read@SECRUN@@UEAAEXZ:PPROC
+?Read@SECRUN@@UEAAEXZ equ <__imp_?Read@SECRUN@@UEAAEXZ>
+
+externdef __imp_?Recover@VOL_LIODPDRV@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@@Z:PPROC
+?Recover@VOL_LIODPDRV@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@@Z equ <__imp_?Recover@VOL_LIODPDRV@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@@Z>
+
+externdef __imp_?ReleaseVolumeSnapshot@SNAPSHOT@@SAEPEAV1@@Z:PPROC
+?ReleaseVolumeSnapshot@SNAPSHOT@@SAEPEAV1@@Z equ <__imp_?ReleaseVolumeSnapshot@SNAPSHOT@@SAEPEAV1@@Z>
+
+externdef __imp_?Remove@NUMBER_SET@@QEAAEPEBV1@@Z:PPROC
+?Remove@NUMBER_SET@@QEAAEPEBV1@@Z equ <__imp_?Remove@NUMBER_SET@@QEAAEPEBV1@@Z>
+
+externdef __imp_?Remove@NUMBER_SET@@QEAAEVBIG_INT@@0@Z:PPROC
+?Remove@NUMBER_SET@@QEAAEVBIG_INT@@0@Z equ <__imp_?Remove@NUMBER_SET@@QEAAEVBIG_INT@@0@Z>
+
+externdef __imp_?Remove@NUMBER_SET@@QEAAEVBIG_INT@@@Z:PPROC
+?Remove@NUMBER_SET@@QEAAEVBIG_INT@@@Z equ <__imp_?Remove@NUMBER_SET@@QEAAEVBIG_INT@@@Z>
+
+externdef __imp_?RemoveAll@NUMBER_SET@@QEAAEXZ:PPROC
+?RemoveAll@NUMBER_SET@@QEAAEXZ equ <__imp_?RemoveAll@NUMBER_SET@@QEAAEXZ>
+
+externdef __imp_?RemoveAll@SPARSE_SET@@QEAAEXZ:PPROC
+?RemoveAll@SPARSE_SET@@QEAAEXZ equ <__imp_?RemoveAll@SPARSE_SET@@QEAAEXZ>
+
+externdef __imp_?RemoveEdge@DIGRAPH@@QEAAEKK@Z:PPROC
+?RemoveEdge@DIGRAPH@@QEAAEKK@Z equ <__imp_?RemoveEdge@DIGRAPH@@QEAAEKK@Z>
+
+externdef __imp_?RestoreThreadExecutionState@@YAXJK@Z:PPROC
+?RestoreThreadExecutionState@@YAXJK@Z equ <__imp_?RestoreThreadExecutionState@@YAXJK@Z>
+
+externdef __imp_?ReverseCopy@INTSTACK@@QEAAEPEAV1@@Z:PPROC
+?ReverseCopy@INTSTACK@@QEAAEPEAV1@@Z equ <__imp_?ReverseCopy@INTSTACK@@QEAAEPEAV1@@Z>
+
+externdef __imp_?SendSonyMSFormatCmd@DP_DRIVE@@QEAAEXZ:PPROC
+?SendSonyMSFormatCmd@DP_DRIVE@@QEAAEXZ equ <__imp_?SendSonyMSFormatCmd@DP_DRIVE@@QEAAEXZ>
+
+externdef __imp_?SendSonyMSInquiryCmd@DP_DRIVE@@QEAAEPEAUSONY_MS_INQUIRY_DATA@@@Z:PPROC
+?SendSonyMSInquiryCmd@DP_DRIVE@@QEAAEPEAUSONY_MS_INQUIRY_DATA@@@Z equ <__imp_?SendSonyMSInquiryCmd@DP_DRIVE@@QEAAEPEAUSONY_MS_INQUIRY_DATA@@@Z>
+
+externdef __imp_?SendSonyMSModeSenseCmd@DP_DRIVE@@QEAAEPEAUSONY_MS_MODE_SENSE_DATA@@@Z:PPROC
+?SendSonyMSModeSenseCmd@DP_DRIVE@@QEAAEPEAUSONY_MS_MODE_SENSE_DATA@@@Z equ <__imp_?SendSonyMSModeSenseCmd@DP_DRIVE@@QEAAEPEAUSONY_MS_MODE_SENSE_DATA@@@Z>
+
+externdef __imp_?SendSonyMSRequestSenseCmd@DP_DRIVE@@QEAAEPEAU_SENSE_DATA@@@Z:PPROC
+?SendSonyMSRequestSenseCmd@DP_DRIVE@@QEAAEPEAU_SENSE_DATA@@@Z equ <__imp_?SendSonyMSRequestSenseCmd@DP_DRIVE@@QEAAEPEAU_SENSE_DATA@@@Z>
+
+externdef __imp_?SendSonyMSTestUnitReadyCmd@DP_DRIVE@@QEAAEPEAU_SENSE_DATA@@@Z:PPROC
+?SendSonyMSTestUnitReadyCmd@DP_DRIVE@@QEAAEPEAU_SENSE_DATA@@@Z equ <__imp_?SendSonyMSTestUnitReadyCmd@DP_DRIVE@@QEAAEPEAU_SENSE_DATA@@@Z>
+
+externdef __imp_?Set@BIG_INT@@QEAAXEPEBE@Z:PPROC
+?Set@BIG_INT@@QEAAXEPEBE@Z equ <__imp_?Set@BIG_INT@@QEAAXEPEBE@Z>
+
+externdef __imp_?SetAutochkTimeOut@VOL_LIODPDRV@@SAEK@Z:PPROC
+?SetAutochkTimeOut@VOL_LIODPDRV@@SAEK@Z equ <__imp_?SetAutochkTimeOut@VOL_LIODPDRV@@SAEK@Z>
+
+externdef __imp_?SetCache@IO_DP_DRIVE@@QEAAXPEAVDRIVE_CACHE@@@Z:PPROC
+?SetCache@IO_DP_DRIVE@@QEAAXPEAVDRIVE_CACHE@@@Z equ <__imp_?SetCache@IO_DP_DRIVE@@QEAAXPEAVDRIVE_CACHE@@@Z>
+
+externdef __imp_?SetSystemId@LOG_IO_DP_DRIVE@@QEAAEE@Z:PPROC
+?SetSystemId@LOG_IO_DP_DRIVE@@QEAAEE@Z equ <__imp_?SetSystemId@LOG_IO_DP_DRIVE@@QEAAEE@Z>
+
+externdef __imp_?SetVolumeLabelAndPrintFormatReport@VOL_LIODPDRV@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@@Z:PPROC
+?SetVolumeLabelAndPrintFormatReport@VOL_LIODPDRV@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@@Z equ <__imp_?SetVolumeLabelAndPrintFormatReport@VOL_LIODPDRV@@QEAAEPEBVWSTRING@@PEAVMESSAGE@@@Z>
+
+externdef __imp_?ShellSort@TLINK@@QEAAXXZ:PPROC
+?ShellSort@TLINK@@QEAAXXZ equ <__imp_?ShellSort@TLINK@@QEAAXXZ>
+
+externdef __imp_?Sort@TLINK@@QEAAXXZ:PPROC
+?Sort@TLINK@@QEAAXXZ equ <__imp_?Sort@TLINK@@QEAAXXZ>
+
+externdef __imp_?Verify@IO_DP_DRIVE@@QEAAEVBIG_INT@@0@Z:PPROC
+?Verify@IO_DP_DRIVE@@QEAAEVBIG_INT@@0@Z equ <__imp_?Verify@IO_DP_DRIVE@@QEAAEVBIG_INT@@0@Z>
+
+externdef __imp_?Verify@IO_DP_DRIVE@@QEAAEVBIG_INT@@0PEAVNUMBER_SET@@@Z:PPROC
+?Verify@IO_DP_DRIVE@@QEAAEVBIG_INT@@0PEAVNUMBER_SET@@@Z equ <__imp_?Verify@IO_DP_DRIVE@@QEAAEVBIG_INT@@0PEAVNUMBER_SET@@@Z>
+
+externdef __imp_?Write@IO_DP_DRIVE@@QEAAEVBIG_INT@@KPEAX@Z:PPROC
+?Write@IO_DP_DRIVE@@QEAAEVBIG_INT@@KPEAX@Z equ <__imp_?Write@IO_DP_DRIVE@@QEAAEVBIG_INT@@KPEAX@Z>
+
+externdef __imp_?Write@SECRUN@@UEAAEXZ:PPROC
+?Write@SECRUN@@UEAAEXZ equ <__imp_?Write@SECRUN@@UEAAEXZ>
+
+externdef __imp_?WriteToFile@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAXKE@Z:PPROC
+?WriteToFile@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAXKE@Z equ <__imp_?WriteToFile@IFS_SYSTEM@@SAEPEBVWSTRING@@PEAXKE@Z>

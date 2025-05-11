@@ -1,0 +1,1754 @@
+externdef __imp_CStdStubBuffer_AddRef:PPROC
+CStdStubBuffer_AddRef equ <__imp_CStdStubBuffer_AddRef>
+
+externdef __imp_CStdStubBuffer_Connect:PPROC
+CStdStubBuffer_Connect equ <__imp_CStdStubBuffer_Connect>
+
+externdef __imp_CStdStubBuffer_CountRefs:PPROC
+CStdStubBuffer_CountRefs equ <__imp_CStdStubBuffer_CountRefs>
+
+externdef __imp_CStdStubBuffer_DebugServerQueryInterface:PPROC
+CStdStubBuffer_DebugServerQueryInterface equ <__imp_CStdStubBuffer_DebugServerQueryInterface>
+
+externdef __imp_CStdStubBuffer_DebugServerRelease:PPROC
+CStdStubBuffer_DebugServerRelease equ <__imp_CStdStubBuffer_DebugServerRelease>
+
+externdef __imp_CStdStubBuffer_Disconnect:PPROC
+CStdStubBuffer_Disconnect equ <__imp_CStdStubBuffer_Disconnect>
+
+externdef __imp_CStdStubBuffer_Invoke:PPROC
+CStdStubBuffer_Invoke equ <__imp_CStdStubBuffer_Invoke>
+
+externdef __imp_CStdStubBuffer_IsIIDSupported:PPROC
+CStdStubBuffer_IsIIDSupported equ <__imp_CStdStubBuffer_IsIIDSupported>
+
+externdef __imp_CStdStubBuffer_QueryInterface:PPROC
+CStdStubBuffer_QueryInterface equ <__imp_CStdStubBuffer_QueryInterface>
+
+externdef __imp_CreateProxyFromTypeInfo:PPROC
+CreateProxyFromTypeInfo equ <__imp_CreateProxyFromTypeInfo>
+
+externdef __imp_CreateStubFromTypeInfo:PPROC
+CreateStubFromTypeInfo equ <__imp_CreateStubFromTypeInfo>
+
+externdef __imp_DceErrorInqTextA:PPROC
+DceErrorInqTextA equ <__imp_DceErrorInqTextA>
+  IFNDEF __UNICODE__
+    DceErrorInqText equ <__imp_DceErrorInqTextA>
+  ENDIF
+
+externdef __imp_DceErrorInqTextW:PPROC
+DceErrorInqTextW equ <__imp_DceErrorInqTextW>
+  IFDEF __UNICODE__
+    DceErrorInqText equ <__imp_DceErrorInqTextW>
+  ENDIF
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllInstall:PPROC
+DllInstall equ <__imp_DllInstall>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_GlobalMutexClearExternal:PPROC
+GlobalMutexClearExternal equ <__imp_GlobalMutexClearExternal>
+
+externdef __imp_GlobalMutexRequestExternal:PPROC
+GlobalMutexRequestExternal equ <__imp_GlobalMutexRequestExternal>
+
+externdef __imp_IUnknown_AddRef_Proxy:PPROC
+IUnknown_AddRef_Proxy equ <__imp_IUnknown_AddRef_Proxy>
+
+externdef __imp_IUnknown_QueryInterface_Proxy:PPROC
+IUnknown_QueryInterface_Proxy equ <__imp_IUnknown_QueryInterface_Proxy>
+
+externdef __imp_IUnknown_Release_Proxy:PPROC
+IUnknown_Release_Proxy equ <__imp_IUnknown_Release_Proxy>
+
+externdef __imp_I_RpcAbortAsyncCall:PPROC
+I_RpcAbortAsyncCall equ <__imp_I_RpcAbortAsyncCall>
+
+externdef __imp_I_RpcAllocate:PPROC
+I_RpcAllocate equ <__imp_I_RpcAllocate>
+
+externdef __imp_I_RpcAsyncAbortCall:PPROC
+I_RpcAsyncAbortCall equ <__imp_I_RpcAsyncAbortCall>
+
+externdef __imp_I_RpcAsyncSetHandle:PPROC
+I_RpcAsyncSetHandle equ <__imp_I_RpcAsyncSetHandle>
+
+externdef __imp_I_RpcBCacheAllocate:PPROC
+I_RpcBCacheAllocate equ <__imp_I_RpcBCacheAllocate>
+
+externdef __imp_I_RpcBCacheFree:PPROC
+I_RpcBCacheFree equ <__imp_I_RpcBCacheFree>
+
+externdef __imp_I_RpcBindingCopy:PPROC
+I_RpcBindingCopy equ <__imp_I_RpcBindingCopy>
+
+externdef __imp_I_RpcBindingHandleToAsyncHandle:PPROC
+I_RpcBindingHandleToAsyncHandle equ <__imp_I_RpcBindingHandleToAsyncHandle>
+
+externdef __imp_I_RpcBindingInqConnId:PPROC
+I_RpcBindingInqConnId equ <__imp_I_RpcBindingInqConnId>
+
+externdef __imp_I_RpcBindingInqDynamicEndpoint:PPROC
+I_RpcBindingInqDynamicEndpoint equ <__imp_I_RpcBindingInqDynamicEndpoint>
+
+externdef __imp_I_RpcBindingInqDynamicEndpointA:PPROC
+I_RpcBindingInqDynamicEndpointA equ <__imp_I_RpcBindingInqDynamicEndpointA>
+  IFNDEF __UNICODE__
+    I_RpcBindingInqDynamicEndpoint equ <__imp_I_RpcBindingInqDynamicEndpointA>
+  ENDIF
+
+externdef __imp_I_RpcBindingInqDynamicEndpointW:PPROC
+I_RpcBindingInqDynamicEndpointW equ <__imp_I_RpcBindingInqDynamicEndpointW>
+  IFDEF __UNICODE__
+    I_RpcBindingInqDynamicEndpoint equ <__imp_I_RpcBindingInqDynamicEndpointW>
+  ENDIF
+
+externdef __imp_I_RpcBindingInqLocalClientPID:PPROC
+I_RpcBindingInqLocalClientPID equ <__imp_I_RpcBindingInqLocalClientPID>
+
+externdef __imp_I_RpcBindingInqMarshalledTargetInfo:PPROC
+I_RpcBindingInqMarshalledTargetInfo equ <__imp_I_RpcBindingInqMarshalledTargetInfo>
+
+externdef __imp_I_RpcBindingInqSecurityContext:PPROC
+I_RpcBindingInqSecurityContext equ <__imp_I_RpcBindingInqSecurityContext>
+
+externdef __imp_I_RpcBindingInqTransportType:PPROC
+I_RpcBindingInqTransportType equ <__imp_I_RpcBindingInqTransportType>
+
+externdef __imp_I_RpcBindingInqWireIdForSnego:PPROC
+I_RpcBindingInqWireIdForSnego equ <__imp_I_RpcBindingInqWireIdForSnego>
+
+externdef __imp_I_RpcBindingIsClientLocal:PPROC
+I_RpcBindingIsClientLocal equ <__imp_I_RpcBindingIsClientLocal>
+
+externdef __imp_I_RpcBindingToStaticStringBindingW:PPROC
+I_RpcBindingToStaticStringBindingW equ <__imp_I_RpcBindingToStaticStringBindingW>
+  IFDEF __UNICODE__
+    I_RpcBindingToStaticStringBinding equ <__imp_I_RpcBindingToStaticStringBindingW>
+  ENDIF
+
+externdef __imp_I_RpcClearMutex:PPROC
+I_RpcClearMutex equ <__imp_I_RpcClearMutex>
+
+externdef __imp_I_RpcConnectionInqSockBuffSize:PPROC
+I_RpcConnectionInqSockBuffSize equ <__imp_I_RpcConnectionInqSockBuffSize>
+
+externdef __imp_I_RpcConnectionSetSockBuffSize:PPROC
+I_RpcConnectionSetSockBuffSize equ <__imp_I_RpcConnectionSetSockBuffSize>
+
+externdef __imp_I_RpcDeleteMutex:PPROC
+I_RpcDeleteMutex equ <__imp_I_RpcDeleteMutex>
+
+externdef __imp_I_RpcEnableWmiTrace:PPROC
+I_RpcEnableWmiTrace equ <__imp_I_RpcEnableWmiTrace>
+
+externdef __imp_I_RpcExceptionFilter:PPROC
+I_RpcExceptionFilter equ <__imp_I_RpcExceptionFilter>
+
+externdef __imp_I_RpcFree:PPROC
+I_RpcFree equ <__imp_I_RpcFree>
+
+externdef __imp_I_RpcFreeBuffer:PPROC
+I_RpcFreeBuffer equ <__imp_I_RpcFreeBuffer>
+
+externdef __imp_I_RpcFreePipeBuffer:PPROC
+I_RpcFreePipeBuffer equ <__imp_I_RpcFreePipeBuffer>
+
+externdef __imp_I_RpcGetBuffer:PPROC
+I_RpcGetBuffer equ <__imp_I_RpcGetBuffer>
+
+externdef __imp_I_RpcGetBufferWithObject:PPROC
+I_RpcGetBufferWithObject equ <__imp_I_RpcGetBufferWithObject>
+
+externdef __imp_I_RpcGetCurrentCallHandle:PPROC
+I_RpcGetCurrentCallHandle equ <__imp_I_RpcGetCurrentCallHandle>
+
+externdef __imp_I_RpcGetExtendedError:PPROC
+I_RpcGetExtendedError equ <__imp_I_RpcGetExtendedError>
+
+externdef __imp_I_RpcIfInqTransferSyntaxes:PPROC
+I_RpcIfInqTransferSyntaxes equ <__imp_I_RpcIfInqTransferSyntaxes>
+
+externdef __imp_I_RpcLogEvent:PPROC
+I_RpcLogEvent equ <__imp_I_RpcLogEvent>
+
+externdef __imp_I_RpcMapWin32Status:PPROC
+I_RpcMapWin32Status equ <__imp_I_RpcMapWin32Status>
+
+externdef __imp_I_RpcNDRCGetWireRepresentation:PPROC
+I_RpcNDRCGetWireRepresentation equ <__imp_I_RpcNDRCGetWireRepresentation>
+
+externdef __imp_I_RpcNDRSContextEmergencyCleanup:PPROC
+I_RpcNDRSContextEmergencyCleanup equ <__imp_I_RpcNDRSContextEmergencyCleanup>
+
+externdef __imp_I_RpcNegotiateTransferSyntax:PPROC
+I_RpcNegotiateTransferSyntax equ <__imp_I_RpcNegotiateTransferSyntax>
+
+externdef __imp_I_RpcNsBindingSetEntryName:PPROC
+I_RpcNsBindingSetEntryName equ <__imp_I_RpcNsBindingSetEntryName>
+
+externdef __imp_I_RpcNsBindingSetEntryNameA:PPROC
+I_RpcNsBindingSetEntryNameA equ <__imp_I_RpcNsBindingSetEntryNameA>
+  IFNDEF __UNICODE__
+    I_RpcNsBindingSetEntryName equ <__imp_I_RpcNsBindingSetEntryNameA>
+  ENDIF
+
+externdef __imp_I_RpcNsBindingSetEntryNameW:PPROC
+I_RpcNsBindingSetEntryNameW equ <__imp_I_RpcNsBindingSetEntryNameW>
+  IFDEF __UNICODE__
+    I_RpcNsBindingSetEntryName equ <__imp_I_RpcNsBindingSetEntryNameW>
+  ENDIF
+
+externdef __imp_I_RpcNsInterfaceExported:PPROC
+I_RpcNsInterfaceExported equ <__imp_I_RpcNsInterfaceExported>
+
+externdef __imp_I_RpcNsInterfaceUnexported:PPROC
+I_RpcNsInterfaceUnexported equ <__imp_I_RpcNsInterfaceUnexported>
+
+externdef __imp_I_RpcParseSecurity:PPROC
+I_RpcParseSecurity equ <__imp_I_RpcParseSecurity>
+
+externdef __imp_I_RpcPauseExecution:PPROC
+I_RpcPauseExecution equ <__imp_I_RpcPauseExecution>
+
+externdef __imp_I_RpcProxyNewConnection:PPROC
+I_RpcProxyNewConnection equ <__imp_I_RpcProxyNewConnection>
+
+externdef __imp_I_RpcReallocPipeBuffer:PPROC
+I_RpcReallocPipeBuffer equ <__imp_I_RpcReallocPipeBuffer>
+
+externdef __imp_I_RpcReceive:PPROC
+I_RpcReceive equ <__imp_I_RpcReceive>
+
+externdef __imp_I_RpcRecordCalloutFailure:PPROC
+I_RpcRecordCalloutFailure equ <__imp_I_RpcRecordCalloutFailure>
+
+externdef __imp_I_RpcReplyToClientWithStatus:PPROC
+I_RpcReplyToClientWithStatus equ <__imp_I_RpcReplyToClientWithStatus>
+
+externdef __imp_I_RpcRequestMutex:PPROC
+I_RpcRequestMutex equ <__imp_I_RpcRequestMutex>
+
+externdef __imp_I_RpcSNCHOption:PPROC
+I_RpcSNCHOption equ <__imp_I_RpcSNCHOption>
+
+externdef __imp_I_RpcSend:PPROC
+I_RpcSend equ <__imp_I_RpcSend>
+
+externdef __imp_I_RpcSendReceive:PPROC
+I_RpcSendReceive equ <__imp_I_RpcSendReceive>
+
+externdef __imp_I_RpcServerAllocateIpPort:PPROC
+I_RpcServerAllocateIpPort equ <__imp_I_RpcServerAllocateIpPort>
+
+externdef __imp_I_RpcServerCheckClientRestriction:PPROC
+I_RpcServerCheckClientRestriction equ <__imp_I_RpcServerCheckClientRestriction>
+
+externdef __imp_I_RpcServerInqAddressChangeFn:PPROC
+I_RpcServerInqAddressChangeFn equ <__imp_I_RpcServerInqAddressChangeFn>
+
+externdef __imp_I_RpcServerInqLocalConnAddress:PPROC
+I_RpcServerInqLocalConnAddress equ <__imp_I_RpcServerInqLocalConnAddress>
+
+externdef __imp_I_RpcServerInqTransportType:PPROC
+I_RpcServerInqTransportType equ <__imp_I_RpcServerInqTransportType>
+
+externdef __imp_I_RpcServerIsClientDisconnected:PPROC
+I_RpcServerIsClientDisconnected equ <__imp_I_RpcServerIsClientDisconnected>
+
+externdef __imp_I_RpcServerRegisterForwardFunction:PPROC
+I_RpcServerRegisterForwardFunction equ <__imp_I_RpcServerRegisterForwardFunction>
+
+externdef __imp_I_RpcServerSetAddressChangeFn:PPROC
+I_RpcServerSetAddressChangeFn equ <__imp_I_RpcServerSetAddressChangeFn>
+
+externdef __imp_I_RpcServerTurnOnOffKeepalives:PPROC
+I_RpcServerTurnOnOffKeepalives equ <__imp_I_RpcServerTurnOnOffKeepalives>
+
+externdef __imp_I_RpcServerUseProtseq2A:PPROC
+I_RpcServerUseProtseq2A equ <__imp_I_RpcServerUseProtseq2A>
+  IFNDEF __UNICODE__
+    I_RpcServerUseProtseq2 equ <__imp_I_RpcServerUseProtseq2A>
+  ENDIF
+
+externdef __imp_I_RpcServerUseProtseq2W:PPROC
+I_RpcServerUseProtseq2W equ <__imp_I_RpcServerUseProtseq2W>
+  IFDEF __UNICODE__
+    I_RpcServerUseProtseq2 equ <__imp_I_RpcServerUseProtseq2W>
+  ENDIF
+
+externdef __imp_I_RpcServerUseProtseqEp2A:PPROC
+I_RpcServerUseProtseqEp2A equ <__imp_I_RpcServerUseProtseqEp2A>
+  IFNDEF __UNICODE__
+    I_RpcServerUseProtseqEp2 equ <__imp_I_RpcServerUseProtseqEp2A>
+  ENDIF
+
+externdef __imp_I_RpcServerUseProtseqEp2W:PPROC
+I_RpcServerUseProtseqEp2W equ <__imp_I_RpcServerUseProtseqEp2W>
+  IFDEF __UNICODE__
+    I_RpcServerUseProtseqEp2 equ <__imp_I_RpcServerUseProtseqEp2W>
+  ENDIF
+
+externdef __imp_I_RpcSessionStrictContextHandle:PPROC
+I_RpcSessionStrictContextHandle equ <__imp_I_RpcSessionStrictContextHandle>
+
+externdef __imp_I_RpcSetAsyncHandle:PPROC
+I_RpcSetAsyncHandle equ <__imp_I_RpcSetAsyncHandle>
+
+externdef __imp_I_RpcSsDontSerializeContext:PPROC
+I_RpcSsDontSerializeContext equ <__imp_I_RpcSsDontSerializeContext>
+
+externdef __imp_I_RpcSystemFunction001:PPROC
+I_RpcSystemFunction001 equ <__imp_I_RpcSystemFunction001>
+
+externdef __imp_I_RpcTransConnectionAllocatePacket:PPROC
+I_RpcTransConnectionAllocatePacket equ <__imp_I_RpcTransConnectionAllocatePacket>
+
+externdef __imp_I_RpcTransConnectionFreePacket:PPROC
+I_RpcTransConnectionFreePacket equ <__imp_I_RpcTransConnectionFreePacket>
+
+externdef __imp_I_RpcTransConnectionReallocPacket:PPROC
+I_RpcTransConnectionReallocPacket equ <__imp_I_RpcTransConnectionReallocPacket>
+
+externdef __imp_I_RpcTransDatagramAllocate2:PPROC
+I_RpcTransDatagramAllocate2 equ <__imp_I_RpcTransDatagramAllocate2>
+
+externdef __imp_I_RpcTransDatagramAllocate:PPROC
+I_RpcTransDatagramAllocate equ <__imp_I_RpcTransDatagramAllocate>
+
+externdef __imp_I_RpcTransDatagramFree:PPROC
+I_RpcTransDatagramFree equ <__imp_I_RpcTransDatagramFree>
+
+externdef __imp_I_RpcTransGetThreadEvent:PPROC
+I_RpcTransGetThreadEvent equ <__imp_I_RpcTransGetThreadEvent>
+
+externdef __imp_I_RpcTransIoCancelled:PPROC
+I_RpcTransIoCancelled equ <__imp_I_RpcTransIoCancelled>
+
+externdef __imp_I_RpcTransServerNewConnection:PPROC
+I_RpcTransServerNewConnection equ <__imp_I_RpcTransServerNewConnection>
+
+externdef __imp_I_RpcTurnOnEEInfoPropagation:PPROC
+I_RpcTurnOnEEInfoPropagation equ <__imp_I_RpcTurnOnEEInfoPropagation>
+
+externdef __imp_I_UuidCreate:PPROC
+I_UuidCreate equ <__imp_I_UuidCreate>
+
+externdef __imp_MesBufferHandleReset:PPROC
+MesBufferHandleReset equ <__imp_MesBufferHandleReset>
+
+externdef __imp_MesDecodeBufferHandleCreate:PPROC
+MesDecodeBufferHandleCreate equ <__imp_MesDecodeBufferHandleCreate>
+
+externdef __imp_MesDecodeIncrementalHandleCreate:PPROC
+MesDecodeIncrementalHandleCreate equ <__imp_MesDecodeIncrementalHandleCreate>
+
+externdef __imp_MesEncodeDynBufferHandleCreate:PPROC
+MesEncodeDynBufferHandleCreate equ <__imp_MesEncodeDynBufferHandleCreate>
+
+externdef __imp_MesEncodeFixedBufferHandleCreate:PPROC
+MesEncodeFixedBufferHandleCreate equ <__imp_MesEncodeFixedBufferHandleCreate>
+
+externdef __imp_MesEncodeIncrementalHandleCreate:PPROC
+MesEncodeIncrementalHandleCreate equ <__imp_MesEncodeIncrementalHandleCreate>
+
+externdef __imp_MesHandleFree:PPROC
+MesHandleFree equ <__imp_MesHandleFree>
+
+externdef __imp_MesIncrementalHandleReset:PPROC
+MesIncrementalHandleReset equ <__imp_MesIncrementalHandleReset>
+
+externdef __imp_MesInqProcEncodingId:PPROC
+MesInqProcEncodingId equ <__imp_MesInqProcEncodingId>
+
+externdef __imp_NDRCContextBinding:PPROC
+NDRCContextBinding equ <__imp_NDRCContextBinding>
+
+externdef __imp_NDRCContextMarshall:PPROC
+NDRCContextMarshall equ <__imp_NDRCContextMarshall>
+
+externdef __imp_NDRCContextUnmarshall:PPROC
+NDRCContextUnmarshall equ <__imp_NDRCContextUnmarshall>
+
+externdef __imp_NDRSContextMarshall2:PPROC
+NDRSContextMarshall2 equ <__imp_NDRSContextMarshall2>
+
+externdef __imp_NDRSContextMarshall:PPROC
+NDRSContextMarshall equ <__imp_NDRSContextMarshall>
+
+externdef __imp_NDRSContextMarshallEx:PPROC
+NDRSContextMarshallEx equ <__imp_NDRSContextMarshallEx>
+
+externdef __imp_NDRSContextUnmarshall2:PPROC
+NDRSContextUnmarshall2 equ <__imp_NDRSContextUnmarshall2>
+
+externdef __imp_NDRSContextUnmarshall:PPROC
+NDRSContextUnmarshall equ <__imp_NDRSContextUnmarshall>
+
+externdef __imp_NDRSContextUnmarshallEx:PPROC
+NDRSContextUnmarshallEx equ <__imp_NDRSContextUnmarshallEx>
+
+externdef __imp_Ndr64AsyncClientCall:PPROC
+Ndr64AsyncClientCall equ <__imp_Ndr64AsyncClientCall>
+
+externdef __imp_Ndr64AsyncServerCall64:PPROC
+Ndr64AsyncServerCall64 equ <__imp_Ndr64AsyncServerCall64>
+
+externdef __imp_Ndr64AsyncServerCallAll:PPROC
+Ndr64AsyncServerCallAll equ <__imp_Ndr64AsyncServerCallAll>
+
+externdef __imp_Ndr64DcomAsyncClientCall:PPROC
+Ndr64DcomAsyncClientCall equ <__imp_Ndr64DcomAsyncClientCall>
+
+externdef __imp_Ndr64DcomAsyncStubCall:PPROC
+Ndr64DcomAsyncStubCall equ <__imp_Ndr64DcomAsyncStubCall>
+
+externdef __imp_NdrAllocate:PPROC
+NdrAllocate equ <__imp_NdrAllocate>
+
+externdef __imp_NdrAsyncClientCall:PPROC
+NdrAsyncClientCall equ <__imp_NdrAsyncClientCall>
+
+externdef __imp_NdrAsyncServerCall:PPROC
+NdrAsyncServerCall equ <__imp_NdrAsyncServerCall>
+
+externdef __imp_NdrByteCountPointerBufferSize:PPROC
+NdrByteCountPointerBufferSize equ <__imp_NdrByteCountPointerBufferSize>
+
+externdef __imp_NdrByteCountPointerFree:PPROC
+NdrByteCountPointerFree equ <__imp_NdrByteCountPointerFree>
+
+externdef __imp_NdrByteCountPointerMarshall:PPROC
+NdrByteCountPointerMarshall equ <__imp_NdrByteCountPointerMarshall>
+
+externdef __imp_NdrByteCountPointerUnmarshall:PPROC
+NdrByteCountPointerUnmarshall equ <__imp_NdrByteCountPointerUnmarshall>
+
+externdef __imp_NdrCStdStubBuffer2_Release:PPROC
+NdrCStdStubBuffer2_Release equ <__imp_NdrCStdStubBuffer2_Release>
+
+externdef __imp_NdrCStdStubBuffer_Release:PPROC
+NdrCStdStubBuffer_Release equ <__imp_NdrCStdStubBuffer_Release>
+
+externdef __imp_NdrClearOutParameters:PPROC
+NdrClearOutParameters equ <__imp_NdrClearOutParameters>
+
+externdef __imp_NdrClientCall2:PPROC
+NdrClientCall2 equ <__imp_NdrClientCall2>
+
+externdef __imp_NdrClientCall3:PPROC
+NdrClientCall3 equ <__imp_NdrClientCall3>
+
+externdef __imp_NdrClientContextMarshall:PPROC
+NdrClientContextMarshall equ <__imp_NdrClientContextMarshall>
+
+externdef __imp_NdrClientContextUnmarshall:PPROC
+NdrClientContextUnmarshall equ <__imp_NdrClientContextUnmarshall>
+
+externdef __imp_NdrClientInitialize:PPROC
+NdrClientInitialize equ <__imp_NdrClientInitialize>
+
+externdef __imp_NdrClientInitializeNew:PPROC
+NdrClientInitializeNew equ <__imp_NdrClientInitializeNew>
+
+externdef __imp_NdrComplexArrayBufferSize:PPROC
+NdrComplexArrayBufferSize equ <__imp_NdrComplexArrayBufferSize>
+
+externdef __imp_NdrComplexArrayFree:PPROC
+NdrComplexArrayFree equ <__imp_NdrComplexArrayFree>
+
+externdef __imp_NdrComplexArrayMarshall:PPROC
+NdrComplexArrayMarshall equ <__imp_NdrComplexArrayMarshall>
+
+externdef __imp_NdrComplexArrayMemorySize:PPROC
+NdrComplexArrayMemorySize equ <__imp_NdrComplexArrayMemorySize>
+
+externdef __imp_NdrComplexArrayUnmarshall:PPROC
+NdrComplexArrayUnmarshall equ <__imp_NdrComplexArrayUnmarshall>
+
+externdef __imp_NdrComplexStructBufferSize:PPROC
+NdrComplexStructBufferSize equ <__imp_NdrComplexStructBufferSize>
+
+externdef __imp_NdrComplexStructFree:PPROC
+NdrComplexStructFree equ <__imp_NdrComplexStructFree>
+
+externdef __imp_NdrComplexStructMarshall:PPROC
+NdrComplexStructMarshall equ <__imp_NdrComplexStructMarshall>
+
+externdef __imp_NdrComplexStructMemorySize:PPROC
+NdrComplexStructMemorySize equ <__imp_NdrComplexStructMemorySize>
+
+externdef __imp_NdrComplexStructUnmarshall:PPROC
+NdrComplexStructUnmarshall equ <__imp_NdrComplexStructUnmarshall>
+
+externdef __imp_NdrConformantArrayBufferSize:PPROC
+NdrConformantArrayBufferSize equ <__imp_NdrConformantArrayBufferSize>
+
+externdef __imp_NdrConformantArrayFree:PPROC
+NdrConformantArrayFree equ <__imp_NdrConformantArrayFree>
+
+externdef __imp_NdrConformantArrayMarshall:PPROC
+NdrConformantArrayMarshall equ <__imp_NdrConformantArrayMarshall>
+
+externdef __imp_NdrConformantArrayMemorySize:PPROC
+NdrConformantArrayMemorySize equ <__imp_NdrConformantArrayMemorySize>
+
+externdef __imp_NdrConformantArrayUnmarshall:PPROC
+NdrConformantArrayUnmarshall equ <__imp_NdrConformantArrayUnmarshall>
+
+externdef __imp_NdrConformantStringBufferSize:PPROC
+NdrConformantStringBufferSize equ <__imp_NdrConformantStringBufferSize>
+
+externdef __imp_NdrConformantStringMarshall:PPROC
+NdrConformantStringMarshall equ <__imp_NdrConformantStringMarshall>
+
+externdef __imp_NdrConformantStringMemorySize:PPROC
+NdrConformantStringMemorySize equ <__imp_NdrConformantStringMemorySize>
+
+externdef __imp_NdrConformantStringUnmarshall:PPROC
+NdrConformantStringUnmarshall equ <__imp_NdrConformantStringUnmarshall>
+
+externdef __imp_NdrConformantStructBufferSize:PPROC
+NdrConformantStructBufferSize equ <__imp_NdrConformantStructBufferSize>
+
+externdef __imp_NdrConformantStructFree:PPROC
+NdrConformantStructFree equ <__imp_NdrConformantStructFree>
+
+externdef __imp_NdrConformantStructMarshall:PPROC
+NdrConformantStructMarshall equ <__imp_NdrConformantStructMarshall>
+
+externdef __imp_NdrConformantStructMemorySize:PPROC
+NdrConformantStructMemorySize equ <__imp_NdrConformantStructMemorySize>
+
+externdef __imp_NdrConformantStructUnmarshall:PPROC
+NdrConformantStructUnmarshall equ <__imp_NdrConformantStructUnmarshall>
+
+externdef __imp_NdrConformantVaryingArrayBufferSize:PPROC
+NdrConformantVaryingArrayBufferSize equ <__imp_NdrConformantVaryingArrayBufferSize>
+
+externdef __imp_NdrConformantVaryingArrayFree:PPROC
+NdrConformantVaryingArrayFree equ <__imp_NdrConformantVaryingArrayFree>
+
+externdef __imp_NdrConformantVaryingArrayMarshall:PPROC
+NdrConformantVaryingArrayMarshall equ <__imp_NdrConformantVaryingArrayMarshall>
+
+externdef __imp_NdrConformantVaryingArrayMemorySize:PPROC
+NdrConformantVaryingArrayMemorySize equ <__imp_NdrConformantVaryingArrayMemorySize>
+
+externdef __imp_NdrConformantVaryingArrayUnmarshall:PPROC
+NdrConformantVaryingArrayUnmarshall equ <__imp_NdrConformantVaryingArrayUnmarshall>
+
+externdef __imp_NdrConformantVaryingStructBufferSize:PPROC
+NdrConformantVaryingStructBufferSize equ <__imp_NdrConformantVaryingStructBufferSize>
+
+externdef __imp_NdrConformantVaryingStructFree:PPROC
+NdrConformantVaryingStructFree equ <__imp_NdrConformantVaryingStructFree>
+
+externdef __imp_NdrConformantVaryingStructMarshall:PPROC
+NdrConformantVaryingStructMarshall equ <__imp_NdrConformantVaryingStructMarshall>
+
+externdef __imp_NdrConformantVaryingStructMemorySize:PPROC
+NdrConformantVaryingStructMemorySize equ <__imp_NdrConformantVaryingStructMemorySize>
+
+externdef __imp_NdrConformantVaryingStructUnmarshall:PPROC
+NdrConformantVaryingStructUnmarshall equ <__imp_NdrConformantVaryingStructUnmarshall>
+
+externdef __imp_NdrContextHandleInitialize:PPROC
+NdrContextHandleInitialize equ <__imp_NdrContextHandleInitialize>
+
+externdef __imp_NdrContextHandleSize:PPROC
+NdrContextHandleSize equ <__imp_NdrContextHandleSize>
+
+externdef __imp_NdrConvert2:PPROC
+NdrConvert2 equ <__imp_NdrConvert2>
+
+externdef __imp_NdrConvert:PPROC
+NdrConvert equ <__imp_NdrConvert>
+
+externdef __imp_NdrCorrelationFree:PPROC
+NdrCorrelationFree equ <__imp_NdrCorrelationFree>
+
+externdef __imp_NdrCorrelationInitialize:PPROC
+NdrCorrelationInitialize equ <__imp_NdrCorrelationInitialize>
+
+externdef __imp_NdrCorrelationPass:PPROC
+NdrCorrelationPass equ <__imp_NdrCorrelationPass>
+
+externdef __imp_NdrCreateServerInterfaceFromStub:PPROC
+NdrCreateServerInterfaceFromStub equ <__imp_NdrCreateServerInterfaceFromStub>
+
+externdef __imp_NdrDcomAsyncClientCall:PPROC
+NdrDcomAsyncClientCall equ <__imp_NdrDcomAsyncClientCall>
+
+externdef __imp_NdrDcomAsyncStubCall:PPROC
+NdrDcomAsyncStubCall equ <__imp_NdrDcomAsyncStubCall>
+
+externdef __imp_NdrDllCanUnloadNow:PPROC
+NdrDllCanUnloadNow equ <__imp_NdrDllCanUnloadNow>
+
+externdef __imp_NdrDllGetClassObject:PPROC
+NdrDllGetClassObject equ <__imp_NdrDllGetClassObject>
+
+externdef __imp_NdrDllRegisterProxy:PPROC
+NdrDllRegisterProxy equ <__imp_NdrDllRegisterProxy>
+
+externdef __imp_NdrDllUnregisterProxy:PPROC
+NdrDllUnregisterProxy equ <__imp_NdrDllUnregisterProxy>
+
+externdef __imp_NdrEncapsulatedUnionBufferSize:PPROC
+NdrEncapsulatedUnionBufferSize equ <__imp_NdrEncapsulatedUnionBufferSize>
+
+externdef __imp_NdrEncapsulatedUnionFree:PPROC
+NdrEncapsulatedUnionFree equ <__imp_NdrEncapsulatedUnionFree>
+
+externdef __imp_NdrEncapsulatedUnionMarshall:PPROC
+NdrEncapsulatedUnionMarshall equ <__imp_NdrEncapsulatedUnionMarshall>
+
+externdef __imp_NdrEncapsulatedUnionMemorySize:PPROC
+NdrEncapsulatedUnionMemorySize equ <__imp_NdrEncapsulatedUnionMemorySize>
+
+externdef __imp_NdrEncapsulatedUnionUnmarshall:PPROC
+NdrEncapsulatedUnionUnmarshall equ <__imp_NdrEncapsulatedUnionUnmarshall>
+
+externdef __imp_NdrFixedArrayBufferSize:PPROC
+NdrFixedArrayBufferSize equ <__imp_NdrFixedArrayBufferSize>
+
+externdef __imp_NdrFixedArrayFree:PPROC
+NdrFixedArrayFree equ <__imp_NdrFixedArrayFree>
+
+externdef __imp_NdrFixedArrayMarshall:PPROC
+NdrFixedArrayMarshall equ <__imp_NdrFixedArrayMarshall>
+
+externdef __imp_NdrFixedArrayMemorySize:PPROC
+NdrFixedArrayMemorySize equ <__imp_NdrFixedArrayMemorySize>
+
+externdef __imp_NdrFixedArrayUnmarshall:PPROC
+NdrFixedArrayUnmarshall equ <__imp_NdrFixedArrayUnmarshall>
+
+externdef __imp_NdrFreeBuffer:PPROC
+NdrFreeBuffer equ <__imp_NdrFreeBuffer>
+
+externdef __imp_NdrFullPointerFree:PPROC
+NdrFullPointerFree equ <__imp_NdrFullPointerFree>
+
+externdef __imp_NdrFullPointerInsertRefId:PPROC
+NdrFullPointerInsertRefId equ <__imp_NdrFullPointerInsertRefId>
+
+externdef __imp_NdrFullPointerQueryPointer:PPROC
+NdrFullPointerQueryPointer equ <__imp_NdrFullPointerQueryPointer>
+
+externdef __imp_NdrFullPointerQueryRefId:PPROC
+NdrFullPointerQueryRefId equ <__imp_NdrFullPointerQueryRefId>
+
+externdef __imp_NdrFullPointerXlatFree:PPROC
+NdrFullPointerXlatFree equ <__imp_NdrFullPointerXlatFree>
+
+externdef __imp_NdrFullPointerXlatInit:PPROC
+NdrFullPointerXlatInit equ <__imp_NdrFullPointerXlatInit>
+
+externdef __imp_NdrGetBuffer:PPROC
+NdrGetBuffer equ <__imp_NdrGetBuffer>
+
+externdef __imp_NdrGetDcomProtocolVersion:PPROC
+NdrGetDcomProtocolVersion equ <__imp_NdrGetDcomProtocolVersion>
+
+externdef __imp_NdrGetSimpleTypeBufferAlignment:PPROC
+NdrGetSimpleTypeBufferAlignment equ <__imp_NdrGetSimpleTypeBufferAlignment>
+
+externdef __imp_NdrGetSimpleTypeBufferSize:PPROC
+NdrGetSimpleTypeBufferSize equ <__imp_NdrGetSimpleTypeBufferSize>
+
+externdef __imp_NdrGetSimpleTypeMemorySize:PPROC
+NdrGetSimpleTypeMemorySize equ <__imp_NdrGetSimpleTypeMemorySize>
+
+externdef __imp_NdrGetTypeFlags:PPROC
+NdrGetTypeFlags equ <__imp_NdrGetTypeFlags>
+
+externdef __imp_NdrGetUserMarshalInfo:PPROC
+NdrGetUserMarshalInfo equ <__imp_NdrGetUserMarshalInfo>
+
+externdef __imp_NdrInterfacePointerBufferSize:PPROC
+NdrInterfacePointerBufferSize equ <__imp_NdrInterfacePointerBufferSize>
+
+externdef __imp_NdrInterfacePointerFree:PPROC
+NdrInterfacePointerFree equ <__imp_NdrInterfacePointerFree>
+
+externdef __imp_NdrInterfacePointerMarshall:PPROC
+NdrInterfacePointerMarshall equ <__imp_NdrInterfacePointerMarshall>
+
+externdef __imp_NdrInterfacePointerMemorySize:PPROC
+NdrInterfacePointerMemorySize equ <__imp_NdrInterfacePointerMemorySize>
+
+externdef __imp_NdrInterfacePointerUnmarshall:PPROC
+NdrInterfacePointerUnmarshall equ <__imp_NdrInterfacePointerUnmarshall>
+
+externdef __imp_NdrMapCommAndFaultStatus:PPROC
+NdrMapCommAndFaultStatus equ <__imp_NdrMapCommAndFaultStatus>
+
+externdef __imp_NdrMesProcEncodeDecode2:PPROC
+NdrMesProcEncodeDecode2 equ <__imp_NdrMesProcEncodeDecode2>
+
+externdef __imp_NdrMesProcEncodeDecode3:PPROC
+NdrMesProcEncodeDecode3 equ <__imp_NdrMesProcEncodeDecode3>
+
+externdef __imp_NdrMesProcEncodeDecode:PPROC
+NdrMesProcEncodeDecode equ <__imp_NdrMesProcEncodeDecode>
+
+externdef __imp_NdrMesSimpleTypeAlignSize:PPROC
+NdrMesSimpleTypeAlignSize equ <__imp_NdrMesSimpleTypeAlignSize>
+
+externdef __imp_NdrMesSimpleTypeAlignSizeAll:PPROC
+NdrMesSimpleTypeAlignSizeAll equ <__imp_NdrMesSimpleTypeAlignSizeAll>
+
+externdef __imp_NdrMesSimpleTypeDecode:PPROC
+NdrMesSimpleTypeDecode equ <__imp_NdrMesSimpleTypeDecode>
+
+externdef __imp_NdrMesSimpleTypeDecodeAll:PPROC
+NdrMesSimpleTypeDecodeAll equ <__imp_NdrMesSimpleTypeDecodeAll>
+
+externdef __imp_NdrMesSimpleTypeEncode:PPROC
+NdrMesSimpleTypeEncode equ <__imp_NdrMesSimpleTypeEncode>
+
+externdef __imp_NdrMesSimpleTypeEncodeAll:PPROC
+NdrMesSimpleTypeEncodeAll equ <__imp_NdrMesSimpleTypeEncodeAll>
+
+externdef __imp_NdrMesTypeAlignSize2:PPROC
+NdrMesTypeAlignSize2 equ <__imp_NdrMesTypeAlignSize2>
+
+externdef __imp_NdrMesTypeAlignSize3:PPROC
+NdrMesTypeAlignSize3 equ <__imp_NdrMesTypeAlignSize3>
+
+externdef __imp_NdrMesTypeAlignSize:PPROC
+NdrMesTypeAlignSize equ <__imp_NdrMesTypeAlignSize>
+
+externdef __imp_NdrMesTypeDecode2:PPROC
+NdrMesTypeDecode2 equ <__imp_NdrMesTypeDecode2>
+
+externdef __imp_NdrMesTypeDecode3:PPROC
+NdrMesTypeDecode3 equ <__imp_NdrMesTypeDecode3>
+
+externdef __imp_NdrMesTypeDecode:PPROC
+NdrMesTypeDecode equ <__imp_NdrMesTypeDecode>
+
+externdef __imp_NdrMesTypeEncode2:PPROC
+NdrMesTypeEncode2 equ <__imp_NdrMesTypeEncode2>
+
+externdef __imp_NdrMesTypeEncode3:PPROC
+NdrMesTypeEncode3 equ <__imp_NdrMesTypeEncode3>
+
+externdef __imp_NdrMesTypeEncode:PPROC
+NdrMesTypeEncode equ <__imp_NdrMesTypeEncode>
+
+externdef __imp_NdrMesTypeFree2:PPROC
+NdrMesTypeFree2 equ <__imp_NdrMesTypeFree2>
+
+externdef __imp_NdrMesTypeFree3:PPROC
+NdrMesTypeFree3 equ <__imp_NdrMesTypeFree3>
+
+externdef __imp_NdrNonConformantStringBufferSize:PPROC
+NdrNonConformantStringBufferSize equ <__imp_NdrNonConformantStringBufferSize>
+
+externdef __imp_NdrNonConformantStringMarshall:PPROC
+NdrNonConformantStringMarshall equ <__imp_NdrNonConformantStringMarshall>
+
+externdef __imp_NdrNonConformantStringMemorySize:PPROC
+NdrNonConformantStringMemorySize equ <__imp_NdrNonConformantStringMemorySize>
+
+externdef __imp_NdrNonConformantStringUnmarshall:PPROC
+NdrNonConformantStringUnmarshall equ <__imp_NdrNonConformantStringUnmarshall>
+
+externdef __imp_NdrNonEncapsulatedUnionBufferSize:PPROC
+NdrNonEncapsulatedUnionBufferSize equ <__imp_NdrNonEncapsulatedUnionBufferSize>
+
+externdef __imp_NdrNonEncapsulatedUnionFree:PPROC
+NdrNonEncapsulatedUnionFree equ <__imp_NdrNonEncapsulatedUnionFree>
+
+externdef __imp_NdrNonEncapsulatedUnionMarshall:PPROC
+NdrNonEncapsulatedUnionMarshall equ <__imp_NdrNonEncapsulatedUnionMarshall>
+
+externdef __imp_NdrNonEncapsulatedUnionMemorySize:PPROC
+NdrNonEncapsulatedUnionMemorySize equ <__imp_NdrNonEncapsulatedUnionMemorySize>
+
+externdef __imp_NdrNonEncapsulatedUnionUnmarshall:PPROC
+NdrNonEncapsulatedUnionUnmarshall equ <__imp_NdrNonEncapsulatedUnionUnmarshall>
+
+externdef __imp_NdrNsGetBuffer:PPROC
+NdrNsGetBuffer equ <__imp_NdrNsGetBuffer>
+
+externdef __imp_NdrNsSendReceive:PPROC
+NdrNsSendReceive equ <__imp_NdrNsSendReceive>
+
+externdef __imp_NdrOleAllocate:PPROC
+NdrOleAllocate equ <__imp_NdrOleAllocate>
+
+externdef __imp_NdrOleFree:PPROC
+NdrOleFree equ <__imp_NdrOleFree>
+
+externdef __imp_NdrOutInit:PPROC
+NdrOutInit equ <__imp_NdrOutInit>
+
+externdef __imp_NdrPartialIgnoreClientBufferSize:PPROC
+NdrPartialIgnoreClientBufferSize equ <__imp_NdrPartialIgnoreClientBufferSize>
+
+externdef __imp_NdrPartialIgnoreClientMarshall:PPROC
+NdrPartialIgnoreClientMarshall equ <__imp_NdrPartialIgnoreClientMarshall>
+
+externdef __imp_NdrPartialIgnoreServerInitialize:PPROC
+NdrPartialIgnoreServerInitialize equ <__imp_NdrPartialIgnoreServerInitialize>
+
+externdef __imp_NdrPartialIgnoreServerUnmarshall:PPROC
+NdrPartialIgnoreServerUnmarshall equ <__imp_NdrPartialIgnoreServerUnmarshall>
+
+externdef __imp_NdrPointerBufferSize:PPROC
+NdrPointerBufferSize equ <__imp_NdrPointerBufferSize>
+
+externdef __imp_NdrPointerFree:PPROC
+NdrPointerFree equ <__imp_NdrPointerFree>
+
+externdef __imp_NdrPointerMarshall:PPROC
+NdrPointerMarshall equ <__imp_NdrPointerMarshall>
+
+externdef __imp_NdrPointerMemorySize:PPROC
+NdrPointerMemorySize equ <__imp_NdrPointerMemorySize>
+
+externdef __imp_NdrPointerUnmarshall:PPROC
+NdrPointerUnmarshall equ <__imp_NdrPointerUnmarshall>
+
+externdef __imp_NdrProxyErrorHandler:PPROC
+NdrProxyErrorHandler equ <__imp_NdrProxyErrorHandler>
+
+externdef __imp_NdrProxyFreeBuffer:PPROC
+NdrProxyFreeBuffer equ <__imp_NdrProxyFreeBuffer>
+
+externdef __imp_NdrProxyGetBuffer:PPROC
+NdrProxyGetBuffer equ <__imp_NdrProxyGetBuffer>
+
+externdef __imp_NdrProxyInitialize:PPROC
+NdrProxyInitialize equ <__imp_NdrProxyInitialize>
+
+externdef __imp_NdrProxySendReceive:PPROC
+NdrProxySendReceive equ <__imp_NdrProxySendReceive>
+
+externdef __imp_NdrRangeUnmarshall:PPROC
+NdrRangeUnmarshall equ <__imp_NdrRangeUnmarshall>
+
+externdef __imp_NdrRpcSmClientAllocate:PPROC
+NdrRpcSmClientAllocate equ <__imp_NdrRpcSmClientAllocate>
+
+externdef __imp_NdrRpcSmClientFree:PPROC
+NdrRpcSmClientFree equ <__imp_NdrRpcSmClientFree>
+
+externdef __imp_NdrRpcSmSetClientToOsf:PPROC
+NdrRpcSmSetClientToOsf equ <__imp_NdrRpcSmSetClientToOsf>
+
+externdef __imp_NdrRpcSsDefaultAllocate:PPROC
+NdrRpcSsDefaultAllocate equ <__imp_NdrRpcSsDefaultAllocate>
+
+externdef __imp_NdrRpcSsDefaultFree:PPROC
+NdrRpcSsDefaultFree equ <__imp_NdrRpcSsDefaultFree>
+
+externdef __imp_NdrRpcSsDisableAllocate:PPROC
+NdrRpcSsDisableAllocate equ <__imp_NdrRpcSsDisableAllocate>
+
+externdef __imp_NdrRpcSsEnableAllocate:PPROC
+NdrRpcSsEnableAllocate equ <__imp_NdrRpcSsEnableAllocate>
+
+externdef __imp_NdrSendReceive:PPROC
+NdrSendReceive equ <__imp_NdrSendReceive>
+
+externdef __imp_NdrServerCall2:PPROC
+NdrServerCall2 equ <__imp_NdrServerCall2>
+
+externdef __imp_NdrServerCallAll:PPROC
+NdrServerCallAll equ <__imp_NdrServerCallAll>
+
+externdef __imp_NdrServerCallNdr64:PPROC
+NdrServerCallNdr64 equ <__imp_NdrServerCallNdr64>
+
+externdef __imp_NdrServerContextMarshall:PPROC
+NdrServerContextMarshall equ <__imp_NdrServerContextMarshall>
+
+externdef __imp_NdrServerContextNewMarshall:PPROC
+NdrServerContextNewMarshall equ <__imp_NdrServerContextNewMarshall>
+
+externdef __imp_NdrServerContextNewUnmarshall:PPROC
+NdrServerContextNewUnmarshall equ <__imp_NdrServerContextNewUnmarshall>
+
+externdef __imp_NdrServerContextUnmarshall:PPROC
+NdrServerContextUnmarshall equ <__imp_NdrServerContextUnmarshall>
+
+externdef __imp_NdrServerInitialize:PPROC
+NdrServerInitialize equ <__imp_NdrServerInitialize>
+
+externdef __imp_NdrServerInitializeMarshall:PPROC
+NdrServerInitializeMarshall equ <__imp_NdrServerInitializeMarshall>
+
+externdef __imp_NdrServerInitializeNew:PPROC
+NdrServerInitializeNew equ <__imp_NdrServerInitializeNew>
+
+externdef __imp_NdrServerInitializePartial:PPROC
+NdrServerInitializePartial equ <__imp_NdrServerInitializePartial>
+
+externdef __imp_NdrServerInitializeUnmarshall:PPROC
+NdrServerInitializeUnmarshall equ <__imp_NdrServerInitializeUnmarshall>
+
+externdef __imp_NdrSimpleStructBufferSize:PPROC
+NdrSimpleStructBufferSize equ <__imp_NdrSimpleStructBufferSize>
+
+externdef __imp_NdrSimpleStructFree:PPROC
+NdrSimpleStructFree equ <__imp_NdrSimpleStructFree>
+
+externdef __imp_NdrSimpleStructMarshall:PPROC
+NdrSimpleStructMarshall equ <__imp_NdrSimpleStructMarshall>
+
+externdef __imp_NdrSimpleStructMemorySize:PPROC
+NdrSimpleStructMemorySize equ <__imp_NdrSimpleStructMemorySize>
+
+externdef __imp_NdrSimpleStructUnmarshall:PPROC
+NdrSimpleStructUnmarshall equ <__imp_NdrSimpleStructUnmarshall>
+
+externdef __imp_NdrSimpleTypeMarshall:PPROC
+NdrSimpleTypeMarshall equ <__imp_NdrSimpleTypeMarshall>
+
+externdef __imp_NdrSimpleTypeUnmarshall:PPROC
+NdrSimpleTypeUnmarshall equ <__imp_NdrSimpleTypeUnmarshall>
+
+externdef __imp_NdrStubCall2:PPROC
+NdrStubCall2 equ <__imp_NdrStubCall2>
+
+externdef __imp_NdrStubCall3:PPROC
+NdrStubCall3 equ <__imp_NdrStubCall3>
+
+externdef __imp_NdrStubForwardingFunction:PPROC
+NdrStubForwardingFunction equ <__imp_NdrStubForwardingFunction>
+
+externdef __imp_NdrStubGetBuffer:PPROC
+NdrStubGetBuffer equ <__imp_NdrStubGetBuffer>
+
+externdef __imp_NdrStubInitialize:PPROC
+NdrStubInitialize equ <__imp_NdrStubInitialize>
+
+externdef __imp_NdrStubInitializeMarshall:PPROC
+NdrStubInitializeMarshall equ <__imp_NdrStubInitializeMarshall>
+
+externdef __imp_NdrTypeFlags:PPROC
+NdrTypeFlags equ <__imp_NdrTypeFlags>
+
+externdef __imp_NdrTypeFree:PPROC
+NdrTypeFree equ <__imp_NdrTypeFree>
+
+externdef __imp_NdrTypeMarshall:PPROC
+NdrTypeMarshall equ <__imp_NdrTypeMarshall>
+
+externdef __imp_NdrTypeSize:PPROC
+NdrTypeSize equ <__imp_NdrTypeSize>
+
+externdef __imp_NdrTypeUnmarshall:PPROC
+NdrTypeUnmarshall equ <__imp_NdrTypeUnmarshall>
+
+externdef __imp_NdrUnmarshallBasetypeInline:PPROC
+NdrUnmarshallBasetypeInline equ <__imp_NdrUnmarshallBasetypeInline>
+
+externdef __imp_NdrUserMarshalBufferSize:PPROC
+NdrUserMarshalBufferSize equ <__imp_NdrUserMarshalBufferSize>
+
+externdef __imp_NdrUserMarshalFree:PPROC
+NdrUserMarshalFree equ <__imp_NdrUserMarshalFree>
+
+externdef __imp_NdrUserMarshalMarshall:PPROC
+NdrUserMarshalMarshall equ <__imp_NdrUserMarshalMarshall>
+
+externdef __imp_NdrUserMarshalMemorySize:PPROC
+NdrUserMarshalMemorySize equ <__imp_NdrUserMarshalMemorySize>
+
+externdef __imp_NdrUserMarshalSimpleTypeConvert:PPROC
+NdrUserMarshalSimpleTypeConvert equ <__imp_NdrUserMarshalSimpleTypeConvert>
+
+externdef __imp_NdrUserMarshalUnmarshall:PPROC
+NdrUserMarshalUnmarshall equ <__imp_NdrUserMarshalUnmarshall>
+
+externdef __imp_NdrVaryingArrayBufferSize:PPROC
+NdrVaryingArrayBufferSize equ <__imp_NdrVaryingArrayBufferSize>
+
+externdef __imp_NdrVaryingArrayFree:PPROC
+NdrVaryingArrayFree equ <__imp_NdrVaryingArrayFree>
+
+externdef __imp_NdrVaryingArrayMarshall:PPROC
+NdrVaryingArrayMarshall equ <__imp_NdrVaryingArrayMarshall>
+
+externdef __imp_NdrVaryingArrayMemorySize:PPROC
+NdrVaryingArrayMemorySize equ <__imp_NdrVaryingArrayMemorySize>
+
+externdef __imp_NdrVaryingArrayUnmarshall:PPROC
+NdrVaryingArrayUnmarshall equ <__imp_NdrVaryingArrayUnmarshall>
+
+externdef __imp_NdrXmitOrRepAsBufferSize:PPROC
+NdrXmitOrRepAsBufferSize equ <__imp_NdrXmitOrRepAsBufferSize>
+
+externdef __imp_NdrXmitOrRepAsFree:PPROC
+NdrXmitOrRepAsFree equ <__imp_NdrXmitOrRepAsFree>
+
+externdef __imp_NdrXmitOrRepAsMarshall:PPROC
+NdrXmitOrRepAsMarshall equ <__imp_NdrXmitOrRepAsMarshall>
+
+externdef __imp_NdrXmitOrRepAsMemorySize:PPROC
+NdrXmitOrRepAsMemorySize equ <__imp_NdrXmitOrRepAsMemorySize>
+
+externdef __imp_NdrXmitOrRepAsUnmarshall:PPROC
+NdrXmitOrRepAsUnmarshall equ <__imp_NdrXmitOrRepAsUnmarshall>
+
+externdef __imp_NdrpCreateProxy:PPROC
+NdrpCreateProxy equ <__imp_NdrpCreateProxy>
+
+externdef __imp_NdrpCreateStub:PPROC
+NdrpCreateStub equ <__imp_NdrpCreateStub>
+
+externdef __imp_NdrpGetProcFormatString:PPROC
+NdrpGetProcFormatString equ <__imp_NdrpGetProcFormatString>
+
+externdef __imp_NdrpGetTypeFormatString:PPROC
+NdrpGetTypeFormatString equ <__imp_NdrpGetTypeFormatString>
+
+externdef __imp_NdrpGetTypeGenCookie:PPROC
+NdrpGetTypeGenCookie equ <__imp_NdrpGetTypeGenCookie>
+
+externdef __imp_NdrpMemoryIncrement:PPROC
+NdrpMemoryIncrement equ <__imp_NdrpMemoryIncrement>
+
+externdef __imp_NdrpReleaseTypeFormatString:PPROC
+NdrpReleaseTypeFormatString equ <__imp_NdrpReleaseTypeFormatString>
+
+externdef __imp_NdrpReleaseTypeGenCookie:PPROC
+NdrpReleaseTypeGenCookie equ <__imp_NdrpReleaseTypeGenCookie>
+
+externdef __imp_NdrpSetRpcSsDefaults:PPROC
+NdrpSetRpcSsDefaults equ <__imp_NdrpSetRpcSsDefaults>
+
+externdef __imp_NdrpVarVtOfTypeDesc:PPROC
+NdrpVarVtOfTypeDesc equ <__imp_NdrpVarVtOfTypeDesc>
+
+externdef __imp_RpcAbortAsyncCall:PPROC
+RpcAbortAsyncCall equ <__imp_RpcAbortAsyncCall>
+
+externdef __imp_RpcAsyncAbortCall:PPROC
+RpcAsyncAbortCall equ <__imp_RpcAsyncAbortCall>
+
+externdef __imp_RpcAsyncCancelCall:PPROC
+RpcAsyncCancelCall equ <__imp_RpcAsyncCancelCall>
+
+externdef __imp_RpcAsyncCompleteCall:PPROC
+RpcAsyncCompleteCall equ <__imp_RpcAsyncCompleteCall>
+
+externdef __imp_RpcAsyncGetCallStatus:PPROC
+RpcAsyncGetCallStatus equ <__imp_RpcAsyncGetCallStatus>
+
+externdef __imp_RpcAsyncInitializeHandle:PPROC
+RpcAsyncInitializeHandle equ <__imp_RpcAsyncInitializeHandle>
+
+externdef __imp_RpcAsyncRegisterInfo:PPROC
+RpcAsyncRegisterInfo equ <__imp_RpcAsyncRegisterInfo>
+
+externdef __imp_RpcBindingCopy:PPROC
+RpcBindingCopy equ <__imp_RpcBindingCopy>
+
+externdef __imp_RpcBindingFree:PPROC
+RpcBindingFree equ <__imp_RpcBindingFree>
+
+externdef __imp_RpcBindingFromStringBindingA:PPROC
+RpcBindingFromStringBindingA equ <__imp_RpcBindingFromStringBindingA>
+  IFNDEF __UNICODE__
+    RpcBindingFromStringBinding equ <__imp_RpcBindingFromStringBindingA>
+  ENDIF
+
+externdef __imp_RpcBindingFromStringBindingW:PPROC
+RpcBindingFromStringBindingW equ <__imp_RpcBindingFromStringBindingW>
+  IFDEF __UNICODE__
+    RpcBindingFromStringBinding equ <__imp_RpcBindingFromStringBindingW>
+  ENDIF
+
+externdef __imp_RpcBindingInqAuthClientA:PPROC
+RpcBindingInqAuthClientA equ <__imp_RpcBindingInqAuthClientA>
+  IFNDEF __UNICODE__
+    RpcBindingInqAuthClient equ <__imp_RpcBindingInqAuthClientA>
+  ENDIF
+
+externdef __imp_RpcBindingInqAuthClientExA:PPROC
+RpcBindingInqAuthClientExA equ <__imp_RpcBindingInqAuthClientExA>
+  IFNDEF __UNICODE__
+    RpcBindingInqAuthClientEx equ <__imp_RpcBindingInqAuthClientExA>
+  ENDIF
+
+externdef __imp_RpcBindingInqAuthClientExW:PPROC
+RpcBindingInqAuthClientExW equ <__imp_RpcBindingInqAuthClientExW>
+  IFDEF __UNICODE__
+    RpcBindingInqAuthClientEx equ <__imp_RpcBindingInqAuthClientExW>
+  ENDIF
+
+externdef __imp_RpcBindingInqAuthClientW:PPROC
+RpcBindingInqAuthClientW equ <__imp_RpcBindingInqAuthClientW>
+  IFDEF __UNICODE__
+    RpcBindingInqAuthClient equ <__imp_RpcBindingInqAuthClientW>
+  ENDIF
+
+externdef __imp_RpcBindingInqAuthInfoA:PPROC
+RpcBindingInqAuthInfoA equ <__imp_RpcBindingInqAuthInfoA>
+  IFNDEF __UNICODE__
+    RpcBindingInqAuthInfo equ <__imp_RpcBindingInqAuthInfoA>
+  ENDIF
+
+externdef __imp_RpcBindingInqAuthInfoExA:PPROC
+RpcBindingInqAuthInfoExA equ <__imp_RpcBindingInqAuthInfoExA>
+  IFNDEF __UNICODE__
+    RpcBindingInqAuthInfoEx equ <__imp_RpcBindingInqAuthInfoExA>
+  ENDIF
+
+externdef __imp_RpcBindingInqAuthInfoExW:PPROC
+RpcBindingInqAuthInfoExW equ <__imp_RpcBindingInqAuthInfoExW>
+  IFDEF __UNICODE__
+    RpcBindingInqAuthInfoEx equ <__imp_RpcBindingInqAuthInfoExW>
+  ENDIF
+
+externdef __imp_RpcBindingInqAuthInfoW:PPROC
+RpcBindingInqAuthInfoW equ <__imp_RpcBindingInqAuthInfoW>
+  IFDEF __UNICODE__
+    RpcBindingInqAuthInfo equ <__imp_RpcBindingInqAuthInfoW>
+  ENDIF
+
+externdef __imp_RpcBindingInqObject:PPROC
+RpcBindingInqObject equ <__imp_RpcBindingInqObject>
+
+externdef __imp_RpcBindingInqOption:PPROC
+RpcBindingInqOption equ <__imp_RpcBindingInqOption>
+
+externdef __imp_RpcBindingReset:PPROC
+RpcBindingReset equ <__imp_RpcBindingReset>
+
+externdef __imp_RpcBindingServerFromClient:PPROC
+RpcBindingServerFromClient equ <__imp_RpcBindingServerFromClient>
+
+externdef __imp_RpcBindingSetAuthInfoA:PPROC
+RpcBindingSetAuthInfoA equ <__imp_RpcBindingSetAuthInfoA>
+  IFNDEF __UNICODE__
+    RpcBindingSetAuthInfo equ <__imp_RpcBindingSetAuthInfoA>
+  ENDIF
+
+externdef __imp_RpcBindingSetAuthInfoExA:PPROC
+RpcBindingSetAuthInfoExA equ <__imp_RpcBindingSetAuthInfoExA>
+  IFNDEF __UNICODE__
+    RpcBindingSetAuthInfoEx equ <__imp_RpcBindingSetAuthInfoExA>
+  ENDIF
+
+externdef __imp_RpcBindingSetAuthInfoExW:PPROC
+RpcBindingSetAuthInfoExW equ <__imp_RpcBindingSetAuthInfoExW>
+  IFDEF __UNICODE__
+    RpcBindingSetAuthInfoEx equ <__imp_RpcBindingSetAuthInfoExW>
+  ENDIF
+
+externdef __imp_RpcBindingSetAuthInfoW:PPROC
+RpcBindingSetAuthInfoW equ <__imp_RpcBindingSetAuthInfoW>
+  IFDEF __UNICODE__
+    RpcBindingSetAuthInfo equ <__imp_RpcBindingSetAuthInfoW>
+  ENDIF
+
+externdef __imp_RpcBindingSetObject:PPROC
+RpcBindingSetObject equ <__imp_RpcBindingSetObject>
+
+externdef __imp_RpcBindingSetOption:PPROC
+RpcBindingSetOption equ <__imp_RpcBindingSetOption>
+
+externdef __imp_RpcBindingToStringBindingA:PPROC
+RpcBindingToStringBindingA equ <__imp_RpcBindingToStringBindingA>
+  IFNDEF __UNICODE__
+    RpcBindingToStringBinding equ <__imp_RpcBindingToStringBindingA>
+  ENDIF
+
+externdef __imp_RpcBindingToStringBindingW:PPROC
+RpcBindingToStringBindingW equ <__imp_RpcBindingToStringBindingW>
+  IFDEF __UNICODE__
+    RpcBindingToStringBinding equ <__imp_RpcBindingToStringBindingW>
+  ENDIF
+
+externdef __imp_RpcBindingVectorFree:PPROC
+RpcBindingVectorFree equ <__imp_RpcBindingVectorFree>
+
+externdef __imp_RpcCancelAsyncCall:PPROC
+RpcCancelAsyncCall equ <__imp_RpcCancelAsyncCall>
+
+externdef __imp_RpcCancelThread:PPROC
+RpcCancelThread equ <__imp_RpcCancelThread>
+
+externdef __imp_RpcCancelThreadEx:PPROC
+RpcCancelThreadEx equ <__imp_RpcCancelThreadEx>
+
+externdef __imp_RpcCertGeneratePrincipalNameA:PPROC
+RpcCertGeneratePrincipalNameA equ <__imp_RpcCertGeneratePrincipalNameA>
+  IFNDEF __UNICODE__
+    RpcCertGeneratePrincipalName equ <__imp_RpcCertGeneratePrincipalNameA>
+  ENDIF
+
+externdef __imp_RpcCertGeneratePrincipalNameW:PPROC
+RpcCertGeneratePrincipalNameW equ <__imp_RpcCertGeneratePrincipalNameW>
+  IFDEF __UNICODE__
+    RpcCertGeneratePrincipalName equ <__imp_RpcCertGeneratePrincipalNameW>
+  ENDIF
+
+externdef __imp_RpcCompleteAsyncCall:PPROC
+RpcCompleteAsyncCall equ <__imp_RpcCompleteAsyncCall>
+
+externdef __imp_RpcEpRegisterA:PPROC
+RpcEpRegisterA equ <__imp_RpcEpRegisterA>
+  IFNDEF __UNICODE__
+    RpcEpRegister equ <__imp_RpcEpRegisterA>
+  ENDIF
+
+externdef __imp_RpcEpRegisterNoReplaceA:PPROC
+RpcEpRegisterNoReplaceA equ <__imp_RpcEpRegisterNoReplaceA>
+  IFNDEF __UNICODE__
+    RpcEpRegisterNoReplace equ <__imp_RpcEpRegisterNoReplaceA>
+  ENDIF
+
+externdef __imp_RpcEpRegisterNoReplaceW:PPROC
+RpcEpRegisterNoReplaceW equ <__imp_RpcEpRegisterNoReplaceW>
+  IFDEF __UNICODE__
+    RpcEpRegisterNoReplace equ <__imp_RpcEpRegisterNoReplaceW>
+  ENDIF
+
+externdef __imp_RpcEpRegisterW:PPROC
+RpcEpRegisterW equ <__imp_RpcEpRegisterW>
+  IFDEF __UNICODE__
+    RpcEpRegister equ <__imp_RpcEpRegisterW>
+  ENDIF
+
+externdef __imp_RpcEpResolveBinding:PPROC
+RpcEpResolveBinding equ <__imp_RpcEpResolveBinding>
+
+externdef __imp_RpcEpUnregister:PPROC
+RpcEpUnregister equ <__imp_RpcEpUnregister>
+
+externdef __imp_RpcErrorAddRecord:PPROC
+RpcErrorAddRecord equ <__imp_RpcErrorAddRecord>
+
+externdef __imp_RpcErrorClearInformation:PPROC
+RpcErrorClearInformation equ <__imp_RpcErrorClearInformation>
+
+externdef __imp_RpcErrorEndEnumeration:PPROC
+RpcErrorEndEnumeration equ <__imp_RpcErrorEndEnumeration>
+
+externdef __imp_RpcErrorGetNextRecord:PPROC
+RpcErrorGetNextRecord equ <__imp_RpcErrorGetNextRecord>
+
+externdef __imp_RpcErrorGetNumberOfRecords:PPROC
+RpcErrorGetNumberOfRecords equ <__imp_RpcErrorGetNumberOfRecords>
+
+externdef __imp_RpcErrorLoadErrorInfo:PPROC
+RpcErrorLoadErrorInfo equ <__imp_RpcErrorLoadErrorInfo>
+
+externdef __imp_RpcErrorResetEnumeration:PPROC
+RpcErrorResetEnumeration equ <__imp_RpcErrorResetEnumeration>
+
+externdef __imp_RpcErrorSaveErrorInfo:PPROC
+RpcErrorSaveErrorInfo equ <__imp_RpcErrorSaveErrorInfo>
+
+externdef __imp_RpcErrorStartEnumeration:PPROC
+RpcErrorStartEnumeration equ <__imp_RpcErrorStartEnumeration>
+
+externdef __imp_RpcFreeAuthorizationContext:PPROC
+RpcFreeAuthorizationContext equ <__imp_RpcFreeAuthorizationContext>
+
+externdef __imp_RpcGetAsyncCallStatus:PPROC
+RpcGetAsyncCallStatus equ <__imp_RpcGetAsyncCallStatus>
+
+externdef __imp_RpcGetAuthorizationContextForClient:PPROC
+RpcGetAuthorizationContextForClient equ <__imp_RpcGetAuthorizationContextForClient>
+
+externdef __imp_RpcIfIdVectorFree:PPROC
+RpcIfIdVectorFree equ <__imp_RpcIfIdVectorFree>
+
+externdef __imp_RpcIfInqId:PPROC
+RpcIfInqId equ <__imp_RpcIfInqId>
+
+externdef __imp_RpcImpersonateClient:PPROC
+RpcImpersonateClient equ <__imp_RpcImpersonateClient>
+
+externdef __imp_RpcInitializeAsyncHandle:PPROC
+RpcInitializeAsyncHandle equ <__imp_RpcInitializeAsyncHandle>
+
+externdef __imp_RpcMgmtEnableIdleCleanup:PPROC
+RpcMgmtEnableIdleCleanup equ <__imp_RpcMgmtEnableIdleCleanup>
+
+externdef __imp_RpcMgmtEpEltInqBegin:PPROC
+RpcMgmtEpEltInqBegin equ <__imp_RpcMgmtEpEltInqBegin>
+
+externdef __imp_RpcMgmtEpEltInqDone:PPROC
+RpcMgmtEpEltInqDone equ <__imp_RpcMgmtEpEltInqDone>
+
+externdef __imp_RpcMgmtEpEltInqNextA:PPROC
+RpcMgmtEpEltInqNextA equ <__imp_RpcMgmtEpEltInqNextA>
+  IFNDEF __UNICODE__
+    RpcMgmtEpEltInqNext equ <__imp_RpcMgmtEpEltInqNextA>
+  ENDIF
+
+externdef __imp_RpcMgmtEpEltInqNextW:PPROC
+RpcMgmtEpEltInqNextW equ <__imp_RpcMgmtEpEltInqNextW>
+  IFDEF __UNICODE__
+    RpcMgmtEpEltInqNext equ <__imp_RpcMgmtEpEltInqNextW>
+  ENDIF
+
+externdef __imp_RpcMgmtEpUnregister:PPROC
+RpcMgmtEpUnregister equ <__imp_RpcMgmtEpUnregister>
+
+externdef __imp_RpcMgmtInqComTimeout:PPROC
+RpcMgmtInqComTimeout equ <__imp_RpcMgmtInqComTimeout>
+
+externdef __imp_RpcMgmtInqDefaultProtectLevel:PPROC
+RpcMgmtInqDefaultProtectLevel equ <__imp_RpcMgmtInqDefaultProtectLevel>
+
+externdef __imp_RpcMgmtInqIfIds:PPROC
+RpcMgmtInqIfIds equ <__imp_RpcMgmtInqIfIds>
+
+externdef __imp_RpcMgmtInqServerPrincNameA:PPROC
+RpcMgmtInqServerPrincNameA equ <__imp_RpcMgmtInqServerPrincNameA>
+  IFNDEF __UNICODE__
+    RpcMgmtInqServerPrincName equ <__imp_RpcMgmtInqServerPrincNameA>
+  ENDIF
+
+externdef __imp_RpcMgmtInqServerPrincNameW:PPROC
+RpcMgmtInqServerPrincNameW equ <__imp_RpcMgmtInqServerPrincNameW>
+  IFDEF __UNICODE__
+    RpcMgmtInqServerPrincName equ <__imp_RpcMgmtInqServerPrincNameW>
+  ENDIF
+
+externdef __imp_RpcMgmtInqStats:PPROC
+RpcMgmtInqStats equ <__imp_RpcMgmtInqStats>
+
+externdef __imp_RpcMgmtIsServerListening:PPROC
+RpcMgmtIsServerListening equ <__imp_RpcMgmtIsServerListening>
+
+externdef __imp_RpcMgmtSetAuthorizationFn:PPROC
+RpcMgmtSetAuthorizationFn equ <__imp_RpcMgmtSetAuthorizationFn>
+
+externdef __imp_RpcMgmtSetCancelTimeout:PPROC
+RpcMgmtSetCancelTimeout equ <__imp_RpcMgmtSetCancelTimeout>
+
+externdef __imp_RpcMgmtSetComTimeout:PPROC
+RpcMgmtSetComTimeout equ <__imp_RpcMgmtSetComTimeout>
+
+externdef __imp_RpcMgmtSetServerStackSize:PPROC
+RpcMgmtSetServerStackSize equ <__imp_RpcMgmtSetServerStackSize>
+
+externdef __imp_RpcMgmtStatsVectorFree:PPROC
+RpcMgmtStatsVectorFree equ <__imp_RpcMgmtStatsVectorFree>
+
+externdef __imp_RpcMgmtStopServerListening:PPROC
+RpcMgmtStopServerListening equ <__imp_RpcMgmtStopServerListening>
+
+externdef __imp_RpcMgmtWaitServerListen:PPROC
+RpcMgmtWaitServerListen equ <__imp_RpcMgmtWaitServerListen>
+
+externdef __imp_RpcNetworkInqProtseqsA:PPROC
+RpcNetworkInqProtseqsA equ <__imp_RpcNetworkInqProtseqsA>
+  IFNDEF __UNICODE__
+    RpcNetworkInqProtseqs equ <__imp_RpcNetworkInqProtseqsA>
+  ENDIF
+
+externdef __imp_RpcNetworkInqProtseqsW:PPROC
+RpcNetworkInqProtseqsW equ <__imp_RpcNetworkInqProtseqsW>
+  IFDEF __UNICODE__
+    RpcNetworkInqProtseqs equ <__imp_RpcNetworkInqProtseqsW>
+  ENDIF
+
+externdef __imp_RpcNetworkIsProtseqValidA:PPROC
+RpcNetworkIsProtseqValidA equ <__imp_RpcNetworkIsProtseqValidA>
+  IFNDEF __UNICODE__
+    RpcNetworkIsProtseqValid equ <__imp_RpcNetworkIsProtseqValidA>
+  ENDIF
+
+externdef __imp_RpcNetworkIsProtseqValidW:PPROC
+RpcNetworkIsProtseqValidW equ <__imp_RpcNetworkIsProtseqValidW>
+  IFDEF __UNICODE__
+    RpcNetworkIsProtseqValid equ <__imp_RpcNetworkIsProtseqValidW>
+  ENDIF
+
+externdef __imp_RpcNsBindingInqEntryNameA:PPROC
+RpcNsBindingInqEntryNameA equ <__imp_RpcNsBindingInqEntryNameA>
+  IFNDEF __UNICODE__
+    RpcNsBindingInqEntryName equ <__imp_RpcNsBindingInqEntryNameA>
+  ENDIF
+
+externdef __imp_RpcNsBindingInqEntryNameW:PPROC
+RpcNsBindingInqEntryNameW equ <__imp_RpcNsBindingInqEntryNameW>
+  IFDEF __UNICODE__
+    RpcNsBindingInqEntryName equ <__imp_RpcNsBindingInqEntryNameW>
+  ENDIF
+
+externdef __imp_RpcObjectInqType:PPROC
+RpcObjectInqType equ <__imp_RpcObjectInqType>
+
+externdef __imp_RpcObjectSetInqFn:PPROC
+RpcObjectSetInqFn equ <__imp_RpcObjectSetInqFn>
+
+externdef __imp_RpcObjectSetType:PPROC
+RpcObjectSetType equ <__imp_RpcObjectSetType>
+
+externdef __imp_RpcProtseqVectorFreeA:PPROC
+RpcProtseqVectorFreeA equ <__imp_RpcProtseqVectorFreeA>
+  IFNDEF __UNICODE__
+    RpcProtseqVectorFree equ <__imp_RpcProtseqVectorFreeA>
+  ENDIF
+
+externdef __imp_RpcProtseqVectorFreeW:PPROC
+RpcProtseqVectorFreeW equ <__imp_RpcProtseqVectorFreeW>
+  IFDEF __UNICODE__
+    RpcProtseqVectorFree equ <__imp_RpcProtseqVectorFreeW>
+  ENDIF
+
+externdef __imp_RpcRaiseException:PPROC
+RpcRaiseException equ <__imp_RpcRaiseException>
+
+externdef __imp_RpcRegisterAsyncInfo:PPROC
+RpcRegisterAsyncInfo equ <__imp_RpcRegisterAsyncInfo>
+
+externdef __imp_RpcRevertToSelf:PPROC
+RpcRevertToSelf equ <__imp_RpcRevertToSelf>
+
+externdef __imp_RpcRevertToSelfEx:PPROC
+RpcRevertToSelfEx equ <__imp_RpcRevertToSelfEx>
+
+externdef __imp_RpcServerInqBindings:PPROC
+RpcServerInqBindings equ <__imp_RpcServerInqBindings>
+
+externdef __imp_RpcServerInqCallAttributesA:PPROC
+RpcServerInqCallAttributesA equ <__imp_RpcServerInqCallAttributesA>
+  IFNDEF __UNICODE__
+    RpcServerInqCallAttributes equ <__imp_RpcServerInqCallAttributesA>
+  ENDIF
+
+externdef __imp_RpcServerInqCallAttributesW:PPROC
+RpcServerInqCallAttributesW equ <__imp_RpcServerInqCallAttributesW>
+  IFDEF __UNICODE__
+    RpcServerInqCallAttributes equ <__imp_RpcServerInqCallAttributesW>
+  ENDIF
+
+externdef __imp_RpcServerInqDefaultPrincNameA:PPROC
+RpcServerInqDefaultPrincNameA equ <__imp_RpcServerInqDefaultPrincNameA>
+  IFNDEF __UNICODE__
+    RpcServerInqDefaultPrincName equ <__imp_RpcServerInqDefaultPrincNameA>
+  ENDIF
+
+externdef __imp_RpcServerInqDefaultPrincNameW:PPROC
+RpcServerInqDefaultPrincNameW equ <__imp_RpcServerInqDefaultPrincNameW>
+  IFDEF __UNICODE__
+    RpcServerInqDefaultPrincName equ <__imp_RpcServerInqDefaultPrincNameW>
+  ENDIF
+
+externdef __imp_RpcServerInqIf:PPROC
+RpcServerInqIf equ <__imp_RpcServerInqIf>
+
+externdef __imp_RpcServerListen:PPROC
+RpcServerListen equ <__imp_RpcServerListen>
+
+externdef __imp_RpcServerRegisterAuthInfoA:PPROC
+RpcServerRegisterAuthInfoA equ <__imp_RpcServerRegisterAuthInfoA>
+  IFNDEF __UNICODE__
+    RpcServerRegisterAuthInfo equ <__imp_RpcServerRegisterAuthInfoA>
+  ENDIF
+
+externdef __imp_RpcServerRegisterAuthInfoW:PPROC
+RpcServerRegisterAuthInfoW equ <__imp_RpcServerRegisterAuthInfoW>
+  IFDEF __UNICODE__
+    RpcServerRegisterAuthInfo equ <__imp_RpcServerRegisterAuthInfoW>
+  ENDIF
+
+externdef __imp_RpcServerRegisterIf2:PPROC
+RpcServerRegisterIf2 equ <__imp_RpcServerRegisterIf2>
+
+externdef __imp_RpcServerRegisterIf:PPROC
+RpcServerRegisterIf equ <__imp_RpcServerRegisterIf>
+
+externdef __imp_RpcServerRegisterIfEx:PPROC
+RpcServerRegisterIfEx equ <__imp_RpcServerRegisterIfEx>
+
+externdef __imp_RpcServerTestCancel:PPROC
+RpcServerTestCancel equ <__imp_RpcServerTestCancel>
+
+externdef __imp_RpcServerUnregisterIf:PPROC
+RpcServerUnregisterIf equ <__imp_RpcServerUnregisterIf>
+
+externdef __imp_RpcServerUnregisterIfEx:PPROC
+RpcServerUnregisterIfEx equ <__imp_RpcServerUnregisterIfEx>
+
+externdef __imp_RpcServerUseAllProtseqs:PPROC
+RpcServerUseAllProtseqs equ <__imp_RpcServerUseAllProtseqs>
+
+externdef __imp_RpcServerUseAllProtseqsEx:PPROC
+RpcServerUseAllProtseqsEx equ <__imp_RpcServerUseAllProtseqsEx>
+
+externdef __imp_RpcServerUseAllProtseqsIf:PPROC
+RpcServerUseAllProtseqsIf equ <__imp_RpcServerUseAllProtseqsIf>
+
+externdef __imp_RpcServerUseAllProtseqsIfEx:PPROC
+RpcServerUseAllProtseqsIfEx equ <__imp_RpcServerUseAllProtseqsIfEx>
+
+externdef __imp_RpcServerUseProtseqA:PPROC
+RpcServerUseProtseqA equ <__imp_RpcServerUseProtseqA>
+  IFNDEF __UNICODE__
+    RpcServerUseProtseq equ <__imp_RpcServerUseProtseqA>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqEpA:PPROC
+RpcServerUseProtseqEpA equ <__imp_RpcServerUseProtseqEpA>
+  IFNDEF __UNICODE__
+    RpcServerUseProtseqEp equ <__imp_RpcServerUseProtseqEpA>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqEpExA:PPROC
+RpcServerUseProtseqEpExA equ <__imp_RpcServerUseProtseqEpExA>
+  IFNDEF __UNICODE__
+    RpcServerUseProtseqEpEx equ <__imp_RpcServerUseProtseqEpExA>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqEpExW:PPROC
+RpcServerUseProtseqEpExW equ <__imp_RpcServerUseProtseqEpExW>
+  IFDEF __UNICODE__
+    RpcServerUseProtseqEpEx equ <__imp_RpcServerUseProtseqEpExW>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqEpW:PPROC
+RpcServerUseProtseqEpW equ <__imp_RpcServerUseProtseqEpW>
+  IFDEF __UNICODE__
+    RpcServerUseProtseqEp equ <__imp_RpcServerUseProtseqEpW>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqExA:PPROC
+RpcServerUseProtseqExA equ <__imp_RpcServerUseProtseqExA>
+  IFNDEF __UNICODE__
+    RpcServerUseProtseqEx equ <__imp_RpcServerUseProtseqExA>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqExW:PPROC
+RpcServerUseProtseqExW equ <__imp_RpcServerUseProtseqExW>
+  IFDEF __UNICODE__
+    RpcServerUseProtseqEx equ <__imp_RpcServerUseProtseqExW>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqIfA:PPROC
+RpcServerUseProtseqIfA equ <__imp_RpcServerUseProtseqIfA>
+  IFNDEF __UNICODE__
+    RpcServerUseProtseqIf equ <__imp_RpcServerUseProtseqIfA>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqIfExA:PPROC
+RpcServerUseProtseqIfExA equ <__imp_RpcServerUseProtseqIfExA>
+  IFNDEF __UNICODE__
+    RpcServerUseProtseqIfEx equ <__imp_RpcServerUseProtseqIfExA>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqIfExW:PPROC
+RpcServerUseProtseqIfExW equ <__imp_RpcServerUseProtseqIfExW>
+  IFDEF __UNICODE__
+    RpcServerUseProtseqIfEx equ <__imp_RpcServerUseProtseqIfExW>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqIfW:PPROC
+RpcServerUseProtseqIfW equ <__imp_RpcServerUseProtseqIfW>
+  IFDEF __UNICODE__
+    RpcServerUseProtseqIf equ <__imp_RpcServerUseProtseqIfW>
+  ENDIF
+
+externdef __imp_RpcServerUseProtseqW:PPROC
+RpcServerUseProtseqW equ <__imp_RpcServerUseProtseqW>
+  IFDEF __UNICODE__
+    RpcServerUseProtseq equ <__imp_RpcServerUseProtseqW>
+  ENDIF
+
+externdef __imp_RpcServerYield:PPROC
+RpcServerYield equ <__imp_RpcServerYield>
+
+externdef __imp_RpcSmAllocate:PPROC
+RpcSmAllocate equ <__imp_RpcSmAllocate>
+
+externdef __imp_RpcSmClientFree:PPROC
+RpcSmClientFree equ <__imp_RpcSmClientFree>
+
+externdef __imp_RpcSmDestroyClientContext:PPROC
+RpcSmDestroyClientContext equ <__imp_RpcSmDestroyClientContext>
+
+externdef __imp_RpcSmDisableAllocate:PPROC
+RpcSmDisableAllocate equ <__imp_RpcSmDisableAllocate>
+
+externdef __imp_RpcSmEnableAllocate:PPROC
+RpcSmEnableAllocate equ <__imp_RpcSmEnableAllocate>
+
+externdef __imp_RpcSmFree:PPROC
+RpcSmFree equ <__imp_RpcSmFree>
+
+externdef __imp_RpcSmGetThreadHandle:PPROC
+RpcSmGetThreadHandle equ <__imp_RpcSmGetThreadHandle>
+
+externdef __imp_RpcSmSetClientAllocFree:PPROC
+RpcSmSetClientAllocFree equ <__imp_RpcSmSetClientAllocFree>
+
+externdef __imp_RpcSmSetThreadHandle:PPROC
+RpcSmSetThreadHandle equ <__imp_RpcSmSetThreadHandle>
+
+externdef __imp_RpcSmSwapClientAllocFree:PPROC
+RpcSmSwapClientAllocFree equ <__imp_RpcSmSwapClientAllocFree>
+
+externdef __imp_RpcSsAllocate:PPROC
+RpcSsAllocate equ <__imp_RpcSsAllocate>
+
+externdef __imp_RpcSsContextLockExclusive:PPROC
+RpcSsContextLockExclusive equ <__imp_RpcSsContextLockExclusive>
+
+externdef __imp_RpcSsContextLockShared:PPROC
+RpcSsContextLockShared equ <__imp_RpcSsContextLockShared>
+
+externdef __imp_RpcSsDestroyClientContext:PPROC
+RpcSsDestroyClientContext equ <__imp_RpcSsDestroyClientContext>
+
+externdef __imp_RpcSsDisableAllocate:PPROC
+RpcSsDisableAllocate equ <__imp_RpcSsDisableAllocate>
+
+externdef __imp_RpcSsDontSerializeContext:PPROC
+RpcSsDontSerializeContext equ <__imp_RpcSsDontSerializeContext>
+
+externdef __imp_RpcSsEnableAllocate:PPROC
+RpcSsEnableAllocate equ <__imp_RpcSsEnableAllocate>
+
+externdef __imp_RpcSsFree:PPROC
+RpcSsFree equ <__imp_RpcSsFree>
+
+externdef __imp_RpcSsGetContextBinding:PPROC
+RpcSsGetContextBinding equ <__imp_RpcSsGetContextBinding>
+
+externdef __imp_RpcSsGetThreadHandle:PPROC
+RpcSsGetThreadHandle equ <__imp_RpcSsGetThreadHandle>
+
+externdef __imp_RpcSsSetClientAllocFree:PPROC
+RpcSsSetClientAllocFree equ <__imp_RpcSsSetClientAllocFree>
+
+externdef __imp_RpcSsSetThreadHandle:PPROC
+RpcSsSetThreadHandle equ <__imp_RpcSsSetThreadHandle>
+
+externdef __imp_RpcSsSwapClientAllocFree:PPROC
+RpcSsSwapClientAllocFree equ <__imp_RpcSsSwapClientAllocFree>
+
+externdef __imp_RpcStringBindingComposeA:PPROC
+RpcStringBindingComposeA equ <__imp_RpcStringBindingComposeA>
+  IFNDEF __UNICODE__
+    RpcStringBindingCompose equ <__imp_RpcStringBindingComposeA>
+  ENDIF
+
+externdef __imp_RpcStringBindingComposeW:PPROC
+RpcStringBindingComposeW equ <__imp_RpcStringBindingComposeW>
+  IFDEF __UNICODE__
+    RpcStringBindingCompose equ <__imp_RpcStringBindingComposeW>
+  ENDIF
+
+externdef __imp_RpcStringBindingParseA:PPROC
+RpcStringBindingParseA equ <__imp_RpcStringBindingParseA>
+  IFNDEF __UNICODE__
+    RpcStringBindingParse equ <__imp_RpcStringBindingParseA>
+  ENDIF
+
+externdef __imp_RpcStringBindingParseW:PPROC
+RpcStringBindingParseW equ <__imp_RpcStringBindingParseW>
+  IFDEF __UNICODE__
+    RpcStringBindingParse equ <__imp_RpcStringBindingParseW>
+  ENDIF
+
+externdef __imp_RpcStringFreeA:PPROC
+RpcStringFreeA equ <__imp_RpcStringFreeA>
+  IFNDEF __UNICODE__
+    RpcStringFree equ <__imp_RpcStringFreeA>
+  ENDIF
+
+externdef __imp_RpcStringFreeW:PPROC
+RpcStringFreeW equ <__imp_RpcStringFreeW>
+  IFDEF __UNICODE__
+    RpcStringFree equ <__imp_RpcStringFreeW>
+  ENDIF
+
+externdef __imp_RpcTestCancel:PPROC
+RpcTestCancel equ <__imp_RpcTestCancel>
+
+externdef __imp_RpcUserFree:PPROC
+RpcUserFree equ <__imp_RpcUserFree>
+
+externdef __imp_SimpleTypeAlignment:PPROC
+SimpleTypeAlignment equ <__imp_SimpleTypeAlignment>
+
+externdef __imp_SimpleTypeBufferSize:PPROC
+SimpleTypeBufferSize equ <__imp_SimpleTypeBufferSize>
+
+externdef __imp_SimpleTypeMemorySize:PPROC
+SimpleTypeMemorySize equ <__imp_SimpleTypeMemorySize>
+
+externdef __imp_TowerConstruct:PPROC
+TowerConstruct equ <__imp_TowerConstruct>
+
+externdef __imp_TowerExplode:PPROC
+TowerExplode equ <__imp_TowerExplode>
+
+externdef __imp_UuidCompare:PPROC
+UuidCompare equ <__imp_UuidCompare>
+
+externdef __imp_UuidCreate:PPROC
+UuidCreate equ <__imp_UuidCreate>
+
+externdef __imp_UuidCreateNil:PPROC
+UuidCreateNil equ <__imp_UuidCreateNil>
+
+externdef __imp_UuidCreateSequential:PPROC
+UuidCreateSequential equ <__imp_UuidCreateSequential>
+
+externdef __imp_UuidEqual:PPROC
+UuidEqual equ <__imp_UuidEqual>
+
+externdef __imp_UuidFromStringA:PPROC
+UuidFromStringA equ <__imp_UuidFromStringA>
+  IFNDEF __UNICODE__
+    UuidFromString equ <__imp_UuidFromStringA>
+  ENDIF
+
+externdef __imp_UuidFromStringW:PPROC
+UuidFromStringW equ <__imp_UuidFromStringW>
+  IFDEF __UNICODE__
+    UuidFromString equ <__imp_UuidFromStringW>
+  ENDIF
+
+externdef __imp_UuidHash:PPROC
+UuidHash equ <__imp_UuidHash>
+
+externdef __imp_UuidIsNil:PPROC
+UuidIsNil equ <__imp_UuidIsNil>
+
+externdef __imp_UuidToStringA:PPROC
+UuidToStringA equ <__imp_UuidToStringA>
+  IFNDEF __UNICODE__
+    UuidToString equ <__imp_UuidToStringA>
+  ENDIF
+
+externdef __imp_UuidToStringW:PPROC
+UuidToStringW equ <__imp_UuidToStringW>
+  IFDEF __UNICODE__
+    UuidToString equ <__imp_UuidToStringW>
+  ENDIF
+
+externdef __imp_pfnFreeRoutines:PPROC
+pfnFreeRoutines equ <__imp_pfnFreeRoutines>
+
+externdef __imp_pfnMarshallRoutines:PPROC
+pfnMarshallRoutines equ <__imp_pfnMarshallRoutines>
+
+externdef __imp_pfnSizeRoutines:PPROC
+pfnSizeRoutines equ <__imp_pfnSizeRoutines>
+
+externdef __imp_pfnUnmarshallRoutines:PPROC
+pfnUnmarshallRoutines equ <__imp_pfnUnmarshallRoutines>

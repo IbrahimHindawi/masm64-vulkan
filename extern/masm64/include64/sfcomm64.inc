@@ -1,0 +1,368 @@
+externdef __imp_sffxFree:PPROC
+sffxFree equ <__imp_sffxFree>
+
+externdef __imp_sffxGetAmbience:PPROC
+sffxGetAmbience equ <__imp_sffxGetAmbience>
+
+externdef __imp_sffxGetAudioContrast:PPROC
+sffxGetAudioContrast equ <__imp_sffxGetAudioContrast>
+
+externdef __imp_sffxGetBassMgmtMode:PPROC
+sffxGetBassMgmtMode equ <__imp_sffxGetBassMgmtMode>
+
+externdef __imp_sffxGetBrilliance:PPROC
+sffxGetBrilliance equ <__imp_sffxGetBrilliance>
+
+externdef __imp_sffxGetCenterLevel:PPROC
+sffxGetCenterLevel equ <__imp_sffxGetCenterLevel>
+
+externdef __imp_sffxGetCenterSubSwapState:PPROC
+sffxGetCenterSubSwapState equ <__imp_sffxGetCenterSubSwapState>
+
+externdef __imp_sffxGetDeepBass:PPROC
+sffxGetDeepBass equ <__imp_sffxGetDeepBass>
+
+externdef __imp_sffxGetDeepBassFreq:PPROC
+sffxGetDeepBassFreq equ <__imp_sffxGetDeepBassFreq>
+
+externdef __imp_sffxGetDeepBassQ:PPROC
+sffxGetDeepBassQ equ <__imp_sffxGetDeepBassQ>
+
+externdef __imp_sffxGetDefaultPlaybackDevice:PPROC
+sffxGetDefaultPlaybackDevice equ <__imp_sffxGetDefaultPlaybackDevice>
+
+externdef __imp_sffxGetDefaultRecordDevice:PPROC
+sffxGetDefaultRecordDevice equ <__imp_sffxGetDefaultRecordDevice>
+
+externdef __imp_sffxGetDigitalMode:PPROC
+sffxGetDigitalMode equ <__imp_sffxGetDigitalMode>
+
+externdef __imp_sffxGetDynamics:PPROC
+sffxGetDynamics equ <__imp_sffxGetDynamics>
+
+externdef __imp_sffxGetLevel:PPROC
+sffxGetLevel equ <__imp_sffxGetLevel>
+
+externdef __imp_sffxGetLowCutFreq:PPROC
+sffxGetLowCutFreq equ <__imp_sffxGetLowCutFreq>
+
+externdef __imp_sffxGetLowCutPower:PPROC
+sffxGetLowCutPower equ <__imp_sffxGetLowCutPower>
+
+externdef __imp_sffxGetMasterPlaybackMute:PPROC
+sffxGetMasterPlaybackMute equ <__imp_sffxGetMasterPlaybackMute>
+
+externdef __imp_sffxGetMasterPlaybackVolume:PPROC
+sffxGetMasterPlaybackVolume equ <__imp_sffxGetMasterPlaybackVolume>
+
+externdef __imp_sffxGetMasterRecordMute:PPROC
+sffxGetMasterRecordMute equ <__imp_sffxGetMasterRecordMute>
+
+externdef __imp_sffxGetMasterRecordVolume:PPROC
+sffxGetMasterRecordVolume equ <__imp_sffxGetMasterRecordVolume>
+
+externdef __imp_sffxGetMeterData:PPROC
+sffxGetMeterData equ <__imp_sffxGetMeterData>
+
+externdef __imp_sffxGetNumPlaybackControls:PPROC
+sffxGetNumPlaybackControls equ <__imp_sffxGetNumPlaybackControls>
+
+externdef __imp_sffxGetNumPlaybackDevices:PPROC
+sffxGetNumPlaybackDevices equ <__imp_sffxGetNumPlaybackDevices>
+
+externdef __imp_sffxGetNumPlaybackJacks:PPROC
+sffxGetNumPlaybackJacks equ <__imp_sffxGetNumPlaybackJacks>
+
+externdef __imp_sffxGetNumPresets:PPROC
+sffxGetNumPresets equ <__imp_sffxGetNumPresets>
+
+externdef __imp_sffxGetNumRecordControls:PPROC
+sffxGetNumRecordControls equ <__imp_sffxGetNumRecordControls>
+
+externdef __imp_sffxGetNumRecordDevices:PPROC
+sffxGetNumRecordDevices equ <__imp_sffxGetNumRecordDevices>
+
+externdef __imp_sffxGetNumRecordJacks:PPROC
+sffxGetNumRecordJacks equ <__imp_sffxGetNumRecordJacks>
+
+externdef __imp_sffxGetPlaybackChannelVolume:PPROC
+sffxGetPlaybackChannelVolume equ <__imp_sffxGetPlaybackChannelVolume>
+
+externdef __imp_sffxGetPlaybackControlInfo:PPROC
+sffxGetPlaybackControlInfo equ <__imp_sffxGetPlaybackControlInfo>
+
+externdef __imp_sffxGetPlaybackControlRange:PPROC
+sffxGetPlaybackControlRange equ <__imp_sffxGetPlaybackControlRange>
+
+externdef __imp_sffxGetPlaybackControlValue:PPROC
+sffxGetPlaybackControlValue equ <__imp_sffxGetPlaybackControlValue>
+
+externdef __imp_sffxGetPlaybackDeviceIndex:PPROC
+sffxGetPlaybackDeviceIndex equ <__imp_sffxGetPlaybackDeviceIndex>
+
+externdef __imp_sffxGetPlaybackDeviceInfo:PPROC
+sffxGetPlaybackDeviceInfo equ <__imp_sffxGetPlaybackDeviceInfo>
+
+externdef __imp_sffxGetPlaybackDeviceState:PPROC
+sffxGetPlaybackDeviceState equ <__imp_sffxGetPlaybackDeviceState>
+
+externdef __imp_sffxGetPlaybackJackInfo:PPROC
+sffxGetPlaybackJackInfo equ <__imp_sffxGetPlaybackJackInfo>
+
+externdef __imp_sffxGetPlaybackVolumeChannelCount:PPROC
+sffxGetPlaybackVolumeChannelCount equ <__imp_sffxGetPlaybackVolumeChannelCount>
+
+externdef __imp_sffxGetPower:PPROC
+sffxGetPower equ <__imp_sffxGetPower>
+
+externdef __imp_sffxGetPreset:PPROC
+sffxGetPreset equ <__imp_sffxGetPreset>
+
+externdef __imp_sffxGetProcessingInfo:PPROC
+sffxGetProcessingInfo equ <__imp_sffxGetProcessingInfo>
+
+externdef __imp_sffxGetRecordChannelVolume:PPROC
+sffxGetRecordChannelVolume equ <__imp_sffxGetRecordChannelVolume>
+
+externdef __imp_sffxGetRecordControlInfo:PPROC
+sffxGetRecordControlInfo equ <__imp_sffxGetRecordControlInfo>
+
+externdef __imp_sffxGetRecordControlRange:PPROC
+sffxGetRecordControlRange equ <__imp_sffxGetRecordControlRange>
+
+externdef __imp_sffxGetRecordControlValue:PPROC
+sffxGetRecordControlValue equ <__imp_sffxGetRecordControlValue>
+
+externdef __imp_sffxGetRecordDeviceIndex:PPROC
+sffxGetRecordDeviceIndex equ <__imp_sffxGetRecordDeviceIndex>
+
+externdef __imp_sffxGetRecordDeviceInfo:PPROC
+sffxGetRecordDeviceInfo equ <__imp_sffxGetRecordDeviceInfo>
+
+externdef __imp_sffxGetRecordDeviceState:PPROC
+sffxGetRecordDeviceState equ <__imp_sffxGetRecordDeviceState>
+
+externdef __imp_sffxGetRecordJackInfo:PPROC
+sffxGetRecordJackInfo equ <__imp_sffxGetRecordJackInfo>
+
+externdef __imp_sffxGetRecordLevel:PPROC
+sffxGetRecordLevel equ <__imp_sffxGetRecordLevel>
+
+externdef __imp_sffxGetRecordMeterData:PPROC
+sffxGetRecordMeterData equ <__imp_sffxGetRecordMeterData>
+
+externdef __imp_sffxGetRecordVolumeChannelCount:PPROC
+sffxGetRecordVolumeChannelCount equ <__imp_sffxGetRecordVolumeChannelCount>
+
+externdef __imp_sffxGetReflections:PPROC
+sffxGetReflections equ <__imp_sffxGetReflections>
+
+externdef __imp_sffxGetRoomDepth:PPROC
+sffxGetRoomDepth equ <__imp_sffxGetRoomDepth>
+
+externdef __imp_sffxGetSelectedPlaybackDevice:PPROC
+sffxGetSelectedPlaybackDevice equ <__imp_sffxGetSelectedPlaybackDevice>
+
+externdef __imp_sffxGetSelectedRecordDevice:PPROC
+sffxGetSelectedRecordDevice equ <__imp_sffxGetSelectedRecordDevice>
+
+externdef __imp_sffxGetSolo:PPROC
+sffxGetSolo equ <__imp_sffxGetSolo>
+
+externdef __imp_sffxGetSpeakerMode:PPROC
+sffxGetSpeakerMode equ <__imp_sffxGetSpeakerMode>
+
+externdef __imp_sffxGetSpeakerTest:PPROC
+sffxGetSpeakerTest equ <__imp_sffxGetSpeakerTest>
+
+externdef __imp_sffxGetSubXoverFreq:PPROC
+sffxGetSubXoverFreq equ <__imp_sffxGetSubXoverFreq>
+
+externdef __imp_sffxGetSupportedDigitalModes:PPROC
+sffxGetSupportedDigitalModes equ <__imp_sffxGetSupportedDigitalModes>
+
+externdef __imp_sffxGetSupportedSpeakerModes:PPROC
+sffxGetSupportedSpeakerModes equ <__imp_sffxGetSupportedSpeakerModes>
+
+externdef __imp_sffxGetSurroundFaderX:PPROC
+sffxGetSurroundFaderX equ <__imp_sffxGetSurroundFaderX>
+
+externdef __imp_sffxGetSurroundFaderY:PPROC
+sffxGetSurroundFaderY equ <__imp_sffxGetSurroundFaderY>
+
+externdef __imp_sffxGetTestSong:PPROC
+sffxGetTestSong equ <__imp_sffxGetTestSong>
+
+externdef __imp_sffxGetUserEQBandFreq:PPROC
+sffxGetUserEQBandFreq equ <__imp_sffxGetUserEQBandFreq>
+
+externdef __imp_sffxGetUserEQBandGain:PPROC
+sffxGetUserEQBandGain equ <__imp_sffxGetUserEQBandGain>
+
+externdef __imp_sffxGetUserEQBandQ:PPROC
+sffxGetUserEQBandQ equ <__imp_sffxGetUserEQBandQ>
+
+externdef __imp_sffxGetUserEQNumBands:PPROC
+sffxGetUserEQNumBands equ <__imp_sffxGetUserEQNumBands>
+
+externdef __imp_sffxGetUserEQPower:PPROC
+sffxGetUserEQPower equ <__imp_sffxGetUserEQPower>
+
+externdef __imp_sffxGetUserEQType:PPROC
+sffxGetUserEQType equ <__imp_sffxGetUserEQType>
+
+externdef __imp_sffxGetWaveInDeviceIndex:PPROC
+sffxGetWaveInDeviceIndex equ <__imp_sffxGetWaveInDeviceIndex>
+
+externdef __imp_sffxGetWaveOutDeviceIndex:PPROC
+sffxGetWaveOutDeviceIndex equ <__imp_sffxGetWaveOutDeviceIndex>
+
+externdef __imp_sffxGetWidth:PPROC
+sffxGetWidth equ <__imp_sffxGetWidth>
+
+externdef __imp_sffxInit:PPROC
+sffxInit equ <__imp_sffxInit>
+
+externdef __imp_sffxPing:PPROC
+sffxPing equ <__imp_sffxPing>
+
+externdef __imp_sffxRegisterNotificationCallback:PPROC
+sffxRegisterNotificationCallback equ <__imp_sffxRegisterNotificationCallback>
+
+externdef __imp_sffxRegisterNotificationWindow:PPROC
+sffxRegisterNotificationWindow equ <__imp_sffxRegisterNotificationWindow>
+
+externdef __imp_sffxResetPreset:PPROC
+sffxResetPreset equ <__imp_sffxResetPreset>
+
+externdef __imp_sffxSavePreset:PPROC
+sffxSavePreset equ <__imp_sffxSavePreset>
+
+externdef __imp_sffxSetAmbience:PPROC
+sffxSetAmbience equ <__imp_sffxSetAmbience>
+
+externdef __imp_sffxSetAudioContrast:PPROC
+sffxSetAudioContrast equ <__imp_sffxSetAudioContrast>
+
+externdef __imp_sffxSetBassMgmtMode:PPROC
+sffxSetBassMgmtMode equ <__imp_sffxSetBassMgmtMode>
+
+externdef __imp_sffxSetBrilliance:PPROC
+sffxSetBrilliance equ <__imp_sffxSetBrilliance>
+
+externdef __imp_sffxSetCenterLevel:PPROC
+sffxSetCenterLevel equ <__imp_sffxSetCenterLevel>
+
+externdef __imp_sffxSetCenterSubSwapState:PPROC
+sffxSetCenterSubSwapState equ <__imp_sffxSetCenterSubSwapState>
+
+externdef __imp_sffxSetDeepBass:PPROC
+sffxSetDeepBass equ <__imp_sffxSetDeepBass>
+
+externdef __imp_sffxSetDeepBassFreq:PPROC
+sffxSetDeepBassFreq equ <__imp_sffxSetDeepBassFreq>
+
+externdef __imp_sffxSetDeepBassQ:PPROC
+sffxSetDeepBassQ equ <__imp_sffxSetDeepBassQ>
+
+externdef __imp_sffxSetDefaultPlaybackDevice:PPROC
+sffxSetDefaultPlaybackDevice equ <__imp_sffxSetDefaultPlaybackDevice>
+
+externdef __imp_sffxSetDefaultRecordDevice:PPROC
+sffxSetDefaultRecordDevice equ <__imp_sffxSetDefaultRecordDevice>
+
+externdef __imp_sffxSetDigitalMode:PPROC
+sffxSetDigitalMode equ <__imp_sffxSetDigitalMode>
+
+externdef __imp_sffxSetDynamics:PPROC
+sffxSetDynamics equ <__imp_sffxSetDynamics>
+
+externdef __imp_sffxSetLowCutFreq:PPROC
+sffxSetLowCutFreq equ <__imp_sffxSetLowCutFreq>
+
+externdef __imp_sffxSetLowCutPower:PPROC
+sffxSetLowCutPower equ <__imp_sffxSetLowCutPower>
+
+externdef __imp_sffxSetMasterPlaybackMute:PPROC
+sffxSetMasterPlaybackMute equ <__imp_sffxSetMasterPlaybackMute>
+
+externdef __imp_sffxSetMasterPlaybackVolume:PPROC
+sffxSetMasterPlaybackVolume equ <__imp_sffxSetMasterPlaybackVolume>
+
+externdef __imp_sffxSetMasterRecordMute:PPROC
+sffxSetMasterRecordMute equ <__imp_sffxSetMasterRecordMute>
+
+externdef __imp_sffxSetMasterRecordVolume:PPROC
+sffxSetMasterRecordVolume equ <__imp_sffxSetMasterRecordVolume>
+
+externdef __imp_sffxSetPlaybackChannelVolume:PPROC
+sffxSetPlaybackChannelVolume equ <__imp_sffxSetPlaybackChannelVolume>
+
+externdef __imp_sffxSetPlaybackControlValue:PPROC
+sffxSetPlaybackControlValue equ <__imp_sffxSetPlaybackControlValue>
+
+externdef __imp_sffxSetPower:PPROC
+sffxSetPower equ <__imp_sffxSetPower>
+
+externdef __imp_sffxSetPreset:PPROC
+sffxSetPreset equ <__imp_sffxSetPreset>
+
+externdef __imp_sffxSetRecordChannelVolume:PPROC
+sffxSetRecordChannelVolume equ <__imp_sffxSetRecordChannelVolume>
+
+externdef __imp_sffxSetRecordControlValue:PPROC
+sffxSetRecordControlValue equ <__imp_sffxSetRecordControlValue>
+
+externdef __imp_sffxSetReflections:PPROC
+sffxSetReflections equ <__imp_sffxSetReflections>
+
+externdef __imp_sffxSetRoomDepth:PPROC
+sffxSetRoomDepth equ <__imp_sffxSetRoomDepth>
+
+externdef __imp_sffxSetSelectedPlaybackDevice:PPROC
+sffxSetSelectedPlaybackDevice equ <__imp_sffxSetSelectedPlaybackDevice>
+
+externdef __imp_sffxSetSelectedRecordDevice:PPROC
+sffxSetSelectedRecordDevice equ <__imp_sffxSetSelectedRecordDevice>
+
+externdef __imp_sffxSetSolo:PPROC
+sffxSetSolo equ <__imp_sffxSetSolo>
+
+externdef __imp_sffxSetSpeakerMode:PPROC
+sffxSetSpeakerMode equ <__imp_sffxSetSpeakerMode>
+
+externdef __imp_sffxSetSpeakerTest:PPROC
+sffxSetSpeakerTest equ <__imp_sffxSetSpeakerTest>
+
+externdef __imp_sffxSetSubXoverFreq:PPROC
+sffxSetSubXoverFreq equ <__imp_sffxSetSubXoverFreq>
+
+externdef __imp_sffxSetSurroundFaderX:PPROC
+sffxSetSurroundFaderX equ <__imp_sffxSetSurroundFaderX>
+
+externdef __imp_sffxSetSurroundFaderY:PPROC
+sffxSetSurroundFaderY equ <__imp_sffxSetSurroundFaderY>
+
+externdef __imp_sffxSetTestSong:PPROC
+sffxSetTestSong equ <__imp_sffxSetTestSong>
+
+externdef __imp_sffxSetUserEQBandFreq:PPROC
+sffxSetUserEQBandFreq equ <__imp_sffxSetUserEQBandFreq>
+
+externdef __imp_sffxSetUserEQBandGain:PPROC
+sffxSetUserEQBandGain equ <__imp_sffxSetUserEQBandGain>
+
+externdef __imp_sffxSetUserEQBandQ:PPROC
+sffxSetUserEQBandQ equ <__imp_sffxSetUserEQBandQ>
+
+externdef __imp_sffxSetUserEQPower:PPROC
+sffxSetUserEQPower equ <__imp_sffxSetUserEQPower>
+
+externdef __imp_sffxSetWidth:PPROC
+sffxSetWidth equ <__imp_sffxSetWidth>
+
+externdef __imp_sffxUnregisterNotificationCallback:PPROC
+sffxUnregisterNotificationCallback equ <__imp_sffxUnregisterNotificationCallback>
+
+externdef __imp_sffxUnregisterNotificationWindow:PPROC
+sffxUnregisterNotificationWindow equ <__imp_sffxUnregisterNotificationWindow>

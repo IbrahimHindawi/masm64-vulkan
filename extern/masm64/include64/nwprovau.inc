@@ -1,0 +1,122 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_GetServiceItemFromList:PPROC
+GetServiceItemFromList equ <__imp_GetServiceItemFromList>
+
+externdef __imp_InitializePrintProvidor:PPROC
+InitializePrintProvidor equ <__imp_InitializePrintProvidor>
+
+externdef __imp_LsaApCallPackage:PPROC
+LsaApCallPackage equ <__imp_LsaApCallPackage>
+
+externdef __imp_LsaApInitializePackage:PPROC
+LsaApInitializePackage equ <__imp_LsaApInitializePackage>
+
+externdef __imp_LsaApLogonTerminated:PPROC
+LsaApLogonTerminated equ <__imp_LsaApLogonTerminated>
+
+externdef __imp_LsaApLogonUser:PPROC
+LsaApLogonUser equ <__imp_LsaApLogonUser>
+
+externdef __imp_NPAddConnection3:PPROC
+NPAddConnection3 equ <__imp_NPAddConnection3>
+
+externdef __imp_NPAddConnection:PPROC
+NPAddConnection equ <__imp_NPAddConnection>
+
+externdef __imp_NPCancelConnection:PPROC
+NPCancelConnection equ <__imp_NPCancelConnection>
+
+externdef __imp_NPCloseEnum:PPROC
+NPCloseEnum equ <__imp_NPCloseEnum>
+
+externdef __imp_NPEnumResource:PPROC
+NPEnumResource equ <__imp_NPEnumResource>
+
+externdef __imp_NPFormatNetworkName:PPROC
+NPFormatNetworkName equ <__imp_NPFormatNetworkName>
+
+externdef __imp_NPGetCaps:PPROC
+NPGetCaps equ <__imp_NPGetCaps>
+
+externdef __imp_NPGetConnection:PPROC
+NPGetConnection equ <__imp_NPGetConnection>
+
+externdef __imp_NPGetConnectionPerformance:PPROC
+NPGetConnectionPerformance equ <__imp_NPGetConnectionPerformance>
+
+externdef __imp_NPGetResourceInformation:PPROC
+NPGetResourceInformation equ <__imp_NPGetResourceInformation>
+
+externdef __imp_NPGetResourceParent:PPROC
+NPGetResourceParent equ <__imp_NPGetResourceParent>
+
+externdef __imp_NPGetUniversalName:PPROC
+NPGetUniversalName equ <__imp_NPGetUniversalName>
+
+externdef __imp_NPGetUser:PPROC
+NPGetUser equ <__imp_NPGetUser>
+
+externdef __imp_NPLoadNameSpaces:PPROC
+NPLoadNameSpaces equ <__imp_NPLoadNameSpaces>
+
+externdef __imp_NPLogonNotify:PPROC
+NPLogonNotify equ <__imp_NPLogonNotify>
+
+externdef __imp_NPOpenEnum:PPROC
+NPOpenEnum equ <__imp_NPOpenEnum>
+
+externdef __imp_NPPasswordChangeNotify:PPROC
+NPPasswordChangeNotify equ <__imp_NPPasswordChangeNotify>
+
+externdef __imp_NSPStartup:PPROC
+NSPStartup equ <__imp_NSPStartup>
+
+externdef __imp_NwDeregisterService:PPROC
+NwDeregisterService equ <__imp_NwDeregisterService>
+
+externdef __imp_NwEncryptChallenge:PPROC
+NwEncryptChallenge equ <__imp_NwEncryptChallenge>
+
+externdef __imp_NwEnumConnections:PPROC
+NwEnumConnections equ <__imp_NwEnumConnections>
+
+externdef __imp_NwGetService:PPROC
+NwGetService equ <__imp_NwGetService>
+
+externdef __imp_NwGetUserNameForServer:PPROC
+NwGetUserNameForServer equ <__imp_NwGetUserNameForServer>
+
+externdef __imp_NwInitializeServiceProvider:PPROC
+NwInitializeServiceProvider equ <__imp_NwInitializeServiceProvider>
+
+externdef __imp_NwQueryInfo:PPROC
+NwQueryInfo equ <__imp_NwQueryInfo>
+
+externdef __imp_NwQueryLogonOptions:PPROC
+NwQueryLogonOptions equ <__imp_NwQueryLogonOptions>
+
+externdef __imp_NwRegisterService:PPROC
+NwRegisterService equ <__imp_NwRegisterService>
+
+externdef __imp_NwSetInfoInRegistry:PPROC
+NwSetInfoInRegistry equ <__imp_NwSetInfoInRegistry>
+
+externdef __imp_NwSetInfoInWksta:PPROC
+NwSetInfoInWksta equ <__imp_NwSetInfoInWksta>
+
+externdef __imp_NwSetLogonOptionsInRegistry:PPROC
+NwSetLogonOptionsInRegistry equ <__imp_NwSetLogonOptionsInRegistry>
+
+externdef __imp_NwSetLogonScript:PPROC
+NwSetLogonScript equ <__imp_NwSetLogonScript>
+
+externdef __imp_NwTerminateServiceProvider:PPROC
+NwTerminateServiceProvider equ <__imp_NwTerminateServiceProvider>
+
+externdef __imp_NwValidateUser:PPROC
+NwValidateUser equ <__imp_NwValidateUser>

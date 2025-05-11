@@ -1,0 +1,11 @@
+externdef __imp_SensNotifyNetconEvent:PPROC
+SensNotifyNetconEvent equ <__imp_SensNotifyNetconEvent>
+
+externdef __imp_SensNotifyRasEvent:PPROC
+SensNotifyRasEvent equ <__imp_SensNotifyRasEvent>
+
+externdef __imp_SensNotifyWinlogonEvent:PPROC
+SensNotifyWinlogonEvent equ <__imp_SensNotifyWinlogonEvent>
+
+externdef __imp_ServiceMain:PPROC
+ServiceMain equ <__imp_ServiceMain>

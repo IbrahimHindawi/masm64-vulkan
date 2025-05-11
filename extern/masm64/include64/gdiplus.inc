@@ -1,0 +1,1904 @@
+externdef __imp_GdipAddPathArc:PPROC
+GdipAddPathArc equ <__imp_GdipAddPathArc>
+
+externdef __imp_GdipAddPathArcI:PPROC
+GdipAddPathArcI equ <__imp_GdipAddPathArcI>
+
+externdef __imp_GdipAddPathBezier:PPROC
+GdipAddPathBezier equ <__imp_GdipAddPathBezier>
+
+externdef __imp_GdipAddPathBezierI:PPROC
+GdipAddPathBezierI equ <__imp_GdipAddPathBezierI>
+
+externdef __imp_GdipAddPathBeziers:PPROC
+GdipAddPathBeziers equ <__imp_GdipAddPathBeziers>
+
+externdef __imp_GdipAddPathBeziersI:PPROC
+GdipAddPathBeziersI equ <__imp_GdipAddPathBeziersI>
+
+externdef __imp_GdipAddPathClosedCurve2:PPROC
+GdipAddPathClosedCurve2 equ <__imp_GdipAddPathClosedCurve2>
+
+externdef __imp_GdipAddPathClosedCurve2I:PPROC
+GdipAddPathClosedCurve2I equ <__imp_GdipAddPathClosedCurve2I>
+
+externdef __imp_GdipAddPathClosedCurve:PPROC
+GdipAddPathClosedCurve equ <__imp_GdipAddPathClosedCurve>
+
+externdef __imp_GdipAddPathClosedCurveI:PPROC
+GdipAddPathClosedCurveI equ <__imp_GdipAddPathClosedCurveI>
+
+externdef __imp_GdipAddPathCurve2:PPROC
+GdipAddPathCurve2 equ <__imp_GdipAddPathCurve2>
+
+externdef __imp_GdipAddPathCurve2I:PPROC
+GdipAddPathCurve2I equ <__imp_GdipAddPathCurve2I>
+
+externdef __imp_GdipAddPathCurve3:PPROC
+GdipAddPathCurve3 equ <__imp_GdipAddPathCurve3>
+
+externdef __imp_GdipAddPathCurve3I:PPROC
+GdipAddPathCurve3I equ <__imp_GdipAddPathCurve3I>
+
+externdef __imp_GdipAddPathCurve:PPROC
+GdipAddPathCurve equ <__imp_GdipAddPathCurve>
+
+externdef __imp_GdipAddPathCurveI:PPROC
+GdipAddPathCurveI equ <__imp_GdipAddPathCurveI>
+
+externdef __imp_GdipAddPathEllipse:PPROC
+GdipAddPathEllipse equ <__imp_GdipAddPathEllipse>
+
+externdef __imp_GdipAddPathEllipseI:PPROC
+GdipAddPathEllipseI equ <__imp_GdipAddPathEllipseI>
+
+externdef __imp_GdipAddPathLine2:PPROC
+GdipAddPathLine2 equ <__imp_GdipAddPathLine2>
+
+externdef __imp_GdipAddPathLine2I:PPROC
+GdipAddPathLine2I equ <__imp_GdipAddPathLine2I>
+
+externdef __imp_GdipAddPathLine:PPROC
+GdipAddPathLine equ <__imp_GdipAddPathLine>
+
+externdef __imp_GdipAddPathLineI:PPROC
+GdipAddPathLineI equ <__imp_GdipAddPathLineI>
+
+externdef __imp_GdipAddPathPath:PPROC
+GdipAddPathPath equ <__imp_GdipAddPathPath>
+
+externdef __imp_GdipAddPathPie:PPROC
+GdipAddPathPie equ <__imp_GdipAddPathPie>
+
+externdef __imp_GdipAddPathPieI:PPROC
+GdipAddPathPieI equ <__imp_GdipAddPathPieI>
+
+externdef __imp_GdipAddPathPolygon:PPROC
+GdipAddPathPolygon equ <__imp_GdipAddPathPolygon>
+
+externdef __imp_GdipAddPathPolygonI:PPROC
+GdipAddPathPolygonI equ <__imp_GdipAddPathPolygonI>
+
+externdef __imp_GdipAddPathRectangle:PPROC
+GdipAddPathRectangle equ <__imp_GdipAddPathRectangle>
+
+externdef __imp_GdipAddPathRectangleI:PPROC
+GdipAddPathRectangleI equ <__imp_GdipAddPathRectangleI>
+
+externdef __imp_GdipAddPathRectangles:PPROC
+GdipAddPathRectangles equ <__imp_GdipAddPathRectangles>
+
+externdef __imp_GdipAddPathRectanglesI:PPROC
+GdipAddPathRectanglesI equ <__imp_GdipAddPathRectanglesI>
+
+externdef __imp_GdipAddPathString:PPROC
+GdipAddPathString equ <__imp_GdipAddPathString>
+
+externdef __imp_GdipAddPathStringI:PPROC
+GdipAddPathStringI equ <__imp_GdipAddPathStringI>
+
+externdef __imp_GdipAlloc:PPROC
+GdipAlloc equ <__imp_GdipAlloc>
+
+externdef __imp_GdipBeginContainer2:PPROC
+GdipBeginContainer2 equ <__imp_GdipBeginContainer2>
+
+externdef __imp_GdipBeginContainer:PPROC
+GdipBeginContainer equ <__imp_GdipBeginContainer>
+
+externdef __imp_GdipBeginContainerI:PPROC
+GdipBeginContainerI equ <__imp_GdipBeginContainerI>
+
+externdef __imp_GdipBitmapApplyEffect:PPROC
+GdipBitmapApplyEffect equ <__imp_GdipBitmapApplyEffect>
+
+externdef __imp_GdipBitmapConvertFormat:PPROC
+GdipBitmapConvertFormat equ <__imp_GdipBitmapConvertFormat>
+
+externdef __imp_GdipBitmapCreateApplyEffect:PPROC
+GdipBitmapCreateApplyEffect equ <__imp_GdipBitmapCreateApplyEffect>
+
+externdef __imp_GdipBitmapGetHistogram:PPROC
+GdipBitmapGetHistogram equ <__imp_GdipBitmapGetHistogram>
+
+externdef __imp_GdipBitmapGetHistogramSize:PPROC
+GdipBitmapGetHistogramSize equ <__imp_GdipBitmapGetHistogramSize>
+
+externdef __imp_GdipBitmapGetPixel:PPROC
+GdipBitmapGetPixel equ <__imp_GdipBitmapGetPixel>
+
+externdef __imp_GdipBitmapLockBits:PPROC
+GdipBitmapLockBits equ <__imp_GdipBitmapLockBits>
+
+externdef __imp_GdipBitmapSetPixel:PPROC
+GdipBitmapSetPixel equ <__imp_GdipBitmapSetPixel>
+
+externdef __imp_GdipBitmapSetResolution:PPROC
+GdipBitmapSetResolution equ <__imp_GdipBitmapSetResolution>
+
+externdef __imp_GdipBitmapUnlockBits:PPROC
+GdipBitmapUnlockBits equ <__imp_GdipBitmapUnlockBits>
+
+externdef __imp_GdipClearPathMarkers:PPROC
+GdipClearPathMarkers equ <__imp_GdipClearPathMarkers>
+
+externdef __imp_GdipCloneBitmapArea:PPROC
+GdipCloneBitmapArea equ <__imp_GdipCloneBitmapArea>
+
+externdef __imp_GdipCloneBitmapAreaI:PPROC
+GdipCloneBitmapAreaI equ <__imp_GdipCloneBitmapAreaI>
+
+externdef __imp_GdipCloneBrush:PPROC
+GdipCloneBrush equ <__imp_GdipCloneBrush>
+
+externdef __imp_GdipCloneCustomLineCap:PPROC
+GdipCloneCustomLineCap equ <__imp_GdipCloneCustomLineCap>
+
+externdef __imp_GdipCloneFont:PPROC
+GdipCloneFont equ <__imp_GdipCloneFont>
+
+externdef __imp_GdipCloneFontFamily:PPROC
+GdipCloneFontFamily equ <__imp_GdipCloneFontFamily>
+
+externdef __imp_GdipCloneImage:PPROC
+GdipCloneImage equ <__imp_GdipCloneImage>
+
+externdef __imp_GdipCloneImageAttributes:PPROC
+GdipCloneImageAttributes equ <__imp_GdipCloneImageAttributes>
+
+externdef __imp_GdipCloneMatrix:PPROC
+GdipCloneMatrix equ <__imp_GdipCloneMatrix>
+
+externdef __imp_GdipClonePath:PPROC
+GdipClonePath equ <__imp_GdipClonePath>
+
+externdef __imp_GdipClonePen:PPROC
+GdipClonePen equ <__imp_GdipClonePen>
+
+externdef __imp_GdipCloneRegion:PPROC
+GdipCloneRegion equ <__imp_GdipCloneRegion>
+
+externdef __imp_GdipCloneStringFormat:PPROC
+GdipCloneStringFormat equ <__imp_GdipCloneStringFormat>
+
+externdef __imp_GdipClosePathFigure:PPROC
+GdipClosePathFigure equ <__imp_GdipClosePathFigure>
+
+externdef __imp_GdipClosePathFigures:PPROC
+GdipClosePathFigures equ <__imp_GdipClosePathFigures>
+
+externdef __imp_GdipCombineRegionPath:PPROC
+GdipCombineRegionPath equ <__imp_GdipCombineRegionPath>
+
+externdef __imp_GdipCombineRegionRect:PPROC
+GdipCombineRegionRect equ <__imp_GdipCombineRegionRect>
+
+externdef __imp_GdipCombineRegionRectI:PPROC
+GdipCombineRegionRectI equ <__imp_GdipCombineRegionRectI>
+
+externdef __imp_GdipCombineRegionRegion:PPROC
+GdipCombineRegionRegion equ <__imp_GdipCombineRegionRegion>
+
+externdef __imp_GdipComment:PPROC
+GdipComment equ <__imp_GdipComment>
+
+externdef __imp_GdipConvertToEmfPlus:PPROC
+GdipConvertToEmfPlus equ <__imp_GdipConvertToEmfPlus>
+
+externdef __imp_GdipConvertToEmfPlusToFile:PPROC
+GdipConvertToEmfPlusToFile equ <__imp_GdipConvertToEmfPlusToFile>
+
+externdef __imp_GdipConvertToEmfPlusToStream:PPROC
+GdipConvertToEmfPlusToStream equ <__imp_GdipConvertToEmfPlusToStream>
+
+externdef __imp_GdipCreateAdjustableArrowCap:PPROC
+GdipCreateAdjustableArrowCap equ <__imp_GdipCreateAdjustableArrowCap>
+
+externdef __imp_GdipCreateBitmapFromDirectDrawSurface:PPROC
+GdipCreateBitmapFromDirectDrawSurface equ <__imp_GdipCreateBitmapFromDirectDrawSurface>
+
+externdef __imp_GdipCreateBitmapFromFile:PPROC
+GdipCreateBitmapFromFile equ <__imp_GdipCreateBitmapFromFile>
+
+externdef __imp_GdipCreateBitmapFromFileICM:PPROC
+GdipCreateBitmapFromFileICM equ <__imp_GdipCreateBitmapFromFileICM>
+
+externdef __imp_GdipCreateBitmapFromGdiDib:PPROC
+GdipCreateBitmapFromGdiDib equ <__imp_GdipCreateBitmapFromGdiDib>
+
+externdef __imp_GdipCreateBitmapFromGraphics:PPROC
+GdipCreateBitmapFromGraphics equ <__imp_GdipCreateBitmapFromGraphics>
+
+externdef __imp_GdipCreateBitmapFromHBITMAP:PPROC
+GdipCreateBitmapFromHBITMAP equ <__imp_GdipCreateBitmapFromHBITMAP>
+
+externdef __imp_GdipCreateBitmapFromHICON:PPROC
+GdipCreateBitmapFromHICON equ <__imp_GdipCreateBitmapFromHICON>
+
+externdef __imp_GdipCreateBitmapFromResource:PPROC
+GdipCreateBitmapFromResource equ <__imp_GdipCreateBitmapFromResource>
+
+externdef __imp_GdipCreateBitmapFromScan0:PPROC
+GdipCreateBitmapFromScan0 equ <__imp_GdipCreateBitmapFromScan0>
+
+externdef __imp_GdipCreateBitmapFromStream:PPROC
+GdipCreateBitmapFromStream equ <__imp_GdipCreateBitmapFromStream>
+
+externdef __imp_GdipCreateBitmapFromStreamICM:PPROC
+GdipCreateBitmapFromStreamICM equ <__imp_GdipCreateBitmapFromStreamICM>
+
+externdef __imp_GdipCreateCachedBitmap:PPROC
+GdipCreateCachedBitmap equ <__imp_GdipCreateCachedBitmap>
+
+externdef __imp_GdipCreateCustomLineCap:PPROC
+GdipCreateCustomLineCap equ <__imp_GdipCreateCustomLineCap>
+
+externdef __imp_GdipCreateEffect:PPROC
+GdipCreateEffect equ <__imp_GdipCreateEffect>
+
+externdef __imp_GdipCreateFont:PPROC
+GdipCreateFont equ <__imp_GdipCreateFont>
+
+externdef __imp_GdipCreateFontFamilyFromName:PPROC
+GdipCreateFontFamilyFromName equ <__imp_GdipCreateFontFamilyFromName>
+
+externdef __imp_GdipCreateFontFromDC:PPROC
+GdipCreateFontFromDC equ <__imp_GdipCreateFontFromDC>
+
+externdef __imp_GdipCreateFontFromLogfontA:PPROC
+GdipCreateFontFromLogfontA equ <__imp_GdipCreateFontFromLogfontA>
+  IFNDEF __UNICODE__
+    GdipCreateFontFromLogfont equ <__imp_GdipCreateFontFromLogfontA>
+  ENDIF
+
+externdef __imp_GdipCreateFontFromLogfontW:PPROC
+GdipCreateFontFromLogfontW equ <__imp_GdipCreateFontFromLogfontW>
+  IFDEF __UNICODE__
+    GdipCreateFontFromLogfont equ <__imp_GdipCreateFontFromLogfontW>
+  ENDIF
+
+externdef __imp_GdipCreateFromHDC2:PPROC
+GdipCreateFromHDC2 equ <__imp_GdipCreateFromHDC2>
+
+externdef __imp_GdipCreateFromHDC:PPROC
+GdipCreateFromHDC equ <__imp_GdipCreateFromHDC>
+
+externdef __imp_GdipCreateFromHWND:PPROC
+GdipCreateFromHWND equ <__imp_GdipCreateFromHWND>
+
+externdef __imp_GdipCreateFromHWNDICM:PPROC
+GdipCreateFromHWNDICM equ <__imp_GdipCreateFromHWNDICM>
+
+externdef __imp_GdipCreateHBITMAPFromBitmap:PPROC
+GdipCreateHBITMAPFromBitmap equ <__imp_GdipCreateHBITMAPFromBitmap>
+
+externdef __imp_GdipCreateHICONFromBitmap:PPROC
+GdipCreateHICONFromBitmap equ <__imp_GdipCreateHICONFromBitmap>
+
+externdef __imp_GdipCreateHalftonePalette:PPROC
+GdipCreateHalftonePalette equ <__imp_GdipCreateHalftonePalette>
+
+externdef __imp_GdipCreateHatchBrush:PPROC
+GdipCreateHatchBrush equ <__imp_GdipCreateHatchBrush>
+
+externdef __imp_GdipCreateImageAttributes:PPROC
+GdipCreateImageAttributes equ <__imp_GdipCreateImageAttributes>
+
+externdef __imp_GdipCreateLineBrush:PPROC
+GdipCreateLineBrush equ <__imp_GdipCreateLineBrush>
+
+externdef __imp_GdipCreateLineBrushFromRect:PPROC
+GdipCreateLineBrushFromRect equ <__imp_GdipCreateLineBrushFromRect>
+
+externdef __imp_GdipCreateLineBrushFromRectI:PPROC
+GdipCreateLineBrushFromRectI equ <__imp_GdipCreateLineBrushFromRectI>
+
+externdef __imp_GdipCreateLineBrushFromRectWithAngle:PPROC
+GdipCreateLineBrushFromRectWithAngle equ <__imp_GdipCreateLineBrushFromRectWithAngle>
+
+externdef __imp_GdipCreateLineBrushFromRectWithAngleI:PPROC
+GdipCreateLineBrushFromRectWithAngleI equ <__imp_GdipCreateLineBrushFromRectWithAngleI>
+
+externdef __imp_GdipCreateLineBrushI:PPROC
+GdipCreateLineBrushI equ <__imp_GdipCreateLineBrushI>
+
+externdef __imp_GdipCreateMatrix2:PPROC
+GdipCreateMatrix2 equ <__imp_GdipCreateMatrix2>
+
+externdef __imp_GdipCreateMatrix3:PPROC
+GdipCreateMatrix3 equ <__imp_GdipCreateMatrix3>
+
+externdef __imp_GdipCreateMatrix3I:PPROC
+GdipCreateMatrix3I equ <__imp_GdipCreateMatrix3I>
+
+externdef __imp_GdipCreateMatrix:PPROC
+GdipCreateMatrix equ <__imp_GdipCreateMatrix>
+
+externdef __imp_GdipCreateMetafileFromEmf:PPROC
+GdipCreateMetafileFromEmf equ <__imp_GdipCreateMetafileFromEmf>
+
+externdef __imp_GdipCreateMetafileFromFile:PPROC
+GdipCreateMetafileFromFile equ <__imp_GdipCreateMetafileFromFile>
+
+externdef __imp_GdipCreateMetafileFromStream:PPROC
+GdipCreateMetafileFromStream equ <__imp_GdipCreateMetafileFromStream>
+
+externdef __imp_GdipCreateMetafileFromWmf:PPROC
+GdipCreateMetafileFromWmf equ <__imp_GdipCreateMetafileFromWmf>
+
+externdef __imp_GdipCreateMetafileFromWmfFile:PPROC
+GdipCreateMetafileFromWmfFile equ <__imp_GdipCreateMetafileFromWmfFile>
+
+externdef __imp_GdipCreatePath2:PPROC
+GdipCreatePath2 equ <__imp_GdipCreatePath2>
+
+externdef __imp_GdipCreatePath2I:PPROC
+GdipCreatePath2I equ <__imp_GdipCreatePath2I>
+
+externdef __imp_GdipCreatePath:PPROC
+GdipCreatePath equ <__imp_GdipCreatePath>
+
+externdef __imp_GdipCreatePathGradient:PPROC
+GdipCreatePathGradient equ <__imp_GdipCreatePathGradient>
+
+externdef __imp_GdipCreatePathGradientFromPath:PPROC
+GdipCreatePathGradientFromPath equ <__imp_GdipCreatePathGradientFromPath>
+
+externdef __imp_GdipCreatePathGradientI:PPROC
+GdipCreatePathGradientI equ <__imp_GdipCreatePathGradientI>
+
+externdef __imp_GdipCreatePathIter:PPROC
+GdipCreatePathIter equ <__imp_GdipCreatePathIter>
+
+externdef __imp_GdipCreatePen1:PPROC
+GdipCreatePen1 equ <__imp_GdipCreatePen1>
+
+externdef __imp_GdipCreatePen2:PPROC
+GdipCreatePen2 equ <__imp_GdipCreatePen2>
+
+externdef __imp_GdipCreateRegion:PPROC
+GdipCreateRegion equ <__imp_GdipCreateRegion>
+
+externdef __imp_GdipCreateRegionHrgn:PPROC
+GdipCreateRegionHrgn equ <__imp_GdipCreateRegionHrgn>
+
+externdef __imp_GdipCreateRegionPath:PPROC
+GdipCreateRegionPath equ <__imp_GdipCreateRegionPath>
+
+externdef __imp_GdipCreateRegionRect:PPROC
+GdipCreateRegionRect equ <__imp_GdipCreateRegionRect>
+
+externdef __imp_GdipCreateRegionRectI:PPROC
+GdipCreateRegionRectI equ <__imp_GdipCreateRegionRectI>
+
+externdef __imp_GdipCreateRegionRgnData:PPROC
+GdipCreateRegionRgnData equ <__imp_GdipCreateRegionRgnData>
+
+externdef __imp_GdipCreateSolidFill:PPROC
+GdipCreateSolidFill equ <__imp_GdipCreateSolidFill>
+
+externdef __imp_GdipCreateStreamOnFile:PPROC
+GdipCreateStreamOnFile equ <__imp_GdipCreateStreamOnFile>
+
+externdef __imp_GdipCreateStringFormat:PPROC
+GdipCreateStringFormat equ <__imp_GdipCreateStringFormat>
+
+externdef __imp_GdipCreateTexture2:PPROC
+GdipCreateTexture2 equ <__imp_GdipCreateTexture2>
+
+externdef __imp_GdipCreateTexture2I:PPROC
+GdipCreateTexture2I equ <__imp_GdipCreateTexture2I>
+
+externdef __imp_GdipCreateTexture:PPROC
+GdipCreateTexture equ <__imp_GdipCreateTexture>
+
+externdef __imp_GdipCreateTextureIA:PPROC
+GdipCreateTextureIA equ <__imp_GdipCreateTextureIA>
+  IFNDEF __UNICODE__
+    GdipCreateTextureI equ <__imp_GdipCreateTextureIA>
+  ENDIF
+
+externdef __imp_GdipCreateTextureIAI:PPROC
+GdipCreateTextureIAI equ <__imp_GdipCreateTextureIAI>
+
+externdef __imp_GdipDeleteBrush:PPROC
+GdipDeleteBrush equ <__imp_GdipDeleteBrush>
+
+externdef __imp_GdipDeleteCachedBitmap:PPROC
+GdipDeleteCachedBitmap equ <__imp_GdipDeleteCachedBitmap>
+
+externdef __imp_GdipDeleteCustomLineCap:PPROC
+GdipDeleteCustomLineCap equ <__imp_GdipDeleteCustomLineCap>
+
+externdef __imp_GdipDeleteEffect:PPROC
+GdipDeleteEffect equ <__imp_GdipDeleteEffect>
+
+externdef __imp_GdipDeleteFont:PPROC
+GdipDeleteFont equ <__imp_GdipDeleteFont>
+
+externdef __imp_GdipDeleteFontFamily:PPROC
+GdipDeleteFontFamily equ <__imp_GdipDeleteFontFamily>
+
+externdef __imp_GdipDeleteGraphics:PPROC
+GdipDeleteGraphics equ <__imp_GdipDeleteGraphics>
+
+externdef __imp_GdipDeleteMatrix:PPROC
+GdipDeleteMatrix equ <__imp_GdipDeleteMatrix>
+
+externdef __imp_GdipDeletePath:PPROC
+GdipDeletePath equ <__imp_GdipDeletePath>
+
+externdef __imp_GdipDeletePathIter:PPROC
+GdipDeletePathIter equ <__imp_GdipDeletePathIter>
+
+externdef __imp_GdipDeletePen:PPROC
+GdipDeletePen equ <__imp_GdipDeletePen>
+
+externdef __imp_GdipDeletePrivateFontCollection:PPROC
+GdipDeletePrivateFontCollection equ <__imp_GdipDeletePrivateFontCollection>
+
+externdef __imp_GdipDeleteRegion:PPROC
+GdipDeleteRegion equ <__imp_GdipDeleteRegion>
+
+externdef __imp_GdipDeleteStringFormat:PPROC
+GdipDeleteStringFormat equ <__imp_GdipDeleteStringFormat>
+
+externdef __imp_GdipDisposeImage:PPROC
+GdipDisposeImage equ <__imp_GdipDisposeImage>
+
+externdef __imp_GdipDisposeImageAttributes:PPROC
+GdipDisposeImageAttributes equ <__imp_GdipDisposeImageAttributes>
+
+externdef __imp_GdipDrawArc:PPROC
+GdipDrawArc equ <__imp_GdipDrawArc>
+
+externdef __imp_GdipDrawArcI:PPROC
+GdipDrawArcI equ <__imp_GdipDrawArcI>
+
+externdef __imp_GdipDrawBezier:PPROC
+GdipDrawBezier equ <__imp_GdipDrawBezier>
+
+externdef __imp_GdipDrawBezierI:PPROC
+GdipDrawBezierI equ <__imp_GdipDrawBezierI>
+
+externdef __imp_GdipDrawBeziers:PPROC
+GdipDrawBeziers equ <__imp_GdipDrawBeziers>
+
+externdef __imp_GdipDrawBeziersI:PPROC
+GdipDrawBeziersI equ <__imp_GdipDrawBeziersI>
+
+externdef __imp_GdipDrawCachedBitmap:PPROC
+GdipDrawCachedBitmap equ <__imp_GdipDrawCachedBitmap>
+
+externdef __imp_GdipDrawClosedCurve2:PPROC
+GdipDrawClosedCurve2 equ <__imp_GdipDrawClosedCurve2>
+
+externdef __imp_GdipDrawClosedCurve2I:PPROC
+GdipDrawClosedCurve2I equ <__imp_GdipDrawClosedCurve2I>
+
+externdef __imp_GdipDrawClosedCurve:PPROC
+GdipDrawClosedCurve equ <__imp_GdipDrawClosedCurve>
+
+externdef __imp_GdipDrawClosedCurveI:PPROC
+GdipDrawClosedCurveI equ <__imp_GdipDrawClosedCurveI>
+
+externdef __imp_GdipDrawCurve2:PPROC
+GdipDrawCurve2 equ <__imp_GdipDrawCurve2>
+
+externdef __imp_GdipDrawCurve2I:PPROC
+GdipDrawCurve2I equ <__imp_GdipDrawCurve2I>
+
+externdef __imp_GdipDrawCurve3:PPROC
+GdipDrawCurve3 equ <__imp_GdipDrawCurve3>
+
+externdef __imp_GdipDrawCurve3I:PPROC
+GdipDrawCurve3I equ <__imp_GdipDrawCurve3I>
+
+externdef __imp_GdipDrawCurve:PPROC
+GdipDrawCurve equ <__imp_GdipDrawCurve>
+
+externdef __imp_GdipDrawCurveI:PPROC
+GdipDrawCurveI equ <__imp_GdipDrawCurveI>
+
+externdef __imp_GdipDrawDriverString:PPROC
+GdipDrawDriverString equ <__imp_GdipDrawDriverString>
+
+externdef __imp_GdipDrawEllipse:PPROC
+GdipDrawEllipse equ <__imp_GdipDrawEllipse>
+
+externdef __imp_GdipDrawEllipseI:PPROC
+GdipDrawEllipseI equ <__imp_GdipDrawEllipseI>
+
+externdef __imp_GdipDrawImage:PPROC
+GdipDrawImage equ <__imp_GdipDrawImage>
+
+externdef __imp_GdipDrawImageFX:PPROC
+GdipDrawImageFX equ <__imp_GdipDrawImageFX>
+
+externdef __imp_GdipDrawImageI:PPROC
+GdipDrawImageI equ <__imp_GdipDrawImageI>
+
+externdef __imp_GdipDrawImagePointRect:PPROC
+GdipDrawImagePointRect equ <__imp_GdipDrawImagePointRect>
+
+externdef __imp_GdipDrawImagePointRectI:PPROC
+GdipDrawImagePointRectI equ <__imp_GdipDrawImagePointRectI>
+
+externdef __imp_GdipDrawImagePoints:PPROC
+GdipDrawImagePoints equ <__imp_GdipDrawImagePoints>
+
+externdef __imp_GdipDrawImagePointsI:PPROC
+GdipDrawImagePointsI equ <__imp_GdipDrawImagePointsI>
+
+externdef __imp_GdipDrawImagePointsRect:PPROC
+GdipDrawImagePointsRect equ <__imp_GdipDrawImagePointsRect>
+
+externdef __imp_GdipDrawImagePointsRectI:PPROC
+GdipDrawImagePointsRectI equ <__imp_GdipDrawImagePointsRectI>
+
+externdef __imp_GdipDrawImageRect:PPROC
+GdipDrawImageRect equ <__imp_GdipDrawImageRect>
+
+externdef __imp_GdipDrawImageRectI:PPROC
+GdipDrawImageRectI equ <__imp_GdipDrawImageRectI>
+
+externdef __imp_GdipDrawImageRectRect:PPROC
+GdipDrawImageRectRect equ <__imp_GdipDrawImageRectRect>
+
+externdef __imp_GdipDrawImageRectRectI:PPROC
+GdipDrawImageRectRectI equ <__imp_GdipDrawImageRectRectI>
+
+externdef __imp_GdipDrawLine:PPROC
+GdipDrawLine equ <__imp_GdipDrawLine>
+
+externdef __imp_GdipDrawLineI:PPROC
+GdipDrawLineI equ <__imp_GdipDrawLineI>
+
+externdef __imp_GdipDrawLines:PPROC
+GdipDrawLines equ <__imp_GdipDrawLines>
+
+externdef __imp_GdipDrawLinesI:PPROC
+GdipDrawLinesI equ <__imp_GdipDrawLinesI>
+
+externdef __imp_GdipDrawPath:PPROC
+GdipDrawPath equ <__imp_GdipDrawPath>
+
+externdef __imp_GdipDrawPie:PPROC
+GdipDrawPie equ <__imp_GdipDrawPie>
+
+externdef __imp_GdipDrawPieI:PPROC
+GdipDrawPieI equ <__imp_GdipDrawPieI>
+
+externdef __imp_GdipDrawPolygon:PPROC
+GdipDrawPolygon equ <__imp_GdipDrawPolygon>
+
+externdef __imp_GdipDrawPolygonI:PPROC
+GdipDrawPolygonI equ <__imp_GdipDrawPolygonI>
+
+externdef __imp_GdipDrawRectangle:PPROC
+GdipDrawRectangle equ <__imp_GdipDrawRectangle>
+
+externdef __imp_GdipDrawRectangleI:PPROC
+GdipDrawRectangleI equ <__imp_GdipDrawRectangleI>
+
+externdef __imp_GdipDrawRectangles:PPROC
+GdipDrawRectangles equ <__imp_GdipDrawRectangles>
+
+externdef __imp_GdipDrawRectanglesI:PPROC
+GdipDrawRectanglesI equ <__imp_GdipDrawRectanglesI>
+
+externdef __imp_GdipDrawString:PPROC
+GdipDrawString equ <__imp_GdipDrawString>
+
+externdef __imp_GdipEmfToWmfBits:PPROC
+GdipEmfToWmfBits equ <__imp_GdipEmfToWmfBits>
+
+externdef __imp_GdipEndContainer:PPROC
+GdipEndContainer equ <__imp_GdipEndContainer>
+
+externdef __imp_GdipEnumerateMetafileDestPoint:PPROC
+GdipEnumerateMetafileDestPoint equ <__imp_GdipEnumerateMetafileDestPoint>
+
+externdef __imp_GdipEnumerateMetafileDestPointI:PPROC
+GdipEnumerateMetafileDestPointI equ <__imp_GdipEnumerateMetafileDestPointI>
+
+externdef __imp_GdipEnumerateMetafileDestPoints:PPROC
+GdipEnumerateMetafileDestPoints equ <__imp_GdipEnumerateMetafileDestPoints>
+
+externdef __imp_GdipEnumerateMetafileDestPointsI:PPROC
+GdipEnumerateMetafileDestPointsI equ <__imp_GdipEnumerateMetafileDestPointsI>
+
+externdef __imp_GdipEnumerateMetafileDestRect:PPROC
+GdipEnumerateMetafileDestRect equ <__imp_GdipEnumerateMetafileDestRect>
+
+externdef __imp_GdipEnumerateMetafileDestRectI:PPROC
+GdipEnumerateMetafileDestRectI equ <__imp_GdipEnumerateMetafileDestRectI>
+
+externdef __imp_GdipEnumerateMetafileSrcRectDestPoint:PPROC
+GdipEnumerateMetafileSrcRectDestPoint equ <__imp_GdipEnumerateMetafileSrcRectDestPoint>
+
+externdef __imp_GdipEnumerateMetafileSrcRectDestPointI:PPROC
+GdipEnumerateMetafileSrcRectDestPointI equ <__imp_GdipEnumerateMetafileSrcRectDestPointI>
+
+externdef __imp_GdipEnumerateMetafileSrcRectDestPoints:PPROC
+GdipEnumerateMetafileSrcRectDestPoints equ <__imp_GdipEnumerateMetafileSrcRectDestPoints>
+
+externdef __imp_GdipEnumerateMetafileSrcRectDestPointsI:PPROC
+GdipEnumerateMetafileSrcRectDestPointsI equ <__imp_GdipEnumerateMetafileSrcRectDestPointsI>
+
+externdef __imp_GdipEnumerateMetafileSrcRectDestRect:PPROC
+GdipEnumerateMetafileSrcRectDestRect equ <__imp_GdipEnumerateMetafileSrcRectDestRect>
+
+externdef __imp_GdipEnumerateMetafileSrcRectDestRectI:PPROC
+GdipEnumerateMetafileSrcRectDestRectI equ <__imp_GdipEnumerateMetafileSrcRectDestRectI>
+
+externdef __imp_GdipFillClosedCurve2:PPROC
+GdipFillClosedCurve2 equ <__imp_GdipFillClosedCurve2>
+
+externdef __imp_GdipFillClosedCurve2I:PPROC
+GdipFillClosedCurve2I equ <__imp_GdipFillClosedCurve2I>
+
+externdef __imp_GdipFillClosedCurve:PPROC
+GdipFillClosedCurve equ <__imp_GdipFillClosedCurve>
+
+externdef __imp_GdipFillClosedCurveI:PPROC
+GdipFillClosedCurveI equ <__imp_GdipFillClosedCurveI>
+
+externdef __imp_GdipFillEllipse:PPROC
+GdipFillEllipse equ <__imp_GdipFillEllipse>
+
+externdef __imp_GdipFillEllipseI:PPROC
+GdipFillEllipseI equ <__imp_GdipFillEllipseI>
+
+externdef __imp_GdipFillPath:PPROC
+GdipFillPath equ <__imp_GdipFillPath>
+
+externdef __imp_GdipFillPie:PPROC
+GdipFillPie equ <__imp_GdipFillPie>
+
+externdef __imp_GdipFillPieI:PPROC
+GdipFillPieI equ <__imp_GdipFillPieI>
+
+externdef __imp_GdipFillPolygon2:PPROC
+GdipFillPolygon2 equ <__imp_GdipFillPolygon2>
+
+externdef __imp_GdipFillPolygon2I:PPROC
+GdipFillPolygon2I equ <__imp_GdipFillPolygon2I>
+
+externdef __imp_GdipFillPolygon:PPROC
+GdipFillPolygon equ <__imp_GdipFillPolygon>
+
+externdef __imp_GdipFillPolygonI:PPROC
+GdipFillPolygonI equ <__imp_GdipFillPolygonI>
+
+externdef __imp_GdipFillRectangle:PPROC
+GdipFillRectangle equ <__imp_GdipFillRectangle>
+
+externdef __imp_GdipFillRectangleI:PPROC
+GdipFillRectangleI equ <__imp_GdipFillRectangleI>
+
+externdef __imp_GdipFillRectangles:PPROC
+GdipFillRectangles equ <__imp_GdipFillRectangles>
+
+externdef __imp_GdipFillRectanglesI:PPROC
+GdipFillRectanglesI equ <__imp_GdipFillRectanglesI>
+
+externdef __imp_GdipFillRegion:PPROC
+GdipFillRegion equ <__imp_GdipFillRegion>
+
+externdef __imp_GdipFindFirstImageItem:PPROC
+GdipFindFirstImageItem equ <__imp_GdipFindFirstImageItem>
+
+externdef __imp_GdipFindNextImageItem:PPROC
+GdipFindNextImageItem equ <__imp_GdipFindNextImageItem>
+
+externdef __imp_GdipFlattenPath:PPROC
+GdipFlattenPath equ <__imp_GdipFlattenPath>
+
+externdef __imp_GdipFlush:PPROC
+GdipFlush equ <__imp_GdipFlush>
+
+externdef __imp_GdipFree:PPROC
+GdipFree equ <__imp_GdipFree>
+
+externdef __imp_GdipGetAdjustableArrowCapFillState:PPROC
+GdipGetAdjustableArrowCapFillState equ <__imp_GdipGetAdjustableArrowCapFillState>
+
+externdef __imp_GdipGetAdjustableArrowCapHeight:PPROC
+GdipGetAdjustableArrowCapHeight equ <__imp_GdipGetAdjustableArrowCapHeight>
+
+externdef __imp_GdipGetAdjustableArrowCapMiddleInset:PPROC
+GdipGetAdjustableArrowCapMiddleInset equ <__imp_GdipGetAdjustableArrowCapMiddleInset>
+
+externdef __imp_GdipGetAdjustableArrowCapWidth:PPROC
+GdipGetAdjustableArrowCapWidth equ <__imp_GdipGetAdjustableArrowCapWidth>
+
+externdef __imp_GdipGetAllPropertyItems:PPROC
+GdipGetAllPropertyItems equ <__imp_GdipGetAllPropertyItems>
+
+externdef __imp_GdipGetBrushType:PPROC
+GdipGetBrushType equ <__imp_GdipGetBrushType>
+
+externdef __imp_GdipGetCellAscent:PPROC
+GdipGetCellAscent equ <__imp_GdipGetCellAscent>
+
+externdef __imp_GdipGetCellDescent:PPROC
+GdipGetCellDescent equ <__imp_GdipGetCellDescent>
+
+externdef __imp_GdipGetClip:PPROC
+GdipGetClip equ <__imp_GdipGetClip>
+
+externdef __imp_GdipGetClipBounds:PPROC
+GdipGetClipBounds equ <__imp_GdipGetClipBounds>
+
+externdef __imp_GdipGetClipBoundsI:PPROC
+GdipGetClipBoundsI equ <__imp_GdipGetClipBoundsI>
+
+externdef __imp_GdipGetCompositingMode:PPROC
+GdipGetCompositingMode equ <__imp_GdipGetCompositingMode>
+
+externdef __imp_GdipGetCompositingQuality:PPROC
+GdipGetCompositingQuality equ <__imp_GdipGetCompositingQuality>
+
+externdef __imp_GdipGetCustomLineCapBaseCap:PPROC
+GdipGetCustomLineCapBaseCap equ <__imp_GdipGetCustomLineCapBaseCap>
+
+externdef __imp_GdipGetCustomLineCapBaseInset:PPROC
+GdipGetCustomLineCapBaseInset equ <__imp_GdipGetCustomLineCapBaseInset>
+
+externdef __imp_GdipGetCustomLineCapStrokeCaps:PPROC
+GdipGetCustomLineCapStrokeCaps equ <__imp_GdipGetCustomLineCapStrokeCaps>
+
+externdef __imp_GdipGetCustomLineCapStrokeJoin:PPROC
+GdipGetCustomLineCapStrokeJoin equ <__imp_GdipGetCustomLineCapStrokeJoin>
+
+externdef __imp_GdipGetCustomLineCapType:PPROC
+GdipGetCustomLineCapType equ <__imp_GdipGetCustomLineCapType>
+
+externdef __imp_GdipGetCustomLineCapWidthScale:PPROC
+GdipGetCustomLineCapWidthScale equ <__imp_GdipGetCustomLineCapWidthScale>
+
+externdef __imp_GdipGetDC:PPROC
+GdipGetDC equ <__imp_GdipGetDC>
+
+externdef __imp_GdipGetDpiX:PPROC
+GdipGetDpiX equ <__imp_GdipGetDpiX>
+
+externdef __imp_GdipGetDpiY:PPROC
+GdipGetDpiY equ <__imp_GdipGetDpiY>
+
+externdef __imp_GdipGetEffectParameterSize:PPROC
+GdipGetEffectParameterSize equ <__imp_GdipGetEffectParameterSize>
+
+externdef __imp_GdipGetEffectParameters:PPROC
+GdipGetEffectParameters equ <__imp_GdipGetEffectParameters>
+
+externdef __imp_GdipGetEmHeight:PPROC
+GdipGetEmHeight equ <__imp_GdipGetEmHeight>
+
+externdef __imp_GdipGetEncoderParameterList:PPROC
+GdipGetEncoderParameterList equ <__imp_GdipGetEncoderParameterList>
+
+externdef __imp_GdipGetEncoderParameterListSize:PPROC
+GdipGetEncoderParameterListSize equ <__imp_GdipGetEncoderParameterListSize>
+
+externdef __imp_GdipGetFamily:PPROC
+GdipGetFamily equ <__imp_GdipGetFamily>
+
+externdef __imp_GdipGetFamilyName:PPROC
+GdipGetFamilyName equ <__imp_GdipGetFamilyName>
+
+externdef __imp_GdipGetFontCollectionFamilyCount:PPROC
+GdipGetFontCollectionFamilyCount equ <__imp_GdipGetFontCollectionFamilyCount>
+
+externdef __imp_GdipGetFontCollectionFamilyList:PPROC
+GdipGetFontCollectionFamilyList equ <__imp_GdipGetFontCollectionFamilyList>
+
+externdef __imp_GdipGetFontHeight:PPROC
+GdipGetFontHeight equ <__imp_GdipGetFontHeight>
+
+externdef __imp_GdipGetFontHeightGivenDPI:PPROC
+GdipGetFontHeightGivenDPI equ <__imp_GdipGetFontHeightGivenDPI>
+
+externdef __imp_GdipGetFontSize:PPROC
+GdipGetFontSize equ <__imp_GdipGetFontSize>
+
+externdef __imp_GdipGetFontStyle:PPROC
+GdipGetFontStyle equ <__imp_GdipGetFontStyle>
+
+externdef __imp_GdipGetFontUnit:PPROC
+GdipGetFontUnit equ <__imp_GdipGetFontUnit>
+
+externdef __imp_GdipGetGenericFontFamilyMonospace:PPROC
+GdipGetGenericFontFamilyMonospace equ <__imp_GdipGetGenericFontFamilyMonospace>
+
+externdef __imp_GdipGetGenericFontFamilySansSerif:PPROC
+GdipGetGenericFontFamilySansSerif equ <__imp_GdipGetGenericFontFamilySansSerif>
+
+externdef __imp_GdipGetGenericFontFamilySerif:PPROC
+GdipGetGenericFontFamilySerif equ <__imp_GdipGetGenericFontFamilySerif>
+
+externdef __imp_GdipGetHatchBackgroundColor:PPROC
+GdipGetHatchBackgroundColor equ <__imp_GdipGetHatchBackgroundColor>
+
+externdef __imp_GdipGetHatchForegroundColor:PPROC
+GdipGetHatchForegroundColor equ <__imp_GdipGetHatchForegroundColor>
+
+externdef __imp_GdipGetHatchStyle:PPROC
+GdipGetHatchStyle equ <__imp_GdipGetHatchStyle>
+
+externdef __imp_GdipGetHemfFromMetafile:PPROC
+GdipGetHemfFromMetafile equ <__imp_GdipGetHemfFromMetafile>
+
+externdef __imp_GdipGetImageAttributesAdjustedPalette:PPROC
+GdipGetImageAttributesAdjustedPalette equ <__imp_GdipGetImageAttributesAdjustedPalette>
+
+externdef __imp_GdipGetImageBounds:PPROC
+GdipGetImageBounds equ <__imp_GdipGetImageBounds>
+
+externdef __imp_GdipGetImageDecoders:PPROC
+GdipGetImageDecoders equ <__imp_GdipGetImageDecoders>
+
+externdef __imp_GdipGetImageDecodersSize:PPROC
+GdipGetImageDecodersSize equ <__imp_GdipGetImageDecodersSize>
+
+externdef __imp_GdipGetImageDimension:PPROC
+GdipGetImageDimension equ <__imp_GdipGetImageDimension>
+
+externdef __imp_GdipGetImageEncoders:PPROC
+GdipGetImageEncoders equ <__imp_GdipGetImageEncoders>
+
+externdef __imp_GdipGetImageEncodersSize:PPROC
+GdipGetImageEncodersSize equ <__imp_GdipGetImageEncodersSize>
+
+externdef __imp_GdipGetImageFlags:PPROC
+GdipGetImageFlags equ <__imp_GdipGetImageFlags>
+
+externdef __imp_GdipGetImageGraphicsContext:PPROC
+GdipGetImageGraphicsContext equ <__imp_GdipGetImageGraphicsContext>
+
+externdef __imp_GdipGetImageHeight:PPROC
+GdipGetImageHeight equ <__imp_GdipGetImageHeight>
+
+externdef __imp_GdipGetImageHorizontalResolution:PPROC
+GdipGetImageHorizontalResolution equ <__imp_GdipGetImageHorizontalResolution>
+
+externdef __imp_GdipGetImageItemData:PPROC
+GdipGetImageItemData equ <__imp_GdipGetImageItemData>
+
+externdef __imp_GdipGetImagePalette:PPROC
+GdipGetImagePalette equ <__imp_GdipGetImagePalette>
+
+externdef __imp_GdipGetImagePaletteSize:PPROC
+GdipGetImagePaletteSize equ <__imp_GdipGetImagePaletteSize>
+
+externdef __imp_GdipGetImagePixelFormat:PPROC
+GdipGetImagePixelFormat equ <__imp_GdipGetImagePixelFormat>
+
+externdef __imp_GdipGetImageRawFormat:PPROC
+GdipGetImageRawFormat equ <__imp_GdipGetImageRawFormat>
+
+externdef __imp_GdipGetImageThumbnail:PPROC
+GdipGetImageThumbnail equ <__imp_GdipGetImageThumbnail>
+
+externdef __imp_GdipGetImageType:PPROC
+GdipGetImageType equ <__imp_GdipGetImageType>
+
+externdef __imp_GdipGetImageVerticalResolution:PPROC
+GdipGetImageVerticalResolution equ <__imp_GdipGetImageVerticalResolution>
+
+externdef __imp_GdipGetImageWidth:PPROC
+GdipGetImageWidth equ <__imp_GdipGetImageWidth>
+
+externdef __imp_GdipGetInterpolationMode:PPROC
+GdipGetInterpolationMode equ <__imp_GdipGetInterpolationMode>
+
+externdef __imp_GdipGetLineBlend:PPROC
+GdipGetLineBlend equ <__imp_GdipGetLineBlend>
+
+externdef __imp_GdipGetLineBlendCount:PPROC
+GdipGetLineBlendCount equ <__imp_GdipGetLineBlendCount>
+
+externdef __imp_GdipGetLineColors:PPROC
+GdipGetLineColors equ <__imp_GdipGetLineColors>
+
+externdef __imp_GdipGetLineGammaCorrection:PPROC
+GdipGetLineGammaCorrection equ <__imp_GdipGetLineGammaCorrection>
+
+externdef __imp_GdipGetLinePresetBlend:PPROC
+GdipGetLinePresetBlend equ <__imp_GdipGetLinePresetBlend>
+
+externdef __imp_GdipGetLinePresetBlendCount:PPROC
+GdipGetLinePresetBlendCount equ <__imp_GdipGetLinePresetBlendCount>
+
+externdef __imp_GdipGetLineRect:PPROC
+GdipGetLineRect equ <__imp_GdipGetLineRect>
+
+externdef __imp_GdipGetLineRectI:PPROC
+GdipGetLineRectI equ <__imp_GdipGetLineRectI>
+
+externdef __imp_GdipGetLineSpacing:PPROC
+GdipGetLineSpacing equ <__imp_GdipGetLineSpacing>
+
+externdef __imp_GdipGetLineTransform:PPROC
+GdipGetLineTransform equ <__imp_GdipGetLineTransform>
+
+externdef __imp_GdipGetLineWrapMode:PPROC
+GdipGetLineWrapMode equ <__imp_GdipGetLineWrapMode>
+
+externdef __imp_GdipGetLogFontA:PPROC
+GdipGetLogFontA equ <__imp_GdipGetLogFontA>
+  IFNDEF __UNICODE__
+    GdipGetLogFont equ <__imp_GdipGetLogFontA>
+  ENDIF
+
+externdef __imp_GdipGetLogFontW:PPROC
+GdipGetLogFontW equ <__imp_GdipGetLogFontW>
+  IFDEF __UNICODE__
+    GdipGetLogFont equ <__imp_GdipGetLogFontW>
+  ENDIF
+
+externdef __imp_GdipGetMatrixElements:PPROC
+GdipGetMatrixElements equ <__imp_GdipGetMatrixElements>
+
+externdef __imp_GdipGetMetafileDownLevelRasterizationLimit:PPROC
+GdipGetMetafileDownLevelRasterizationLimit equ <__imp_GdipGetMetafileDownLevelRasterizationLimit>
+
+externdef __imp_GdipGetMetafileHeaderFromEmf:PPROC
+GdipGetMetafileHeaderFromEmf equ <__imp_GdipGetMetafileHeaderFromEmf>
+
+externdef __imp_GdipGetMetafileHeaderFromFile:PPROC
+GdipGetMetafileHeaderFromFile equ <__imp_GdipGetMetafileHeaderFromFile>
+
+externdef __imp_GdipGetMetafileHeaderFromMetafile:PPROC
+GdipGetMetafileHeaderFromMetafile equ <__imp_GdipGetMetafileHeaderFromMetafile>
+
+externdef __imp_GdipGetMetafileHeaderFromStream:PPROC
+GdipGetMetafileHeaderFromStream equ <__imp_GdipGetMetafileHeaderFromStream>
+
+externdef __imp_GdipGetMetafileHeaderFromWmf:PPROC
+GdipGetMetafileHeaderFromWmf equ <__imp_GdipGetMetafileHeaderFromWmf>
+
+externdef __imp_GdipGetNearestColor:PPROC
+GdipGetNearestColor equ <__imp_GdipGetNearestColor>
+
+externdef __imp_GdipGetPageScale:PPROC
+GdipGetPageScale equ <__imp_GdipGetPageScale>
+
+externdef __imp_GdipGetPageUnit:PPROC
+GdipGetPageUnit equ <__imp_GdipGetPageUnit>
+
+externdef __imp_GdipGetPathData:PPROC
+GdipGetPathData equ <__imp_GdipGetPathData>
+
+externdef __imp_GdipGetPathFillMode:PPROC
+GdipGetPathFillMode equ <__imp_GdipGetPathFillMode>
+
+externdef __imp_GdipGetPathGradientBlend:PPROC
+GdipGetPathGradientBlend equ <__imp_GdipGetPathGradientBlend>
+
+externdef __imp_GdipGetPathGradientBlendCount:PPROC
+GdipGetPathGradientBlendCount equ <__imp_GdipGetPathGradientBlendCount>
+
+externdef __imp_GdipGetPathGradientCenterColor:PPROC
+GdipGetPathGradientCenterColor equ <__imp_GdipGetPathGradientCenterColor>
+
+externdef __imp_GdipGetPathGradientCenterPoint:PPROC
+GdipGetPathGradientCenterPoint equ <__imp_GdipGetPathGradientCenterPoint>
+
+externdef __imp_GdipGetPathGradientCenterPointI:PPROC
+GdipGetPathGradientCenterPointI equ <__imp_GdipGetPathGradientCenterPointI>
+
+externdef __imp_GdipGetPathGradientFocusScales:PPROC
+GdipGetPathGradientFocusScales equ <__imp_GdipGetPathGradientFocusScales>
+
+externdef __imp_GdipGetPathGradientGammaCorrection:PPROC
+GdipGetPathGradientGammaCorrection equ <__imp_GdipGetPathGradientGammaCorrection>
+
+externdef __imp_GdipGetPathGradientPath:PPROC
+GdipGetPathGradientPath equ <__imp_GdipGetPathGradientPath>
+
+externdef __imp_GdipGetPathGradientPointCount:PPROC
+GdipGetPathGradientPointCount equ <__imp_GdipGetPathGradientPointCount>
+
+externdef __imp_GdipGetPathGradientPresetBlend:PPROC
+GdipGetPathGradientPresetBlend equ <__imp_GdipGetPathGradientPresetBlend>
+
+externdef __imp_GdipGetPathGradientPresetBlendCount:PPROC
+GdipGetPathGradientPresetBlendCount equ <__imp_GdipGetPathGradientPresetBlendCount>
+
+externdef __imp_GdipGetPathGradientRect:PPROC
+GdipGetPathGradientRect equ <__imp_GdipGetPathGradientRect>
+
+externdef __imp_GdipGetPathGradientRectI:PPROC
+GdipGetPathGradientRectI equ <__imp_GdipGetPathGradientRectI>
+
+externdef __imp_GdipGetPathGradientSurroundColorCount:PPROC
+GdipGetPathGradientSurroundColorCount equ <__imp_GdipGetPathGradientSurroundColorCount>
+
+externdef __imp_GdipGetPathGradientSurroundColorsWithCount:PPROC
+GdipGetPathGradientSurroundColorsWithCount equ <__imp_GdipGetPathGradientSurroundColorsWithCount>
+
+externdef __imp_GdipGetPathGradientTransform:PPROC
+GdipGetPathGradientTransform equ <__imp_GdipGetPathGradientTransform>
+
+externdef __imp_GdipGetPathGradientWrapMode:PPROC
+GdipGetPathGradientWrapMode equ <__imp_GdipGetPathGradientWrapMode>
+
+externdef __imp_GdipGetPathLastPoint:PPROC
+GdipGetPathLastPoint equ <__imp_GdipGetPathLastPoint>
+
+externdef __imp_GdipGetPathPoints:PPROC
+GdipGetPathPoints equ <__imp_GdipGetPathPoints>
+
+externdef __imp_GdipGetPathPointsI:PPROC
+GdipGetPathPointsI equ <__imp_GdipGetPathPointsI>
+
+externdef __imp_GdipGetPathTypes:PPROC
+GdipGetPathTypes equ <__imp_GdipGetPathTypes>
+
+externdef __imp_GdipGetPathWorldBounds:PPROC
+GdipGetPathWorldBounds equ <__imp_GdipGetPathWorldBounds>
+
+externdef __imp_GdipGetPathWorldBoundsI:PPROC
+GdipGetPathWorldBoundsI equ <__imp_GdipGetPathWorldBoundsI>
+
+externdef __imp_GdipGetPenBrushFill:PPROC
+GdipGetPenBrushFill equ <__imp_GdipGetPenBrushFill>
+
+externdef __imp_GdipGetPenColor:PPROC
+GdipGetPenColor equ <__imp_GdipGetPenColor>
+
+externdef __imp_GdipGetPenCompoundArray:PPROC
+GdipGetPenCompoundArray equ <__imp_GdipGetPenCompoundArray>
+
+externdef __imp_GdipGetPenCompoundCount:PPROC
+GdipGetPenCompoundCount equ <__imp_GdipGetPenCompoundCount>
+
+externdef __imp_GdipGetPenCustomEndCap:PPROC
+GdipGetPenCustomEndCap equ <__imp_GdipGetPenCustomEndCap>
+
+externdef __imp_GdipGetPenCustomStartCap:PPROC
+GdipGetPenCustomStartCap equ <__imp_GdipGetPenCustomStartCap>
+
+externdef __imp_GdipGetPenDashArray:PPROC
+GdipGetPenDashArray equ <__imp_GdipGetPenDashArray>
+
+externdef __imp_GdipGetPenDashCap197819:PPROC
+GdipGetPenDashCap197819 equ <__imp_GdipGetPenDashCap197819>
+
+externdef __imp_GdipGetPenDashCount:PPROC
+GdipGetPenDashCount equ <__imp_GdipGetPenDashCount>
+
+externdef __imp_GdipGetPenDashOffset:PPROC
+GdipGetPenDashOffset equ <__imp_GdipGetPenDashOffset>
+
+externdef __imp_GdipGetPenDashStyle:PPROC
+GdipGetPenDashStyle equ <__imp_GdipGetPenDashStyle>
+
+externdef __imp_GdipGetPenEndCap:PPROC
+GdipGetPenEndCap equ <__imp_GdipGetPenEndCap>
+
+externdef __imp_GdipGetPenFillType:PPROC
+GdipGetPenFillType equ <__imp_GdipGetPenFillType>
+
+externdef __imp_GdipGetPenLineJoin:PPROC
+GdipGetPenLineJoin equ <__imp_GdipGetPenLineJoin>
+
+externdef __imp_GdipGetPenMiterLimit:PPROC
+GdipGetPenMiterLimit equ <__imp_GdipGetPenMiterLimit>
+
+externdef __imp_GdipGetPenMode:PPROC
+GdipGetPenMode equ <__imp_GdipGetPenMode>
+
+externdef __imp_GdipGetPenStartCap:PPROC
+GdipGetPenStartCap equ <__imp_GdipGetPenStartCap>
+
+externdef __imp_GdipGetPenTransform:PPROC
+GdipGetPenTransform equ <__imp_GdipGetPenTransform>
+
+externdef __imp_GdipGetPenUnit:PPROC
+GdipGetPenUnit equ <__imp_GdipGetPenUnit>
+
+externdef __imp_GdipGetPenWidth:PPROC
+GdipGetPenWidth equ <__imp_GdipGetPenWidth>
+
+externdef __imp_GdipGetPixelOffsetMode:PPROC
+GdipGetPixelOffsetMode equ <__imp_GdipGetPixelOffsetMode>
+
+externdef __imp_GdipGetPointCount:PPROC
+GdipGetPointCount equ <__imp_GdipGetPointCount>
+
+externdef __imp_GdipGetPropertyCount:PPROC
+GdipGetPropertyCount equ <__imp_GdipGetPropertyCount>
+
+externdef __imp_GdipGetPropertyIdList:PPROC
+GdipGetPropertyIdList equ <__imp_GdipGetPropertyIdList>
+
+externdef __imp_GdipGetPropertyItem:PPROC
+GdipGetPropertyItem equ <__imp_GdipGetPropertyItem>
+
+externdef __imp_GdipGetPropertyItemSize:PPROC
+GdipGetPropertyItemSize equ <__imp_GdipGetPropertyItemSize>
+
+externdef __imp_GdipGetPropertySize:PPROC
+GdipGetPropertySize equ <__imp_GdipGetPropertySize>
+
+externdef __imp_GdipGetRegionBounds:PPROC
+GdipGetRegionBounds equ <__imp_GdipGetRegionBounds>
+
+externdef __imp_GdipGetRegionBoundsI:PPROC
+GdipGetRegionBoundsI equ <__imp_GdipGetRegionBoundsI>
+
+externdef __imp_GdipGetRegionData:PPROC
+GdipGetRegionData equ <__imp_GdipGetRegionData>
+
+externdef __imp_GdipGetRegionDataSize:PPROC
+GdipGetRegionDataSize equ <__imp_GdipGetRegionDataSize>
+
+externdef __imp_GdipGetRegionHRgn:PPROC
+GdipGetRegionHRgn equ <__imp_GdipGetRegionHRgn>
+
+externdef __imp_GdipGetRegionScans:PPROC
+GdipGetRegionScans equ <__imp_GdipGetRegionScans>
+
+externdef __imp_GdipGetRegionScansCount:PPROC
+GdipGetRegionScansCount equ <__imp_GdipGetRegionScansCount>
+
+externdef __imp_GdipGetRegionScansI:PPROC
+GdipGetRegionScansI equ <__imp_GdipGetRegionScansI>
+
+externdef __imp_GdipGetRenderingOrigin:PPROC
+GdipGetRenderingOrigin equ <__imp_GdipGetRenderingOrigin>
+
+externdef __imp_GdipGetSmoothingMode:PPROC
+GdipGetSmoothingMode equ <__imp_GdipGetSmoothingMode>
+
+externdef __imp_GdipGetSolidFillColor:PPROC
+GdipGetSolidFillColor equ <__imp_GdipGetSolidFillColor>
+
+externdef __imp_GdipGetStringFormatAlign:PPROC
+GdipGetStringFormatAlign equ <__imp_GdipGetStringFormatAlign>
+
+externdef __imp_GdipGetStringFormatDigitSubstitution:PPROC
+GdipGetStringFormatDigitSubstitution equ <__imp_GdipGetStringFormatDigitSubstitution>
+
+externdef __imp_GdipGetStringFormatFlags:PPROC
+GdipGetStringFormatFlags equ <__imp_GdipGetStringFormatFlags>
+
+externdef __imp_GdipGetStringFormatHotkeyPrefix:PPROC
+GdipGetStringFormatHotkeyPrefix equ <__imp_GdipGetStringFormatHotkeyPrefix>
+
+externdef __imp_GdipGetStringFormatLineAlign:PPROC
+GdipGetStringFormatLineAlign equ <__imp_GdipGetStringFormatLineAlign>
+
+externdef __imp_GdipGetStringFormatMeasurableCharacterRangeCount:PPROC
+GdipGetStringFormatMeasurableCharacterRangeCount equ <__imp_GdipGetStringFormatMeasurableCharacterRangeCount>
+
+externdef __imp_GdipGetStringFormatTabStopCount:PPROC
+GdipGetStringFormatTabStopCount equ <__imp_GdipGetStringFormatTabStopCount>
+
+externdef __imp_GdipGetStringFormatTabStops:PPROC
+GdipGetStringFormatTabStops equ <__imp_GdipGetStringFormatTabStops>
+
+externdef __imp_GdipGetStringFormatTrimming:PPROC
+GdipGetStringFormatTrimming equ <__imp_GdipGetStringFormatTrimming>
+
+externdef __imp_GdipGetTextContrast:PPROC
+GdipGetTextContrast equ <__imp_GdipGetTextContrast>
+
+externdef __imp_GdipGetTextRenderingHint:PPROC
+GdipGetTextRenderingHint equ <__imp_GdipGetTextRenderingHint>
+
+externdef __imp_GdipGetTextureImage:PPROC
+GdipGetTextureImage equ <__imp_GdipGetTextureImage>
+
+externdef __imp_GdipGetTextureTransform:PPROC
+GdipGetTextureTransform equ <__imp_GdipGetTextureTransform>
+
+externdef __imp_GdipGetTextureWrapMode:PPROC
+GdipGetTextureWrapMode equ <__imp_GdipGetTextureWrapMode>
+
+externdef __imp_GdipGetVisibleClipBounds:PPROC
+GdipGetVisibleClipBounds equ <__imp_GdipGetVisibleClipBounds>
+
+externdef __imp_GdipGetVisibleClipBoundsI:PPROC
+GdipGetVisibleClipBoundsI equ <__imp_GdipGetVisibleClipBoundsI>
+
+externdef __imp_GdipGetWorldTransform:PPROC
+GdipGetWorldTransform equ <__imp_GdipGetWorldTransform>
+
+externdef __imp_GdipGraphicsClear:PPROC
+GdipGraphicsClear equ <__imp_GdipGraphicsClear>
+
+externdef __imp_GdipGraphicsSetAbort:PPROC
+GdipGraphicsSetAbort equ <__imp_GdipGraphicsSetAbort>
+
+externdef __imp_GdipImageForceValidation:PPROC
+GdipImageForceValidation equ <__imp_GdipImageForceValidation>
+
+externdef __imp_GdipImageGetFrameCount:PPROC
+GdipImageGetFrameCount equ <__imp_GdipImageGetFrameCount>
+
+externdef __imp_GdipImageGetFrameDimensionsCount:PPROC
+GdipImageGetFrameDimensionsCount equ <__imp_GdipImageGetFrameDimensionsCount>
+
+externdef __imp_GdipImageGetFrameDimensionsList:PPROC
+GdipImageGetFrameDimensionsList equ <__imp_GdipImageGetFrameDimensionsList>
+
+externdef __imp_GdipImageRotateFlip:PPROC
+GdipImageRotateFlip equ <__imp_GdipImageRotateFlip>
+
+externdef __imp_GdipImageSelectActiveFrame:PPROC
+GdipImageSelectActiveFrame equ <__imp_GdipImageSelectActiveFrame>
+
+externdef __imp_GdipImageSetAbort:PPROC
+GdipImageSetAbort equ <__imp_GdipImageSetAbort>
+
+externdef __imp_GdipInitializePalette:PPROC
+GdipInitializePalette equ <__imp_GdipInitializePalette>
+
+externdef __imp_GdipInvertMatrix:PPROC
+GdipInvertMatrix equ <__imp_GdipInvertMatrix>
+
+externdef __imp_GdipIsClipEmpty:PPROC
+GdipIsClipEmpty equ <__imp_GdipIsClipEmpty>
+
+externdef __imp_GdipIsEmptyRegion:PPROC
+GdipIsEmptyRegion equ <__imp_GdipIsEmptyRegion>
+
+externdef __imp_GdipIsEqualRegion:PPROC
+GdipIsEqualRegion equ <__imp_GdipIsEqualRegion>
+
+externdef __imp_GdipIsInfiniteRegion:PPROC
+GdipIsInfiniteRegion equ <__imp_GdipIsInfiniteRegion>
+
+externdef __imp_GdipIsMatrixEqual:PPROC
+GdipIsMatrixEqual equ <__imp_GdipIsMatrixEqual>
+
+externdef __imp_GdipIsMatrixIdentity:PPROC
+GdipIsMatrixIdentity equ <__imp_GdipIsMatrixIdentity>
+
+externdef __imp_GdipIsMatrixInvertible:PPROC
+GdipIsMatrixInvertible equ <__imp_GdipIsMatrixInvertible>
+
+externdef __imp_GdipIsOutlineVisiblePathPoint:PPROC
+GdipIsOutlineVisiblePathPoint equ <__imp_GdipIsOutlineVisiblePathPoint>
+
+externdef __imp_GdipIsOutlineVisiblePathPointI:PPROC
+GdipIsOutlineVisiblePathPointI equ <__imp_GdipIsOutlineVisiblePathPointI>
+
+externdef __imp_GdipIsStyleAvailable:PPROC
+GdipIsStyleAvailable equ <__imp_GdipIsStyleAvailable>
+
+externdef __imp_GdipIsVisibleClipEmpty:PPROC
+GdipIsVisibleClipEmpty equ <__imp_GdipIsVisibleClipEmpty>
+
+externdef __imp_GdipIsVisiblePathPoint:PPROC
+GdipIsVisiblePathPoint equ <__imp_GdipIsVisiblePathPoint>
+
+externdef __imp_GdipIsVisiblePathPointI:PPROC
+GdipIsVisiblePathPointI equ <__imp_GdipIsVisiblePathPointI>
+
+externdef __imp_GdipIsVisiblePoint:PPROC
+GdipIsVisiblePoint equ <__imp_GdipIsVisiblePoint>
+
+externdef __imp_GdipIsVisiblePointI:PPROC
+GdipIsVisiblePointI equ <__imp_GdipIsVisiblePointI>
+
+externdef __imp_GdipIsVisibleRect:PPROC
+GdipIsVisibleRect equ <__imp_GdipIsVisibleRect>
+
+externdef __imp_GdipIsVisibleRectI:PPROC
+GdipIsVisibleRectI equ <__imp_GdipIsVisibleRectI>
+
+externdef __imp_GdipIsVisibleRegionPoint:PPROC
+GdipIsVisibleRegionPoint equ <__imp_GdipIsVisibleRegionPoint>
+
+externdef __imp_GdipIsVisibleRegionPointI:PPROC
+GdipIsVisibleRegionPointI equ <__imp_GdipIsVisibleRegionPointI>
+
+externdef __imp_GdipIsVisibleRegionRect:PPROC
+GdipIsVisibleRegionRect equ <__imp_GdipIsVisibleRegionRect>
+
+externdef __imp_GdipIsVisibleRegionRectI:PPROC
+GdipIsVisibleRegionRectI equ <__imp_GdipIsVisibleRegionRectI>
+
+externdef __imp_GdipLoadImageFromFile:PPROC
+GdipLoadImageFromFile equ <__imp_GdipLoadImageFromFile>
+
+externdef __imp_GdipLoadImageFromFileICM:PPROC
+GdipLoadImageFromFileICM equ <__imp_GdipLoadImageFromFileICM>
+
+externdef __imp_GdipLoadImageFromStream:PPROC
+GdipLoadImageFromStream equ <__imp_GdipLoadImageFromStream>
+
+externdef __imp_GdipLoadImageFromStreamICM:PPROC
+GdipLoadImageFromStreamICM equ <__imp_GdipLoadImageFromStreamICM>
+
+externdef __imp_GdipMeasureCharacterRanges:PPROC
+GdipMeasureCharacterRanges equ <__imp_GdipMeasureCharacterRanges>
+
+externdef __imp_GdipMeasureDriverString:PPROC
+GdipMeasureDriverString equ <__imp_GdipMeasureDriverString>
+
+externdef __imp_GdipMeasureString:PPROC
+GdipMeasureString equ <__imp_GdipMeasureString>
+
+externdef __imp_GdipMultiplyLineTransform:PPROC
+GdipMultiplyLineTransform equ <__imp_GdipMultiplyLineTransform>
+
+externdef __imp_GdipMultiplyMatrix:PPROC
+GdipMultiplyMatrix equ <__imp_GdipMultiplyMatrix>
+
+externdef __imp_GdipMultiplyPathGradientTransform:PPROC
+GdipMultiplyPathGradientTransform equ <__imp_GdipMultiplyPathGradientTransform>
+
+externdef __imp_GdipMultiplyPenTransform:PPROC
+GdipMultiplyPenTransform equ <__imp_GdipMultiplyPenTransform>
+
+externdef __imp_GdipMultiplyTextureTransform:PPROC
+GdipMultiplyTextureTransform equ <__imp_GdipMultiplyTextureTransform>
+
+externdef __imp_GdipMultiplyWorldTransform:PPROC
+GdipMultiplyWorldTransform equ <__imp_GdipMultiplyWorldTransform>
+
+externdef __imp_GdipNewInstalledFontCollection:PPROC
+GdipNewInstalledFontCollection equ <__imp_GdipNewInstalledFontCollection>
+
+externdef __imp_GdipNewPrivateFontCollection:PPROC
+GdipNewPrivateFontCollection equ <__imp_GdipNewPrivateFontCollection>
+
+externdef __imp_GdipPathIterCopyData:PPROC
+GdipPathIterCopyData equ <__imp_GdipPathIterCopyData>
+
+externdef __imp_GdipPathIterEnumerate:PPROC
+GdipPathIterEnumerate equ <__imp_GdipPathIterEnumerate>
+
+externdef __imp_GdipPathIterGetCount:PPROC
+GdipPathIterGetCount equ <__imp_GdipPathIterGetCount>
+
+externdef __imp_GdipPathIterGetSubpathCount:PPROC
+GdipPathIterGetSubpathCount equ <__imp_GdipPathIterGetSubpathCount>
+
+externdef __imp_GdipPathIterHasCurve:PPROC
+GdipPathIterHasCurve equ <__imp_GdipPathIterHasCurve>
+
+externdef __imp_GdipPathIterIsValid:PPROC
+GdipPathIterIsValid equ <__imp_GdipPathIterIsValid>
+
+externdef __imp_GdipPathIterNextMarker:PPROC
+GdipPathIterNextMarker equ <__imp_GdipPathIterNextMarker>
+
+externdef __imp_GdipPathIterNextMarkerPath:PPROC
+GdipPathIterNextMarkerPath equ <__imp_GdipPathIterNextMarkerPath>
+
+externdef __imp_GdipPathIterNextPathType:PPROC
+GdipPathIterNextPathType equ <__imp_GdipPathIterNextPathType>
+
+externdef __imp_GdipPathIterNextSubpath:PPROC
+GdipPathIterNextSubpath equ <__imp_GdipPathIterNextSubpath>
+
+externdef __imp_GdipPathIterNextSubpathPath:PPROC
+GdipPathIterNextSubpathPath equ <__imp_GdipPathIterNextSubpathPath>
+
+externdef __imp_GdipPathIterRewind:PPROC
+GdipPathIterRewind equ <__imp_GdipPathIterRewind>
+
+externdef __imp_GdipPlayMetafileRecord:PPROC
+GdipPlayMetafileRecord equ <__imp_GdipPlayMetafileRecord>
+
+externdef __imp_GdipPlayTSClientRecord:PPROC
+GdipPlayTSClientRecord equ <__imp_GdipPlayTSClientRecord>
+
+externdef __imp_GdipPrivateAddFontFile:PPROC
+GdipPrivateAddFontFile equ <__imp_GdipPrivateAddFontFile>
+
+externdef __imp_GdipPrivateAddMemoryFont:PPROC
+GdipPrivateAddMemoryFont equ <__imp_GdipPrivateAddMemoryFont>
+
+externdef __imp_GdipRecordMetafile:PPROC
+GdipRecordMetafile equ <__imp_GdipRecordMetafile>
+
+externdef __imp_GdipRecordMetafileFileName:PPROC
+GdipRecordMetafileFileName equ <__imp_GdipRecordMetafileFileName>
+
+externdef __imp_GdipRecordMetafileFileNameI:PPROC
+GdipRecordMetafileFileNameI equ <__imp_GdipRecordMetafileFileNameI>
+
+externdef __imp_GdipRecordMetafileI:PPROC
+GdipRecordMetafileI equ <__imp_GdipRecordMetafileI>
+
+externdef __imp_GdipRecordMetafileStream:PPROC
+GdipRecordMetafileStream equ <__imp_GdipRecordMetafileStream>
+
+externdef __imp_GdipRecordMetafileStreamI:PPROC
+GdipRecordMetafileStreamI equ <__imp_GdipRecordMetafileStreamI>
+
+externdef __imp_GdipReleaseDC:PPROC
+GdipReleaseDC equ <__imp_GdipReleaseDC>
+
+externdef __imp_GdipRemovePropertyItem:PPROC
+GdipRemovePropertyItem equ <__imp_GdipRemovePropertyItem>
+
+externdef __imp_GdipResetClip:PPROC
+GdipResetClip equ <__imp_GdipResetClip>
+
+externdef __imp_GdipResetImageAttributes:PPROC
+GdipResetImageAttributes equ <__imp_GdipResetImageAttributes>
+
+externdef __imp_GdipResetLineTransform:PPROC
+GdipResetLineTransform equ <__imp_GdipResetLineTransform>
+
+externdef __imp_GdipResetPageTransform:PPROC
+GdipResetPageTransform equ <__imp_GdipResetPageTransform>
+
+externdef __imp_GdipResetPath:PPROC
+GdipResetPath equ <__imp_GdipResetPath>
+
+externdef __imp_GdipResetPathGradientTransform:PPROC
+GdipResetPathGradientTransform equ <__imp_GdipResetPathGradientTransform>
+
+externdef __imp_GdipResetPenTransform:PPROC
+GdipResetPenTransform equ <__imp_GdipResetPenTransform>
+
+externdef __imp_GdipResetTextureTransform:PPROC
+GdipResetTextureTransform equ <__imp_GdipResetTextureTransform>
+
+externdef __imp_GdipResetWorldTransform:PPROC
+GdipResetWorldTransform equ <__imp_GdipResetWorldTransform>
+
+externdef __imp_GdipRestoreGraphics:PPROC
+GdipRestoreGraphics equ <__imp_GdipRestoreGraphics>
+
+externdef __imp_GdipReversePath:PPROC
+GdipReversePath equ <__imp_GdipReversePath>
+
+externdef __imp_GdipRotateLineTransform:PPROC
+GdipRotateLineTransform equ <__imp_GdipRotateLineTransform>
+
+externdef __imp_GdipRotateMatrix:PPROC
+GdipRotateMatrix equ <__imp_GdipRotateMatrix>
+
+externdef __imp_GdipRotatePathGradientTransform:PPROC
+GdipRotatePathGradientTransform equ <__imp_GdipRotatePathGradientTransform>
+
+externdef __imp_GdipRotatePenTransform:PPROC
+GdipRotatePenTransform equ <__imp_GdipRotatePenTransform>
+
+externdef __imp_GdipRotateTextureTransform:PPROC
+GdipRotateTextureTransform equ <__imp_GdipRotateTextureTransform>
+
+externdef __imp_GdipRotateWorldTransform:PPROC
+GdipRotateWorldTransform equ <__imp_GdipRotateWorldTransform>
+
+externdef __imp_GdipSaveAdd:PPROC
+GdipSaveAdd equ <__imp_GdipSaveAdd>
+
+externdef __imp_GdipSaveAddImage:PPROC
+GdipSaveAddImage equ <__imp_GdipSaveAddImage>
+
+externdef __imp_GdipSaveGraphics:PPROC
+GdipSaveGraphics equ <__imp_GdipSaveGraphics>
+
+externdef __imp_GdipSaveImageToFile:PPROC
+GdipSaveImageToFile equ <__imp_GdipSaveImageToFile>
+
+externdef __imp_GdipSaveImageToStream:PPROC
+GdipSaveImageToStream equ <__imp_GdipSaveImageToStream>
+
+externdef __imp_GdipScaleLineTransform:PPROC
+GdipScaleLineTransform equ <__imp_GdipScaleLineTransform>
+
+externdef __imp_GdipScaleMatrix:PPROC
+GdipScaleMatrix equ <__imp_GdipScaleMatrix>
+
+externdef __imp_GdipScalePathGradientTransform:PPROC
+GdipScalePathGradientTransform equ <__imp_GdipScalePathGradientTransform>
+
+externdef __imp_GdipScalePenTransform:PPROC
+GdipScalePenTransform equ <__imp_GdipScalePenTransform>
+
+externdef __imp_GdipScaleTextureTransform:PPROC
+GdipScaleTextureTransform equ <__imp_GdipScaleTextureTransform>
+
+externdef __imp_GdipScaleWorldTransform:PPROC
+GdipScaleWorldTransform equ <__imp_GdipScaleWorldTransform>
+
+externdef __imp_GdipSetAdjustableArrowCapFillState:PPROC
+GdipSetAdjustableArrowCapFillState equ <__imp_GdipSetAdjustableArrowCapFillState>
+
+externdef __imp_GdipSetAdjustableArrowCapHeight:PPROC
+GdipSetAdjustableArrowCapHeight equ <__imp_GdipSetAdjustableArrowCapHeight>
+
+externdef __imp_GdipSetAdjustableArrowCapMiddleInset:PPROC
+GdipSetAdjustableArrowCapMiddleInset equ <__imp_GdipSetAdjustableArrowCapMiddleInset>
+
+externdef __imp_GdipSetAdjustableArrowCapWidth:PPROC
+GdipSetAdjustableArrowCapWidth equ <__imp_GdipSetAdjustableArrowCapWidth>
+
+externdef __imp_GdipSetClipGraphics:PPROC
+GdipSetClipGraphics equ <__imp_GdipSetClipGraphics>
+
+externdef __imp_GdipSetClipHrgn:PPROC
+GdipSetClipHrgn equ <__imp_GdipSetClipHrgn>
+
+externdef __imp_GdipSetClipPath:PPROC
+GdipSetClipPath equ <__imp_GdipSetClipPath>
+
+externdef __imp_GdipSetClipRect:PPROC
+GdipSetClipRect equ <__imp_GdipSetClipRect>
+
+externdef __imp_GdipSetClipRectI:PPROC
+GdipSetClipRectI equ <__imp_GdipSetClipRectI>
+
+externdef __imp_GdipSetClipRegion:PPROC
+GdipSetClipRegion equ <__imp_GdipSetClipRegion>
+
+externdef __imp_GdipSetCompositingMode:PPROC
+GdipSetCompositingMode equ <__imp_GdipSetCompositingMode>
+
+externdef __imp_GdipSetCompositingQuality:PPROC
+GdipSetCompositingQuality equ <__imp_GdipSetCompositingQuality>
+
+externdef __imp_GdipSetCustomLineCapBaseCap:PPROC
+GdipSetCustomLineCapBaseCap equ <__imp_GdipSetCustomLineCapBaseCap>
+
+externdef __imp_GdipSetCustomLineCapBaseInset:PPROC
+GdipSetCustomLineCapBaseInset equ <__imp_GdipSetCustomLineCapBaseInset>
+
+externdef __imp_GdipSetCustomLineCapStrokeCaps:PPROC
+GdipSetCustomLineCapStrokeCaps equ <__imp_GdipSetCustomLineCapStrokeCaps>
+
+externdef __imp_GdipSetCustomLineCapStrokeJoin:PPROC
+GdipSetCustomLineCapStrokeJoin equ <__imp_GdipSetCustomLineCapStrokeJoin>
+
+externdef __imp_GdipSetCustomLineCapWidthScale:PPROC
+GdipSetCustomLineCapWidthScale equ <__imp_GdipSetCustomLineCapWidthScale>
+
+externdef __imp_GdipSetEffectParameters:PPROC
+GdipSetEffectParameters equ <__imp_GdipSetEffectParameters>
+
+externdef __imp_GdipSetEmpty:PPROC
+GdipSetEmpty equ <__imp_GdipSetEmpty>
+
+externdef __imp_GdipSetImageAttributesCachedBackground:PPROC
+GdipSetImageAttributesCachedBackground equ <__imp_GdipSetImageAttributesCachedBackground>
+
+externdef __imp_GdipSetImageAttributesColorKeys:PPROC
+GdipSetImageAttributesColorKeys equ <__imp_GdipSetImageAttributesColorKeys>
+
+externdef __imp_GdipSetImageAttributesColorMatrix:PPROC
+GdipSetImageAttributesColorMatrix equ <__imp_GdipSetImageAttributesColorMatrix>
+
+externdef __imp_GdipSetImageAttributesGamma:PPROC
+GdipSetImageAttributesGamma equ <__imp_GdipSetImageAttributesGamma>
+
+externdef __imp_GdipSetImageAttributesNoOp:PPROC
+GdipSetImageAttributesNoOp equ <__imp_GdipSetImageAttributesNoOp>
+
+externdef __imp_GdipSetImageAttributesOutputChannel:PPROC
+GdipSetImageAttributesOutputChannel equ <__imp_GdipSetImageAttributesOutputChannel>
+
+externdef __imp_GdipSetImageAttributesOutputChannelColorProfile:PPROC
+GdipSetImageAttributesOutputChannelColorProfile equ <__imp_GdipSetImageAttributesOutputChannelColorProfile>
+
+externdef __imp_GdipSetImageAttributesRemapTable:PPROC
+GdipSetImageAttributesRemapTable equ <__imp_GdipSetImageAttributesRemapTable>
+
+externdef __imp_GdipSetImageAttributesThreshold:PPROC
+GdipSetImageAttributesThreshold equ <__imp_GdipSetImageAttributesThreshold>
+
+externdef __imp_GdipSetImageAttributesToIdentity:PPROC
+GdipSetImageAttributesToIdentity equ <__imp_GdipSetImageAttributesToIdentity>
+
+externdef __imp_GdipSetImageAttributesWrapMode:PPROC
+GdipSetImageAttributesWrapMode equ <__imp_GdipSetImageAttributesWrapMode>
+
+externdef __imp_GdipSetImagePalette:PPROC
+GdipSetImagePalette equ <__imp_GdipSetImagePalette>
+
+externdef __imp_GdipSetInfinite:PPROC
+GdipSetInfinite equ <__imp_GdipSetInfinite>
+
+externdef __imp_GdipSetInterpolationMode:PPROC
+GdipSetInterpolationMode equ <__imp_GdipSetInterpolationMode>
+
+externdef __imp_GdipSetLineBlend:PPROC
+GdipSetLineBlend equ <__imp_GdipSetLineBlend>
+
+externdef __imp_GdipSetLineColors:PPROC
+GdipSetLineColors equ <__imp_GdipSetLineColors>
+
+externdef __imp_GdipSetLineGammaCorrection:PPROC
+GdipSetLineGammaCorrection equ <__imp_GdipSetLineGammaCorrection>
+
+externdef __imp_GdipSetLineLinearBlend:PPROC
+GdipSetLineLinearBlend equ <__imp_GdipSetLineLinearBlend>
+
+externdef __imp_GdipSetLinePresetBlend:PPROC
+GdipSetLinePresetBlend equ <__imp_GdipSetLinePresetBlend>
+
+externdef __imp_GdipSetLineSigmaBlend:PPROC
+GdipSetLineSigmaBlend equ <__imp_GdipSetLineSigmaBlend>
+
+externdef __imp_GdipSetLineTransform:PPROC
+GdipSetLineTransform equ <__imp_GdipSetLineTransform>
+
+externdef __imp_GdipSetLineWrapMode:PPROC
+GdipSetLineWrapMode equ <__imp_GdipSetLineWrapMode>
+
+externdef __imp_GdipSetMatrixElements:PPROC
+GdipSetMatrixElements equ <__imp_GdipSetMatrixElements>
+
+externdef __imp_GdipSetMetafileDownLevelRasterizationLimit:PPROC
+GdipSetMetafileDownLevelRasterizationLimit equ <__imp_GdipSetMetafileDownLevelRasterizationLimit>
+
+externdef __imp_GdipSetPageScale:PPROC
+GdipSetPageScale equ <__imp_GdipSetPageScale>
+
+externdef __imp_GdipSetPageUnit:PPROC
+GdipSetPageUnit equ <__imp_GdipSetPageUnit>
+
+externdef __imp_GdipSetPathFillMode:PPROC
+GdipSetPathFillMode equ <__imp_GdipSetPathFillMode>
+
+externdef __imp_GdipSetPathGradientBlend:PPROC
+GdipSetPathGradientBlend equ <__imp_GdipSetPathGradientBlend>
+
+externdef __imp_GdipSetPathGradientCenterColor:PPROC
+GdipSetPathGradientCenterColor equ <__imp_GdipSetPathGradientCenterColor>
+
+externdef __imp_GdipSetPathGradientCenterPoint:PPROC
+GdipSetPathGradientCenterPoint equ <__imp_GdipSetPathGradientCenterPoint>
+
+externdef __imp_GdipSetPathGradientCenterPointI:PPROC
+GdipSetPathGradientCenterPointI equ <__imp_GdipSetPathGradientCenterPointI>
+
+externdef __imp_GdipSetPathGradientFocusScales:PPROC
+GdipSetPathGradientFocusScales equ <__imp_GdipSetPathGradientFocusScales>
+
+externdef __imp_GdipSetPathGradientGammaCorrection:PPROC
+GdipSetPathGradientGammaCorrection equ <__imp_GdipSetPathGradientGammaCorrection>
+
+externdef __imp_GdipSetPathGradientLinearBlend:PPROC
+GdipSetPathGradientLinearBlend equ <__imp_GdipSetPathGradientLinearBlend>
+
+externdef __imp_GdipSetPathGradientPath:PPROC
+GdipSetPathGradientPath equ <__imp_GdipSetPathGradientPath>
+
+externdef __imp_GdipSetPathGradientPresetBlend:PPROC
+GdipSetPathGradientPresetBlend equ <__imp_GdipSetPathGradientPresetBlend>
+
+externdef __imp_GdipSetPathGradientSigmaBlend:PPROC
+GdipSetPathGradientSigmaBlend equ <__imp_GdipSetPathGradientSigmaBlend>
+
+externdef __imp_GdipSetPathGradientSurroundColorsWithCount:PPROC
+GdipSetPathGradientSurroundColorsWithCount equ <__imp_GdipSetPathGradientSurroundColorsWithCount>
+
+externdef __imp_GdipSetPathGradientTransform:PPROC
+GdipSetPathGradientTransform equ <__imp_GdipSetPathGradientTransform>
+
+externdef __imp_GdipSetPathGradientWrapMode:PPROC
+GdipSetPathGradientWrapMode equ <__imp_GdipSetPathGradientWrapMode>
+
+externdef __imp_GdipSetPathMarker:PPROC
+GdipSetPathMarker equ <__imp_GdipSetPathMarker>
+
+externdef __imp_GdipSetPenBrushFill:PPROC
+GdipSetPenBrushFill equ <__imp_GdipSetPenBrushFill>
+
+externdef __imp_GdipSetPenColor:PPROC
+GdipSetPenColor equ <__imp_GdipSetPenColor>
+
+externdef __imp_GdipSetPenCompoundArray:PPROC
+GdipSetPenCompoundArray equ <__imp_GdipSetPenCompoundArray>
+
+externdef __imp_GdipSetPenCustomEndCap:PPROC
+GdipSetPenCustomEndCap equ <__imp_GdipSetPenCustomEndCap>
+
+externdef __imp_GdipSetPenCustomStartCap:PPROC
+GdipSetPenCustomStartCap equ <__imp_GdipSetPenCustomStartCap>
+
+externdef __imp_GdipSetPenDashArray:PPROC
+GdipSetPenDashArray equ <__imp_GdipSetPenDashArray>
+
+externdef __imp_GdipSetPenDashCap197819:PPROC
+GdipSetPenDashCap197819 equ <__imp_GdipSetPenDashCap197819>
+
+externdef __imp_GdipSetPenDashOffset:PPROC
+GdipSetPenDashOffset equ <__imp_GdipSetPenDashOffset>
+
+externdef __imp_GdipSetPenDashStyle:PPROC
+GdipSetPenDashStyle equ <__imp_GdipSetPenDashStyle>
+
+externdef __imp_GdipSetPenEndCap:PPROC
+GdipSetPenEndCap equ <__imp_GdipSetPenEndCap>
+
+externdef __imp_GdipSetPenLineCap197819:PPROC
+GdipSetPenLineCap197819 equ <__imp_GdipSetPenLineCap197819>
+
+externdef __imp_GdipSetPenLineJoin:PPROC
+GdipSetPenLineJoin equ <__imp_GdipSetPenLineJoin>
+
+externdef __imp_GdipSetPenMiterLimit:PPROC
+GdipSetPenMiterLimit equ <__imp_GdipSetPenMiterLimit>
+
+externdef __imp_GdipSetPenMode:PPROC
+GdipSetPenMode equ <__imp_GdipSetPenMode>
+
+externdef __imp_GdipSetPenStartCap:PPROC
+GdipSetPenStartCap equ <__imp_GdipSetPenStartCap>
+
+externdef __imp_GdipSetPenTransform:PPROC
+GdipSetPenTransform equ <__imp_GdipSetPenTransform>
+
+externdef __imp_GdipSetPenUnit:PPROC
+GdipSetPenUnit equ <__imp_GdipSetPenUnit>
+
+externdef __imp_GdipSetPenWidth:PPROC
+GdipSetPenWidth equ <__imp_GdipSetPenWidth>
+
+externdef __imp_GdipSetPixelOffsetMode:PPROC
+GdipSetPixelOffsetMode equ <__imp_GdipSetPixelOffsetMode>
+
+externdef __imp_GdipSetPropertyItem:PPROC
+GdipSetPropertyItem equ <__imp_GdipSetPropertyItem>
+
+externdef __imp_GdipSetRenderingOrigin:PPROC
+GdipSetRenderingOrigin equ <__imp_GdipSetRenderingOrigin>
+
+externdef __imp_GdipSetSmoothingMode:PPROC
+GdipSetSmoothingMode equ <__imp_GdipSetSmoothingMode>
+
+externdef __imp_GdipSetSolidFillColor:PPROC
+GdipSetSolidFillColor equ <__imp_GdipSetSolidFillColor>
+
+externdef __imp_GdipSetStringFormatAlign:PPROC
+GdipSetStringFormatAlign equ <__imp_GdipSetStringFormatAlign>
+
+externdef __imp_GdipSetStringFormatDigitSubstitution:PPROC
+GdipSetStringFormatDigitSubstitution equ <__imp_GdipSetStringFormatDigitSubstitution>
+
+externdef __imp_GdipSetStringFormatFlags:PPROC
+GdipSetStringFormatFlags equ <__imp_GdipSetStringFormatFlags>
+
+externdef __imp_GdipSetStringFormatHotkeyPrefix:PPROC
+GdipSetStringFormatHotkeyPrefix equ <__imp_GdipSetStringFormatHotkeyPrefix>
+
+externdef __imp_GdipSetStringFormatLineAlign:PPROC
+GdipSetStringFormatLineAlign equ <__imp_GdipSetStringFormatLineAlign>
+
+externdef __imp_GdipSetStringFormatMeasurableCharacterRanges:PPROC
+GdipSetStringFormatMeasurableCharacterRanges equ <__imp_GdipSetStringFormatMeasurableCharacterRanges>
+
+externdef __imp_GdipSetStringFormatTabStops:PPROC
+GdipSetStringFormatTabStops equ <__imp_GdipSetStringFormatTabStops>
+
+externdef __imp_GdipSetStringFormatTrimming:PPROC
+GdipSetStringFormatTrimming equ <__imp_GdipSetStringFormatTrimming>
+
+externdef __imp_GdipSetTextContrast:PPROC
+GdipSetTextContrast equ <__imp_GdipSetTextContrast>
+
+externdef __imp_GdipSetTextRenderingHint:PPROC
+GdipSetTextRenderingHint equ <__imp_GdipSetTextRenderingHint>
+
+externdef __imp_GdipSetTextureTransform:PPROC
+GdipSetTextureTransform equ <__imp_GdipSetTextureTransform>
+
+externdef __imp_GdipSetTextureWrapMode:PPROC
+GdipSetTextureWrapMode equ <__imp_GdipSetTextureWrapMode>
+
+externdef __imp_GdipSetWorldTransform:PPROC
+GdipSetWorldTransform equ <__imp_GdipSetWorldTransform>
+
+externdef __imp_GdipShearMatrix:PPROC
+GdipShearMatrix equ <__imp_GdipShearMatrix>
+
+externdef __imp_GdipStartPathFigure:PPROC
+GdipStartPathFigure equ <__imp_GdipStartPathFigure>
+
+externdef __imp_GdipStringFormatGetGenericDefault:PPROC
+GdipStringFormatGetGenericDefault equ <__imp_GdipStringFormatGetGenericDefault>
+
+externdef __imp_GdipStringFormatGetGenericTypographic:PPROC
+GdipStringFormatGetGenericTypographic equ <__imp_GdipStringFormatGetGenericTypographic>
+
+externdef __imp_GdipTestControl:PPROC
+GdipTestControl equ <__imp_GdipTestControl>
+
+externdef __imp_GdipTransformMatrixPoints:PPROC
+GdipTransformMatrixPoints equ <__imp_GdipTransformMatrixPoints>
+
+externdef __imp_GdipTransformMatrixPointsI:PPROC
+GdipTransformMatrixPointsI equ <__imp_GdipTransformMatrixPointsI>
+
+externdef __imp_GdipTransformPath:PPROC
+GdipTransformPath equ <__imp_GdipTransformPath>
+
+externdef __imp_GdipTransformPoints:PPROC
+GdipTransformPoints equ <__imp_GdipTransformPoints>
+
+externdef __imp_GdipTransformPointsI:PPROC
+GdipTransformPointsI equ <__imp_GdipTransformPointsI>
+
+externdef __imp_GdipTransformRegion:PPROC
+GdipTransformRegion equ <__imp_GdipTransformRegion>
+
+externdef __imp_GdipTranslateClip:PPROC
+GdipTranslateClip equ <__imp_GdipTranslateClip>
+
+externdef __imp_GdipTranslateClipI:PPROC
+GdipTranslateClipI equ <__imp_GdipTranslateClipI>
+
+externdef __imp_GdipTranslateLineTransform:PPROC
+GdipTranslateLineTransform equ <__imp_GdipTranslateLineTransform>
+
+externdef __imp_GdipTranslateMatrix:PPROC
+GdipTranslateMatrix equ <__imp_GdipTranslateMatrix>
+
+externdef __imp_GdipTranslatePathGradientTransform:PPROC
+GdipTranslatePathGradientTransform equ <__imp_GdipTranslatePathGradientTransform>
+
+externdef __imp_GdipTranslatePenTransform:PPROC
+GdipTranslatePenTransform equ <__imp_GdipTranslatePenTransform>
+
+externdef __imp_GdipTranslateRegion:PPROC
+GdipTranslateRegion equ <__imp_GdipTranslateRegion>
+
+externdef __imp_GdipTranslateRegionI:PPROC
+GdipTranslateRegionI equ <__imp_GdipTranslateRegionI>
+
+externdef __imp_GdipTranslateTextureTransform:PPROC
+GdipTranslateTextureTransform equ <__imp_GdipTranslateTextureTransform>
+
+externdef __imp_GdipTranslateWorldTransform:PPROC
+GdipTranslateWorldTransform equ <__imp_GdipTranslateWorldTransform>
+
+externdef __imp_GdipVectorTransformMatrixPoints:PPROC
+GdipVectorTransformMatrixPoints equ <__imp_GdipVectorTransformMatrixPoints>
+
+externdef __imp_GdipVectorTransformMatrixPointsI:PPROC
+GdipVectorTransformMatrixPointsI equ <__imp_GdipVectorTransformMatrixPointsI>
+
+externdef __imp_GdipWarpPath:PPROC
+GdipWarpPath equ <__imp_GdipWarpPath>
+
+externdef __imp_GdipWidenPath:PPROC
+GdipWidenPath equ <__imp_GdipWidenPath>
+
+externdef __imp_GdipWindingModeOutline:PPROC
+GdipWindingModeOutline equ <__imp_GdipWindingModeOutline>
+
+externdef __imp_GdiplusNotificationHook:PPROC
+GdiplusNotificationHook equ <__imp_GdiplusNotificationHook>
+
+externdef __imp_GdiplusNotificationUnhook:PPROC
+GdiplusNotificationUnhook equ <__imp_GdiplusNotificationUnhook>
+
+externdef __imp_GdiplusShutdown:PPROC
+GdiplusShutdown equ <__imp_GdiplusShutdown>
+
+externdef __imp_GdiplusStartup:PPROC
+GdiplusStartup equ <__imp_GdiplusStartup>

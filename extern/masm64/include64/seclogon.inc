@@ -1,0 +1,11 @@
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_SvcEntry_Seclogon:PPROC
+SvcEntry_Seclogon equ <__imp_SvcEntry_Seclogon>
+
+externdef __imp_SvchostPushServiceGlobals:PPROC
+SvchostPushServiceGlobals equ <__imp_SvchostPushServiceGlobals>

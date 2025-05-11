@@ -1,0 +1,2 @@
+externdef __imp_SvcEntry_Eventlog:PPROC
+SvcEntry_Eventlog equ <__imp_SvcEntry_Eventlog>

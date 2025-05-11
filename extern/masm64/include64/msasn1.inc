@@ -1,0 +1,797 @@
+externdef __imp_ASN1BERDecBitString2:PPROC
+ASN1BERDecBitString2 equ <__imp_ASN1BERDecBitString2>
+
+externdef __imp_ASN1BERDecBitString:PPROC
+ASN1BERDecBitString equ <__imp_ASN1BERDecBitString>
+
+externdef __imp_ASN1BERDecBool:PPROC
+ASN1BERDecBool equ <__imp_ASN1BERDecBool>
+
+externdef __imp_ASN1BERDecChar16String:PPROC
+ASN1BERDecChar16String equ <__imp_ASN1BERDecChar16String>
+
+externdef __imp_ASN1BERDecChar32String:PPROC
+ASN1BERDecChar32String equ <__imp_ASN1BERDecChar32String>
+
+externdef __imp_ASN1BERDecCharString:PPROC
+ASN1BERDecCharString equ <__imp_ASN1BERDecCharString>
+
+externdef __imp_ASN1BERDecCheck:PPROC
+ASN1BERDecCheck equ <__imp_ASN1BERDecCheck>
+
+externdef __imp_ASN1BERDecDouble:PPROC
+ASN1BERDecDouble equ <__imp_ASN1BERDecDouble>
+
+externdef __imp_ASN1BERDecEndOfContents:PPROC
+ASN1BERDecEndOfContents equ <__imp_ASN1BERDecEndOfContents>
+
+externdef __imp_ASN1BERDecEoid:PPROC
+ASN1BERDecEoid equ <__imp_ASN1BERDecEoid>
+
+externdef __imp_ASN1BERDecExplicitTag:PPROC
+ASN1BERDecExplicitTag equ <__imp_ASN1BERDecExplicitTag>
+
+externdef __imp_ASN1BERDecFlush:PPROC
+ASN1BERDecFlush equ <__imp_ASN1BERDecFlush>
+
+externdef __imp_ASN1BERDecGeneralizedTime:PPROC
+ASN1BERDecGeneralizedTime equ <__imp_ASN1BERDecGeneralizedTime>
+
+externdef __imp_ASN1BERDecLength:PPROC
+ASN1BERDecLength equ <__imp_ASN1BERDecLength>
+
+externdef __imp_ASN1BERDecMultibyteString:PPROC
+ASN1BERDecMultibyteString equ <__imp_ASN1BERDecMultibyteString>
+
+externdef __imp_ASN1BERDecNotEndOfContents:PPROC
+ASN1BERDecNotEndOfContents equ <__imp_ASN1BERDecNotEndOfContents>
+
+externdef __imp_ASN1BERDecNull:PPROC
+ASN1BERDecNull equ <__imp_ASN1BERDecNull>
+
+externdef __imp_ASN1BERDecObjectIdentifier2:PPROC
+ASN1BERDecObjectIdentifier2 equ <__imp_ASN1BERDecObjectIdentifier2>
+
+externdef __imp_ASN1BERDecObjectIdentifier:PPROC
+ASN1BERDecObjectIdentifier equ <__imp_ASN1BERDecObjectIdentifier>
+
+externdef __imp_ASN1BERDecOctetString2:PPROC
+ASN1BERDecOctetString2 equ <__imp_ASN1BERDecOctetString2>
+
+externdef __imp_ASN1BERDecOctetString:PPROC
+ASN1BERDecOctetString equ <__imp_ASN1BERDecOctetString>
+
+externdef __imp_ASN1BERDecOpenType2:PPROC
+ASN1BERDecOpenType2 equ <__imp_ASN1BERDecOpenType2>
+
+externdef __imp_ASN1BERDecOpenType:PPROC
+ASN1BERDecOpenType equ <__imp_ASN1BERDecOpenType>
+
+externdef __imp_ASN1BERDecPeekTag:PPROC
+ASN1BERDecPeekTag equ <__imp_ASN1BERDecPeekTag>
+
+externdef __imp_ASN1BERDecS16Val:PPROC
+ASN1BERDecS16Val equ <__imp_ASN1BERDecS16Val>
+
+externdef __imp_ASN1BERDecS32Val:PPROC
+ASN1BERDecS32Val equ <__imp_ASN1BERDecS32Val>
+
+externdef __imp_ASN1BERDecS8Val:PPROC
+ASN1BERDecS8Val equ <__imp_ASN1BERDecS8Val>
+
+externdef __imp_ASN1BERDecSXVal:PPROC
+ASN1BERDecSXVal equ <__imp_ASN1BERDecSXVal>
+
+externdef __imp_ASN1BERDecSkip:PPROC
+ASN1BERDecSkip equ <__imp_ASN1BERDecSkip>
+
+externdef __imp_ASN1BERDecTag:PPROC
+ASN1BERDecTag equ <__imp_ASN1BERDecTag>
+
+externdef __imp_ASN1BERDecU16Val:PPROC
+ASN1BERDecU16Val equ <__imp_ASN1BERDecU16Val>
+
+externdef __imp_ASN1BERDecU32Val:PPROC
+ASN1BERDecU32Val equ <__imp_ASN1BERDecU32Val>
+
+externdef __imp_ASN1BERDecU8Val:PPROC
+ASN1BERDecU8Val equ <__imp_ASN1BERDecU8Val>
+
+externdef __imp_ASN1BERDecUTCTime:PPROC
+ASN1BERDecUTCTime equ <__imp_ASN1BERDecUTCTime>
+
+externdef __imp_ASN1BERDecUTF8String:PPROC
+ASN1BERDecUTF8String equ <__imp_ASN1BERDecUTF8String>
+
+externdef __imp_ASN1BERDecZeroChar16String:PPROC
+ASN1BERDecZeroChar16String equ <__imp_ASN1BERDecZeroChar16String>
+
+externdef __imp_ASN1BERDecZeroChar32String:PPROC
+ASN1BERDecZeroChar32String equ <__imp_ASN1BERDecZeroChar32String>
+
+externdef __imp_ASN1BERDecZeroCharString:PPROC
+ASN1BERDecZeroCharString equ <__imp_ASN1BERDecZeroCharString>
+
+externdef __imp_ASN1BERDecZeroMultibyteString:PPROC
+ASN1BERDecZeroMultibyteString equ <__imp_ASN1BERDecZeroMultibyteString>
+
+externdef __imp_ASN1BERDotVal2Eoid:PPROC
+ASN1BERDotVal2Eoid equ <__imp_ASN1BERDotVal2Eoid>
+
+externdef __imp_ASN1BEREncBitString:PPROC
+ASN1BEREncBitString equ <__imp_ASN1BEREncBitString>
+
+externdef __imp_ASN1BEREncBool:PPROC
+ASN1BEREncBool equ <__imp_ASN1BEREncBool>
+
+externdef __imp_ASN1BEREncChar16String:PPROC
+ASN1BEREncChar16String equ <__imp_ASN1BEREncChar16String>
+
+externdef __imp_ASN1BEREncChar32String:PPROC
+ASN1BEREncChar32String equ <__imp_ASN1BEREncChar32String>
+
+externdef __imp_ASN1BEREncCharString:PPROC
+ASN1BEREncCharString equ <__imp_ASN1BEREncCharString>
+
+externdef __imp_ASN1BEREncCheck:PPROC
+ASN1BEREncCheck equ <__imp_ASN1BEREncCheck>
+
+externdef __imp_ASN1BEREncDouble:PPROC
+ASN1BEREncDouble equ <__imp_ASN1BEREncDouble>
+
+externdef __imp_ASN1BEREncEndOfContents:PPROC
+ASN1BEREncEndOfContents equ <__imp_ASN1BEREncEndOfContents>
+
+externdef __imp_ASN1BEREncEoid:PPROC
+ASN1BEREncEoid equ <__imp_ASN1BEREncEoid>
+
+externdef __imp_ASN1BEREncExplicitTag:PPROC
+ASN1BEREncExplicitTag equ <__imp_ASN1BEREncExplicitTag>
+
+externdef __imp_ASN1BEREncFlush:PPROC
+ASN1BEREncFlush equ <__imp_ASN1BEREncFlush>
+
+externdef __imp_ASN1BEREncGeneralizedTime:PPROC
+ASN1BEREncGeneralizedTime equ <__imp_ASN1BEREncGeneralizedTime>
+
+externdef __imp_ASN1BEREncLength:PPROC
+ASN1BEREncLength equ <__imp_ASN1BEREncLength>
+
+externdef __imp_ASN1BEREncMultibyteString:PPROC
+ASN1BEREncMultibyteString equ <__imp_ASN1BEREncMultibyteString>
+
+externdef __imp_ASN1BEREncNull:PPROC
+ASN1BEREncNull equ <__imp_ASN1BEREncNull>
+
+externdef __imp_ASN1BEREncObjectIdentifier2:PPROC
+ASN1BEREncObjectIdentifier2 equ <__imp_ASN1BEREncObjectIdentifier2>
+
+externdef __imp_ASN1BEREncObjectIdentifier:PPROC
+ASN1BEREncObjectIdentifier equ <__imp_ASN1BEREncObjectIdentifier>
+
+externdef __imp_ASN1BEREncOctetString:PPROC
+ASN1BEREncOctetString equ <__imp_ASN1BEREncOctetString>
+
+externdef __imp_ASN1BEREncOpenType:PPROC
+ASN1BEREncOpenType equ <__imp_ASN1BEREncOpenType>
+
+externdef __imp_ASN1BEREncRemoveZeroBits:PPROC
+ASN1BEREncRemoveZeroBits equ <__imp_ASN1BEREncRemoveZeroBits>
+
+externdef __imp_ASN1BEREncS32:PPROC
+ASN1BEREncS32 equ <__imp_ASN1BEREncS32>
+
+externdef __imp_ASN1BEREncSX:PPROC
+ASN1BEREncSX equ <__imp_ASN1BEREncSX>
+
+externdef __imp_ASN1BEREncTag:PPROC
+ASN1BEREncTag equ <__imp_ASN1BEREncTag>
+
+externdef __imp_ASN1BEREncU32:PPROC
+ASN1BEREncU32 equ <__imp_ASN1BEREncU32>
+
+externdef __imp_ASN1BEREncUTCTime:PPROC
+ASN1BEREncUTCTime equ <__imp_ASN1BEREncUTCTime>
+
+externdef __imp_ASN1BEREncUTF8String:PPROC
+ASN1BEREncUTF8String equ <__imp_ASN1BEREncUTF8String>
+
+externdef __imp_ASN1BEREncZeroMultibyteString:PPROC
+ASN1BEREncZeroMultibyteString equ <__imp_ASN1BEREncZeroMultibyteString>
+
+externdef __imp_ASN1BEREoid2DotVal:PPROC
+ASN1BEREoid2DotVal equ <__imp_ASN1BEREoid2DotVal>
+
+externdef __imp_ASN1BEREoid_free:PPROC
+ASN1BEREoid_free equ <__imp_ASN1BEREoid_free>
+
+externdef __imp_ASN1CEREncBeginBlk:PPROC
+ASN1CEREncBeginBlk equ <__imp_ASN1CEREncBeginBlk>
+
+externdef __imp_ASN1CEREncBitString:PPROC
+ASN1CEREncBitString equ <__imp_ASN1CEREncBitString>
+
+externdef __imp_ASN1CEREncChar16String:PPROC
+ASN1CEREncChar16String equ <__imp_ASN1CEREncChar16String>
+
+externdef __imp_ASN1CEREncChar32String:PPROC
+ASN1CEREncChar32String equ <__imp_ASN1CEREncChar32String>
+
+externdef __imp_ASN1CEREncCharString:PPROC
+ASN1CEREncCharString equ <__imp_ASN1CEREncCharString>
+
+externdef __imp_ASN1CEREncEndBlk:PPROC
+ASN1CEREncEndBlk equ <__imp_ASN1CEREncEndBlk>
+
+externdef __imp_ASN1CEREncFlushBlkElement:PPROC
+ASN1CEREncFlushBlkElement equ <__imp_ASN1CEREncFlushBlkElement>
+
+externdef __imp_ASN1CEREncGeneralizedTime:PPROC
+ASN1CEREncGeneralizedTime equ <__imp_ASN1CEREncGeneralizedTime>
+
+externdef __imp_ASN1CEREncMultibyteString:PPROC
+ASN1CEREncMultibyteString equ <__imp_ASN1CEREncMultibyteString>
+
+externdef __imp_ASN1CEREncNewBlkElement:PPROC
+ASN1CEREncNewBlkElement equ <__imp_ASN1CEREncNewBlkElement>
+
+externdef __imp_ASN1CEREncOctetString:PPROC
+ASN1CEREncOctetString equ <__imp_ASN1CEREncOctetString>
+
+externdef __imp_ASN1CEREncUTCTime:PPROC
+ASN1CEREncUTCTime equ <__imp_ASN1CEREncUTCTime>
+
+externdef __imp_ASN1CEREncZeroMultibyteString:PPROC
+ASN1CEREncZeroMultibyteString equ <__imp_ASN1CEREncZeroMultibyteString>
+
+externdef __imp_ASN1DecAbort:PPROC
+ASN1DecAbort equ <__imp_ASN1DecAbort>
+
+externdef __imp_ASN1DecAlloc:PPROC
+ASN1DecAlloc equ <__imp_ASN1DecAlloc>
+
+externdef __imp_ASN1DecDone:PPROC
+ASN1DecDone equ <__imp_ASN1DecDone>
+
+externdef __imp_ASN1DecRealloc:PPROC
+ASN1DecRealloc equ <__imp_ASN1DecRealloc>
+
+externdef __imp_ASN1DecSetError:PPROC
+ASN1DecSetError equ <__imp_ASN1DecSetError>
+
+externdef __imp_ASN1EncAbort:PPROC
+ASN1EncAbort equ <__imp_ASN1EncAbort>
+
+externdef __imp_ASN1EncDone:PPROC
+ASN1EncDone equ <__imp_ASN1EncDone>
+
+externdef __imp_ASN1EncSetError:PPROC
+ASN1EncSetError equ <__imp_ASN1EncSetError>
+
+externdef __imp_ASN1Free:PPROC
+ASN1Free equ <__imp_ASN1Free>
+
+externdef __imp_ASN1PERDecAlignment:PPROC
+ASN1PERDecAlignment equ <__imp_ASN1PERDecAlignment>
+
+externdef __imp_ASN1PERDecBit:PPROC
+ASN1PERDecBit equ <__imp_ASN1PERDecBit>
+
+externdef __imp_ASN1PERDecBits:PPROC
+ASN1PERDecBits equ <__imp_ASN1PERDecBits>
+
+externdef __imp_ASN1PERDecBoolean:PPROC
+ASN1PERDecBoolean equ <__imp_ASN1PERDecBoolean>
+
+externdef __imp_ASN1PERDecChar16String:PPROC
+ASN1PERDecChar16String equ <__imp_ASN1PERDecChar16String>
+
+externdef __imp_ASN1PERDecChar32String:PPROC
+ASN1PERDecChar32String equ <__imp_ASN1PERDecChar32String>
+
+externdef __imp_ASN1PERDecCharString:PPROC
+ASN1PERDecCharString equ <__imp_ASN1PERDecCharString>
+
+externdef __imp_ASN1PERDecCharStringNoAlloc:PPROC
+ASN1PERDecCharStringNoAlloc equ <__imp_ASN1PERDecCharStringNoAlloc>
+
+externdef __imp_ASN1PERDecComplexChoice:PPROC
+ASN1PERDecComplexChoice equ <__imp_ASN1PERDecComplexChoice>
+
+externdef __imp_ASN1PERDecDouble:PPROC
+ASN1PERDecDouble equ <__imp_ASN1PERDecDouble>
+
+externdef __imp_ASN1PERDecExtension:PPROC
+ASN1PERDecExtension equ <__imp_ASN1PERDecExtension>
+
+externdef __imp_ASN1PERDecFlush:PPROC
+ASN1PERDecFlush equ <__imp_ASN1PERDecFlush>
+
+externdef __imp_ASN1PERDecFragmented:PPROC
+ASN1PERDecFragmented equ <__imp_ASN1PERDecFragmented>
+
+externdef __imp_ASN1PERDecFragmentedChar16String:PPROC
+ASN1PERDecFragmentedChar16String equ <__imp_ASN1PERDecFragmentedChar16String>
+
+externdef __imp_ASN1PERDecFragmentedChar32String:PPROC
+ASN1PERDecFragmentedChar32String equ <__imp_ASN1PERDecFragmentedChar32String>
+
+externdef __imp_ASN1PERDecFragmentedCharString:PPROC
+ASN1PERDecFragmentedCharString equ <__imp_ASN1PERDecFragmentedCharString>
+
+externdef __imp_ASN1PERDecFragmentedExtension:PPROC
+ASN1PERDecFragmentedExtension equ <__imp_ASN1PERDecFragmentedExtension>
+
+externdef __imp_ASN1PERDecFragmentedIntx:PPROC
+ASN1PERDecFragmentedIntx equ <__imp_ASN1PERDecFragmentedIntx>
+
+externdef __imp_ASN1PERDecFragmentedLength:PPROC
+ASN1PERDecFragmentedLength equ <__imp_ASN1PERDecFragmentedLength>
+
+externdef __imp_ASN1PERDecFragmentedTableChar16String:PPROC
+ASN1PERDecFragmentedTableChar16String equ <__imp_ASN1PERDecFragmentedTableChar16String>
+
+externdef __imp_ASN1PERDecFragmentedTableChar32String:PPROC
+ASN1PERDecFragmentedTableChar32String equ <__imp_ASN1PERDecFragmentedTableChar32String>
+
+externdef __imp_ASN1PERDecFragmentedTableCharString:PPROC
+ASN1PERDecFragmentedTableCharString equ <__imp_ASN1PERDecFragmentedTableCharString>
+
+externdef __imp_ASN1PERDecFragmentedUIntx:PPROC
+ASN1PERDecFragmentedUIntx equ <__imp_ASN1PERDecFragmentedUIntx>
+
+externdef __imp_ASN1PERDecFragmentedZeroChar16String:PPROC
+ASN1PERDecFragmentedZeroChar16String equ <__imp_ASN1PERDecFragmentedZeroChar16String>
+
+externdef __imp_ASN1PERDecFragmentedZeroChar32String:PPROC
+ASN1PERDecFragmentedZeroChar32String equ <__imp_ASN1PERDecFragmentedZeroChar32String>
+
+externdef __imp_ASN1PERDecFragmentedZeroCharString:PPROC
+ASN1PERDecFragmentedZeroCharString equ <__imp_ASN1PERDecFragmentedZeroCharString>
+
+externdef __imp_ASN1PERDecFragmentedZeroTableChar16String:PPROC
+ASN1PERDecFragmentedZeroTableChar16String equ <__imp_ASN1PERDecFragmentedZeroTableChar16String>
+
+externdef __imp_ASN1PERDecFragmentedZeroTableChar32String:PPROC
+ASN1PERDecFragmentedZeroTableChar32String equ <__imp_ASN1PERDecFragmentedZeroTableChar32String>
+
+externdef __imp_ASN1PERDecFragmentedZeroTableCharString:PPROC
+ASN1PERDecFragmentedZeroTableCharString equ <__imp_ASN1PERDecFragmentedZeroTableCharString>
+
+externdef __imp_ASN1PERDecGeneralizedTime:PPROC
+ASN1PERDecGeneralizedTime equ <__imp_ASN1PERDecGeneralizedTime>
+
+externdef __imp_ASN1PERDecInteger:PPROC
+ASN1PERDecInteger equ <__imp_ASN1PERDecInteger>
+
+externdef __imp_ASN1PERDecMultibyteString:PPROC
+ASN1PERDecMultibyteString equ <__imp_ASN1PERDecMultibyteString>
+
+externdef __imp_ASN1PERDecN16Val:PPROC
+ASN1PERDecN16Val equ <__imp_ASN1PERDecN16Val>
+
+externdef __imp_ASN1PERDecN32Val:PPROC
+ASN1PERDecN32Val equ <__imp_ASN1PERDecN32Val>
+
+externdef __imp_ASN1PERDecN8Val:PPROC
+ASN1PERDecN8Val equ <__imp_ASN1PERDecN8Val>
+
+externdef __imp_ASN1PERDecNormallySmallExtension:PPROC
+ASN1PERDecNormallySmallExtension equ <__imp_ASN1PERDecNormallySmallExtension>
+
+externdef __imp_ASN1PERDecObjectIdentifier2:PPROC
+ASN1PERDecObjectIdentifier2 equ <__imp_ASN1PERDecObjectIdentifier2>
+
+externdef __imp_ASN1PERDecObjectIdentifier:PPROC
+ASN1PERDecObjectIdentifier equ <__imp_ASN1PERDecObjectIdentifier>
+
+externdef __imp_ASN1PERDecOctetString_FixedSize:PPROC
+ASN1PERDecOctetString_FixedSize equ <__imp_ASN1PERDecOctetString_FixedSize>
+
+externdef __imp_ASN1PERDecOctetString_FixedSizeEx:PPROC
+ASN1PERDecOctetString_FixedSizeEx equ <__imp_ASN1PERDecOctetString_FixedSizeEx>
+
+externdef __imp_ASN1PERDecOctetString_NoSize:PPROC
+ASN1PERDecOctetString_NoSize equ <__imp_ASN1PERDecOctetString_NoSize>
+
+externdef __imp_ASN1PERDecOctetString_VarSize:PPROC
+ASN1PERDecOctetString_VarSize equ <__imp_ASN1PERDecOctetString_VarSize>
+
+externdef __imp_ASN1PERDecOctetString_VarSizeEx:PPROC
+ASN1PERDecOctetString_VarSizeEx equ <__imp_ASN1PERDecOctetString_VarSizeEx>
+
+externdef __imp_ASN1PERDecS16Val:PPROC
+ASN1PERDecS16Val equ <__imp_ASN1PERDecS16Val>
+
+externdef __imp_ASN1PERDecS32Val:PPROC
+ASN1PERDecS32Val equ <__imp_ASN1PERDecS32Val>
+
+externdef __imp_ASN1PERDecS8Val:PPROC
+ASN1PERDecS8Val equ <__imp_ASN1PERDecS8Val>
+
+externdef __imp_ASN1PERDecSXVal:PPROC
+ASN1PERDecSXVal equ <__imp_ASN1PERDecSXVal>
+
+externdef __imp_ASN1PERDecSeqOf_NoSize:PPROC
+ASN1PERDecSeqOf_NoSize equ <__imp_ASN1PERDecSeqOf_NoSize>
+
+externdef __imp_ASN1PERDecSeqOf_VarSize:PPROC
+ASN1PERDecSeqOf_VarSize equ <__imp_ASN1PERDecSeqOf_VarSize>
+
+externdef __imp_ASN1PERDecSimpleChoice:PPROC
+ASN1PERDecSimpleChoice equ <__imp_ASN1PERDecSimpleChoice>
+
+externdef __imp_ASN1PERDecSimpleChoiceEx:PPROC
+ASN1PERDecSimpleChoiceEx equ <__imp_ASN1PERDecSimpleChoiceEx>
+
+externdef __imp_ASN1PERDecSkipBits:PPROC
+ASN1PERDecSkipBits equ <__imp_ASN1PERDecSkipBits>
+
+externdef __imp_ASN1PERDecSkipFragmented:PPROC
+ASN1PERDecSkipFragmented equ <__imp_ASN1PERDecSkipFragmented>
+
+externdef __imp_ASN1PERDecSkipNormallySmall:PPROC
+ASN1PERDecSkipNormallySmall equ <__imp_ASN1PERDecSkipNormallySmall>
+
+externdef __imp_ASN1PERDecSkipNormallySmallExtension:PPROC
+ASN1PERDecSkipNormallySmallExtension equ <__imp_ASN1PERDecSkipNormallySmallExtension>
+
+externdef __imp_ASN1PERDecSkipNormallySmallExtensionFragmented:PPROC
+ASN1PERDecSkipNormallySmallExtensionFragmented equ <__imp_ASN1PERDecSkipNormallySmallExtensionFragmented>
+
+externdef __imp_ASN1PERDecTableChar16String:PPROC
+ASN1PERDecTableChar16String equ <__imp_ASN1PERDecTableChar16String>
+
+externdef __imp_ASN1PERDecTableChar32String:PPROC
+ASN1PERDecTableChar32String equ <__imp_ASN1PERDecTableChar32String>
+
+externdef __imp_ASN1PERDecTableCharString:PPROC
+ASN1PERDecTableCharString equ <__imp_ASN1PERDecTableCharString>
+
+externdef __imp_ASN1PERDecTableCharStringNoAlloc:PPROC
+ASN1PERDecTableCharStringNoAlloc equ <__imp_ASN1PERDecTableCharStringNoAlloc>
+
+externdef __imp_ASN1PERDecU16Val:PPROC
+ASN1PERDecU16Val equ <__imp_ASN1PERDecU16Val>
+
+externdef __imp_ASN1PERDecU32Val:PPROC
+ASN1PERDecU32Val equ <__imp_ASN1PERDecU32Val>
+
+externdef __imp_ASN1PERDecU8Val:PPROC
+ASN1PERDecU8Val equ <__imp_ASN1PERDecU8Val>
+
+externdef __imp_ASN1PERDecUTCTime:PPROC
+ASN1PERDecUTCTime equ <__imp_ASN1PERDecUTCTime>
+
+externdef __imp_ASN1PERDecUXVal:PPROC
+ASN1PERDecUXVal equ <__imp_ASN1PERDecUXVal>
+
+externdef __imp_ASN1PERDecUnsignedInteger:PPROC
+ASN1PERDecUnsignedInteger equ <__imp_ASN1PERDecUnsignedInteger>
+
+externdef __imp_ASN1PERDecUnsignedShort:PPROC
+ASN1PERDecUnsignedShort equ <__imp_ASN1PERDecUnsignedShort>
+
+externdef __imp_ASN1PERDecZeroChar16String:PPROC
+ASN1PERDecZeroChar16String equ <__imp_ASN1PERDecZeroChar16String>
+
+externdef __imp_ASN1PERDecZeroChar32String:PPROC
+ASN1PERDecZeroChar32String equ <__imp_ASN1PERDecZeroChar32String>
+
+externdef __imp_ASN1PERDecZeroCharString:PPROC
+ASN1PERDecZeroCharString equ <__imp_ASN1PERDecZeroCharString>
+
+externdef __imp_ASN1PERDecZeroCharStringNoAlloc:PPROC
+ASN1PERDecZeroCharStringNoAlloc equ <__imp_ASN1PERDecZeroCharStringNoAlloc>
+
+externdef __imp_ASN1PERDecZeroTableChar16String:PPROC
+ASN1PERDecZeroTableChar16String equ <__imp_ASN1PERDecZeroTableChar16String>
+
+externdef __imp_ASN1PERDecZeroTableChar32String:PPROC
+ASN1PERDecZeroTableChar32String equ <__imp_ASN1PERDecZeroTableChar32String>
+
+externdef __imp_ASN1PERDecZeroTableCharString:PPROC
+ASN1PERDecZeroTableCharString equ <__imp_ASN1PERDecZeroTableCharString>
+
+externdef __imp_ASN1PERDecZeroTableCharStringNoAlloc:PPROC
+ASN1PERDecZeroTableCharStringNoAlloc equ <__imp_ASN1PERDecZeroTableCharStringNoAlloc>
+
+externdef __imp_ASN1PEREncAlignment:PPROC
+ASN1PEREncAlignment equ <__imp_ASN1PEREncAlignment>
+
+externdef __imp_ASN1PEREncBit:PPROC
+ASN1PEREncBit equ <__imp_ASN1PEREncBit>
+
+externdef __imp_ASN1PEREncBitIntx:PPROC
+ASN1PEREncBitIntx equ <__imp_ASN1PEREncBitIntx>
+
+externdef __imp_ASN1PEREncBitVal:PPROC
+ASN1PEREncBitVal equ <__imp_ASN1PEREncBitVal>
+
+externdef __imp_ASN1PEREncBits:PPROC
+ASN1PEREncBits equ <__imp_ASN1PEREncBits>
+
+externdef __imp_ASN1PEREncBoolean:PPROC
+ASN1PEREncBoolean equ <__imp_ASN1PEREncBoolean>
+
+externdef __imp_ASN1PEREncChar16String:PPROC
+ASN1PEREncChar16String equ <__imp_ASN1PEREncChar16String>
+
+externdef __imp_ASN1PEREncChar32String:PPROC
+ASN1PEREncChar32String equ <__imp_ASN1PEREncChar32String>
+
+externdef __imp_ASN1PEREncCharString:PPROC
+ASN1PEREncCharString equ <__imp_ASN1PEREncCharString>
+
+externdef __imp_ASN1PEREncCheckExtensions:PPROC
+ASN1PEREncCheckExtensions equ <__imp_ASN1PEREncCheckExtensions>
+
+externdef __imp_ASN1PEREncComplexChoice:PPROC
+ASN1PEREncComplexChoice equ <__imp_ASN1PEREncComplexChoice>
+
+externdef __imp_ASN1PEREncDouble:PPROC
+ASN1PEREncDouble equ <__imp_ASN1PEREncDouble>
+
+externdef __imp_ASN1PEREncExtensionBitClear:PPROC
+ASN1PEREncExtensionBitClear equ <__imp_ASN1PEREncExtensionBitClear>
+
+externdef __imp_ASN1PEREncExtensionBitSet:PPROC
+ASN1PEREncExtensionBitSet equ <__imp_ASN1PEREncExtensionBitSet>
+
+externdef __imp_ASN1PEREncFlush:PPROC
+ASN1PEREncFlush equ <__imp_ASN1PEREncFlush>
+
+externdef __imp_ASN1PEREncFlushFragmentedToParent:PPROC
+ASN1PEREncFlushFragmentedToParent equ <__imp_ASN1PEREncFlushFragmentedToParent>
+
+externdef __imp_ASN1PEREncFragmented:PPROC
+ASN1PEREncFragmented equ <__imp_ASN1PEREncFragmented>
+
+externdef __imp_ASN1PEREncFragmentedChar16String:PPROC
+ASN1PEREncFragmentedChar16String equ <__imp_ASN1PEREncFragmentedChar16String>
+
+externdef __imp_ASN1PEREncFragmentedChar32String:PPROC
+ASN1PEREncFragmentedChar32String equ <__imp_ASN1PEREncFragmentedChar32String>
+
+externdef __imp_ASN1PEREncFragmentedCharString:PPROC
+ASN1PEREncFragmentedCharString equ <__imp_ASN1PEREncFragmentedCharString>
+
+externdef __imp_ASN1PEREncFragmentedIntx:PPROC
+ASN1PEREncFragmentedIntx equ <__imp_ASN1PEREncFragmentedIntx>
+
+externdef __imp_ASN1PEREncFragmentedLength:PPROC
+ASN1PEREncFragmentedLength equ <__imp_ASN1PEREncFragmentedLength>
+
+externdef __imp_ASN1PEREncFragmentedTableChar16String:PPROC
+ASN1PEREncFragmentedTableChar16String equ <__imp_ASN1PEREncFragmentedTableChar16String>
+
+externdef __imp_ASN1PEREncFragmentedTableChar32String:PPROC
+ASN1PEREncFragmentedTableChar32String equ <__imp_ASN1PEREncFragmentedTableChar32String>
+
+externdef __imp_ASN1PEREncFragmentedTableCharString:PPROC
+ASN1PEREncFragmentedTableCharString equ <__imp_ASN1PEREncFragmentedTableCharString>
+
+externdef __imp_ASN1PEREncFragmentedUIntx:PPROC
+ASN1PEREncFragmentedUIntx equ <__imp_ASN1PEREncFragmentedUIntx>
+
+externdef __imp_ASN1PEREncGeneralizedTime:PPROC
+ASN1PEREncGeneralizedTime equ <__imp_ASN1PEREncGeneralizedTime>
+
+externdef __imp_ASN1PEREncInteger:PPROC
+ASN1PEREncInteger equ <__imp_ASN1PEREncInteger>
+
+externdef __imp_ASN1PEREncMultibyteString:PPROC
+ASN1PEREncMultibyteString equ <__imp_ASN1PEREncMultibyteString>
+
+externdef __imp_ASN1PEREncNormallySmall:PPROC
+ASN1PEREncNormallySmall equ <__imp_ASN1PEREncNormallySmall>
+
+externdef __imp_ASN1PEREncNormallySmallBits:PPROC
+ASN1PEREncNormallySmallBits equ <__imp_ASN1PEREncNormallySmallBits>
+
+externdef __imp_ASN1PEREncObjectIdentifier2:PPROC
+ASN1PEREncObjectIdentifier2 equ <__imp_ASN1PEREncObjectIdentifier2>
+
+externdef __imp_ASN1PEREncObjectIdentifier:PPROC
+ASN1PEREncObjectIdentifier equ <__imp_ASN1PEREncObjectIdentifier>
+
+externdef __imp_ASN1PEREncOctetString_FixedSize:PPROC
+ASN1PEREncOctetString_FixedSize equ <__imp_ASN1PEREncOctetString_FixedSize>
+
+externdef __imp_ASN1PEREncOctetString_FixedSizeEx:PPROC
+ASN1PEREncOctetString_FixedSizeEx equ <__imp_ASN1PEREncOctetString_FixedSizeEx>
+
+externdef __imp_ASN1PEREncOctetString_NoSize:PPROC
+ASN1PEREncOctetString_NoSize equ <__imp_ASN1PEREncOctetString_NoSize>
+
+externdef __imp_ASN1PEREncOctetString_VarSize:PPROC
+ASN1PEREncOctetString_VarSize equ <__imp_ASN1PEREncOctetString_VarSize>
+
+externdef __imp_ASN1PEREncOctetString_VarSizeEx:PPROC
+ASN1PEREncOctetString_VarSizeEx equ <__imp_ASN1PEREncOctetString_VarSizeEx>
+
+externdef __imp_ASN1PEREncOctets:PPROC
+ASN1PEREncOctets equ <__imp_ASN1PEREncOctets>
+
+externdef __imp_ASN1PEREncRemoveZeroBits:PPROC
+ASN1PEREncRemoveZeroBits equ <__imp_ASN1PEREncRemoveZeroBits>
+
+externdef __imp_ASN1PEREncSeqOf_NoSize:PPROC
+ASN1PEREncSeqOf_NoSize equ <__imp_ASN1PEREncSeqOf_NoSize>
+
+externdef __imp_ASN1PEREncSeqOf_VarSize:PPROC
+ASN1PEREncSeqOf_VarSize equ <__imp_ASN1PEREncSeqOf_VarSize>
+
+externdef __imp_ASN1PEREncSimpleChoice:PPROC
+ASN1PEREncSimpleChoice equ <__imp_ASN1PEREncSimpleChoice>
+
+externdef __imp_ASN1PEREncSimpleChoiceEx:PPROC
+ASN1PEREncSimpleChoiceEx equ <__imp_ASN1PEREncSimpleChoiceEx>
+
+externdef __imp_ASN1PEREncTableChar16String:PPROC
+ASN1PEREncTableChar16String equ <__imp_ASN1PEREncTableChar16String>
+
+externdef __imp_ASN1PEREncTableChar32String:PPROC
+ASN1PEREncTableChar32String equ <__imp_ASN1PEREncTableChar32String>
+
+externdef __imp_ASN1PEREncTableCharString:PPROC
+ASN1PEREncTableCharString equ <__imp_ASN1PEREncTableCharString>
+
+externdef __imp_ASN1PEREncUTCTime:PPROC
+ASN1PEREncUTCTime equ <__imp_ASN1PEREncUTCTime>
+
+externdef __imp_ASN1PEREncUnsignedInteger:PPROC
+ASN1PEREncUnsignedInteger equ <__imp_ASN1PEREncUnsignedInteger>
+
+externdef __imp_ASN1PEREncUnsignedShort:PPROC
+ASN1PEREncUnsignedShort equ <__imp_ASN1PEREncUnsignedShort>
+
+externdef __imp_ASN1PEREncZero:PPROC
+ASN1PEREncZero equ <__imp_ASN1PEREncZero>
+
+externdef __imp_ASN1PERFreeSeqOf:PPROC
+ASN1PERFreeSeqOf equ <__imp_ASN1PERFreeSeqOf>
+
+externdef __imp_ASN1_CloseDecoder:PPROC
+ASN1_CloseDecoder equ <__imp_ASN1_CloseDecoder>
+
+externdef __imp_ASN1_CloseEncoder2:PPROC
+ASN1_CloseEncoder2 equ <__imp_ASN1_CloseEncoder2>
+
+externdef __imp_ASN1_CloseEncoder:PPROC
+ASN1_CloseEncoder equ <__imp_ASN1_CloseEncoder>
+
+externdef __imp_ASN1_CloseModule:PPROC
+ASN1_CloseModule equ <__imp_ASN1_CloseModule>
+
+externdef __imp_ASN1_CreateDecoder:PPROC
+ASN1_CreateDecoder equ <__imp_ASN1_CreateDecoder>
+
+externdef __imp_ASN1_CreateDecoderEx:PPROC
+ASN1_CreateDecoderEx equ <__imp_ASN1_CreateDecoderEx>
+
+externdef __imp_ASN1_CreateEncoder:PPROC
+ASN1_CreateEncoder equ <__imp_ASN1_CreateEncoder>
+
+externdef __imp_ASN1_CreateModule:PPROC
+ASN1_CreateModule equ <__imp_ASN1_CreateModule>
+
+externdef __imp_ASN1_Decode:PPROC
+ASN1_Decode equ <__imp_ASN1_Decode>
+
+externdef __imp_ASN1_Encode:PPROC
+ASN1_Encode equ <__imp_ASN1_Encode>
+
+externdef __imp_ASN1_FreeDecoded:PPROC
+ASN1_FreeDecoded equ <__imp_ASN1_FreeDecoded>
+
+externdef __imp_ASN1_FreeEncoded:PPROC
+ASN1_FreeEncoded equ <__imp_ASN1_FreeEncoded>
+
+externdef __imp_ASN1_GetDecoderOption:PPROC
+ASN1_GetDecoderOption equ <__imp_ASN1_GetDecoderOption>
+
+externdef __imp_ASN1_GetEncoderOption:PPROC
+ASN1_GetEncoderOption equ <__imp_ASN1_GetEncoderOption>
+
+externdef __imp_ASN1_SetDecoderOption:PPROC
+ASN1_SetDecoderOption equ <__imp_ASN1_SetDecoderOption>
+
+externdef __imp_ASN1_SetEncoderOption:PPROC
+ASN1_SetEncoderOption equ <__imp_ASN1_SetEncoderOption>
+
+externdef __imp_ASN1bitstring_cmp:PPROC
+ASN1bitstring_cmp equ <__imp_ASN1bitstring_cmp>
+
+externdef __imp_ASN1bitstring_free:PPROC
+ASN1bitstring_free equ <__imp_ASN1bitstring_free>
+
+externdef __imp_ASN1char16string_cmp:PPROC
+ASN1char16string_cmp equ <__imp_ASN1char16string_cmp>
+
+externdef __imp_ASN1char16string_free:PPROC
+ASN1char16string_free equ <__imp_ASN1char16string_free>
+
+externdef __imp_ASN1char32string_cmp:PPROC
+ASN1char32string_cmp equ <__imp_ASN1char32string_cmp>
+
+externdef __imp_ASN1char32string_free:PPROC
+ASN1char32string_free equ <__imp_ASN1char32string_free>
+
+externdef __imp_ASN1charstring_cmp:PPROC
+ASN1charstring_cmp equ <__imp_ASN1charstring_cmp>
+
+externdef __imp_ASN1charstring_free:PPROC
+ASN1charstring_free equ <__imp_ASN1charstring_free>
+
+externdef __imp_ASN1generalizedtime_cmp:PPROC
+ASN1generalizedtime_cmp equ <__imp_ASN1generalizedtime_cmp>
+
+externdef __imp_ASN1intx2int32:PPROC
+ASN1intx2int32 equ <__imp_ASN1intx2int32>
+
+externdef __imp_ASN1intx2uint32:PPROC
+ASN1intx2uint32 equ <__imp_ASN1intx2uint32>
+
+externdef __imp_ASN1intx_add:PPROC
+ASN1intx_add equ <__imp_ASN1intx_add>
+
+externdef __imp_ASN1intx_free:PPROC
+ASN1intx_free equ <__imp_ASN1intx_free>
+
+externdef __imp_ASN1intx_setuint32:PPROC
+ASN1intx_setuint32 equ <__imp_ASN1intx_setuint32>
+
+externdef __imp_ASN1intx_sub:PPROC
+ASN1intx_sub equ <__imp_ASN1intx_sub>
+
+externdef __imp_ASN1intx_uoctets:PPROC
+ASN1intx_uoctets equ <__imp_ASN1intx_uoctets>
+
+externdef __imp_ASN1intxisuint32:PPROC
+ASN1intxisuint32 equ <__imp_ASN1intxisuint32>
+
+externdef __imp_ASN1objectidentifier2_cmp:PPROC
+ASN1objectidentifier2_cmp equ <__imp_ASN1objectidentifier2_cmp>
+
+externdef __imp_ASN1objectidentifier_cmp:PPROC
+ASN1objectidentifier_cmp equ <__imp_ASN1objectidentifier_cmp>
+
+externdef __imp_ASN1objectidentifier_free:PPROC
+ASN1objectidentifier_free equ <__imp_ASN1objectidentifier_free>
+
+externdef __imp_ASN1octetstring_cmp:PPROC
+ASN1octetstring_cmp equ <__imp_ASN1octetstring_cmp>
+
+externdef __imp_ASN1octetstring_free:PPROC
+ASN1octetstring_free equ <__imp_ASN1octetstring_free>
+
+externdef __imp_ASN1open_cmp:PPROC
+ASN1open_cmp equ <__imp_ASN1open_cmp>
+
+externdef __imp_ASN1open_free:PPROC
+ASN1open_free equ <__imp_ASN1open_free>
+
+externdef __imp_ASN1uint32_uoctets:PPROC
+ASN1uint32_uoctets equ <__imp_ASN1uint32_uoctets>
+
+externdef __imp_ASN1utctime_cmp:PPROC
+ASN1utctime_cmp equ <__imp_ASN1utctime_cmp>
+
+externdef __imp_ASN1utf8string_free:PPROC
+ASN1utf8string_free equ <__imp_ASN1utf8string_free>
+
+externdef __imp_ASN1ztchar16string_cmp:PPROC
+ASN1ztchar16string_cmp equ <__imp_ASN1ztchar16string_cmp>
+
+externdef __imp_ASN1ztchar16string_free:PPROC
+ASN1ztchar16string_free equ <__imp_ASN1ztchar16string_free>
+
+externdef __imp_ASN1ztchar32string_free:PPROC
+ASN1ztchar32string_free equ <__imp_ASN1ztchar32string_free>
+
+externdef __imp_ASN1ztcharstring_cmp:PPROC
+ASN1ztcharstring_cmp equ <__imp_ASN1ztcharstring_cmp>
+
+externdef __imp_ASN1ztcharstring_free:PPROC
+ASN1ztcharstring_free equ <__imp_ASN1ztcharstring_free>

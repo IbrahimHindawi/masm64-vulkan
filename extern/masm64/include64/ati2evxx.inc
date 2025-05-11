@@ -1,0 +1,44 @@
+externdef __imp_AtiDisConnectEvent:PPROC
+AtiDisConnectEvent equ <__imp_AtiDisConnectEvent>
+
+externdef __imp_AtiLockEvent:PPROC
+AtiLockEvent equ <__imp_AtiLockEvent>
+
+externdef __imp_AtiLogoffEvent:PPROC
+AtiLogoffEvent equ <__imp_AtiLogoffEvent>
+
+externdef __imp_AtiLogonEvent:PPROC
+AtiLogonEvent equ <__imp_AtiLogonEvent>
+
+externdef __imp_AtiLowLevelKeyboardProc:PPROC
+AtiLowLevelKeyboardProc equ <__imp_AtiLowLevelKeyboardProc>
+
+externdef __imp_AtiReConnectEvent:PPROC
+AtiReConnectEvent equ <__imp_AtiReConnectEvent>
+
+externdef __imp_AtiReleaseKeyboardHook:PPROC
+AtiReleaseKeyboardHook equ <__imp_AtiReleaseKeyboardHook>
+
+externdef __imp_AtiSetKeyboardHook:PPROC
+AtiSetKeyboardHook equ <__imp_AtiSetKeyboardHook>
+
+externdef __imp_AtiShutdownEvent:PPROC
+AtiShutdownEvent equ <__imp_AtiShutdownEvent>
+
+externdef __imp_AtiStartScreenSaverEvent:PPROC
+AtiStartScreenSaverEvent equ <__imp_AtiStartScreenSaverEvent>
+
+externdef __imp_AtiStartShellEvent:PPROC
+AtiStartShellEvent equ <__imp_AtiStartShellEvent>
+
+externdef __imp_AtiStartupEvent:PPROC
+AtiStartupEvent equ <__imp_AtiStartupEvent>
+
+externdef __imp_AtiStopScreenSaverEvent:PPROC
+AtiStopScreenSaverEvent equ <__imp_AtiStopScreenSaverEvent>
+
+externdef __imp_AtiUnLockEvent:PPROC
+AtiUnLockEvent equ <__imp_AtiUnLockEvent>
+
+externdef __imp_ChangeDesktopSetting:PPROC
+ChangeDesktopSetting equ <__imp_ChangeDesktopSetting>

@@ -1,0 +1,8 @@
+externdef __imp_CloseNetSvcsObject:PPROC
+CloseNetSvcsObject equ <__imp_CloseNetSvcsObject>
+
+externdef __imp_CollectNetSvcsObjectData:PPROC
+CollectNetSvcsObjectData equ <__imp_CollectNetSvcsObjectData>
+
+externdef __imp_OpenNetSvcsObject:PPROC
+OpenNetSvcsObject equ <__imp_OpenNetSvcsObject>

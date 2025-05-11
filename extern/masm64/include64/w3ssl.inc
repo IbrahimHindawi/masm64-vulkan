@@ -1,0 +1,5 @@
+externdef __imp_HTTPFilterServiceMain:PPROC
+HTTPFilterServiceMain equ <__imp_HTTPFilterServiceMain>
+
+externdef __imp_ServiceEntry:PPROC
+ServiceEntry equ <__imp_ServiceEntry>

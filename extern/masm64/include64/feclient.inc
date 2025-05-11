@@ -1,0 +1,2 @@
+externdef __imp_FeClientInitialize:PPROC
+FeClientInitialize equ <__imp_FeClientInitialize>

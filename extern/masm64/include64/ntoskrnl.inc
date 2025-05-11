@@ -1,0 +1,4574 @@
+externdef __imp_CcCanIWrite:PPROC
+CcCanIWrite equ <__imp_CcCanIWrite>
+
+externdef __imp_CcCopyRead:PPROC
+CcCopyRead equ <__imp_CcCopyRead>
+
+externdef __imp_CcCopyWrite:PPROC
+CcCopyWrite equ <__imp_CcCopyWrite>
+
+externdef __imp_CcDeferWrite:PPROC
+CcDeferWrite equ <__imp_CcDeferWrite>
+
+externdef __imp_CcFastCopyRead:PPROC
+CcFastCopyRead equ <__imp_CcFastCopyRead>
+
+externdef __imp_CcFastCopyWrite:PPROC
+CcFastCopyWrite equ <__imp_CcFastCopyWrite>
+
+externdef __imp_CcFastMdlReadWait:PPROC
+CcFastMdlReadWait equ <__imp_CcFastMdlReadWait>
+
+externdef __imp_CcFastReadNotPossible:PPROC
+CcFastReadNotPossible equ <__imp_CcFastReadNotPossible>
+
+externdef __imp_CcFastReadWait:PPROC
+CcFastReadWait equ <__imp_CcFastReadWait>
+
+externdef __imp_CcFlushCache:PPROC
+CcFlushCache equ <__imp_CcFlushCache>
+
+externdef __imp_CcGetDirtyPages:PPROC
+CcGetDirtyPages equ <__imp_CcGetDirtyPages>
+
+externdef __imp_CcGetFileObjectFromBcb:PPROC
+CcGetFileObjectFromBcb equ <__imp_CcGetFileObjectFromBcb>
+
+externdef __imp_CcGetFileObjectFromSectionPtrs:PPROC
+CcGetFileObjectFromSectionPtrs equ <__imp_CcGetFileObjectFromSectionPtrs>
+
+externdef __imp_CcGetFlushedValidData:PPROC
+CcGetFlushedValidData equ <__imp_CcGetFlushedValidData>
+
+externdef __imp_CcGetLsnForFileObject:PPROC
+CcGetLsnForFileObject equ <__imp_CcGetLsnForFileObject>
+
+externdef __imp_CcInitializeCacheMap:PPROC
+CcInitializeCacheMap equ <__imp_CcInitializeCacheMap>
+
+externdef __imp_CcIsThereDirtyData:PPROC
+CcIsThereDirtyData equ <__imp_CcIsThereDirtyData>
+
+externdef __imp_CcMapData:PPROC
+CcMapData equ <__imp_CcMapData>
+
+externdef __imp_CcMdlRead:PPROC
+CcMdlRead equ <__imp_CcMdlRead>
+
+externdef __imp_CcMdlReadComplete:PPROC
+CcMdlReadComplete equ <__imp_CcMdlReadComplete>
+
+externdef __imp_CcMdlWriteAbort:PPROC
+CcMdlWriteAbort equ <__imp_CcMdlWriteAbort>
+
+externdef __imp_CcMdlWriteComplete:PPROC
+CcMdlWriteComplete equ <__imp_CcMdlWriteComplete>
+
+externdef __imp_CcPinMappedData:PPROC
+CcPinMappedData equ <__imp_CcPinMappedData>
+
+externdef __imp_CcPinRead:PPROC
+CcPinRead equ <__imp_CcPinRead>
+
+externdef __imp_CcPrepareMdlWrite:PPROC
+CcPrepareMdlWrite equ <__imp_CcPrepareMdlWrite>
+
+externdef __imp_CcPreparePinWrite:PPROC
+CcPreparePinWrite equ <__imp_CcPreparePinWrite>
+
+externdef __imp_CcPurgeCacheSection:PPROC
+CcPurgeCacheSection equ <__imp_CcPurgeCacheSection>
+
+externdef __imp_CcRemapBcb:PPROC
+CcRemapBcb equ <__imp_CcRemapBcb>
+
+externdef __imp_CcRepinBcb:PPROC
+CcRepinBcb equ <__imp_CcRepinBcb>
+
+externdef __imp_CcScheduleReadAhead:PPROC
+CcScheduleReadAhead equ <__imp_CcScheduleReadAhead>
+
+externdef __imp_CcSetAdditionalCacheAttributes:PPROC
+CcSetAdditionalCacheAttributes equ <__imp_CcSetAdditionalCacheAttributes>
+
+externdef __imp_CcSetBcbOwnerPointer:PPROC
+CcSetBcbOwnerPointer equ <__imp_CcSetBcbOwnerPointer>
+
+externdef __imp_CcSetDirtyPageThreshold:PPROC
+CcSetDirtyPageThreshold equ <__imp_CcSetDirtyPageThreshold>
+
+externdef __imp_CcSetDirtyPinnedData:PPROC
+CcSetDirtyPinnedData equ <__imp_CcSetDirtyPinnedData>
+
+externdef __imp_CcSetFileSizes:PPROC
+CcSetFileSizes equ <__imp_CcSetFileSizes>
+
+externdef __imp_CcSetLogHandleForFile:PPROC
+CcSetLogHandleForFile equ <__imp_CcSetLogHandleForFile>
+
+externdef __imp_CcSetReadAheadGranularity:PPROC
+CcSetReadAheadGranularity equ <__imp_CcSetReadAheadGranularity>
+
+externdef __imp_CcUninitializeCacheMap:PPROC
+CcUninitializeCacheMap equ <__imp_CcUninitializeCacheMap>
+
+externdef __imp_CcUnpinData:PPROC
+CcUnpinData equ <__imp_CcUnpinData>
+
+externdef __imp_CcUnpinDataForThread:PPROC
+CcUnpinDataForThread equ <__imp_CcUnpinDataForThread>
+
+externdef __imp_CcUnpinRepinnedBcb:PPROC
+CcUnpinRepinnedBcb equ <__imp_CcUnpinRepinnedBcb>
+
+externdef __imp_CcWaitForCurrentLazyWriterActivity:PPROC
+CcWaitForCurrentLazyWriterActivity equ <__imp_CcWaitForCurrentLazyWriterActivity>
+
+externdef __imp_CcZeroData:PPROC
+CcZeroData equ <__imp_CcZeroData>
+
+externdef __imp_CmRegisterCallback:PPROC
+CmRegisterCallback equ <__imp_CmRegisterCallback>
+
+externdef __imp_CmUnRegisterCallback:PPROC
+CmUnRegisterCallback equ <__imp_CmUnRegisterCallback>
+
+externdef __imp_DbgBreakPoint:PPROC
+DbgBreakPoint equ <__imp_DbgBreakPoint>
+
+externdef __imp_DbgBreakPointWithStatus:PPROC
+DbgBreakPointWithStatus equ <__imp_DbgBreakPointWithStatus>
+
+externdef __imp_DbgCommandString:PPROC
+DbgCommandString equ <__imp_DbgCommandString>
+
+externdef __imp_DbgLoadImageSymbols:PPROC
+DbgLoadImageSymbols equ <__imp_DbgLoadImageSymbols>
+
+externdef __imp_DbgPrint:PPROC
+DbgPrint equ <__imp_DbgPrint>
+
+externdef __imp_DbgPrintEx:PPROC
+DbgPrintEx equ <__imp_DbgPrintEx>
+
+externdef __imp_DbgPrintReturnControlC:PPROC
+DbgPrintReturnControlC equ <__imp_DbgPrintReturnControlC>
+
+externdef __imp_DbgPrompt:PPROC
+DbgPrompt equ <__imp_DbgPrompt>
+
+externdef __imp_DbgQueryDebugFilterState:PPROC
+DbgQueryDebugFilterState equ <__imp_DbgQueryDebugFilterState>
+
+externdef __imp_DbgSetDebugFilterState:PPROC
+DbgSetDebugFilterState equ <__imp_DbgSetDebugFilterState>
+
+externdef __imp_ExAcquireFastMutex:PPROC
+ExAcquireFastMutex equ <__imp_ExAcquireFastMutex>
+
+externdef __imp_ExAcquireFastMutexUnsafe:PPROC
+ExAcquireFastMutexUnsafe equ <__imp_ExAcquireFastMutexUnsafe>
+
+externdef __imp_ExAcquireResourceExclusiveLite:PPROC
+ExAcquireResourceExclusiveLite equ <__imp_ExAcquireResourceExclusiveLite>
+
+externdef __imp_ExAcquireResourceSharedLite:PPROC
+ExAcquireResourceSharedLite equ <__imp_ExAcquireResourceSharedLite>
+
+externdef __imp_ExAcquireRundownProtection:PPROC
+ExAcquireRundownProtection equ <__imp_ExAcquireRundownProtection>
+
+externdef __imp_ExAcquireRundownProtectionCacheAware:PPROC
+ExAcquireRundownProtectionCacheAware equ <__imp_ExAcquireRundownProtectionCacheAware>
+
+externdef __imp_ExAcquireRundownProtectionCacheAwareEx:PPROC
+ExAcquireRundownProtectionCacheAwareEx equ <__imp_ExAcquireRundownProtectionCacheAwareEx>
+
+externdef __imp_ExAcquireRundownProtectionEx:PPROC
+ExAcquireRundownProtectionEx equ <__imp_ExAcquireRundownProtectionEx>
+
+externdef __imp_ExAcquireSharedStarveExclusive:PPROC
+ExAcquireSharedStarveExclusive equ <__imp_ExAcquireSharedStarveExclusive>
+
+externdef __imp_ExAcquireSharedWaitForExclusive:PPROC
+ExAcquireSharedWaitForExclusive equ <__imp_ExAcquireSharedWaitForExclusive>
+
+externdef __imp_ExAllocateCacheAwareRundownProtection:PPROC
+ExAllocateCacheAwareRundownProtection equ <__imp_ExAllocateCacheAwareRundownProtection>
+
+externdef __imp_ExAllocateFromPagedLookasideList:PPROC
+ExAllocateFromPagedLookasideList equ <__imp_ExAllocateFromPagedLookasideList>
+
+externdef __imp_ExAllocatePool:PPROC
+ExAllocatePool equ <__imp_ExAllocatePool>
+
+externdef __imp_ExAllocatePoolWithQuota:PPROC
+ExAllocatePoolWithQuota equ <__imp_ExAllocatePoolWithQuota>
+
+externdef __imp_ExAllocatePoolWithQuotaTag:PPROC
+ExAllocatePoolWithQuotaTag equ <__imp_ExAllocatePoolWithQuotaTag>
+
+externdef __imp_ExAllocatePoolWithTag:PPROC
+ExAllocatePoolWithTag equ <__imp_ExAllocatePoolWithTag>
+
+externdef __imp_ExAllocatePoolWithTagPriority:PPROC
+ExAllocatePoolWithTagPriority equ <__imp_ExAllocatePoolWithTagPriority>
+
+externdef __imp_ExConvertExclusiveToSharedLite:PPROC
+ExConvertExclusiveToSharedLite equ <__imp_ExConvertExclusiveToSharedLite>
+
+externdef __imp_ExCreateCallback:PPROC
+ExCreateCallback equ <__imp_ExCreateCallback>
+
+externdef __imp_ExDeleteNPagedLookasideList:PPROC
+ExDeleteNPagedLookasideList equ <__imp_ExDeleteNPagedLookasideList>
+
+externdef __imp_ExDeletePagedLookasideList:PPROC
+ExDeletePagedLookasideList equ <__imp_ExDeletePagedLookasideList>
+
+externdef __imp_ExDeleteResourceLite:PPROC
+ExDeleteResourceLite equ <__imp_ExDeleteResourceLite>
+
+externdef __imp_ExDesktopObjectType:PPROC
+ExDesktopObjectType equ <__imp_ExDesktopObjectType>
+
+externdef __imp_ExDisableResourceBoostLite:PPROC
+ExDisableResourceBoostLite equ <__imp_ExDisableResourceBoostLite>
+
+externdef __imp_ExEnterCriticalRegionAndAcquireFastMutexUnsafe:PPROC
+ExEnterCriticalRegionAndAcquireFastMutexUnsafe equ <__imp_ExEnterCriticalRegionAndAcquireFastMutexUnsafe>
+
+externdef __imp_ExEnterCriticalRegionAndAcquireResourceExclusive:PPROC
+ExEnterCriticalRegionAndAcquireResourceExclusive equ <__imp_ExEnterCriticalRegionAndAcquireResourceExclusive>
+
+externdef __imp_ExEnterCriticalRegionAndAcquireResourceShared:PPROC
+ExEnterCriticalRegionAndAcquireResourceShared equ <__imp_ExEnterCriticalRegionAndAcquireResourceShared>
+
+externdef __imp_ExEnterCriticalRegionAndAcquireSharedWaitForExclusive:PPROC
+ExEnterCriticalRegionAndAcquireSharedWaitForExclusive equ <__imp_ExEnterCriticalRegionAndAcquireSharedWaitForExclusive>
+
+externdef __imp_ExEnumHandleTable:PPROC
+ExEnumHandleTable equ <__imp_ExEnumHandleTable>
+
+externdef __imp_ExEventObjectType:PPROC
+ExEventObjectType equ <__imp_ExEventObjectType>
+
+externdef __imp_ExExtendZone:PPROC
+ExExtendZone equ <__imp_ExExtendZone>
+
+externdef __imp_ExFreeCacheAwareRundownProtection:PPROC
+ExFreeCacheAwareRundownProtection equ <__imp_ExFreeCacheAwareRundownProtection>
+
+externdef __imp_ExFreePool:PPROC
+ExFreePool equ <__imp_ExFreePool>
+
+externdef __imp_ExFreePoolWithTag:PPROC
+ExFreePoolWithTag equ <__imp_ExFreePoolWithTag>
+
+externdef __imp_ExFreeToPagedLookasideList:PPROC
+ExFreeToPagedLookasideList equ <__imp_ExFreeToPagedLookasideList>
+
+externdef __imp_ExGetCurrentProcessorCounts:PPROC
+ExGetCurrentProcessorCounts equ <__imp_ExGetCurrentProcessorCounts>
+
+externdef __imp_ExGetCurrentProcessorCpuUsage:PPROC
+ExGetCurrentProcessorCpuUsage equ <__imp_ExGetCurrentProcessorCpuUsage>
+
+externdef __imp_ExGetExclusiveWaiterCount:PPROC
+ExGetExclusiveWaiterCount equ <__imp_ExGetExclusiveWaiterCount>
+
+externdef __imp_ExGetPreviousMode:PPROC
+ExGetPreviousMode equ <__imp_ExGetPreviousMode>
+
+externdef __imp_ExGetSharedWaiterCount:PPROC
+ExGetSharedWaiterCount equ <__imp_ExGetSharedWaiterCount>
+
+externdef __imp_ExInitializeNPagedLookasideList:PPROC
+ExInitializeNPagedLookasideList equ <__imp_ExInitializeNPagedLookasideList>
+
+externdef __imp_ExInitializePagedLookasideList:PPROC
+ExInitializePagedLookasideList equ <__imp_ExInitializePagedLookasideList>
+
+externdef __imp_ExInitializeResourceLite:PPROC
+ExInitializeResourceLite equ <__imp_ExInitializeResourceLite>
+
+externdef __imp_ExInitializeRundownProtection:PPROC
+ExInitializeRundownProtection equ <__imp_ExInitializeRundownProtection>
+
+externdef __imp_ExInitializeRundownProtectionCacheAware:PPROC
+ExInitializeRundownProtectionCacheAware equ <__imp_ExInitializeRundownProtectionCacheAware>
+
+externdef __imp_ExInitializeZone:PPROC
+ExInitializeZone equ <__imp_ExInitializeZone>
+
+externdef __imp_ExInterlockedAddLargeInteger:PPROC
+ExInterlockedAddLargeInteger equ <__imp_ExInterlockedAddLargeInteger>
+
+externdef __imp_ExInterlockedAddUlong:PPROC
+ExInterlockedAddUlong equ <__imp_ExInterlockedAddUlong>
+
+externdef __imp_ExInterlockedExtendZone:PPROC
+ExInterlockedExtendZone equ <__imp_ExInterlockedExtendZone>
+
+externdef __imp_ExInterlockedInsertHeadList:PPROC
+ExInterlockedInsertHeadList equ <__imp_ExInterlockedInsertHeadList>
+
+externdef __imp_ExInterlockedInsertTailList:PPROC
+ExInterlockedInsertTailList equ <__imp_ExInterlockedInsertTailList>
+
+externdef __imp_ExInterlockedPopEntryList:PPROC
+ExInterlockedPopEntryList equ <__imp_ExInterlockedPopEntryList>
+
+externdef __imp_ExInterlockedPushEntryList:PPROC
+ExInterlockedPushEntryList equ <__imp_ExInterlockedPushEntryList>
+
+externdef __imp_ExInterlockedRemoveHeadList:PPROC
+ExInterlockedRemoveHeadList equ <__imp_ExInterlockedRemoveHeadList>
+
+externdef __imp_ExIsProcessorFeaturePresent:PPROC
+ExIsProcessorFeaturePresent equ <__imp_ExIsProcessorFeaturePresent>
+
+externdef __imp_ExIsResourceAcquiredExclusiveLite:PPROC
+ExIsResourceAcquiredExclusiveLite equ <__imp_ExIsResourceAcquiredExclusiveLite>
+
+externdef __imp_ExIsResourceAcquiredSharedLite:PPROC
+ExIsResourceAcquiredSharedLite equ <__imp_ExIsResourceAcquiredSharedLite>
+
+externdef __imp_ExLocalTimeToSystemTime:PPROC
+ExLocalTimeToSystemTime equ <__imp_ExLocalTimeToSystemTime>
+
+externdef __imp_ExNotifyCallback:PPROC
+ExNotifyCallback equ <__imp_ExNotifyCallback>
+
+externdef __imp_ExQueryDepthSList:PPROC
+ExQueryDepthSList equ <__imp_ExQueryDepthSList>
+
+externdef __imp_ExQueryPoolBlockSize:PPROC
+ExQueryPoolBlockSize equ <__imp_ExQueryPoolBlockSize>
+
+externdef __imp_ExQueueWorkItem:PPROC
+ExQueueWorkItem equ <__imp_ExQueueWorkItem>
+
+externdef __imp_ExRaiseAccessViolation:PPROC
+ExRaiseAccessViolation equ <__imp_ExRaiseAccessViolation>
+
+externdef __imp_ExRaiseDatatypeMisalignment:PPROC
+ExRaiseDatatypeMisalignment equ <__imp_ExRaiseDatatypeMisalignment>
+
+externdef __imp_ExRaiseException:PPROC
+ExRaiseException equ <__imp_ExRaiseException>
+
+externdef __imp_ExRaiseHardError:PPROC
+ExRaiseHardError equ <__imp_ExRaiseHardError>
+
+externdef __imp_ExRaiseStatus:PPROC
+ExRaiseStatus equ <__imp_ExRaiseStatus>
+
+externdef __imp_ExReInitializeRundownProtection:PPROC
+ExReInitializeRundownProtection equ <__imp_ExReInitializeRundownProtection>
+
+externdef __imp_ExReInitializeRundownProtectionCacheAware:PPROC
+ExReInitializeRundownProtectionCacheAware equ <__imp_ExReInitializeRundownProtectionCacheAware>
+
+externdef __imp_ExRegisterCallback:PPROC
+ExRegisterCallback equ <__imp_ExRegisterCallback>
+
+externdef __imp_ExReinitializeResourceLite:PPROC
+ExReinitializeResourceLite equ <__imp_ExReinitializeResourceLite>
+
+externdef __imp_ExReleaseFastMutex:PPROC
+ExReleaseFastMutex equ <__imp_ExReleaseFastMutex>
+
+externdef __imp_ExReleaseFastMutexUnsafe:PPROC
+ExReleaseFastMutexUnsafe equ <__imp_ExReleaseFastMutexUnsafe>
+
+externdef __imp_ExReleaseFastMutexUnsafeAndLeaveCriticalRegion:PPROC
+ExReleaseFastMutexUnsafeAndLeaveCriticalRegion equ <__imp_ExReleaseFastMutexUnsafeAndLeaveCriticalRegion>
+
+externdef __imp_ExReleaseResourceAndLeaveCriticalRegion:PPROC
+ExReleaseResourceAndLeaveCriticalRegion equ <__imp_ExReleaseResourceAndLeaveCriticalRegion>
+
+externdef __imp_ExReleaseResourceForThreadLite:PPROC
+ExReleaseResourceForThreadLite equ <__imp_ExReleaseResourceForThreadLite>
+
+externdef __imp_ExReleaseResourceLite:PPROC
+ExReleaseResourceLite equ <__imp_ExReleaseResourceLite>
+
+externdef __imp_ExReleaseRundownProtection:PPROC
+ExReleaseRundownProtection equ <__imp_ExReleaseRundownProtection>
+
+externdef __imp_ExReleaseRundownProtectionCacheAware:PPROC
+ExReleaseRundownProtectionCacheAware equ <__imp_ExReleaseRundownProtectionCacheAware>
+
+externdef __imp_ExReleaseRundownProtectionCacheAwareEx:PPROC
+ExReleaseRundownProtectionCacheAwareEx equ <__imp_ExReleaseRundownProtectionCacheAwareEx>
+
+externdef __imp_ExReleaseRundownProtectionEx:PPROC
+ExReleaseRundownProtectionEx equ <__imp_ExReleaseRundownProtectionEx>
+
+externdef __imp_ExRundownCompleted:PPROC
+ExRundownCompleted equ <__imp_ExRundownCompleted>
+
+externdef __imp_ExRundownCompletedCacheAware:PPROC
+ExRundownCompletedCacheAware equ <__imp_ExRundownCompletedCacheAware>
+
+externdef __imp_ExSemaphoreObjectType:PPROC
+ExSemaphoreObjectType equ <__imp_ExSemaphoreObjectType>
+
+externdef __imp_ExSetResourceOwnerPointer:PPROC
+ExSetResourceOwnerPointer equ <__imp_ExSetResourceOwnerPointer>
+
+externdef __imp_ExSetTimerResolution:PPROC
+ExSetTimerResolution equ <__imp_ExSetTimerResolution>
+
+externdef __imp_ExSizeOfRundownProtectionCacheAware:PPROC
+ExSizeOfRundownProtectionCacheAware equ <__imp_ExSizeOfRundownProtectionCacheAware>
+
+externdef __imp_ExSystemExceptionFilter:PPROC
+ExSystemExceptionFilter equ <__imp_ExSystemExceptionFilter>
+
+externdef __imp_ExSystemTimeToLocalTime:PPROC
+ExSystemTimeToLocalTime equ <__imp_ExSystemTimeToLocalTime>
+
+externdef __imp_ExTryToAcquireFastMutex:PPROC
+ExTryToAcquireFastMutex equ <__imp_ExTryToAcquireFastMutex>
+
+externdef __imp_ExUnregisterCallback:PPROC
+ExUnregisterCallback equ <__imp_ExUnregisterCallback>
+
+externdef __imp_ExUuidCreate:PPROC
+ExUuidCreate equ <__imp_ExUuidCreate>
+
+externdef __imp_ExVerifySuite:PPROC
+ExVerifySuite equ <__imp_ExVerifySuite>
+
+externdef __imp_ExWaitForRundownProtectionRelease:PPROC
+ExWaitForRundownProtectionRelease equ <__imp_ExWaitForRundownProtectionRelease>
+
+externdef __imp_ExWaitForRundownProtectionReleaseCacheAware:PPROC
+ExWaitForRundownProtectionReleaseCacheAware equ <__imp_ExWaitForRundownProtectionReleaseCacheAware>
+
+externdef __imp_ExWindowStationObjectType:PPROC
+ExWindowStationObjectType equ <__imp_ExWindowStationObjectType>
+
+externdef __imp_ExfAcquirePushLockExclusive:PPROC
+ExfAcquirePushLockExclusive equ <__imp_ExfAcquirePushLockExclusive>
+
+externdef __imp_ExfAcquirePushLockShared:PPROC
+ExfAcquirePushLockShared equ <__imp_ExfAcquirePushLockShared>
+
+externdef __imp_ExfReleasePushLock:PPROC
+ExfReleasePushLock equ <__imp_ExfReleasePushLock>
+
+externdef __imp_ExfReleasePushLockExclusive:PPROC
+ExfReleasePushLockExclusive equ <__imp_ExfReleasePushLockExclusive>
+
+externdef __imp_ExfReleasePushLockShared:PPROC
+ExfReleasePushLockShared equ <__imp_ExfReleasePushLockShared>
+
+externdef __imp_ExfTryToWakePushLock:PPROC
+ExfTryToWakePushLock equ <__imp_ExfTryToWakePushLock>
+
+externdef __imp_ExfUnblockPushLock:PPROC
+ExfUnblockPushLock equ <__imp_ExfUnblockPushLock>
+
+externdef __imp_ExpInterlockedFlushSList:PPROC
+ExpInterlockedFlushSList equ <__imp_ExpInterlockedFlushSList>
+
+externdef __imp_ExpInterlockedPopEntrySList:PPROC
+ExpInterlockedPopEntrySList equ <__imp_ExpInterlockedPopEntrySList>
+
+externdef __imp_ExpInterlockedPushEntrySList:PPROC
+ExpInterlockedPushEntrySList equ <__imp_ExpInterlockedPushEntrySList>
+
+externdef __imp_FsRtlAcquireFileExclusive:PPROC
+FsRtlAcquireFileExclusive equ <__imp_FsRtlAcquireFileExclusive>
+
+externdef __imp_FsRtlAddBaseMcbEntry:PPROC
+FsRtlAddBaseMcbEntry equ <__imp_FsRtlAddBaseMcbEntry>
+
+externdef __imp_FsRtlAddLargeMcbEntry:PPROC
+FsRtlAddLargeMcbEntry equ <__imp_FsRtlAddLargeMcbEntry>
+
+externdef __imp_FsRtlAddMcbEntry:PPROC
+FsRtlAddMcbEntry equ <__imp_FsRtlAddMcbEntry>
+
+externdef __imp_FsRtlAddToTunnelCache:PPROC
+FsRtlAddToTunnelCache equ <__imp_FsRtlAddToTunnelCache>
+
+externdef __imp_FsRtlAllocateFileLock:PPROC
+FsRtlAllocateFileLock equ <__imp_FsRtlAllocateFileLock>
+
+externdef __imp_FsRtlAllocatePool:PPROC
+FsRtlAllocatePool equ <__imp_FsRtlAllocatePool>
+
+externdef __imp_FsRtlAllocatePoolWithQuota:PPROC
+FsRtlAllocatePoolWithQuota equ <__imp_FsRtlAllocatePoolWithQuota>
+
+externdef __imp_FsRtlAllocatePoolWithQuotaTag:PPROC
+FsRtlAllocatePoolWithQuotaTag equ <__imp_FsRtlAllocatePoolWithQuotaTag>
+
+externdef __imp_FsRtlAllocatePoolWithTag:PPROC
+FsRtlAllocatePoolWithTag equ <__imp_FsRtlAllocatePoolWithTag>
+
+externdef __imp_FsRtlAllocateResource:PPROC
+FsRtlAllocateResource equ <__imp_FsRtlAllocateResource>
+
+externdef __imp_FsRtlAreNamesEqual:PPROC
+FsRtlAreNamesEqual equ <__imp_FsRtlAreNamesEqual>
+
+externdef __imp_FsRtlBalanceReads:PPROC
+FsRtlBalanceReads equ <__imp_FsRtlBalanceReads>
+
+externdef __imp_FsRtlCheckLockForReadAccess:PPROC
+FsRtlCheckLockForReadAccess equ <__imp_FsRtlCheckLockForReadAccess>
+
+externdef __imp_FsRtlCheckLockForWriteAccess:PPROC
+FsRtlCheckLockForWriteAccess equ <__imp_FsRtlCheckLockForWriteAccess>
+
+externdef __imp_FsRtlCheckOplock:PPROC
+FsRtlCheckOplock equ <__imp_FsRtlCheckOplock>
+
+externdef __imp_FsRtlCopyRead:PPROC
+FsRtlCopyRead equ <__imp_FsRtlCopyRead>
+
+externdef __imp_FsRtlCopyWrite:PPROC
+FsRtlCopyWrite equ <__imp_FsRtlCopyWrite>
+
+externdef __imp_FsRtlCreateSectionForDataScan:PPROC
+FsRtlCreateSectionForDataScan equ <__imp_FsRtlCreateSectionForDataScan>
+
+externdef __imp_FsRtlCurrentBatchOplock:PPROC
+FsRtlCurrentBatchOplock equ <__imp_FsRtlCurrentBatchOplock>
+
+externdef __imp_FsRtlDeleteKeyFromTunnelCache:PPROC
+FsRtlDeleteKeyFromTunnelCache equ <__imp_FsRtlDeleteKeyFromTunnelCache>
+
+externdef __imp_FsRtlDeleteTunnelCache:PPROC
+FsRtlDeleteTunnelCache equ <__imp_FsRtlDeleteTunnelCache>
+
+externdef __imp_FsRtlDeregisterUncProvider:PPROC
+FsRtlDeregisterUncProvider equ <__imp_FsRtlDeregisterUncProvider>
+
+externdef __imp_FsRtlDissectDbcs:PPROC
+FsRtlDissectDbcs equ <__imp_FsRtlDissectDbcs>
+
+externdef __imp_FsRtlDissectName:PPROC
+FsRtlDissectName equ <__imp_FsRtlDissectName>
+
+externdef __imp_FsRtlDoesDbcsContainWildCards:PPROC
+FsRtlDoesDbcsContainWildCards equ <__imp_FsRtlDoesDbcsContainWildCards>
+
+externdef __imp_FsRtlDoesNameContainWildCards:PPROC
+FsRtlDoesNameContainWildCards equ <__imp_FsRtlDoesNameContainWildCards>
+
+externdef __imp_FsRtlFastCheckLockForRead:PPROC
+FsRtlFastCheckLockForRead equ <__imp_FsRtlFastCheckLockForRead>
+
+externdef __imp_FsRtlFastCheckLockForWrite:PPROC
+FsRtlFastCheckLockForWrite equ <__imp_FsRtlFastCheckLockForWrite>
+
+externdef __imp_FsRtlFastUnlockAll:PPROC
+FsRtlFastUnlockAll equ <__imp_FsRtlFastUnlockAll>
+
+externdef __imp_FsRtlFastUnlockAllByKey:PPROC
+FsRtlFastUnlockAllByKey equ <__imp_FsRtlFastUnlockAllByKey>
+
+externdef __imp_FsRtlFastUnlockSingle:PPROC
+FsRtlFastUnlockSingle equ <__imp_FsRtlFastUnlockSingle>
+
+externdef __imp_FsRtlFindInTunnelCache:PPROC
+FsRtlFindInTunnelCache equ <__imp_FsRtlFindInTunnelCache>
+
+externdef __imp_FsRtlFreeFileLock:PPROC
+FsRtlFreeFileLock equ <__imp_FsRtlFreeFileLock>
+
+externdef __imp_FsRtlGetFileSize:PPROC
+FsRtlGetFileSize equ <__imp_FsRtlGetFileSize>
+
+externdef __imp_FsRtlGetNextBaseMcbEntry:PPROC
+FsRtlGetNextBaseMcbEntry equ <__imp_FsRtlGetNextBaseMcbEntry>
+
+externdef __imp_FsRtlGetNextFileLock:PPROC
+FsRtlGetNextFileLock equ <__imp_FsRtlGetNextFileLock>
+
+externdef __imp_FsRtlGetNextLargeMcbEntry:PPROC
+FsRtlGetNextLargeMcbEntry equ <__imp_FsRtlGetNextLargeMcbEntry>
+
+externdef __imp_FsRtlGetNextMcbEntry:PPROC
+FsRtlGetNextMcbEntry equ <__imp_FsRtlGetNextMcbEntry>
+
+externdef __imp_FsRtlIncrementCcFastReadNoWait:PPROC
+FsRtlIncrementCcFastReadNoWait equ <__imp_FsRtlIncrementCcFastReadNoWait>
+
+externdef __imp_FsRtlIncrementCcFastReadNotPossible:PPROC
+FsRtlIncrementCcFastReadNotPossible equ <__imp_FsRtlIncrementCcFastReadNotPossible>
+
+externdef __imp_FsRtlIncrementCcFastReadResourceMiss:PPROC
+FsRtlIncrementCcFastReadResourceMiss equ <__imp_FsRtlIncrementCcFastReadResourceMiss>
+
+externdef __imp_FsRtlIncrementCcFastReadWait:PPROC
+FsRtlIncrementCcFastReadWait equ <__imp_FsRtlIncrementCcFastReadWait>
+
+externdef __imp_FsRtlInitializeBaseMcb:PPROC
+FsRtlInitializeBaseMcb equ <__imp_FsRtlInitializeBaseMcb>
+
+externdef __imp_FsRtlInitializeFileLock:PPROC
+FsRtlInitializeFileLock equ <__imp_FsRtlInitializeFileLock>
+
+externdef __imp_FsRtlInitializeLargeMcb:PPROC
+FsRtlInitializeLargeMcb equ <__imp_FsRtlInitializeLargeMcb>
+
+externdef __imp_FsRtlInitializeMcb:PPROC
+FsRtlInitializeMcb equ <__imp_FsRtlInitializeMcb>
+
+externdef __imp_FsRtlInitializeOplock:PPROC
+FsRtlInitializeOplock equ <__imp_FsRtlInitializeOplock>
+
+externdef __imp_FsRtlInitializeTunnelCache:PPROC
+FsRtlInitializeTunnelCache equ <__imp_FsRtlInitializeTunnelCache>
+
+externdef __imp_FsRtlInsertPerFileObjectContext:PPROC
+FsRtlInsertPerFileObjectContext equ <__imp_FsRtlInsertPerFileObjectContext>
+
+externdef __imp_FsRtlInsertPerStreamContext:PPROC
+FsRtlInsertPerStreamContext equ <__imp_FsRtlInsertPerStreamContext>
+
+externdef __imp_FsRtlIsDbcsInExpression:PPROC
+FsRtlIsDbcsInExpression equ <__imp_FsRtlIsDbcsInExpression>
+
+externdef __imp_FsRtlIsFatDbcsLegal:PPROC
+FsRtlIsFatDbcsLegal equ <__imp_FsRtlIsFatDbcsLegal>
+
+externdef __imp_FsRtlIsHpfsDbcsLegal:PPROC
+FsRtlIsHpfsDbcsLegal equ <__imp_FsRtlIsHpfsDbcsLegal>
+
+externdef __imp_FsRtlIsNameInExpression:PPROC
+FsRtlIsNameInExpression equ <__imp_FsRtlIsNameInExpression>
+
+externdef __imp_FsRtlIsNtstatusExpected:PPROC
+FsRtlIsNtstatusExpected equ <__imp_FsRtlIsNtstatusExpected>
+
+externdef __imp_FsRtlIsPagingFile:PPROC
+FsRtlIsPagingFile equ <__imp_FsRtlIsPagingFile>
+
+externdef __imp_FsRtlIsTotalDeviceFailure:PPROC
+FsRtlIsTotalDeviceFailure equ <__imp_FsRtlIsTotalDeviceFailure>
+
+externdef __imp_FsRtlLegalAnsiCharacterArray:PPROC
+FsRtlLegalAnsiCharacterArray equ <__imp_FsRtlLegalAnsiCharacterArray>
+
+externdef __imp_FsRtlLookupBaseMcbEntry:PPROC
+FsRtlLookupBaseMcbEntry equ <__imp_FsRtlLookupBaseMcbEntry>
+
+externdef __imp_FsRtlLookupLargeMcbEntry:PPROC
+FsRtlLookupLargeMcbEntry equ <__imp_FsRtlLookupLargeMcbEntry>
+
+externdef __imp_FsRtlLookupLastBaseMcbEntry:PPROC
+FsRtlLookupLastBaseMcbEntry equ <__imp_FsRtlLookupLastBaseMcbEntry>
+
+externdef __imp_FsRtlLookupLastBaseMcbEntryAndIndex:PPROC
+FsRtlLookupLastBaseMcbEntryAndIndex equ <__imp_FsRtlLookupLastBaseMcbEntryAndIndex>
+
+externdef __imp_FsRtlLookupLastLargeMcbEntry:PPROC
+FsRtlLookupLastLargeMcbEntry equ <__imp_FsRtlLookupLastLargeMcbEntry>
+
+externdef __imp_FsRtlLookupLastLargeMcbEntryAndIndex:PPROC
+FsRtlLookupLastLargeMcbEntryAndIndex equ <__imp_FsRtlLookupLastLargeMcbEntryAndIndex>
+
+externdef __imp_FsRtlLookupLastMcbEntry:PPROC
+FsRtlLookupLastMcbEntry equ <__imp_FsRtlLookupLastMcbEntry>
+
+externdef __imp_FsRtlLookupMcbEntry:PPROC
+FsRtlLookupMcbEntry equ <__imp_FsRtlLookupMcbEntry>
+
+externdef __imp_FsRtlLookupPerFileObjectContext:PPROC
+FsRtlLookupPerFileObjectContext equ <__imp_FsRtlLookupPerFileObjectContext>
+
+externdef __imp_FsRtlLookupPerStreamContextInternal:PPROC
+FsRtlLookupPerStreamContextInternal equ <__imp_FsRtlLookupPerStreamContextInternal>
+
+externdef __imp_FsRtlMdlRead:PPROC
+FsRtlMdlRead equ <__imp_FsRtlMdlRead>
+
+externdef __imp_FsRtlMdlReadComplete:PPROC
+FsRtlMdlReadComplete equ <__imp_FsRtlMdlReadComplete>
+
+externdef __imp_FsRtlMdlReadCompleteDev:PPROC
+FsRtlMdlReadCompleteDev equ <__imp_FsRtlMdlReadCompleteDev>
+
+externdef __imp_FsRtlMdlReadDev:PPROC
+FsRtlMdlReadDev equ <__imp_FsRtlMdlReadDev>
+
+externdef __imp_FsRtlMdlWriteComplete:PPROC
+FsRtlMdlWriteComplete equ <__imp_FsRtlMdlWriteComplete>
+
+externdef __imp_FsRtlMdlWriteCompleteDev:PPROC
+FsRtlMdlWriteCompleteDev equ <__imp_FsRtlMdlWriteCompleteDev>
+
+externdef __imp_FsRtlNormalizeNtstatus:PPROC
+FsRtlNormalizeNtstatus equ <__imp_FsRtlNormalizeNtstatus>
+
+externdef __imp_FsRtlNotifyChangeDirectory:PPROC
+FsRtlNotifyChangeDirectory equ <__imp_FsRtlNotifyChangeDirectory>
+
+externdef __imp_FsRtlNotifyCleanup:PPROC
+FsRtlNotifyCleanup equ <__imp_FsRtlNotifyCleanup>
+
+externdef __imp_FsRtlNotifyFilterChangeDirectory:PPROC
+FsRtlNotifyFilterChangeDirectory equ <__imp_FsRtlNotifyFilterChangeDirectory>
+
+externdef __imp_FsRtlNotifyFilterReportChange:PPROC
+FsRtlNotifyFilterReportChange equ <__imp_FsRtlNotifyFilterReportChange>
+
+externdef __imp_FsRtlNotifyFullChangeDirectory:PPROC
+FsRtlNotifyFullChangeDirectory equ <__imp_FsRtlNotifyFullChangeDirectory>
+
+externdef __imp_FsRtlNotifyFullReportChange:PPROC
+FsRtlNotifyFullReportChange equ <__imp_FsRtlNotifyFullReportChange>
+
+externdef __imp_FsRtlNotifyInitializeSync:PPROC
+FsRtlNotifyInitializeSync equ <__imp_FsRtlNotifyInitializeSync>
+
+externdef __imp_FsRtlNotifyReportChange:PPROC
+FsRtlNotifyReportChange equ <__imp_FsRtlNotifyReportChange>
+
+externdef __imp_FsRtlNotifyUninitializeSync:PPROC
+FsRtlNotifyUninitializeSync equ <__imp_FsRtlNotifyUninitializeSync>
+
+externdef __imp_FsRtlNotifyVolumeEvent:PPROC
+FsRtlNotifyVolumeEvent equ <__imp_FsRtlNotifyVolumeEvent>
+
+externdef __imp_FsRtlNumberOfRunsInBaseMcb:PPROC
+FsRtlNumberOfRunsInBaseMcb equ <__imp_FsRtlNumberOfRunsInBaseMcb>
+
+externdef __imp_FsRtlNumberOfRunsInLargeMcb:PPROC
+FsRtlNumberOfRunsInLargeMcb equ <__imp_FsRtlNumberOfRunsInLargeMcb>
+
+externdef __imp_FsRtlNumberOfRunsInMcb:PPROC
+FsRtlNumberOfRunsInMcb equ <__imp_FsRtlNumberOfRunsInMcb>
+
+externdef __imp_FsRtlOplockFsctrl:PPROC
+FsRtlOplockFsctrl equ <__imp_FsRtlOplockFsctrl>
+
+externdef __imp_FsRtlOplockIsFastIoPossible:PPROC
+FsRtlOplockIsFastIoPossible equ <__imp_FsRtlOplockIsFastIoPossible>
+
+externdef __imp_FsRtlPostPagingFileStackOverflow:PPROC
+FsRtlPostPagingFileStackOverflow equ <__imp_FsRtlPostPagingFileStackOverflow>
+
+externdef __imp_FsRtlPostStackOverflow:PPROC
+FsRtlPostStackOverflow equ <__imp_FsRtlPostStackOverflow>
+
+externdef __imp_FsRtlPrepareMdlWrite:PPROC
+FsRtlPrepareMdlWrite equ <__imp_FsRtlPrepareMdlWrite>
+
+externdef __imp_FsRtlPrepareMdlWriteDev:PPROC
+FsRtlPrepareMdlWriteDev equ <__imp_FsRtlPrepareMdlWriteDev>
+
+externdef __imp_FsRtlPrivateLock:PPROC
+FsRtlPrivateLock equ <__imp_FsRtlPrivateLock>
+
+externdef __imp_FsRtlProcessFileLock:PPROC
+FsRtlProcessFileLock equ <__imp_FsRtlProcessFileLock>
+
+externdef __imp_FsRtlRegisterFileSystemFilterCallbacks:PPROC
+FsRtlRegisterFileSystemFilterCallbacks equ <__imp_FsRtlRegisterFileSystemFilterCallbacks>
+
+externdef __imp_FsRtlRegisterUncProvider:PPROC
+FsRtlRegisterUncProvider equ <__imp_FsRtlRegisterUncProvider>
+
+externdef __imp_FsRtlReleaseFile:PPROC
+FsRtlReleaseFile equ <__imp_FsRtlReleaseFile>
+
+externdef __imp_FsRtlRemoveBaseMcbEntry:PPROC
+FsRtlRemoveBaseMcbEntry equ <__imp_FsRtlRemoveBaseMcbEntry>
+
+externdef __imp_FsRtlRemoveLargeMcbEntry:PPROC
+FsRtlRemoveLargeMcbEntry equ <__imp_FsRtlRemoveLargeMcbEntry>
+
+externdef __imp_FsRtlRemoveMcbEntry:PPROC
+FsRtlRemoveMcbEntry equ <__imp_FsRtlRemoveMcbEntry>
+
+externdef __imp_FsRtlRemovePerFileObjectContext:PPROC
+FsRtlRemovePerFileObjectContext equ <__imp_FsRtlRemovePerFileObjectContext>
+
+externdef __imp_FsRtlRemovePerStreamContext:PPROC
+FsRtlRemovePerStreamContext equ <__imp_FsRtlRemovePerStreamContext>
+
+externdef __imp_FsRtlResetBaseMcb:PPROC
+FsRtlResetBaseMcb equ <__imp_FsRtlResetBaseMcb>
+
+externdef __imp_FsRtlResetLargeMcb:PPROC
+FsRtlResetLargeMcb equ <__imp_FsRtlResetLargeMcb>
+
+externdef __imp_FsRtlSplitBaseMcb:PPROC
+FsRtlSplitBaseMcb equ <__imp_FsRtlSplitBaseMcb>
+
+externdef __imp_FsRtlSplitLargeMcb:PPROC
+FsRtlSplitLargeMcb equ <__imp_FsRtlSplitLargeMcb>
+
+externdef __imp_FsRtlSyncVolumes:PPROC
+FsRtlSyncVolumes equ <__imp_FsRtlSyncVolumes>
+
+externdef __imp_FsRtlTeardownPerStreamContexts:PPROC
+FsRtlTeardownPerStreamContexts equ <__imp_FsRtlTeardownPerStreamContexts>
+
+externdef __imp_FsRtlTruncateBaseMcb:PPROC
+FsRtlTruncateBaseMcb equ <__imp_FsRtlTruncateBaseMcb>
+
+externdef __imp_FsRtlTruncateLargeMcb:PPROC
+FsRtlTruncateLargeMcb equ <__imp_FsRtlTruncateLargeMcb>
+
+externdef __imp_FsRtlTruncateMcb:PPROC
+FsRtlTruncateMcb equ <__imp_FsRtlTruncateMcb>
+
+externdef __imp_FsRtlUninitializeBaseMcb:PPROC
+FsRtlUninitializeBaseMcb equ <__imp_FsRtlUninitializeBaseMcb>
+
+externdef __imp_FsRtlUninitializeFileLock:PPROC
+FsRtlUninitializeFileLock equ <__imp_FsRtlUninitializeFileLock>
+
+externdef __imp_FsRtlUninitializeLargeMcb:PPROC
+FsRtlUninitializeLargeMcb equ <__imp_FsRtlUninitializeLargeMcb>
+
+externdef __imp_FsRtlUninitializeMcb:PPROC
+FsRtlUninitializeMcb equ <__imp_FsRtlUninitializeMcb>
+
+externdef __imp_FsRtlUninitializeOplock:PPROC
+FsRtlUninitializeOplock equ <__imp_FsRtlUninitializeOplock>
+
+externdef __imp_HalDispatchTable:PPROC
+HalDispatchTable equ <__imp_HalDispatchTable>
+
+externdef __imp_HalExamineMBR:PPROC
+HalExamineMBR equ <__imp_HalExamineMBR>
+
+externdef __imp_HalPrivateDispatchTable:PPROC
+HalPrivateDispatchTable equ <__imp_HalPrivateDispatchTable>
+
+externdef __imp_HeadlessDispatch:PPROC
+HeadlessDispatch equ <__imp_HeadlessDispatch>
+
+externdef __imp_InbvAcquireDisplayOwnership:PPROC
+InbvAcquireDisplayOwnership equ <__imp_InbvAcquireDisplayOwnership>
+
+externdef __imp_InbvCheckDisplayOwnership:PPROC
+InbvCheckDisplayOwnership equ <__imp_InbvCheckDisplayOwnership>
+
+externdef __imp_InbvDisplayString:PPROC
+InbvDisplayString equ <__imp_InbvDisplayString>
+
+externdef __imp_InbvEnableBootDriver:PPROC
+InbvEnableBootDriver equ <__imp_InbvEnableBootDriver>
+
+externdef __imp_InbvEnableDisplayString:PPROC
+InbvEnableDisplayString equ <__imp_InbvEnableDisplayString>
+
+externdef __imp_InbvInstallDisplayStringFilter:PPROC
+InbvInstallDisplayStringFilter equ <__imp_InbvInstallDisplayStringFilter>
+
+externdef __imp_InbvIsBootDriverInstalled:PPROC
+InbvIsBootDriverInstalled equ <__imp_InbvIsBootDriverInstalled>
+
+externdef __imp_InbvNotifyDisplayOwnershipLost:PPROC
+InbvNotifyDisplayOwnershipLost equ <__imp_InbvNotifyDisplayOwnershipLost>
+
+externdef __imp_InbvResetDisplay:PPROC
+InbvResetDisplay equ <__imp_InbvResetDisplay>
+
+externdef __imp_InbvSetScrollRegion:PPROC
+InbvSetScrollRegion equ <__imp_InbvSetScrollRegion>
+
+externdef __imp_InbvSetTextColor:PPROC
+InbvSetTextColor equ <__imp_InbvSetTextColor>
+
+externdef __imp_InbvSolidColorFill:PPROC
+InbvSolidColorFill equ <__imp_InbvSolidColorFill>
+
+externdef __imp_InitSafeBootMode:PPROC
+InitSafeBootMode equ <__imp_InitSafeBootMode>
+
+externdef __imp_InitializeSListHead:PPROC
+InitializeSListHead equ <__imp_InitializeSListHead>
+
+externdef __imp_IoAcquireCancelSpinLock:PPROC
+IoAcquireCancelSpinLock equ <__imp_IoAcquireCancelSpinLock>
+
+externdef __imp_IoAcquireRemoveLockEx:PPROC
+IoAcquireRemoveLockEx equ <__imp_IoAcquireRemoveLockEx>
+
+externdef __imp_IoAcquireVpbSpinLock:PPROC
+IoAcquireVpbSpinLock equ <__imp_IoAcquireVpbSpinLock>
+
+externdef __imp_IoAdapterObjectType:PPROC
+IoAdapterObjectType equ <__imp_IoAdapterObjectType>
+
+externdef __imp_IoAllocateAdapterChannel:PPROC
+IoAllocateAdapterChannel equ <__imp_IoAllocateAdapterChannel>
+
+externdef __imp_IoAllocateController:PPROC
+IoAllocateController equ <__imp_IoAllocateController>
+
+externdef __imp_IoAllocateDriverObjectExtension:PPROC
+IoAllocateDriverObjectExtension equ <__imp_IoAllocateDriverObjectExtension>
+
+externdef __imp_IoAllocateErrorLogEntry:PPROC
+IoAllocateErrorLogEntry equ <__imp_IoAllocateErrorLogEntry>
+
+externdef __imp_IoAllocateIrp:PPROC
+IoAllocateIrp equ <__imp_IoAllocateIrp>
+
+externdef __imp_IoAllocateMdl:PPROC
+IoAllocateMdl equ <__imp_IoAllocateMdl>
+
+externdef __imp_IoAllocateWorkItem:PPROC
+IoAllocateWorkItem equ <__imp_IoAllocateWorkItem>
+
+externdef __imp_IoAssignDriveLetters:PPROC
+IoAssignDriveLetters equ <__imp_IoAssignDriveLetters>
+
+externdef __imp_IoAssignResources:PPROC
+IoAssignResources equ <__imp_IoAssignResources>
+
+externdef __imp_IoAttachDevice:PPROC
+IoAttachDevice equ <__imp_IoAttachDevice>
+
+externdef __imp_IoAttachDeviceByPointer:PPROC
+IoAttachDeviceByPointer equ <__imp_IoAttachDeviceByPointer>
+
+externdef __imp_IoAttachDeviceToDeviceStack:PPROC
+IoAttachDeviceToDeviceStack equ <__imp_IoAttachDeviceToDeviceStack>
+
+externdef __imp_IoAttachDeviceToDeviceStackSafe:PPROC
+IoAttachDeviceToDeviceStackSafe equ <__imp_IoAttachDeviceToDeviceStackSafe>
+
+externdef __imp_IoBuildAsynchronousFsdRequest:PPROC
+IoBuildAsynchronousFsdRequest equ <__imp_IoBuildAsynchronousFsdRequest>
+
+externdef __imp_IoBuildDeviceIoControlRequest:PPROC
+IoBuildDeviceIoControlRequest equ <__imp_IoBuildDeviceIoControlRequest>
+
+externdef __imp_IoBuildPartialMdl:PPROC
+IoBuildPartialMdl equ <__imp_IoBuildPartialMdl>
+
+externdef __imp_IoBuildSynchronousFsdRequest:PPROC
+IoBuildSynchronousFsdRequest equ <__imp_IoBuildSynchronousFsdRequest>
+
+externdef __imp_IoCallDriver:PPROC
+IoCallDriver equ <__imp_IoCallDriver>
+
+externdef __imp_IoCancelFileOpen:PPROC
+IoCancelFileOpen equ <__imp_IoCancelFileOpen>
+
+externdef __imp_IoCancelIrp:PPROC
+IoCancelIrp equ <__imp_IoCancelIrp>
+
+externdef __imp_IoCheckDesiredAccess:PPROC
+IoCheckDesiredAccess equ <__imp_IoCheckDesiredAccess>
+
+externdef __imp_IoCheckEaBufferValidity:PPROC
+IoCheckEaBufferValidity equ <__imp_IoCheckEaBufferValidity>
+
+externdef __imp_IoCheckFunctionAccess:PPROC
+IoCheckFunctionAccess equ <__imp_IoCheckFunctionAccess>
+
+externdef __imp_IoCheckQuerySetFileInformation:PPROC
+IoCheckQuerySetFileInformation equ <__imp_IoCheckQuerySetFileInformation>
+
+externdef __imp_IoCheckQuerySetVolumeInformation:PPROC
+IoCheckQuerySetVolumeInformation equ <__imp_IoCheckQuerySetVolumeInformation>
+
+externdef __imp_IoCheckQuotaBufferValidity:PPROC
+IoCheckQuotaBufferValidity equ <__imp_IoCheckQuotaBufferValidity>
+
+externdef __imp_IoCheckShareAccess:PPROC
+IoCheckShareAccess equ <__imp_IoCheckShareAccess>
+
+externdef __imp_IoCompleteRequest:PPROC
+IoCompleteRequest equ <__imp_IoCompleteRequest>
+
+externdef __imp_IoConnectInterrupt:PPROC
+IoConnectInterrupt equ <__imp_IoConnectInterrupt>
+
+externdef __imp_IoCreateController:PPROC
+IoCreateController equ <__imp_IoCreateController>
+
+externdef __imp_IoCreateDevice:PPROC
+IoCreateDevice equ <__imp_IoCreateDevice>
+
+externdef __imp_IoCreateDisk:PPROC
+IoCreateDisk equ <__imp_IoCreateDisk>
+
+externdef __imp_IoCreateDriver:PPROC
+IoCreateDriver equ <__imp_IoCreateDriver>
+
+externdef __imp_IoCreateFile:PPROC
+IoCreateFile equ <__imp_IoCreateFile>
+
+externdef __imp_IoCreateFileSpecifyDeviceObjectHint:PPROC
+IoCreateFileSpecifyDeviceObjectHint equ <__imp_IoCreateFileSpecifyDeviceObjectHint>
+
+externdef __imp_IoCreateNotificationEvent:PPROC
+IoCreateNotificationEvent equ <__imp_IoCreateNotificationEvent>
+
+externdef __imp_IoCreateStreamFileObject:PPROC
+IoCreateStreamFileObject equ <__imp_IoCreateStreamFileObject>
+
+externdef __imp_IoCreateStreamFileObjectEx:PPROC
+IoCreateStreamFileObjectEx equ <__imp_IoCreateStreamFileObjectEx>
+
+externdef __imp_IoCreateStreamFileObjectLite:PPROC
+IoCreateStreamFileObjectLite equ <__imp_IoCreateStreamFileObjectLite>
+
+externdef __imp_IoCreateSymbolicLink:PPROC
+IoCreateSymbolicLink equ <__imp_IoCreateSymbolicLink>
+
+externdef __imp_IoCreateSynchronizationEvent:PPROC
+IoCreateSynchronizationEvent equ <__imp_IoCreateSynchronizationEvent>
+
+externdef __imp_IoCreateUnprotectedSymbolicLink:PPROC
+IoCreateUnprotectedSymbolicLink equ <__imp_IoCreateUnprotectedSymbolicLink>
+
+externdef __imp_IoCsqInitialize:PPROC
+IoCsqInitialize equ <__imp_IoCsqInitialize>
+
+externdef __imp_IoCsqInitializeEx:PPROC
+IoCsqInitializeEx equ <__imp_IoCsqInitializeEx>
+
+externdef __imp_IoCsqInsertIrp:PPROC
+IoCsqInsertIrp equ <__imp_IoCsqInsertIrp>
+
+externdef __imp_IoCsqInsertIrpEx:PPROC
+IoCsqInsertIrpEx equ <__imp_IoCsqInsertIrpEx>
+
+externdef __imp_IoCsqRemoveIrp:PPROC
+IoCsqRemoveIrp equ <__imp_IoCsqRemoveIrp>
+
+externdef __imp_IoCsqRemoveNextIrp:PPROC
+IoCsqRemoveNextIrp equ <__imp_IoCsqRemoveNextIrp>
+
+externdef __imp_IoDeleteController:PPROC
+IoDeleteController equ <__imp_IoDeleteController>
+
+externdef __imp_IoDeleteDevice:PPROC
+IoDeleteDevice equ <__imp_IoDeleteDevice>
+
+externdef __imp_IoDeleteDriver:PPROC
+IoDeleteDriver equ <__imp_IoDeleteDriver>
+
+externdef __imp_IoDeleteSymbolicLink:PPROC
+IoDeleteSymbolicLink equ <__imp_IoDeleteSymbolicLink>
+
+externdef __imp_IoDetachDevice:PPROC
+IoDetachDevice equ <__imp_IoDetachDevice>
+
+externdef __imp_IoDeviceHandlerObjectSize:PPROC
+IoDeviceHandlerObjectSize equ <__imp_IoDeviceHandlerObjectSize>
+
+externdef __imp_IoDeviceHandlerObjectType:PPROC
+IoDeviceHandlerObjectType equ <__imp_IoDeviceHandlerObjectType>
+
+externdef __imp_IoDeviceObjectType:PPROC
+IoDeviceObjectType equ <__imp_IoDeviceObjectType>
+
+externdef __imp_IoDisconnectInterrupt:PPROC
+IoDisconnectInterrupt equ <__imp_IoDisconnectInterrupt>
+
+externdef __imp_IoDriverObjectType:PPROC
+IoDriverObjectType equ <__imp_IoDriverObjectType>
+
+externdef __imp_IoEnqueueIrp:PPROC
+IoEnqueueIrp equ <__imp_IoEnqueueIrp>
+
+externdef __imp_IoEnumerateDeviceObjectList:PPROC
+IoEnumerateDeviceObjectList equ <__imp_IoEnumerateDeviceObjectList>
+
+externdef __imp_IoEnumerateRegisteredFiltersList:PPROC
+IoEnumerateRegisteredFiltersList equ <__imp_IoEnumerateRegisteredFiltersList>
+
+externdef __imp_IoFastQueryNetworkAttributes:PPROC
+IoFastQueryNetworkAttributes equ <__imp_IoFastQueryNetworkAttributes>
+
+externdef __imp_IoFileObjectType:PPROC
+IoFileObjectType equ <__imp_IoFileObjectType>
+
+externdef __imp_IoForwardAndCatchIrp:PPROC
+IoForwardAndCatchIrp equ <__imp_IoForwardAndCatchIrp>
+
+externdef __imp_IoForwardIrpSynchronously:PPROC
+IoForwardIrpSynchronously equ <__imp_IoForwardIrpSynchronously>
+
+externdef __imp_IoFreeController:PPROC
+IoFreeController equ <__imp_IoFreeController>
+
+externdef __imp_IoFreeErrorLogEntry:PPROC
+IoFreeErrorLogEntry equ <__imp_IoFreeErrorLogEntry>
+
+externdef __imp_IoFreeIrp:PPROC
+IoFreeIrp equ <__imp_IoFreeIrp>
+
+externdef __imp_IoFreeMdl:PPROC
+IoFreeMdl equ <__imp_IoFreeMdl>
+
+externdef __imp_IoFreeWorkItem:PPROC
+IoFreeWorkItem equ <__imp_IoFreeWorkItem>
+
+externdef __imp_IoGetAttachedDevice:PPROC
+IoGetAttachedDevice equ <__imp_IoGetAttachedDevice>
+
+externdef __imp_IoGetAttachedDeviceReference:PPROC
+IoGetAttachedDeviceReference equ <__imp_IoGetAttachedDeviceReference>
+
+externdef __imp_IoGetBaseFileSystemDeviceObject:PPROC
+IoGetBaseFileSystemDeviceObject equ <__imp_IoGetBaseFileSystemDeviceObject>
+
+externdef __imp_IoGetBootDiskInformation:PPROC
+IoGetBootDiskInformation equ <__imp_IoGetBootDiskInformation>
+
+externdef __imp_IoGetConfigurationInformation:PPROC
+IoGetConfigurationInformation equ <__imp_IoGetConfigurationInformation>
+
+externdef __imp_IoGetCurrentProcess:PPROC
+IoGetCurrentProcess equ <__imp_IoGetCurrentProcess>
+
+externdef __imp_IoGetDeviceAttachmentBaseRef:PPROC
+IoGetDeviceAttachmentBaseRef equ <__imp_IoGetDeviceAttachmentBaseRef>
+
+externdef __imp_IoGetDeviceInterfaceAlias:PPROC
+IoGetDeviceInterfaceAlias equ <__imp_IoGetDeviceInterfaceAlias>
+
+externdef __imp_IoGetDeviceInterfaces:PPROC
+IoGetDeviceInterfaces equ <__imp_IoGetDeviceInterfaces>
+
+externdef __imp_IoGetDeviceObjectPointer:PPROC
+IoGetDeviceObjectPointer equ <__imp_IoGetDeviceObjectPointer>
+
+externdef __imp_IoGetDeviceProperty:PPROC
+IoGetDeviceProperty equ <__imp_IoGetDeviceProperty>
+
+externdef __imp_IoGetDeviceToVerify:PPROC
+IoGetDeviceToVerify equ <__imp_IoGetDeviceToVerify>
+
+externdef __imp_IoGetDiskDeviceObject:PPROC
+IoGetDiskDeviceObject equ <__imp_IoGetDiskDeviceObject>
+
+externdef __imp_IoGetDmaAdapter:PPROC
+IoGetDmaAdapter equ <__imp_IoGetDmaAdapter>
+
+externdef __imp_IoGetDriverObjectExtension:PPROC
+IoGetDriverObjectExtension equ <__imp_IoGetDriverObjectExtension>
+
+externdef __imp_IoGetFileObjectGenericMapping:PPROC
+IoGetFileObjectGenericMapping equ <__imp_IoGetFileObjectGenericMapping>
+
+externdef __imp_IoGetInitialStack:PPROC
+IoGetInitialStack equ <__imp_IoGetInitialStack>
+
+externdef __imp_IoGetLowerDeviceObject:PPROC
+IoGetLowerDeviceObject equ <__imp_IoGetLowerDeviceObject>
+
+externdef __imp_IoGetPagingIoPriority:PPROC
+IoGetPagingIoPriority equ <__imp_IoGetPagingIoPriority>
+
+externdef __imp_IoGetRelatedDeviceObject:PPROC
+IoGetRelatedDeviceObject equ <__imp_IoGetRelatedDeviceObject>
+
+externdef __imp_IoGetRequestorProcess:PPROC
+IoGetRequestorProcess equ <__imp_IoGetRequestorProcess>
+
+externdef __imp_IoGetRequestorProcessId:PPROC
+IoGetRequestorProcessId equ <__imp_IoGetRequestorProcessId>
+
+externdef __imp_IoGetRequestorSessionId:PPROC
+IoGetRequestorSessionId equ <__imp_IoGetRequestorSessionId>
+
+externdef __imp_IoGetStackLimits:PPROC
+IoGetStackLimits equ <__imp_IoGetStackLimits>
+
+externdef __imp_IoGetTopLevelIrp:PPROC
+IoGetTopLevelIrp equ <__imp_IoGetTopLevelIrp>
+
+externdef __imp_IoInitializeIrp:PPROC
+IoInitializeIrp equ <__imp_IoInitializeIrp>
+
+externdef __imp_IoInitializeRemoveLockEx:PPROC
+IoInitializeRemoveLockEx equ <__imp_IoInitializeRemoveLockEx>
+
+externdef __imp_IoInitializeTimer:PPROC
+IoInitializeTimer equ <__imp_IoInitializeTimer>
+
+externdef __imp_IoInvalidateDeviceRelations:PPROC
+IoInvalidateDeviceRelations equ <__imp_IoInvalidateDeviceRelations>
+
+externdef __imp_IoInvalidateDeviceState:PPROC
+IoInvalidateDeviceState equ <__imp_IoInvalidateDeviceState>
+
+externdef __imp_IoIs32bitProcess:PPROC
+IoIs32bitProcess equ <__imp_IoIs32bitProcess>
+
+externdef __imp_IoIsFileOriginRemote:PPROC
+IoIsFileOriginRemote equ <__imp_IoIsFileOriginRemote>
+
+externdef __imp_IoIsOperationSynchronous:PPROC
+IoIsOperationSynchronous equ <__imp_IoIsOperationSynchronous>
+
+externdef __imp_IoIsSystemThread:PPROC
+IoIsSystemThread equ <__imp_IoIsSystemThread>
+
+externdef __imp_IoIsValidNameGraftingBuffer:PPROC
+IoIsValidNameGraftingBuffer equ <__imp_IoIsValidNameGraftingBuffer>
+
+externdef __imp_IoIsWdmVersionAvailable:PPROC
+IoIsWdmVersionAvailable equ <__imp_IoIsWdmVersionAvailable>
+
+externdef __imp_IoMakeAssociatedIrp:PPROC
+IoMakeAssociatedIrp equ <__imp_IoMakeAssociatedIrp>
+
+externdef __imp_IoOpenDeviceInterfaceRegistryKey:PPROC
+IoOpenDeviceInterfaceRegistryKey equ <__imp_IoOpenDeviceInterfaceRegistryKey>
+
+externdef __imp_IoOpenDeviceRegistryKey:PPROC
+IoOpenDeviceRegistryKey equ <__imp_IoOpenDeviceRegistryKey>
+
+externdef __imp_IoPageRead:PPROC
+IoPageRead equ <__imp_IoPageRead>
+
+externdef __imp_IoPnPDeliverServicePowerNotification:PPROC
+IoPnPDeliverServicePowerNotification equ <__imp_IoPnPDeliverServicePowerNotification>
+
+externdef __imp_IoQueryDeviceDescription:PPROC
+IoQueryDeviceDescription equ <__imp_IoQueryDeviceDescription>
+
+externdef __imp_IoQueryFileDosDeviceName:PPROC
+IoQueryFileDosDeviceName equ <__imp_IoQueryFileDosDeviceName>
+
+externdef __imp_IoQueryFileInformation:PPROC
+IoQueryFileInformation equ <__imp_IoQueryFileInformation>
+
+externdef __imp_IoQueryVolumeInformation:PPROC
+IoQueryVolumeInformation equ <__imp_IoQueryVolumeInformation>
+
+externdef __imp_IoQueueThreadIrp:PPROC
+IoQueueThreadIrp equ <__imp_IoQueueThreadIrp>
+
+externdef __imp_IoQueueWorkItem:PPROC
+IoQueueWorkItem equ <__imp_IoQueueWorkItem>
+
+externdef __imp_IoRaiseHardError:PPROC
+IoRaiseHardError equ <__imp_IoRaiseHardError>
+
+externdef __imp_IoRaiseInformationalHardError:PPROC
+IoRaiseInformationalHardError equ <__imp_IoRaiseInformationalHardError>
+
+externdef __imp_IoReadDiskSignature:PPROC
+IoReadDiskSignature equ <__imp_IoReadDiskSignature>
+
+externdef __imp_IoReadOperationCount:PPROC
+IoReadOperationCount equ <__imp_IoReadOperationCount>
+
+externdef __imp_IoReadPartitionTable:PPROC
+IoReadPartitionTable equ <__imp_IoReadPartitionTable>
+
+externdef __imp_IoReadPartitionTableEx:PPROC
+IoReadPartitionTableEx equ <__imp_IoReadPartitionTableEx>
+
+externdef __imp_IoReadTransferCount:PPROC
+IoReadTransferCount equ <__imp_IoReadTransferCount>
+
+externdef __imp_IoRegisterBootDriverReinitialization:PPROC
+IoRegisterBootDriverReinitialization equ <__imp_IoRegisterBootDriverReinitialization>
+
+externdef __imp_IoRegisterDeviceInterface:PPROC
+IoRegisterDeviceInterface equ <__imp_IoRegisterDeviceInterface>
+
+externdef __imp_IoRegisterDriverReinitialization:PPROC
+IoRegisterDriverReinitialization equ <__imp_IoRegisterDriverReinitialization>
+
+externdef __imp_IoRegisterFileSystem:PPROC
+IoRegisterFileSystem equ <__imp_IoRegisterFileSystem>
+
+externdef __imp_IoRegisterFsRegistrationChange:PPROC
+IoRegisterFsRegistrationChange equ <__imp_IoRegisterFsRegistrationChange>
+
+externdef __imp_IoRegisterLastChanceShutdownNotification:PPROC
+IoRegisterLastChanceShutdownNotification equ <__imp_IoRegisterLastChanceShutdownNotification>
+
+externdef __imp_IoRegisterPlugPlayNotification:PPROC
+IoRegisterPlugPlayNotification equ <__imp_IoRegisterPlugPlayNotification>
+
+externdef __imp_IoRegisterShutdownNotification:PPROC
+IoRegisterShutdownNotification equ <__imp_IoRegisterShutdownNotification>
+
+externdef __imp_IoReleaseCancelSpinLock:PPROC
+IoReleaseCancelSpinLock equ <__imp_IoReleaseCancelSpinLock>
+
+externdef __imp_IoReleaseRemoveLockAndWaitEx:PPROC
+IoReleaseRemoveLockAndWaitEx equ <__imp_IoReleaseRemoveLockAndWaitEx>
+
+externdef __imp_IoReleaseRemoveLockEx:PPROC
+IoReleaseRemoveLockEx equ <__imp_IoReleaseRemoveLockEx>
+
+externdef __imp_IoReleaseVpbSpinLock:PPROC
+IoReleaseVpbSpinLock equ <__imp_IoReleaseVpbSpinLock>
+
+externdef __imp_IoRemoveShareAccess:PPROC
+IoRemoveShareAccess equ <__imp_IoRemoveShareAccess>
+
+externdef __imp_IoReportDetectedDevice:PPROC
+IoReportDetectedDevice equ <__imp_IoReportDetectedDevice>
+
+externdef __imp_IoReportHalResourceUsage:PPROC
+IoReportHalResourceUsage equ <__imp_IoReportHalResourceUsage>
+
+externdef __imp_IoReportResourceForDetection:PPROC
+IoReportResourceForDetection equ <__imp_IoReportResourceForDetection>
+
+externdef __imp_IoReportResourceUsage:PPROC
+IoReportResourceUsage equ <__imp_IoReportResourceUsage>
+
+externdef __imp_IoReportTargetDeviceChange:PPROC
+IoReportTargetDeviceChange equ <__imp_IoReportTargetDeviceChange>
+
+externdef __imp_IoReportTargetDeviceChangeAsynchronous:PPROC
+IoReportTargetDeviceChangeAsynchronous equ <__imp_IoReportTargetDeviceChangeAsynchronous>
+
+externdef __imp_IoRequestDeviceEject:PPROC
+IoRequestDeviceEject equ <__imp_IoRequestDeviceEject>
+
+externdef __imp_IoReuseIrp:PPROC
+IoReuseIrp equ <__imp_IoReuseIrp>
+
+externdef __imp_IoSetCompletionRoutineEx:PPROC
+IoSetCompletionRoutineEx equ <__imp_IoSetCompletionRoutineEx>
+
+externdef __imp_IoSetDeviceInterfaceState:PPROC
+IoSetDeviceInterfaceState equ <__imp_IoSetDeviceInterfaceState>
+
+externdef __imp_IoSetDeviceToVerify:PPROC
+IoSetDeviceToVerify equ <__imp_IoSetDeviceToVerify>
+
+externdef __imp_IoSetFileOrigin:PPROC
+IoSetFileOrigin equ <__imp_IoSetFileOrigin>
+
+externdef __imp_IoSetHardErrorOrVerifyDevice:PPROC
+IoSetHardErrorOrVerifyDevice equ <__imp_IoSetHardErrorOrVerifyDevice>
+
+externdef __imp_IoSetInformation:PPROC
+IoSetInformation equ <__imp_IoSetInformation>
+
+externdef __imp_IoSetIoCompletion:PPROC
+IoSetIoCompletion equ <__imp_IoSetIoCompletion>
+
+externdef __imp_IoSetPartitionInformation:PPROC
+IoSetPartitionInformation equ <__imp_IoSetPartitionInformation>
+
+externdef __imp_IoSetPartitionInformationEx:PPROC
+IoSetPartitionInformationEx equ <__imp_IoSetPartitionInformationEx>
+
+externdef __imp_IoSetShareAccess:PPROC
+IoSetShareAccess equ <__imp_IoSetShareAccess>
+
+externdef __imp_IoSetStartIoAttributes:PPROC
+IoSetStartIoAttributes equ <__imp_IoSetStartIoAttributes>
+
+externdef __imp_IoSetSystemPartition:PPROC
+IoSetSystemPartition equ <__imp_IoSetSystemPartition>
+
+externdef __imp_IoSetThreadHardErrorMode:PPROC
+IoSetThreadHardErrorMode equ <__imp_IoSetThreadHardErrorMode>
+
+externdef __imp_IoSetTopLevelIrp:PPROC
+IoSetTopLevelIrp equ <__imp_IoSetTopLevelIrp>
+
+externdef __imp_IoStartNextPacket:PPROC
+IoStartNextPacket equ <__imp_IoStartNextPacket>
+
+externdef __imp_IoStartNextPacketByKey:PPROC
+IoStartNextPacketByKey equ <__imp_IoStartNextPacketByKey>
+
+externdef __imp_IoStartPacket:PPROC
+IoStartPacket equ <__imp_IoStartPacket>
+
+externdef __imp_IoStartTimer:PPROC
+IoStartTimer equ <__imp_IoStartTimer>
+
+externdef __imp_IoStatisticsLock:PPROC
+IoStatisticsLock equ <__imp_IoStatisticsLock>
+
+externdef __imp_IoStopTimer:PPROC
+IoStopTimer equ <__imp_IoStopTimer>
+
+externdef __imp_IoSynchronousInvalidateDeviceRelations:PPROC
+IoSynchronousInvalidateDeviceRelations equ <__imp_IoSynchronousInvalidateDeviceRelations>
+
+externdef __imp_IoSynchronousPageWrite:PPROC
+IoSynchronousPageWrite equ <__imp_IoSynchronousPageWrite>
+
+externdef __imp_IoThreadToProcess:PPROC
+IoThreadToProcess equ <__imp_IoThreadToProcess>
+
+externdef __imp_IoTranslateBusAddress:PPROC
+IoTranslateBusAddress equ <__imp_IoTranslateBusAddress>
+
+externdef __imp_IoUnregisterFileSystem:PPROC
+IoUnregisterFileSystem equ <__imp_IoUnregisterFileSystem>
+
+externdef __imp_IoUnregisterFsRegistrationChange:PPROC
+IoUnregisterFsRegistrationChange equ <__imp_IoUnregisterFsRegistrationChange>
+
+externdef __imp_IoUnregisterPlugPlayNotification:PPROC
+IoUnregisterPlugPlayNotification equ <__imp_IoUnregisterPlugPlayNotification>
+
+externdef __imp_IoUnregisterShutdownNotification:PPROC
+IoUnregisterShutdownNotification equ <__imp_IoUnregisterShutdownNotification>
+
+externdef __imp_IoUpdateShareAccess:PPROC
+IoUpdateShareAccess equ <__imp_IoUpdateShareAccess>
+
+externdef __imp_IoValidateDeviceIoControlAccess:PPROC
+IoValidateDeviceIoControlAccess equ <__imp_IoValidateDeviceIoControlAccess>
+
+externdef __imp_IoVerifyPartitionTable:PPROC
+IoVerifyPartitionTable equ <__imp_IoVerifyPartitionTable>
+
+externdef __imp_IoVerifyVolume:PPROC
+IoVerifyVolume equ <__imp_IoVerifyVolume>
+
+externdef __imp_IoVolumeDeviceToDosName:PPROC
+IoVolumeDeviceToDosName equ <__imp_IoVolumeDeviceToDosName>
+
+externdef __imp_IoWMIAllocateInstanceIds:PPROC
+IoWMIAllocateInstanceIds equ <__imp_IoWMIAllocateInstanceIds>
+
+externdef __imp_IoWMIDeviceObjectToInstanceName:PPROC
+IoWMIDeviceObjectToInstanceName equ <__imp_IoWMIDeviceObjectToInstanceName>
+
+externdef __imp_IoWMIDeviceObjectToProviderId:PPROC
+IoWMIDeviceObjectToProviderId equ <__imp_IoWMIDeviceObjectToProviderId>
+
+externdef __imp_IoWMIExecuteMethod:PPROC
+IoWMIExecuteMethod equ <__imp_IoWMIExecuteMethod>
+
+externdef __imp_IoWMIHandleToInstanceName:PPROC
+IoWMIHandleToInstanceName equ <__imp_IoWMIHandleToInstanceName>
+
+externdef __imp_IoWMIOpenBlock:PPROC
+IoWMIOpenBlock equ <__imp_IoWMIOpenBlock>
+
+externdef __imp_IoWMIQueryAllData:PPROC
+IoWMIQueryAllData equ <__imp_IoWMIQueryAllData>
+
+externdef __imp_IoWMIQueryAllDataMultiple:PPROC
+IoWMIQueryAllDataMultiple equ <__imp_IoWMIQueryAllDataMultiple>
+
+externdef __imp_IoWMIQuerySingleInstance:PPROC
+IoWMIQuerySingleInstance equ <__imp_IoWMIQuerySingleInstance>
+
+externdef __imp_IoWMIQuerySingleInstanceMultiple:PPROC
+IoWMIQuerySingleInstanceMultiple equ <__imp_IoWMIQuerySingleInstanceMultiple>
+
+externdef __imp_IoWMIRegistrationControl:PPROC
+IoWMIRegistrationControl equ <__imp_IoWMIRegistrationControl>
+
+externdef __imp_IoWMISetNotificationCallback:PPROC
+IoWMISetNotificationCallback equ <__imp_IoWMISetNotificationCallback>
+
+externdef __imp_IoWMISetSingleInstance:PPROC
+IoWMISetSingleInstance equ <__imp_IoWMISetSingleInstance>
+
+externdef __imp_IoWMISetSingleItem:PPROC
+IoWMISetSingleItem equ <__imp_IoWMISetSingleItem>
+
+externdef __imp_IoWMISuggestInstanceName:PPROC
+IoWMISuggestInstanceName equ <__imp_IoWMISuggestInstanceName>
+
+externdef __imp_IoWMIWriteEvent:PPROC
+IoWMIWriteEvent equ <__imp_IoWMIWriteEvent>
+
+externdef __imp_IoWriteErrorLogEntry:PPROC
+IoWriteErrorLogEntry equ <__imp_IoWriteErrorLogEntry>
+
+externdef __imp_IoWriteOperationCount:PPROC
+IoWriteOperationCount equ <__imp_IoWriteOperationCount>
+
+externdef __imp_IoWritePartitionTable:PPROC
+IoWritePartitionTable equ <__imp_IoWritePartitionTable>
+
+externdef __imp_IoWritePartitionTableEx:PPROC
+IoWritePartitionTableEx equ <__imp_IoWritePartitionTableEx>
+
+externdef __imp_IoWriteTransferCount:PPROC
+IoWriteTransferCount equ <__imp_IoWriteTransferCount>
+
+externdef __imp_IofCallDriver:PPROC
+IofCallDriver equ <__imp_IofCallDriver>
+
+externdef __imp_IofCompleteRequest:PPROC
+IofCompleteRequest equ <__imp_IofCompleteRequest>
+
+externdef __imp_KdChangeOption:PPROC
+KdChangeOption equ <__imp_KdChangeOption>
+
+externdef __imp_KdDebuggerEnabled:PPROC
+KdDebuggerEnabled equ <__imp_KdDebuggerEnabled>
+
+externdef __imp_KdDebuggerNotPresent:PPROC
+KdDebuggerNotPresent equ <__imp_KdDebuggerNotPresent>
+
+externdef __imp_KdDisableDebugger:PPROC
+KdDisableDebugger equ <__imp_KdDisableDebugger>
+
+externdef __imp_KdEnableDebugger:PPROC
+KdEnableDebugger equ <__imp_KdEnableDebugger>
+
+externdef __imp_KdEnteredDebugger:PPROC
+KdEnteredDebugger equ <__imp_KdEnteredDebugger>
+
+externdef __imp_KdPollBreakIn:PPROC
+KdPollBreakIn equ <__imp_KdPollBreakIn>
+
+externdef __imp_KdPowerTransition:PPROC
+KdPowerTransition equ <__imp_KdPowerTransition>
+
+externdef __imp_KdRefreshDebuggerNotPresent:PPROC
+KdRefreshDebuggerNotPresent equ <__imp_KdRefreshDebuggerNotPresent>
+
+externdef __imp_KdSystemDebugControl:PPROC
+KdSystemDebugControl equ <__imp_KdSystemDebugControl>
+
+externdef __imp_KeAcquireGuardedMutex:PPROC
+KeAcquireGuardedMutex equ <__imp_KeAcquireGuardedMutex>
+
+externdef __imp_KeAcquireGuardedMutexUnsafe:PPROC
+KeAcquireGuardedMutexUnsafe equ <__imp_KeAcquireGuardedMutexUnsafe>
+
+externdef __imp_KeAcquireInStackQueuedSpinLock:PPROC
+KeAcquireInStackQueuedSpinLock equ <__imp_KeAcquireInStackQueuedSpinLock>
+
+externdef __imp_KeAcquireInStackQueuedSpinLockAtDpcLevel:PPROC
+KeAcquireInStackQueuedSpinLockAtDpcLevel equ <__imp_KeAcquireInStackQueuedSpinLockAtDpcLevel>
+
+externdef __imp_KeAcquireInStackQueuedSpinLockForDpc:PPROC
+KeAcquireInStackQueuedSpinLockForDpc equ <__imp_KeAcquireInStackQueuedSpinLockForDpc>
+
+externdef __imp_KeAcquireInStackQueuedSpinLockRaiseToSynch:PPROC
+KeAcquireInStackQueuedSpinLockRaiseToSynch equ <__imp_KeAcquireInStackQueuedSpinLockRaiseToSynch>
+
+externdef __imp_KeAcquireInterruptSpinLock:PPROC
+KeAcquireInterruptSpinLock equ <__imp_KeAcquireInterruptSpinLock>
+
+externdef __imp_KeAcquireQueuedSpinLock:PPROC
+KeAcquireQueuedSpinLock equ <__imp_KeAcquireQueuedSpinLock>
+
+externdef __imp_KeAcquireQueuedSpinLockRaiseToSynch:PPROC
+KeAcquireQueuedSpinLockRaiseToSynch equ <__imp_KeAcquireQueuedSpinLockRaiseToSynch>
+
+externdef __imp_KeAcquireSpinLockAtDpcLevel:PPROC
+KeAcquireSpinLockAtDpcLevel equ <__imp_KeAcquireSpinLockAtDpcLevel>
+
+externdef __imp_KeAcquireSpinLockForDpc:PPROC
+KeAcquireSpinLockForDpc equ <__imp_KeAcquireSpinLockForDpc>
+
+externdef __imp_KeAcquireSpinLockRaiseToDpc:PPROC
+KeAcquireSpinLockRaiseToDpc equ <__imp_KeAcquireSpinLockRaiseToDpc>
+
+externdef __imp_KeAcquireSpinLockRaiseToSynch:PPROC
+KeAcquireSpinLockRaiseToSynch equ <__imp_KeAcquireSpinLockRaiseToSynch>
+
+externdef __imp_KeAddSystemServiceTable:PPROC
+KeAddSystemServiceTable equ <__imp_KeAddSystemServiceTable>
+
+externdef __imp_KeAreAllApcsDisabled:PPROC
+KeAreAllApcsDisabled equ <__imp_KeAreAllApcsDisabled>
+
+externdef __imp_KeAreApcsDisabled:PPROC
+KeAreApcsDisabled equ <__imp_KeAreApcsDisabled>
+
+externdef __imp_KeAttachProcess:PPROC
+KeAttachProcess equ <__imp_KeAttachProcess>
+
+externdef __imp_KeBugCheck:PPROC
+KeBugCheck equ <__imp_KeBugCheck>
+
+externdef __imp_KeBugCheckEx:PPROC
+KeBugCheckEx equ <__imp_KeBugCheckEx>
+
+externdef __imp_KeCancelTimer:PPROC
+KeCancelTimer equ <__imp_KeCancelTimer>
+
+externdef __imp_KeCapturePersistentThreadState:PPROC
+KeCapturePersistentThreadState equ <__imp_KeCapturePersistentThreadState>
+
+externdef __imp_KeClearEvent:PPROC
+KeClearEvent equ <__imp_KeClearEvent>
+
+externdef __imp_KeConnectInterrupt:PPROC
+KeConnectInterrupt equ <__imp_KeConnectInterrupt>
+
+externdef __imp_KeDelayExecutionThread:PPROC
+KeDelayExecutionThread equ <__imp_KeDelayExecutionThread>
+
+externdef __imp_KeDeregisterBugCheckCallback:PPROC
+KeDeregisterBugCheckCallback equ <__imp_KeDeregisterBugCheckCallback>
+
+externdef __imp_KeDeregisterBugCheckReasonCallback:PPROC
+KeDeregisterBugCheckReasonCallback equ <__imp_KeDeregisterBugCheckReasonCallback>
+
+externdef __imp_KeDeregisterNmiCallback:PPROC
+KeDeregisterNmiCallback equ <__imp_KeDeregisterNmiCallback>
+
+externdef __imp_KeDetachProcess:PPROC
+KeDetachProcess equ <__imp_KeDetachProcess>
+
+externdef __imp_KeDisconnectInterrupt:PPROC
+KeDisconnectInterrupt equ <__imp_KeDisconnectInterrupt>
+
+externdef __imp_KeEnterCriticalRegion:PPROC
+KeEnterCriticalRegion equ <__imp_KeEnterCriticalRegion>
+
+externdef __imp_KeEnterGuardedRegion:PPROC
+KeEnterGuardedRegion equ <__imp_KeEnterGuardedRegion>
+
+externdef __imp_KeEnterKernelDebugger:PPROC
+KeEnterKernelDebugger equ <__imp_KeEnterKernelDebugger>
+
+externdef __imp_KeExpandKernelStackAndCallout:PPROC
+KeExpandKernelStackAndCallout equ <__imp_KeExpandKernelStackAndCallout>
+
+externdef __imp_KeFindConfigurationEntry:PPROC
+KeFindConfigurationEntry equ <__imp_KeFindConfigurationEntry>
+
+externdef __imp_KeFindConfigurationNextEntry:PPROC
+KeFindConfigurationNextEntry equ <__imp_KeFindConfigurationNextEntry>
+
+externdef __imp_KeFlushEntireTb:PPROC
+KeFlushEntireTb equ <__imp_KeFlushEntireTb>
+
+externdef __imp_KeFlushQueuedDpcs:PPROC
+KeFlushQueuedDpcs equ <__imp_KeFlushQueuedDpcs>
+
+externdef __imp_KeGenericCallDpc:PPROC
+KeGenericCallDpc equ <__imp_KeGenericCallDpc>
+
+externdef __imp_KeGetCurrentIrql:PPROC
+KeGetCurrentIrql equ <__imp_KeGetCurrentIrql>
+
+externdef __imp_KeGetCurrentThread:PPROC
+KeGetCurrentThread equ <__imp_KeGetCurrentThread>
+
+externdef __imp_KeGetRecommendedSharedDataAlignment:PPROC
+KeGetRecommendedSharedDataAlignment equ <__imp_KeGetRecommendedSharedDataAlignment>
+
+externdef __imp_KeInitializeApc:PPROC
+KeInitializeApc equ <__imp_KeInitializeApc>
+
+externdef __imp_KeInitializeCrashDumpHeader:PPROC
+KeInitializeCrashDumpHeader equ <__imp_KeInitializeCrashDumpHeader>
+
+externdef __imp_KeInitializeDeviceQueue:PPROC
+KeInitializeDeviceQueue equ <__imp_KeInitializeDeviceQueue>
+
+externdef __imp_KeInitializeDpc:PPROC
+KeInitializeDpc equ <__imp_KeInitializeDpc>
+
+externdef __imp_KeInitializeEvent:PPROC
+KeInitializeEvent equ <__imp_KeInitializeEvent>
+
+externdef __imp_KeInitializeGuardedMutex:PPROC
+KeInitializeGuardedMutex equ <__imp_KeInitializeGuardedMutex>
+
+externdef __imp_KeInitializeInterrupt:PPROC
+KeInitializeInterrupt equ <__imp_KeInitializeInterrupt>
+
+externdef __imp_KeInitializeMutant:PPROC
+KeInitializeMutant equ <__imp_KeInitializeMutant>
+
+externdef __imp_KeInitializeMutex:PPROC
+KeInitializeMutex equ <__imp_KeInitializeMutex>
+
+externdef __imp_KeInitializeQueue:PPROC
+KeInitializeQueue equ <__imp_KeInitializeQueue>
+
+externdef __imp_KeInitializeSemaphore:PPROC
+KeInitializeSemaphore equ <__imp_KeInitializeSemaphore>
+
+externdef __imp_KeInitializeThreadedDpc:PPROC
+KeInitializeThreadedDpc equ <__imp_KeInitializeThreadedDpc>
+
+externdef __imp_KeInitializeTimer:PPROC
+KeInitializeTimer equ <__imp_KeInitializeTimer>
+
+externdef __imp_KeInitializeTimerEx:PPROC
+KeInitializeTimerEx equ <__imp_KeInitializeTimerEx>
+
+externdef __imp_KeInsertByKeyDeviceQueue:PPROC
+KeInsertByKeyDeviceQueue equ <__imp_KeInsertByKeyDeviceQueue>
+
+externdef __imp_KeInsertDeviceQueue:PPROC
+KeInsertDeviceQueue equ <__imp_KeInsertDeviceQueue>
+
+externdef __imp_KeInsertHeadQueue:PPROC
+KeInsertHeadQueue equ <__imp_KeInsertHeadQueue>
+
+externdef __imp_KeInsertQueue:PPROC
+KeInsertQueue equ <__imp_KeInsertQueue>
+
+externdef __imp_KeInsertQueueApc:PPROC
+KeInsertQueueApc equ <__imp_KeInsertQueueApc>
+
+externdef __imp_KeInsertQueueDpc:PPROC
+KeInsertQueueDpc equ <__imp_KeInsertQueueDpc>
+
+externdef __imp_KeInvalidateAllCaches:PPROC
+KeInvalidateAllCaches equ <__imp_KeInvalidateAllCaches>
+
+externdef __imp_KeIpiGenericCall:PPROC
+KeIpiGenericCall equ <__imp_KeIpiGenericCall>
+
+externdef __imp_KeIsAttachedProcess:PPROC
+KeIsAttachedProcess equ <__imp_KeIsAttachedProcess>
+
+externdef __imp_KeIsWaitListEmpty:PPROC
+KeIsWaitListEmpty equ <__imp_KeIsWaitListEmpty>
+
+externdef __imp_KeLastBranchMSR:PPROC
+KeLastBranchMSR equ <__imp_KeLastBranchMSR>
+
+externdef __imp_KeLeaveCriticalRegion:PPROC
+KeLeaveCriticalRegion equ <__imp_KeLeaveCriticalRegion>
+
+externdef __imp_KeLeaveGuardedRegion:PPROC
+KeLeaveGuardedRegion equ <__imp_KeLeaveGuardedRegion>
+
+externdef __imp_KeLoaderBlock:PPROC
+KeLoaderBlock equ <__imp_KeLoaderBlock>
+
+externdef __imp_KeLowerIrql:PPROC
+KeLowerIrql equ <__imp_KeLowerIrql>
+
+externdef __imp_KeNumberProcessors:PPROC
+KeNumberProcessors equ <__imp_KeNumberProcessors>
+
+externdef __imp_KeProfileInterruptWithSource:PPROC
+KeProfileInterruptWithSource equ <__imp_KeProfileInterruptWithSource>
+
+externdef __imp_KePulseEvent:PPROC
+KePulseEvent equ <__imp_KePulseEvent>
+
+externdef __imp_KeQueryActiveProcessors:PPROC
+KeQueryActiveProcessors equ <__imp_KeQueryActiveProcessors>
+
+externdef __imp_KeQueryMultiThreadProcessorSet:PPROC
+KeQueryMultiThreadProcessorSet equ <__imp_KeQueryMultiThreadProcessorSet>
+
+externdef __imp_KeQueryPrcbAddress:PPROC
+KeQueryPrcbAddress equ <__imp_KeQueryPrcbAddress>
+
+externdef __imp_KeQueryPriorityThread:PPROC
+KeQueryPriorityThread equ <__imp_KeQueryPriorityThread>
+
+externdef __imp_KeQueryRuntimeThread:PPROC
+KeQueryRuntimeThread equ <__imp_KeQueryRuntimeThread>
+
+externdef __imp_KeQueryTimeIncrement:PPROC
+KeQueryTimeIncrement equ <__imp_KeQueryTimeIncrement>
+
+externdef __imp_KeRaiseIrqlToDpcLevel:PPROC
+KeRaiseIrqlToDpcLevel equ <__imp_KeRaiseIrqlToDpcLevel>
+
+externdef __imp_KeRaiseUserException:PPROC
+KeRaiseUserException equ <__imp_KeRaiseUserException>
+
+externdef __imp_KeReadStateEvent:PPROC
+KeReadStateEvent equ <__imp_KeReadStateEvent>
+
+externdef __imp_KeReadStateMutant:PPROC
+KeReadStateMutant equ <__imp_KeReadStateMutant>
+
+externdef __imp_KeReadStateMutex:PPROC
+KeReadStateMutex equ <__imp_KeReadStateMutex>
+
+externdef __imp_KeReadStateQueue:PPROC
+KeReadStateQueue equ <__imp_KeReadStateQueue>
+
+externdef __imp_KeReadStateSemaphore:PPROC
+KeReadStateSemaphore equ <__imp_KeReadStateSemaphore>
+
+externdef __imp_KeReadStateTimer:PPROC
+KeReadStateTimer equ <__imp_KeReadStateTimer>
+
+externdef __imp_KeRegisterBugCheckCallback:PPROC
+KeRegisterBugCheckCallback equ <__imp_KeRegisterBugCheckCallback>
+
+externdef __imp_KeRegisterBugCheckReasonCallback:PPROC
+KeRegisterBugCheckReasonCallback equ <__imp_KeRegisterBugCheckReasonCallback>
+
+externdef __imp_KeRegisterNmiCallback:PPROC
+KeRegisterNmiCallback equ <__imp_KeRegisterNmiCallback>
+
+externdef __imp_KeReleaseGuardedMutex:PPROC
+KeReleaseGuardedMutex equ <__imp_KeReleaseGuardedMutex>
+
+externdef __imp_KeReleaseGuardedMutexUnsafe:PPROC
+KeReleaseGuardedMutexUnsafe equ <__imp_KeReleaseGuardedMutexUnsafe>
+
+externdef __imp_KeReleaseInStackQueuedSpinLock:PPROC
+KeReleaseInStackQueuedSpinLock equ <__imp_KeReleaseInStackQueuedSpinLock>
+
+externdef __imp_KeReleaseInStackQueuedSpinLockForDpc:PPROC
+KeReleaseInStackQueuedSpinLockForDpc equ <__imp_KeReleaseInStackQueuedSpinLockForDpc>
+
+externdef __imp_KeReleaseInStackQueuedSpinLockFromDpcLevel:PPROC
+KeReleaseInStackQueuedSpinLockFromDpcLevel equ <__imp_KeReleaseInStackQueuedSpinLockFromDpcLevel>
+
+externdef __imp_KeReleaseInterruptSpinLock:PPROC
+KeReleaseInterruptSpinLock equ <__imp_KeReleaseInterruptSpinLock>
+
+externdef __imp_KeReleaseMutant:PPROC
+KeReleaseMutant equ <__imp_KeReleaseMutant>
+
+externdef __imp_KeReleaseMutex:PPROC
+KeReleaseMutex equ <__imp_KeReleaseMutex>
+
+externdef __imp_KeReleaseQueuedSpinLock:PPROC
+KeReleaseQueuedSpinLock equ <__imp_KeReleaseQueuedSpinLock>
+
+externdef __imp_KeReleaseSemaphore:PPROC
+KeReleaseSemaphore equ <__imp_KeReleaseSemaphore>
+
+externdef __imp_KeReleaseSpinLock:PPROC
+KeReleaseSpinLock equ <__imp_KeReleaseSpinLock>
+
+externdef __imp_KeReleaseSpinLockForDpc:PPROC
+KeReleaseSpinLockForDpc equ <__imp_KeReleaseSpinLockForDpc>
+
+externdef __imp_KeReleaseSpinLockFromDpcLevel:PPROC
+KeReleaseSpinLockFromDpcLevel equ <__imp_KeReleaseSpinLockFromDpcLevel>
+
+externdef __imp_KeRemoveByKeyDeviceQueue:PPROC
+KeRemoveByKeyDeviceQueue equ <__imp_KeRemoveByKeyDeviceQueue>
+
+externdef __imp_KeRemoveByKeyDeviceQueueIfBusy:PPROC
+KeRemoveByKeyDeviceQueueIfBusy equ <__imp_KeRemoveByKeyDeviceQueueIfBusy>
+
+externdef __imp_KeRemoveDeviceQueue:PPROC
+KeRemoveDeviceQueue equ <__imp_KeRemoveDeviceQueue>
+
+externdef __imp_KeRemoveEntryDeviceQueue:PPROC
+KeRemoveEntryDeviceQueue equ <__imp_KeRemoveEntryDeviceQueue>
+
+externdef __imp_KeRemoveQueue:PPROC
+KeRemoveQueue equ <__imp_KeRemoveQueue>
+
+externdef __imp_KeRemoveQueueDpc:PPROC
+KeRemoveQueueDpc equ <__imp_KeRemoveQueueDpc>
+
+externdef __imp_KeRemoveSystemServiceTable:PPROC
+KeRemoveSystemServiceTable equ <__imp_KeRemoveSystemServiceTable>
+
+externdef __imp_KeResetEvent:PPROC
+KeResetEvent equ <__imp_KeResetEvent>
+
+externdef __imp_KeRestoreFloatingPointState:PPROC
+KeRestoreFloatingPointState equ <__imp_KeRestoreFloatingPointState>
+
+externdef __imp_KeRevertToUserAffinityThread:PPROC
+KeRevertToUserAffinityThread equ <__imp_KeRevertToUserAffinityThread>
+
+externdef __imp_KeRundownQueue:PPROC
+KeRundownQueue equ <__imp_KeRundownQueue>
+
+externdef __imp_KeSaveFloatingPointState:PPROC
+KeSaveFloatingPointState equ <__imp_KeSaveFloatingPointState>
+
+externdef __imp_KeSaveStateForHibernate:PPROC
+KeSaveStateForHibernate equ <__imp_KeSaveStateForHibernate>
+
+externdef __imp_KeSetAffinityThread:PPROC
+KeSetAffinityThread equ <__imp_KeSetAffinityThread>
+
+externdef __imp_KeSetBasePriorityThread:PPROC
+KeSetBasePriorityThread equ <__imp_KeSetBasePriorityThread>
+
+externdef __imp_KeSetDmaIoCoherency:PPROC
+KeSetDmaIoCoherency equ <__imp_KeSetDmaIoCoherency>
+
+externdef __imp_KeSetEvent:PPROC
+KeSetEvent equ <__imp_KeSetEvent>
+
+externdef __imp_KeSetEventBoostPriority:PPROC
+KeSetEventBoostPriority equ <__imp_KeSetEventBoostPriority>
+
+externdef __imp_KeSetIdealProcessorThread:PPROC
+KeSetIdealProcessorThread equ <__imp_KeSetIdealProcessorThread>
+
+externdef __imp_KeSetImportanceDpc:PPROC
+KeSetImportanceDpc equ <__imp_KeSetImportanceDpc>
+
+externdef __imp_KeSetKernelStackSwapEnable:PPROC
+KeSetKernelStackSwapEnable equ <__imp_KeSetKernelStackSwapEnable>
+
+externdef __imp_KeSetPriorityThread:PPROC
+KeSetPriorityThread equ <__imp_KeSetPriorityThread>
+
+externdef __imp_KeSetProfileIrql:PPROC
+KeSetProfileIrql equ <__imp_KeSetProfileIrql>
+
+externdef __imp_KeSetSystemAffinityThread:PPROC
+KeSetSystemAffinityThread equ <__imp_KeSetSystemAffinityThread>
+
+externdef __imp_KeSetTargetProcessorDpc:PPROC
+KeSetTargetProcessorDpc equ <__imp_KeSetTargetProcessorDpc>
+
+externdef __imp_KeSetTimeIncrement:PPROC
+KeSetTimeIncrement equ <__imp_KeSetTimeIncrement>
+
+externdef __imp_KeSetTimer:PPROC
+KeSetTimer equ <__imp_KeSetTimer>
+
+externdef __imp_KeSetTimerEx:PPROC
+KeSetTimerEx equ <__imp_KeSetTimerEx>
+
+externdef __imp_KeSignalCallDpcDone:PPROC
+KeSignalCallDpcDone equ <__imp_KeSignalCallDpcDone>
+
+externdef __imp_KeSignalCallDpcSynchronize:PPROC
+KeSignalCallDpcSynchronize equ <__imp_KeSignalCallDpcSynchronize>
+
+externdef __imp_KeStackAttachProcess:PPROC
+KeStackAttachProcess equ <__imp_KeStackAttachProcess>
+
+externdef __imp_KeSynchronizeExecution:PPROC
+KeSynchronizeExecution equ <__imp_KeSynchronizeExecution>
+
+externdef __imp_KeTerminateThread:PPROC
+KeTerminateThread equ <__imp_KeTerminateThread>
+
+externdef __imp_KeTestSpinLock:PPROC
+KeTestSpinLock equ <__imp_KeTestSpinLock>
+
+externdef __imp_KeTryToAcquireGuardedMutex:PPROC
+KeTryToAcquireGuardedMutex equ <__imp_KeTryToAcquireGuardedMutex>
+
+externdef __imp_KeTryToAcquireQueuedSpinLock:PPROC
+KeTryToAcquireQueuedSpinLock equ <__imp_KeTryToAcquireQueuedSpinLock>
+
+externdef __imp_KeTryToAcquireQueuedSpinLockRaiseToSynch:PPROC
+KeTryToAcquireQueuedSpinLockRaiseToSynch equ <__imp_KeTryToAcquireQueuedSpinLockRaiseToSynch>
+
+externdef __imp_KeTryToAcquireSpinLockAtDpcLevel:PPROC
+KeTryToAcquireSpinLockAtDpcLevel equ <__imp_KeTryToAcquireSpinLockAtDpcLevel>
+
+externdef __imp_KeUnstackDetachProcess:PPROC
+KeUnstackDetachProcess equ <__imp_KeUnstackDetachProcess>
+
+externdef __imp_KeUpdateRunTime:PPROC
+KeUpdateRunTime equ <__imp_KeUpdateRunTime>
+
+externdef __imp_KeUpdateSystemTime:PPROC
+KeUpdateSystemTime equ <__imp_KeUpdateSystemTime>
+
+externdef __imp_KeUserModeCallback:PPROC
+KeUserModeCallback equ <__imp_KeUserModeCallback>
+
+externdef __imp_KeWaitForMultipleObjects:PPROC
+KeWaitForMultipleObjects equ <__imp_KeWaitForMultipleObjects>
+
+externdef __imp_KeWaitForMutexObject:PPROC
+KeWaitForMutexObject equ <__imp_KeWaitForMutexObject>
+
+externdef __imp_KeWaitForSingleObject:PPROC
+KeWaitForSingleObject equ <__imp_KeWaitForSingleObject>
+
+externdef __imp_KfRaiseIrql:PPROC
+KfRaiseIrql equ <__imp_KfRaiseIrql>
+
+externdef __imp_KiBugCheckData:PPROC
+KiBugCheckData equ <__imp_KiBugCheckData>
+
+externdef __imp_KiCheckForKernelApcDelivery:PPROC
+KiCheckForKernelApcDelivery equ <__imp_KiCheckForKernelApcDelivery>
+
+externdef __imp_KiCpuId:PPROC
+KiCpuId equ <__imp_KiCpuId>
+
+externdef __imp_LdrAccessResource:PPROC
+LdrAccessResource equ <__imp_LdrAccessResource>
+
+externdef __imp_LdrEnumResources:PPROC
+LdrEnumResources equ <__imp_LdrEnumResources>
+
+externdef __imp_LdrFindResourceDirectory_U:PPROC
+LdrFindResourceDirectory_U equ <__imp_LdrFindResourceDirectory_U>
+
+externdef __imp_LdrFindResource_U:PPROC
+LdrFindResource_U equ <__imp_LdrFindResource_U>
+
+externdef __imp_LpcPortObjectType:PPROC
+LpcPortObjectType equ <__imp_LpcPortObjectType>
+
+externdef __imp_LpcRequestPort:PPROC
+LpcRequestPort equ <__imp_LpcRequestPort>
+
+externdef __imp_LpcRequestWaitReplyPort:PPROC
+LpcRequestWaitReplyPort equ <__imp_LpcRequestWaitReplyPort>
+
+externdef __imp_LsaCallAuthenticationPackage:PPROC
+LsaCallAuthenticationPackage equ <__imp_LsaCallAuthenticationPackage>
+
+externdef __imp_LsaDeregisterLogonProcess:PPROC
+LsaDeregisterLogonProcess equ <__imp_LsaDeregisterLogonProcess>
+
+externdef __imp_LsaFreeReturnBuffer:PPROC
+LsaFreeReturnBuffer equ <__imp_LsaFreeReturnBuffer>
+
+externdef __imp_LsaLogonUser:PPROC
+LsaLogonUser equ <__imp_LsaLogonUser>
+
+externdef __imp_LsaLookupAuthenticationPackage:PPROC
+LsaLookupAuthenticationPackage equ <__imp_LsaLookupAuthenticationPackage>
+
+externdef __imp_LsaRegisterLogonProcess:PPROC
+LsaRegisterLogonProcess equ <__imp_LsaRegisterLogonProcess>
+
+externdef __imp_Mm64BitPhysicalAddress:PPROC
+Mm64BitPhysicalAddress equ <__imp_Mm64BitPhysicalAddress>
+
+externdef __imp_MmAddPhysicalMemory:PPROC
+MmAddPhysicalMemory equ <__imp_MmAddPhysicalMemory>
+
+externdef __imp_MmAddVerifierThunks:PPROC
+MmAddVerifierThunks equ <__imp_MmAddVerifierThunks>
+
+externdef __imp_MmAdjustWorkingSetSize:PPROC
+MmAdjustWorkingSetSize equ <__imp_MmAdjustWorkingSetSize>
+
+externdef __imp_MmAdvanceMdl:PPROC
+MmAdvanceMdl equ <__imp_MmAdvanceMdl>
+
+externdef __imp_MmAllocateContiguousMemory:PPROC
+MmAllocateContiguousMemory equ <__imp_MmAllocateContiguousMemory>
+
+externdef __imp_MmAllocateContiguousMemorySpecifyCache:PPROC
+MmAllocateContiguousMemorySpecifyCache equ <__imp_MmAllocateContiguousMemorySpecifyCache>
+
+externdef __imp_MmAllocateMappingAddress:PPROC
+MmAllocateMappingAddress equ <__imp_MmAllocateMappingAddress>
+
+externdef __imp_MmAllocateNonCachedMemory:PPROC
+MmAllocateNonCachedMemory equ <__imp_MmAllocateNonCachedMemory>
+
+externdef __imp_MmAllocatePagesForMdl:PPROC
+MmAllocatePagesForMdl equ <__imp_MmAllocatePagesForMdl>
+
+externdef __imp_MmAllocatePagesForMdlEx:PPROC
+MmAllocatePagesForMdlEx equ <__imp_MmAllocatePagesForMdlEx>
+
+externdef __imp_MmBuildMdlForNonPagedPool:PPROC
+MmBuildMdlForNonPagedPool equ <__imp_MmBuildMdlForNonPagedPool>
+
+externdef __imp_MmCanFileBeTruncated:PPROC
+MmCanFileBeTruncated equ <__imp_MmCanFileBeTruncated>
+
+externdef __imp_MmCommitSessionMappedView:PPROC
+MmCommitSessionMappedView equ <__imp_MmCommitSessionMappedView>
+
+externdef __imp_MmCreateMdl:PPROC
+MmCreateMdl equ <__imp_MmCreateMdl>
+
+externdef __imp_MmCreateMirror:PPROC
+MmCreateMirror equ <__imp_MmCreateMirror>
+
+externdef __imp_MmCreateSection:PPROC
+MmCreateSection equ <__imp_MmCreateSection>
+
+externdef __imp_MmDisableModifiedWriteOfSection:PPROC
+MmDisableModifiedWriteOfSection equ <__imp_MmDisableModifiedWriteOfSection>
+
+externdef __imp_MmDoesFileHaveUserWritableReferences:PPROC
+MmDoesFileHaveUserWritableReferences equ <__imp_MmDoesFileHaveUserWritableReferences>
+
+externdef __imp_MmFlushImageSection:PPROC
+MmFlushImageSection equ <__imp_MmFlushImageSection>
+
+externdef __imp_MmForceSectionClosed:PPROC
+MmForceSectionClosed equ <__imp_MmForceSectionClosed>
+
+externdef __imp_MmFreeContiguousMemory:PPROC
+MmFreeContiguousMemory equ <__imp_MmFreeContiguousMemory>
+
+externdef __imp_MmFreeContiguousMemorySpecifyCache:PPROC
+MmFreeContiguousMemorySpecifyCache equ <__imp_MmFreeContiguousMemorySpecifyCache>
+
+externdef __imp_MmFreeMappingAddress:PPROC
+MmFreeMappingAddress equ <__imp_MmFreeMappingAddress>
+
+externdef __imp_MmFreeNonCachedMemory:PPROC
+MmFreeNonCachedMemory equ <__imp_MmFreeNonCachedMemory>
+
+externdef __imp_MmFreePagesFromMdl:PPROC
+MmFreePagesFromMdl equ <__imp_MmFreePagesFromMdl>
+
+externdef __imp_MmGetPhysicalAddress:PPROC
+MmGetPhysicalAddress equ <__imp_MmGetPhysicalAddress>
+
+externdef __imp_MmGetPhysicalMemoryRanges:PPROC
+MmGetPhysicalMemoryRanges equ <__imp_MmGetPhysicalMemoryRanges>
+
+externdef __imp_MmGetSystemRoutineAddress:PPROC
+MmGetSystemRoutineAddress equ <__imp_MmGetSystemRoutineAddress>
+
+externdef __imp_MmGetVirtualForPhysical:PPROC
+MmGetVirtualForPhysical equ <__imp_MmGetVirtualForPhysical>
+
+externdef __imp_MmGrowKernelStack:PPROC
+MmGrowKernelStack equ <__imp_MmGrowKernelStack>
+
+externdef __imp_MmHighestUserAddress:PPROC
+MmHighestUserAddress equ <__imp_MmHighestUserAddress>
+
+externdef __imp_MmIsAddressValid:PPROC
+MmIsAddressValid equ <__imp_MmIsAddressValid>
+
+externdef __imp_MmIsDriverVerifying:PPROC
+MmIsDriverVerifying equ <__imp_MmIsDriverVerifying>
+
+externdef __imp_MmIsIoSpaceActive:PPROC
+MmIsIoSpaceActive equ <__imp_MmIsIoSpaceActive>
+
+externdef __imp_MmIsNonPagedSystemAddressValid:PPROC
+MmIsNonPagedSystemAddressValid equ <__imp_MmIsNonPagedSystemAddressValid>
+
+externdef __imp_MmIsRecursiveIoFault:PPROC
+MmIsRecursiveIoFault equ <__imp_MmIsRecursiveIoFault>
+
+externdef __imp_MmIsThisAnNtAsSystem:PPROC
+MmIsThisAnNtAsSystem equ <__imp_MmIsThisAnNtAsSystem>
+
+externdef __imp_MmIsVerifierEnabled:PPROC
+MmIsVerifierEnabled equ <__imp_MmIsVerifierEnabled>
+
+externdef __imp_MmLockPagableDataSection:PPROC
+MmLockPagableDataSection equ <__imp_MmLockPagableDataSection>
+
+externdef __imp_MmLockPagableImageSection:PPROC
+MmLockPagableImageSection equ <__imp_MmLockPagableImageSection>
+
+externdef __imp_MmLockPagableSectionByHandle:PPROC
+MmLockPagableSectionByHandle equ <__imp_MmLockPagableSectionByHandle>
+
+externdef __imp_MmMapIoSpace:PPROC
+MmMapIoSpace equ <__imp_MmMapIoSpace>
+
+externdef __imp_MmMapLockedPages:PPROC
+MmMapLockedPages equ <__imp_MmMapLockedPages>
+
+externdef __imp_MmMapLockedPagesSpecifyCache:PPROC
+MmMapLockedPagesSpecifyCache equ <__imp_MmMapLockedPagesSpecifyCache>
+
+externdef __imp_MmMapLockedPagesWithReservedMapping:PPROC
+MmMapLockedPagesWithReservedMapping equ <__imp_MmMapLockedPagesWithReservedMapping>
+
+externdef __imp_MmMapMemoryDumpMdl:PPROC
+MmMapMemoryDumpMdl equ <__imp_MmMapMemoryDumpMdl>
+
+externdef __imp_MmMapUserAddressesToPage:PPROC
+MmMapUserAddressesToPage equ <__imp_MmMapUserAddressesToPage>
+
+externdef __imp_MmMapVideoDisplay:PPROC
+MmMapVideoDisplay equ <__imp_MmMapVideoDisplay>
+
+externdef __imp_MmMapViewInSessionSpace:PPROC
+MmMapViewInSessionSpace equ <__imp_MmMapViewInSessionSpace>
+
+externdef __imp_MmMapViewInSystemSpace:PPROC
+MmMapViewInSystemSpace equ <__imp_MmMapViewInSystemSpace>
+
+externdef __imp_MmMapViewOfSection:PPROC
+MmMapViewOfSection equ <__imp_MmMapViewOfSection>
+
+externdef __imp_MmMarkPhysicalMemoryAsBad:PPROC
+MmMarkPhysicalMemoryAsBad equ <__imp_MmMarkPhysicalMemoryAsBad>
+
+externdef __imp_MmMarkPhysicalMemoryAsGood:PPROC
+MmMarkPhysicalMemoryAsGood equ <__imp_MmMarkPhysicalMemoryAsGood>
+
+externdef __imp_MmPageEntireDriver:PPROC
+MmPageEntireDriver equ <__imp_MmPageEntireDriver>
+
+externdef __imp_MmPrefetchPages:PPROC
+MmPrefetchPages equ <__imp_MmPrefetchPages>
+
+externdef __imp_MmProbeAndLockPages:PPROC
+MmProbeAndLockPages equ <__imp_MmProbeAndLockPages>
+
+externdef __imp_MmProbeAndLockProcessPages:PPROC
+MmProbeAndLockProcessPages equ <__imp_MmProbeAndLockProcessPages>
+
+externdef __imp_MmProbeAndLockSelectedPages:PPROC
+MmProbeAndLockSelectedPages equ <__imp_MmProbeAndLockSelectedPages>
+
+externdef __imp_MmProtectMdlSystemAddress:PPROC
+MmProtectMdlSystemAddress equ <__imp_MmProtectMdlSystemAddress>
+
+externdef __imp_MmQuerySystemSize:PPROC
+MmQuerySystemSize equ <__imp_MmQuerySystemSize>
+
+externdef __imp_MmRemovePhysicalMemory:PPROC
+MmRemovePhysicalMemory equ <__imp_MmRemovePhysicalMemory>
+
+externdef __imp_MmResetDriverPaging:PPROC
+MmResetDriverPaging equ <__imp_MmResetDriverPaging>
+
+externdef __imp_MmSectionObjectType:PPROC
+MmSectionObjectType equ <__imp_MmSectionObjectType>
+
+externdef __imp_MmSecureVirtualMemory:PPROC
+MmSecureVirtualMemory equ <__imp_MmSecureVirtualMemory>
+
+externdef __imp_MmSetAddressRangeModified:PPROC
+MmSetAddressRangeModified equ <__imp_MmSetAddressRangeModified>
+
+externdef __imp_MmSetBankedSection:PPROC
+MmSetBankedSection equ <__imp_MmSetBankedSection>
+
+externdef __imp_MmSizeOfMdl:PPROC
+MmSizeOfMdl equ <__imp_MmSizeOfMdl>
+
+externdef __imp_MmSystemRangeStart:PPROC
+MmSystemRangeStart equ <__imp_MmSystemRangeStart>
+
+externdef __imp_MmTrimAllSystemPagableMemory:PPROC
+MmTrimAllSystemPagableMemory equ <__imp_MmTrimAllSystemPagableMemory>
+
+externdef __imp_MmUnlockPagableImageSection:PPROC
+MmUnlockPagableImageSection equ <__imp_MmUnlockPagableImageSection>
+
+externdef __imp_MmUnlockPages:PPROC
+MmUnlockPages equ <__imp_MmUnlockPages>
+
+externdef __imp_MmUnmapIoSpace:PPROC
+MmUnmapIoSpace equ <__imp_MmUnmapIoSpace>
+
+externdef __imp_MmUnmapLockedPages:PPROC
+MmUnmapLockedPages equ <__imp_MmUnmapLockedPages>
+
+externdef __imp_MmUnmapReservedMapping:PPROC
+MmUnmapReservedMapping equ <__imp_MmUnmapReservedMapping>
+
+externdef __imp_MmUnmapVideoDisplay:PPROC
+MmUnmapVideoDisplay equ <__imp_MmUnmapVideoDisplay>
+
+externdef __imp_MmUnmapViewInSessionSpace:PPROC
+MmUnmapViewInSessionSpace equ <__imp_MmUnmapViewInSessionSpace>
+
+externdef __imp_MmUnmapViewInSystemSpace:PPROC
+MmUnmapViewInSystemSpace equ <__imp_MmUnmapViewInSystemSpace>
+
+externdef __imp_MmUnmapViewOfSection:PPROC
+MmUnmapViewOfSection equ <__imp_MmUnmapViewOfSection>
+
+externdef __imp_MmUnsecureVirtualMemory:PPROC
+MmUnsecureVirtualMemory equ <__imp_MmUnsecureVirtualMemory>
+
+externdef __imp_MmUserProbeAddress:PPROC
+MmUserProbeAddress equ <__imp_MmUserProbeAddress>
+
+externdef __imp_NlsAnsiCodePage:PPROC
+NlsAnsiCodePage equ <__imp_NlsAnsiCodePage>
+
+externdef __imp_NlsLeadByteInfo:PPROC
+NlsLeadByteInfo equ <__imp_NlsLeadByteInfo>
+
+externdef __imp_NlsMbCodePageTag:PPROC
+NlsMbCodePageTag equ <__imp_NlsMbCodePageTag>
+
+externdef __imp_NlsMbOemCodePageTag:PPROC
+NlsMbOemCodePageTag equ <__imp_NlsMbOemCodePageTag>
+
+externdef __imp_NlsOemCodePage:PPROC
+NlsOemCodePage equ <__imp_NlsOemCodePage>
+
+externdef __imp_NlsOemLeadByteInfo:PPROC
+NlsOemLeadByteInfo equ <__imp_NlsOemLeadByteInfo>
+
+externdef __imp_NtAddAtom:PPROC
+NtAddAtom equ <__imp_NtAddAtom>
+
+externdef __imp_NtAdjustPrivilegesToken:PPROC
+NtAdjustPrivilegesToken equ <__imp_NtAdjustPrivilegesToken>
+
+externdef __imp_NtAllocateLocallyUniqueId:PPROC
+NtAllocateLocallyUniqueId equ <__imp_NtAllocateLocallyUniqueId>
+
+externdef __imp_NtAllocateUuids:PPROC
+NtAllocateUuids equ <__imp_NtAllocateUuids>
+
+externdef __imp_NtAllocateVirtualMemory:PPROC
+NtAllocateVirtualMemory equ <__imp_NtAllocateVirtualMemory>
+
+externdef __imp_NtBuildNumber:PPROC
+NtBuildNumber equ <__imp_NtBuildNumber>
+
+externdef __imp_NtClose:PPROC
+NtClose equ <__imp_NtClose>
+
+externdef __imp_NtConnectPort:PPROC
+NtConnectPort equ <__imp_NtConnectPort>
+
+externdef __imp_NtCreateEvent:PPROC
+NtCreateEvent equ <__imp_NtCreateEvent>
+
+externdef __imp_NtCreateFile:PPROC
+NtCreateFile equ <__imp_NtCreateFile>
+
+externdef __imp_NtCreateSection:PPROC
+NtCreateSection equ <__imp_NtCreateSection>
+
+externdef __imp_NtDeleteAtom:PPROC
+NtDeleteAtom equ <__imp_NtDeleteAtom>
+
+externdef __imp_NtDeleteFile:PPROC
+NtDeleteFile equ <__imp_NtDeleteFile>
+
+externdef __imp_NtDeviceIoControlFile:PPROC
+NtDeviceIoControlFile equ <__imp_NtDeviceIoControlFile>
+
+externdef __imp_NtDuplicateObject:PPROC
+NtDuplicateObject equ <__imp_NtDuplicateObject>
+
+externdef __imp_NtDuplicateToken:PPROC
+NtDuplicateToken equ <__imp_NtDuplicateToken>
+
+externdef __imp_NtFindAtom:PPROC
+NtFindAtom equ <__imp_NtFindAtom>
+
+externdef __imp_NtFreeVirtualMemory:PPROC
+NtFreeVirtualMemory equ <__imp_NtFreeVirtualMemory>
+
+externdef __imp_NtFsControlFile:PPROC
+NtFsControlFile equ <__imp_NtFsControlFile>
+
+externdef __imp_NtGlobalFlag:PPROC
+NtGlobalFlag equ <__imp_NtGlobalFlag>
+
+externdef __imp_NtLockFile:PPROC
+NtLockFile equ <__imp_NtLockFile>
+
+externdef __imp_NtMakePermanentObject:PPROC
+NtMakePermanentObject equ <__imp_NtMakePermanentObject>
+
+externdef __imp_NtMapViewOfSection:PPROC
+NtMapViewOfSection equ <__imp_NtMapViewOfSection>
+
+externdef __imp_NtNotifyChangeDirectoryFile:PPROC
+NtNotifyChangeDirectoryFile equ <__imp_NtNotifyChangeDirectoryFile>
+
+externdef __imp_NtOpenFile:PPROC
+NtOpenFile equ <__imp_NtOpenFile>
+
+externdef __imp_NtOpenProcess:PPROC
+NtOpenProcess equ <__imp_NtOpenProcess>
+
+externdef __imp_NtOpenProcessToken:PPROC
+NtOpenProcessToken equ <__imp_NtOpenProcessToken>
+
+externdef __imp_NtOpenProcessTokenEx:PPROC
+NtOpenProcessTokenEx equ <__imp_NtOpenProcessTokenEx>
+
+externdef __imp_NtOpenThread:PPROC
+NtOpenThread equ <__imp_NtOpenThread>
+
+externdef __imp_NtOpenThreadToken:PPROC
+NtOpenThreadToken equ <__imp_NtOpenThreadToken>
+
+externdef __imp_NtOpenThreadTokenEx:PPROC
+NtOpenThreadTokenEx equ <__imp_NtOpenThreadTokenEx>
+
+externdef __imp_NtQueryDirectoryFile:PPROC
+NtQueryDirectoryFile equ <__imp_NtQueryDirectoryFile>
+
+externdef __imp_NtQueryEaFile:PPROC
+NtQueryEaFile equ <__imp_NtQueryEaFile>
+
+externdef __imp_NtQueryInformationAtom:PPROC
+NtQueryInformationAtom equ <__imp_NtQueryInformationAtom>
+
+externdef __imp_NtQueryInformationFile:PPROC
+NtQueryInformationFile equ <__imp_NtQueryInformationFile>
+
+externdef __imp_NtQueryInformationProcess:PPROC
+NtQueryInformationProcess equ <__imp_NtQueryInformationProcess>
+
+externdef __imp_NtQueryInformationThread:PPROC
+NtQueryInformationThread equ <__imp_NtQueryInformationThread>
+
+externdef __imp_NtQueryInformationToken:PPROC
+NtQueryInformationToken equ <__imp_NtQueryInformationToken>
+
+externdef __imp_NtQueryQuotaInformationFile:PPROC
+NtQueryQuotaInformationFile equ <__imp_NtQueryQuotaInformationFile>
+
+externdef __imp_NtQuerySecurityObject:PPROC
+NtQuerySecurityObject equ <__imp_NtQuerySecurityObject>
+
+externdef __imp_NtQuerySystemInformation:PPROC
+NtQuerySystemInformation equ <__imp_NtQuerySystemInformation>
+
+externdef __imp_NtQueryVolumeInformationFile:PPROC
+NtQueryVolumeInformationFile equ <__imp_NtQueryVolumeInformationFile>
+
+externdef __imp_NtReadFile:PPROC
+NtReadFile equ <__imp_NtReadFile>
+
+externdef __imp_NtRequestPort:PPROC
+NtRequestPort equ <__imp_NtRequestPort>
+
+externdef __imp_NtRequestWaitReplyPort:PPROC
+NtRequestWaitReplyPort equ <__imp_NtRequestWaitReplyPort>
+
+externdef __imp_NtSetEaFile:PPROC
+NtSetEaFile equ <__imp_NtSetEaFile>
+
+externdef __imp_NtSetEvent:PPROC
+NtSetEvent equ <__imp_NtSetEvent>
+
+externdef __imp_NtSetInformationFile:PPROC
+NtSetInformationFile equ <__imp_NtSetInformationFile>
+
+externdef __imp_NtSetInformationProcess:PPROC
+NtSetInformationProcess equ <__imp_NtSetInformationProcess>
+
+externdef __imp_NtSetInformationThread:PPROC
+NtSetInformationThread equ <__imp_NtSetInformationThread>
+
+externdef __imp_NtSetQuotaInformationFile:PPROC
+NtSetQuotaInformationFile equ <__imp_NtSetQuotaInformationFile>
+
+externdef __imp_NtSetSecurityObject:PPROC
+NtSetSecurityObject equ <__imp_NtSetSecurityObject>
+
+externdef __imp_NtSetVolumeInformationFile:PPROC
+NtSetVolumeInformationFile equ <__imp_NtSetVolumeInformationFile>
+
+externdef __imp_NtShutdownSystem:PPROC
+NtShutdownSystem equ <__imp_NtShutdownSystem>
+
+externdef __imp_NtTraceEvent:PPROC
+NtTraceEvent equ <__imp_NtTraceEvent>
+
+externdef __imp_NtUnlockFile:PPROC
+NtUnlockFile equ <__imp_NtUnlockFile>
+
+externdef __imp_NtVdmControl:PPROC
+NtVdmControl equ <__imp_NtVdmControl>
+
+externdef __imp_NtWaitForSingleObject:PPROC
+NtWaitForSingleObject equ <__imp_NtWaitForSingleObject>
+
+externdef __imp_NtWriteFile:PPROC
+NtWriteFile equ <__imp_NtWriteFile>
+
+externdef __imp_ObAssignSecurity:PPROC
+ObAssignSecurity equ <__imp_ObAssignSecurity>
+
+externdef __imp_ObCheckCreateObjectAccess:PPROC
+ObCheckCreateObjectAccess equ <__imp_ObCheckCreateObjectAccess>
+
+externdef __imp_ObCheckObjectAccess:PPROC
+ObCheckObjectAccess equ <__imp_ObCheckObjectAccess>
+
+externdef __imp_ObCloseHandle:PPROC
+ObCloseHandle equ <__imp_ObCloseHandle>
+
+externdef __imp_ObCreateObject:PPROC
+ObCreateObject equ <__imp_ObCreateObject>
+
+externdef __imp_ObCreateObjectType:PPROC
+ObCreateObjectType equ <__imp_ObCreateObjectType>
+
+externdef __imp_ObDeleteCapturedInsertInfo:PPROC
+ObDeleteCapturedInsertInfo equ <__imp_ObDeleteCapturedInsertInfo>
+
+externdef __imp_ObDereferenceObject:PPROC
+ObDereferenceObject equ <__imp_ObDereferenceObject>
+
+externdef __imp_ObDereferenceSecurityDescriptor:PPROC
+ObDereferenceSecurityDescriptor equ <__imp_ObDereferenceSecurityDescriptor>
+
+externdef __imp_ObFindHandleForObject:PPROC
+ObFindHandleForObject equ <__imp_ObFindHandleForObject>
+
+externdef __imp_ObGetObjectSecurity:PPROC
+ObGetObjectSecurity equ <__imp_ObGetObjectSecurity>
+
+externdef __imp_ObInsertObject:PPROC
+ObInsertObject equ <__imp_ObInsertObject>
+
+externdef __imp_ObLogSecurityDescriptor:PPROC
+ObLogSecurityDescriptor equ <__imp_ObLogSecurityDescriptor>
+
+externdef __imp_ObMakeTemporaryObject:PPROC
+ObMakeTemporaryObject equ <__imp_ObMakeTemporaryObject>
+
+externdef __imp_ObOpenObjectByName:PPROC
+ObOpenObjectByName equ <__imp_ObOpenObjectByName>
+
+externdef __imp_ObOpenObjectByPointer:PPROC
+ObOpenObjectByPointer equ <__imp_ObOpenObjectByPointer>
+
+externdef __imp_ObQueryNameString:PPROC
+ObQueryNameString equ <__imp_ObQueryNameString>
+
+externdef __imp_ObQueryObjectAuditingByHandle:PPROC
+ObQueryObjectAuditingByHandle equ <__imp_ObQueryObjectAuditingByHandle>
+
+externdef __imp_ObReferenceObjectByHandle:PPROC
+ObReferenceObjectByHandle equ <__imp_ObReferenceObjectByHandle>
+
+externdef __imp_ObReferenceObjectByName:PPROC
+ObReferenceObjectByName equ <__imp_ObReferenceObjectByName>
+
+externdef __imp_ObReferenceObjectByPointer:PPROC
+ObReferenceObjectByPointer equ <__imp_ObReferenceObjectByPointer>
+
+externdef __imp_ObReferenceSecurityDescriptor:PPROC
+ObReferenceSecurityDescriptor equ <__imp_ObReferenceSecurityDescriptor>
+
+externdef __imp_ObReleaseObjectSecurity:PPROC
+ObReleaseObjectSecurity equ <__imp_ObReleaseObjectSecurity>
+
+externdef __imp_ObSetHandleAttributes:PPROC
+ObSetHandleAttributes equ <__imp_ObSetHandleAttributes>
+
+externdef __imp_ObSetSecurityDescriptorInfo:PPROC
+ObSetSecurityDescriptorInfo equ <__imp_ObSetSecurityDescriptorInfo>
+
+externdef __imp_ObSetSecurityObjectByPointer:PPROC
+ObSetSecurityObjectByPointer equ <__imp_ObSetSecurityObjectByPointer>
+
+externdef __imp_ObfDereferenceObject:PPROC
+ObfDereferenceObject equ <__imp_ObfDereferenceObject>
+
+externdef __imp_ObfReferenceObject:PPROC
+ObfReferenceObject equ <__imp_ObfReferenceObject>
+
+externdef __imp_PfxFindPrefix:PPROC
+PfxFindPrefix equ <__imp_PfxFindPrefix>
+
+externdef __imp_PfxInitialize:PPROC
+PfxInitialize equ <__imp_PfxInitialize>
+
+externdef __imp_PfxInsertPrefix:PPROC
+PfxInsertPrefix equ <__imp_PfxInsertPrefix>
+
+externdef __imp_PfxRemovePrefix:PPROC
+PfxRemovePrefix equ <__imp_PfxRemovePrefix>
+
+externdef __imp_PoCallDriver:PPROC
+PoCallDriver equ <__imp_PoCallDriver>
+
+externdef __imp_PoCancelDeviceNotify:PPROC
+PoCancelDeviceNotify equ <__imp_PoCancelDeviceNotify>
+
+externdef __imp_PoQueueShutdownWorkItem:PPROC
+PoQueueShutdownWorkItem equ <__imp_PoQueueShutdownWorkItem>
+
+externdef __imp_PoRegisterDeviceForIdleDetection:PPROC
+PoRegisterDeviceForIdleDetection equ <__imp_PoRegisterDeviceForIdleDetection>
+
+externdef __imp_PoRegisterDeviceNotify:PPROC
+PoRegisterDeviceNotify equ <__imp_PoRegisterDeviceNotify>
+
+externdef __imp_PoRegisterSystemState:PPROC
+PoRegisterSystemState equ <__imp_PoRegisterSystemState>
+
+externdef __imp_PoRequestPowerIrp:PPROC
+PoRequestPowerIrp equ <__imp_PoRequestPowerIrp>
+
+externdef __imp_PoRequestShutdownEvent:PPROC
+PoRequestShutdownEvent equ <__imp_PoRequestShutdownEvent>
+
+externdef __imp_PoSetHiberRange:PPROC
+PoSetHiberRange equ <__imp_PoSetHiberRange>
+
+externdef __imp_PoSetPowerState:PPROC
+PoSetPowerState equ <__imp_PoSetPowerState>
+
+externdef __imp_PoSetSystemState:PPROC
+PoSetSystemState equ <__imp_PoSetSystemState>
+
+externdef __imp_PoShutdownBugCheck:PPROC
+PoShutdownBugCheck equ <__imp_PoShutdownBugCheck>
+
+externdef __imp_PoStartNextPowerIrp:PPROC
+PoStartNextPowerIrp equ <__imp_PoStartNextPowerIrp>
+
+externdef __imp_PoUnregisterSystemState:PPROC
+PoUnregisterSystemState equ <__imp_PoUnregisterSystemState>
+
+externdef __imp_ProbeForRead:PPROC
+ProbeForRead equ <__imp_ProbeForRead>
+
+externdef __imp_ProbeForWrite:PPROC
+ProbeForWrite equ <__imp_ProbeForWrite>
+
+externdef __imp_PsAssignImpersonationToken:PPROC
+PsAssignImpersonationToken equ <__imp_PsAssignImpersonationToken>
+
+externdef __imp_PsChargePoolQuota:PPROC
+PsChargePoolQuota equ <__imp_PsChargePoolQuota>
+
+externdef __imp_PsChargeProcessNonPagedPoolQuota:PPROC
+PsChargeProcessNonPagedPoolQuota equ <__imp_PsChargeProcessNonPagedPoolQuota>
+
+externdef __imp_PsChargeProcessPagedPoolQuota:PPROC
+PsChargeProcessPagedPoolQuota equ <__imp_PsChargeProcessPagedPoolQuota>
+
+externdef __imp_PsChargeProcessPoolQuota:PPROC
+PsChargeProcessPoolQuota equ <__imp_PsChargeProcessPoolQuota>
+
+externdef __imp_PsCreateSystemProcess:PPROC
+PsCreateSystemProcess equ <__imp_PsCreateSystemProcess>
+
+externdef __imp_PsCreateSystemThread:PPROC
+PsCreateSystemThread equ <__imp_PsCreateSystemThread>
+
+externdef __imp_PsDereferenceImpersonationToken:PPROC
+PsDereferenceImpersonationToken equ <__imp_PsDereferenceImpersonationToken>
+
+externdef __imp_PsDereferencePrimaryToken:PPROC
+PsDereferencePrimaryToken equ <__imp_PsDereferencePrimaryToken>
+
+externdef __imp_PsDisableImpersonation:PPROC
+PsDisableImpersonation equ <__imp_PsDisableImpersonation>
+
+externdef __imp_PsEstablishWin32Callouts:PPROC
+PsEstablishWin32Callouts equ <__imp_PsEstablishWin32Callouts>
+
+externdef __imp_PsGetContextThread:PPROC
+PsGetContextThread equ <__imp_PsGetContextThread>
+
+externdef __imp_PsGetCurrentProcess:PPROC
+PsGetCurrentProcess equ <__imp_PsGetCurrentProcess>
+
+externdef __imp_PsGetCurrentProcessId:PPROC
+PsGetCurrentProcessId equ <__imp_PsGetCurrentProcessId>
+
+externdef __imp_PsGetCurrentProcessSessionId:PPROC
+PsGetCurrentProcessSessionId equ <__imp_PsGetCurrentProcessSessionId>
+
+externdef __imp_PsGetCurrentProcessWin32Process:PPROC
+PsGetCurrentProcessWin32Process equ <__imp_PsGetCurrentProcessWin32Process>
+
+externdef __imp_PsGetCurrentProcessWow64Process:PPROC
+PsGetCurrentProcessWow64Process equ <__imp_PsGetCurrentProcessWow64Process>
+
+externdef __imp_PsGetCurrentThread:PPROC
+PsGetCurrentThread equ <__imp_PsGetCurrentThread>
+
+externdef __imp_PsGetCurrentThreadId:PPROC
+PsGetCurrentThreadId equ <__imp_PsGetCurrentThreadId>
+
+externdef __imp_PsGetCurrentThreadPreviousMode:PPROC
+PsGetCurrentThreadPreviousMode equ <__imp_PsGetCurrentThreadPreviousMode>
+
+externdef __imp_PsGetCurrentThreadProcess:PPROC
+PsGetCurrentThreadProcess equ <__imp_PsGetCurrentThreadProcess>
+
+externdef __imp_PsGetCurrentThreadProcessId:PPROC
+PsGetCurrentThreadProcessId equ <__imp_PsGetCurrentThreadProcessId>
+
+externdef __imp_PsGetCurrentThreadStackBase:PPROC
+PsGetCurrentThreadStackBase equ <__imp_PsGetCurrentThreadStackBase>
+
+externdef __imp_PsGetCurrentThreadStackLimit:PPROC
+PsGetCurrentThreadStackLimit equ <__imp_PsGetCurrentThreadStackLimit>
+
+externdef __imp_PsGetCurrentThreadTeb:PPROC
+PsGetCurrentThreadTeb equ <__imp_PsGetCurrentThreadTeb>
+
+externdef __imp_PsGetCurrentThreadWin32Thread:PPROC
+PsGetCurrentThreadWin32Thread equ <__imp_PsGetCurrentThreadWin32Thread>
+
+externdef __imp_PsGetCurrentThreadWin32ThreadAndEnterCriticalRegion:PPROC
+PsGetCurrentThreadWin32ThreadAndEnterCriticalRegion equ <__imp_PsGetCurrentThreadWin32ThreadAndEnterCriticalRegion>
+
+externdef __imp_PsGetJobLock:PPROC
+PsGetJobLock equ <__imp_PsGetJobLock>
+
+externdef __imp_PsGetJobSessionId:PPROC
+PsGetJobSessionId equ <__imp_PsGetJobSessionId>
+
+externdef __imp_PsGetJobUIRestrictionsClass:PPROC
+PsGetJobUIRestrictionsClass equ <__imp_PsGetJobUIRestrictionsClass>
+
+externdef __imp_PsGetProcessCreateTimeQuadPart:PPROC
+PsGetProcessCreateTimeQuadPart equ <__imp_PsGetProcessCreateTimeQuadPart>
+
+externdef __imp_PsGetProcessDebugPort:PPROC
+PsGetProcessDebugPort equ <__imp_PsGetProcessDebugPort>
+
+externdef __imp_PsGetProcessExitProcessCalled:PPROC
+PsGetProcessExitProcessCalled equ <__imp_PsGetProcessExitProcessCalled>
+
+externdef __imp_PsGetProcessExitStatus:PPROC
+PsGetProcessExitStatus equ <__imp_PsGetProcessExitStatus>
+
+externdef __imp_PsGetProcessExitTime:PPROC
+PsGetProcessExitTime equ <__imp_PsGetProcessExitTime>
+
+externdef __imp_PsGetProcessId:PPROC
+PsGetProcessId equ <__imp_PsGetProcessId>
+
+externdef __imp_PsGetProcessImageFileName:PPROC
+PsGetProcessImageFileName equ <__imp_PsGetProcessImageFileName>
+
+externdef __imp_PsGetProcessInheritedFromUniqueProcessId:PPROC
+PsGetProcessInheritedFromUniqueProcessId equ <__imp_PsGetProcessInheritedFromUniqueProcessId>
+
+externdef __imp_PsGetProcessJob:PPROC
+PsGetProcessJob equ <__imp_PsGetProcessJob>
+
+externdef __imp_PsGetProcessPeb:PPROC
+PsGetProcessPeb equ <__imp_PsGetProcessPeb>
+
+externdef __imp_PsGetProcessPriorityClass:PPROC
+PsGetProcessPriorityClass equ <__imp_PsGetProcessPriorityClass>
+
+externdef __imp_PsGetProcessSectionBaseAddress:PPROC
+PsGetProcessSectionBaseAddress equ <__imp_PsGetProcessSectionBaseAddress>
+
+externdef __imp_PsGetProcessSecurityPort:PPROC
+PsGetProcessSecurityPort equ <__imp_PsGetProcessSecurityPort>
+
+externdef __imp_PsGetProcessSessionId:PPROC
+PsGetProcessSessionId equ <__imp_PsGetProcessSessionId>
+
+externdef __imp_PsGetProcessSessionIdEx:PPROC
+PsGetProcessSessionIdEx equ <__imp_PsGetProcessSessionIdEx>
+
+externdef __imp_PsGetProcessWin32Process:PPROC
+PsGetProcessWin32Process equ <__imp_PsGetProcessWin32Process>
+
+externdef __imp_PsGetProcessWin32WindowStation:PPROC
+PsGetProcessWin32WindowStation equ <__imp_PsGetProcessWin32WindowStation>
+
+externdef __imp_PsGetProcessWow64Process:PPROC
+PsGetProcessWow64Process equ <__imp_PsGetProcessWow64Process>
+
+externdef __imp_PsGetThreadFreezeCount:PPROC
+PsGetThreadFreezeCount equ <__imp_PsGetThreadFreezeCount>
+
+externdef __imp_PsGetThreadHardErrorsAreDisabled:PPROC
+PsGetThreadHardErrorsAreDisabled equ <__imp_PsGetThreadHardErrorsAreDisabled>
+
+externdef __imp_PsGetThreadId:PPROC
+PsGetThreadId equ <__imp_PsGetThreadId>
+
+externdef __imp_PsGetThreadProcess:PPROC
+PsGetThreadProcess equ <__imp_PsGetThreadProcess>
+
+externdef __imp_PsGetThreadProcessId:PPROC
+PsGetThreadProcessId equ <__imp_PsGetThreadProcessId>
+
+externdef __imp_PsGetThreadSessionId:PPROC
+PsGetThreadSessionId equ <__imp_PsGetThreadSessionId>
+
+externdef __imp_PsGetThreadTeb:PPROC
+PsGetThreadTeb equ <__imp_PsGetThreadTeb>
+
+externdef __imp_PsGetThreadWin32Thread:PPROC
+PsGetThreadWin32Thread equ <__imp_PsGetThreadWin32Thread>
+
+externdef __imp_PsGetVersion:PPROC
+PsGetVersion equ <__imp_PsGetVersion>
+
+externdef __imp_PsImpersonateClient:PPROC
+PsImpersonateClient equ <__imp_PsImpersonateClient>
+
+externdef __imp_PsInitialSystemProcess:PPROC
+PsInitialSystemProcess equ <__imp_PsInitialSystemProcess>
+
+externdef __imp_PsIsProcessBeingDebugged:PPROC
+PsIsProcessBeingDebugged equ <__imp_PsIsProcessBeingDebugged>
+
+externdef __imp_PsIsSystemProcess:PPROC
+PsIsSystemProcess equ <__imp_PsIsSystemProcess>
+
+externdef __imp_PsIsSystemThread:PPROC
+PsIsSystemThread equ <__imp_PsIsSystemThread>
+
+externdef __imp_PsIsThreadImpersonating:PPROC
+PsIsThreadImpersonating equ <__imp_PsIsThreadImpersonating>
+
+externdef __imp_PsIsThreadTerminating:PPROC
+PsIsThreadTerminating equ <__imp_PsIsThreadTerminating>
+
+externdef __imp_PsJobType:PPROC
+PsJobType equ <__imp_PsJobType>
+
+externdef __imp_PsLookupProcessByProcessId:PPROC
+PsLookupProcessByProcessId equ <__imp_PsLookupProcessByProcessId>
+
+externdef __imp_PsLookupProcessThreadByCid:PPROC
+PsLookupProcessThreadByCid equ <__imp_PsLookupProcessThreadByCid>
+
+externdef __imp_PsLookupThreadByThreadId:PPROC
+PsLookupThreadByThreadId equ <__imp_PsLookupThreadByThreadId>
+
+externdef __imp_PsProcessType:PPROC
+PsProcessType equ <__imp_PsProcessType>
+
+externdef __imp_PsReferenceImpersonationToken:PPROC
+PsReferenceImpersonationToken equ <__imp_PsReferenceImpersonationToken>
+
+externdef __imp_PsReferencePrimaryToken:PPROC
+PsReferencePrimaryToken equ <__imp_PsReferencePrimaryToken>
+
+externdef __imp_PsRemoveCreateThreadNotifyRoutine:PPROC
+PsRemoveCreateThreadNotifyRoutine equ <__imp_PsRemoveCreateThreadNotifyRoutine>
+
+externdef __imp_PsRemoveLoadImageNotifyRoutine:PPROC
+PsRemoveLoadImageNotifyRoutine equ <__imp_PsRemoveLoadImageNotifyRoutine>
+
+externdef __imp_PsRestoreImpersonation:PPROC
+PsRestoreImpersonation equ <__imp_PsRestoreImpersonation>
+
+externdef __imp_PsReturnPoolQuota:PPROC
+PsReturnPoolQuota equ <__imp_PsReturnPoolQuota>
+
+externdef __imp_PsReturnProcessNonPagedPoolQuota:PPROC
+PsReturnProcessNonPagedPoolQuota equ <__imp_PsReturnProcessNonPagedPoolQuota>
+
+externdef __imp_PsReturnProcessPagedPoolQuota:PPROC
+PsReturnProcessPagedPoolQuota equ <__imp_PsReturnProcessPagedPoolQuota>
+
+externdef __imp_PsRevertThreadToSelf:PPROC
+PsRevertThreadToSelf equ <__imp_PsRevertThreadToSelf>
+
+externdef __imp_PsRevertToSelf:PPROC
+PsRevertToSelf equ <__imp_PsRevertToSelf>
+
+externdef __imp_PsSetContextThread:PPROC
+PsSetContextThread equ <__imp_PsSetContextThread>
+
+externdef __imp_PsSetCreateProcessNotifyRoutine:PPROC
+PsSetCreateProcessNotifyRoutine equ <__imp_PsSetCreateProcessNotifyRoutine>
+
+externdef __imp_PsSetCreateThreadNotifyRoutine:PPROC
+PsSetCreateThreadNotifyRoutine equ <__imp_PsSetCreateThreadNotifyRoutine>
+
+externdef __imp_PsSetJobUIRestrictionsClass:PPROC
+PsSetJobUIRestrictionsClass equ <__imp_PsSetJobUIRestrictionsClass>
+
+externdef __imp_PsSetLegoNotifyRoutine:PPROC
+PsSetLegoNotifyRoutine equ <__imp_PsSetLegoNotifyRoutine>
+
+externdef __imp_PsSetLoadImageNotifyRoutine:PPROC
+PsSetLoadImageNotifyRoutine equ <__imp_PsSetLoadImageNotifyRoutine>
+
+externdef __imp_PsSetProcessPriorityByClass:PPROC
+PsSetProcessPriorityByClass equ <__imp_PsSetProcessPriorityByClass>
+
+externdef __imp_PsSetProcessPriorityClass:PPROC
+PsSetProcessPriorityClass equ <__imp_PsSetProcessPriorityClass>
+
+externdef __imp_PsSetProcessSecurityPort:PPROC
+PsSetProcessSecurityPort equ <__imp_PsSetProcessSecurityPort>
+
+externdef __imp_PsSetProcessWin32Process:PPROC
+PsSetProcessWin32Process equ <__imp_PsSetProcessWin32Process>
+
+externdef __imp_PsSetProcessWindowStation:PPROC
+PsSetProcessWindowStation equ <__imp_PsSetProcessWindowStation>
+
+externdef __imp_PsSetThreadHardErrorsAreDisabled:PPROC
+PsSetThreadHardErrorsAreDisabled equ <__imp_PsSetThreadHardErrorsAreDisabled>
+
+externdef __imp_PsSetThreadWin32Thread:PPROC
+PsSetThreadWin32Thread equ <__imp_PsSetThreadWin32Thread>
+
+externdef __imp_PsTerminateSystemThread:PPROC
+PsTerminateSystemThread equ <__imp_PsTerminateSystemThread>
+
+externdef __imp_PsThreadType:PPROC
+PsThreadType equ <__imp_PsThreadType>
+
+externdef __imp_PsWrapApcWow64Thread:PPROC
+PsWrapApcWow64Thread equ <__imp_PsWrapApcWow64Thread>
+
+externdef __imp_RtlAbsoluteToSelfRelativeSD:PPROC
+RtlAbsoluteToSelfRelativeSD equ <__imp_RtlAbsoluteToSelfRelativeSD>
+
+externdef __imp_RtlAddAccessAllowedAce:PPROC
+RtlAddAccessAllowedAce equ <__imp_RtlAddAccessAllowedAce>
+
+externdef __imp_RtlAddAccessAllowedAceEx:PPROC
+RtlAddAccessAllowedAceEx equ <__imp_RtlAddAccessAllowedAceEx>
+
+externdef __imp_RtlAddAce:PPROC
+RtlAddAce equ <__imp_RtlAddAce>
+
+externdef __imp_RtlAddAtomToAtomTable:PPROC
+RtlAddAtomToAtomTable equ <__imp_RtlAddAtomToAtomTable>
+
+externdef __imp_RtlAddRange:PPROC
+RtlAddRange equ <__imp_RtlAddRange>
+
+externdef __imp_RtlAllocateHeap:PPROC
+RtlAllocateHeap equ <__imp_RtlAllocateHeap>
+
+externdef __imp_RtlAnsiCharToUnicodeChar:PPROC
+RtlAnsiCharToUnicodeChar equ <__imp_RtlAnsiCharToUnicodeChar>
+
+externdef __imp_RtlAnsiStringToUnicodeSize:PPROC
+RtlAnsiStringToUnicodeSize equ <__imp_RtlAnsiStringToUnicodeSize>
+
+externdef __imp_RtlAnsiStringToUnicodeString:PPROC
+RtlAnsiStringToUnicodeString equ <__imp_RtlAnsiStringToUnicodeString>
+
+externdef __imp_RtlAppendAsciizToString:PPROC
+RtlAppendAsciizToString equ <__imp_RtlAppendAsciizToString>
+
+externdef __imp_RtlAppendStringToString:PPROC
+RtlAppendStringToString equ <__imp_RtlAppendStringToString>
+
+externdef __imp_RtlAppendUnicodeStringToString:PPROC
+RtlAppendUnicodeStringToString equ <__imp_RtlAppendUnicodeStringToString>
+
+externdef __imp_RtlAppendUnicodeToString:PPROC
+RtlAppendUnicodeToString equ <__imp_RtlAppendUnicodeToString>
+
+externdef __imp_RtlAreAllAccessesGranted:PPROC
+RtlAreAllAccessesGranted equ <__imp_RtlAreAllAccessesGranted>
+
+externdef __imp_RtlAreAnyAccessesGranted:PPROC
+RtlAreAnyAccessesGranted equ <__imp_RtlAreAnyAccessesGranted>
+
+externdef __imp_RtlAreBitsClear:PPROC
+RtlAreBitsClear equ <__imp_RtlAreBitsClear>
+
+externdef __imp_RtlAreBitsSet:PPROC
+RtlAreBitsSet equ <__imp_RtlAreBitsSet>
+
+externdef __imp_RtlAssert:PPROC
+RtlAssert equ <__imp_RtlAssert>
+
+externdef __imp_RtlCaptureContext:PPROC
+RtlCaptureContext equ <__imp_RtlCaptureContext>
+
+externdef __imp_RtlCaptureStackBackTrace:PPROC
+RtlCaptureStackBackTrace equ <__imp_RtlCaptureStackBackTrace>
+
+externdef __imp_RtlCharToInteger:PPROC
+RtlCharToInteger equ <__imp_RtlCharToInteger>
+
+externdef __imp_RtlCheckRegistryKey:PPROC
+RtlCheckRegistryKey equ <__imp_RtlCheckRegistryKey>
+
+externdef __imp_RtlClearAllBits:PPROC
+RtlClearAllBits equ <__imp_RtlClearAllBits>
+
+externdef __imp_RtlClearBit:PPROC
+RtlClearBit equ <__imp_RtlClearBit>
+
+externdef __imp_RtlClearBits:PPROC
+RtlClearBits equ <__imp_RtlClearBits>
+
+externdef __imp_RtlCompareMemory:PPROC
+RtlCompareMemory equ <__imp_RtlCompareMemory>
+
+externdef __imp_RtlCompareMemoryUlong:PPROC
+RtlCompareMemoryUlong equ <__imp_RtlCompareMemoryUlong>
+
+externdef __imp_RtlCompareString:PPROC
+RtlCompareString equ <__imp_RtlCompareString>
+
+externdef __imp_RtlCompareUnicodeString:PPROC
+RtlCompareUnicodeString equ <__imp_RtlCompareUnicodeString>
+
+externdef __imp_RtlCompressBuffer:PPROC
+RtlCompressBuffer equ <__imp_RtlCompressBuffer>
+
+externdef __imp_RtlCompressChunks:PPROC
+RtlCompressChunks equ <__imp_RtlCompressChunks>
+
+externdef __imp_RtlConvertSidToUnicodeString:PPROC
+RtlConvertSidToUnicodeString equ <__imp_RtlConvertSidToUnicodeString>
+
+externdef __imp_RtlCopyLuid:PPROC
+RtlCopyLuid equ <__imp_RtlCopyLuid>
+
+externdef __imp_RtlCopyMemory:PPROC
+RtlCopyMemory equ <__imp_RtlCopyMemory>
+
+externdef __imp_RtlCopyMemoryNonTemporal:PPROC
+RtlCopyMemoryNonTemporal equ <__imp_RtlCopyMemoryNonTemporal>
+
+externdef __imp_RtlCopyRangeList:PPROC
+RtlCopyRangeList equ <__imp_RtlCopyRangeList>
+
+externdef __imp_RtlCopySid:PPROC
+RtlCopySid equ <__imp_RtlCopySid>
+
+externdef __imp_RtlCopyString:PPROC
+RtlCopyString equ <__imp_RtlCopyString>
+
+externdef __imp_RtlCopyUnicodeString:PPROC
+RtlCopyUnicodeString equ <__imp_RtlCopyUnicodeString>
+
+externdef __imp_RtlCreateAcl:PPROC
+RtlCreateAcl equ <__imp_RtlCreateAcl>
+
+externdef __imp_RtlCreateAtomTable:PPROC
+RtlCreateAtomTable equ <__imp_RtlCreateAtomTable>
+
+externdef __imp_RtlCreateHeap:PPROC
+RtlCreateHeap equ <__imp_RtlCreateHeap>
+
+externdef __imp_RtlCreateRegistryKey:PPROC
+RtlCreateRegistryKey equ <__imp_RtlCreateRegistryKey>
+
+externdef __imp_RtlCreateSecurityDescriptor:PPROC
+RtlCreateSecurityDescriptor equ <__imp_RtlCreateSecurityDescriptor>
+
+externdef __imp_RtlCreateSystemVolumeInformationFolder:PPROC
+RtlCreateSystemVolumeInformationFolder equ <__imp_RtlCreateSystemVolumeInformationFolder>
+
+externdef __imp_RtlCreateUnicodeString:PPROC
+RtlCreateUnicodeString equ <__imp_RtlCreateUnicodeString>
+
+externdef __imp_RtlCustomCPToUnicodeN:PPROC
+RtlCustomCPToUnicodeN equ <__imp_RtlCustomCPToUnicodeN>
+
+externdef __imp_RtlDecompressBuffer:PPROC
+RtlDecompressBuffer equ <__imp_RtlDecompressBuffer>
+
+externdef __imp_RtlDecompressChunks:PPROC
+RtlDecompressChunks equ <__imp_RtlDecompressChunks>
+
+externdef __imp_RtlDecompressFragment:PPROC
+RtlDecompressFragment equ <__imp_RtlDecompressFragment>
+
+externdef __imp_RtlDelete:PPROC
+RtlDelete equ <__imp_RtlDelete>
+
+externdef __imp_RtlDeleteAce:PPROC
+RtlDeleteAce equ <__imp_RtlDeleteAce>
+
+externdef __imp_RtlDeleteAtomFromAtomTable:PPROC
+RtlDeleteAtomFromAtomTable equ <__imp_RtlDeleteAtomFromAtomTable>
+
+externdef __imp_RtlDeleteElementGenericTable:PPROC
+RtlDeleteElementGenericTable equ <__imp_RtlDeleteElementGenericTable>
+
+externdef __imp_RtlDeleteElementGenericTableAvl:PPROC
+RtlDeleteElementGenericTableAvl equ <__imp_RtlDeleteElementGenericTableAvl>
+
+externdef __imp_RtlDeleteNoSplay:PPROC
+RtlDeleteNoSplay equ <__imp_RtlDeleteNoSplay>
+
+externdef __imp_RtlDeleteOwnersRanges:PPROC
+RtlDeleteOwnersRanges equ <__imp_RtlDeleteOwnersRanges>
+
+externdef __imp_RtlDeleteRange:PPROC
+RtlDeleteRange equ <__imp_RtlDeleteRange>
+
+externdef __imp_RtlDeleteRegistryValue:PPROC
+RtlDeleteRegistryValue equ <__imp_RtlDeleteRegistryValue>
+
+externdef __imp_RtlDescribeChunk:PPROC
+RtlDescribeChunk equ <__imp_RtlDescribeChunk>
+
+externdef __imp_RtlDestroyAtomTable:PPROC
+RtlDestroyAtomTable equ <__imp_RtlDestroyAtomTable>
+
+externdef __imp_RtlDestroyHeap:PPROC
+RtlDestroyHeap equ <__imp_RtlDestroyHeap>
+
+externdef __imp_RtlDowncaseUnicodeString:PPROC
+RtlDowncaseUnicodeString equ <__imp_RtlDowncaseUnicodeString>
+
+externdef __imp_RtlEmptyAtomTable:PPROC
+RtlEmptyAtomTable equ <__imp_RtlEmptyAtomTable>
+
+externdef __imp_RtlEnumerateGenericTable:PPROC
+RtlEnumerateGenericTable equ <__imp_RtlEnumerateGenericTable>
+
+externdef __imp_RtlEnumerateGenericTableAvl:PPROC
+RtlEnumerateGenericTableAvl equ <__imp_RtlEnumerateGenericTableAvl>
+
+externdef __imp_RtlEnumerateGenericTableLikeADirectory:PPROC
+RtlEnumerateGenericTableLikeADirectory equ <__imp_RtlEnumerateGenericTableLikeADirectory>
+
+externdef __imp_RtlEnumerateGenericTableWithoutSplaying:PPROC
+RtlEnumerateGenericTableWithoutSplaying equ <__imp_RtlEnumerateGenericTableWithoutSplaying>
+
+externdef __imp_RtlEnumerateGenericTableWithoutSplayingAvl:PPROC
+RtlEnumerateGenericTableWithoutSplayingAvl equ <__imp_RtlEnumerateGenericTableWithoutSplayingAvl>
+
+externdef __imp_RtlEqualLuid:PPROC
+RtlEqualLuid equ <__imp_RtlEqualLuid>
+
+externdef __imp_RtlEqualSid:PPROC
+RtlEqualSid equ <__imp_RtlEqualSid>
+
+externdef __imp_RtlEqualString:PPROC
+RtlEqualString equ <__imp_RtlEqualString>
+
+externdef __imp_RtlEqualUnicodeString:PPROC
+RtlEqualUnicodeString equ <__imp_RtlEqualUnicodeString>
+
+externdef __imp_RtlFillMemory:PPROC
+RtlFillMemory equ <__imp_RtlFillMemory>
+
+externdef __imp_RtlFindClearBits:PPROC
+RtlFindClearBits equ <__imp_RtlFindClearBits>
+
+externdef __imp_RtlFindClearBitsAndSet:PPROC
+RtlFindClearBitsAndSet equ <__imp_RtlFindClearBitsAndSet>
+
+externdef __imp_RtlFindClearRuns:PPROC
+RtlFindClearRuns equ <__imp_RtlFindClearRuns>
+
+externdef __imp_RtlFindFirstRunClear:PPROC
+RtlFindFirstRunClear equ <__imp_RtlFindFirstRunClear>
+
+externdef __imp_RtlFindLastBackwardRunClear:PPROC
+RtlFindLastBackwardRunClear equ <__imp_RtlFindLastBackwardRunClear>
+
+externdef __imp_RtlFindLeastSignificantBit:PPROC
+RtlFindLeastSignificantBit equ <__imp_RtlFindLeastSignificantBit>
+
+externdef __imp_RtlFindLongestRunClear:PPROC
+RtlFindLongestRunClear equ <__imp_RtlFindLongestRunClear>
+
+externdef __imp_RtlFindMessage:PPROC
+RtlFindMessage equ <__imp_RtlFindMessage>
+
+externdef __imp_RtlFindMostSignificantBit:PPROC
+RtlFindMostSignificantBit equ <__imp_RtlFindMostSignificantBit>
+
+externdef __imp_RtlFindNextForwardRunClear:PPROC
+RtlFindNextForwardRunClear equ <__imp_RtlFindNextForwardRunClear>
+
+externdef __imp_RtlFindRange:PPROC
+RtlFindRange equ <__imp_RtlFindRange>
+
+externdef __imp_RtlFindSetBits:PPROC
+RtlFindSetBits equ <__imp_RtlFindSetBits>
+
+externdef __imp_RtlFindSetBitsAndClear:PPROC
+RtlFindSetBitsAndClear equ <__imp_RtlFindSetBitsAndClear>
+
+externdef __imp_RtlFindUnicodePrefix:PPROC
+RtlFindUnicodePrefix equ <__imp_RtlFindUnicodePrefix>
+
+externdef __imp_RtlFormatCurrentUserKeyPath:PPROC
+RtlFormatCurrentUserKeyPath equ <__imp_RtlFormatCurrentUserKeyPath>
+
+externdef __imp_RtlFreeAnsiString:PPROC
+RtlFreeAnsiString equ <__imp_RtlFreeAnsiString>
+
+externdef __imp_RtlFreeHeap:PPROC
+RtlFreeHeap equ <__imp_RtlFreeHeap>
+
+externdef __imp_RtlFreeOemString:PPROC
+RtlFreeOemString equ <__imp_RtlFreeOemString>
+
+externdef __imp_RtlFreeRangeList:PPROC
+RtlFreeRangeList equ <__imp_RtlFreeRangeList>
+
+externdef __imp_RtlFreeUnicodeString:PPROC
+RtlFreeUnicodeString equ <__imp_RtlFreeUnicodeString>
+
+externdef __imp_RtlGUIDFromString:PPROC
+RtlGUIDFromString equ <__imp_RtlGUIDFromString>
+
+externdef __imp_RtlGenerate8dot3Name:PPROC
+RtlGenerate8dot3Name equ <__imp_RtlGenerate8dot3Name>
+
+externdef __imp_RtlGetAce:PPROC
+RtlGetAce equ <__imp_RtlGetAce>
+
+externdef __imp_RtlGetCallersAddress:PPROC
+RtlGetCallersAddress equ <__imp_RtlGetCallersAddress>
+
+externdef __imp_RtlGetCompressionWorkSpaceSize:PPROC
+RtlGetCompressionWorkSpaceSize equ <__imp_RtlGetCompressionWorkSpaceSize>
+
+externdef __imp_RtlGetDaclSecurityDescriptor:PPROC
+RtlGetDaclSecurityDescriptor equ <__imp_RtlGetDaclSecurityDescriptor>
+
+externdef __imp_RtlGetDefaultCodePage:PPROC
+RtlGetDefaultCodePage equ <__imp_RtlGetDefaultCodePage>
+
+externdef __imp_RtlGetElementGenericTable:PPROC
+RtlGetElementGenericTable equ <__imp_RtlGetElementGenericTable>
+
+externdef __imp_RtlGetElementGenericTableAvl:PPROC
+RtlGetElementGenericTableAvl equ <__imp_RtlGetElementGenericTableAvl>
+
+externdef __imp_RtlGetFirstRange:PPROC
+RtlGetFirstRange equ <__imp_RtlGetFirstRange>
+
+externdef __imp_RtlGetGroupSecurityDescriptor:PPROC
+RtlGetGroupSecurityDescriptor equ <__imp_RtlGetGroupSecurityDescriptor>
+
+externdef __imp_RtlGetNextRange:PPROC
+RtlGetNextRange equ <__imp_RtlGetNextRange>
+
+externdef __imp_RtlGetNtGlobalFlags:PPROC
+RtlGetNtGlobalFlags equ <__imp_RtlGetNtGlobalFlags>
+
+externdef __imp_RtlGetOwnerSecurityDescriptor:PPROC
+RtlGetOwnerSecurityDescriptor equ <__imp_RtlGetOwnerSecurityDescriptor>
+
+externdef __imp_RtlGetSaclSecurityDescriptor:PPROC
+RtlGetSaclSecurityDescriptor equ <__imp_RtlGetSaclSecurityDescriptor>
+
+externdef __imp_RtlGetSetBootStatusData:PPROC
+RtlGetSetBootStatusData equ <__imp_RtlGetSetBootStatusData>
+
+externdef __imp_RtlGetVersion:PPROC
+RtlGetVersion equ <__imp_RtlGetVersion>
+
+externdef __imp_RtlHashUnicodeString:PPROC
+RtlHashUnicodeString equ <__imp_RtlHashUnicodeString>
+
+externdef __imp_RtlImageDirectoryEntryToData:PPROC
+RtlImageDirectoryEntryToData equ <__imp_RtlImageDirectoryEntryToData>
+
+externdef __imp_RtlImageNtHeader:PPROC
+RtlImageNtHeader equ <__imp_RtlImageNtHeader>
+
+externdef __imp_RtlInitAnsiString:PPROC
+RtlInitAnsiString equ <__imp_RtlInitAnsiString>
+
+externdef __imp_RtlInitAnsiStringEx:PPROC
+RtlInitAnsiStringEx equ <__imp_RtlInitAnsiStringEx>
+
+externdef __imp_RtlInitCodePageTable:PPROC
+RtlInitCodePageTable equ <__imp_RtlInitCodePageTable>
+
+externdef __imp_RtlInitString:PPROC
+RtlInitString equ <__imp_RtlInitString>
+
+externdef __imp_RtlInitUnicodeString:PPROC
+RtlInitUnicodeString equ <__imp_RtlInitUnicodeString>
+
+externdef __imp_RtlInitUnicodeStringEx:PPROC
+RtlInitUnicodeStringEx equ <__imp_RtlInitUnicodeStringEx>
+
+externdef __imp_RtlInitializeBitMap:PPROC
+RtlInitializeBitMap equ <__imp_RtlInitializeBitMap>
+
+externdef __imp_RtlInitializeGenericTable:PPROC
+RtlInitializeGenericTable equ <__imp_RtlInitializeGenericTable>
+
+externdef __imp_RtlInitializeGenericTableAvl:PPROC
+RtlInitializeGenericTableAvl equ <__imp_RtlInitializeGenericTableAvl>
+
+externdef __imp_RtlInitializeRangeList:PPROC
+RtlInitializeRangeList equ <__imp_RtlInitializeRangeList>
+
+externdef __imp_RtlInitializeSid:PPROC
+RtlInitializeSid equ <__imp_RtlInitializeSid>
+
+externdef __imp_RtlInitializeUnicodePrefix:PPROC
+RtlInitializeUnicodePrefix equ <__imp_RtlInitializeUnicodePrefix>
+
+externdef __imp_RtlInsertElementGenericTable:PPROC
+RtlInsertElementGenericTable equ <__imp_RtlInsertElementGenericTable>
+
+externdef __imp_RtlInsertElementGenericTableAvl:PPROC
+RtlInsertElementGenericTableAvl equ <__imp_RtlInsertElementGenericTableAvl>
+
+externdef __imp_RtlInsertElementGenericTableFull:PPROC
+RtlInsertElementGenericTableFull equ <__imp_RtlInsertElementGenericTableFull>
+
+externdef __imp_RtlInsertElementGenericTableFullAvl:PPROC
+RtlInsertElementGenericTableFullAvl equ <__imp_RtlInsertElementGenericTableFullAvl>
+
+externdef __imp_RtlInsertUnicodePrefix:PPROC
+RtlInsertUnicodePrefix equ <__imp_RtlInsertUnicodePrefix>
+
+externdef __imp_RtlInt64ToUnicodeString:PPROC
+RtlInt64ToUnicodeString equ <__imp_RtlInt64ToUnicodeString>
+
+externdef __imp_RtlIntegerToChar:PPROC
+RtlIntegerToChar equ <__imp_RtlIntegerToChar>
+
+externdef __imp_RtlIntegerToUnicode:PPROC
+RtlIntegerToUnicode equ <__imp_RtlIntegerToUnicode>
+
+externdef __imp_RtlIntegerToUnicodeString:PPROC
+RtlIntegerToUnicodeString equ <__imp_RtlIntegerToUnicodeString>
+
+externdef __imp_RtlInvertRangeList:PPROC
+RtlInvertRangeList equ <__imp_RtlInvertRangeList>
+
+externdef __imp_RtlIpv4AddressToStringA:PPROC
+RtlIpv4AddressToStringA equ <__imp_RtlIpv4AddressToStringA>
+  IFNDEF __UNICODE__
+    RtlIpv4AddressToString equ <__imp_RtlIpv4AddressToStringA>
+  ENDIF
+
+externdef __imp_RtlIpv4AddressToStringExA:PPROC
+RtlIpv4AddressToStringExA equ <__imp_RtlIpv4AddressToStringExA>
+  IFNDEF __UNICODE__
+    RtlIpv4AddressToStringEx equ <__imp_RtlIpv4AddressToStringExA>
+  ENDIF
+
+externdef __imp_RtlIpv4AddressToStringExW:PPROC
+RtlIpv4AddressToStringExW equ <__imp_RtlIpv4AddressToStringExW>
+  IFDEF __UNICODE__
+    RtlIpv4AddressToStringEx equ <__imp_RtlIpv4AddressToStringExW>
+  ENDIF
+
+externdef __imp_RtlIpv4AddressToStringW:PPROC
+RtlIpv4AddressToStringW equ <__imp_RtlIpv4AddressToStringW>
+  IFDEF __UNICODE__
+    RtlIpv4AddressToString equ <__imp_RtlIpv4AddressToStringW>
+  ENDIF
+
+externdef __imp_RtlIpv4StringToAddressA:PPROC
+RtlIpv4StringToAddressA equ <__imp_RtlIpv4StringToAddressA>
+  IFNDEF __UNICODE__
+    RtlIpv4StringToAddress equ <__imp_RtlIpv4StringToAddressA>
+  ENDIF
+
+externdef __imp_RtlIpv4StringToAddressExA:PPROC
+RtlIpv4StringToAddressExA equ <__imp_RtlIpv4StringToAddressExA>
+  IFNDEF __UNICODE__
+    RtlIpv4StringToAddressEx equ <__imp_RtlIpv4StringToAddressExA>
+  ENDIF
+
+externdef __imp_RtlIpv4StringToAddressExW:PPROC
+RtlIpv4StringToAddressExW equ <__imp_RtlIpv4StringToAddressExW>
+  IFDEF __UNICODE__
+    RtlIpv4StringToAddressEx equ <__imp_RtlIpv4StringToAddressExW>
+  ENDIF
+
+externdef __imp_RtlIpv4StringToAddressW:PPROC
+RtlIpv4StringToAddressW equ <__imp_RtlIpv4StringToAddressW>
+  IFDEF __UNICODE__
+    RtlIpv4StringToAddress equ <__imp_RtlIpv4StringToAddressW>
+  ENDIF
+
+externdef __imp_RtlIpv6AddressToStringA:PPROC
+RtlIpv6AddressToStringA equ <__imp_RtlIpv6AddressToStringA>
+  IFNDEF __UNICODE__
+    RtlIpv6AddressToString equ <__imp_RtlIpv6AddressToStringA>
+  ENDIF
+
+externdef __imp_RtlIpv6AddressToStringExA:PPROC
+RtlIpv6AddressToStringExA equ <__imp_RtlIpv6AddressToStringExA>
+  IFNDEF __UNICODE__
+    RtlIpv6AddressToStringEx equ <__imp_RtlIpv6AddressToStringExA>
+  ENDIF
+
+externdef __imp_RtlIpv6AddressToStringExW:PPROC
+RtlIpv6AddressToStringExW equ <__imp_RtlIpv6AddressToStringExW>
+  IFDEF __UNICODE__
+    RtlIpv6AddressToStringEx equ <__imp_RtlIpv6AddressToStringExW>
+  ENDIF
+
+externdef __imp_RtlIpv6AddressToStringW:PPROC
+RtlIpv6AddressToStringW equ <__imp_RtlIpv6AddressToStringW>
+  IFDEF __UNICODE__
+    RtlIpv6AddressToString equ <__imp_RtlIpv6AddressToStringW>
+  ENDIF
+
+externdef __imp_RtlIpv6StringToAddressA:PPROC
+RtlIpv6StringToAddressA equ <__imp_RtlIpv6StringToAddressA>
+  IFNDEF __UNICODE__
+    RtlIpv6StringToAddress equ <__imp_RtlIpv6StringToAddressA>
+  ENDIF
+
+externdef __imp_RtlIpv6StringToAddressExA:PPROC
+RtlIpv6StringToAddressExA equ <__imp_RtlIpv6StringToAddressExA>
+  IFNDEF __UNICODE__
+    RtlIpv6StringToAddressEx equ <__imp_RtlIpv6StringToAddressExA>
+  ENDIF
+
+externdef __imp_RtlIpv6StringToAddressExW:PPROC
+RtlIpv6StringToAddressExW equ <__imp_RtlIpv6StringToAddressExW>
+  IFDEF __UNICODE__
+    RtlIpv6StringToAddressEx equ <__imp_RtlIpv6StringToAddressExW>
+  ENDIF
+
+externdef __imp_RtlIpv6StringToAddressW:PPROC
+RtlIpv6StringToAddressW equ <__imp_RtlIpv6StringToAddressW>
+  IFDEF __UNICODE__
+    RtlIpv6StringToAddress equ <__imp_RtlIpv6StringToAddressW>
+  ENDIF
+
+externdef __imp_RtlIsGenericTableEmpty:PPROC
+RtlIsGenericTableEmpty equ <__imp_RtlIsGenericTableEmpty>
+
+externdef __imp_RtlIsGenericTableEmptyAvl:PPROC
+RtlIsGenericTableEmptyAvl equ <__imp_RtlIsGenericTableEmptyAvl>
+
+externdef __imp_RtlIsNameLegalDOS8Dot3:PPROC
+RtlIsNameLegalDOS8Dot3 equ <__imp_RtlIsNameLegalDOS8Dot3>
+
+externdef __imp_RtlIsRangeAvailable:PPROC
+RtlIsRangeAvailable equ <__imp_RtlIsRangeAvailable>
+
+externdef __imp_RtlIsValidOemCharacter:PPROC
+RtlIsValidOemCharacter equ <__imp_RtlIsValidOemCharacter>
+
+externdef __imp_RtlLengthRequiredSid:PPROC
+RtlLengthRequiredSid equ <__imp_RtlLengthRequiredSid>
+
+externdef __imp_RtlLengthSecurityDescriptor:PPROC
+RtlLengthSecurityDescriptor equ <__imp_RtlLengthSecurityDescriptor>
+
+externdef __imp_RtlLengthSid:PPROC
+RtlLengthSid equ <__imp_RtlLengthSid>
+
+externdef __imp_RtlLockBootStatusData:PPROC
+RtlLockBootStatusData equ <__imp_RtlLockBootStatusData>
+
+externdef __imp_RtlLookupAtomInAtomTable:PPROC
+RtlLookupAtomInAtomTable equ <__imp_RtlLookupAtomInAtomTable>
+
+externdef __imp_RtlLookupElementGenericTable:PPROC
+RtlLookupElementGenericTable equ <__imp_RtlLookupElementGenericTable>
+
+externdef __imp_RtlLookupElementGenericTableAvl:PPROC
+RtlLookupElementGenericTableAvl equ <__imp_RtlLookupElementGenericTableAvl>
+
+externdef __imp_RtlLookupElementGenericTableFull:PPROC
+RtlLookupElementGenericTableFull equ <__imp_RtlLookupElementGenericTableFull>
+
+externdef __imp_RtlLookupElementGenericTableFullAvl:PPROC
+RtlLookupElementGenericTableFullAvl equ <__imp_RtlLookupElementGenericTableFullAvl>
+
+externdef __imp_RtlLookupFunctionEntry:PPROC
+RtlLookupFunctionEntry equ <__imp_RtlLookupFunctionEntry>
+
+externdef __imp_RtlMapGenericMask:PPROC
+RtlMapGenericMask equ <__imp_RtlMapGenericMask>
+
+externdef __imp_RtlMapSecurityErrorToNtStatus:PPROC
+RtlMapSecurityErrorToNtStatus equ <__imp_RtlMapSecurityErrorToNtStatus>
+
+externdef __imp_RtlMergeRangeLists:PPROC
+RtlMergeRangeLists equ <__imp_RtlMergeRangeLists>
+
+externdef __imp_RtlMoveMemory:PPROC
+RtlMoveMemory equ <__imp_RtlMoveMemory>
+
+externdef __imp_RtlMultiByteToUnicodeN:PPROC
+RtlMultiByteToUnicodeN equ <__imp_RtlMultiByteToUnicodeN>
+
+externdef __imp_RtlMultiByteToUnicodeSize:PPROC
+RtlMultiByteToUnicodeSize equ <__imp_RtlMultiByteToUnicodeSize>
+
+externdef __imp_RtlNextUnicodePrefix:PPROC
+RtlNextUnicodePrefix equ <__imp_RtlNextUnicodePrefix>
+
+externdef __imp_RtlNtStatusToDosError:PPROC
+RtlNtStatusToDosError equ <__imp_RtlNtStatusToDosError>
+
+externdef __imp_RtlNtStatusToDosErrorNoTeb:PPROC
+RtlNtStatusToDosErrorNoTeb equ <__imp_RtlNtStatusToDosErrorNoTeb>
+
+externdef __imp_RtlNumberGenericTableElements:PPROC
+RtlNumberGenericTableElements equ <__imp_RtlNumberGenericTableElements>
+
+externdef __imp_RtlNumberGenericTableElementsAvl:PPROC
+RtlNumberGenericTableElementsAvl equ <__imp_RtlNumberGenericTableElementsAvl>
+
+externdef __imp_RtlNumberOfClearBits:PPROC
+RtlNumberOfClearBits equ <__imp_RtlNumberOfClearBits>
+
+externdef __imp_RtlNumberOfSetBits:PPROC
+RtlNumberOfSetBits equ <__imp_RtlNumberOfSetBits>
+
+externdef __imp_RtlOemStringToCountedUnicodeString:PPROC
+RtlOemStringToCountedUnicodeString equ <__imp_RtlOemStringToCountedUnicodeString>
+
+externdef __imp_RtlOemStringToUnicodeSize:PPROC
+RtlOemStringToUnicodeSize equ <__imp_RtlOemStringToUnicodeSize>
+
+externdef __imp_RtlOemStringToUnicodeString:PPROC
+RtlOemStringToUnicodeString equ <__imp_RtlOemStringToUnicodeString>
+
+externdef __imp_RtlOemToUnicodeN:PPROC
+RtlOemToUnicodeN equ <__imp_RtlOemToUnicodeN>
+
+externdef __imp_RtlPcToFileHeader:PPROC
+RtlPcToFileHeader equ <__imp_RtlPcToFileHeader>
+
+externdef __imp_RtlPinAtomInAtomTable:PPROC
+RtlPinAtomInAtomTable equ <__imp_RtlPinAtomInAtomTable>
+
+externdef __imp_RtlPrefetchMemoryNonTemporal:PPROC
+RtlPrefetchMemoryNonTemporal equ <__imp_RtlPrefetchMemoryNonTemporal>
+
+externdef __imp_RtlPrefixString:PPROC
+RtlPrefixString equ <__imp_RtlPrefixString>
+
+externdef __imp_RtlPrefixUnicodeString:PPROC
+RtlPrefixUnicodeString equ <__imp_RtlPrefixUnicodeString>
+
+externdef __imp_RtlQueryAtomInAtomTable:PPROC
+RtlQueryAtomInAtomTable equ <__imp_RtlQueryAtomInAtomTable>
+
+externdef __imp_RtlQueryRegistryValues:PPROC
+RtlQueryRegistryValues equ <__imp_RtlQueryRegistryValues>
+
+externdef __imp_RtlQueryTimeZoneInformation:PPROC
+RtlQueryTimeZoneInformation equ <__imp_RtlQueryTimeZoneInformation>
+
+externdef __imp_RtlRaiseException:PPROC
+RtlRaiseException equ <__imp_RtlRaiseException>
+
+externdef __imp_RtlRandom:PPROC
+RtlRandom equ <__imp_RtlRandom>
+
+externdef __imp_RtlRandomEx:PPROC
+RtlRandomEx equ <__imp_RtlRandomEx>
+
+externdef __imp_RtlRealPredecessor:PPROC
+RtlRealPredecessor equ <__imp_RtlRealPredecessor>
+
+externdef __imp_RtlRealSuccessor:PPROC
+RtlRealSuccessor equ <__imp_RtlRealSuccessor>
+
+externdef __imp_RtlRemoveUnicodePrefix:PPROC
+RtlRemoveUnicodePrefix equ <__imp_RtlRemoveUnicodePrefix>
+
+externdef __imp_RtlReserveChunk:PPROC
+RtlReserveChunk equ <__imp_RtlReserveChunk>
+
+externdef __imp_RtlRestoreContext:PPROC
+RtlRestoreContext equ <__imp_RtlRestoreContext>
+
+externdef __imp_RtlSecondsSince1970ToTime:PPROC
+RtlSecondsSince1970ToTime equ <__imp_RtlSecondsSince1970ToTime>
+
+externdef __imp_RtlSecondsSince1980ToTime:PPROC
+RtlSecondsSince1980ToTime equ <__imp_RtlSecondsSince1980ToTime>
+
+externdef __imp_RtlSelfRelativeToAbsoluteSD2:PPROC
+RtlSelfRelativeToAbsoluteSD2 equ <__imp_RtlSelfRelativeToAbsoluteSD2>
+
+externdef __imp_RtlSelfRelativeToAbsoluteSD:PPROC
+RtlSelfRelativeToAbsoluteSD equ <__imp_RtlSelfRelativeToAbsoluteSD>
+
+externdef __imp_RtlSetAllBits:PPROC
+RtlSetAllBits equ <__imp_RtlSetAllBits>
+
+externdef __imp_RtlSetBit:PPROC
+RtlSetBit equ <__imp_RtlSetBit>
+
+externdef __imp_RtlSetBits:PPROC
+RtlSetBits equ <__imp_RtlSetBits>
+
+externdef __imp_RtlSetDaclSecurityDescriptor:PPROC
+RtlSetDaclSecurityDescriptor equ <__imp_RtlSetDaclSecurityDescriptor>
+
+externdef __imp_RtlSetGroupSecurityDescriptor:PPROC
+RtlSetGroupSecurityDescriptor equ <__imp_RtlSetGroupSecurityDescriptor>
+
+externdef __imp_RtlSetOwnerSecurityDescriptor:PPROC
+RtlSetOwnerSecurityDescriptor equ <__imp_RtlSetOwnerSecurityDescriptor>
+
+externdef __imp_RtlSetSaclSecurityDescriptor:PPROC
+RtlSetSaclSecurityDescriptor equ <__imp_RtlSetSaclSecurityDescriptor>
+
+externdef __imp_RtlSetTimeZoneInformation:PPROC
+RtlSetTimeZoneInformation equ <__imp_RtlSetTimeZoneInformation>
+
+externdef __imp_RtlSizeHeap:PPROC
+RtlSizeHeap equ <__imp_RtlSizeHeap>
+
+externdef __imp_RtlSplay:PPROC
+RtlSplay equ <__imp_RtlSplay>
+
+externdef __imp_RtlStringFromGUID:PPROC
+RtlStringFromGUID equ <__imp_RtlStringFromGUID>
+
+externdef __imp_RtlSubAuthorityCountSid:PPROC
+RtlSubAuthorityCountSid equ <__imp_RtlSubAuthorityCountSid>
+
+externdef __imp_RtlSubAuthoritySid:PPROC
+RtlSubAuthoritySid equ <__imp_RtlSubAuthoritySid>
+
+externdef __imp_RtlSubtreePredecessor:PPROC
+RtlSubtreePredecessor equ <__imp_RtlSubtreePredecessor>
+
+externdef __imp_RtlSubtreeSuccessor:PPROC
+RtlSubtreeSuccessor equ <__imp_RtlSubtreeSuccessor>
+
+externdef __imp_RtlTestBit:PPROC
+RtlTestBit equ <__imp_RtlTestBit>
+
+externdef __imp_RtlTimeFieldsToTime:PPROC
+RtlTimeFieldsToTime equ <__imp_RtlTimeFieldsToTime>
+
+externdef __imp_RtlTimeToElapsedTimeFields:PPROC
+RtlTimeToElapsedTimeFields equ <__imp_RtlTimeToElapsedTimeFields>
+
+externdef __imp_RtlTimeToSecondsSince1970:PPROC
+RtlTimeToSecondsSince1970 equ <__imp_RtlTimeToSecondsSince1970>
+
+externdef __imp_RtlTimeToSecondsSince1980:PPROC
+RtlTimeToSecondsSince1980 equ <__imp_RtlTimeToSecondsSince1980>
+
+externdef __imp_RtlTimeToTimeFields:PPROC
+RtlTimeToTimeFields equ <__imp_RtlTimeToTimeFields>
+
+externdef __imp_RtlTraceDatabaseAdd:PPROC
+RtlTraceDatabaseAdd equ <__imp_RtlTraceDatabaseAdd>
+
+externdef __imp_RtlTraceDatabaseCreate:PPROC
+RtlTraceDatabaseCreate equ <__imp_RtlTraceDatabaseCreate>
+
+externdef __imp_RtlTraceDatabaseDestroy:PPROC
+RtlTraceDatabaseDestroy equ <__imp_RtlTraceDatabaseDestroy>
+
+externdef __imp_RtlTraceDatabaseEnumerate:PPROC
+RtlTraceDatabaseEnumerate equ <__imp_RtlTraceDatabaseEnumerate>
+
+externdef __imp_RtlTraceDatabaseFind:PPROC
+RtlTraceDatabaseFind equ <__imp_RtlTraceDatabaseFind>
+
+externdef __imp_RtlTraceDatabaseLock:PPROC
+RtlTraceDatabaseLock equ <__imp_RtlTraceDatabaseLock>
+
+externdef __imp_RtlTraceDatabaseUnlock:PPROC
+RtlTraceDatabaseUnlock equ <__imp_RtlTraceDatabaseUnlock>
+
+externdef __imp_RtlTraceDatabaseValidate:PPROC
+RtlTraceDatabaseValidate equ <__imp_RtlTraceDatabaseValidate>
+
+externdef __imp_RtlUnicodeStringToAnsiSize:PPROC
+RtlUnicodeStringToAnsiSize equ <__imp_RtlUnicodeStringToAnsiSize>
+
+externdef __imp_RtlUnicodeStringToAnsiString:PPROC
+RtlUnicodeStringToAnsiString equ <__imp_RtlUnicodeStringToAnsiString>
+
+externdef __imp_RtlUnicodeStringToCountedOemString:PPROC
+RtlUnicodeStringToCountedOemString equ <__imp_RtlUnicodeStringToCountedOemString>
+
+externdef __imp_RtlUnicodeStringToInteger:PPROC
+RtlUnicodeStringToInteger equ <__imp_RtlUnicodeStringToInteger>
+
+externdef __imp_RtlUnicodeStringToOemSize:PPROC
+RtlUnicodeStringToOemSize equ <__imp_RtlUnicodeStringToOemSize>
+
+externdef __imp_RtlUnicodeStringToOemString:PPROC
+RtlUnicodeStringToOemString equ <__imp_RtlUnicodeStringToOemString>
+
+externdef __imp_RtlUnicodeToCustomCPN:PPROC
+RtlUnicodeToCustomCPN equ <__imp_RtlUnicodeToCustomCPN>
+
+externdef __imp_RtlUnicodeToMultiByteN:PPROC
+RtlUnicodeToMultiByteN equ <__imp_RtlUnicodeToMultiByteN>
+
+externdef __imp_RtlUnicodeToMultiByteSize:PPROC
+RtlUnicodeToMultiByteSize equ <__imp_RtlUnicodeToMultiByteSize>
+
+externdef __imp_RtlUnicodeToOemN:PPROC
+RtlUnicodeToOemN equ <__imp_RtlUnicodeToOemN>
+
+externdef __imp_RtlUnlockBootStatusData:PPROC
+RtlUnlockBootStatusData equ <__imp_RtlUnlockBootStatusData>
+
+externdef __imp_RtlUnwind:PPROC
+RtlUnwind equ <__imp_RtlUnwind>
+
+externdef __imp_RtlUnwindEx:PPROC
+RtlUnwindEx equ <__imp_RtlUnwindEx>
+
+externdef __imp_RtlUpcaseUnicodeChar:PPROC
+RtlUpcaseUnicodeChar equ <__imp_RtlUpcaseUnicodeChar>
+
+externdef __imp_RtlUpcaseUnicodeString:PPROC
+RtlUpcaseUnicodeString equ <__imp_RtlUpcaseUnicodeString>
+
+externdef __imp_RtlUpcaseUnicodeStringToAnsiString:PPROC
+RtlUpcaseUnicodeStringToAnsiString equ <__imp_RtlUpcaseUnicodeStringToAnsiString>
+
+externdef __imp_RtlUpcaseUnicodeStringToCountedOemString:PPROC
+RtlUpcaseUnicodeStringToCountedOemString equ <__imp_RtlUpcaseUnicodeStringToCountedOemString>
+
+externdef __imp_RtlUpcaseUnicodeStringToOemString:PPROC
+RtlUpcaseUnicodeStringToOemString equ <__imp_RtlUpcaseUnicodeStringToOemString>
+
+externdef __imp_RtlUpcaseUnicodeToCustomCPN:PPROC
+RtlUpcaseUnicodeToCustomCPN equ <__imp_RtlUpcaseUnicodeToCustomCPN>
+
+externdef __imp_RtlUpcaseUnicodeToMultiByteN:PPROC
+RtlUpcaseUnicodeToMultiByteN equ <__imp_RtlUpcaseUnicodeToMultiByteN>
+
+externdef __imp_RtlUpcaseUnicodeToOemN:PPROC
+RtlUpcaseUnicodeToOemN equ <__imp_RtlUpcaseUnicodeToOemN>
+
+externdef __imp_RtlUpperChar:PPROC
+RtlUpperChar equ <__imp_RtlUpperChar>
+
+externdef __imp_RtlUpperString:PPROC
+RtlUpperString equ <__imp_RtlUpperString>
+
+externdef __imp_RtlValidRelativeSecurityDescriptor:PPROC
+RtlValidRelativeSecurityDescriptor equ <__imp_RtlValidRelativeSecurityDescriptor>
+
+externdef __imp_RtlValidSecurityDescriptor:PPROC
+RtlValidSecurityDescriptor equ <__imp_RtlValidSecurityDescriptor>
+
+externdef __imp_RtlValidSid:PPROC
+RtlValidSid equ <__imp_RtlValidSid>
+
+externdef __imp_RtlVerifyVersionInfo:PPROC
+RtlVerifyVersionInfo equ <__imp_RtlVerifyVersionInfo>
+
+externdef __imp_RtlVirtualUnwind:PPROC
+RtlVirtualUnwind equ <__imp_RtlVirtualUnwind>
+
+externdef __imp_RtlVolumeDeviceToDosName:PPROC
+RtlVolumeDeviceToDosName equ <__imp_RtlVolumeDeviceToDosName>
+
+externdef __imp_RtlWalkFrameChain:PPROC
+RtlWalkFrameChain equ <__imp_RtlWalkFrameChain>
+
+externdef __imp_RtlWriteRegistryValue:PPROC
+RtlWriteRegistryValue equ <__imp_RtlWriteRegistryValue>
+
+externdef __imp_RtlZeroHeap:PPROC
+RtlZeroHeap equ <__imp_RtlZeroHeap>
+
+externdef __imp_RtlZeroMemory:PPROC
+RtlZeroMemory equ <__imp_RtlZeroMemory>
+
+externdef __imp_RtlxAnsiStringToUnicodeSize:PPROC
+RtlxAnsiStringToUnicodeSize equ <__imp_RtlxAnsiStringToUnicodeSize>
+
+externdef __imp_RtlxOemStringToUnicodeSize:PPROC
+RtlxOemStringToUnicodeSize equ <__imp_RtlxOemStringToUnicodeSize>
+
+externdef __imp_RtlxUnicodeStringToAnsiSize:PPROC
+RtlxUnicodeStringToAnsiSize equ <__imp_RtlxUnicodeStringToAnsiSize>
+
+externdef __imp_RtlxUnicodeStringToOemSize:PPROC
+RtlxUnicodeStringToOemSize equ <__imp_RtlxUnicodeStringToOemSize>
+
+externdef __imp_SeAccessCheck:PPROC
+SeAccessCheck equ <__imp_SeAccessCheck>
+
+externdef __imp_SeAppendPrivileges:PPROC
+SeAppendPrivileges equ <__imp_SeAppendPrivileges>
+
+externdef __imp_SeAssignSecurity:PPROC
+SeAssignSecurity equ <__imp_SeAssignSecurity>
+
+externdef __imp_SeAssignSecurityEx:PPROC
+SeAssignSecurityEx equ <__imp_SeAssignSecurityEx>
+
+externdef __imp_SeAuditHardLinkCreation:PPROC
+SeAuditHardLinkCreation equ <__imp_SeAuditHardLinkCreation>
+
+externdef __imp_SeAuditingFileEvents:PPROC
+SeAuditingFileEvents equ <__imp_SeAuditingFileEvents>
+
+externdef __imp_SeAuditingFileEventsWithContext:PPROC
+SeAuditingFileEventsWithContext equ <__imp_SeAuditingFileEventsWithContext>
+
+externdef __imp_SeAuditingFileOrGlobalEvents:PPROC
+SeAuditingFileOrGlobalEvents equ <__imp_SeAuditingFileOrGlobalEvents>
+
+externdef __imp_SeAuditingHardLinkEvents:PPROC
+SeAuditingHardLinkEvents equ <__imp_SeAuditingHardLinkEvents>
+
+externdef __imp_SeAuditingHardLinkEventsWithContext:PPROC
+SeAuditingHardLinkEventsWithContext equ <__imp_SeAuditingHardLinkEventsWithContext>
+
+externdef __imp_SeCaptureSecurityDescriptor:PPROC
+SeCaptureSecurityDescriptor equ <__imp_SeCaptureSecurityDescriptor>
+
+externdef __imp_SeCaptureSubjectContext:PPROC
+SeCaptureSubjectContext equ <__imp_SeCaptureSubjectContext>
+
+externdef __imp_SeCloseObjectAuditAlarm:PPROC
+SeCloseObjectAuditAlarm equ <__imp_SeCloseObjectAuditAlarm>
+
+externdef __imp_SeCreateAccessState:PPROC
+SeCreateAccessState equ <__imp_SeCreateAccessState>
+
+externdef __imp_SeCreateClientSecurity:PPROC
+SeCreateClientSecurity equ <__imp_SeCreateClientSecurity>
+
+externdef __imp_SeCreateClientSecurityFromSubjectContext:PPROC
+SeCreateClientSecurityFromSubjectContext equ <__imp_SeCreateClientSecurityFromSubjectContext>
+
+externdef __imp_SeDeassignSecurity:PPROC
+SeDeassignSecurity equ <__imp_SeDeassignSecurity>
+
+externdef __imp_SeDeleteAccessState:PPROC
+SeDeleteAccessState equ <__imp_SeDeleteAccessState>
+
+externdef __imp_SeDeleteObjectAuditAlarm:PPROC
+SeDeleteObjectAuditAlarm equ <__imp_SeDeleteObjectAuditAlarm>
+
+externdef __imp_SeExports:PPROC
+SeExports equ <__imp_SeExports>
+
+externdef __imp_SeFilterToken:PPROC
+SeFilterToken equ <__imp_SeFilterToken>
+
+externdef __imp_SeFreePrivileges:PPROC
+SeFreePrivileges equ <__imp_SeFreePrivileges>
+
+externdef __imp_SeImpersonateClient:PPROC
+SeImpersonateClient equ <__imp_SeImpersonateClient>
+
+externdef __imp_SeImpersonateClientEx:PPROC
+SeImpersonateClientEx equ <__imp_SeImpersonateClientEx>
+
+externdef __imp_SeLockSubjectContext:PPROC
+SeLockSubjectContext equ <__imp_SeLockSubjectContext>
+
+externdef __imp_SeMarkLogonSessionForTerminationNotification:PPROC
+SeMarkLogonSessionForTerminationNotification equ <__imp_SeMarkLogonSessionForTerminationNotification>
+
+externdef __imp_SeOpenObjectAuditAlarm:PPROC
+SeOpenObjectAuditAlarm equ <__imp_SeOpenObjectAuditAlarm>
+
+externdef __imp_SeOpenObjectForDeleteAuditAlarm:PPROC
+SeOpenObjectForDeleteAuditAlarm equ <__imp_SeOpenObjectForDeleteAuditAlarm>
+
+externdef __imp_SePrivilegeCheck:PPROC
+SePrivilegeCheck equ <__imp_SePrivilegeCheck>
+
+externdef __imp_SePrivilegeObjectAuditAlarm:PPROC
+SePrivilegeObjectAuditAlarm equ <__imp_SePrivilegeObjectAuditAlarm>
+
+externdef __imp_SePublicDefaultDacl:PPROC
+SePublicDefaultDacl equ <__imp_SePublicDefaultDacl>
+
+externdef __imp_SeQueryAuthenticationIdToken:PPROC
+SeQueryAuthenticationIdToken equ <__imp_SeQueryAuthenticationIdToken>
+
+externdef __imp_SeQueryInformationToken:PPROC
+SeQueryInformationToken equ <__imp_SeQueryInformationToken>
+
+externdef __imp_SeQuerySecurityDescriptorInfo:PPROC
+SeQuerySecurityDescriptorInfo equ <__imp_SeQuerySecurityDescriptorInfo>
+
+externdef __imp_SeQuerySessionIdToken:PPROC
+SeQuerySessionIdToken equ <__imp_SeQuerySessionIdToken>
+
+externdef __imp_SeRegisterLogonSessionTerminatedRoutine:PPROC
+SeRegisterLogonSessionTerminatedRoutine equ <__imp_SeRegisterLogonSessionTerminatedRoutine>
+
+externdef __imp_SeReleaseSecurityDescriptor:PPROC
+SeReleaseSecurityDescriptor equ <__imp_SeReleaseSecurityDescriptor>
+
+externdef __imp_SeReleaseSubjectContext:PPROC
+SeReleaseSubjectContext equ <__imp_SeReleaseSubjectContext>
+
+externdef __imp_SeReportSecurityEvent:PPROC
+SeReportSecurityEvent equ <__imp_SeReportSecurityEvent>
+
+externdef __imp_SeSetAccessStateGenericMapping:PPROC
+SeSetAccessStateGenericMapping equ <__imp_SeSetAccessStateGenericMapping>
+
+externdef __imp_SeSetAuditParameter:PPROC
+SeSetAuditParameter equ <__imp_SeSetAuditParameter>
+
+externdef __imp_SeSetSecurityDescriptorInfo:PPROC
+SeSetSecurityDescriptorInfo equ <__imp_SeSetSecurityDescriptorInfo>
+
+externdef __imp_SeSetSecurityDescriptorInfoEx:PPROC
+SeSetSecurityDescriptorInfoEx equ <__imp_SeSetSecurityDescriptorInfoEx>
+
+externdef __imp_SeSinglePrivilegeCheck:PPROC
+SeSinglePrivilegeCheck equ <__imp_SeSinglePrivilegeCheck>
+
+externdef __imp_SeSystemDefaultDacl:PPROC
+SeSystemDefaultDacl equ <__imp_SeSystemDefaultDacl>
+
+externdef __imp_SeTokenImpersonationLevel:PPROC
+SeTokenImpersonationLevel equ <__imp_SeTokenImpersonationLevel>
+
+externdef __imp_SeTokenIsAdmin:PPROC
+SeTokenIsAdmin equ <__imp_SeTokenIsAdmin>
+
+externdef __imp_SeTokenIsRestricted:PPROC
+SeTokenIsRestricted equ <__imp_SeTokenIsRestricted>
+
+externdef __imp_SeTokenObjectType:PPROC
+SeTokenObjectType equ <__imp_SeTokenObjectType>
+
+externdef __imp_SeTokenType:PPROC
+SeTokenType equ <__imp_SeTokenType>
+
+externdef __imp_SeUnlockSubjectContext:PPROC
+SeUnlockSubjectContext equ <__imp_SeUnlockSubjectContext>
+
+externdef __imp_SeUnregisterLogonSessionTerminatedRoutine:PPROC
+SeUnregisterLogonSessionTerminatedRoutine equ <__imp_SeUnregisterLogonSessionTerminatedRoutine>
+
+externdef __imp_SeValidSecurityDescriptor:PPROC
+SeValidSecurityDescriptor equ <__imp_SeValidSecurityDescriptor>
+
+externdef __imp_VerSetConditionMask:PPROC
+VerSetConditionMask equ <__imp_VerSetConditionMask>
+
+externdef __imp_VfFailDeviceNode:PPROC
+VfFailDeviceNode equ <__imp_VfFailDeviceNode>
+
+externdef __imp_VfFailDriver:PPROC
+VfFailDriver equ <__imp_VfFailDriver>
+
+externdef __imp_VfFailSystemBIOS:PPROC
+VfFailSystemBIOS equ <__imp_VfFailSystemBIOS>
+
+externdef __imp_VfIsVerificationEnabled:PPROC
+VfIsVerificationEnabled equ <__imp_VfIsVerificationEnabled>
+
+externdef __imp_WmiFlushTrace:PPROC
+WmiFlushTrace equ <__imp_WmiFlushTrace>
+
+externdef __imp_WmiGetClock:PPROC
+WmiGetClock equ <__imp_WmiGetClock>
+
+externdef __imp_WmiQueryTrace:PPROC
+WmiQueryTrace equ <__imp_WmiQueryTrace>
+
+externdef __imp_WmiQueryTraceInformation:PPROC
+WmiQueryTraceInformation equ <__imp_WmiQueryTraceInformation>
+
+externdef __imp_WmiStartTrace:PPROC
+WmiStartTrace equ <__imp_WmiStartTrace>
+
+externdef __imp_WmiStopTrace:PPROC
+WmiStopTrace equ <__imp_WmiStopTrace>
+
+externdef __imp_WmiTraceFastEvent:PPROC
+WmiTraceFastEvent equ <__imp_WmiTraceFastEvent>
+
+externdef __imp_WmiTraceMessage:PPROC
+WmiTraceMessage equ <__imp_WmiTraceMessage>
+
+externdef __imp_WmiTraceMessageVa:PPROC
+WmiTraceMessageVa equ <__imp_WmiTraceMessageVa>
+
+externdef __imp_WmiUpdateTrace:PPROC
+WmiUpdateTrace equ <__imp_WmiUpdateTrace>
+
+externdef __imp_XIPDispatch:PPROC
+XIPDispatch equ <__imp_XIPDispatch>
+
+externdef __imp_ZwAccessCheckAndAuditAlarm:PPROC
+ZwAccessCheckAndAuditAlarm equ <__imp_ZwAccessCheckAndAuditAlarm>
+
+externdef __imp_ZwAddBootEntry:PPROC
+ZwAddBootEntry equ <__imp_ZwAddBootEntry>
+
+externdef __imp_ZwAddDriverEntry:PPROC
+ZwAddDriverEntry equ <__imp_ZwAddDriverEntry>
+
+externdef __imp_ZwAdjustPrivilegesToken:PPROC
+ZwAdjustPrivilegesToken equ <__imp_ZwAdjustPrivilegesToken>
+
+externdef __imp_ZwAlertThread:PPROC
+ZwAlertThread equ <__imp_ZwAlertThread>
+
+externdef __imp_ZwAllocateVirtualMemory:PPROC
+ZwAllocateVirtualMemory equ <__imp_ZwAllocateVirtualMemory>
+
+externdef __imp_ZwAssignProcessToJobObject:PPROC
+ZwAssignProcessToJobObject equ <__imp_ZwAssignProcessToJobObject>
+
+externdef __imp_ZwCancelIoFile:PPROC
+ZwCancelIoFile equ <__imp_ZwCancelIoFile>
+
+externdef __imp_ZwCancelTimer:PPROC
+ZwCancelTimer equ <__imp_ZwCancelTimer>
+
+externdef __imp_ZwClearEvent:PPROC
+ZwClearEvent equ <__imp_ZwClearEvent>
+
+externdef __imp_ZwClose:PPROC
+ZwClose equ <__imp_ZwClose>
+
+externdef __imp_ZwCloseObjectAuditAlarm:PPROC
+ZwCloseObjectAuditAlarm equ <__imp_ZwCloseObjectAuditAlarm>
+
+externdef __imp_ZwConnectPort:PPROC
+ZwConnectPort equ <__imp_ZwConnectPort>
+
+externdef __imp_ZwCreateDirectoryObject:PPROC
+ZwCreateDirectoryObject equ <__imp_ZwCreateDirectoryObject>
+
+externdef __imp_ZwCreateEvent:PPROC
+ZwCreateEvent equ <__imp_ZwCreateEvent>
+
+externdef __imp_ZwCreateFile:PPROC
+ZwCreateFile equ <__imp_ZwCreateFile>
+
+externdef __imp_ZwCreateJobObject:PPROC
+ZwCreateJobObject equ <__imp_ZwCreateJobObject>
+
+externdef __imp_ZwCreateKey:PPROC
+ZwCreateKey equ <__imp_ZwCreateKey>
+
+externdef __imp_ZwCreateSection:PPROC
+ZwCreateSection equ <__imp_ZwCreateSection>
+
+externdef __imp_ZwCreateSymbolicLinkObject:PPROC
+ZwCreateSymbolicLinkObject equ <__imp_ZwCreateSymbolicLinkObject>
+
+externdef __imp_ZwCreateTimer:PPROC
+ZwCreateTimer equ <__imp_ZwCreateTimer>
+
+externdef __imp_ZwDeleteBootEntry:PPROC
+ZwDeleteBootEntry equ <__imp_ZwDeleteBootEntry>
+
+externdef __imp_ZwDeleteDriverEntry:PPROC
+ZwDeleteDriverEntry equ <__imp_ZwDeleteDriverEntry>
+
+externdef __imp_ZwDeleteFile:PPROC
+ZwDeleteFile equ <__imp_ZwDeleteFile>
+
+externdef __imp_ZwDeleteKey:PPROC
+ZwDeleteKey equ <__imp_ZwDeleteKey>
+
+externdef __imp_ZwDeleteValueKey:PPROC
+ZwDeleteValueKey equ <__imp_ZwDeleteValueKey>
+
+externdef __imp_ZwDeviceIoControlFile:PPROC
+ZwDeviceIoControlFile equ <__imp_ZwDeviceIoControlFile>
+
+externdef __imp_ZwDisplayString:PPROC
+ZwDisplayString equ <__imp_ZwDisplayString>
+
+externdef __imp_ZwDuplicateObject:PPROC
+ZwDuplicateObject equ <__imp_ZwDuplicateObject>
+
+externdef __imp_ZwDuplicateToken:PPROC
+ZwDuplicateToken equ <__imp_ZwDuplicateToken>
+
+externdef __imp_ZwEnumerateBootEntries:PPROC
+ZwEnumerateBootEntries equ <__imp_ZwEnumerateBootEntries>
+
+externdef __imp_ZwEnumerateDriverEntries:PPROC
+ZwEnumerateDriverEntries equ <__imp_ZwEnumerateDriverEntries>
+
+externdef __imp_ZwEnumerateKey:PPROC
+ZwEnumerateKey equ <__imp_ZwEnumerateKey>
+
+externdef __imp_ZwEnumerateValueKey:PPROC
+ZwEnumerateValueKey equ <__imp_ZwEnumerateValueKey>
+
+externdef __imp_ZwFlushInstructionCache:PPROC
+ZwFlushInstructionCache equ <__imp_ZwFlushInstructionCache>
+
+externdef __imp_ZwFlushKey:PPROC
+ZwFlushKey equ <__imp_ZwFlushKey>
+
+externdef __imp_ZwFlushVirtualMemory:PPROC
+ZwFlushVirtualMemory equ <__imp_ZwFlushVirtualMemory>
+
+externdef __imp_ZwFreeVirtualMemory:PPROC
+ZwFreeVirtualMemory equ <__imp_ZwFreeVirtualMemory>
+
+externdef __imp_ZwFsControlFile:PPROC
+ZwFsControlFile equ <__imp_ZwFsControlFile>
+
+externdef __imp_ZwInitiatePowerAction:PPROC
+ZwInitiatePowerAction equ <__imp_ZwInitiatePowerAction>
+
+externdef __imp_ZwIsProcessInJob:PPROC
+ZwIsProcessInJob equ <__imp_ZwIsProcessInJob>
+
+externdef __imp_ZwLoadDriver:PPROC
+ZwLoadDriver equ <__imp_ZwLoadDriver>
+
+externdef __imp_ZwLoadKey:PPROC
+ZwLoadKey equ <__imp_ZwLoadKey>
+
+externdef __imp_ZwMakeTemporaryObject:PPROC
+ZwMakeTemporaryObject equ <__imp_ZwMakeTemporaryObject>
+
+externdef __imp_ZwMapViewOfSection:PPROC
+ZwMapViewOfSection equ <__imp_ZwMapViewOfSection>
+
+externdef __imp_ZwModifyBootEntry:PPROC
+ZwModifyBootEntry equ <__imp_ZwModifyBootEntry>
+
+externdef __imp_ZwModifyDriverEntry:PPROC
+ZwModifyDriverEntry equ <__imp_ZwModifyDriverEntry>
+
+externdef __imp_ZwNotifyChangeKey:PPROC
+ZwNotifyChangeKey equ <__imp_ZwNotifyChangeKey>
+
+externdef __imp_ZwOpenDirectoryObject:PPROC
+ZwOpenDirectoryObject equ <__imp_ZwOpenDirectoryObject>
+
+externdef __imp_ZwOpenEvent:PPROC
+ZwOpenEvent equ <__imp_ZwOpenEvent>
+
+externdef __imp_ZwOpenFile:PPROC
+ZwOpenFile equ <__imp_ZwOpenFile>
+
+externdef __imp_ZwOpenJobObject:PPROC
+ZwOpenJobObject equ <__imp_ZwOpenJobObject>
+
+externdef __imp_ZwOpenKey:PPROC
+ZwOpenKey equ <__imp_ZwOpenKey>
+
+externdef __imp_ZwOpenProcess:PPROC
+ZwOpenProcess equ <__imp_ZwOpenProcess>
+
+externdef __imp_ZwOpenProcessToken:PPROC
+ZwOpenProcessToken equ <__imp_ZwOpenProcessToken>
+
+externdef __imp_ZwOpenProcessTokenEx:PPROC
+ZwOpenProcessTokenEx equ <__imp_ZwOpenProcessTokenEx>
+
+externdef __imp_ZwOpenSection:PPROC
+ZwOpenSection equ <__imp_ZwOpenSection>
+
+externdef __imp_ZwOpenSymbolicLinkObject:PPROC
+ZwOpenSymbolicLinkObject equ <__imp_ZwOpenSymbolicLinkObject>
+
+externdef __imp_ZwOpenThread:PPROC
+ZwOpenThread equ <__imp_ZwOpenThread>
+
+externdef __imp_ZwOpenThreadToken:PPROC
+ZwOpenThreadToken equ <__imp_ZwOpenThreadToken>
+
+externdef __imp_ZwOpenThreadTokenEx:PPROC
+ZwOpenThreadTokenEx equ <__imp_ZwOpenThreadTokenEx>
+
+externdef __imp_ZwOpenTimer:PPROC
+ZwOpenTimer equ <__imp_ZwOpenTimer>
+
+externdef __imp_ZwPowerInformation:PPROC
+ZwPowerInformation equ <__imp_ZwPowerInformation>
+
+externdef __imp_ZwPulseEvent:PPROC
+ZwPulseEvent equ <__imp_ZwPulseEvent>
+
+externdef __imp_ZwQueryBootEntryOrder:PPROC
+ZwQueryBootEntryOrder equ <__imp_ZwQueryBootEntryOrder>
+
+externdef __imp_ZwQueryBootOptions:PPROC
+ZwQueryBootOptions equ <__imp_ZwQueryBootOptions>
+
+externdef __imp_ZwQueryDefaultLocale:PPROC
+ZwQueryDefaultLocale equ <__imp_ZwQueryDefaultLocale>
+
+externdef __imp_ZwQueryDefaultUILanguage:PPROC
+ZwQueryDefaultUILanguage equ <__imp_ZwQueryDefaultUILanguage>
+
+externdef __imp_ZwQueryDirectoryFile:PPROC
+ZwQueryDirectoryFile equ <__imp_ZwQueryDirectoryFile>
+
+externdef __imp_ZwQueryDirectoryObject:PPROC
+ZwQueryDirectoryObject equ <__imp_ZwQueryDirectoryObject>
+
+externdef __imp_ZwQueryDriverEntryOrder:PPROC
+ZwQueryDriverEntryOrder equ <__imp_ZwQueryDriverEntryOrder>
+
+externdef __imp_ZwQueryEaFile:PPROC
+ZwQueryEaFile equ <__imp_ZwQueryEaFile>
+
+externdef __imp_ZwQueryFullAttributesFile:PPROC
+ZwQueryFullAttributesFile equ <__imp_ZwQueryFullAttributesFile>
+
+externdef __imp_ZwQueryInformationFile:PPROC
+ZwQueryInformationFile equ <__imp_ZwQueryInformationFile>
+
+externdef __imp_ZwQueryInformationJobObject:PPROC
+ZwQueryInformationJobObject equ <__imp_ZwQueryInformationJobObject>
+
+externdef __imp_ZwQueryInformationProcess:PPROC
+ZwQueryInformationProcess equ <__imp_ZwQueryInformationProcess>
+
+externdef __imp_ZwQueryInformationThread:PPROC
+ZwQueryInformationThread equ <__imp_ZwQueryInformationThread>
+
+externdef __imp_ZwQueryInformationToken:PPROC
+ZwQueryInformationToken equ <__imp_ZwQueryInformationToken>
+
+externdef __imp_ZwQueryInstallUILanguage:PPROC
+ZwQueryInstallUILanguage equ <__imp_ZwQueryInstallUILanguage>
+
+externdef __imp_ZwQueryKey:PPROC
+ZwQueryKey equ <__imp_ZwQueryKey>
+
+externdef __imp_ZwQueryObject:PPROC
+ZwQueryObject equ <__imp_ZwQueryObject>
+
+externdef __imp_ZwQuerySection:PPROC
+ZwQuerySection equ <__imp_ZwQuerySection>
+
+externdef __imp_ZwQuerySecurityObject:PPROC
+ZwQuerySecurityObject equ <__imp_ZwQuerySecurityObject>
+
+externdef __imp_ZwQuerySymbolicLinkObject:PPROC
+ZwQuerySymbolicLinkObject equ <__imp_ZwQuerySymbolicLinkObject>
+
+externdef __imp_ZwQuerySystemInformation:PPROC
+ZwQuerySystemInformation equ <__imp_ZwQuerySystemInformation>
+
+externdef __imp_ZwQueryValueKey:PPROC
+ZwQueryValueKey equ <__imp_ZwQueryValueKey>
+
+externdef __imp_ZwQueryVolumeInformationFile:PPROC
+ZwQueryVolumeInformationFile equ <__imp_ZwQueryVolumeInformationFile>
+
+externdef __imp_ZwReadFile:PPROC
+ZwReadFile equ <__imp_ZwReadFile>
+
+externdef __imp_ZwReplaceKey:PPROC
+ZwReplaceKey equ <__imp_ZwReplaceKey>
+
+externdef __imp_ZwRequestWaitReplyPort:PPROC
+ZwRequestWaitReplyPort equ <__imp_ZwRequestWaitReplyPort>
+
+externdef __imp_ZwResetEvent:PPROC
+ZwResetEvent equ <__imp_ZwResetEvent>
+
+externdef __imp_ZwRestoreKey:PPROC
+ZwRestoreKey equ <__imp_ZwRestoreKey>
+
+externdef __imp_ZwSaveKey:PPROC
+ZwSaveKey equ <__imp_ZwSaveKey>
+
+externdef __imp_ZwSaveKeyEx:PPROC
+ZwSaveKeyEx equ <__imp_ZwSaveKeyEx>
+
+externdef __imp_ZwSecureConnectPort:PPROC
+ZwSecureConnectPort equ <__imp_ZwSecureConnectPort>
+
+externdef __imp_ZwSetBootEntryOrder:PPROC
+ZwSetBootEntryOrder equ <__imp_ZwSetBootEntryOrder>
+
+externdef __imp_ZwSetBootOptions:PPROC
+ZwSetBootOptions equ <__imp_ZwSetBootOptions>
+
+externdef __imp_ZwSetDefaultLocale:PPROC
+ZwSetDefaultLocale equ <__imp_ZwSetDefaultLocale>
+
+externdef __imp_ZwSetDefaultUILanguage:PPROC
+ZwSetDefaultUILanguage equ <__imp_ZwSetDefaultUILanguage>
+
+externdef __imp_ZwSetDriverEntryOrder:PPROC
+ZwSetDriverEntryOrder equ <__imp_ZwSetDriverEntryOrder>
+
+externdef __imp_ZwSetEaFile:PPROC
+ZwSetEaFile equ <__imp_ZwSetEaFile>
+
+externdef __imp_ZwSetEvent:PPROC
+ZwSetEvent equ <__imp_ZwSetEvent>
+
+externdef __imp_ZwSetInformationFile:PPROC
+ZwSetInformationFile equ <__imp_ZwSetInformationFile>
+
+externdef __imp_ZwSetInformationJobObject:PPROC
+ZwSetInformationJobObject equ <__imp_ZwSetInformationJobObject>
+
+externdef __imp_ZwSetInformationObject:PPROC
+ZwSetInformationObject equ <__imp_ZwSetInformationObject>
+
+externdef __imp_ZwSetInformationProcess:PPROC
+ZwSetInformationProcess equ <__imp_ZwSetInformationProcess>
+
+externdef __imp_ZwSetInformationThread:PPROC
+ZwSetInformationThread equ <__imp_ZwSetInformationThread>
+
+externdef __imp_ZwSetSecurityObject:PPROC
+ZwSetSecurityObject equ <__imp_ZwSetSecurityObject>
+
+externdef __imp_ZwSetSystemInformation:PPROC
+ZwSetSystemInformation equ <__imp_ZwSetSystemInformation>
+
+externdef __imp_ZwSetSystemTime:PPROC
+ZwSetSystemTime equ <__imp_ZwSetSystemTime>
+
+externdef __imp_ZwSetTimer:PPROC
+ZwSetTimer equ <__imp_ZwSetTimer>
+
+externdef __imp_ZwSetValueKey:PPROC
+ZwSetValueKey equ <__imp_ZwSetValueKey>
+
+externdef __imp_ZwSetVolumeInformationFile:PPROC
+ZwSetVolumeInformationFile equ <__imp_ZwSetVolumeInformationFile>
+
+externdef __imp_ZwTerminateJobObject:PPROC
+ZwTerminateJobObject equ <__imp_ZwTerminateJobObject>
+
+externdef __imp_ZwTerminateProcess:PPROC
+ZwTerminateProcess equ <__imp_ZwTerminateProcess>
+
+externdef __imp_ZwTranslateFilePath:PPROC
+ZwTranslateFilePath equ <__imp_ZwTranslateFilePath>
+
+externdef __imp_ZwUnloadDriver:PPROC
+ZwUnloadDriver equ <__imp_ZwUnloadDriver>
+
+externdef __imp_ZwUnloadKey:PPROC
+ZwUnloadKey equ <__imp_ZwUnloadKey>
+
+externdef __imp_ZwUnmapViewOfSection:PPROC
+ZwUnmapViewOfSection equ <__imp_ZwUnmapViewOfSection>
+
+externdef __imp_ZwWaitForMultipleObjects:PPROC
+ZwWaitForMultipleObjects equ <__imp_ZwWaitForMultipleObjects>
+
+externdef __imp_ZwWaitForSingleObject:PPROC
+ZwWaitForSingleObject equ <__imp_ZwWaitForSingleObject>
+
+externdef __imp_ZwWriteFile:PPROC
+ZwWriteFile equ <__imp_ZwWriteFile>
+
+externdef __imp_ZwYieldExecution:PPROC
+ZwYieldExecution equ <__imp_ZwYieldExecution>
+
+externdef __imp___C_specific_handler:PPROC
+__C_specific_handler equ <__imp___C_specific_handler>
+
+externdef __imp___chkstk:PPROC
+__chkstk equ <__imp___chkstk>
+
+externdef __imp___misaligned_access:PPROC
+__misaligned_access equ <__imp___misaligned_access>
+
+externdef __imp__itoa:PPROC
+_itoa equ <__imp__itoa>
+
+externdef __imp__itow:PPROC
+_itow equ <__imp__itow>
+
+externdef __imp__local_unwind:PPROC
+_local_unwind equ <__imp__local_unwind>
+
+externdef __imp__purecall:PPROC
+_purecall equ <__imp__purecall>
+
+externdef __imp__setjmp:PPROC
+_setjmp equ <__imp__setjmp>
+
+externdef __imp__setjmpex:PPROC
+_setjmpex equ <__imp__setjmpex>
+
+externdef __imp__snprintf:PPROC
+_snprintf equ <__imp__snprintf>
+
+externdef __imp__snwprintf:PPROC
+_snwprintf equ <__imp__snwprintf>
+
+externdef __imp__stricmp:PPROC
+_stricmp equ <__imp__stricmp>
+
+externdef __imp__strlwr:PPROC
+_strlwr equ <__imp__strlwr>
+
+externdef __imp__strnicmp:PPROC
+_strnicmp equ <__imp__strnicmp>
+
+externdef __imp__strnset:PPROC
+_strnset equ <__imp__strnset>
+
+externdef __imp__strrev:PPROC
+_strrev equ <__imp__strrev>
+
+externdef __imp__strset:PPROC
+_strset equ <__imp__strset>
+
+externdef __imp__strupr:PPROC
+_strupr equ <__imp__strupr>
+
+externdef __imp__vsnprintf:PPROC
+_vsnprintf equ <__imp__vsnprintf>
+
+externdef __imp__vsnwprintf:PPROC
+_vsnwprintf equ <__imp__vsnwprintf>
+
+externdef __imp__wcsicmp:PPROC
+_wcsicmp equ <__imp__wcsicmp>
+
+externdef __imp__wcslwr:PPROC
+_wcslwr equ <__imp__wcslwr>
+
+externdef __imp__wcsnicmp:PPROC
+_wcsnicmp equ <__imp__wcsnicmp>
+
+externdef __imp__wcsnset:PPROC
+_wcsnset equ <__imp__wcsnset>
+
+externdef __imp__wcsrev:PPROC
+_wcsrev equ <__imp__wcsrev>
+
+externdef __imp__wcsupr:PPROC
+_wcsupr equ <__imp__wcsupr>
+
+externdef __imp_atoi:PPROC
+atoi equ <__imp_atoi>
+
+externdef __imp_atol:PPROC
+atol equ <__imp_atol>
+
+externdef __imp_isdigit:PPROC
+isdigit equ <__imp_isdigit>
+
+externdef __imp_islower:PPROC
+islower equ <__imp_islower>
+
+externdef __imp_isprint:PPROC
+isprint equ <__imp_isprint>
+
+externdef __imp_isspace:PPROC
+isspace equ <__imp_isspace>
+
+externdef __imp_isupper:PPROC
+isupper equ <__imp_isupper>
+
+externdef __imp_isxdigit:PPROC
+isxdigit equ <__imp_isxdigit>
+
+externdef __imp_longjmp:PPROC
+longjmp equ <__imp_longjmp>
+
+externdef __imp_mbstowcs:PPROC
+mbstowcs equ <__imp_mbstowcs>
+
+externdef __imp_mbtowc:PPROC
+mbtowc equ <__imp_mbtowc>
+
+externdef __imp_memchr:PPROC
+memchr equ <__imp_memchr>
+
+externdef __imp_memcmp:PPROC
+memcmp equ <__imp_memcmp>
+
+externdef __imp_memcpy:PPROC
+memcpy equ <__imp_memcpy>
+
+externdef __imp_memmove:PPROC
+memmove equ <__imp_memmove>
+
+externdef __imp_memset:PPROC
+memset equ <__imp_memset>
+
+externdef __imp_qsort:PPROC
+qsort equ <__imp_qsort>
+
+externdef __imp_rand:PPROC
+rand equ <__imp_rand>
+
+externdef __imp_sprintf:PPROC
+sprintf equ <__imp_sprintf>
+
+externdef __imp_srand:PPROC
+srand equ <__imp_srand>
+
+externdef __imp_strcat:PPROC
+strcat equ <__imp_strcat>
+
+externdef __imp_strchr:PPROC
+strchr equ <__imp_strchr>
+
+externdef __imp_strcmp:PPROC
+strcmp equ <__imp_strcmp>
+
+externdef __imp_strcpy:PPROC
+strcpy equ <__imp_strcpy>
+
+externdef __imp_strlen:PPROC
+strlen equ <__imp_strlen>
+
+externdef __imp_strncat:PPROC
+strncat equ <__imp_strncat>
+
+externdef __imp_strncmp:PPROC
+strncmp equ <__imp_strncmp>
+
+externdef __imp_strncpy:PPROC
+strncpy equ <__imp_strncpy>
+
+externdef __imp_strrchr:PPROC
+strrchr equ <__imp_strrchr>
+
+externdef __imp_strspn:PPROC
+strspn equ <__imp_strspn>
+
+externdef __imp_strstr:PPROC
+strstr equ <__imp_strstr>
+
+externdef __imp_swprintf:PPROC
+swprintf equ <__imp_swprintf>
+
+externdef __imp_tolower:PPROC
+tolower equ <__imp_tolower>
+
+externdef __imp_toupper:PPROC
+toupper equ <__imp_toupper>
+
+externdef __imp_towlower:PPROC
+towlower equ <__imp_towlower>
+
+externdef __imp_towupper:PPROC
+towupper equ <__imp_towupper>
+
+externdef __imp_vDbgPrintEx:PPROC
+vDbgPrintEx equ <__imp_vDbgPrintEx>
+
+externdef __imp_vDbgPrintExWithPrefix:PPROC
+vDbgPrintExWithPrefix equ <__imp_vDbgPrintExWithPrefix>
+
+externdef __imp_vsprintf:PPROC
+vsprintf equ <__imp_vsprintf>
+
+externdef __imp_wcscat:PPROC
+wcscat equ <__imp_wcscat>
+
+externdef __imp_wcschr:PPROC
+wcschr equ <__imp_wcschr>
+
+externdef __imp_wcscmp:PPROC
+wcscmp equ <__imp_wcscmp>
+
+externdef __imp_wcscpy:PPROC
+wcscpy equ <__imp_wcscpy>
+
+externdef __imp_wcscspn:PPROC
+wcscspn equ <__imp_wcscspn>
+
+externdef __imp_wcslen:PPROC
+wcslen equ <__imp_wcslen>
+
+externdef __imp_wcsncat:PPROC
+wcsncat equ <__imp_wcsncat>
+
+externdef __imp_wcsncmp:PPROC
+wcsncmp equ <__imp_wcsncmp>
+
+externdef __imp_wcsncpy:PPROC
+wcsncpy equ <__imp_wcsncpy>
+
+externdef __imp_wcsrchr:PPROC
+wcsrchr equ <__imp_wcsrchr>
+
+externdef __imp_wcsspn:PPROC
+wcsspn equ <__imp_wcsspn>
+
+externdef __imp_wcsstr:PPROC
+wcsstr equ <__imp_wcsstr>
+
+externdef __imp_wcstombs:PPROC
+wcstombs equ <__imp_wcstombs>
+
+externdef __imp_wctomb:PPROC
+wctomb equ <__imp_wctomb>

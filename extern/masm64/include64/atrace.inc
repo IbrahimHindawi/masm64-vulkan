@@ -1,0 +1,20 @@
+externdef __imp_INTERNAL__AsyncBinaryTrace:PPROC
+INTERNAL__AsyncBinaryTrace equ <__imp_INTERNAL__AsyncBinaryTrace>
+
+externdef __imp_INTERNAL__AsyncStringTrace:PPROC
+INTERNAL__AsyncStringTrace equ <__imp_INTERNAL__AsyncStringTrace>
+
+externdef __imp_INTERNAL__DebugAssert:PPROC
+INTERNAL__DebugAssert equ <__imp_INTERNAL__DebugAssert>
+
+externdef __imp_INTERNAL__FlushAsyncTrace:PPROC
+INTERNAL__FlushAsyncTrace equ <__imp_INTERNAL__FlushAsyncTrace>
+
+externdef __imp_INTERNAL__InitAsyncTrace:PPROC
+INTERNAL__InitAsyncTrace equ <__imp_INTERNAL__InitAsyncTrace>
+
+externdef __imp_INTERNAL__SetAsyncTraceParams:PPROC
+INTERNAL__SetAsyncTraceParams equ <__imp_INTERNAL__SetAsyncTraceParams>
+
+externdef __imp_INTERNAL__TermAsyncTrace:PPROC
+INTERNAL__TermAsyncTrace equ <__imp_INTERNAL__TermAsyncTrace>

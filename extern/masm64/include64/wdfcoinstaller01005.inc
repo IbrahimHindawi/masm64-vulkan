@@ -1,0 +1,14 @@
+externdef __imp_WdfCoInstaller:PPROC
+WdfCoInstaller equ <__imp_WdfCoInstaller>
+
+externdef __imp_WdfPostDeviceInstall:PPROC
+WdfPostDeviceInstall equ <__imp_WdfPostDeviceInstall>
+
+externdef __imp_WdfPostDeviceRemove:PPROC
+WdfPostDeviceRemove equ <__imp_WdfPostDeviceRemove>
+
+externdef __imp_WdfPreDeviceInstall:PPROC
+WdfPreDeviceInstall equ <__imp_WdfPreDeviceInstall>
+
+externdef __imp_WdfPreDeviceRemove:PPROC
+WdfPreDeviceRemove equ <__imp_WdfPreDeviceRemove>

@@ -1,0 +1,128 @@
+externdef __imp_AccConvertAccessMaskToActrlAccess:PPROC
+AccConvertAccessMaskToActrlAccess equ <__imp_AccConvertAccessMaskToActrlAccess>
+
+externdef __imp_AccConvertAccessToSD:PPROC
+AccConvertAccessToSD equ <__imp_AccConvertAccessToSD>
+
+externdef __imp_AccConvertAccessToSecurityDescriptor:PPROC
+AccConvertAccessToSecurityDescriptor equ <__imp_AccConvertAccessToSecurityDescriptor>
+
+externdef __imp_AccConvertAclToAccess:PPROC
+AccConvertAclToAccess equ <__imp_AccConvertAclToAccess>
+
+externdef __imp_AccConvertSDToAccess:PPROC
+AccConvertSDToAccess equ <__imp_AccConvertSDToAccess>
+
+externdef __imp_AccFreeIndexArray:PPROC
+AccFreeIndexArray equ <__imp_AccFreeIndexArray>
+
+externdef __imp_AccGetAccessForTrustee:PPROC
+AccGetAccessForTrustee equ <__imp_AccGetAccessForTrustee>
+
+externdef __imp_AccGetExplicitEntries:PPROC
+AccGetExplicitEntries equ <__imp_AccGetExplicitEntries>
+
+externdef __imp_AccGetInheritanceSource:PPROC
+AccGetInheritanceSource equ <__imp_AccGetInheritanceSource>
+
+externdef __imp_AccLookupAccountName:PPROC
+AccLookupAccountName equ <__imp_AccLookupAccountName>
+
+externdef __imp_AccLookupAccountSid:PPROC
+AccLookupAccountSid equ <__imp_AccLookupAccountSid>
+
+externdef __imp_AccLookupAccountTrustee:PPROC
+AccLookupAccountTrustee equ <__imp_AccLookupAccountTrustee>
+
+externdef __imp_AccProvCancelOperation:PPROC
+AccProvCancelOperation equ <__imp_AccProvCancelOperation>
+
+externdef __imp_AccProvGetAccessInfoPerObjectType:PPROC
+AccProvGetAccessInfoPerObjectType equ <__imp_AccProvGetAccessInfoPerObjectType>
+
+externdef __imp_AccProvGetAllRights:PPROC
+AccProvGetAllRights equ <__imp_AccProvGetAllRights>
+
+externdef __imp_AccProvGetCapabilities:PPROC
+AccProvGetCapabilities equ <__imp_AccProvGetCapabilities>
+
+externdef __imp_AccProvGetOperationResults:PPROC
+AccProvGetOperationResults equ <__imp_AccProvGetOperationResults>
+
+externdef __imp_AccProvGetTrusteesAccess:PPROC
+AccProvGetTrusteesAccess equ <__imp_AccProvGetTrusteesAccess>
+
+externdef __imp_AccProvGrantAccessRights:PPROC
+AccProvGrantAccessRights equ <__imp_AccProvGrantAccessRights>
+
+externdef __imp_AccProvHandleGetAccessInfoPerObjectType:PPROC
+AccProvHandleGetAccessInfoPerObjectType equ <__imp_AccProvHandleGetAccessInfoPerObjectType>
+
+externdef __imp_AccProvHandleGetAllRights:PPROC
+AccProvHandleGetAllRights equ <__imp_AccProvHandleGetAllRights>
+
+externdef __imp_AccProvHandleGetTrusteesAccess:PPROC
+AccProvHandleGetTrusteesAccess equ <__imp_AccProvHandleGetTrusteesAccess>
+
+externdef __imp_AccProvHandleGrantAccessRights:PPROC
+AccProvHandleGrantAccessRights equ <__imp_AccProvHandleGrantAccessRights>
+
+externdef __imp_AccProvHandleIsAccessAudited:PPROC
+AccProvHandleIsAccessAudited equ <__imp_AccProvHandleIsAccessAudited>
+
+externdef __imp_AccProvHandleIsObjectAccessible:PPROC
+AccProvHandleIsObjectAccessible equ <__imp_AccProvHandleIsObjectAccessible>
+
+externdef __imp_AccProvHandleRevokeAccessRights:PPROC
+AccProvHandleRevokeAccessRights equ <__imp_AccProvHandleRevokeAccessRights>
+
+externdef __imp_AccProvHandleRevokeAuditRights:PPROC
+AccProvHandleRevokeAuditRights equ <__imp_AccProvHandleRevokeAuditRights>
+
+externdef __imp_AccProvHandleSetAccessRights:PPROC
+AccProvHandleSetAccessRights equ <__imp_AccProvHandleSetAccessRights>
+
+externdef __imp_AccProvIsAccessAudited:PPROC
+AccProvIsAccessAudited equ <__imp_AccProvIsAccessAudited>
+
+externdef __imp_AccProvIsObjectAccessible:PPROC
+AccProvIsObjectAccessible equ <__imp_AccProvIsObjectAccessible>
+
+externdef __imp_AccProvRevokeAccessRights:PPROC
+AccProvRevokeAccessRights equ <__imp_AccProvRevokeAccessRights>
+
+externdef __imp_AccProvRevokeAuditRights:PPROC
+AccProvRevokeAuditRights equ <__imp_AccProvRevokeAuditRights>
+
+externdef __imp_AccProvSetAccessRights:PPROC
+AccProvSetAccessRights equ <__imp_AccProvSetAccessRights>
+
+externdef __imp_AccRewriteGetExplicitEntriesFromAcl:PPROC
+AccRewriteGetExplicitEntriesFromAcl equ <__imp_AccRewriteGetExplicitEntriesFromAcl>
+
+externdef __imp_AccRewriteGetHandleRights:PPROC
+AccRewriteGetHandleRights equ <__imp_AccRewriteGetHandleRights>
+
+externdef __imp_AccRewriteGetNamedRights:PPROC
+AccRewriteGetNamedRights equ <__imp_AccRewriteGetNamedRights>
+
+externdef __imp_AccRewriteSetEntriesInAcl:PPROC
+AccRewriteSetEntriesInAcl equ <__imp_AccRewriteSetEntriesInAcl>
+
+externdef __imp_AccRewriteSetHandleRights:PPROC
+AccRewriteSetHandleRights equ <__imp_AccRewriteSetHandleRights>
+
+externdef __imp_AccRewriteSetNamedRights:PPROC
+AccRewriteSetNamedRights equ <__imp_AccRewriteSetNamedRights>
+
+externdef __imp_AccSetEntriesInAList:PPROC
+AccSetEntriesInAList equ <__imp_AccSetEntriesInAList>
+
+externdef __imp_AccTreeResetNamedSecurityInfo:PPROC
+AccTreeResetNamedSecurityInfo equ <__imp_AccTreeResetNamedSecurityInfo>
+
+externdef __imp_EventGuidToName:PPROC
+EventGuidToName equ <__imp_EventGuidToName>
+
+externdef __imp_EventNameFree:PPROC
+EventNameFree equ <__imp_EventNameFree>

@@ -1,0 +1,2 @@
+externdef __imp_GetDispenserManager:PPROC
+GetDispenserManager equ <__imp_GetDispenserManager>

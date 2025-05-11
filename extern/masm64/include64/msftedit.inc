@@ -1,0 +1,41 @@
+externdef __imp_CreateTextServices:PPROC
+CreateTextServices equ <__imp_CreateTextServices>
+
+externdef __imp_DllGetVersion:PPROC
+DllGetVersion equ <__imp_DllGetVersion>
+
+externdef __imp_IID_IRichEditOle:PPROC
+IID_IRichEditOle equ <__imp_IID_IRichEditOle>
+
+externdef __imp_IID_IRichEditOleCallback:PPROC
+IID_IRichEditOleCallback equ <__imp_IID_IRichEditOleCallback>
+
+externdef __imp_IID_ITextHost2:PPROC
+IID_ITextHost2 equ <__imp_IID_ITextHost2>
+
+externdef __imp_IID_ITextHost:PPROC
+IID_ITextHost equ <__imp_IID_ITextHost>
+
+externdef __imp_IID_ITextServices:PPROC
+IID_ITextServices equ <__imp_IID_ITextServices>
+
+externdef __imp_REExtendedRegisterClass:PPROC
+REExtendedRegisterClass equ <__imp_REExtendedRegisterClass>
+
+externdef __imp_RichComboBoxWndProc:PPROC
+RichComboBoxWndProc equ <__imp_RichComboBoxWndProc>
+
+externdef __imp_RichEdit10ANSIWndProc:PPROC
+RichEdit10ANSIWndProc equ <__imp_RichEdit10ANSIWndProc>
+
+externdef __imp_RichEditANSIWndProc:PPROC
+RichEditANSIWndProc equ <__imp_RichEditANSIWndProc>
+
+externdef __imp_RichEditWndProc:PPROC
+RichEditWndProc equ <__imp_RichEditWndProc>
+
+externdef __imp_RichListBoxWndProc:PPROC
+RichListBoxWndProc equ <__imp_RichListBoxWndProc>
+
+externdef __imp_SetCustomTextOutHandlerEx:PPROC
+SetCustomTextOutHandlerEx equ <__imp_SetCustomTextOutHandlerEx>

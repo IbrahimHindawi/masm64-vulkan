@@ -1,0 +1,20 @@
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_GetClassInfoForCurrentUser:PPROC
+GetClassInfoForCurrentUser equ <__imp_GetClassInfoForCurrentUser>
+
+externdef __imp_GetDefaultPartitionForCurrentUser:PPROC
+GetDefaultPartitionForCurrentUser equ <__imp_GetDefaultPartitionForCurrentUser>
+
+externdef __imp_GetDefaultPartitionForSid:PPROC
+GetDefaultPartitionForSid equ <__imp_GetDefaultPartitionForSid>
+
+externdef __imp_PartitionAccessCheck:PPROC
+PartitionAccessCheck equ <__imp_PartitionAccessCheck>

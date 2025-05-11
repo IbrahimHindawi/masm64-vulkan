@@ -1,0 +1,8 @@
+externdef __imp_CloseRasPerformanceData:PPROC
+CloseRasPerformanceData equ <__imp_CloseRasPerformanceData>
+
+externdef __imp_CollectRasPerformanceData:PPROC
+CollectRasPerformanceData equ <__imp_CollectRasPerformanceData>
+
+externdef __imp_OpenRasPerformanceData:PPROC
+OpenRasPerformanceData equ <__imp_OpenRasPerformanceData>

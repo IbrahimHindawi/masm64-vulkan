@@ -1,0 +1,92 @@
+externdef __imp_ADsBuildEnumerator:PPROC
+ADsBuildEnumerator equ <__imp_ADsBuildEnumerator>
+
+externdef __imp_ADsBuildVarArrayInt:PPROC
+ADsBuildVarArrayInt equ <__imp_ADsBuildVarArrayInt>
+
+externdef __imp_ADsBuildVarArrayStr:PPROC
+ADsBuildVarArrayStr equ <__imp_ADsBuildVarArrayStr>
+
+externdef __imp_ADsDecodeBinaryData:PPROC
+ADsDecodeBinaryData equ <__imp_ADsDecodeBinaryData>
+
+externdef __imp_ADsEncodeBinaryData:PPROC
+ADsEncodeBinaryData equ <__imp_ADsEncodeBinaryData>
+
+externdef __imp_ADsEnumerateNext:PPROC
+ADsEnumerateNext equ <__imp_ADsEnumerateNext>
+
+externdef __imp_ADsFreeEnumerator:PPROC
+ADsFreeEnumerator equ <__imp_ADsFreeEnumerator>
+
+externdef __imp_ADsGetLastError:PPROC
+ADsGetLastError equ <__imp_ADsGetLastError>
+
+externdef __imp_ADsGetObject:PPROC
+ADsGetObject equ <__imp_ADsGetObject>
+
+externdef __imp_ADsOpenObject:PPROC
+ADsOpenObject equ <__imp_ADsOpenObject>
+
+externdef __imp_ADsSetLastError:PPROC
+ADsSetLastError equ <__imp_ADsSetLastError>
+
+externdef __imp_AdsFreeAdsValues:PPROC
+AdsFreeAdsValues equ <__imp_AdsFreeAdsValues>
+
+externdef __imp_AdsTypeToPropVariant2:PPROC
+AdsTypeToPropVariant2 equ <__imp_AdsTypeToPropVariant2>
+
+externdef __imp_AdsTypeToPropVariant:PPROC
+AdsTypeToPropVariant equ <__imp_AdsTypeToPropVariant>
+
+externdef __imp_AllocADsMem:PPROC
+AllocADsMem equ <__imp_AllocADsMem>
+
+externdef __imp_AllocADsStr:PPROC
+AllocADsStr equ <__imp_AllocADsStr>
+
+externdef __imp_BinarySDToSecurityDescriptor:PPROC
+BinarySDToSecurityDescriptor equ <__imp_BinarySDToSecurityDescriptor>
+
+externdef __imp_ConvertSecDescriptorToVariant:PPROC
+ConvertSecDescriptorToVariant equ <__imp_ConvertSecDescriptorToVariant>
+
+externdef __imp_ConvertSecurityDescriptorToSecDes:PPROC
+ConvertSecurityDescriptorToSecDes equ <__imp_ConvertSecurityDescriptorToSecDes>
+
+externdef __imp_ConvertTrusteeToSid:PPROC
+ConvertTrusteeToSid equ <__imp_ConvertTrusteeToSid>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_FreeADsMem:PPROC
+FreeADsMem equ <__imp_FreeADsMem>
+
+externdef __imp_FreeADsStr:PPROC
+FreeADsStr equ <__imp_FreeADsStr>
+
+externdef __imp_PropVariantToAdsType2:PPROC
+PropVariantToAdsType2 equ <__imp_PropVariantToAdsType2>
+
+externdef __imp_PropVariantToAdsType:PPROC
+PropVariantToAdsType equ <__imp_PropVariantToAdsType>
+
+externdef __imp_ReallocADsMem:PPROC
+ReallocADsMem equ <__imp_ReallocADsMem>
+
+externdef __imp_ReallocADsStr:PPROC
+ReallocADsStr equ <__imp_ReallocADsStr>
+
+externdef __imp_SecurityDescriptorToBinarySD:PPROC
+SecurityDescriptorToBinarySD equ <__imp_SecurityDescriptorToBinarySD>

@@ -1,0 +1,2 @@
+externdef __imp_SKEY_SystemParametersInfo:PPROC
+SKEY_SystemParametersInfo equ <__imp_SKEY_SystemParametersInfo>

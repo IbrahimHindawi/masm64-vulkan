@@ -1,0 +1,110 @@
+externdef __imp_CreateAssemblyCache:PPROC
+CreateAssemblyCache equ <__imp_CreateAssemblyCache>
+
+externdef __imp_CreateAssemblyNameObject:PPROC
+CreateAssemblyNameObject equ <__imp_CreateAssemblyNameObject>
+
+externdef __imp_DllInstall:PPROC
+DllInstall equ <__imp_DllInstall>
+
+externdef __imp_SxsBeginAssemblyInstall:PPROC
+SxsBeginAssemblyInstall equ <__imp_SxsBeginAssemblyInstall>
+
+externdef __imp_SxsEndAssemblyInstall:PPROC
+SxsEndAssemblyInstall equ <__imp_SxsEndAssemblyInstall>
+
+externdef __imp_SxsFindClrClassInformation:PPROC
+SxsFindClrClassInformation equ <__imp_SxsFindClrClassInformation>
+
+externdef __imp_SxsFindClrSurrogateInformation:PPROC
+SxsFindClrSurrogateInformation equ <__imp_SxsFindClrSurrogateInformation>
+
+externdef __imp_SxsGenerateActivationContext:PPROC
+SxsGenerateActivationContext equ <__imp_SxsGenerateActivationContext>
+
+externdef __imp_SxsInstallW:PPROC
+SxsInstallW equ <__imp_SxsInstallW>
+  IFDEF __UNICODE__
+    SxsInstall equ <__imp_SxsInstallW>
+  ENDIF
+
+externdef __imp_SxsLookupClrGuid:PPROC
+SxsLookupClrGuid equ <__imp_SxsLookupClrGuid>
+
+externdef __imp_SxsOleAut32MapConfiguredClsidToReferenceClsid:PPROC
+SxsOleAut32MapConfiguredClsidToReferenceClsid equ <__imp_SxsOleAut32MapConfiguredClsidToReferenceClsid>
+
+externdef __imp_SxsOleAut32MapIIDOrCLSIDToTypeLibrary:PPROC
+SxsOleAut32MapIIDOrCLSIDToTypeLibrary equ <__imp_SxsOleAut32MapIIDOrCLSIDToTypeLibrary>
+
+externdef __imp_SxsOleAut32MapIIDToProxyStubCLSID:PPROC
+SxsOleAut32MapIIDToProxyStubCLSID equ <__imp_SxsOleAut32MapIIDToProxyStubCLSID>
+
+externdef __imp_SxsOleAut32MapIIDToTLBPath:PPROC
+SxsOleAut32MapIIDToTLBPath equ <__imp_SxsOleAut32MapIIDToTLBPath>
+
+externdef __imp_SxsOleAut32MapReferenceClsidToConfiguredClsid:PPROC
+SxsOleAut32MapReferenceClsidToConfiguredClsid equ <__imp_SxsOleAut32MapReferenceClsidToConfiguredClsid>
+
+externdef __imp_SxsOleAut32RedirectTypeLibrary:PPROC
+SxsOleAut32RedirectTypeLibrary equ <__imp_SxsOleAut32RedirectTypeLibrary>
+
+externdef __imp_SxsProbeAssemblyInstallation:PPROC
+SxsProbeAssemblyInstallation equ <__imp_SxsProbeAssemblyInstallation>
+
+externdef __imp_SxsProtectionGatherEntriesW:PPROC
+SxsProtectionGatherEntriesW equ <__imp_SxsProtectionGatherEntriesW>
+  IFDEF __UNICODE__
+    SxsProtectionGatherEntries equ <__imp_SxsProtectionGatherEntriesW>
+  ENDIF
+
+externdef __imp_SxsProtectionNotifyW:PPROC
+SxsProtectionNotifyW equ <__imp_SxsProtectionNotifyW>
+  IFDEF __UNICODE__
+    SxsProtectionNotify equ <__imp_SxsProtectionNotifyW>
+  ENDIF
+
+externdef __imp_SxsProtectionPerformScanNow:PPROC
+SxsProtectionPerformScanNow equ <__imp_SxsProtectionPerformScanNow>
+
+externdef __imp_SxsProtectionUserLogoffEvent:PPROC
+SxsProtectionUserLogoffEvent equ <__imp_SxsProtectionUserLogoffEvent>
+
+externdef __imp_SxsProtectionUserLogonEvent:PPROC
+SxsProtectionUserLogonEvent equ <__imp_SxsProtectionUserLogonEvent>
+
+externdef __imp_SxsQueryManifestInformation:PPROC
+SxsQueryManifestInformation equ <__imp_SxsQueryManifestInformation>
+
+externdef __imp_SxsRunDllInstallAssembly:PPROC
+SxsRunDllInstallAssembly equ <__imp_SxsRunDllInstallAssembly>
+
+externdef __imp_SxsRunDllInstallAssemblyW:PPROC
+SxsRunDllInstallAssemblyW equ <__imp_SxsRunDllInstallAssemblyW>
+  IFDEF __UNICODE__
+    SxsRunDllInstallAssembly equ <__imp_SxsRunDllInstallAssemblyW>
+  ENDIF
+
+externdef __imp_SxsUninstallW:PPROC
+SxsUninstallW equ <__imp_SxsUninstallW>
+  IFDEF __UNICODE__
+    SxsUninstall equ <__imp_SxsUninstallW>
+  ENDIF
+
+externdef __imp_SxspGenerateManifestPathOnAssemblyIdentity:PPROC
+SxspGenerateManifestPathOnAssemblyIdentity equ <__imp_SxspGenerateManifestPathOnAssemblyIdentity>
+
+externdef __imp_SxspGeneratePolicyPathOnAssemblyIdentity:PPROC
+SxspGeneratePolicyPathOnAssemblyIdentity equ <__imp_SxspGeneratePolicyPathOnAssemblyIdentity>
+
+externdef __imp_SxspRunDllDeleteDirectory:PPROC
+SxspRunDllDeleteDirectory equ <__imp_SxspRunDllDeleteDirectory>
+
+externdef __imp_SxspRunDllDeleteDirectoryW:PPROC
+SxspRunDllDeleteDirectoryW equ <__imp_SxspRunDllDeleteDirectoryW>
+  IFDEF __UNICODE__
+    SxspRunDllDeleteDirectory equ <__imp_SxspRunDllDeleteDirectoryW>
+  ENDIF
+
+externdef __imp_sxs_ordinal1:PPROC
+sxs_ordinal1 equ <__imp_sxs_ordinal1>

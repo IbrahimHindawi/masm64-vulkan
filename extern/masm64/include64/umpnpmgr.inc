@@ -1,0 +1,26 @@
+externdef __imp_DeleteServicePlugPlayRegKeys:PPROC
+DeleteServicePlugPlayRegKeys equ <__imp_DeleteServicePlugPlayRegKeys>
+
+externdef __imp_PNP_GetDeviceList:PPROC
+PNP_GetDeviceList equ <__imp_PNP_GetDeviceList>
+
+externdef __imp_PNP_GetDeviceListSize:PPROC
+PNP_GetDeviceListSize equ <__imp_PNP_GetDeviceListSize>
+
+externdef __imp_PNP_GetDeviceRegProp:PPROC
+PNP_GetDeviceRegProp equ <__imp_PNP_GetDeviceRegProp>
+
+externdef __imp_PNP_HwProfFlags:PPROC
+PNP_HwProfFlags equ <__imp_PNP_HwProfFlags>
+
+externdef __imp_PNP_SetActiveService:PPROC
+PNP_SetActiveService equ <__imp_PNP_SetActiveService>
+
+externdef __imp_RegisterScmCallback:PPROC
+RegisterScmCallback equ <__imp_RegisterScmCallback>
+
+externdef __imp_RegisterServiceNotification:PPROC
+RegisterServiceNotification equ <__imp_RegisterServiceNotification>
+
+externdef __imp_SvcEntry_PlugPlay:PPROC
+SvcEntry_PlugPlay equ <__imp_SvcEntry_PlugPlay>

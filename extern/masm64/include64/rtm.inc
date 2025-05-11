@@ -1,0 +1,335 @@
+externdef __imp_BestMatchInTable:PPROC
+BestMatchInTable equ <__imp_BestMatchInTable>
+
+externdef __imp_CheckTable:PPROC
+CheckTable equ <__imp_CheckTable>
+
+externdef __imp_CreateTable:PPROC
+CreateTable equ <__imp_CreateTable>
+
+externdef __imp_DeleteFromTable:PPROC
+DeleteFromTable equ <__imp_DeleteFromTable>
+
+externdef __imp_DestroyTable:PPROC
+DestroyTable equ <__imp_DestroyTable>
+
+externdef __imp_DumpTable:PPROC
+DumpTable equ <__imp_DumpTable>
+
+externdef __imp_EnumOverTable:PPROC
+EnumOverTable equ <__imp_EnumOverTable>
+
+externdef __imp_InsertIntoTable:PPROC
+InsertIntoTable equ <__imp_InsertIntoTable>
+
+externdef __imp_MgmAddGroupMembershipEntry:PPROC
+MgmAddGroupMembershipEntry equ <__imp_MgmAddGroupMembershipEntry>
+
+externdef __imp_MgmDeInitialize:PPROC
+MgmDeInitialize equ <__imp_MgmDeInitialize>
+
+externdef __imp_MgmDeRegisterMProtocol:PPROC
+MgmDeRegisterMProtocol equ <__imp_MgmDeRegisterMProtocol>
+
+externdef __imp_MgmDeleteGroupMembershipEntry:PPROC
+MgmDeleteGroupMembershipEntry equ <__imp_MgmDeleteGroupMembershipEntry>
+
+externdef __imp_MgmGetFirstMfe:PPROC
+MgmGetFirstMfe equ <__imp_MgmGetFirstMfe>
+
+externdef __imp_MgmGetFirstMfeStats:PPROC
+MgmGetFirstMfeStats equ <__imp_MgmGetFirstMfeStats>
+
+externdef __imp_MgmGetMfe:PPROC
+MgmGetMfe equ <__imp_MgmGetMfe>
+
+externdef __imp_MgmGetMfeStats:PPROC
+MgmGetMfeStats equ <__imp_MgmGetMfeStats>
+
+externdef __imp_MgmGetNextMfe:PPROC
+MgmGetNextMfe equ <__imp_MgmGetNextMfe>
+
+externdef __imp_MgmGetNextMfeStats:PPROC
+MgmGetNextMfeStats equ <__imp_MgmGetNextMfeStats>
+
+externdef __imp_MgmGetProtocolOnInterface:PPROC
+MgmGetProtocolOnInterface equ <__imp_MgmGetProtocolOnInterface>
+
+externdef __imp_MgmGroupEnumerationEnd:PPROC
+MgmGroupEnumerationEnd equ <__imp_MgmGroupEnumerationEnd>
+
+externdef __imp_MgmGroupEnumerationGetNext:PPROC
+MgmGroupEnumerationGetNext equ <__imp_MgmGroupEnumerationGetNext>
+
+externdef __imp_MgmGroupEnumerationStart:PPROC
+MgmGroupEnumerationStart equ <__imp_MgmGroupEnumerationStart>
+
+externdef __imp_MgmInitialize:PPROC
+MgmInitialize equ <__imp_MgmInitialize>
+
+externdef __imp_MgmRegisterMProtocol:PPROC
+MgmRegisterMProtocol equ <__imp_MgmRegisterMProtocol>
+
+externdef __imp_MgmReleaseInterfaceOwnership:PPROC
+MgmReleaseInterfaceOwnership equ <__imp_MgmReleaseInterfaceOwnership>
+
+externdef __imp_MgmTakeInterfaceOwnership:PPROC
+MgmTakeInterfaceOwnership equ <__imp_MgmTakeInterfaceOwnership>
+
+externdef __imp_NextMatchInTable:PPROC
+NextMatchInTable equ <__imp_NextMatchInTable>
+
+externdef __imp_RtmAddNextHop:PPROC
+RtmAddNextHop equ <__imp_RtmAddNextHop>
+
+externdef __imp_RtmAddRoute:PPROC
+RtmAddRoute equ <__imp_RtmAddRoute>
+
+externdef __imp_RtmAddRouteToDest:PPROC
+RtmAddRouteToDest equ <__imp_RtmAddRouteToDest>
+
+externdef __imp_RtmBlockConvertRoutesToStatic:PPROC
+RtmBlockConvertRoutesToStatic equ <__imp_RtmBlockConvertRoutesToStatic>
+
+externdef __imp_RtmBlockDeleteRoutes:PPROC
+RtmBlockDeleteRoutes equ <__imp_RtmBlockDeleteRoutes>
+
+externdef __imp_RtmBlockMethods:PPROC
+RtmBlockMethods equ <__imp_RtmBlockMethods>
+
+externdef __imp_RtmBlockSetRouteEnable:PPROC
+RtmBlockSetRouteEnable equ <__imp_RtmBlockSetRouteEnable>
+
+externdef __imp_RtmCloseEnumerationHandle:PPROC
+RtmCloseEnumerationHandle equ <__imp_RtmCloseEnumerationHandle>
+
+externdef __imp_RtmCreateDestEnum:PPROC
+RtmCreateDestEnum equ <__imp_RtmCreateDestEnum>
+
+externdef __imp_RtmCreateEnumerationHandle:PPROC
+RtmCreateEnumerationHandle equ <__imp_RtmCreateEnumerationHandle>
+
+externdef __imp_RtmCreateNextHopEnum:PPROC
+RtmCreateNextHopEnum equ <__imp_RtmCreateNextHopEnum>
+
+externdef __imp_RtmCreateRouteEnum:PPROC
+RtmCreateRouteEnum equ <__imp_RtmCreateRouteEnum>
+
+externdef __imp_RtmCreateRouteList:PPROC
+RtmCreateRouteList equ <__imp_RtmCreateRouteList>
+
+externdef __imp_RtmCreateRouteListEnum:PPROC
+RtmCreateRouteListEnum equ <__imp_RtmCreateRouteListEnum>
+
+externdef __imp_RtmCreateRouteTable:PPROC
+RtmCreateRouteTable equ <__imp_RtmCreateRouteTable>
+
+externdef __imp_RtmDeleteEnumHandle:PPROC
+RtmDeleteEnumHandle equ <__imp_RtmDeleteEnumHandle>
+
+externdef __imp_RtmDeleteNextHop:PPROC
+RtmDeleteNextHop equ <__imp_RtmDeleteNextHop>
+
+externdef __imp_RtmDeleteRoute:PPROC
+RtmDeleteRoute equ <__imp_RtmDeleteRoute>
+
+externdef __imp_RtmDeleteRouteList:PPROC
+RtmDeleteRouteList equ <__imp_RtmDeleteRouteList>
+
+externdef __imp_RtmDeleteRouteTable:PPROC
+RtmDeleteRouteTable equ <__imp_RtmDeleteRouteTable>
+
+externdef __imp_RtmDeleteRouteToDest:PPROC
+RtmDeleteRouteToDest equ <__imp_RtmDeleteRouteToDest>
+
+externdef __imp_RtmDequeueRouteChangeMessage:PPROC
+RtmDequeueRouteChangeMessage equ <__imp_RtmDequeueRouteChangeMessage>
+
+externdef __imp_RtmDereferenceHandles:PPROC
+RtmDereferenceHandles equ <__imp_RtmDereferenceHandles>
+
+externdef __imp_RtmDeregisterClient:PPROC
+RtmDeregisterClient equ <__imp_RtmDeregisterClient>
+
+externdef __imp_RtmDeregisterEntity:PPROC
+RtmDeregisterEntity equ <__imp_RtmDeregisterEntity>
+
+externdef __imp_RtmDeregisterFromChangeNotification:PPROC
+RtmDeregisterFromChangeNotification equ <__imp_RtmDeregisterFromChangeNotification>
+
+externdef __imp_RtmEnumerateGetNextRoute:PPROC
+RtmEnumerateGetNextRoute equ <__imp_RtmEnumerateGetNextRoute>
+
+externdef __imp_RtmFindNextHop:PPROC
+RtmFindNextHop equ <__imp_RtmFindNextHop>
+
+externdef __imp_RtmGetAddressFamilyInfo:PPROC
+RtmGetAddressFamilyInfo equ <__imp_RtmGetAddressFamilyInfo>
+
+externdef __imp_RtmGetChangeStatus:PPROC
+RtmGetChangeStatus equ <__imp_RtmGetChangeStatus>
+
+externdef __imp_RtmGetChangedDests:PPROC
+RtmGetChangedDests equ <__imp_RtmGetChangedDests>
+
+externdef __imp_RtmGetDestInfo:PPROC
+RtmGetDestInfo equ <__imp_RtmGetDestInfo>
+
+externdef __imp_RtmGetEntityInfo:PPROC
+RtmGetEntityInfo equ <__imp_RtmGetEntityInfo>
+
+externdef __imp_RtmGetEntityMethods:PPROC
+RtmGetEntityMethods equ <__imp_RtmGetEntityMethods>
+
+externdef __imp_RtmGetEnumDests:PPROC
+RtmGetEnumDests equ <__imp_RtmGetEnumDests>
+
+externdef __imp_RtmGetEnumNextHops:PPROC
+RtmGetEnumNextHops equ <__imp_RtmGetEnumNextHops>
+
+externdef __imp_RtmGetEnumRoutes:PPROC
+RtmGetEnumRoutes equ <__imp_RtmGetEnumRoutes>
+
+externdef __imp_RtmGetExactMatchDestination:PPROC
+RtmGetExactMatchDestination equ <__imp_RtmGetExactMatchDestination>
+
+externdef __imp_RtmGetExactMatchRoute:PPROC
+RtmGetExactMatchRoute equ <__imp_RtmGetExactMatchRoute>
+
+externdef __imp_RtmGetFirstRoute:PPROC
+RtmGetFirstRoute equ <__imp_RtmGetFirstRoute>
+
+externdef __imp_RtmGetInstanceInfo:PPROC
+RtmGetInstanceInfo equ <__imp_RtmGetInstanceInfo>
+
+externdef __imp_RtmGetInstances:PPROC
+RtmGetInstances equ <__imp_RtmGetInstances>
+
+externdef __imp_RtmGetLessSpecificDestination:PPROC
+RtmGetLessSpecificDestination equ <__imp_RtmGetLessSpecificDestination>
+
+externdef __imp_RtmGetListEnumRoutes:PPROC
+RtmGetListEnumRoutes equ <__imp_RtmGetListEnumRoutes>
+
+externdef __imp_RtmGetMostSpecificDestination:PPROC
+RtmGetMostSpecificDestination equ <__imp_RtmGetMostSpecificDestination>
+
+externdef __imp_RtmGetNetworkCount:PPROC
+RtmGetNetworkCount equ <__imp_RtmGetNetworkCount>
+
+externdef __imp_RtmGetNextHopInfo:PPROC
+RtmGetNextHopInfo equ <__imp_RtmGetNextHopInfo>
+
+externdef __imp_RtmGetNextHopPointer:PPROC
+RtmGetNextHopPointer equ <__imp_RtmGetNextHopPointer>
+
+externdef __imp_RtmGetNextRoute:PPROC
+RtmGetNextRoute equ <__imp_RtmGetNextRoute>
+
+externdef __imp_RtmGetOpaqueInformationPointer:PPROC
+RtmGetOpaqueInformationPointer equ <__imp_RtmGetOpaqueInformationPointer>
+
+externdef __imp_RtmGetRegisteredEntities:PPROC
+RtmGetRegisteredEntities equ <__imp_RtmGetRegisteredEntities>
+
+externdef __imp_RtmGetRouteAge:PPROC
+RtmGetRouteAge equ <__imp_RtmGetRouteAge>
+
+externdef __imp_RtmGetRouteInfo:PPROC
+RtmGetRouteInfo equ <__imp_RtmGetRouteInfo>
+
+externdef __imp_RtmGetRoutePointer:PPROC
+RtmGetRoutePointer equ <__imp_RtmGetRoutePointer>
+
+externdef __imp_RtmHoldDestination:PPROC
+RtmHoldDestination equ <__imp_RtmHoldDestination>
+
+externdef __imp_RtmIgnoreChangedDests:PPROC
+RtmIgnoreChangedDests equ <__imp_RtmIgnoreChangedDests>
+
+externdef __imp_RtmInsertInRouteList:PPROC
+RtmInsertInRouteList equ <__imp_RtmInsertInRouteList>
+
+externdef __imp_RtmInvokeMethod:PPROC
+RtmInvokeMethod equ <__imp_RtmInvokeMethod>
+
+externdef __imp_RtmIsBestRoute:PPROC
+RtmIsBestRoute equ <__imp_RtmIsBestRoute>
+
+externdef __imp_RtmIsMarkedForChangeNotification:PPROC
+RtmIsMarkedForChangeNotification equ <__imp_RtmIsMarkedForChangeNotification>
+
+externdef __imp_RtmIsRoute:PPROC
+RtmIsRoute equ <__imp_RtmIsRoute>
+
+externdef __imp_RtmLockDestination:PPROC
+RtmLockDestination equ <__imp_RtmLockDestination>
+
+externdef __imp_RtmLockNextHop:PPROC
+RtmLockNextHop equ <__imp_RtmLockNextHop>
+
+externdef __imp_RtmLockRoute:PPROC
+RtmLockRoute equ <__imp_RtmLockRoute>
+
+externdef __imp_RtmLookupIPDestination:PPROC
+RtmLookupIPDestination equ <__imp_RtmLookupIPDestination>
+
+externdef __imp_RtmMarkDestForChangeNotification:PPROC
+RtmMarkDestForChangeNotification equ <__imp_RtmMarkDestForChangeNotification>
+
+externdef __imp_RtmReadAddressFamilyConfig:PPROC
+RtmReadAddressFamilyConfig equ <__imp_RtmReadAddressFamilyConfig>
+
+externdef __imp_RtmReadInstanceConfig:PPROC
+RtmReadInstanceConfig equ <__imp_RtmReadInstanceConfig>
+
+externdef __imp_RtmReferenceHandles:PPROC
+RtmReferenceHandles equ <__imp_RtmReferenceHandles>
+
+externdef __imp_RtmRegisterClient:PPROC
+RtmRegisterClient equ <__imp_RtmRegisterClient>
+
+externdef __imp_RtmRegisterEntity:PPROC
+RtmRegisterEntity equ <__imp_RtmRegisterEntity>
+
+externdef __imp_RtmRegisterForChangeNotification:PPROC
+RtmRegisterForChangeNotification equ <__imp_RtmRegisterForChangeNotification>
+
+externdef __imp_RtmReleaseChangedDests:PPROC
+RtmReleaseChangedDests equ <__imp_RtmReleaseChangedDests>
+
+externdef __imp_RtmReleaseDestInfo:PPROC
+RtmReleaseDestInfo equ <__imp_RtmReleaseDestInfo>
+
+externdef __imp_RtmReleaseDests:PPROC
+RtmReleaseDests equ <__imp_RtmReleaseDests>
+
+externdef __imp_RtmReleaseEntities:PPROC
+RtmReleaseEntities equ <__imp_RtmReleaseEntities>
+
+externdef __imp_RtmReleaseEntityInfo:PPROC
+RtmReleaseEntityInfo equ <__imp_RtmReleaseEntityInfo>
+
+externdef __imp_RtmReleaseNextHopInfo:PPROC
+RtmReleaseNextHopInfo equ <__imp_RtmReleaseNextHopInfo>
+
+externdef __imp_RtmReleaseNextHops:PPROC
+RtmReleaseNextHops equ <__imp_RtmReleaseNextHops>
+
+externdef __imp_RtmReleaseRouteInfo:PPROC
+RtmReleaseRouteInfo equ <__imp_RtmReleaseRouteInfo>
+
+externdef __imp_RtmReleaseRoutes:PPROC
+RtmReleaseRoutes equ <__imp_RtmReleaseRoutes>
+
+externdef __imp_RtmUpdateAndUnlockRoute:PPROC
+RtmUpdateAndUnlockRoute equ <__imp_RtmUpdateAndUnlockRoute>
+
+externdef __imp_RtmWriteAddressFamilyConfig:PPROC
+RtmWriteAddressFamilyConfig equ <__imp_RtmWriteAddressFamilyConfig>
+
+externdef __imp_RtmWriteInstanceConfig:PPROC
+RtmWriteInstanceConfig equ <__imp_RtmWriteInstanceConfig>
+
+externdef __imp_SearchInTable:PPROC
+SearchInTable equ <__imp_SearchInTable>

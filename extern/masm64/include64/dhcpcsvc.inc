@@ -1,0 +1,110 @@
+externdef __imp_DhcpAcquireParameters:PPROC
+DhcpAcquireParameters equ <__imp_DhcpAcquireParameters>
+
+externdef __imp_DhcpAcquireParametersByBroadcast:PPROC
+DhcpAcquireParametersByBroadcast equ <__imp_DhcpAcquireParametersByBroadcast>
+
+externdef __imp_DhcpCApiCleanup:PPROC
+DhcpCApiCleanup equ <__imp_DhcpCApiCleanup>
+
+externdef __imp_DhcpCApiInitialize:PPROC
+DhcpCApiInitialize equ <__imp_DhcpCApiInitialize>
+
+externdef __imp_DhcpDeRegisterOptions:PPROC
+DhcpDeRegisterOptions equ <__imp_DhcpDeRegisterOptions>
+
+externdef __imp_DhcpDeRegisterParamChange:PPROC
+DhcpDeRegisterParamChange equ <__imp_DhcpDeRegisterParamChange>
+
+externdef __imp_DhcpDelPersistentRequestParams:PPROC
+DhcpDelPersistentRequestParams equ <__imp_DhcpDelPersistentRequestParams>
+
+externdef __imp_DhcpEnumClasses:PPROC
+DhcpEnumClasses equ <__imp_DhcpEnumClasses>
+
+externdef __imp_DhcpFallbackRefreshParams:PPROC
+DhcpFallbackRefreshParams equ <__imp_DhcpFallbackRefreshParams>
+
+externdef __imp_DhcpHandlePnPEvent:PPROC
+DhcpHandlePnPEvent equ <__imp_DhcpHandlePnPEvent>
+
+externdef __imp_DhcpLeaseIpAddress:PPROC
+DhcpLeaseIpAddress equ <__imp_DhcpLeaseIpAddress>
+
+externdef __imp_DhcpLeaseIpAddressEx:PPROC
+DhcpLeaseIpAddressEx equ <__imp_DhcpLeaseIpAddressEx>
+
+externdef __imp_DhcpNotifyConfigChange:PPROC
+DhcpNotifyConfigChange equ <__imp_DhcpNotifyConfigChange>
+
+externdef __imp_DhcpNotifyConfigChangeEx:PPROC
+DhcpNotifyConfigChangeEx equ <__imp_DhcpNotifyConfigChangeEx>
+
+externdef __imp_DhcpNotifyMediaReconnected:PPROC
+DhcpNotifyMediaReconnected equ <__imp_DhcpNotifyMediaReconnected>
+
+externdef __imp_DhcpOpenGlobalEvent:PPROC
+DhcpOpenGlobalEvent equ <__imp_DhcpOpenGlobalEvent>
+
+externdef __imp_DhcpPersistentRequestParams:PPROC
+DhcpPersistentRequestParams equ <__imp_DhcpPersistentRequestParams>
+
+externdef __imp_DhcpRegisterOptions:PPROC
+DhcpRegisterOptions equ <__imp_DhcpRegisterOptions>
+
+externdef __imp_DhcpRegisterParamChange:PPROC
+DhcpRegisterParamChange equ <__imp_DhcpRegisterParamChange>
+
+externdef __imp_DhcpReleaseIpAddressLease:PPROC
+DhcpReleaseIpAddressLease equ <__imp_DhcpReleaseIpAddressLease>
+
+externdef __imp_DhcpReleaseIpAddressLeaseEx:PPROC
+DhcpReleaseIpAddressLeaseEx equ <__imp_DhcpReleaseIpAddressLeaseEx>
+
+externdef __imp_DhcpReleaseParameters:PPROC
+DhcpReleaseParameters equ <__imp_DhcpReleaseParameters>
+
+externdef __imp_DhcpRemoveDNSRegistrations:PPROC
+DhcpRemoveDNSRegistrations equ <__imp_DhcpRemoveDNSRegistrations>
+
+externdef __imp_DhcpRenewIpAddressLease:PPROC
+DhcpRenewIpAddressLease equ <__imp_DhcpRenewIpAddressLease>
+
+externdef __imp_DhcpRenewIpAddressLeaseEx:PPROC
+DhcpRenewIpAddressLeaseEx equ <__imp_DhcpRenewIpAddressLeaseEx>
+
+externdef __imp_DhcpRequestOptions:PPROC
+DhcpRequestOptions equ <__imp_DhcpRequestOptions>
+
+externdef __imp_DhcpRequestParams:PPROC
+DhcpRequestParams equ <__imp_DhcpRequestParams>
+
+externdef __imp_DhcpStaticRefreshParams:PPROC
+DhcpStaticRefreshParams equ <__imp_DhcpStaticRefreshParams>
+
+externdef __imp_DhcpUndoRequestParams:PPROC
+DhcpUndoRequestParams equ <__imp_DhcpUndoRequestParams>
+
+externdef __imp_McastApiCleanup:PPROC
+McastApiCleanup equ <__imp_McastApiCleanup>
+
+externdef __imp_McastApiStartup:PPROC
+McastApiStartup equ <__imp_McastApiStartup>
+
+externdef __imp_McastEnumerateScopes:PPROC
+McastEnumerateScopes equ <__imp_McastEnumerateScopes>
+
+externdef __imp_McastGenUID:PPROC
+McastGenUID equ <__imp_McastGenUID>
+
+externdef __imp_McastReleaseAddress:PPROC
+McastReleaseAddress equ <__imp_McastReleaseAddress>
+
+externdef __imp_McastRenewAddress:PPROC
+McastRenewAddress equ <__imp_McastRenewAddress>
+
+externdef __imp_McastRequestAddress:PPROC
+McastRequestAddress equ <__imp_McastRequestAddress>
+
+externdef __imp_ServiceMain:PPROC
+ServiceMain equ <__imp_ServiceMain>

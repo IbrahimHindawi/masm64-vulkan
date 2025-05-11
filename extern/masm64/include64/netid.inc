@@ -1,0 +1,5 @@
+externdef __imp_CreateNetIDPropertyPage:PPROC
+CreateNetIDPropertyPage equ <__imp_CreateNetIDPropertyPage>
+
+externdef __imp_ShowDcNotFoundErrorDialog:PPROC
+ShowDcNotFoundErrorDialog equ <__imp_ShowDcNotFoundErrorDialog>

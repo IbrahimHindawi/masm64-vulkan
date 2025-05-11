@@ -1,0 +1,68 @@
+externdef __imp_DisableUserLevelAccessControl:PPROC
+DisableUserLevelAccessControl equ <__imp_DisableUserLevelAccessControl>
+
+externdef __imp_EnableAutodial:PPROC
+EnableAutodial equ <__imp_EnableAutodial>
+
+externdef __imp_EnumMatchingNetBindings:PPROC
+EnumMatchingNetBindings equ <__imp_EnumMatchingNetBindings>
+
+externdef __imp_EnumNetAdapters:PPROC
+EnumNetAdapters equ <__imp_EnumNetAdapters>
+
+externdef __imp_GetDefaultDialupConnection:PPROC
+GetDefaultDialupConnection equ <__imp_GetDefaultDialupConnection>
+
+externdef __imp_HrEnableDhcp:PPROC
+HrEnableDhcp equ <__imp_HrEnableDhcp>
+
+externdef __imp_HrFromLastWin32Error:PPROC
+HrFromLastWin32Error equ <__imp_HrFromLastWin32Error>
+
+externdef __imp_HrWideCharToMultiByte:PPROC
+HrWideCharToMultiByte equ <__imp_HrWideCharToMultiByte>
+
+externdef __imp_InstallMSClient:PPROC
+InstallMSClient equ <__imp_InstallMSClient>
+
+externdef __imp_InstallSharing:PPROC
+InstallSharing equ <__imp_InstallSharing>
+
+externdef __imp_InstallTCPIP:PPROC
+InstallTCPIP equ <__imp_InstallTCPIP>
+
+externdef __imp_IsAccessControlUserLevel:PPROC
+IsAccessControlUserLevel equ <__imp_IsAccessControlUserLevel>
+
+externdef __imp_IsAdapterDisconnected:PPROC
+IsAdapterDisconnected equ <__imp_IsAdapterDisconnected>
+
+externdef __imp_IsAutodialEnabled:PPROC
+IsAutodialEnabled equ <__imp_IsAutodialEnabled>
+
+externdef __imp_IsClientInstalled:PPROC
+IsClientInstalled equ <__imp_IsClientInstalled>
+
+externdef __imp_IsMSClientInstalled:PPROC
+IsMSClientInstalled equ <__imp_IsMSClientInstalled>
+
+externdef __imp_IsProtocolInstalled:PPROC
+IsProtocolInstalled equ <__imp_IsProtocolInstalled>
+
+externdef __imp_IsSharingInstalled:PPROC
+IsSharingInstalled equ <__imp_IsSharingInstalled>
+
+externdef __imp_NetConnAlloc:PPROC
+NetConnAlloc equ <__imp_NetConnAlloc>
+
+externdef __imp_NetConnFree:PPROC
+NetConnFree equ <__imp_NetConnFree>
+
+externdef __imp_RestartNetAdapter:PPROC
+RestartNetAdapter equ <__imp_RestartNetAdapter>
+
+externdef __imp_SetDefaultDialupConnection:PPROC
+SetDefaultDialupConnection equ <__imp_SetDefaultDialupConnection>
+
+externdef __imp_TestRunDll:PPROC
+TestRunDll equ <__imp_TestRunDll>

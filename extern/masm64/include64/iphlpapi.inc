@@ -1,0 +1,470 @@
+externdef __imp_AddIPAddress:PPROC
+AddIPAddress equ <__imp_AddIPAddress>
+
+externdef __imp_AllocateAndGetArpEntTableFromStack:PPROC
+AllocateAndGetArpEntTableFromStack equ <__imp_AllocateAndGetArpEntTableFromStack>
+
+externdef __imp_AllocateAndGetIfTableFromStack:PPROC
+AllocateAndGetIfTableFromStack equ <__imp_AllocateAndGetIfTableFromStack>
+
+externdef __imp_AllocateAndGetIpAddrTableFromStack:PPROC
+AllocateAndGetIpAddrTableFromStack equ <__imp_AllocateAndGetIpAddrTableFromStack>
+
+externdef __imp_AllocateAndGetIpForwardTableFromStack:PPROC
+AllocateAndGetIpForwardTableFromStack equ <__imp_AllocateAndGetIpForwardTableFromStack>
+
+externdef __imp_AllocateAndGetIpNetTableFromStack:PPROC
+AllocateAndGetIpNetTableFromStack equ <__imp_AllocateAndGetIpNetTableFromStack>
+
+externdef __imp_AllocateAndGetTcpExTable2FromStack:PPROC
+AllocateAndGetTcpExTable2FromStack equ <__imp_AllocateAndGetTcpExTable2FromStack>
+
+externdef __imp_AllocateAndGetTcpExTableFromStack:PPROC
+AllocateAndGetTcpExTableFromStack equ <__imp_AllocateAndGetTcpExTableFromStack>
+
+externdef __imp_AllocateAndGetTcpTableFromStack:PPROC
+AllocateAndGetTcpTableFromStack equ <__imp_AllocateAndGetTcpTableFromStack>
+
+externdef __imp_AllocateAndGetUdpExTable2FromStack:PPROC
+AllocateAndGetUdpExTable2FromStack equ <__imp_AllocateAndGetUdpExTable2FromStack>
+
+externdef __imp_AllocateAndGetUdpExTableFromStack:PPROC
+AllocateAndGetUdpExTableFromStack equ <__imp_AllocateAndGetUdpExTableFromStack>
+
+externdef __imp_AllocateAndGetUdpTableFromStack:PPROC
+AllocateAndGetUdpTableFromStack equ <__imp_AllocateAndGetUdpTableFromStack>
+
+externdef __imp_CancelIPChangeNotify:PPROC
+CancelIPChangeNotify equ <__imp_CancelIPChangeNotify>
+
+externdef __imp_CancelSecurityHealthChangeNotify:PPROC
+CancelSecurityHealthChangeNotify equ <__imp_CancelSecurityHealthChangeNotify>
+
+externdef __imp_CreateIpForwardEntry:PPROC
+CreateIpForwardEntry equ <__imp_CreateIpForwardEntry>
+
+externdef __imp_CreateIpNetEntry:PPROC
+CreateIpNetEntry equ <__imp_CreateIpNetEntry>
+
+externdef __imp_CreateProxyArpEntry:PPROC
+CreateProxyArpEntry equ <__imp_CreateProxyArpEntry>
+
+externdef __imp_DeleteIPAddress:PPROC
+DeleteIPAddress equ <__imp_DeleteIPAddress>
+
+externdef __imp_DeleteIpForwardEntry:PPROC
+DeleteIpForwardEntry equ <__imp_DeleteIpForwardEntry>
+
+externdef __imp_DeleteIpNetEntry:PPROC
+DeleteIpNetEntry equ <__imp_DeleteIpNetEntry>
+
+externdef __imp_DeleteProxyArpEntry:PPROC
+DeleteProxyArpEntry equ <__imp_DeleteProxyArpEntry>
+
+externdef __imp_DisableMediaSense:PPROC
+DisableMediaSense equ <__imp_DisableMediaSense>
+
+externdef __imp_EnableRouter:PPROC
+EnableRouter equ <__imp_EnableRouter>
+
+externdef __imp_FlushIpNetTable:PPROC
+FlushIpNetTable equ <__imp_FlushIpNetTable>
+
+externdef __imp_FlushIpNetTableFromStack:PPROC
+FlushIpNetTableFromStack equ <__imp_FlushIpNetTableFromStack>
+
+externdef __imp_GetAdapterIndex:PPROC
+GetAdapterIndex equ <__imp_GetAdapterIndex>
+
+externdef __imp_GetAdapterOrderMap:PPROC
+GetAdapterOrderMap equ <__imp_GetAdapterOrderMap>
+
+externdef __imp_GetAdaptersAddresses:PPROC
+GetAdaptersAddresses equ <__imp_GetAdaptersAddresses>
+
+externdef __imp_GetAdaptersInfo:PPROC
+GetAdaptersInfo equ <__imp_GetAdaptersInfo>
+
+externdef __imp_GetBestInterface:PPROC
+GetBestInterface equ <__imp_GetBestInterface>
+
+externdef __imp_GetBestInterfaceEx:PPROC
+GetBestInterfaceEx equ <__imp_GetBestInterfaceEx>
+
+externdef __imp_GetBestInterfaceFromStack:PPROC
+GetBestInterfaceFromStack equ <__imp_GetBestInterfaceFromStack>
+
+externdef __imp_GetBestRoute:PPROC
+GetBestRoute equ <__imp_GetBestRoute>
+
+externdef __imp_GetBestRouteFromStack:PPROC
+GetBestRouteFromStack equ <__imp_GetBestRouteFromStack>
+
+externdef __imp_GetExtendedTcpTable:PPROC
+GetExtendedTcpTable equ <__imp_GetExtendedTcpTable>
+
+externdef __imp_GetExtendedUdpTable:PPROC
+GetExtendedUdpTable equ <__imp_GetExtendedUdpTable>
+
+externdef __imp_GetFriendlyIfIndex:PPROC
+GetFriendlyIfIndex equ <__imp_GetFriendlyIfIndex>
+
+externdef __imp_GetIcmpStatistics:PPROC
+GetIcmpStatistics equ <__imp_GetIcmpStatistics>
+
+externdef __imp_GetIcmpStatisticsEx:PPROC
+GetIcmpStatisticsEx equ <__imp_GetIcmpStatisticsEx>
+
+externdef __imp_GetIcmpStatsFromStack:PPROC
+GetIcmpStatsFromStack equ <__imp_GetIcmpStatsFromStack>
+
+externdef __imp_GetIcmpStatsFromStackEx:PPROC
+GetIcmpStatsFromStackEx equ <__imp_GetIcmpStatsFromStackEx>
+
+externdef __imp_GetIfEntry:PPROC
+GetIfEntry equ <__imp_GetIfEntry>
+
+externdef __imp_GetIfEntryFromStack:PPROC
+GetIfEntryFromStack equ <__imp_GetIfEntryFromStack>
+
+externdef __imp_GetIfTable:PPROC
+GetIfTable equ <__imp_GetIfTable>
+
+externdef __imp_GetIfTableFromStack:PPROC
+GetIfTableFromStack equ <__imp_GetIfTableFromStack>
+
+externdef __imp_GetIgmpList:PPROC
+GetIgmpList equ <__imp_GetIgmpList>
+
+externdef __imp_GetInterfaceInfo:PPROC
+GetInterfaceInfo equ <__imp_GetInterfaceInfo>
+
+externdef __imp_GetIpAddrTable:PPROC
+GetIpAddrTable equ <__imp_GetIpAddrTable>
+
+externdef __imp_GetIpAddrTableFromStack:PPROC
+GetIpAddrTableFromStack equ <__imp_GetIpAddrTableFromStack>
+
+externdef __imp_GetIpErrorString:PPROC
+GetIpErrorString equ <__imp_GetIpErrorString>
+
+externdef __imp_GetIpForwardTable:PPROC
+GetIpForwardTable equ <__imp_GetIpForwardTable>
+
+externdef __imp_GetIpForwardTableFromStack:PPROC
+GetIpForwardTableFromStack equ <__imp_GetIpForwardTableFromStack>
+
+externdef __imp_GetIpNetTable:PPROC
+GetIpNetTable equ <__imp_GetIpNetTable>
+
+externdef __imp_GetIpNetTableFromStack:PPROC
+GetIpNetTableFromStack equ <__imp_GetIpNetTableFromStack>
+
+externdef __imp_GetIpStatistics:PPROC
+GetIpStatistics equ <__imp_GetIpStatistics>
+
+externdef __imp_GetIpStatisticsEx:PPROC
+GetIpStatisticsEx equ <__imp_GetIpStatisticsEx>
+
+externdef __imp_GetIpStatsFromStack:PPROC
+GetIpStatsFromStack equ <__imp_GetIpStatsFromStack>
+
+externdef __imp_GetIpStatsFromStackEx:PPROC
+GetIpStatsFromStackEx equ <__imp_GetIpStatsFromStackEx>
+
+externdef __imp_GetNetworkParams:PPROC
+GetNetworkParams equ <__imp_GetNetworkParams>
+
+externdef __imp_GetNumberOfInterfaces:PPROC
+GetNumberOfInterfaces equ <__imp_GetNumberOfInterfaces>
+
+externdef __imp_GetOwnerModuleFromTcp6Entry:PPROC
+GetOwnerModuleFromTcp6Entry equ <__imp_GetOwnerModuleFromTcp6Entry>
+
+externdef __imp_GetOwnerModuleFromTcpEntry:PPROC
+GetOwnerModuleFromTcpEntry equ <__imp_GetOwnerModuleFromTcpEntry>
+
+externdef __imp_GetOwnerModuleFromUdp6Entry:PPROC
+GetOwnerModuleFromUdp6Entry equ <__imp_GetOwnerModuleFromUdp6Entry>
+
+externdef __imp_GetOwnerModuleFromUdpEntry:PPROC
+GetOwnerModuleFromUdpEntry equ <__imp_GetOwnerModuleFromUdpEntry>
+
+externdef __imp_GetPerAdapterInfo:PPROC
+GetPerAdapterInfo equ <__imp_GetPerAdapterInfo>
+
+externdef __imp_GetRTTAndHopCount:PPROC
+GetRTTAndHopCount equ <__imp_GetRTTAndHopCount>
+
+externdef __imp_GetTcpExTable2FromStack:PPROC
+GetTcpExTable2FromStack equ <__imp_GetTcpExTable2FromStack>
+
+externdef __imp_GetTcpStatistics:PPROC
+GetTcpStatistics equ <__imp_GetTcpStatistics>
+
+externdef __imp_GetTcpStatisticsEx:PPROC
+GetTcpStatisticsEx equ <__imp_GetTcpStatisticsEx>
+
+externdef __imp_GetTcpStatsFromStack:PPROC
+GetTcpStatsFromStack equ <__imp_GetTcpStatsFromStack>
+
+externdef __imp_GetTcpStatsFromStackEx:PPROC
+GetTcpStatsFromStackEx equ <__imp_GetTcpStatsFromStackEx>
+
+externdef __imp_GetTcpTable:PPROC
+GetTcpTable equ <__imp_GetTcpTable>
+
+externdef __imp_GetTcpTableFromStack:PPROC
+GetTcpTableFromStack equ <__imp_GetTcpTableFromStack>
+
+externdef __imp_GetUdpExTable2FromStack:PPROC
+GetUdpExTable2FromStack equ <__imp_GetUdpExTable2FromStack>
+
+externdef __imp_GetUdpStatistics:PPROC
+GetUdpStatistics equ <__imp_GetUdpStatistics>
+
+externdef __imp_GetUdpStatisticsEx:PPROC
+GetUdpStatisticsEx equ <__imp_GetUdpStatisticsEx>
+
+externdef __imp_GetUdpStatsFromStack:PPROC
+GetUdpStatsFromStack equ <__imp_GetUdpStatsFromStack>
+
+externdef __imp_GetUdpStatsFromStackEx:PPROC
+GetUdpStatsFromStackEx equ <__imp_GetUdpStatsFromStackEx>
+
+externdef __imp_GetUdpTable:PPROC
+GetUdpTable equ <__imp_GetUdpTable>
+
+externdef __imp_GetUdpTableFromStack:PPROC
+GetUdpTableFromStack equ <__imp_GetUdpTableFromStack>
+
+externdef __imp_GetUniDirectionalAdapterInfo:PPROC
+GetUniDirectionalAdapterInfo equ <__imp_GetUniDirectionalAdapterInfo>
+
+externdef __imp_Icmp6CreateFile:PPROC
+Icmp6CreateFile equ <__imp_Icmp6CreateFile>
+
+externdef __imp_Icmp6ParseReplies:PPROC
+Icmp6ParseReplies equ <__imp_Icmp6ParseReplies>
+
+externdef __imp_Icmp6SendEcho2:PPROC
+Icmp6SendEcho2 equ <__imp_Icmp6SendEcho2>
+
+externdef __imp_IcmpCloseHandle:PPROC
+IcmpCloseHandle equ <__imp_IcmpCloseHandle>
+
+externdef __imp_IcmpCreateFile:PPROC
+IcmpCreateFile equ <__imp_IcmpCreateFile>
+
+externdef __imp_IcmpParseReplies:PPROC
+IcmpParseReplies equ <__imp_IcmpParseReplies>
+
+externdef __imp_IcmpSendEcho2:PPROC
+IcmpSendEcho2 equ <__imp_IcmpSendEcho2>
+
+externdef __imp_IcmpSendEcho:PPROC
+IcmpSendEcho equ <__imp_IcmpSendEcho>
+
+externdef __imp_InternalCreateIpForwardEntry:PPROC
+InternalCreateIpForwardEntry equ <__imp_InternalCreateIpForwardEntry>
+
+externdef __imp_InternalCreateIpNetEntry:PPROC
+InternalCreateIpNetEntry equ <__imp_InternalCreateIpNetEntry>
+
+externdef __imp_InternalDeleteIpForwardEntry:PPROC
+InternalDeleteIpForwardEntry equ <__imp_InternalDeleteIpForwardEntry>
+
+externdef __imp_InternalDeleteIpNetEntry:PPROC
+InternalDeleteIpNetEntry equ <__imp_InternalDeleteIpNetEntry>
+
+externdef __imp_InternalGetIfTable:PPROC
+InternalGetIfTable equ <__imp_InternalGetIfTable>
+
+externdef __imp_InternalGetIpAddrTable:PPROC
+InternalGetIpAddrTable equ <__imp_InternalGetIpAddrTable>
+
+externdef __imp_InternalGetIpForwardTable:PPROC
+InternalGetIpForwardTable equ <__imp_InternalGetIpForwardTable>
+
+externdef __imp_InternalGetIpNetTable:PPROC
+InternalGetIpNetTable equ <__imp_InternalGetIpNetTable>
+
+externdef __imp_InternalGetTcpTable:PPROC
+InternalGetTcpTable equ <__imp_InternalGetTcpTable>
+
+externdef __imp_InternalGetUdpTable:PPROC
+InternalGetUdpTable equ <__imp_InternalGetUdpTable>
+
+externdef __imp_InternalSetIfEntry:PPROC
+InternalSetIfEntry equ <__imp_InternalSetIfEntry>
+
+externdef __imp_InternalSetIpForwardEntry:PPROC
+InternalSetIpForwardEntry equ <__imp_InternalSetIpForwardEntry>
+
+externdef __imp_InternalSetIpNetEntry:PPROC
+InternalSetIpNetEntry equ <__imp_InternalSetIpNetEntry>
+
+externdef __imp_InternalSetIpStats:PPROC
+InternalSetIpStats equ <__imp_InternalSetIpStats>
+
+externdef __imp_InternalSetTcpEntry:PPROC
+InternalSetTcpEntry equ <__imp_InternalSetTcpEntry>
+
+externdef __imp_IpReleaseAddress:PPROC
+IpReleaseAddress equ <__imp_IpReleaseAddress>
+
+externdef __imp_IpRenewAddress:PPROC
+IpRenewAddress equ <__imp_IpRenewAddress>
+
+externdef __imp_IsLocalAddress:PPROC
+IsLocalAddress equ <__imp_IsLocalAddress>
+
+externdef __imp_NTPTimeToNTFileTime:PPROC
+NTPTimeToNTFileTime equ <__imp_NTPTimeToNTFileTime>
+
+externdef __imp_NTTimeToNTPTime:PPROC
+NTTimeToNTPTime equ <__imp_NTTimeToNTPTime>
+
+externdef __imp_NhGetGuidFromInterfaceName:PPROC
+NhGetGuidFromInterfaceName equ <__imp_NhGetGuidFromInterfaceName>
+
+externdef __imp_NhGetInterfaceNameFromDeviceGuid:PPROC
+NhGetInterfaceNameFromDeviceGuid equ <__imp_NhGetInterfaceNameFromDeviceGuid>
+
+externdef __imp_NhGetInterfaceNameFromGuid:PPROC
+NhGetInterfaceNameFromGuid equ <__imp_NhGetInterfaceNameFromGuid>
+
+externdef __imp_NhpAllocateAndGetInterfaceInfoFromStack:PPROC
+NhpAllocateAndGetInterfaceInfoFromStack equ <__imp_NhpAllocateAndGetInterfaceInfoFromStack>
+
+externdef __imp_NhpGetInterfaceIndexFromStack:PPROC
+NhpGetInterfaceIndexFromStack equ <__imp_NhpGetInterfaceIndexFromStack>
+
+externdef __imp_NotifyAddrChange:PPROC
+NotifyAddrChange equ <__imp_NotifyAddrChange>
+
+externdef __imp_NotifyRouteChange:PPROC
+NotifyRouteChange equ <__imp_NotifyRouteChange>
+
+externdef __imp_NotifyRouteChangeEx:PPROC
+NotifyRouteChangeEx equ <__imp_NotifyRouteChangeEx>
+
+externdef __imp_NotifySecurityHealthChange:PPROC
+NotifySecurityHealthChange equ <__imp_NotifySecurityHealthChange>
+
+externdef __imp_PfAddFiltersToInterface:PPROC
+PfAddFiltersToInterface equ <__imp_PfAddFiltersToInterface>
+
+externdef __imp_PfAddGlobalFilterToInterface:PPROC
+PfAddGlobalFilterToInterface equ <__imp_PfAddGlobalFilterToInterface>
+
+externdef __imp_PfBindInterfaceToIPAddress:PPROC
+PfBindInterfaceToIPAddress equ <__imp_PfBindInterfaceToIPAddress>
+
+externdef __imp_PfBindInterfaceToIndex:PPROC
+PfBindInterfaceToIndex equ <__imp_PfBindInterfaceToIndex>
+
+externdef __imp_PfCreateInterface:PPROC
+PfCreateInterface equ <__imp_PfCreateInterface>
+
+externdef __imp_PfDeleteInterface:PPROC
+PfDeleteInterface equ <__imp_PfDeleteInterface>
+
+externdef __imp_PfDeleteLog:PPROC
+PfDeleteLog equ <__imp_PfDeleteLog>
+
+externdef __imp_PfGetInterfaceStatistics:PPROC
+PfGetInterfaceStatistics equ <__imp_PfGetInterfaceStatistics>
+
+externdef __imp_PfMakeLog:PPROC
+PfMakeLog equ <__imp_PfMakeLog>
+
+externdef __imp_PfRebindFilters:PPROC
+PfRebindFilters equ <__imp_PfRebindFilters>
+
+externdef __imp_PfRemoveFilterHandles:PPROC
+PfRemoveFilterHandles equ <__imp_PfRemoveFilterHandles>
+
+externdef __imp_PfRemoveFiltersFromInterface:PPROC
+PfRemoveFiltersFromInterface equ <__imp_PfRemoveFiltersFromInterface>
+
+externdef __imp_PfRemoveGlobalFilterFromInterface:PPROC
+PfRemoveGlobalFilterFromInterface equ <__imp_PfRemoveGlobalFilterFromInterface>
+
+externdef __imp_PfSetLogBuffer:PPROC
+PfSetLogBuffer equ <__imp_PfSetLogBuffer>
+
+externdef __imp_PfTestPacket:PPROC
+PfTestPacket equ <__imp_PfTestPacket>
+
+externdef __imp_PfUnBindInterface:PPROC
+PfUnBindInterface equ <__imp_PfUnBindInterface>
+
+externdef __imp_RestoreMediaSense:PPROC
+RestoreMediaSense equ <__imp_RestoreMediaSense>
+
+externdef __imp_SendARP:PPROC
+SendARP equ <__imp_SendARP>
+
+externdef __imp_SetAdapterIpAddress:PPROC
+SetAdapterIpAddress equ <__imp_SetAdapterIpAddress>
+
+externdef __imp_SetBlockRoutes:PPROC
+SetBlockRoutes equ <__imp_SetBlockRoutes>
+
+externdef __imp_SetIfEntry:PPROC
+SetIfEntry equ <__imp_SetIfEntry>
+
+externdef __imp_SetIfEntryToStack:PPROC
+SetIfEntryToStack equ <__imp_SetIfEntryToStack>
+
+externdef __imp_SetIpForwardEntry:PPROC
+SetIpForwardEntry equ <__imp_SetIpForwardEntry>
+
+externdef __imp_SetIpForwardEntryToStack:PPROC
+SetIpForwardEntryToStack equ <__imp_SetIpForwardEntryToStack>
+
+externdef __imp_SetIpMultihopRouteEntryToStack:PPROC
+SetIpMultihopRouteEntryToStack equ <__imp_SetIpMultihopRouteEntryToStack>
+
+externdef __imp_SetIpNetEntry:PPROC
+SetIpNetEntry equ <__imp_SetIpNetEntry>
+
+externdef __imp_SetIpNetEntryToStack:PPROC
+SetIpNetEntryToStack equ <__imp_SetIpNetEntryToStack>
+
+externdef __imp_SetIpRouteEntryToStack:PPROC
+SetIpRouteEntryToStack equ <__imp_SetIpRouteEntryToStack>
+
+externdef __imp_SetIpStatistics:PPROC
+SetIpStatistics equ <__imp_SetIpStatistics>
+
+externdef __imp_SetIpStatsToStack:PPROC
+SetIpStatsToStack equ <__imp_SetIpStatsToStack>
+
+externdef __imp_SetIpTTL:PPROC
+SetIpTTL equ <__imp_SetIpTTL>
+
+externdef __imp_SetProxyArpEntryToStack:PPROC
+SetProxyArpEntryToStack equ <__imp_SetProxyArpEntryToStack>
+
+externdef __imp_SetRouteWithRef:PPROC
+SetRouteWithRef equ <__imp_SetRouteWithRef>
+
+externdef __imp_SetTcpEntry:PPROC
+SetTcpEntry equ <__imp_SetTcpEntry>
+
+externdef __imp_SetTcpEntryToStack:PPROC
+SetTcpEntryToStack equ <__imp_SetTcpEntryToStack>
+
+externdef __imp_UnenableRouter:PPROC
+UnenableRouter equ <__imp_UnenableRouter>
+
+externdef __imp_do_echo_rep:PPROC
+do_echo_rep equ <__imp_do_echo_rep>
+
+externdef __imp_do_echo_req:PPROC
+do_echo_req equ <__imp_do_echo_req>
+
+externdef __imp_register_icmp:PPROC
+register_icmp equ <__imp_register_icmp>

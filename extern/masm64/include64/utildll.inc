@@ -1,0 +1,113 @@
+externdef __imp_AsyncDeviceEnumerate:PPROC
+AsyncDeviceEnumerate equ <__imp_AsyncDeviceEnumerate>
+
+externdef __imp_CachedGetUserFromSid:PPROC
+CachedGetUserFromSid equ <__imp_CachedGetUserFromSid>
+
+externdef __imp_CalculateDiffTime:PPROC
+CalculateDiffTime equ <__imp_CalculateDiffTime>
+
+externdef __imp_CalculateElapsedTime:PPROC
+CalculateElapsedTime equ <__imp_CalculateElapsedTime>
+
+externdef __imp_CompareElapsedTime:PPROC
+CompareElapsedTime equ <__imp_CompareElapsedTime>
+
+externdef __imp_ConfigureModem:PPROC
+ConfigureModem equ <__imp_ConfigureModem>
+
+externdef __imp_CtxGetAnyDCName:PPROC
+CtxGetAnyDCName equ <__imp_CtxGetAnyDCName>
+
+externdef __imp_CurrentDateTimeString:PPROC
+CurrentDateTimeString equ <__imp_CurrentDateTimeString>
+
+externdef __imp_DateTimeString:PPROC
+DateTimeString equ <__imp_DateTimeString>
+
+externdef __imp_ElapsedTimeString:PPROC
+ElapsedTimeString equ <__imp_ElapsedTimeString>
+
+externdef __imp_EnumerateMultiUserServers:PPROC
+EnumerateMultiUserServers equ <__imp_EnumerateMultiUserServers>
+
+externdef __imp_FormDecoratedAsyncDeviceName:PPROC
+FormDecoratedAsyncDeviceName equ <__imp_FormDecoratedAsyncDeviceName>
+
+externdef __imp_GetAssociatedPortName:PPROC
+GetAssociatedPortName equ <__imp_GetAssociatedPortName>
+
+externdef __imp_GetSystemMessageA:PPROC
+GetSystemMessageA equ <__imp_GetSystemMessageA>
+  IFNDEF __UNICODE__
+    GetSystemMessage equ <__imp_GetSystemMessageA>
+  ENDIF
+
+externdef __imp_GetSystemMessageW:PPROC
+GetSystemMessageW equ <__imp_GetSystemMessageW>
+  IFDEF __UNICODE__
+    GetSystemMessage equ <__imp_GetSystemMessageW>
+  ENDIF
+
+externdef __imp_GetUnknownString:PPROC
+GetUnknownString equ <__imp_GetUnknownString>
+
+externdef __imp_GetUserFromSid:PPROC
+GetUserFromSid equ <__imp_GetUserFromSid>
+
+externdef __imp_HaveAnonymousUsersChanged:PPROC
+HaveAnonymousUsersChanged equ <__imp_HaveAnonymousUsersChanged>
+
+externdef __imp_InitializeAnonymousUserCompareList:PPROC
+InitializeAnonymousUserCompareList equ <__imp_InitializeAnonymousUserCompareList>
+
+externdef __imp_InstallModem:PPROC
+InstallModem equ <__imp_InstallModem>
+
+externdef __imp_IsPartOfDomain:PPROC
+IsPartOfDomain equ <__imp_IsPartOfDomain>
+
+externdef __imp_NetBIOSDeviceEnumerate:PPROC
+NetBIOSDeviceEnumerate equ <__imp_NetBIOSDeviceEnumerate>
+
+externdef __imp_NetworkDeviceEnumerate:PPROC
+NetworkDeviceEnumerate equ <__imp_NetworkDeviceEnumerate>
+
+externdef __imp_ParseDecoratedAsyncDeviceName:PPROC
+ParseDecoratedAsyncDeviceName equ <__imp_ParseDecoratedAsyncDeviceName>
+
+externdef __imp_QueryCurrentWinStation:PPROC
+QueryCurrentWinStation equ <__imp_QueryCurrentWinStation>
+
+externdef __imp_RegGetNetworkDeviceName:PPROC
+RegGetNetworkDeviceName equ <__imp_RegGetNetworkDeviceName>
+
+externdef __imp_RegGetNetworkServiceName:PPROC
+RegGetNetworkServiceName equ <__imp_RegGetNetworkServiceName>
+
+externdef __imp_SetupAsyncCdConfig:PPROC
+SetupAsyncCdConfig equ <__imp_SetupAsyncCdConfig>
+
+externdef __imp_StandardErrorMessage:PPROC
+StandardErrorMessage equ <__imp_StandardErrorMessage>
+
+externdef __imp_StrAsyncConnectState:PPROC
+StrAsyncConnectState equ <__imp_StrAsyncConnectState>
+
+externdef __imp_StrConnectState:PPROC
+StrConnectState equ <__imp_StrConnectState>
+
+externdef __imp_StrProcessState:PPROC
+StrProcessState equ <__imp_StrProcessState>
+
+externdef __imp_StrSdClass:PPROC
+StrSdClass equ <__imp_StrSdClass>
+
+externdef __imp_StrSystemWaitReason:PPROC
+StrSystemWaitReason equ <__imp_StrSystemWaitReason>
+
+externdef __imp_TestUserForAdmin:PPROC
+TestUserForAdmin equ <__imp_TestUserForAdmin>
+
+externdef __imp_WinEnumerateDevices:PPROC
+WinEnumerateDevices equ <__imp_WinEnumerateDevices>

@@ -1,0 +1,167 @@
+externdef __imp_OsThunkD3dContextCreate:PPROC
+OsThunkD3dContextCreate equ <__imp_OsThunkD3dContextCreate>
+
+externdef __imp_OsThunkD3dContextDestroy:PPROC
+OsThunkD3dContextDestroy equ <__imp_OsThunkD3dContextDestroy>
+
+externdef __imp_OsThunkD3dContextDestroyAll:PPROC
+OsThunkD3dContextDestroyAll equ <__imp_OsThunkD3dContextDestroyAll>
+
+externdef __imp_OsThunkD3dDrawPrimitives2:PPROC
+OsThunkD3dDrawPrimitives2 equ <__imp_OsThunkD3dDrawPrimitives2>
+
+externdef __imp_OsThunkD3dValidateTextureStageState:PPROC
+OsThunkD3dValidateTextureStageState equ <__imp_OsThunkD3dValidateTextureStageState>
+
+externdef __imp_OsThunkDdAddAttachedSurface:PPROC
+OsThunkDdAddAttachedSurface equ <__imp_OsThunkDdAddAttachedSurface>
+
+externdef __imp_OsThunkDdAlphaBlt:PPROC
+OsThunkDdAlphaBlt equ <__imp_OsThunkDdAlphaBlt>
+
+externdef __imp_OsThunkDdAttachSurface:PPROC
+OsThunkDdAttachSurface equ <__imp_OsThunkDdAttachSurface>
+
+externdef __imp_OsThunkDdBeginMoCompFrame:PPROC
+OsThunkDdBeginMoCompFrame equ <__imp_OsThunkDdBeginMoCompFrame>
+
+externdef __imp_OsThunkDdBlt:PPROC
+OsThunkDdBlt equ <__imp_OsThunkDdBlt>
+
+externdef __imp_OsThunkDdCanCreateD3DBuffer:PPROC
+OsThunkDdCanCreateD3DBuffer equ <__imp_OsThunkDdCanCreateD3DBuffer>
+
+externdef __imp_OsThunkDdCanCreateSurface:PPROC
+OsThunkDdCanCreateSurface equ <__imp_OsThunkDdCanCreateSurface>
+
+externdef __imp_OsThunkDdColorControl:PPROC
+OsThunkDdColorControl equ <__imp_OsThunkDdColorControl>
+
+externdef __imp_OsThunkDdCreateD3DBuffer:PPROC
+OsThunkDdCreateD3DBuffer equ <__imp_OsThunkDdCreateD3DBuffer>
+
+externdef __imp_OsThunkDdCreateDirectDrawObject:PPROC
+OsThunkDdCreateDirectDrawObject equ <__imp_OsThunkDdCreateDirectDrawObject>
+
+externdef __imp_OsThunkDdCreateMoComp:PPROC
+OsThunkDdCreateMoComp equ <__imp_OsThunkDdCreateMoComp>
+
+externdef __imp_OsThunkDdCreateSurface:PPROC
+OsThunkDdCreateSurface equ <__imp_OsThunkDdCreateSurface>
+
+externdef __imp_OsThunkDdCreateSurfaceEx:PPROC
+OsThunkDdCreateSurfaceEx equ <__imp_OsThunkDdCreateSurfaceEx>
+
+externdef __imp_OsThunkDdCreateSurfaceObject:PPROC
+OsThunkDdCreateSurfaceObject equ <__imp_OsThunkDdCreateSurfaceObject>
+
+externdef __imp_OsThunkDdDeleteDirectDrawObject:PPROC
+OsThunkDdDeleteDirectDrawObject equ <__imp_OsThunkDdDeleteDirectDrawObject>
+
+externdef __imp_OsThunkDdDeleteSurfaceObject:PPROC
+OsThunkDdDeleteSurfaceObject equ <__imp_OsThunkDdDeleteSurfaceObject>
+
+externdef __imp_OsThunkDdDestroyD3DBuffer:PPROC
+OsThunkDdDestroyD3DBuffer equ <__imp_OsThunkDdDestroyD3DBuffer>
+
+externdef __imp_OsThunkDdDestroyMoComp:PPROC
+OsThunkDdDestroyMoComp equ <__imp_OsThunkDdDestroyMoComp>
+
+externdef __imp_OsThunkDdDestroySurface:PPROC
+OsThunkDdDestroySurface equ <__imp_OsThunkDdDestroySurface>
+
+externdef __imp_OsThunkDdEndMoCompFrame:PPROC
+OsThunkDdEndMoCompFrame equ <__imp_OsThunkDdEndMoCompFrame>
+
+externdef __imp_OsThunkDdFlip:PPROC
+OsThunkDdFlip equ <__imp_OsThunkDdFlip>
+
+externdef __imp_OsThunkDdFlipToGDISurface:PPROC
+OsThunkDdFlipToGDISurface equ <__imp_OsThunkDdFlipToGDISurface>
+
+externdef __imp_OsThunkDdGetAvailDriverMemory:PPROC
+OsThunkDdGetAvailDriverMemory equ <__imp_OsThunkDdGetAvailDriverMemory>
+
+externdef __imp_OsThunkDdGetBltStatus:PPROC
+OsThunkDdGetBltStatus equ <__imp_OsThunkDdGetBltStatus>
+
+externdef __imp_OsThunkDdGetDC:PPROC
+OsThunkDdGetDC equ <__imp_OsThunkDdGetDC>
+
+externdef __imp_OsThunkDdGetDriverInfo:PPROC
+OsThunkDdGetDriverInfo equ <__imp_OsThunkDdGetDriverInfo>
+
+externdef __imp_OsThunkDdGetDriverState:PPROC
+OsThunkDdGetDriverState equ <__imp_OsThunkDdGetDriverState>
+
+externdef __imp_OsThunkDdGetDxHandle:PPROC
+OsThunkDdGetDxHandle equ <__imp_OsThunkDdGetDxHandle>
+
+externdef __imp_OsThunkDdGetFlipStatus:PPROC
+OsThunkDdGetFlipStatus equ <__imp_OsThunkDdGetFlipStatus>
+
+externdef __imp_OsThunkDdGetInternalMoCompInfo:PPROC
+OsThunkDdGetInternalMoCompInfo equ <__imp_OsThunkDdGetInternalMoCompInfo>
+
+externdef __imp_OsThunkDdGetMoCompBuffInfo:PPROC
+OsThunkDdGetMoCompBuffInfo equ <__imp_OsThunkDdGetMoCompBuffInfo>
+
+externdef __imp_OsThunkDdGetMoCompFormats:PPROC
+OsThunkDdGetMoCompFormats equ <__imp_OsThunkDdGetMoCompFormats>
+
+externdef __imp_OsThunkDdGetMoCompGuids:PPROC
+OsThunkDdGetMoCompGuids equ <__imp_OsThunkDdGetMoCompGuids>
+
+externdef __imp_OsThunkDdGetScanLine:PPROC
+OsThunkDdGetScanLine equ <__imp_OsThunkDdGetScanLine>
+
+externdef __imp_OsThunkDdLock:PPROC
+OsThunkDdLock equ <__imp_OsThunkDdLock>
+
+externdef __imp_OsThunkDdLockD3D:PPROC
+OsThunkDdLockD3D equ <__imp_OsThunkDdLockD3D>
+
+externdef __imp_OsThunkDdQueryDirectDrawObject:PPROC
+OsThunkDdQueryDirectDrawObject equ <__imp_OsThunkDdQueryDirectDrawObject>
+
+externdef __imp_OsThunkDdQueryMoCompStatus:PPROC
+OsThunkDdQueryMoCompStatus equ <__imp_OsThunkDdQueryMoCompStatus>
+
+externdef __imp_OsThunkDdReenableDirectDrawObject:PPROC
+OsThunkDdReenableDirectDrawObject equ <__imp_OsThunkDdReenableDirectDrawObject>
+
+externdef __imp_OsThunkDdReleaseDC:PPROC
+OsThunkDdReleaseDC equ <__imp_OsThunkDdReleaseDC>
+
+externdef __imp_OsThunkDdRenderMoComp:PPROC
+OsThunkDdRenderMoComp equ <__imp_OsThunkDdRenderMoComp>
+
+externdef __imp_OsThunkDdResetVisrgn:PPROC
+OsThunkDdResetVisrgn equ <__imp_OsThunkDdResetVisrgn>
+
+externdef __imp_OsThunkDdSetColorKey:PPROC
+OsThunkDdSetColorKey equ <__imp_OsThunkDdSetColorKey>
+
+externdef __imp_OsThunkDdSetExclusiveMode:PPROC
+OsThunkDdSetExclusiveMode equ <__imp_OsThunkDdSetExclusiveMode>
+
+externdef __imp_OsThunkDdSetGammaRamp:PPROC
+OsThunkDdSetGammaRamp equ <__imp_OsThunkDdSetGammaRamp>
+
+externdef __imp_OsThunkDdSetOverlayPosition:PPROC
+OsThunkDdSetOverlayPosition equ <__imp_OsThunkDdSetOverlayPosition>
+
+externdef __imp_OsThunkDdUnattachSurface:PPROC
+OsThunkDdUnattachSurface equ <__imp_OsThunkDdUnattachSurface>
+
+externdef __imp_OsThunkDdUnlock:PPROC
+OsThunkDdUnlock equ <__imp_OsThunkDdUnlock>
+
+externdef __imp_OsThunkDdUnlockD3D:PPROC
+OsThunkDdUnlockD3D equ <__imp_OsThunkDdUnlockD3D>
+
+externdef __imp_OsThunkDdUpdateOverlay:PPROC
+OsThunkDdUpdateOverlay equ <__imp_OsThunkDdUpdateOverlay>
+
+externdef __imp_OsThunkDdWaitForVerticalBlank:PPROC
+OsThunkDdWaitForVerticalBlank equ <__imp_OsThunkDdWaitForVerticalBlank>

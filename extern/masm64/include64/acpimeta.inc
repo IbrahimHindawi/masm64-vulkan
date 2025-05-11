@@ -1,0 +1,11 @@
+externdef __imp_acPipeInterpreterCall:PPROC
+acPipeInterpreterCall equ <__imp_acPipeInterpreterCall>
+
+externdef __imp_acPipeInterpreterEnd:PPROC
+acPipeInterpreterEnd equ <__imp_acPipeInterpreterEnd>
+
+externdef __imp_acPipeInterpreterGetVersion:PPROC
+acPipeInterpreterGetVersion equ <__imp_acPipeInterpreterGetVersion>
+
+externdef __imp_acPipeInterpreterInit:PPROC
+acPipeInterpreterInit equ <__imp_acPipeInterpreterInit>

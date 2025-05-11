@@ -1,0 +1,5 @@
+externdef __imp_CMMQS_GetProcAddress:PPROC
+CMMQS_GetProcAddress equ <__imp_CMMQS_GetProcAddress>
+
+externdef __imp_GsDrvEnableDriver:PPROC
+GsDrvEnableDriver equ <__imp_GsDrvEnableDriver>

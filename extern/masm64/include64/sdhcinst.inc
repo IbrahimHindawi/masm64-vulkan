@@ -1,0 +1,5 @@
+externdef __imp_SdClassCoInstaller:PPROC
+SdClassCoInstaller equ <__imp_SdClassCoInstaller>
+
+externdef __imp_SdClassInstall:PPROC
+SdClassInstall equ <__imp_SdClassInstall>

@@ -1,0 +1,2 @@
+externdef __imp_GetAllocCounters:PPROC
+GetAllocCounters equ <__imp_GetAllocCounters>

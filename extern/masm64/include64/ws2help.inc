@@ -1,0 +1,68 @@
+externdef __imp_WahCloseApcHelper:PPROC
+WahCloseApcHelper equ <__imp_WahCloseApcHelper>
+
+externdef __imp_WahCloseHandleHelper:PPROC
+WahCloseHandleHelper equ <__imp_WahCloseHandleHelper>
+
+externdef __imp_WahCloseNotificationHandleHelper:PPROC
+WahCloseNotificationHandleHelper equ <__imp_WahCloseNotificationHandleHelper>
+
+externdef __imp_WahCloseSocketHandle:PPROC
+WahCloseSocketHandle equ <__imp_WahCloseSocketHandle>
+
+externdef __imp_WahCloseThread:PPROC
+WahCloseThread equ <__imp_WahCloseThread>
+
+externdef __imp_WahCompleteRequest:PPROC
+WahCompleteRequest equ <__imp_WahCompleteRequest>
+
+externdef __imp_WahCreateHandleContextTable:PPROC
+WahCreateHandleContextTable equ <__imp_WahCreateHandleContextTable>
+
+externdef __imp_WahCreateNotificationHandle:PPROC
+WahCreateNotificationHandle equ <__imp_WahCreateNotificationHandle>
+
+externdef __imp_WahCreateSocketHandle:PPROC
+WahCreateSocketHandle equ <__imp_WahCreateSocketHandle>
+
+externdef __imp_WahDestroyHandleContextTable:PPROC
+WahDestroyHandleContextTable equ <__imp_WahDestroyHandleContextTable>
+
+externdef __imp_WahDisableNonIFSHandleSupport:PPROC
+WahDisableNonIFSHandleSupport equ <__imp_WahDisableNonIFSHandleSupport>
+
+externdef __imp_WahEnableNonIFSHandleSupport:PPROC
+WahEnableNonIFSHandleSupport equ <__imp_WahEnableNonIFSHandleSupport>
+
+externdef __imp_WahEnumerateHandleContexts:PPROC
+WahEnumerateHandleContexts equ <__imp_WahEnumerateHandleContexts>
+
+externdef __imp_WahInsertHandleContext:PPROC
+WahInsertHandleContext equ <__imp_WahInsertHandleContext>
+
+externdef __imp_WahNotifyAllProcesses:PPROC
+WahNotifyAllProcesses equ <__imp_WahNotifyAllProcesses>
+
+externdef __imp_WahOpenApcHelper:PPROC
+WahOpenApcHelper equ <__imp_WahOpenApcHelper>
+
+externdef __imp_WahOpenCurrentThread:PPROC
+WahOpenCurrentThread equ <__imp_WahOpenCurrentThread>
+
+externdef __imp_WahOpenHandleHelper:PPROC
+WahOpenHandleHelper equ <__imp_WahOpenHandleHelper>
+
+externdef __imp_WahOpenNotificationHandleHelper:PPROC
+WahOpenNotificationHandleHelper equ <__imp_WahOpenNotificationHandleHelper>
+
+externdef __imp_WahQueueUserApc:PPROC
+WahQueueUserApc equ <__imp_WahQueueUserApc>
+
+externdef __imp_WahReferenceContextByHandle:PPROC
+WahReferenceContextByHandle equ <__imp_WahReferenceContextByHandle>
+
+externdef __imp_WahRemoveHandleContext:PPROC
+WahRemoveHandleContext equ <__imp_WahRemoveHandleContext>
+
+externdef __imp_WahWaitForNotification:PPROC
+WahWaitForNotification equ <__imp_WahWaitForNotification>

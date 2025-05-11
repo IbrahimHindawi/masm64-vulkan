@@ -1,0 +1,77 @@
+externdef __imp_DSBeginDeleteNotification:PPROC
+DSBeginDeleteNotification equ <__imp_DSBeginDeleteNotification>
+
+externdef __imp_DSClientInit:PPROC
+DSClientInit equ <__imp_DSClientInit>
+
+externdef __imp_DSCreateObject:PPROC
+DSCreateObject equ <__imp_DSCreateObject>
+
+externdef __imp_DSCreateServersCache:PPROC
+DSCreateServersCache equ <__imp_DSCreateServersCache>
+
+externdef __imp_DSDeleteObject:PPROC
+DSDeleteObject equ <__imp_DSDeleteObject>
+
+externdef __imp_DSDeleteObjectGuid:PPROC
+DSDeleteObjectGuid equ <__imp_DSDeleteObjectGuid>
+
+externdef __imp_DSEndDeleteNotification:PPROC
+DSEndDeleteNotification equ <__imp_DSEndDeleteNotification>
+
+externdef __imp_DSFreeMemory:PPROC
+DSFreeMemory equ <__imp_DSFreeMemory>
+
+externdef __imp_DSGetComputerSites:PPROC
+DSGetComputerSites equ <__imp_DSGetComputerSites>
+
+externdef __imp_DSGetObjectProperties:PPROC
+DSGetObjectProperties equ <__imp_DSGetObjectProperties>
+
+externdef __imp_DSGetObjectPropertiesEx:PPROC
+DSGetObjectPropertiesEx equ <__imp_DSGetObjectPropertiesEx>
+
+externdef __imp_DSGetObjectPropertiesGuid:PPROC
+DSGetObjectPropertiesGuid equ <__imp_DSGetObjectPropertiesGuid>
+
+externdef __imp_DSGetObjectPropertiesGuidEx:PPROC
+DSGetObjectPropertiesGuidEx equ <__imp_DSGetObjectPropertiesGuidEx>
+
+externdef __imp_DSGetObjectSecurity:PPROC
+DSGetObjectSecurity equ <__imp_DSGetObjectSecurity>
+
+externdef __imp_DSGetObjectSecurityGuid:PPROC
+DSGetObjectSecurityGuid equ <__imp_DSGetObjectSecurityGuid>
+
+externdef __imp_DSGetUserParams:PPROC
+DSGetUserParams equ <__imp_DSGetUserParams>
+
+externdef __imp_DSLookupBegin:PPROC
+DSLookupBegin equ <__imp_DSLookupBegin>
+
+externdef __imp_DSLookupEnd:PPROC
+DSLookupEnd equ <__imp_DSLookupEnd>
+
+externdef __imp_DSLookupNext:PPROC
+DSLookupNext equ <__imp_DSLookupNext>
+
+externdef __imp_DSNotifyDelete:PPROC
+DSNotifyDelete equ <__imp_DSNotifyDelete>
+
+externdef __imp_DSQMGetObjectSecurity:PPROC
+DSQMGetObjectSecurity equ <__imp_DSQMGetObjectSecurity>
+
+externdef __imp_DSSetObjectProperties:PPROC
+DSSetObjectProperties equ <__imp_DSSetObjectProperties>
+
+externdef __imp_DSSetObjectPropertiesGuid:PPROC
+DSSetObjectPropertiesGuid equ <__imp_DSSetObjectPropertiesGuid>
+
+externdef __imp_DSSetObjectSecurity:PPROC
+DSSetObjectSecurity equ <__imp_DSSetObjectSecurity>
+
+externdef __imp_DSSetObjectSecurityGuid:PPROC
+DSSetObjectSecurityGuid equ <__imp_DSSetObjectSecurityGuid>
+
+externdef __imp_DSTerminate:PPROC
+DSTerminate equ <__imp_DSTerminate>

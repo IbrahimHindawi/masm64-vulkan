@@ -1,0 +1,137 @@
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_MQADsPathToFormatName:PPROC
+MQADsPathToFormatName equ <__imp_MQADsPathToFormatName>
+
+externdef __imp_MQAllocateMemory:PPROC
+MQAllocateMemory equ <__imp_MQAllocateMemory>
+
+externdef __imp_MQBeginTransaction:PPROC
+MQBeginTransaction equ <__imp_MQBeginTransaction>
+
+externdef __imp_MQCloseCursor:PPROC
+MQCloseCursor equ <__imp_MQCloseCursor>
+
+externdef __imp_MQCloseQueue:PPROC
+MQCloseQueue equ <__imp_MQCloseQueue>
+
+externdef __imp_MQCreateCursor:PPROC
+MQCreateCursor equ <__imp_MQCreateCursor>
+
+externdef __imp_MQCreateQueue:PPROC
+MQCreateQueue equ <__imp_MQCreateQueue>
+
+externdef __imp_MQDeleteQueue:PPROC
+MQDeleteQueue equ <__imp_MQDeleteQueue>
+
+externdef __imp_MQFreeMemory:PPROC
+MQFreeMemory equ <__imp_MQFreeMemory>
+
+externdef __imp_MQFreeSecurityContext:PPROC
+MQFreeSecurityContext equ <__imp_MQFreeSecurityContext>
+
+externdef __imp_MQGetMachineProperties:PPROC
+MQGetMachineProperties equ <__imp_MQGetMachineProperties>
+
+externdef __imp_MQGetOverlappedResult:PPROC
+MQGetOverlappedResult equ <__imp_MQGetOverlappedResult>
+
+externdef __imp_MQGetPrivateComputerInformation:PPROC
+MQGetPrivateComputerInformation equ <__imp_MQGetPrivateComputerInformation>
+
+externdef __imp_MQGetQueueProperties:PPROC
+MQGetQueueProperties equ <__imp_MQGetQueueProperties>
+
+externdef __imp_MQGetQueueSecurity:PPROC
+MQGetQueueSecurity equ <__imp_MQGetQueueSecurity>
+
+externdef __imp_MQGetSecurityContext:PPROC
+MQGetSecurityContext equ <__imp_MQGetSecurityContext>
+
+externdef __imp_MQGetSecurityContextEx:PPROC
+MQGetSecurityContextEx equ <__imp_MQGetSecurityContextEx>
+
+externdef __imp_MQHandleToFormatName:PPROC
+MQHandleToFormatName equ <__imp_MQHandleToFormatName>
+
+externdef __imp_MQInstanceToFormatName:PPROC
+MQInstanceToFormatName equ <__imp_MQInstanceToFormatName>
+
+externdef __imp_MQLocateBegin:PPROC
+MQLocateBegin equ <__imp_MQLocateBegin>
+
+externdef __imp_MQLocateEnd:PPROC
+MQLocateEnd equ <__imp_MQLocateEnd>
+
+externdef __imp_MQLocateNext:PPROC
+MQLocateNext equ <__imp_MQLocateNext>
+
+externdef __imp_MQLogHR:PPROC
+MQLogHR equ <__imp_MQLogHR>
+
+externdef __imp_MQMgmtAction:PPROC
+MQMgmtAction equ <__imp_MQMgmtAction>
+
+externdef __imp_MQMgmtGetInfo:PPROC
+MQMgmtGetInfo equ <__imp_MQMgmtGetInfo>
+
+externdef __imp_MQOpenQueue:PPROC
+MQOpenQueue equ <__imp_MQOpenQueue>
+
+externdef __imp_MQPathNameToFormatName:PPROC
+MQPathNameToFormatName equ <__imp_MQPathNameToFormatName>
+
+externdef __imp_MQPurgeQueue:PPROC
+MQPurgeQueue equ <__imp_MQPurgeQueue>
+
+externdef __imp_MQReceiveMessage:PPROC
+MQReceiveMessage equ <__imp_MQReceiveMessage>
+
+externdef __imp_MQReceiveMessageByLookupId:PPROC
+MQReceiveMessageByLookupId equ <__imp_MQReceiveMessageByLookupId>
+
+externdef __imp_MQRegisterCertificate:PPROC
+MQRegisterCertificate equ <__imp_MQRegisterCertificate>
+
+externdef __imp_MQSendMessage:PPROC
+MQSendMessage equ <__imp_MQSendMessage>
+
+externdef __imp_MQSetQueueProperties:PPROC
+MQSetQueueProperties equ <__imp_MQSetQueueProperties>
+
+externdef __imp_MQSetQueueSecurity:PPROC
+MQSetQueueSecurity equ <__imp_MQSetQueueSecurity>
+
+externdef __imp_RTCreateInternalCertificate:PPROC
+RTCreateInternalCertificate equ <__imp_RTCreateInternalCertificate>
+
+externdef __imp_RTDeleteInternalCert:PPROC
+RTDeleteInternalCert equ <__imp_RTDeleteInternalCert>
+
+externdef __imp_RTGetInternalCert:PPROC
+RTGetInternalCert equ <__imp_RTGetInternalCert>
+
+externdef __imp_RTGetUserCerts:PPROC
+RTGetUserCerts equ <__imp_RTGetUserCerts>
+
+externdef __imp_RTIsDependentClient:PPROC
+RTIsDependentClient equ <__imp_RTIsDependentClient>
+
+externdef __imp_RTLogOnRegisterCert:PPROC
+RTLogOnRegisterCert equ <__imp_RTLogOnRegisterCert>
+
+externdef __imp_RTOpenInternalCertStore:PPROC
+RTOpenInternalCertStore equ <__imp_RTOpenInternalCertStore>
+
+externdef __imp_RTRegisterUserCert:PPROC
+RTRegisterUserCert equ <__imp_RTRegisterUserCert>
+
+externdef __imp_RTRemoveUserCert:PPROC
+RTRemoveUserCert equ <__imp_RTRemoveUserCert>
+
+externdef __imp_RTRemoveUserCertSid:PPROC
+RTRemoveUserCertSid equ <__imp_RTRemoveUserCertSid>
+
+externdef __imp_RTXactGetDTC:PPROC
+RTXactGetDTC equ <__imp_RTXactGetDTC>

@@ -1,0 +1,104 @@
+externdef __imp_CsrAddStaticServerThread:PPROC
+CsrAddStaticServerThread equ <__imp_CsrAddStaticServerThread>
+
+externdef __imp_CsrCallServerFromServer:PPROC
+CsrCallServerFromServer equ <__imp_CsrCallServerFromServer>
+
+externdef __imp_CsrConnectToUser:PPROC
+CsrConnectToUser equ <__imp_CsrConnectToUser>
+
+externdef __imp_CsrCreateProcess:PPROC
+CsrCreateProcess equ <__imp_CsrCreateProcess>
+
+externdef __imp_CsrCreateRemoteThread:PPROC
+CsrCreateRemoteThread equ <__imp_CsrCreateRemoteThread>
+
+externdef __imp_CsrCreateThread:PPROC
+CsrCreateThread equ <__imp_CsrCreateThread>
+
+externdef __imp_CsrCreateWait:PPROC
+CsrCreateWait equ <__imp_CsrCreateWait>
+
+externdef __imp_CsrDebugProcess:PPROC
+CsrDebugProcess equ <__imp_CsrDebugProcess>
+
+externdef __imp_CsrDebugProcessStop:PPROC
+CsrDebugProcessStop equ <__imp_CsrDebugProcessStop>
+
+externdef __imp_CsrDereferenceProcess:PPROC
+CsrDereferenceProcess equ <__imp_CsrDereferenceProcess>
+
+externdef __imp_CsrDereferenceThread:PPROC
+CsrDereferenceThread equ <__imp_CsrDereferenceThread>
+
+externdef __imp_CsrDereferenceWait:PPROC
+CsrDereferenceWait equ <__imp_CsrDereferenceWait>
+
+externdef __imp_CsrDestroyProcess:PPROC
+CsrDestroyProcess equ <__imp_CsrDestroyProcess>
+
+externdef __imp_CsrDestroyThread:PPROC
+CsrDestroyThread equ <__imp_CsrDestroyThread>
+
+externdef __imp_CsrExecServerThread:PPROC
+CsrExecServerThread equ <__imp_CsrExecServerThread>
+
+externdef __imp_CsrGetProcessLuid:PPROC
+CsrGetProcessLuid equ <__imp_CsrGetProcessLuid>
+
+externdef __imp_CsrImpersonateClient:PPROC
+CsrImpersonateClient equ <__imp_CsrImpersonateClient>
+
+externdef __imp_CsrLockProcessByClientId:PPROC
+CsrLockProcessByClientId equ <__imp_CsrLockProcessByClientId>
+
+externdef __imp_CsrLockThreadByClientId:PPROC
+CsrLockThreadByClientId equ <__imp_CsrLockThreadByClientId>
+
+externdef __imp_CsrMoveSatisfiedWait:PPROC
+CsrMoveSatisfiedWait equ <__imp_CsrMoveSatisfiedWait>
+
+externdef __imp_CsrNotifyWait:PPROC
+CsrNotifyWait equ <__imp_CsrNotifyWait>
+
+externdef __imp_CsrPopulateDosDevices:PPROC
+CsrPopulateDosDevices equ <__imp_CsrPopulateDosDevices>
+
+externdef __imp_CsrQueryApiPort:PPROC
+CsrQueryApiPort equ <__imp_CsrQueryApiPort>
+
+externdef __imp_CsrReferenceThread:PPROC
+CsrReferenceThread equ <__imp_CsrReferenceThread>
+
+externdef __imp_CsrRevertToSelf:PPROC
+CsrRevertToSelf equ <__imp_CsrRevertToSelf>
+
+externdef __imp_CsrServerInitialization:PPROC
+CsrServerInitialization equ <__imp_CsrServerInitialization>
+
+externdef __imp_CsrSetBackgroundPriority:PPROC
+CsrSetBackgroundPriority equ <__imp_CsrSetBackgroundPriority>
+
+externdef __imp_CsrSetCallingSpooler:PPROC
+CsrSetCallingSpooler equ <__imp_CsrSetCallingSpooler>
+
+externdef __imp_CsrSetForegroundPriority:PPROC
+CsrSetForegroundPriority equ <__imp_CsrSetForegroundPriority>
+
+externdef __imp_CsrShutdownProcesses:PPROC
+CsrShutdownProcesses equ <__imp_CsrShutdownProcesses>
+
+externdef __imp_CsrUnhandledExceptionFilter:PPROC
+CsrUnhandledExceptionFilter equ <__imp_CsrUnhandledExceptionFilter>
+
+externdef __imp_CsrUnlockProcess:PPROC
+CsrUnlockProcess equ <__imp_CsrUnlockProcess>
+
+externdef __imp_CsrUnlockThread:PPROC
+CsrUnlockThread equ <__imp_CsrUnlockThread>
+
+externdef __imp_CsrValidateMessageBuffer:PPROC
+CsrValidateMessageBuffer equ <__imp_CsrValidateMessageBuffer>
+
+externdef __imp_CsrValidateMessageString:PPROC
+CsrValidateMessageString equ <__imp_CsrValidateMessageString>

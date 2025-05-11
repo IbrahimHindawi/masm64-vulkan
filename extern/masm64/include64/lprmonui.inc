@@ -1,0 +1,2 @@
+externdef __imp_InitializePrintMonitorUI:PPROC
+InitializePrintMonitorUI equ <__imp_InitializePrintMonitorUI>

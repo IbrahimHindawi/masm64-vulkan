@@ -1,0 +1,23 @@
+externdef __imp_FmtIdToPropStgName:PPROC
+FmtIdToPropStgName equ <__imp_FmtIdToPropStgName>
+
+externdef __imp_FreePropVariantArray:PPROC
+FreePropVariantArray equ <__imp_FreePropVariantArray>
+
+externdef __imp_PropStgNameToFmtId:PPROC
+PropStgNameToFmtId equ <__imp_PropStgNameToFmtId>
+
+externdef __imp_PropVariantClear:PPROC
+PropVariantClear equ <__imp_PropVariantClear>
+
+externdef __imp_PropVariantCopy:PPROC
+PropVariantCopy equ <__imp_PropVariantCopy>
+
+externdef __imp_StgCreatePropSetStg:PPROC
+StgCreatePropSetStg equ <__imp_StgCreatePropSetStg>
+
+externdef __imp_StgCreatePropStg:PPROC
+StgCreatePropStg equ <__imp_StgCreatePropStg>
+
+externdef __imp_StgOpenPropStg:PPROC
+StgOpenPropStg equ <__imp_StgOpenPropStg>

@@ -1,0 +1,2 @@
+externdef __imp_SvcPackCallbackRoutine:PPROC
+SvcPackCallbackRoutine equ <__imp_SvcPackCallbackRoutine>

@@ -1,0 +1,602 @@
+externdef __imp_ConnectToPrinterDlg:PPROC
+ConnectToPrinterDlg equ <__imp_ConnectToPrinterDlg>
+
+externdef __imp_ConnectToPrinterPropertyPage:PPROC
+ConnectToPrinterPropertyPage equ <__imp_ConnectToPrinterPropertyPage>
+
+externdef __imp_ConstructPrinterFriendlyName:PPROC
+ConstructPrinterFriendlyName equ <__imp_ConstructPrinterFriendlyName>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllMain:PPROC
+DllMain equ <__imp_DllMain>
+
+externdef __imp_DocumentPropertiesWrap:PPROC
+DocumentPropertiesWrap equ <__imp_DocumentPropertiesWrap>
+
+externdef __imp_GetLegacyPrintUI:PPROC
+GetLegacyPrintUI equ <__imp_GetLegacyPrintUI>
+
+externdef __imp_PnPInterface:PPROC
+PnPInterface equ <__imp_PnPInterface>
+
+externdef __imp_PrintNotifyTray_Exit:PPROC
+PrintNotifyTray_Exit equ <__imp_PrintNotifyTray_Exit>
+
+externdef __imp_PrintNotifyTray_Init:PPROC
+PrintNotifyTray_Init equ <__imp_PrintNotifyTray_Init>
+
+externdef __imp_PrintUIEntryW:PPROC
+PrintUIEntryW equ <__imp_PrintUIEntryW>
+  IFDEF __UNICODE__
+    PrintUIEntry equ <__imp_PrintUIEntryW>
+  ENDIF
+
+externdef __imp_PrinterPropPageProvider:PPROC
+PrinterPropPageProvider equ <__imp_PrinterPropPageProvider>
+
+externdef __imp_RegisterPrintNotify:PPROC
+RegisterPrintNotify equ <__imp_RegisterPrintNotify>
+
+externdef __imp_ShowErrorMessageHR:PPROC
+ShowErrorMessageHR equ <__imp_ShowErrorMessageHR>
+
+externdef __imp_ShowErrorMessageSC:PPROC
+ShowErrorMessageSC equ <__imp_ShowErrorMessageSC>
+
+externdef __imp_UnregisterPrintNotify:PPROC
+UnregisterPrintNotify equ <__imp_UnregisterPrintNotify>
+
+externdef __imp_bFolderEnumPrinters:PPROC
+bFolderEnumPrinters equ <__imp_bFolderEnumPrinters>
+
+externdef __imp_bFolderGetPrinter:PPROC
+bFolderGetPrinter equ <__imp_bFolderGetPrinter>
+
+externdef __imp_bFolderRefresh:PPROC
+bFolderRefresh equ <__imp_bFolderRefresh>
+
+externdef __imp_bPrinterSetup:PPROC
+bPrinterSetup equ <__imp_bPrinterSetup>
+
+externdef __imp_printui_ordinal100:PPROC
+printui_ordinal100 equ <__imp_printui_ordinal100>
+
+externdef __imp_printui_ordinal101:PPROC
+printui_ordinal101 equ <__imp_printui_ordinal101>
+
+externdef __imp_printui_ordinal102:PPROC
+printui_ordinal102 equ <__imp_printui_ordinal102>
+
+externdef __imp_printui_ordinal103:PPROC
+printui_ordinal103 equ <__imp_printui_ordinal103>
+
+externdef __imp_printui_ordinal104:PPROC
+printui_ordinal104 equ <__imp_printui_ordinal104>
+
+externdef __imp_printui_ordinal105:PPROC
+printui_ordinal105 equ <__imp_printui_ordinal105>
+
+externdef __imp_printui_ordinal106:PPROC
+printui_ordinal106 equ <__imp_printui_ordinal106>
+
+externdef __imp_printui_ordinal107:PPROC
+printui_ordinal107 equ <__imp_printui_ordinal107>
+
+externdef __imp_printui_ordinal108:PPROC
+printui_ordinal108 equ <__imp_printui_ordinal108>
+
+externdef __imp_printui_ordinal109:PPROC
+printui_ordinal109 equ <__imp_printui_ordinal109>
+
+externdef __imp_printui_ordinal110:PPROC
+printui_ordinal110 equ <__imp_printui_ordinal110>
+
+externdef __imp_printui_ordinal111:PPROC
+printui_ordinal111 equ <__imp_printui_ordinal111>
+
+externdef __imp_printui_ordinal112:PPROC
+printui_ordinal112 equ <__imp_printui_ordinal112>
+
+externdef __imp_printui_ordinal113:PPROC
+printui_ordinal113 equ <__imp_printui_ordinal113>
+
+externdef __imp_printui_ordinal114:PPROC
+printui_ordinal114 equ <__imp_printui_ordinal114>
+
+externdef __imp_printui_ordinal115:PPROC
+printui_ordinal115 equ <__imp_printui_ordinal115>
+
+externdef __imp_printui_ordinal116:PPROC
+printui_ordinal116 equ <__imp_printui_ordinal116>
+
+externdef __imp_printui_ordinal117:PPROC
+printui_ordinal117 equ <__imp_printui_ordinal117>
+
+externdef __imp_printui_ordinal118:PPROC
+printui_ordinal118 equ <__imp_printui_ordinal118>
+
+externdef __imp_printui_ordinal119:PPROC
+printui_ordinal119 equ <__imp_printui_ordinal119>
+
+externdef __imp_printui_ordinal120:PPROC
+printui_ordinal120 equ <__imp_printui_ordinal120>
+
+externdef __imp_printui_ordinal121:PPROC
+printui_ordinal121 equ <__imp_printui_ordinal121>
+
+externdef __imp_printui_ordinal122:PPROC
+printui_ordinal122 equ <__imp_printui_ordinal122>
+
+externdef __imp_printui_ordinal123:PPROC
+printui_ordinal123 equ <__imp_printui_ordinal123>
+
+externdef __imp_printui_ordinal124:PPROC
+printui_ordinal124 equ <__imp_printui_ordinal124>
+
+externdef __imp_printui_ordinal125:PPROC
+printui_ordinal125 equ <__imp_printui_ordinal125>
+
+externdef __imp_printui_ordinal126:PPROC
+printui_ordinal126 equ <__imp_printui_ordinal126>
+
+externdef __imp_printui_ordinal127:PPROC
+printui_ordinal127 equ <__imp_printui_ordinal127>
+
+externdef __imp_printui_ordinal128:PPROC
+printui_ordinal128 equ <__imp_printui_ordinal128>
+
+externdef __imp_printui_ordinal129:PPROC
+printui_ordinal129 equ <__imp_printui_ordinal129>
+
+externdef __imp_printui_ordinal130:PPROC
+printui_ordinal130 equ <__imp_printui_ordinal130>
+
+externdef __imp_printui_ordinal131:PPROC
+printui_ordinal131 equ <__imp_printui_ordinal131>
+
+externdef __imp_printui_ordinal132:PPROC
+printui_ordinal132 equ <__imp_printui_ordinal132>
+
+externdef __imp_printui_ordinal133:PPROC
+printui_ordinal133 equ <__imp_printui_ordinal133>
+
+externdef __imp_printui_ordinal134:PPROC
+printui_ordinal134 equ <__imp_printui_ordinal134>
+
+externdef __imp_printui_ordinal135:PPROC
+printui_ordinal135 equ <__imp_printui_ordinal135>
+
+externdef __imp_printui_ordinal136:PPROC
+printui_ordinal136 equ <__imp_printui_ordinal136>
+
+externdef __imp_printui_ordinal137:PPROC
+printui_ordinal137 equ <__imp_printui_ordinal137>
+
+externdef __imp_printui_ordinal138:PPROC
+printui_ordinal138 equ <__imp_printui_ordinal138>
+
+externdef __imp_printui_ordinal139:PPROC
+printui_ordinal139 equ <__imp_printui_ordinal139>
+
+externdef __imp_printui_ordinal140:PPROC
+printui_ordinal140 equ <__imp_printui_ordinal140>
+
+externdef __imp_printui_ordinal141:PPROC
+printui_ordinal141 equ <__imp_printui_ordinal141>
+
+externdef __imp_printui_ordinal142:PPROC
+printui_ordinal142 equ <__imp_printui_ordinal142>
+
+externdef __imp_printui_ordinal143:PPROC
+printui_ordinal143 equ <__imp_printui_ordinal143>
+
+externdef __imp_printui_ordinal144:PPROC
+printui_ordinal144 equ <__imp_printui_ordinal144>
+
+externdef __imp_printui_ordinal145:PPROC
+printui_ordinal145 equ <__imp_printui_ordinal145>
+
+externdef __imp_printui_ordinal146:PPROC
+printui_ordinal146 equ <__imp_printui_ordinal146>
+
+externdef __imp_printui_ordinal147:PPROC
+printui_ordinal147 equ <__imp_printui_ordinal147>
+
+externdef __imp_printui_ordinal148:PPROC
+printui_ordinal148 equ <__imp_printui_ordinal148>
+
+externdef __imp_printui_ordinal149:PPROC
+printui_ordinal149 equ <__imp_printui_ordinal149>
+
+externdef __imp_printui_ordinal150:PPROC
+printui_ordinal150 equ <__imp_printui_ordinal150>
+
+externdef __imp_printui_ordinal151:PPROC
+printui_ordinal151 equ <__imp_printui_ordinal151>
+
+externdef __imp_printui_ordinal152:PPROC
+printui_ordinal152 equ <__imp_printui_ordinal152>
+
+externdef __imp_printui_ordinal153:PPROC
+printui_ordinal153 equ <__imp_printui_ordinal153>
+
+externdef __imp_printui_ordinal154:PPROC
+printui_ordinal154 equ <__imp_printui_ordinal154>
+
+externdef __imp_printui_ordinal155:PPROC
+printui_ordinal155 equ <__imp_printui_ordinal155>
+
+externdef __imp_printui_ordinal156:PPROC
+printui_ordinal156 equ <__imp_printui_ordinal156>
+
+externdef __imp_printui_ordinal157:PPROC
+printui_ordinal157 equ <__imp_printui_ordinal157>
+
+externdef __imp_printui_ordinal158:PPROC
+printui_ordinal158 equ <__imp_printui_ordinal158>
+
+externdef __imp_printui_ordinal159:PPROC
+printui_ordinal159 equ <__imp_printui_ordinal159>
+
+externdef __imp_printui_ordinal160:PPROC
+printui_ordinal160 equ <__imp_printui_ordinal160>
+
+externdef __imp_printui_ordinal161:PPROC
+printui_ordinal161 equ <__imp_printui_ordinal161>
+
+externdef __imp_printui_ordinal162:PPROC
+printui_ordinal162 equ <__imp_printui_ordinal162>
+
+externdef __imp_printui_ordinal163:PPROC
+printui_ordinal163 equ <__imp_printui_ordinal163>
+
+externdef __imp_printui_ordinal164:PPROC
+printui_ordinal164 equ <__imp_printui_ordinal164>
+
+externdef __imp_printui_ordinal165:PPROC
+printui_ordinal165 equ <__imp_printui_ordinal165>
+
+externdef __imp_printui_ordinal166:PPROC
+printui_ordinal166 equ <__imp_printui_ordinal166>
+
+externdef __imp_printui_ordinal167:PPROC
+printui_ordinal167 equ <__imp_printui_ordinal167>
+
+externdef __imp_printui_ordinal168:PPROC
+printui_ordinal168 equ <__imp_printui_ordinal168>
+
+externdef __imp_printui_ordinal169:PPROC
+printui_ordinal169 equ <__imp_printui_ordinal169>
+
+externdef __imp_printui_ordinal170:PPROC
+printui_ordinal170 equ <__imp_printui_ordinal170>
+
+externdef __imp_printui_ordinal171:PPROC
+printui_ordinal171 equ <__imp_printui_ordinal171>
+
+externdef __imp_printui_ordinal172:PPROC
+printui_ordinal172 equ <__imp_printui_ordinal172>
+
+externdef __imp_printui_ordinal173:PPROC
+printui_ordinal173 equ <__imp_printui_ordinal173>
+
+externdef __imp_printui_ordinal174:PPROC
+printui_ordinal174 equ <__imp_printui_ordinal174>
+
+externdef __imp_printui_ordinal175:PPROC
+printui_ordinal175 equ <__imp_printui_ordinal175>
+
+externdef __imp_printui_ordinal176:PPROC
+printui_ordinal176 equ <__imp_printui_ordinal176>
+
+externdef __imp_printui_ordinal177:PPROC
+printui_ordinal177 equ <__imp_printui_ordinal177>
+
+externdef __imp_printui_ordinal178:PPROC
+printui_ordinal178 equ <__imp_printui_ordinal178>
+
+externdef __imp_printui_ordinal179:PPROC
+printui_ordinal179 equ <__imp_printui_ordinal179>
+
+externdef __imp_printui_ordinal180:PPROC
+printui_ordinal180 equ <__imp_printui_ordinal180>
+
+externdef __imp_printui_ordinal181:PPROC
+printui_ordinal181 equ <__imp_printui_ordinal181>
+
+externdef __imp_printui_ordinal182:PPROC
+printui_ordinal182 equ <__imp_printui_ordinal182>
+
+externdef __imp_printui_ordinal183:PPROC
+printui_ordinal183 equ <__imp_printui_ordinal183>
+
+externdef __imp_printui_ordinal184:PPROC
+printui_ordinal184 equ <__imp_printui_ordinal184>
+
+externdef __imp_printui_ordinal185:PPROC
+printui_ordinal185 equ <__imp_printui_ordinal185>
+
+externdef __imp_printui_ordinal186:PPROC
+printui_ordinal186 equ <__imp_printui_ordinal186>
+
+externdef __imp_printui_ordinal187:PPROC
+printui_ordinal187 equ <__imp_printui_ordinal187>
+
+externdef __imp_printui_ordinal188:PPROC
+printui_ordinal188 equ <__imp_printui_ordinal188>
+
+externdef __imp_printui_ordinal189:PPROC
+printui_ordinal189 equ <__imp_printui_ordinal189>
+
+externdef __imp_printui_ordinal190:PPROC
+printui_ordinal190 equ <__imp_printui_ordinal190>
+
+externdef __imp_printui_ordinal191:PPROC
+printui_ordinal191 equ <__imp_printui_ordinal191>
+
+externdef __imp_printui_ordinal192:PPROC
+printui_ordinal192 equ <__imp_printui_ordinal192>
+
+externdef __imp_printui_ordinal193:PPROC
+printui_ordinal193 equ <__imp_printui_ordinal193>
+
+externdef __imp_printui_ordinal194:PPROC
+printui_ordinal194 equ <__imp_printui_ordinal194>
+
+externdef __imp_printui_ordinal195:PPROC
+printui_ordinal195 equ <__imp_printui_ordinal195>
+
+externdef __imp_printui_ordinal196:PPROC
+printui_ordinal196 equ <__imp_printui_ordinal196>
+
+externdef __imp_printui_ordinal197:PPROC
+printui_ordinal197 equ <__imp_printui_ordinal197>
+
+externdef __imp_printui_ordinal198:PPROC
+printui_ordinal198 equ <__imp_printui_ordinal198>
+
+externdef __imp_printui_ordinal199:PPROC
+printui_ordinal199 equ <__imp_printui_ordinal199>
+
+externdef __imp_printui_ordinal200:PPROC
+printui_ordinal200 equ <__imp_printui_ordinal200>
+
+externdef __imp_printui_ordinal26:PPROC
+printui_ordinal26 equ <__imp_printui_ordinal26>
+
+externdef __imp_printui_ordinal27:PPROC
+printui_ordinal27 equ <__imp_printui_ordinal27>
+
+externdef __imp_printui_ordinal28:PPROC
+printui_ordinal28 equ <__imp_printui_ordinal28>
+
+externdef __imp_printui_ordinal29:PPROC
+printui_ordinal29 equ <__imp_printui_ordinal29>
+
+externdef __imp_printui_ordinal30:PPROC
+printui_ordinal30 equ <__imp_printui_ordinal30>
+
+externdef __imp_printui_ordinal31:PPROC
+printui_ordinal31 equ <__imp_printui_ordinal31>
+
+externdef __imp_printui_ordinal32:PPROC
+printui_ordinal32 equ <__imp_printui_ordinal32>
+
+externdef __imp_printui_ordinal33:PPROC
+printui_ordinal33 equ <__imp_printui_ordinal33>
+
+externdef __imp_printui_ordinal34:PPROC
+printui_ordinal34 equ <__imp_printui_ordinal34>
+
+externdef __imp_printui_ordinal35:PPROC
+printui_ordinal35 equ <__imp_printui_ordinal35>
+
+externdef __imp_printui_ordinal36:PPROC
+printui_ordinal36 equ <__imp_printui_ordinal36>
+
+externdef __imp_printui_ordinal37:PPROC
+printui_ordinal37 equ <__imp_printui_ordinal37>
+
+externdef __imp_printui_ordinal38:PPROC
+printui_ordinal38 equ <__imp_printui_ordinal38>
+
+externdef __imp_printui_ordinal39:PPROC
+printui_ordinal39 equ <__imp_printui_ordinal39>
+
+externdef __imp_printui_ordinal40:PPROC
+printui_ordinal40 equ <__imp_printui_ordinal40>
+
+externdef __imp_printui_ordinal41:PPROC
+printui_ordinal41 equ <__imp_printui_ordinal41>
+
+externdef __imp_printui_ordinal42:PPROC
+printui_ordinal42 equ <__imp_printui_ordinal42>
+
+externdef __imp_printui_ordinal43:PPROC
+printui_ordinal43 equ <__imp_printui_ordinal43>
+
+externdef __imp_printui_ordinal44:PPROC
+printui_ordinal44 equ <__imp_printui_ordinal44>
+
+externdef __imp_printui_ordinal45:PPROC
+printui_ordinal45 equ <__imp_printui_ordinal45>
+
+externdef __imp_printui_ordinal46:PPROC
+printui_ordinal46 equ <__imp_printui_ordinal46>
+
+externdef __imp_printui_ordinal47:PPROC
+printui_ordinal47 equ <__imp_printui_ordinal47>
+
+externdef __imp_printui_ordinal48:PPROC
+printui_ordinal48 equ <__imp_printui_ordinal48>
+
+externdef __imp_printui_ordinal49:PPROC
+printui_ordinal49 equ <__imp_printui_ordinal49>
+
+externdef __imp_printui_ordinal50:PPROC
+printui_ordinal50 equ <__imp_printui_ordinal50>
+
+externdef __imp_printui_ordinal51:PPROC
+printui_ordinal51 equ <__imp_printui_ordinal51>
+
+externdef __imp_printui_ordinal52:PPROC
+printui_ordinal52 equ <__imp_printui_ordinal52>
+
+externdef __imp_printui_ordinal53:PPROC
+printui_ordinal53 equ <__imp_printui_ordinal53>
+
+externdef __imp_printui_ordinal54:PPROC
+printui_ordinal54 equ <__imp_printui_ordinal54>
+
+externdef __imp_printui_ordinal55:PPROC
+printui_ordinal55 equ <__imp_printui_ordinal55>
+
+externdef __imp_printui_ordinal56:PPROC
+printui_ordinal56 equ <__imp_printui_ordinal56>
+
+externdef __imp_printui_ordinal57:PPROC
+printui_ordinal57 equ <__imp_printui_ordinal57>
+
+externdef __imp_printui_ordinal58:PPROC
+printui_ordinal58 equ <__imp_printui_ordinal58>
+
+externdef __imp_printui_ordinal59:PPROC
+printui_ordinal59 equ <__imp_printui_ordinal59>
+
+externdef __imp_printui_ordinal60:PPROC
+printui_ordinal60 equ <__imp_printui_ordinal60>
+
+externdef __imp_printui_ordinal61:PPROC
+printui_ordinal61 equ <__imp_printui_ordinal61>
+
+externdef __imp_printui_ordinal62:PPROC
+printui_ordinal62 equ <__imp_printui_ordinal62>
+
+externdef __imp_printui_ordinal63:PPROC
+printui_ordinal63 equ <__imp_printui_ordinal63>
+
+externdef __imp_printui_ordinal64:PPROC
+printui_ordinal64 equ <__imp_printui_ordinal64>
+
+externdef __imp_printui_ordinal65:PPROC
+printui_ordinal65 equ <__imp_printui_ordinal65>
+
+externdef __imp_printui_ordinal66:PPROC
+printui_ordinal66 equ <__imp_printui_ordinal66>
+
+externdef __imp_printui_ordinal67:PPROC
+printui_ordinal67 equ <__imp_printui_ordinal67>
+
+externdef __imp_printui_ordinal68:PPROC
+printui_ordinal68 equ <__imp_printui_ordinal68>
+
+externdef __imp_printui_ordinal69:PPROC
+printui_ordinal69 equ <__imp_printui_ordinal69>
+
+externdef __imp_printui_ordinal70:PPROC
+printui_ordinal70 equ <__imp_printui_ordinal70>
+
+externdef __imp_printui_ordinal71:PPROC
+printui_ordinal71 equ <__imp_printui_ordinal71>
+
+externdef __imp_printui_ordinal72:PPROC
+printui_ordinal72 equ <__imp_printui_ordinal72>
+
+externdef __imp_printui_ordinal73:PPROC
+printui_ordinal73 equ <__imp_printui_ordinal73>
+
+externdef __imp_printui_ordinal74:PPROC
+printui_ordinal74 equ <__imp_printui_ordinal74>
+
+externdef __imp_printui_ordinal75:PPROC
+printui_ordinal75 equ <__imp_printui_ordinal75>
+
+externdef __imp_printui_ordinal76:PPROC
+printui_ordinal76 equ <__imp_printui_ordinal76>
+
+externdef __imp_printui_ordinal77:PPROC
+printui_ordinal77 equ <__imp_printui_ordinal77>
+
+externdef __imp_printui_ordinal78:PPROC
+printui_ordinal78 equ <__imp_printui_ordinal78>
+
+externdef __imp_printui_ordinal79:PPROC
+printui_ordinal79 equ <__imp_printui_ordinal79>
+
+externdef __imp_printui_ordinal80:PPROC
+printui_ordinal80 equ <__imp_printui_ordinal80>
+
+externdef __imp_printui_ordinal81:PPROC
+printui_ordinal81 equ <__imp_printui_ordinal81>
+
+externdef __imp_printui_ordinal82:PPROC
+printui_ordinal82 equ <__imp_printui_ordinal82>
+
+externdef __imp_printui_ordinal83:PPROC
+printui_ordinal83 equ <__imp_printui_ordinal83>
+
+externdef __imp_printui_ordinal84:PPROC
+printui_ordinal84 equ <__imp_printui_ordinal84>
+
+externdef __imp_printui_ordinal85:PPROC
+printui_ordinal85 equ <__imp_printui_ordinal85>
+
+externdef __imp_printui_ordinal86:PPROC
+printui_ordinal86 equ <__imp_printui_ordinal86>
+
+externdef __imp_printui_ordinal87:PPROC
+printui_ordinal87 equ <__imp_printui_ordinal87>
+
+externdef __imp_printui_ordinal88:PPROC
+printui_ordinal88 equ <__imp_printui_ordinal88>
+
+externdef __imp_printui_ordinal89:PPROC
+printui_ordinal89 equ <__imp_printui_ordinal89>
+
+externdef __imp_printui_ordinal90:PPROC
+printui_ordinal90 equ <__imp_printui_ordinal90>
+
+externdef __imp_printui_ordinal91:PPROC
+printui_ordinal91 equ <__imp_printui_ordinal91>
+
+externdef __imp_printui_ordinal92:PPROC
+printui_ordinal92 equ <__imp_printui_ordinal92>
+
+externdef __imp_printui_ordinal93:PPROC
+printui_ordinal93 equ <__imp_printui_ordinal93>
+
+externdef __imp_printui_ordinal94:PPROC
+printui_ordinal94 equ <__imp_printui_ordinal94>
+
+externdef __imp_printui_ordinal95:PPROC
+printui_ordinal95 equ <__imp_printui_ordinal95>
+
+externdef __imp_printui_ordinal96:PPROC
+printui_ordinal96 equ <__imp_printui_ordinal96>
+
+externdef __imp_printui_ordinal97:PPROC
+printui_ordinal97 equ <__imp_printui_ordinal97>
+
+externdef __imp_printui_ordinal98:PPROC
+printui_ordinal98 equ <__imp_printui_ordinal98>
+
+externdef __imp_printui_ordinal99:PPROC
+printui_ordinal99 equ <__imp_printui_ordinal99>
+
+externdef __imp_vDocumentDefaults:PPROC
+vDocumentDefaults equ <__imp_vDocumentDefaults>
+
+externdef __imp_vPrinterPropPages:PPROC
+vPrinterPropPages equ <__imp_vPrinterPropPages>
+
+externdef __imp_vQueueCreate:PPROC
+vQueueCreate equ <__imp_vQueueCreate>
+
+externdef __imp_vServerPropPages:PPROC
+vServerPropPages equ <__imp_vServerPropPages>

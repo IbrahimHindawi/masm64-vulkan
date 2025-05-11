@@ -1,0 +1,8 @@
+externdef __imp_CloseSysProcessObject:PPROC
+CloseSysProcessObject equ <__imp_CloseSysProcessObject>
+
+externdef __imp_CollectSysProcessObjectData:PPROC
+CollectSysProcessObjectData equ <__imp_CollectSysProcessObjectData>
+
+externdef __imp_OpenSysProcessObject:PPROC
+OpenSysProcessObject equ <__imp_OpenSysProcessObject>

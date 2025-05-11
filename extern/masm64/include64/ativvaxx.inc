@@ -1,0 +1,5 @@
+externdef __imp_GsDrvEnableDriver:PPROC
+GsDrvEnableDriver equ <__imp_GsDrvEnableDriver>
+
+externdef __imp_vMMDLLInitFuncs:PPROC
+vMMDLLInitFuncs equ <__imp_vMMDLLInitFuncs>

@@ -1,0 +1,473 @@
+externdef __imp_AllowPermLayer:PPROC
+AllowPermLayer equ <__imp_AllowPermLayer>
+
+externdef __imp_ApphelpCheckExe:PPROC
+ApphelpCheckExe equ <__imp_ApphelpCheckExe>
+
+externdef __imp_ApphelpCheckIME:PPROC
+ApphelpCheckIME equ <__imp_ApphelpCheckIME>
+
+externdef __imp_ApphelpCheckInstallShieldPackage:PPROC
+ApphelpCheckInstallShieldPackage equ <__imp_ApphelpCheckInstallShieldPackage>
+
+externdef __imp_ApphelpCheckMsiPackage:PPROC
+ApphelpCheckMsiPackage equ <__imp_ApphelpCheckMsiPackage>
+
+externdef __imp_ApphelpCheckRunApp:PPROC
+ApphelpCheckRunApp equ <__imp_ApphelpCheckRunApp>
+
+externdef __imp_ApphelpCheckShellObject:PPROC
+ApphelpCheckShellObject equ <__imp_ApphelpCheckShellObject>
+
+externdef __imp_ApphelpFixMsiPackage:PPROC
+ApphelpFixMsiPackage equ <__imp_ApphelpFixMsiPackage>
+
+externdef __imp_ApphelpFixMsiPackageExe:PPROC
+ApphelpFixMsiPackageExe equ <__imp_ApphelpFixMsiPackageExe>
+
+externdef __imp_ApphelpFreeFileAttributes:PPROC
+ApphelpFreeFileAttributes equ <__imp_ApphelpFreeFileAttributes>
+
+externdef __imp_ApphelpGetFileAttributes:PPROC
+ApphelpGetFileAttributes equ <__imp_ApphelpGetFileAttributes>
+
+externdef __imp_ApphelpGetNTVDMInfo:PPROC
+ApphelpGetNTVDMInfo equ <__imp_ApphelpGetNTVDMInfo>
+
+externdef __imp_ApphelpGetShimDebugLevel:PPROC
+ApphelpGetShimDebugLevel equ <__imp_ApphelpGetShimDebugLevel>
+
+externdef __imp_ApphelpQueryModuleData:PPROC
+ApphelpQueryModuleData equ <__imp_ApphelpQueryModuleData>
+
+externdef __imp_ApphelpReleaseExe:PPROC
+ApphelpReleaseExe equ <__imp_ApphelpReleaseExe>
+
+externdef __imp_ApphelpShowDialog:PPROC
+ApphelpShowDialog equ <__imp_ApphelpShowDialog>
+
+externdef __imp_ApphelpShowUI:PPROC
+ApphelpShowUI equ <__imp_ApphelpShowUI>
+
+externdef __imp_ApphelpUpdateCacheEntry:PPROC
+ApphelpUpdateCacheEntry equ <__imp_ApphelpUpdateCacheEntry>
+
+externdef __imp_GetPermLayers:PPROC
+GetPermLayers equ <__imp_GetPermLayers>
+
+externdef __imp_SdbBeginWriteListTag:PPROC
+SdbBeginWriteListTag equ <__imp_SdbBeginWriteListTag>
+
+externdef __imp_SdbBuildCompatEnvVariables:PPROC
+SdbBuildCompatEnvVariables equ <__imp_SdbBuildCompatEnvVariables>
+
+externdef __imp_SdbCloseApphelpInformation:PPROC
+SdbCloseApphelpInformation equ <__imp_SdbCloseApphelpInformation>
+
+externdef __imp_SdbCloseDatabase:PPROC
+SdbCloseDatabase equ <__imp_SdbCloseDatabase>
+
+externdef __imp_SdbCloseDatabaseWrite:PPROC
+SdbCloseDatabaseWrite equ <__imp_SdbCloseDatabaseWrite>
+
+externdef __imp_SdbCloseLocalDatabase:PPROC
+SdbCloseLocalDatabase equ <__imp_SdbCloseLocalDatabase>
+
+externdef __imp_SdbCommitIndexes:PPROC
+SdbCommitIndexes equ <__imp_SdbCommitIndexes>
+
+externdef __imp_SdbCreateDatabase:PPROC
+SdbCreateDatabase equ <__imp_SdbCreateDatabase>
+
+externdef __imp_SdbCreateHelpCenterURL:PPROC
+SdbCreateHelpCenterURL equ <__imp_SdbCreateHelpCenterURL>
+
+externdef __imp_SdbCreateMsiTransformFile:PPROC
+SdbCreateMsiTransformFile equ <__imp_SdbCreateMsiTransformFile>
+
+externdef __imp_SdbDeclareIndex:PPROC
+SdbDeclareIndex equ <__imp_SdbDeclareIndex>
+
+externdef __imp_SdbDeletePermLayerKeys:PPROC
+SdbDeletePermLayerKeys equ <__imp_SdbDeletePermLayerKeys>
+
+externdef __imp_SdbEndWriteListTag:PPROC
+SdbEndWriteListTag equ <__imp_SdbEndWriteListTag>
+
+externdef __imp_SdbEnumMsiTransforms:PPROC
+SdbEnumMsiTransforms equ <__imp_SdbEnumMsiTransforms>
+
+externdef __imp_SdbEscapeApphelpURL:PPROC
+SdbEscapeApphelpURL equ <__imp_SdbEscapeApphelpURL>
+
+externdef __imp_SdbFindCustomActionForPackage:PPROC
+SdbFindCustomActionForPackage equ <__imp_SdbFindCustomActionForPackage>
+
+externdef __imp_SdbFindFirstDWORDIndexedTag:PPROC
+SdbFindFirstDWORDIndexedTag equ <__imp_SdbFindFirstDWORDIndexedTag>
+
+externdef __imp_SdbFindFirstGUIDIndexedTag:PPROC
+SdbFindFirstGUIDIndexedTag equ <__imp_SdbFindFirstGUIDIndexedTag>
+
+externdef __imp_SdbFindFirstMsiPackage:PPROC
+SdbFindFirstMsiPackage equ <__imp_SdbFindFirstMsiPackage>
+
+externdef __imp_SdbFindFirstMsiPackage_Str:PPROC
+SdbFindFirstMsiPackage_Str equ <__imp_SdbFindFirstMsiPackage_Str>
+
+externdef __imp_SdbFindFirstNamedTag:PPROC
+SdbFindFirstNamedTag equ <__imp_SdbFindFirstNamedTag>
+
+externdef __imp_SdbFindFirstStringIndexedTag:PPROC
+SdbFindFirstStringIndexedTag equ <__imp_SdbFindFirstStringIndexedTag>
+
+externdef __imp_SdbFindFirstTag:PPROC
+SdbFindFirstTag equ <__imp_SdbFindFirstTag>
+
+externdef __imp_SdbFindFirstTagRef:PPROC
+SdbFindFirstTagRef equ <__imp_SdbFindFirstTagRef>
+
+externdef __imp_SdbFindMsiPackageByID:PPROC
+SdbFindMsiPackageByID equ <__imp_SdbFindMsiPackageByID>
+
+externdef __imp_SdbFindNextDWORDIndexedTag:PPROC
+SdbFindNextDWORDIndexedTag equ <__imp_SdbFindNextDWORDIndexedTag>
+
+externdef __imp_SdbFindNextGUIDIndexedTag:PPROC
+SdbFindNextGUIDIndexedTag equ <__imp_SdbFindNextGUIDIndexedTag>
+
+externdef __imp_SdbFindNextMsiPackage:PPROC
+SdbFindNextMsiPackage equ <__imp_SdbFindNextMsiPackage>
+
+externdef __imp_SdbFindNextStringIndexedTag:PPROC
+SdbFindNextStringIndexedTag equ <__imp_SdbFindNextStringIndexedTag>
+
+externdef __imp_SdbFindNextTag:PPROC
+SdbFindNextTag equ <__imp_SdbFindNextTag>
+
+externdef __imp_SdbFindNextTagRef:PPROC
+SdbFindNextTagRef equ <__imp_SdbFindNextTagRef>
+
+externdef __imp_SdbFormatAttribute:PPROC
+SdbFormatAttribute equ <__imp_SdbFormatAttribute>
+
+externdef __imp_SdbFreeDatabaseInformation:PPROC
+SdbFreeDatabaseInformation equ <__imp_SdbFreeDatabaseInformation>
+
+externdef __imp_SdbFreeFileAttributes:PPROC
+SdbFreeFileAttributes equ <__imp_SdbFreeFileAttributes>
+
+externdef __imp_SdbFreeFileInfo:PPROC
+SdbFreeFileInfo equ <__imp_SdbFreeFileInfo>
+
+externdef __imp_SdbFreeFlagInfo:PPROC
+SdbFreeFlagInfo equ <__imp_SdbFreeFlagInfo>
+
+externdef __imp_SdbGUIDFromString:PPROC
+SdbGUIDFromString equ <__imp_SdbGUIDFromString>
+
+externdef __imp_SdbGUIDToString:PPROC
+SdbGUIDToString equ <__imp_SdbGUIDToString>
+
+externdef __imp_SdbGetAppCompatDataSize:PPROC
+SdbGetAppCompatDataSize equ <__imp_SdbGetAppCompatDataSize>
+
+externdef __imp_SdbGetAppPatchDir:PPROC
+SdbGetAppPatchDir equ <__imp_SdbGetAppPatchDir>
+
+externdef __imp_SdbGetBinaryTagData:PPROC
+SdbGetBinaryTagData equ <__imp_SdbGetBinaryTagData>
+
+externdef __imp_SdbGetDatabaseGUID:PPROC
+SdbGetDatabaseGUID equ <__imp_SdbGetDatabaseGUID>
+
+externdef __imp_SdbGetDatabaseID:PPROC
+SdbGetDatabaseID equ <__imp_SdbGetDatabaseID>
+
+externdef __imp_SdbGetDatabaseInformation:PPROC
+SdbGetDatabaseInformation equ <__imp_SdbGetDatabaseInformation>
+
+externdef __imp_SdbGetDatabaseInformationByName:PPROC
+SdbGetDatabaseInformationByName equ <__imp_SdbGetDatabaseInformationByName>
+
+externdef __imp_SdbGetDatabaseMatch:PPROC
+SdbGetDatabaseMatch equ <__imp_SdbGetDatabaseMatch>
+
+externdef __imp_SdbGetDatabaseVersion:PPROC
+SdbGetDatabaseVersion equ <__imp_SdbGetDatabaseVersion>
+
+externdef __imp_SdbGetDllPath:PPROC
+SdbGetDllPath equ <__imp_SdbGetDllPath>
+
+externdef __imp_SdbGetEntryFlags:PPROC
+SdbGetEntryFlags equ <__imp_SdbGetEntryFlags>
+
+externdef __imp_SdbGetFileAttributes:PPROC
+SdbGetFileAttributes equ <__imp_SdbGetFileAttributes>
+
+externdef __imp_SdbGetFileInfo:PPROC
+SdbGetFileInfo equ <__imp_SdbGetFileInfo>
+
+externdef __imp_SdbGetFirstChild:PPROC
+SdbGetFirstChild equ <__imp_SdbGetFirstChild>
+
+externdef __imp_SdbGetImageType:PPROC
+SdbGetImageType equ <__imp_SdbGetImageType>
+
+externdef __imp_SdbGetIndex:PPROC
+SdbGetIndex equ <__imp_SdbGetIndex>
+
+externdef __imp_SdbGetItemFromItemRef:PPROC
+SdbGetItemFromItemRef equ <__imp_SdbGetItemFromItemRef>
+
+externdef __imp_SdbGetLayerName:PPROC
+SdbGetLayerName equ <__imp_SdbGetLayerName>
+
+externdef __imp_SdbGetLayerTagRef:PPROC
+SdbGetLayerTagRef equ <__imp_SdbGetLayerTagRef>
+
+externdef __imp_SdbGetLocalPDB:PPROC
+SdbGetLocalPDB equ <__imp_SdbGetLocalPDB>
+
+externdef __imp_SdbGetMatchingExe:PPROC
+SdbGetMatchingExe equ <__imp_SdbGetMatchingExe>
+
+externdef __imp_SdbGetMsiPackageInformation:PPROC
+SdbGetMsiPackageInformation equ <__imp_SdbGetMsiPackageInformation>
+
+externdef __imp_SdbGetNamedLayer:PPROC
+SdbGetNamedLayer equ <__imp_SdbGetNamedLayer>
+
+externdef __imp_SdbGetNextChild:PPROC
+SdbGetNextChild equ <__imp_SdbGetNextChild>
+
+externdef __imp_SdbGetNthUserSdb:PPROC
+SdbGetNthUserSdb equ <__imp_SdbGetNthUserSdb>
+
+externdef __imp_SdbGetPDBFromGUID:PPROC
+SdbGetPDBFromGUID equ <__imp_SdbGetPDBFromGUID>
+
+externdef __imp_SdbGetPermLayerKeys:PPROC
+SdbGetPermLayerKeys equ <__imp_SdbGetPermLayerKeys>
+
+externdef __imp_SdbGetShowDebugInfoOption:PPROC
+SdbGetShowDebugInfoOption equ <__imp_SdbGetShowDebugInfoOption>
+
+externdef __imp_SdbGetShowDebugInfoOptionValue:PPROC
+SdbGetShowDebugInfoOptionValue equ <__imp_SdbGetShowDebugInfoOptionValue>
+
+externdef __imp_SdbGetStandardDatabaseGUID:PPROC
+SdbGetStandardDatabaseGUID equ <__imp_SdbGetStandardDatabaseGUID>
+
+externdef __imp_SdbGetStringTagPtr:PPROC
+SdbGetStringTagPtr equ <__imp_SdbGetStringTagPtr>
+
+externdef __imp_SdbGetTagDataSize:PPROC
+SdbGetTagDataSize equ <__imp_SdbGetTagDataSize>
+
+externdef __imp_SdbGetTagFromTagID:PPROC
+SdbGetTagFromTagID equ <__imp_SdbGetTagFromTagID>
+
+externdef __imp_SdbGrabMatchingInfo:PPROC
+SdbGrabMatchingInfo equ <__imp_SdbGrabMatchingInfo>
+
+externdef __imp_SdbGrabMatchingInfoEx:PPROC
+SdbGrabMatchingInfoEx equ <__imp_SdbGrabMatchingInfoEx>
+
+externdef __imp_SdbInitDatabase:PPROC
+SdbInitDatabase equ <__imp_SdbInitDatabase>
+
+externdef __imp_SdbInitDatabaseEx:PPROC
+SdbInitDatabaseEx equ <__imp_SdbInitDatabaseEx>
+
+externdef __imp_SdbIsNullGUID:PPROC
+SdbIsNullGUID equ <__imp_SdbIsNullGUID>
+
+externdef __imp_SdbIsTagrefFromLocalDB:PPROC
+SdbIsTagrefFromLocalDB equ <__imp_SdbIsTagrefFromLocalDB>
+
+externdef __imp_SdbIsTagrefFromMainDB:PPROC
+SdbIsTagrefFromMainDB equ <__imp_SdbIsTagrefFromMainDB>
+
+externdef __imp_SdbMakeIndexKeyFromString:PPROC
+SdbMakeIndexKeyFromString equ <__imp_SdbMakeIndexKeyFromString>
+
+externdef __imp_SdbOpenApphelpDetailsDatabase:PPROC
+SdbOpenApphelpDetailsDatabase equ <__imp_SdbOpenApphelpDetailsDatabase>
+
+externdef __imp_SdbOpenApphelpDetailsDatabaseSP:PPROC
+SdbOpenApphelpDetailsDatabaseSP equ <__imp_SdbOpenApphelpDetailsDatabaseSP>
+
+externdef __imp_SdbOpenApphelpInformation:PPROC
+SdbOpenApphelpInformation equ <__imp_SdbOpenApphelpInformation>
+
+externdef __imp_SdbOpenApphelpInformationByID:PPROC
+SdbOpenApphelpInformationByID equ <__imp_SdbOpenApphelpInformationByID>
+
+externdef __imp_SdbOpenDatabase:PPROC
+SdbOpenDatabase equ <__imp_SdbOpenDatabase>
+
+externdef __imp_SdbOpenLocalDatabase:PPROC
+SdbOpenLocalDatabase equ <__imp_SdbOpenLocalDatabase>
+
+externdef __imp_SdbPackAppCompatData:PPROC
+SdbPackAppCompatData equ <__imp_SdbPackAppCompatData>
+
+externdef __imp_SdbQueryApphelpInformation:PPROC
+SdbQueryApphelpInformation equ <__imp_SdbQueryApphelpInformation>
+
+externdef __imp_SdbQueryData:PPROC
+SdbQueryData equ <__imp_SdbQueryData>
+
+externdef __imp_SdbQueryDataEx:PPROC
+SdbQueryDataEx equ <__imp_SdbQueryDataEx>
+
+externdef __imp_SdbQueryDataExTagID:PPROC
+SdbQueryDataExTagID equ <__imp_SdbQueryDataExTagID>
+
+externdef __imp_SdbQueryFlagInfo:PPROC
+SdbQueryFlagInfo equ <__imp_SdbQueryFlagInfo>
+
+externdef __imp_SdbQueryFlagMask:PPROC
+SdbQueryFlagMask equ <__imp_SdbQueryFlagMask>
+
+externdef __imp_SdbReadApphelpData:PPROC
+SdbReadApphelpData equ <__imp_SdbReadApphelpData>
+
+externdef __imp_SdbReadApphelpDetailsData:PPROC
+SdbReadApphelpDetailsData equ <__imp_SdbReadApphelpDetailsData>
+
+externdef __imp_SdbReadBYTETag:PPROC
+SdbReadBYTETag equ <__imp_SdbReadBYTETag>
+
+externdef __imp_SdbReadBYTETagRef:PPROC
+SdbReadBYTETagRef equ <__imp_SdbReadBYTETagRef>
+
+externdef __imp_SdbReadBinaryTag:PPROC
+SdbReadBinaryTag equ <__imp_SdbReadBinaryTag>
+
+externdef __imp_SdbReadDWORDTag:PPROC
+SdbReadDWORDTag equ <__imp_SdbReadDWORDTag>
+
+externdef __imp_SdbReadDWORDTagRef:PPROC
+SdbReadDWORDTagRef equ <__imp_SdbReadDWORDTagRef>
+
+externdef __imp_SdbReadEntryInformation:PPROC
+SdbReadEntryInformation equ <__imp_SdbReadEntryInformation>
+
+externdef __imp_SdbReadMsiTransformInfo:PPROC
+SdbReadMsiTransformInfo equ <__imp_SdbReadMsiTransformInfo>
+
+externdef __imp_SdbReadPatchBits:PPROC
+SdbReadPatchBits equ <__imp_SdbReadPatchBits>
+
+externdef __imp_SdbReadQWORDTag:PPROC
+SdbReadQWORDTag equ <__imp_SdbReadQWORDTag>
+
+externdef __imp_SdbReadQWORDTagRef:PPROC
+SdbReadQWORDTagRef equ <__imp_SdbReadQWORDTagRef>
+
+externdef __imp_SdbReadStringTag:PPROC
+SdbReadStringTag equ <__imp_SdbReadStringTag>
+
+externdef __imp_SdbReadStringTagRef:PPROC
+SdbReadStringTagRef equ <__imp_SdbReadStringTagRef>
+
+externdef __imp_SdbReadWORDTag:PPROC
+SdbReadWORDTag equ <__imp_SdbReadWORDTag>
+
+externdef __imp_SdbReadWORDTagRef:PPROC
+SdbReadWORDTagRef equ <__imp_SdbReadWORDTagRef>
+
+externdef __imp_SdbRegisterDatabase:PPROC
+SdbRegisterDatabase equ <__imp_SdbRegisterDatabase>
+
+externdef __imp_SdbRegisterDatabaseEx:PPROC
+SdbRegisterDatabaseEx equ <__imp_SdbRegisterDatabaseEx>
+
+externdef __imp_SdbReleaseDatabase:PPROC
+SdbReleaseDatabase equ <__imp_SdbReleaseDatabase>
+
+externdef __imp_SdbReleaseMatchingExe:PPROC
+SdbReleaseMatchingExe equ <__imp_SdbReleaseMatchingExe>
+
+externdef __imp_SdbResolveDatabase:PPROC
+SdbResolveDatabase equ <__imp_SdbResolveDatabase>
+
+externdef __imp_SdbSetApphelpDebugParameters:PPROC
+SdbSetApphelpDebugParameters equ <__imp_SdbSetApphelpDebugParameters>
+
+externdef __imp_SdbSetEntryFlags:PPROC
+SdbSetEntryFlags equ <__imp_SdbSetEntryFlags>
+
+externdef __imp_SdbSetImageType:PPROC
+SdbSetImageType equ <__imp_SdbSetImageType>
+
+externdef __imp_SdbSetPermLayerKeys:PPROC
+SdbSetPermLayerKeys equ <__imp_SdbSetPermLayerKeys>
+
+externdef __imp_SdbShowApphelpDialog:PPROC
+SdbShowApphelpDialog equ <__imp_SdbShowApphelpDialog>
+
+externdef __imp_SdbStartIndexing:PPROC
+SdbStartIndexing equ <__imp_SdbStartIndexing>
+
+externdef __imp_SdbStopIndexing:PPROC
+SdbStopIndexing equ <__imp_SdbStopIndexing>
+
+externdef __imp_SdbTagIDToTagRef:PPROC
+SdbTagIDToTagRef equ <__imp_SdbTagIDToTagRef>
+
+externdef __imp_SdbTagRefToTagID:PPROC
+SdbTagRefToTagID equ <__imp_SdbTagRefToTagID>
+
+externdef __imp_SdbTagToString:PPROC
+SdbTagToString equ <__imp_SdbTagToString>
+
+externdef __imp_SdbUnpackAppCompatData:PPROC
+SdbUnpackAppCompatData equ <__imp_SdbUnpackAppCompatData>
+
+externdef __imp_SdbUnregisterDatabase:PPROC
+SdbUnregisterDatabase equ <__imp_SdbUnregisterDatabase>
+
+externdef __imp_SdbWriteBYTETag:PPROC
+SdbWriteBYTETag equ <__imp_SdbWriteBYTETag>
+
+externdef __imp_SdbWriteBinaryTag:PPROC
+SdbWriteBinaryTag equ <__imp_SdbWriteBinaryTag>
+
+externdef __imp_SdbWriteBinaryTagFromFile:PPROC
+SdbWriteBinaryTagFromFile equ <__imp_SdbWriteBinaryTagFromFile>
+
+externdef __imp_SdbWriteDWORDTag:PPROC
+SdbWriteDWORDTag equ <__imp_SdbWriteDWORDTag>
+
+externdef __imp_SdbWriteNULLTag:PPROC
+SdbWriteNULLTag equ <__imp_SdbWriteNULLTag>
+
+externdef __imp_SdbWriteQWORDTag:PPROC
+SdbWriteQWORDTag equ <__imp_SdbWriteQWORDTag>
+
+externdef __imp_SdbWriteStringRefTag:PPROC
+SdbWriteStringRefTag equ <__imp_SdbWriteStringRefTag>
+
+externdef __imp_SdbWriteStringTag:PPROC
+SdbWriteStringTag equ <__imp_SdbWriteStringTag>
+
+externdef __imp_SdbWriteStringTagDirect:PPROC
+SdbWriteStringTagDirect equ <__imp_SdbWriteStringTagDirect>
+
+externdef __imp_SdbWriteWORDTag:PPROC
+SdbWriteWORDTag equ <__imp_SdbWriteWORDTag>
+
+externdef __imp_SetPermLayers:PPROC
+SetPermLayers equ <__imp_SetPermLayers>
+
+externdef __imp_ShimDbgPrint:PPROC
+ShimDbgPrint equ <__imp_ShimDbgPrint>
+
+externdef __imp_ShimDumpCache:PPROC
+ShimDumpCache equ <__imp_ShimDumpCache>
+
+externdef __imp_ShimFlushCache:PPROC
+ShimFlushCache equ <__imp_ShimFlushCache>

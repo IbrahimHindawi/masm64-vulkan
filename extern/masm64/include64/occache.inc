@@ -1,0 +1,50 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllInstall:PPROC
+DllInstall equ <__imp_DllInstall>
+
+externdef __imp_DllMain:PPROC
+DllMain equ <__imp_DllMain>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_FindControlClose:PPROC
+FindControlClose equ <__imp_FindControlClose>
+
+externdef __imp_FindFirstControl:PPROC
+FindFirstControl equ <__imp_FindFirstControl>
+
+externdef __imp_FindNextControl:PPROC
+FindNextControl equ <__imp_FindNextControl>
+
+externdef __imp_GetControlDependentFile:PPROC
+GetControlDependentFile equ <__imp_GetControlDependentFile>
+
+externdef __imp_GetControlInfo:PPROC
+GetControlInfo equ <__imp_GetControlInfo>
+
+externdef __imp_IsModuleRemovable:PPROC
+IsModuleRemovable equ <__imp_IsModuleRemovable>
+
+externdef __imp_ReleaseControlHandle:PPROC
+ReleaseControlHandle equ <__imp_ReleaseControlHandle>
+
+externdef __imp_RemoveControlByHandle:PPROC
+RemoveControlByHandle equ <__imp_RemoveControlByHandle>
+
+externdef __imp_RemoveControlByName:PPROC
+RemoveControlByName equ <__imp_RemoveControlByName>
+
+externdef __imp_RemoveExpiredControls:PPROC
+RemoveExpiredControls equ <__imp_RemoveExpiredControls>
+
+externdef __imp_SweepControlsByLastAccessDate:PPROC
+SweepControlsByLastAccessDate equ <__imp_SweepControlsByLastAccessDate>

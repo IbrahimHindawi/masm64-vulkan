@@ -1,0 +1,2 @@
+externdef __imp_InitializePrintProvidor:PPROC
+InitializePrintProvidor equ <__imp_InitializePrintProvidor>

@@ -1,0 +1,80 @@
+externdef __imp_HelperResetDefaultInterfaceNet:PPROC
+HelperResetDefaultInterfaceNet equ <__imp_HelperResetDefaultInterfaceNet>
+
+externdef __imp_HelperResetDefaultInterfaceNetEx:PPROC
+HelperResetDefaultInterfaceNetEx equ <__imp_HelperResetDefaultInterfaceNetEx>
+
+externdef __imp_HelperSetDefaultInterfaceNet:PPROC
+HelperSetDefaultInterfaceNet equ <__imp_HelperSetDefaultInterfaceNet>
+
+externdef __imp_HelperSetDefaultInterfaceNetEx:PPROC
+HelperSetDefaultInterfaceNetEx equ <__imp_HelperSetDefaultInterfaceNetEx>
+
+externdef __imp_IpxCpInit:PPROC
+IpxCpInit equ <__imp_IpxCpInit>
+
+externdef __imp_IpxcpBind:PPROC
+IpxcpBind equ <__imp_IpxcpBind>
+
+externdef __imp_PppDdmBapCallbackResult:PPROC
+PppDdmBapCallbackResult equ <__imp_PppDdmBapCallbackResult>
+
+externdef __imp_PppDdmCallbackDone:PPROC
+PppDdmCallbackDone equ <__imp_PppDdmCallbackDone>
+
+externdef __imp_PppDdmChangeNotification:PPROC
+PppDdmChangeNotification equ <__imp_PppDdmChangeNotification>
+
+externdef __imp_PppDdmDeInit:PPROC
+PppDdmDeInit equ <__imp_PppDdmDeInit>
+
+externdef __imp_PppDdmInit:PPROC
+PppDdmInit equ <__imp_PppDdmInit>
+
+externdef __imp_PppDdmRemoveQuarantine:PPROC
+PppDdmRemoveQuarantine equ <__imp_PppDdmRemoveQuarantine>
+
+externdef __imp_PppDdmSendInterfaceInfo:PPROC
+PppDdmSendInterfaceInfo equ <__imp_PppDdmSendInterfaceInfo>
+
+externdef __imp_PppDdmStart:PPROC
+PppDdmStart equ <__imp_PppDdmStart>
+
+externdef __imp_PppDdmStop:PPROC
+PppDdmStop equ <__imp_PppDdmStop>
+
+externdef __imp_PppStop:PPROC
+PppStop equ <__imp_PppStop>
+
+externdef __imp_RasCpEnumProtocolIds:PPROC
+RasCpEnumProtocolIds equ <__imp_RasCpEnumProtocolIds>
+
+externdef __imp_RasCpGetInfo:PPROC
+RasCpGetInfo equ <__imp_RasCpGetInfo>
+
+externdef __imp_RasSrvrAcquireAddress:PPROC
+RasSrvrAcquireAddress equ <__imp_RasSrvrAcquireAddress>
+
+externdef __imp_RasSrvrActivateIp:PPROC
+RasSrvrActivateIp equ <__imp_RasSrvrActivateIp>
+
+externdef __imp_RasSrvrInitialize:PPROC
+RasSrvrInitialize equ <__imp_RasSrvrInitialize>
+
+externdef __imp_RasSrvrQueryServerAddresses:PPROC
+RasSrvrQueryServerAddresses equ <__imp_RasSrvrQueryServerAddresses>
+
+externdef __imp_RasSrvrReleaseAddress:PPROC
+RasSrvrReleaseAddress equ <__imp_RasSrvrReleaseAddress>
+
+externdef __imp_RasSrvrUninitialize:PPROC
+RasSrvrUninitialize equ <__imp_RasSrvrUninitialize>
+
+externdef __imp_SendPPPMessageToEngine:PPROC
+SendPPPMessageToEngine equ <__imp_SendPPPMessageToEngine>
+
+externdef __imp_StartPPP:PPROC
+StartPPP equ <__imp_StartPPP>
+
+externdef __imp_StopPPP:PPROC
+StopPPP equ <__imp_StopPPP>

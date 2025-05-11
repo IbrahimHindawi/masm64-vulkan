@@ -1,0 +1,29 @@
+externdef __imp_CreateIndirectData:PPROC
+CreateIndirectData equ <__imp_CreateIndirectData>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_GetSignedDataMsg:PPROC
+GetSignedDataMsg equ <__imp_GetSignedDataMsg>
+
+externdef __imp_IsFileSupportedName:PPROC
+IsFileSupportedName equ <__imp_IsFileSupportedName>
+
+externdef __imp_PutSignedDataMsg:PPROC
+PutSignedDataMsg equ <__imp_PutSignedDataMsg>
+
+externdef __imp_RemoveSignedDataMsg:PPROC
+RemoveSignedDataMsg equ <__imp_RemoveSignedDataMsg>
+
+externdef __imp_VerifyIndirectData:PPROC
+VerifyIndirectData equ <__imp_VerifyIndirectData>

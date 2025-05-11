@@ -1,0 +1,17 @@
+externdef __imp_AcsHlpAttemptConnection:PPROC
+AcsHlpAttemptConnection equ <__imp_AcsHlpAttemptConnection>
+
+externdef __imp_AcsHlpNbConnection:PPROC
+AcsHlpNbConnection equ <__imp_AcsHlpNbConnection>
+
+externdef __imp_AcsHlpNoteNewConnection:PPROC
+AcsHlpNoteNewConnection equ <__imp_AcsHlpNoteNewConnection>
+
+externdef __imp_WSAttemptAutodialAddr:PPROC
+WSAttemptAutodialAddr equ <__imp_WSAttemptAutodialAddr>
+
+externdef __imp_WSAttemptAutodialName:PPROC
+WSAttemptAutodialName equ <__imp_WSAttemptAutodialName>
+
+externdef __imp_WSNoteSuccessfulHostentLookup:PPROC
+WSNoteSuccessfulHostentLookup equ <__imp_WSNoteSuccessfulHostentLookup>

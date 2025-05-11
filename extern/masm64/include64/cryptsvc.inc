@@ -1,0 +1,2 @@
+externdef __imp_CryptServiceMain:PPROC
+CryptServiceMain equ <__imp_CryptServiceMain>

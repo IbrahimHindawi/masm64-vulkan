@@ -1,0 +1,1715 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllInstall:PPROC
+DllInstall equ <__imp_DllInstall>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_DsBrowseForContainerA:PPROC
+DsBrowseForContainerA equ <__imp_DsBrowseForContainerA>
+  IFNDEF __UNICODE__
+    DsBrowseForContainer equ <__imp_DsBrowseForContainerA>
+  ENDIF
+
+externdef __imp_DsBrowseForContainerW:PPROC
+DsBrowseForContainerW equ <__imp_DsBrowseForContainerW>
+  IFDEF __UNICODE__
+    DsBrowseForContainer equ <__imp_DsBrowseForContainerW>
+  ENDIF
+
+externdef __imp_DsGetFriendlyClassName:PPROC
+DsGetFriendlyClassName equ <__imp_DsGetFriendlyClassName>
+
+externdef __imp_DsGetIcon:PPROC
+DsGetIcon equ <__imp_DsGetIcon>
+
+externdef __imp_dsuiext_ordinal100:PPROC
+dsuiext_ordinal100 equ <__imp_dsuiext_ordinal100>
+
+externdef __imp_dsuiext_ordinal101:PPROC
+dsuiext_ordinal101 equ <__imp_dsuiext_ordinal101>
+
+externdef __imp_dsuiext_ordinal102:PPROC
+dsuiext_ordinal102 equ <__imp_dsuiext_ordinal102>
+
+externdef __imp_dsuiext_ordinal103:PPROC
+dsuiext_ordinal103 equ <__imp_dsuiext_ordinal103>
+
+externdef __imp_dsuiext_ordinal104:PPROC
+dsuiext_ordinal104 equ <__imp_dsuiext_ordinal104>
+
+externdef __imp_dsuiext_ordinal105:PPROC
+dsuiext_ordinal105 equ <__imp_dsuiext_ordinal105>
+
+externdef __imp_dsuiext_ordinal106:PPROC
+dsuiext_ordinal106 equ <__imp_dsuiext_ordinal106>
+
+externdef __imp_dsuiext_ordinal107:PPROC
+dsuiext_ordinal107 equ <__imp_dsuiext_ordinal107>
+
+externdef __imp_dsuiext_ordinal108:PPROC
+dsuiext_ordinal108 equ <__imp_dsuiext_ordinal108>
+
+externdef __imp_dsuiext_ordinal109:PPROC
+dsuiext_ordinal109 equ <__imp_dsuiext_ordinal109>
+
+externdef __imp_dsuiext_ordinal110:PPROC
+dsuiext_ordinal110 equ <__imp_dsuiext_ordinal110>
+
+externdef __imp_dsuiext_ordinal111:PPROC
+dsuiext_ordinal111 equ <__imp_dsuiext_ordinal111>
+
+externdef __imp_dsuiext_ordinal112:PPROC
+dsuiext_ordinal112 equ <__imp_dsuiext_ordinal112>
+
+externdef __imp_dsuiext_ordinal113:PPROC
+dsuiext_ordinal113 equ <__imp_dsuiext_ordinal113>
+
+externdef __imp_dsuiext_ordinal114:PPROC
+dsuiext_ordinal114 equ <__imp_dsuiext_ordinal114>
+
+externdef __imp_dsuiext_ordinal115:PPROC
+dsuiext_ordinal115 equ <__imp_dsuiext_ordinal115>
+
+externdef __imp_dsuiext_ordinal116:PPROC
+dsuiext_ordinal116 equ <__imp_dsuiext_ordinal116>
+
+externdef __imp_dsuiext_ordinal117:PPROC
+dsuiext_ordinal117 equ <__imp_dsuiext_ordinal117>
+
+externdef __imp_dsuiext_ordinal118:PPROC
+dsuiext_ordinal118 equ <__imp_dsuiext_ordinal118>
+
+externdef __imp_dsuiext_ordinal119:PPROC
+dsuiext_ordinal119 equ <__imp_dsuiext_ordinal119>
+
+externdef __imp_dsuiext_ordinal120:PPROC
+dsuiext_ordinal120 equ <__imp_dsuiext_ordinal120>
+
+externdef __imp_dsuiext_ordinal121:PPROC
+dsuiext_ordinal121 equ <__imp_dsuiext_ordinal121>
+
+externdef __imp_dsuiext_ordinal122:PPROC
+dsuiext_ordinal122 equ <__imp_dsuiext_ordinal122>
+
+externdef __imp_dsuiext_ordinal123:PPROC
+dsuiext_ordinal123 equ <__imp_dsuiext_ordinal123>
+
+externdef __imp_dsuiext_ordinal124:PPROC
+dsuiext_ordinal124 equ <__imp_dsuiext_ordinal124>
+
+externdef __imp_dsuiext_ordinal125:PPROC
+dsuiext_ordinal125 equ <__imp_dsuiext_ordinal125>
+
+externdef __imp_dsuiext_ordinal126:PPROC
+dsuiext_ordinal126 equ <__imp_dsuiext_ordinal126>
+
+externdef __imp_dsuiext_ordinal127:PPROC
+dsuiext_ordinal127 equ <__imp_dsuiext_ordinal127>
+
+externdef __imp_dsuiext_ordinal128:PPROC
+dsuiext_ordinal128 equ <__imp_dsuiext_ordinal128>
+
+externdef __imp_dsuiext_ordinal129:PPROC
+dsuiext_ordinal129 equ <__imp_dsuiext_ordinal129>
+
+externdef __imp_dsuiext_ordinal130:PPROC
+dsuiext_ordinal130 equ <__imp_dsuiext_ordinal130>
+
+externdef __imp_dsuiext_ordinal131:PPROC
+dsuiext_ordinal131 equ <__imp_dsuiext_ordinal131>
+
+externdef __imp_dsuiext_ordinal132:PPROC
+dsuiext_ordinal132 equ <__imp_dsuiext_ordinal132>
+
+externdef __imp_dsuiext_ordinal133:PPROC
+dsuiext_ordinal133 equ <__imp_dsuiext_ordinal133>
+
+externdef __imp_dsuiext_ordinal134:PPROC
+dsuiext_ordinal134 equ <__imp_dsuiext_ordinal134>
+
+externdef __imp_dsuiext_ordinal135:PPROC
+dsuiext_ordinal135 equ <__imp_dsuiext_ordinal135>
+
+externdef __imp_dsuiext_ordinal136:PPROC
+dsuiext_ordinal136 equ <__imp_dsuiext_ordinal136>
+
+externdef __imp_dsuiext_ordinal137:PPROC
+dsuiext_ordinal137 equ <__imp_dsuiext_ordinal137>
+
+externdef __imp_dsuiext_ordinal138:PPROC
+dsuiext_ordinal138 equ <__imp_dsuiext_ordinal138>
+
+externdef __imp_dsuiext_ordinal139:PPROC
+dsuiext_ordinal139 equ <__imp_dsuiext_ordinal139>
+
+externdef __imp_dsuiext_ordinal140:PPROC
+dsuiext_ordinal140 equ <__imp_dsuiext_ordinal140>
+
+externdef __imp_dsuiext_ordinal141:PPROC
+dsuiext_ordinal141 equ <__imp_dsuiext_ordinal141>
+
+externdef __imp_dsuiext_ordinal142:PPROC
+dsuiext_ordinal142 equ <__imp_dsuiext_ordinal142>
+
+externdef __imp_dsuiext_ordinal143:PPROC
+dsuiext_ordinal143 equ <__imp_dsuiext_ordinal143>
+
+externdef __imp_dsuiext_ordinal144:PPROC
+dsuiext_ordinal144 equ <__imp_dsuiext_ordinal144>
+
+externdef __imp_dsuiext_ordinal145:PPROC
+dsuiext_ordinal145 equ <__imp_dsuiext_ordinal145>
+
+externdef __imp_dsuiext_ordinal146:PPROC
+dsuiext_ordinal146 equ <__imp_dsuiext_ordinal146>
+
+externdef __imp_dsuiext_ordinal147:PPROC
+dsuiext_ordinal147 equ <__imp_dsuiext_ordinal147>
+
+externdef __imp_dsuiext_ordinal148:PPROC
+dsuiext_ordinal148 equ <__imp_dsuiext_ordinal148>
+
+externdef __imp_dsuiext_ordinal149:PPROC
+dsuiext_ordinal149 equ <__imp_dsuiext_ordinal149>
+
+externdef __imp_dsuiext_ordinal150:PPROC
+dsuiext_ordinal150 equ <__imp_dsuiext_ordinal150>
+
+externdef __imp_dsuiext_ordinal151:PPROC
+dsuiext_ordinal151 equ <__imp_dsuiext_ordinal151>
+
+externdef __imp_dsuiext_ordinal152:PPROC
+dsuiext_ordinal152 equ <__imp_dsuiext_ordinal152>
+
+externdef __imp_dsuiext_ordinal153:PPROC
+dsuiext_ordinal153 equ <__imp_dsuiext_ordinal153>
+
+externdef __imp_dsuiext_ordinal154:PPROC
+dsuiext_ordinal154 equ <__imp_dsuiext_ordinal154>
+
+externdef __imp_dsuiext_ordinal155:PPROC
+dsuiext_ordinal155 equ <__imp_dsuiext_ordinal155>
+
+externdef __imp_dsuiext_ordinal156:PPROC
+dsuiext_ordinal156 equ <__imp_dsuiext_ordinal156>
+
+externdef __imp_dsuiext_ordinal157:PPROC
+dsuiext_ordinal157 equ <__imp_dsuiext_ordinal157>
+
+externdef __imp_dsuiext_ordinal158:PPROC
+dsuiext_ordinal158 equ <__imp_dsuiext_ordinal158>
+
+externdef __imp_dsuiext_ordinal159:PPROC
+dsuiext_ordinal159 equ <__imp_dsuiext_ordinal159>
+
+externdef __imp_dsuiext_ordinal160:PPROC
+dsuiext_ordinal160 equ <__imp_dsuiext_ordinal160>
+
+externdef __imp_dsuiext_ordinal161:PPROC
+dsuiext_ordinal161 equ <__imp_dsuiext_ordinal161>
+
+externdef __imp_dsuiext_ordinal162:PPROC
+dsuiext_ordinal162 equ <__imp_dsuiext_ordinal162>
+
+externdef __imp_dsuiext_ordinal163:PPROC
+dsuiext_ordinal163 equ <__imp_dsuiext_ordinal163>
+
+externdef __imp_dsuiext_ordinal164:PPROC
+dsuiext_ordinal164 equ <__imp_dsuiext_ordinal164>
+
+externdef __imp_dsuiext_ordinal165:PPROC
+dsuiext_ordinal165 equ <__imp_dsuiext_ordinal165>
+
+externdef __imp_dsuiext_ordinal166:PPROC
+dsuiext_ordinal166 equ <__imp_dsuiext_ordinal166>
+
+externdef __imp_dsuiext_ordinal167:PPROC
+dsuiext_ordinal167 equ <__imp_dsuiext_ordinal167>
+
+externdef __imp_dsuiext_ordinal168:PPROC
+dsuiext_ordinal168 equ <__imp_dsuiext_ordinal168>
+
+externdef __imp_dsuiext_ordinal169:PPROC
+dsuiext_ordinal169 equ <__imp_dsuiext_ordinal169>
+
+externdef __imp_dsuiext_ordinal16:PPROC
+dsuiext_ordinal16 equ <__imp_dsuiext_ordinal16>
+
+externdef __imp_dsuiext_ordinal170:PPROC
+dsuiext_ordinal170 equ <__imp_dsuiext_ordinal170>
+
+externdef __imp_dsuiext_ordinal171:PPROC
+dsuiext_ordinal171 equ <__imp_dsuiext_ordinal171>
+
+externdef __imp_dsuiext_ordinal172:PPROC
+dsuiext_ordinal172 equ <__imp_dsuiext_ordinal172>
+
+externdef __imp_dsuiext_ordinal173:PPROC
+dsuiext_ordinal173 equ <__imp_dsuiext_ordinal173>
+
+externdef __imp_dsuiext_ordinal174:PPROC
+dsuiext_ordinal174 equ <__imp_dsuiext_ordinal174>
+
+externdef __imp_dsuiext_ordinal175:PPROC
+dsuiext_ordinal175 equ <__imp_dsuiext_ordinal175>
+
+externdef __imp_dsuiext_ordinal176:PPROC
+dsuiext_ordinal176 equ <__imp_dsuiext_ordinal176>
+
+externdef __imp_dsuiext_ordinal177:PPROC
+dsuiext_ordinal177 equ <__imp_dsuiext_ordinal177>
+
+externdef __imp_dsuiext_ordinal178:PPROC
+dsuiext_ordinal178 equ <__imp_dsuiext_ordinal178>
+
+externdef __imp_dsuiext_ordinal179:PPROC
+dsuiext_ordinal179 equ <__imp_dsuiext_ordinal179>
+
+externdef __imp_dsuiext_ordinal17:PPROC
+dsuiext_ordinal17 equ <__imp_dsuiext_ordinal17>
+
+externdef __imp_dsuiext_ordinal180:PPROC
+dsuiext_ordinal180 equ <__imp_dsuiext_ordinal180>
+
+externdef __imp_dsuiext_ordinal181:PPROC
+dsuiext_ordinal181 equ <__imp_dsuiext_ordinal181>
+
+externdef __imp_dsuiext_ordinal182:PPROC
+dsuiext_ordinal182 equ <__imp_dsuiext_ordinal182>
+
+externdef __imp_dsuiext_ordinal183:PPROC
+dsuiext_ordinal183 equ <__imp_dsuiext_ordinal183>
+
+externdef __imp_dsuiext_ordinal184:PPROC
+dsuiext_ordinal184 equ <__imp_dsuiext_ordinal184>
+
+externdef __imp_dsuiext_ordinal185:PPROC
+dsuiext_ordinal185 equ <__imp_dsuiext_ordinal185>
+
+externdef __imp_dsuiext_ordinal186:PPROC
+dsuiext_ordinal186 equ <__imp_dsuiext_ordinal186>
+
+externdef __imp_dsuiext_ordinal187:PPROC
+dsuiext_ordinal187 equ <__imp_dsuiext_ordinal187>
+
+externdef __imp_dsuiext_ordinal188:PPROC
+dsuiext_ordinal188 equ <__imp_dsuiext_ordinal188>
+
+externdef __imp_dsuiext_ordinal189:PPROC
+dsuiext_ordinal189 equ <__imp_dsuiext_ordinal189>
+
+externdef __imp_dsuiext_ordinal18:PPROC
+dsuiext_ordinal18 equ <__imp_dsuiext_ordinal18>
+
+externdef __imp_dsuiext_ordinal190:PPROC
+dsuiext_ordinal190 equ <__imp_dsuiext_ordinal190>
+
+externdef __imp_dsuiext_ordinal191:PPROC
+dsuiext_ordinal191 equ <__imp_dsuiext_ordinal191>
+
+externdef __imp_dsuiext_ordinal192:PPROC
+dsuiext_ordinal192 equ <__imp_dsuiext_ordinal192>
+
+externdef __imp_dsuiext_ordinal193:PPROC
+dsuiext_ordinal193 equ <__imp_dsuiext_ordinal193>
+
+externdef __imp_dsuiext_ordinal194:PPROC
+dsuiext_ordinal194 equ <__imp_dsuiext_ordinal194>
+
+externdef __imp_dsuiext_ordinal195:PPROC
+dsuiext_ordinal195 equ <__imp_dsuiext_ordinal195>
+
+externdef __imp_dsuiext_ordinal196:PPROC
+dsuiext_ordinal196 equ <__imp_dsuiext_ordinal196>
+
+externdef __imp_dsuiext_ordinal197:PPROC
+dsuiext_ordinal197 equ <__imp_dsuiext_ordinal197>
+
+externdef __imp_dsuiext_ordinal198:PPROC
+dsuiext_ordinal198 equ <__imp_dsuiext_ordinal198>
+
+externdef __imp_dsuiext_ordinal199:PPROC
+dsuiext_ordinal199 equ <__imp_dsuiext_ordinal199>
+
+externdef __imp_dsuiext_ordinal19:PPROC
+dsuiext_ordinal19 equ <__imp_dsuiext_ordinal19>
+
+externdef __imp_dsuiext_ordinal200:PPROC
+dsuiext_ordinal200 equ <__imp_dsuiext_ordinal200>
+
+externdef __imp_dsuiext_ordinal201:PPROC
+dsuiext_ordinal201 equ <__imp_dsuiext_ordinal201>
+
+externdef __imp_dsuiext_ordinal202:PPROC
+dsuiext_ordinal202 equ <__imp_dsuiext_ordinal202>
+
+externdef __imp_dsuiext_ordinal203:PPROC
+dsuiext_ordinal203 equ <__imp_dsuiext_ordinal203>
+
+externdef __imp_dsuiext_ordinal204:PPROC
+dsuiext_ordinal204 equ <__imp_dsuiext_ordinal204>
+
+externdef __imp_dsuiext_ordinal205:PPROC
+dsuiext_ordinal205 equ <__imp_dsuiext_ordinal205>
+
+externdef __imp_dsuiext_ordinal206:PPROC
+dsuiext_ordinal206 equ <__imp_dsuiext_ordinal206>
+
+externdef __imp_dsuiext_ordinal207:PPROC
+dsuiext_ordinal207 equ <__imp_dsuiext_ordinal207>
+
+externdef __imp_dsuiext_ordinal208:PPROC
+dsuiext_ordinal208 equ <__imp_dsuiext_ordinal208>
+
+externdef __imp_dsuiext_ordinal209:PPROC
+dsuiext_ordinal209 equ <__imp_dsuiext_ordinal209>
+
+externdef __imp_dsuiext_ordinal20:PPROC
+dsuiext_ordinal20 equ <__imp_dsuiext_ordinal20>
+
+externdef __imp_dsuiext_ordinal210:PPROC
+dsuiext_ordinal210 equ <__imp_dsuiext_ordinal210>
+
+externdef __imp_dsuiext_ordinal211:PPROC
+dsuiext_ordinal211 equ <__imp_dsuiext_ordinal211>
+
+externdef __imp_dsuiext_ordinal212:PPROC
+dsuiext_ordinal212 equ <__imp_dsuiext_ordinal212>
+
+externdef __imp_dsuiext_ordinal213:PPROC
+dsuiext_ordinal213 equ <__imp_dsuiext_ordinal213>
+
+externdef __imp_dsuiext_ordinal214:PPROC
+dsuiext_ordinal214 equ <__imp_dsuiext_ordinal214>
+
+externdef __imp_dsuiext_ordinal215:PPROC
+dsuiext_ordinal215 equ <__imp_dsuiext_ordinal215>
+
+externdef __imp_dsuiext_ordinal216:PPROC
+dsuiext_ordinal216 equ <__imp_dsuiext_ordinal216>
+
+externdef __imp_dsuiext_ordinal217:PPROC
+dsuiext_ordinal217 equ <__imp_dsuiext_ordinal217>
+
+externdef __imp_dsuiext_ordinal218:PPROC
+dsuiext_ordinal218 equ <__imp_dsuiext_ordinal218>
+
+externdef __imp_dsuiext_ordinal219:PPROC
+dsuiext_ordinal219 equ <__imp_dsuiext_ordinal219>
+
+externdef __imp_dsuiext_ordinal21:PPROC
+dsuiext_ordinal21 equ <__imp_dsuiext_ordinal21>
+
+externdef __imp_dsuiext_ordinal220:PPROC
+dsuiext_ordinal220 equ <__imp_dsuiext_ordinal220>
+
+externdef __imp_dsuiext_ordinal221:PPROC
+dsuiext_ordinal221 equ <__imp_dsuiext_ordinal221>
+
+externdef __imp_dsuiext_ordinal222:PPROC
+dsuiext_ordinal222 equ <__imp_dsuiext_ordinal222>
+
+externdef __imp_dsuiext_ordinal223:PPROC
+dsuiext_ordinal223 equ <__imp_dsuiext_ordinal223>
+
+externdef __imp_dsuiext_ordinal224:PPROC
+dsuiext_ordinal224 equ <__imp_dsuiext_ordinal224>
+
+externdef __imp_dsuiext_ordinal225:PPROC
+dsuiext_ordinal225 equ <__imp_dsuiext_ordinal225>
+
+externdef __imp_dsuiext_ordinal226:PPROC
+dsuiext_ordinal226 equ <__imp_dsuiext_ordinal226>
+
+externdef __imp_dsuiext_ordinal227:PPROC
+dsuiext_ordinal227 equ <__imp_dsuiext_ordinal227>
+
+externdef __imp_dsuiext_ordinal228:PPROC
+dsuiext_ordinal228 equ <__imp_dsuiext_ordinal228>
+
+externdef __imp_dsuiext_ordinal229:PPROC
+dsuiext_ordinal229 equ <__imp_dsuiext_ordinal229>
+
+externdef __imp_dsuiext_ordinal22:PPROC
+dsuiext_ordinal22 equ <__imp_dsuiext_ordinal22>
+
+externdef __imp_dsuiext_ordinal230:PPROC
+dsuiext_ordinal230 equ <__imp_dsuiext_ordinal230>
+
+externdef __imp_dsuiext_ordinal231:PPROC
+dsuiext_ordinal231 equ <__imp_dsuiext_ordinal231>
+
+externdef __imp_dsuiext_ordinal232:PPROC
+dsuiext_ordinal232 equ <__imp_dsuiext_ordinal232>
+
+externdef __imp_dsuiext_ordinal233:PPROC
+dsuiext_ordinal233 equ <__imp_dsuiext_ordinal233>
+
+externdef __imp_dsuiext_ordinal234:PPROC
+dsuiext_ordinal234 equ <__imp_dsuiext_ordinal234>
+
+externdef __imp_dsuiext_ordinal235:PPROC
+dsuiext_ordinal235 equ <__imp_dsuiext_ordinal235>
+
+externdef __imp_dsuiext_ordinal236:PPROC
+dsuiext_ordinal236 equ <__imp_dsuiext_ordinal236>
+
+externdef __imp_dsuiext_ordinal237:PPROC
+dsuiext_ordinal237 equ <__imp_dsuiext_ordinal237>
+
+externdef __imp_dsuiext_ordinal238:PPROC
+dsuiext_ordinal238 equ <__imp_dsuiext_ordinal238>
+
+externdef __imp_dsuiext_ordinal239:PPROC
+dsuiext_ordinal239 equ <__imp_dsuiext_ordinal239>
+
+externdef __imp_dsuiext_ordinal23:PPROC
+dsuiext_ordinal23 equ <__imp_dsuiext_ordinal23>
+
+externdef __imp_dsuiext_ordinal240:PPROC
+dsuiext_ordinal240 equ <__imp_dsuiext_ordinal240>
+
+externdef __imp_dsuiext_ordinal241:PPROC
+dsuiext_ordinal241 equ <__imp_dsuiext_ordinal241>
+
+externdef __imp_dsuiext_ordinal242:PPROC
+dsuiext_ordinal242 equ <__imp_dsuiext_ordinal242>
+
+externdef __imp_dsuiext_ordinal243:PPROC
+dsuiext_ordinal243 equ <__imp_dsuiext_ordinal243>
+
+externdef __imp_dsuiext_ordinal244:PPROC
+dsuiext_ordinal244 equ <__imp_dsuiext_ordinal244>
+
+externdef __imp_dsuiext_ordinal245:PPROC
+dsuiext_ordinal245 equ <__imp_dsuiext_ordinal245>
+
+externdef __imp_dsuiext_ordinal246:PPROC
+dsuiext_ordinal246 equ <__imp_dsuiext_ordinal246>
+
+externdef __imp_dsuiext_ordinal247:PPROC
+dsuiext_ordinal247 equ <__imp_dsuiext_ordinal247>
+
+externdef __imp_dsuiext_ordinal248:PPROC
+dsuiext_ordinal248 equ <__imp_dsuiext_ordinal248>
+
+externdef __imp_dsuiext_ordinal249:PPROC
+dsuiext_ordinal249 equ <__imp_dsuiext_ordinal249>
+
+externdef __imp_dsuiext_ordinal24:PPROC
+dsuiext_ordinal24 equ <__imp_dsuiext_ordinal24>
+
+externdef __imp_dsuiext_ordinal250:PPROC
+dsuiext_ordinal250 equ <__imp_dsuiext_ordinal250>
+
+externdef __imp_dsuiext_ordinal251:PPROC
+dsuiext_ordinal251 equ <__imp_dsuiext_ordinal251>
+
+externdef __imp_dsuiext_ordinal252:PPROC
+dsuiext_ordinal252 equ <__imp_dsuiext_ordinal252>
+
+externdef __imp_dsuiext_ordinal253:PPROC
+dsuiext_ordinal253 equ <__imp_dsuiext_ordinal253>
+
+externdef __imp_dsuiext_ordinal254:PPROC
+dsuiext_ordinal254 equ <__imp_dsuiext_ordinal254>
+
+externdef __imp_dsuiext_ordinal255:PPROC
+dsuiext_ordinal255 equ <__imp_dsuiext_ordinal255>
+
+externdef __imp_dsuiext_ordinal256:PPROC
+dsuiext_ordinal256 equ <__imp_dsuiext_ordinal256>
+
+externdef __imp_dsuiext_ordinal258:PPROC
+dsuiext_ordinal258 equ <__imp_dsuiext_ordinal258>
+
+externdef __imp_dsuiext_ordinal25:PPROC
+dsuiext_ordinal25 equ <__imp_dsuiext_ordinal25>
+
+externdef __imp_dsuiext_ordinal260:PPROC
+dsuiext_ordinal260 equ <__imp_dsuiext_ordinal260>
+
+externdef __imp_dsuiext_ordinal261:PPROC
+dsuiext_ordinal261 equ <__imp_dsuiext_ordinal261>
+
+externdef __imp_dsuiext_ordinal262:PPROC
+dsuiext_ordinal262 equ <__imp_dsuiext_ordinal262>
+
+externdef __imp_dsuiext_ordinal263:PPROC
+dsuiext_ordinal263 equ <__imp_dsuiext_ordinal263>
+
+externdef __imp_dsuiext_ordinal264:PPROC
+dsuiext_ordinal264 equ <__imp_dsuiext_ordinal264>
+
+externdef __imp_dsuiext_ordinal265:PPROC
+dsuiext_ordinal265 equ <__imp_dsuiext_ordinal265>
+
+externdef __imp_dsuiext_ordinal266:PPROC
+dsuiext_ordinal266 equ <__imp_dsuiext_ordinal266>
+
+externdef __imp_dsuiext_ordinal267:PPROC
+dsuiext_ordinal267 equ <__imp_dsuiext_ordinal267>
+
+externdef __imp_dsuiext_ordinal268:PPROC
+dsuiext_ordinal268 equ <__imp_dsuiext_ordinal268>
+
+externdef __imp_dsuiext_ordinal269:PPROC
+dsuiext_ordinal269 equ <__imp_dsuiext_ordinal269>
+
+externdef __imp_dsuiext_ordinal26:PPROC
+dsuiext_ordinal26 equ <__imp_dsuiext_ordinal26>
+
+externdef __imp_dsuiext_ordinal270:PPROC
+dsuiext_ordinal270 equ <__imp_dsuiext_ordinal270>
+
+externdef __imp_dsuiext_ordinal271:PPROC
+dsuiext_ordinal271 equ <__imp_dsuiext_ordinal271>
+
+externdef __imp_dsuiext_ordinal272:PPROC
+dsuiext_ordinal272 equ <__imp_dsuiext_ordinal272>
+
+externdef __imp_dsuiext_ordinal273:PPROC
+dsuiext_ordinal273 equ <__imp_dsuiext_ordinal273>
+
+externdef __imp_dsuiext_ordinal274:PPROC
+dsuiext_ordinal274 equ <__imp_dsuiext_ordinal274>
+
+externdef __imp_dsuiext_ordinal275:PPROC
+dsuiext_ordinal275 equ <__imp_dsuiext_ordinal275>
+
+externdef __imp_dsuiext_ordinal276:PPROC
+dsuiext_ordinal276 equ <__imp_dsuiext_ordinal276>
+
+externdef __imp_dsuiext_ordinal277:PPROC
+dsuiext_ordinal277 equ <__imp_dsuiext_ordinal277>
+
+externdef __imp_dsuiext_ordinal278:PPROC
+dsuiext_ordinal278 equ <__imp_dsuiext_ordinal278>
+
+externdef __imp_dsuiext_ordinal279:PPROC
+dsuiext_ordinal279 equ <__imp_dsuiext_ordinal279>
+
+externdef __imp_dsuiext_ordinal27:PPROC
+dsuiext_ordinal27 equ <__imp_dsuiext_ordinal27>
+
+externdef __imp_dsuiext_ordinal280:PPROC
+dsuiext_ordinal280 equ <__imp_dsuiext_ordinal280>
+
+externdef __imp_dsuiext_ordinal281:PPROC
+dsuiext_ordinal281 equ <__imp_dsuiext_ordinal281>
+
+externdef __imp_dsuiext_ordinal282:PPROC
+dsuiext_ordinal282 equ <__imp_dsuiext_ordinal282>
+
+externdef __imp_dsuiext_ordinal283:PPROC
+dsuiext_ordinal283 equ <__imp_dsuiext_ordinal283>
+
+externdef __imp_dsuiext_ordinal284:PPROC
+dsuiext_ordinal284 equ <__imp_dsuiext_ordinal284>
+
+externdef __imp_dsuiext_ordinal285:PPROC
+dsuiext_ordinal285 equ <__imp_dsuiext_ordinal285>
+
+externdef __imp_dsuiext_ordinal286:PPROC
+dsuiext_ordinal286 equ <__imp_dsuiext_ordinal286>
+
+externdef __imp_dsuiext_ordinal287:PPROC
+dsuiext_ordinal287 equ <__imp_dsuiext_ordinal287>
+
+externdef __imp_dsuiext_ordinal288:PPROC
+dsuiext_ordinal288 equ <__imp_dsuiext_ordinal288>
+
+externdef __imp_dsuiext_ordinal289:PPROC
+dsuiext_ordinal289 equ <__imp_dsuiext_ordinal289>
+
+externdef __imp_dsuiext_ordinal28:PPROC
+dsuiext_ordinal28 equ <__imp_dsuiext_ordinal28>
+
+externdef __imp_dsuiext_ordinal290:PPROC
+dsuiext_ordinal290 equ <__imp_dsuiext_ordinal290>
+
+externdef __imp_dsuiext_ordinal291:PPROC
+dsuiext_ordinal291 equ <__imp_dsuiext_ordinal291>
+
+externdef __imp_dsuiext_ordinal292:PPROC
+dsuiext_ordinal292 equ <__imp_dsuiext_ordinal292>
+
+externdef __imp_dsuiext_ordinal293:PPROC
+dsuiext_ordinal293 equ <__imp_dsuiext_ordinal293>
+
+externdef __imp_dsuiext_ordinal294:PPROC
+dsuiext_ordinal294 equ <__imp_dsuiext_ordinal294>
+
+externdef __imp_dsuiext_ordinal295:PPROC
+dsuiext_ordinal295 equ <__imp_dsuiext_ordinal295>
+
+externdef __imp_dsuiext_ordinal296:PPROC
+dsuiext_ordinal296 equ <__imp_dsuiext_ordinal296>
+
+externdef __imp_dsuiext_ordinal297:PPROC
+dsuiext_ordinal297 equ <__imp_dsuiext_ordinal297>
+
+externdef __imp_dsuiext_ordinal298:PPROC
+dsuiext_ordinal298 equ <__imp_dsuiext_ordinal298>
+
+externdef __imp_dsuiext_ordinal299:PPROC
+dsuiext_ordinal299 equ <__imp_dsuiext_ordinal299>
+
+externdef __imp_dsuiext_ordinal29:PPROC
+dsuiext_ordinal29 equ <__imp_dsuiext_ordinal29>
+
+externdef __imp_dsuiext_ordinal300:PPROC
+dsuiext_ordinal300 equ <__imp_dsuiext_ordinal300>
+
+externdef __imp_dsuiext_ordinal301:PPROC
+dsuiext_ordinal301 equ <__imp_dsuiext_ordinal301>
+
+externdef __imp_dsuiext_ordinal302:PPROC
+dsuiext_ordinal302 equ <__imp_dsuiext_ordinal302>
+
+externdef __imp_dsuiext_ordinal303:PPROC
+dsuiext_ordinal303 equ <__imp_dsuiext_ordinal303>
+
+externdef __imp_dsuiext_ordinal304:PPROC
+dsuiext_ordinal304 equ <__imp_dsuiext_ordinal304>
+
+externdef __imp_dsuiext_ordinal305:PPROC
+dsuiext_ordinal305 equ <__imp_dsuiext_ordinal305>
+
+externdef __imp_dsuiext_ordinal306:PPROC
+dsuiext_ordinal306 equ <__imp_dsuiext_ordinal306>
+
+externdef __imp_dsuiext_ordinal307:PPROC
+dsuiext_ordinal307 equ <__imp_dsuiext_ordinal307>
+
+externdef __imp_dsuiext_ordinal308:PPROC
+dsuiext_ordinal308 equ <__imp_dsuiext_ordinal308>
+
+externdef __imp_dsuiext_ordinal309:PPROC
+dsuiext_ordinal309 equ <__imp_dsuiext_ordinal309>
+
+externdef __imp_dsuiext_ordinal30:PPROC
+dsuiext_ordinal30 equ <__imp_dsuiext_ordinal30>
+
+externdef __imp_dsuiext_ordinal310:PPROC
+dsuiext_ordinal310 equ <__imp_dsuiext_ordinal310>
+
+externdef __imp_dsuiext_ordinal311:PPROC
+dsuiext_ordinal311 equ <__imp_dsuiext_ordinal311>
+
+externdef __imp_dsuiext_ordinal312:PPROC
+dsuiext_ordinal312 equ <__imp_dsuiext_ordinal312>
+
+externdef __imp_dsuiext_ordinal313:PPROC
+dsuiext_ordinal313 equ <__imp_dsuiext_ordinal313>
+
+externdef __imp_dsuiext_ordinal314:PPROC
+dsuiext_ordinal314 equ <__imp_dsuiext_ordinal314>
+
+externdef __imp_dsuiext_ordinal315:PPROC
+dsuiext_ordinal315 equ <__imp_dsuiext_ordinal315>
+
+externdef __imp_dsuiext_ordinal316:PPROC
+dsuiext_ordinal316 equ <__imp_dsuiext_ordinal316>
+
+externdef __imp_dsuiext_ordinal317:PPROC
+dsuiext_ordinal317 equ <__imp_dsuiext_ordinal317>
+
+externdef __imp_dsuiext_ordinal318:PPROC
+dsuiext_ordinal318 equ <__imp_dsuiext_ordinal318>
+
+externdef __imp_dsuiext_ordinal319:PPROC
+dsuiext_ordinal319 equ <__imp_dsuiext_ordinal319>
+
+externdef __imp_dsuiext_ordinal31:PPROC
+dsuiext_ordinal31 equ <__imp_dsuiext_ordinal31>
+
+externdef __imp_dsuiext_ordinal320:PPROC
+dsuiext_ordinal320 equ <__imp_dsuiext_ordinal320>
+
+externdef __imp_dsuiext_ordinal321:PPROC
+dsuiext_ordinal321 equ <__imp_dsuiext_ordinal321>
+
+externdef __imp_dsuiext_ordinal322:PPROC
+dsuiext_ordinal322 equ <__imp_dsuiext_ordinal322>
+
+externdef __imp_dsuiext_ordinal323:PPROC
+dsuiext_ordinal323 equ <__imp_dsuiext_ordinal323>
+
+externdef __imp_dsuiext_ordinal324:PPROC
+dsuiext_ordinal324 equ <__imp_dsuiext_ordinal324>
+
+externdef __imp_dsuiext_ordinal325:PPROC
+dsuiext_ordinal325 equ <__imp_dsuiext_ordinal325>
+
+externdef __imp_dsuiext_ordinal326:PPROC
+dsuiext_ordinal326 equ <__imp_dsuiext_ordinal326>
+
+externdef __imp_dsuiext_ordinal327:PPROC
+dsuiext_ordinal327 equ <__imp_dsuiext_ordinal327>
+
+externdef __imp_dsuiext_ordinal328:PPROC
+dsuiext_ordinal328 equ <__imp_dsuiext_ordinal328>
+
+externdef __imp_dsuiext_ordinal329:PPROC
+dsuiext_ordinal329 equ <__imp_dsuiext_ordinal329>
+
+externdef __imp_dsuiext_ordinal32:PPROC
+dsuiext_ordinal32 equ <__imp_dsuiext_ordinal32>
+
+externdef __imp_dsuiext_ordinal330:PPROC
+dsuiext_ordinal330 equ <__imp_dsuiext_ordinal330>
+
+externdef __imp_dsuiext_ordinal331:PPROC
+dsuiext_ordinal331 equ <__imp_dsuiext_ordinal331>
+
+externdef __imp_dsuiext_ordinal332:PPROC
+dsuiext_ordinal332 equ <__imp_dsuiext_ordinal332>
+
+externdef __imp_dsuiext_ordinal333:PPROC
+dsuiext_ordinal333 equ <__imp_dsuiext_ordinal333>
+
+externdef __imp_dsuiext_ordinal334:PPROC
+dsuiext_ordinal334 equ <__imp_dsuiext_ordinal334>
+
+externdef __imp_dsuiext_ordinal335:PPROC
+dsuiext_ordinal335 equ <__imp_dsuiext_ordinal335>
+
+externdef __imp_dsuiext_ordinal336:PPROC
+dsuiext_ordinal336 equ <__imp_dsuiext_ordinal336>
+
+externdef __imp_dsuiext_ordinal337:PPROC
+dsuiext_ordinal337 equ <__imp_dsuiext_ordinal337>
+
+externdef __imp_dsuiext_ordinal338:PPROC
+dsuiext_ordinal338 equ <__imp_dsuiext_ordinal338>
+
+externdef __imp_dsuiext_ordinal339:PPROC
+dsuiext_ordinal339 equ <__imp_dsuiext_ordinal339>
+
+externdef __imp_dsuiext_ordinal33:PPROC
+dsuiext_ordinal33 equ <__imp_dsuiext_ordinal33>
+
+externdef __imp_dsuiext_ordinal340:PPROC
+dsuiext_ordinal340 equ <__imp_dsuiext_ordinal340>
+
+externdef __imp_dsuiext_ordinal341:PPROC
+dsuiext_ordinal341 equ <__imp_dsuiext_ordinal341>
+
+externdef __imp_dsuiext_ordinal342:PPROC
+dsuiext_ordinal342 equ <__imp_dsuiext_ordinal342>
+
+externdef __imp_dsuiext_ordinal343:PPROC
+dsuiext_ordinal343 equ <__imp_dsuiext_ordinal343>
+
+externdef __imp_dsuiext_ordinal344:PPROC
+dsuiext_ordinal344 equ <__imp_dsuiext_ordinal344>
+
+externdef __imp_dsuiext_ordinal345:PPROC
+dsuiext_ordinal345 equ <__imp_dsuiext_ordinal345>
+
+externdef __imp_dsuiext_ordinal346:PPROC
+dsuiext_ordinal346 equ <__imp_dsuiext_ordinal346>
+
+externdef __imp_dsuiext_ordinal347:PPROC
+dsuiext_ordinal347 equ <__imp_dsuiext_ordinal347>
+
+externdef __imp_dsuiext_ordinal348:PPROC
+dsuiext_ordinal348 equ <__imp_dsuiext_ordinal348>
+
+externdef __imp_dsuiext_ordinal349:PPROC
+dsuiext_ordinal349 equ <__imp_dsuiext_ordinal349>
+
+externdef __imp_dsuiext_ordinal34:PPROC
+dsuiext_ordinal34 equ <__imp_dsuiext_ordinal34>
+
+externdef __imp_dsuiext_ordinal350:PPROC
+dsuiext_ordinal350 equ <__imp_dsuiext_ordinal350>
+
+externdef __imp_dsuiext_ordinal351:PPROC
+dsuiext_ordinal351 equ <__imp_dsuiext_ordinal351>
+
+externdef __imp_dsuiext_ordinal352:PPROC
+dsuiext_ordinal352 equ <__imp_dsuiext_ordinal352>
+
+externdef __imp_dsuiext_ordinal353:PPROC
+dsuiext_ordinal353 equ <__imp_dsuiext_ordinal353>
+
+externdef __imp_dsuiext_ordinal354:PPROC
+dsuiext_ordinal354 equ <__imp_dsuiext_ordinal354>
+
+externdef __imp_dsuiext_ordinal355:PPROC
+dsuiext_ordinal355 equ <__imp_dsuiext_ordinal355>
+
+externdef __imp_dsuiext_ordinal356:PPROC
+dsuiext_ordinal356 equ <__imp_dsuiext_ordinal356>
+
+externdef __imp_dsuiext_ordinal357:PPROC
+dsuiext_ordinal357 equ <__imp_dsuiext_ordinal357>
+
+externdef __imp_dsuiext_ordinal358:PPROC
+dsuiext_ordinal358 equ <__imp_dsuiext_ordinal358>
+
+externdef __imp_dsuiext_ordinal359:PPROC
+dsuiext_ordinal359 equ <__imp_dsuiext_ordinal359>
+
+externdef __imp_dsuiext_ordinal35:PPROC
+dsuiext_ordinal35 equ <__imp_dsuiext_ordinal35>
+
+externdef __imp_dsuiext_ordinal360:PPROC
+dsuiext_ordinal360 equ <__imp_dsuiext_ordinal360>
+
+externdef __imp_dsuiext_ordinal361:PPROC
+dsuiext_ordinal361 equ <__imp_dsuiext_ordinal361>
+
+externdef __imp_dsuiext_ordinal362:PPROC
+dsuiext_ordinal362 equ <__imp_dsuiext_ordinal362>
+
+externdef __imp_dsuiext_ordinal363:PPROC
+dsuiext_ordinal363 equ <__imp_dsuiext_ordinal363>
+
+externdef __imp_dsuiext_ordinal364:PPROC
+dsuiext_ordinal364 equ <__imp_dsuiext_ordinal364>
+
+externdef __imp_dsuiext_ordinal365:PPROC
+dsuiext_ordinal365 equ <__imp_dsuiext_ordinal365>
+
+externdef __imp_dsuiext_ordinal366:PPROC
+dsuiext_ordinal366 equ <__imp_dsuiext_ordinal366>
+
+externdef __imp_dsuiext_ordinal367:PPROC
+dsuiext_ordinal367 equ <__imp_dsuiext_ordinal367>
+
+externdef __imp_dsuiext_ordinal368:PPROC
+dsuiext_ordinal368 equ <__imp_dsuiext_ordinal368>
+
+externdef __imp_dsuiext_ordinal369:PPROC
+dsuiext_ordinal369 equ <__imp_dsuiext_ordinal369>
+
+externdef __imp_dsuiext_ordinal36:PPROC
+dsuiext_ordinal36 equ <__imp_dsuiext_ordinal36>
+
+externdef __imp_dsuiext_ordinal370:PPROC
+dsuiext_ordinal370 equ <__imp_dsuiext_ordinal370>
+
+externdef __imp_dsuiext_ordinal371:PPROC
+dsuiext_ordinal371 equ <__imp_dsuiext_ordinal371>
+
+externdef __imp_dsuiext_ordinal372:PPROC
+dsuiext_ordinal372 equ <__imp_dsuiext_ordinal372>
+
+externdef __imp_dsuiext_ordinal373:PPROC
+dsuiext_ordinal373 equ <__imp_dsuiext_ordinal373>
+
+externdef __imp_dsuiext_ordinal374:PPROC
+dsuiext_ordinal374 equ <__imp_dsuiext_ordinal374>
+
+externdef __imp_dsuiext_ordinal375:PPROC
+dsuiext_ordinal375 equ <__imp_dsuiext_ordinal375>
+
+externdef __imp_dsuiext_ordinal376:PPROC
+dsuiext_ordinal376 equ <__imp_dsuiext_ordinal376>
+
+externdef __imp_dsuiext_ordinal377:PPROC
+dsuiext_ordinal377 equ <__imp_dsuiext_ordinal377>
+
+externdef __imp_dsuiext_ordinal378:PPROC
+dsuiext_ordinal378 equ <__imp_dsuiext_ordinal378>
+
+externdef __imp_dsuiext_ordinal379:PPROC
+dsuiext_ordinal379 equ <__imp_dsuiext_ordinal379>
+
+externdef __imp_dsuiext_ordinal37:PPROC
+dsuiext_ordinal37 equ <__imp_dsuiext_ordinal37>
+
+externdef __imp_dsuiext_ordinal380:PPROC
+dsuiext_ordinal380 equ <__imp_dsuiext_ordinal380>
+
+externdef __imp_dsuiext_ordinal381:PPROC
+dsuiext_ordinal381 equ <__imp_dsuiext_ordinal381>
+
+externdef __imp_dsuiext_ordinal382:PPROC
+dsuiext_ordinal382 equ <__imp_dsuiext_ordinal382>
+
+externdef __imp_dsuiext_ordinal383:PPROC
+dsuiext_ordinal383 equ <__imp_dsuiext_ordinal383>
+
+externdef __imp_dsuiext_ordinal384:PPROC
+dsuiext_ordinal384 equ <__imp_dsuiext_ordinal384>
+
+externdef __imp_dsuiext_ordinal385:PPROC
+dsuiext_ordinal385 equ <__imp_dsuiext_ordinal385>
+
+externdef __imp_dsuiext_ordinal386:PPROC
+dsuiext_ordinal386 equ <__imp_dsuiext_ordinal386>
+
+externdef __imp_dsuiext_ordinal387:PPROC
+dsuiext_ordinal387 equ <__imp_dsuiext_ordinal387>
+
+externdef __imp_dsuiext_ordinal388:PPROC
+dsuiext_ordinal388 equ <__imp_dsuiext_ordinal388>
+
+externdef __imp_dsuiext_ordinal389:PPROC
+dsuiext_ordinal389 equ <__imp_dsuiext_ordinal389>
+
+externdef __imp_dsuiext_ordinal38:PPROC
+dsuiext_ordinal38 equ <__imp_dsuiext_ordinal38>
+
+externdef __imp_dsuiext_ordinal390:PPROC
+dsuiext_ordinal390 equ <__imp_dsuiext_ordinal390>
+
+externdef __imp_dsuiext_ordinal391:PPROC
+dsuiext_ordinal391 equ <__imp_dsuiext_ordinal391>
+
+externdef __imp_dsuiext_ordinal392:PPROC
+dsuiext_ordinal392 equ <__imp_dsuiext_ordinal392>
+
+externdef __imp_dsuiext_ordinal393:PPROC
+dsuiext_ordinal393 equ <__imp_dsuiext_ordinal393>
+
+externdef __imp_dsuiext_ordinal394:PPROC
+dsuiext_ordinal394 equ <__imp_dsuiext_ordinal394>
+
+externdef __imp_dsuiext_ordinal395:PPROC
+dsuiext_ordinal395 equ <__imp_dsuiext_ordinal395>
+
+externdef __imp_dsuiext_ordinal396:PPROC
+dsuiext_ordinal396 equ <__imp_dsuiext_ordinal396>
+
+externdef __imp_dsuiext_ordinal397:PPROC
+dsuiext_ordinal397 equ <__imp_dsuiext_ordinal397>
+
+externdef __imp_dsuiext_ordinal398:PPROC
+dsuiext_ordinal398 equ <__imp_dsuiext_ordinal398>
+
+externdef __imp_dsuiext_ordinal399:PPROC
+dsuiext_ordinal399 equ <__imp_dsuiext_ordinal399>
+
+externdef __imp_dsuiext_ordinal39:PPROC
+dsuiext_ordinal39 equ <__imp_dsuiext_ordinal39>
+
+externdef __imp_dsuiext_ordinal400:PPROC
+dsuiext_ordinal400 equ <__imp_dsuiext_ordinal400>
+
+externdef __imp_dsuiext_ordinal401:PPROC
+dsuiext_ordinal401 equ <__imp_dsuiext_ordinal401>
+
+externdef __imp_dsuiext_ordinal402:PPROC
+dsuiext_ordinal402 equ <__imp_dsuiext_ordinal402>
+
+externdef __imp_dsuiext_ordinal403:PPROC
+dsuiext_ordinal403 equ <__imp_dsuiext_ordinal403>
+
+externdef __imp_dsuiext_ordinal404:PPROC
+dsuiext_ordinal404 equ <__imp_dsuiext_ordinal404>
+
+externdef __imp_dsuiext_ordinal405:PPROC
+dsuiext_ordinal405 equ <__imp_dsuiext_ordinal405>
+
+externdef __imp_dsuiext_ordinal406:PPROC
+dsuiext_ordinal406 equ <__imp_dsuiext_ordinal406>
+
+externdef __imp_dsuiext_ordinal407:PPROC
+dsuiext_ordinal407 equ <__imp_dsuiext_ordinal407>
+
+externdef __imp_dsuiext_ordinal408:PPROC
+dsuiext_ordinal408 equ <__imp_dsuiext_ordinal408>
+
+externdef __imp_dsuiext_ordinal409:PPROC
+dsuiext_ordinal409 equ <__imp_dsuiext_ordinal409>
+
+externdef __imp_dsuiext_ordinal40:PPROC
+dsuiext_ordinal40 equ <__imp_dsuiext_ordinal40>
+
+externdef __imp_dsuiext_ordinal410:PPROC
+dsuiext_ordinal410 equ <__imp_dsuiext_ordinal410>
+
+externdef __imp_dsuiext_ordinal411:PPROC
+dsuiext_ordinal411 equ <__imp_dsuiext_ordinal411>
+
+externdef __imp_dsuiext_ordinal412:PPROC
+dsuiext_ordinal412 equ <__imp_dsuiext_ordinal412>
+
+externdef __imp_dsuiext_ordinal413:PPROC
+dsuiext_ordinal413 equ <__imp_dsuiext_ordinal413>
+
+externdef __imp_dsuiext_ordinal414:PPROC
+dsuiext_ordinal414 equ <__imp_dsuiext_ordinal414>
+
+externdef __imp_dsuiext_ordinal415:PPROC
+dsuiext_ordinal415 equ <__imp_dsuiext_ordinal415>
+
+externdef __imp_dsuiext_ordinal416:PPROC
+dsuiext_ordinal416 equ <__imp_dsuiext_ordinal416>
+
+externdef __imp_dsuiext_ordinal417:PPROC
+dsuiext_ordinal417 equ <__imp_dsuiext_ordinal417>
+
+externdef __imp_dsuiext_ordinal418:PPROC
+dsuiext_ordinal418 equ <__imp_dsuiext_ordinal418>
+
+externdef __imp_dsuiext_ordinal419:PPROC
+dsuiext_ordinal419 equ <__imp_dsuiext_ordinal419>
+
+externdef __imp_dsuiext_ordinal41:PPROC
+dsuiext_ordinal41 equ <__imp_dsuiext_ordinal41>
+
+externdef __imp_dsuiext_ordinal420:PPROC
+dsuiext_ordinal420 equ <__imp_dsuiext_ordinal420>
+
+externdef __imp_dsuiext_ordinal421:PPROC
+dsuiext_ordinal421 equ <__imp_dsuiext_ordinal421>
+
+externdef __imp_dsuiext_ordinal422:PPROC
+dsuiext_ordinal422 equ <__imp_dsuiext_ordinal422>
+
+externdef __imp_dsuiext_ordinal423:PPROC
+dsuiext_ordinal423 equ <__imp_dsuiext_ordinal423>
+
+externdef __imp_dsuiext_ordinal424:PPROC
+dsuiext_ordinal424 equ <__imp_dsuiext_ordinal424>
+
+externdef __imp_dsuiext_ordinal425:PPROC
+dsuiext_ordinal425 equ <__imp_dsuiext_ordinal425>
+
+externdef __imp_dsuiext_ordinal426:PPROC
+dsuiext_ordinal426 equ <__imp_dsuiext_ordinal426>
+
+externdef __imp_dsuiext_ordinal427:PPROC
+dsuiext_ordinal427 equ <__imp_dsuiext_ordinal427>
+
+externdef __imp_dsuiext_ordinal428:PPROC
+dsuiext_ordinal428 equ <__imp_dsuiext_ordinal428>
+
+externdef __imp_dsuiext_ordinal429:PPROC
+dsuiext_ordinal429 equ <__imp_dsuiext_ordinal429>
+
+externdef __imp_dsuiext_ordinal42:PPROC
+dsuiext_ordinal42 equ <__imp_dsuiext_ordinal42>
+
+externdef __imp_dsuiext_ordinal430:PPROC
+dsuiext_ordinal430 equ <__imp_dsuiext_ordinal430>
+
+externdef __imp_dsuiext_ordinal431:PPROC
+dsuiext_ordinal431 equ <__imp_dsuiext_ordinal431>
+
+externdef __imp_dsuiext_ordinal432:PPROC
+dsuiext_ordinal432 equ <__imp_dsuiext_ordinal432>
+
+externdef __imp_dsuiext_ordinal433:PPROC
+dsuiext_ordinal433 equ <__imp_dsuiext_ordinal433>
+
+externdef __imp_dsuiext_ordinal434:PPROC
+dsuiext_ordinal434 equ <__imp_dsuiext_ordinal434>
+
+externdef __imp_dsuiext_ordinal435:PPROC
+dsuiext_ordinal435 equ <__imp_dsuiext_ordinal435>
+
+externdef __imp_dsuiext_ordinal436:PPROC
+dsuiext_ordinal436 equ <__imp_dsuiext_ordinal436>
+
+externdef __imp_dsuiext_ordinal437:PPROC
+dsuiext_ordinal437 equ <__imp_dsuiext_ordinal437>
+
+externdef __imp_dsuiext_ordinal438:PPROC
+dsuiext_ordinal438 equ <__imp_dsuiext_ordinal438>
+
+externdef __imp_dsuiext_ordinal439:PPROC
+dsuiext_ordinal439 equ <__imp_dsuiext_ordinal439>
+
+externdef __imp_dsuiext_ordinal43:PPROC
+dsuiext_ordinal43 equ <__imp_dsuiext_ordinal43>
+
+externdef __imp_dsuiext_ordinal440:PPROC
+dsuiext_ordinal440 equ <__imp_dsuiext_ordinal440>
+
+externdef __imp_dsuiext_ordinal441:PPROC
+dsuiext_ordinal441 equ <__imp_dsuiext_ordinal441>
+
+externdef __imp_dsuiext_ordinal442:PPROC
+dsuiext_ordinal442 equ <__imp_dsuiext_ordinal442>
+
+externdef __imp_dsuiext_ordinal443:PPROC
+dsuiext_ordinal443 equ <__imp_dsuiext_ordinal443>
+
+externdef __imp_dsuiext_ordinal444:PPROC
+dsuiext_ordinal444 equ <__imp_dsuiext_ordinal444>
+
+externdef __imp_dsuiext_ordinal445:PPROC
+dsuiext_ordinal445 equ <__imp_dsuiext_ordinal445>
+
+externdef __imp_dsuiext_ordinal446:PPROC
+dsuiext_ordinal446 equ <__imp_dsuiext_ordinal446>
+
+externdef __imp_dsuiext_ordinal447:PPROC
+dsuiext_ordinal447 equ <__imp_dsuiext_ordinal447>
+
+externdef __imp_dsuiext_ordinal448:PPROC
+dsuiext_ordinal448 equ <__imp_dsuiext_ordinal448>
+
+externdef __imp_dsuiext_ordinal449:PPROC
+dsuiext_ordinal449 equ <__imp_dsuiext_ordinal449>
+
+externdef __imp_dsuiext_ordinal44:PPROC
+dsuiext_ordinal44 equ <__imp_dsuiext_ordinal44>
+
+externdef __imp_dsuiext_ordinal450:PPROC
+dsuiext_ordinal450 equ <__imp_dsuiext_ordinal450>
+
+externdef __imp_dsuiext_ordinal451:PPROC
+dsuiext_ordinal451 equ <__imp_dsuiext_ordinal451>
+
+externdef __imp_dsuiext_ordinal452:PPROC
+dsuiext_ordinal452 equ <__imp_dsuiext_ordinal452>
+
+externdef __imp_dsuiext_ordinal453:PPROC
+dsuiext_ordinal453 equ <__imp_dsuiext_ordinal453>
+
+externdef __imp_dsuiext_ordinal454:PPROC
+dsuiext_ordinal454 equ <__imp_dsuiext_ordinal454>
+
+externdef __imp_dsuiext_ordinal455:PPROC
+dsuiext_ordinal455 equ <__imp_dsuiext_ordinal455>
+
+externdef __imp_dsuiext_ordinal456:PPROC
+dsuiext_ordinal456 equ <__imp_dsuiext_ordinal456>
+
+externdef __imp_dsuiext_ordinal457:PPROC
+dsuiext_ordinal457 equ <__imp_dsuiext_ordinal457>
+
+externdef __imp_dsuiext_ordinal458:PPROC
+dsuiext_ordinal458 equ <__imp_dsuiext_ordinal458>
+
+externdef __imp_dsuiext_ordinal459:PPROC
+dsuiext_ordinal459 equ <__imp_dsuiext_ordinal459>
+
+externdef __imp_dsuiext_ordinal45:PPROC
+dsuiext_ordinal45 equ <__imp_dsuiext_ordinal45>
+
+externdef __imp_dsuiext_ordinal460:PPROC
+dsuiext_ordinal460 equ <__imp_dsuiext_ordinal460>
+
+externdef __imp_dsuiext_ordinal461:PPROC
+dsuiext_ordinal461 equ <__imp_dsuiext_ordinal461>
+
+externdef __imp_dsuiext_ordinal462:PPROC
+dsuiext_ordinal462 equ <__imp_dsuiext_ordinal462>
+
+externdef __imp_dsuiext_ordinal463:PPROC
+dsuiext_ordinal463 equ <__imp_dsuiext_ordinal463>
+
+externdef __imp_dsuiext_ordinal464:PPROC
+dsuiext_ordinal464 equ <__imp_dsuiext_ordinal464>
+
+externdef __imp_dsuiext_ordinal465:PPROC
+dsuiext_ordinal465 equ <__imp_dsuiext_ordinal465>
+
+externdef __imp_dsuiext_ordinal466:PPROC
+dsuiext_ordinal466 equ <__imp_dsuiext_ordinal466>
+
+externdef __imp_dsuiext_ordinal467:PPROC
+dsuiext_ordinal467 equ <__imp_dsuiext_ordinal467>
+
+externdef __imp_dsuiext_ordinal468:PPROC
+dsuiext_ordinal468 equ <__imp_dsuiext_ordinal468>
+
+externdef __imp_dsuiext_ordinal469:PPROC
+dsuiext_ordinal469 equ <__imp_dsuiext_ordinal469>
+
+externdef __imp_dsuiext_ordinal46:PPROC
+dsuiext_ordinal46 equ <__imp_dsuiext_ordinal46>
+
+externdef __imp_dsuiext_ordinal470:PPROC
+dsuiext_ordinal470 equ <__imp_dsuiext_ordinal470>
+
+externdef __imp_dsuiext_ordinal471:PPROC
+dsuiext_ordinal471 equ <__imp_dsuiext_ordinal471>
+
+externdef __imp_dsuiext_ordinal472:PPROC
+dsuiext_ordinal472 equ <__imp_dsuiext_ordinal472>
+
+externdef __imp_dsuiext_ordinal473:PPROC
+dsuiext_ordinal473 equ <__imp_dsuiext_ordinal473>
+
+externdef __imp_dsuiext_ordinal474:PPROC
+dsuiext_ordinal474 equ <__imp_dsuiext_ordinal474>
+
+externdef __imp_dsuiext_ordinal475:PPROC
+dsuiext_ordinal475 equ <__imp_dsuiext_ordinal475>
+
+externdef __imp_dsuiext_ordinal476:PPROC
+dsuiext_ordinal476 equ <__imp_dsuiext_ordinal476>
+
+externdef __imp_dsuiext_ordinal477:PPROC
+dsuiext_ordinal477 equ <__imp_dsuiext_ordinal477>
+
+externdef __imp_dsuiext_ordinal478:PPROC
+dsuiext_ordinal478 equ <__imp_dsuiext_ordinal478>
+
+externdef __imp_dsuiext_ordinal479:PPROC
+dsuiext_ordinal479 equ <__imp_dsuiext_ordinal479>
+
+externdef __imp_dsuiext_ordinal47:PPROC
+dsuiext_ordinal47 equ <__imp_dsuiext_ordinal47>
+
+externdef __imp_dsuiext_ordinal480:PPROC
+dsuiext_ordinal480 equ <__imp_dsuiext_ordinal480>
+
+externdef __imp_dsuiext_ordinal481:PPROC
+dsuiext_ordinal481 equ <__imp_dsuiext_ordinal481>
+
+externdef __imp_dsuiext_ordinal482:PPROC
+dsuiext_ordinal482 equ <__imp_dsuiext_ordinal482>
+
+externdef __imp_dsuiext_ordinal483:PPROC
+dsuiext_ordinal483 equ <__imp_dsuiext_ordinal483>
+
+externdef __imp_dsuiext_ordinal484:PPROC
+dsuiext_ordinal484 equ <__imp_dsuiext_ordinal484>
+
+externdef __imp_dsuiext_ordinal485:PPROC
+dsuiext_ordinal485 equ <__imp_dsuiext_ordinal485>
+
+externdef __imp_dsuiext_ordinal486:PPROC
+dsuiext_ordinal486 equ <__imp_dsuiext_ordinal486>
+
+externdef __imp_dsuiext_ordinal487:PPROC
+dsuiext_ordinal487 equ <__imp_dsuiext_ordinal487>
+
+externdef __imp_dsuiext_ordinal488:PPROC
+dsuiext_ordinal488 equ <__imp_dsuiext_ordinal488>
+
+externdef __imp_dsuiext_ordinal489:PPROC
+dsuiext_ordinal489 equ <__imp_dsuiext_ordinal489>
+
+externdef __imp_dsuiext_ordinal48:PPROC
+dsuiext_ordinal48 equ <__imp_dsuiext_ordinal48>
+
+externdef __imp_dsuiext_ordinal490:PPROC
+dsuiext_ordinal490 equ <__imp_dsuiext_ordinal490>
+
+externdef __imp_dsuiext_ordinal491:PPROC
+dsuiext_ordinal491 equ <__imp_dsuiext_ordinal491>
+
+externdef __imp_dsuiext_ordinal492:PPROC
+dsuiext_ordinal492 equ <__imp_dsuiext_ordinal492>
+
+externdef __imp_dsuiext_ordinal493:PPROC
+dsuiext_ordinal493 equ <__imp_dsuiext_ordinal493>
+
+externdef __imp_dsuiext_ordinal494:PPROC
+dsuiext_ordinal494 equ <__imp_dsuiext_ordinal494>
+
+externdef __imp_dsuiext_ordinal495:PPROC
+dsuiext_ordinal495 equ <__imp_dsuiext_ordinal495>
+
+externdef __imp_dsuiext_ordinal496:PPROC
+dsuiext_ordinal496 equ <__imp_dsuiext_ordinal496>
+
+externdef __imp_dsuiext_ordinal497:PPROC
+dsuiext_ordinal497 equ <__imp_dsuiext_ordinal497>
+
+externdef __imp_dsuiext_ordinal498:PPROC
+dsuiext_ordinal498 equ <__imp_dsuiext_ordinal498>
+
+externdef __imp_dsuiext_ordinal499:PPROC
+dsuiext_ordinal499 equ <__imp_dsuiext_ordinal499>
+
+externdef __imp_dsuiext_ordinal49:PPROC
+dsuiext_ordinal49 equ <__imp_dsuiext_ordinal49>
+
+externdef __imp_dsuiext_ordinal500:PPROC
+dsuiext_ordinal500 equ <__imp_dsuiext_ordinal500>
+
+externdef __imp_dsuiext_ordinal501:PPROC
+dsuiext_ordinal501 equ <__imp_dsuiext_ordinal501>
+
+externdef __imp_dsuiext_ordinal502:PPROC
+dsuiext_ordinal502 equ <__imp_dsuiext_ordinal502>
+
+externdef __imp_dsuiext_ordinal503:PPROC
+dsuiext_ordinal503 equ <__imp_dsuiext_ordinal503>
+
+externdef __imp_dsuiext_ordinal504:PPROC
+dsuiext_ordinal504 equ <__imp_dsuiext_ordinal504>
+
+externdef __imp_dsuiext_ordinal505:PPROC
+dsuiext_ordinal505 equ <__imp_dsuiext_ordinal505>
+
+externdef __imp_dsuiext_ordinal506:PPROC
+dsuiext_ordinal506 equ <__imp_dsuiext_ordinal506>
+
+externdef __imp_dsuiext_ordinal507:PPROC
+dsuiext_ordinal507 equ <__imp_dsuiext_ordinal507>
+
+externdef __imp_dsuiext_ordinal508:PPROC
+dsuiext_ordinal508 equ <__imp_dsuiext_ordinal508>
+
+externdef __imp_dsuiext_ordinal509:PPROC
+dsuiext_ordinal509 equ <__imp_dsuiext_ordinal509>
+
+externdef __imp_dsuiext_ordinal50:PPROC
+dsuiext_ordinal50 equ <__imp_dsuiext_ordinal50>
+
+externdef __imp_dsuiext_ordinal510:PPROC
+dsuiext_ordinal510 equ <__imp_dsuiext_ordinal510>
+
+externdef __imp_dsuiext_ordinal511:PPROC
+dsuiext_ordinal511 equ <__imp_dsuiext_ordinal511>
+
+externdef __imp_dsuiext_ordinal512:PPROC
+dsuiext_ordinal512 equ <__imp_dsuiext_ordinal512>
+
+externdef __imp_dsuiext_ordinal513:PPROC
+dsuiext_ordinal513 equ <__imp_dsuiext_ordinal513>
+
+externdef __imp_dsuiext_ordinal514:PPROC
+dsuiext_ordinal514 equ <__imp_dsuiext_ordinal514>
+
+externdef __imp_dsuiext_ordinal515:PPROC
+dsuiext_ordinal515 equ <__imp_dsuiext_ordinal515>
+
+externdef __imp_dsuiext_ordinal516:PPROC
+dsuiext_ordinal516 equ <__imp_dsuiext_ordinal516>
+
+externdef __imp_dsuiext_ordinal517:PPROC
+dsuiext_ordinal517 equ <__imp_dsuiext_ordinal517>
+
+externdef __imp_dsuiext_ordinal518:PPROC
+dsuiext_ordinal518 equ <__imp_dsuiext_ordinal518>
+
+externdef __imp_dsuiext_ordinal519:PPROC
+dsuiext_ordinal519 equ <__imp_dsuiext_ordinal519>
+
+externdef __imp_dsuiext_ordinal51:PPROC
+dsuiext_ordinal51 equ <__imp_dsuiext_ordinal51>
+
+externdef __imp_dsuiext_ordinal520:PPROC
+dsuiext_ordinal520 equ <__imp_dsuiext_ordinal520>
+
+externdef __imp_dsuiext_ordinal521:PPROC
+dsuiext_ordinal521 equ <__imp_dsuiext_ordinal521>
+
+externdef __imp_dsuiext_ordinal522:PPROC
+dsuiext_ordinal522 equ <__imp_dsuiext_ordinal522>
+
+externdef __imp_dsuiext_ordinal523:PPROC
+dsuiext_ordinal523 equ <__imp_dsuiext_ordinal523>
+
+externdef __imp_dsuiext_ordinal524:PPROC
+dsuiext_ordinal524 equ <__imp_dsuiext_ordinal524>
+
+externdef __imp_dsuiext_ordinal525:PPROC
+dsuiext_ordinal525 equ <__imp_dsuiext_ordinal525>
+
+externdef __imp_dsuiext_ordinal526:PPROC
+dsuiext_ordinal526 equ <__imp_dsuiext_ordinal526>
+
+externdef __imp_dsuiext_ordinal527:PPROC
+dsuiext_ordinal527 equ <__imp_dsuiext_ordinal527>
+
+externdef __imp_dsuiext_ordinal528:PPROC
+dsuiext_ordinal528 equ <__imp_dsuiext_ordinal528>
+
+externdef __imp_dsuiext_ordinal529:PPROC
+dsuiext_ordinal529 equ <__imp_dsuiext_ordinal529>
+
+externdef __imp_dsuiext_ordinal52:PPROC
+dsuiext_ordinal52 equ <__imp_dsuiext_ordinal52>
+
+externdef __imp_dsuiext_ordinal530:PPROC
+dsuiext_ordinal530 equ <__imp_dsuiext_ordinal530>
+
+externdef __imp_dsuiext_ordinal531:PPROC
+dsuiext_ordinal531 equ <__imp_dsuiext_ordinal531>
+
+externdef __imp_dsuiext_ordinal532:PPROC
+dsuiext_ordinal532 equ <__imp_dsuiext_ordinal532>
+
+externdef __imp_dsuiext_ordinal533:PPROC
+dsuiext_ordinal533 equ <__imp_dsuiext_ordinal533>
+
+externdef __imp_dsuiext_ordinal534:PPROC
+dsuiext_ordinal534 equ <__imp_dsuiext_ordinal534>
+
+externdef __imp_dsuiext_ordinal535:PPROC
+dsuiext_ordinal535 equ <__imp_dsuiext_ordinal535>
+
+externdef __imp_dsuiext_ordinal536:PPROC
+dsuiext_ordinal536 equ <__imp_dsuiext_ordinal536>
+
+externdef __imp_dsuiext_ordinal537:PPROC
+dsuiext_ordinal537 equ <__imp_dsuiext_ordinal537>
+
+externdef __imp_dsuiext_ordinal538:PPROC
+dsuiext_ordinal538 equ <__imp_dsuiext_ordinal538>
+
+externdef __imp_dsuiext_ordinal539:PPROC
+dsuiext_ordinal539 equ <__imp_dsuiext_ordinal539>
+
+externdef __imp_dsuiext_ordinal53:PPROC
+dsuiext_ordinal53 equ <__imp_dsuiext_ordinal53>
+
+externdef __imp_dsuiext_ordinal540:PPROC
+dsuiext_ordinal540 equ <__imp_dsuiext_ordinal540>
+
+externdef __imp_dsuiext_ordinal541:PPROC
+dsuiext_ordinal541 equ <__imp_dsuiext_ordinal541>
+
+externdef __imp_dsuiext_ordinal542:PPROC
+dsuiext_ordinal542 equ <__imp_dsuiext_ordinal542>
+
+externdef __imp_dsuiext_ordinal543:PPROC
+dsuiext_ordinal543 equ <__imp_dsuiext_ordinal543>
+
+externdef __imp_dsuiext_ordinal544:PPROC
+dsuiext_ordinal544 equ <__imp_dsuiext_ordinal544>
+
+externdef __imp_dsuiext_ordinal545:PPROC
+dsuiext_ordinal545 equ <__imp_dsuiext_ordinal545>
+
+externdef __imp_dsuiext_ordinal546:PPROC
+dsuiext_ordinal546 equ <__imp_dsuiext_ordinal546>
+
+externdef __imp_dsuiext_ordinal547:PPROC
+dsuiext_ordinal547 equ <__imp_dsuiext_ordinal547>
+
+externdef __imp_dsuiext_ordinal548:PPROC
+dsuiext_ordinal548 equ <__imp_dsuiext_ordinal548>
+
+externdef __imp_dsuiext_ordinal549:PPROC
+dsuiext_ordinal549 equ <__imp_dsuiext_ordinal549>
+
+externdef __imp_dsuiext_ordinal54:PPROC
+dsuiext_ordinal54 equ <__imp_dsuiext_ordinal54>
+
+externdef __imp_dsuiext_ordinal550:PPROC
+dsuiext_ordinal550 equ <__imp_dsuiext_ordinal550>
+
+externdef __imp_dsuiext_ordinal551:PPROC
+dsuiext_ordinal551 equ <__imp_dsuiext_ordinal551>
+
+externdef __imp_dsuiext_ordinal552:PPROC
+dsuiext_ordinal552 equ <__imp_dsuiext_ordinal552>
+
+externdef __imp_dsuiext_ordinal553:PPROC
+dsuiext_ordinal553 equ <__imp_dsuiext_ordinal553>
+
+externdef __imp_dsuiext_ordinal554:PPROC
+dsuiext_ordinal554 equ <__imp_dsuiext_ordinal554>
+
+externdef __imp_dsuiext_ordinal555:PPROC
+dsuiext_ordinal555 equ <__imp_dsuiext_ordinal555>
+
+externdef __imp_dsuiext_ordinal556:PPROC
+dsuiext_ordinal556 equ <__imp_dsuiext_ordinal556>
+
+externdef __imp_dsuiext_ordinal557:PPROC
+dsuiext_ordinal557 equ <__imp_dsuiext_ordinal557>
+
+externdef __imp_dsuiext_ordinal558:PPROC
+dsuiext_ordinal558 equ <__imp_dsuiext_ordinal558>
+
+externdef __imp_dsuiext_ordinal559:PPROC
+dsuiext_ordinal559 equ <__imp_dsuiext_ordinal559>
+
+externdef __imp_dsuiext_ordinal55:PPROC
+dsuiext_ordinal55 equ <__imp_dsuiext_ordinal55>
+
+externdef __imp_dsuiext_ordinal560:PPROC
+dsuiext_ordinal560 equ <__imp_dsuiext_ordinal560>
+
+externdef __imp_dsuiext_ordinal561:PPROC
+dsuiext_ordinal561 equ <__imp_dsuiext_ordinal561>
+
+externdef __imp_dsuiext_ordinal562:PPROC
+dsuiext_ordinal562 equ <__imp_dsuiext_ordinal562>
+
+externdef __imp_dsuiext_ordinal563:PPROC
+dsuiext_ordinal563 equ <__imp_dsuiext_ordinal563>
+
+externdef __imp_dsuiext_ordinal564:PPROC
+dsuiext_ordinal564 equ <__imp_dsuiext_ordinal564>
+
+externdef __imp_dsuiext_ordinal565:PPROC
+dsuiext_ordinal565 equ <__imp_dsuiext_ordinal565>
+
+externdef __imp_dsuiext_ordinal566:PPROC
+dsuiext_ordinal566 equ <__imp_dsuiext_ordinal566>
+
+externdef __imp_dsuiext_ordinal567:PPROC
+dsuiext_ordinal567 equ <__imp_dsuiext_ordinal567>
+
+externdef __imp_dsuiext_ordinal568:PPROC
+dsuiext_ordinal568 equ <__imp_dsuiext_ordinal568>
+
+externdef __imp_dsuiext_ordinal569:PPROC
+dsuiext_ordinal569 equ <__imp_dsuiext_ordinal569>
+
+externdef __imp_dsuiext_ordinal56:PPROC
+dsuiext_ordinal56 equ <__imp_dsuiext_ordinal56>
+
+externdef __imp_dsuiext_ordinal570:PPROC
+dsuiext_ordinal570 equ <__imp_dsuiext_ordinal570>
+
+externdef __imp_dsuiext_ordinal571:PPROC
+dsuiext_ordinal571 equ <__imp_dsuiext_ordinal571>
+
+externdef __imp_dsuiext_ordinal572:PPROC
+dsuiext_ordinal572 equ <__imp_dsuiext_ordinal572>
+
+externdef __imp_dsuiext_ordinal573:PPROC
+dsuiext_ordinal573 equ <__imp_dsuiext_ordinal573>
+
+externdef __imp_dsuiext_ordinal574:PPROC
+dsuiext_ordinal574 equ <__imp_dsuiext_ordinal574>
+
+externdef __imp_dsuiext_ordinal575:PPROC
+dsuiext_ordinal575 equ <__imp_dsuiext_ordinal575>
+
+externdef __imp_dsuiext_ordinal576:PPROC
+dsuiext_ordinal576 equ <__imp_dsuiext_ordinal576>
+
+externdef __imp_dsuiext_ordinal577:PPROC
+dsuiext_ordinal577 equ <__imp_dsuiext_ordinal577>
+
+externdef __imp_dsuiext_ordinal578:PPROC
+dsuiext_ordinal578 equ <__imp_dsuiext_ordinal578>
+
+externdef __imp_dsuiext_ordinal57:PPROC
+dsuiext_ordinal57 equ <__imp_dsuiext_ordinal57>
+
+externdef __imp_dsuiext_ordinal58:PPROC
+dsuiext_ordinal58 equ <__imp_dsuiext_ordinal58>
+
+externdef __imp_dsuiext_ordinal59:PPROC
+dsuiext_ordinal59 equ <__imp_dsuiext_ordinal59>
+
+externdef __imp_dsuiext_ordinal60:PPROC
+dsuiext_ordinal60 equ <__imp_dsuiext_ordinal60>
+
+externdef __imp_dsuiext_ordinal61:PPROC
+dsuiext_ordinal61 equ <__imp_dsuiext_ordinal61>
+
+externdef __imp_dsuiext_ordinal62:PPROC
+dsuiext_ordinal62 equ <__imp_dsuiext_ordinal62>
+
+externdef __imp_dsuiext_ordinal63:PPROC
+dsuiext_ordinal63 equ <__imp_dsuiext_ordinal63>
+
+externdef __imp_dsuiext_ordinal64:PPROC
+dsuiext_ordinal64 equ <__imp_dsuiext_ordinal64>
+
+externdef __imp_dsuiext_ordinal65:PPROC
+dsuiext_ordinal65 equ <__imp_dsuiext_ordinal65>
+
+externdef __imp_dsuiext_ordinal66:PPROC
+dsuiext_ordinal66 equ <__imp_dsuiext_ordinal66>
+
+externdef __imp_dsuiext_ordinal67:PPROC
+dsuiext_ordinal67 equ <__imp_dsuiext_ordinal67>
+
+externdef __imp_dsuiext_ordinal68:PPROC
+dsuiext_ordinal68 equ <__imp_dsuiext_ordinal68>
+
+externdef __imp_dsuiext_ordinal69:PPROC
+dsuiext_ordinal69 equ <__imp_dsuiext_ordinal69>
+
+externdef __imp_dsuiext_ordinal70:PPROC
+dsuiext_ordinal70 equ <__imp_dsuiext_ordinal70>
+
+externdef __imp_dsuiext_ordinal71:PPROC
+dsuiext_ordinal71 equ <__imp_dsuiext_ordinal71>
+
+externdef __imp_dsuiext_ordinal72:PPROC
+dsuiext_ordinal72 equ <__imp_dsuiext_ordinal72>
+
+externdef __imp_dsuiext_ordinal73:PPROC
+dsuiext_ordinal73 equ <__imp_dsuiext_ordinal73>
+
+externdef __imp_dsuiext_ordinal74:PPROC
+dsuiext_ordinal74 equ <__imp_dsuiext_ordinal74>
+
+externdef __imp_dsuiext_ordinal75:PPROC
+dsuiext_ordinal75 equ <__imp_dsuiext_ordinal75>
+
+externdef __imp_dsuiext_ordinal76:PPROC
+dsuiext_ordinal76 equ <__imp_dsuiext_ordinal76>
+
+externdef __imp_dsuiext_ordinal77:PPROC
+dsuiext_ordinal77 equ <__imp_dsuiext_ordinal77>
+
+externdef __imp_dsuiext_ordinal78:PPROC
+dsuiext_ordinal78 equ <__imp_dsuiext_ordinal78>
+
+externdef __imp_dsuiext_ordinal79:PPROC
+dsuiext_ordinal79 equ <__imp_dsuiext_ordinal79>
+
+externdef __imp_dsuiext_ordinal80:PPROC
+dsuiext_ordinal80 equ <__imp_dsuiext_ordinal80>
+
+externdef __imp_dsuiext_ordinal81:PPROC
+dsuiext_ordinal81 equ <__imp_dsuiext_ordinal81>
+
+externdef __imp_dsuiext_ordinal82:PPROC
+dsuiext_ordinal82 equ <__imp_dsuiext_ordinal82>
+
+externdef __imp_dsuiext_ordinal83:PPROC
+dsuiext_ordinal83 equ <__imp_dsuiext_ordinal83>
+
+externdef __imp_dsuiext_ordinal84:PPROC
+dsuiext_ordinal84 equ <__imp_dsuiext_ordinal84>
+
+externdef __imp_dsuiext_ordinal85:PPROC
+dsuiext_ordinal85 equ <__imp_dsuiext_ordinal85>
+
+externdef __imp_dsuiext_ordinal86:PPROC
+dsuiext_ordinal86 equ <__imp_dsuiext_ordinal86>
+
+externdef __imp_dsuiext_ordinal87:PPROC
+dsuiext_ordinal87 equ <__imp_dsuiext_ordinal87>
+
+externdef __imp_dsuiext_ordinal88:PPROC
+dsuiext_ordinal88 equ <__imp_dsuiext_ordinal88>
+
+externdef __imp_dsuiext_ordinal89:PPROC
+dsuiext_ordinal89 equ <__imp_dsuiext_ordinal89>
+
+externdef __imp_dsuiext_ordinal90:PPROC
+dsuiext_ordinal90 equ <__imp_dsuiext_ordinal90>
+
+externdef __imp_dsuiext_ordinal91:PPROC
+dsuiext_ordinal91 equ <__imp_dsuiext_ordinal91>
+
+externdef __imp_dsuiext_ordinal92:PPROC
+dsuiext_ordinal92 equ <__imp_dsuiext_ordinal92>
+
+externdef __imp_dsuiext_ordinal93:PPROC
+dsuiext_ordinal93 equ <__imp_dsuiext_ordinal93>
+
+externdef __imp_dsuiext_ordinal94:PPROC
+dsuiext_ordinal94 equ <__imp_dsuiext_ordinal94>
+
+externdef __imp_dsuiext_ordinal95:PPROC
+dsuiext_ordinal95 equ <__imp_dsuiext_ordinal95>
+
+externdef __imp_dsuiext_ordinal96:PPROC
+dsuiext_ordinal96 equ <__imp_dsuiext_ordinal96>
+
+externdef __imp_dsuiext_ordinal97:PPROC
+dsuiext_ordinal97 equ <__imp_dsuiext_ordinal97>
+
+externdef __imp_dsuiext_ordinal98:PPROC
+dsuiext_ordinal98 equ <__imp_dsuiext_ordinal98>
+
+externdef __imp_dsuiext_ordinal99:PPROC
+dsuiext_ordinal99 equ <__imp_dsuiext_ordinal99>

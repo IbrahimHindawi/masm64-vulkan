@@ -1,0 +1,23 @@
+externdef __imp_GetSupportNumbers:PPROC
+GetSupportNumbers equ <__imp_GetSupportNumbers>
+
+externdef __imp_PhbkGenericDlgProc:PPROC
+PhbkGenericDlgProc equ <__imp_PhbkGenericDlgProc>
+
+externdef __imp_PhoneBookDisplaySignUpNumbers:PPROC
+PhoneBookDisplaySignUpNumbers equ <__imp_PhoneBookDisplaySignUpNumbers>
+
+externdef __imp_PhoneBookGetCanonical:PPROC
+PhoneBookGetCanonical equ <__imp_PhoneBookGetCanonical>
+
+externdef __imp_PhoneBookLoad:PPROC
+PhoneBookLoad equ <__imp_PhoneBookLoad>
+
+externdef __imp_PhoneBookMergeChanges:PPROC
+PhoneBookMergeChanges equ <__imp_PhoneBookMergeChanges>
+
+externdef __imp_PhoneBookSuggestNumbers:PPROC
+PhoneBookSuggestNumbers equ <__imp_PhoneBookSuggestNumbers>
+
+externdef __imp_PhoneBookUnload:PPROC
+PhoneBookUnload equ <__imp_PhoneBookUnload>

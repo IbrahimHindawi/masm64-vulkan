@@ -1,0 +1,29 @@
+externdef __imp_CancelCDMOperation:PPROC
+CancelCDMOperation equ <__imp_CancelCDMOperation>
+
+externdef __imp_CloseCDMContext:PPROC
+CloseCDMContext equ <__imp_CloseCDMContext>
+
+externdef __imp_DetFilesDownloaded:PPROC
+DetFilesDownloaded equ <__imp_DetFilesDownloaded>
+
+externdef __imp_DownloadIsInternetAvailable:PPROC
+DownloadIsInternetAvailable equ <__imp_DownloadIsInternetAvailable>
+
+externdef __imp_DownloadUpdatedFiles:PPROC
+DownloadUpdatedFiles equ <__imp_DownloadUpdatedFiles>
+
+externdef __imp_FindMatchingDriver:PPROC
+FindMatchingDriver equ <__imp_FindMatchingDriver>
+
+externdef __imp_LogDriverNotFound:PPROC
+LogDriverNotFound equ <__imp_LogDriverNotFound>
+
+externdef __imp_OpenCDMContext:PPROC
+OpenCDMContext equ <__imp_OpenCDMContext>
+
+externdef __imp_OpenCDMContextEx:PPROC
+OpenCDMContextEx equ <__imp_OpenCDMContextEx>
+
+externdef __imp_QueryDetectionFiles:PPROC
+QueryDetectionFiles equ <__imp_QueryDetectionFiles>

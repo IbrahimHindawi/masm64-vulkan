@@ -1,0 +1,80 @@
+externdef __imp_ChangeSupervisorPassword:PPROC
+ChangeSupervisorPassword equ <__imp_ChangeSupervisorPassword>
+
+externdef __imp_ClickedOnPRF:PPROC
+ClickedOnPRF equ <__imp_ClickedOnPRF>
+
+externdef __imp_ClickedOnRAT:PPROC
+ClickedOnRAT equ <__imp_ClickedOnRAT>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_RatingAccessDeniedDialog2:PPROC
+RatingAccessDeniedDialog2 equ <__imp_RatingAccessDeniedDialog2>
+
+externdef __imp_RatingAccessDeniedDialog:PPROC
+RatingAccessDeniedDialog equ <__imp_RatingAccessDeniedDialog>
+
+externdef __imp_RatingAddPropertyPages:PPROC
+RatingAddPropertyPages equ <__imp_RatingAddPropertyPages>
+
+externdef __imp_RatingCheckUserAccess:PPROC
+RatingCheckUserAccess equ <__imp_RatingCheckUserAccess>
+
+externdef __imp_RatingCustomAddRatingHelper:PPROC
+RatingCustomAddRatingHelper equ <__imp_RatingCustomAddRatingHelper>
+
+externdef __imp_RatingCustomAddRatingSystem:PPROC
+RatingCustomAddRatingSystem equ <__imp_RatingCustomAddRatingSystem>
+
+externdef __imp_RatingCustomCrackData:PPROC
+RatingCustomCrackData equ <__imp_RatingCustomCrackData>
+
+externdef __imp_RatingCustomDeleteCrackedData:PPROC
+RatingCustomDeleteCrackedData equ <__imp_RatingCustomDeleteCrackedData>
+
+externdef __imp_RatingCustomInit:PPROC
+RatingCustomInit equ <__imp_RatingCustomInit>
+
+externdef __imp_RatingCustomRemoveRatingHelper:PPROC
+RatingCustomRemoveRatingHelper equ <__imp_RatingCustomRemoveRatingHelper>
+
+externdef __imp_RatingCustomSetDefaultBureau:PPROC
+RatingCustomSetDefaultBureau equ <__imp_RatingCustomSetDefaultBureau>
+
+externdef __imp_RatingCustomSetUserOptions:PPROC
+RatingCustomSetUserOptions equ <__imp_RatingCustomSetUserOptions>
+
+externdef __imp_RatingEnable:PPROC
+RatingEnable equ <__imp_RatingEnable>
+
+externdef __imp_RatingEnabledQuery:PPROC
+RatingEnabledQuery equ <__imp_RatingEnabledQuery>
+
+externdef __imp_RatingFreeDetails:PPROC
+RatingFreeDetails equ <__imp_RatingFreeDetails>
+
+externdef __imp_RatingInit:PPROC
+RatingInit equ <__imp_RatingInit>
+
+externdef __imp_RatingObtainCancel:PPROC
+RatingObtainCancel equ <__imp_RatingObtainCancel>
+
+externdef __imp_RatingObtainQuery:PPROC
+RatingObtainQuery equ <__imp_RatingObtainQuery>
+
+externdef __imp_RatingSetupUI:PPROC
+RatingSetupUI equ <__imp_RatingSetupUI>
+
+externdef __imp_VerifySupervisorPassword:PPROC
+VerifySupervisorPassword equ <__imp_VerifySupervisorPassword>

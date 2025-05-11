@@ -1,0 +1,350 @@
+externdef __imp_AllocateOverStructEx:PPROC
+AllocateOverStructEx equ <__imp_AllocateOverStructEx>
+
+externdef __imp_CallBeginning:PPROC
+CallBeginning equ <__imp_CallBeginning>
+
+externdef __imp_CallEnding:PPROC
+CallEnding equ <__imp_CallEnding>
+
+externdef __imp_CancelUnimodemTimer:PPROC
+CancelUnimodemTimer equ <__imp_CancelUnimodemTimer>
+
+externdef __imp_CreateOverStructPool:PPROC
+CreateOverStructPool equ <__imp_CreateOverStructPool>
+
+externdef __imp_CreateUnimodemTimer:PPROC
+CreateUnimodemTimer equ <__imp_CreateUnimodemTimer>
+
+externdef __imp_DestroyOverStructPool:PPROC
+DestroyOverStructPool equ <__imp_DestroyOverStructPool>
+
+externdef __imp_FreeOverStruct:PPROC
+FreeOverStruct equ <__imp_FreeOverStruct>
+
+externdef __imp_FreeUnimodemTimer:PPROC
+FreeUnimodemTimer equ <__imp_FreeUnimodemTimer>
+
+externdef __imp_MonitorHandle:PPROC
+MonitorHandle equ <__imp_MonitorHandle>
+
+externdef __imp_ReinitOverStruct:PPROC
+ReinitOverStruct equ <__imp_ReinitOverStruct>
+
+externdef __imp_ResetCallCount:PPROC
+ResetCallCount equ <__imp_ResetCallCount>
+
+externdef __imp_SetUnimodemTimer:PPROC
+SetUnimodemTimer equ <__imp_SetUnimodemTimer>
+
+externdef __imp_StartMonitorThread:PPROC
+StartMonitorThread equ <__imp_StartMonitorThread>
+
+externdef __imp_StopMonitorThread:PPROC
+StopMonitorThread equ <__imp_StopMonitorThread>
+
+externdef __imp_StopMonitoringHandle:PPROC
+StopMonitoringHandle equ <__imp_StopMonitoringHandle>
+
+externdef __imp_SyncDeviceIoControl:PPROC
+SyncDeviceIoControl equ <__imp_SyncDeviceIoControl>
+
+externdef __imp_UmPlatformDeinitialize:PPROC
+UmPlatformDeinitialize equ <__imp_UmPlatformDeinitialize>
+
+externdef __imp_UmPlatformInitialize:PPROC
+UmPlatformInitialize equ <__imp_UmPlatformInitialize>
+
+externdef __imp_UnimodemDeviceIoControlEx:PPROC
+UnimodemDeviceIoControlEx equ <__imp_UnimodemDeviceIoControlEx>
+
+externdef __imp_UnimodemNotifyTSP:PPROC
+UnimodemNotifyTSP equ <__imp_UnimodemNotifyTSP>
+
+externdef __imp_UnimodemQueueUserAPC:PPROC
+UnimodemQueueUserAPC equ <__imp_UnimodemQueueUserAPC>
+
+externdef __imp_UnimodemReadFileEx:PPROC
+UnimodemReadFileEx equ <__imp_UnimodemReadFileEx>
+
+externdef __imp_UnimodemWaitCommEventEx:PPROC
+UnimodemWaitCommEventEx equ <__imp_UnimodemWaitCommEventEx>
+
+externdef __imp_UnimodemWriteFileEx:PPROC
+UnimodemWriteFileEx equ <__imp_UnimodemWriteFileEx>
+
+externdef __imp_WinntIsWorkstation:PPROC
+WinntIsWorkstation equ <__imp_WinntIsWorkstation>
+
+externdef __imp_uniplat_ordinal118:PPROC
+uniplat_ordinal118 equ <__imp_uniplat_ordinal118>
+
+externdef __imp_uniplat_ordinal119:PPROC
+uniplat_ordinal119 equ <__imp_uniplat_ordinal119>
+
+externdef __imp_uniplat_ordinal120:PPROC
+uniplat_ordinal120 equ <__imp_uniplat_ordinal120>
+
+externdef __imp_uniplat_ordinal121:PPROC
+uniplat_ordinal121 equ <__imp_uniplat_ordinal121>
+
+externdef __imp_uniplat_ordinal122:PPROC
+uniplat_ordinal122 equ <__imp_uniplat_ordinal122>
+
+externdef __imp_uniplat_ordinal123:PPROC
+uniplat_ordinal123 equ <__imp_uniplat_ordinal123>
+
+externdef __imp_uniplat_ordinal124:PPROC
+uniplat_ordinal124 equ <__imp_uniplat_ordinal124>
+
+externdef __imp_uniplat_ordinal125:PPROC
+uniplat_ordinal125 equ <__imp_uniplat_ordinal125>
+
+externdef __imp_uniplat_ordinal126:PPROC
+uniplat_ordinal126 equ <__imp_uniplat_ordinal126>
+
+externdef __imp_uniplat_ordinal127:PPROC
+uniplat_ordinal127 equ <__imp_uniplat_ordinal127>
+
+externdef __imp_uniplat_ordinal128:PPROC
+uniplat_ordinal128 equ <__imp_uniplat_ordinal128>
+
+externdef __imp_uniplat_ordinal129:PPROC
+uniplat_ordinal129 equ <__imp_uniplat_ordinal129>
+
+externdef __imp_uniplat_ordinal130:PPROC
+uniplat_ordinal130 equ <__imp_uniplat_ordinal130>
+
+externdef __imp_uniplat_ordinal131:PPROC
+uniplat_ordinal131 equ <__imp_uniplat_ordinal131>
+
+externdef __imp_uniplat_ordinal132:PPROC
+uniplat_ordinal132 equ <__imp_uniplat_ordinal132>
+
+externdef __imp_uniplat_ordinal133:PPROC
+uniplat_ordinal133 equ <__imp_uniplat_ordinal133>
+
+externdef __imp_uniplat_ordinal134:PPROC
+uniplat_ordinal134 equ <__imp_uniplat_ordinal134>
+
+externdef __imp_uniplat_ordinal135:PPROC
+uniplat_ordinal135 equ <__imp_uniplat_ordinal135>
+
+externdef __imp_uniplat_ordinal136:PPROC
+uniplat_ordinal136 equ <__imp_uniplat_ordinal136>
+
+externdef __imp_uniplat_ordinal137:PPROC
+uniplat_ordinal137 equ <__imp_uniplat_ordinal137>
+
+externdef __imp_uniplat_ordinal138:PPROC
+uniplat_ordinal138 equ <__imp_uniplat_ordinal138>
+
+externdef __imp_uniplat_ordinal139:PPROC
+uniplat_ordinal139 equ <__imp_uniplat_ordinal139>
+
+externdef __imp_uniplat_ordinal140:PPROC
+uniplat_ordinal140 equ <__imp_uniplat_ordinal140>
+
+externdef __imp_uniplat_ordinal141:PPROC
+uniplat_ordinal141 equ <__imp_uniplat_ordinal141>
+
+externdef __imp_uniplat_ordinal142:PPROC
+uniplat_ordinal142 equ <__imp_uniplat_ordinal142>
+
+externdef __imp_uniplat_ordinal143:PPROC
+uniplat_ordinal143 equ <__imp_uniplat_ordinal143>
+
+externdef __imp_uniplat_ordinal144:PPROC
+uniplat_ordinal144 equ <__imp_uniplat_ordinal144>
+
+externdef __imp_uniplat_ordinal145:PPROC
+uniplat_ordinal145 equ <__imp_uniplat_ordinal145>
+
+externdef __imp_uniplat_ordinal146:PPROC
+uniplat_ordinal146 equ <__imp_uniplat_ordinal146>
+
+externdef __imp_uniplat_ordinal147:PPROC
+uniplat_ordinal147 equ <__imp_uniplat_ordinal147>
+
+externdef __imp_uniplat_ordinal148:PPROC
+uniplat_ordinal148 equ <__imp_uniplat_ordinal148>
+
+externdef __imp_uniplat_ordinal149:PPROC
+uniplat_ordinal149 equ <__imp_uniplat_ordinal149>
+
+externdef __imp_uniplat_ordinal150:PPROC
+uniplat_ordinal150 equ <__imp_uniplat_ordinal150>
+
+externdef __imp_uniplat_ordinal151:PPROC
+uniplat_ordinal151 equ <__imp_uniplat_ordinal151>
+
+externdef __imp_uniplat_ordinal152:PPROC
+uniplat_ordinal152 equ <__imp_uniplat_ordinal152>
+
+externdef __imp_uniplat_ordinal153:PPROC
+uniplat_ordinal153 equ <__imp_uniplat_ordinal153>
+
+externdef __imp_uniplat_ordinal154:PPROC
+uniplat_ordinal154 equ <__imp_uniplat_ordinal154>
+
+externdef __imp_uniplat_ordinal155:PPROC
+uniplat_ordinal155 equ <__imp_uniplat_ordinal155>
+
+externdef __imp_uniplat_ordinal156:PPROC
+uniplat_ordinal156 equ <__imp_uniplat_ordinal156>
+
+externdef __imp_uniplat_ordinal157:PPROC
+uniplat_ordinal157 equ <__imp_uniplat_ordinal157>
+
+externdef __imp_uniplat_ordinal158:PPROC
+uniplat_ordinal158 equ <__imp_uniplat_ordinal158>
+
+externdef __imp_uniplat_ordinal159:PPROC
+uniplat_ordinal159 equ <__imp_uniplat_ordinal159>
+
+externdef __imp_uniplat_ordinal160:PPROC
+uniplat_ordinal160 equ <__imp_uniplat_ordinal160>
+
+externdef __imp_uniplat_ordinal161:PPROC
+uniplat_ordinal161 equ <__imp_uniplat_ordinal161>
+
+externdef __imp_uniplat_ordinal162:PPROC
+uniplat_ordinal162 equ <__imp_uniplat_ordinal162>
+
+externdef __imp_uniplat_ordinal163:PPROC
+uniplat_ordinal163 equ <__imp_uniplat_ordinal163>
+
+externdef __imp_uniplat_ordinal164:PPROC
+uniplat_ordinal164 equ <__imp_uniplat_ordinal164>
+
+externdef __imp_uniplat_ordinal165:PPROC
+uniplat_ordinal165 equ <__imp_uniplat_ordinal165>
+
+externdef __imp_uniplat_ordinal166:PPROC
+uniplat_ordinal166 equ <__imp_uniplat_ordinal166>
+
+externdef __imp_uniplat_ordinal167:PPROC
+uniplat_ordinal167 equ <__imp_uniplat_ordinal167>
+
+externdef __imp_uniplat_ordinal168:PPROC
+uniplat_ordinal168 equ <__imp_uniplat_ordinal168>
+
+externdef __imp_uniplat_ordinal169:PPROC
+uniplat_ordinal169 equ <__imp_uniplat_ordinal169>
+
+externdef __imp_uniplat_ordinal170:PPROC
+uniplat_ordinal170 equ <__imp_uniplat_ordinal170>
+
+externdef __imp_uniplat_ordinal171:PPROC
+uniplat_ordinal171 equ <__imp_uniplat_ordinal171>
+
+externdef __imp_uniplat_ordinal172:PPROC
+uniplat_ordinal172 equ <__imp_uniplat_ordinal172>
+
+externdef __imp_uniplat_ordinal173:PPROC
+uniplat_ordinal173 equ <__imp_uniplat_ordinal173>
+
+externdef __imp_uniplat_ordinal174:PPROC
+uniplat_ordinal174 equ <__imp_uniplat_ordinal174>
+
+externdef __imp_uniplat_ordinal175:PPROC
+uniplat_ordinal175 equ <__imp_uniplat_ordinal175>
+
+externdef __imp_uniplat_ordinal176:PPROC
+uniplat_ordinal176 equ <__imp_uniplat_ordinal176>
+
+externdef __imp_uniplat_ordinal177:PPROC
+uniplat_ordinal177 equ <__imp_uniplat_ordinal177>
+
+externdef __imp_uniplat_ordinal178:PPROC
+uniplat_ordinal178 equ <__imp_uniplat_ordinal178>
+
+externdef __imp_uniplat_ordinal179:PPROC
+uniplat_ordinal179 equ <__imp_uniplat_ordinal179>
+
+externdef __imp_uniplat_ordinal180:PPROC
+uniplat_ordinal180 equ <__imp_uniplat_ordinal180>
+
+externdef __imp_uniplat_ordinal181:PPROC
+uniplat_ordinal181 equ <__imp_uniplat_ordinal181>
+
+externdef __imp_uniplat_ordinal182:PPROC
+uniplat_ordinal182 equ <__imp_uniplat_ordinal182>
+
+externdef __imp_uniplat_ordinal183:PPROC
+uniplat_ordinal183 equ <__imp_uniplat_ordinal183>
+
+externdef __imp_uniplat_ordinal184:PPROC
+uniplat_ordinal184 equ <__imp_uniplat_ordinal184>
+
+externdef __imp_uniplat_ordinal185:PPROC
+uniplat_ordinal185 equ <__imp_uniplat_ordinal185>
+
+externdef __imp_uniplat_ordinal186:PPROC
+uniplat_ordinal186 equ <__imp_uniplat_ordinal186>
+
+externdef __imp_uniplat_ordinal187:PPROC
+uniplat_ordinal187 equ <__imp_uniplat_ordinal187>
+
+externdef __imp_uniplat_ordinal188:PPROC
+uniplat_ordinal188 equ <__imp_uniplat_ordinal188>
+
+externdef __imp_uniplat_ordinal189:PPROC
+uniplat_ordinal189 equ <__imp_uniplat_ordinal189>
+
+externdef __imp_uniplat_ordinal190:PPROC
+uniplat_ordinal190 equ <__imp_uniplat_ordinal190>
+
+externdef __imp_uniplat_ordinal191:PPROC
+uniplat_ordinal191 equ <__imp_uniplat_ordinal191>
+
+externdef __imp_uniplat_ordinal192:PPROC
+uniplat_ordinal192 equ <__imp_uniplat_ordinal192>
+
+externdef __imp_uniplat_ordinal193:PPROC
+uniplat_ordinal193 equ <__imp_uniplat_ordinal193>
+
+externdef __imp_uniplat_ordinal194:PPROC
+uniplat_ordinal194 equ <__imp_uniplat_ordinal194>
+
+externdef __imp_uniplat_ordinal195:PPROC
+uniplat_ordinal195 equ <__imp_uniplat_ordinal195>
+
+externdef __imp_uniplat_ordinal196:PPROC
+uniplat_ordinal196 equ <__imp_uniplat_ordinal196>
+
+externdef __imp_uniplat_ordinal197:PPROC
+uniplat_ordinal197 equ <__imp_uniplat_ordinal197>
+
+externdef __imp_uniplat_ordinal198:PPROC
+uniplat_ordinal198 equ <__imp_uniplat_ordinal198>
+
+externdef __imp_uniplat_ordinal199:PPROC
+uniplat_ordinal199 equ <__imp_uniplat_ordinal199>
+
+externdef __imp_uniplat_ordinal200:PPROC
+uniplat_ordinal200 equ <__imp_uniplat_ordinal200>
+
+externdef __imp_uniplat_ordinal201:PPROC
+uniplat_ordinal201 equ <__imp_uniplat_ordinal201>
+
+externdef __imp_uniplat_ordinal202:PPROC
+uniplat_ordinal202 equ <__imp_uniplat_ordinal202>
+
+externdef __imp_uniplat_ordinal203:PPROC
+uniplat_ordinal203 equ <__imp_uniplat_ordinal203>
+
+externdef __imp_uniplat_ordinal204:PPROC
+uniplat_ordinal204 equ <__imp_uniplat_ordinal204>
+
+externdef __imp_uniplat_ordinal205:PPROC
+uniplat_ordinal205 equ <__imp_uniplat_ordinal205>
+
+externdef __imp_uniplat_ordinal206:PPROC
+uniplat_ordinal206 equ <__imp_uniplat_ordinal206>
+
+externdef __imp_uniplat_ordinal208:PPROC
+uniplat_ordinal208 equ <__imp_uniplat_ordinal208>
+
+externdef __imp_uniplat_ordinal209:PPROC
+uniplat_ordinal209 equ <__imp_uniplat_ordinal209>

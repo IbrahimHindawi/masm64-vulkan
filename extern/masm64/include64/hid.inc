@@ -1,0 +1,131 @@
+externdef __imp_HidD_FlushQueue:PPROC
+HidD_FlushQueue equ <__imp_HidD_FlushQueue>
+
+externdef __imp_HidD_FreePreparsedData:PPROC
+HidD_FreePreparsedData equ <__imp_HidD_FreePreparsedData>
+
+externdef __imp_HidD_GetAttributes:PPROC
+HidD_GetAttributes equ <__imp_HidD_GetAttributes>
+
+externdef __imp_HidD_GetConfiguration:PPROC
+HidD_GetConfiguration equ <__imp_HidD_GetConfiguration>
+
+externdef __imp_HidD_GetFeature:PPROC
+HidD_GetFeature equ <__imp_HidD_GetFeature>
+
+externdef __imp_HidD_GetHidGuid:PPROC
+HidD_GetHidGuid equ <__imp_HidD_GetHidGuid>
+
+externdef __imp_HidD_GetIndexedString:PPROC
+HidD_GetIndexedString equ <__imp_HidD_GetIndexedString>
+
+externdef __imp_HidD_GetInputReport:PPROC
+HidD_GetInputReport equ <__imp_HidD_GetInputReport>
+
+externdef __imp_HidD_GetManufacturerString:PPROC
+HidD_GetManufacturerString equ <__imp_HidD_GetManufacturerString>
+
+externdef __imp_HidD_GetMsGenreDescriptor:PPROC
+HidD_GetMsGenreDescriptor equ <__imp_HidD_GetMsGenreDescriptor>
+
+externdef __imp_HidD_GetNumInputBuffers:PPROC
+HidD_GetNumInputBuffers equ <__imp_HidD_GetNumInputBuffers>
+
+externdef __imp_HidD_GetPhysicalDescriptor:PPROC
+HidD_GetPhysicalDescriptor equ <__imp_HidD_GetPhysicalDescriptor>
+
+externdef __imp_HidD_GetPreparsedData:PPROC
+HidD_GetPreparsedData equ <__imp_HidD_GetPreparsedData>
+
+externdef __imp_HidD_GetProductString:PPROC
+HidD_GetProductString equ <__imp_HidD_GetProductString>
+
+externdef __imp_HidD_GetSerialNumberString:PPROC
+HidD_GetSerialNumberString equ <__imp_HidD_GetSerialNumberString>
+
+externdef __imp_HidD_Hello:PPROC
+HidD_Hello equ <__imp_HidD_Hello>
+
+externdef __imp_HidD_SetConfiguration:PPROC
+HidD_SetConfiguration equ <__imp_HidD_SetConfiguration>
+
+externdef __imp_HidD_SetFeature:PPROC
+HidD_SetFeature equ <__imp_HidD_SetFeature>
+
+externdef __imp_HidD_SetNumInputBuffers:PPROC
+HidD_SetNumInputBuffers equ <__imp_HidD_SetNumInputBuffers>
+
+externdef __imp_HidD_SetOutputReport:PPROC
+HidD_SetOutputReport equ <__imp_HidD_SetOutputReport>
+
+externdef __imp_HidP_GetButtonCaps:PPROC
+HidP_GetButtonCaps equ <__imp_HidP_GetButtonCaps>
+
+externdef __imp_HidP_GetCaps:PPROC
+HidP_GetCaps equ <__imp_HidP_GetCaps>
+
+externdef __imp_HidP_GetData:PPROC
+HidP_GetData equ <__imp_HidP_GetData>
+
+externdef __imp_HidP_GetExtendedAttributes:PPROC
+HidP_GetExtendedAttributes equ <__imp_HidP_GetExtendedAttributes>
+
+externdef __imp_HidP_GetLinkCollectionNodes:PPROC
+HidP_GetLinkCollectionNodes equ <__imp_HidP_GetLinkCollectionNodes>
+
+externdef __imp_HidP_GetScaledUsageValue:PPROC
+HidP_GetScaledUsageValue equ <__imp_HidP_GetScaledUsageValue>
+
+externdef __imp_HidP_GetSpecificButtonCaps:PPROC
+HidP_GetSpecificButtonCaps equ <__imp_HidP_GetSpecificButtonCaps>
+
+externdef __imp_HidP_GetSpecificValueCaps:PPROC
+HidP_GetSpecificValueCaps equ <__imp_HidP_GetSpecificValueCaps>
+
+externdef __imp_HidP_GetUsageValue:PPROC
+HidP_GetUsageValue equ <__imp_HidP_GetUsageValue>
+
+externdef __imp_HidP_GetUsageValueArray:PPROC
+HidP_GetUsageValueArray equ <__imp_HidP_GetUsageValueArray>
+
+externdef __imp_HidP_GetUsages:PPROC
+HidP_GetUsages equ <__imp_HidP_GetUsages>
+
+externdef __imp_HidP_GetUsagesEx:PPROC
+HidP_GetUsagesEx equ <__imp_HidP_GetUsagesEx>
+
+externdef __imp_HidP_GetValueCaps:PPROC
+HidP_GetValueCaps equ <__imp_HidP_GetValueCaps>
+
+externdef __imp_HidP_InitializeReportForID:PPROC
+HidP_InitializeReportForID equ <__imp_HidP_InitializeReportForID>
+
+externdef __imp_HidP_MaxDataListLength:PPROC
+HidP_MaxDataListLength equ <__imp_HidP_MaxDataListLength>
+
+externdef __imp_HidP_MaxUsageListLength:PPROC
+HidP_MaxUsageListLength equ <__imp_HidP_MaxUsageListLength>
+
+externdef __imp_HidP_SetData:PPROC
+HidP_SetData equ <__imp_HidP_SetData>
+
+externdef __imp_HidP_SetScaledUsageValue:PPROC
+HidP_SetScaledUsageValue equ <__imp_HidP_SetScaledUsageValue>
+
+externdef __imp_HidP_SetUsageValue:PPROC
+HidP_SetUsageValue equ <__imp_HidP_SetUsageValue>
+
+externdef __imp_HidP_SetUsageValueArray:PPROC
+HidP_SetUsageValueArray equ <__imp_HidP_SetUsageValueArray>
+
+externdef __imp_HidP_SetUsages:PPROC
+HidP_SetUsages equ <__imp_HidP_SetUsages>
+
+externdef __imp_HidP_TranslateUsagesToI8042ScanCodes:PPROC
+HidP_TranslateUsagesToI8042ScanCodes equ <__imp_HidP_TranslateUsagesToI8042ScanCodes>
+
+externdef __imp_HidP_UnsetUsages:PPROC
+HidP_UnsetUsages equ <__imp_HidP_UnsetUsages>
+
+externdef __imp_HidP_UsageListDifference:PPROC
+HidP_UsageListDifference equ <__imp_HidP_UsageListDifference>

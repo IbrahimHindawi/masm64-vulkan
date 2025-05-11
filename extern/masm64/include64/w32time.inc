@@ -1,0 +1,62 @@
+externdef __imp_DllInstall:PPROC
+DllInstall equ <__imp_DllInstall>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_SvchostEntry_W32Time:PPROC
+SvchostEntry_W32Time equ <__imp_SvchostEntry_W32Time>
+
+externdef __imp_SvchostPushServiceGlobals:PPROC
+SvchostPushServiceGlobals equ <__imp_SvchostPushServiceGlobals>
+
+externdef __imp_TimeProvClose:PPROC
+TimeProvClose equ <__imp_TimeProvClose>
+
+externdef __imp_TimeProvCommand:PPROC
+TimeProvCommand equ <__imp_TimeProvCommand>
+
+externdef __imp_TimeProvOpen:PPROC
+TimeProvOpen equ <__imp_TimeProvOpen>
+
+externdef __imp_W32TimeBufferFree:PPROC
+W32TimeBufferFree equ <__imp_W32TimeBufferFree>
+
+externdef __imp_W32TimeDcPromo:PPROC
+W32TimeDcPromo equ <__imp_W32TimeDcPromo>
+
+externdef __imp_W32TimeGetNetlogonServiceBits:PPROC
+W32TimeGetNetlogonServiceBits equ <__imp_W32TimeGetNetlogonServiceBits>
+
+externdef __imp_W32TimeQueryConfig:PPROC
+W32TimeQueryConfig equ <__imp_W32TimeQueryConfig>
+
+externdef __imp_W32TimeQueryHardwareProviderStatus:PPROC
+W32TimeQueryHardwareProviderStatus equ <__imp_W32TimeQueryHardwareProviderStatus>
+
+externdef __imp_W32TimeQueryNTPProviderStatus:PPROC
+W32TimeQueryNTPProviderStatus equ <__imp_W32TimeQueryNTPProviderStatus>
+
+externdef __imp_W32TimeSetConfig:PPROC
+W32TimeSetConfig equ <__imp_W32TimeSetConfig>
+
+externdef __imp_W32TimeSyncNow:PPROC
+W32TimeSyncNow equ <__imp_W32TimeSyncNow>
+
+externdef __imp_W32TimeVerifyJoinConfig:PPROC
+W32TimeVerifyJoinConfig equ <__imp_W32TimeVerifyJoinConfig>
+
+externdef __imp_W32TimeVerifyUnjoinConfig:PPROC
+W32TimeVerifyUnjoinConfig equ <__imp_W32TimeVerifyUnjoinConfig>
+
+externdef __imp_W32TmServiceMain:PPROC
+W32TmServiceMain equ <__imp_W32TmServiceMain>
+
+externdef __imp_fnW32TmRegisterServiceCtrlHandlerEx:PPROC
+fnW32TmRegisterServiceCtrlHandlerEx equ <__imp_fnW32TmRegisterServiceCtrlHandlerEx>
+
+externdef __imp_fnW32TmSetServiceStatus:PPROC
+fnW32TmSetServiceStatus equ <__imp_fnW32TmSetServiceStatus>

@@ -1,0 +1,65 @@
+externdef __imp_CreateAuthenticationMethod:PPROC
+CreateAuthenticationMethod equ <__imp_CreateAuthenticationMethod>
+
+externdef __imp_CreateServiceLocation:PPROC
+CreateServiceLocation equ <__imp_CreateServiceLocation>
+
+externdef __imp_DestroyAuthenticationMethodObject:PPROC
+DestroyAuthenticationMethodObject equ <__imp_DestroyAuthenticationMethodObject>
+
+externdef __imp_DestroyServiceLocationObject:PPROC
+DestroyServiceLocationObject equ <__imp_DestroyServiceLocationObject>
+
+externdef __imp_KPBAuthAuthenticate:PPROC
+KPBAuthAuthenticate equ <__imp_KPBAuthAuthenticate>
+
+externdef __imp_KPBAuthCreatePreferenceObject:PPROC
+KPBAuthCreatePreferenceObject equ <__imp_KPBAuthCreatePreferenceObject>
+
+externdef __imp_KPBAuthDestroyPreferenceObject:PPROC
+KPBAuthDestroyPreferenceObject equ <__imp_KPBAuthDestroyPreferenceObject>
+
+externdef __imp_KPBAuthFlushCache:PPROC
+KPBAuthFlushCache equ <__imp_KPBAuthFlushCache>
+
+externdef __imp_KPBAuthGetPreferenceBOOL:PPROC
+KPBAuthGetPreferenceBOOL equ <__imp_KPBAuthGetPreferenceBOOL>
+
+externdef __imp_KPBAuthGetPreferenceDWORD:PPROC
+KPBAuthGetPreferenceDWORD equ <__imp_KPBAuthGetPreferenceDWORD>
+
+externdef __imp_KPBAuthGetPreferencePVOID:PPROC
+KPBAuthGetPreferencePVOID equ <__imp_KPBAuthGetPreferencePVOID>
+
+externdef __imp_KPBAuthGetPreferenceSTR:PPROC
+KPBAuthGetPreferenceSTR equ <__imp_KPBAuthGetPreferenceSTR>
+
+externdef __imp_KPBAuthIsCached:PPROC
+KPBAuthIsCached equ <__imp_KPBAuthIsCached>
+
+externdef __imp_KPBAuthSetPinPromptString:PPROC
+KPBAuthSetPinPromptString equ <__imp_KPBAuthSetPinPromptString>
+
+externdef __imp_KPBAuthSetPreferenceBOOL:PPROC
+KPBAuthSetPreferenceBOOL equ <__imp_KPBAuthSetPreferenceBOOL>
+
+externdef __imp_KPBAuthSetPreferenceDWORD:PPROC
+KPBAuthSetPreferenceDWORD equ <__imp_KPBAuthSetPreferenceDWORD>
+
+externdef __imp_KPBAuthSetPreferencePVOID:PPROC
+KPBAuthSetPreferencePVOID equ <__imp_KPBAuthSetPreferencePVOID>
+
+externdef __imp_KPBAuthSetPreferenceSTR:PPROC
+KPBAuthSetPreferenceSTR equ <__imp_KPBAuthSetPreferenceSTR>
+
+externdef __imp_KPBAuthSystemEvent:PPROC
+KPBAuthSystemEvent equ <__imp_KPBAuthSystemEvent>
+
+externdef __imp_KPBAuthUpdateCache:PPROC
+KPBAuthUpdateCache equ <__imp_KPBAuthUpdateCache>
+
+externdef __imp_KPBChangePIN:PPROC
+KPBChangePIN equ <__imp_KPBChangePIN>
+
+externdef __imp_StartAuthClient:PPROC
+StartAuthClient equ <__imp_StartAuthClient>

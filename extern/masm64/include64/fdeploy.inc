@@ -1,0 +1,11 @@
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_GenerateGroupPolicy:PPROC
+GenerateGroupPolicy equ <__imp_GenerateGroupPolicy>
+
+externdef __imp_ProcessGroupPolicyEx:PPROC
+ProcessGroupPolicyEx equ <__imp_ProcessGroupPolicyEx>

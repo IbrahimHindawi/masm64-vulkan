@@ -1,0 +1,23 @@
+externdef __imp_OcComponentState:PPROC
+OcComponentState equ <__imp_OcComponentState>
+
+externdef __imp_OcCreateOcPage:PPROC
+OcCreateOcPage equ <__imp_OcCreateOcPage>
+
+externdef __imp_OcCreateSetupPage:PPROC
+OcCreateSetupPage equ <__imp_OcCreateSetupPage>
+
+externdef __imp_OcGetWizardPages:PPROC
+OcGetWizardPages equ <__imp_OcGetWizardPages>
+
+externdef __imp_OcInitialize:PPROC
+OcInitialize equ <__imp_OcInitialize>
+
+externdef __imp_OcRememberWizardDialogHandle:PPROC
+OcRememberWizardDialogHandle equ <__imp_OcRememberWizardDialogHandle>
+
+externdef __imp_OcSubComponentsPresent:PPROC
+OcSubComponentsPresent equ <__imp_OcSubComponentsPresent>
+
+externdef __imp_OcTerminate:PPROC
+OcTerminate equ <__imp_OcTerminate>

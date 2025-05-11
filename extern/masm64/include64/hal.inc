@@ -1,0 +1,188 @@
+externdef __imp_HalAcquireDisplayOwnership:PPROC
+HalAcquireDisplayOwnership equ <__imp_HalAcquireDisplayOwnership>
+
+externdef __imp_HalAdjustResourceList:PPROC
+HalAdjustResourceList equ <__imp_HalAdjustResourceList>
+
+externdef __imp_HalAllProcessorsStarted:PPROC
+HalAllProcessorsStarted equ <__imp_HalAllProcessorsStarted>
+
+externdef __imp_HalAllocateAdapterChannel:PPROC
+HalAllocateAdapterChannel equ <__imp_HalAllocateAdapterChannel>
+
+externdef __imp_HalAllocateCommonBuffer:PPROC
+HalAllocateCommonBuffer equ <__imp_HalAllocateCommonBuffer>
+
+externdef __imp_HalAllocateCrashDumpRegisters:PPROC
+HalAllocateCrashDumpRegisters equ <__imp_HalAllocateCrashDumpRegisters>
+
+externdef __imp_HalAssignSlotResources:PPROC
+HalAssignSlotResources equ <__imp_HalAssignSlotResources>
+
+externdef __imp_HalCalibratePerformanceCounter:PPROC
+HalCalibratePerformanceCounter equ <__imp_HalCalibratePerformanceCounter>
+
+externdef __imp_HalCallBios:PPROC
+HalCallBios equ <__imp_HalCallBios>
+
+externdef __imp_HalClearSoftwareInterrupt:PPROC
+HalClearSoftwareInterrupt equ <__imp_HalClearSoftwareInterrupt>
+
+externdef __imp_HalDisableSystemInterrupt:PPROC
+HalDisableSystemInterrupt equ <__imp_HalDisableSystemInterrupt>
+
+externdef __imp_HalDisplayString:PPROC
+HalDisplayString equ <__imp_HalDisplayString>
+
+externdef __imp_HalEnableSystemInterrupt:PPROC
+HalEnableSystemInterrupt equ <__imp_HalEnableSystemInterrupt>
+
+externdef __imp_HalFlushCommonBuffer:PPROC
+HalFlushCommonBuffer equ <__imp_HalFlushCommonBuffer>
+
+externdef __imp_HalFreeCommonBuffer:PPROC
+HalFreeCommonBuffer equ <__imp_HalFreeCommonBuffer>
+
+externdef __imp_HalGetAdapter:PPROC
+HalGetAdapter equ <__imp_HalGetAdapter>
+
+externdef __imp_HalGetBusData:PPROC
+HalGetBusData equ <__imp_HalGetBusData>
+
+externdef __imp_HalGetBusDataByOffset:PPROC
+HalGetBusDataByOffset equ <__imp_HalGetBusDataByOffset>
+
+externdef __imp_HalGetEnvironmentVariable:PPROC
+HalGetEnvironmentVariable equ <__imp_HalGetEnvironmentVariable>
+
+externdef __imp_HalGetInterruptVector:PPROC
+HalGetInterruptVector equ <__imp_HalGetInterruptVector>
+
+externdef __imp_HalHandleMcheck:PPROC
+HalHandleMcheck equ <__imp_HalHandleMcheck>
+
+externdef __imp_HalHandleNMI:PPROC
+HalHandleNMI equ <__imp_HalHandleNMI>
+
+externdef __imp_HalInitSystem:PPROC
+HalInitSystem equ <__imp_HalInitSystem>
+
+externdef __imp_HalInitializeProcessor:PPROC
+HalInitializeProcessor equ <__imp_HalInitializeProcessor>
+
+externdef __imp_HalIsHyperThreadingEnabled:PPROC
+HalIsHyperThreadingEnabled equ <__imp_HalIsHyperThreadingEnabled>
+
+externdef __imp_HalMakeBeep:PPROC
+HalMakeBeep equ <__imp_HalMakeBeep>
+
+externdef __imp_HalProcessorIdle:PPROC
+HalProcessorIdle equ <__imp_HalProcessorIdle>
+
+externdef __imp_HalQueryDisplayParameters:PPROC
+HalQueryDisplayParameters equ <__imp_HalQueryDisplayParameters>
+
+externdef __imp_HalQueryRealTimeClock:PPROC
+HalQueryRealTimeClock equ <__imp_HalQueryRealTimeClock>
+
+externdef __imp_HalReadDmaCounter:PPROC
+HalReadDmaCounter equ <__imp_HalReadDmaCounter>
+
+externdef __imp_HalReportResourceUsage:PPROC
+HalReportResourceUsage equ <__imp_HalReportResourceUsage>
+
+externdef __imp_HalRequestIpi:PPROC
+HalRequestIpi equ <__imp_HalRequestIpi>
+
+externdef __imp_HalRequestSoftwareInterrupt:PPROC
+HalRequestSoftwareInterrupt equ <__imp_HalRequestSoftwareInterrupt>
+
+externdef __imp_HalReturnToFirmware:PPROC
+HalReturnToFirmware equ <__imp_HalReturnToFirmware>
+
+externdef __imp_HalSendNMI:PPROC
+HalSendNMI equ <__imp_HalSendNMI>
+
+externdef __imp_HalSendSoftwareInterrupt:PPROC
+HalSendSoftwareInterrupt equ <__imp_HalSendSoftwareInterrupt>
+
+externdef __imp_HalSetBusData:PPROC
+HalSetBusData equ <__imp_HalSetBusData>
+
+externdef __imp_HalSetBusDataByOffset:PPROC
+HalSetBusDataByOffset equ <__imp_HalSetBusDataByOffset>
+
+externdef __imp_HalSetDisplayParameters:PPROC
+HalSetDisplayParameters equ <__imp_HalSetDisplayParameters>
+
+externdef __imp_HalSetEnvironmentVariable:PPROC
+HalSetEnvironmentVariable equ <__imp_HalSetEnvironmentVariable>
+
+externdef __imp_HalSetProfileInterval:PPROC
+HalSetProfileInterval equ <__imp_HalSetProfileInterval>
+
+externdef __imp_HalSetRealTimeClock:PPROC
+HalSetRealTimeClock equ <__imp_HalSetRealTimeClock>
+
+externdef __imp_HalSetTimeIncrement:PPROC
+HalSetTimeIncrement equ <__imp_HalSetTimeIncrement>
+
+externdef __imp_HalStartNextProcessor:PPROC
+HalStartNextProcessor equ <__imp_HalStartNextProcessor>
+
+externdef __imp_HalStartProfileInterrupt:PPROC
+HalStartProfileInterrupt equ <__imp_HalStartProfileInterrupt>
+
+externdef __imp_HalStopProfileInterrupt:PPROC
+HalStopProfileInterrupt equ <__imp_HalStopProfileInterrupt>
+
+externdef __imp_HalSystemVectorDispatchEntry:PPROC
+HalSystemVectorDispatchEntry equ <__imp_HalSystemVectorDispatchEntry>
+
+externdef __imp_HalTranslateBusAddress:PPROC
+HalTranslateBusAddress equ <__imp_HalTranslateBusAddress>
+
+externdef __imp_IoAssignDriveLetters:PPROC
+IoAssignDriveLetters equ <__imp_IoAssignDriveLetters>
+
+externdef __imp_IoFlushAdapterBuffers:PPROC
+IoFlushAdapterBuffers equ <__imp_IoFlushAdapterBuffers>
+
+externdef __imp_IoFreeAdapterChannel:PPROC
+IoFreeAdapterChannel equ <__imp_IoFreeAdapterChannel>
+
+externdef __imp_IoFreeMapRegisters:PPROC
+IoFreeMapRegisters equ <__imp_IoFreeMapRegisters>
+
+externdef __imp_IoMapTransfer:PPROC
+IoMapTransfer equ <__imp_IoMapTransfer>
+
+externdef __imp_IoReadPartitionTable:PPROC
+IoReadPartitionTable equ <__imp_IoReadPartitionTable>
+
+externdef __imp_IoSetPartitionInformation:PPROC
+IoSetPartitionInformation equ <__imp_IoSetPartitionInformation>
+
+externdef __imp_IoWritePartitionTable:PPROC
+IoWritePartitionTable equ <__imp_IoWritePartitionTable>
+
+externdef __imp_KdComPortInUse:PPROC
+KdComPortInUse equ <__imp_KdComPortInUse>
+
+externdef __imp_KeFlushWriteBuffer:PPROC
+KeFlushWriteBuffer equ <__imp_KeFlushWriteBuffer>
+
+externdef __imp_KeQueryPerformanceCounter:PPROC
+KeQueryPerformanceCounter equ <__imp_KeQueryPerformanceCounter>
+
+externdef __imp_KeStallExecutionProcessor:PPROC
+KeStallExecutionProcessor equ <__imp_KeStallExecutionProcessor>
+
+externdef __imp_x86BiosExecuteInterrupt:PPROC
+x86BiosExecuteInterrupt equ <__imp_x86BiosExecuteInterrupt>
+
+externdef __imp_x86BiosInitializeBiosEx:PPROC
+x86BiosInitializeBiosEx equ <__imp_x86BiosInitializeBiosEx>
+
+externdef __imp_x86BiosTranslateAddress:PPROC
+x86BiosTranslateAddress equ <__imp_x86BiosTranslateAddress>

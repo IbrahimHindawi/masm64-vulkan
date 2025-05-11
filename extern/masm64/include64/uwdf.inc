@@ -1,0 +1,59 @@
+externdef __imp_WdfDeviceCreate:PPROC
+WdfDeviceCreate equ <__imp_WdfDeviceCreate>
+
+externdef __imp_WdfDeviceGetDeviceName:PPROC
+WdfDeviceGetDeviceName equ <__imp_WdfDeviceGetDeviceName>
+
+externdef __imp_WdfDeviceGetIoTarget:PPROC
+WdfDeviceGetIoTarget equ <__imp_WdfDeviceGetIoTarget>
+
+externdef __imp_WdfDeviceInitSetFileEventCallbacks:PPROC
+WdfDeviceInitSetFileEventCallbacks equ <__imp_WdfDeviceInitSetFileEventCallbacks>
+
+externdef __imp_WdfDeviceRegisterIoCallbacks:PPROC
+WdfDeviceRegisterIoCallbacks equ <__imp_WdfDeviceRegisterIoCallbacks>
+
+externdef __imp_WdfDriverCreate:PPROC
+WdfDriverCreate equ <__imp_WdfDriverCreate>
+
+externdef __imp_WdfFdoInitSetEventCallbacks:PPROC
+WdfFdoInitSetEventCallbacks equ <__imp_WdfFdoInitSetEventCallbacks>
+
+externdef __imp_WdfFdoInitSetFilter:PPROC
+WdfFdoInitSetFilter equ <__imp_WdfFdoInitSetFilter>
+
+externdef __imp_WdfIoQueueGetDevice:PPROC
+WdfIoQueueGetDevice equ <__imp_WdfIoQueueGetDevice>
+
+externdef __imp_WdfIoTargetFormatIoctlRequest:PPROC
+WdfIoTargetFormatIoctlRequest equ <__imp_WdfIoTargetFormatIoctlRequest>
+
+externdef __imp_WdfMemoryBufferCreate:PPROC
+WdfMemoryBufferCreate equ <__imp_WdfMemoryBufferCreate>
+
+externdef __imp_WdfObjectDereferenceActual:PPROC
+WdfObjectDereferenceActual equ <__imp_WdfObjectDereferenceActual>
+
+externdef __imp_WdfObjectReferenceActual:PPROC
+WdfObjectReferenceActual equ <__imp_WdfObjectReferenceActual>
+
+externdef __imp_WdfRequestComplete:PPROC
+WdfRequestComplete equ <__imp_WdfRequestComplete>
+
+externdef __imp_WdfRequestCompleteWithInformation:PPROC
+WdfRequestCompleteWithInformation equ <__imp_WdfRequestCompleteWithInformation>
+
+externdef __imp_WdfRequestCreate:PPROC
+WdfRequestCreate equ <__imp_WdfRequestCreate>
+
+externdef __imp_WdfRequestGetParameters:PPROC
+WdfRequestGetParameters equ <__imp_WdfRequestGetParameters>
+
+externdef __imp_WdfRequestRetrieveBuffer:PPROC
+WdfRequestRetrieveBuffer equ <__imp_WdfRequestRetrieveBuffer>
+
+externdef __imp_WdfRequestSend:PPROC
+WdfRequestSend equ <__imp_WdfRequestSend>
+
+externdef __imp_WdfRequestSetCompletionRoutine:PPROC
+WdfRequestSetCompletionRoutine equ <__imp_WdfRequestSetCompletionRoutine>

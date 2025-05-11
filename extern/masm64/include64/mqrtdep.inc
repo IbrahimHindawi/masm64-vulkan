@@ -1,0 +1,116 @@
+externdef __imp_DepBeginTransaction:PPROC
+DepBeginTransaction equ <__imp_DepBeginTransaction>
+
+externdef __imp_DepCloseCursor:PPROC
+DepCloseCursor equ <__imp_DepCloseCursor>
+
+externdef __imp_DepCloseQueue:PPROC
+DepCloseQueue equ <__imp_DepCloseQueue>
+
+externdef __imp_DepCreateCursor:PPROC
+DepCreateCursor equ <__imp_DepCreateCursor>
+
+externdef __imp_DepCreateInternalCertificate:PPROC
+DepCreateInternalCertificate equ <__imp_DepCreateInternalCertificate>
+
+externdef __imp_DepCreateQueue:PPROC
+DepCreateQueue equ <__imp_DepCreateQueue>
+
+externdef __imp_DepDeleteInternalCert:PPROC
+DepDeleteInternalCert equ <__imp_DepDeleteInternalCert>
+
+externdef __imp_DepDeleteQueue:PPROC
+DepDeleteQueue equ <__imp_DepDeleteQueue>
+
+externdef __imp_DepFreeMemory:PPROC
+DepFreeMemory equ <__imp_DepFreeMemory>
+
+externdef __imp_DepFreeSecurityContext:PPROC
+DepFreeSecurityContext equ <__imp_DepFreeSecurityContext>
+
+externdef __imp_DepGetInternalCert:PPROC
+DepGetInternalCert equ <__imp_DepGetInternalCert>
+
+externdef __imp_DepGetMachineProperties:PPROC
+DepGetMachineProperties equ <__imp_DepGetMachineProperties>
+
+externdef __imp_DepGetOverlappedResult:PPROC
+DepGetOverlappedResult equ <__imp_DepGetOverlappedResult>
+
+externdef __imp_DepGetPrivateComputerInformation:PPROC
+DepGetPrivateComputerInformation equ <__imp_DepGetPrivateComputerInformation>
+
+externdef __imp_DepGetQueueProperties:PPROC
+DepGetQueueProperties equ <__imp_DepGetQueueProperties>
+
+externdef __imp_DepGetQueueSecurity:PPROC
+DepGetQueueSecurity equ <__imp_DepGetQueueSecurity>
+
+externdef __imp_DepGetSecurityContext:PPROC
+DepGetSecurityContext equ <__imp_DepGetSecurityContext>
+
+externdef __imp_DepGetSecurityContextEx:PPROC
+DepGetSecurityContextEx equ <__imp_DepGetSecurityContextEx>
+
+externdef __imp_DepGetUserCerts:PPROC
+DepGetUserCerts equ <__imp_DepGetUserCerts>
+
+externdef __imp_DepHandleToFormatName:PPROC
+DepHandleToFormatName equ <__imp_DepHandleToFormatName>
+
+externdef __imp_DepInstanceToFormatName:PPROC
+DepInstanceToFormatName equ <__imp_DepInstanceToFormatName>
+
+externdef __imp_DepLocateBegin:PPROC
+DepLocateBegin equ <__imp_DepLocateBegin>
+
+externdef __imp_DepLocateEnd:PPROC
+DepLocateEnd equ <__imp_DepLocateEnd>
+
+externdef __imp_DepLocateNext:PPROC
+DepLocateNext equ <__imp_DepLocateNext>
+
+externdef __imp_DepMgmtAction:PPROC
+DepMgmtAction equ <__imp_DepMgmtAction>
+
+externdef __imp_DepMgmtGetInfo:PPROC
+DepMgmtGetInfo equ <__imp_DepMgmtGetInfo>
+
+externdef __imp_DepOpenInternalCertStore:PPROC
+DepOpenInternalCertStore equ <__imp_DepOpenInternalCertStore>
+
+externdef __imp_DepOpenQueue:PPROC
+DepOpenQueue equ <__imp_DepOpenQueue>
+
+externdef __imp_DepPathNameToFormatName:PPROC
+DepPathNameToFormatName equ <__imp_DepPathNameToFormatName>
+
+externdef __imp_DepPurgeQueue:PPROC
+DepPurgeQueue equ <__imp_DepPurgeQueue>
+
+externdef __imp_DepReceiveMessage:PPROC
+DepReceiveMessage equ <__imp_DepReceiveMessage>
+
+externdef __imp_DepRegisterCertificate:PPROC
+DepRegisterCertificate equ <__imp_DepRegisterCertificate>
+
+externdef __imp_DepRegisterServer:PPROC
+DepRegisterServer equ <__imp_DepRegisterServer>
+
+externdef __imp_DepRegisterUserCert:PPROC
+DepRegisterUserCert equ <__imp_DepRegisterUserCert>
+
+externdef __imp_DepRemoveUserCert:PPROC
+DepRemoveUserCert equ <__imp_DepRemoveUserCert>
+
+externdef __imp_DepSendMessage:PPROC
+DepSendMessage equ <__imp_DepSendMessage>
+
+externdef __imp_DepSetQueueProperties:PPROC
+DepSetQueueProperties equ <__imp_DepSetQueueProperties>
+
+externdef __imp_DepSetQueueSecurity:PPROC
+DepSetQueueSecurity equ <__imp_DepSetQueueSecurity>
+
+externdef __imp_DepXactGetDTC:PPROC
+DepXactGetDTC equ <__imp_DepXactGetDTC>

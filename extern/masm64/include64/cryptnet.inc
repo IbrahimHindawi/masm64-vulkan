@@ -1,0 +1,59 @@
+externdef __imp_CertDllVerifyCTLUsage:PPROC
+CertDllVerifyCTLUsage equ <__imp_CertDllVerifyCTLUsage>
+
+externdef __imp_CertDllVerifyRevocation:PPROC
+CertDllVerifyRevocation equ <__imp_CertDllVerifyRevocation>
+
+externdef __imp_CryptCancelAsyncRetrieval:PPROC
+CryptCancelAsyncRetrieval equ <__imp_CryptCancelAsyncRetrieval>
+
+externdef __imp_CryptFlushTimeValidObject:PPROC
+CryptFlushTimeValidObject equ <__imp_CryptFlushTimeValidObject>
+
+externdef __imp_CryptGetObjectUrl:PPROC
+CryptGetObjectUrl equ <__imp_CryptGetObjectUrl>
+
+externdef __imp_CryptGetTimeValidObject:PPROC
+CryptGetTimeValidObject equ <__imp_CryptGetTimeValidObject>
+
+externdef __imp_CryptInstallCancelRetrieval:PPROC
+CryptInstallCancelRetrieval equ <__imp_CryptInstallCancelRetrieval>
+
+externdef __imp_CryptRetrieveObjectByUrlA:PPROC
+CryptRetrieveObjectByUrlA equ <__imp_CryptRetrieveObjectByUrlA>
+  IFNDEF __UNICODE__
+    CryptRetrieveObjectByUrl equ <__imp_CryptRetrieveObjectByUrlA>
+  ENDIF
+
+externdef __imp_CryptRetrieveObjectByUrlW:PPROC
+CryptRetrieveObjectByUrlW equ <__imp_CryptRetrieveObjectByUrlW>
+  IFDEF __UNICODE__
+    CryptRetrieveObjectByUrl equ <__imp_CryptRetrieveObjectByUrlW>
+  ENDIF
+
+externdef __imp_CryptUninstallCancelRetrieval:PPROC
+CryptUninstallCancelRetrieval equ <__imp_CryptUninstallCancelRetrieval>
+
+externdef __imp_CryptnetWlxLogoffEvent:PPROC
+CryptnetWlxLogoffEvent equ <__imp_CryptnetWlxLogoffEvent>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_I_CryptNetEnumUrlCacheEntry:PPROC
+I_CryptNetEnumUrlCacheEntry equ <__imp_I_CryptNetEnumUrlCacheEntry>
+
+externdef __imp_I_CryptNetGetHostNameFromUrl:PPROC
+I_CryptNetGetHostNameFromUrl equ <__imp_I_CryptNetGetHostNameFromUrl>
+
+externdef __imp_I_CryptNetGetUserDsStoreUrl:PPROC
+I_CryptNetGetUserDsStoreUrl equ <__imp_I_CryptNetGetUserDsStoreUrl>
+
+externdef __imp_I_CryptNetIsConnected:PPROC
+I_CryptNetIsConnected equ <__imp_I_CryptNetIsConnected>
+
+externdef __imp_LdapProvOpenStore:PPROC
+LdapProvOpenStore equ <__imp_LdapProvOpenStore>

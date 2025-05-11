@@ -1,0 +1,11 @@
+externdef __imp_SCCPDllCanUnloadNow:PPROC
+SCCPDllCanUnloadNow equ <__imp_SCCPDllCanUnloadNow>
+
+externdef __imp_SCCPDllGetClassObject:PPROC
+SCCPDllGetClassObject equ <__imp_SCCPDllGetClassObject>
+
+externdef __imp_SCCPDllRegisterServer:PPROC
+SCCPDllRegisterServer equ <__imp_SCCPDllRegisterServer>
+
+externdef __imp_SCCPDllUnregisterServer:PPROC
+SCCPDllUnregisterServer equ <__imp_SCCPDllUnregisterServer>

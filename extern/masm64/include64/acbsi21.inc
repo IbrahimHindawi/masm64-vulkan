@@ -1,0 +1,86 @@
+externdef __imp_gscBsiGcDataCreate:PPROC
+gscBsiGcDataCreate equ <__imp_gscBsiGcDataCreate>
+
+externdef __imp_gscBsiGcDataDelete:PPROC
+gscBsiGcDataDelete equ <__imp_gscBsiGcDataDelete>
+
+externdef __imp_gscBsiGcGetContainerProperties:PPROC
+gscBsiGcGetContainerProperties equ <__imp_gscBsiGcGetContainerProperties>
+
+externdef __imp_gscBsiGcReadTagList:PPROC
+gscBsiGcReadTagList equ <__imp_gscBsiGcReadTagList>
+
+externdef __imp_gscBsiGcReadValue:PPROC
+gscBsiGcReadValue equ <__imp_gscBsiGcReadValue>
+
+externdef __imp_gscBsiGcUpdateValue:PPROC
+gscBsiGcUpdateValue equ <__imp_gscBsiGcUpdateValue>
+
+externdef __imp_gscBsiGetChallenge:PPROC
+gscBsiGetChallenge equ <__imp_gscBsiGetChallenge>
+
+externdef __imp_gscBsiGetCryptoProperties:PPROC
+gscBsiGetCryptoProperties equ <__imp_gscBsiGetCryptoProperties>
+
+externdef __imp_gscBsiPkiCompute:PPROC
+gscBsiPkiCompute equ <__imp_gscBsiPkiCompute>
+
+externdef __imp_gscBsiPkiGetCertificate:PPROC
+gscBsiPkiGetCertificate equ <__imp_gscBsiPkiGetCertificate>
+
+externdef __imp_gscBsiSkiInternalAuthenticate:PPROC
+gscBsiSkiInternalAuthenticate equ <__imp_gscBsiSkiInternalAuthenticate>
+
+externdef __imp_gscBsiUtilAcquireContext:PPROC
+gscBsiUtilAcquireContext equ <__imp_gscBsiUtilAcquireContext>
+
+externdef __imp_gscBsiUtilBeginTransaction:PPROC
+gscBsiUtilBeginTransaction equ <__imp_gscBsiUtilBeginTransaction>
+
+externdef __imp_gscBsiUtilConnect:PPROC
+gscBsiUtilConnect equ <__imp_gscBsiUtilConnect>
+
+externdef __imp_gscBsiUtilDisconnect:PPROC
+gscBsiUtilDisconnect equ <__imp_gscBsiUtilDisconnect>
+
+externdef __imp_gscBsiUtilEndTransaction:PPROC
+gscBsiUtilEndTransaction equ <__imp_gscBsiUtilEndTransaction>
+
+externdef __imp_gscBsiUtilGetCardProperties:PPROC
+gscBsiUtilGetCardProperties equ <__imp_gscBsiUtilGetCardProperties>
+
+externdef __imp_gscBsiUtilGetCardStatus:PPROC
+gscBsiUtilGetCardStatus equ <__imp_gscBsiUtilGetCardStatus>
+
+externdef __imp_gscBsiUtilGetExtendedErrorText:PPROC
+gscBsiUtilGetExtendedErrorText equ <__imp_gscBsiUtilGetExtendedErrorText>
+
+externdef __imp_gscBsiUtilGetReaderList:PPROC
+gscBsiUtilGetReaderList equ <__imp_gscBsiUtilGetReaderList>
+
+externdef __imp_gscBsiUtilGetVersion:PPROC
+gscBsiUtilGetVersion equ <__imp_gscBsiUtilGetVersion>
+
+externdef __imp_gscBsiUtilPassthru:PPROC
+gscBsiUtilPassthru equ <__imp_gscBsiUtilPassthru>
+
+externdef __imp_gscBsiUtilReleaseContext:PPROC
+gscBsiUtilReleaseContext equ <__imp_gscBsiUtilReleaseContext>
+
+externdef __imp_gscXsiUtilChangePIN:PPROC
+gscXsiUtilChangePIN equ <__imp_gscXsiUtilChangePIN>
+
+externdef __imp_gscXsiUtilGetCardATR:PPROC
+gscXsiUtilGetCardATR equ <__imp_gscXsiUtilGetCardATR>
+
+externdef __imp_gscXsiUtilGetCardManagerState:PPROC
+gscXsiUtilGetCardManagerState equ <__imp_gscXsiUtilGetCardManagerState>
+
+externdef __imp_gscXsiUtilGetCuid:PPROC
+gscXsiUtilGetCuid equ <__imp_gscXsiUtilGetCuid>
+
+externdef __imp_gscXsiUtilGetIdentifier:PPROC
+gscXsiUtilGetIdentifier equ <__imp_gscXsiUtilGetIdentifier>
+
+externdef __imp_gscXsiUtilIsPINVerified:PPROC
+gscXsiUtilIsPINVerified equ <__imp_gscXsiUtilIsPINVerified>

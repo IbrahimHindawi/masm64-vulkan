@@ -1,0 +1,23 @@
+externdef __imp_ATIDMM_ControllerSetConfig:PPROC
+ATIDMM_ControllerSetConfig equ <__imp_ATIDMM_ControllerSetConfig>
+
+externdef __imp_ATIDMM_ExtEscape:PPROC
+ATIDMM_ExtEscape equ <__imp_ATIDMM_ExtEscape>
+
+externdef __imp_ATIDMM_GetSourceID:PPROC
+ATIDMM_GetSourceID equ <__imp_ATIDMM_GetSourceID>
+
+externdef __imp_ATIDMM_SetDriverConfiguration:PPROC
+ATIDMM_SetDriverConfiguration equ <__imp_ATIDMM_SetDriverConfiguration>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>

@@ -1,0 +1,32 @@
+externdef __imp_ComDBClaimNextFreePort:PPROC
+ComDBClaimNextFreePort equ <__imp_ComDBClaimNextFreePort>
+
+externdef __imp_ComDBClaimPort:PPROC
+ComDBClaimPort equ <__imp_ComDBClaimPort>
+
+externdef __imp_ComDBClose:PPROC
+ComDBClose equ <__imp_ComDBClose>
+
+externdef __imp_ComDBGetCurrentPortUsage:PPROC
+ComDBGetCurrentPortUsage equ <__imp_ComDBGetCurrentPortUsage>
+
+externdef __imp_ComDBOpen:PPROC
+ComDBOpen equ <__imp_ComDBOpen>
+
+externdef __imp_ComDBReleasePort:PPROC
+ComDBReleasePort equ <__imp_ComDBReleasePort>
+
+externdef __imp_ComDBResizeDatabase:PPROC
+ComDBResizeDatabase equ <__imp_ComDBResizeDatabase>
+
+externdef __imp_ParallelPortPropPageProvider:PPROC
+ParallelPortPropPageProvider equ <__imp_ParallelPortPropPageProvider>
+
+externdef __imp_PortsClassInstaller:PPROC
+PortsClassInstaller equ <__imp_PortsClassInstaller>
+
+externdef __imp_SerialDisplayAdvancedSettings:PPROC
+SerialDisplayAdvancedSettings equ <__imp_SerialDisplayAdvancedSettings>
+
+externdef __imp_SerialPortPropPageProvider:PPROC
+SerialPortPropPageProvider equ <__imp_SerialPortPropPageProvider>

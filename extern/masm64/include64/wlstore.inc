@@ -1,0 +1,74 @@
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_UpdateWirelessPSData:PPROC
+UpdateWirelessPSData equ <__imp_UpdateWirelessPSData>
+
+externdef __imp_WirelessAddPSToPolicy:PPROC
+WirelessAddPSToPolicy equ <__imp_WirelessAddPSToPolicy>
+
+externdef __imp_WirelessAllocPolMem:PPROC
+WirelessAllocPolMem equ <__imp_WirelessAllocPolMem>
+
+externdef __imp_WirelessAllocPolStr:PPROC
+WirelessAllocPolStr equ <__imp_WirelessAllocPolStr>
+
+externdef __imp_WirelessClearWMIStore:PPROC
+WirelessClearWMIStore equ <__imp_WirelessClearWMIStore>
+
+externdef __imp_WirelessClosePolicyStore:PPROC
+WirelessClosePolicyStore equ <__imp_WirelessClosePolicyStore>
+
+externdef __imp_WirelessCopyPolicyData:PPROC
+WirelessCopyPolicyData equ <__imp_WirelessCopyPolicyData>
+
+externdef __imp_WirelessCreatePolicyData:PPROC
+WirelessCreatePolicyData equ <__imp_WirelessCreatePolicyData>
+
+externdef __imp_WirelessDeletePolicyData:PPROC
+WirelessDeletePolicyData equ <__imp_WirelessDeletePolicyData>
+
+externdef __imp_WirelessEnumPolicyData:PPROC
+WirelessEnumPolicyData equ <__imp_WirelessEnumPolicyData>
+
+externdef __imp_WirelessFreeMulPolicyData:PPROC
+WirelessFreeMulPolicyData equ <__imp_WirelessFreeMulPolicyData>
+
+externdef __imp_WirelessFreePolMem:PPROC
+WirelessFreePolMem equ <__imp_WirelessFreePolMem>
+
+externdef __imp_WirelessFreePolStr:PPROC
+WirelessFreePolStr equ <__imp_WirelessFreePolStr>
+
+externdef __imp_WirelessFreePolicyData:PPROC
+WirelessFreePolicyData equ <__imp_WirelessFreePolicyData>
+
+externdef __imp_WirelessGPOOpenPolicyStore:PPROC
+WirelessGPOOpenPolicyStore equ <__imp_WirelessGPOOpenPolicyStore>
+
+externdef __imp_WirelessPolicyPSId:PPROC
+WirelessPolicyPSId equ <__imp_WirelessPolicyPSId>
+
+externdef __imp_WirelessReallocatePolMem:PPROC
+WirelessReallocatePolMem equ <__imp_WirelessReallocatePolMem>
+
+externdef __imp_WirelessReallocatePolStr:PPROC
+WirelessReallocatePolStr equ <__imp_WirelessReallocatePolStr>
+
+externdef __imp_WirelessRemovePSFromPolicy:PPROC
+WirelessRemovePSFromPolicy equ <__imp_WirelessRemovePSFromPolicy>
+
+externdef __imp_WirelessRemovePSFromPolicyId:PPROC
+WirelessRemovePSFromPolicyId equ <__imp_WirelessRemovePSFromPolicyId>
+
+externdef __imp_WirelessSetPSDataInPolicy:PPROC
+WirelessSetPSDataInPolicy equ <__imp_WirelessSetPSDataInPolicy>
+
+externdef __imp_WirelessSetPolicyData:PPROC
+WirelessSetPolicyData equ <__imp_WirelessSetPolicyData>
+
+externdef __imp_WirelessWriteDirectoryPolicyToWMI:PPROC
+WirelessWriteDirectoryPolicyToWMI equ <__imp_WirelessWriteDirectoryPolicyToWMI>

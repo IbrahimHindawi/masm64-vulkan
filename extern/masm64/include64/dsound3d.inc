@@ -1,0 +1,2 @@
+externdef __imp_CafBiquadCoeffs:PPROC
+CafBiquadCoeffs equ <__imp_CafBiquadCoeffs>

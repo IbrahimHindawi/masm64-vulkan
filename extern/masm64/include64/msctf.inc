@@ -1,0 +1,116 @@
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_SetInputScope:PPROC
+SetInputScope equ <__imp_SetInputScope>
+
+externdef __imp_SetInputScopeXML:PPROC
+SetInputScopeXML equ <__imp_SetInputScopeXML>
+
+externdef __imp_SetInputScopes:PPROC
+SetInputScopes equ <__imp_SetInputScopes>
+
+externdef __imp_TF_CUASAppFix:PPROC
+TF_CUASAppFix equ <__imp_TF_CUASAppFix>
+
+externdef __imp_TF_CheckThreadInputIdle:PPROC
+TF_CheckThreadInputIdle equ <__imp_TF_CheckThreadInputIdle>
+
+externdef __imp_TF_ClearLangBarAddIns:PPROC
+TF_ClearLangBarAddIns equ <__imp_TF_ClearLangBarAddIns>
+
+externdef __imp_TF_CreateCategoryMgr:PPROC
+TF_CreateCategoryMgr equ <__imp_TF_CreateCategoryMgr>
+
+externdef __imp_TF_CreateCicLoadMutex:PPROC
+TF_CreateCicLoadMutex equ <__imp_TF_CreateCicLoadMutex>
+
+externdef __imp_TF_CreateDisplayAttributeMgr:PPROC
+TF_CreateDisplayAttributeMgr equ <__imp_TF_CreateDisplayAttributeMgr>
+
+externdef __imp_TF_CreateInputProcessorProfiles:PPROC
+TF_CreateInputProcessorProfiles equ <__imp_TF_CreateInputProcessorProfiles>
+
+externdef __imp_TF_CreateLangBarItemMgr:PPROC
+TF_CreateLangBarItemMgr equ <__imp_TF_CreateLangBarItemMgr>
+
+externdef __imp_TF_CreateLangBarMgr:PPROC
+TF_CreateLangBarMgr equ <__imp_TF_CreateLangBarMgr>
+
+externdef __imp_TF_CreateThreadMgr:PPROC
+TF_CreateThreadMgr equ <__imp_TF_CreateThreadMgr>
+
+externdef __imp_TF_DllDetachInOther:PPROC
+TF_DllDetachInOther equ <__imp_TF_DllDetachInOther>
+
+externdef __imp_TF_GetGlobalCompartment:PPROC
+TF_GetGlobalCompartment equ <__imp_TF_GetGlobalCompartment>
+
+externdef __imp_TF_GetInputScope:PPROC
+TF_GetInputScope equ <__imp_TF_GetInputScope>
+
+externdef __imp_TF_GetLangIcon:PPROC
+TF_GetLangIcon equ <__imp_TF_GetLangIcon>
+
+externdef __imp_TF_GetMlngHKL:PPROC
+TF_GetMlngHKL equ <__imp_TF_GetMlngHKL>
+
+externdef __imp_TF_GetMlngIconIndex:PPROC
+TF_GetMlngIconIndex equ <__imp_TF_GetMlngIconIndex>
+
+externdef __imp_TF_GetThreadFlags:PPROC
+TF_GetThreadFlags equ <__imp_TF_GetThreadFlags>
+
+externdef __imp_TF_GetThreadMgr:PPROC
+TF_GetThreadMgr equ <__imp_TF_GetThreadMgr>
+
+externdef __imp_TF_InatExtractIcon:PPROC
+TF_InatExtractIcon equ <__imp_TF_InatExtractIcon>
+
+externdef __imp_TF_InitMlngInfo:PPROC
+TF_InitMlngInfo equ <__imp_TF_InitMlngInfo>
+
+externdef __imp_TF_InitSystem:PPROC
+TF_InitSystem equ <__imp_TF_InitSystem>
+
+externdef __imp_TF_InvalidAssemblyListCache:PPROC
+TF_InvalidAssemblyListCache equ <__imp_TF_InvalidAssemblyListCache>
+
+externdef __imp_TF_InvalidAssemblyListCacheIfExist:PPROC
+TF_InvalidAssemblyListCacheIfExist equ <__imp_TF_InvalidAssemblyListCacheIfExist>
+
+externdef __imp_TF_IsCtfmonRunning:PPROC
+TF_IsCtfmonRunning equ <__imp_TF_IsCtfmonRunning>
+
+externdef __imp_TF_IsFullScreenWindowAcitvated:PPROC
+TF_IsFullScreenWindowAcitvated equ <__imp_TF_IsFullScreenWindowAcitvated>
+
+externdef __imp_TF_IsInMarshaling:PPROC
+TF_IsInMarshaling equ <__imp_TF_IsInMarshaling>
+
+externdef __imp_TF_MlngInfoCount:PPROC
+TF_MlngInfoCount equ <__imp_TF_MlngInfoCount>
+
+externdef __imp_TF_PostAllThreadMsg:PPROC
+TF_PostAllThreadMsg equ <__imp_TF_PostAllThreadMsg>
+
+externdef __imp_TF_RegisterLangBarAddIn:PPROC
+TF_RegisterLangBarAddIn equ <__imp_TF_RegisterLangBarAddIn>
+
+externdef __imp_TF_RunInputCPL:PPROC
+TF_RunInputCPL equ <__imp_TF_RunInputCPL>
+
+externdef __imp_TF_UninitSystem:PPROC
+TF_UninitSystem equ <__imp_TF_UninitSystem>
+
+externdef __imp_TF_UnregisterLangBarAddIn:PPROC
+TF_UnregisterLangBarAddIn equ <__imp_TF_UnregisterLangBarAddIn>

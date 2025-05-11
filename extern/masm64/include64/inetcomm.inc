@@ -1,0 +1,359 @@
+externdef __imp_CreateIMAPTransport2:PPROC
+CreateIMAPTransport2 equ <__imp_CreateIMAPTransport2>
+
+externdef __imp_CreateIMAPTransport:PPROC
+CreateIMAPTransport equ <__imp_CreateIMAPTransport>
+
+externdef __imp_CreateNNTPTransport:PPROC
+CreateNNTPTransport equ <__imp_CreateNNTPTransport>
+
+externdef __imp_CreatePOP3Transport:PPROC
+CreatePOP3Transport equ <__imp_CreatePOP3Transport>
+
+externdef __imp_CreateRASTransport:PPROC
+CreateRASTransport equ <__imp_CreateRASTransport>
+
+externdef __imp_CreateRangeList:PPROC
+CreateRangeList equ <__imp_CreateRangeList>
+
+externdef __imp_CreateSMTPTransport:PPROC
+CreateSMTPTransport equ <__imp_CreateSMTPTransport>
+
+externdef __imp_DllCanUnloadNow:PPROC
+DllCanUnloadNow equ <__imp_DllCanUnloadNow>
+
+externdef __imp_DllGetClassObject:PPROC
+DllGetClassObject equ <__imp_DllGetClassObject>
+
+externdef __imp_DllRegisterServer:PPROC
+DllRegisterServer equ <__imp_DllRegisterServer>
+
+externdef __imp_DllUnregisterServer:PPROC
+DllUnregisterServer equ <__imp_DllUnregisterServer>
+
+externdef __imp_EssContentHintDecodeEx:PPROC
+EssContentHintDecodeEx equ <__imp_EssContentHintDecodeEx>
+
+externdef __imp_EssContentHintEncodeEx:PPROC
+EssContentHintEncodeEx equ <__imp_EssContentHintEncodeEx>
+
+externdef __imp_EssKeyExchPreferenceDecodeEx:PPROC
+EssKeyExchPreferenceDecodeEx equ <__imp_EssKeyExchPreferenceDecodeEx>
+
+externdef __imp_EssKeyExchPreferenceEncodeEx:PPROC
+EssKeyExchPreferenceEncodeEx equ <__imp_EssKeyExchPreferenceEncodeEx>
+
+externdef __imp_EssMLHistoryDecodeEx:PPROC
+EssMLHistoryDecodeEx equ <__imp_EssMLHistoryDecodeEx>
+
+externdef __imp_EssMLHistoryEncodeEx:PPROC
+EssMLHistoryEncodeEx equ <__imp_EssMLHistoryEncodeEx>
+
+externdef __imp_EssReceiptDecodeEx:PPROC
+EssReceiptDecodeEx equ <__imp_EssReceiptDecodeEx>
+
+externdef __imp_EssReceiptEncodeEx:PPROC
+EssReceiptEncodeEx equ <__imp_EssReceiptEncodeEx>
+
+externdef __imp_EssReceiptRequestDecodeEx:PPROC
+EssReceiptRequestDecodeEx equ <__imp_EssReceiptRequestDecodeEx>
+
+externdef __imp_EssReceiptRequestEncodeEx:PPROC
+EssReceiptRequestEncodeEx equ <__imp_EssReceiptRequestEncodeEx>
+
+externdef __imp_EssSecurityLabelDecodeEx:PPROC
+EssSecurityLabelDecodeEx equ <__imp_EssSecurityLabelDecodeEx>
+
+externdef __imp_EssSecurityLabelEncodeEx:PPROC
+EssSecurityLabelEncodeEx equ <__imp_EssSecurityLabelEncodeEx>
+
+externdef __imp_EssSignCertificateDecodeEx:PPROC
+EssSignCertificateDecodeEx equ <__imp_EssSignCertificateDecodeEx>
+
+externdef __imp_EssSignCertificateEncodeEx:PPROC
+EssSignCertificateEncodeEx equ <__imp_EssSignCertificateEncodeEx>
+
+externdef __imp_GetDllMajorVersion:PPROC
+GetDllMajorVersion equ <__imp_GetDllMajorVersion>
+
+externdef __imp_HrAthGetFileName:PPROC
+HrAthGetFileName equ <__imp_HrAthGetFileName>
+
+externdef __imp_HrAthGetFileNameW:PPROC
+HrAthGetFileNameW equ <__imp_HrAthGetFileNameW>
+  IFDEF __UNICODE__
+    HrAthGetFileName equ <__imp_HrAthGetFileNameW>
+  ENDIF
+
+externdef __imp_HrAttachDataFromBodyPart:PPROC
+HrAttachDataFromBodyPart equ <__imp_HrAttachDataFromBodyPart>
+
+externdef __imp_HrAttachDataFromFile:PPROC
+HrAttachDataFromFile equ <__imp_HrAttachDataFromFile>
+
+externdef __imp_HrDoAttachmentVerb:PPROC
+HrDoAttachmentVerb equ <__imp_HrDoAttachmentVerb>
+
+externdef __imp_HrFreeAttachData:PPROC
+HrFreeAttachData equ <__imp_HrFreeAttachData>
+
+externdef __imp_HrGetAttachIcon:PPROC
+HrGetAttachIcon equ <__imp_HrGetAttachIcon>
+
+externdef __imp_HrGetAttachIconByFile:PPROC
+HrGetAttachIconByFile equ <__imp_HrGetAttachIconByFile>
+
+externdef __imp_HrGetDisplayNameWithSizeForFile:PPROC
+HrGetDisplayNameWithSizeForFile equ <__imp_HrGetDisplayNameWithSizeForFile>
+
+externdef __imp_HrGetLastOpenFileDirectory:PPROC
+HrGetLastOpenFileDirectory equ <__imp_HrGetLastOpenFileDirectory>
+
+externdef __imp_HrGetLastOpenFileDirectoryW:PPROC
+HrGetLastOpenFileDirectoryW equ <__imp_HrGetLastOpenFileDirectoryW>
+  IFDEF __UNICODE__
+    HrGetLastOpenFileDirectory equ <__imp_HrGetLastOpenFileDirectoryW>
+  ENDIF
+
+externdef __imp_HrSaveAttachToFile:PPROC
+HrSaveAttachToFile equ <__imp_HrSaveAttachToFile>
+
+externdef __imp_HrSaveAttachmentAs:PPROC
+HrSaveAttachmentAs equ <__imp_HrSaveAttachmentAs>
+
+externdef __imp_MimeEditCreateMimeDocument:PPROC
+MimeEditCreateMimeDocument equ <__imp_MimeEditCreateMimeDocument>
+
+externdef __imp_MimeEditDocumentFromStream:PPROC
+MimeEditDocumentFromStream equ <__imp_MimeEditDocumentFromStream>
+
+externdef __imp_MimeEditGetBackgroundImageUrl:PPROC
+MimeEditGetBackgroundImageUrl equ <__imp_MimeEditGetBackgroundImageUrl>
+
+externdef __imp_MimeEditIsSafeToRun:PPROC
+MimeEditIsSafeToRun equ <__imp_MimeEditIsSafeToRun>
+
+externdef __imp_MimeEditViewSource:PPROC
+MimeEditViewSource equ <__imp_MimeEditViewSource>
+
+externdef __imp_MimeGetAddressFormatW:PPROC
+MimeGetAddressFormatW equ <__imp_MimeGetAddressFormatW>
+  IFDEF __UNICODE__
+    MimeGetAddressFormat equ <__imp_MimeGetAddressFormatW>
+  ENDIF
+
+externdef __imp_MimeOleAlgNameFromSMimeCap:PPROC
+MimeOleAlgNameFromSMimeCap equ <__imp_MimeOleAlgNameFromSMimeCap>
+
+externdef __imp_MimeOleAlgStrengthFromSMimeCap:PPROC
+MimeOleAlgStrengthFromSMimeCap equ <__imp_MimeOleAlgStrengthFromSMimeCap>
+
+externdef __imp_MimeOleClearDirtyTree:PPROC
+MimeOleClearDirtyTree equ <__imp_MimeOleClearDirtyTree>
+
+externdef __imp_MimeOleConvertEnrichedToHTML:PPROC
+MimeOleConvertEnrichedToHTML equ <__imp_MimeOleConvertEnrichedToHTML>
+
+externdef __imp_MimeOleCreateBody:PPROC
+MimeOleCreateBody equ <__imp_MimeOleCreateBody>
+
+externdef __imp_MimeOleCreateByteStream:PPROC
+MimeOleCreateByteStream equ <__imp_MimeOleCreateByteStream>
+
+externdef __imp_MimeOleCreateHashTable:PPROC
+MimeOleCreateHashTable equ <__imp_MimeOleCreateHashTable>
+
+externdef __imp_MimeOleCreateHeaderTable:PPROC
+MimeOleCreateHeaderTable equ <__imp_MimeOleCreateHeaderTable>
+
+externdef __imp_MimeOleCreateMessage:PPROC
+MimeOleCreateMessage equ <__imp_MimeOleCreateMessage>
+
+externdef __imp_MimeOleCreateMessageParts:PPROC
+MimeOleCreateMessageParts equ <__imp_MimeOleCreateMessageParts>
+
+externdef __imp_MimeOleCreatePropertySet:PPROC
+MimeOleCreatePropertySet equ <__imp_MimeOleCreatePropertySet>
+
+externdef __imp_MimeOleCreateSecurity:PPROC
+MimeOleCreateSecurity equ <__imp_MimeOleCreateSecurity>
+
+externdef __imp_MimeOleCreateVirtualStream:PPROC
+MimeOleCreateVirtualStream equ <__imp_MimeOleCreateVirtualStream>
+
+externdef __imp_MimeOleDecodeHeader:PPROC
+MimeOleDecodeHeader equ <__imp_MimeOleDecodeHeader>
+
+externdef __imp_MimeOleEncodeHeader:PPROC
+MimeOleEncodeHeader equ <__imp_MimeOleEncodeHeader>
+
+externdef __imp_MimeOleFileTimeToInetDate:PPROC
+MimeOleFileTimeToInetDate equ <__imp_MimeOleFileTimeToInetDate>
+
+externdef __imp_MimeOleFindCharset:PPROC
+MimeOleFindCharset equ <__imp_MimeOleFindCharset>
+
+externdef __imp_MimeOleGenerateCID:PPROC
+MimeOleGenerateCID equ <__imp_MimeOleGenerateCID>
+
+externdef __imp_MimeOleGenerateFileName:PPROC
+MimeOleGenerateFileName equ <__imp_MimeOleGenerateFileName>
+
+externdef __imp_MimeOleGenerateMID:PPROC
+MimeOleGenerateMID equ <__imp_MimeOleGenerateMID>
+
+externdef __imp_MimeOleGetAllocator:PPROC
+MimeOleGetAllocator equ <__imp_MimeOleGetAllocator>
+
+externdef __imp_MimeOleGetBodyPropA:PPROC
+MimeOleGetBodyPropA equ <__imp_MimeOleGetBodyPropA>
+  IFNDEF __UNICODE__
+    MimeOleGetBodyProp equ <__imp_MimeOleGetBodyPropA>
+  ENDIF
+
+externdef __imp_MimeOleGetBodyPropW:PPROC
+MimeOleGetBodyPropW equ <__imp_MimeOleGetBodyPropW>
+  IFDEF __UNICODE__
+    MimeOleGetBodyProp equ <__imp_MimeOleGetBodyPropW>
+  ENDIF
+
+externdef __imp_MimeOleGetCertsFromThumbprints:PPROC
+MimeOleGetCertsFromThumbprints equ <__imp_MimeOleGetCertsFromThumbprints>
+
+externdef __imp_MimeOleGetCharsetInfo:PPROC
+MimeOleGetCharsetInfo equ <__imp_MimeOleGetCharsetInfo>
+
+externdef __imp_MimeOleGetCodePageCharset:PPROC
+MimeOleGetCodePageCharset equ <__imp_MimeOleGetCodePageCharset>
+
+externdef __imp_MimeOleGetCodePageInfo:PPROC
+MimeOleGetCodePageInfo equ <__imp_MimeOleGetCodePageInfo>
+
+externdef __imp_MimeOleGetContentTypeExt:PPROC
+MimeOleGetContentTypeExt equ <__imp_MimeOleGetContentTypeExt>
+
+externdef __imp_MimeOleGetDefaultCharset:PPROC
+MimeOleGetDefaultCharset equ <__imp_MimeOleGetDefaultCharset>
+
+externdef __imp_MimeOleGetExtContentType:PPROC
+MimeOleGetExtContentType equ <__imp_MimeOleGetExtContentType>
+
+externdef __imp_MimeOleGetFileExtension:PPROC
+MimeOleGetFileExtension equ <__imp_MimeOleGetFileExtension>
+
+externdef __imp_MimeOleGetFileInfo:PPROC
+MimeOleGetFileInfo equ <__imp_MimeOleGetFileInfo>
+
+externdef __imp_MimeOleGetFileInfoW:PPROC
+MimeOleGetFileInfoW equ <__imp_MimeOleGetFileInfoW>
+  IFDEF __UNICODE__
+    MimeOleGetFileInfo equ <__imp_MimeOleGetFileInfoW>
+  ENDIF
+
+externdef __imp_MimeOleGetInternat:PPROC
+MimeOleGetInternat equ <__imp_MimeOleGetInternat>
+
+externdef __imp_MimeOleGetPropA:PPROC
+MimeOleGetPropA equ <__imp_MimeOleGetPropA>
+  IFNDEF __UNICODE__
+    MimeOleGetProp equ <__imp_MimeOleGetPropA>
+  ENDIF
+
+externdef __imp_MimeOleGetPropW:PPROC
+MimeOleGetPropW equ <__imp_MimeOleGetPropW>
+  IFDEF __UNICODE__
+    MimeOleGetProp equ <__imp_MimeOleGetPropW>
+  ENDIF
+
+externdef __imp_MimeOleGetPropertySchema:PPROC
+MimeOleGetPropertySchema equ <__imp_MimeOleGetPropertySchema>
+
+externdef __imp_MimeOleGetRelatedSection:PPROC
+MimeOleGetRelatedSection equ <__imp_MimeOleGetRelatedSection>
+
+externdef __imp_MimeOleInetDateToFileTime:PPROC
+MimeOleInetDateToFileTime equ <__imp_MimeOleInetDateToFileTime>
+
+externdef __imp_MimeOleObjectFromMoniker:PPROC
+MimeOleObjectFromMoniker equ <__imp_MimeOleObjectFromMoniker>
+
+externdef __imp_MimeOleOpenFileStream:PPROC
+MimeOleOpenFileStream equ <__imp_MimeOleOpenFileStream>
+
+externdef __imp_MimeOleParseMhtmlUrl:PPROC
+MimeOleParseMhtmlUrl equ <__imp_MimeOleParseMhtmlUrl>
+
+externdef __imp_MimeOleParseRfc822Address:PPROC
+MimeOleParseRfc822Address equ <__imp_MimeOleParseRfc822Address>
+
+externdef __imp_MimeOleParseRfc822AddressW:PPROC
+MimeOleParseRfc822AddressW equ <__imp_MimeOleParseRfc822AddressW>
+  IFDEF __UNICODE__
+    MimeOleParseRfc822Address equ <__imp_MimeOleParseRfc822AddressW>
+  ENDIF
+
+externdef __imp_MimeOleSMimeCapAddCert:PPROC
+MimeOleSMimeCapAddCert equ <__imp_MimeOleSMimeCapAddCert>
+
+externdef __imp_MimeOleSMimeCapAddSMimeCap:PPROC
+MimeOleSMimeCapAddSMimeCap equ <__imp_MimeOleSMimeCapAddSMimeCap>
+
+externdef __imp_MimeOleSMimeCapGetEncAlg:PPROC
+MimeOleSMimeCapGetEncAlg equ <__imp_MimeOleSMimeCapGetEncAlg>
+
+externdef __imp_MimeOleSMimeCapGetHashAlg:PPROC
+MimeOleSMimeCapGetHashAlg equ <__imp_MimeOleSMimeCapGetHashAlg>
+
+externdef __imp_MimeOleSMimeCapInit:PPROC
+MimeOleSMimeCapInit equ <__imp_MimeOleSMimeCapInit>
+
+externdef __imp_MimeOleSMimeCapRelease:PPROC
+MimeOleSMimeCapRelease equ <__imp_MimeOleSMimeCapRelease>
+
+externdef __imp_MimeOleSMimeCapsFromDlg:PPROC
+MimeOleSMimeCapsFromDlg equ <__imp_MimeOleSMimeCapsFromDlg>
+
+externdef __imp_MimeOleSMimeCapsFull:PPROC
+MimeOleSMimeCapsFull equ <__imp_MimeOleSMimeCapsFull>
+
+externdef __imp_MimeOleSMimeCapsToDlg:PPROC
+MimeOleSMimeCapsToDlg equ <__imp_MimeOleSMimeCapsToDlg>
+
+externdef __imp_MimeOleSetBodyPropA:PPROC
+MimeOleSetBodyPropA equ <__imp_MimeOleSetBodyPropA>
+  IFNDEF __UNICODE__
+    MimeOleSetBodyProp equ <__imp_MimeOleSetBodyPropA>
+  ENDIF
+
+externdef __imp_MimeOleSetBodyPropW:PPROC
+MimeOleSetBodyPropW equ <__imp_MimeOleSetBodyPropW>
+  IFDEF __UNICODE__
+    MimeOleSetBodyProp equ <__imp_MimeOleSetBodyPropW>
+  ENDIF
+
+externdef __imp_MimeOleSetCompatMode:PPROC
+MimeOleSetCompatMode equ <__imp_MimeOleSetCompatMode>
+
+externdef __imp_MimeOleSetDefaultCharset:PPROC
+MimeOleSetDefaultCharset equ <__imp_MimeOleSetDefaultCharset>
+
+externdef __imp_MimeOleSetPropA:PPROC
+MimeOleSetPropA equ <__imp_MimeOleSetPropA>
+  IFNDEF __UNICODE__
+    MimeOleSetProp equ <__imp_MimeOleSetPropA>
+  ENDIF
+
+externdef __imp_MimeOleSetPropW:PPROC
+MimeOleSetPropW equ <__imp_MimeOleSetPropW>
+  IFDEF __UNICODE__
+    MimeOleSetProp equ <__imp_MimeOleSetPropW>
+  ENDIF
+
+externdef __imp_MimeOleStripHeaders:PPROC
+MimeOleStripHeaders equ <__imp_MimeOleStripHeaders>
+
+externdef __imp_MimeOleUnEscapeStringInPlace:PPROC
+MimeOleUnEscapeStringInPlace equ <__imp_MimeOleUnEscapeStringInPlace>
+
+externdef __imp_RichMimeEdit_CreateInstance:PPROC
+RichMimeEdit_CreateInstance equ <__imp_RichMimeEdit_CreateInstance>

@@ -1,0 +1,8 @@
+externdef __imp_WPUGetQOSTemplate:PPROC
+WPUGetQOSTemplate equ <__imp_WPUGetQOSTemplate>
+
+externdef __imp_WSCInstallQOSTemplate:PPROC
+WSCInstallQOSTemplate equ <__imp_WSCInstallQOSTemplate>
+
+externdef __imp_WSCRemoveQOSTemplate:PPROC
+WSCRemoveQOSTemplate equ <__imp_WSCRemoveQOSTemplate>

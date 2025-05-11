@@ -1,0 +1,1640 @@
+externdef __imp_??0ALIAS_STR@@QEAA@PEBG@Z:PPROC
+??0ALIAS_STR@@QEAA@PEBG@Z equ <__imp_??0ALIAS_STR@@QEAA@PEBG@Z>
+
+externdef __imp_??0ALLOC_STR@@QEAA@PEAGIPEBG@Z:PPROC
+??0ALLOC_STR@@QEAA@PEAGIPEBG@Z equ <__imp_??0ALLOC_STR@@QEAA@PEAGIPEBG@Z>
+
+externdef __imp_??0BASE@@IEAA@XZ:PPROC
+??0BASE@@IEAA@XZ equ <__imp_??0BASE@@IEAA@XZ>
+
+externdef __imp_??0BITFIELD@@QEAA@AEBV0@@Z:PPROC
+??0BITFIELD@@QEAA@AEBV0@@Z equ <__imp_??0BITFIELD@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0BITFIELD@@QEAA@G@Z:PPROC
+??0BITFIELD@@QEAA@G@Z equ <__imp_??0BITFIELD@@QEAA@G@Z>
+
+externdef __imp_??0BITFIELD@@QEAA@IW4BITVALUES@@@Z:PPROC
+??0BITFIELD@@QEAA@IW4BITVALUES@@@Z equ <__imp_??0BITFIELD@@QEAA@IW4BITVALUES@@@Z>
+
+externdef __imp_??0BITFIELD@@QEAA@K@Z:PPROC
+??0BITFIELD@@QEAA@K@Z equ <__imp_??0BITFIELD@@QEAA@K@Z>
+
+externdef __imp_??0BITFIELD@@QEAA@PEBEII@Z:PPROC
+??0BITFIELD@@QEAA@PEBEII@Z equ <__imp_??0BITFIELD@@QEAA@PEBEII@Z>
+
+externdef __imp_??0BUFFER@@QEAA@I@Z:PPROC
+??0BUFFER@@QEAA@I@Z equ <__imp_??0BUFFER@@QEAA@I@Z>
+
+externdef __imp_??0CHAR_STRING@@QEAA@PEBGI@Z:PPROC
+??0CHAR_STRING@@QEAA@PEBGI@Z equ <__imp_??0CHAR_STRING@@QEAA@PEBGI@Z>
+
+externdef __imp_??0DBGSTREAM@@QEAA@PEAVOUTPUTSINK@@@Z:PPROC
+??0DBGSTREAM@@QEAA@PEAVOUTPUTSINK@@@Z equ <__imp_??0DBGSTREAM@@QEAA@PEAVOUTPUTSINK@@@Z>
+
+externdef __imp_??0DEC_STR@@QEAA@KI@Z:PPROC
+??0DEC_STR@@QEAA@KI@Z equ <__imp_??0DEC_STR@@QEAA@KI@Z>
+
+externdef __imp_??0DFSITER_TREE@@QEAA@PEBV0@@Z:PPROC
+??0DFSITER_TREE@@QEAA@PEBV0@@Z equ <__imp_??0DFSITER_TREE@@QEAA@PEBV0@@Z>
+
+externdef __imp_??0DFSITER_TREE@@QEAA@PEBVTREE@@I@Z:PPROC
+??0DFSITER_TREE@@QEAA@PEBVTREE@@I@Z equ <__imp_??0DFSITER_TREE@@QEAA@PEBVTREE@@I@Z>
+
+externdef __imp_??0DIR_BLOCK@@QEAA@XZ:PPROC
+??0DIR_BLOCK@@QEAA@XZ equ <__imp_??0DIR_BLOCK@@QEAA@XZ>
+
+externdef __imp_??0DLIST@@QEAA@XZ:PPROC
+??0DLIST@@QEAA@XZ equ <__imp_??0DLIST@@QEAA@XZ>
+
+externdef __imp_??0DL_NODE@@QEAA@PEAV0@0PEAX@Z:PPROC
+??0DL_NODE@@QEAA@PEAV0@0PEAX@Z equ <__imp_??0DL_NODE@@QEAA@PEAV0@0PEAX@Z>
+
+externdef __imp_??0ELAPSED_TIME_STR@@QEAA@KGH@Z:PPROC
+??0ELAPSED_TIME_STR@@QEAA@KGH@Z equ <__imp_??0ELAPSED_TIME_STR@@QEAA@KGH@Z>
+
+externdef __imp_??0FMX@@QEAA@PEAUHWND__@@@Z:PPROC
+??0FMX@@QEAA@PEAUHWND__@@@Z equ <__imp_??0FMX@@QEAA@PEAUHWND__@@@Z>
+
+externdef __imp_??0FORWARDING_BASE@@IEAA@PEAVBASE@@@Z:PPROC
+??0FORWARDING_BASE@@IEAA@PEAVBASE@@@Z equ <__imp_??0FORWARDING_BASE@@IEAA@PEAVBASE@@@Z>
+
+externdef __imp_??0FS_ENUM@@IEAA@PEBG0W4FILE_TYPE@@HI@Z:PPROC
+??0FS_ENUM@@IEAA@PEBG0W4FILE_TYPE@@HI@Z equ <__imp_??0FS_ENUM@@IEAA@PEBG0W4FILE_TYPE@@HI@Z>
+
+externdef __imp_??0HEAP_BASE@@IEAA@HH@Z:PPROC
+??0HEAP_BASE@@IEAA@HH@Z equ <__imp_??0HEAP_BASE@@IEAA@HH@Z>
+
+externdef __imp_??0HEX_STR@@QEAA@KI@Z:PPROC
+??0HEX_STR@@QEAA@KI@Z equ <__imp_??0HEX_STR@@QEAA@KI@Z>
+
+externdef __imp_??0HUATOM@@QEAA@PEBGH@Z:PPROC
+??0HUATOM@@QEAA@PEBGH@Z equ <__imp_??0HUATOM@@QEAA@PEBGH@Z>
+
+externdef __imp_??0INTL_PROFILE@@QEAA@XZ:PPROC
+??0INTL_PROFILE@@QEAA@XZ equ <__imp_??0INTL_PROFILE@@QEAA@XZ>
+
+externdef __imp_??0ISTR@@QEAA@AEBV0@@Z:PPROC
+??0ISTR@@QEAA@AEBV0@@Z equ <__imp_??0ISTR@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0ISTR@@QEAA@AEBVNLS_STR@@@Z:PPROC
+??0ISTR@@QEAA@AEBVNLS_STR@@@Z equ <__imp_??0ISTR@@QEAA@AEBVNLS_STR@@@Z>
+
+externdef __imp_??0ITER_DL@@QEAA@AEBV0@@Z:PPROC
+??0ITER_DL@@QEAA@AEBV0@@Z equ <__imp_??0ITER_DL@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0ITER_DL@@QEAA@PEAVDLIST@@@Z:PPROC
+??0ITER_DL@@QEAA@PEAVDLIST@@@Z equ <__imp_??0ITER_DL@@QEAA@PEAVDLIST@@@Z>
+
+externdef __imp_??0ITER_L@@QEAA@XZ:PPROC
+??0ITER_L@@QEAA@XZ equ <__imp_??0ITER_L@@QEAA@XZ>
+
+externdef __imp_??0ITER_SL@@QEAA@AEBV0@@Z:PPROC
+??0ITER_SL@@QEAA@AEBV0@@Z equ <__imp_??0ITER_SL@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0ITER_SL@@QEAA@PEAVSLIST@@@Z:PPROC
+??0ITER_SL@@QEAA@PEAVSLIST@@@Z equ <__imp_??0ITER_SL@@QEAA@PEAVSLIST@@@Z>
+
+externdef __imp_??0ITER_SL_DIR_BLOCK@@QEAA@AEAVSLIST@@@Z:PPROC
+??0ITER_SL_DIR_BLOCK@@QEAA@AEAVSLIST@@@Z equ <__imp_??0ITER_SL_DIR_BLOCK@@QEAA@AEAVSLIST@@@Z>
+
+externdef __imp_??0ITER_SL_NLS_STR@@QEAA@AEAVSLIST@@@Z:PPROC
+??0ITER_SL_NLS_STR@@QEAA@AEAVSLIST@@@Z equ <__imp_??0ITER_SL_NLS_STR@@QEAA@AEAVSLIST@@@Z>
+
+externdef __imp_??0ITER_SL_NLS_STR@@QEAA@AEBV0@@Z:PPROC
+??0ITER_SL_NLS_STR@@QEAA@AEBV0@@Z equ <__imp_??0ITER_SL_NLS_STR@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0ITER_STRLIST@@QEAA@AEAVSTRLIST@@@Z:PPROC
+??0ITER_STRLIST@@QEAA@AEAVSTRLIST@@@Z equ <__imp_??0ITER_STRLIST@@QEAA@AEAVSTRLIST@@@Z>
+
+externdef __imp_??0ITER_STRLIST@@QEAA@AEBV0@@Z:PPROC
+??0ITER_STRLIST@@QEAA@AEBV0@@Z equ <__imp_??0ITER_STRLIST@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0LOGON_HOURS_SETTING@@QEAA@AEBV0@@Z:PPROC
+??0LOGON_HOURS_SETTING@@QEAA@AEBV0@@Z equ <__imp_??0LOGON_HOURS_SETTING@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0LOGON_HOURS_SETTING@@QEAA@PEBEI@Z:PPROC
+??0LOGON_HOURS_SETTING@@QEAA@PEBEI@Z equ <__imp_??0LOGON_HOURS_SETTING@@QEAA@PEBEI@Z>
+
+externdef __imp_??0NLS_STR@@IEAA@PEAGIH@Z:PPROC
+??0NLS_STR@@IEAA@PEAGIH@Z equ <__imp_??0NLS_STR@@IEAA@PEAGIH@Z>
+
+externdef __imp_??0NLS_STR@@QEAA@AEBV0@@Z:PPROC
+??0NLS_STR@@QEAA@AEBV0@@Z equ <__imp_??0NLS_STR@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0NLS_STR@@QEAA@I@Z:PPROC
+??0NLS_STR@@QEAA@I@Z equ <__imp_??0NLS_STR@@QEAA@I@Z>
+
+externdef __imp_??0NLS_STR@@QEAA@PEBG@Z:PPROC
+??0NLS_STR@@QEAA@PEBG@Z equ <__imp_??0NLS_STR@@QEAA@PEBG@Z>
+
+externdef __imp_??0NLS_STR@@QEAA@PEBGG@Z:PPROC
+??0NLS_STR@@QEAA@PEBGG@Z equ <__imp_??0NLS_STR@@QEAA@PEBGG@Z>
+
+externdef __imp_??0NLS_STR@@QEAA@XZ:PPROC
+??0NLS_STR@@QEAA@XZ equ <__imp_??0NLS_STR@@QEAA@XZ>
+
+externdef __imp_??0NUM_NLS_STR@@QEAA@K@Z:PPROC
+??0NUM_NLS_STR@@QEAA@K@Z equ <__imp_??0NUM_NLS_STR@@QEAA@K@Z>
+
+externdef __imp_??0ONE_SHOT_HEAP@@QEAA@IH@Z:PPROC
+??0ONE_SHOT_HEAP@@QEAA@IH@Z equ <__imp_??0ONE_SHOT_HEAP@@QEAA@IH@Z>
+
+externdef __imp_??0REG_KEY@@QEAA@AEAV0@@Z:PPROC
+??0REG_KEY@@QEAA@AEAV0@@Z equ <__imp_??0REG_KEY@@QEAA@AEAV0@@Z>
+
+externdef __imp_??0REG_KEY@@QEAA@AEAV0@AEBVNLS_STR@@K@Z:PPROC
+??0REG_KEY@@QEAA@AEAV0@AEBVNLS_STR@@K@Z equ <__imp_??0REG_KEY@@QEAA@AEAV0@AEBVNLS_STR@@K@Z>
+
+externdef __imp_??0REG_KEY@@QEAA@AEAV0@AEBVNLS_STR@@PEAVREG_KEY_CREATE_STRUCT@@@Z:PPROC
+??0REG_KEY@@QEAA@AEAV0@AEBVNLS_STR@@PEAVREG_KEY_CREATE_STRUCT@@@Z equ <__imp_??0REG_KEY@@QEAA@AEAV0@AEBVNLS_STR@@PEAVREG_KEY_CREATE_STRUCT@@@Z>
+
+externdef __imp_??0REG_KEY@@QEAA@AEBVNLS_STR@@K@Z:PPROC
+??0REG_KEY@@QEAA@AEBVNLS_STR@@K@Z equ <__imp_??0REG_KEY@@QEAA@AEBVNLS_STR@@K@Z>
+
+externdef __imp_??0REG_KEY@@QEAA@PEAUHKEY__@@K@Z:PPROC
+??0REG_KEY@@QEAA@PEAUHKEY__@@K@Z equ <__imp_??0REG_KEY@@QEAA@PEAUHKEY__@@K@Z>
+
+externdef __imp_??0REG_KEY@@QEAA@PEAUHKEY__@@PEBGK@Z:PPROC
+??0REG_KEY@@QEAA@PEAUHKEY__@@PEBGK@Z equ <__imp_??0REG_KEY@@QEAA@PEAUHKEY__@@PEBGK@Z>
+
+externdef __imp_??0REG_KEY_CREATE_STRUCT@@QEAA@XZ:PPROC
+??0REG_KEY_CREATE_STRUCT@@QEAA@XZ equ <__imp_??0REG_KEY_CREATE_STRUCT@@QEAA@XZ>
+
+externdef __imp_??0REG_KEY_INFO_STRUCT@@QEAA@XZ:PPROC
+??0REG_KEY_INFO_STRUCT@@QEAA@XZ equ <__imp_??0REG_KEY_INFO_STRUCT@@QEAA@XZ>
+
+externdef __imp_??0REG_VALUE_INFO_STRUCT@@QEAA@XZ:PPROC
+??0REG_VALUE_INFO_STRUCT@@QEAA@XZ equ <__imp_??0REG_VALUE_INFO_STRUCT@@QEAA@XZ>
+
+externdef __imp_??0RESOURCE_STR@@QEAA@JPEAUHINSTANCE__@@@Z:PPROC
+??0RESOURCE_STR@@QEAA@JPEAUHINSTANCE__@@@Z equ <__imp_??0RESOURCE_STR@@QEAA@JPEAUHINSTANCE__@@@Z>
+
+externdef __imp_??0RITER_DL@@QEAA@AEBV0@@Z:PPROC
+??0RITER_DL@@QEAA@AEBV0@@Z equ <__imp_??0RITER_DL@@QEAA@AEBV0@@Z>
+
+externdef __imp_??0RITER_DL@@QEAA@PEAVDLIST@@@Z:PPROC
+??0RITER_DL@@QEAA@PEAVDLIST@@@Z equ <__imp_??0RITER_DL@@QEAA@PEAVDLIST@@@Z>
+
+externdef __imp_??0SLIST@@QEAA@XZ:PPROC
+??0SLIST@@QEAA@XZ equ <__imp_??0SLIST@@QEAA@XZ>
+
+externdef __imp_??0SLIST_OF_DIR_BLOCK@@QEAA@H@Z:PPROC
+??0SLIST_OF_DIR_BLOCK@@QEAA@H@Z equ <__imp_??0SLIST_OF_DIR_BLOCK@@QEAA@H@Z>
+
+externdef __imp_??0SLIST_OF_NLS_STR@@QEAA@H@Z:PPROC
+??0SLIST_OF_NLS_STR@@QEAA@H@Z equ <__imp_??0SLIST_OF_NLS_STR@@QEAA@H@Z>
+
+externdef __imp_??0SL_NODE@@QEAA@PEAV0@PEAX@Z:PPROC
+??0SL_NODE@@QEAA@PEAV0@PEAX@Z equ <__imp_??0SL_NODE@@QEAA@PEAV0@PEAX@Z>
+
+externdef __imp_??0STRLIST@@QEAA@AEBVNLS_STR@@0H@Z:PPROC
+??0STRLIST@@QEAA@AEBVNLS_STR@@0H@Z equ <__imp_??0STRLIST@@QEAA@AEBVNLS_STR@@0H@Z>
+
+externdef __imp_??0STRLIST@@QEAA@H@Z:PPROC
+??0STRLIST@@QEAA@H@Z equ <__imp_??0STRLIST@@QEAA@H@Z>
+
+externdef __imp_??0STRLIST@@QEAA@PEBG0H@Z:PPROC
+??0STRLIST@@QEAA@PEBG0H@Z equ <__imp_??0STRLIST@@QEAA@PEBG0H@Z>
+
+externdef __imp_??0TCHAR_STR@@QEAA@G@Z:PPROC
+??0TCHAR_STR@@QEAA@G@Z equ <__imp_??0TCHAR_STR@@QEAA@G@Z>
+
+externdef __imp_??0TCHAR_STR_IMPL@@QEAA@G@Z:PPROC
+??0TCHAR_STR_IMPL@@QEAA@G@Z equ <__imp_??0TCHAR_STR_IMPL@@QEAA@G@Z>
+
+externdef __imp_??0TREE@@QEAA@PEAX@Z:PPROC
+??0TREE@@QEAA@PEAX@Z equ <__imp_??0TREE@@QEAA@PEAX@Z>
+
+externdef __imp_??0UATOM@@QEAA@AEAVNLS_STR@@@Z:PPROC
+??0UATOM@@QEAA@AEAVNLS_STR@@@Z equ <__imp_??0UATOM@@QEAA@AEAVNLS_STR@@@Z>
+
+externdef __imp_??0UATOM_LINKAGE@@QEAA@XZ:PPROC
+??0UATOM_LINKAGE@@QEAA@XZ equ <__imp_??0UATOM_LINKAGE@@QEAA@XZ>
+
+externdef __imp_??0UATOM_MANAGER@@AEAA@XZ:PPROC
+??0UATOM_MANAGER@@AEAA@XZ equ <__imp_??0UATOM_MANAGER@@AEAA@XZ>
+
+externdef __imp_??0UATOM_REGION@@QEAA@XZ:PPROC
+??0UATOM_REGION@@QEAA@XZ equ <__imp_??0UATOM_REGION@@QEAA@XZ>
+
+externdef __imp_??0W32_DIR_BLOCK@@QEAA@XZ:PPROC
+??0W32_DIR_BLOCK@@QEAA@XZ equ <__imp_??0W32_DIR_BLOCK@@QEAA@XZ>
+
+externdef __imp_??0W32_FS_ENUM@@QEAA@PEBG0W4FILE_TYPE@@HI@Z:PPROC
+??0W32_FS_ENUM@@QEAA@PEBG0W4FILE_TYPE@@HI@Z equ <__imp_??0W32_FS_ENUM@@QEAA@PEBG0W4FILE_TYPE@@HI@Z>
+
+externdef __imp_??0WCHAR_STRING@@QEAA@PEBDI@Z:PPROC
+??0WCHAR_STRING@@QEAA@PEBDI@Z equ <__imp_??0WCHAR_STRING@@QEAA@PEBDI@Z>
+
+externdef __imp_??0WIN_TIME@@QEAA@H@Z:PPROC
+??0WIN_TIME@@QEAA@H@Z equ <__imp_??0WIN_TIME@@QEAA@H@Z>
+
+externdef __imp_??0WIN_TIME@@QEAA@KH@Z:PPROC
+??0WIN_TIME@@QEAA@KH@Z equ <__imp_??0WIN_TIME@@QEAA@KH@Z>
+
+externdef __imp_??0WIN_TIME@@QEAA@U_FILETIME@@H@Z:PPROC
+??0WIN_TIME@@QEAA@U_FILETIME@@H@Z equ <__imp_??0WIN_TIME@@QEAA@U_FILETIME@@H@Z>
+
+externdef __imp_??1ALIAS_STR@@QEAA@XZ:PPROC
+??1ALIAS_STR@@QEAA@XZ equ <__imp_??1ALIAS_STR@@QEAA@XZ>
+
+externdef __imp_??1BITFIELD@@QEAA@XZ:PPROC
+??1BITFIELD@@QEAA@XZ equ <__imp_??1BITFIELD@@QEAA@XZ>
+
+externdef __imp_??1BUFFER@@QEAA@XZ:PPROC
+??1BUFFER@@QEAA@XZ equ <__imp_??1BUFFER@@QEAA@XZ>
+
+externdef __imp_??1CHAR_STRING@@QEAA@XZ:PPROC
+??1CHAR_STRING@@QEAA@XZ equ <__imp_??1CHAR_STRING@@QEAA@XZ>
+
+externdef __imp_??1DBGSTREAM@@QEAA@XZ:PPROC
+??1DBGSTREAM@@QEAA@XZ equ <__imp_??1DBGSTREAM@@QEAA@XZ>
+
+externdef __imp_??1DEC_STR@@QEAA@XZ:PPROC
+??1DEC_STR@@QEAA@XZ equ <__imp_??1DEC_STR@@QEAA@XZ>
+
+externdef __imp_??1DFSITER_TREE@@QEAA@XZ:PPROC
+??1DFSITER_TREE@@QEAA@XZ equ <__imp_??1DFSITER_TREE@@QEAA@XZ>
+
+externdef __imp_??1DIR_BLOCK@@UEAA@XZ:PPROC
+??1DIR_BLOCK@@UEAA@XZ equ <__imp_??1DIR_BLOCK@@UEAA@XZ>
+
+externdef __imp_??1DLIST@@QEAA@XZ:PPROC
+??1DLIST@@QEAA@XZ equ <__imp_??1DLIST@@QEAA@XZ>
+
+externdef __imp_??1ELAPSED_TIME_STR@@QEAA@XZ:PPROC
+??1ELAPSED_TIME_STR@@QEAA@XZ equ <__imp_??1ELAPSED_TIME_STR@@QEAA@XZ>
+
+externdef __imp_??1FS_ENUM@@UEAA@XZ:PPROC
+??1FS_ENUM@@UEAA@XZ equ <__imp_??1FS_ENUM@@UEAA@XZ>
+
+externdef __imp_??1HEAP_BASE@@IEAA@XZ:PPROC
+??1HEAP_BASE@@IEAA@XZ equ <__imp_??1HEAP_BASE@@IEAA@XZ>
+
+externdef __imp_??1ITER_DL@@QEAA@XZ:PPROC
+??1ITER_DL@@QEAA@XZ equ <__imp_??1ITER_DL@@QEAA@XZ>
+
+externdef __imp_??1ITER_SL@@QEAA@XZ:PPROC
+??1ITER_SL@@QEAA@XZ equ <__imp_??1ITER_SL@@QEAA@XZ>
+
+externdef __imp_??1ITER_SL_DIR_BLOCK@@QEAA@XZ:PPROC
+??1ITER_SL_DIR_BLOCK@@QEAA@XZ equ <__imp_??1ITER_SL_DIR_BLOCK@@QEAA@XZ>
+
+externdef __imp_??1ITER_SL_NLS_STR@@QEAA@XZ:PPROC
+??1ITER_SL_NLS_STR@@QEAA@XZ equ <__imp_??1ITER_SL_NLS_STR@@QEAA@XZ>
+
+externdef __imp_??1ITER_STRLIST@@QEAA@XZ:PPROC
+??1ITER_STRLIST@@QEAA@XZ equ <__imp_??1ITER_STRLIST@@QEAA@XZ>
+
+externdef __imp_??1LOGON_HOURS_SETTING@@QEAA@XZ:PPROC
+??1LOGON_HOURS_SETTING@@QEAA@XZ equ <__imp_??1LOGON_HOURS_SETTING@@QEAA@XZ>
+
+externdef __imp_??1NLS_STR@@QEAA@XZ:PPROC
+??1NLS_STR@@QEAA@XZ equ <__imp_??1NLS_STR@@QEAA@XZ>
+
+externdef __imp_??1REG_KEY@@QEAA@XZ:PPROC
+??1REG_KEY@@QEAA@XZ equ <__imp_??1REG_KEY@@QEAA@XZ>
+
+externdef __imp_??1REG_KEY_INFO_STRUCT@@QEAA@XZ:PPROC
+??1REG_KEY_INFO_STRUCT@@QEAA@XZ equ <__imp_??1REG_KEY_INFO_STRUCT@@QEAA@XZ>
+
+externdef __imp_??1REG_VALUE_INFO_STRUCT@@QEAA@XZ:PPROC
+??1REG_VALUE_INFO_STRUCT@@QEAA@XZ equ <__imp_??1REG_VALUE_INFO_STRUCT@@QEAA@XZ>
+
+externdef __imp_??1RITER_DL@@QEAA@XZ:PPROC
+??1RITER_DL@@QEAA@XZ equ <__imp_??1RITER_DL@@QEAA@XZ>
+
+externdef __imp_??1SLIST@@QEAA@XZ:PPROC
+??1SLIST@@QEAA@XZ equ <__imp_??1SLIST@@QEAA@XZ>
+
+externdef __imp_??1SLIST_OF_DIR_BLOCK@@QEAA@XZ:PPROC
+??1SLIST_OF_DIR_BLOCK@@QEAA@XZ equ <__imp_??1SLIST_OF_DIR_BLOCK@@QEAA@XZ>
+
+externdef __imp_??1SLIST_OF_NLS_STR@@QEAA@XZ:PPROC
+??1SLIST_OF_NLS_STR@@QEAA@XZ equ <__imp_??1SLIST_OF_NLS_STR@@QEAA@XZ>
+
+externdef __imp_??1STRLIST@@QEAA@XZ:PPROC
+??1STRLIST@@QEAA@XZ equ <__imp_??1STRLIST@@QEAA@XZ>
+
+externdef __imp_??1TCHAR_STR@@QEAA@XZ:PPROC
+??1TCHAR_STR@@QEAA@XZ equ <__imp_??1TCHAR_STR@@QEAA@XZ>
+
+externdef __imp_??1TREE@@QEAA@XZ:PPROC
+??1TREE@@QEAA@XZ equ <__imp_??1TREE@@QEAA@XZ>
+
+externdef __imp_??1UATOM@@QEAA@XZ:PPROC
+??1UATOM@@QEAA@XZ equ <__imp_??1UATOM@@QEAA@XZ>
+
+externdef __imp_??1UATOM_LINKAGE@@QEAA@XZ:PPROC
+??1UATOM_LINKAGE@@QEAA@XZ equ <__imp_??1UATOM_LINKAGE@@QEAA@XZ>
+
+externdef __imp_??1UATOM_MANAGER@@AEAA@XZ:PPROC
+??1UATOM_MANAGER@@AEAA@XZ equ <__imp_??1UATOM_MANAGER@@AEAA@XZ>
+
+externdef __imp_??1UATOM_REGION@@QEAA@XZ:PPROC
+??1UATOM_REGION@@QEAA@XZ equ <__imp_??1UATOM_REGION@@QEAA@XZ>
+
+externdef __imp_??1W32_DIR_BLOCK@@UEAA@XZ:PPROC
+??1W32_DIR_BLOCK@@UEAA@XZ equ <__imp_??1W32_DIR_BLOCK@@UEAA@XZ>
+
+externdef __imp_??1W32_FS_ENUM@@UEAA@XZ:PPROC
+??1W32_FS_ENUM@@UEAA@XZ equ <__imp_??1W32_FS_ENUM@@UEAA@XZ>
+
+externdef __imp_??1WCHAR_STRING@@QEAA@XZ:PPROC
+??1WCHAR_STRING@@QEAA@XZ equ <__imp_??1WCHAR_STRING@@QEAA@XZ>
+
+externdef __imp_??2ALLOC_BASE@@SAPEAX_K@Z:PPROC
+??2ALLOC_BASE@@SAPEAX_K@Z equ <__imp_??2ALLOC_BASE@@SAPEAX_K@Z>
+
+externdef __imp_??2ALLOC_BASE@@SAPEAX_KPEAX@Z:PPROC
+??2ALLOC_BASE@@SAPEAX_KPEAX@Z equ <__imp_??2ALLOC_BASE@@SAPEAX_KPEAX@Z>
+
+externdef __imp_??3ALLOC_BASE@@SAXPEAX@Z:PPROC
+??3ALLOC_BASE@@SAXPEAX@Z equ <__imp_??3ALLOC_BASE@@SAXPEAX@Z>
+
+externdef __imp_??4ALIAS_STR@@QEAAAEBV0@AEBVNLS_STR@@@Z:PPROC
+??4ALIAS_STR@@QEAAAEBV0@AEBVNLS_STR@@@Z equ <__imp_??4ALIAS_STR@@QEAAAEBV0@AEBVNLS_STR@@@Z>
+
+externdef __imp_??4ALIAS_STR@@QEAAAEBV0@PEBG@Z:PPROC
+??4ALIAS_STR@@QEAAAEBV0@PEBG@Z equ <__imp_??4ALIAS_STR@@QEAAAEBV0@PEBG@Z>
+
+externdef __imp_??4ALLOC_STR@@QEAAAEAV0@PEBG@Z:PPROC
+??4ALLOC_STR@@QEAAAEAV0@PEBG@Z equ <__imp_??4ALLOC_STR@@QEAAAEAV0@PEBG@Z>
+
+externdef __imp_??4BITFIELD@@QEAAAEAV0@AEBV0@@Z:PPROC
+??4BITFIELD@@QEAAAEAV0@AEBV0@@Z equ <__imp_??4BITFIELD@@QEAAAEAV0@AEBV0@@Z>
+
+externdef __imp_??4BITFIELD@@QEAAAEAV0@G@Z:PPROC
+??4BITFIELD@@QEAAAEAV0@G@Z equ <__imp_??4BITFIELD@@QEAAAEAV0@G@Z>
+
+externdef __imp_??4BITFIELD@@QEAAAEAV0@K@Z:PPROC
+??4BITFIELD@@QEAAAEAV0@K@Z equ <__imp_??4BITFIELD@@QEAAAEAV0@K@Z>
+
+externdef __imp_??4ISTR@@QEAAAEAV0@AEBV0@@Z:PPROC
+??4ISTR@@QEAAAEAV0@AEBV0@@Z equ <__imp_??4ISTR@@QEAAAEAV0@AEBV0@@Z>
+
+externdef __imp_??4NLS_STR@@QEAAAEAV0@AEBV0@@Z:PPROC
+??4NLS_STR@@QEAAAEAV0@AEBV0@@Z equ <__imp_??4NLS_STR@@QEAAAEAV0@AEBV0@@Z>
+
+externdef __imp_??4NLS_STR@@QEAAAEAV0@PEBG@Z:PPROC
+??4NLS_STR@@QEAAAEAV0@PEBG@Z equ <__imp_??4NLS_STR@@QEAAAEAV0@PEBG@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@D@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@D@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@D@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@F@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@F@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@F@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@G@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@G@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@G@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@H@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@H@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@H@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@I@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@I@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@I@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@J@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@J@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@J@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@K@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@K@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@K@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@PEBD@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@PEBD@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@PEBD@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@PEBG@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@PEBG@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@PEBG@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@W4DBGSTR_SPECIAL@@@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@W4DBGSTR_SPECIAL@@@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@W4DBGSTR_SPECIAL@@@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@_J@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@_J@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@_J@Z>
+
+externdef __imp_??6DBGSTREAM@@QEAAAEAV0@_K@Z:PPROC
+??6DBGSTREAM@@QEAAAEAV0@_K@Z equ <__imp_??6DBGSTREAM@@QEAAAEAV0@_K@Z>
+
+externdef __imp_??7BASE@@QEBAHXZ:PPROC
+??7BASE@@QEBAHXZ equ <__imp_??7BASE@@QEBAHXZ>
+
+externdef __imp_??8BITFIELD@@QEAAHAEAV0@@Z:PPROC
+??8BITFIELD@@QEAAHAEAV0@@Z equ <__imp_??8BITFIELD@@QEAAHAEAV0@@Z>
+
+externdef __imp_??8BITFIELD@@QEBAHG@Z:PPROC
+??8BITFIELD@@QEBAHG@Z equ <__imp_??8BITFIELD@@QEBAHG@Z>
+
+externdef __imp_??8BITFIELD@@QEBAHK@Z:PPROC
+??8BITFIELD@@QEBAHK@Z equ <__imp_??8BITFIELD@@QEBAHK@Z>
+
+externdef __imp_??8ISTR@@QEBAHAEBV0@@Z:PPROC
+??8ISTR@@QEBAHAEBV0@@Z equ <__imp_??8ISTR@@QEBAHAEBV0@@Z>
+
+externdef __imp_??8NLS_STR@@QEBAHAEBV0@@Z:PPROC
+??8NLS_STR@@QEBAHAEBV0@@Z equ <__imp_??8NLS_STR@@QEBAHAEBV0@@Z>
+
+externdef __imp_??9NLS_STR@@QEBAHAEBV0@@Z:PPROC
+??9NLS_STR@@QEBAHAEBV0@@Z equ <__imp_??9NLS_STR@@QEBAHAEBV0@@Z>
+
+externdef __imp_??BBITFIELD@@QEAAGXZ:PPROC
+??BBITFIELD@@QEAAGXZ equ <__imp_??BBITFIELD@@QEAAGXZ>
+
+externdef __imp_??BBITFIELD@@QEAAKXZ:PPROC
+??BBITFIELD@@QEAAKXZ equ <__imp_??BBITFIELD@@QEAAKXZ>
+
+externdef __imp_??BNLS_STR@@QEBAPEBGXZ:PPROC
+??BNLS_STR@@QEBAPEBGXZ equ <__imp_??BNLS_STR@@QEBAPEBGXZ>
+
+externdef __imp_??BREG_KEY@@QEBAPEAUHKEY__@@XZ:PPROC
+??BREG_KEY@@QEBAPEAUHKEY__@@XZ equ <__imp_??BREG_KEY@@QEBAPEAUHKEY__@@XZ>
+
+externdef __imp_??BTCHAR_STR@@QEAAAEBVALIAS_STR@@XZ:PPROC
+??BTCHAR_STR@@QEAAAEBVALIAS_STR@@XZ equ <__imp_??BTCHAR_STR@@QEAAAEBVALIAS_STR@@XZ>
+
+externdef __imp_??EISTR@@QEAAAEAV0@XZ:PPROC
+??EISTR@@QEAAAEAV0@XZ equ <__imp_??EISTR@@QEAAAEAV0@XZ>
+
+externdef __imp_??GISTR@@QEBAHAEBV0@@Z:PPROC
+??GISTR@@QEBAHAEBV0@@Z equ <__imp_??GISTR@@QEBAHAEBV0@@Z>
+
+externdef __imp_??IBITFIELD@@QEAAHAEBV0@@Z:PPROC
+??IBITFIELD@@QEAAHAEBV0@@Z equ <__imp_??IBITFIELD@@QEAAHAEBV0@@Z>
+
+externdef __imp_??MISTR@@QEBAHAEBV0@@Z:PPROC
+??MISTR@@QEBAHAEBV0@@Z equ <__imp_??MISTR@@QEBAHAEBV0@@Z>
+
+externdef __imp_??OISTR@@QEBAHAEBV0@@Z:PPROC
+??OISTR@@QEBAHAEBV0@@Z equ <__imp_??OISTR@@QEBAHAEBV0@@Z>
+
+externdef __imp_??RITER_SL_NLS_STR@@QEAAPEAVNLS_STR@@XZ:PPROC
+??RITER_SL_NLS_STR@@QEAAPEAVNLS_STR@@XZ equ <__imp_??RITER_SL_NLS_STR@@QEAAPEAVNLS_STR@@XZ>
+
+externdef __imp_??YISTR@@QEAAXH@Z:PPROC
+??YISTR@@QEAAXH@Z equ <__imp_??YISTR@@QEAAXH@Z>
+
+externdef __imp_??YNLS_STR@@QEAAAEAV0@AEBV0@@Z:PPROC
+??YNLS_STR@@QEAAAEAV0@AEBV0@@Z equ <__imp_??YNLS_STR@@QEAAAEAV0@AEBV0@@Z>
+
+externdef __imp_??_4BITFIELD@@QEAAXAEBV0@@Z:PPROC
+??_4BITFIELD@@QEAAXAEBV0@@Z equ <__imp_??_4BITFIELD@@QEAAXAEBV0@@Z>
+
+externdef __imp_??_4BITFIELD@@QEAAXG@Z:PPROC
+??_4BITFIELD@@QEAAXG@Z equ <__imp_??_4BITFIELD@@QEAAXG@Z>
+
+externdef __imp_??_4BITFIELD@@QEAAXK@Z:PPROC
+??_4BITFIELD@@QEAAXK@Z equ <__imp_??_4BITFIELD@@QEAAXK@Z>
+
+externdef __imp_??_5BITFIELD@@QEAAXAEBV0@@Z:PPROC
+??_5BITFIELD@@QEAAXAEBV0@@Z equ <__imp_??_5BITFIELD@@QEAAXAEBV0@@Z>
+
+externdef __imp_??_5BITFIELD@@QEAAXG@Z:PPROC
+??_5BITFIELD@@QEAAXG@Z equ <__imp_??_5BITFIELD@@QEAAXG@Z>
+
+externdef __imp_??_5BITFIELD@@QEAAXK@Z:PPROC
+??_5BITFIELD@@QEAAXK@Z equ <__imp_??_5BITFIELD@@QEAAXK@Z>
+
+externdef __imp_??_H@YAXPEAX_KHP6APEAX0@Z@Z:PPROC
+??_H@YAXPEAX_KHP6APEAX0@Z@Z equ <__imp_??_H@YAXPEAX_KHP6APEAX0@Z@Z>
+
+externdef __imp_??_I@YAXPEAX_KHP6AX0@Z@Z:PPROC
+??_I@YAXPEAX_KHP6AX0@Z@Z equ <__imp_??_I@YAXPEAX_KHP6AX0@Z@Z>
+
+externdef __imp_??_J@YAXPEAX_KHP6APEAX0@Z@Z:PPROC
+??_J@YAXPEAX_KHP6APEAX0@Z@Z equ <__imp_??_J@YAXPEAX_KHP6APEAX0@Z@Z>
+
+externdef __imp_?Add@DLIST@@QEAAJPEAX@Z:PPROC
+?Add@DLIST@@QEAAJPEAX@Z equ <__imp_?Add@DLIST@@QEAAJPEAX@Z>
+
+externdef __imp_?Add@SLIST@@QEAAJPEAX@Z:PPROC
+?Add@SLIST@@QEAAJPEAX@Z equ <__imp_?Add@SLIST@@QEAAJPEAX@Z>
+
+externdef __imp_?Add@SLIST_OF_DIR_BLOCK@@QEAAJPEBVDIR_BLOCK@@@Z:PPROC
+?Add@SLIST_OF_DIR_BLOCK@@QEAAJPEBVDIR_BLOCK@@@Z equ <__imp_?Add@SLIST_OF_DIR_BLOCK@@QEAAJPEBVDIR_BLOCK@@@Z>
+
+externdef __imp_?Add@SLIST_OF_NLS_STR@@QEAAJPEBVNLS_STR@@@Z:PPROC
+?Add@SLIST_OF_NLS_STR@@QEAAJPEBVNLS_STR@@@Z equ <__imp_?Add@SLIST_OF_NLS_STR@@QEAAJPEBVNLS_STR@@@Z>
+
+externdef __imp_?Alloc@NLS_STR@@AEAAHI@Z:PPROC
+?Alloc@NLS_STR@@AEAAHI@Z equ <__imp_?Alloc@NLS_STR@@AEAAHI@Z>
+
+externdef __imp_?Alloc@ONE_SHOT_HEAP@@QEAAPEAEI@Z:PPROC
+?Alloc@ONE_SHOT_HEAP@@QEAAPEAEI@Z equ <__imp_?Alloc@ONE_SHOT_HEAP@@QEAAPEAEI@Z>
+
+externdef __imp_?AllocBitfield@BITFIELD@@IEAAJI@Z:PPROC
+?AllocBitfield@BITFIELD@@IEAAJI@Z equ <__imp_?AllocBitfield@BITFIELD@@IEAAJI@Z>
+
+externdef __imp_?Append@DLIST@@QEAAJPEAX@Z:PPROC
+?Append@DLIST@@QEAAJPEAX@Z equ <__imp_?Append@DLIST@@QEAAJPEAX@Z>
+
+externdef __imp_?Append@NLS_STR@@QEAAJAEBV1@@Z:PPROC
+?Append@NLS_STR@@QEAAJAEBV1@@Z equ <__imp_?Append@NLS_STR@@QEAAJAEBV1@@Z>
+
+externdef __imp_?Append@SLIST@@QEAAJPEAX@Z:PPROC
+?Append@SLIST@@QEAAJPEAX@Z equ <__imp_?Append@SLIST@@QEAAJPEAX@Z>
+
+externdef __imp_?Append@SLIST_OF_NLS_STR@@QEAAJPEBVNLS_STR@@@Z:PPROC
+?Append@SLIST_OF_NLS_STR@@QEAAJPEBVNLS_STR@@@Z equ <__imp_?Append@SLIST_OF_NLS_STR@@QEAAJPEBVNLS_STR@@@Z>
+
+externdef __imp_?AppendChar@NLS_STR@@QEAAJG@Z:PPROC
+?AppendChar@NLS_STR@@QEAAJG@Z equ <__imp_?AppendChar@NLS_STR@@QEAAJG@Z>
+
+externdef __imp_?BreakOut@TREE@@QEAAPEAV1@XZ:PPROC
+?BreakOut@TREE@@QEAAPEAV1@XZ equ <__imp_?BreakOut@TREE@@QEAAPEAV1@XZ>
+
+externdef __imp_?BumpIters@DLIST@@IEAAXPEAVDL_NODE@@@Z:PPROC
+?BumpIters@DLIST@@IEAAXPEAVDL_NODE@@@Z equ <__imp_?BumpIters@DLIST@@IEAAXPEAVDL_NODE@@@Z>
+
+externdef __imp_?BumpIters@SLIST@@IEAAXPEAVSL_NODE@@@Z:PPROC
+?BumpIters@SLIST@@IEAAXPEAVSL_NODE@@@Z equ <__imp_?BumpIters@SLIST@@IEAAXPEAVSL_NODE@@@Z>
+
+externdef __imp_?CheckIstr@NLS_STR@@AEBAXAEBVISTR@@@Z:PPROC
+?CheckIstr@NLS_STR@@AEBAXAEBVISTR@@@Z equ <__imp_?CheckIstr@NLS_STR@@AEBAXAEBVISTR@@@Z>
+
+externdef __imp_?CheckIter@DLIST@@IEAAHPEAVITER_L@@@Z:PPROC
+?CheckIter@DLIST@@IEAAHPEAVITER_L@@@Z equ <__imp_?CheckIter@DLIST@@IEAAHPEAVITER_L@@@Z>
+
+externdef __imp_?CheckIter@SLIST@@IEAAHPEAVITER_SL@@@Z:PPROC
+?CheckIter@SLIST@@IEAAHPEAVITER_SL@@@Z equ <__imp_?CheckIter@SLIST@@IEAAHPEAVITER_SL@@@Z>
+
+externdef __imp_?CheckLocalComm@@YAJPEBG@Z:PPROC
+?CheckLocalComm@@YAJPEBG@Z equ <__imp_?CheckLocalComm@@YAJPEBG@Z>
+
+externdef __imp_?CheckLocalDrive@@YAJPEBG@Z:PPROC
+?CheckLocalDrive@@YAJPEBG@Z equ <__imp_?CheckLocalDrive@@YAJPEBG@Z>
+
+externdef __imp_?CheckLocalLpt@@YAJPEBG@Z:PPROC
+?CheckLocalLpt@@YAJPEBG@Z equ <__imp_?CheckLocalLpt@@YAJPEBG@Z>
+
+externdef __imp_?CheckUnavailDevice@@YAJPEBGPEAGPEAH@Z:PPROC
+?CheckUnavailDevice@@YAJPEBGPEAGPEAH@Z equ <__imp_?CheckUnavailDevice@@YAJPEBGPEAGPEAH@Z>
+
+externdef __imp_?Clear@SLIST_OF_DIR_BLOCK@@QEAAXXZ:PPROC
+?Clear@SLIST_OF_DIR_BLOCK@@QEAAXXZ equ <__imp_?Clear@SLIST_OF_DIR_BLOCK@@QEAAXXZ>
+
+externdef __imp_?Clear@SLIST_OF_NLS_STR@@QEAAXXZ:PPROC
+?Clear@SLIST_OF_NLS_STR@@QEAAXXZ equ <__imp_?Clear@SLIST_OF_NLS_STR@@QEAAXXZ>
+
+externdef __imp_?Close@REG_KEY@@AEAAJXZ:PPROC
+?Close@REG_KEY@@AEAAJXZ equ <__imp_?Close@REG_KEY@@AEAAJXZ>
+
+externdef __imp_?Command@FMX@@AEBA_KII_J@Z:PPROC
+?Command@FMX@@AEBA_KII_J@Z equ <__imp_?Command@FMX@@AEBA_KII_J@Z>
+
+externdef __imp_?Compare@NLS_STR@@QEBAHPEBV1@@Z:PPROC
+?Compare@NLS_STR@@QEBAHPEBV1@@Z equ <__imp_?Compare@NLS_STR@@QEBAHPEBV1@@Z>
+
+externdef __imp_?ConvertFromGMT@LOGON_HOURS_SETTING@@QEAAHXZ:PPROC
+?ConvertFromGMT@LOGON_HOURS_SETTING@@QEAAHXZ equ <__imp_?ConvertFromGMT@LOGON_HOURS_SETTING@@QEAAHXZ>
+
+externdef __imp_?ConvertToGMT@LOGON_HOURS_SETTING@@QEAAHXZ:PPROC
+?ConvertToGMT@LOGON_HOURS_SETTING@@QEAAHXZ equ <__imp_?ConvertToGMT@LOGON_HOURS_SETTING@@QEAAHXZ>
+
+externdef __imp_?ConvertToHoursPerWeek@LOGON_HOURS_SETTING@@QEAAJXZ:PPROC
+?ConvertToHoursPerWeek@LOGON_HOURS_SETTING@@QEAAJXZ equ <__imp_?ConvertToHoursPerWeek@LOGON_HOURS_SETTING@@QEAAJXZ>
+
+externdef __imp_?CopyFrom@NLS_STR@@QEAAJAEBV1@@Z:PPROC
+?CopyFrom@NLS_STR@@QEAAJAEBV1@@Z equ <__imp_?CopyFrom@NLS_STR@@QEAAJAEBV1@@Z>
+
+externdef __imp_?CopyFrom@NLS_STR@@QEAAJPEBGI@Z:PPROC
+?CopyFrom@NLS_STR@@QEAAJPEBGI@Z equ <__imp_?CopyFrom@NLS_STR@@QEAAJPEBGI@Z>
+
+externdef __imp_?CopyTo@NLS_STR@@QEBAJPEAGI@Z:PPROC
+?CopyTo@NLS_STR@@QEBAJPEAGI@Z equ <__imp_?CopyTo@NLS_STR@@QEBAJPEAGI@Z>
+
+externdef __imp_?CreateChild@REG_KEY@@AEBAJPEAV1@AEBVNLS_STR@@PEAVREG_KEY_CREATE_STRUCT@@@Z:PPROC
+?CreateChild@REG_KEY@@AEBAJPEAV1@AEBVNLS_STR@@PEAVREG_KEY_CREATE_STRUCT@@@Z equ <__imp_?CreateChild@REG_KEY@@AEBAJPEAV1@AEBVNLS_STR@@PEAVREG_KEY_CREATE_STRUCT@@@Z>
+
+externdef __imp_?CreateDirBlock@W32_FS_ENUM@@MEAAPEAVDIR_BLOCK@@XZ:PPROC
+?CreateDirBlock@W32_FS_ENUM@@MEAAPEAVDIR_BLOCK@@XZ equ <__imp_?CreateDirBlock@W32_FS_ENUM@@MEAAPEAVDIR_BLOCK@@XZ>
+
+externdef __imp_?CreateList@STRLIST@@AEAAXPEBG0@Z:PPROC
+?CreateList@STRLIST@@AEAAXPEBG0@Z equ <__imp_?CreateList@STRLIST@@AEAAXPEBG0@Z>
+
+externdef __imp_?DelSubStr@NLS_STR@@AEAAXAEAVISTR@@I@Z:PPROC
+?DelSubStr@NLS_STR@@AEAAXAEAVISTR@@I@Z equ <__imp_?DelSubStr@NLS_STR@@AEAAXAEAVISTR@@I@Z>
+
+externdef __imp_?DelSubStr@NLS_STR@@QEAAXAEAVISTR@@@Z:PPROC
+?DelSubStr@NLS_STR@@QEAAXAEAVISTR@@@Z equ <__imp_?DelSubStr@NLS_STR@@QEAAXAEAVISTR@@@Z>
+
+externdef __imp_?DelSubStr@NLS_STR@@QEAAXAEAVISTR@@AEBV2@@Z:PPROC
+?DelSubStr@NLS_STR@@QEAAXAEAVISTR@@AEBV2@@Z equ <__imp_?DelSubStr@NLS_STR@@QEAAXAEAVISTR@@AEBV2@@Z>
+
+externdef __imp_?Delete@REG_KEY@@QEAAJXZ:PPROC
+?Delete@REG_KEY@@QEAAJXZ equ <__imp_?Delete@REG_KEY@@QEAAJXZ>
+
+externdef __imp_?DeleteValue@REG_KEY@@QEAAJAEBVNLS_STR@@@Z:PPROC
+?DeleteValue@REG_KEY@@QEAAJAEBVNLS_STR@@@Z equ <__imp_?DeleteValue@REG_KEY@@QEAAJAEBVNLS_STR@@@Z>
+
+externdef __imp_?Deregister@DLIST@@IEAAXPEAVITER_L@@@Z:PPROC
+?Deregister@DLIST@@IEAAXPEAVITER_L@@@Z equ <__imp_?Deregister@DLIST@@IEAAXPEAVITER_L@@@Z>
+
+externdef __imp_?Deregister@SLIST@@IEAAXPEAVITER_SL@@@Z:PPROC
+?Deregister@SLIST@@IEAAXPEAVITER_SL@@@Z equ <__imp_?Deregister@SLIST@@IEAAXPEAVITER_SL@@@Z>
+
+externdef __imp_?DoBreadthFirstDirs@DIR_BLOCK@@QEBAHXZ:PPROC
+?DoBreadthFirstDirs@DIR_BLOCK@@QEBAHXZ equ <__imp_?DoBreadthFirstDirs@DIR_BLOCK@@QEBAHXZ>
+
+externdef __imp_?EndOfLine@OUTPUT_TO_AUX@@UEAAXXZ:PPROC
+?EndOfLine@OUTPUT_TO_AUX@@UEAAXXZ equ <__imp_?EndOfLine@OUTPUT_TO_AUX@@UEAAXXZ>
+
+externdef __imp_?EndOfLine@OUTPUT_TO_NUL@@EEAAXXZ:PPROC
+?EndOfLine@OUTPUT_TO_NUL@@EEAAXXZ equ <__imp_?EndOfLine@OUTPUT_TO_NUL@@EEAAXXZ>
+
+externdef __imp_?EndOfLine@OUTPUT_TO_STDERR@@UEAAXXZ:PPROC
+?EndOfLine@OUTPUT_TO_STDERR@@UEAAXXZ equ <__imp_?EndOfLine@OUTPUT_TO_STDERR@@UEAAXXZ>
+
+externdef __imp_?EndOfLine@OUTPUT_TO_STDOUT@@UEAAXXZ:PPROC
+?EndOfLine@OUTPUT_TO_STDOUT@@UEAAXXZ equ <__imp_?EndOfLine@OUTPUT_TO_STDOUT@@UEAAXXZ>
+
+externdef __imp_?FillOut@BUFFER@@QEAAXXZ:PPROC
+?FillOut@BUFFER@@QEAAXXZ equ <__imp_?FillOut@BUFFER@@QEAAXXZ>
+
+externdef __imp_?FindFirst@W32_FS_ENUM@@MEAAJPEAVDIR_BLOCK@@AEBVNLS_STR@@I@Z:PPROC
+?FindFirst@W32_FS_ENUM@@MEAAJPEAVDIR_BLOCK@@AEBVNLS_STR@@I@Z equ <__imp_?FindFirst@W32_FS_ENUM@@MEAAJPEAVDIR_BLOCK@@AEBVNLS_STR@@I@Z>
+
+externdef __imp_?FindNext@W32_FS_ENUM@@MEAAJPEAVDIR_BLOCK@@I@Z:PPROC
+?FindNext@W32_FS_ENUM@@MEAAJPEAVDIR_BLOCK@@I@Z equ <__imp_?FindNext@W32_FS_ENUM@@MEAAJPEAVDIR_BLOCK@@I@Z>
+
+externdef __imp_?FindPrev@SLIST@@IEAAPEAVSL_NODE@@PEAV2@@Z:PPROC
+?FindPrev@SLIST@@IEAAPEAVSL_NODE@@PEAV2@@Z equ <__imp_?FindPrev@SLIST@@IEAAPEAVSL_NODE@@PEAV2@@Z>
+
+externdef __imp_?Flush@REG_KEY@@QEAAJXZ:PPROC
+?Flush@REG_KEY@@QEAAJXZ equ <__imp_?Flush@REG_KEY@@QEAAJXZ>
+
+externdef __imp_?Fwd@UATOM_LINKAGE@@QEAAPEAVUATOM@@XZ:PPROC
+?Fwd@UATOM_LINKAGE@@QEAAPEAVUATOM@@XZ equ <__imp_?Fwd@UATOM_LINKAGE@@QEAAPEAVUATOM@@XZ>
+
+externdef __imp_?GetNewStorage@BUFFER@@AEAAJI@Z:PPROC
+?GetNewStorage@BUFFER@@AEAAJI@Z equ <__imp_?GetNewStorage@BUFFER@@AEAAJI@Z>
+
+externdef __imp_?GetSelItem@@YAJPEAUHWND__@@IPEAVNLS_STR@@PEAH@Z:PPROC
+?GetSelItem@@YAJPEAUHWND__@@IPEAVNLS_STR@@PEAH@Z equ <__imp_?GetSelItem@@YAJPEAUHWND__@@IPEAVNLS_STR@@PEAH@Z>
+
+externdef __imp_?GetSelItem@@YAJPEAUHWND__@@PEAVNLS_STR@@HPEAH@Z:PPROC
+?GetSelItem@@YAJPEAUHWND__@@PEAVNLS_STR@@HPEAH@Z equ <__imp_?GetSelItem@@YAJPEAUHWND__@@PEAVNLS_STR@@HPEAH@Z>
+
+externdef __imp_?HandlePrefix@REG_KEY@@CAHAEBVNLS_STR@@PEAPEAUHKEY__@@PEAV2@2@Z:PPROC
+?HandlePrefix@REG_KEY@@CAHAEBVNLS_STR@@PEAPEAUHKEY__@@PEAV2@2@Z equ <__imp_?HandlePrefix@REG_KEY@@CAHAEBVNLS_STR@@PEAPEAUHKEY__@@PEAV2@2@Z>
+
+externdef __imp_?HasFindFirstBeenCalled@DIR_BLOCK@@QEAAHXZ:PPROC
+?HasFindFirstBeenCalled@DIR_BLOCK@@QEAAHXZ equ <__imp_?HasFindFirstBeenCalled@DIR_BLOCK@@QEAAHXZ>
+
+externdef __imp_?HeapResidueIter@@YAXIH@Z:PPROC
+?HeapResidueIter@@YAXIH@Z equ <__imp_?HeapResidueIter@@YAXIH@Z>
+
+externdef __imp_?I_AddItem@HEAP_BASE@@IEAAJPEAX@Z:PPROC
+?I_AddItem@HEAP_BASE@@IEAAJPEAX@Z equ <__imp_?I_AddItem@HEAP_BASE@@IEAAJPEAX@Z>
+
+externdef __imp_?I_RemoveTopItem@HEAP_BASE@@IEAAPEAXXZ:PPROC
+?I_RemoveTopItem@HEAP_BASE@@IEAAPEAXXZ equ <__imp_?I_RemoveTopItem@HEAP_BASE@@IEAAPEAXXZ>
+
+externdef __imp_?IncVers@NLS_STR@@IEAAXXZ:PPROC
+?IncVers@NLS_STR@@IEAAXXZ equ <__imp_?IncVers@NLS_STR@@IEAAXXZ>
+
+externdef __imp_?Init@NUM_NLS_STR@@SAXXZ:PPROC
+?Init@NUM_NLS_STR@@SAXXZ equ <__imp_?Init@NUM_NLS_STR@@SAXXZ>
+
+externdef __imp_?Init@UATOM_LINKAGE@@QEAAXXZ:PPROC
+?Init@UATOM_LINKAGE@@QEAAXXZ equ <__imp_?Init@UATOM_LINKAGE@@QEAAXXZ>
+
+externdef __imp_?Initialize@UATOM_MANAGER@@SAJXZ:PPROC
+?Initialize@UATOM_MANAGER@@SAJXZ equ <__imp_?Initialize@UATOM_MANAGER@@SAJXZ>
+
+externdef __imp_?InitializeVers@NLS_STR@@IEAAXXZ:PPROC
+?InitializeVers@NLS_STR@@IEAAXXZ equ <__imp_?InitializeVers@NLS_STR@@IEAAXXZ>
+
+externdef __imp_?Insert@DLIST@@QEAAJPEAXAEAVITER_DL@@@Z:PPROC
+?Insert@DLIST@@QEAAJPEAXAEAVITER_DL@@@Z equ <__imp_?Insert@DLIST@@QEAAJPEAXAEAVITER_DL@@@Z>
+
+externdef __imp_?Insert@DLIST@@QEAAJPEAXAEAVRITER_DL@@@Z:PPROC
+?Insert@DLIST@@QEAAJPEAXAEAVRITER_DL@@@Z equ <__imp_?Insert@DLIST@@QEAAJPEAXAEAVRITER_DL@@@Z>
+
+externdef __imp_?Insert@SLIST@@QEAAJPEAXAEAVITER_SL@@@Z:PPROC
+?Insert@SLIST@@QEAAJPEAXAEAVITER_SL@@@Z equ <__imp_?Insert@SLIST@@QEAAJPEAXAEAVITER_SL@@@Z>
+
+externdef __imp_?InsertParams@NLS_STR@@QEAAJAEBV1@00@Z:PPROC
+?InsertParams@NLS_STR@@QEAAJAEBV1@00@Z equ <__imp_?InsertParams@NLS_STR@@QEAAJAEBV1@00@Z>
+
+externdef __imp_?InsertParams@NLS_STR@@QEAAJIPEBV1@ZZ:PPROC
+?InsertParams@NLS_STR@@QEAAJIPEBV1@ZZ equ <__imp_?InsertParams@NLS_STR@@QEAAJIPEBV1@ZZ>
+
+externdef __imp_?InsertParams@NLS_STR@@QEAAJPEAPEBV1@@Z:PPROC
+?InsertParams@NLS_STR@@QEAAJPEAPEBV1@@Z equ <__imp_?InsertParams@NLS_STR@@QEAAJPEAPEBV1@@Z>
+
+externdef __imp_?InsertParamsAux@NLS_STR@@AEAAJPEAPEBV1@IHPEAI@Z:PPROC
+?InsertParamsAux@NLS_STR@@AEAAJPEAPEBV1@IHPEAI@Z equ <__imp_?InsertParamsAux@NLS_STR@@AEAAJPEAPEBV1@IHPEAI@Z>
+
+externdef __imp_?InsertStr@NLS_STR@@QEAAHAEBV1@AEAVISTR@@@Z:PPROC
+?InsertStr@NLS_STR@@QEAAHAEBV1@AEAVISTR@@@Z equ <__imp_?InsertStr@NLS_STR@@QEAAHAEBV1@AEAVISTR@@@Z>
+
+externdef __imp_?Is24Hour@INTL_PROFILE@@QEBAHXZ:PPROC
+?Is24Hour@INTL_PROFILE@@QEBAHXZ equ <__imp_?Is24Hour@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?IsAllocated@BITFIELD@@IEBAHXZ:PPROC
+?IsAllocated@BITFIELD@@IEBAHXZ equ <__imp_?IsAllocated@BITFIELD@@IEBAHXZ>
+
+externdef __imp_?IsBitSet@BITFIELD@@QEBAHI@Z:PPROC
+?IsBitSet@BITFIELD@@QEBAHI@Z equ <__imp_?IsBitSet@BITFIELD@@QEBAHI@Z>
+
+externdef __imp_?IsDayLZero@INTL_PROFILE@@QEBAHXZ:PPROC
+?IsDayLZero@INTL_PROFILE@@QEBAHXZ equ <__imp_?IsDayLZero@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?IsDir@DIR_BLOCK@@QEAAHXZ:PPROC
+?IsDir@DIR_BLOCK@@QEAAHXZ equ <__imp_?IsDir@DIR_BLOCK@@QEAAHXZ>
+
+externdef __imp_?IsHeterogeneousSelection@FMX@@QEAAHPEAH@Z:PPROC
+?IsHeterogeneousSelection@FMX@@QEAAHPEAH@Z equ <__imp_?IsHeterogeneousSelection@FMX@@QEAAHPEAH@Z>
+
+externdef __imp_?IsHourLZero@INTL_PROFILE@@QEBAHXZ:PPROC
+?IsHourLZero@INTL_PROFILE@@QEBAHXZ equ <__imp_?IsHourLZero@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?IsIdenticalToBits@LOGON_HOURS_SETTING@@QEBAHPEBEI@Z:PPROC
+?IsIdenticalToBits@LOGON_HOURS_SETTING@@QEBAHPEBEI@Z equ <__imp_?IsIdenticalToBits@LOGON_HOURS_SETTING@@QEBAHPEBEI@Z>
+
+externdef __imp_?IsLastPos@ISTR@@QEBAHXZ:PPROC
+?IsLastPos@ISTR@@QEBAHXZ equ <__imp_?IsLastPos@ISTR@@QEBAHXZ>
+
+externdef __imp_?IsMember@SLIST_OF_NLS_STR@@QEAAHAEBVNLS_STR@@@Z:PPROC
+?IsMember@SLIST_OF_NLS_STR@@QEAAHAEBVNLS_STR@@@Z equ <__imp_?IsMember@SLIST_OF_NLS_STR@@QEAAHAEBVNLS_STR@@@Z>
+
+externdef __imp_?IsMonthLZero@INTL_PROFILE@@QEBAHXZ:PPROC
+?IsMonthLZero@INTL_PROFILE@@QEBAHXZ equ <__imp_?IsMonthLZero@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?IsOwnerAlloc@NLS_STR@@QEBAHXZ:PPROC
+?IsOwnerAlloc@NLS_STR@@QEBAHXZ equ <__imp_?IsOwnerAlloc@NLS_STR@@QEBAHXZ>
+
+externdef __imp_?IsTimePrefix@INTL_PROFILE@@QEBAHXZ:PPROC
+?IsTimePrefix@INTL_PROFILE@@QEBAHXZ equ <__imp_?IsTimePrefix@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?IsYrCentury@INTL_PROFILE@@QEBAHXZ:PPROC
+?IsYrCentury@INTL_PROFILE@@QEBAHXZ equ <__imp_?IsYrCentury@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?JoinSiblingLeft@TREE@@QEAAXPEAV1@@Z:PPROC
+?JoinSiblingLeft@TREE@@QEAAXPEAV1@@Z equ <__imp_?JoinSiblingLeft@TREE@@QEAAXPEAV1@@Z>
+
+externdef __imp_?JoinSiblingRight@TREE@@QEAAXPEAV1@@Z:PPROC
+?JoinSiblingRight@TREE@@QEAAXPEAV1@@Z equ <__imp_?JoinSiblingRight@TREE@@QEAAXPEAV1@@Z>
+
+externdef __imp_?JoinSubtreeLeft@TREE@@QEAAXPEAV1@@Z:PPROC
+?JoinSubtreeLeft@TREE@@QEAAXPEAV1@@Z equ <__imp_?JoinSubtreeLeft@TREE@@QEAAXPEAV1@@Z>
+
+externdef __imp_?JoinSubtreeRight@TREE@@QEAAXPEAV1@@Z:PPROC
+?JoinSubtreeRight@TREE@@QEAAXPEAV1@@Z equ <__imp_?JoinSubtreeRight@TREE@@QEAAXPEAV1@@Z>
+
+externdef __imp_?LeafKeyName@REG_KEY@@AEBAPEBGXZ:PPROC
+?LeafKeyName@REG_KEY@@AEBAPEBGXZ equ <__imp_?LeafKeyName@REG_KEY@@AEBAPEBGXZ>
+
+externdef __imp_?Link@UATOM_LINKAGE@@QEAAXPEAV1@@Z:PPROC
+?Link@UATOM_LINKAGE@@QEAAXPEAV1@@Z equ <__imp_?Link@UATOM_LINKAGE@@QEAAXPEAV1@@Z>
+
+externdef __imp_?Load@NLS_STR@@QEAAJJPEAUHINSTANCE__@@@Z:PPROC
+?Load@NLS_STR@@QEAAJJPEAUHINSTANCE__@@@Z equ <__imp_?Load@NLS_STR@@QEAAJJPEAUHINSTANCE__@@@Z>
+
+externdef __imp_?LoadSystem@NLS_STR@@QEAAJJ@Z:PPROC
+?LoadSystem@NLS_STR@@QEAAJJ@Z equ <__imp_?LoadSystem@NLS_STR@@QEAAJJ@Z>
+
+externdef __imp_?MakeDefault@LOGON_HOURS_SETTING@@QEAAJXZ:PPROC
+?MakeDefault@LOGON_HOURS_SETTING@@QEAAJXZ equ <__imp_?MakeDefault@LOGON_HOURS_SETTING@@QEAAJXZ>
+
+externdef __imp_?MapCopyFrom@NLS_STR@@QEAAJPEBDI@Z:PPROC
+?MapCopyFrom@NLS_STR@@QEAAJPEBDI@Z equ <__imp_?MapCopyFrom@NLS_STR@@QEAAJPEBDI@Z>
+
+externdef __imp_?MapCopyFrom@NLS_STR@@QEAAJPEBGI@Z:PPROC
+?MapCopyFrom@NLS_STR@@QEAAJPEBGI@Z equ <__imp_?MapCopyFrom@NLS_STR@@QEAAJPEBGI@Z>
+
+externdef __imp_?MapCopyTo@NLS_STR@@QEBAJPEADI@Z:PPROC
+?MapCopyTo@NLS_STR@@QEBAJPEADI@Z equ <__imp_?MapCopyTo@NLS_STR@@QEBAJPEADI@Z>
+
+externdef __imp_?MapCopyTo@NLS_STR@@QEBAJPEAGI@Z:PPROC
+?MapCopyTo@NLS_STR@@QEBAJPEAGI@Z equ <__imp_?MapCopyTo@NLS_STR@@QEBAJPEAGI@Z>
+
+externdef __imp_?MapNTStatus@ERRMAP@@SAJJPEAHJ@Z:PPROC
+?MapNTStatus@ERRMAP@@SAJJPEAHJ@Z equ <__imp_?MapNTStatus@ERRMAP@@SAJJPEAHJ@Z>
+
+externdef __imp_?NameChild@REG_KEY@@AEBAJPEAV1@AEBVNLS_STR@@@Z:PPROC
+?NameChild@REG_KEY@@AEBAJPEAV1@AEBVNLS_STR@@@Z equ <__imp_?NameChild@REG_KEY@@AEBAJPEAV1@AEBVNLS_STR@@@Z>
+
+externdef __imp_?Next@DFSITER_TREE@@QEAAPEAXXZ:PPROC
+?Next@DFSITER_TREE@@QEAAPEAXXZ equ <__imp_?Next@DFSITER_TREE@@QEAAPEAXXZ>
+
+externdef __imp_?Next@FS_ENUM@@QEAAHXZ:PPROC
+?Next@FS_ENUM@@QEAAHXZ equ <__imp_?Next@FS_ENUM@@QEAAHXZ>
+
+externdef __imp_?Next@ITER_SL@@QEAAPEAXXZ:PPROC
+?Next@ITER_SL@@QEAAPEAXXZ equ <__imp_?Next@ITER_SL@@QEAAPEAXXZ>
+
+externdef __imp_?Next@ITER_SL_DIR_BLOCK@@QEAAPEAVDIR_BLOCK@@XZ:PPROC
+?Next@ITER_SL_DIR_BLOCK@@QEAAPEAVDIR_BLOCK@@XZ equ <__imp_?Next@ITER_SL_DIR_BLOCK@@QEAAPEAVDIR_BLOCK@@XZ>
+
+externdef __imp_?Next@ITER_SL_NLS_STR@@QEAAPEAVNLS_STR@@XZ:PPROC
+?Next@ITER_SL_NLS_STR@@QEAAPEAVNLS_STR@@XZ equ <__imp_?Next@ITER_SL_NLS_STR@@QEAAPEAVNLS_STR@@XZ>
+
+externdef __imp_?NextBreadthFirst@FS_ENUM@@IEAAHXZ:PPROC
+?NextBreadthFirst@FS_ENUM@@IEAAHXZ equ <__imp_?NextBreadthFirst@FS_ENUM@@IEAAHXZ>
+
+externdef __imp_?NextDepthFirst@FS_ENUM@@IEAAHXZ:PPROC
+?NextDepthFirst@FS_ENUM@@IEAAHXZ equ <__imp_?NextDepthFirst@FS_ENUM@@IEAAHXZ>
+
+externdef __imp_?Normalize@WIN_TIME@@QEAAJXZ:PPROC
+?Normalize@WIN_TIME@@QEAAJXZ equ <__imp_?Normalize@WIN_TIME@@QEAAJXZ>
+
+externdef __imp_?Not@BITFIELD@@QEAAXXZ:PPROC
+?Not@BITFIELD@@QEAAXXZ equ <__imp_?Not@BITFIELD@@QEAAXXZ>
+
+externdef __imp_?OpenByName@REG_KEY@@AEAAJAEBVNLS_STR@@K@Z:PPROC
+?OpenByName@REG_KEY@@AEAAJAEBVNLS_STR@@K@Z equ <__imp_?OpenByName@REG_KEY@@AEAAJAEBVNLS_STR@@K@Z>
+
+externdef __imp_?OpenChild@REG_KEY@@AEAAJPEAV1@AEBVNLS_STR@@KK@Z:PPROC
+?OpenChild@REG_KEY@@AEAAJPEAV1@AEBVNLS_STR@@KK@Z equ <__imp_?OpenChild@REG_KEY@@AEAAJPEAV1@AEBVNLS_STR@@KK@Z>
+
+externdef __imp_?OpenParent@REG_KEY@@AEAAPEAV1@K@Z:PPROC
+?OpenParent@REG_KEY@@AEAAPEAV1@K@Z equ <__imp_?OpenParent@REG_KEY@@AEAAPEAV1@K@Z>
+
+externdef __imp_?ParentName@REG_KEY@@AEBAJPEAVNLS_STR@@@Z:PPROC
+?ParentName@REG_KEY@@AEBAJPEAVNLS_STR@@@Z equ <__imp_?ParentName@REG_KEY@@AEBAJPEAVNLS_STR@@@Z>
+
+externdef __imp_?PeekItem@HEAP_BASE@@IEBAPEAXH@Z:PPROC
+?PeekItem@HEAP_BASE@@IEBAPEAXH@Z equ <__imp_?PeekItem@HEAP_BASE@@IEBAPEAXH@Z>
+
+externdef __imp_?PermitAll@LOGON_HOURS_SETTING@@QEAAJXZ:PPROC
+?PermitAll@LOGON_HOURS_SETTING@@QEAAJXZ equ <__imp_?PermitAll@LOGON_HOURS_SETTING@@QEAAJXZ>
+
+externdef __imp_?PopDir@FS_ENUM@@IEAAJXZ:PPROC
+?PopDir@FS_ENUM@@IEAAJXZ equ <__imp_?PopDir@FS_ENUM@@IEAAJXZ>
+
+externdef __imp_?PushDir@FS_ENUM@@IEAAJPEBG@Z:PPROC
+?PushDir@FS_ENUM@@IEAAJPEBG@Z equ <__imp_?PushDir@FS_ENUM@@IEAAJPEBG@Z>
+
+externdef __imp_?QueryAMStr@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z:PPROC
+?QueryAMStr@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z equ <__imp_?QueryAMStr@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryActualSize@BUFFER@@AEAAIXZ:PPROC
+?QueryActualSize@BUFFER@@AEAAIXZ equ <__imp_?QueryActualSize@BUFFER@@AEAAIXZ>
+
+externdef __imp_?QueryAllocSize@BITFIELD@@QEBAIXZ:PPROC
+?QueryAllocSize@BITFIELD@@QEBAIXZ equ <__imp_?QueryAllocSize@BITFIELD@@QEBAIXZ>
+
+externdef __imp_?QueryAllocSize@NLS_STR@@QEBAIXZ:PPROC
+?QueryAllocSize@NLS_STR@@QEBAIXZ equ <__imp_?QueryAllocSize@NLS_STR@@QEBAIXZ>
+
+externdef __imp_?QueryAnsiTextLength@NLS_STR@@QEBAIXZ:PPROC
+?QueryAnsiTextLength@NLS_STR@@QEBAIXZ equ <__imp_?QueryAnsiTextLength@NLS_STR@@QEBAIXZ>
+
+externdef __imp_?QueryAttr@W32_DIR_BLOCK@@UEAAIXZ:PPROC
+?QueryAttr@W32_DIR_BLOCK@@UEAAIXZ equ <__imp_?QueryAttr@W32_DIR_BLOCK@@UEAAIXZ>
+
+externdef __imp_?QueryBitPos@BITFIELD@@IEBAPEAEII@Z:PPROC
+?QueryBitPos@BITFIELD@@IEBAPEAEII@Z equ <__imp_?QueryBitPos@BITFIELD@@IEBAPEAEII@Z>
+
+externdef __imp_?QueryBufferSize@STRLIST@@QEAAHPEAG@Z:PPROC
+?QueryBufferSize@STRLIST@@QEAAHPEAG@Z equ <__imp_?QueryBufferSize@STRLIST@@QEAAHPEAG@Z>
+
+externdef __imp_?QueryByteCount@LOGON_HOURS_SETTING@@CAII@Z:PPROC
+?QueryByteCount@LOGON_HOURS_SETTING@@CAII@Z equ <__imp_?QueryByteCount@LOGON_HOURS_SETTING@@CAII@Z>
+
+externdef __imp_?QueryByteCount@LOGON_HOURS_SETTING@@QEBAIXZ:PPROC
+?QueryByteCount@LOGON_HOURS_SETTING@@QEBAIXZ equ <__imp_?QueryByteCount@LOGON_HOURS_SETTING@@QEBAIXZ>
+
+externdef __imp_?QueryChar@NLS_STR@@QEBAGAEBVISTR@@@Z:PPROC
+?QueryChar@NLS_STR@@QEBAGAEBVISTR@@@Z equ <__imp_?QueryChar@NLS_STR@@QEBAGAEBVISTR@@@Z>
+
+externdef __imp_?QueryCount@BITFIELD@@QEBAIXZ:PPROC
+?QueryCount@BITFIELD@@QEBAIXZ equ <__imp_?QueryCount@BITFIELD@@QEBAIXZ>
+
+externdef __imp_?QueryCurDepth@DFSITER_TREE@@IEBAIXZ:PPROC
+?QueryCurDepth@DFSITER_TREE@@IEBAIXZ equ <__imp_?QueryCurDepth@DFSITER_TREE@@IEBAIXZ>
+
+externdef __imp_?QueryCurrent@DBGSTREAM@@SAAEAV1@XZ:PPROC
+?QueryCurrent@DBGSTREAM@@SAAEAV1@XZ equ <__imp_?QueryCurrent@DBGSTREAM@@SAAEAV1@XZ>
+
+externdef __imp_?QueryCurrentDepth@FS_ENUM@@QEAAIXZ:PPROC
+?QueryCurrentDepth@FS_ENUM@@QEAAIXZ equ <__imp_?QueryCurrentDepth@FS_ENUM@@QEAAIXZ>
+
+externdef __imp_?QueryCurrentDirBlock@FS_ENUM@@QEBAPEAVDIR_BLOCK@@XZ:PPROC
+?QueryCurrentDirBlock@FS_ENUM@@QEBAPEAVDIR_BLOCK@@XZ equ <__imp_?QueryCurrentDirBlock@FS_ENUM@@QEBAPEAVDIR_BLOCK@@XZ>
+
+externdef __imp_?QueryCurrentTimeStamp@@YAKXZ:PPROC
+?QueryCurrentTimeStamp@@YAKXZ equ <__imp_?QueryCurrentTimeStamp@@YAKXZ>
+
+externdef __imp_?QueryCurrentUser@REG_KEY@@SAPEAV1@K@Z:PPROC
+?QueryCurrentUser@REG_KEY@@SAPEAV1@K@Z equ <__imp_?QueryCurrentUser@REG_KEY@@SAPEAV1@K@Z>
+
+externdef __imp_?QueryData@CHAR_STRING@@QEBAPEBDXZ:PPROC
+?QueryData@CHAR_STRING@@QEBAPEBDXZ equ <__imp_?QueryData@CHAR_STRING@@QEBAPEBDXZ>
+
+externdef __imp_?QueryData@WCHAR_STRING@@QEBAPEBGXZ:PPROC
+?QueryData@WCHAR_STRING@@QEBAPEBGXZ equ <__imp_?QueryData@WCHAR_STRING@@QEBAPEBGXZ>
+
+externdef __imp_?QueryDateSeparator@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z:PPROC
+?QueryDateSeparator@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z equ <__imp_?QueryDateSeparator@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryDay@WIN_TIME@@QEBAHXZ:PPROC
+?QueryDay@WIN_TIME@@QEBAHXZ equ <__imp_?QueryDay@WIN_TIME@@QEBAHXZ>
+
+externdef __imp_?QueryDayOfWeek@WIN_TIME@@QEBAHXZ:PPROC
+?QueryDayOfWeek@WIN_TIME@@QEBAHXZ equ <__imp_?QueryDayOfWeek@WIN_TIME@@QEBAHXZ>
+
+externdef __imp_?QueryDayPos@INTL_PROFILE@@QEBAHXZ:PPROC
+?QueryDayPos@INTL_PROFILE@@QEBAHXZ equ <__imp_?QueryDayPos@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?QueryDirs@DIR_BLOCK@@QEAAPEAVSTRLIST@@XZ:PPROC
+?QueryDirs@DIR_BLOCK@@QEAAPEAVSTRLIST@@XZ equ <__imp_?QueryDirs@DIR_BLOCK@@QEAAPEAVSTRLIST@@XZ>
+
+externdef __imp_?QueryDirsIter@DIR_BLOCK@@QEAAPEAVITER_STRLIST@@XZ:PPROC
+?QueryDirsIter@DIR_BLOCK@@QEAAPEAVITER_STRLIST@@XZ equ <__imp_?QueryDirsIter@DIR_BLOCK@@QEAAPEAVITER_STRLIST@@XZ>
+
+externdef __imp_?QueryDriveInfo@FMX@@QEAAJPEAU_FMS_GETDRIVEINFOW@@@Z:PPROC
+?QueryDriveInfo@FMX@@QEAAJPEAU_FMS_GETDRIVEINFOW@@@Z equ <__imp_?QueryDriveInfo@FMX@@QEAAJPEAU_FMS_GETDRIVEINFOW@@@Z>
+
+externdef __imp_?QueryDurationStr@INTL_PROFILE@@QEBAJHHHHPEAVNLS_STR@@@Z:PPROC
+?QueryDurationStr@INTL_PROFILE@@QEBAJHHHHPEAVNLS_STR@@@Z equ <__imp_?QueryDurationStr@INTL_PROFILE@@QEBAJHHHHPEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryError@BASE@@QEBAJXZ:PPROC
+?QueryError@BASE@@QEBAJXZ equ <__imp_?QueryError@BASE@@QEBAJXZ>
+
+externdef __imp_?QueryError@FORWARDING_BASE@@QEBAJXZ:PPROC
+?QueryError@FORWARDING_BASE@@QEBAJXZ equ <__imp_?QueryError@FORWARDING_BASE@@QEBAJXZ>
+
+externdef __imp_?QueryError@HUATOM@@QEBAJXZ:PPROC
+?QueryError@HUATOM@@QEBAJXZ equ <__imp_?QueryError@HUATOM@@QEBAJXZ>
+
+externdef __imp_?QueryFileName@W32_DIR_BLOCK@@UEAAPEBGXZ:PPROC
+?QueryFileName@W32_DIR_BLOCK@@UEAAPEBGXZ equ <__imp_?QueryFileName@W32_DIR_BLOCK@@UEAAPEBGXZ>
+
+externdef __imp_?QueryFileTime@WIN_TIME@@QEBAJPEAU_FILETIME@@@Z:PPROC
+?QueryFileTime@WIN_TIME@@QEBAJPEAU_FILETIME@@@Z equ <__imp_?QueryFileTime@WIN_TIME@@QEBAJPEAU_FILETIME@@@Z>
+
+externdef __imp_?QueryFileTimeLocal@WIN_TIME@@QEBAJPEAU_FILETIME@@@Z:PPROC
+?QueryFileTimeLocal@WIN_TIME@@QEBAJPEAU_FILETIME@@@Z equ <__imp_?QueryFileTimeLocal@WIN_TIME@@QEBAJPEAU_FILETIME@@@Z>
+
+externdef __imp_?QueryFirstSubtree@TREE@@QEBAPEAV1@XZ:PPROC
+?QueryFirstSubtree@TREE@@QEBAPEAV1@XZ equ <__imp_?QueryFirstSubtree@TREE@@QEBAPEAV1@XZ>
+
+externdef __imp_?QueryFocus@FMX@@QEBAIXZ:PPROC
+?QueryFocus@FMX@@QEBAIXZ equ <__imp_?QueryFocus@FMX@@QEBAIXZ>
+
+externdef __imp_?QueryHour@WIN_TIME@@QEBAHXZ:PPROC
+?QueryHour@WIN_TIME@@QEBAHXZ equ <__imp_?QueryHour@WIN_TIME@@QEBAHXZ>
+
+externdef __imp_?QueryHourInDay@LOGON_HOURS_SETTING@@QEBAHII@Z:PPROC
+?QueryHourInDay@LOGON_HOURS_SETTING@@QEBAHII@Z equ <__imp_?QueryHourInDay@LOGON_HOURS_SETTING@@QEBAHII@Z>
+
+externdef __imp_?QueryHourInWeek@LOGON_HOURS_SETTING@@QEBAHI@Z:PPROC
+?QueryHourInWeek@LOGON_HOURS_SETTING@@QEBAHI@Z equ <__imp_?QueryHourInWeek@LOGON_HOURS_SETTING@@QEBAHI@Z>
+
+externdef __imp_?QueryHoursBlock@LOGON_HOURS_SETTING@@QEBAPEAEXZ:PPROC
+?QueryHoursBlock@LOGON_HOURS_SETTING@@QEBAPEAEXZ equ <__imp_?QueryHoursBlock@LOGON_HOURS_SETTING@@QEBAPEAEXZ>
+
+externdef __imp_?QueryIch@ISTR@@AEBAHXZ:PPROC
+?QueryIch@ISTR@@AEBAHXZ equ <__imp_?QueryIch@ISTR@@AEBAHXZ>
+
+externdef __imp_?QueryInfo@REG_KEY@@QEAAJPEAVREG_KEY_INFO_STRUCT@@@Z:PPROC
+?QueryInfo@REG_KEY@@QEAAJPEAVREG_KEY_INFO_STRUCT@@@Z equ <__imp_?QueryInfo@REG_KEY@@QEAAJPEAVREG_KEY_INFO_STRUCT@@@Z>
+
+externdef __imp_?QueryKeyName@REG_KEY@@QEBAJPEAVNLS_STR@@@Z:PPROC
+?QueryKeyName@REG_KEY@@QEBAJPEAVNLS_STR@@@Z equ <__imp_?QueryKeyName@REG_KEY@@QEBAJPEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryKeyValueBinary@REG_KEY@@AEAAJPEBGPEAPEAEPEAJJPEAKK@Z:PPROC
+?QueryKeyValueBinary@REG_KEY@@AEAAJPEBGPEAPEAEPEAJJPEAKK@Z equ <__imp_?QueryKeyValueBinary@REG_KEY@@AEAAJPEBGPEAPEAEPEAJJPEAKK@Z>
+
+externdef __imp_?QueryKeyValueLong@REG_KEY@@AEAAJPEBGPEAJPEAK@Z:PPROC
+?QueryKeyValueLong@REG_KEY@@AEAAJPEBGPEAJPEAK@Z equ <__imp_?QueryKeyValueLong@REG_KEY@@AEAAJPEBGPEAJPEAK@Z>
+
+externdef __imp_?QueryKeyValueString@REG_KEY@@AEAAJPEBGPEAPEAGPEAVNLS_STR@@PEAKJPEAJK@Z:PPROC
+?QueryKeyValueString@REG_KEY@@AEAAJPEBGPEAPEAGPEAVNLS_STR@@PEAKJPEAJK@Z equ <__imp_?QueryKeyValueString@REG_KEY@@AEAAJPEBGPEAPEAGPEAVNLS_STR@@PEAKJPEAJK@Z>
+
+externdef __imp_?QueryLastSubtree@TREE@@QEBAPEAV1@XZ:PPROC
+?QueryLastSubtree@TREE@@QEBAPEAV1@XZ equ <__imp_?QueryLastSubtree@TREE@@QEBAPEAV1@XZ>
+
+externdef __imp_?QueryLeft@TREE@@QEBAPEAV1@XZ:PPROC
+?QueryLeft@TREE@@QEBAPEAV1@XZ equ <__imp_?QueryLeft@TREE@@QEBAPEAV1@XZ>
+
+externdef __imp_?QueryLinked@UATOM_LINKAGE@@QEAAHXZ:PPROC
+?QueryLinked@UATOM_LINKAGE@@QEAAHXZ equ <__imp_?QueryLinked@UATOM_LINKAGE@@QEAAHXZ>
+
+externdef __imp_?QueryLocalMachine@REG_KEY@@SAPEAV1@K@Z:PPROC
+?QueryLocalMachine@REG_KEY@@SAPEAV1@K@Z equ <__imp_?QueryLocalMachine@REG_KEY@@SAPEAV1@K@Z>
+
+externdef __imp_?QueryLongDateString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z:PPROC
+?QueryLongDateString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z equ <__imp_?QueryLongDateString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryMaxDepth@DFSITER_TREE@@IEBAIXZ:PPROC
+?QueryMaxDepth@DFSITER_TREE@@IEBAIXZ equ <__imp_?QueryMaxDepth@DFSITER_TREE@@IEBAIXZ>
+
+externdef __imp_?QueryMaxDepth@FS_ENUM@@QEAAIXZ:PPROC
+?QueryMaxDepth@FS_ENUM@@QEAAIXZ equ <__imp_?QueryMaxDepth@FS_ENUM@@QEAAIXZ>
+
+externdef __imp_?QueryMaxNonAllocBitCount@BITFIELD@@IEBAIXZ:PPROC
+?QueryMaxNonAllocBitCount@BITFIELD@@IEBAIXZ equ <__imp_?QueryMaxNonAllocBitCount@BITFIELD@@IEBAIXZ>
+
+externdef __imp_?QueryMinute@WIN_TIME@@QEBAHXZ:PPROC
+?QueryMinute@WIN_TIME@@QEBAHXZ equ <__imp_?QueryMinute@WIN_TIME@@QEBAHXZ>
+
+externdef __imp_?QueryMonth@WIN_TIME@@QEBAHXZ:PPROC
+?QueryMonth@WIN_TIME@@QEBAHXZ equ <__imp_?QueryMonth@WIN_TIME@@QEBAHXZ>
+
+externdef __imp_?QueryMonthPos@INTL_PROFILE@@QEBAHXZ:PPROC
+?QueryMonthPos@INTL_PROFILE@@QEBAHXZ equ <__imp_?QueryMonthPos@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?QueryName@FS_ENUM@@QEBAJPEAVNLS_STR@@@Z:PPROC
+?QueryName@FS_ENUM@@QEBAJPEAVNLS_STR@@@Z equ <__imp_?QueryName@FS_ENUM@@QEBAJPEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryName@REG_KEY@@QEBAJPEAVNLS_STR@@H@Z:PPROC
+?QueryName@REG_KEY@@QEBAJPEAVNLS_STR@@H@Z equ <__imp_?QueryName@REG_KEY@@QEBAJPEAVNLS_STR@@H@Z>
+
+externdef __imp_?QueryNls@HUATOM@@QEBAPEBVNLS_STR@@XZ:PPROC
+?QueryNls@HUATOM@@QEBAPEBVNLS_STR@@XZ equ <__imp_?QueryNls@HUATOM@@QEBAPEBVNLS_STR@@XZ>
+
+externdef __imp_?QueryNode@DFSITER_TREE@@IEBAPEBVTREE@@XZ:PPROC
+?QueryNode@DFSITER_TREE@@IEBAPEBVTREE@@XZ equ <__imp_?QueryNode@DFSITER_TREE@@IEBAPEBVTREE@@XZ>
+
+externdef __imp_?QueryNumChar@NLS_STR@@QEBAIXZ:PPROC
+?QueryNumChar@NLS_STR@@QEBAIXZ equ <__imp_?QueryNumChar@NLS_STR@@QEBAIXZ>
+
+externdef __imp_?QueryNumElem@DLIST@@QEAAIXZ:PPROC
+?QueryNumElem@DLIST@@QEAAIXZ equ <__imp_?QueryNumElem@DLIST@@QEAAIXZ>
+
+externdef __imp_?QueryNumElem@SLIST@@QEAAIXZ:PPROC
+?QueryNumElem@SLIST@@QEAAIXZ equ <__imp_?QueryNumElem@SLIST@@QEAAIXZ>
+
+externdef __imp_?QueryNumElem@TREE@@QEBAIXZ:PPROC
+?QueryNumElem@TREE@@QEBAIXZ equ <__imp_?QueryNumElem@TREE@@QEBAIXZ>
+
+externdef __imp_?QueryOffset@BITFIELD@@QEBAII@Z:PPROC
+?QueryOffset@BITFIELD@@QEBAII@Z equ <__imp_?QueryOffset@BITFIELD@@QEBAII@Z>
+
+externdef __imp_?QueryPMStr@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z:PPROC
+?QueryPMStr@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z equ <__imp_?QueryPMStr@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryParent@TREE@@QEBAPEAV1@XZ:PPROC
+?QueryParent@TREE@@QEBAPEAV1@XZ equ <__imp_?QueryParent@TREE@@QEBAPEAV1@XZ>
+
+externdef __imp_?QueryPch@NLS_STR@@QEBAPEBGAEBVISTR@@@Z:PPROC
+?QueryPch@NLS_STR@@QEBAPEBGAEBVISTR@@@Z equ <__imp_?QueryPch@NLS_STR@@QEBAPEBGAEBVISTR@@@Z>
+
+externdef __imp_?QueryPch@NLS_STR@@QEBAPEBGXZ:PPROC
+?QueryPch@NLS_STR@@QEBAPEBGXZ equ <__imp_?QueryPch@NLS_STR@@QEBAPEBGXZ>
+
+externdef __imp_?QueryProp@ITER_SL@@QEAAPEAXXZ:PPROC
+?QueryProp@ITER_SL@@QEAAPEAXXZ equ <__imp_?QueryProp@ITER_SL@@QEAAPEAXXZ>
+
+externdef __imp_?QueryProp@TREE@@QEBAPEAXXZ:PPROC
+?QueryProp@TREE@@QEBAPEAXXZ equ <__imp_?QueryProp@TREE@@QEBAPEAXXZ>
+
+externdef __imp_?QueryPtr@BUFFER@@QEBAPEAEXZ:PPROC
+?QueryPtr@BUFFER@@QEBAPEAEXZ equ <__imp_?QueryPtr@BUFFER@@QEBAPEAEXZ>
+
+externdef __imp_?QueryRight@TREE@@QEBAPEAV1@XZ:PPROC
+?QueryRight@TREE@@QEBAPEAV1@XZ equ <__imp_?QueryRight@TREE@@QEBAPEAV1@XZ>
+
+externdef __imp_?QuerySearchAttr@FS_ENUM@@IEBAIXZ:PPROC
+?QuerySearchAttr@FS_ENUM@@IEBAIXZ equ <__imp_?QuerySearchAttr@FS_ENUM@@IEBAIXZ>
+
+externdef __imp_?QuerySecond@WIN_TIME@@QEBAHXZ:PPROC
+?QuerySecond@WIN_TIME@@QEBAHXZ equ <__imp_?QuerySecond@WIN_TIME@@QEBAHXZ>
+
+externdef __imp_?QuerySelCount@FMX@@QEBAIXZ:PPROC
+?QuerySelCount@FMX@@QEBAIXZ equ <__imp_?QuerySelCount@FMX@@QEBAIXZ>
+
+externdef __imp_?QuerySelection@FMX@@QEAAJHPEAU_FMS_GETFILESELW@@H@Z:PPROC
+?QuerySelection@FMX@@QEAAJHPEAU_FMS_GETFILESELW@@H@Z equ <__imp_?QuerySelection@FMX@@QEAAJHPEAU_FMS_GETFILESELW@@H@Z>
+
+externdef __imp_?QueryShortDateString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z:PPROC
+?QueryShortDateString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z equ <__imp_?QueryShortDateString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z>
+
+externdef __imp_?QuerySize@BUFFER@@QEBAIXZ:PPROC
+?QuerySize@BUFFER@@QEBAIXZ equ <__imp_?QuerySize@BUFFER@@QEBAIXZ>
+
+externdef __imp_?QueryStartNode@DFSITER_TREE@@IEBAPEBVTREE@@XZ:PPROC
+?QueryStartNode@DFSITER_TREE@@IEBAPEBVTREE@@XZ equ <__imp_?QueryStartNode@DFSITER_TREE@@IEBAPEBVTREE@@XZ>
+
+externdef __imp_?QueryString@ISTR@@AEBAPEBVNLS_STR@@XZ:PPROC
+?QueryString@ISTR@@AEBAPEBVNLS_STR@@XZ equ <__imp_?QueryString@ISTR@@AEBAPEBVNLS_STR@@XZ>
+
+externdef __imp_?QuerySubStr@NLS_STR@@AEBAPEAV1@AEBVISTR@@I@Z:PPROC
+?QuerySubStr@NLS_STR@@AEBAPEAV1@AEBVISTR@@I@Z equ <__imp_?QuerySubStr@NLS_STR@@AEBAPEAV1@AEBVISTR@@I@Z>
+
+externdef __imp_?QuerySubStr@NLS_STR@@QEBAPEAV1@AEBVISTR@@0@Z:PPROC
+?QuerySubStr@NLS_STR@@QEBAPEAV1@AEBVISTR@@0@Z equ <__imp_?QuerySubStr@NLS_STR@@QEBAPEAV1@AEBVISTR@@0@Z>
+
+externdef __imp_?QuerySubStr@NLS_STR@@QEBAPEAV1@AEBVISTR@@@Z:PPROC
+?QuerySubStr@NLS_STR@@QEBAPEAV1@AEBVISTR@@@Z equ <__imp_?QuerySubStr@NLS_STR@@QEBAPEAV1@AEBVISTR@@@Z>
+
+externdef __imp_?QueryText@HUATOM@@QEBAPEBGXZ:PPROC
+?QueryText@HUATOM@@QEBAPEBGXZ equ <__imp_?QueryText@HUATOM@@QEBAPEBGXZ>
+
+externdef __imp_?QueryTextLength@NLS_STR@@QEBAIXZ:PPROC
+?QueryTextLength@NLS_STR@@QEBAIXZ equ <__imp_?QueryTextLength@NLS_STR@@QEBAIXZ>
+
+externdef __imp_?QueryTextSize@NLS_STR@@QEBAIXZ:PPROC
+?QueryTextSize@NLS_STR@@QEBAIXZ equ <__imp_?QueryTextSize@NLS_STR@@QEBAIXZ>
+
+externdef __imp_?QueryTime@WIN_TIME@@QEBAJPEAK@Z:PPROC
+?QueryTime@WIN_TIME@@QEBAJPEAK@Z equ <__imp_?QueryTime@WIN_TIME@@QEBAJPEAK@Z>
+
+externdef __imp_?QueryTimeLocal@WIN_TIME@@QEBAJPEAK@Z:PPROC
+?QueryTimeLocal@WIN_TIME@@QEBAJPEAK@Z equ <__imp_?QueryTimeLocal@WIN_TIME@@QEBAJPEAK@Z>
+
+externdef __imp_?QueryTimeSeparator@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z:PPROC
+?QueryTimeSeparator@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z equ <__imp_?QueryTimeSeparator@INTL_PROFILE@@QEBAJPEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryTimeString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z:PPROC
+?QueryTimeString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z equ <__imp_?QueryTimeString@INTL_PROFILE@@QEBAJAEBVWIN_TIME@@PEAVNLS_STR@@@Z>
+
+externdef __imp_?QueryUnitsPerWeek@LOGON_HOURS_SETTING@@QEBAIXZ:PPROC
+?QueryUnitsPerWeek@LOGON_HOURS_SETTING@@QEBAIXZ equ <__imp_?QueryUnitsPerWeek@LOGON_HOURS_SETTING@@QEBAIXZ>
+
+externdef __imp_?QueryValue@REG_KEY@@QEAAJPEAVREG_VALUE_INFO_STRUCT@@@Z:PPROC
+?QueryValue@REG_KEY@@QEAAJPEAVREG_VALUE_INFO_STRUCT@@@Z equ <__imp_?QueryValue@REG_KEY@@QEAAJPEAVREG_VALUE_INFO_STRUCT@@@Z>
+
+externdef __imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAK1@Z:PPROC
+?QueryValue@REG_KEY@@QEAAJPEBGPEAK1@Z equ <__imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAK1@Z>
+
+externdef __imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAEPEAJJPEAK@Z:PPROC
+?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAEPEAJJPEAK@Z equ <__imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAEPEAJJPEAK@Z>
+
+externdef __imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAGKPEAKH@Z:PPROC
+?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAGKPEAKH@Z equ <__imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAGKPEAKH@Z>
+
+externdef __imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAVSTRLIST@@PEAK@Z:PPROC
+?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAVSTRLIST@@PEAK@Z equ <__imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAPEAVSTRLIST@@PEAK@Z>
+
+externdef __imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAVNLS_STR@@KPEAKH@Z:PPROC
+?QueryValue@REG_KEY@@QEAAJPEBGPEAVNLS_STR@@KPEAKH@Z equ <__imp_?QueryValue@REG_KEY@@QEAAJPEBGPEAVNLS_STR@@KPEAKH@Z>
+
+externdef __imp_?QueryYear@WIN_TIME@@QEBAHXZ:PPROC
+?QueryYear@WIN_TIME@@QEBAHXZ equ <__imp_?QueryYear@WIN_TIME@@QEBAHXZ>
+
+externdef __imp_?QueryYearPos@INTL_PROFILE@@QEBAHXZ:PPROC
+?QueryYearPos@INTL_PROFILE@@QEBAHXZ equ <__imp_?QueryYearPos@INTL_PROFILE@@QEBAHXZ>
+
+externdef __imp_?Realloc@NLS_STR@@AEAAHI@Z:PPROC
+?Realloc@NLS_STR@@AEAAHI@Z equ <__imp_?Realloc@NLS_STR@@AEAAHI@Z>
+
+externdef __imp_?ReallocStorage@BUFFER@@AEAAJI@Z:PPROC
+?ReallocStorage@BUFFER@@AEAAJI@Z equ <__imp_?ReallocStorage@BUFFER@@AEAAJI@Z>
+
+externdef __imp_?Refresh@FMX@@QEAAXXZ:PPROC
+?Refresh@FMX@@QEAAXXZ equ <__imp_?Refresh@FMX@@QEAAXXZ>
+
+externdef __imp_?Refresh@INTL_PROFILE@@QEAAJXZ:PPROC
+?Refresh@INTL_PROFILE@@QEAAJXZ equ <__imp_?Refresh@INTL_PROFILE@@QEAAJXZ>
+
+externdef __imp_?Register@DLIST@@IEAAXPEAVITER_L@@@Z:PPROC
+?Register@DLIST@@IEAAXPEAVITER_L@@@Z equ <__imp_?Register@DLIST@@IEAAXPEAVITER_L@@@Z>
+
+externdef __imp_?Register@SLIST@@IEAAXPEAVITER_SL@@@Z:PPROC
+?Register@SLIST@@IEAAXPEAVITER_SL@@@Z equ <__imp_?Register@SLIST@@IEAAXPEAVITER_SL@@@Z>
+
+externdef __imp_?Reload@FMX@@QEAAXXZ:PPROC
+?Reload@FMX@@QEAAXXZ equ <__imp_?Reload@FMX@@QEAAXXZ>
+
+externdef __imp_?Remove@DLIST@@QEAAPEAXAEAVITER_DL@@@Z:PPROC
+?Remove@DLIST@@QEAAPEAXAEAVITER_DL@@@Z equ <__imp_?Remove@DLIST@@QEAAPEAXAEAVITER_DL@@@Z>
+
+externdef __imp_?Remove@DLIST@@QEAAPEAXAEAVRITER_DL@@@Z:PPROC
+?Remove@DLIST@@QEAAPEAXAEAVRITER_DL@@@Z equ <__imp_?Remove@DLIST@@QEAAPEAXAEAVRITER_DL@@@Z>
+
+externdef __imp_?Remove@SLIST@@QEAAPEAXAEAVITER_SL@@@Z:PPROC
+?Remove@SLIST@@QEAAPEAXAEAVITER_SL@@@Z equ <__imp_?Remove@SLIST@@QEAAPEAXAEAVITER_SL@@@Z>
+
+externdef __imp_?Remove@SLIST_OF_DIR_BLOCK@@QEAAPEAVDIR_BLOCK@@AEAVITER_SL_DIR_BLOCK@@@Z:PPROC
+?Remove@SLIST_OF_DIR_BLOCK@@QEAAPEAVDIR_BLOCK@@AEAVITER_SL_DIR_BLOCK@@@Z equ <__imp_?Remove@SLIST_OF_DIR_BLOCK@@QEAAPEAVDIR_BLOCK@@AEAVITER_SL_DIR_BLOCK@@@Z>
+
+externdef __imp_?Remove@SLIST_OF_NLS_STR@@QEAAPEAVNLS_STR@@AEAV2@@Z:PPROC
+?Remove@SLIST_OF_NLS_STR@@QEAAPEAVNLS_STR@@AEAV2@@Z equ <__imp_?Remove@SLIST_OF_NLS_STR@@QEAAPEAVNLS_STR@@AEAV2@@Z>
+
+externdef __imp_?Render@OUTPUT_TO_AUX@@UEAAXPEBG@Z:PPROC
+?Render@OUTPUT_TO_AUX@@UEAAXPEBG@Z equ <__imp_?Render@OUTPUT_TO_AUX@@UEAAXPEBG@Z>
+
+externdef __imp_?Render@OUTPUT_TO_AUX@@UEAAXPEBGI@Z:PPROC
+?Render@OUTPUT_TO_AUX@@UEAAXPEBGI@Z equ <__imp_?Render@OUTPUT_TO_AUX@@UEAAXPEBGI@Z>
+
+externdef __imp_?Render@OUTPUT_TO_NUL@@EEAAXPEBG@Z:PPROC
+?Render@OUTPUT_TO_NUL@@EEAAXPEBG@Z equ <__imp_?Render@OUTPUT_TO_NUL@@EEAAXPEBG@Z>
+
+externdef __imp_?Render@OUTPUT_TO_NUL@@EEAAXPEBGI@Z:PPROC
+?Render@OUTPUT_TO_NUL@@EEAAXPEBGI@Z equ <__imp_?Render@OUTPUT_TO_NUL@@EEAAXPEBGI@Z>
+
+externdef __imp_?Render@OUTPUT_TO_STDERR@@UEAAXPEBG@Z:PPROC
+?Render@OUTPUT_TO_STDERR@@UEAAXPEBG@Z equ <__imp_?Render@OUTPUT_TO_STDERR@@UEAAXPEBG@Z>
+
+externdef __imp_?Render@OUTPUT_TO_STDERR@@UEAAXPEBGI@Z:PPROC
+?Render@OUTPUT_TO_STDERR@@UEAAXPEBGI@Z equ <__imp_?Render@OUTPUT_TO_STDERR@@UEAAXPEBGI@Z>
+
+externdef __imp_?Render@OUTPUT_TO_STDOUT@@UEAAXPEBG@Z:PPROC
+?Render@OUTPUT_TO_STDOUT@@UEAAXPEBG@Z equ <__imp_?Render@OUTPUT_TO_STDOUT@@UEAAXPEBG@Z>
+
+externdef __imp_?Render@OUTPUT_TO_STDOUT@@UEAAXPEBGI@Z:PPROC
+?Render@OUTPUT_TO_STDOUT@@UEAAXPEBGI@Z equ <__imp_?Render@OUTPUT_TO_STDOUT@@UEAAXPEBGI@Z>
+
+externdef __imp_?ReplSubStr@NLS_STR@@AEAAXAEBV1@AEAVISTR@@I@Z:PPROC
+?ReplSubStr@NLS_STR@@AEAAXAEBV1@AEAVISTR@@I@Z equ <__imp_?ReplSubStr@NLS_STR@@AEAAXAEBV1@AEAVISTR@@I@Z>
+
+externdef __imp_?ReplSubStr@NLS_STR@@QEAAXAEBV1@AEAVISTR@@@Z:PPROC
+?ReplSubStr@NLS_STR@@QEAAXAEBV1@AEAVISTR@@@Z equ <__imp_?ReplSubStr@NLS_STR@@QEAAXAEBV1@AEAVISTR@@@Z>
+
+externdef __imp_?ReplSubStr@NLS_STR@@QEAAXAEBV1@AEAVISTR@@AEBV2@@Z:PPROC
+?ReplSubStr@NLS_STR@@QEAAXAEBV1@AEAVISTR@@AEBV2@@Z equ <__imp_?ReplSubStr@NLS_STR@@QEAAXAEBV1@AEAVISTR@@AEBV2@@Z>
+
+externdef __imp_?ReportError@BASE@@IEAAXJ@Z:PPROC
+?ReportError@BASE@@IEAAXJ@Z equ <__imp_?ReportError@BASE@@IEAAXJ@Z>
+
+externdef __imp_?ReportLastError@FS_ENUM@@IEAAXJ@Z:PPROC
+?ReportLastError@FS_ENUM@@IEAAXJ@Z equ <__imp_?ReportLastError@FS_ENUM@@IEAAXJ@Z>
+
+externdef __imp_?Reset@DFSITER_TREE@@QEAAXXZ:PPROC
+?Reset@DFSITER_TREE@@QEAAXXZ equ <__imp_?Reset@DFSITER_TREE@@QEAAXXZ>
+
+externdef __imp_?Reset@ISTR@@QEAAXXZ:PPROC
+?Reset@ISTR@@QEAAXXZ equ <__imp_?Reset@ISTR@@QEAAXXZ>
+
+externdef __imp_?Reset@ITER_DL@@QEAAXXZ:PPROC
+?Reset@ITER_DL@@QEAAXXZ equ <__imp_?Reset@ITER_DL@@QEAAXXZ>
+
+externdef __imp_?Reset@ITER_SL@@QEAAXXZ:PPROC
+?Reset@ITER_SL@@QEAAXXZ equ <__imp_?Reset@ITER_SL@@QEAAXXZ>
+
+externdef __imp_?Reset@NLS_STR@@QEAAHXZ:PPROC
+?Reset@NLS_STR@@QEAAHXZ equ <__imp_?Reset@NLS_STR@@QEAAHXZ>
+
+externdef __imp_?Reset@RITER_DL@@QEAAXXZ:PPROC
+?Reset@RITER_DL@@QEAAXXZ equ <__imp_?Reset@RITER_DL@@QEAAXXZ>
+
+externdef __imp_?ResetError@BASE@@IEAAXXZ:PPROC
+?ResetError@BASE@@IEAAXXZ equ <__imp_?ResetError@BASE@@IEAAXXZ>
+
+externdef __imp_?Resize@BITFIELD@@QEAAJI@Z:PPROC
+?Resize@BITFIELD@@QEAAJI@Z equ <__imp_?Resize@BITFIELD@@QEAAJI@Z>
+
+externdef __imp_?Resize@BUFFER@@QEAAJI@Z:PPROC
+?Resize@BUFFER@@QEAAJI@Z equ <__imp_?Resize@BUFFER@@QEAAJI@Z>
+
+externdef __imp_?RtlOemUpcase@NLS_STR@@QEAAJXZ:PPROC
+?RtlOemUpcase@NLS_STR@@QEAAJXZ equ <__imp_?RtlOemUpcase@NLS_STR@@QEAAJXZ>
+
+externdef __imp_?ScanLongDate@INTL_PROFILE@@AEBAJPEAVNLS_STR@@@Z:PPROC
+?ScanLongDate@INTL_PROFILE@@AEBAJPEAVNLS_STR@@@Z equ <__imp_?ScanLongDate@INTL_PROFILE@@AEBAJPEAVNLS_STR@@@Z>
+
+externdef __imp_?Set@DL_NODE@@QEAAXPEAV1@0PEAX@Z:PPROC
+?Set@DL_NODE@@QEAAXPEAV1@0PEAX@Z equ <__imp_?Set@DL_NODE@@QEAAXPEAV1@0PEAX@Z>
+
+externdef __imp_?Set@LOGON_HOURS_SETTING@@QEAAJAEBV1@@Z:PPROC
+?Set@LOGON_HOURS_SETTING@@QEAAJAEBV1@@Z equ <__imp_?Set@LOGON_HOURS_SETTING@@QEAAJAEBV1@@Z>
+
+externdef __imp_?Set@SL_NODE@@QEAAXPEAV1@PEAX@Z:PPROC
+?Set@SL_NODE@@QEAAXPEAV1@PEAX@Z equ <__imp_?Set@SL_NODE@@QEAAXPEAV1@PEAX@Z>
+
+externdef __imp_?SetAllBits@BITFIELD@@QEAAXW4BITVALUES@@@Z:PPROC
+?SetAllBits@BITFIELD@@QEAAXW4BITVALUES@@@Z equ <__imp_?SetAllBits@BITFIELD@@QEAAXW4BITVALUES@@@Z>
+
+externdef __imp_?SetAllocCount@HEAP_BASE@@QEAAJH@Z:PPROC
+?SetAllocCount@HEAP_BASE@@QEAAJH@Z equ <__imp_?SetAllocCount@HEAP_BASE@@QEAAJH@Z>
+
+externdef __imp_?SetBit@BITFIELD@@QEAAXIW4BITVALUES@@@Z:PPROC
+?SetBit@BITFIELD@@QEAAXIW4BITVALUES@@@Z equ <__imp_?SetBit@BITFIELD@@QEAAXIW4BITVALUES@@@Z>
+
+externdef __imp_?SetCurDepth@DFSITER_TREE@@AEAAXI@Z:PPROC
+?SetCurDepth@DFSITER_TREE@@AEAAXI@Z equ <__imp_?SetCurDepth@DFSITER_TREE@@AEAAXI@Z>
+
+externdef __imp_?SetCurrent@DBGSTREAM@@SAXPEAV1@@Z:PPROC
+?SetCurrent@DBGSTREAM@@SAXPEAV1@@Z equ <__imp_?SetCurrent@DBGSTREAM@@SAXPEAV1@@Z>
+
+externdef __imp_?SetCurrentDirBlock@FS_ENUM@@IEAAXPEAVDIR_BLOCK@@@Z:PPROC
+?SetCurrentDirBlock@FS_ENUM@@IEAAXPEAVDIR_BLOCK@@@Z equ <__imp_?SetCurrentDirBlock@FS_ENUM@@IEAAXPEAVDIR_BLOCK@@@Z>
+
+externdef __imp_?SetCurrentTime@WIN_TIME@@QEAAJXZ:PPROC
+?SetCurrentTime@WIN_TIME@@QEAAJXZ equ <__imp_?SetCurrentTime@WIN_TIME@@QEAAJXZ>
+
+externdef __imp_?SetDoBreadthFirstDirs@DIR_BLOCK@@QEAAXH@Z:PPROC
+?SetDoBreadthFirstDirs@DIR_BLOCK@@QEAAXH@Z equ <__imp_?SetDoBreadthFirstDirs@DIR_BLOCK@@QEAAXH@Z>
+
+externdef __imp_?SetFindFirstFlag@DIR_BLOCK@@QEAAXH@Z:PPROC
+?SetFindFirstFlag@DIR_BLOCK@@QEAAXH@Z equ <__imp_?SetFindFirstFlag@DIR_BLOCK@@QEAAXH@Z>
+
+externdef __imp_?SetFirstSubtree@TREE@@AEAAXPEAV1@@Z:PPROC
+?SetFirstSubtree@TREE@@AEAAXPEAV1@@Z equ <__imp_?SetFirstSubtree@TREE@@AEAAXPEAV1@@Z>
+
+externdef __imp_?SetFromBits@LOGON_HOURS_SETTING@@QEAAJPEBEI@Z:PPROC
+?SetFromBits@LOGON_HOURS_SETTING@@QEAAJPEBEI@Z equ <__imp_?SetFromBits@LOGON_HOURS_SETTING@@QEAAJPEBEI@Z>
+
+externdef __imp_?SetGMT@WIN_TIME@@QEAAJH@Z:PPROC
+?SetGMT@WIN_TIME@@QEAAJH@Z equ <__imp_?SetGMT@WIN_TIME@@QEAAJH@Z>
+
+externdef __imp_?SetHourInDay@LOGON_HOURS_SETTING@@QEAAJHII@Z:PPROC
+?SetHourInDay@LOGON_HOURS_SETTING@@QEAAJHII@Z equ <__imp_?SetHourInDay@LOGON_HOURS_SETTING@@QEAAJHII@Z>
+
+externdef __imp_?SetHourInWeek@LOGON_HOURS_SETTING@@QEAAJHI@Z:PPROC
+?SetHourInWeek@LOGON_HOURS_SETTING@@QEAAJHI@Z equ <__imp_?SetHourInWeek@LOGON_HOURS_SETTING@@QEAAJHI@Z>
+
+externdef __imp_?SetIch@ISTR@@AEAAXH@Z:PPROC
+?SetIch@ISTR@@AEAAXH@Z equ <__imp_?SetIch@ISTR@@AEAAXH@Z>
+
+externdef __imp_?SetItem@HEAP_BASE@@IEAAXHPEAX@Z:PPROC
+?SetItem@HEAP_BASE@@IEAAXHPEAX@Z equ <__imp_?SetItem@HEAP_BASE@@IEAAXHPEAX@Z>
+
+externdef __imp_?SetIters@DLIST@@IEAAXPEAVDL_NODE@@@Z:PPROC
+?SetIters@DLIST@@IEAAXPEAVDL_NODE@@@Z equ <__imp_?SetIters@DLIST@@IEAAXPEAVDL_NODE@@@Z>
+
+externdef __imp_?SetIters@SLIST@@IEAAXPEAVSL_NODE@@0@Z:PPROC
+?SetIters@SLIST@@IEAAXPEAVSL_NODE@@0@Z equ <__imp_?SetIters@SLIST@@IEAAXPEAVSL_NODE@@0@Z>
+
+externdef __imp_?SetIters@SLIST@@IEAAXPEAVSL_NODE@@@Z:PPROC
+?SetIters@SLIST@@IEAAXPEAVSL_NODE@@@Z equ <__imp_?SetIters@SLIST@@IEAAXPEAVSL_NODE@@@Z>
+
+externdef __imp_?SetKeyValueBinary@REG_KEY@@AEAAJPEBGPEBEJKK@Z:PPROC
+?SetKeyValueBinary@REG_KEY@@AEAAJPEBGPEBEJKK@Z equ <__imp_?SetKeyValueBinary@REG_KEY@@AEAAJPEBGPEBEJKK@Z>
+
+externdef __imp_?SetKeyValueLong@REG_KEY@@AEAAJPEBGJK@Z:PPROC
+?SetKeyValueLong@REG_KEY@@AEAAJPEBGJK@Z equ <__imp_?SetKeyValueLong@REG_KEY@@AEAAJPEBGJK@Z>
+
+externdef __imp_?SetKeyValueString@REG_KEY@@AEAAJPEBG0KJK@Z:PPROC
+?SetKeyValueString@REG_KEY@@AEAAJPEBG0KJK@Z equ <__imp_?SetKeyValueString@REG_KEY@@AEAAJPEBG0KJK@Z>
+
+externdef __imp_?SetLeft@TREE@@AEAAXPEAV1@@Z:PPROC
+?SetLeft@TREE@@AEAAXPEAV1@@Z equ <__imp_?SetLeft@TREE@@AEAAXPEAV1@@Z>
+
+externdef __imp_?SetMaxDepth@DFSITER_TREE@@AEAAXI@Z:PPROC
+?SetMaxDepth@DFSITER_TREE@@AEAAXI@Z equ <__imp_?SetMaxDepth@DFSITER_TREE@@AEAAXI@Z>
+
+externdef __imp_?SetNode@DFSITER_TREE@@AEAAXPEBVTREE@@@Z:PPROC
+?SetNode@DFSITER_TREE@@AEAAXPEBVTREE@@@Z equ <__imp_?SetNode@DFSITER_TREE@@AEAAXPEBVTREE@@@Z>
+
+externdef __imp_?SetParent@TREE@@AEAAXPEAV1@@Z:PPROC
+?SetParent@TREE@@AEAAXPEAV1@@Z equ <__imp_?SetParent@TREE@@AEAAXPEAV1@@Z>
+
+externdef __imp_?SetProp@TREE@@QEAAXQEAX@Z:PPROC
+?SetProp@TREE@@QEAAXQEAX@Z equ <__imp_?SetProp@TREE@@QEAAXQEAX@Z>
+
+externdef __imp_?SetRight@TREE@@AEAAXPEAV1@@Z:PPROC
+?SetRight@TREE@@AEAAXPEAV1@@Z equ <__imp_?SetRight@TREE@@AEAAXPEAV1@@Z>
+
+externdef __imp_?SetSink@DBGSTREAM@@QEAAXPEAVOUTPUTSINK@@@Z:PPROC
+?SetSink@DBGSTREAM@@QEAAXPEAVOUTPUTSINK@@@Z equ <__imp_?SetSink@DBGSTREAM@@QEAAXPEAVOUTPUTSINK@@@Z>
+
+externdef __imp_?SetStartNode@DFSITER_TREE@@AEAAXPEBVTREE@@@Z:PPROC
+?SetStartNode@DFSITER_TREE@@AEAAXPEBVTREE@@@Z equ <__imp_?SetStartNode@DFSITER_TREE@@AEAAXPEBVTREE@@@Z>
+
+externdef __imp_?SetTime@WIN_TIME@@QEAAJK@Z:PPROC
+?SetTime@WIN_TIME@@QEAAJK@Z equ <__imp_?SetTime@WIN_TIME@@QEAAJK@Z>
+
+externdef __imp_?SetTime@WIN_TIME@@QEAAJU_FILETIME@@@Z:PPROC
+?SetTime@WIN_TIME@@QEAAJU_FILETIME@@@Z equ <__imp_?SetTime@WIN_TIME@@QEAAJU_FILETIME@@@Z>
+
+externdef __imp_?SetTimeLocal@WIN_TIME@@QEAAJK@Z:PPROC
+?SetTimeLocal@WIN_TIME@@QEAAJK@Z equ <__imp_?SetTimeLocal@WIN_TIME@@QEAAJK@Z>
+
+externdef __imp_?SetTimeLocal@WIN_TIME@@QEAAJU_FILETIME@@@Z:PPROC
+?SetTimeLocal@WIN_TIME@@QEAAJU_FILETIME@@@Z equ <__imp_?SetTimeLocal@WIN_TIME@@QEAAJU_FILETIME@@@Z>
+
+externdef __imp_?SetValue@REG_KEY@@QEAAJPEAVREG_VALUE_INFO_STRUCT@@@Z:PPROC
+?SetValue@REG_KEY@@QEAAJPEAVREG_VALUE_INFO_STRUCT@@@Z equ <__imp_?SetValue@REG_KEY@@QEAAJPEAVREG_VALUE_INFO_STRUCT@@@Z>
+
+externdef __imp_?SetValue@REG_KEY@@QEAAJPEBG0KPEBKH@Z:PPROC
+?SetValue@REG_KEY@@QEAAJPEBG0KPEBKH@Z equ <__imp_?SetValue@REG_KEY@@QEAAJPEBG0KPEBKH@Z>
+
+externdef __imp_?SetValue@REG_KEY@@QEAAJPEBGKPEBK@Z:PPROC
+?SetValue@REG_KEY@@QEAAJPEBGKPEBK@Z equ <__imp_?SetValue@REG_KEY@@QEAAJPEBGKPEBK@Z>
+
+externdef __imp_?SetValue@REG_KEY@@QEAAJPEBGPEBEJPEBK@Z:PPROC
+?SetValue@REG_KEY@@QEAAJPEBGPEBEJPEBK@Z equ <__imp_?SetValue@REG_KEY@@QEAAJPEBGPEBEJPEBK@Z>
+
+externdef __imp_?SetValue@REG_KEY@@QEAAJPEBGPEBVNLS_STR@@PEBKH@Z:PPROC
+?SetValue@REG_KEY@@QEAAJPEBGPEBVNLS_STR@@PEBKH@Z equ <__imp_?SetValue@REG_KEY@@QEAAJPEBGPEBVNLS_STR@@PEBKH@Z>
+
+externdef __imp_?SetValue@REG_KEY@@QEAAJPEBGPEBVSTRLIST@@PEBK@Z:PPROC
+?SetValue@REG_KEY@@QEAAJPEBGPEBVSTRLIST@@PEBK@Z equ <__imp_?SetValue@REG_KEY@@QEAAJPEBGPEBVSTRLIST@@PEBK@Z>
+
+externdef __imp_?ShouldThisFileBeIncluded@FS_ENUM@@IEBAHI@Z:PPROC
+?ShouldThisFileBeIncluded@FS_ENUM@@IEBAHI@Z equ <__imp_?ShouldThisFileBeIncluded@FS_ENUM@@IEBAHI@Z>
+
+externdef __imp_?Terminate@UATOM_MANAGER@@SAJXZ:PPROC
+?Terminate@UATOM_MANAGER@@SAJXZ equ <__imp_?Terminate@UATOM_MANAGER@@SAJXZ>
+
+externdef __imp_?Tokenize@UATOM_MANAGER@@AEAAPEAVUATOM@@PEBGH@Z:PPROC
+?Tokenize@UATOM_MANAGER@@AEAAPEAVUATOM@@PEBGH@Z equ <__imp_?Tokenize@UATOM_MANAGER@@AEAAPEAVUATOM@@PEBGH@Z>
+
+externdef __imp_?Trim@BUFFER@@QEAAXXZ:PPROC
+?Trim@BUFFER@@QEAAXXZ equ <__imp_?Trim@BUFFER@@QEAAXXZ>
+
+externdef __imp_?Trim@HEAP_BASE@@QEAAXXZ:PPROC
+?Trim@HEAP_BASE@@QEAAXXZ equ <__imp_?Trim@HEAP_BASE@@QEAAXXZ>
+
+externdef __imp_?UIAssertCommand@@YAXPEBD@Z:PPROC
+?UIAssertCommand@@YAXPEBD@Z equ <__imp_?UIAssertCommand@@YAXPEBD@Z>
+
+externdef __imp_?UIAssertHlp@@YAXPEBD0I@Z:PPROC
+?UIAssertHlp@@YAXPEBD0I@Z equ <__imp_?UIAssertHlp@@YAXPEBD0I@Z>
+
+externdef __imp_?UIAssertHlp@@YAXPEBDI@Z:PPROC
+?UIAssertHlp@@YAXPEBDI@Z equ <__imp_?UIAssertHlp@@YAXPEBDI@Z>
+
+externdef __imp_?Unlink@DLIST@@IEAAPEAXPEAVDL_NODE@@@Z:PPROC
+?Unlink@DLIST@@IEAAPEAXPEAVDL_NODE@@@Z equ <__imp_?Unlink@DLIST@@IEAAPEAXPEAVDL_NODE@@@Z>
+
+externdef __imp_?Unlink@TREE@@IEAAXXZ:PPROC
+?Unlink@TREE@@IEAAXXZ equ <__imp_?Unlink@TREE@@IEAAXXZ>
+
+externdef __imp_?Unlink@UATOM_LINKAGE@@QEAAXXZ:PPROC
+?Unlink@UATOM_LINKAGE@@QEAAXXZ equ <__imp_?Unlink@UATOM_LINKAGE@@QEAAXXZ>
+
+externdef __imp_?UpdateIstr@NLS_STR@@AEBAXPEAVISTR@@@Z:PPROC
+?UpdateIstr@NLS_STR@@AEBAXPEAVISTR@@@Z equ <__imp_?UpdateIstr@NLS_STR@@AEBAXPEAVISTR@@@Z>
+
+externdef __imp_?WriteToBuffer@STRLIST@@QEAAHPEAGH0@Z:PPROC
+?WriteToBuffer@STRLIST@@QEAAHPEAGH0@Z equ <__imp_?WriteToBuffer@STRLIST@@QEAAHPEAGH0@Z>
+
+externdef __imp_?_DebugPrint@DLIST@@QEBAXXZ:PPROC
+?_DebugPrint@DLIST@@QEBAXXZ equ <__imp_?_DebugPrint@DLIST@@QEBAXXZ>
+
+externdef __imp_?_DebugPrint@SLIST@@QEBAXXZ:PPROC
+?_DebugPrint@SLIST@@QEBAXXZ equ <__imp_?_DebugPrint@SLIST@@QEBAXXZ>
+
+externdef __imp_?_DebugPrint@TREE@@QEBAXXZ:PPROC
+?_DebugPrint@TREE@@QEBAXXZ equ <__imp_?_DebugPrint@TREE@@QEBAXXZ>
+
+externdef __imp_?_IsOwnerAlloc@NLS_STR@@QEBAHXZ:PPROC
+?_IsOwnerAlloc@NLS_STR@@QEBAHXZ equ <__imp_?_IsOwnerAlloc@NLS_STR@@QEBAHXZ>
+
+externdef __imp_?_QueryAllocSize@NLS_STR@@QEBAIXZ:PPROC
+?_QueryAllocSize@NLS_STR@@QEBAIXZ equ <__imp_?_QueryAllocSize@NLS_STR@@QEBAIXZ>
+
+externdef __imp_?_QueryPch@NLS_STR@@QEBAPEBGXZ:PPROC
+?_QueryPch@NLS_STR@@QEBAPEBGXZ equ <__imp_?_QueryPch@NLS_STR@@QEBAPEBGXZ>
+
+externdef __imp_?_QueryTextLength@NLS_STR@@QEBAIXZ:PPROC
+?_QueryTextLength@NLS_STR@@QEBAIXZ equ <__imp_?_QueryTextLength@NLS_STR@@QEBAIXZ>
+
+externdef __imp_?_ReportError@BASE@@IEAAXJ@Z:PPROC
+?_ReportError@BASE@@IEAAXJ@Z equ <__imp_?_ReportError@BASE@@IEAAXJ@Z>
+
+externdef __imp_?_stricmp@NLS_STR@@QEBAHAEBV1@@Z:PPROC
+?_stricmp@NLS_STR@@QEBAHAEBV1@@Z equ <__imp_?_stricmp@NLS_STR@@QEBAHAEBV1@@Z>
+
+externdef __imp_?_stricmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z:PPROC
+?_stricmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z equ <__imp_?_stricmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z>
+
+externdef __imp_?_stricmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z:PPROC
+?_stricmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z equ <__imp_?_stricmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z>
+
+externdef __imp_?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@11@Z:PPROC
+?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@11@Z equ <__imp_?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@11@Z>
+
+externdef __imp_?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z:PPROC
+?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z equ <__imp_?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z>
+
+externdef __imp_?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z:PPROC
+?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z equ <__imp_?_strnicmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z>
+
+externdef __imp_?_strupr@NLS_STR@@QEAAAEAV1@XZ:PPROC
+?_strupr@NLS_STR@@QEAAAEAV1@XZ equ <__imp_?_strupr@NLS_STR@@QEAAAEAV1@XZ>
+
+externdef __imp_?atoi@NLS_STR@@QEBAHAEBVISTR@@@Z:PPROC
+?atoi@NLS_STR@@QEBAHAEBVISTR@@@Z equ <__imp_?atoi@NLS_STR@@QEBAHAEBVISTR@@@Z>
+
+externdef __imp_?atoi@NLS_STR@@QEBAHXZ:PPROC
+?atoi@NLS_STR@@QEBAHXZ equ <__imp_?atoi@NLS_STR@@QEBAHXZ>
+
+externdef __imp_?atol@NLS_STR@@QEBAJAEBVISTR@@@Z:PPROC
+?atol@NLS_STR@@QEBAJAEBVISTR@@@Z equ <__imp_?atol@NLS_STR@@QEBAJAEBVISTR@@@Z>
+
+externdef __imp_?atol@NLS_STR@@QEBAJXZ:PPROC
+?atol@NLS_STR@@QEBAJXZ equ <__imp_?atol@NLS_STR@@QEBAJXZ>
+
+externdef __imp_?atoul@NLS_STR@@QEBAKAEBVISTR@@@Z:PPROC
+?atoul@NLS_STR@@QEBAKAEBVISTR@@@Z equ <__imp_?atoul@NLS_STR@@QEBAKAEBVISTR@@@Z>
+
+externdef __imp_?atoul@NLS_STR@@QEBAKXZ:PPROC
+?atoul@NLS_STR@@QEBAKXZ equ <__imp_?atoul@NLS_STR@@QEBAKXZ>
+
+externdef __imp_?strcat@NLS_STR@@QEAAAEAV1@AEBV1@@Z:PPROC
+?strcat@NLS_STR@@QEAAAEAV1@AEBV1@@Z equ <__imp_?strcat@NLS_STR@@QEAAAEAV1@AEBV1@@Z>
+
+externdef __imp_?strchr@NLS_STR@@QEBAHPEAVISTR@@G@Z:PPROC
+?strchr@NLS_STR@@QEBAHPEAVISTR@@G@Z equ <__imp_?strchr@NLS_STR@@QEBAHPEAVISTR@@G@Z>
+
+externdef __imp_?strchr@NLS_STR@@QEBAHPEAVISTR@@GAEBV2@@Z:PPROC
+?strchr@NLS_STR@@QEBAHPEAVISTR@@GAEBV2@@Z equ <__imp_?strchr@NLS_STR@@QEBAHPEAVISTR@@GAEBV2@@Z>
+
+externdef __imp_?strcmp@NLS_STR@@QEBAHAEBV1@@Z:PPROC
+?strcmp@NLS_STR@@QEBAHAEBV1@@Z equ <__imp_?strcmp@NLS_STR@@QEBAHAEBV1@@Z>
+
+externdef __imp_?strcmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z:PPROC
+?strcmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z equ <__imp_?strcmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z>
+
+externdef __imp_?strcmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z:PPROC
+?strcmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z equ <__imp_?strcmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z>
+
+externdef __imp_?strcpy@@YAPEAGPEAGAEBVNLS_STR@@@Z:PPROC
+?strcpy@@YAPEAGPEAGAEBVNLS_STR@@@Z equ <__imp_?strcpy@@YAPEAGPEAGAEBVNLS_STR@@@Z>
+
+externdef __imp_?strcspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z:PPROC
+?strcspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z equ <__imp_?strcspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z>
+
+externdef __imp_?strcspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z:PPROC
+?strcspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z equ <__imp_?strcspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z>
+
+externdef __imp_?strlen@NLS_STR@@QEBAIXZ:PPROC
+?strlen@NLS_STR@@QEBAIXZ equ <__imp_?strlen@NLS_STR@@QEBAIXZ>
+
+externdef __imp_?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@11@Z:PPROC
+?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@11@Z equ <__imp_?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@11@Z>
+
+externdef __imp_?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z:PPROC
+?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z equ <__imp_?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@1@Z>
+
+externdef __imp_?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z:PPROC
+?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z equ <__imp_?strncmp@NLS_STR@@QEBAHAEBV1@AEBVISTR@@@Z>
+
+externdef __imp_?strrchr@NLS_STR@@QEBAHPEAVISTR@@G@Z:PPROC
+?strrchr@NLS_STR@@QEBAHPEAVISTR@@G@Z equ <__imp_?strrchr@NLS_STR@@QEBAHPEAVISTR@@G@Z>
+
+externdef __imp_?strrchr@NLS_STR@@QEBAHPEAVISTR@@GAEBV2@@Z:PPROC
+?strrchr@NLS_STR@@QEBAHPEAVISTR@@GAEBV2@@Z equ <__imp_?strrchr@NLS_STR@@QEBAHPEAVISTR@@GAEBV2@@Z>
+
+externdef __imp_?strspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z:PPROC
+?strspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z equ <__imp_?strspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z>
+
+externdef __imp_?strspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z:PPROC
+?strspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z equ <__imp_?strspn@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z>
+
+externdef __imp_?strstr@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z:PPROC
+?strstr@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z equ <__imp_?strstr@NLS_STR@@QEBAHPEAVISTR@@AEBV1@@Z>
+
+externdef __imp_?strstr@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z:PPROC
+?strstr@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z equ <__imp_?strstr@NLS_STR@@QEBAHPEAVISTR@@AEBV1@AEBV2@@Z>
+
+externdef __imp_?vNext@ITER_DL@@UEAAPEAXXZ:PPROC
+?vNext@ITER_DL@@UEAAPEAXXZ equ <__imp_?vNext@ITER_DL@@UEAAPEAXXZ>
+
+externdef __imp_?vNext@RITER_DL@@UEAAPEAXXZ:PPROC
+?vNext@RITER_DL@@UEAAPEAXXZ equ <__imp_?vNext@RITER_DL@@UEAAPEAXXZ>
+
+externdef __imp_InitCompareParam:PPROC
+InitCompareParam equ <__imp_InitCompareParam>
+
+externdef __imp_NETUI_InitIsDBCS:PPROC
+NETUI_InitIsDBCS equ <__imp_NETUI_InitIsDBCS>
+
+externdef __imp_NETUI_IsDBCS:PPROC
+NETUI_IsDBCS equ <__imp_NETUI_IsDBCS>
+
+externdef __imp_NETUI_strcmp:PPROC
+NETUI_strcmp equ <__imp_NETUI_strcmp>
+
+externdef __imp_NETUI_stricmp:PPROC
+NETUI_stricmp equ <__imp_NETUI_stricmp>
+
+externdef __imp_NETUI_strncmp2:PPROC
+NETUI_strncmp2 equ <__imp_NETUI_strncmp2>
+
+externdef __imp_NETUI_strncmp:PPROC
+NETUI_strncmp equ <__imp_NETUI_strncmp>
+
+externdef __imp_NETUI_strnicmp2:PPROC
+NETUI_strnicmp2 equ <__imp_NETUI_strnicmp2>
+
+externdef __imp_NETUI_strnicmp:PPROC
+NETUI_strnicmp equ <__imp_NETUI_strnicmp>
+
+externdef __imp_QueryNocaseCompareParam:PPROC
+QueryNocaseCompareParam equ <__imp_QueryNocaseCompareParam>
+
+externdef __imp_QueryStdCompareParam:PPROC
+QueryStdCompareParam equ <__imp_QueryStdCompareParam>
+
+externdef __imp_QueryUserDefaultLCID:PPROC
+QueryUserDefaultLCID equ <__imp_QueryUserDefaultLCID>
+
+externdef __imp_UserPreferenceQuery:PPROC
+UserPreferenceQuery equ <__imp_UserPreferenceQuery>
+
+externdef __imp_UserPreferenceQueryBool:PPROC
+UserPreferenceQueryBool equ <__imp_UserPreferenceQueryBool>
+
+externdef __imp_UserPreferenceSet:PPROC
+UserPreferenceSet equ <__imp_UserPreferenceSet>
+
+externdef __imp_UserPreferenceSetBool:PPROC
+UserPreferenceSetBool equ <__imp_UserPreferenceSetBool>
+
+externdef __imp_UserProfileEnum:PPROC
+UserProfileEnum equ <__imp_UserProfileEnum>
+
+externdef __imp_UserProfileFree:PPROC
+UserProfileFree equ <__imp_UserProfileFree>
+
+externdef __imp_UserProfileInit:PPROC
+UserProfileInit equ <__imp_UserProfileInit>
+
+externdef __imp_UserProfileQuery:PPROC
+UserProfileQuery equ <__imp_UserProfileQuery>
+
+externdef __imp_UserProfileRead:PPROC
+UserProfileRead equ <__imp_UserProfileRead>
+
+externdef __imp_UserProfileSet:PPROC
+UserProfileSet equ <__imp_UserProfileSet>
+
+externdef __imp_UserProfileWrite:PPROC
+UserProfileWrite equ <__imp_UserProfileWrite>
