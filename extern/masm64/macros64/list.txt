@@ -1,0 +1,221 @@
+    MLOCAL equ LOCAL    ;; the word LOCAL is ambiguous in a MACRO
+    flcreate MACRO filename
+    fldelete MACRO filename
+    flflush MACRO hfile
+    flopen MACRO filename
+    flclose MACRO arg:REQ
+    flread MACRO hFile,buffer,bcnt
+    flwrite MACRO hFile,buffer,bcnt
+    flprint MACRO hFile:REQ,text:VARARG  ;; zero terminated text
+    flseek MACRO hFile,distance,location
+    flseteof MACRO hFile
+    flsize MACRO hFile
+    uval MACRO pstr
+    str$ MACRO value
+    sstr$ MACRO number
+    hex$ MACRO value
+    chr$ MACRO dbdata:VARARG
+    lcase$ MACRO ptxt
+    ucase$ MACRO ptxt
+    mono$ MACRO pTxt
+    remove$ MACRO psrc,pdst,prem
+    rep$ MACRO psrc,pdst,ptarget,preplace
+    search$ MACRO src,subst,offst
+    searchi$ MACRO src,subst,offst
+    ltrim$ MACRO src
+    rtrim$ MACRO src
+    trim$ MACRO src
+    left$ MACRO mem,chcnt
+    right$ MACRO pstr,cnt
+    stdout MACRO arg:REQ,extras:VARARG
+    errout MACRO arg:REQ,extras:VARARG
+    conout MACRO args:VARARG
+    ccout MACRO quoted:REQ
+    alloc MACRO bsize
+    realloc MACRO pmem, newsize
+    msize MACRO hndl
+    mfree MACRO hndl
+    heapinit MACRO
+    halloc MACRO bcnt:REQ
+    hsize MACRO mhandle:REQ
+    hrealloc MACRO mhandle:REQ,bcnt:REQ
+    hfree MACRO mhandle:REQ
+    exalloc MACRO bcnt
+    exfree MACRO hmem
+    aalloc MACRO pmem:REQ,bcnt:REQ,alignment:REQ
+    aligned_alloc MACRO pmem:REQ,bcnt:REQ,alignment:REQ
+    memalign MACRO reg, number
+    aligndn MACRO reg, number
+    alignup MACRO reg, number
+    mim MACRO mem, imm
+    sas MACRO target,source             ;; identical to mrm
+    mrm MACRO target,source
+    mrmq MACRO target,source
+    mrmd MACRO target,source
+    mrmw MACRO target,source
+    mrmb MACRO target,source
+    ladd MACRO target, source
+    cst MACRO mem,txt           ;; string copy in mnemonic order
+      FLT4 MACRO fpimm
+      FLT8 MACRO fpimm
+      FLT10 MACRO fpimm
+      FLOAT4 MACRO vname,fpimm
+      FLOAT8 MACRO vname,fpimm
+      FLOAT10 MACRO vname,fpimm
+      fld4 MACRO fpvalue
+      fld8 MACRO fpvalue
+      fld10 MACRO fpvalue
+    PFL4 MACRO fpvalu
+    PFL8 MACRO fpvalu
+    LOCAL64 MACRO arg1
+    STRUCT64 MACRO sname,stype
+    ptr$ MACRO mem
+    waitkey MACRO text
+    len MACRO pstr
+    loadfile MACRO pfile
+    savefile MACRO fname,mem,len
+    cmdtail MACRO
+    cfm$ MACRO txt:VARARG
+    chdir MACRO pathname
+    mkdir MACRO dirname
+    rndir MACRO oldname,newname
+    rmdir MACRO dirname
+    op_type MACRO arg:REQ
+    reparg MACRO arg
+    repargv MACRO arg
+    tstarg MACRO arg
+    num2str MACRO arg
+    argcount MACRO args:VARARG
+    argrev MACRO args:VARARG
+    getarg MACRO num:REQ,args:VARARG
+    LastError$ MACRO
+    errorcon MACRO
+    errorui MACRO
+    GetFontHandle MACRO fnam:REQ,fsiz:REQ,fwgt:REQ
+    UnderlineFont MACRO fnam:REQ,fsiz:REQ,fwgt:REQ
+    .switch MACRO arg
+    .switch_macro MACRO _var:req, _reg:=<rax>
+    .case MACRO _args:vararg                            ;; like Pascal: case id1. id4 .. id8, lparam, ...
+    .default MACRO _default:vararg
+    .endsw MACRO _cmd:vararg
+    cat$ MACRO mem:REQ, args:VARARG
+    CurDir$ MACRO
+    DropFileName MACRO wordparam
+    LeafEntry MACRO procname, flag, argbytes, localbytes, reglist, userparms:VARARG
+    LeafExit MACRO procname, flag, argbytes, localbytes, reglist, userparms:VARARG
+    PROCALIGN MACRO
+    ALTSTACKFRAME MACRO dflt:=<96>,algn:=<16>
+    STACK_FRAME MACRO arg
+    SET_STACK_FRAME MACRO arg1:=<2>,arg2:=<1>
+    AltStackFrame MACRO procname, flag, argbytes, localbytes, reglist, userparms:VARARG
+    ExitStackFrame MACRO procname, flag, argbytes, localbytes, reglist, userparms:VARARG
+  ; The following stackframe MACRO has been future proofed by the addition of
+  ; routinely catered for by making a calling MACRO that simply specifies the
+    UseStackFrame MACRO procname, flag, argbytes, localbytes, reglist, userparms:VARARG
+    EndStackFrame MACRO procname, flag, argbytes, localbytes, reglist, userparms:VARARG
+    STACKFRAME MACRO dflt:=<96>,dynm:=<128>,algn:=<16>
+    YMMSTACK MACRO dflt:=<96>,dynm:=<128>,algn:=<32>
+    ZMMSTACK MACRO dflt:=<96>,dynm:=<128>,algn:=<64>
+    CUSTOMSTACK MACRO dflt:=<128>,dynm:=<128>,algn:=<128>
+    NOSTACKFRAME MACRO
+    mcat MACRO pbuff:REQ,args:VARARG
+    print MACRO pmem:REQ,args:VARARG
+    varsize MACRO var:REQ
+    testsize MACRO args:VARARG
+    regsize MACRO reg
+    testregs MACRO args:VARARG
+    getattr MACRO arg
+    procedure_call MACRO fname:REQ,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10, \
+    REGISTER MACRO anum,breg,wreg,dreg,qreg
+    STACKARG MACRO anum,disp
+    invoke MACRO fname:REQ,args:VARARG
+    fn MACRO fname:REQ,args:VARARG
+    function MACRO fname:REQ,args:VARARG
+    rv MACRO fname:REQ,args:VARARG
+    register_call MACRO pname,ag1,ag2,ag3,ag4
+    rcall MACRO pname,ag1,ag2,ag3,ag4,ag5
+    rvcall MACRO pname,ag1,ag2,ag3,ag4,ag5
+    run_time_comparisons MACRO
+    evaluate_conditional_branch MACRO args
+    jump MACRO args
+    .IF MACRO args
+    do_macro MACRO
+    bottom_evaluate MACRO args
+ ;     .do MACRO
+ ;     .loop MACRO args
+    top_evaluate MACRO args
+    te_end MACRO
+    .rept MACRO args
+    .endr MACRO
+    .return MACRO arg
+    allocregs MACRO
+    saveall MACRO
+    restoreall MACRO
+    .multiple_instruction MACRO delm:REQ,args:VARARG
+    .mi MACRO args:VARARG           ;; multiple instructions
+    .ma MACRO args:VARARG           ;; multiple arguments
+    .mn MACRO args:VARARG           ;; alternate multiple arguments
+    .mx MACRO args:VARARG           ;; alternate multiple arguments
+    .exit MACRO optvar:=<0>
+    ucode$ MACRO ansi$
+    L MACRO ansi$
+    GdiPlusBegin MACRO
+    GdiPlusEnd MACRO
+    HighPriority MACRO
+    NormalPriority MACRO
+    LowPriority MACRO
+    ssorta MACRO parr,acnt
+    ssortd MACRO parr,acnt
+    exec MACRO filename
+    shell MACRO szAppName,optvar:=<NORMAL_PRIORITY_CLASS>
+    ShellEx MACRO handl, pname
+    space$ MACRO pbuffer,cnt
+    pushd MACRO arg
+    popd MACRO arg
+    sav MACRO reg
+    rst MACRO reg
+    initreg MACRO
+    VAR64 MACRO vname
+    STRING MACRO sname,quoted_text
+    preserve_regs MACRO arglist:VARARG
+    restore_regs MACRO arglist:VARARG
+    USING MACRO arglist:VARARG                      ;; Must be placed before dynamic code
+    SaveRegs MACRO                                  ;; must be placed AFTER LOCALs
+    RestoreRegs MACRO                               ;; must be placed BEFORE "ret"
+    .If MACRO args
+    .ElseIf MACRO args
+    fpinit MACRO                    ;; initialise the x87 co-processor
+    fpdiv MACRO arg1,arg2           ;; divide arg1 by arg2
+    fpmul MACRO arg1,arg2           ;; multiply arg1 and arg2 together
+    fpadd MACRO arg1, arg2          ;; add a number
+    fpsub MACRO arg1,arg2           ;; subtract a number
+    fpsqrt MACRO number             ;; square root of number
+    fpsqrd MACRO number             ;; number squared
+    fpercent MACRO num,pcnt         ;; Get Percentage of number
+    fpsum MACRO arg1, args:VARARG   ;; sum a list of numbers
+    fpavrg MACRO arg1, args:VARARG  ;; average a list of arguments
+    intsum MACRO arg1,args:VARARG
+  ; SCALAR DOUBLE SSE MACROS
+    loadsd MACRO reg,fpval
+    con2vsd MACRO xmmreg,var8,pimm
+    dblval MACRO imm
+    ldbl MACRO arg
+    AFL8 MACRO fpimm
+    cubvsd MACRO reg,arg1,arg2,arg3
+    powsd MACRO reg,pwr
+        %echo   "powsd" MACRO - Power must be 2 or greater
+    sumsd MACRO ssereg, args:VARARG
+    avgsd MACRO ssereg, args:VARARG
+    area_circle MACRO ssereg,radius
+    CmdBegin MACRO @parr,@acnt
+    CmdEnd MACRO
+    DBbegin MACRO
+    DBend MACRO
+    DBout MACRO txt:VARARG
+    DBclear MACRO
+    DBclose MACRO
+    DBregs MACRO
+    DBregsH MACRO
+    DBreg MACRO reg:REQ,comment:VARARG
+    DBregH MACRO reg:REQ,comment:VARARG
+    url MACRO quoted

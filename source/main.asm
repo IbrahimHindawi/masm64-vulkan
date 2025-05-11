@@ -7,8 +7,11 @@
 option casemap:none
 ; external equ extern
 StdOutHandle equ -11
-include win64.inc
-include kernel32.inc
+include masm64rt.inc
+; include win64.inc
+; include kernel32.inc
+; include user32.inc
+; include macros64.inc
 
 ;----------[types]---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 pointer typedef qword
@@ -22,11 +25,6 @@ vec3 ends
 ;----------[macros]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ;----------[const section]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CS_CLASSDC equ 0040h
-CS_OWNDC equ 0020h
-CS_HREDRAW equ 0002h
-CS_VREDRAW equ 0001h
-
 .const
 outputmessage byte 'hello, world!'
               byte 0ah, 0dh
@@ -35,7 +33,10 @@ outputmessage byte 'hello, world!'
 outputmessagelength equ $ - outputmessage
 
 window_class_title byte "MASM64HandmadeWindowClass", 0Ah, 0dh
+window_title byte "MASM64Handmade", 0Ah, 0dh
 window_class_title_length equ $ - window_class_title 
+style equ CS_OWNDC or CS_HREDRAW or CS_VREDRAW
+style_window equ WS_OVERLAPPEDWINDOW or WS_VISIBLE
 
 ;----------[data section]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
@@ -44,13 +45,27 @@ arr dword 1024 dup(?)
 
 phrase byte "This is a phrase", 0Ah, 0dh
 phraselength equ $ - phrase 
+paint_phrase byte "I must Paint now!", 0Ah, 0dh
 hInstance qword ?
 nShowCmd sdword 10
-wndclass WNDCLASSEX <>
-style word ?
+window_class WNDCLASSEX <>
+window_handle HWND ?
+message MSG <>
 ;----------[code section]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .code
-WindowProc proc
+WindowProc proc; rcx: hwnd, rdx: uMsg, r8: wParam, r9: lParam
+    cmp rdx, WM_PAINT
+    je OnPaint
+    cmp rdx, WM_CLOSE
+    je OnClose
+    ; call DefWindowProc
+    ret; default
+    OnPaint:
+        lea rcx, paint_phrase
+        call OutputDebugString
+        ret
+    OnClose:
+        ret
     ret
 WindowProc endp
 
@@ -76,20 +91,36 @@ main proc
     add rsp, 40                             ; balance the stack
 
     xor rcx, rcx
-    call GetModuleHandleA
+    call GetModuleHandle
     mov hInstance, rax
 
-    xor cx, cx
-    mov cx, CS_OWNDC
-    or cx, CS_HREDRAW
-    or cx, CS_VREDRAW
-    mov wndclass.WNDCLASSEX.style, CS_OWNDC
+    mov rcx, style
+    mov window_class.WNDCLASSEX.style, ecx
     lea rcx, WindowProc
-    mov wndclass.WNDCLASSEX.lpfnWndProc, rcx
+    mov window_class.WNDCLASSEX.lpfnWndProc, rcx
     lea rcx, hInstance
-    mov wndclass.WNDCLASSEX.hInstance, rcx
+    mov window_class.WNDCLASSEX.hInstance, rcx
     lea rcx, window_class_title
-    mov wndclass.WNDCLASSEX.lpszClassName, rcx
+    mov window_class.WNDCLASSEX.lpszClassName, rcx
+
+    lea rcx, window_class
+    call RegisterClassEx
+
+    invoke CreateWindowEx, 0, ADDR window_class_title, ADDR window_title, style_window, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, hInstance, 0
+    mov window_handle, rax
+
+    gameloop:
+        xor r9, r9
+        xor r8, r8
+        xor rdx, rdx
+        lea rcx, message
+        call GetMessage
+        cmp rax, 0
+        je gameloop
+        lea rcx, message
+        call TranslateMessage
+        lea rcx, message
+        call DispatchMessage
 
     ;-----[terminate program]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ; these instructions show how to cleanly exit the program.                          
