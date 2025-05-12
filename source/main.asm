@@ -5,13 +5,8 @@
 ;----------[types modules constants procedure prototypes]------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 option casemap:none
-; external equ extern
 StdOutHandle equ -11
 include masm64rt.inc
-; include win64.inc
-; include kernel32.inc
-; include user32.inc
-; include macros64.inc
 
 ;----------[types]---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 pointer typedef qword
@@ -32,11 +27,8 @@ outputmessage byte 'hello, world!'
               byte 0ah, 0dh
 outputmessagelength equ $ - outputmessage
 
-window_class_title byte "MASM64HandmadeWindowClass", 0Ah, 0dh
+window_class_name byte "MASM64HandmadeWindowClass", 0Ah, 0dh
 window_title byte "MASM64Handmade", 0Ah, 0dh
-window_class_title_length equ $ - window_class_title 
-style equ CS_OWNDC or CS_HREDRAW or CS_VREDRAW
-style_window equ WS_OVERLAPPEDWINDOW or WS_VISIBLE
 
 ;----------[data section]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
@@ -46,87 +38,95 @@ arr dword 1024 dup(?)
 phrase byte "This is a phrase", 0Ah, 0dh
 phraselength equ $ - phrase 
 paint_phrase byte "I must Paint now!", 0Ah, 0dh
-hInstance qword ?
+instance qword ?
 nShowCmd sdword 10
 window_class WNDCLASSEX <>
 window_handle HWND ?
 message MSG <>
+message_result byte ?
 ;----------[code section]--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+assertNotZero macro reg
+    cmp reg, 0
+    je __crash
+endm
+
+__crash:
+    int 3
+
 .code
-WindowProc proc; rcx: hwnd, rdx: uMsg, r8: wParam, r9: lParam
-    cmp rdx, WM_PAINT
+WindowProc proc hWin:QWORD,uMsg:QWORD,wParam:QWORD,lParam:QWORD
+    cmp uMsg, WM_PAINT
     je OnPaint
-    cmp rdx, WM_CLOSE
+
+    cmp uMsg, WM_CLOSE
     je OnClose
-    ; call DefWindowProc
+
+    cmp uMsg, WM_CREATE
+    je OnCreate
+
+    cmp uMsg, WM_DESTROY
+    je OnDestroy
+
+    invoke DefWindowProc, hWin, uMsg, wParam, lParam
     ret; default
     OnPaint:
         lea rcx, paint_phrase
         call OutputDebugString
         ret
     OnClose:
+        invoke SendMessage, hWin, WM_DESTROY, 0, 0
         ret
+    OnCreate:
+        xor rax, rax
+        ret
+    OnDestroy:
+        invoke PostQuitMessage, 0
     ret
 WindowProc endp
 
+MessageLoopProcess proc
+    LOCAL msg    :MSG
+    LOCAL pmsg   :QWORD
+
+    mov pmsg, ptr$(msg)                     ; get the msg structure address
+    jmp gmsg                                ; jump directly to GetMessage()
+
+  mloop:
+    invoke TranslateMessage,pmsg
+    invoke DispatchMessage,pmsg
+  gmsg:
+    test rax, rv(GetMessage,pmsg,0,0,0)     ; loop until GetMessage returns zero
+    jnz mloop
+    ret
+MessageLoopProcess endp
+
 main proc
-    ;-----[print hello]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ; print something to the console using writefile then write to std out.             
-    ; this procedure also shows the win64 calling convention.                           
-    ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    mov rcx, StdOutHandle              ; output handle arg
-    call GetStdHandle                        ; get handle from os
+    mov instance, rv(GetModuleHandle, 0)
 
-    ;-----[print hello]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ; note: how to calculate param stack location:
-    ; nth parm - 1 = (5 - 1) * 8 = 32 bytes
-    ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    sub rsp, 40                             ; WriteFile(5 parms) * 8 = 40 bytes
-    mov rcx, rax                            ; [0] hFile
-    lea rdx, outputmessage                  ; [1] lpBuffer
-    mov r8, outputmessagelength             ; [2] nNumberOfBytesToWrite
-    xor r9, r9                              ; [3] lpNumberOfBytesWritten
-    mov [rsp + 32], r9                      ; [4] lpOverlapped
-    call WriteFile                           ; print
-    add rsp, 40                             ; balance the stack
+    mov rcx, StdOutHandle
+    call GetStdHandle
+    invoke WriteFile, rax, ADDR outputmessage, outputmessagelength, 0
 
+    mov window_class.WNDCLASSEX.cbSize, sizeof WNDCLASSEX
     xor rcx, rcx
-    call GetModuleHandle
-    mov hInstance, rax
-
-    mov rcx, style
+    mov rcx, CS_HREDRAW or CS_VREDRAW
     mov window_class.WNDCLASSEX.style, ecx
     lea rcx, WindowProc
     mov window_class.WNDCLASSEX.lpfnWndProc, rcx
-    lea rcx, hInstance
+    mov rcx, instance
     mov window_class.WNDCLASSEX.hInstance, rcx
-    lea rcx, window_class_title
+    lea rcx, window_class_name
     mov window_class.WNDCLASSEX.lpszClassName, rcx
 
-    lea rcx, window_class
-    call RegisterClassEx
+    invoke RegisterClassEx, ADDR window_class
+    assertNotZero rax
 
-    invoke CreateWindowEx, 0, ADDR window_class_title, ADDR window_title, style_window, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, hInstance, 0
+    invoke CreateWindowEx, 0, ADDR window_class_name, ADDR window_title, WS_OVERLAPPEDWINDOW or WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, instance, 0
+    assertNotZero rax
     mov window_handle, rax
+    call MessageLoopProcess
 
-    gameloop:
-        xor r9, r9
-        xor r8, r8
-        xor rdx, rdx
-        lea rcx, message
-        call GetMessage
-        cmp rax, 0
-        je gameloop
-        lea rcx, message
-        call TranslateMessage
-        lea rcx, message
-        call DispatchMessage
-
-    ;-----[terminate program]-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ; these instructions show how to cleanly exit the program.                          
-    ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    xor rcx, rcx                            ; set termination code 0 for clean exit
-    call ExitProcess                         ; terminate process
-    ret 0                                   ; return code
+    invoke ExitProcess, 0
+    ret
 main endp                                                                                ; end proc
-end                                                                                 ; end module
+end
