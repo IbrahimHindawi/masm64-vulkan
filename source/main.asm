@@ -67,8 +67,9 @@ WindowProc proc hWin:QWORD,uMsg:QWORD,wParam:QWORD,lParam:QWORD
     cmp uMsg, WM_DESTROY
     je OnDestroy
 
+    ; default
     invoke DefWindowProc, hWin, uMsg, wParam, lParam
-    ret; default
+    ret
     OnPaint:
         lea rcx, paint_phrase
         call OutputDebugString
@@ -107,16 +108,16 @@ main proc
     call GetStdHandle
     invoke WriteFile, rax, ADDR outputmessage, outputmessagelength, 0
 
-    mov window_class.WNDCLASSEX.cbSize, sizeof WNDCLASSEX
+    mov window_class.cbSize, sizeof WNDCLASSEX
     xor rcx, rcx
     mov rcx, CS_HREDRAW or CS_VREDRAW
-    mov window_class.WNDCLASSEX.style, ecx
+    mov window_class.style, ecx
     lea rcx, WindowProc
-    mov window_class.WNDCLASSEX.lpfnWndProc, rcx
+    mov window_class.lpfnWndProc, rcx
     mov rcx, instance
-    mov window_class.WNDCLASSEX.hInstance, rcx
+    mov window_class.hInstance, rcx
     lea rcx, window_class_name
-    mov window_class.WNDCLASSEX.lpszClassName, rcx
+    mov window_class.lpszClassName, rcx
 
     invoke RegisterClassEx, ADDR window_class
     assertNotZero rax
