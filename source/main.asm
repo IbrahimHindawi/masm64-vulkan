@@ -90,7 +90,7 @@ vec3 ends
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-AssertNotZero macro reg
+AssertNotZero macro reg:req
     LOCAL .ok
     cmp reg, 0
     jne .ok
@@ -98,14 +98,21 @@ AssertNotZero macro reg
     .ok:
 endm
 
-VkAssert macro
-    cmp rax, VK_SUCCESS
-    jne __crash
+VkAssert macro reg:req, flag:req
+    LOCAL .ok
+    cmp reg, flag
+    je .ok
+    int 3
+    .ok:
 endm
 
-DebugPrint macro Message
+DebugPrint macro Message:req
     lea rcx, Message
     call OutputDebugString
+endm
+
+VK_MAKE_API_VERSION macro name:req, variant:req, major:req, minor:req, patch:req
+    name equ (((variant shl 29) or (major shl 22) or (minor shl 12) or patch))
 endm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -118,10 +125,11 @@ outputmessage byte 'hello, world!'
               byte 0ah, 0dh
 outputmessagelength equ $ - outputmessage
 
-window_class_name byte "MASM64HandmadeWindowClass", 0Ah, 0dh
-window_title byte "MASM64Handmade", 0Ah, 0dh
+window_class_name byte "MASM64HandmadeWindowClass", 0
+window_title byte "MASM64Handmade", 0
 application_name byte "MASM64Vulkan", 0
 
+VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; data
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -250,21 +258,21 @@ main proc
     call VulkanLoad
 
     invoke vkEnumerateInstanceLayerProperties, ADDR layer_count, 0
-    VkAssert
+    VkAssert rax, VK_SUCCESS
     ; invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, 0
 
     mov application_info.sType, 0
     lea rcx, application_name
     mov application_info.pApplicationName, rcx
     mov application_info.engineVersion, 1
-    mov application_info.apiVersion, 1
+    mov application_info.apiVersion, application_api_version
 
     mov instance_info.sType, 1
     lea rcx, application_info
     mov instance_info.pApplicationInfo, rcx
 
     invoke vkCreateInstance, ADDR instance_info, 0, ADDR context_instance
-    VkAssert
+    VkAssert rax, VK_SUCCESS
 
     call MessageLoopProcess
 
