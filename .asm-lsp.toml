@@ -1,10 +1,18 @@
-version = "0.1"
+[default_config]
+version = "0.10.0"
+assembler = "masm"
+instruction_set = "x86-64"
 
-[assemblers]
-gas = true
-go = true
-nasm = true
+[default_config.opts]
+diagnostics = true
+default_diagnostics = true
 
-[instruction_sets]
-x86 = false
-x86_64 = true
+[[project]]
+path = ""
+version = "0.10.0"
+assembler = "masm"
+instruction_set = "x86-64"
+
+[project.opts]
+diagnostics = true
+default_diagnostics = true
