@@ -21,9 +21,6 @@ max_alloc_size equ 0100000h
 systeminfo SYSTEM_INFO <>
 arena_perm Arena <>
 
-push_curr_ptr qword ?
-push_offset qword ?
-push_diff qword ?
 
 mem_p qword ?
 mem_a qword ?
@@ -79,23 +76,26 @@ arenaInit proc arena:qword
 arenaInit endp
 
 arenaPush proc arena:qword, alloc_size:qword, alignment:qword
-    local arenavar:qword, alloc_sizevar:qword
-    mov arenavar, rcx
+    local arenaref:qword, alloc_sizevar:qword, diff:qword, curr_ptr:qword, m_offset:qword
+    mov arenaref, rcx
     mov alloc_sizevar, rdx
+    mov alignment, r8
     mov rsi, [rcx].Arena.base
     mov rdi, [rcx].Arena.used
     add rsi, rdi
-    mov push_curr_ptr, rsi
+    mov curr_ptr, rsi
     mov rcx, rsi
+    xchg rdx, r8
     call memoryAlignForward
-    mov push_offset, rax
-    mov rcx, push_curr_ptr
+    mov m_offset, rax
+    xchg rdx, r8
+    mov rcx, curr_ptr
     sub rax, rcx
-    mov push_diff, rax
-    mov rsi, arenavar
+    mov diff, rax
+    mov rsi, arenaref
     mov rcx, [rsi].Arena.used
     add rcx, alloc_sizevar
-    mov rcx, push_diff
+    add rcx, diff
     mov rax, [rsi].Arena.pagesize
     mov r8, [rsi].Arena.npages
     mul r8
@@ -103,36 +103,50 @@ arenaPush proc arena:qword, alloc_size:qword, alignment:qword
     jng noneedtoalloc
     mov rcx, [rsi].Arena.used
     add rcx, alloc_sizevar
-    add rcx, push_diff
+    add rcx, diff
     cvtsi2ss xmm0, rcx
-    mov rdx, [rsi].Arena.npages
+    mov rdx, [rsi].Arena.pagesize
     cvtsi2ss xmm1, rdx
     divss xmm0, xmm1
     roundss xmm0, xmm0, 2
     cvttss2si rcx, xmm0
+    mov rdx, arenaref
     mov [rdx].Arena.npages, rcx
-    mov rsi, arenavar
+    mov rsi, arenaref
     mov rax, [rsi].Arena.pagesize
     mov r8, [rsi].Arena.npages
     mul r8
-    mov rdx, arenavar
+    mov rdx, arenaref
     mov rcx, [rdx].Arena.base
     mov rdx, 4096
     mov r8, MEM_COMMIT
     mov r9, PAGE_READWRITE
     call VirtualAlloc
-    AssertEq rax, 0
+    AssertNotEq rax, 0
     noneedtoalloc:
-    mov rsi, arenavar
-    mov rcx, push_diff
+    mov rsi, arenaref
+    mov rcx, diff
     add rcx, alloc_sizevar
     mov [rsi].Arena.used, rcx
     mov rcx, [rsi].Arena.cursor
     mov [rsi].Arena.previous, rcx
-    mov rcx, push_diff
+    mov rcx, diff
     add [rsi].Arena.cursor, rcx
     mov rax, [rsi].Arena.cursor
     mov rcx, alloc_sizevar
     add [rsi].Arena.cursor, rcx
     ret
 arenaPush endp
+
+arenaPushZero proc arenaref:qword, alloc_size:qword, alignment:qword
+    call arenaPush
+    mov rsi, rax
+    mov rax, [rax].Arena.cursor
+    xor rcx, rcx
+    arenaPushZeroLoop:
+    mov byte ptr [rax], 0
+    inc rcx
+    cmp rcx, rdx
+    jl arenaPushZeroLoop
+    ret
+arenaPushZero endp

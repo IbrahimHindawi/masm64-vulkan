@@ -221,14 +221,14 @@ arenaTest proc
     lea rcx, arena_perm
     call arenaInit
     lea rcx, arena_perm
-    mov rdx, 8 * 128
+    mov rdx, 24
     mov r8, 8
     call arenaPush
     xor rcx, rcx
     loop_arr:
     mov [rax + rcx * 8], rcx
     inc rcx
-    cmp rcx, 128 
+    cmp rcx, 24
     jl loop_arr
     xor rax, rax
     ret
