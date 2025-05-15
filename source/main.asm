@@ -212,6 +212,7 @@ MessageLoopProcess proc
 MessageLoopProcess endp
 
 arenaTest proc
+    local pos:qword
     mov rcx, 32
     call isPowerOfTwo
     AssertEq rax, 1
@@ -220,16 +221,33 @@ arenaTest proc
     AssertEq rax, 0
     lea rcx, arena_perm
     call arenaInit
+    mov pos, rax
     lea rcx, arena_perm
     mov rdx, 24
     mov r8, 8
     call arenaPush
     xor rcx, rcx
-    loop_arr:
-    mov [rax + rcx * 8], rcx
+    loop_arr_00000:
+    mov rdx, 0DEADBEEFCAFEBABEh
+    mov [rax + rcx * 8], rdx
     inc rcx
     cmp rcx, 24
-    jl loop_arr
+    jl loop_arr_00000
+    lea rcx, arena_perm
+    mov rdx, pos
+    call arenaSetPos
+    lea rcx, arena_perm
+    mov rdx, 12
+    mov r8, 8
+    call arenaPush
+    xor rcx, rcx
+    loop_arr_00001:
+    mov rdx, 0CAFEBABEF00DB105h
+    mov [rax + rcx * 8], rdx
+    inc rcx
+    cmp rcx, 12
+    jl loop_arr_00001
+    ; call arenaPushZero
     xor rax, rax
     ret
 arenaTest endp

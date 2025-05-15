@@ -150,3 +150,12 @@ arenaPushZero proc arenaref:qword, alloc_size:qword, alignment:qword
     jl arenaPushZeroLoop
     ret
 arenaPushZero endp
+
+arenaSetPos proc arenaref:qword, pos:qword
+    mov rax, [rcx].Arena.cursor
+    sub rax, rdx
+    sub [rcx].Arena.used, rax
+    mov [rcx].Arena.cursor, rdx
+    mov rax, [rcx].Arena.cursor
+    ret
+arenaSetPos endp
