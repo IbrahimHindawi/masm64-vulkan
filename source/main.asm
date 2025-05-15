@@ -5,6 +5,8 @@ option casemap:none
 StdOutHandle equ -11
 include masm64rt.inc
 include vulkan.asm
+include saha.asm
+include macros.asm
 
 extrn vkEnumerateInstanceExtensionProperties:PROC
 ; extrn vkCreateInstance:PROC
@@ -90,21 +92,6 @@ vec3 ends
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-AssertNotZero macro reg:req
-    LOCAL .ok
-    cmp reg, 0
-    jne .ok
-    int 3
-    .ok:
-endm
-
-VkAssert macro reg:req, flag:req
-    LOCAL .ok
-    cmp reg, flag
-    je .ok
-    int 3
-    .ok:
-endm
 
 DebugPrint macro Message:req
     lea rcx, Message
@@ -116,9 +103,8 @@ VK_MAKE_API_VERSION macro name:req, variant:req, major:req, minor:req, patch:req
 endm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-; const
-;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .const
+;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 outputmessage byte 'hello, world!'
               byte 0ah, 0dh
               byte 'from masm64!'
@@ -131,9 +117,8 @@ application_name byte "MASM64Vulkan", 0
 
 VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-; data
-;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
+;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
 instance qword ?
@@ -154,23 +139,19 @@ vkEnumerateInstanceLayerProperties qword ?
 vkCreateInstance PFN_vkCreateInstance ?
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-; code
-;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-__crash:
-    int 3
-
 .code
+;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 VulkanLoad proc
     invoke LoadLibrary, "vulkan-1.dll"
-    AssertNotZero rax
+    AssertNotEq rax, 0
     mov vulkan_module, rax
 
     invoke GetProcAddress, vulkan_module, "vkCreateInstance"
-    AssertNotZero rax
+    AssertNotEq rax, 0
     mov vkCreateInstance, rax
 
     invoke GetProcAddress, vulkan_module, "vkEnumerateInstanceLayerProperties"
-    AssertNotZero rax
+    AssertNotEq rax, 0
     mov vkEnumerateInstanceLayerProperties, rax
 
     ret
@@ -230,7 +211,32 @@ MessageLoopProcess proc
     ret
 MessageLoopProcess endp
 
+arenaTest proc
+    mov rcx, 32
+    call isPowerOfTwo
+    AssertEq rax, 1
+    mov rcx, 33
+    call isPowerOfTwo
+    AssertEq rax, 0
+    lea rcx, arena_perm
+    call arenaInit
+    lea rcx, arena_perm
+    mov rdx, 8 * 128
+    mov r8, 8
+    call arenaPush
+    xor rcx, rcx
+    loop_arr:
+    mov [rax + rcx * 8], rcx
+    inc rcx
+    cmp rcx, 128 
+    jl loop_arr
+    xor rax, rax
+    ret
+arenaTest endp
+
 main proc
+    call arenaTest
+
     mov instance, rv(GetModuleHandle, 0)
 
     mov rcx, StdOutHandle
@@ -249,16 +255,16 @@ main proc
     mov window_class.lpszClassName, rcx
 
     invoke RegisterClassEx, ADDR window_class
-    AssertNotZero rax
+    AssertNotEq rax, 0
 
     invoke CreateWindowEx, 0, ADDR window_class_name, ADDR window_title, WS_OVERLAPPEDWINDOW or WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, instance, 0
-    AssertNotZero rax
+    AssertNotEq rax, 0
     mov window_handle, rax
 
     call VulkanLoad
 
     invoke vkEnumerateInstanceLayerProperties, ADDR layer_count, 0
-    VkAssert rax, VK_SUCCESS
+    AssertEq rax, VK_SUCCESS
     ; invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, 0
 
     mov application_info.sType, 0
@@ -272,7 +278,7 @@ main proc
     mov instance_info.pApplicationInfo, rcx
 
     invoke vkCreateInstance, ADDR instance_info, 0, ADDR context_instance
-    VkAssert rax, VK_SUCCESS
+    AssertEq rax, VK_SUCCESS
 
     call MessageLoopProcess
 
