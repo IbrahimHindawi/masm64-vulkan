@@ -4,77 +4,20 @@
 option casemap:none
 StdOutHandle equ -11
 include masm64rt.inc
-include vulkan.asm
+; include vulkan.asm
 include saha.asm
 include macros.asm
+include vkstructs.asm
+include vkenums.asm
 
 extrn vkEnumerateInstanceExtensionProperties:PROC
 ; extrn vkCreateInstance:PROC
 ; extrn vkEnumerateInstanceLayerProperties:PROC
 
-; typedef struct VkApplicationInfo {
-;     VkStructureType    sType;
-;     const void*        pNext;
-;     const char*        pApplicationName;
-;     uint32_t           applicationVersion;
-;     const char*        pEngineName;
-;     uint32_t           engineVersion;
-;     uint32_t           apiVersion;
-; } VkApplicationInfo;
-
-VkApplicationInfo STRUCT
-    sType               dd ?        ; +0  (uint32_t)
-    _pad0               dd ?        ; +4  (padding for alignment)
-    pNext               dq ?        ; +8  (pointer)
-    pApplicationName    dq ?        ; +16 (pointer)
-    applicationVersion  dd ?        ; +24 (uint32_t)
-    _pad1               dd ?        ; +28 (padding)
-    pEngineName         dq ?        ; +32 (pointer)
-    engineVersion       dd ?        ; +40 (uint32_t)
-    apiVersion          dd ?        ; +44 (uint32_t)
-VkApplicationInfo ENDS
-
-; typedef struct VkInstanceCreateInfo {
-;     VkStructureType             sType;
-;     const void*                 pNext;
-;     VkInstanceCreateFlags       flags;
-;     const VkApplicationInfo*    pApplicationInfo;
-;     uint32_t                    enabledLayerCount;
-;     const char* const*          ppEnabledLayerNames;
-;     uint32_t                    enabledExtensionCount;
-;     const char* const*          ppEnabledExtensionNames;
-; } VkInstanceCreateInfo;
-
-
-VkInstanceCreateInfo STRUCT
-    sType                   dd ?            ; +0  (4 bytes)
-    _pad0                   dd ?            ; +4  (padding)
-    pNext                   dq ?            ; +8  (8-byte aligned)
-    flags                   dd ?            ; +16
-    _pad1                   dd ?            ; +20 (padding)
-    pApplicationInfo        dq ?            ; +24
-    enabledLayerCount       dd ?            ; +32
-    _pad2                   dd ?            ; +36 (padding)
-    ppEnabledLayerNames     dq ?            ; +40
-    enabledExtensionCount   dd ?            ; +48
-    _pad3                   dd ?            ; +52 (padding)
-    ppEnabledExtensionNames dq ?            ; +56
-VkInstanceCreateInfo ENDS
-
-; typedef struct VkLayerProperties {
-;     char        layerName[VK_MAX_EXTENSION_NAME_SIZE];
-;     uint32_t    specVersion;
-;     uint32_t    implementationVersion;
-;     char        description[VK_MAX_DESCRIPTION_SIZE];
-; } VkLayerProperties;
-
-MAX equ 256
-VkLayerProperties struct
-    layerName byte MAX dup(?)
-    specVersion dword ?
-    implementationVersion dword ?
-    description byte MAX dup(?)
-VkLayerProperties ends
+Payload struct
+    tag qword ?
+    id byte ?
+Payload ends
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; types
@@ -121,6 +64,8 @@ VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
+; validation_layer_string byte "VK_LAYER_LUNARG_standard_validation", 0
+validation_layer_string byte "VK_LAYER_KHRONOS_validation", 0
 instance qword ?
 nShowCmd sdword 10
 window_class WNDCLASSEX <>
@@ -128,12 +73,14 @@ window_handle HWND ?
 message MSG <>
 message_result byte ?
 extension_count dword ?
-layer_count dword ?
+layer_count qword ?
+found_validation byte ?
 
 vulkan_module HMODULE ?
 context_instance VkInstance ?
 application_info VkApplicationInfo <>
 instance_info VkInstanceCreateInfo <>
+layers_available qword ?
 
 vkEnumerateInstanceLayerProperties qword ?
 vkCreateInstance PFN_vkCreateInstance ?
@@ -213,47 +160,116 @@ MessageLoopProcess endp
 
 arenaTest proc
     local pos:qword
+    mov pos, rax
+
     mov rcx, 32
-    call isPowerOfTwo
+    call memoryIsPowerOfTwo
     AssertEq rax, 1
     mov rcx, 33
-    call isPowerOfTwo
+    call memoryIsPowerOfTwo
     AssertEq rax, 0
-    lea rcx, arena_perm
-    call arenaInit
-    mov pos, rax
-    lea rcx, arena_perm
-    mov rdx, 24
-    mov r8, 8
-    call arenaPush
+
+
+    invoke arenaPush, ADDR arena, sizeof qword * 24, 8
     xor rcx, rcx
     loop_arr_00000:
-    mov rdx, 0DEADBEEFCAFEBABEh
-    mov [rax + rcx * 8], rdx
-    inc rcx
-    cmp rcx, 24
-    jl loop_arr_00000
-    lea rcx, arena_perm
-    mov rdx, pos
-    call arenaSetPos
-    lea rcx, arena_perm
-    mov rdx, 12
-    mov r8, 8
-    call arenaPush
+        mov rdx, 0DEADBEEFCAFEBABEh
+        mov [rax + rcx * 8], rdx
+        inc rcx
+        cmp rcx, 24
+        jl loop_arr_00000
+    invoke arenaSetPos, ADDR arena, pos
+
+    invoke arenaPush, ADDR arena, 12, 8
     xor rcx, rcx
     loop_arr_00001:
-    mov rdx, 0CAFEBABEF00DB105h
-    mov [rax + rcx * 8], rdx
-    inc rcx
-    cmp rcx, 12
-    jl loop_arr_00001
-    ; call arenaPushZero
+        mov rdx, 0CAFEBABEF00DB105h
+        mov [rax + rcx * 8], rdx
+        inc rcx
+        cmp rcx, 12
+        jl loop_arr_00001
+    invoke arenaSetPos, ADDR arena, pos
+
+    arenaPushArray ADDR arena, Payload, 16, 8
+    mov rsi, rax
+    xor rcx, rcx
+    mov r8, sizeof Payload
+    mov r9, 0DEADFEEDBABE5EEDh
+    loop_arr_00002:
+        mov rax, rcx
+        mul r8
+        mov [rsi.Payload.tag + rax], r9
+        mov [rsi.Payload.id + rax], r9b
+        inc rcx
+        cmp rcx, 16
+        jl loop_arr_00002
+    invoke arenaSetPos, ADDR arena, pos
+
+    arenaPushArray ADDR arena, Payload, 16, 8
+    mov rsi, rax
+    xor rcx, rcx
+    mov r8, sizeof Payload
+    mov r9, 0DEFE0000BAAD0000h
+    loop_arr_00003:
+        mov [rsi.Payload.tag], r9
+        mov [rsi.Payload.id], cl
+        add rsi, r8
+        inc rcx
+        cmp rcx, 16
+        jl loop_arr_00003
+    invoke arenaSetPos, ADDR arena, pos
+
     xor rax, rax
     ret
 arenaTest endp
 
+; rcx = pointer to string1 (const char*)
+; rdx = pointer to string2 (const char*)
+; returns:
+;   rax = 0 if equal
+;   rax < 0 if string1 < string2
+;   rax > 0 if string1 > string2
+strcmp64 PROC
+        SaveRegisters
+        movzx   r8d, BYTE PTR [rcx]
+        xor     r9d, r9d
+        cmp     r8b, BYTE PTR [rdx]
+        jne     SHORT $LN10@my_strcmp
+        mov     r10, rcx
+        mov     rax, rdx
+        sub     r10, rdx
+$LL2@my_strcmp:
+        test    r8b, r8b
+        je      SHORT $LN10@my_strcmp
+        cmp     BYTE PTR [rax], 0
+        je      SHORT $LN10@my_strcmp
+        movzx   r8d, BYTE PTR [r10+rax+1]
+        inc     rax
+        inc     r9d
+        cmp     r8b, BYTE PTR [rax]
+        je      SHORT $LL2@my_strcmp
+$LN10@my_strcmp:
+        movsxd  rax, r9d
+        movsx   r8d, BYTE PTR [rax+rcx]
+        add     rax, rdx
+        test    r8b, r8b
+        jne     SHORT $LN13@my_strcmp
+        cmp     BYTE PTR [rax], r8b
+        jne     SHORT $LN13@my_strcmp
+        xor     eax, eax
+        ret     0
+$LN13@my_strcmp:
+        movsx   ecx, BYTE PTR [rax]
+        mov     eax, r8d
+        sub     eax, ecx
+        RestoreRegisters
+        ret     0
+strcmp64 ENDP
+
 main proc
-    call arenaTest
+    lea rcx, arena
+    call arenaInit
+    ; call arenaTest
 
     mov instance, rv(GetModuleHandle, 0)
 
@@ -283,7 +299,36 @@ main proc
 
     invoke vkEnumerateInstanceLayerProperties, ADDR layer_count, 0
     AssertEq rax, VK_SUCCESS
-    ; invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, 0
+
+    arenaPushArray ADDR arena, VkLayerProperties, layer_count, 4
+    ; invoke arenaPush, ADDR arena, sizeof VkLayerProperties * 010h, 4
+    AssertNotEq rax, 0
+    mov layers_available, rax
+    invoke vkEnumerateInstanceLayerProperties, ADDR layer_count, rax
+
+    mov rsi, layers_available
+    xor rcx, rcx
+    mov r8, sizeof VkLayerProperties
+    lea r9, validation_layer_string
+    loop_validation_layer_find_00000000:
+        push rcx
+        push rdx
+        lea rcx, [rsi.VkLayerProperties.layerName]
+        mov rdx, r9
+        call strcmp64
+        cmp rax, 0
+        jne validation_label_not_found 
+        mov found_validation, 1
+        lea r9, validation_layer_string
+        validation_label_not_found:
+        pop rdx
+        pop rcx
+
+        add rsi, r8
+        inc rcx
+        cmp rcx, 16
+        jl loop_validation_layer_find_00000000
+
 
     mov application_info.sType, 0
     lea rcx, application_name

@@ -1,3 +1,4 @@
+option casemap:none
 include macros.asm
 ;---------------------------------------------------------------------------------------------------
 ; structs
@@ -14,12 +15,12 @@ Arena ends
 ; macros
 ;---------------------------------------------------------------------------------------------------
 ; max_alloc_size equ 010000000000h
-max_alloc_size equ 0100000h
+max_alloc_size equ 01000000h
 ;---------------------------------------------------------------------------------------------------
 .data
 ;---------------------------------------------------------------------------------------------------
 systeminfo SYSTEM_INFO <>
-arena_perm Arena <>
+arena Arena <>
 
 
 mem_p qword ?
@@ -29,17 +30,17 @@ mem_m qword ?
 ;---------------------------------------------------------------------------------------------------
 .code
 ;---------------------------------------------------------------------------------------------------
-isPowerOfTwo proc
+memoryIsPowerOfTwo proc
   lea eax, DWORD PTR [rcx-1]
   test eax, ecx
   sete al
   ret 0
-isPowerOfTwo endp
+memoryIsPowerOfTwo endp
 
 memoryAlignForward proc pointer:qword, alignment:qword
     mov rsi, rcx
     mov rcx, rdx
-    call isPowerOfTwo
+    call memoryIsPowerOfTwo
     AssertNotEq rax, 0
     mov rcx, rsi
     mov mem_p, rcx
@@ -58,8 +59,8 @@ memoryAlignForward proc pointer:qword, alignment:qword
     ret
 memoryAlignForward endp
 
-arenaInit proc arena:qword
-    mov rsi, arena
+arenaInit proc arena_ref:qword
+    mov rsi, arena_ref
     lea rcx, systeminfo
     call GetSystemInfo
     mov rcx, rsi
@@ -75,7 +76,7 @@ arenaInit proc arena:qword
     ret
 arenaInit endp
 
-arenaPush proc arena:qword, alloc_size:qword, alignment:qword
+arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
     local arenaref:qword, alloc_sizevar:qword, diff:qword, curr_ptr:qword, m_offset:qword
     mov arenaref, rcx
     mov alloc_sizevar, rdx
@@ -118,7 +119,7 @@ arenaPush proc arena:qword, alloc_size:qword, alignment:qword
     mul r8
     mov rdx, arenaref
     mov rcx, [rdx].Arena.base
-    mov rdx, 4096
+    mov rdx, alloc_sizevar
     mov r8, MEM_COMMIT
     mov r9, PAGE_READWRITE
     call VirtualAlloc
@@ -159,3 +160,14 @@ arenaSetPos proc arenaref:qword, pos:qword
     mov rax, [rcx].Arena.cursor
     ret
 arenaSetPos endp
+
+arenaPushArray macro __arena:req, __type:req, __count:req, __align:req
+    ; lea rcx, __arena
+    ; rdx = __type * __count
+    ; r8 = alignof __type
+    mov rdx, sizeof __type
+    mov rax, __count
+    mul rdx
+    ; automate alignof
+    invoke arenaPush, __arena, rax, __align
+endm
