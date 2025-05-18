@@ -60,8 +60,6 @@ VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
 pos qword ?
 paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
-; validation_layer_string byte "VK_LAYER_LUNARG_standard_validation", 0
-validation_layer_string byte "VK_LAYER_KHRONOS_validation", 0
 instance qword ?
 nShowCmd sdword 10
 window_class WNDCLASSEX <>
@@ -71,32 +69,40 @@ message_result byte ?
 found_validation byte ?
 
 vulkan_module HMODULE ?
-context_instance VkInstance ?
+vk_context_instance VkInstance ?
 application_info VkApplicationInfo <>
 instance_info VkInstanceCreateInfo <>
 
 layers_available qword ?
 layer_count qword ?
+validation_layer_string byte "VK_LAYER_KHRONOS_validation", 0
+validation_layer_string_arr qword offset validation_layer_string
 
-layerString byte "VK_LAYER_LUNARG_standard_validation", 0
-layers qword offset layerString
+; layerString byte "VK_LAYER_LUNARG_standard_validation", 0
+; layers qword offset layerString
 
 extensions_available qword ?
 extension_count dword ?
-
+; string array
 extensionStr1 byte "VK_KHR_surface", 0
 extensionStr2 byte "VK_KHR_win32_surface", 0
-extensionStr3 byte "VK_EXT_debug_report", 0
-extension_strings qword offset extensionStr1
-                  qword offset extensionStr2
-                  qword offset extensionStr3
-number_required_extensions equ 3
+extensionStr3 byte "VK_EXT_debug_utils", 0
+extensions qword offset extensionStr1
+           qword offset extensionStr2
+           qword offset extensionStr3
+; string array
+number_required_extensions equ 3 ; maybe make a sizeofarray() macro?
+found_extensions byte ?
 
 ; procs to load
 vkEnumerateInstanceLayerProperties qword ?
 vkEnumerateInstanceExtensionProperties qword ?
 vkCreateInstance qword ?
 
+vkGetInstanceProcAddr qword ?
+vkCreateDebugReportCallbackEXT qword ?
+vkDestroyDebugReportCallbackEXT qword ?
+vkDebugReportMessageEXT qword ?
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .code
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -117,8 +123,28 @@ VulkanLoad proc
     AssertNotEq rax, 0
     mov vkEnumerateInstanceExtensionProperties, rax
 
+    invoke GetProcAddress, vulkan_module, "vkGetInstanceProcAddr"
+    AssertNotEq rax, 0
+    mov vkGetInstanceProcAddr, rax
+
     ret
 VulkanLoad endp
+
+VulkanLoadExt proc
+    invoke vkGetInstanceProcAddr, vk_context_instance, "vkCreateDebugReportCallbackEXT"
+    ; AssertNotEq rax, 0
+    mov vkCreateDebugReportCallbackEXT, rax
+
+    invoke vkGetInstanceProcAddr, vk_context_instance, "vkDestroyDebugReportCallbackEXT"
+    ; AssertNotEq rax, 0
+    mov vkDestroyDebugReportCallbackEXT, rax
+
+    invoke vkGetInstanceProcAddr, vk_context_instance, "vkDebugReportMessageEXT"
+    ; AssertNotEq rax, 0
+    mov vkDebugReportMessageEXT, rax
+
+    ret
+VulkanLoadExt endp
 
 WindowProc proc hWin:QWORD,uMsg:QWORD,wParam:QWORD,lParam:QWORD
     cmp uMsg, WM_PAINT
@@ -365,7 +391,7 @@ main proc
 
         add rsi, r8
         inc rcx
-        cmp rcx, 16 ; <--- danger! make this read from the proper variable
+        cmp rcx, layers_available
         jl loop_validation_layer_find_00000000
     ; invoke arenaSetPos, ADDR arena, pos
 
@@ -377,15 +403,20 @@ main proc
     mov eax, extension_count
     mul edx
     invoke arenaPushZero, ADDR arena, rax, 4
-    ; invoke arenaPush, ADDR arena, rax, 4
     AssertNotEq rax, 0
+    ; invoke arenaPush, ADDR arena, rax, 4
     mov extensions_available, rax
     invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, extensions_available
+    AssertEq rax, VK_SUCCESS
 
-    mov rsi, layers
+    ; mov r9, extensions + sizeof qword * 0
+    ; mov r9, extensions + sizeof qword * 1
+    ; mov r9, extensions + sizeof qword * 2
+
+    mov rsi, extensions_available
     xor rcx, rcx
     mov r8, sizeof VkExtensionProperties
-    mov r9, extension_strings
+    mov r9, extensions + 8 * 0
     loop_extension_validation_layer_find_00000000:
         push rcx
         push rdx
@@ -393,36 +424,87 @@ main proc
         mov rdx, r9
         call strcmp64
         cmp rax, 0
-        jne extension_validation_label_not_found 
-        mov found_validation, 1
+        jne extension_validation_label_not_found_00000000 
+        add found_extensions, 1
         lea r9, validation_layer_string
-        extension_validation_label_not_found:
+        extension_validation_label_not_found_00000000:
         pop rdx
         pop rcx
-
         add rsi, r8
         inc rcx
-        cmp rcx, 3
+        cmp rcx, extensions_available
         jl loop_extension_validation_layer_find_00000000
+
+    mov rsi, extensions_available
+    xor rcx, rcx
+    mov r8, sizeof VkExtensionProperties
+    mov r9, extensions + 8 * 1
+    loop_extension_validation_layer_find_00000001:
+        push rcx
+        push rdx
+        lea rcx, [rsi.VkExtensionProperties.extensionName]
+        mov rdx, r9
+        call strcmp64
+        cmp rax, 0
+        jne extension_validation_label_not_found_00000001
+        add found_extensions, 1
+        lea r9, validation_layer_string
+        extension_validation_label_not_found_00000001:
+        pop rdx
+        pop rcx
+        add rsi, r8
+        inc rcx
+        cmp rcx, extensions_available
+        jl loop_extension_validation_layer_find_00000001
+
+    mov rsi, extensions_available
+    xor rcx, rcx
+    mov r8, sizeof VkExtensionProperties
+    mov r9, extensions + 8 * 2
+    loop_extension_validation_layer_find_00000002:
+        push rcx
+        push rdx
+        lea rcx, [rsi.VkExtensionProperties.extensionName]
+        mov rdx, r9
+        call strcmp64
+        cmp rax, 0
+        jne extension_validation_label_not_found_00000002 
+        add found_extensions, 1
+        lea r9, validation_layer_string
+        extension_validation_label_not_found_00000002:
+        pop rdx
+        pop rcx
+        add rsi, r8
+        inc rcx
+        cmp rcx, extensions_available
+        jl loop_extension_validation_layer_find_00000002
     invoke arenaSetPos, ADDR arena, pos
+
+    mov al, number_required_extensions
+    AssertEq al, found_extensions
 
     ; create instance
     mov application_info.sType, VK_STRUCTURE_TYPE_APPLICATION_INFO
     lea rcx, application_name
-    mov application_info.pApplicationName, rcx
+        mov application_info.pApplicationName, rcx
     mov application_info.applicationVersion, application_api_version
     mov application_info.apiVersion, application_api_version
     mov application_info.engineVersion, 1
 
-    mov instance_info.sType, VK_STRUCTURE_INSTANCE_CREATE_INFO
+    mov instance_info.sType, VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO
     lea rcx, application_info
-    mov instance_info.pApplicationInfo, rcx
+        mov instance_info.pApplicationInfo, rcx
     mov instance_info.enabledLayerCount, 1
-    lea rcx, layers
-    mov instance_info.ppEnabledLayerNames, rcx
+    lea rcx, validation_layer_string_arr
+        mov instance_info.ppEnabledLayerNames, rcx
+    mov instance_info.enabledExtensionCount, 3
+    lea rcx, extensions
+        mov instance_info.ppEnabledExtensionNames, rcx
 
-    invoke vkCreateInstance, ADDR instance_info, 0, ADDR context_instance
+    invoke vkCreateInstance, ADDR instance_info, 0, ADDR vk_context_instance
     AssertEq rax, VK_SUCCESS
+
+    call VulkanLoadExt
 
     call MessageLoopProcess
 
