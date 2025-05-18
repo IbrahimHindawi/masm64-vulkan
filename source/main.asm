@@ -372,9 +372,6 @@ main proc
     ; instance extensions
     invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, 0
     AssertEq rax, VK_SUCCESS
-    ; arenaPushArray ADDR arena, VkExtensionProperties, extension_count, 4
-    ; arenaPushZero workaround
-    ; fix arenaPush: make sure it allocates more pages
     mov edx, sizeof VkExtensionProperties 
     xor rax, rax
     mov eax, extension_count
