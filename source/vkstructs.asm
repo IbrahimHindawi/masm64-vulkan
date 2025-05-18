@@ -1,3 +1,6 @@
+VK_MAX_EXTENSION_NAME_SIZE equ 256
+VK_MAX_DESCRIPTION_SIZE equ 256
+
 VkExtent2D STRUCT
     m_width DWORD ?
     height DWORD ?
@@ -396,11 +399,10 @@ VkDeviceCreateInfo STRUCT
 VkDeviceCreateInfo ENDS
 
 VkExtensionProperties STRUCT
+    extensionName byte VK_MAX_EXTENSION_NAME_SIZE dup(?)
     specVersion DWORD ?
 VkExtensionProperties ENDS
 
-VK_MAX_EXTENSION_NAME_SIZE equ 256
-VK_MAX_DESCRIPTION_SIZE equ 256
 align 4
 VkLayerProperties STRUCT
     layerName BYTE VK_MAX_EXTENSION_NAME_SIZE dup(?)

@@ -77,8 +77,9 @@ arenaInit proc arena_ref:qword
 arenaInit endp
 
 arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
-    local arenaref:qword, alloc_sizevar:qword, diff:qword, curr_ptr:qword, m_offset:qword
+    local arenaref:qword, alloc_sizevar:qword, old_alloc_sizevar:qword, diff:qword, curr_ptr:qword, m_offset:qword
     mov arenaref, rcx
+    mov old_alloc_sizevar, rdx
     mov alloc_sizevar, rdx
     mov alignment, r8
     mov rsi, [rcx].Arena.base
@@ -117,6 +118,7 @@ arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
     mov rax, [rsi].Arena.pagesize
     mov r8, [rsi].Arena.npages
     mul r8
+    mov alloc_sizevar, rax
     mov rdx, arenaref
     mov rcx, [rdx].Arena.base
     mov rdx, alloc_sizevar
@@ -128,24 +130,23 @@ arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
     mov rsi, arenaref
     mov rcx, diff
     add rcx, alloc_sizevar
-    mov [rsi].Arena.used, rcx
-    mov rcx, [rsi].Arena.cursor
-    mov [rsi].Arena.previous, rcx
+    add [rsi].Arena.used, rcx
+    mov rcx, [rsi].Arena.cursor ; save cursor
+    mov [rsi].Arena.previous, rcx ; save cursor
     mov rcx, diff
-    add [rsi].Arena.cursor, rcx
-    mov rax, [rsi].Arena.cursor
-    mov rcx, alloc_sizevar
+    add [rsi].Arena.cursor, rcx ; cursor += diff
+    mov rax, [rsi].Arena.cursor  ; save aligned cursor
+    mov rcx, old_alloc_sizevar
     add [rsi].Arena.cursor, rcx
     ret
 arenaPush endp
 
 arenaPushZero proc arenaref:qword, alloc_size:qword, alignment:qword
     call arenaPush
-    mov rsi, rax
-    mov rax, [rax].Arena.cursor
+    xchg rdx, rcx
     xor rcx, rcx
     arenaPushZeroLoop:
-    mov byte ptr [rax], 0
+    mov byte ptr [rax + rcx], 0
     inc rcx
     cmp rcx, rdx
     jl arenaPushZeroLoop
@@ -170,4 +171,15 @@ arenaPushArray macro __arena:req, __type:req, __count:req, __align:req
     mul rdx
     ; automate alignof
     invoke arenaPush, __arena, rax, __align
+endm
+
+arenaPushArrayZero macro __arena:req, __type:req, __count:req, __align:req
+    ; lea rcx, __arena
+    ; rdx = __type * __count
+    ; r8 = alignof __type
+    mov rdx, sizeof __type
+    mov rax, __count
+    mul rdx
+    ; automate alignof
+    invoke arenaPushZero, __arena, rax, __align
 endm

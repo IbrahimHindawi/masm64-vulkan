@@ -10,10 +10,6 @@ include macros.asm
 include vkstructs.asm
 include vkenums.asm
 
-extrn vkEnumerateInstanceExtensionProperties:PROC
-; extrn vkCreateInstance:PROC
-; extrn vkEnumerateInstanceLayerProperties:PROC
-
 Payload struct
     tag qword ?
     id byte ?
@@ -24,7 +20,6 @@ Payload ends
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 pointer typedef qword
 VkInstance typedef qword
-PFN_vkCreateInstance typedef qword
 
 vec3 struct
     x real4 ?
@@ -62,6 +57,7 @@ VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pos qword ?
 paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
 ; validation_layer_string byte "VK_LAYER_LUNARG_standard_validation", 0
@@ -72,18 +68,34 @@ window_class WNDCLASSEX <>
 window_handle HWND ?
 message MSG <>
 message_result byte ?
-extension_count dword ?
-layer_count qword ?
 found_validation byte ?
 
 vulkan_module HMODULE ?
 context_instance VkInstance ?
 application_info VkApplicationInfo <>
 instance_info VkInstanceCreateInfo <>
-layers_available qword ?
 
+layers_available qword ?
+layer_count qword ?
+
+layerString byte "VK_LAYER_LUNARG_standard_validation", 0
+layers qword offset layerString
+
+extensions_available qword ?
+extension_count dword ?
+
+extensionStr1 byte "VK_KHR_surface", 0
+extensionStr2 byte "VK_KHR_win32_surface", 0
+extensionStr3 byte "VK_EXT_debug_report", 0
+extension_strings qword offset extensionStr1
+                  qword offset extensionStr2
+                  qword offset extensionStr3
+number_required_extensions equ 3
+
+; procs to load
 vkEnumerateInstanceLayerProperties qword ?
-vkCreateInstance PFN_vkCreateInstance ?
+vkEnumerateInstanceExtensionProperties qword ?
+vkCreateInstance qword ?
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .code
@@ -100,6 +112,10 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkEnumerateInstanceLayerProperties"
     AssertNotEq rax, 0
     mov vkEnumerateInstanceLayerProperties, rax
+
+    invoke GetProcAddress, vulkan_module, "vkEnumerateInstanceExtensionProperties"
+    AssertNotEq rax, 0
+    mov vkEnumerateInstanceExtensionProperties, rax
 
     ret
 VulkanLoad endp
@@ -159,16 +175,12 @@ MessageLoopProcess proc
 MessageLoopProcess endp
 
 arenaTest proc
-    local pos:qword
-    mov pos, rax
-
     mov rcx, 32
     call memoryIsPowerOfTwo
     AssertEq rax, 1
     mov rcx, 33
     call memoryIsPowerOfTwo
     AssertEq rax, 0
-
 
     invoke arenaPush, ADDR arena, sizeof qword * 24, 8
     xor rcx, rcx
@@ -218,6 +230,32 @@ arenaTest proc
         cmp rcx, 16
         jl loop_arr_00003
     invoke arenaSetPos, ADDR arena, pos
+
+    ;;;; ; arenaPushArray ADDR arena, qword, 1000h, 8
+    ;;;; invoke arenaPush, ADDR arena, sizeof qword * 1000h, 8
+    ;;;; mov rsi, rax
+    ;;;; xor rcx, rcx
+    ;;;; mov r8, sizeof qword
+    ;;;; mov r9, 0DEFEDEFEDEFEDEFEh
+    ;;;; loop_arr_00004:
+    ;;;;     mov [rsi], r9
+    ;;;;     add rsi, r8
+    ;;;;     inc rcx
+    ;;;;     cmp rcx, 1000h
+    ;;;;     jl loop_arr_00004
+    ;;;; ; invoke arenaSetPos, ADDR arena, pos
+    ;;;; invoke arenaPush, ADDR arena, sizeof qword * 1000h, 8
+    ;;;; ; arenaPushArray ADDR arena, qword, 1000h, 8
+    ;;;; mov rsi, rax
+    ;;;; xor rcx, rcx
+    ;;;; mov r8, sizeof qword
+    ;;;; mov r9, 0DEFEDEFEDEFEDEFEh
+    ;;;; loop_arr_00005:
+    ;;;;     mov [rsi], r9
+    ;;;;     add rsi, r8
+    ;;;;     inc rcx
+    ;;;;     cmp rcx, 1000h
+    ;;;;     jl loop_arr_00005
 
     xor rax, rax
     ret
@@ -269,7 +307,8 @@ strcmp64 ENDP
 main proc
     lea rcx, arena
     call arenaInit
-    ; call arenaTest
+    mov pos, rax
+    call arenaTest
 
     mov instance, rv(GetModuleHandle, 0)
 
@@ -297,11 +336,11 @@ main proc
 
     call VulkanLoad
 
+    ; instance layers
     invoke vkEnumerateInstanceLayerProperties, ADDR layer_count, 0
     AssertEq rax, VK_SUCCESS
-
-    arenaPushArray ADDR arena, VkLayerProperties, layer_count, 4
-    ; invoke arenaPush, ADDR arena, sizeof VkLayerProperties * 010h, 4
+    arenaPushArrayZero ADDR arena, VkLayerProperties, layer_count, 4
+    ; invoke arenaPushZero, ADDR arena, rax, 4
     AssertNotEq rax, 0
     mov layers_available, rax
     invoke vkEnumerateInstanceLayerProperties, ADDR layer_count, rax
@@ -326,19 +365,64 @@ main proc
 
         add rsi, r8
         inc rcx
-        cmp rcx, 16
+        cmp rcx, 16 ; <--- danger! make this read from the proper variable
         jl loop_validation_layer_find_00000000
+    ; invoke arenaSetPos, ADDR arena, pos
 
+    ; instance extensions
+    invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, 0
+    AssertEq rax, VK_SUCCESS
+    ; arenaPushArray ADDR arena, VkExtensionProperties, extension_count, 4
+    ; arenaPushZero workaround
+    ; fix arenaPush: make sure it allocates more pages
+    mov edx, sizeof VkExtensionProperties 
+    xor rax, rax
+    mov eax, extension_count
+    mul edx
+    invoke arenaPushZero, ADDR arena, rax, 4
+    ; invoke arenaPush, ADDR arena, rax, 4
+    AssertNotEq rax, 0
+    mov extensions_available, rax
+    invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, extensions_available
 
-    mov application_info.sType, 0
+    mov rsi, layers
+    xor rcx, rcx
+    mov r8, sizeof VkExtensionProperties
+    mov r9, extension_strings
+    loop_extension_validation_layer_find_00000000:
+        push rcx
+        push rdx
+        lea rcx, [rsi.VkExtensionProperties.extensionName]
+        mov rdx, r9
+        call strcmp64
+        cmp rax, 0
+        jne extension_validation_label_not_found 
+        mov found_validation, 1
+        lea r9, validation_layer_string
+        extension_validation_label_not_found:
+        pop rdx
+        pop rcx
+
+        add rsi, r8
+        inc rcx
+        cmp rcx, 3
+        jl loop_extension_validation_layer_find_00000000
+    invoke arenaSetPos, ADDR arena, pos
+
+    ; create instance
+    mov application_info.sType, VK_STRUCTURE_TYPE_APPLICATION_INFO
     lea rcx, application_name
     mov application_info.pApplicationName, rcx
-    mov application_info.engineVersion, 1
+    mov application_info.applicationVersion, application_api_version
     mov application_info.apiVersion, application_api_version
+    mov application_info.engineVersion, 1
 
-    mov instance_info.sType, 1
+    mov instance_info.sType, VK_STRUCTURE_INSTANCE_CREATE_INFO
     lea rcx, application_info
     mov instance_info.pApplicationInfo, rcx
+    mov instance_info.enabledLayerCount, 1
+    lea rcx, layers
+    mov instance_info.ppEnabledLayerNames, rcx
 
     invoke vkCreateInstance, ADDR instance_info, 0, ADDR context_instance
     AssertEq rax, VK_SUCCESS
