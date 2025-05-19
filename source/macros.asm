@@ -3,7 +3,11 @@
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ifndef macros_asm
-macros_asm = 0                                                                        ; header guard variable
+macros_asm = 0; header guard variable
+
+sizeofarray macro name:req, array_label_start:req, array_label_end:req
+    name equ (array_label_end - array_label_start) / sizeof qword
+endm
 
 AssertNotEq macro reg:req, flag:req
     LOCAL .ok
@@ -53,4 +57,26 @@ RestoreRegisters macro                                                          
     pop rbx
 endm                       
 
-endif
+prologue macro
+    push rbp
+    .pushreg rbp
+    mov rbp, rsp
+    .setframe rbp, 0
+    ; sub rsp, 20h
+    ; .allocstack 20h
+    .endprolog
+endm
+
+prologue_end macro
+endm
+
+epilogue macro
+    mov rsp, rbp
+    pop rbp
+endm
+
+procf macro
+    proc frame
+endm
+
+endif; header guard end

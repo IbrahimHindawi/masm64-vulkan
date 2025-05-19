@@ -62,6 +62,7 @@ paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
 instance qword ?
 nShowCmd sdword 10
+align 16
 window_class WNDCLASSEX <>
 window_handle HWND ?
 message MSG <>
@@ -73,25 +74,25 @@ vk_context_instance VkInstance ?
 application_info VkApplicationInfo <>
 instance_info VkInstanceCreateInfo <>
 
+; layer_string
+layer_string_0 byte "VK_LAYER_KHRONOS_validation", 0
+layers qword offset layer_string_0
 layers_available qword ?
-layer_count qword ?
-validation_layer_string byte "VK_LAYER_KHRONOS_validation", 0
-validation_layer_string_arr qword offset validation_layer_string
+layers_count qword ?
 
-; layerString byte "VK_LAYER_LUNARG_standard_validation", 0
-; layers qword offset layerString
+; extension_string
+extension_string_0 byte "VK_KHR_surface", 0
+extension_string_1 byte "VK_KHR_win32_surface", 0
+extension_string_2 byte "VK_EXT_debug_utils", 0
+extension_string_array qword offset extension_string_0
+                       qword offset extension_string_1
+                       qword offset extension_string_2
+extension_string_array_end:
+extension_string_array_count = (extension_string_array_end - extension_string_array) / sizeof qword
+; sizeofarray extension_string_array_count, extension_string_array_end, extension_string_array
 
 extensions_available qword ?
 extension_count dword ?
-; string array
-extensionStr1 byte "VK_KHR_surface", 0
-extensionStr2 byte "VK_KHR_win32_surface", 0
-extensionStr3 byte "VK_EXT_debug_utils", 0
-extensions qword offset extensionStr1
-           qword offset extensionStr2
-           qword offset extensionStr3
-; string array
-number_required_extensions equ 3 ; maybe make a sizeofarray() macro?
 found_extensions byte ?
 
 ; procs to load
@@ -330,6 +331,7 @@ $LN13@my_strcmp:
         ret     0
 strcmp64 ENDP
 
+align 16
 main proc
     lea rcx, arena
     call arenaInit
@@ -363,18 +365,18 @@ main proc
     call VulkanLoad
 
     ; instance layers
-    invoke vkEnumerateInstanceLayerProperties, ADDR layer_count, 0
+    invoke vkEnumerateInstanceLayerProperties, ADDR layers_count, 0
     AssertEq rax, VK_SUCCESS
-    arenaPushArrayZero ADDR arena, VkLayerProperties, layer_count, 4
+    arenaPushArrayZero ADDR arena, VkLayerProperties, layers_count, 4
     ; invoke arenaPushZero, ADDR arena, rax, 4
     AssertNotEq rax, 0
     mov layers_available, rax
-    invoke vkEnumerateInstanceLayerProperties, ADDR layer_count, rax
+    invoke vkEnumerateInstanceLayerProperties, ADDR layers_count, rax
 
     mov rsi, layers_available
     xor rcx, rcx
     mov r8, sizeof VkLayerProperties
-    lea r9, validation_layer_string
+    lea r9, layer_string_0
     loop_validation_layer_find_00000000:
         push rcx
         push rdx
@@ -384,7 +386,7 @@ main proc
         cmp rax, 0
         jne validation_label_not_found 
         mov found_validation, 1
-        lea r9, validation_layer_string
+        lea r9, layer_string_0
         validation_label_not_found:
         pop rdx
         pop rcx
@@ -395,7 +397,7 @@ main proc
         jl loop_validation_layer_find_00000000
     ; invoke arenaSetPos, ADDR arena, pos
 
-    ; instance extensions
+    ; instance extension_string_array
     invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, 0
     AssertEq rax, VK_SUCCESS
     mov edx, sizeof VkExtensionProperties 
@@ -409,14 +411,14 @@ main proc
     invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, extensions_available
     AssertEq rax, VK_SUCCESS
 
-    ; mov r9, extensions + sizeof qword * 0
-    ; mov r9, extensions + sizeof qword * 1
-    ; mov r9, extensions + sizeof qword * 2
+    ; mov r9, extension_string_array + sizeof qword * 0
+    ; mov r9, extension_string_array + sizeof qword * 1
+    ; mov r9, extension_string_array + sizeof qword * 2
 
     mov rsi, extensions_available
     xor rcx, rcx
     mov r8, sizeof VkExtensionProperties
-    mov r9, extensions + 8 * 0
+    mov r9, extension_string_array + 8 * 0
     loop_extension_validation_layer_find_00000000:
         push rcx
         push rdx
@@ -426,7 +428,7 @@ main proc
         cmp rax, 0
         jne extension_validation_label_not_found_00000000 
         add found_extensions, 1
-        lea r9, validation_layer_string
+        lea r9, layer_string_0
         extension_validation_label_not_found_00000000:
         pop rdx
         pop rcx
@@ -438,7 +440,7 @@ main proc
     mov rsi, extensions_available
     xor rcx, rcx
     mov r8, sizeof VkExtensionProperties
-    mov r9, extensions + 8 * 1
+    mov r9, extension_string_array + 8 * 1
     loop_extension_validation_layer_find_00000001:
         push rcx
         push rdx
@@ -448,7 +450,7 @@ main proc
         cmp rax, 0
         jne extension_validation_label_not_found_00000001
         add found_extensions, 1
-        lea r9, validation_layer_string
+        lea r9, layer_string_0
         extension_validation_label_not_found_00000001:
         pop rdx
         pop rcx
@@ -460,7 +462,7 @@ main proc
     mov rsi, extensions_available
     xor rcx, rcx
     mov r8, sizeof VkExtensionProperties
-    mov r9, extensions + 8 * 2
+    mov r9, extension_string_array + 8 * 2
     loop_extension_validation_layer_find_00000002:
         push rcx
         push rdx
@@ -470,7 +472,7 @@ main proc
         cmp rax, 0
         jne extension_validation_label_not_found_00000002 
         add found_extensions, 1
-        lea r9, validation_layer_string
+        lea r9, layer_string_0
         extension_validation_label_not_found_00000002:
         pop rdx
         pop rcx
@@ -480,7 +482,7 @@ main proc
         jl loop_extension_validation_layer_find_00000002
     invoke arenaSetPos, ADDR arena, pos
 
-    mov al, number_required_extensions
+    mov al, extension_string_array_count
     AssertEq al, found_extensions
 
     ; create instance
@@ -495,10 +497,10 @@ main proc
     lea rcx, application_info
         mov instance_info.pApplicationInfo, rcx
     mov instance_info.enabledLayerCount, 1
-    lea rcx, validation_layer_string_arr
+    lea rcx, layers
         mov instance_info.ppEnabledLayerNames, rcx
     mov instance_info.enabledExtensionCount, 3
-    lea rcx, extensions
+    lea rcx, extension_string_array
         mov instance_info.ppEnabledExtensionNames, rcx
 
     invoke vkCreateInstance, ADDR instance_info, 0, ADDR vk_context_instance
