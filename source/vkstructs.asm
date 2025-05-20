@@ -4935,7 +4935,8 @@ VkDebugReportCallbackCreateInfoEXT STRUCT
     BYTE 4 dup(?)
     pNext QWORD ?
     flags DWORD ?
-    pfnCallback DWORD ?
+    BYTE 4 dup(?)
+    pfnCallback QWORD ?
     pUserData QWORD ?
 VkDebugReportCallbackCreateInfoEXT ENDS
 
@@ -5473,7 +5474,8 @@ VkDebugUtilsMessengerCreateInfoEXT STRUCT
     flags DWORD ?
     messageSeverity DWORD ?
     messageType DWORD ?
-    pfnUserCallback DWORD ?
+    BYTE 4 dup(?)
+    pfnUserCallback QWORD ?
     pUserData QWORD ?
 VkDebugUtilsMessengerCreateInfoEXT ENDS
 

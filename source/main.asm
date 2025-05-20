@@ -60,6 +60,8 @@ VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
 pos qword ?
 paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
+vulkan_phrase byte "Vulkan Validation Layer: ", 0
+new_line byte ".", 0ah, 0
 instance qword ?
 nShowCmd sdword 10
 align 16
@@ -73,7 +75,10 @@ vulkan_module HMODULE ?
 vk_context_instance VkInstance ?
 application_info VkApplicationInfo <>
 instance_info VkInstanceCreateInfo <>
-
+debug_callback_create_info VkDebugUtilsMessengerCreateInfoEXT <>
+debug_callback_create_info_2 VkDebugUtilsMessengerCreateInfoEXT <>
+; debug_messenger VkDebugUtilsMessengerEXT ?
+debug_messenger qword ?
 ; layer_string
 layer_string_0 byte "VK_LAYER_KHRONOS_validation", 0
 layers qword offset layer_string_0
@@ -104,6 +109,7 @@ vkGetInstanceProcAddr qword ?
 vkCreateDebugReportCallbackEXT qword ?
 vkDestroyDebugReportCallbackEXT qword ?
 vkDebugReportMessageEXT qword ?
+vkCreateDebugUtilsMessengerEXT qword ?
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .code
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -144,6 +150,11 @@ VulkanLoadExt proc
     ; AssertNotEq rax, 0
     mov vkDebugReportMessageEXT, rax
 
+    invoke vkGetInstanceProcAddr, vk_context_instance, "vkCreateDebugUtilsMessengerEXT"
+    ; AssertEq rax, VK_SUCCESS
+    AssertNotEq rax, 0
+    mov vkCreateDebugUtilsMessengerEXT, rax
+
     ret
 VulkanLoadExt endp
 
@@ -167,7 +178,7 @@ WindowProc proc hWin:QWORD,uMsg:QWORD,wParam:QWORD,lParam:QWORD
     ret
 
     OnPaint:
-        DebugPrint paint_phrase
+        ; DebugPrint paint_phrase
         ret
     OnClose:
         invoke SendMessage, hWin, WM_DESTROY, 0, 0
@@ -179,7 +190,7 @@ WindowProc proc hWin:QWORD,uMsg:QWORD,wParam:QWORD,lParam:QWORD
     OnSize:
         ret
     OnDestroy:
-        DebugPrint close_phrase
+        ; DebugPrint close_phrase
         invoke PostQuitMessage, 0
         ret
     ret
@@ -330,6 +341,34 @@ $LN13@my_strcmp:
         RestoreRegisters
         ret     0
 strcmp64 ENDP
+
+; VKAPI_ATTR 
+; VkBool32 
+; VKAPI_CALL 
+; debugCallback(
+; VkDebugUtilsMessageSeverityFlagBitsEXT messageSeverity, rcx
+; VkDebugUtilsMessageTypeFlagsEXT messageType, rdx
+; const VkDebugUtilsMessengerCallbackDataEXT* pCallbackData, r8
+; void* pUserData), r9
+align 16
+VulkanDebugReportCallback proc ; messageSeverity:dword, messageType:dword, pCallbackData:qword, pUserData:qword
+    push rbx
+    sub rsp, 28h
+
+    lea rbx, [r8 + 0D0h] ; hack!
+    lea rcx, vulkan_phrase
+    invoke OutputDebugString
+    mov rcx, rbx
+    invoke OutputDebugString
+    lea rcx, new_line
+    invoke OutputDebugString
+    ; lea rcx, [r8 + 0D0h] ; hack!
+    ; call OutputDebugString
+    add rsp, 28h
+    pop rbx
+    xor rax, rax
+    ret
+VulkanDebugReportCallback endp
 
 align 16
 main proc
@@ -499,14 +538,33 @@ main proc
     mov instance_info.enabledLayerCount, 1
     lea rcx, layers
         mov instance_info.ppEnabledLayerNames, rcx
+    ; debuginfo
+    mov debug_callback_create_info.sType, VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
+    mov debug_callback_create_info.messageSeverity, VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT
+    mov debug_callback_create_info.messageType, VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT
+    lea rcx, VulkanDebugReportCallback
+        mov debug_callback_create_info.pfnUserCallback, rcx
+    ; debuginfo
     mov instance_info.enabledExtensionCount, 3
     lea rcx, extension_string_array
         mov instance_info.ppEnabledExtensionNames, rcx
+    lea rcx, debug_callback_create_info
+        mov instance_info.pNext, rcx
 
     invoke vkCreateInstance, ADDR instance_info, 0, ADDR vk_context_instance
     AssertEq rax, VK_SUCCESS
 
     call VulkanLoadExt
+
+    ; debuginfo
+    mov debug_callback_create_info_2.sType, VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
+    mov debug_callback_create_info_2.messageSeverity, VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT
+    mov debug_callback_create_info_2.messageType, VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT
+    lea rcx, VulkanDebugReportCallback
+        mov debug_callback_create_info_2.pfnUserCallback, rcx
+    ; debuginfo
+    invoke vkCreateDebugUtilsMessengerEXT, vk_context_instance, ADDR debug_callback_create_info_2, 0, ADDR debug_messenger
+    AssertEq rax, VK_SUCCESS
 
     call MessageLoopProcess
 
