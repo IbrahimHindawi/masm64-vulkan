@@ -19,7 +19,9 @@ max_alloc_size equ 01000000h
 ;---------------------------------------------------------------------------------------------------
 .data
 ;---------------------------------------------------------------------------------------------------
+align 16
 systeminfo SYSTEM_INFO <>
+align 16
 arena Arena <>
 
 
@@ -30,6 +32,7 @@ mem_m qword ?
 ;---------------------------------------------------------------------------------------------------
 .code
 ;---------------------------------------------------------------------------------------------------
+align 16
 memoryIsPowerOfTwo proc
   lea eax, DWORD PTR [rcx-1]
   test eax, ecx
@@ -37,6 +40,7 @@ memoryIsPowerOfTwo proc
   ret 0
 memoryIsPowerOfTwo endp
 
+align 16
 memoryAlignForward proc pointer:qword, alignment:qword
     mov rsi, rcx
     mov rcx, rdx
@@ -59,6 +63,7 @@ memoryAlignForward proc pointer:qword, alignment:qword
     ret
 memoryAlignForward endp
 
+align 16
 arenaInit proc arena_ref:qword
     mov rsi, arena_ref
     lea rcx, systeminfo
@@ -76,6 +81,7 @@ arenaInit proc arena_ref:qword
     ret
 arenaInit endp
 
+align 16
 arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
     local arenaref:qword, alloc_sizevar:qword, old_alloc_sizevar:qword, diff:qword, curr_ptr:qword, m_offset:qword
     mov arenaref, rcx
@@ -141,6 +147,7 @@ arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
     ret
 arenaPush endp
 
+align 16
 arenaPushZero proc arenaref:qword, alloc_size:qword, alignment:qword
     call arenaPush
     xchg rdx, rcx
@@ -153,6 +160,7 @@ arenaPushZero proc arenaref:qword, alloc_size:qword, alignment:qword
     ret
 arenaPushZero endp
 
+align 16
 arenaSetPos proc arenaref:qword, pos:qword
     mov rax, [rcx].Arena.cursor
     sub rax, rdx

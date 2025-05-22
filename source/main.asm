@@ -1,25 +1,26 @@
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-;           MASM64 Handmade
+;           MASM64 Vulkan
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 option casemap:none
 StdOutHandle equ -11
 include masm64rt.inc
-; include vulkan.asm
 include saha.asm
 include macros.asm
-include vkstructs.asm
+include vulkan_core.asm
+include vulkan_win32.asm
 include vkenums.asm
-
-Payload struct
-    tag qword ?
-    id byte ?
-Payload ends
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; types
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 pointer typedef qword
 VkInstance typedef qword
+VkSurfaceKHR typedef qword
+
+Payload struct
+    tag qword ?
+    id byte ?
+Payload ends
 
 vec3 struct
     x real4 ?
@@ -30,7 +31,6 @@ vec3 ends
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 DebugPrint macro Message:req
     lea rcx, Message
     call OutputDebugString
@@ -54,6 +54,7 @@ window_title byte "MASM64Handmade", 0
 application_name byte "MASM64Vulkan", 0
 
 VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
+
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -62,30 +63,32 @@ paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
 vulkan_phrase byte "Vulkan Validation Layer: ", 0
 new_line byte ".", 0ah, 0
-instance qword ?
+align 16
+window_instance qword ?
 nShowCmd sdword 10
 align 16
 window_class WNDCLASSEX <>
+align 16
 window_handle HWND ?
+align 16
 message MSG <>
 message_result byte ?
 found_validation byte ?
 
+align 16
 vulkan_module HMODULE ?
-vk_context_instance VkInstance ?
+align 16
+context_instance VkInstance ?
+align 16
 application_info VkApplicationInfo <>
+align 16
 instance_info VkInstanceCreateInfo <>
-debug_callback_create_info VkDebugUtilsMessengerCreateInfoEXT <>
-debug_callback_create_info_2 VkDebugUtilsMessengerCreateInfoEXT <>
-; debug_messenger VkDebugUtilsMessengerEXT ?
-debug_messenger qword ?
-; layer_string
+
 layer_string_0 byte "VK_LAYER_KHRONOS_validation", 0
 layers qword offset layer_string_0
 layers_available qword ?
 layers_count qword ?
 
-; extension_string
 extension_string_0 byte "VK_KHR_surface", 0
 extension_string_1 byte "VK_KHR_win32_surface", 0
 extension_string_2 byte "VK_EXT_debug_utils", 0
@@ -95,10 +98,19 @@ extension_string_array qword offset extension_string_0
 extension_string_array_end:
 extension_string_array_count = (extension_string_array_end - extension_string_array) / sizeof qword
 ; sizeofarray extension_string_array_count, extension_string_array_end, extension_string_array
-
 extensions_available qword ?
 extension_count dword ?
 found_extensions byte ?
+
+align 16
+debug_callback_create_info VkDebugUtilsMessengerCreateInfoEXT <>
+align 16
+debug_callback_create_info_2 VkDebugUtilsMessengerCreateInfoEXT <>
+debug_messenger qword ?
+
+align 16
+surface_create_info VkWin32SurfaceCreateInfoKHR <>
+context_surface VkSurfaceKHR ?
 
 ; procs to load
 vkEnumerateInstanceLayerProperties qword ?
@@ -110,9 +122,12 @@ vkCreateDebugReportCallbackEXT qword ?
 vkDestroyDebugReportCallbackEXT qword ?
 vkDebugReportMessageEXT qword ?
 vkCreateDebugUtilsMessengerEXT qword ?
+vkCreateWin32SurfaceKHR qword ?
+
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .code
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+align 16
 VulkanLoad proc
     invoke LoadLibrary, "vulkan-1.dll"
     AssertNotEq rax, 0
@@ -134,23 +149,27 @@ VulkanLoad proc
     AssertNotEq rax, 0
     mov vkGetInstanceProcAddr, rax
 
+    invoke GetProcAddress, vulkan_module, "vkCreateWin32SurfaceKHR"
+    AssertNotEq rax, 0
+    mov vkCreateWin32SurfaceKHR, rax
     ret
 VulkanLoad endp
 
+align 16
 VulkanLoadExt proc
-    invoke vkGetInstanceProcAddr, vk_context_instance, "vkCreateDebugReportCallbackEXT"
+    invoke vkGetInstanceProcAddr, context_instance, "vkCreateDebugReportCallbackEXT"
     ; AssertNotEq rax, 0
     mov vkCreateDebugReportCallbackEXT, rax
 
-    invoke vkGetInstanceProcAddr, vk_context_instance, "vkDestroyDebugReportCallbackEXT"
+    invoke vkGetInstanceProcAddr, context_instance, "vkDestroyDebugReportCallbackEXT"
     ; AssertNotEq rax, 0
     mov vkDestroyDebugReportCallbackEXT, rax
 
-    invoke vkGetInstanceProcAddr, vk_context_instance, "vkDebugReportMessageEXT"
+    invoke vkGetInstanceProcAddr, context_instance, "vkDebugReportMessageEXT"
     ; AssertNotEq rax, 0
     mov vkDebugReportMessageEXT, rax
 
-    invoke vkGetInstanceProcAddr, vk_context_instance, "vkCreateDebugUtilsMessengerEXT"
+    invoke vkGetInstanceProcAddr, context_instance, "vkCreateDebugUtilsMessengerEXT"
     ; AssertEq rax, VK_SUCCESS
     AssertNotEq rax, 0
     mov vkCreateDebugUtilsMessengerEXT, rax
@@ -158,6 +177,7 @@ VulkanLoadExt proc
     ret
 VulkanLoadExt endp
 
+align 16
 WindowProc proc hWin:QWORD,uMsg:QWORD,wParam:QWORD,lParam:QWORD
     cmp uMsg, WM_PAINT
     je OnPaint
@@ -196,6 +216,7 @@ WindowProc proc hWin:QWORD,uMsg:QWORD,wParam:QWORD,lParam:QWORD
     ret
 WindowProc endp
 
+align 16
 MessageLoopProcess proc
     LOCAL msg    :MSG
     LOCAL pmsg   :QWORD
@@ -212,6 +233,7 @@ MessageLoopProcess proc
     ret
 MessageLoopProcess endp
 
+align 16
 arenaTest proc
     mov rcx, 32
     call memoryIsPowerOfTwo
@@ -351,10 +373,9 @@ strcmp64 ENDP
 ; const VkDebugUtilsMessengerCallbackDataEXT* pCallbackData, r8
 ; void* pUserData), r9
 align 16
-VulkanDebugReportCallback proc ; messageSeverity:dword, messageType:dword, pCallbackData:qword, pUserData:qword
+VulkanDebugReportCallback proc
     push rbx
     sub rsp, 28h
-
     lea rbx, [r8 + 0D0h] ; hack!
     lea rcx, vulkan_phrase
     invoke OutputDebugString
@@ -362,8 +383,6 @@ VulkanDebugReportCallback proc ; messageSeverity:dword, messageType:dword, pCall
     invoke OutputDebugString
     lea rcx, new_line
     invoke OutputDebugString
-    ; lea rcx, [r8 + 0D0h] ; hack!
-    ; call OutputDebugString
     add rsp, 28h
     pop rbx
     xor rax, rax
@@ -377,7 +396,7 @@ main proc
     mov pos, rax
     call arenaTest
 
-    mov instance, rv(GetModuleHandle, 0)
+    mov window_instance, rv(GetModuleHandle, 0)
 
     mov rcx, StdOutHandle
     call GetStdHandle
@@ -389,7 +408,7 @@ main proc
     mov window_class.style, ecx
     lea rcx, WindowProc
     mov window_class.lpfnWndProc, rcx
-    mov rcx, instance
+    mov rcx, window_instance
     mov window_class.hInstance, rcx
     lea rcx, window_class_name
     mov window_class.lpszClassName, rcx
@@ -397,7 +416,7 @@ main proc
     invoke RegisterClassEx, ADDR window_class
     AssertNotEq rax, 0
 
-    invoke CreateWindowEx, 0, ADDR window_class_name, ADDR window_title, WS_OVERLAPPEDWINDOW or WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, instance, 0
+    invoke CreateWindowEx, 0, ADDR window_class_name, ADDR window_title, WS_OVERLAPPEDWINDOW or WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, window_instance, 0
     AssertNotEq rax, 0
     mov window_handle, rax
 
@@ -551,19 +570,28 @@ main proc
     lea rcx, debug_callback_create_info
         mov instance_info.pNext, rcx
 
-    invoke vkCreateInstance, ADDR instance_info, 0, ADDR vk_context_instance
+    invoke vkCreateInstance, ADDR instance_info, 0, ADDR context_instance
     AssertEq rax, VK_SUCCESS
 
     call VulkanLoadExt
 
     ; debuginfo
-    mov debug_callback_create_info_2.sType, VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
-    mov debug_callback_create_info_2.messageSeverity, VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT
-    mov debug_callback_create_info_2.messageType, VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT
-    lea rcx, VulkanDebugReportCallback
-        mov debug_callback_create_info_2.pfnUserCallback, rcx
+    ; mov debug_callback_create_info_2.sType, VK_STRUCTURE_TYPE_DEBUG_UTILS_MESSENGER_CREATE_INFO_EXT
+    ; mov debug_callback_create_info_2.messageSeverity, VK_DEBUG_UTILS_MESSAGE_SEVERITY_VERBOSE_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_SEVERITY_WARNING_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_SEVERITY_ERROR_BIT_EXT
+    ; mov debug_callback_create_info_2.messageType, VK_DEBUG_UTILS_MESSAGE_TYPE_GENERAL_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_TYPE_VALIDATION_BIT_EXT or VK_DEBUG_UTILS_MESSAGE_TYPE_PERFORMANCE_BIT_EXT
+    ; lea rcx, VulkanDebugReportCallback
+    ;     mov debug_callback_create_info_2.pfnUserCallback, rcx
     ; debuginfo
-    invoke vkCreateDebugUtilsMessengerEXT, vk_context_instance, ADDR debug_callback_create_info_2, 0, ADDR debug_messenger
+    invoke vkCreateDebugUtilsMessengerEXT, context_instance, ADDR debug_callback_create_info, 0, ADDR debug_messenger
+    AssertEq rax, VK_SUCCESS
+
+    mov surface_create_info.sType, VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR
+    mov rcx, window_instance
+    mov surface_create_info.hinstance, rcx
+    mov rcx,  window_handle
+    mov surface_create_info.hwnd, rcx
+
+    invoke vkCreateWin32SurfaceKHR, context_instance, ADDR surface_create_info, 0, ADDR context_surface
     AssertEq rax, VK_SUCCESS
 
     call MessageLoopProcess
