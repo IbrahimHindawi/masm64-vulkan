@@ -99,7 +99,7 @@ extension_string_array_end:
 extension_string_array_count = (extension_string_array_end - extension_string_array) / sizeof qword
 ; sizeofarray extension_string_array_count, extension_string_array_end, extension_string_array
 extensions_available qword ?
-extension_count dword ?
+extension_count qword ?
 found_extensions byte ?
 
 align 16
@@ -451,16 +451,16 @@ main proc
 
         add rsi, r8
         inc rcx
-        cmp rcx, layers_available
+        cmp rcx, layers_count
         jl loop_validation_layer_find_00000000
-    ; invoke arenaSetPos, ADDR arena, pos
+    invoke arenaSetPos, ADDR arena, pos
 
     ; instance extension_string_array
     invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, 0
     AssertEq rax, VK_SUCCESS
     mov edx, sizeof VkExtensionProperties 
     xor rax, rax
-    mov eax, extension_count
+    mov rax, extension_count
     mul edx
     invoke arenaPushZero, ADDR arena, rax, 4
     AssertNotEq rax, 0
@@ -492,7 +492,7 @@ main proc
         pop rcx
         add rsi, r8
         inc rcx
-        cmp rcx, extensions_available
+        cmp rcx, extension_count
         jl loop_extension_validation_layer_find_00000000
 
     mov rsi, extensions_available
@@ -514,7 +514,7 @@ main proc
         pop rcx
         add rsi, r8
         inc rcx
-        cmp rcx, extensions_available
+        cmp rcx, extension_count
         jl loop_extension_validation_layer_find_00000001
 
     mov rsi, extensions_available
@@ -536,7 +536,7 @@ main proc
         pop rcx
         add rsi, r8
         inc rcx
-        cmp rcx, extensions_available
+        cmp rcx, extension_count
         jl loop_extension_validation_layer_find_00000002
     invoke arenaSetPos, ADDR arena, pos
 
