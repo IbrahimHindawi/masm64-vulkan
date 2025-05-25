@@ -165,13 +165,16 @@ align 16
 supports_present byte ?
 queue_families_has_value byte ?
 
+
 align 8
 queue_family_properties qword ?; VkQueueFamilyProperties
 queue_family_count dword ?
+present_support dword ?
 align 16
 indices QueueFamilyIndices <>
 align 16
 findQueueFamilies_indices QueueFamilyIndices <>
+
 
 ; procs to load
 ;---------------------------------------------------------------------------------------------------
@@ -250,9 +253,13 @@ VulkanLoadExt proc
     mov vkDebugReportMessageEXT, rax
 
     invoke vkGetInstanceProcAddr, context_instance, "vkCreateDebugUtilsMessengerEXT"
-    ; AssertEq rax, VK_SUCCESS
     AssertNotEq rax, 0
     mov vkCreateDebugUtilsMessengerEXT, rax
+
+    invoke vkGetInstanceProcAddr, context_instance, "vkGetPhysicalDeviceSurfaceSupportKHR"
+    AssertNotEq rax, 0
+    mov vkGetPhysicalDeviceSurfaceSupportKHR, rax
+
 
     ret
 VulkanLoadExt endp
@@ -474,14 +481,14 @@ findQueueFamilies proc
     push rbp
     mov rbp, rsp
     sub rsp, 32
-    ; ; SaveRegisters
+    SaveRegisters
 
-    mov r13, rcx
+    mov r13, rcx ; device
 
     ; mov rcx, physical_devices[i]
-    lea rdx, queue_family_count
+    ; lea rdx, queue_family_count
     ; xor r8, r8
-    invoke vkGetPhysicalDeviceQueueFamilyProperties, rcx, rdx, 0
+    invoke vkGetPhysicalDeviceQueueFamilyProperties, rcx, ADDR queue_family_count, 0
 
     ; allocate
     xor rdx, rdx
@@ -496,10 +503,48 @@ findQueueFamilies proc
 
     invoke vkGetPhysicalDeviceQueueFamilyProperties, r13, ADDR queue_family_count, rax
 
+    xor rdx, rdx ; graphics_family_has_value
+    xor rax, rax
+    xor rbx, rbx
+    xor r8, r8 ; present_family_has_value
+
+    xor r11, r11
+    mov rsi, queue_family_properties
+    queue_family_properties_loop_00000001:
+        mov eax, [rsi].VkQueueFamilyProperties.queueFlags
+        mov rbx, VK_QUEUE_GRAPHICS_BIT
+        and rax, rbx
+        cmp rax, 0
+        je has_not_queue_graphics_bit
+            mov indices.graphicsFamily, r11d
+            mov rdx, 1
+        has_not_queue_graphics_bit:
+        invoke vkGetPhysicalDeviceSurfaceSupportKHR, r13, r11, context_surface, ADDR present_support
+        mov r10d, present_support
+        cmp r10, 0
+        je has_not_present
+            mov indices.presentFamily, r11d
+            mov r8, 1
+        has_not_present:
+        and r8, rdx
+        cmp r8, 0
+        je has_not_both
+            mov rax, 1
+            jmp found_it
+        has_not_both:
+
+        add rsi, sizeof VkQueueFamilyProperties
+        inc r11d
+        cmp r11d, queue_family_count
+        jl queue_family_properties_loop_00000001
+
+    found_it:
+    ; copy found indices outwards
+    ; mov findQueueFamilies_indices
     ; free
     invoke arenaSetPos, ADDR arena, pos
 
-    ; ; RestoreRegisters
+    RestoreRegisters
     add rsp, 32
     pop rbp
     ret
@@ -510,12 +555,12 @@ isDeviceSuitable proc
     push rbp
     mov rbp, rsp
     sub rsp, 32
-    ; ; SaveRegisters
+    SaveRegisters
 
     ; mov rcx, physical_devices[i]
     invoke findQueueFamilies, rcx
 
-    ; ; RestoreRegisters
+    RestoreRegisters
     add rsp, 32
     pop rbp
     ret
