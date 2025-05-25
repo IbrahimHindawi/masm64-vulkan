@@ -28,6 +28,11 @@ vec3 struct
     z real4 ?
 vec3 ends
 
+QueueFamilyIndices struct
+    graphicsFamily dword ?
+    presentFamily dword ?
+QueueFamilyIndices ends
+
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -69,9 +74,14 @@ endm
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .const
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-outputmessage byte 'hello, world!'
+alignofqword equ sizeof qword
+alignofdword equ sizeof dword
+alignofword equ sizeof word
+alignofbyte equ sizeof byte
+
+outputmessage byte 'MASM64Vulkan'
               byte 0ah, 0dh
-              byte 'from masm64!'
+              byte 'Game Engine Initialize'
               byte 0ah, 0dh
 outputmessagelength equ $ - outputmessage
 
@@ -147,15 +157,21 @@ context_surface VkSurfaceKHR ?
 ; devices
 ;---------------------------------------------------------------------------------------------------
 physical_device_count qword ?
-; VkPhysicalDevice
-physical_devices qword ?
+physical_devices qword ?; VkPhysicalDevice
+queue_family_has_value byte ?
 align 16
 device_properties VkPhysicalDeviceProperties <>
 align 16
-queue_family_count qword ?
-; VkQueueFamilyProperties 
-queue_family_properties qword ?
 supports_present byte ?
+queue_families_has_value byte ?
+
+align 8
+queue_family_properties qword ?; VkQueueFamilyProperties
+queue_family_count dword ?
+align 16
+indices QueueFamilyIndices <>
+align 16
+findQueueFamilies_indices QueueFamilyIndices <>
 
 ; procs to load
 ;---------------------------------------------------------------------------------------------------
@@ -172,6 +188,7 @@ vkDebugReportMessageEXT qword ?
 vkCreateDebugUtilsMessengerEXT qword ?
 vkCreateWin32SurfaceKHR qword ?
 vkEnumeratePhysicalDevices qword ?
+vkGetPhysicalDeviceProperties qword ?
 vkGetPhysicalDeviceQueueFamilyProperties qword ?
 vkGetPhysicalDeviceSurfaceSupportKHR qword ?
 ;---------------------------------------------------------------------------------------------------
@@ -202,6 +219,19 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkCreateWin32SurfaceKHR"
     AssertNotEq rax, 0
     mov vkCreateWin32SurfaceKHR, rax
+
+    invoke GetProcAddress, vulkan_module, "vkEnumeratePhysicalDevices"
+    AssertNotEq rax, 0
+    mov vkEnumeratePhysicalDevices, rax
+
+    invoke GetProcAddress, vulkan_module, "vkGetPhysicalDeviceProperties"
+    AssertNotEq rax, 0
+    mov vkGetPhysicalDeviceProperties, rax
+
+    invoke GetProcAddress, vulkan_module, "vkGetPhysicalDeviceQueueFamilyProperties"
+    AssertNotEq rax, 0
+    mov vkGetPhysicalDeviceQueueFamilyProperties, rax
+
     ret
 VulkanLoad endp
 
@@ -440,6 +470,58 @@ VulkanDebugReportCallback proc
 VulkanDebugReportCallback endp
 
 align 16
+findQueueFamilies proc
+    push rbp
+    mov rbp, rsp
+    sub rsp, 32
+    ; ; SaveRegisters
+
+    mov r13, rcx
+
+    ; mov rcx, physical_devices[i]
+    lea rdx, queue_family_count
+    ; xor r8, r8
+    invoke vkGetPhysicalDeviceQueueFamilyProperties, rcx, rdx, 0
+
+    ; allocate
+    xor rdx, rdx
+    mov edx, sizeof VkQueueFamilyProperties
+    mov eax, queue_family_count
+    mul edx
+    invoke arenaPushZero, ADDR arena, rax, alignofqword
+    AssertNotEq rax, 0
+    mov queue_family_properties, rax
+    ; save pos
+    mov pos, rax
+
+    invoke vkGetPhysicalDeviceQueueFamilyProperties, r13, ADDR queue_family_count, rax
+
+    ; free
+    invoke arenaSetPos, ADDR arena, pos
+
+    ; ; RestoreRegisters
+    add rsp, 32
+    pop rbp
+    ret
+findQueueFamilies endp
+
+align 16
+isDeviceSuitable proc
+    push rbp
+    mov rbp, rsp
+    sub rsp, 32
+    ; ; SaveRegisters
+
+    ; mov rcx, physical_devices[i]
+    invoke findQueueFamilies, rcx
+
+    ; ; RestoreRegisters
+    add rsp, 32
+    pop rbp
+    ret
+isDeviceSuitable endp
+
+align 16
 main proc
     lea rcx, arena
     call arenaInit
@@ -473,6 +555,7 @@ main proc
     call VulkanLoad
 
     ; instance layers
+    ;---------------------------------------------------------------------------------------------------
     invoke vkEnumerateInstanceLayerProperties, ADDR layers_count, 0
     AssertEq rax, VK_SUCCESS
     arenaPushArrayZero ADDR arena, VkLayerProperties, layers_count, 4
@@ -519,10 +602,6 @@ main proc
     invoke vkEnumerateInstanceExtensionProperties, 0, ADDR extension_count, extensions_available
     AssertEq rax, VK_SUCCESS
 
-    ; mov r9, extension_string_array + sizeof qword * 0
-    ; mov r9, extension_string_array + sizeof qword * 1
-    ; mov r9, extension_string_array + sizeof qword * 2
-
     ExtensionValidationCheck 0
     ExtensionValidationCheck 1
     ExtensionValidationCheck 2
@@ -533,6 +612,7 @@ main proc
     AssertEq al, extension_string_array_count
 
     ; create instance
+    ;---------------------------------------------------------------------------------------------------
     mov application_info.sType, VK_STRUCTURE_TYPE_APPLICATION_INFO
     lea rcx, application_name
         mov application_info.pApplicationName, rcx
@@ -582,6 +662,45 @@ main proc
 
     invoke vkCreateWin32SurfaceKHR, context_instance, ADDR surface_create_info, 0, ADDR context_surface
     AssertEq rax, VK_SUCCESS
+
+    ; physical devices
+    ;---------------------------------------------------------------------------------------------------
+    invoke vkEnumeratePhysicalDevices, context_instance, ADDR physical_device_count, 0
+    mov rax, physical_device_count
+    AssertNotEq rax, 0
+
+    mov edx, sizeof qword; sizeof typedef VkPhysicalDevice pointer
+    xor rax, rax
+    mov rax, physical_device_count
+    mul edx
+    invoke arenaPushZero, ADDR arena, rax, alignofqword
+    AssertNotEq rax, 0
+    mov physical_devices, rax
+
+    invoke vkEnumeratePhysicalDevices, context_instance, ADDR physical_device_count, physical_devices
+    AssertEq rax, VK_SUCCESS
+
+    ;;;; mov rax, physical_devices
+    ;;;; mov rcx, [rax]
+    ;;;; lea rdx, queue_family_count
+    ;;;; xor r8, r8
+    ;;;; call vkGetPhysicalDeviceQueueFamilyProperties
+
+    xor rsi, rsi
+    is_device_suitable_loop_00000000:
+        ; SaveRegisters
+        mov rax, physical_devices
+        mov rcx, [rax + sizeof qword * rsi]
+        invoke isDeviceSuitable, rcx
+        ; RestoreRegisters
+        cmp rax, 0
+        jz is_not_suitable
+            jmp device_found
+        is_not_suitable:
+        inc rsi
+        cmp rsi, physical_device_count
+        jl is_device_suitable_loop_00000000
+    device_found:
 
     call MessageLoopProcess
 

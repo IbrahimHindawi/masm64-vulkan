@@ -231,115 +231,117 @@ VkPhysicalDeviceFeatures STRUCT
     inheritedQueries DWORD ?
 VkPhysicalDeviceFeatures ENDS
 
-VkPhysicalDeviceLimits STRUCT
-    maxImageDimension1D DWORD ?
-    maxImageDimension2D DWORD ?
-    maxImageDimension3D DWORD ?
-    maxImageDimensionCube DWORD ?
-    maxImageArrayLayers DWORD ?
-    maxTexelBufferElements DWORD ?
-    maxUniformBufferRange DWORD ?
-    maxStorageBufferRange DWORD ?
-    maxPushConstantsSize DWORD ?
-    maxMemoryAllocationCount DWORD ?
-    maxSamplerAllocationCount DWORD ?
-    bufferImageGranularity DWORD ?
-    sparseAddressSpaceSize DWORD ?
-    maxBoundDescriptorSets DWORD ?
-    maxPerStageDescriptorSamplers DWORD ?
-    maxPerStageDescriptorUniformBuffers DWORD ?
-    maxPerStageDescriptorStorageBuffers DWORD ?
-    maxPerStageDescriptorSampledImages DWORD ?
-    maxPerStageDescriptorStorageImages DWORD ?
-    maxPerStageDescriptorInputAttachments DWORD ?
-    maxPerStageResources DWORD ?
-    maxDescriptorSetSamplers DWORD ?
-    maxDescriptorSetUniformBuffers DWORD ?
-    maxDescriptorSetUniformBuffersDynamic DWORD ?
-    maxDescriptorSetStorageBuffers DWORD ?
-    maxDescriptorSetStorageBuffersDynamic DWORD ?
-    maxDescriptorSetSampledImages DWORD ?
-    maxDescriptorSetStorageImages DWORD ?
-    maxDescriptorSetInputAttachments DWORD ?
-    maxVertexInputAttributes DWORD ?
-    maxVertexInputBindings DWORD ?
-    maxVertexInputAttributeOffset DWORD ?
-    maxVertexInputBindingStride DWORD ?
-    maxVertexOutputComponents DWORD ?
-    maxTessellationGenerationLevel DWORD ?
-    maxTessellationPatchSize DWORD ?
-    maxTessellationControlPerVertexInputComponents DWORD ?
-    maxTessellationControlPerVertexOutputComponents DWORD ?
-    maxTessellationControlPerPatchOutputComponents DWORD ?
-    maxTessellationControlTotalOutputComponents DWORD ?
-    maxTessellationEvaluationInputComponents DWORD ?
-    maxTessellationEvaluationOutputComponents DWORD ?
-    maxGeometryShaderInvocations DWORD ?
-    maxGeometryInputComponents DWORD ?
-    maxGeometryOutputComponents DWORD ?
-    maxGeometryOutputVertices DWORD ?
-    maxGeometryTotalOutputComponents DWORD ?
-    maxFragmentInputComponents DWORD ?
-    maxFragmentOutputAttachments DWORD ?
-    maxFragmentDualSrcAttachments DWORD ?
-    maxFragmentCombinedOutputResources DWORD ?
-    maxComputeSharedMemorySize DWORD ?
-    maxComputeWorkGroupCount DWORD 3 dup(?)
-    maxComputeWorkGroupInvocations DWORD ?
-    maxComputeWorkGroupSize DWORD 3 dup(?)
-    subPixelPrecisionBits DWORD ?
-    subTexelPrecisionBits DWORD ?
-    mipmapPrecisionBits DWORD ?
-    maxDrawIndexedIndexValue DWORD ?
-    maxDrawIndirectCount DWORD ?
-    maxSamplerLodBias DWORD ?
-    maxSamplerAnisotropy DWORD ?
-    maxViewports DWORD ?
-    maxViewportDimensions DWORD 2 dup(?)
-    viewportBoundsRange DWORD 2 dup(?)
-    viewportSubPixelBits DWORD ?
-    minMemoryMapAlignment QWORD ?
-    minTexelBufferOffsetAlignment DWORD ?
-    minUniformBufferOffsetAlignment DWORD ?
-    minStorageBufferOffsetAlignment DWORD ?
-    minTexelOffset DWORD ?
-    maxTexelOffset DWORD ?
-    minTexelGatherOffset DWORD ?
-    maxTexelGatherOffset DWORD ?
-    minInterpolationOffset DWORD ?
-    maxInterpolationOffset DWORD ?
-    subPixelInterpolationOffsetBits DWORD ?
-    maxFramebufferWidth DWORD ?
-    maxFramebufferHeight DWORD ?
-    maxFramebufferLayers DWORD ?
-    framebufferColorSampleCounts DWORD ?
-    framebufferDepthSampleCounts DWORD ?
-    framebufferStencilSampleCounts DWORD ?
-    framebufferNoAttachmentsSampleCounts DWORD ?
-    maxColorAttachments DWORD ?
-    sampledImageColorSampleCounts DWORD ?
-    sampledImageIntegerSampleCounts DWORD ?
-    sampledImageDepthSampleCounts DWORD ?
-    sampledImageStencilSampleCounts DWORD ?
-    storageImageSampleCounts DWORD ?
-    maxSampleMaskWords DWORD ?
-    timestampComputeAndGraphics DWORD ?
-    timestampPeriod DWORD ?
-    maxClipDistances DWORD ?
-    maxCullDistances DWORD ?
-    maxCombinedClipAndCullDistances DWORD ?
-    discreteQueuePriorities DWORD ?
-    pointSizeRange DWORD 2 dup(?)
-    lineWidthRange DWORD 2 dup(?)
-    pointSizeGranularity DWORD ?
-    lineWidthGranularity DWORD ?
-    strictLines DWORD ?
-    standardSampleLocations DWORD ?
-    optimalBufferCopyOffsetAlignment DWORD ?
-    optimalBufferCopyRowPitchAlignment DWORD ?
-    nonCoherentAtomSize DWORD ?
-    BYTE 4 dup(?)
-VkPhysicalDeviceLimits ENDS
+VkPhysicalDeviceLimits struct
+    maxImageDimension1D dword ?
+    maxImageDimension2D dword ?
+    maxImageDimension3D dword ?
+    maxImageDimensionCube dword ?
+    maxImageArrayLayers dword ?
+    maxTexelBufferElements dword ?
+    maxUniformBufferRange dword ?
+    maxStorageBufferRange dword ?
+    maxPushConstantsSize dword ?
+    maxMemoryAllocationCount dword ?
+    maxSamplerAllocationCount dword ?
+    byte 4 dup(?)
+    bufferImageGranularity qword ?
+    sparseAddressSpaceSize qword ?
+    maxBoundDescriptorSets dword ?
+    maxPerStageDescriptorSamplers dword ?
+    maxPerStageDescriptorUniformBuffers dword ?
+    maxPerStageDescriptorStorageBuffers dword ?
+    maxPerStageDescriptorSampledImages dword ?
+    maxPerStageDescriptorStorageImages dword ?
+    maxPerStageDescriptorInputAttachments dword ?
+    maxPerStageResources dword ?
+    maxDescriptorSetSamplers dword ?
+    maxDescriptorSetUniformBuffers dword ?
+    maxDescriptorSetUniformBuffersDynamic dword ?
+    maxDescriptorSetStorageBuffers dword ?
+    maxDescriptorSetStorageBuffersDynamic dword ?
+    maxDescriptorSetSampledImages dword ?
+    maxDescriptorSetStorageImages dword ?
+    maxDescriptorSetInputAttachments dword ?
+    maxVertexInputAttributes dword ?
+    maxVertexInputBindings dword ?
+    maxVertexInputAttributeOffset dword ?
+    maxVertexInputBindingStride dword ?
+    maxVertexOutputComponents dword ?
+    maxTessellationGenerationLevel dword ?
+    maxTessellationPatchSize dword ?
+    maxTessellationControlPerVertexInputComponents dword ?
+    maxTessellationControlPerVertexOutputComponents dword ?
+    maxTessellationControlPerPatchOutputComponents dword ?
+    maxTessellationControlTotalOutputComponents dword ?
+    maxTessellationEvaluationInputComponents dword ?
+    maxTessellationEvaluationOutputComponents dword ?
+    maxGeometryShaderInvocations dword ?
+    maxGeometryInputComponents dword ?
+    maxGeometryOutputComponents dword ?
+    maxGeometryOutputVertices dword ?
+    maxGeometryTotalOutputComponents dword ?
+    maxFragmentInputComponents dword ?
+    maxFragmentOutputAttachments dword ?
+    maxFragmentDualSrcAttachments dword ?
+    maxFragmentCombinedOutputResources dword ?
+    maxComputeSharedMemorySize dword ?
+    maxComputeWorkGroupCount dword 3 dup(?)
+    maxComputeWorkGroupInvocations dword ?
+    maxComputeWorkGroupSize dword 3 dup(?)
+    subPixelPrecisionBits dword ?
+    subTexelPrecisionBits dword ?
+    mipmapPrecisionBits dword ?
+    maxDrawIndexedIndexValue dword ?
+    maxDrawIndirectCount dword ?
+    maxSamplerLodBias real4 ?
+    maxSamplerAnisotropy real4 ?
+    maxViewports dword ?
+    maxViewportDimensions dword 2 dup(?)
+    viewportBoundsRange real4 2 dup(?)
+    viewportSubPixelBits dword ?
+    byte 4 dup(?)
+    minMemoryMapAlignment qword ?
+    minTexelBufferOffsetAlignment qword ?
+    minUniformBufferOffsetAlignment qword ?
+    minStorageBufferOffsetAlignment qword ?
+    minTexelOffset sdword ?
+    maxTexelOffset dword ?
+    minTexelGatherOffset sdword ?
+    maxTexelGatherOffset dword ?
+    minInterpolationOffset real4 ?
+    maxInterpolationOffset real4 ?
+    subPixelInterpolationOffsetBits dword ?
+    maxFramebufferWidth dword ?
+    maxFramebufferHeight dword ?
+    maxFramebufferLayers dword ?
+    framebufferColorSampleCounts dword ?
+    framebufferDepthSampleCounts dword ?
+    framebufferStencilSampleCounts dword ?
+    framebufferNoAttachmentsSampleCounts dword ?
+    maxColorAttachments dword ?
+    sampledImageColorSampleCounts dword ?
+    sampledImageIntegerSampleCounts dword ?
+    sampledImageDepthSampleCounts dword ?
+    sampledImageStencilSampleCounts dword ?
+    storageImageSampleCounts dword ?
+    maxSampleMaskWords dword ?
+    timestampComputeAndGraphics dword ?
+    timestampPeriod real4 ?
+    maxClipDistances dword ?
+    maxCullDistances dword ?
+    maxCombinedClipAndCullDistances dword ?
+    discreteQueuePriorities dword ?
+    pointSizeRange real4 2 dup(?)
+    lineWidthRange real4 2 dup(?)
+    pointSizeGranularity real4 ?
+    lineWidthGranularity real4 ?
+    strictLines dword ?
+    standardSampleLocations dword ?
+    byte 4 dup(?)
+    optimalBufferCopyOffsetAlignment qword ?
+    optimalBufferCopyRowPitchAlignment qword ?
+    nonCoherentAtomSize qword ?
+VkPhysicalDeviceLimits ends
 
 VkPhysicalDeviceMemoryProperties STRUCT
     memoryTypeCount DWORD ?
@@ -360,15 +362,17 @@ VkPhysicalDeviceProperties STRUCT
     vendorID DWORD ?
     deviceID DWORD ?
     deviceType DWORD ?
-    limits DWORD ?
-    sparseProperties DWORD ?
+    deviceName BYTE 256 dup(?)
+    piplineCacheUUID byte 16 dup(?)
+    limits VkPhysicalDeviceLimits <>
+    sparseProperties VkPhysicalDeviceSparseProperties <>
 VkPhysicalDeviceProperties ENDS
 
 VkQueueFamilyProperties STRUCT
     queueFlags DWORD ?
     queueCount DWORD ?
     timestampValidBits DWORD ?
-    minImageTransferGranularity DWORD ?
+    minImageTransferGranularity VkExtent3D <>
 VkQueueFamilyProperties ENDS
 
 VkDeviceQueueCreateInfo STRUCT
