@@ -40,6 +40,32 @@ VK_MAKE_API_VERSION macro name:req, variant:req, major:req, minor:req, patch:req
     name equ (((variant shl 29) or (major shl 22) or (minor shl 12) or patch))
 endm
 
+ExtensionValidationCheck macro i:req
+    ; local loop_extension_validation_layer_find, extension_validation_label_not_found
+    mov rsi, extensions_available
+    xor rcx, rcx
+    mov r8, sizeof VkExtensionProperties
+    mov r9, extension_string_array + 8 * i
+    loop_extension_validation_layer_find_&i&:
+        push rcx
+        push rdx
+        push r8
+        lea rcx, [rsi.VkExtensionProperties.extensionName]
+        mov rdx, r9
+        call strcmp64
+        cmp rax, 0
+        jne extension_validation_label_not_found_&i&
+        add found_extensions, 1
+        lea r9, extension_string_array + 8 * i
+        extension_validation_label_not_found_&i&:
+        pop r8
+        pop rdx
+        pop rcx
+        add rsi, r8
+        inc rcx
+        cmp rcx, extension_count
+        jl loop_extension_validation_layer_find_&i&
+endm
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .const
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -77,6 +103,8 @@ found_validation byte ?
 
 align 16
 vulkan_module HMODULE ?
+; instance
+;---------------------------------------------------------------------------------------------------
 align 16
 context_instance VkInstance ?
 align 16
@@ -84,6 +112,8 @@ application_info VkApplicationInfo <>
 align 16
 instance_info VkInstanceCreateInfo <>
 
+; validation layers
+;---------------------------------------------------------------------------------------------------
 layer_string_0 byte "VK_LAYER_KHRONOS_validation", 0
 layers qword offset layer_string_0
 layers_available qword ?
@@ -101,9 +131,11 @@ extension_string_array_count = (extension_string_array_end - extension_string_ar
 extensions_available qword ?
 extension_count qword ?
 found_extensions byte ?
+required_extension_count byte ?
 
 align 16
 debug_callback_create_info VkDebugUtilsMessengerCreateInfoEXT <>
+
 align 16
 debug_callback_create_info_2 VkDebugUtilsMessengerCreateInfoEXT <>
 debug_messenger qword ?
@@ -112,21 +144,39 @@ align 16
 surface_create_info VkWin32SurfaceCreateInfoKHR <>
 context_surface VkSurfaceKHR ?
 
+; devices
+;---------------------------------------------------------------------------------------------------
+physical_device_count qword ?
+; VkPhysicalDevice
+physical_devices qword ?
+align 16
+device_properties VkPhysicalDeviceProperties <>
+align 16
+queue_family_count qword ?
+; VkQueueFamilyProperties 
+queue_family_properties qword ?
+supports_present byte ?
+
 ; procs to load
+;---------------------------------------------------------------------------------------------------
+; load from dll
 vkEnumerateInstanceLayerProperties qword ?
 vkEnumerateInstanceExtensionProperties qword ?
 vkCreateInstance qword ?
 
+; load from api
 vkGetInstanceProcAddr qword ?
 vkCreateDebugReportCallbackEXT qword ?
 vkDestroyDebugReportCallbackEXT qword ?
 vkDebugReportMessageEXT qword ?
 vkCreateDebugUtilsMessengerEXT qword ?
 vkCreateWin32SurfaceKHR qword ?
-
-;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+vkEnumeratePhysicalDevices qword ?
+vkGetPhysicalDeviceQueueFamilyProperties qword ?
+vkGetPhysicalDeviceSurfaceSupportKHR qword ?
+;---------------------------------------------------------------------------------------------------
 .code
-;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+;---------------------------------------------------------------------------------------------------
 align 16
 VulkanLoad proc
     invoke LoadLibrary, "vulkan-1.dll"
@@ -473,75 +523,14 @@ main proc
     ; mov r9, extension_string_array + sizeof qword * 1
     ; mov r9, extension_string_array + sizeof qword * 2
 
-    mov rsi, extensions_available
-    xor rcx, rcx
-    mov r8, sizeof VkExtensionProperties
-    mov r9, extension_string_array + 8 * 0
-    loop_extension_validation_layer_find_00000000:
-        push rcx
-        push rdx
-        lea rcx, [rsi.VkExtensionProperties.extensionName]
-        mov rdx, r9
-        call strcmp64
-        cmp rax, 0
-        jne extension_validation_label_not_found_00000000 
-        add found_extensions, 1
-        lea r9, layer_string_0
-        extension_validation_label_not_found_00000000:
-        pop rdx
-        pop rcx
-        add rsi, r8
-        inc rcx
-        cmp rcx, extension_count
-        jl loop_extension_validation_layer_find_00000000
-
-    mov rsi, extensions_available
-    xor rcx, rcx
-    mov r8, sizeof VkExtensionProperties
-    mov r9, extension_string_array + 8 * 1
-    loop_extension_validation_layer_find_00000001:
-        push rcx
-        push rdx
-        lea rcx, [rsi.VkExtensionProperties.extensionName]
-        mov rdx, r9
-        call strcmp64
-        cmp rax, 0
-        jne extension_validation_label_not_found_00000001
-        add found_extensions, 1
-        lea r9, layer_string_0
-        extension_validation_label_not_found_00000001:
-        pop rdx
-        pop rcx
-        add rsi, r8
-        inc rcx
-        cmp rcx, extension_count
-        jl loop_extension_validation_layer_find_00000001
-
-    mov rsi, extensions_available
-    xor rcx, rcx
-    mov r8, sizeof VkExtensionProperties
-    mov r9, extension_string_array + 8 * 2
-    loop_extension_validation_layer_find_00000002:
-        push rcx
-        push rdx
-        lea rcx, [rsi.VkExtensionProperties.extensionName]
-        mov rdx, r9
-        call strcmp64
-        cmp rax, 0
-        jne extension_validation_label_not_found_00000002 
-        add found_extensions, 1
-        lea r9, layer_string_0
-        extension_validation_label_not_found_00000002:
-        pop rdx
-        pop rcx
-        add rsi, r8
-        inc rcx
-        cmp rcx, extension_count
-        jl loop_extension_validation_layer_find_00000002
+    ExtensionValidationCheck 0
+    ExtensionValidationCheck 1
+    ExtensionValidationCheck 2
+    ; include asmgen.asm
     invoke arenaSetPos, ADDR arena, pos
 
-    mov al, extension_string_array_count
-    AssertEq al, found_extensions
+    mov al, found_extensions
+    AssertEq al, extension_string_array_count
 
     ; create instance
     mov application_info.sType, VK_STRUCTURE_TYPE_APPLICATION_INFO
