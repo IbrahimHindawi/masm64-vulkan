@@ -1,3 +1,0 @@
-[submodule "extern/masm64-custom-sdk"]
-	path = extern/masm64-custom-sdk
-	url = https://github.com/andrew-canafe/masm64-custom-sdk
