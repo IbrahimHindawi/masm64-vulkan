@@ -12,14 +12,14 @@ VkWin32SurfaceCreateInfoKHR struct
     pNext qword ?
 ;   TypeKind.ELABORATED
 ;   name = flags, type = VkWin32SurfaceCreateFlagsKHR, offset = 16, size = 4
-    flags VkWin32SurfaceCreateFlagsKHR ?
+    flags VkWin32SurfaceCreateFlagsKHR <>
     byte 4 dup(?)
 ;   TypeKind.ELABORATED
 ;   name = hinstance, type = HINSTANCE, offset = 24, size = 8
-    hinstance HINSTANCE ?
+    hinstance HINSTANCE <>
 ;   TypeKind.ELABORATED
 ;   name = hwnd, type = HWND, offset = 32, size = 8
-    hwnd HWND ?
+    hwnd HWND <>
 VkWin32SurfaceCreateInfoKHR ends
 
 ; TYPEDEF VkWin32SurfaceCreateInfoKHR = struct VkWin32SurfaceCreateInfoKHR, TypeKind.ELABORATED
@@ -30,6 +30,9 @@ PFN_vkCreateWin32SurfaceKHR typedef qword
 
 ; TYPEDEF PFN_vkGetPhysicalDeviceWin32PresentationSupportKHR = VkBool32 (*)(VkPhysicalDevice, uint32_t) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetPhysicalDeviceWin32PresentationSupportKHR typedef qword
+
+; VkResult vkCreateWin32SurfaceKHR(VkInstance instance, const VkWin32SurfaceCreateInfoKHR * pCreateInfo, const VkAllocationCallbacks * pAllocator, VkSurfaceKHR * pSurface)
+vkCreateWin32SurfaceKHR qword ?
 
 ; VkBool32 vkGetPhysicalDeviceWin32PresentationSupportKHR(VkPhysicalDevice physicalDevice, uint32_t queueFamilyIndex)
 vkGetPhysicalDeviceWin32PresentationSupportKHR qword ?
@@ -478,18 +481,18 @@ VkSurfaceCapabilitiesFullScreenExclusiveEXT ends
 ; TYPEDEF VkSurfaceCapabilitiesFullScreenExclusiveEXT = struct VkSurfaceCapabilitiesFullScreenExclusiveEXT, TypeKind.ELABORATED
 ; remove struct typedef
 
-; VkSurfaceFullScreenExclusiveWin32InfoEXT struct
-; ;   TypeKind.ELABORATED
-; ;   name = sType, type = VkStructureType, offset = 0, size = 4
-;     _sType dword ?
-;     byte 4 dup(?)
-; ;   TypeKind.POINTER
-; ;   name = pNext, type = const void *, offset = 8, size = 8
-;     pNext qword ?
-; ;   TypeKind.ELABORATED
-; ;   name = hmonitor, type = HMONITOR, offset = 16, size = 8
-;     hmonitor HMONITOR <>
-; VkSurfaceFullScreenExclusiveWin32InfoEXT ends
+VkSurfaceFullScreenExclusiveWin32InfoEXT struct
+;   TypeKind.ELABORATED
+;   name = sType, type = VkStructureType, offset = 0, size = 4
+    _sType dword ?
+    byte 4 dup(?)
+;   TypeKind.POINTER
+;   name = pNext, type = const void *, offset = 8, size = 8
+    pNext qword ?
+;   TypeKind.ELABORATED
+;   name = hmonitor, type = HMONITOR, offset = 16, size = 8
+    hmonitor HMONITOR <>
+VkSurfaceFullScreenExclusiveWin32InfoEXT ends
 
 ; TYPEDEF VkSurfaceFullScreenExclusiveWin32InfoEXT = struct VkSurfaceFullScreenExclusiveWin32InfoEXT, TypeKind.ELABORATED
 ; remove struct typedef
@@ -505,3 +508,28 @@ PFN_vkReleaseFullScreenExclusiveModeEXT typedef qword
 
 ; TYPEDEF PFN_vkGetDeviceGroupSurfacePresentModes2EXT = VkResult (*)(VkDevice, const VkPhysicalDeviceSurfaceInfo2KHR *, VkDeviceGroupPresentModeFlagsKHR *) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetDeviceGroupSurfacePresentModes2EXT typedef qword
+
+; VkResult vkGetPhysicalDeviceSurfacePresentModes2EXT(VkPhysicalDevice physicalDevice, const VkPhysicalDeviceSurfaceInfo2KHR * pSurfaceInfo, uint32_t * pPresentModeCount, VkPresentModeKHR * pPresentModes)
+vkGetPhysicalDeviceSurfacePresentModes2EXT qword ?
+
+; VkResult vkAcquireFullScreenExclusiveModeEXT(VkDevice device, VkSwapchainKHR swapchain)
+vkAcquireFullScreenExclusiveModeEXT qword ?
+
+; VkResult vkReleaseFullScreenExclusiveModeEXT(VkDevice device, VkSwapchainKHR swapchain)
+vkReleaseFullScreenExclusiveModeEXT qword ?
+
+; VkResult vkGetDeviceGroupSurfacePresentModes2EXT(VkDevice device, const VkPhysicalDeviceSurfaceInfo2KHR * pSurfaceInfo, VkDeviceGroupPresentModeFlagsKHR * pModes)
+vkGetDeviceGroupSurfacePresentModes2EXT qword ?
+
+; TYPEDEF PFN_vkAcquireWinrtDisplayNV = VkResult (*)(VkPhysicalDevice, VkDisplayKHR) __attribute__((stdcall)), TypeKind.POINTER
+PFN_vkAcquireWinrtDisplayNV typedef qword
+
+; TYPEDEF PFN_vkGetWinrtDisplayNV = VkResult (*)(VkPhysicalDevice, uint32_t, VkDisplayKHR *) __attribute__((stdcall)), TypeKind.POINTER
+PFN_vkGetWinrtDisplayNV typedef qword
+
+; VkResult vkAcquireWinrtDisplayNV(VkPhysicalDevice physicalDevice, VkDisplayKHR display)
+vkAcquireWinrtDisplayNV qword ?
+
+; VkResult vkGetWinrtDisplayNV(VkPhysicalDevice physicalDevice, uint32_t deviceRelativeId, VkDisplayKHR * pDisplay)
+vkGetWinrtDisplayNV qword ?
+
