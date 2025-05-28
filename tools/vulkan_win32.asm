@@ -12,7 +12,7 @@ VkWin32SurfaceCreateInfoKHR struct
     pNext qword ?
 ;   TypeKind.ELABORATED
 ;   name = flags, type = VkWin32SurfaceCreateFlagsKHR, offset = 16, size = 4
-    flags VkWin32SurfaceCreateFlagsKHR <>
+    flags VkWin32SurfaceCreateFlagsKHR ?
     byte 4 dup(?)
 ;   TypeKind.ELABORATED
 ;   name = hinstance, type = HINSTANCE, offset = 24, size = 8
@@ -31,11 +31,11 @@ PFN_vkCreateWin32SurfaceKHR typedef qword
 ; TYPEDEF PFN_vkGetPhysicalDeviceWin32PresentationSupportKHR = VkBool32 (*)(VkPhysicalDevice, uint32_t) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetPhysicalDeviceWin32PresentationSupportKHR typedef qword
 
-; VkResult vkCreateWin32SurfaceKHR(VkInstance instance, const VkWin32SurfaceCreateInfoKHR * pCreateInfo, const VkAllocationCallbacks * pAllocator, VkSurfaceKHR * pSurface)
-vkCreateWin32SurfaceKHR qword ?
+; FUNCTION VkResult vkCreateWin32SurfaceKHR(VkInstance instance, const VkWin32SurfaceCreateInfoKHR * pCreateInfo, const VkAllocationCallbacks * pAllocator, VkSurfaceKHR * pSurface)
+;vkCreateWin32SurfaceKHR qword ?
 
-; VkBool32 vkGetPhysicalDeviceWin32PresentationSupportKHR(VkPhysicalDevice physicalDevice, uint32_t queueFamilyIndex)
-vkGetPhysicalDeviceWin32PresentationSupportKHR qword ?
+; FUNCTION VkBool32 vkGetPhysicalDeviceWin32PresentationSupportKHR(VkPhysicalDevice physicalDevice, uint32_t queueFamilyIndex)
+;vkGetPhysicalDeviceWin32PresentationSupportKHR qword ?
 
 VkImportMemoryWin32HandleInfoKHR struct
 ;   TypeKind.ELABORATED
@@ -124,11 +124,11 @@ PFN_vkGetMemoryWin32HandleKHR typedef qword
 ; TYPEDEF PFN_vkGetMemoryWin32HandlePropertiesKHR = VkResult (*)(VkDevice, VkExternalMemoryHandleTypeFlagBits, HANDLE, VkMemoryWin32HandlePropertiesKHR *) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetMemoryWin32HandlePropertiesKHR typedef qword
 
-; VkResult vkGetMemoryWin32HandleKHR(VkDevice device, const VkMemoryGetWin32HandleInfoKHR * pGetWin32HandleInfo, HANDLE * pHandle)
-vkGetMemoryWin32HandleKHR qword ?
+; FUNCTION VkResult vkGetMemoryWin32HandleKHR(VkDevice device, const VkMemoryGetWin32HandleInfoKHR * pGetWin32HandleInfo, HANDLE * pHandle)
+;vkGetMemoryWin32HandleKHR qword ?
 
-; VkResult vkGetMemoryWin32HandlePropertiesKHR(VkDevice device, VkExternalMemoryHandleTypeFlagBits handleType, HANDLE handle, VkMemoryWin32HandlePropertiesKHR * pMemoryWin32HandleProperties)
-vkGetMemoryWin32HandlePropertiesKHR qword ?
+; FUNCTION VkResult vkGetMemoryWin32HandlePropertiesKHR(VkDevice device, VkExternalMemoryHandleTypeFlagBits handleType, HANDLE handle, VkMemoryWin32HandlePropertiesKHR * pMemoryWin32HandleProperties)
+;vkGetMemoryWin32HandlePropertiesKHR qword ?
 
 VkWin32KeyedMutexAcquireReleaseInfoKHR struct
 ;   TypeKind.ELABORATED
@@ -269,11 +269,11 @@ PFN_vkImportSemaphoreWin32HandleKHR typedef qword
 ; TYPEDEF PFN_vkGetSemaphoreWin32HandleKHR = VkResult (*)(VkDevice, const VkSemaphoreGetWin32HandleInfoKHR *, HANDLE *) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetSemaphoreWin32HandleKHR typedef qword
 
-; VkResult vkImportSemaphoreWin32HandleKHR(VkDevice device, const VkImportSemaphoreWin32HandleInfoKHR * pImportSemaphoreWin32HandleInfo)
-vkImportSemaphoreWin32HandleKHR qword ?
+; FUNCTION VkResult vkImportSemaphoreWin32HandleKHR(VkDevice device, const VkImportSemaphoreWin32HandleInfoKHR * pImportSemaphoreWin32HandleInfo)
+;vkImportSemaphoreWin32HandleKHR qword ?
 
-; VkResult vkGetSemaphoreWin32HandleKHR(VkDevice device, const VkSemaphoreGetWin32HandleInfoKHR * pGetWin32HandleInfo, HANDLE * pHandle)
-vkGetSemaphoreWin32HandleKHR qword ?
+; FUNCTION VkResult vkGetSemaphoreWin32HandleKHR(VkDevice device, const VkSemaphoreGetWin32HandleInfoKHR * pGetWin32HandleInfo, HANDLE * pHandle)
+;vkGetSemaphoreWin32HandleKHR qword ?
 
 VkImportFenceWin32HandleInfoKHR struct
 ;   TypeKind.ELABORATED
@@ -351,11 +351,11 @@ PFN_vkImportFenceWin32HandleKHR typedef qword
 ; TYPEDEF PFN_vkGetFenceWin32HandleKHR = VkResult (*)(VkDevice, const VkFenceGetWin32HandleInfoKHR *, HANDLE *) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetFenceWin32HandleKHR typedef qword
 
-; VkResult vkImportFenceWin32HandleKHR(VkDevice device, const VkImportFenceWin32HandleInfoKHR * pImportFenceWin32HandleInfo)
-vkImportFenceWin32HandleKHR qword ?
+; FUNCTION VkResult vkImportFenceWin32HandleKHR(VkDevice device, const VkImportFenceWin32HandleInfoKHR * pImportFenceWin32HandleInfo)
+;vkImportFenceWin32HandleKHR qword ?
 
-; VkResult vkGetFenceWin32HandleKHR(VkDevice device, const VkFenceGetWin32HandleInfoKHR * pGetWin32HandleInfo, HANDLE * pHandle)
-vkGetFenceWin32HandleKHR qword ?
+; FUNCTION VkResult vkGetFenceWin32HandleKHR(VkDevice device, const VkFenceGetWin32HandleInfoKHR * pGetWin32HandleInfo, HANDLE * pHandle)
+;vkGetFenceWin32HandleKHR qword ?
 
 VkImportMemoryWin32HandleInfoNV struct
 ;   TypeKind.ELABORATED
@@ -399,8 +399,8 @@ VkExportMemoryWin32HandleInfoNV ends
 ; TYPEDEF PFN_vkGetMemoryWin32HandleNV = VkResult (*)(VkDevice, VkDeviceMemory, VkExternalMemoryHandleTypeFlagsNV, HANDLE *) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetMemoryWin32HandleNV typedef qword
 
-; VkResult vkGetMemoryWin32HandleNV(VkDevice device, VkDeviceMemory memory, VkExternalMemoryHandleTypeFlagsNV handleType, HANDLE * pHandle)
-vkGetMemoryWin32HandleNV qword ?
+; FUNCTION VkResult vkGetMemoryWin32HandleNV(VkDevice device, VkDeviceMemory memory, VkExternalMemoryHandleTypeFlagsNV handleType, HANDLE * pHandle)
+;vkGetMemoryWin32HandleNV qword ?
 
 VkWin32KeyedMutexAcquireReleaseInfoNV struct
 ;   TypeKind.ELABORATED
@@ -459,7 +459,7 @@ VkSurfaceFullScreenExclusiveInfoEXT struct
     pNext qword ?
 ;   TypeKind.ELABORATED
 ;   name = fullScreenExclusive, type = VkFullScreenExclusiveEXT, offset = 16, size = 4
-    fullScreenExclusive VkFullScreenExclusiveEXT <>
+    fullScreenExclusive VkFullScreenExclusiveEXT ?
 VkSurfaceFullScreenExclusiveInfoEXT ends
 
 ; TYPEDEF VkSurfaceFullScreenExclusiveInfoEXT = struct VkSurfaceFullScreenExclusiveInfoEXT, TypeKind.ELABORATED
@@ -509,17 +509,17 @@ PFN_vkReleaseFullScreenExclusiveModeEXT typedef qword
 ; TYPEDEF PFN_vkGetDeviceGroupSurfacePresentModes2EXT = VkResult (*)(VkDevice, const VkPhysicalDeviceSurfaceInfo2KHR *, VkDeviceGroupPresentModeFlagsKHR *) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetDeviceGroupSurfacePresentModes2EXT typedef qword
 
-; VkResult vkGetPhysicalDeviceSurfacePresentModes2EXT(VkPhysicalDevice physicalDevice, const VkPhysicalDeviceSurfaceInfo2KHR * pSurfaceInfo, uint32_t * pPresentModeCount, VkPresentModeKHR * pPresentModes)
-vkGetPhysicalDeviceSurfacePresentModes2EXT qword ?
+; FUNCTION VkResult vkGetPhysicalDeviceSurfacePresentModes2EXT(VkPhysicalDevice physicalDevice, const VkPhysicalDeviceSurfaceInfo2KHR * pSurfaceInfo, uint32_t * pPresentModeCount, VkPresentModeKHR * pPresentModes)
+;vkGetPhysicalDeviceSurfacePresentModes2EXT qword ?
 
-; VkResult vkAcquireFullScreenExclusiveModeEXT(VkDevice device, VkSwapchainKHR swapchain)
-vkAcquireFullScreenExclusiveModeEXT qword ?
+; FUNCTION VkResult vkAcquireFullScreenExclusiveModeEXT(VkDevice device, VkSwapchainKHR swapchain)
+;vkAcquireFullScreenExclusiveModeEXT qword ?
 
-; VkResult vkReleaseFullScreenExclusiveModeEXT(VkDevice device, VkSwapchainKHR swapchain)
-vkReleaseFullScreenExclusiveModeEXT qword ?
+; FUNCTION VkResult vkReleaseFullScreenExclusiveModeEXT(VkDevice device, VkSwapchainKHR swapchain)
+;vkReleaseFullScreenExclusiveModeEXT qword ?
 
-; VkResult vkGetDeviceGroupSurfacePresentModes2EXT(VkDevice device, const VkPhysicalDeviceSurfaceInfo2KHR * pSurfaceInfo, VkDeviceGroupPresentModeFlagsKHR * pModes)
-vkGetDeviceGroupSurfacePresentModes2EXT qword ?
+; FUNCTION VkResult vkGetDeviceGroupSurfacePresentModes2EXT(VkDevice device, const VkPhysicalDeviceSurfaceInfo2KHR * pSurfaceInfo, VkDeviceGroupPresentModeFlagsKHR * pModes)
+;vkGetDeviceGroupSurfacePresentModes2EXT qword ?
 
 ; TYPEDEF PFN_vkAcquireWinrtDisplayNV = VkResult (*)(VkPhysicalDevice, VkDisplayKHR) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkAcquireWinrtDisplayNV typedef qword
@@ -527,9 +527,9 @@ PFN_vkAcquireWinrtDisplayNV typedef qword
 ; TYPEDEF PFN_vkGetWinrtDisplayNV = VkResult (*)(VkPhysicalDevice, uint32_t, VkDisplayKHR *) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkGetWinrtDisplayNV typedef qword
 
-; VkResult vkAcquireWinrtDisplayNV(VkPhysicalDevice physicalDevice, VkDisplayKHR display)
-vkAcquireWinrtDisplayNV qword ?
+; FUNCTION VkResult vkAcquireWinrtDisplayNV(VkPhysicalDevice physicalDevice, VkDisplayKHR display)
+;vkAcquireWinrtDisplayNV qword ?
 
-; VkResult vkGetWinrtDisplayNV(VkPhysicalDevice physicalDevice, uint32_t deviceRelativeId, VkDisplayKHR * pDisplay)
-vkGetWinrtDisplayNV qword ?
+; FUNCTION VkResult vkGetWinrtDisplayNV(VkPhysicalDevice physicalDevice, uint32_t deviceRelativeId, VkDisplayKHR * pDisplay)
+;vkGetWinrtDisplayNV qword ?
 
