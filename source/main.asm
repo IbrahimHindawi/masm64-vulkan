@@ -15,6 +15,8 @@ include vulkan_win32.asm
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; types
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+true equ 1
+false equ 0
 pointer typedef qword
 VkInstance typedef qword
 VkSurfaceKHR typedef qword
@@ -34,6 +36,12 @@ QueueFamilyIndices struct
     graphicsFamily dword ?
     presentFamily dword ?
 QueueFamilyIndices ends
+
+SwapChainSupportDetails struct
+    capabilities VkSurfaceCapabilitiesKHR <>
+    formats qword ?
+    present_modes qword ?
+SwapChainSupportDetails ends
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
@@ -126,6 +134,10 @@ instance_info VkInstanceCreateInfo <>
 
 ; validation layers
 ;---------------------------------------------------------------------------------------------------
+
+vk_khr_swapchain_extension_name byte "VK_KHR_swapchain", 0
+device_extensions qword offset vk_khr_swapchain_extension_name
+
 layer_string_0 byte "VK_LAYER_KHRONOS_validation", 0
 layers qword offset layer_string_0
 layers_available qword ?
@@ -165,7 +177,11 @@ align 16
 device_properties VkPhysicalDeviceProperties <>
 align 16
 supports_present byte ?
-queue_families_has_value byte ?
+device_queue_families_has_value byte ?
+device_extensions_supported byte ?
+device_swapchain_adequate byte ?
+align 16
+swapchain_support SwapChainSupportDetails <>
 
 
 align 8
@@ -174,8 +190,12 @@ queue_family_count dword ?
 present_support dword ?
 align 16
 indices QueueFamilyIndices <>
-align 16
-findQueueFamilies_indices QueueFamilyIndices <>
+; align 16
+; findQueueFamilies_indices QueueFamilyIndices <>
+
+; device extensions
+device_extension_count qword ?
+device_available_extensions qword ?; VkExtensionProperties
 
 
 ; procs to load
@@ -184,6 +204,7 @@ findQueueFamilies_indices QueueFamilyIndices <>
 vkEnumerateInstanceLayerProperties qword ?
 vkEnumerateInstanceExtensionProperties qword ?
 vkCreateInstance qword ?
+vkEnumerateDeviceExtensionProperties qword ?
 
 ; load from api
 vkGetInstanceProcAddr qword ?
@@ -243,6 +264,10 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkGetPhysicalDeviceQueueFamilyProperties"
     AssertNotEq rax, 0
     mov vkGetPhysicalDeviceQueueFamilyProperties, rax
+
+    invoke GetProcAddress, vulkan_module, "vkEnumerateDeviceExtensionProperties"
+    AssertNotEq rax, 0
+    mov vkEnumerateDeviceExtensionProperties, rax
 
     ret
 VulkanLoad endp
@@ -499,7 +524,6 @@ findQueueFamilies proc
     ; xor r8, r8
     invoke vkGetPhysicalDeviceQueueFamilyProperties, rcx, ADDR queue_family_count, 0
 
-    ; allocate
     xor rdx, rdx
     mov edx, sizeof VkQueueFamilyProperties
     mov eax, queue_family_count
@@ -512,46 +536,47 @@ findQueueFamilies proc
 
     invoke vkGetPhysicalDeviceQueueFamilyProperties, r13, ADDR queue_family_count, rax
 
-    xor rdx, rdx ; graphics_family_has_value
-    xor rax, rax
-    xor rbx, rbx
-    xor r8, r8 ; present_family_has_value
+    xor rdx, rdx; graphics_family_has_value
+    xor r8, r8; present_family_has_value
+    xor rax, rax;
+    xor rbx, rbx;
 
-    xor r11, r11
+    xor rdi, rdi
     mov rsi, queue_family_properties
     queue_family_properties_loop_00000001:
         mov eax, [rsi].VkQueueFamilyProperties.queueFlags
         mov rbx, VK_QUEUE_GRAPHICS_BIT
         and rax, rbx
-        cmp rax, 0
+        cmp rax, false
         je has_not_queue_graphics_bit
-            mov indices.graphicsFamily, r11d
-            mov rdx, 1
+            mov indices.graphicsFamily, edi
+            mov rdx, true
         has_not_queue_graphics_bit:
-        invoke vkGetPhysicalDeviceSurfaceSupportKHR, r13, r11, context_surface, ADDR present_support
-        mov r10d, present_support
-        cmp r10, 0
+        invoke vkGetPhysicalDeviceSurfaceSupportKHR, r13, rdi, context_surface, ADDR present_support
+        mov r10d, present_support; present_family_has_value
+        cmp r10, false
         je has_not_present
-            mov indices.presentFamily, r11d
-            mov r8, 1
+            mov indices.presentFamily, edi
+            mov r8, true; graphics_family_has_value
         has_not_present:
-        and r8, rdx
-        cmp r8, 0
-        je has_not_both
-            mov rax, 1
+        and r8, r10; graphics_family_has_value && present_family_has_value
+        cmp r8, false
+        je has_neither
+            mov rbx, true
             jmp found_it
-        has_not_both:
+        has_neither:
 
         add rsi, sizeof VkQueueFamilyProperties
-        inc r11d
-        cmp r11d, queue_family_count
+        inc edi
+        cmp edi, queue_family_count
         jl queue_family_properties_loop_00000001
 
     found_it:
-    ; copy found indices outwards
-    ; mov findQueueFamilies_indices
+    ; copy found indices outwards (decided to make a global variable)
+    ; mov findQueueFamilies_indices:QueueFamilyIndices (this var wont be required for now)
     ; free
     invoke arenaSetPos, ADDR arena, pos
+    xchg rax, rbx
 
     RestoreRegisters
     add rsp, 32
@@ -559,15 +584,95 @@ findQueueFamilies proc
     ret
 findQueueFamilies endp
 
-align 16
-isDeviceSuitable proc
+checkDeviceExtensionSupport proc
     push rbp
     mov rbp, rsp
     sub rsp, 32
     SaveRegisters
 
-    ; mov rcx, physical_devices[i]
+    mov rbx, rcx
+    invoke vkEnumerateDeviceExtensionProperties, rcx, 0, ADDR device_extension_count, 0
+
+    xor rdx, rdx
+    mov edx, sizeof VkExtensionProperties
+    mov rax, device_extension_count
+    mul edx
+    invoke arenaPushZero, ADDR arena, rax, alignofqword
+    AssertNotEq rax, 0
+    mov device_available_extensions, rax
+    mov pos, rax
+
+    mov rcx, rbx
+    invoke vkEnumerateDeviceExtensionProperties, rcx, 0, ADDR device_extension_count, device_available_extensions
+    AssertEq rax, VK_SUCCESS
+
+    xor rbx, rbx; layer_found:bool
+    xor rsi, rsi; i
+    xor rdi, rdi
+    xor r14, r14
+    lea r12, vk_khr_swapchain_extension_name
+    device_extension_check_loop_00000001:
+        mov rax, device_available_extensions
+        lea r13, [rax.VkExtensionProperties.extensionName + rdi]
+        mov rcx, r13
+        mov rdx, r12
+        call strcmp64
+        cmp rax, 0
+        jne not_match
+            mov rbx, true
+            jmp found_device_extension_support
+        not_match:
+
+        add rdi, sizeof VkExtensionProperties
+        inc rsi
+        cmp rsi, device_extension_count
+        jl device_extension_check_loop_00000001
+
+    found_device_extension_support:
+    invoke arenaSetPos, ADDR arena, pos
+
+    mov rax, rbx
+
+    RestoreRegisters
+    add rsp, 32
+    pop rbp
+    ret
+checkDeviceExtensionSupport endp
+
+querySwapChainSupport proc
+    push rbp
+    mov rbp, rsp
+    sub rsp, 32
+    SaveRegisters
+    ; ---
+    RestoreRegisters
+    add rsp, 32
+    pop rbp
+    ret
+querySwapChainSupport endp
+
+align 16
+isDeviceSuitable proc; rcx: physical_device
+    push rbp
+    mov rbp, rsp
+    sub rsp, 32
+    SaveRegisters
+
     invoke findQueueFamilies, rcx
+    mov device_queue_families_has_value, al
+
+    invoke checkDeviceExtensionSupport, rcx
+    mov device_extensions_supported, al
+
+    xor rbx, rbx
+    cmp device_extensions_supported, 0
+    je device_extensions_supported_false
+        ; swapchain_support = querySwapChainSupport(device)
+        ; mov rcx, device
+        call querySwapChainSupport
+    device_extensions_supported_false:
+
+    ; rax = device_queue_families_has_value  && device_extensions_supported && device_swapchain_adequate
 
     RestoreRegisters
     add rsp, 32
