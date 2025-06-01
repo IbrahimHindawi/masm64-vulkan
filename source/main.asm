@@ -101,14 +101,15 @@ application_name byte "MASM64Vulkan", 0
 
 VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
 
-;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-.data
-;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-pos qword ?
 paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
 vulkan_phrase byte "Vulkan Validation Layer: ", 0
 new_line byte ".", 0ah, 0
+;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+.data
+;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+; win32
 align 16
 window_instance qword ?
 nShowCmd sdword 10
@@ -125,7 +126,7 @@ align 16
 vulkan_module HMODULE ?
 ; instance
 ;---------------------------------------------------------------------------------------------------
-align 16
+align 8
 context_instance VkInstance ?
 align 16
 application_info VkApplicationInfo <>
@@ -166,6 +167,7 @@ debug_messenger qword ?
 
 align 16
 surface_create_info VkWin32SurfaceCreateInfoKHR <>
+align 8
 context_surface VkSurfaceKHR ?
 
 ; devices
@@ -177,12 +179,16 @@ align 16
 device_properties VkPhysicalDeviceProperties <>
 align 16
 supports_present byte ?
+
 device_queue_families_has_value byte ?
 device_extensions_supported byte ?
 device_swapchain_adequate byte ?
-align 16
-swapchain_support SwapChainSupportDetails <>
 
+align 16
+device_swapchain_support SwapChainSupportDetails <>
+
+swapchain_format_count dword ?
+swapchain_present_mode_count dword ?
 
 align 8
 queue_family_properties qword ?; VkQueueFamilyProperties
@@ -194,9 +200,11 @@ indices QueueFamilyIndices <>
 ; findQueueFamilies_indices QueueFamilyIndices <>
 
 ; device extensions
+align 16
 device_extension_count qword ?
 device_available_extensions qword ?; VkExtensionProperties
 
+physical_device qword ?
 
 ; procs to load
 ;---------------------------------------------------------------------------------------------------
@@ -209,20 +217,20 @@ vkEnumerateDeviceExtensionProperties qword ?
 ; load from api
 vkGetInstanceProcAddr qword ?
 vkCreateDebugReportCallbackEXT qword ?
-; void vkDestroyDebugReportCallbackEXT(VkInstance instance, VkDebugReportCallbackEXT callback, const VkAllocationCallbacks * pAllocator)
 vkDestroyDebugReportCallbackEXT qword ?
-; TYPEDEF PFN_vkDebugReportMessageEXT = void (*)(VkInstance, VkDebugReportFlagsEXT, VkDebugReportObjectTypeEXT, uint64_t, size_t, int32_t, const char *, const char *) __attribute__((stdcall)), TypeKind.POINTER
 PFN_vkDebugReportMessageEXT typedef qword
 vkDebugReportMessageEXT qword ?
-; vkCreateDebugUtilsMessengerEXT qword ?
 vkCreateWin32SurfaceKHR qword ?
 vkEnumeratePhysicalDevices qword ?
 vkGetPhysicalDeviceProperties qword ?
 vkGetPhysicalDeviceQueueFamilyProperties qword ?
 vkGetPhysicalDeviceSurfaceSupportKHR qword ?
-; VkResult vkCreateInstance(const VkInstanceCreateInfo * pCreateInfo, const VkAllocationCallbacks * pAllocator, VkInstance * pInstance)
-; VkResult vkCreateDebugUtilsMessengerEXT(VkInstance instance, const VkDebugUtilsMessengerCreateInfoEXT * pCreateInfo, const VkAllocationCallbacks * pAllocator, VkDebugUtilsMessengerEXT * pMessenger)
 vkCreateDebugUtilsMessengerEXT qword ?
+vkGetPhysicalDeviceSurfaceCapabilitiesKHR qword ?
+vkGetPhysicalDeviceSurfaceFormatsKHR qword ?
+vkGetPhysicalDeviceSurfacePresentModesKHR qword ?
+
+pos qword ?
 
 ;---------------------------------------------------------------------------------------------------
 .code
@@ -268,6 +276,18 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkEnumerateDeviceExtensionProperties"
     AssertNotEq rax, 0
     mov vkEnumerateDeviceExtensionProperties, rax
+
+    invoke GetProcAddress, vulkan_module, "vkGetPhysicalDeviceSurfaceCapabilitiesKHR"
+    AssertNotEq rax, 0
+    mov vkGetPhysicalDeviceSurfaceCapabilitiesKHR, rax
+
+    invoke GetProcAddress, vulkan_module, "vkGetPhysicalDeviceSurfaceFormatsKHR"
+    AssertNotEq rax, 0
+    mov vkGetPhysicalDeviceSurfaceFormatsKHR, rax
+
+    invoke GetProcAddress, vulkan_module, "vkGetPhysicalDeviceSurfacePresentModesKHR"
+    AssertNotEq rax, 0
+    mov vkGetPhysicalDeviceSurfacePresentModesKHR, rax
 
     ret
 VulkanLoad endp
@@ -644,7 +664,42 @@ querySwapChainSupport proc
     mov rbp, rsp
     sub rsp, 32
     SaveRegisters
-    ; ---
+
+    mov rbx, rcx; device
+    invoke vkGetPhysicalDeviceSurfaceCapabilitiesKHR, rcx, context_surface, ADDR device_swapchain_support.SwapChainSupportDetails.capabilities
+
+    ; formats
+    mov rcx, rbx
+    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR swapchain_format_count, 0
+
+    xor rdx, rdx
+    mov edx, sizeof VkSurfaceFormatKHR
+    mov eax, swapchain_format_count
+    mul edx
+    invoke arenaPushZero, ADDR arena, rax, alignofqword
+    AssertNotEq rax, 0
+    mov device_swapchain_support.SwapChainSupportDetails.formats, rax
+    mov pos, rax
+
+    mov rcx, rbx
+    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR swapchain_format_count, device_swapchain_support.SwapChainSupportDetails.formats
+
+    ; present modes
+    mov rcx, rbx
+    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, context_surface, ADDR swapchain_present_mode_count, 0
+
+    xor rdx, rdx
+    mov edx, sizeof VkPresentModeKHR
+    mov eax, swapchain_present_mode_count
+    mul edx
+    invoke arenaPushZero, ADDR arena, rax, alignofqword
+    AssertNotEq rax, 0
+    mov device_swapchain_support.SwapChainSupportDetails.present_modes, rax
+    ; mov pos, rax ; keep old pos to nuke both allocs
+
+    mov rcx, rbx
+    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, context_surface, ADDR swapchain_present_mode_count, device_swapchain_support.SwapChainSupportDetails.present_modes
+
     RestoreRegisters
     add rsp, 32
     pop rbp
@@ -664,15 +719,53 @@ isDeviceSuitable proc; rcx: physical_device
     invoke checkDeviceExtensionSupport, rcx
     mov device_extensions_supported, al
 
-    xor rbx, rbx
+    mov rbx, rcx
     cmp device_extensions_supported, 0
     je device_extensions_supported_false
-        ; swapchain_support = querySwapChainSupport(device)
         ; mov rcx, device
         call querySwapChainSupport
+
+        mov eax, swapchain_format_count
+        test eax, eax
+        jz swapchain_condition_false
+
+        mov eax, swapchain_present_mode_count
+        test eax, eax
+        jz swapchain_condition_false
+
+        swapchain_condition_true:
+            mov device_swapchain_adequate, true
+            jmp swapchain_condition_continue
+
+        swapchain_condition_false:
+            mov device_swapchain_adequate, false
+
+        swapchain_condition_continue:
+
+        invoke arenaSetPos, ADDR arena, pos; dealloc arrays
     device_extensions_supported_false:
 
     ; rax = device_queue_families_has_value  && device_extensions_supported && device_swapchain_adequate
+
+    mov al, device_queue_families_has_value
+        test al, al
+        jz device_is_suitable_false
+    mov al, device_extensions_supported
+        test al, al
+        jz device_is_suitable_false
+    mov al, device_swapchain_adequate
+        test al, al
+        jz device_is_suitable_false
+
+    device_is_suitable:
+        mov rax, true
+        jmp device_is_suitable_continue
+    device_is_suitable_false:
+        mov rax, false
+    device_is_suitable_continue:
+
+    ; write device out anyway but always check rax for true/false
+    mov physical_device, rbx
 
     RestoreRegisters
     add rsp, 32
@@ -852,10 +945,10 @@ main proc
         mov rcx, [rax + sizeof qword * rsi]
         invoke isDeviceSuitable, rcx
         ; RestoreRegisters
-        cmp rax, 0
-        jz is_not_suitable
+        cmp rax, false
+        jz try_next_device
             jmp device_found
-        is_not_suitable:
+        try_next_device:
         inc rsi
         cmp rsi, physical_device_count
         jl is_device_suitable_loop_00000000
