@@ -4,13 +4,12 @@
 option casemap:none
 StdOutHandle equ -11
 include masm64rt.inc
-include saha.asm
-include macros.asm
 
 include vulkan_core.asm
 include vulkan_win32.asm
-; include vulkan_procs.asm
-; include vkenums.asm
+
+include saha.asm
+include macros.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; types
@@ -42,6 +41,12 @@ SwapChainSupportDetails struct
     formats qword ?
     present_modes qword ?
 SwapChainSupportDetails ends
+
+;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+; modules
+;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+align 16
+include SetupLogicalDeviceModule.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
@@ -105,10 +110,10 @@ paint_phrase byte "I must Paint now!", 0ah, 0dh, 0
 close_phrase byte "I must Close now!", 0ah, 0dh, 0
 vulkan_phrase byte "Vulkan Validation Layer: ", 0
 new_line byte ".", 0ah, 0
+
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ; win32
 align 16
 window_instance qword ?
@@ -124,6 +129,7 @@ found_validation byte ?
 
 align 16
 vulkan_module HMODULE ?
+
 ; instance
 ;---------------------------------------------------------------------------------------------------
 align 8
@@ -135,7 +141,6 @@ instance_info VkInstanceCreateInfo <>
 
 ; validation layers
 ;---------------------------------------------------------------------------------------------------
-
 vk_khr_swapchain_extension_name byte "VK_KHR_swapchain", 0
 device_extensions qword offset vk_khr_swapchain_extension_name
 
@@ -194,17 +199,22 @@ align 8
 queue_family_properties qword ?; VkQueueFamilyProperties
 queue_family_count dword ?
 present_support dword ?
-align 16
+
+align 4
 indices QueueFamilyIndices <>
 ; align 16
 ; findQueueFamilies_indices QueueFamilyIndices <>
 
 ; device extensions
-align 16
+align 8
 device_extension_count qword ?
 device_available_extensions qword ?; VkExtensionProperties
 
-physical_device qword ?
+g_physical_device qword ?
+g_logical_device qword ?
+
+; logical device
+;---------------------------------------------------------------------------------------------------
 
 ; procs to load
 ;---------------------------------------------------------------------------------------------------
@@ -213,6 +223,16 @@ vkEnumerateInstanceLayerProperties qword ?
 vkEnumerateInstanceExtensionProperties qword ?
 vkCreateInstance qword ?
 vkEnumerateDeviceExtensionProperties qword ?
+vkEnumeratePhysicalDevices qword ?
+vkGetPhysicalDeviceProperties qword ?
+vkCreateWin32SurfaceKHR qword ?
+vkGetPhysicalDeviceQueueFamilyProperties qword ?
+vkGetPhysicalDeviceSurfaceSupportKHR qword ?
+vkCreateDebugUtilsMessengerEXT qword ?
+vkGetPhysicalDeviceSurfaceCapabilitiesKHR qword ?
+vkGetPhysicalDeviceSurfaceFormatsKHR qword ?
+vkGetPhysicalDeviceSurfacePresentModesKHR qword ?
+vkCreateDevice qword ?
 
 ; load from api
 vkGetInstanceProcAddr qword ?
@@ -220,15 +240,6 @@ vkCreateDebugReportCallbackEXT qword ?
 vkDestroyDebugReportCallbackEXT qword ?
 PFN_vkDebugReportMessageEXT typedef qword
 vkDebugReportMessageEXT qword ?
-vkCreateWin32SurfaceKHR qword ?
-vkEnumeratePhysicalDevices qword ?
-vkGetPhysicalDeviceProperties qword ?
-vkGetPhysicalDeviceQueueFamilyProperties qword ?
-vkGetPhysicalDeviceSurfaceSupportKHR qword ?
-vkCreateDebugUtilsMessengerEXT qword ?
-vkGetPhysicalDeviceSurfaceCapabilitiesKHR qword ?
-vkGetPhysicalDeviceSurfaceFormatsKHR qword ?
-vkGetPhysicalDeviceSurfacePresentModesKHR qword ?
 
 pos qword ?
 
@@ -288,6 +299,10 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkGetPhysicalDeviceSurfacePresentModesKHR"
     AssertNotEq rax, 0
     mov vkGetPhysicalDeviceSurfacePresentModesKHR, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateDevice"
+    AssertNotEq rax, 0
+    mov vkCreateDevice, rax
 
     ret
 VulkanLoad endp
@@ -538,11 +553,14 @@ findQueueFamilies proc
     SaveRegisters
 
     mov r13, rcx ; device
+    mov r14, rdx ; indices reference
 
     ; mov rcx, physical_devices[i]
-    ; lea rdx, queue_family_count
     ; xor r8, r8
     invoke vkGetPhysicalDeviceQueueFamilyProperties, rcx, ADDR queue_family_count, 0
+
+    mov rax, arena.Arena.cursor
+    mov pos, rax
 
     xor rdx, rdx
     mov edx, sizeof VkQueueFamilyProperties
@@ -551,10 +569,13 @@ findQueueFamilies proc
     invoke arenaPushZero, ADDR arena, rax, alignofqword
     AssertNotEq rax, 0
     mov queue_family_properties, rax
+
     ; save pos
-    mov pos, rax
+    ; mov pos, rax
 
     invoke vkGetPhysicalDeviceQueueFamilyProperties, r13, ADDR queue_family_count, rax
+
+    ; mov rdx, r14
 
     xor rdx, rdx; graphics_family_has_value
     xor r8, r8; present_family_has_value
@@ -569,14 +590,14 @@ findQueueFamilies proc
         and rax, rbx
         cmp rax, false
         je has_not_queue_graphics_bit
-            mov indices.graphicsFamily, edi
+            mov [r14].QueueFamilyIndices.graphicsFamily, edi
             mov rdx, true
         has_not_queue_graphics_bit:
         invoke vkGetPhysicalDeviceSurfaceSupportKHR, r13, rdi, context_surface, ADDR present_support
         mov r10d, present_support; present_family_has_value
         cmp r10, false
         je has_not_present
-            mov indices.presentFamily, edi
+            mov [r14].QueueFamilyIndices.presentFamily, edi
             mov r8, true; graphics_family_has_value
         has_not_present:
         and r8, r10; graphics_family_has_value && present_family_has_value
@@ -613,6 +634,9 @@ checkDeviceExtensionSupport proc
     mov rbx, rcx
     invoke vkEnumerateDeviceExtensionProperties, rcx, 0, ADDR device_extension_count, 0
 
+    mov rax, arena.Arena.cursor
+    mov pos, rax
+
     xor rdx, rdx
     mov edx, sizeof VkExtensionProperties
     mov rax, device_extension_count
@@ -620,7 +644,7 @@ checkDeviceExtensionSupport proc
     invoke arenaPushZero, ADDR arena, rax, alignofqword
     AssertNotEq rax, 0
     mov device_available_extensions, rax
-    mov pos, rax
+    ; mov pos, rax
 
     mov rcx, rbx
     invoke vkEnumerateDeviceExtensionProperties, rcx, 0, ADDR device_extension_count, device_available_extensions
@@ -672,6 +696,9 @@ querySwapChainSupport proc
     mov rcx, rbx
     invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR swapchain_format_count, 0
 
+    mov rax, arena.Arena.cursor
+    mov pos, rax
+
     xor rdx, rdx
     mov edx, sizeof VkSurfaceFormatKHR
     mov eax, swapchain_format_count
@@ -679,7 +706,6 @@ querySwapChainSupport proc
     invoke arenaPushZero, ADDR arena, rax, alignofqword
     AssertNotEq rax, 0
     mov device_swapchain_support.SwapChainSupportDetails.formats, rax
-    mov pos, rax
 
     mov rcx, rbx
     invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR swapchain_format_count, device_swapchain_support.SwapChainSupportDetails.formats
@@ -713,7 +739,7 @@ isDeviceSuitable proc; rcx: physical_device
     sub rsp, 32
     SaveRegisters
 
-    invoke findQueueFamilies, rcx
+    invoke findQueueFamilies, rcx, ADDR indices
     mov device_queue_families_has_value, al
 
     invoke checkDeviceExtensionSupport, rcx
@@ -765,7 +791,7 @@ isDeviceSuitable proc; rcx: physical_device
     device_is_suitable_continue:
 
     ; write device out anyway but always check rax for true/false
-    mov physical_device, rbx
+    mov g_physical_device, rbx
 
     RestoreRegisters
     add rsp, 32
@@ -938,6 +964,7 @@ main proc
     ;;;; xor r8, r8
     ;;;; call vkGetPhysicalDeviceQueueFamilyProperties
 
+    mov rax, pos
     xor rsi, rsi
     is_device_suitable_loop_00000000:
         ; SaveRegisters
@@ -953,9 +980,15 @@ main proc
         cmp rsi, physical_device_count
         jl is_device_suitable_loop_00000000
     device_found:
+    AssertNotEq g_physical_device, 0
+
+    invoke arenaSetPos, ADDR arena, pos
+
+    call setupLogicalDevice
 
     call MessageLoopProcess
 
+    ; xor rax, rax
     invoke ExitProcess, 0
     ret
 main endp

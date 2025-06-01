@@ -83,21 +83,24 @@ RestoreRegisters macro                                                          
     ; pop rbx
 endm                       
 
-prologue macro
+procPrologue macro
     push rbp
-    .pushreg rbp
+    ; .pushreg rbp
     mov rbp, rsp
-    .setframe rbp, 0
-    ; sub rsp, 20h
+    ; .setframe rbp, 0
+    sub rsp, 32
     ; .allocstack 20h
-    .endprolog
+    ; .endprolog
+    SaveRegisters
 endm
 
-prologue_end macro
+procPrologueEnd macro
+    ; .endprolog
 endm
 
-epilogue macro
-    mov rsp, rbp
+procEpilogue macro
+    RestoreRegisters
+    add rsp, 32
     pop rbp
 endm
 
