@@ -36,17 +36,21 @@ QueueFamilyIndices struct
     presentFamily dword ?
 QueueFamilyIndices ends
 
-SwapChainSupportDetails struct
+SwapchainSupportDetails struct
     capabilities VkSurfaceCapabilitiesKHR <>
     formats qword ?
     present_modes qword ?
-SwapChainSupportDetails ends
+    formats_count dword ?
+    present_modes_count dword ?
+SwapchainSupportDetails ends
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; modules
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 align 16
 include SetupLogicalDeviceModule.asm
+align 16
+include SetupSwapchainModule.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
@@ -190,10 +194,10 @@ device_extensions_supported byte ?
 device_swapchain_adequate byte ?
 
 align 16
-device_swapchain_support SwapChainSupportDetails <>
+device_swapchain_support SwapchainSupportDetails <>
 
-swapchain_format_count dword ?
-swapchain_present_mode_count dword ?
+; swapchain_format_count dword ?
+; swapchain_present_mode_count dword ?
 
 align 8
 queue_family_properties qword ?; VkQueueFamilyProperties
@@ -210,8 +214,15 @@ align 8
 device_extension_count qword ?
 device_available_extensions qword ?; VkExtensionProperties
 
+; global
+;---------------------------------------------------------------------------------------------------
 g_physical_device qword ?
 g_logical_device qword ?
+g_swapchain_images qword ?
+g_swapchain_image_format VkFormat ?
+g_swapchain_extent VkExtent2D <>
+pos qword ?
+dos qword ?
 
 ; logical device
 ;---------------------------------------------------------------------------------------------------
@@ -240,8 +251,6 @@ vkCreateDebugReportCallbackEXT qword ?
 vkDestroyDebugReportCallbackEXT qword ?
 PFN_vkDebugReportMessageEXT typedef qword
 vkDebugReportMessageEXT qword ?
-
-pos qword ?
 
 ;---------------------------------------------------------------------------------------------------
 .code
@@ -559,8 +568,9 @@ findQueueFamilies proc
     ; xor r8, r8
     invoke vkGetPhysicalDeviceQueueFamilyProperties, rcx, ADDR queue_family_count, 0
 
-    mov rax, arena.Arena.cursor
-    mov pos, rax
+    ; mov rax, arena.Arena.cursor
+    ; mov pos, rax
+    arenaGetPos arena, pos
 
     xor rdx, rdx
     mov edx, sizeof VkQueueFamilyProperties
@@ -683,54 +693,55 @@ checkDeviceExtensionSupport proc
     ret
 checkDeviceExtensionSupport endp
 
-querySwapChainSupport proc
+align 16
+querySwapchainSupport proc; rcx:device
     push rbp
     mov rbp, rsp
     sub rsp, 32
     SaveRegisters
 
-    mov rbx, rcx; device
-    invoke vkGetPhysicalDeviceSurfaceCapabilitiesKHR, rcx, context_surface, ADDR device_swapchain_support.SwapChainSupportDetails.capabilities
+    mov rbx, rcx
+    invoke vkGetPhysicalDeviceSurfaceCapabilitiesKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.capabilities
 
     ; formats
     mov rcx, rbx
-    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR swapchain_format_count, 0
+    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.formats_count, 0
 
     mov rax, arena.Arena.cursor
     mov pos, rax
 
     xor rdx, rdx
     mov edx, sizeof VkSurfaceFormatKHR
-    mov eax, swapchain_format_count
+    mov eax, device_swapchain_support.SwapchainSupportDetails.formats_count
     mul edx
     invoke arenaPushZero, ADDR arena, rax, alignofqword
     AssertNotEq rax, 0
-    mov device_swapchain_support.SwapChainSupportDetails.formats, rax
+    mov device_swapchain_support.SwapchainSupportDetails.formats, rax
 
     mov rcx, rbx
-    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR swapchain_format_count, device_swapchain_support.SwapChainSupportDetails.formats
+    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.formats_count, device_swapchain_support.SwapchainSupportDetails.formats
 
     ; present modes
     mov rcx, rbx
-    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, context_surface, ADDR swapchain_present_mode_count, 0
+    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.present_modes_count, 0
 
     xor rdx, rdx
     mov edx, sizeof VkPresentModeKHR
-    mov eax, swapchain_present_mode_count
+    mov eax, device_swapchain_support.SwapchainSupportDetails.present_modes_count
     mul edx
     invoke arenaPushZero, ADDR arena, rax, alignofqword
     AssertNotEq rax, 0
-    mov device_swapchain_support.SwapChainSupportDetails.present_modes, rax
+    mov device_swapchain_support.SwapchainSupportDetails.present_modes, rax
     ; mov pos, rax ; keep old pos to nuke both allocs
 
     mov rcx, rbx
-    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, context_surface, ADDR swapchain_present_mode_count, device_swapchain_support.SwapChainSupportDetails.present_modes
+    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.present_modes_count, device_swapchain_support.SwapchainSupportDetails.present_modes
 
     RestoreRegisters
     add rsp, 32
     pop rbp
     ret
-querySwapChainSupport endp
+querySwapchainSupport endp
 
 align 16
 isDeviceSuitable proc; rcx: physical_device
@@ -738,6 +749,23 @@ isDeviceSuitable proc; rcx: physical_device
     mov rbp, rsp
     sub rsp, 32
     SaveRegisters
+
+    mov rbx, rcx
+    invoke vkGetPhysicalDeviceProperties, rcx, ADDR device_properties
+
+    lea rcx, device_properties.VkPhysicalDeviceProperties.deviceName
+    call OutputDebugString
+    mov rcx, rbx
+
+    ; cannot really print the value of this without some special print function...
+    ; lea rcx, device_properties.VkPhysicalDeviceProperties.deviceType
+    ; call OutputDebugString
+    ; mov rcx, rbx
+
+    ; skip if GPU is not VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
+    mov esi, device_properties.VkPhysicalDeviceProperties.deviceType
+    cmp esi, VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
+    jne device_is_suitable_false
 
     invoke findQueueFamilies, rcx, ADDR indices
     mov device_queue_families_has_value, al
@@ -749,13 +777,13 @@ isDeviceSuitable proc; rcx: physical_device
     cmp device_extensions_supported, 0
     je device_extensions_supported_false
         ; mov rcx, device
-        call querySwapChainSupport
+        call querySwapchainSupport
 
-        mov eax, swapchain_format_count
+        mov eax, device_swapchain_support.SwapchainSupportDetails.formats_count
         test eax, eax
         jz swapchain_condition_false
 
-        mov eax, swapchain_present_mode_count
+        mov eax, device_swapchain_support.SwapchainSupportDetails.present_modes_count
         test eax, eax
         jz swapchain_condition_false
 
@@ -985,6 +1013,7 @@ main proc
     invoke arenaSetPos, ADDR arena, pos
 
     call setupLogicalDevice
+    call setupSwapchain
 
     call MessageLoopProcess
 

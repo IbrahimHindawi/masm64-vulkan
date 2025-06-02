@@ -170,6 +170,11 @@ arenaSetPos proc arenaref:qword, pos:qword
     ret
 arenaSetPos endp
 
+arenaGetPos macro arenaref:req, posref:req
+    mov rax, arenaref.Arena.cursor
+    mov posref, rax
+endm
+
 arenaPushArray macro __arena:req, __type:req, __count:req, __align:req
     ; lea rcx, __arena
     ; rdx = __type * __count
