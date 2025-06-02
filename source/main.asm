@@ -847,6 +847,7 @@ main proc
     mov window_class.hInstance, rcx
     lea rcx, window_class_name
     mov window_class.lpszClassName, rcx
+    ; movlea window_class.lpszClassName, window_class_name
 
     invoke RegisterClassEx, ADDR window_class
     AssertNotEq rax, 0

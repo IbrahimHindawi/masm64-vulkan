@@ -111,6 +111,10 @@ setupSwapchain proc
 
     ; mov ecx, device_swapchain_support.SwapchainSupportDetails.capabilities
     ; call setupSwapchain_chooseSwapExtent
+    ; ideally should handle uninitialized extents by testing
+    ; if extent != UINT32_MAX
+    mov rax, device_swapchain_support.SwapchainSupportDetails.capabilities.VkSurfaceCapabilitiesKHR.currentExtent
+    mov setupSwapchain_extent, rax
 
     invoke arenaSetPos, ADDR arena, qword ptr pos
 
