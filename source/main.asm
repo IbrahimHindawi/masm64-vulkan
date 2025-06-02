@@ -196,9 +196,6 @@ device_swapchain_adequate byte ?
 align 16
 device_swapchain_support SwapchainSupportDetails <>
 
-; swapchain_format_count dword ?
-; swapchain_present_mode_count dword ?
-
 align 8
 queue_family_properties qword ?; VkQueueFamilyProperties
 queue_family_count dword ?

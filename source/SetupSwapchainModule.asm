@@ -56,11 +56,58 @@ setupSwapchain proc
     ; could make sense to keep track of Array{ptr:qword,len:qword}
     call querySwapchainSupport
 
-    mov rcx, device_swapchain_support.SwapchainSupportDetails.formats
-    call setupSwapchain_chooseSwapSurfaceFormat
+    ; mov rcx, device_swapchain_support.SwapchainSupportDetails.formats
+    ; call setupSwapchain_chooseSwapSurfaceFormat
+    mov rbx, device_swapchain_support.SwapchainSupportDetails.formats
+    xor rcx, rcx
+    xor rax, rax
+    loop_choose_swapchain_surface_format:
+        mov esi, [rbx.VkSurfaceFormatKHR.format]
+        cmp esi, VK_FORMAT_B8G8R8A8_SRGB
+        jne format_failed
 
-    mov rcx, device_swapchain_support.SwapchainSupportDetails.present_modes
-    call setupSwapchain_chooseSwapPresentMode
+        mov edi, [rbx.VkSurfaceFormatKHR.colorSpace]
+        cmp edi, VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+        jne format_failed
+
+        mov rax, [rbx]
+        jmp format_succeeded
+
+        format_failed:
+        add rbx, sizeof VkSurfaceFormatKHR
+        inc rcx
+        cmp ecx, device_swapchain_support.SwapchainSupportDetails.formats_count
+        jl loop_choose_swapchain_surface_format
+    format_succeeded:
+    cmp rax, 0
+    jne format_already_found
+        mov rax, device_swapchain_support.SwapchainSupportDetails.formats
+    format_already_found:
+    mov setupSwapchain_surface_format, rax
+
+    ; mov rcx, device_swapchain_support.SwapchainSupportDetails.present_modes
+    ; call setupSwapchain_chooseSwapPresentMode
+    mov rbx, device_swapchain_support.SwapchainSupportDetails.present_modes
+    xor rcx, rcx
+    xor rax, rax
+    loop_choose_swapchain_present_mode:
+        mov esi, [rbx]
+        cmp esi, VK_PRESENT_MODE_MAILBOX_KHR 
+        je present_mode_succeeded
+
+        add rbx, sizeof VkPresentModeKHR
+        inc rcx
+        cmp ecx, device_swapchain_support.SwapchainSupportDetails.present_modes_count
+        jl loop_choose_swapchain_present_mode
+
+    cmp eax, 0
+    jne present_mode_already_found
+        mov eax, VK_PRESENT_MODE_FIFO_KHR
+    present_mode_already_found:
+
+    present_mode_succeeded:
+    mov eax, [rbx]
+    mov setupSwapchain_present_mode, eax
 
     ; mov ecx, device_swapchain_support.SwapchainSupportDetails.capabilities
     ; call setupSwapchain_chooseSwapExtent
