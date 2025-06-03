@@ -201,6 +201,7 @@ SetupSwapchain_Execute proc
 
     ; free querySwapchainSupport memory
     invoke arenaSetPos, ADDR arena, qword ptr pos
+
     arenaGetPos arena, pos
 
     xor rax, rax
@@ -214,6 +215,10 @@ SetupSwapchain_Execute proc
 
     invoke vkGetSwapchainImagesKHR, qword ptr g_logical_device, qword ptr g_swapchain, ADDR SetupSwapchain_image_count, qword ptr g_swapchain_images
     AssertEq rax, VK_SUCCESS
+
+    ; update global var
+    mov eax, SetupSwapchain_image_count
+    mov g_swapchain_images_count, eax
 
     mov ecx, SetupSwapchain_surface_format.VkSurfaceFormatKHR.format
     mov g_swapchain_image_format, ecx

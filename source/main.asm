@@ -51,6 +51,8 @@ align 16
 include ModuleSetupLogicalDevice.asm
 align 16
 include ModuleSetupSwapchain.asm
+align 16
+include ModuleSetupImageViews.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
@@ -170,7 +172,6 @@ debug_callback_create_info VkDebugUtilsMessengerCreateInfoEXT <>
 
 align 16
 debug_callback_create_info_2 VkDebugUtilsMessengerCreateInfoEXT <>
-debug_messenger qword ?
 
 align 16
 surface_create_info VkWin32SurfaceCreateInfoKHR <>
@@ -209,13 +210,25 @@ device_available_extensions qword ?; VkExtensionProperties
 
 ; global
 ;---------------------------------------------------------------------------------------------------
+; handles
 align 8
 g_instance VkInstance ?
+g_physical_device VkPhysicalDevice ?
+g_logical_device VkDevice ?
+debug_messenger VkDebugUtilsMessengerEXT ?
 g_surface VkSurfaceKHR ?
-g_physical_device qword ?
-g_logical_device qword ?
-g_swapchain qword ?
+g_swapchain VkSwapchainKHR ?
+
+; array
+align 8
 g_swapchain_images qword ?
+g_swapchain_images_count dword ?
+
+; array
+align 8
+g_swapchain_image_views qword ?
+g_swapchain_image_views_count dword ?
+
 align 4
 g_swapchain_image_format VkFormat ?
 g_swapchain_extent VkExtent2D <>
@@ -1024,6 +1037,7 @@ main proc
 
     call SetupLogicalDevice_Execute
     call SetupSwapchain_Execute
+    call SetupImageViews_Execute
 
     call MessageLoopProcess
 
