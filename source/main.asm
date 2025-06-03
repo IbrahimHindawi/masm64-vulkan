@@ -53,6 +53,8 @@ align 16
 include ModuleSetupSwapchain.asm
 align 16
 include ModuleSetupImageViews.asm
+align 16
+include ModuleSetupRenderPass.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
@@ -218,6 +220,7 @@ g_logical_device VkDevice ?
 debug_messenger VkDebugUtilsMessengerEXT ?
 g_surface VkSurfaceKHR ?
 g_swapchain VkSwapchainKHR ?
+g_render_pass VkRenderPass ?
 
 ; array
 align 8
@@ -258,6 +261,8 @@ vkGetPhysicalDeviceSurfacePresentModesKHR qword ?
 vkCreateDevice qword ?
 vkCreateSwapchainKHR qword ?
 vkGetSwapchainImagesKHR qword ?
+vkCreateImageView qword ?
+vkCreateRenderPass qword ?
 
 ; load from api
 vkGetInstanceProcAddr qword ?
@@ -334,6 +339,14 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkGetSwapchainImagesKHR"
     AssertNotEq rax, 0
     mov vkGetSwapchainImagesKHR, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateImageView"
+    AssertNotEq rax, 0
+    mov vkCreateImageView, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateRenderPass"
+    AssertNotEq rax, 0
+    mov vkCreateRenderPass, rax
 
     ret
 VulkanLoad endp
@@ -1038,6 +1051,7 @@ main proc
     call SetupLogicalDevice_Execute
     call SetupSwapchain_Execute
     call SetupImageViews_Execute
+    call SetupRenderPass_Execute
 
     call MessageLoopProcess
 
