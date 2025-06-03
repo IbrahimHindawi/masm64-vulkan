@@ -136,8 +136,6 @@ vulkan_module HMODULE ?
 
 ; instance
 ;---------------------------------------------------------------------------------------------------
-align 8
-context_instance VkInstance ?
 align 16
 application_info VkApplicationInfo <>
 align 16
@@ -176,8 +174,6 @@ debug_messenger qword ?
 
 align 16
 surface_create_info VkWin32SurfaceCreateInfoKHR <>
-align 8
-context_surface VkSurfaceKHR ?
 
 ; devices
 ;---------------------------------------------------------------------------------------------------
@@ -213,13 +209,19 @@ device_available_extensions qword ?; VkExtensionProperties
 
 ; global
 ;---------------------------------------------------------------------------------------------------
+align 8
+g_instance VkInstance ?
+g_surface VkSurfaceKHR ?
 g_physical_device qword ?
 g_logical_device qword ?
+g_swapchain qword ?
 g_swapchain_images qword ?
+align 4
 g_swapchain_image_format VkFormat ?
 g_swapchain_extent VkExtent2D <>
+
+align 8
 pos qword ?
-dos qword ?
 
 ; logical device
 ;---------------------------------------------------------------------------------------------------
@@ -241,6 +243,8 @@ vkGetPhysicalDeviceSurfaceCapabilitiesKHR qword ?
 vkGetPhysicalDeviceSurfaceFormatsKHR qword ?
 vkGetPhysicalDeviceSurfacePresentModesKHR qword ?
 vkCreateDevice qword ?
+vkCreateSwapchainKHR qword ?
+vkGetSwapchainImagesKHR qword ?
 
 ; load from api
 vkGetInstanceProcAddr qword ?
@@ -310,28 +314,36 @@ VulkanLoad proc
     AssertNotEq rax, 0
     mov vkCreateDevice, rax
 
+    invoke GetProcAddress, vulkan_module, "vkCreateSwapchainKHR"
+    AssertNotEq rax, 0
+    mov vkCreateSwapchainKHR, rax
+
+    invoke GetProcAddress, vulkan_module, "vkGetSwapchainImagesKHR"
+    AssertNotEq rax, 0
+    mov vkGetSwapchainImagesKHR, rax
+
     ret
 VulkanLoad endp
 
 align 16
 VulkanLoadExt proc
-    invoke vkGetInstanceProcAddr, context_instance, "vkCreateDebugReportCallbackEXT"
+    invoke vkGetInstanceProcAddr, g_instance, "vkCreateDebugReportCallbackEXT"
     ; AssertNotEq rax, 0
     mov vkCreateDebugReportCallbackEXT, rax
 
-    invoke vkGetInstanceProcAddr, context_instance, "vkDestroyDebugReportCallbackEXT"
+    invoke vkGetInstanceProcAddr, g_instance, "vkDestroyDebugReportCallbackEXT"
     ; AssertNotEq rax, 0
     mov vkDestroyDebugReportCallbackEXT, rax
 
-    invoke vkGetInstanceProcAddr, context_instance, "vkDebugReportMessageEXT"
+    invoke vkGetInstanceProcAddr, g_instance, "vkDebugReportMessageEXT"
     ; AssertNotEq rax, 0
     mov vkDebugReportMessageEXT, rax
 
-    invoke vkGetInstanceProcAddr, context_instance, "vkCreateDebugUtilsMessengerEXT"
+    invoke vkGetInstanceProcAddr, g_instance, "vkCreateDebugUtilsMessengerEXT"
     AssertNotEq rax, 0
     mov vkCreateDebugUtilsMessengerEXT, rax
 
-    invoke vkGetInstanceProcAddr, context_instance, "vkGetPhysicalDeviceSurfaceSupportKHR"
+    invoke vkGetInstanceProcAddr, g_instance, "vkGetPhysicalDeviceSurfaceSupportKHR"
     AssertNotEq rax, 0
     mov vkGetPhysicalDeviceSurfaceSupportKHR, rax
 
@@ -600,7 +612,7 @@ findQueueFamilies proc
             mov [r14].QueueFamilyIndices.graphicsFamily, edi
             mov rdx, true
         has_not_queue_graphics_bit:
-        invoke vkGetPhysicalDeviceSurfaceSupportKHR, r13, rdi, context_surface, ADDR present_support
+        invoke vkGetPhysicalDeviceSurfaceSupportKHR, r13, rdi, g_surface, ADDR present_support
         mov r10d, present_support; present_family_has_value
         cmp r10, false
         je has_not_present
@@ -698,11 +710,11 @@ querySwapchainSupport proc; rcx:device
     SaveRegisters
 
     mov rbx, rcx
-    invoke vkGetPhysicalDeviceSurfaceCapabilitiesKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.capabilities
+    invoke vkGetPhysicalDeviceSurfaceCapabilitiesKHR, rcx, g_surface, ADDR device_swapchain_support.SwapchainSupportDetails.capabilities
 
     ; formats
     mov rcx, rbx
-    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.formats_count, 0
+    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, g_surface, ADDR device_swapchain_support.SwapchainSupportDetails.formats_count, 0
 
     mov rax, arena.Arena.cursor
     mov pos, rax
@@ -716,11 +728,11 @@ querySwapchainSupport proc; rcx:device
     mov device_swapchain_support.SwapchainSupportDetails.formats, rax
 
     mov rcx, rbx
-    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.formats_count, device_swapchain_support.SwapchainSupportDetails.formats
+    invoke vkGetPhysicalDeviceSurfaceFormatsKHR, rcx, g_surface, ADDR device_swapchain_support.SwapchainSupportDetails.formats_count, device_swapchain_support.SwapchainSupportDetails.formats
 
     ; present modes
     mov rcx, rbx
-    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.present_modes_count, 0
+    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, g_surface, ADDR device_swapchain_support.SwapchainSupportDetails.present_modes_count, 0
 
     xor rdx, rdx
     mov edx, sizeof VkPresentModeKHR
@@ -732,7 +744,7 @@ querySwapchainSupport proc; rcx:device
     ; mov pos, rax ; keep old pos to nuke both allocs
 
     mov rcx, rbx
-    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, context_surface, ADDR device_swapchain_support.SwapchainSupportDetails.present_modes_count, device_swapchain_support.SwapchainSupportDetails.present_modes
+    invoke vkGetPhysicalDeviceSurfacePresentModesKHR, rcx, g_surface, ADDR device_swapchain_support.SwapchainSupportDetails.present_modes_count, device_swapchain_support.SwapchainSupportDetails.present_modes
 
     RestoreRegisters
     add rsp, 32
@@ -943,7 +955,7 @@ main proc
     lea rcx, debug_callback_create_info
         mov instance_info.pNext, rcx
 
-    invoke vkCreateInstance, ADDR instance_info, 0, ADDR context_instance
+    invoke vkCreateInstance, ADDR instance_info, 0, ADDR g_instance
     AssertEq rax, VK_SUCCESS
 
     call VulkanLoadExt
@@ -955,7 +967,7 @@ main proc
     ; lea rcx, VulkanDebugReportCallback
     ;     mov debug_callback_create_info_2.pfnUserCallback, rcx
     ; debuginfo
-    invoke vkCreateDebugUtilsMessengerEXT, context_instance, ADDR debug_callback_create_info, 0, ADDR debug_messenger
+    invoke vkCreateDebugUtilsMessengerEXT, g_instance, ADDR debug_callback_create_info, 0, ADDR debug_messenger
     AssertEq rax, VK_SUCCESS
 
     mov surface_create_info._sType, VK_STRUCTURE_TYPE_WIN32_SURFACE_CREATE_INFO_KHR
@@ -964,12 +976,12 @@ main proc
     mov rcx,  window_handle
     mov surface_create_info.hwnd, rcx
 
-    invoke vkCreateWin32SurfaceKHR, context_instance, ADDR surface_create_info, 0, ADDR context_surface
+    invoke vkCreateWin32SurfaceKHR, g_instance, ADDR surface_create_info, 0, ADDR g_surface
     AssertEq rax, VK_SUCCESS
 
     ; physical devices
     ;---------------------------------------------------------------------------------------------------
-    invoke vkEnumeratePhysicalDevices, context_instance, ADDR physical_device_count, 0
+    invoke vkEnumeratePhysicalDevices, g_instance, ADDR physical_device_count, 0
     mov rax, physical_device_count
     AssertNotEq rax, 0
 
@@ -981,7 +993,7 @@ main proc
     AssertNotEq rax, 0
     mov physical_devices, rax
 
-    invoke vkEnumeratePhysicalDevices, context_instance, ADDR physical_device_count, physical_devices
+    invoke vkEnumeratePhysicalDevices, g_instance, ADDR physical_device_count, physical_devices
     AssertEq rax, VK_SUCCESS
 
     ;;;; mov rax, physical_devices
@@ -1010,8 +1022,8 @@ main proc
 
     invoke arenaSetPos, ADDR arena, pos
 
-    call setupLogicalDevice
-    call setupSwapchain
+    call SetupLogicalDevice_Execute
+    call SetupSwapchain_Execute
 
     call MessageLoopProcess
 

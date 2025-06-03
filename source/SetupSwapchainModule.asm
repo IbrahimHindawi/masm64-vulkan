@@ -7,44 +7,45 @@ SetupSwapchainModuleHeaderGuard = 0
 ;---------------------------------------------------------------------------------------------------
 .data
 ;---------------------------------------------------------------------------------------------------
-setupSwapchain_surface_format VkSurfaceFormatKHR <>
-setupSwapchain_present_mode VkPresentModeKHR ?
-setupSwapchain_extent VkExtent2D <>
-setupSwapchain_create_info VkSwapchainCreateInfoKHR <>
-setupSwapchain_indices QueueFamilyIndices <>
-setupSwapchain_queue_family_indices dword 2 dup(?)
+SetupSwapchain_surface_format VkSurfaceFormatKHR <>
+SetupSwapchain_present_mode VkPresentModeKHR ?
+SetupSwapchain_extent VkExtent2D <>
+SetupSwapchain_create_info VkSwapchainCreateInfoKHR <>
+SetupSwapchain_indices QueueFamilyIndices <>
+SetupSwapchain_queue_family_indices dword 2 dup(?)
+SetupSwapchain_image_count dword ?
 ; pos qword ?
 
 ;---------------------------------------------------------------------------------------------------
 .code
 ;---------------------------------------------------------------------------------------------------
 align 16
-setupSwapchain_chooseSwapSurfaceFormat proc
+SetupSwapchain_chooseSwapSurfaceFormat proc
     procPrologue
     ;---
 
     procEpilogue
     ret
-setupSwapchain_chooseSwapSurfaceFormat endp
+SetupSwapchain_chooseSwapSurfaceFormat endp
 
 align 16
-setupSwapchain_chooseSwapPresentMode proc
+SetupSwapchain_chooseSwapPresentMode proc
     procPrologue
     ;---
     procEpilogue
     ret
-setupSwapchain_chooseSwapPresentMode endp
+SetupSwapchain_chooseSwapPresentMode endp
 
 align 16
-setupSwapchain_chooseSwapExtent proc
+SetupSwapchain_chooseSwapExtent proc
     procPrologue
     ;---
     procEpilogue
     ret
-setupSwapchain_chooseSwapExtent endp
+SetupSwapchain_chooseSwapExtent endp
 
 align 16
-setupSwapchain proc
+SetupSwapchain_Execute proc
     procPrologue
     ;---
     mov rcx, g_physical_device
@@ -54,10 +55,11 @@ setupSwapchain proc
     ; `swapchain_format_count:qword`
     ; `swapchain_present_mode_count:qword`
     ; could make sense to keep track of Array{ptr:qword,len:qword}
-    call querySwapchainSupport
+    arenaGetPos arena, pos
+    call querySwapchainSupport ; allocs memory to arena
 
     ; mov rcx, device_swapchain_support.SwapchainSupportDetails.formats
-    ; call setupSwapchain_chooseSwapSurfaceFormat
+    ; call SetupSwapchain_chooseSwapSurfaceFormat
     mov rbx, device_swapchain_support.SwapchainSupportDetails.formats
     xor rcx, rcx
     xor rax, rax
@@ -83,10 +85,10 @@ setupSwapchain proc
     jne format_already_found
         mov rax, device_swapchain_support.SwapchainSupportDetails.formats
     format_already_found:
-    mov setupSwapchain_surface_format, rax
+    mov SetupSwapchain_surface_format, rax
 
     ; mov rcx, device_swapchain_support.SwapchainSupportDetails.present_modes
-    ; call setupSwapchain_chooseSwapPresentMode
+    ; call SetupSwapchain_chooseSwapPresentMode
     mov rbx, device_swapchain_support.SwapchainSupportDetails.present_modes
     xor rcx, rcx
     xor rax, rax
@@ -107,20 +109,123 @@ setupSwapchain proc
 
     present_mode_succeeded:
     mov eax, [rbx]
-    mov setupSwapchain_present_mode, eax
+    mov SetupSwapchain_present_mode, eax
 
     ; mov ecx, device_swapchain_support.SwapchainSupportDetails.capabilities
-    ; call setupSwapchain_chooseSwapExtent
+    ; call SetupSwapchain_chooseSwapExtent
     ; ideally should handle uninitialized extents by testing
-    ; if extent != UINT32_MAX
+    ; if extent != UINT32_MAX -> currentExtent else get framebuffer size from win32
     mov rax, device_swapchain_support.SwapchainSupportDetails.capabilities.VkSurfaceCapabilitiesKHR.currentExtent
-    mov setupSwapchain_extent, rax
+    mov SetupSwapchain_extent, rax
 
+    xor rax, rax
+    mov eax, device_swapchain_support.SwapchainSupportDetails.capabilities.minImageCount
+    inc eax
+    mov SetupSwapchain_image_count, eax
+
+    ; branch
+    mov ebx, device_swapchain_support.SwapchainSupportDetails.capabilities.VkSurfaceCapabilitiesKHR.maxImageCount
+    cmp ebx, 0
+    je update_image_count_skip
+
+    cmp SetupSwapchain_image_count, ebx
+    jle update_image_count_skip
+
+    mov SetupSwapchain_image_count, eax
+
+    update_image_count_skip:
+
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR._sType, VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR
+
+    mov rax, g_surface
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.surface, rax
+
+    mov eax, SetupSwapchain_image_count
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.minImageCount, eax
+
+    mov eax, SetupSwapchain_surface_format.VkSurfaceFormatKHR.format
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.imageFormat, eax
+
+    mov eax, SetupSwapchain_surface_format.VkSurfaceFormatKHR.colorSpace
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.imageColorSpace, eax
+
+    mov eax, SetupSwapchain_surface_format.VkSurfaceFormatKHR.colorSpace
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.imageColorSpace, eax
+
+    mov rax, SetupSwapchain_extent
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.imageExtent, rax
+
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.imageArrayLayers, 1
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.imageUsage, VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT
+
+    mov rax, g_physical_device
+    invoke findQueueFamilies, rax, ADDR SetupSwapchain_indices
+    ; mov SetupSwapchain_has_value, al
+
+    lea rax, SetupSwapchain_queue_family_indices
+    mov rbx, SetupSwapchain_indices
+    mov [rax], rbx
+
+    mov eax, SetupSwapchain_indices.QueueFamilyIndices.graphicsFamily
+    mov ebx, SetupSwapchain_indices.QueueFamilyIndices.presentFamily
+    and eax, ebx
+    cmp eax, true
+    jmp graphics_and_present_eq
+        mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.imageSharingMode, VK_SHARING_MODE_CONCURRENT
+        mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.queueFamilyIndexCount, 2
+        lea rcx, SetupSwapchain_queue_family_indices
+        mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.pQueueFamilyIndices, rcx
+        jmp graphics_and_present_noteq
+    graphics_and_present_eq:
+        mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.imageSharingMode, VK_SHARING_MODE_EXCLUSIVE
+        mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.queueFamilyIndexCount, 0
+        mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.pQueueFamilyIndices, 0
+    graphics_and_present_noteq:
+
+    mov eax, device_swapchain_support.SwapchainSupportDetails.capabilities.VkSurfaceCapabilitiesKHR.currentTransform
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.preTransform, eax
+
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.compositeAlpha, VK_COMPOSITE_ALPHA_OPAQUE_BIT_KHR
+
+    mov eax, SetupSwapchain_present_mode
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.presentMode, eax
+
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.clipped, true
+    mov SetupSwapchain_create_info.VkSwapchainCreateInfoKHR.oldSwapchain, 0
+
+    invoke vkCreateSwapchainKHR, qword ptr g_logical_device, ADDR SetupSwapchain_create_info, 0, ADDR g_swapchain
+    AssertEq rax, VK_SUCCESS
+
+    invoke vkGetSwapchainImagesKHR, qword ptr g_logical_device, qword ptr g_swapchain, ADDR SetupSwapchain_image_count, 0
+    AssertEq rax, VK_SUCCESS
+
+    ; free querySwapchainSupport memory
     invoke arenaSetPos, ADDR arena, qword ptr pos
+    arenaGetPos arena, pos
 
-    ; call findQueueFamilies
+    xor rax, rax
+    xor rdx, rdx
+    mov edx, sizeof VkImage
+    mov eax, SetupSwapchain_image_count
+    mul edx
+    invoke arenaPushZero, ADDR arena, rax, 4
+    AssertNotEq rax, 0
+    mov g_swapchain_images, rax
+
+    invoke vkGetSwapchainImagesKHR, qword ptr g_logical_device, qword ptr g_swapchain, ADDR SetupSwapchain_image_count, qword ptr g_swapchain_images
+    AssertEq rax, VK_SUCCESS
+
+    mov ecx, SetupSwapchain_surface_format.VkSurfaceFormatKHR.format
+    mov g_swapchain_image_format, ecx
+
+    mov rcx, SetupSwapchain_extent
+    mov g_swapchain_extent, rcx
+
+    ; g_swapchain_images memory should not be freed!
+    ; invoke arenaSetPos, ADDR arena, qword ptr pos 
+
     ;---
     procEpilogue
     ret
-setupSwapchain endp
+SetupSwapchain_Execute endp
 endif
