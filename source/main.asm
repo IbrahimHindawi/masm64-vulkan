@@ -47,6 +47,10 @@ SwapchainSupportDetails ends
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; modules
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+; core
+align 16
+include ModuleFileOps.asm
+; vulkan
 align 16
 include ModuleSetupLogicalDevice.asm
 align 16
@@ -55,6 +59,8 @@ align 16
 include ModuleSetupImageViews.asm
 align 16
 include ModuleSetupRenderPass.asm
+align 16
+include ModuleSetupGraphicsPipeline.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; macros
@@ -119,6 +125,8 @@ close_phrase byte "I must Close now!", 0ah, 0dh, 0
 vulkan_phrase byte "Vulkan Validation Layer: ", 0
 new_line byte ".", 0ah, 0
 
+shader_vert_path byte "shaders/shader.vert.spv", 0
+shader_frag_path byte "shaders/shader.frag.spv", 0
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -263,6 +271,7 @@ vkCreateSwapchainKHR qword ?
 vkGetSwapchainImagesKHR qword ?
 vkCreateImageView qword ?
 vkCreateRenderPass qword ?
+vkCreateShaderModule qword ?
 
 ; load from api
 vkGetInstanceProcAddr qword ?
@@ -347,6 +356,10 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkCreateRenderPass"
     AssertNotEq rax, 0
     mov vkCreateRenderPass, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateShaderModule"
+    AssertNotEq rax, 0
+    mov vkCreateShaderModule, rax
 
     ret
 VulkanLoad endp
@@ -1052,6 +1065,7 @@ main proc
     call SetupSwapchain_Execute
     call SetupImageViews_Execute
     call SetupRenderPass_Execute
+    call SetupGraphicsPipeline_Execute
 
     call MessageLoopProcess
 
