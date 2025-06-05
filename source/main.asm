@@ -12,7 +12,7 @@ include saha.asm
 include macros.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-; types
+;types
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 true equ 1
 false equ 0
@@ -45,7 +45,7 @@ SwapchainSupportDetails struct
 SwapchainSupportDetails ends
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-; modules
+;modules
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; core
 align 16
@@ -63,7 +63,7 @@ align 16
 include ModuleSetupGraphicsPipeline.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-; macros
+;macros
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DebugPrint macro Message:req
     lea rcx, Message
@@ -125,8 +125,8 @@ close_phrase byte "I must Close now!", 0ah, 0dh, 0
 vulkan_phrase byte "Vulkan Validation Layer: ", 0
 new_line byte ".", 0ah, 0
 
-shader_vert_path byte "shaders/shader.vert.spv", 0
-shader_frag_path byte "shaders/shader.frag.spv", 0
+vert_shader_path byte "shaders/shader.vert.spv", 0
+frag_shader_path byte "shaders/shader.frag.spv", 0
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 .data
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -229,6 +229,8 @@ debug_messenger VkDebugUtilsMessengerEXT ?
 g_surface VkSurfaceKHR ?
 g_swapchain VkSwapchainKHR ?
 g_render_pass VkRenderPass ?
+g_pipeline_layout VkPipelineLayout ?
+g_graphics_pipeline VkPipeline ?
 
 ; array
 align 8
@@ -272,6 +274,8 @@ vkGetSwapchainImagesKHR qword ?
 vkCreateImageView qword ?
 vkCreateRenderPass qword ?
 vkCreateShaderModule qword ?
+vkCreatePipelineLayout qword ?
+vkCreateGraphicsPipelines qword ?
 
 ; load from api
 vkGetInstanceProcAddr qword ?
@@ -360,6 +364,15 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkCreateShaderModule"
     AssertNotEq rax, 0
     mov vkCreateShaderModule, rax
+
+
+    invoke GetProcAddress, vulkan_module, "vkCreatePipelineLayout"
+    AssertNotEq rax, 0
+    mov vkCreatePipelineLayout, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateGraphicsPipelines"
+    AssertNotEq rax, 0
+    mov vkCreateGraphicsPipelines, rax
 
     ret
 VulkanLoad endp
