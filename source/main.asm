@@ -65,6 +65,12 @@ align 16
 include ModuleSetupFramebuffers.asm
 align 16
 include ModuleSetupCommandPool.asm
+align 16
+include ModuleSetupCommandBuffer.asm
+align 16
+include ModuleSetupSyncObjects.asm
+align 16
+include ModuleDrawFrame.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;macros
@@ -236,6 +242,12 @@ g_render_pass VkRenderPass ?
 g_pipeline_layout VkPipelineLayout ?
 g_graphics_pipeline VkPipeline ?
 g_command_pool VkCommandPool ?
+g_command_buffer VkCommandBuffer ?
+g_image_available_semaphore VkSemaphore ?
+g_render_finished_semaphore VkSemaphore ?
+g_in_flight_fence VkFence ?
+g_graphics_queue VkQueue ?
+g_present_queue VkQueue ?
 
 ; array
 align 8
@@ -288,6 +300,23 @@ vkCreatePipelineLayout qword ?
 vkCreateGraphicsPipelines qword ?
 vkCreateFramebuffer qword ?
 vkCreateCommandPool  qword ?
+vkAllocateCommandBuffers qword ?
+vkCreateSemaphore qword ?
+vkCreateFence qword ?
+vkBeginCommandBuffer qword ?
+vkCmdBeginRenderPass qword ?
+vkCmdBindPipeline qword ?
+vkCmdSetViewport qword ?
+vkCmdSetScissor qword ?
+vkCmdDraw qword ?
+vkCmdEndRenderPass qword ?
+vkEndCommandBuffer qword ?
+vkWaitForFences qword ?
+vkResetFences qword ?
+vkAcquireNextImageKHR qword ?
+vkResetCommandBuffer qword ?
+vkQueueSubmit qword ?
+vkQueuePresentKHR qword ?
 
 ; load from api
 vkGetInstanceProcAddr qword ?
@@ -394,6 +423,75 @@ VulkanLoad proc
     AssertNotEq rax, 0
     mov vkCreateCommandPool, rax
 
+    invoke GetProcAddress, vulkan_module, "vkAllocateCommandBuffers"
+    AssertNotEq rax, 0
+    mov vkAllocateCommandBuffers, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateSemaphore"
+    AssertNotEq rax, 0
+    mov vkCreateSemaphore, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateFence"
+    AssertNotEq rax, 0
+    mov vkCreateFence, rax
+
+    invoke GetProcAddress, vulkan_module, "vkBeginCommandBuffer"
+    AssertNotEq rax, 0
+    mov vkBeginCommandBuffer, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCmdBeginRenderPass"
+    AssertNotEq rax, 0
+    mov vkCmdBeginRenderPass, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCmdBindPipeline"
+    AssertNotEq rax, 0
+    mov vkCmdBindPipeline, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCmdSetViewport"
+    AssertNotEq rax, 0
+    mov vkCmdSetViewport, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCmdSetScissor"
+    AssertNotEq rax, 0
+    mov vkCmdSetScissor, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCmdDraw"
+    AssertNotEq rax, 0
+    mov vkCmdDraw, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCmdEndRenderPass"
+    AssertNotEq rax, 0
+    mov vkCmdEndRenderPass, rax
+
+    invoke GetProcAddress, vulkan_module, "vkEndCommandBuffer"
+    AssertNotEq rax, 0
+    mov vkEndCommandBuffer, rax
+
+    invoke GetProcAddress, vulkan_module, "vkWaitForFences"
+    AssertNotEq rax, 0
+    mov vkWaitForFences, rax
+
+    invoke GetProcAddress, vulkan_module, "vkResetFences"
+    AssertNotEq rax, 0
+    mov vkResetFences, rax
+
+    invoke GetProcAddress, vulkan_module, "vkAcquireNextImageKHR"
+    AssertNotEq rax, 0
+    mov vkAcquireNextImageKHR, rax
+
+    invoke GetProcAddress, vulkan_module, "vkResetCommandBuffer"
+    AssertNotEq rax, 0
+    mov vkResetCommandBuffer, rax
+
+    invoke GetProcAddress, vulkan_module, "vkQueueSubmit"
+    AssertNotEq rax, 0
+    mov vkQueueSubmit, rax
+
+    invoke GetProcAddress, vulkan_module, "vkQueuePresentKHR"
+    AssertNotEq rax, 0
+    mov vkQueuePresentKHR, rax
+
+
     ret
 VulkanLoad endp
 
@@ -473,6 +571,7 @@ MessageLoopProcess proc
   mloop:
     invoke TranslateMessage,pmsg
     invoke DispatchMessage,pmsg
+    call DrawFrame_Execute
   gmsg:
     test rax, rv(GetMessage,pmsg,0,0,0)     ; loop until GetMessage returns zero
     jnz mloop
@@ -1101,6 +1200,8 @@ main proc
     call SetupGraphicsPipeline_Execute
     call SetupFramebuffers_Execute
     call SetupCommandPool_Execute
+    call SetupCommandBuffer_Execute
+    call SetupSyncObjects_Execute
 
     call MessageLoopProcess
 
