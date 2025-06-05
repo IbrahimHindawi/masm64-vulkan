@@ -61,6 +61,9 @@ SetupLogicalDevice_Execute proc
     mov rax, g_physical_device
     invoke vkCreateDevice, rax, ADDR SetupLogicalDevice_create_info, 0, ADDR g_logical_device
 
+    invoke vkGetDeviceQueue, qword ptr g_logical_device, SetupLogicalDevice_indices.graphicsFamily, 0, ADDR qword ptr g_graphics_queue
+    invoke vkGetDeviceQueue, qword ptr g_logical_device, SetupLogicalDevice_indices.presentFamily, 0, ADDR qword ptr g_present_queue
+
     ;---
     procEpilogue
     ret

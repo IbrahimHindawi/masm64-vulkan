@@ -96,7 +96,7 @@ recordCommandBuffer proc
     mov DrawFrame_viewport.x, eax
     mov DrawFrame_viewport.y, eax
     mov DrawFrame_viewport.minDepth, eax
-    mov DrawFrame_viewport.maxDepth, eax
+    mov DrawFrame_viewport.maxDepth, 03f800000h
 
     mov eax, g_swapchain_extent._width
     cvtsi2ss xmm0, eax
@@ -129,8 +129,6 @@ DrawFrame_Execute proc
     invoke vkResetFences, qword ptr g_logical_device, 1, ADDR qword ptr g_in_flight_fence
     invoke vkAcquireNextImageKHR, qword ptr g_logical_device, qword ptr g_swapchain, intmax, qword ptr g_image_available_semaphore, 0, ADDR DrawFrame_image_index
     invoke vkResetCommandBuffer, qword ptr g_command_buffer, 0
-    invoke recordCommandBuffer, qword ptr g_command_buffer, DrawFrame_image_index
-
     invoke recordCommandBuffer, qword ptr g_command_buffer, DrawFrame_image_index
 
     mov DrawFrame_submit_info._sType, VK_STRUCTURE_TYPE_SUBMIT_INFO
@@ -170,9 +168,10 @@ DrawFrame_Execute proc
     mov rax, DrawFrame_signal_semaphores
     mov DrawFrame_present_info.pWaitSemaphores, rax
 
-    mov rax, qword ptr g_swapchain
     mov DrawFrame_present_info.swapchainCount, 1
 
+    mov rax, qword ptr g_swapchain
+    mov DrawFrame_swapchain, rax
     mov rax, DrawFrame_swapchains
     mov DrawFrame_present_info.pSwapchains, rax
 

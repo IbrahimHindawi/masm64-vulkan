@@ -317,7 +317,7 @@ vkAcquireNextImageKHR qword ?
 vkResetCommandBuffer qword ?
 vkQueueSubmit qword ?
 vkQueuePresentKHR qword ?
-
+vkGetDeviceQueue qword ?
 ; load from api
 vkGetInstanceProcAddr qword ?
 vkCreateDebugReportCallbackEXT qword ?
@@ -491,6 +491,9 @@ VulkanLoad proc
     AssertNotEq rax, 0
     mov vkQueuePresentKHR, rax
 
+    invoke  GetProcAddress, vulkan_module, "vkGetDeviceQueue"
+    AssertNotEq rax, 0
+    mov vkGetDeviceQueue, rax
 
     ret
 VulkanLoad endp
