@@ -61,6 +61,10 @@ align 16
 include ModuleSetupRenderPass.asm
 align 16
 include ModuleSetupGraphicsPipeline.asm
+align 16
+include ModuleSetupFramebuffers.asm
+align 16
+include ModuleSetupCommandPool.asm
 
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ;macros
@@ -231,6 +235,12 @@ g_swapchain VkSwapchainKHR ?
 g_render_pass VkRenderPass ?
 g_pipeline_layout VkPipelineLayout ?
 g_graphics_pipeline VkPipeline ?
+g_command_pool VkCommandPool ?
+
+; array
+align 8
+g_swapchain_framebuffers qword ?
+g_swapchain_framebuffers_count  dword ?
 
 ; array
 align 8
@@ -276,6 +286,8 @@ vkCreateRenderPass qword ?
 vkCreateShaderModule qword ?
 vkCreatePipelineLayout qword ?
 vkCreateGraphicsPipelines qword ?
+vkCreateFramebuffer qword ?
+vkCreateCommandPool  qword ?
 
 ; load from api
 vkGetInstanceProcAddr qword ?
@@ -373,6 +385,14 @@ VulkanLoad proc
     invoke GetProcAddress, vulkan_module, "vkCreateGraphicsPipelines"
     AssertNotEq rax, 0
     mov vkCreateGraphicsPipelines, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateFramebuffer"
+    AssertNotEq rax, 0
+    mov vkCreateFramebuffer, rax
+
+    invoke GetProcAddress, vulkan_module, "vkCreateCommandPool"
+    AssertNotEq rax, 0
+    mov vkCreateCommandPool, rax
 
     ret
 VulkanLoad endp
@@ -616,7 +636,7 @@ VulkanDebugReportCallback proc
 VulkanDebugReportCallback endp
 
 align 16
-findQueueFamilies proc
+findQueueFamilies proc; rcx:qword:physical_device, rdx:qword:&indices-> rax
     push rbp
     mov rbp, rsp
     sub rsp, 32
@@ -1079,6 +1099,8 @@ main proc
     call SetupImageViews_Execute
     call SetupRenderPass_Execute
     call SetupGraphicsPipeline_Execute
+    call SetupFramebuffers_Execute
+    call SetupCommandPool_Execute
 
     call MessageLoopProcess
 

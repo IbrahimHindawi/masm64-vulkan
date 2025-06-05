@@ -29,6 +29,10 @@ SetupImageViews_Execute proc
     mov g_swapchain_image_views, rax
 
     xor rbx, rbx
+    mov ebx, g_swapchain_images_count
+    mov g_swapchain_image_views_count, ebx
+
+    xor rbx, rbx
     mov rsi, g_swapchain_image_views
     mov rdi, g_swapchain_images
     mov r12d, g_swapchain_image_format
