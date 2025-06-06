@@ -1,5 +1,15 @@
 ![VULKASM](https://github.com/IbrahimHindawi/masm64-vulkan/blob/main/vulkasm.png)
 # vulkasm  
+## Table of Contents:
+- [Synopsis](https://github.com/IbrahimHindawi/vulkasm#synopsis)
+- [Dependencies](https://github.com/IbrahimHindawi/vulkasm#dependencies)
+- [APIs](https://github.com/IbrahimHindawi/vulkasm#apis)
+- [Build](https://github.com/IbrahimHindawi/vulkasm#build)
+- [Features](https://github.com/IbrahimHindawi/vulkasm#features)
+- [Description](https://github.com/IbrahimHindawi/vulkasm#description)
+- [Todo](https://github.com/IbrahimHindawi/vulkasm#todo)
+- [Miscellaneous](https://github.com/IbrahimHindawi/vulkasm#miscellaneous)
+- [CheatSheet](https://github.com/IbrahimHindawi/vulkasm#cheatsheet)
 ## Synopsis:
 Pure x64 Microsoft Macro Assembler & Vulkan Game Engine to explore Assembly Programming.
 ## Dependencies:
@@ -52,7 +62,7 @@ I went ahead and made a Unity/Jumbo build:
 - [ ] Play with SIMD and game logic
 ##  Miscellaneous:
 You can regenerate the vulkan headers using python + libclang by invoking the ugly `vulkan_gen.bat` file from the `tools` directory. The generated headers are almost perfect except for a few bugs which I fixed manually. Will fully automate the process.
-## x86-64 Registers Cheat Sheet:
+## CheatSheet:
 ### Registers:
 | 64  | 32   | 16    | 8      | name            |
 |-----|------|-------|--------|-----------------|
@@ -72,7 +82,7 @@ You can regenerate the vulkan headers using python + libclang by invoking the ug
 | r13 | r13d | r13w  | r13b   | general_purpose |
 | r14 | r14d | r14w  | r14b   | general_purpose |
 | r15 | r15d | r15w  | r15b   | general_purpose |
-### ✅  Volatile vs Non-Volatile
+### Volatile vs Non-Volatile
 | Type         | Registers                                          | Responsibility               |
 | ------------ | ---------------------------------------------------| ---------------------------- |
 | Volatile     | rax, rcx, rdx, r8,  r9,  r10, r11, rsp, xmm0–xmm5  | **Caller** must save         |
