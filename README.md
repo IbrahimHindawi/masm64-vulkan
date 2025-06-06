@@ -76,4 +76,8 @@ You can regenerate the vulkan headers using python + libclang by invoking the ug
 | ------------ | ---------------------------------------------------| ---------------------------- |
 | Volatile     | rax, rcx, rdx, r8,  r9,  r10, r11, rsp, xmm0–xmm5  | **Caller** must save         |
 | Non-Volatile | rbx, rbp, rsi, rdi, r12, r13, r14, r15, xmm6–xmm15 | **Callee** must save/restore |
-
+### Learning Resources:
+If you are new to x86-64 Assembly I suggest:
+- [masm64-init](https://github.com/IbrahimHindawi/masm64-init)
+- [The Art of 64-Bit Assembly, Volume 1: x86-64 Machine Organization and Programming](https://nostarch.com/art-64-bit-assembly-volume-1)
+- [Assembly x64 Programming in easy steps](https://ineasysteps.com/products-page/assembly-x64-programming-in-easy-steps/)
