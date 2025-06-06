@@ -125,8 +125,8 @@ outputmessage byte 'MASM64Vulkan'
 outputmessagelength equ $ - outputmessage
 
 window_class_name byte "MASM64HandmadeWindowClass", 0
-window_title byte "MASM64Handmade", 0
-application_name byte "MASM64Vulkan", 0
+window_title byte "vulkasm", 0
+application_name byte "vulkasm", 0
 
 VK_MAKE_API_VERSION application_api_version, 0, 1, 1, 0
 
@@ -1038,7 +1038,7 @@ main proc
     invoke RegisterClassEx, ADDR window_class
     AssertNotEq rax, 0
 
-    invoke CreateWindowEx, 0, ADDR window_class_name, ADDR window_title, WS_OVERLAPPEDWINDOW or WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, 0, 0, window_instance, 0
+    invoke CreateWindowEx, 0, ADDR window_class_name, ADDR window_title, WS_OVERLAPPEDWINDOW or WS_VISIBLE, CW_USEDEFAULT, CW_USEDEFAULT, 800, 640, 0, 0, window_instance, 0
     AssertNotEq rax, 0
     mov window_handle, rax
 
