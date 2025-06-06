@@ -1,15 +1,26 @@
 ![VULKASM](https://github.com/IbrahimHindawi/masm64-vulkan/blob/main/vulkasm.png)
 # vulkasm  
-## Table of Contents:
-- [Synopsis](https://github.com/IbrahimHindawi/vulkasm#synopsis)
-- [Dependencies](https://github.com/IbrahimHindawi/vulkasm#dependencies)
-- [APIs](https://github.com/IbrahimHindawi/vulkasm#apis)
-- [Build](https://github.com/IbrahimHindawi/vulkasm#build)
-- [Features](https://github.com/IbrahimHindawi/vulkasm#features)
-- [Description](https://github.com/IbrahimHindawi/vulkasm#description)
-- [Todo](https://github.com/IbrahimHindawi/vulkasm#todo)
-- [Miscellaneous](https://github.com/IbrahimHindawi/vulkasm#miscellaneous)
-- [CheatSheet](https://github.com/IbrahimHindawi/vulkasm#cheatsheet)
+## Table of Contents
+- [vulkasm](#vulkasm)
+  * [Synopsis:](#synopsis-)
+  * [Dependencies:](#dependencies-)
+  * [APIs:](#apis-)
+  * [Build:](#build-)
+  * [Features:](#features-)
+  * [Description:](#description-)
+    + [Libraries:](#libraries-)
+    + [MASM64 SDK:](#masm64-sdk-)
+    + [Vulkan:](#vulkan-)
+    + [Code Style:](#code-style-)
+      - [Build Style:](#build-style-)
+      - [Calling Convention:](#calling-convention-)
+      - [Modular Assembler Style:](#modular-assembler-style-)
+  * [Todo:](#todo-)
+  * [Miscellaneous:](#miscellaneous-)
+  * [CheatSheet:](#cheatsheet-)
+    + [Registers:](#registers-)
+    + [Volatile vs Non-Volatile](#volatile-vs-non-volatile)
+    + [Learning Resources:](#learning-resources-)
 ## Synopsis:
 Pure x64 Microsoft Macro Assembler & Vulkan Game Engine to explore Assembly Programming.
 ## Dependencies:
