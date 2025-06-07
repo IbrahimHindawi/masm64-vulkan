@@ -68,9 +68,9 @@ I went ahead and made a Unity/Jumbo build:
 - Look at `ModuleTemplate.asm`
 ## Todo:
 - [x] Get the Vulkan triangle
-- [ ] Fix `saha.asm` arena macro
-- [ ] Create modules for the rest of the vulkan code
+- [x] Fix `saha.asm` arena macro
 - [ ] Create an arena allocator for permanent storage
+- [ ] Create modules for the rest of the vulkan code
 - [ ] Clean up `vulkan-extractor.py`
 - [ ] Play with SIMD and game logic
 ##  Miscellaneous:

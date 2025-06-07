@@ -187,12 +187,28 @@ arenaPushArray macro __arena:req, __type:req, __count:req, __align:req
 endm
 
 ; TODO(ibrahim): automate alignof()?
+; __arena is ADDR arena, reference to the arena
+; __type is the type of data to allocate
+; __count is always passed into rax, eax, ax, al
+; __align is the data structure memory alignment
 arenaPushArrayZero macro __arena:req, __type:req, __count:req, __align:req
     ; rcx = &__arena
     ; rdx = sizeof(__type)
     ; rax = __count
     ; r8 = __align
     mov rdx, sizeof __type
+    ;---
+    ; handle rax zero extension:
+    ;---
+    ; if type __count eq type qword; this is not needed since rax is ready
+        ; mov rax, rax
+    ; if type __count eq type dword; this is not needed since eax is already zero extended
+        ; mov eax, eax
+    if type __count eq type word
+        movzx rax, ax
+    elseif type __count eq type byte
+        movzx rax, al
+    endif
     ; rax = __type * __count
     mul rdx
     invoke arenaPushZero, __arena, rax, __align

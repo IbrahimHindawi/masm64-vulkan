@@ -650,6 +650,12 @@ arenaTest proc
         jl loop_arr_00003
     invoke arenaSetPos, ADDR arena, pos
 
+    mov rax, 0DEADBEEFCAFEBABEh
+    mov al, 10
+    arenaPushArrayZero ADDR arena, VkImage, al, 8
+    ; do work
+    invoke arenaSetPos, ADDR arena, pos
+
     ;;;; ; arenaPushArray ADDR arena, qword, 1000h, 8
     ;;;; invoke arenaPush, ADDR arena, sizeof qword * 1000h, 8
     ;;;; mov rsi, rax
