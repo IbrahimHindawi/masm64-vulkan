@@ -186,13 +186,14 @@ arenaPushArray macro __arena:req, __type:req, __count:req, __align:req
     invoke arenaPush, __arena, rax, __align
 endm
 
+; TODO(ibrahim): automate alignof()?
 arenaPushArrayZero macro __arena:req, __type:req, __count:req, __align:req
-    ; lea rcx, __arena
-    ; rdx = __type * __count
-    ; r8 = alignof __type
+    ; rcx = &__arena
+    ; rdx = sizeof(__type)
+    ; rax = __count
+    ; r8 = __align
     mov rdx, sizeof __type
-    mov rax, __count
+    ; rax = __type * __count
     mul rdx
-    ; automate alignof
     invoke arenaPushZero, __arena, rax, __align
 endm

@@ -204,13 +204,10 @@ SetupSwapchain_Execute proc
 
     arenaGetPos arena, pos
 
-    xor rax, rax
-    xor rdx, rdx
-    mov edx, sizeof VkImage
     mov eax, SetupSwapchain_image_count
-    mul edx
-    invoke arenaPushZero, ADDR arena, rax, 4
+    arenaPushArrayZero ADDR arena, VkImage, rax, 4
     AssertNotEq rax, 0
+
     mov g_swapchain_images, rax
 
     invoke vkGetSwapchainImagesKHR, qword ptr g_logical_device, qword ptr g_swapchain, ADDR SetupSwapchain_image_count, qword ptr g_swapchain_images

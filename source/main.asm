@@ -163,6 +163,15 @@ application_info VkApplicationInfo <>
 align 16
 instance_info VkInstanceCreateInfo <>
 
+align 8
+peony_count qword ?
+align 4
+orchid_count dword ?
+align 2
+rose_count word ?
+align 1
+tulip_count byte ?
+
 ; validation layers
 ;---------------------------------------------------------------------------------------------------
 vk_khr_swapchain_extension_name byte "VK_KHR_swapchain", 0
@@ -170,8 +179,10 @@ device_extensions qword offset vk_khr_swapchain_extension_name
 
 layer_string_0 byte "VK_LAYER_KHRONOS_validation", 0
 layers qword offset layer_string_0
+
+; array
 layers_available qword ?
-layers_count qword ?
+layers_count dword ?
 
 extension_string_0 byte "VK_KHR_surface", 0
 extension_string_1 byte "VK_KHR_win32_surface", 0
@@ -1048,9 +1059,11 @@ main proc
     ;---------------------------------------------------------------------------------------------------
     invoke vkEnumerateInstanceLayerProperties, ADDR layers_count, 0
     AssertEq rax, VK_SUCCESS
-    arenaPushArrayZero ADDR arena, VkLayerProperties, layers_count, 4
-    ; invoke arenaPushZero, ADDR arena, rax, 4
+
+    mov eax, layers_count
+    arenaPushArrayZero ADDR arena, VkLayerProperties, eax, 4
     AssertNotEq rax, 0
+
     mov layers_available, rax
     invoke vkEnumerateInstanceLayerProperties, ADDR layers_count, rax
 
@@ -1074,7 +1087,7 @@ main proc
 
         add rsi, r8
         inc rcx
-        cmp rcx, layers_count
+        cmp ecx, layers_count
         jl loop_validation_layer_find_00000000
     invoke arenaSetPos, ADDR arena, pos
 

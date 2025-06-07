@@ -18,13 +18,8 @@ SetupImageViews_Execute proc
     ;---
     arenaGetPos arena, pos
 
-    ; you need to make a macro for this already dude =}
-    xor rax, rax
-    xor rdx, rdx
-    mov edx, sizeof VkImageView
     mov eax, g_swapchain_images_count
-    mul edx
-    invoke arenaPushZero, ADDR arena, rax, 8
+    arenaPushArrayZero ADDR arena, VkImageView, eax, 8
     AssertNotEq rax, 0
     mov g_swapchain_image_views, rax
 

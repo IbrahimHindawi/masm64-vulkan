@@ -7,6 +7,7 @@ SetupFramebuffersModuleHeaderGuard = 0
 ;---------------------------------------------------------------------------------------------------
 .data
 ;---------------------------------------------------------------------------------------------------
+; extern g_swapchain_image_views_count:dword
 SetupFramebuffers_framebuffer_info VkFramebufferCreateInfo <>
 
 ;---------------------------------------------------------------------------------------------------
@@ -16,13 +17,8 @@ align 16
 SetupFramebuffers_Execute proc
     procPrologue
     ;---
-
-    ; arenaPushArrayZero ADDR arena, qword, g_swapchain_image_views_count, 8
-    xor rax, rax
-    mov rdx, sizeof VkFramebuffer
     mov eax, g_swapchain_image_views_count
-    mul rdx
-    invoke arenaPushZero, ADDR arena, rax, 8
+    arenaPushArrayZero ADDR arena, VkFramebuffer, eax, 8
     AssertNotEq rax, 0
     mov g_swapchain_framebuffers, rax
 

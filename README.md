@@ -54,11 +54,13 @@ I went ahead and made a Unity/Jumbo build:
 - Modules have header guards
 - Modules are used to fake private but everything is global
 - Variables/Functions dumped in main are intended to be specifically global
+---
 #### Calling Convention:
 - The MASM64 SDK comes with an `invoke` macro that automates the Windows x64 calling convention
 - Example: `void  Proc(&handle, count, NULL);` -> `invoke Proc, ADDR handle, count, 0`  
 - In case of stack usage, stack MUST be aligned to `0x10` or 16 so make sure `RSP` ends with a `0` before calling a Windows or Vulkan function.
 - I noticed that the `invoke` macro doesn't take care of the shadow space allocation so you have to `sub rsp, 32` then `add rsp, 32` before a function call or else crash. This is especially true if you have to call some Windows/Vulkan function multiple times in a row such as printing otherwise its fine.
+---
 #### Modular Assembler Style:
 - I divided each vulkan step into its own module with each module having its own variables as I did not do any stack allocation.
 - Modules look like this: `ModuleDrawFrame.asm` and inside `DrawFrame_render_info` for vars and `DrawFrame_Execute` for procs.
