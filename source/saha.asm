@@ -84,6 +84,12 @@ arenaInit endp
 align 16
 arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
     local arenaref:qword, alloc_sizevar:qword, old_alloc_sizevar:qword, diff:qword, curr_ptr:qword, m_offset:qword
+    ; rbx: arenaref
+    ; rsi: alloc_sizevar
+    ; rdi: old_alloc_sizevar
+    ; r12: diff
+    ; r13: curr_ptr
+    ; r14: offset
     mov arenaref, rcx
     mov old_alloc_sizevar, rdx
     mov alloc_sizevar, rdx
@@ -197,7 +203,6 @@ arenaPushArrayZero macro __arena:req, __type:req, __count:req, __align:req
     ; rax = __count
     ; r8 = __align
     mov rdx, sizeof __type
-    ;---
     ; handle rax zero extension:
     ;---
     ; if type __count eq type qword; this is not needed since rax is ready

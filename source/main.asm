@@ -87,27 +87,21 @@ endm
 ExtensionValidationCheck macro i:req
     ; local loop_extension_validation_layer_find, extension_validation_label_not_found
     mov rsi, extensions_available
-    xor rcx, rcx
-    mov r8, sizeof VkExtensionProperties
-    mov r9, extension_string_array + 8 * i
+    xor r12, r12
+    mov r13, sizeof VkExtensionProperties
+    mov rdi, extension_string_array + 8 * i
     loop_extension_validation_layer_find_&i&:
-        push rcx
-        push rdx
-        push r8
         lea rcx, [rsi.VkExtensionProperties.extensionName]
-        mov rdx, r9
+        mov rdx, rdi
         call strcmp64
         cmp rax, 0
         jne extension_validation_label_not_found_&i&
         add found_extensions, 1
-        lea r9, extension_string_array + 8 * i
+        lea rdi, extension_string_array + 8 * i
         extension_validation_label_not_found_&i&:
-        pop r8
-        pop rdx
-        pop rcx
-        add rsi, r8
-        inc rcx
-        cmp rcx, extension_count
+        add rsi, r13
+        inc r12
+        cmp r12, extension_count
         jl loop_extension_validation_layer_find_&i&
 endm
 ;--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -841,7 +835,8 @@ checkDeviceExtensionSupport proc
     sub rsp, 32
     SaveRegisters
 
-    mov rbx, rcx
+    mov rcx, g_physical_device
+    ; mov rbx, rcx
     invoke vkEnumerateDeviceExtensionProperties, rcx, 0, ADDR device_extension_count, 0
 
     mov rax, arena.Arena.cursor
@@ -856,7 +851,8 @@ checkDeviceExtensionSupport proc
     mov device_available_extensions, rax
     ; mov pos, rax
 
-    mov rcx, rbx
+    ; mov rcx, rbx
+    mov rcx, g_physical_device
     invoke vkEnumerateDeviceExtensionProperties, rcx, 0, ADDR device_extension_count, device_available_extensions
     AssertEq rax, VK_SUCCESS
 
@@ -967,16 +963,19 @@ isDeviceSuitable proc; rcx: physical_device
     cmp esi, VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
     jne device_is_suitable_false
 
+    mov rcx, g_physical_device
     invoke findQueueFamilies, rcx, ADDR indices
     mov device_queue_families_has_value, al
 
+    mov rcx, g_physical_device
     invoke checkDeviceExtensionSupport, rcx
     mov device_extensions_supported, al
 
-    mov rbx, rcx
+    mov rbx, g_physical_device
     cmp device_extensions_supported, 0
     je device_extensions_supported_false
         ; mov rcx, device
+        mov rcx, g_physical_device
         call querySwapchainSupport
 
         mov eax, device_swapchain_support.SwapchainSupportDetails.formats_count
@@ -1074,26 +1073,22 @@ main proc
     invoke vkEnumerateInstanceLayerProperties, ADDR layers_count, rax
 
     mov rsi, layers_available
-    xor rcx, rcx
-    mov r8, sizeof VkLayerProperties
-    lea r9, layer_string_0
+    lea rdi, layer_string_0
+    xor r13, r13
+    mov r12, sizeof VkLayerProperties
     loop_validation_layer_find_00000000:
-        push rcx
-        push rdx
         lea rcx, [rsi.VkLayerProperties.layerName]
-        mov rdx, r9
+        mov rdx, rdi
         call strcmp64
         cmp rax, 0
         jne validation_label_not_found 
         mov found_validation, 1
-        lea r9, layer_string_0
+        lea rdi, layer_string_0
         validation_label_not_found:
-        pop rdx
-        pop rcx
 
-        add rsi, r8
-        inc rcx
-        cmp ecx, layers_count
+        add rsi, r12
+        inc r13
+        cmp r13d, layers_count
         jl loop_validation_layer_find_00000000
     invoke arenaSetPos, ADDR arena, pos
 
