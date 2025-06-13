@@ -24,6 +24,13 @@ systeminfo SYSTEM_INFO <>
 align 16
 arena Arena <>
 
+align 8
+arenaref qword ? 
+alloc_sizevar qword ? 
+old_alloc_sizevar qword ? 
+diff qword ? 
+curr_ptr qword ? 
+m_offset qword ?
 
 mem_p qword ?
 mem_a qword ?
@@ -83,7 +90,7 @@ arenaInit endp
 
 align 16
 arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
-    local arenaref:qword, alloc_sizevar:qword, old_alloc_sizevar:qword, diff:qword, curr_ptr:qword, m_offset:qword
+    ; local arenaref:qword, alloc_sizevar:qword, old_alloc_sizevar:qword, diff:qword, curr_ptr:qword, m_offset:qword
     ; rbx: arenaref
     ; rsi: alloc_sizevar
     ; rdi: old_alloc_sizevar
@@ -154,7 +161,7 @@ arenaPush proc arena_ref:qword, alloc_size:qword, alignment:qword
 arenaPush endp
 
 align 16
-arenaPushZero proc arenaref:qword, alloc_size:qword, alignment:qword
+arenaPushZero proc ; arenaref:qword, alloc_size:qword, alignment:qword
     call arenaPush
     xchg rdx, rcx
     xor rcx, rcx
@@ -167,7 +174,7 @@ arenaPushZero proc arenaref:qword, alloc_size:qword, alignment:qword
 arenaPushZero endp
 
 align 16
-arenaSetPos proc arenaref:qword, pos:qword
+arenaSetPos proc ; arenaref:qword, pos:qword
     mov rax, [rcx].Arena.cursor
     sub rax, rdx
     sub [rcx].Arena.used, rax
